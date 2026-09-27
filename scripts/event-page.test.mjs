@@ -6,7 +6,8 @@
 // price-notes.test.mjs and event-lifecycle.test.mjs) and checks: routing (200,
 // 301 for an out-of-date slug or a past event, 404 for anything that does not
 // resolve to exactly one genuine performance), noindex and self-canonical on
-// every page, venue-local dates, lifecycle holds, and — the parity guarantee —
+// every page, venue-local dates, lifecycle holds, the page's one MusicEvent
+// node (never an offer), and — the parity guarantee —
 // that the event page's buttons and prices are the parent show card's, never a
 // second interpretation of them.
 //
@@ -212,6 +213,8 @@ const description = (html) => meta(html, /<meta name="description" content="([^"
 const h1 = (html) => meta(html, /<h1[^>]*>([^<]*)<\/h1>/).replace(/&amp;/g, "&");
 const text = (html) => String(html).replace(/<[^>]+>/g, " ").replace(/&#39;/g, "'").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim();
 const mainOf = (html) => html.slice(html.indexOf("<main"), html.indexOf("</main>"));
+const graphOf = (html) => JSON.parse(meta(html, /<script type="application\/ld\+json">([\s\S]*?)<\/script>/) || "{}")["@graph"] || [];
+const musicEventOf = (html) => graphOf(html).filter((node) => node?.["@type"] === "MusicEvent");
 function card(html, eventId) {
   const at = html.indexOf(`data-event-id="${eventId}"`);
   if (at < 0) return "";
@@ -269,10 +272,21 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   assert(page.html.includes(`href="${ARTIST_CITY}"`) && page.html.includes(`href="/artists/${ARTIST.slug}"`), "the page links back to the artist-city and artist pages");
   assert(!/href="\/events\//.test(mainOf(page.html)), "the page links to no other event page");
 
-  // Structured data: the site graph and a breadcrumb only.
-  const graph = JSON.parse(meta(page.html, /<script type="application\/ld\+json">([\s\S]*?)<\/script>/))["@graph"] || [];
-  assert(!graph.some((node) => node?.["@type"] === "MusicEvent" || node?.["@type"] === "Offer"), "no MusicEvent or Offer structured data on an event page");
-  assert(graph.some((node) => node?.["@type"] === "BreadcrumbList"), "the visible breadcrumb is mirrored");
+  // Structured data: the site graph, the breadcrumb, and one MusicEvent for
+  // this performance, identified by this page — with no offer, although the
+  // page prints approved prices and SCHEMA_OFFERS_ENABLED is on.
+  // scripts/validate-route-schema.mjs checks every property against the page.
+  const graph = graphOf(page.html);
+  const nodes = graph.filter((node) => node?.["@type"] === "MusicEvent");
+  assert(nodes.length === 1, `one MusicEvent on an event page (got ${nodes.length})`);
+  const [node] = nodes;
+  assert(node["@id"] === `${ORIGIN}${pathOf(PRICED)}#event` && node.url === `${ORIGIN}${pathOf(PRICED)}`, "the node is identified by the canonical event URL");
+  assert(node.startDate === "2026-09-10T20:00:00-05:00", `startDate is the venue-local time the page states (got ${node.startDate})`);
+  assert(node.eventStatus === "https://schema.org/EventScheduled", "a scheduled date is EventScheduled");
+  assert(node.performer?.["@id"] === `${ORIGIN}/artists/${ARTIST.slug}#artist`, "the performer is the artist page's own entity");
+  assert(node.name === `${ARTIST.name} at Fixture Arena` && node.location?.name === "Fixture Arena" && node.location?.address?.addressLocality === "Springfield", "name and location are the visible venue and city");
+  assert(!("offers" in node) && !graph.some((entry) => entry?.["@type"] === "Offer") && !/price|availability/i.test(JSON.stringify(node)), "no Offer, price or availability in the event page's structured data");
+  assert(graph.some((entry) => entry?.["@type"] === "BreadcrumbList"), "the visible breadcrumb is mirrored");
 
   // Stale snapshot: invisible on both surfaces.
   const stale = await render(pathOf(STALE));
@@ -293,10 +307,15 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   const rescheduledPage = await render(pathOf(RESCHEDULED));
   assert(rescheduledPage.status === 200 && outLinks(rescheduledPage.html, RESCHEDULED.id) > 0, "a rescheduled date keeps its page and buttons");
   assert(/Rescheduled, per Ticketmaster/.test(text(rescheduledPage.html)) && /Rescheduled: this is the date Ticketmaster now lists/.test(text(rescheduledPage.html)), "a rescheduled date says so");
+  const [rescheduledNode] = musicEventOf(rescheduledPage.html);
+  assert(rescheduledNode?.eventStatus === "https://schema.org/EventRescheduled" && !("previousStartDate" in rescheduledNode), "a rescheduled date is EventRescheduled, with no invented previousStartDate");
   const newDate = { ...RESCHEDULED, datetime_iso: "2026-10-02T01:00:00Z" };
   const redated = EVENTS.map((event) => (event.id === RESCHEDULED.id ? newDate : event));
   const redirected = await render(pathOf(RESCHEDULED), redated);
   assert(redirected.status === 301 && redirected.location === pathOf(newDate) && pathOf(newDate).includes("-2026-10-01-"), "a moved date 301s to the path carrying the new local date");
+  assert(!/application\/ld\+json/.test(redirected.html), "the old path answers with no structured data");
+  const [movedNode] = musicEventOf((await render(pathOf(newDate), redated)).html);
+  assert(movedNode?.url === `${ORIGIN}${pathOf(newDate)}` && movedNode.startDate.startsWith("2026-10-01"), "the current path's node carries the new date and URL");
   assert(eventPages.eventKey(newDate.id) === eventPages.eventKey(RESCHEDULED.id), "the key survives the move");
 }
 
@@ -309,6 +328,13 @@ for (const event of HELD) {
   assert(outLinks(page.html, event.id) === 0 && !/\/api\/out/.test(mainOf(page.html)), `${event.id}: no ticket button`);
   assert(!/\$\d/.test(mainOf(page.html)) && !/price-history|eventPricesTitle|How this site makes money/.test(page.html), `${event.id}: no price, price history or buying disclosure`);
   assert(/Ticket status/.test(page.html) && !/ Tickets/.test(title(page.html)), `${event.id}: no ticket-buying framing in the heading or title (got ${title(page.html)})`);
+  // Structured data agrees with the hold: a factual cancelled or postponed
+  // node, never an unrecognised status, and never an offer, price or
+  // availability, although a fresh approved row exists and the flag is on.
+  const expected = { [CANCELLED.id]: "https://schema.org/EventCancelled", [POSTPONED.id]: "https://schema.org/EventPostponed" }[event.id];
+  const nodes = musicEventOf(page.html);
+  assert(expected ? nodes.length === 1 && nodes[0].eventStatus === expected : nodes.length === 0, `${event.id}: ${expected ? `one ${expected} node` : "no MusicEvent"} (got ${nodes.map((node) => node.eventStatus).join(", ") || "none"})`);
+  assert(!graphOf(page.html).some((node) => node?.["@type"] === "Offer") && !nodes.some((node) => "offers" in node || /price|availability/i.test(JSON.stringify(node))), `${event.id}: no Offer, price or availability in structured data`);
 }
 {
   const cancelled = await render(pathOf(CANCELLED));
@@ -331,6 +357,8 @@ for (const event of HELD) {
   assert(nowhere.status === 301 && nowhere.location === ARTIST_CITY, `a date with no ticket destination 301s to its artist-city page (got ${nowhere.status} ${nowhere.location})`);
   const pending = await render(pathOf(PENDING_BARE));
   assert(pending.status === 200 && /Public on-sale/.test(text(pending.html)) && outLinks(pending.html, PENDING_BARE.id) === 0, "a pre-on-sale date with no resale link states its on-sale time");
+  assert(musicEventOf(pending.html).length === 0, "a pre-on-sale date gets no MusicEvent, as on every parent board");
+  assert(!/application\/ld\+json/.test(upsell.html) || musicEventOf(upsell.html).length === 0, "a non-performance listing has no event structured data");
 }
 
 // ─── past events ────────────────────────────────────────────────────────────
@@ -354,6 +382,8 @@ for (const event of HELD) {
   const page = await render(p);
   assert(page.status === 200 && /Sun, Aug 30, 2026/.test(h1(page.html)) && !/Aug 29/.test(h1(page.html)), `the H1 carries the local date, not UTC (got ${h1(page.html)})`);
   assert(/Düsseldorf, Germany/.test(text(mainOf(page.html))) && /12:30 AM local time/.test(text(mainOf(page.html))), "the page keeps the real city name and local time");
+  const [node] = musicEventOf(page.html);
+  assert(node?.startDate === "2026-08-30T00:30:00+02:00" && node.location?.address?.addressLocality === "Düsseldorf" && node.location?.address?.addressCountry === "DE", `the node carries the local date, time and real city name (got ${node?.startDate})`);
 }
 
 // ─── resolution failures ────────────────────────────────────────────────────
@@ -467,7 +497,8 @@ const detailsLinkOf = (cardHtml) => cardHtml.match(/<a class="text-link show-det
     assert(target.status === 200 && robots(target.html) === "noindex,follow", `${link} serves 200 noindex,follow (got ${target.status})`);
   }
 
-  // Structured data does not point at event pages yet (the event-schema change is separate).
+  // Parent structured data does not point at event pages: their MusicEvent
+  // nodes keep their #show-<id> urls until the event-indexing rollout decides.
   for (const [parent, page] of pages) {
     const jsonLd = [...page.html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => m[1]).join("");
     assert(!jsonLd.includes("/events/"), `${parent}: no structured data references an event page`);

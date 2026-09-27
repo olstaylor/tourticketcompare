@@ -3,8 +3,11 @@
 // Regression tests for event lifecycle holds (`ticketmaster_status_code`).
 //
 // A cancelled or postponed show — or one carrying a status TTC does not
-// recognise — must not show a ticket button, a price, an on-sale listing or a
-// MusicEvent node anywhere, and /api/out must refuse to redirect for it. A
+// recognise — must not show a ticket button, a price or an on-sale listing
+// anywhere, nor a MusicEvent node on any parent board, and /api/out must
+// refuse to redirect for it. Its own event page describes it factually
+// (EventCancelled / EventPostponed; an unrecognised status gets no node) and
+// never with an offer. A
 // rescheduled show keeps its buttons and says it was rescheduled. A show with
 // no stored status behaves exactly as before. One stored value drives every
 // surface, through eventLifecycleHeld in functions/_route-indexability.js.
@@ -518,7 +521,17 @@ async function out(showId, provider) {
     const page = await render(eventPages.eventPath(event));
     assert(page.status === 200, `${event.id}: a held future event keeps its page (got ${page.status})`);
     assert(outLinksFor(page.html, event.id) === 0 && !/\$182|\$190|price-history/.test(page.html), `${event.id}: its event page shows no button, price or price history`);
+    const graph = jsonLd(page.html);
+    const nodes = graph.filter((node) => node?.["@type"] === "MusicEvent");
+    const expected = { [CANCELLED.id]: "https://schema.org/EventCancelled", [POSTPONED.id]: "https://schema.org/EventPostponed" }[event.id];
+    assert(expected ? nodes.length === 1 && nodes[0].eventStatus === expected : nodes.length === 0, `${event.id}: its event page's structured data states ${expected || "nothing"} (got ${nodes.map((node) => node.eventStatus).join(", ") || "none"})`);
+    assert(!graph.some((node) => node?.["@type"] === "Offer") && !nodes.some((node) => /offer|price|availability/i.test(JSON.stringify(node))), `${event.id}: no Offer, price or availability in its event page's structured data`);
   }
+  const [scheduledNode] = jsonLd(scheduled.html).filter((node) => node?.["@type"] === "MusicEvent");
+  assert(scheduledNode?.eventStatus === "https://schema.org/EventScheduled", "a scheduled event page states EventScheduled");
+  const rescheduled = await render(eventPages.eventPath(RESCHEDULED));
+  const [rescheduledNode] = jsonLd(rescheduled.html).filter((node) => node?.["@type"] === "MusicEvent");
+  assert(rescheduledNode?.eventStatus === "https://schema.org/EventRescheduled" && !("previousStartDate" in rescheduledNode), "a rescheduled event page states EventRescheduled with no previousStartDate");
 }
 
 console.log(`event-lifecycle: ${passed} checks passed`);

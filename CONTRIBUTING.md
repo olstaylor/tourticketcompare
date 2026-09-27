@@ -164,7 +164,7 @@ npm run validate:cta-provider-state           # CTA ↔ provider-state guard (re
                                               #   carrying a matching redirect-valid provider URL
 npm run validate:provider-allowlists          # provider host allowlists
 npm run providers:identities:validate         # data/provider-identities.json registry
-npm run schema:validate                       # route schema markup
+npm run schema:validate                       # route schema markup, including every served event page's MusicEvent
 npm run validate:internal-links               # read-only in-process crawl of every HTML route —
                                               #   fails on orphaned indexable pages, canonical drift,
                                               #   robots/indexability disagreement, duplicate

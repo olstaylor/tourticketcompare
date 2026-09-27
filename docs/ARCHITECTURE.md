@@ -132,7 +132,7 @@ Artist-city landing pages (`/artists/<artist>/tickets/<city>`) target local inte
 
 ## Event identity and event pages
 
-Individual event pages (`/events/<slug>-<key>`) are a **noindex leaf**: every one is `noindex,follow` with a self-referencing canonical, and none is in a sitemap or `llms.txt` or described by event structured data. `npm run test:event-pages` asserts all of that; `npm run test:event-page` covers the page itself and the parent links. The router serves them from `resolveEventRoute` in `functions/_event-pages.js`:
+Individual event pages (`/events/<slug>-<key>`) are a **noindex leaf**: every one is `noindex,follow` with a self-referencing canonical, and none is in a sitemap or `llms.txt`. Each carries one `MusicEvent` for the performance it shows (see **Event-page structured data** below). `npm run test:event-pages` asserts all of that; `npm run test:event-page` covers the page itself and the parent links. The router serves them from `resolveEventRoute` in `functions/_event-pages.js`:
 
 | Request | Response |
 |---|---|
@@ -151,6 +151,7 @@ Individual event pages (`/events/<slug>-<key>`) are a **noindex leaf**: every on
 - **The stable key** is the id's 64-bit FNV-1a hash as 16 hex digits: synchronous, dependency-free and identical in Node and Workers. Published FNV vectors and real ids are pinned in the test, so changing the function fails the build. Two records sharing an id, or two ids sharing a key, resolve to nothing, and `assertUniqueEventKeys` fails the test.
 - **The future path** is `/events/{artist}-{venue}-{city}-{venue-local date}-{key}`. Only the key identifies the event. The readable part is recomputed from the current record, so a venue rename, a city correction or a moved date changes the path but not the event it resolves to (`resolveEventPath` reports `isCanonical: false` with the current path). A path whose readable part does not start with the resolved event's own artist slug does not resolve.
 - **The date is the venue-local date** from the strict resolver in `functions/_event-local-date.js`. Slicing `datetime_iso` prints the UTC date, which is a day late for most evening shows in the Americas. An event whose local date cannot be resolved gets no path.
+- **Event-page structured data.** Each served page's graph is the site's Organization and WebSite, the `BreadcrumbList` of its visible trail (Home → Artists → artist → the artist-city page only where that page renders → the event), a reference node for the artist, and one `MusicEvent` (`eventPageSchema` in `functions/[[path]].js`): `@id` `<canonical event URL>#event`, `url` the canonical event URL, `name` "<artist> at <venue>" (the H1, never the provider listing title), `startDate` from the parent nodes' `venueLocalIso` — the venue-local time with its offset, or the venue-local date alone where the page prints no start time — `eventStatus`, `eventAttendanceMode`, `location` (venue, city, country only), `performer` a reference to the artist page's own `/artists/<slug>#artist` entity, and `image` the page's `og:image` (the shared brand card; event pages have no per-page card). `eventPageSchemaDecision` in `functions/_event-pages.js` decides whether there is a node: a scheduled or rescheduled date follows the parent boards' own gate (`eventStatusPublishable`, so a pre-on-sale date or a resale-only record has none); a cancelled or postponed date is described as `EventCancelled`/`EventPostponed` from its Ticketmaster record; any other stored status has none. The renderer also withholds it when the stored offset and zone disagree on the visible date. The node never carries `offers`, price or availability under any flag (the schema-offers exception covers the parent boards only), nor `previousStartDate`, `description`, `organizer` or `endDate`. Parent boards' `MusicEvent` nodes are unchanged and keep their `#show-<id>` urls; pointing them at event pages is left to the event-indexing rollout. `scripts/validate-route-schema.mjs` checks every served page's node against its rendered facts, and lifecycle, timing and commercial-safety fixtures.
 - `eventRouteState` separates "the event exists" from "it could structurally carry a route" (editorially indexable artist, upcoming, local date resolved, venue and city present, `eventPublishable`). `npm run report:event-routes` reports what the live router does with each upcoming event's canonical path (served, 301 or 404, by reason), plus the preview-only indexability signals and the non-performance listing classifier, which mirrors the new-show recogniser's markers. The preview signals feed no gate.
 
 ## Artist price-guide layer
@@ -197,8 +198,8 @@ and a guide all previewed identically. `scripts/build-og-cards.mjs` renders one
 writes `functions/_og-cards.generated.js`, which the router consults in
 `injectRoute`. A route with no manifest entry falls back to the shared card.
 The router's `ogCardUrl` is the single resolver: the `og:image`/`twitter:image`
-meta and every `MusicEvent.image` on artist, city, venue and artist-city pages
-read it, so structured data always names the same card the page previews with.
+meta and every `MusicEvent.image` on artist, city, venue, artist-city and event
+pages read it, so structured data always names the same card the page previews with.
 
 A card carries only what is stable for the life of the URL — a name, a place, a
 title. Show counts, dates and verification stamps are deliberately excluded: they

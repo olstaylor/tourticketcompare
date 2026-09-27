@@ -212,6 +212,20 @@ export function eventPublishable(event, now = Date.now()) {
 export function eventStatusPublishable(event, now = Date.now()) {
   if (eventLifecycleHeld(event)) return false;
   if (publicOnsalePending(event, now)) return false;
+  return eventTicketmasterSourced(event);
+}
+
+/**
+ * Is the event record backed by its Ticketmaster source — a stored
+ * Ticketmaster destination or a verified Ticketmaster link? The source half of
+ * eventStatusPublishable, without its sale-state conditions, so the event
+ * page's structured data can describe a cancelled or postponed date from the
+ * same official record (functions/_event-pages.js → eventPageSchemaDecision).
+ *
+ * @param {any} event Raw events.json record.
+ * @returns {boolean}
+ */
+export function eventTicketmasterSourced(event) {
   const destination = String(event?.ticketmaster_url || event?.source_url || "").trim();
   if (destination) return true;
   return event?.provider_links?.ticketmaster?.verified === true;

@@ -189,6 +189,15 @@ orphan for being noindex. Indexing is a separate, deliberate decision;
 `previewEventIndexability` in `functions/_event-pages.js` only reports what a
 candidate policy would do (`npm run report:event-routes`).
 
+**Structured data ahead of indexing.** Each served event page carries one
+`MusicEvent` for the performance it shows (or none, where it may not be
+described: a pre-on-sale or resale-only date, as on the parent boards, or an
+unrecognised Ticketmaster status). This is a deliberate exception to
+"structured data follows indexability" below: it lets the event schema be
+validated before any event page is exposed for indexing. It adds no sitemap,
+`llms.txt` or robots change, and its node never carries an offer. Shape and
+gate: `docs/ARCHITECTURE.md` → Event-page structured data.
+
 Which URLs serve, redirect or 404 is documented in `docs/ARCHITECTURE.md` →
 Event identity and event pages. The two rules that matter here: a past event
 301s to its artist-city page (or the artist page), so expired event URLs never
@@ -379,7 +388,8 @@ These apply to city, venue, and artist-city pages together.
   `/guides/how-to-compare-concert-ticket-prices`. Location pages link that guide
   instead of restating it.
 - **Structured data follows indexability.** `FAQPage` and `MusicEvent` are
-  emitted only on indexable location pages. A `noindex` page cannot earn a rich
+  emitted only on indexable location pages (the noindex event page is the one
+  stated exception — see Event above). A `noindex` page cannot earn a rich
   result, so schema on one only adds another near-duplicate copy. Visible
   content and structured data must never disagree in the other direction —
   schema is never emitted for content the page does not show.

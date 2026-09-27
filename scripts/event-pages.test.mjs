@@ -19,6 +19,8 @@ import {
   EVENT_RESOLUTION,
   EVENT_ROUTE_ACTION,
   EVENT_ROUTE_REASONS,
+  EVENT_SCHEMA_REASONS,
+  EVENT_SCHEMA_STATUS,
   EVENT_SLUG_VENUE_MAX,
   EventKeyCollisionError,
   PREVIEW_REASONS,
@@ -30,6 +32,7 @@ import {
   deriveEventRouteStates,
   eventIndexSignals,
   eventKey,
+  eventPageSchemaDecision,
   eventPath,
   eventReadableSlug,
   eventRouteState,
@@ -48,6 +51,7 @@ import * as runtimeLocalDate from "../functions/_event-local-date.js";
 import * as scriptsLocalDate from "./lib/event-local-date.mjs";
 import { resolveEventLocalDate } from "./lib/event-local-date.mjs";
 import { loadSiteFixture } from "./lib/route-crawl.mjs";
+import { eventStatusPublishable } from "../functions/_route-indexability.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const checks = [];
@@ -334,6 +338,29 @@ assert("keys are fixed-length lowercase hex", GOLDEN_KEYS.every(([id]) => new Re
   assert("same artist, city and local date is reported once", groups.length === 1 && groups[0].ids.join(",") === "main,club");
 }
 
+// ── Event-page structured data decision ─────────────────────────────────────
+{
+  const NOW = Date.parse("2026-08-01T00:00:00Z");
+  const tm = { ticketmaster_url: "https://www.ticketmaster.com/event/X1", datetime_iso: "2026-09-10T01:00:00Z", timezone: "America/Chicago" };
+  const decide = (extra) => eventPageSchemaDecision({ ...tm, ...extra }, { now: NOW });
+  assert("a scheduled Ticketmaster-sourced date is EventScheduled", decide({}).eventStatus === "https://schema.org/EventScheduled");
+  assert("a rescheduled date is EventRescheduled", decide({ ticketmaster_status_code: "rescheduled" }).eventStatus === "https://schema.org/EventRescheduled");
+  assert("a cancelled date is EventCancelled (either spelling)", decide({ ticketmaster_status_code: "cancelled" }).eventStatus === "https://schema.org/EventCancelled" && decide({ ticketmaster_status_code: "Canceled" }).eventStatus === "https://schema.org/EventCancelled");
+  assert("a postponed date is EventPostponed", decide({ ticketmaster_status_code: "postponed" }).eventStatus === "https://schema.org/EventPostponed");
+  const unknown = decide({ ticketmaster_status_code: "paused" });
+  assert("an unrecognised status gets no node, never EventScheduled", !unknown.eligible && unknown.eventStatus === "" && unknown.reason === EVENT_SCHEMA_REASONS.LIFECYCLE_UNRECOGNISED);
+  assert("an unrecognised status has no schema.org mapping", !Object.prototype.hasOwnProperty.call(EVENT_SCHEMA_STATUS, "unrecognised"));
+  const pending = decide({ public_onsale_at: "2026-08-20T15:00:00Z" });
+  assert("a pre-on-sale date gets no node, as on the parent boards", !pending.eligible && pending.reason === EVENT_SCHEMA_REASONS.PRE_ONSALE);
+  const resaleOnly = eventPageSchemaDecision({ datetime_iso: tm.datetime_iso, provider_links: { "vivid-seats": { verified: true, url: "https://www.vividseats.com/x/production/1" } } }, { now: NOW });
+  assert("a record backed only by a resale link gets no node", !resaleOnly.eligible && resaleOnly.reason === EVENT_SCHEMA_REASONS.NO_TICKETMASTER_SOURCE);
+  const heldUnsourced = eventPageSchemaDecision({ datetime_iso: tm.datetime_iso, ticketmaster_status_code: "cancelled" }, { now: NOW });
+  assert("a cancelled record with no Ticketmaster source gets no node", !heldUnsourced.eligible && heldUnsourced.reason === EVENT_SCHEMA_REASONS.NO_TICKETMASTER_SOURCE);
+  const heldPending = decide({ ticketmaster_status_code: "postponed", public_onsale_at: "2026-08-20T15:00:00Z" });
+  assert("a postponed date is described whatever its on-sale time", heldPending.eventStatus === "https://schema.org/EventPostponed");
+  assert("the verified Ticketmaster link alone is a source", decide({ ticketmaster_url: "", provider_links: { ticketmaster: { verified: true } } }).eligible);
+}
+
 // ── Local-date consumers are unchanged ──────────────────────────────────────
 {
   const runtimeNames = Object.keys(runtimeLocalDate).sort();
@@ -353,6 +380,12 @@ const artists = JSON.parse(fs.readFileSync(path.join(ROOT, "public/data/artists.
   assert("the limb hash equals the BigInt reference for every current id", events.every((event) => fnv1a64Hex(String(event.id).trim()) === fnv1a64Reference(String(event.id).trim())));
   const index = buildEventKeyIndex(events);
   assert("every current event resolves by its own key", index.byKey.size === events.length && events.every((event) => findEventByKey(events, eventKey(event.id)) === event));
+
+  // A live date's node follows exactly the parent boards' gate.
+  assert("for every scheduled or rescheduled event, the event-page schema decision equals the parent gate (eventStatusPublishable)", events.every((event) => {
+    const decision = eventPageSchemaDecision(event);
+    return decision.lifecycle !== "scheduled" && decision.lifecycle !== "rescheduled" ? true : decision.eligible === eventStatusPublishable(event);
+  }));
 
   const states = deriveEventRouteStates(events, artists);
   const upcoming = states.filter((state) => state.upcoming);

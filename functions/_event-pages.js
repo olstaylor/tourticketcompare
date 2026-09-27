@@ -2,8 +2,9 @@
 // Event identity and event-route derivation.
 //
 // The router (functions/[[path]].js) serves /events/* from resolveEventRoute
-// below. Every event page is noindex,follow: there is no sitemap entry, no
-// llms.txt line and no event structured data yet. The artist, artist-city,
+// below. Every event page is noindex,follow: there is no sitemap entry and no
+// llms.txt line. Its structured data describes the one performance it shows
+// (eventPageSchemaDecision below decides whether it may). The artist, artist-city,
 // city and venue boards link each card to its page ("Show details") through
 // eventPageLinkPath, which asks the same resolveEventRoute. The router, the
 // parent boards and the audits derive the same URL for the same show from this
@@ -36,7 +37,15 @@
 import { resolveEventLocalDate } from "./_event-local-date.js";
 import { slugify } from "./_cities.js";
 import { INDEXABLE_ARTIST_STATUS } from "./_artist-indexability.js";
-import { eventLifecycle, eventLifecycleHeld, eventPublishable, eventStatusPublishable, publicOnsalePending } from "./_route-indexability.js";
+import {
+  EVENT_LIFECYCLE,
+  eventLifecycle,
+  eventLifecycleHeld,
+  eventPublishable,
+  eventStatusPublishable,
+  eventTicketmasterSourced,
+  publicOnsalePending
+} from "./_route-indexability.js";
 import { PRICE_GUIDE_SNAPSHOT_PROVIDERS, linkVerifiedWithUrl } from "./_price-guides.js";
 import { findArtistCity } from "./_artist-cities.js";
 import { citySlug } from "./_cities.js";
@@ -626,6 +635,61 @@ export function resolveEventRoute(events, artists, pathname, options = {}) {
     return { action: EVENT_ROUTE_ACTION.REDIRECT, reason: "no_destination", location: eventParentPath(events, event, artist, now) };
   }
   return { action: EVENT_ROUTE_ACTION.RENDER, reason: "", event, artist, state, canonicalPath: resolved.canonicalPath };
+}
+
+// ---------------------------------------------------------------------------
+// Event-page structured data
+// ---------------------------------------------------------------------------
+
+// schema.org eventStatus for each lifecycle the stored Ticketmaster status can
+// state. EVENT_LIFECYCLE.UNRECOGNISED has no entry: an unknown status is never
+// described, least of all as EventScheduled.
+export const EVENT_SCHEMA_STATUS = Object.freeze({
+  [EVENT_LIFECYCLE.SCHEDULED]: "https://schema.org/EventScheduled",
+  [EVENT_LIFECYCLE.RESCHEDULED]: "https://schema.org/EventRescheduled",
+  [EVENT_LIFECYCLE.CANCELLED]: "https://schema.org/EventCancelled",
+  [EVENT_LIFECYCLE.POSTPONED]: "https://schema.org/EventPostponed"
+});
+
+export const EVENT_SCHEMA_REASONS = Object.freeze({
+  LIFECYCLE_UNRECOGNISED: "lifecycle_unrecognised",
+  PRE_ONSALE: "pre_onsale",
+  NO_TICKETMASTER_SOURCE: "no_ticketmaster_source"
+});
+
+/**
+ * May a served event page describe its performance in structured data, and
+ * with which eventStatus? Called only for a page the router renders (so the
+ * record is addressable, upcoming and at its canonical path).
+ *
+ *   - Scheduled or rescheduled: exactly the parent boards' existing schema
+ *     gate, eventStatusPublishable — a Ticketmaster-sourced record past its
+ *     public on-sale. A pre-on-sale date and a record backed only by a resale
+ *     link get no node here either, as on every parent page.
+ *   - Cancelled or postponed: the same Ticketmaster-sourced record, described
+ *     with the status the page states. The page is noindex and shows no ticket
+ *     link or price; its node carries no offers under any flag.
+ *   - Any other stored status: no node. It fails closed, as the CTAs do.
+ *
+ * The date and time checks (the node's startDate must be the venue-local date
+ * the page shows) are the renderer's, which owns the visible formatting.
+ *
+ * @param {any} event Raw events.json record.
+ * @param {{ now?: number }} [options]
+ * @returns {{ eligible: boolean, reason: string, lifecycle: string, eventStatus: string }}
+ */
+export function eventPageSchemaDecision(event, options = {}) {
+  const now = Number.isFinite(options.now) ? Number(options.now) : Date.now();
+  const lifecycle = eventLifecycle(event);
+  const eventStatus = EVENT_SCHEMA_STATUS[lifecycle] || "";
+  const refuse = (reason) => ({ eligible: false, reason, lifecycle, eventStatus: "" });
+  if (!eventStatus) return refuse(EVENT_SCHEMA_REASONS.LIFECYCLE_UNRECOGNISED);
+  if (eventLifecycleHeld(event)) {
+    if (!eventTicketmasterSourced(event)) return refuse(EVENT_SCHEMA_REASONS.NO_TICKETMASTER_SOURCE);
+  } else if (!eventStatusPublishable(event, now)) {
+    return refuse(publicOnsalePending(event, now) ? EVENT_SCHEMA_REASONS.PRE_ONSALE : EVENT_SCHEMA_REASONS.NO_TICKETMASTER_SOURCE);
+  }
+  return { eligible: true, reason: "", lifecycle, eventStatus };
 }
 
 // ---------------------------------------------------------------------------

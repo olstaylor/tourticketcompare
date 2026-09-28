@@ -69,6 +69,8 @@ Storm protection is two fixed caps: at most 5 new issues per run and at most 25 
 
 **Cron times are request times, not start times.** GitHub can run these queues significantly late; the relative order the schedule encodes holds even when absolute times drift. Missing credentials make every scheduled lane no-op safely (no rows, no PR); auth/config failures in the SeatGeek lane abort with no writes.
 
+**Late starts are queued, not raced.** The relative order only holds if a lane starts after the one before it has merged, and a late GitHub start can break that. So the five scheduled event-data lanes (nightly data sync, TM new shows, SeatGeek CTA, Vivid Seats CTA, Impact marketplace sync) first run `scripts/wait-for-writer-lanes.mjs`. It waits, for up to 14 minutes, until no *older* run of any workflow that commits event data is still in flight, then fast-forwards the checkout to the branch tip. The order is first-in, first-out by run creation time, so two runs can never wait on each other. It is an ordering aid, not a gate: an API error or an exhausted budget carries on exactly as before, and at worst that day's PR conflicts. A shared `concurrency:` group is deliberately not used, because GitHub keeps one pending run per group and cancels the rest. `writer-lanes:self-test` derives the writer set from the workflow files, so a new writer cannot go unlisted.
+
 ### Stage 3 — the bounded repair worker
 
 `work-queue-repair.yml` is the only thing in the repository that consumes an `agent:ready` queue item. One run performs one contract and stops:
@@ -197,6 +199,7 @@ The obsolete `IMPACT_TICKETMASTER_*` secrets are unused — delete from the dash
 
 Infrastructure/automation issues only — dated, short, actionable. Content and data-hygiene backlog items live in `BACKLOG.md`.
 
+- **Late-started lanes branched from a `main` that was about to move, and their PRs conflicted (resolved 2026-09-28).** GitHub started the 26–27 September lanes about five hours late and side by side. The nightly data sync (#1183) branched 15 minutes before TM new shows merged #1182. Vivid Seats branched three minutes before SeatGeek merged, twice (#1186, #1203). Each was refused auto-merge with `405 Pull Request has merge conflicts` and left open. The diffs were fine, but no Vivid Seats sync landed after 2026-09-25, holding back 205 event links. The PRs were closed as superseded rather than hand-resolved, since each lane re-derives its content from current `main`. **Fix:** the FIFO wait above.
 - **A freshly minted App token is briefly refused by git, and the losing lane published nothing (resolved 2026-09-22).** The daily audit went red on 18, 20 and 21 September for what looked like three different reasons and was really two. On 2026-09-18 the mint itself failed (`publishing-identity.app` → `outcome=failure`, "Token is not set") — that was activation, and it stopped once the App was live. On 2026-09-20 and 2026-09-21 the token minted cleanly and the **push** was refused:
 
   ```

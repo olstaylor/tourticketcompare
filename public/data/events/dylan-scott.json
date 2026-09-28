@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8105565",
+        "url": "https://www.ticketliquidator.com/tickets/8105565/Dylan-Scott-tickets-Thu-Oct-15-2026-The-Bomb-Factory",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSep",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8105565"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8105565",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8105565/Dylan-Scott-tickets-Thu-Oct-15-2026-The-Bomb-Factory"
   },
   {
     "id": "tm-dylan-scott-2026-milwaukee-z7r9jz1aavse9",
@@ -220,12 +228,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268802",
+        "url": "https://www.ticketliquidator.com/tickets/8268802/Dylan-Scott-tickets-Thu-Jan-21-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfIGkddZ4Or",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268802"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268802",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268802/Dylan-Scott-tickets-Thu-Jan-21-2027-The-Fillmore-Detroit"
   },
   {
     "id": "tm-dylan-scott-2027-grand-rapids-vv1afzkfigker90br",
@@ -281,12 +297,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268806",
+        "url": "https://www.ticketliquidator.com/tickets/8268806/Dylan-Scott-tickets-Fri-Jan-22-2027-GLC-Live-at-20-Monroe",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfIGkeR90br",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268806"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268806",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268806/Dylan-Scott-tickets-Fri-Jan-22-2027-GLC-Live-at-20-Monroe"
   },
   {
     "id": "tm-dylan-scott-2027-waukee-1ae7z_3gkl2epqo",
@@ -342,12 +366,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268807",
+        "url": "https://www.ticketliquidator.com/tickets/8268807/Dylan-Scott-tickets-Sat-Jan-23-2027-Vibrant-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae7Z_3Gkl2EPqo",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268807"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268807",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268807/Dylan-Scott-tickets-Sat-Jan-23-2027-Vibrant-Music-Hall"
   },
   {
     "id": "tm-dylan-scott-2027-sioux-falls-vv17bz_3gkbn6kzm",
@@ -403,12 +435,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268810",
+        "url": "https://www.ticketliquidator.com/tickets/8268810/Dylan-Scott-tickets-Thu-Jan-28-2027-Sanford-Pentagon",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_3GkBN6kzM",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268810"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268810",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268810/Dylan-Scott-tickets-Thu-Jan-28-2027-Sanford-Pentagon"
   },
   {
     "id": "tm-dylan-scott-2027-bismarck-z7r9jz1aavseb",
@@ -464,12 +504,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8261286",
+        "url": "https://www.ticketliquidator.com/tickets/8261286/Dylan-Scott-tickets-Fri-Jan-29-2027-Bismarck-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSeb",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8261286"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8261286",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8261286/Dylan-Scott-tickets-Fri-Jan-29-2027-Bismarck-Event-Center"
   },
   {
     "id": "tm-dylan-scott-2027-rochester-vv17bz_3gklxuys_",
@@ -525,12 +573,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268816",
+        "url": "https://www.ticketliquidator.com/tickets/8268816/Dylan-Scott-tickets-Sat-Jan-30-2027-Mayo-Civic-Center-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_3GklxuYS_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268816"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268816",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268816/Dylan-Scott-tickets-Sat-Jan-30-2027-Mayo-Civic-Center-Auditorium"
   },
   {
     "id": "tm-dylan-scott-2027-philadelphia-vv17fz_3gklnt6ea",
@@ -586,12 +642,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268820",
+        "url": "https://www.ticketliquidator.com/tickets/8268820/Dylan-Scott-tickets-Thu-Feb-4-2027-The-Fillmore-Philadelphia",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_3GklNt6ea",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268820"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268820",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268820/Dylan-Scott-tickets-Thu-Feb-4-2027-The-Fillmore-Philadelphia"
   },
   {
     "id": "tm-dylan-scott-2027-wallingford-g5vvz_3ekjcji",
@@ -647,12 +711,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268824",
+        "url": "https://www.ticketliquidator.com/tickets/8268824/Dylan-Scott-tickets-Fri-Feb-5-2027-Toyota-Oakdale-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_3EkJcjI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268824"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268824",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268824/Dylan-Scott-tickets-Fri-Feb-5-2027-Toyota-Oakdale-Theatre"
   },
   {
     "id": "tm-dylan-scott-2027-boston-vv1avzkftgkeyygcg",
@@ -708,12 +780,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268829",
+        "url": "https://www.ticketliquidator.com/tickets/8268829/Dylan-Scott-tickets-Sat-Feb-6-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkftGkeyYgcG",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268829"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268829",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268829/Dylan-Scott-tickets-Sat-Feb-6-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-dylan-scott-2027-denver-z7r9jz1aavse_",
@@ -769,12 +849,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268878",
+        "url": "https://www.ticketliquidator.com/tickets/8268878/Dylan-Scott-tickets-Thu-Feb-18-2027-The-Mission-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSe_",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268878"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268878",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268878/Dylan-Scott-tickets-Thu-Feb-18-2027-The-Mission-Ballroom"
   },
   {
     "id": "tm-dylan-scott-2027-omaha-1aezz_3gknwydtt",
@@ -830,12 +918,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268835",
+        "url": "https://www.ticketliquidator.com/tickets/8268835/Dylan-Scott-tickets-Fri-Feb-19-2027-Steelhouse-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_3GknwydTT",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268835"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268835",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268835/Dylan-Scott-tickets-Fri-Feb-19-2027-Steelhouse-Omaha"
   },
   {
     "id": "tm-dylan-scott-2027-park-city-vv17bz_3gkmnbnzl",
@@ -997,12 +1093,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268847",
+        "url": "https://www.ticketliquidator.com/tickets/8268847/Dylan-Scott-tickets-Fri-Feb-26-2027-Findlay-Toyota-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3GkmLGgHm",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268847"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268847",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268847/Dylan-Scott-tickets-Fri-Feb-26-2027-Findlay-Toyota-Center"
   },
   {
     "id": "tm-dylan-scott-2027-chandler-1av0z_3gkshqv4x",
@@ -1058,12 +1162,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268850",
+        "url": "https://www.ticketliquidator.com/tickets/8268850/Dylan-Scott-tickets-Sat-Feb-27-2027-Gila-River-Hotels-Casinos-Wild-Horse-Pass",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3GkSHQv4X",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268850"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268850",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268850/Dylan-Scott-tickets-Sat-Feb-27-2027-Gila-River-Hotels-Casinos-Wild-Horse-Pass"
   },
   {
     "id": "tm-dylan-scott-2027-kennewick-vvg1hz_3ngdpch",
@@ -1119,12 +1231,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268851",
+        "url": "https://www.ticketliquidator.com/tickets/8268851/Dylan-Scott-tickets-Thu-Mar-4-2027-Toyota-Center-Kennewick",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3nGDPCH",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268851"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268851",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268851/Dylan-Scott-tickets-Thu-Mar-4-2027-Toyota-Center-Kennewick"
   },
   {
     "id": "tm-dylan-scott-2027-spokane-z7r9jz1aavsvm",
@@ -1180,12 +1300,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268901",
+        "url": "https://www.ticketliquidator.com/tickets/8268901/Dylan-Scott-tickets-Fri-Mar-5-2027-First-Interstate-Center-for-the-Arts",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSvM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268901"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268901",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268901/Dylan-Scott-tickets-Fri-Mar-5-2027-First-Interstate-Center-for-the-Arts"
   },
   {
     "id": "tm-dylan-scott-2027-wenatchee-z7r9jz1aavs7z",

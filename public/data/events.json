@@ -41868,11 +41868,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7896540",
-        "url": "https://www.ticketliquidator.com/tickets/7896540/Karol-G-tickets-Sun-Sep-27-2026-Reliant-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107162167",
@@ -41886,7 +41886,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896540/Karol-G-tickets-Sun-Sep-27-2026-Reliant-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-houston-tickets-9-27-2026/event/107162167"
   },
   {
@@ -50742,18 +50742,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7976494",
-        "url": "https://www.ticketliquidator.com/tickets/7976494/Don-Omar-tickets-Sun-Sep-27-2026-PeoplesBank-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EOA",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976494/Don-Omar-tickets-Sun-Sep-27-2026-PeoplesBank-Arena"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-don-omar-2026-dallas-vvg1yz_1d_hllv",
@@ -79212,11 +79212,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8135389",
-        "url": "https://www.ticketliquidator.com/tickets/8135389/Michelle-Branch-tickets-Sun-Sep-27-2026-The-Showbox",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -79229,7 +79229,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JfOo",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135389/Michelle-Branch-tickets-Sun-Sep-27-2026-The-Showbox",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": ""
   },
   {
@@ -87612,11 +87612,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090606",
+        "url": "https://www.ticketliquidator.com/tickets/8090606/BTS-tickets-Sat-Feb-20-2027-Accor-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17a8v0G65QFKdO_",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090606/BTS-tickets-Sat-Feb-20-2027-Accor-Stadium"
   },
   {
     "id": "tm-bts-2027-sydney-olympic-park-17a8v0g65qfik-s",
@@ -114979,12 +114987,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264754",
+        "url": "https://www.ticketliquidator.com/tickets/8264754/Oasis-tickets-Fri-May-28-2027-Celtic-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkd5PbEN",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-28-5-2027/event/107666279"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-28-5-2027/event/107666279",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264754/Oasis-tickets-Fri-May-28-2027-Celtic-Park"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkdu5imb",
@@ -115348,12 +115364,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264759",
+        "url": "https://www.ticketliquidator.com/tickets/8264759/Oasis-tickets-Fri-Jun-11-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lWCJqY",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-11-6-2027/event/107667905"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-11-6-2027/event/107667905",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264759/Oasis-tickets-Fri-Jun-11-2027-Etihad-Stadium"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lxmu-j",
@@ -115563,12 +115587,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264762",
+        "url": "https://www.ticketliquidator.com/tickets/8264762/Oasis-tickets-Fri-Jun-18-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lv67aO",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-18-6-2027/event/107667907"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-18-6-2027/event/107667907",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264762/Oasis-tickets-Fri-Jun-18-2027-Etihad-Stadium"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3l--ppl",
@@ -115778,12 +115810,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264765",
+        "url": "https://www.ticketliquidator.com/tickets/8264765/Oasis-tickets-Fri-Jun-25-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lJOg0t",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-25-6-2027/event/107666275"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-25-6-2027/event/107666275",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264765/Oasis-tickets-Fri-Jun-25-2027-Etihad-Stadium"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lnpprv",
@@ -116548,13 +116588,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264772",
+        "url": "https://www.ticketliquidator.com/tickets/8264772/Oasis-tickets-Fri-Jul-16-2027-Johan-Cruijff-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vrdZ-8b",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
     "public_onsale_at": "2026-09-26T06:00:00Z",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-16-7-2027/event/107667901"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-16-7-2027/event/107667901",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264772/Oasis-tickets-Fri-Jul-16-2027-Johan-Cruijff-Arena"
   },
   {
     "id": "tm-oasis-2027-amsterdam-z698xzbpz1kodp337",
@@ -136815,12 +136863,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8105565",
+        "url": "https://www.ticketliquidator.com/tickets/8105565/Dylan-Scott-tickets-Thu-Oct-15-2026-The-Bomb-Factory",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSep",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8105565"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8105565",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8105565/Dylan-Scott-tickets-Thu-Oct-15-2026-The-Bomb-Factory"
   },
   {
     "id": "tm-dylan-scott-2026-milwaukee-z7r9jz1aavse9",
@@ -136982,12 +137038,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268802",
+        "url": "https://www.ticketliquidator.com/tickets/8268802/Dylan-Scott-tickets-Thu-Jan-21-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfIGkddZ4Or",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268802"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268802",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268802/Dylan-Scott-tickets-Thu-Jan-21-2027-The-Fillmore-Detroit"
   },
   {
     "id": "tm-dylan-scott-2027-grand-rapids-vv1afzkfigker90br",
@@ -137043,12 +137107,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268806",
+        "url": "https://www.ticketliquidator.com/tickets/8268806/Dylan-Scott-tickets-Fri-Jan-22-2027-GLC-Live-at-20-Monroe",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfIGkeR90br",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268806"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268806",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268806/Dylan-Scott-tickets-Fri-Jan-22-2027-GLC-Live-at-20-Monroe"
   },
   {
     "id": "tm-dylan-scott-2027-waukee-1ae7z_3gkl2epqo",
@@ -137104,12 +137176,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268807",
+        "url": "https://www.ticketliquidator.com/tickets/8268807/Dylan-Scott-tickets-Sat-Jan-23-2027-Vibrant-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae7Z_3Gkl2EPqo",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268807"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268807",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268807/Dylan-Scott-tickets-Sat-Jan-23-2027-Vibrant-Music-Hall"
   },
   {
     "id": "tm-dylan-scott-2027-sioux-falls-vv17bz_3gkbn6kzm",
@@ -137165,12 +137245,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268810",
+        "url": "https://www.ticketliquidator.com/tickets/8268810/Dylan-Scott-tickets-Thu-Jan-28-2027-Sanford-Pentagon",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_3GkBN6kzM",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268810"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268810",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268810/Dylan-Scott-tickets-Thu-Jan-28-2027-Sanford-Pentagon"
   },
   {
     "id": "tm-dylan-scott-2027-bismarck-z7r9jz1aavseb",
@@ -137226,12 +137314,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8261286",
+        "url": "https://www.ticketliquidator.com/tickets/8261286/Dylan-Scott-tickets-Fri-Jan-29-2027-Bismarck-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSeb",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8261286"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8261286",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8261286/Dylan-Scott-tickets-Fri-Jan-29-2027-Bismarck-Event-Center"
   },
   {
     "id": "tm-dylan-scott-2027-rochester-vv17bz_3gklxuys_",
@@ -137287,12 +137383,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268816",
+        "url": "https://www.ticketliquidator.com/tickets/8268816/Dylan-Scott-tickets-Sat-Jan-30-2027-Mayo-Civic-Center-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_3GklxuYS_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268816"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268816",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268816/Dylan-Scott-tickets-Sat-Jan-30-2027-Mayo-Civic-Center-Auditorium"
   },
   {
     "id": "tm-dylan-scott-2027-philadelphia-vv17fz_3gklnt6ea",
@@ -137348,12 +137452,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268820",
+        "url": "https://www.ticketliquidator.com/tickets/8268820/Dylan-Scott-tickets-Thu-Feb-4-2027-The-Fillmore-Philadelphia",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_3GklNt6ea",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268820"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268820",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268820/Dylan-Scott-tickets-Thu-Feb-4-2027-The-Fillmore-Philadelphia"
   },
   {
     "id": "tm-dylan-scott-2027-wallingford-g5vvz_3ekjcji",
@@ -137409,12 +137521,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268824",
+        "url": "https://www.ticketliquidator.com/tickets/8268824/Dylan-Scott-tickets-Fri-Feb-5-2027-Toyota-Oakdale-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_3EkJcjI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268824"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268824",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268824/Dylan-Scott-tickets-Fri-Feb-5-2027-Toyota-Oakdale-Theatre"
   },
   {
     "id": "tm-dylan-scott-2027-boston-vv1avzkftgkeyygcg",
@@ -137470,12 +137590,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268829",
+        "url": "https://www.ticketliquidator.com/tickets/8268829/Dylan-Scott-tickets-Sat-Feb-6-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkftGkeyYgcG",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268829"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268829",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268829/Dylan-Scott-tickets-Sat-Feb-6-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-dylan-scott-2027-denver-z7r9jz1aavse_",
@@ -137531,12 +137659,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268878",
+        "url": "https://www.ticketliquidator.com/tickets/8268878/Dylan-Scott-tickets-Thu-Feb-18-2027-The-Mission-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSe_",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268878"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268878",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268878/Dylan-Scott-tickets-Thu-Feb-18-2027-The-Mission-Ballroom"
   },
   {
     "id": "tm-dylan-scott-2027-omaha-1aezz_3gknwydtt",
@@ -137592,12 +137728,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268835",
+        "url": "https://www.ticketliquidator.com/tickets/8268835/Dylan-Scott-tickets-Fri-Feb-19-2027-Steelhouse-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_3GknwydTT",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268835"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268835",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268835/Dylan-Scott-tickets-Fri-Feb-19-2027-Steelhouse-Omaha"
   },
   {
     "id": "tm-dylan-scott-2027-park-city-vv17bz_3gkmnbnzl",
@@ -137759,12 +137903,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268847",
+        "url": "https://www.ticketliquidator.com/tickets/8268847/Dylan-Scott-tickets-Fri-Feb-26-2027-Findlay-Toyota-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3GkmLGgHm",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268847"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268847",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268847/Dylan-Scott-tickets-Fri-Feb-26-2027-Findlay-Toyota-Center"
   },
   {
     "id": "tm-dylan-scott-2027-chandler-1av0z_3gkshqv4x",
@@ -137820,12 +137972,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268850",
+        "url": "https://www.ticketliquidator.com/tickets/8268850/Dylan-Scott-tickets-Sat-Feb-27-2027-Gila-River-Hotels-Casinos-Wild-Horse-Pass",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3GkSHQv4X",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268850"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268850",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268850/Dylan-Scott-tickets-Sat-Feb-27-2027-Gila-River-Hotels-Casinos-Wild-Horse-Pass"
   },
   {
     "id": "tm-dylan-scott-2027-kennewick-vvg1hz_3ngdpch",
@@ -137881,12 +138041,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268851",
+        "url": "https://www.ticketliquidator.com/tickets/8268851/Dylan-Scott-tickets-Thu-Mar-4-2027-Toyota-Center-Kennewick",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3nGDPCH",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268851"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268851",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268851/Dylan-Scott-tickets-Thu-Mar-4-2027-Toyota-Center-Kennewick"
   },
   {
     "id": "tm-dylan-scott-2027-spokane-z7r9jz1aavsvm",
@@ -137942,12 +138110,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8268901",
+        "url": "https://www.ticketliquidator.com/tickets/8268901/Dylan-Scott-tickets-Fri-Mar-5-2027-First-Interstate-Center-for-the-Arts",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSvM",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268901"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268901",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268901/Dylan-Scott-tickets-Fri-Mar-5-2027-First-Interstate-Center-for-the-Arts"
   },
   {
     "id": "tm-dylan-scott-2027-wenatchee-z7r9jz1aavs7z",
@@ -138451,12 +138627,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272762",
+        "url": "https://www.ticketliquidator.com/tickets/8272762/Valley-Band-tickets-Tue-Feb-16-2027-Park-Theatre-Winnipeg",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkBokkjd",
     "timezone": "America/Winnipeg",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272762"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272762",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272762/Valley-Band-tickets-Tue-Feb-16-2027-Park-Theatre-Winnipeg"
   },
   {
     "id": "tm-valley-2027-regina-z7r9jz1aavzfw",
@@ -138512,12 +138696,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272763",
+        "url": "https://www.ticketliquidator.com/tickets/8272763/Valley-Band-tickets-Thu-Feb-18-2027-Casino-Regina",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfw",
     "timezone": "America/Regina",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272763"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272763",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272763/Valley-Band-tickets-Thu-Feb-18-2027-Casino-Regina"
   },
   {
     "id": "tm-valley-2027-edmonton-1av7z_3gkbxlimr",
@@ -139045,12 +139237,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272716",
+        "url": "https://www.ticketliquidator.com/tickets/8272716/Valley-Band-tickets-Wed-Mar-3-2027-The-Crescent-Ballroom-Phoenix",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfg",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272716"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272716",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272716/Valley-Band-tickets-Wed-Mar-3-2027-The-Crescent-Ballroom-Phoenix"
   },
   {
     "id": "tm-valley-2027-salt-lake-city-g5vzz_3bnvu2b",
@@ -139106,12 +139306,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272771",
+        "url": "https://www.ticketliquidator.com/tickets/8272771/Valley-Band-tickets-Fri-Mar-5-2027-The-Depot-Salt-Lake-City",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3BNVU2b",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272771"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272771",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272771/Valley-Band-tickets-Fri-Mar-5-2027-The-Depot-Salt-Lake-City"
   },
   {
     "id": "tm-valley-2027-denver-z7r9jz1aavzfu",
@@ -139273,12 +139481,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272774",
+        "url": "https://www.ticketliquidator.com/tickets/8272774/Valley-Band-tickets-Wed-Mar-10-2027-Brooklyn-Bowl-Nashville",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3RrqUu4",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272774"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272774",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272774/Valley-Band-tickets-Wed-Mar-10-2027-Brooklyn-Bowl-Nashville"
   },
   {
     "id": "tm-valley-2027-atlanta-vvg1zz_32aklli",
@@ -139387,12 +139603,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272776",
+        "url": "https://www.ticketliquidator.com/tickets/8272776/Valley-Band-tickets-Sat-Mar-13-2027-The-Underground-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3nrNcXJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272776"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272776",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272776/Valley-Band-tickets-Sat-Mar-13-2027-The-Underground-Charlotte"
   },
   {
     "id": "tm-valley-2027-washington-16vfz_333g7mktl",
@@ -139509,12 +139733,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272778",
+        "url": "https://www.ticketliquidator.com/tickets/8272778/Valley-Band-tickets-Tue-Mar-16-2027-Brooklyn-Bowl-Philadelphia",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfYGkdw6uTw",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272778"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272778",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272778/Valley-Band-tickets-Tue-Mar-16-2027-Brooklyn-Bowl-Philadelphia"
   },
   {
     "id": "tm-valley-2027-new-york-z7r9jz1aavzfm",
@@ -140983,12 +141215,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8235574",
+        "url": "https://www.ticketliquidator.com/tickets/8235574/Too-Many-Zooz-tickets-Fri-Oct-30-2026-Brooklyn-Bowl-NY",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_opjosBe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235574"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235574",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235574/Too-Many-Zooz-tickets-Fri-Oct-30-2026-Brooklyn-Bowl-NY"
   },
   {
     "id": "tm-too-many-zooz-2027-wroclaw-z698xzqpz1kcapprk",
@@ -141097,12 +141337,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284720",
+        "url": "https://www.ticketliquidator.com/tickets/8284720/Too-Many-Zooz-tickets-Fri-Mar-19-2027-The-Summit-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_Kkf1PnR",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284720"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284720",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284720/Too-Many-Zooz-tickets-Fri-Mar-19-2027-The-Summit-Music-Hall"
   },
   {
     "id": "tm-too-many-zooz-2027-houston-g5diz_kf4niru",
@@ -141158,12 +141406,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284721",
+        "url": "https://www.ticketliquidator.com/tickets/8284721/Too-Many-Zooz-tickets-Fri-Apr-30-2027-White-Oak-Music-Hall-Downstairs",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KF4NirU",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284721"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284721",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284721/Too-Many-Zooz-tickets-Fri-Apr-30-2027-White-Oak-Music-Hall-Downstairs"
   },
   {
     "id": "tm-too-many-zooz-2027-tucson-z7r9jz1aavmvf",
@@ -141219,12 +141475,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284723",
+        "url": "https://www.ticketliquidator.com/tickets/8284723/Too-Many-Zooz-tickets-Thu-May-6-2027-La-Rosa-Tucson",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvMvf",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284723"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284723",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284723/Too-Many-Zooz-tickets-Thu-May-6-2027-La-Rosa-Tucson"
   },
   {
     "id": "tm-too-many-zooz-2027-seattle-vvg1hz_3tamn7s",
@@ -141280,12 +141544,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284730",
+        "url": "https://www.ticketliquidator.com/tickets/8284730/Too-Many-Zooz-tickets-Fri-May-14-2027-The-Neptune-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3TaMn7s",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284730"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284730",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284730/Too-Many-Zooz-tickets-Fri-May-14-2027-The-Neptune-Theatre"
   },
   {
     "id": "tm-amble-2026-sheffield-g5vhz_5sagy5t",
@@ -141659,12 +141931,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290449",
+        "url": "https://www.ticketliquidator.com/tickets/8290449/Amble-tickets-Thu-Oct-8-2026-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_5SZ3VmK",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290449"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290449",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290449/Amble-tickets-Thu-Oct-8-2026-O2-Academy-Brixton"
   },
   {
     "id": "tm-amble-2026-los-angeles-vv170z_agkrleod6",
@@ -141773,12 +142053,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056125",
+        "url": "https://www.ticketliquidator.com/tickets/8056125/Amble-tickets-Sat-Oct-24-2026-The-Fillmore-San-Francisco",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GnTwbU0",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056125"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056125",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056125/Amble-tickets-Sat-Oct-24-2026-The-Fillmore-San-Francisco"
   },
   {
     "id": "tm-amble-2026-seattle-z7r9jz1a70p_0",
@@ -141834,12 +142122,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930662",
+        "url": "https://www.ticketliquidator.com/tickets/7930662/Amble-tickets-Mon-Oct-26-2026-The-Showbox",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70p_0",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930662"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930662",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930662/Amble-tickets-Mon-Oct-26-2026-The-Showbox"
   },
   {
     "id": "tm-amble-2026-vancouver-1av7z_agkmsrf76",
@@ -141895,12 +142191,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7936748",
+        "url": "https://www.ticketliquidator.com/tickets/7936748/Amble-tickets-Tue-Oct-27-2026-Orpheum-Theatre-Vancouver",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_aGkmSrF76",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7936748"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7936748",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7936748/Amble-tickets-Tue-Oct-27-2026-Orpheum-Theatre-Vancouver"
   },
   {
     "id": "tm-amble-2026-detroit-vv1afzk39gkeeybaa",
@@ -142115,12 +142419,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930665",
+        "url": "https://www.ticketliquidator.com/tickets/7930665/Amble-tickets-Fri-Nov-6-2026-Citizens-House-Of-Blues-Boston",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_aGkwHeNYA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930665"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930665",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930665/Amble-tickets-Fri-Nov-6-2026-Citizens-House-Of-Blues-Boston"
   },
   {
     "id": "tm-amble-2026-brooklyn-k7vgf_ad7j_qa",
@@ -142176,12 +142488,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930669",
+        "url": "https://www.ticketliquidator.com/tickets/7930669/Amble-tickets-Sat-Nov-7-2026-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_aD7J_qa",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930669"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930669",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930669/Amble-tickets-Sat-Nov-7-2026-Brooklyn-Paramount"
   },
   {
     "id": "tm-amble-2026-philadelphia-vv17fz_agkycvjx3",
@@ -142290,12 +142610,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930661",
+        "url": "https://www.ticketliquidator.com/tickets/7930661/Amble-tickets-Wed-Nov-11-2026-930-Club",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_aGkmVpzjT",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930661"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930661",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930661/Amble-tickets-Wed-Nov-11-2026-930-Club"
   },
   {
     "id": "tm-amble-2026-atlanta-z7r9jz1a70p_n",
@@ -142351,12 +142679,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7938209",
+        "url": "https://www.ticketliquidator.com/tickets/7938209/Amble-tickets-Fri-Nov-13-2026-Terminal-West-At-King-Plow-Arts-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70p_N",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7938209"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7938209",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7938209/Amble-tickets-Fri-Nov-13-2026-Terminal-West-At-King-Plow-Arts-Center"
   },
   {
     "id": "tm-amble-2026-nashville-g5viz_gnxglok",
@@ -142412,12 +142748,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8055458",
+        "url": "https://www.ticketliquidator.com/tickets/8055458/Amble-tickets-Sat-Nov-14-2026-Brooklyn-Bowl-Nashville",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_GnXgLok",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8055458"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8055458",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8055458/Amble-tickets-Sat-Nov-14-2026-Brooklyn-Bowl-Nashville"
   },
   {
     "id": "tm-amble-2026-new-orleans-g5viz_aeqhsnh",
@@ -142473,12 +142817,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930663",
+        "url": "https://www.ticketliquidator.com/tickets/7930663/Amble-tickets-Mon-Nov-16-2026-House-Of-Blues-New-Orleans",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_aEqHSnH",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930663"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930663",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930663/Amble-tickets-Mon-Nov-16-2026-House-Of-Blues-New-Orleans"
   },
   {
     "id": "tm-amble-2026-austin-g5diz_ahr-flp",
@@ -142587,12 +142939,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930667",
+        "url": "https://www.ticketliquidator.com/tickets/7930667/Amble-tickets-Wed-Nov-18-2026-The-Echo-Lounge-and-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_161IQqj",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930667"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930667",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930667/Amble-tickets-Wed-Nov-18-2026-The-Echo-Lounge-and-Music-Hall"
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8h21y",

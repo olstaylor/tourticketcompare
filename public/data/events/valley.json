@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8274453",
+        "url": "https://www.ticketnetwork.com/en/p/8274453",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GkBlOkHD",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8274453"
   },
   {
     "id": "tm-valley-2027-ottawa-1ad7z_3gkv11nuz",
@@ -311,11 +319,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272760",
+        "url": "https://www.ticketnetwork.com/en/p/8272760",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfY",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272760"
   },
   {
     "id": "tm-valley-2027-minneapolis-z7r9jz1aavzfs",
@@ -364,11 +380,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272761",
+        "url": "https://www.ticketnetwork.com/en/p/8272761",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfs",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272761"
   },
   {
     "id": "tm-valley-2027-winnipeg-1av7z_3gkbokkjd",
@@ -417,11 +441,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272762",
+        "url": "https://www.ticketnetwork.com/en/p/8272762",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkBokkjd",
     "timezone": "America/Winnipeg",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272762"
   },
   {
     "id": "tm-valley-2027-regina-z7r9jz1aavzfw",
@@ -470,11 +502,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272763",
+        "url": "https://www.ticketnetwork.com/en/p/8272763",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfw",
     "timezone": "America/Regina",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272763"
   },
   {
     "id": "tm-valley-2027-edmonton-1av7z_3gkbxlimr",
@@ -629,11 +669,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272766",
+        "url": "https://www.ticketnetwork.com/en/p/8272766",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvgoz",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272766"
   },
   {
     "id": "tm-valley-2027-vancouver-1av7z_3gkb3hpv9",
@@ -682,11 +730,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272767",
+        "url": "https://www.ticketnetwork.com/en/p/8272767",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkB3HpV9",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272767"
   },
   {
     "id": "tm-valley-2027-seattle-vvg1hz_3nsltnp",
@@ -735,11 +791,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272768",
+        "url": "https://www.ticketnetwork.com/en/p/8272768",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3nsltNp",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272768"
   },
   {
     "id": "tm-valley-2027-portland-z7r9jz1aavzfs",
@@ -788,11 +852,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272769",
+        "url": "https://www.ticketnetwork.com/en/p/8272769",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfS",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272769"
   },
   {
     "id": "tm-valley-2027-san-francisco-z7r9jz1aavzfv",
@@ -841,11 +913,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272715",
+        "url": "https://www.ticketnetwork.com/en/p/8272715",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272715"
   },
   {
     "id": "tm-valley-2027-los-angeles-vv1aazkf-gkdqrhdg",
@@ -894,11 +974,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272770",
+        "url": "https://www.ticketnetwork.com/en/p/8272770",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkf-GkdqRHDg",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272770"
   },
   {
     "id": "tm-valley-2027-phoenix-z7r9jz1aavzfg",
@@ -947,11 +1035,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272716",
+        "url": "https://www.ticketnetwork.com/en/p/8272716",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfg",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272716"
   },
   {
     "id": "tm-valley-2027-salt-lake-city-g5vzz_3bnvu2b",
@@ -1000,11 +1096,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272771",
+        "url": "https://www.ticketnetwork.com/en/p/8272771",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3BNVU2b",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272771"
   },
   {
     "id": "tm-valley-2027-denver-z7r9jz1aavzfu",
@@ -1159,11 +1263,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272774",
+        "url": "https://www.ticketnetwork.com/en/p/8272774",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3RrqUu4",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272774"
   },
   {
     "id": "tm-valley-2027-atlanta-vvg1zz_32aklli",
@@ -1265,11 +1377,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272776",
+        "url": "https://www.ticketnetwork.com/en/p/8272776",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3nrNcXJ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272776"
   },
   {
     "id": "tm-valley-2027-washington-16vfz_333g7mktl",
@@ -1318,11 +1438,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272777",
+        "url": "https://www.ticketnetwork.com/en/p/8272777",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vfZ_333G7mkTL",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272777"
   },
   {
     "id": "tm-valley-2027-philadelphia-vv1aezkfygkdw6utw",
@@ -1371,11 +1499,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272778",
+        "url": "https://www.ticketnetwork.com/en/p/8272778",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfYGkdw6uTw",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272778"
   },
   {
     "id": "tm-valley-2027-new-york-z7r9jz1aavzfm",
@@ -1424,11 +1560,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272779",
+        "url": "https://www.ticketnetwork.com/en/p/8272779",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfM",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272779"
   },
   {
     "id": "tm-valley-2027-boston-vv177z_3gkmvpndn",
@@ -1477,11 +1621,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8272780",
+        "url": "https://www.ticketnetwork.com/en/p/8272780",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GkmVpNdN",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272780"
   },
   {
     "id": "tm-valley-2027-toronto-1avzz_3gkdexa9o",

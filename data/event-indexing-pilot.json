@@ -8,7 +8,7 @@
     "eligible_event_pages": 1343,
     "eligible_artists": 70
   },
-  "launch_date": null,
+  "launch_date": "2026-09-27",
   "launch_note": "launch_date is the day production first served these pages index,follow (the merge that sets EVENT_PAGES_INDEXING = \"pilot\" in wrangler.toml), recorded after production verification. Measurement windows run from that date.",
   "selection": {
     "size": 30,

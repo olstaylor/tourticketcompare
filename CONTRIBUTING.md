@@ -223,6 +223,9 @@ npm run test:event-page                       # /events/* routing, noindex, life
 npm run test:event-indexability               # event-page indexability policy, duplicates, and the frozen 30-key indexing pilot:
                                               #   robots, events sitemap, llms.txt, parent MusicEvent identity, the real cohort (in test:mvp)
 npm run report:event-routes                   # read-only event route + indexability diagnostic; --json (not a test)
+npm run test:event-indexing-pilot-report      # pilot report: frozen cohort only, drop-outs kept, URL-safe joins, read-only (in test:mvp)
+npm run report:event-indexing-pilot           # read-only measurement report on the frozen 30-page pilot; --json, --search-console,
+                                              #   --route-traffic, --live (not a test; docs/ROUTE_INDEXABILITY_POLICY.md → Measuring the pilot)
 npm run seatgeek:self-test                    # SeatGeek discovery scoring/safety
 npm run seatgeek:enrich:self-test             # SeatGeek enrichment scheduling + matching (in test:mvp)
 npm run seatgeek:verify:self-test             # SeatGeek verification invariants (in test:mvp)

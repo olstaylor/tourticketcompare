@@ -470,12 +470,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264754",
+        "url": "https://www.ticketliquidator.com/tickets/8264754/Oasis-tickets-Fri-May-28-2027-Celtic-Park",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfwGkd5PbEN",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-28-5-2027/event/107666279"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-28-5-2027/event/107666279",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264754/Oasis-tickets-Fri-May-28-2027-Celtic-Park"
   },
   {
     "id": "tm-oasis-2027-glasgow-1agzkfwgkdu5imb",
@@ -839,12 +847,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264759",
+        "url": "https://www.ticketliquidator.com/tickets/8264759/Oasis-tickets-Fri-Jun-11-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lWCJqY",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-11-6-2027/event/107667905"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-11-6-2027/event/107667905",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264759/Oasis-tickets-Fri-Jun-11-2027-Etihad-Stadium"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lxmu-j",
@@ -1054,12 +1070,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264762",
+        "url": "https://www.ticketliquidator.com/tickets/8264762/Oasis-tickets-Fri-Jun-18-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lv67aO",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-18-6-2027/event/107667907"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-18-6-2027/event/107667907",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264762/Oasis-tickets-Fri-Jun-18-2027-Etihad-Stadium"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3l--ppl",
@@ -1269,12 +1293,20 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264765",
+        "url": "https://www.ticketliquidator.com/tickets/8264765/Oasis-tickets-Fri-Jun-25-2027-Etihad-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_3lJOg0t",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-25-6-2027/event/107666275"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-25-6-2027/event/107666275",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264765/Oasis-tickets-Fri-Jun-25-2027-Etihad-Stadium"
   },
   {
     "id": "tm-oasis-2027-manchester-g5dzz_3lnpprv",
@@ -1985,13 +2017,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264772",
+        "url": "https://www.ticketliquidator.com/tickets/8264772/Oasis-tickets-Fri-Jul-16-2027-Johan-Cruijff-Arena",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vrdZ-8b",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
     "public_onsale_at": "2026-09-26T06:00:00Z",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-16-7-2027/event/107667901"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-16-7-2027/event/107667901",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264772/Oasis-tickets-Fri-Jul-16-2027-Johan-Cruijff-Arena"
   },
   {
     "id": "tm-oasis-2027-amsterdam-z698xzbpz1kodp337",

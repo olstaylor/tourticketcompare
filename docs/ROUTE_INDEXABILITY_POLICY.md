@@ -350,6 +350,42 @@ flag-off render.
 other value): on the next render every event page is `noindex,follow`, the
 events sitemap empties and parent nodes return to `#show-<id>`.
 
+**Measuring the pilot.** Production first served the pilot `index,follow` on
+**2026-09-27** (`launch_date` in `data/event-indexing-pilot.json`); measurement
+windows run from that date. `npm run report:event-indexing-pilot` (`--json`,
+or `npm run report:event-indexing-pilot:json`) is the read-only report on it.
+It takes the cohort **only** from the record, never from today's eligibility,
+so it always reports the original 30: each member's frozen `launch_*` facts
+beside its `current_*` state (exists, route and derived HTTP outcome of the
+launch URL, eligibility and reasons, indexed, events-sitemap membership,
+lifecycle, `MusicEvent`, destinations, snapshot lanes, days to the event),
+and any member that dropped out with its reason — never a replacement. Days
+since launch come with non-binding checkpoints (≈2 weeks: discovery, crawling,
+first impressions; ≈4 weeks: growing impressions and query diversity; 6–8
+weeks: whether enough pages earn exact-event visibility to justify a larger,
+separately reviewed rollout). They are prompts for a person; nothing reads
+them, and the report has no score or pass/fail. Optional inputs, each read
+only:
+
+- `--search-console <file>` — a Search Console performance export (CSV or
+  JSON) with a page column and clicks, impressions and position; a query
+  column enables query-form classification. The per-page-and-query table comes
+  from the Search Console API (`searchanalytics.query`, dimensions `page` and
+  `query`) or the Performance report filtered to the pilot URLs. Rows join by
+  canonical URL only; every other URL is counted and set aside, never joined.
+  State the period with `--search-console-period YYYY-MM-DD..YYYY-MM-DD` when
+  the file does not. No Search Console credentials belong in the repo.
+- `--route-traffic <file>` (default `reports/analytics/route-traffic.json`) —
+  TTC page views and outbound clicks per route, exported from D1 with
+  `npm run report:funnel -- --route-traffic <file>` (see Traffic data below).
+- `--live` — one GET per pilot page on production, recording page-template
+  facts that exist only at render time (listed price, its as-of time, 30-day
+  low, recorded movement, history panel, rendered buttons).
+
+Without an input its metrics are reported as unknown, never as zero. With 30
+pages every comparison (single- vs multi-date, destination count, artist
+scale) is descriptive, not statistical.
+
 **Structured data ahead of indexing.** Each served event page carries one
 `MusicEvent` for the performance it shows (or none, where it may not be
 described: a pre-on-sale or resale-only date, as on the parent boards, or an
@@ -707,8 +743,8 @@ npm run report:funnel -- --route-traffic reports/analytics/route-traffic.json
 That mode groups `analytics_events` by `source_path` — the only grouping that
 can answer "which routes earn views and clicks", since every other grouping in
 the funnel report is by artist, provider, or CTA location — and writes
-`{ "generated_at": "<iso>", "routes": { "/path": { "views": n, "provider_clicks": n, "outbound_clicks": n } } }`.
-The audit picks that file up automatically. Without it, the traffic sections
+`{ "generated_at": "<iso>", "since": "<iso window start, empty for all time>", "routes": { "/path": { "views": n, "provider_clicks": n, "outbound_clicks": n, "outbound_by_provider": { "<provider>": n } } } }`.
+The audit, and `report:event-indexing-pilot`, pick that file up automatically. Without it, the traffic sections
 report as unavailable rather than inventing numbers.
 
 ---

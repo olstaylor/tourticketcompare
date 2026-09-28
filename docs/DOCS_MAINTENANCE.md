@@ -40,7 +40,7 @@ These artifacts are generated and must never be hand-edited:
 | `data/content-provenance.json` | `npm run content:provenance` after editing guide or trust-page copy | `content:provenance:check` in `test:mvp` |
 | `public/og/*.png` + `functions/_og-cards.generated.js` | `npm run og:build` after adding an artist, guide or blog post | `og:check` in `test:mvp` — partial, see below; `og:coverage:check` in the generated-freshness sensor |
 
-`data/event-indexing-pilot.json` is the opposite case: hand-frozen experiment metadata for the event-page indexing pilot, written once when the cohort was chosen. It is never regenerated or "refreshed" — members that drop out stay listed so the original cohort can be reconstructed — and `test:event-indexability` pins `EVENT_INDEXING_PILOT_KEYS` to it. The only expected edit is recording `launch_date` after production verification. It is not a status document.
+`data/event-indexing-pilot.json` is the opposite case: hand-frozen experiment metadata for the event-page indexing pilot, written once when the cohort was chosen. It is never regenerated or "refreshed" — members that drop out stay listed so the original cohort can be reconstructed — and `test:event-indexability` pins `EVENT_INDEXING_PILOT_KEYS` to it. The only expected edit was recording `launch_date` after production verification (done: 2026-09-27); `npm run report:event-indexing-pilot` reads it and never writes it. It is not a status document.
 
 Two caveats worth knowing rather than discovering:
 

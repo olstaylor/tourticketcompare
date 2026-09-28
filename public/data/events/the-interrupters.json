@@ -565,13 +565,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669193",
+        "url": "https://www.stubhub.ie/the-interrupters-brooklyn-tickets-4-4-2027/event/107669193",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_K6Y5uWc",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284355",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284355/The-Interrupters-tickets-Sun-Apr-4-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284355/The-Interrupters-tickets-Sun-Apr-4-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/the-interrupters-brooklyn-tickets-4-4-2027/event/107669193"
   },
   {
     "id": "tm-the-interrupters-2027-boston-vv1avzkftgkexzmrt",

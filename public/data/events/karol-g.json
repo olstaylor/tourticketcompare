@@ -755,11 +755,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162167",
-        "url": "https://www.stubhub.ie/karol-g-houston-tickets-9-27-2026/event/107162167",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_aKCFR2W",
@@ -767,7 +767,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-houston-tickets-9-27-2026/event/107162167"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-karol-g-2026-miami-vvg1vz_a38lpr5",

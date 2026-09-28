@@ -60,13 +60,21 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667087",
+        "url": "https://www.stubhub.ie/too-many-zooz-brooklyn-tickets-10-30-2026/event/107667087",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_opjosBe",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235574",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235574/Too-Many-Zooz-tickets-Fri-Oct-30-2026-Brooklyn-Bowl-NY"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235574/Too-Many-Zooz-tickets-Fri-Oct-30-2026-Brooklyn-Bowl-NY",
+    "stubhub_international_url": "https://www.stubhub.ie/too-many-zooz-brooklyn-tickets-10-30-2026/event/107667087"
   },
   {
     "id": "tm-too-many-zooz-2027-wroclaw-z698xzqpz1kcapprk",

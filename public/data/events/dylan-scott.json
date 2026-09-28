@@ -787,13 +787,21 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668644",
+        "url": "https://www.stubhub.ie/dylan-scott-boston-tickets-2-6-2027/event/107668644",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkftGkeyYgcG",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268829",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268829/Dylan-Scott-tickets-Sat-Feb-6-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268829/Dylan-Scott-tickets-Sat-Feb-6-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-scott-boston-tickets-2-6-2027/event/107668644"
   },
   {
     "id": "tm-dylan-scott-2027-denver-z7r9jz1aavse_",

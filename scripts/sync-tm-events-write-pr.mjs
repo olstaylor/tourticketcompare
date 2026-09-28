@@ -218,7 +218,12 @@ function partitionReport(report, namesBySlug) {
       continue;
     }
     if (artist.live_lookup !== "ok") {
-      skippedArtists.push({ slug, reason: `live lookup ${artist.live_lookup || "unavailable"} — refusing to write from an incomplete fetch` });
+      // Carry the status the recogniser saw, so the coverage issue says why
+      // (on 2026-09-27 all 83 lookups were HTTP 429 and the issue only said
+      // "failed").
+      const status = (artist.warnings || []).map((w) => /\bHTTP (\d{3})\b/.exec(String(w))?.[1]).find(Boolean);
+      const detail = status ? ` (HTTP ${status})` : "";
+      skippedArtists.push({ slug, reason: `live lookup ${artist.live_lookup || "unavailable"}${detail} — refusing to write from an incomplete fetch` });
       continue;
     }
     const name = namesBySlug.get(slug) || slug;
@@ -508,6 +513,7 @@ function selfTest() {
         artist_slug: "beyonce",
         eligible: true,
         live_lookup: "failed",
+        warnings: ["Discovery API returned HTTP 429 No files were written."],
         rows: [{ ...longRow, disposition: "proposed" }],
       },
       {
@@ -524,6 +530,10 @@ function selfTest() {
   assert(
     "partition skips artists with a non-ok live lookup (never writes from a partial fetch)",
     part.skippedArtists.some((s) => s.slug === "beyonce")
+  );
+  assert(
+    "a failed lookup's skip reason carries the HTTP status the recogniser saw",
+    part.skippedArtists.find((s) => s.slug === "beyonce")?.reason.startsWith("live lookup failed (HTTP 429) — ")
   );
   assert(
     "partition skips ineligible artists",

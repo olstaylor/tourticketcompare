@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107277078",
+        "url": "https://www.stubhub.ie/amble-tickets-sheffield-octagon-centre-28-9-2026/event/107277078",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_5SAGy5T",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-sheffield-octagon-centre-28-9-2026/event/107277078"
   },
   {
     "id": "tm-amble-2026-glasgow-g5dzz_5s1tpu0",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107277081",
+        "url": "https://www.stubhub.ie/amble-tickets-glasgow-o2-academy-glasgow-30-9-2026/event/107277081",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_5S1TPu0",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-glasgow-o2-academy-glasgow-30-9-2026/event/107277081"
   },
   {
     "id": "tm-amble-2026-newcastle-upon-tyne-g5dzz_clsmpcl",
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107277080",
+        "url": "https://www.stubhub.ie/amble-tickets-manchester-o2-apollo-manchester-3-10-2026/event/107277080",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G65bdcGVP",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-manchester-o2-apollo-manchester-3-10-2026/event/107277080"
   },
   {
     "id": "tm-amble-2026-nottingham-g5vhz_5y-lcue",
@@ -258,11 +282,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107258196",
+        "url": "https://www.stubhub.ie/amble-tickets-nottingham-rock-city-5-10-2026/event/107258196",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_5Y-lCuE",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-nottingham-rock-city-5-10-2026/event/107258196"
   },
   {
     "id": "tm-amble-2026-cardiff-g5vhz_5sqgbqz",
@@ -378,13 +410,21 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107258194",
+        "url": "https://www.stubhub.ie/amble-tickets-london-o2-academy-brixton-8-10-2026/event/107258194",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_5SZ3VmK",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290449",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290449/Amble-tickets-Thu-Oct-8-2026-O2-Academy-Brixton"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290449/Amble-tickets-Thu-Oct-8-2026-O2-Academy-Brixton",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-london-o2-academy-brixton-8-10-2026/event/107258194"
   },
   {
     "id": "tm-amble-2026-los-angeles-vv170z_agkrleod6",
@@ -935,13 +975,21 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107478110",
+        "url": "https://www.stubhub.ie/amble-brooklyn-tickets-11-7-2026/event/107478110",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_aD7J_qa",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930669",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930669/Amble-tickets-Sat-Nov-7-2026-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930669/Amble-tickets-Sat-Nov-7-2026-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-brooklyn-tickets-11-7-2026/event/107478110"
   },
   {
     "id": "tm-amble-2026-philadelphia-vv17fz_agkycvjx3",
@@ -1603,11 +1651,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107198141",
+        "url": "https://www.stubhub.ie/amble-tickets-madrid-sala-but-9-2-2027/event/107198141",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1koZfAA3",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-madrid-sala-but-9-2-2027/event/107198141"
   },
   {
     "id": "tm-amble-2027-barcelona-z698xz2qz16vb40_3f",
@@ -1656,11 +1712,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107198142",
+        "url": "https://www.stubhub.ie/amble-tickets-barcelona-sala-apolo-10-2-2027/event/107198142",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vb40_3F",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-barcelona-sala-apolo-10-2-2027/event/107198142"
   },
   {
     "id": "tm-amble-2027-johanneshov-z698xzq2z16v73foub",
@@ -1868,11 +1932,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107482906",
+        "url": "https://www.stubhub.ie/amble-tickets-belfast-ormeau-park-23-6-2027/event/107482906",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17CZv0G62QeTZl-",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-belfast-ormeau-park-23-6-2027/event/107482906"
   },
   {
     "id": "tm-amble-2027-co-dublin-17kzv0g62mxw25r",
@@ -2080,11 +2152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107483077",
+        "url": "https://www.stubhub.ie/amble-tickets-manchester-castlefield-bowl-8-7-2027/event/107483077",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_8UpT3W4",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-manchester-castlefield-bowl-8-7-2027/event/107483077"
   },
   {
     "id": "tm-amble-2027-london-g5vhz_8sflgki",

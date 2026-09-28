@@ -150,7 +150,7 @@
     "ticketmaster_event_id": "3E006451BF44444B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-23-10-2026/event/3E006451BF44444B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-london-o2-shepherds-bush-empire-10-23-2026/production/6703611",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-23-10-2026/event/3E006451BF44444B",
     "last_verified_at": null,
@@ -172,11 +172,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6703611,
+        "url": "https://www.vividseats.com/foy-vance-tickets-london-o2-shepherds-bush-empire-10-23-2026/production/6703611",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -203,7 +203,7 @@
     "ticketmaster_event_id": "3E006452D4136EDE",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-24-10-2026/event/3E006452D4136EDE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-london-o2-shepherds-bush-empire-10-24-2026/production/6703609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foy-vance-world-tour-london-24-10-2026/event/3E006452D4136EDE",
     "last_verified_at": null,
@@ -225,11 +225,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6703609,
+        "url": "https://www.vividseats.com/foy-vance-tickets-london-o2-shepherds-bush-empire-10-24-2026/production/6703609",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -423,7 +423,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7-9fP",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9fP",
     "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/los-angeles-california-el-rey-theatre-los-angeles-2026-11-06-8-pm/concert/18085658",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-los-angeles-el-rey-theatre-los-angeles-11-6-2026/production/6690671",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-9fP",
     "last_verified_at": null,
@@ -445,11 +445,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690671,
+        "url": "https://www.vividseats.com/foy-vance-tickets-los-angeles-el-rey-theatre-los-angeles-11-6-2026/production/6690671",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -492,7 +492,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7--kd",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kd",
     "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/los-angeles-california-el-rey-theatre-los-angeles-2026-11-07-8-pm/concert/18085660",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-los-angeles-el-rey-theatre-los-angeles-11-7-2026/production/6689449",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kd",
     "last_verified_at": null,
@@ -514,11 +514,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6689449,
+        "url": "https://www.vividseats.com/foy-vance-tickets-los-angeles-el-rey-theatre-los-angeles-11-7-2026/production/6689449",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -561,7 +561,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvFFZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFFZ",
     "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/portland-oregon-aladdin-theater-2026-11-10-7-pm/concert/18085699",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-portland-aladdin-theater-11-10-2026/production/6685300",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvFFZ",
     "last_verified_at": null,
@@ -583,11 +583,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6685300,
+        "url": "https://www.vividseats.com/foy-vance-tickets-portland-aladdin-theater-11-10-2026/production/6685300",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -630,7 +630,7 @@
     "ticketmaster_event_id": "0F00644CEDA8F124",
     "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-seattle-washington-11-13-2026/event/0F00644CEDA8F124",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-seattle-the-neptune-theatre-11-13-2026--concerts-alternative/production/6682762",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-seattle-washington-11-13-2026/event/0F00644CEDA8F124",
     "last_verified_at": null,
@@ -652,11 +652,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6682762,
+        "url": "https://www.vividseats.com/foy-vance-tickets-seattle-the-neptune-theatre-11-13-2026--concerts-alternative/production/6682762",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -821,7 +821,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7--ke",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--ke",
     "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/englewood-colorado-gothic-theatre-2026-11-21-7-pm/concert/18085728",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-englewood-gothic-theatre-11-21-2026/production/6683035",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--ke",
     "last_verified_at": null,
@@ -843,11 +843,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6683035,
+        "url": "https://www.vividseats.com/foy-vance-tickets-englewood-gothic-theatre-11-21-2026/production/6683035",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -943,7 +943,7 @@
     "ticketmaster_event_id": "2000644C9D3B3801",
     "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-20262027-birmingham-alabama-04-07-2027/event/2000644C9D3B3801",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-birmingham-iron-city-birmingham-4-7-2027--concerts-alternative/production/6682776",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-20262027-birmingham-alabama-04-07-2027/event/2000644C9D3B3801",
     "last_verified_at": null,
@@ -965,11 +965,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6682776,
+        "url": "https://www.vividseats.com/foy-vance-tickets-birmingham-iron-city-birmingham-4-7-2027--concerts-alternative/production/6682776",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1012,7 +1012,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7--kA",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kA",
     "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/atlanta-georgia-variety-playhouse-2027-04-08-7-pm/concert/18085786",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-atlanta-variety-playhouse-4-8-2027/production/6694108",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--kA",
     "last_verified_at": null,
@@ -1034,11 +1034,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6694108,
+        "url": "https://www.vividseats.com/foy-vance-tickets-atlanta-variety-playhouse-4-8-2027/production/6694108",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1081,7 +1081,7 @@
     "ticketmaster_event_id": "1B00644CA16DCDB6",
     "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-knoxville-tennessee-04-10-2027/event/1B00644CA16DCDB6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-knoxville-bijou-theatre---knoxville-4-10-2027--concerts-alternative/production/6682783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-knoxville-tennessee-04-10-2027/event/1B00644CA16DCDB6",
     "last_verified_at": null,
@@ -1103,11 +1103,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6682783,
+        "url": "https://www.vividseats.com/foy-vance-tickets-knoxville-bijou-theatre---knoxville-4-10-2027--concerts-alternative/production/6682783",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1203,7 +1203,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7JfGw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JfGw",
     "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/saint-paul-minnesota-fitzgerald-theater-2027-04-15-7-pm/concert/18085797",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-saint-paul-fitzgerald-theater-4-15-2027/production/6683158",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JfGw",
     "last_verified_at": null,
@@ -1225,11 +1225,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6683158,
+        "url": "https://www.vividseats.com/foy-vance-tickets-saint-paul-fitzgerald-theater-4-15-2027/production/6683158",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1272,7 +1272,7 @@
     "ticketmaster_event_id": "10006451D2F363B1",
     "ticketmaster_url": "https://www.ticketmaster.ca/foy-vance-world-tour-2026-2027-toronto-ontario-04-21-2027/event/10006451D2F363B1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-toronto-the-danforth-music-hall-4-21-2027--concerts-alternative/production/6682788",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/foy-vance-world-tour-2026-2027-toronto-ontario-04-21-2027/event/10006451D2F363B1",
     "last_verified_at": null,
@@ -1294,11 +1294,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6682788,
+        "url": "https://www.vividseats.com/foy-vance-tickets-toronto-the-danforth-music-hall-4-21-2027--concerts-alternative/production/6682788",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1325,7 +1325,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PNjx",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNjx",
     "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/york-pennsylvania-appell-center-for-the-performing-arts-capitol-theatre-2027-04-27-7-pm/concert/18387603",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-york-appell-center-for-the-performing-arts---capitol-theatre-4-27-2027/production/6690689",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PNjx",
     "last_verified_at": null,
@@ -1347,11 +1347,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690689,
+        "url": "https://www.vividseats.com/foy-vance-tickets-york-appell-center-for-the-performing-arts---capitol-theatre-4-27-2027/production/6690689",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1394,7 +1394,7 @@
     "ticketmaster_event_id": "0100644CDCC23B32",
     "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boston-massachusetts-05-01-2027/event/0100644CDCC23B32",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-boston-the-wilbur-5-1-2027/production/6683021",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-boston-massachusetts-05-01-2027/event/0100644CDCC23B32",
     "last_verified_at": null,
@@ -1416,11 +1416,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6683021,
+        "url": "https://www.vividseats.com/foy-vance-tickets-boston-the-wilbur-5-1-2027/production/6683021",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

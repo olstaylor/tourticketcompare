@@ -81,7 +81,7 @@
     "ticketmaster_event_id": "0F0064BCABFDBB2E",
     "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-kenai-alaska-10-09-2026/event/0F0064BCABFDBB2E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-kenai-kenai-central-high-school-auditorium-10-9-2026--concerts-blues-and-jazz/production/7116717",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-kenai-alaska-10-09-2026/event/0F0064BCABFDBB2E",
     "last_verified_at": null,
@@ -103,11 +103,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7116717,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-kenai-kenai-central-high-school-auditorium-10-9-2026--concerts-blues-and-jazz/production/7116717",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -134,7 +134,7 @@
     "ticketmaster_event_id": "0F0064BB07F76F31",
     "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-fairbanks-alaska-10-11-2026/event/0F0064BB07F76F31",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-fairbanks-hering-auditorium-10-11-2026--concerts-blues-and-jazz/production/7116705",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-fairbanks-alaska-10-11-2026/event/0F0064BB07F76F31",
     "last_verified_at": null,
@@ -156,11 +156,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7116705,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-fairbanks-hering-auditorium-10-11-2026--concerts-blues-and-jazz/production/7116705",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -256,7 +256,7 @@
     "ticketmaster_event_id": "2D00649EA0C22797",
     "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-charleston-south-carolina-12-03-2026/event/2D00649EA0C22797",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-charleston-charleston-music-hall-12-3-2026/production/6999445",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-charleston-south-carolina-12-03-2026/event/2D00649EA0C22797",
     "last_verified_at": null,
@@ -278,11 +278,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6999445,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-charleston-charleston-music-hall-12-3-2026/production/6999445",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -309,7 +309,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvS4z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4z",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-newberry-newberry-opera-house-12-4-2026/production/7004135",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS4z",
     "last_verified_at": null,
@@ -331,11 +331,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7004135,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-newberry-newberry-opera-house-12-4-2026/production/7004135",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -378,7 +378,7 @@
     "ticketmaster_event_id": "1B00649D92C7D01E",
     "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-chattanooga-tennessee-12-05-2026/event/1B00649D92C7D01E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-chattanooga-walker-theatre---tn-12-5-2026/production/6996770",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-chattanooga-tennessee-12-05-2026/event/1B00649D92C7D01E",
     "last_verified_at": null,
@@ -400,11 +400,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6996770,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-chattanooga-walker-theatre---tn-12-5-2026/production/6996770",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -553,7 +553,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70b-I",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-I",
     "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/atlanta-georgia-variety-playhouse-2026-12-09-8-pm/concert/18237606",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-atlanta-variety-playhouse-12-9-2026/production/6999576",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-I",
     "last_verified_at": null,
@@ -575,11 +575,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6999576,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-atlanta-variety-playhouse-12-9-2026/production/6999576",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -622,7 +622,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70KZe",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70KZe",
     "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/ponte-vedra-beach-florida-ponte-vedra-concert-hall-2026-12-10-7-pm/concert/18237612",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-ponte-vedra-beach-ponte-vedra-concert-hall-12-10-2026/production/6998536",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70KZe",
     "last_verified_at": null,
@@ -644,11 +644,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6998536,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-ponte-vedra-beach-ponte-vedra-concert-hall-12-10-2026/production/6998536",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -691,7 +691,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70b-E",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-E",
     "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/orlando-florida-the-plaza-live-2026-12-11-8-pm/concert/18237614",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-orlando-the-plaza-live-theatre-orlando-12-11-2026/production/6997686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70b-E",
     "last_verified_at": null,
@@ -713,11 +713,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6997686,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-orlando-the-plaza-live-theatre-orlando-12-11-2026/production/6997686",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -744,7 +744,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv8__",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8__",
     "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/clearwater-florida-bilheimer-capitol-theatre-2026-12-12-7-pm/concert/18237615",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-clearwater-nancy-and-david-bilheimer-capitol-theatre-12-12-2026/production/7004129",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8__",
     "last_verified_at": null,
@@ -766,11 +766,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7004129,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-clearwater-nancy-and-david-bilheimer-capitol-theatre-12-12-2026/production/7004129",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -919,7 +919,7 @@
     "ticketmaster_event_id": "0600652981F44312",
     "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-des-moines-iowa-01-23-2027/event/0600652981F44312",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-des-moines-hoyt-sherman-place-1-23-2027/production/7562573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-des-moines-iowa-01-23-2027/event/0600652981F44312",
     "last_verified_at": null,
@@ -941,11 +941,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7562573,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-des-moines-hoyt-sherman-place-1-23-2027/production/7562573",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1126,7 +1126,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvSpv",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpv",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-champaign-virginia-theatre-1-26-2027--concerts-blues-and-jazz/production/7565009",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpv",
     "last_verified_at": null,
@@ -1148,11 +1148,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7565009,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-champaign-virginia-theatre-1-26-2027--concerts-blues-and-jazz/production/7565009",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1248,7 +1248,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvSpe",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpe",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-grand-rapids-st-cecilia-music-center---royce-auditorium-1-29-2027/production/7563751",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpe",
     "last_verified_at": null,
@@ -1270,11 +1270,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7563751,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-grand-rapids-st-cecilia-music-center---royce-auditorium-1-29-2027/production/7563751",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1301,7 +1301,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvSpd",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpd",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-buffalo-asbury-hall-at-babeville-buffalo-1-31-2027/production/7564199",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpd",
     "last_verified_at": null,
@@ -1323,11 +1323,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7564199,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-buffalo-asbury-hall-at-babeville-buffalo-1-31-2027/production/7564199",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1423,7 +1423,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvSpA",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-albany-the-egg---hart-theatre-2-3-2027/production/7563755",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpA",
     "last_verified_at": null,
@@ -1445,11 +1445,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7563755,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-albany-the-egg---hart-theatre-2-3-2027/production/7563755",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1545,7 +1545,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvSp6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-fairfield-shu-community-theatre-2-5-2027/production/7566401",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp6",
     "last_verified_at": null,
@@ -1567,11 +1567,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7566401,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-fairfield-shu-community-theatre-2-5-2027/production/7566401",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1614,7 +1614,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvSpF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-charlottesville-paramount-theater-charlottesville-2-6-2027/production/7563398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSpF",
     "last_verified_at": null,
@@ -1636,11 +1636,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7563398,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-charlottesville-paramount-theater-charlottesville-2-6-2027/production/7563398",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

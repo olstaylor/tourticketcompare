@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "07006530B12859EE",
     "ticketmaster_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-madison-wisconsin-01-15-2027/event/07006530B12859EE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-madison-the-sylvee-1-15-2027/production/7588955",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmosphere-the-winter-carnival-tour-2027-madison-wisconsin-01-15-2027/event/07006530B12859EE",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7588955,
+        "url": "https://www.vividseats.com/atmosphere-tickets-madison-the-sylvee-1-15-2027/production/7588955",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -161,7 +161,7 @@
         "event_id": 7588971,
         "url": "https://www.vividseats.com/atmosphere-tickets-bozeman-the-elm---mt-1-23-2027--concerts-rap-hip-hop/production/7588971",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -231,7 +231,7 @@
         "event_id": 7589267,
         "url": "https://www.vividseats.com/atmosphere-tickets-spokane-knitting-factory-concert-house-spokane-1-24-2027/production/7589267",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -276,7 +276,7 @@
     "ticketmaster_event_id": "1100652F902D7B36",
     "ticketmaster_url": "https://www.ticketmaster.ca/atmosphere-the-winter-carnival-tour-2027-vancouver-british-columbia-01-26-2027/event/1100652F902D7B36",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-vancouver-commodore-ballroom-1-26-2027--concerts-rap-hip-hop/production/7588977",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/atmosphere-the-winter-carnival-tour-2027-vancouver-british-columbia-01-26-2027/event/1100652F902D7B36",
     "last_verified_at": null,
@@ -298,11 +298,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7588977,
+        "url": "https://www.vividseats.com/atmosphere-tickets-vancouver-commodore-ballroom-1-26-2027--concerts-rap-hip-hop/production/7588977",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -371,7 +371,7 @@
         "event_id": 7588937,
         "url": "https://www.vividseats.com/atmosphere-tickets-eugene-mcdonald-theatre-1-28-2027--concerts-rap-hip-hop/production/7588937",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -441,7 +441,7 @@
         "event_id": 7589656,
         "url": "https://www.vividseats.com/atmosphere-tickets-reno-grand-theatre-at-grand-sierra-resort-1-29-2027/production/7589656",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -495,7 +495,7 @@
         "event_id": 7588975,
         "url": "https://www.vividseats.com/atmosphere-tickets-tucson-rialto-theatre-tucson-2-1-2027--concerts-rap-hip-hop/production/7588975",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -565,7 +565,7 @@
         "event_id": 7588973,
         "url": "https://www.vividseats.com/atmosphere-tickets-kansas-city-voodoo-at-harrahs-kansas-city-2-4-2027--concerts-rap-hip-hop/production/7588973",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -681,7 +681,7 @@
         "event_id": 7589664,
         "url": "https://www.vividseats.com/atmosphere-tickets-rockford-hard-rock-live---rockford-2-6-2027/production/7589664",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -849,7 +849,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeZfw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfw",
     "seatgeek_url": "https://seatgeek.com/atmosphere-tickets/west-des-moines-iowa-val-air-ballroom-2027-01-16-6-45-pm/concert/18609072",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-west-des-moines-val-air-ballroom-1-16-2027--concerts-rap-hip-hop/production/7588953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfw",
     "last_verified_at": null,
@@ -871,11 +871,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7588953,
+        "url": "https://www.vividseats.com/atmosphere-tickets-west-des-moines-val-air-ballroom-1-16-2027--concerts-rap-hip-hop/production/7588953",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1077,7 +1077,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeZ4O",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ4O",
     "seatgeek_url": "https://seatgeek.com/atmosphere-tickets/minneapolis-minnesota-first-avenue-minneapolis-2027-02-07-6-45-pm/concert/18609105",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-minneapolis-first-avenue-2-7-2027--concerts-rap-hip-hop/production/7588961",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ4O",
     "last_verified_at": null,
@@ -1099,11 +1099,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7588961,
+        "url": "https://www.vividseats.com/atmosphere-tickets-minneapolis-first-avenue-2-7-2027--concerts-rap-hip-hop/production/7588961",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

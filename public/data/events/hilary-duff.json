@@ -736,12 +736,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668996",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-madrid-movistar-arena-palacio-de-los-deportes-7-5-2027/event/107668996",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vPO4y_t",
     "timezone": "Europe/Madrid",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T08:00:00Z"
+    "public_onsale_at": "2026-10-02T08:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-madrid-movistar-arena-palacio-de-los-deportes-7-5-2027/event/107668996"
   },
   {
     "id": "tm-hilary-duff-2027-milano-zg9rmiynyz776e",
@@ -898,12 +906,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668998",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-amsterdam-ziggo-dome-17-5-2027/event/107668998",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k3djpek",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T08:00:00Z"
+    "public_onsale_at": "2026-10-02T08:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-amsterdam-ziggo-dome-17-5-2027/event/107668998"
   },
   {
     "id": "tm-hilary-duff-2027-orlando-1axzkfugkdwff3y",

@@ -23734,11 +23734,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107325081",
-        "url": "https://www.stubhub.ie/charli-xcx-washington-tickets-9-28-2026/event/107325081",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6GKNsol1",
@@ -23746,7 +23746,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-washington-tickets-9-28-2026/event/107325081"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-charli-xcx-2026-atlanta-vvg1zz_g99-nfd",
@@ -31899,11 +31899,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107154079",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-glasgow-ovo-hydro-arena-glasgow-28-9-2026/event/107154079",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -31917,7 +31917,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-glasgow-ovo-hydro-arena-glasgow-28-9-2026/event/107154079",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -48710,18 +48710,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107164507",
-        "url": "https://www.stubhub.ie/five-finger-death-punch-austin-tickets-9-28-2026/event/107164507",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_eQGEVGg",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676476",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-austin-tickets-9-28-2026/event/107164507"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-fort-worth-vvg1yz_ehes4-b",
@@ -94683,13 +94683,21 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668031",
+        "url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-2-12-2027/event/107668031",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3NV0vjm",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258130",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258130/Andrea-Bocelli-tickets-Fri-Feb-12-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258130/Andrea-Bocelli-tickets-Fri-Feb-12-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-2-12-2027/event/107668031"
   },
   {
     "id": "tm-andrea-bocelli-2027-hollywood-vvg1vz_3ervkx7",
@@ -94752,13 +94760,21 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668032",
+        "url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-2-13-2027/event/107668032",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3ERvKx7",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258131",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258131/Andrea-Bocelli-tickets-Sat-Feb-13-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258131/Andrea-Bocelli-tickets-Sat-Feb-13-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-2-13-2027/event/107668032"
   },
   {
     "id": "tm-tobymac-2027-fairfax-1a4zkf_gkd7dmjf",
@@ -109298,12 +109314,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668996",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-madrid-movistar-arena-palacio-de-los-deportes-7-5-2027/event/107668996",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vPO4y_t",
     "timezone": "Europe/Madrid",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T08:00:00Z"
+    "public_onsale_at": "2026-10-02T08:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-madrid-movistar-arena-palacio-de-los-deportes-7-5-2027/event/107668996"
   },
   {
     "id": "tm-hilary-duff-2027-milano-zg9rmiynyz776e",
@@ -109460,12 +109484,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668998",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-amsterdam-ziggo-dome-17-5-2027/event/107668998",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k3djpek",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T08:00:00Z"
+    "public_onsale_at": "2026-10-02T08:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-amsterdam-ziggo-dome-17-5-2027/event/107668998"
   },
   {
     "id": "tm-hilary-duff-2027-orlando-1axzkfugkdwff3y",
@@ -141704,17 +141736,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107277078",
-        "url": "https://www.stubhub.ie/amble-tickets-sheffield-octagon-centre-28-9-2026/event/107277078",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_5SAGy5T",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-sheffield-octagon-centre-28-9-2026/event/107277078"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-amble-2026-glasgow-g5dzz_5s1tpu0",

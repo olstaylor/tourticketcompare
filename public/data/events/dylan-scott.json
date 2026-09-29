@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvSep",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSep",
     "seatgeek_url": "https://seatgeek.com/dylan-scott-tickets/dallas-texas-the-bomb-factory-dallas-2026-10-15-8-pm/concert/18603387",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-dallas-the-bomb-factory-10-15-2026/production/7231636",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSep",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7231636,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-dallas-the-bomb-factory-10-15-2026/production/7231636",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -81,7 +81,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvSe9",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe9",
     "seatgeek_url": "https://seatgeek.com/dylan-scott-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-24-8-pm/concert/18526286",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-milwaukee-the-rave-eagles-club-10-24-2026/production/7453602",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe9",
     "last_verified_at": null,
@@ -103,11 +103,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7453602,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-milwaukee-the-rave-eagles-club-10-24-2026/production/7453602",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -134,7 +134,7 @@
     "ticketmaster_event_id": "00006516D252F91B",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-westbury-new-york-11-06-2026/event/00006516D252F91B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-westbury-flagstar-at-westbury-music-fair-11-6-2026/production/7474215",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-westbury-new-york-11-06-2026/event/00006516D252F91B",
     "last_verified_at": null,
@@ -156,11 +156,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7474215,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-westbury-flagstar-at-westbury-music-fair-11-6-2026/production/7474215",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -187,7 +187,7 @@
     "ticketmaster_event_id": "08006528C301581E",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-detroit-michigan-01-21-2027/event/08006528C301581E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-detroit-the-fillmore-detroit-1-21-2027/production/7564207",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-detroit-michigan-01-21-2027/event/08006528C301581E",
     "last_verified_at": null,
@@ -209,11 +209,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7564207,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-detroit-the-fillmore-detroit-1-21-2027/production/7564207",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -256,7 +256,7 @@
     "ticketmaster_event_id": "08006528AF5E461E",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-grand-rapids-michigan-01-22-2027/event/08006528AF5E461E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-grand-rapids-glc-live-at-20-monroe-1-22-2027/production/7564976",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-grand-rapids-michigan-01-22-2027/event/08006528AF5E461E",
     "last_verified_at": null,
@@ -278,11 +278,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7564976,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-grand-rapids-glc-live-at-20-monroe-1-22-2027/production/7564976",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -325,7 +325,7 @@
     "ticketmaster_event_id": "2100652ACF9E5751",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-waukee-iowa-01-23-2027/event/2100652ACF9E5751",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-waukee-vibrant-music-hall-1-23-2027/production/7564243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-waukee-iowa-01-23-2027/event/2100652ACF9E5751",
     "last_verified_at": null,
@@ -347,11 +347,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7564243,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-waukee-vibrant-music-hall-1-23-2027/production/7564243",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -394,7 +394,7 @@
     "ticketmaster_event_id": "0600652EA31C6E37",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-sioux-falls-south-dakota-01-28-2027/event/0600652EA31C6E37",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-sioux-falls-sanford-pentagon-1-28-2027/production/7564984",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-sioux-falls-south-dakota-01-28-2027/event/0600652EA31C6E37",
     "last_verified_at": null,
@@ -416,11 +416,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7564984,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-sioux-falls-sanford-pentagon-1-28-2027/production/7564984",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -463,7 +463,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvSeb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSeb",
     "seatgeek_url": "https://seatgeek.com/dylan-scott-tickets/bismarck-north-dakota-bismarck-event-center-2027-01-29-7-30-pm/concert/18603379",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-bismarck-bismarck-event-center-1-29-2027/production/7570488",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSeb",
     "last_verified_at": null,
@@ -485,11 +485,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7570488,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-bismarck-bismarck-event-center-1-29-2027/production/7570488",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -532,7 +532,7 @@
     "ticketmaster_event_id": "0600652AE2370CD9",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-rochester-minnesota-01-30-2027/event/0600652AE2370CD9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-rochester-mayo-civic-center-auditorium-1-30-2027/production/7564991",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-rochester-minnesota-01-30-2027/event/0600652AE2370CD9",
     "last_verified_at": null,
@@ -554,11 +554,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7564991,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-rochester-mayo-civic-center-auditorium-1-30-2027/production/7564991",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -601,7 +601,7 @@
     "ticketmaster_event_id": "0200652AE3A47089",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-philadelphia-pennsylvania-02-04-2027/event/0200652AE3A47089",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-philadelphia-the-fillmore-philadelphia-2-4-2027/production/7564998",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-philadelphia-pennsylvania-02-04-2027/event/0200652AE3A47089",
     "last_verified_at": null,
@@ -623,11 +623,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7564998,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-philadelphia-the-fillmore-philadelphia-2-4-2027/production/7564998",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -670,7 +670,7 @@
     "ticketmaster_event_id": "1D006529C69AD728",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-dear-big-city-tour-wallingford-connecticut-02-05-2027/event/1D006529C69AD728",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-wallingford-toyota-oakdale-theatre-2-5-2027/production/7565003",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-dear-big-city-tour-wallingford-connecticut-02-05-2027/event/1D006529C69AD728",
     "last_verified_at": null,
@@ -692,11 +692,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7565003,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-wallingford-toyota-oakdale-theatre-2-5-2027/production/7565003",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -739,7 +739,7 @@
     "ticketmaster_event_id": "01006529B9C35B4C",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-boston-massachusetts-02-06-2027/event/01006529B9C35B4C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-boston-mgm-music-hall-at-fenway-2-6-2027--concerts-country-and-folk/production/7564213",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-boston-massachusetts-02-06-2027/event/01006529B9C35B4C",
     "last_verified_at": null,
@@ -761,11 +761,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7564213,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-boston-mgm-music-hall-at-fenway-2-6-2027--concerts-country-and-folk/production/7564213",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -816,7 +816,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvSe_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe_",
     "seatgeek_url": "https://seatgeek.com/dylan-scott-tickets/denver-colorado-mission-ballroom-2027-02-18-8-pm/concert/18603380",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-denver-mission-ballroom-2-18-2027/production/7565837",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe_",
     "last_verified_at": null,
@@ -838,11 +838,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7565837,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-denver-mission-ballroom-2-18-2027/production/7565837",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -954,7 +954,7 @@
     "ticketmaster_event_id": "0600652BAAEAA01F",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-park-city-kansas-02-20-2027/event/0600652BAAEAA01F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-park-city-heartland-credit-union-arena-2-20-2027/production/7565013",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-park-city-kansas-02-20-2027/event/0600652BAAEAA01F",
     "last_verified_at": null,
@@ -976,11 +976,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7565013,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-park-city-heartland-credit-union-arena-2-20-2027/production/7565013",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1060,7 +1060,7 @@
     "ticketmaster_event_id": "1900652B9F335F2E",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-prescott-valley-arizona-02-26-2027/event/1900652B9F335F2E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-prescott-valley-findlay-toyota-center-2-26-2027/production/7564460",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-prescott-valley-arizona-02-26-2027/event/1900652B9F335F2E",
     "last_verified_at": null,
@@ -1082,11 +1082,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7564460,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-prescott-valley-findlay-toyota-center-2-26-2027/production/7564460",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1129,7 +1129,7 @@
     "ticketmaster_event_id": "1900652CFC68157E",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-chandler-arizona-02-27-2027/event/1900652CFC68157E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-chandler-gila-river-resorts-and-casinos---wild-horse-pass-2-27-2027/production/7565027",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-chandler-arizona-02-27-2027/event/1900652CFC68157E",
     "last_verified_at": null,
@@ -1151,11 +1151,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7565027,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-chandler-gila-river-resorts-and-casinos---wild-horse-pass-2-27-2027/production/7565027",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1198,7 +1198,7 @@
     "ticketmaster_event_id": "0F00652A8CEE53BC",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-scott-kennewick-washington-03-04-2027/event/0F00652A8CEE53BC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-kennewick-toyota-center---kennewick-3-4-2027/production/7564587",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-kennewick-washington-03-04-2027/event/0F00652A8CEE53BC",
     "last_verified_at": null,
@@ -1220,11 +1220,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7564587,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-kennewick-toyota-center---kennewick-3-4-2027/production/7564587",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1267,7 +1267,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvSvM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSvM",
     "seatgeek_url": "https://seatgeek.com/dylan-scott-tickets/spokane-washington-first-interstate-center-for-the-arts-2027-03-05-7-30-pm/concert/18603382",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-spokane-first-interstate-center-for-the-arts-3-5-2027/production/7564684",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSvM",
     "last_verified_at": null,
@@ -1289,11 +1289,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7564684,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-spokane-first-interstate-center-for-the-arts-3-5-2027/production/7564684",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1336,7 +1336,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvS7Z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS7Z",
     "seatgeek_url": "https://seatgeek.com/dylan-scott-tickets/wenatchee-washington-town-toyota-center-2027-03-06-7-30-pm/concert/18603381",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-wenatchee-town-toyota-center-3-6-2027/production/7568599",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS7Z",
     "last_verified_at": null,
@@ -1358,11 +1358,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7568599,
+        "url": "https://www.vividseats.com/dylan-scott-tickets-wenatchee-town-toyota-center-3-6-2027/production/7568599",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

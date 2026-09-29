@@ -47,7 +47,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 59
     env:
       IMPACT_CATALOG_PROXY_URL: https://tourticketcompare.com/api/impact/products
       # /api/impact/products is token-gated; without this the proxy returns 404.
@@ -74,6 +74,14 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Wait for older event-data writer runs
+        # Queues behind any older writer lane still in flight, then fast-forwards
+        # to the branch tip, so this run branches from a main that already holds
+        # their merges. See scripts/wait-for-writer-lanes.mjs.
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 14
 
       - uses: actions/setup-node@v4
         with:

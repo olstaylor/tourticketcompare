@@ -164,6 +164,7 @@
     "required-check:earn": "node scripts/earn-required-check.mjs",
     "required-check:self-test": "node scripts/earn-required-check.mjs --self-test",
     "push-branch:self-test": "node scripts/push-automation-branch.mjs --self-test",
+    "writer-lanes:self-test": "node scripts/wait-for-writer-lanes.mjs --self-test",
     "queue:materialize": "node scripts/materialize-work-queue.mjs",
     "queue:materialize:dry-run": "node scripts/materialize-work-queue.mjs --dry-run",
     "queue:materialize:self-test": "node scripts/materialize-work-queue.mjs --self-test",

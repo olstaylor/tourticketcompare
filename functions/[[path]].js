@@ -5510,6 +5510,7 @@ function eventPageDescription(artistName, venue, city, dateLabel, state) {
   if (!state.commerciallyLive) return fitMetaDescription(`${what}: when Ticketmaster's public on-sale opens, and ticket links once the date is on sale.`);
   return fitMetaDescription(
     `Checked ticket links for ${what}, with each ticket site's listed-price snapshot where one is available.`,
+    `Checked ticket links for ${what}. Listed prices are snapshots, not checkout totals.`,
     `Checked ticket links for ${what}.`
   );
 }

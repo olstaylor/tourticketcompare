@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107277078",
+        "url": "https://www.stubhub.ie/amble-tickets-sheffield-octagon-centre-28-9-2026/event/107277078",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_5SAGy5T",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-sheffield-octagon-centre-28-9-2026/event/107277078"
   },
   {
     "id": "tm-amble-2026-glasgow-g5dzz_5s1tpu0",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107277081",
+        "url": "https://www.stubhub.ie/amble-tickets-glasgow-o2-academy-glasgow-30-9-2026/event/107277081",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_5S1TPu0",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-glasgow-o2-academy-glasgow-30-9-2026/event/107277081"
   },
   {
     "id": "tm-amble-2026-newcastle-upon-tyne-g5dzz_clsmpcl",
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107277080",
+        "url": "https://www.stubhub.ie/amble-tickets-manchester-o2-apollo-manchester-3-10-2026/event/107277080",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G65bdcGVP",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-manchester-o2-apollo-manchester-3-10-2026/event/107277080"
   },
   {
     "id": "tm-amble-2026-nottingham-g5vhz_5y-lcue",
@@ -258,11 +282,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107258196",
+        "url": "https://www.stubhub.ie/amble-tickets-nottingham-rock-city-5-10-2026/event/107258196",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_5Y-lCuE",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-nottingham-rock-city-5-10-2026/event/107258196"
   },
   {
     "id": "tm-amble-2026-cardiff-g5vhz_5sqgbqz",
@@ -364,11 +396,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8290449",
+        "url": "https://www.ticketnetwork.com/en/p/8290449",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290449",
+        "url": "https://www.ticketliquidator.com/tickets/8290449/Amble-tickets-Thu-Oct-8-2026-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107258194",
+        "url": "https://www.stubhub.ie/amble-tickets-london-o2-academy-brixton-8-10-2026/event/107258194",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_5SZ3VmK",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290449",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290449/Amble-tickets-Thu-Oct-8-2026-O2-Academy-Brixton",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-london-o2-academy-brixton-8-10-2026/event/107258194"
   },
   {
     "id": "tm-amble-2026-los-angeles-vv170z_agkrleod6",
@@ -470,11 +526,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056125",
+        "url": "https://www.ticketnetwork.com/en/p/8056125",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056125",
+        "url": "https://www.ticketliquidator.com/tickets/8056125/Amble-tickets-Sat-Oct-24-2026-The-Fillmore-San-Francisco",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GnTwbU0",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056125",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056125/Amble-tickets-Sat-Oct-24-2026-The-Fillmore-San-Francisco"
   },
   {
     "id": "tm-amble-2026-seattle-z7r9jz1a70p_0",
@@ -523,11 +595,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7930662",
+        "url": "https://www.ticketnetwork.com/en/p/7930662",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930662",
+        "url": "https://www.ticketliquidator.com/tickets/7930662/Amble-tickets-Mon-Oct-26-2026-The-Showbox",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70p_0",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930662",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930662/Amble-tickets-Mon-Oct-26-2026-The-Showbox"
   },
   {
     "id": "tm-amble-2026-vancouver-1av7z_agkmsrf76",
@@ -576,11 +664,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7936748",
+        "url": "https://www.ticketnetwork.com/en/p/7936748",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7936748",
+        "url": "https://www.ticketliquidator.com/tickets/7936748/Amble-tickets-Tue-Oct-27-2026-Orpheum-Theatre-Vancouver",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_aGkmSrF76",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7936748",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7936748/Amble-tickets-Tue-Oct-27-2026-Orpheum-Theatre-Vancouver"
   },
   {
     "id": "tm-amble-2026-detroit-vv1afzk39gkeeybaa",
@@ -788,11 +892,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7930665",
+        "url": "https://www.ticketnetwork.com/en/p/7930665",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930665",
+        "url": "https://www.ticketliquidator.com/tickets/7930665/Amble-tickets-Fri-Nov-6-2026-Citizens-House-Of-Blues-Boston",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_aGkwHeNYA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930665",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930665/Amble-tickets-Fri-Nov-6-2026-Citizens-House-Of-Blues-Boston"
   },
   {
     "id": "tm-amble-2026-brooklyn-k7vgf_ad7j_qa",
@@ -841,11 +961,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7930669",
+        "url": "https://www.ticketnetwork.com/en/p/7930669",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930669",
+        "url": "https://www.ticketliquidator.com/tickets/7930669/Amble-tickets-Sat-Nov-7-2026-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107478110",
+        "url": "https://www.stubhub.ie/amble-brooklyn-tickets-11-7-2026/event/107478110",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_aD7J_qa",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930669",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930669/Amble-tickets-Sat-Nov-7-2026-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-brooklyn-tickets-11-7-2026/event/107478110"
   },
   {
     "id": "tm-amble-2026-philadelphia-vv17fz_agkycvjx3",
@@ -947,11 +1091,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7930661",
+        "url": "https://www.ticketnetwork.com/en/p/7930661",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930661",
+        "url": "https://www.ticketliquidator.com/tickets/7930661/Amble-tickets-Wed-Nov-11-2026-930-Club",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_aGkmVpzjT",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930661",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930661/Amble-tickets-Wed-Nov-11-2026-930-Club"
   },
   {
     "id": "tm-amble-2026-atlanta-z7r9jz1a70p_n",
@@ -1000,11 +1160,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7938209",
+        "url": "https://www.ticketnetwork.com/en/p/7938209",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7938209",
+        "url": "https://www.ticketliquidator.com/tickets/7938209/Amble-tickets-Fri-Nov-13-2026-Terminal-West-At-King-Plow-Arts-Center",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70p_N",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7938209",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7938209/Amble-tickets-Fri-Nov-13-2026-Terminal-West-At-King-Plow-Arts-Center"
   },
   {
     "id": "tm-amble-2026-nashville-g5viz_gnxglok",
@@ -1053,11 +1229,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8055458",
+        "url": "https://www.ticketnetwork.com/en/p/8055458",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8055458",
+        "url": "https://www.ticketliquidator.com/tickets/8055458/Amble-tickets-Sat-Nov-14-2026-Brooklyn-Bowl-Nashville",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_GnXgLok",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8055458",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8055458/Amble-tickets-Sat-Nov-14-2026-Brooklyn-Bowl-Nashville"
   },
   {
     "id": "tm-amble-2026-new-orleans-g5viz_aeqhsnh",
@@ -1106,11 +1298,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7930663",
+        "url": "https://www.ticketnetwork.com/en/p/7930663",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930663",
+        "url": "https://www.ticketliquidator.com/tickets/7930663/Amble-tickets-Mon-Nov-16-2026-House-Of-Blues-New-Orleans",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_aEqHSnH",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930663",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930663/Amble-tickets-Mon-Nov-16-2026-House-Of-Blues-New-Orleans"
   },
   {
     "id": "tm-amble-2026-austin-g5diz_ahr-flp",
@@ -1212,11 +1420,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7930667",
+        "url": "https://www.ticketnetwork.com/en/p/7930667",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7930667",
+        "url": "https://www.ticketliquidator.com/tickets/7930667/Amble-tickets-Wed-Nov-18-2026-The-Echo-Lounge-and-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_161IQqj",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930667",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930667/Amble-tickets-Wed-Nov-18-2026-The-Echo-Lounge-and-Music-Hall"
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8h21y",
@@ -1427,11 +1651,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107198141",
+        "url": "https://www.stubhub.ie/amble-tickets-madrid-sala-but-9-2-2027/event/107198141",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1koZfAA3",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-madrid-sala-but-9-2-2027/event/107198141"
   },
   {
     "id": "tm-amble-2027-barcelona-z698xz2qz16vb40_3f",
@@ -1480,11 +1712,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107198142",
+        "url": "https://www.stubhub.ie/amble-tickets-barcelona-sala-apolo-10-2-2027/event/107198142",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vb40_3F",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-barcelona-sala-apolo-10-2-2027/event/107198142"
   },
   {
     "id": "tm-amble-2027-johanneshov-z698xzq2z16v73foub",
@@ -1692,11 +1932,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107482906",
+        "url": "https://www.stubhub.ie/amble-tickets-belfast-ormeau-park-23-6-2027/event/107482906",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17CZv0G62QeTZl-",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-belfast-ormeau-park-23-6-2027/event/107482906"
   },
   {
     "id": "tm-amble-2027-co-dublin-17kzv0g62mxw25r",
@@ -1904,11 +2152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107483077",
+        "url": "https://www.stubhub.ie/amble-tickets-manchester-castlefield-bowl-8-7-2027/event/107483077",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_8UpT3W4",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-manchester-castlefield-bowl-8-7-2027/event/107483077"
   },
   {
     "id": "tm-amble-2027-london-g5vhz_8sflgki",

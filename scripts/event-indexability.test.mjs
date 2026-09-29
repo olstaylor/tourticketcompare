@@ -325,6 +325,7 @@ const EVENTS = [STRONG, MULTI_A, MULTI_B, ONE_LANE, TWO_LANES, NO_SNAPSHOT, CANC
   assert("pilot record: 30 artists, 11 multi-date and 19 single-date cities", new Set(record.members.map((member) => member.artist_slug)).size === 30 && record.members.filter((member) => member.artist_city === "multi_date").length === 11 && record.members.filter((member) => member.artist_city === "single_date").length === 19);
   assert("pilot record: every member was selected with ≥2 destinations and ≥1 snapshot lane", record.members.every((member) => member.destinations >= 2 && member.snapshot_ready_lanes >= 1 && member.destination_lanes.length === member.destinations));
   assert("pilot record: selected on 2026-09-27 from the stated main", record.selected_on === "2026-09-27" && record.selected_from.main_sha === "596bacef4c6eb3a48519d484e5372500b3359db2");
+  assert("pilot record: launched (first served index,follow in production) on 2026-09-27", record.launch_date === "2026-09-27");
 
   const wrangler = fs.readFileSync(path.join(ROOT, "wrangler.toml"), "utf8");
   assert("rollout: wrangler.toml [vars] sets EVENT_PAGES_INDEXING = \"pilot\" (repo-managed, not dashboard-only)", /^EVENT_PAGES_INDEXING = "pilot"$/m.test(wrangler) && (await load("scripts/lib/event-indexability-audit.mjs")).wranglerVars(wrangler).EVENT_PAGES_INDEXING === "pilot");

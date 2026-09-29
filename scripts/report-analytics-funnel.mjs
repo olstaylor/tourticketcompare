@@ -170,12 +170,16 @@ GROUP BY 1`
       // cover: every other grouping is by artist, provider, or CTA location.
       // `source_path` is the page the beacon fired from, so this is the only
       // query that can answer "which routes earn views and clicks".
-      // Consumed by scripts/audit-indexable-surface.mjs via --route-traffic.
+      // Consumed by scripts/audit-indexable-surface.mjs and
+      // scripts/report-event-indexing-pilot.mjs via --route-traffic. Outbound
+      // rows keep their provider so a route's clicks can be split by lane.
       key: "trafficByRoute",
-      sql: `SELECT COALESCE(NULLIF(TRIM(source_path), ''), '(none)') AS source_path, event_name, COUNT(*) AS events
+      sql: `SELECT COALESCE(NULLIF(TRIM(source_path), ''), '(none)') AS source_path, event_name,
+  CASE WHEN event_name = 'outbound_click' THEN COALESCE(NULLIF(TRIM(provider), ''), '(none)') ELSE '' END AS provider,
+  COUNT(*) AS events
 FROM analytics_events
 WHERE event_name IN ('page_view', 'provider_click', 'outbound_click')${since}
-GROUP BY 1, 2`
+GROUP BY 1, 2, 3`
     },
     {
       key: "priceSnapshotSplit",
@@ -462,20 +466,26 @@ function selfTest() {
       [
         { source_path: "/artists/harry-styles", event_name: "page_view", events: 40 },
         { source_path: "/artists/harry-styles", event_name: "provider_click", events: 6 },
-        { source_path: "/artists/harry-styles", event_name: "outbound_click", events: 5 },
+        { source_path: "/artists/harry-styles", event_name: "outbound_click", provider: "vivid-seats", events: 3 },
+        { source_path: "/artists/harry-styles", event_name: "outbound_click", provider: "ticketmaster", events: 1 },
+        { source_path: "/artists/harry-styles", event_name: "outbound_click", provider: "(none)", events: 1 },
         { source_path: "/artists/harry-styles?utm_source=x#show-1", event_name: "page_view", events: 2 },
         { source_path: "/cities/london-united-kingdom/", event_name: "page_view", events: 3 },
         { source_path: "(none)", event_name: "page_view", events: 99 },
         { source_path: "", event_name: "page_view", events: 99 },
         { source_path: "https://evil.example/x", event_name: "page_view", events: 99 }
       ],
-      "2026-07-31T00:00:00.000Z"
+      "2026-07-31T00:00:00.000Z",
+      "2026-07-01T00:00:00.000Z"
     );
     assert.equal(shaped.generated_at, "2026-07-31T00:00:00.000Z");
+    assert.equal(shaped.since, "2026-07-01T00:00:00.000Z");
+    assert.equal(buildRouteTraffic([], "2026-07-31T00:00:00.000Z").since, "");
     // Query and hash are stripped, and the trailing slash normalises, so a
     // route's traffic is not split across several keys.
-    assert.deepEqual(shaped.routes["/artists/harry-styles"], { views: 42, provider_clicks: 6, outbound_clicks: 5 });
-    assert.deepEqual(shaped.routes["/cities/london-united-kingdom"], { views: 3, provider_clicks: 0, outbound_clicks: 0 });
+    // An outbound click with no provider counts in the total, not in a lane.
+    assert.deepEqual(shaped.routes["/artists/harry-styles"], { views: 42, provider_clicks: 6, outbound_clicks: 5, outbound_by_provider: { "vivid-seats": 3, ticketmaster: 1 } });
+    assert.deepEqual(shaped.routes["/cities/london-united-kingdom"], { views: 3, provider_clicks: 0, outbound_clicks: 0, outbound_by_provider: {} });
     // Unattributable rows are dropped rather than bucketed under a made-up path.
     assert.equal(Object.keys(shaped.routes).length, 2);
   });
@@ -613,10 +623,11 @@ function selfTest() {
  * report calls a provider click; both are carried so a consumer can tell the
  * difference between a click and a completed redirect.
  *
- * @param {Array<{source_path: string, event_name: string, events: number}>} rows
+ * @param {Array<{source_path: string, event_name: string, provider?: string, events: number}>} rows
  * @param {string} generatedAt ISO timestamp.
+ * @param {string} [sinceIso] Window start; "" for all time.
  */
-export function buildRouteTraffic(rows, generatedAt) {
+export function buildRouteTraffic(rows, generatedAt, sinceIso = "") {
   const routes = {};
   for (const row of Array.isArray(rows) ? rows : []) {
     const routePath = String(row?.source_path ?? "").trim();
@@ -624,13 +635,21 @@ export function buildRouteTraffic(rows, generatedAt) {
     // an unattributed beacon cannot be assigned to a route.
     if (!routePath || routePath === "(none)" || !routePath.startsWith("/")) continue;
     const clean = routePath.split("#")[0].split("?")[0].replace(/\/$/, "") || "/";
-    if (!routes[clean]) routes[clean] = { views: 0, provider_clicks: 0, outbound_clicks: 0 };
+    if (!routes[clean]) routes[clean] = { views: 0, provider_clicks: 0, outbound_clicks: 0, outbound_by_provider: {} };
     const count = Number(row.events) || 0;
     if (row.event_name === "page_view") routes[clean].views += count;
     else if (row.event_name === "provider_click") routes[clean].provider_clicks += count;
-    else if (row.event_name === "outbound_click") routes[clean].outbound_clicks += count;
+    else if (row.event_name === "outbound_click") {
+      routes[clean].outbound_clicks += count;
+      const provider = String(row.provider ?? "").trim();
+      // A click with no recorded provider stays in the total but is not
+      // assigned to a lane.
+      if (provider && provider !== "(none)") routes[clean].outbound_by_provider[provider] = (routes[clean].outbound_by_provider[provider] || 0) + count;
+    }
   }
-  return { generated_at: generatedAt, routes };
+  // `since` is the window start ("" = all time), so a consumer can state the
+  // period the counts cover.
+  return { generated_at: generatedAt, since: sinceIso, routes };
 }
 
 // ── Entry point ─────────────────────────────────────────────────────────────
@@ -661,7 +680,7 @@ async function main() {
   const resultSets = await runStatements(statements, options);
   const report = buildReport(resultSets, options, sinceIso);
   if (options.routeTraffic) {
-    const exported = buildRouteTraffic(resultSets.trafficByRoute, now.toISOString());
+    const exported = buildRouteTraffic(resultSets.trafficByRoute, now.toISOString(), sinceIso);
     const outPath = path.isAbsolute(options.routeTraffic)
       ? options.routeTraffic
       : path.join(REPO_ROOT, options.routeTraffic);

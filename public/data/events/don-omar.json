@@ -141,7 +141,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70EOA",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EOA",
-    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/hartford-connecticut-peoplesbank-arena-2026-09-27-8-pm/concert/18250875",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-hartford-peoplesbank-arena-9-27-2026/production/7047707",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EOA",
@@ -157,11 +157,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18250875,
-        "url": "https://seatgeek.com/don-omar-tickets/hartford-connecticut-peoplesbank-arena-2026-09-27-8-pm/concert/18250875",
-        "verified": true,
-        "last_verified_at": "2026-09-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7047707,
@@ -178,25 +178,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7976494",
-        "url": "https://www.ticketnetwork.com/en/p/7976494",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7976494",
-        "url": "https://www.ticketliquidator.com/tickets/7976494/Don-Omar-tickets-Sun-Sep-27-2026-PeoplesBank-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EOA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976494",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976494/Don-Omar-tickets-Sun-Sep-27-2026-PeoplesBank-Arena"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-don-omar-2026-dallas-vvg1yz_1d_hllv",
@@ -999,7 +999,7 @@
         "event_id": 18257187,
         "url": "https://seatgeek.com/don-omar-tickets/houston-texas-toyota-center-2026-10-23-8-pm/concert/18257187",
         "verified": true,
-        "last_verified_at": "2026-09-27",
+        "last_verified_at": "2026-09-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1222,7 +1222,7 @@
         "event_id": 18250878,
         "url": "https://seatgeek.com/don-omar-tickets/las-vegas-nevada-michelob-ultra-arena-at-mandalay-bay-resort-casino-2026-10-30-8-pm/concert/18250878",
         "verified": true,
-        "last_verified_at": "2026-09-27",
+        "last_verified_at": "2026-09-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1798,7 +1798,7 @@
         "event_id": 18333383,
         "url": "https://seatgeek.com/don-omar-tickets/san-diego-california-pechanga-arena-san-diego-2027-02-10-8-pm/concert/18333383",
         "verified": true,
-        "last_verified_at": "2026-09-27",
+        "last_verified_at": "2026-09-28",
         "availability_status": "listed"
       },
       "vivid-seats": {

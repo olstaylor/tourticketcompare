@@ -46,11 +46,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8235574",
+        "url": "https://www.ticketnetwork.com/en/p/8235574",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8235574",
+        "url": "https://www.ticketliquidator.com/tickets/8235574/Too-Many-Zooz-tickets-Fri-Oct-30-2026-Brooklyn-Bowl-NY",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667087",
+        "url": "https://www.stubhub.ie/too-many-zooz-brooklyn-tickets-10-30-2026/event/107667087",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_opjosBe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235574",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235574/Too-Many-Zooz-tickets-Fri-Oct-30-2026-Brooklyn-Bowl-NY",
+    "stubhub_international_url": "https://www.stubhub.ie/too-many-zooz-brooklyn-tickets-10-30-2026/event/107667087"
   },
   {
     "id": "tm-too-many-zooz-2027-wroclaw-z698xzqpz1kcapprk",
@@ -152,11 +176,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284720",
+        "url": "https://www.ticketnetwork.com/en/p/8284720",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284720",
+        "url": "https://www.ticketliquidator.com/tickets/8284720/Too-Many-Zooz-tickets-Fri-Mar-19-2027-The-Summit-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_Kkf1PnR",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284720",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284720/Too-Many-Zooz-tickets-Fri-Mar-19-2027-The-Summit-Music-Hall"
   },
   {
     "id": "tm-too-many-zooz-2027-houston-g5diz_kf4niru",
@@ -205,11 +245,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284721",
+        "url": "https://www.ticketnetwork.com/en/p/8284721",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284721",
+        "url": "https://www.ticketliquidator.com/tickets/8284721/Too-Many-Zooz-tickets-Fri-Apr-30-2027-White-Oak-Music-Hall-Downstairs",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KF4NirU",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284721",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284721/Too-Many-Zooz-tickets-Fri-Apr-30-2027-White-Oak-Music-Hall-Downstairs"
   },
   {
     "id": "tm-too-many-zooz-2027-tucson-z7r9jz1aavmvf",
@@ -258,11 +314,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284723",
+        "url": "https://www.ticketnetwork.com/en/p/8284723",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284723",
+        "url": "https://www.ticketliquidator.com/tickets/8284723/Too-Many-Zooz-tickets-Thu-May-6-2027-La-Rosa-Tucson",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvMvf",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284723",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284723/Too-Many-Zooz-tickets-Thu-May-6-2027-La-Rosa-Tucson"
   },
   {
     "id": "tm-too-many-zooz-2027-seattle-vvg1hz_3tamn7s",
@@ -311,10 +383,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284730",
+        "url": "https://www.ticketnetwork.com/en/p/8284730",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284730",
+        "url": "https://www.ticketliquidator.com/tickets/8284730/Too-Many-Zooz-tickets-Fri-May-14-2027-The-Neptune-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3TaMn7s",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284730",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284730/Too-Many-Zooz-tickets-Fri-May-14-2027-The-Neptune-Theatre"
   }
 ]

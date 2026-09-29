@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8244362",
+        "url": "https://www.ticketnetwork.com/en/p/8244362",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_oECoCX5",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244362"
   },
   {
     "id": "tm-yacht-rock-revue-2027-englewood-k7vgf_k9ovli-",
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284472",
+        "url": "https://www.ticketnetwork.com/en/p/8284472",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_K9OVLi-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284472"
   },
   {
     "id": "tm-yacht-rock-revue-2027-huntington-k7vgf_31y4afw",
@@ -364,11 +380,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284476",
+        "url": "https://www.ticketnetwork.com/en/p/8284476",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeefV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284476"
   },
   {
     "id": "tm-yacht-rock-revue-2027-ft-lauderdale-vvg1vz_3t9jx1c",
@@ -470,11 +494,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8281595",
+        "url": "https://www.ticketnetwork.com/en/p/8281595",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAevr7",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8281595"
   },
   {
     "id": "tm-yacht-rock-revue-2027-clearwater-z7r9jz1aaevfz",
@@ -523,11 +555,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284479",
+        "url": "https://www.ticketnetwork.com/en/p/8284479",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAevfZ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284479"
   },
   {
     "id": "tm-yacht-rock-revue-2027-melbourne-z7r9jz1aaee4f",
@@ -576,11 +616,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284482",
+        "url": "https://www.ticketnetwork.com/en/p/8284482",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAee4f",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284482"
   },
   {
     "id": "tm-yacht-rock-revue-2027-atlantic-city-vv1aezkfsgkeedrng",
@@ -629,11 +677,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284485",
+        "url": "https://www.ticketnetwork.com/en/p/8284485",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfsGkeEDrnG",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284485"
   },
   {
     "id": "tm-yacht-rock-revue-2027-bethlehem-vv17fz_3gkblhlrj",
@@ -735,11 +791,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284487",
+        "url": "https://www.ticketnetwork.com/en/p/8284487",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_3GkTkIH3j",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284487"
   },
   {
     "id": "tm-yacht-rock-revue-2027-nashville-g5viz_k26z3ab",
@@ -788,11 +852,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284489",
+        "url": "https://www.ticketnetwork.com/en/p/8284489",
+        "verified": true,
+        "last_verified_at": "2026-09-28",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_K26Z3Ab",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284489"
   },
   {
     "id": "tm-yacht-rock-revue-2027-chicago-vv178z_3gkmzl562",

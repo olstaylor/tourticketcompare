@@ -1567,7 +1567,7 @@
         "event_id": 18581453,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/houston-texas-toyota-center-2027-02-07-8-pm/concert/18581453",
         "verified": true,
-        "last_verified_at": "2026-09-27",
+        "last_verified_at": "2026-09-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1819,5 +1819,167 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258131",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258131/Andrea-Bocelli-tickets-Sat-Feb-13-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
+  },
+  {
+    "id": "tm-andrea-bocelli-2027-birmingham-1aegz_kgkwagold",
+    "artist_slug": "andrea-bocelli",
+    "artist_name": "Andrea Bocelli",
+    "event_name": "Andrea Bocelli",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Birmingham",
+    "datetime_iso": "2027-09-29T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300653C85D60AC3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/andrea-bocelli-birmingham-29-09-2027/event/2300653C85D60AC3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-birmingham-29-09-2027/event/2300653C85D60AC3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300653C85D60AC3",
+        "discovery_event_id": "1AeGZ_KGkwAgOld",
+        "url": "https://www.ticketmaster.co.uk/andrea-bocelli-birmingham-29-09-2027/event/2300653C85D60AC3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeGZ_KGkwAgOld",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T09:00:00Z"
+  },
+  {
+    "id": "tm-andrea-bocelli-2027-london-1adfz_kgkwkiv7i",
+    "artist_slug": "andrea-bocelli",
+    "artist_name": "Andrea Bocelli",
+    "event_name": "Andrea Bocelli",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-10-01T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500653C86A01128",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/andrea-bocelli-london-01-10-2027/event/3500653C86A01128",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-london-01-10-2027/event/3500653C86A01128",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500653C86A01128",
+        "discovery_event_id": "1AdfZ_KGkwkIv7I",
+        "url": "https://www.ticketmaster.co.uk/andrea-bocelli-london-01-10-2027/event/3500653C86A01128",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_KGkwkIv7I",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T09:00:00Z"
+  },
+  {
+    "id": "tm-andrea-bocelli-2027-glasgow-1adbz_k03jdzd5av",
+    "artist_slug": "andrea-bocelli",
+    "artist_name": "Andrea Bocelli",
+    "event_name": "Andrea Bocelli: Romanza - 30th Anniversary",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-10-09T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600653912983A40",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-glasgow-09-10-2027/event/3600653912983A40",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-glasgow-09-10-2027/event/3600653912983A40",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600653912983A40",
+        "discovery_event_id": "1adbZ_K03JdZd5Av",
+        "url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-glasgow-09-10-2027/event/3600653912983A40",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1adbZ_K03JdZd5Av",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T09:00:00Z"
   }
 ]

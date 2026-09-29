@@ -63,8 +63,9 @@
 // That mode groups `analytics_events` by `source_path` (the only grouping that
 // can answer "which routes earn views and clicks" — every other grouping in
 // that report is by artist, provider, or CTA location) and writes:
-//   { "generated_at": "<iso>",
-//     "routes": { "/path": { "views": n, "provider_clicks": n, "outbound_clicks": n } } }
+//   { "generated_at": "<iso>", "since": "<iso or "">",
+//     "routes": { "/path": { "views": n, "provider_clicks": n, "outbound_clicks": n,
+//                            "outbound_by_provider": { "<provider>": n } } } }
 //
 // This script picks that file up automatically. Without it the traffic sections
 // report as unavailable rather than inventing numbers.

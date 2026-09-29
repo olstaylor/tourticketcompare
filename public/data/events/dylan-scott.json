@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvSep",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSep",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-scott-tickets/dallas-texas-the-bomb-factory-dallas-2026-10-15-8-pm/concert/18603387",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSep",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603387,
+        "url": "https://seatgeek.com/dylan-scott-tickets/dallas-texas-the-bomb-factory-dallas-2026-10-15-8-pm/concert/18603387",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -80,7 +80,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvSe9",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-scott-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-24-8-pm/concert/18526286",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe9",
@@ -96,11 +96,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18526286,
+        "url": "https://seatgeek.com/dylan-scott-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-24-8-pm/concert/18526286",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -462,7 +462,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvSeb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSeb",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-scott-tickets/bismarck-north-dakota-bismarck-event-center-2027-01-29-7-30-pm/concert/18603379",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSeb",
@@ -478,11 +478,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603379,
+        "url": "https://seatgeek.com/dylan-scott-tickets/bismarck-north-dakota-bismarck-event-center-2027-01-29-7-30-pm/concert/18603379",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -815,7 +815,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvSe_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-scott-tickets/denver-colorado-mission-ballroom-2027-02-18-8-pm/concert/18603380",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSe_",
@@ -831,11 +831,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603380,
+        "url": "https://seatgeek.com/dylan-scott-tickets/denver-colorado-mission-ballroom-2027-02-18-8-pm/concert/18603380",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1266,7 +1266,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvSvM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSvM",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-scott-tickets/spokane-washington-first-interstate-center-for-the-arts-2027-03-05-7-30-pm/concert/18603382",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSvM",
@@ -1282,11 +1282,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603382,
+        "url": "https://seatgeek.com/dylan-scott-tickets/spokane-washington-first-interstate-center-for-the-arts-2027-03-05-7-30-pm/concert/18603382",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1335,7 +1335,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvS7Z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS7Z",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-scott-tickets/wenatchee-washington-town-toyota-center-2027-03-06-7-30-pm/concert/18603381",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvS7Z",
@@ -1351,11 +1351,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603381,
+        "url": "https://seatgeek.com/dylan-scott-tickets/wenatchee-washington-town-toyota-center-2027-03-06-7-30-pm/concert/18603381",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

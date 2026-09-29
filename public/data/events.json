@@ -23727,11 +23727,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034401",
-        "url": "https://www.ticketliquidator.com/tickets/8034401/Charli-XCX-tickets-Mon-Sep-28-2026-Capital-One-Arena",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107325081",
@@ -23745,7 +23745,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034401/Charli-XCX-tickets-Mon-Sep-28-2026-Capital-One-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-washington-tickets-9-28-2026/event/107325081"
   },
   {
@@ -31906,11 +31906,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7831767",
-        "url": "https://www.ticketliquidator.com/tickets/7831767/Niall-Horan-tickets-Mon-Sep-28-2026-OVO-Hydro",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkozGkeYxUgY",
@@ -31918,7 +31918,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-glasgow-ovo-hydro-arena-glasgow-28-9-2026/event/107154079",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831767/Niall-Horan-tickets-Mon-Sep-28-2026-OVO-Hydro"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-niall-horan-2026-sheffield-16gzkozpuza5kedv",

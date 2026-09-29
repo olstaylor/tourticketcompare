@@ -23720,11 +23720,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034401",
-        "url": "https://www.ticketnetwork.com/en/p/8034401",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8034401",
@@ -23744,7 +23744,7 @@
     "ticketmaster_discovery_event_id": "17A8v0G6GKNsol1",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034401",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034401/Charli-XCX-tickets-Mon-Sep-28-2026-Capital-One-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-washington-tickets-9-28-2026/event/107325081"
   },
@@ -31892,11 +31892,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7831767",
-        "url": "https://www.ticketnetwork.com/en/p/7831767",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107154079",
@@ -31916,7 +31916,7 @@
     "ticketmaster_discovery_event_id": "1AUZkozGkeYxUgY",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831767",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-glasgow-ovo-hydro-arena-glasgow-28-9-2026/event/107154079",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831767/Niall-Horan-tickets-Mon-Sep-28-2026-OVO-Hydro"
   },

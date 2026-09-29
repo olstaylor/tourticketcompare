@@ -1031,7 +1031,7 @@
         "event_id": 18166850,
         "url": "https://seatgeek.com/karol-g-tickets/arlington-texas-at-t-stadium-2026-10-15-7-pm/concert/18166850",
         "verified": true,
-        "last_verified_at": "2026-09-28",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1089,7 +1089,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "843841286",
     "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/843841286?language=en-us",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/karol-g-tickets/barcelona-spain-estadio-olimpico-lluis-companys-2027-06-03-8-pm/concert/18625638",
     "vividseats_url": "https://www.vividseats.com/karol-g-tickets-barcelona-estadi-olimpic-lluis-companys-6-3-2027--concerts-pop/production/6929157",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/843841286?language=en-us",
@@ -1105,11 +1105,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18625638,
+        "url": "https://seatgeek.com/karol-g-tickets/barcelona-spain-estadio-olimpico-lluis-companys-2027-06-03-8-pm/concert/18625638",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6929157,
@@ -1195,7 +1195,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "955641346",
     "ticketmaster_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/955641346?language=en-us",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/karol-g-tickets/sevilla-spain-estadio-de-la-cartuja-2027-06-11-8-pm/concert/18625635",
     "vividseats_url": "https://www.vividseats.com/karol-g-tickets-sevilla-estadio-la-cartuja-de-sevilla-6-11-2027--concerts-pop/production/6929163",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/karol-g-viajando-por-el-mundo-tropitour-tickets/955641346?language=en-us",
@@ -1211,11 +1211,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18625635,
+        "url": "https://seatgeek.com/karol-g-tickets/sevilla-spain-estadio-de-la-cartuja-2027-06-11-8-pm/concert/18625635",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6929163,

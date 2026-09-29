@@ -55,6 +55,22 @@ export const SENSOR_LABELS = Object.freeze([
   ["automation:prelaunch-validation", "Pull requests without a passing validation run", true]
 ]);
 
+// The same latch, one step removed: materialize-work-queue.mjs turns each
+// automation:health finding into its own work-queue item, so a failed run of
+// this workflow opens "Scheduled lane not completing: Site health", which then
+// failed every later run and kept itself open (2026-09-25..28, #1168). That
+// one item is linked, not gating; every other work-queue item still gates.
+export function workQueueItemGates(issue) {
+  const block = /```json\s*([\s\S]*?)```/.exec(String(issue?.body || ""));
+  if (!block) return true;
+  try {
+    const finding = JSON.parse(block[1]);
+    return !(finding?.source === "automation-health" && Array.isArray(finding.identity) && finding.identity.includes("site-health.yml"));
+  } catch {
+    return true;
+  }
+}
+
 const locsOf = (xml) => [...String(xml || "").matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1].trim());
 const decode = (value) =>
   String(value || "")
@@ -180,7 +196,7 @@ async function openSensorFindings(token, repo) {
     }
   }
   for (const issue of await get(`/issues?state=open&labels=work-queue&per_page=50`)) {
-    if (!issue.pull_request) items.push({ label: "work-queue", meaning: "Discrete repair item", gating: true, number: issue.number, title: issue.title, url: issue.html_url, updated: issue.updated_at });
+    if (!issue.pull_request) items.push({ label: "work-queue", meaning: "Discrete repair item", gating: workQueueItemGates(issue), number: issue.number, title: issue.title, url: issue.html_url, updated: issue.updated_at });
   }
   return { available: true, items };
 }
@@ -405,7 +421,12 @@ async function selfTest() {
   assert.equal(net.pages.transient_5xx.length, 0, "a network retry is not an origin 5xx");
   assert.deepEqual(net.pages.network_retries.map((t) => t.path), ["/a"]);
   assert.deepEqual(SENSOR_LABELS.find(([label]) => label === "automation:health")[2], false, "automation:health never gates site-health (circular)");
-  return 30;
+  const workItem = (finding) => ({ body: `<details>\n\n\`\`\`json\n${JSON.stringify(finding, null, 2)}\n\`\`\`\n\n</details>` });
+  assert.equal(workQueueItemGates(workItem({ source: "automation-health", identity: ["site-health.yml"] })), false, "the work item about site-health.yml itself never gates (circular)");
+  assert.equal(workQueueItemGates(workItem({ source: "automation-health", identity: ["vividseats-cta-sync.yml"] })), true, "another failing lane's work item still gates");
+  assert.equal(workQueueItemGates(workItem({ source: "generated-freshness", identity: ["og-cards"] })), true, "a non-health work item still gates");
+  assert.equal(workQueueItemGates({ body: "no machine-readable block" }), true, "an unparseable work item gates rather than hiding");
+  return 34;
 }
 
 async function main(argv) {

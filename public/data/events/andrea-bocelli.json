@@ -1236,13 +1236,21 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670725",
+        "url": "https://www.stubhub.ie/andrea-bocelli-charlotte-tickets-1-29-2027/event/107670725",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_8muTUYo",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258124",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258124/Andrea-Bocelli-tickets-Fri-Jan-29-2027-Spectrum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258124/Andrea-Bocelli-tickets-Fri-Jan-29-2027-Spectrum-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-charlotte-tickets-1-29-2027/event/107670725"
   },
   {
     "id": "tm-andrea-bocelli-2027-baltimore-1a4zkffgkepsf12",
@@ -1305,13 +1313,21 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670724",
+        "url": "https://www.stubhub.ie/andrea-bocelli-baltimore-tickets-1-31-2027/event/107670724",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkffGkePSF12",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258125",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258125/Andrea-Bocelli-tickets-Sun-Jan-31-2027-CFG-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258125/Andrea-Bocelli-tickets-Sun-Jan-31-2027-CFG-Bank-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-baltimore-tickets-1-31-2027/event/107670724"
   },
   {
     "id": "tm-andrea-bocelli-2027-atlanta-vvg1zz_36bbobm",
@@ -1374,13 +1390,21 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671371",
+        "url": "https://www.stubhub.ie/andrea-bocelli-atlanta-tickets-2-2-2027/event/107671371",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_36bbobM",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258126",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258126/Andrea-Bocelli-tickets-Tue-Feb-2-2027-State-Farm-Arena-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258126/Andrea-Bocelli-tickets-Tue-Feb-2-2027-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-atlanta-tickets-2-2-2027/event/107671371"
   },
   {
     "id": "tm-andrea-bocelli-2027-austin-g5diz_3kpl_-e",

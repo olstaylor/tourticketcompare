@@ -518,6 +518,13 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670702",
+        "url": "https://www.stubhub.ie/needtobreathe-brooklyn-tickets-3-4-2027/event/107670702",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KxVnXBa",
@@ -525,7 +532,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290990",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290990/Needtobreathe-tickets-Thu-Mar-4-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290990/Needtobreathe-tickets-Thu-Mar-4-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/needtobreathe-brooklyn-tickets-3-4-2027/event/107670702"
   },
   {
     "id": "tm-needtobreathe-2027-boston-vv177z_3gkiozdvt",
@@ -588,6 +596,13 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670703",
+        "url": "https://www.stubhub.ie/needtobreathe-boston-tickets-3-5-2027/event/107670703",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GkIoZDVT",
@@ -595,7 +610,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290991",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290991/Needtobreathe-tickets-Fri-Mar-5-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290991/Needtobreathe-tickets-Fri-Mar-5-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/needtobreathe-boston-tickets-3-5-2027/event/107670703"
   },
   {
     "id": "tm-needtobreathe-2027-washington-1a4zkfggkdjqhau",
@@ -1326,6 +1342,13 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671360",
+        "url": "https://www.stubhub.ie/needtobreathe-houston-tickets-3-20-2027/event/107671360",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KkBAWh-",
@@ -1333,6 +1356,7 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290988",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290988/Needtobreathe-tickets-Sat-Mar-20-2027-713-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290988/Needtobreathe-tickets-Sat-Mar-20-2027-713-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/needtobreathe-houston-tickets-3-20-2027/event/107671360"
   }
 ]

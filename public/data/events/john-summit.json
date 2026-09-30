@@ -1682,12 +1682,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670646",
+        "url": "https://www.stubhub.ie/john-summit-brooklyn-tickets-11-29-2026/event/107670646",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65tTxsBE",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8292934"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8292934",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-brooklyn-tickets-11-29-2026/event/107670646"
   }
 ]

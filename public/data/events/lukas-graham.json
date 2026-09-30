@@ -200,6 +200,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669267",
+        "url": "https://www.stubhub.ie/lukas-graham-tampa-tickets-3-5-2027/event/107669267",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_KpwcUtV",
@@ -207,7 +214,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286280/Lukas-Graham-tickets-Fri-Mar-5-2027-The-Ritz-Ybor",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286280"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286280",
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-tampa-tickets-3-5-2027/event/107669267"
   },
   {
     "id": "tm-lukas-graham-2027-charlotte-g5evz_kpbekzf",
@@ -270,6 +278,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669270",
+        "url": "https://www.stubhub.ie/lukas-graham-charlotte-tickets-3-7-2027/event/107669270",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kpbekzf",
@@ -277,7 +292,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286281/Lukas-Graham-tickets-Sun-Mar-7-2027-The-Fillmore-Charlotte",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286281"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286281",
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-charlotte-tickets-3-7-2027/event/107669270"
   },
   {
     "id": "tm-lukas-graham-2027-silver-spring-1a4zkfwgkdu1_zg",
@@ -340,6 +356,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669269",
+        "url": "https://www.stubhub.ie/lukas-graham-silver-spring-tickets-3-9-2027/event/107669269",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfwGkdU1_Zg",
@@ -347,7 +370,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286282/Lukas-Graham-tickets-Tue-Mar-9-2027-The-Fillmore-Silver-Spring",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286282"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286282",
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-silver-spring-tickets-3-9-2027/event/107669269"
   },
   {
     "id": "tm-lukas-graham-2027-new-york-k7vgf_kq-e_yf",
@@ -464,6 +488,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670525",
+        "url": "https://www.stubhub.ie/lukas-graham-boston-tickets-4-2-2027/event/107670525",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_K8xG7IhPb",
@@ -471,7 +502,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286284/Lukas-Graham-tickets-Fri-Apr-2-2027-Citizens-House-Of-Blues-Boston",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286284"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286284",
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-boston-tickets-4-2-2027/event/107670525"
   },
   {
     "id": "tm-lukas-graham-2027-philadelphia-vv1aovpuf-zf9v5",
@@ -520,12 +552,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669266",
+        "url": "https://www.stubhub.ie/lukas-graham-philadelphia-tickets-4-3-2027/event/107669266",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1aOvPuf-ZF9v5",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-philadelphia-tickets-4-3-2027/event/107669266"
   },
   {
     "id": "tm-lukas-graham-2027-toronto-1f7zvpgxaoz786kf",
@@ -820,6 +860,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670520",
+        "url": "https://www.stubhub.ie/lukas-graham-chicago-tickets-4-11-2027/event/107670520",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfUGkegDi06",
@@ -827,6 +874,7 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286294/Lukas-Graham-tickets-Sun-Apr-11-2027-House-Of-Blues-Chicago",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286294"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286294",
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-chicago-tickets-4-11-2027/event/107670520"
   }
 ]

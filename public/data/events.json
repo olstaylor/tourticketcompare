@@ -8297,11 +8297,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107165387",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-pittsburgh-tickets-9-29-2026/event/107165387",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -8310,7 +8310,7 @@
     "ticketmaster_discovery_event_id": "1AvbZ_aGkM9w2rv",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-pittsburgh-tickets-9-29-2026/event/107165387"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9wrr7",
@@ -31976,11 +31976,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107153109",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-sheffield-utilita-arena-sheffield-29-9-2026/event/107153109",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -31994,7 +31994,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-sheffield-utilita-arena-sheffield-29-9-2026/event/107153109",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -36759,11 +36759,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107155463",
-        "url": "https://www.stubhub.ie/sombr-tickets-vancouver-rogers-arena-9-29-2026/event/107155463",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -36777,7 +36777,7 @@
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-vancouver-rogers-arena-9-29-2026/event/107155463",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -45163,11 +45163,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107163017",
-        "url": "https://www.stubhub.ie/teddy-swims-detroit-tickets-9-29-2026/event/107163017",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_FGkTEC1td",
@@ -45175,7 +45175,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-detroit-tickets-9-29-2026/event/107163017"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-teddy-swims-2026-columbus-vv17fz_fgkdx0-pn",
@@ -87980,17 +87980,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107666004",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-23-2-2027/event/107666004",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknWX7x5",
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
-    "stubhub_international_url": ""
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-23-2-2027/event/107666004"
   },
   {
     "id": "tm-bruno-mars-2027-docklands-1aefz_ogknwx0x2",
@@ -94176,13 +94176,21 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670725",
+        "url": "https://www.stubhub.ie/andrea-bocelli-charlotte-tickets-1-29-2027/event/107670725",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_8muTUYo",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258124",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258124/Andrea-Bocelli-tickets-Fri-Jan-29-2027-Spectrum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258124/Andrea-Bocelli-tickets-Fri-Jan-29-2027-Spectrum-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-charlotte-tickets-1-29-2027/event/107670725"
   },
   {
     "id": "tm-andrea-bocelli-2027-baltimore-1a4zkffgkepsf12",
@@ -94245,13 +94253,21 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670724",
+        "url": "https://www.stubhub.ie/andrea-bocelli-baltimore-tickets-1-31-2027/event/107670724",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkffGkePSF12",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258125",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258125/Andrea-Bocelli-tickets-Sun-Jan-31-2027-CFG-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258125/Andrea-Bocelli-tickets-Sun-Jan-31-2027-CFG-Bank-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-baltimore-tickets-1-31-2027/event/107670724"
   },
   {
     "id": "tm-andrea-bocelli-2027-atlanta-vvg1zz_36bbobm",
@@ -94314,13 +94330,21 @@
         "verified": true,
         "last_verified_at": "2026-09-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671371",
+        "url": "https://www.stubhub.ie/andrea-bocelli-atlanta-tickets-2-2-2027/event/107671371",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_36bbobM",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258126",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258126/Andrea-Bocelli-tickets-Tue-Feb-2-2027-State-Farm-Arena-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258126/Andrea-Bocelli-tickets-Tue-Feb-2-2027-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-atlanta-tickets-2-2-2027/event/107671371"
   },
   {
     "id": "tm-andrea-bocelli-2027-austin-g5diz_3kpl_-e",
@@ -113078,6 +113102,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669267",
+        "url": "https://www.stubhub.ie/lukas-graham-tampa-tickets-3-5-2027/event/107669267",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_KpwcUtV",
@@ -113085,7 +113116,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286280/Lukas-Graham-tickets-Fri-Mar-5-2027-The-Ritz-Ybor",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286280"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286280",
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-tampa-tickets-3-5-2027/event/107669267"
   },
   {
     "id": "tm-lukas-graham-2027-charlotte-g5evz_kpbekzf",
@@ -113148,6 +113180,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669270",
+        "url": "https://www.stubhub.ie/lukas-graham-charlotte-tickets-3-7-2027/event/107669270",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kpbekzf",
@@ -113155,7 +113194,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286281/Lukas-Graham-tickets-Sun-Mar-7-2027-The-Fillmore-Charlotte",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286281"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286281",
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-charlotte-tickets-3-7-2027/event/107669270"
   },
   {
     "id": "tm-lukas-graham-2027-silver-spring-1a4zkfwgkdu1_zg",
@@ -113218,6 +113258,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669269",
+        "url": "https://www.stubhub.ie/lukas-graham-silver-spring-tickets-3-9-2027/event/107669269",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfwGkdU1_Zg",
@@ -113225,7 +113272,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286282/Lukas-Graham-tickets-Tue-Mar-9-2027-The-Fillmore-Silver-Spring",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286282"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286282",
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-silver-spring-tickets-3-9-2027/event/107669269"
   },
   {
     "id": "tm-lukas-graham-2027-new-york-k7vgf_kq-e_yf",
@@ -113342,6 +113390,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670525",
+        "url": "https://www.stubhub.ie/lukas-graham-boston-tickets-4-2-2027/event/107670525",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_K8xG7IhPb",
@@ -113349,7 +113404,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T14:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286284/Lukas-Graham-tickets-Fri-Apr-2-2027-Citizens-House-Of-Blues-Boston",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286284"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286284",
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-boston-tickets-4-2-2027/event/107670525"
   },
   {
     "id": "tm-lukas-graham-2027-philadelphia-vv1aovpuf-zf9v5",
@@ -113398,12 +113454,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669266",
+        "url": "https://www.stubhub.ie/lukas-graham-philadelphia-tickets-4-3-2027/event/107669266",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1aOvPuf-ZF9v5",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-09-25T14:00:00Z"
+    "public_onsale_at": "2026-09-25T14:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-philadelphia-tickets-4-3-2027/event/107669266"
   },
   {
     "id": "tm-lukas-graham-2027-toronto-1f7zvpgxaoz786kf",
@@ -113698,6 +113762,13 @@
         "verified": true,
         "last_verified_at": "2026-09-25",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670520",
+        "url": "https://www.stubhub.ie/lukas-graham-chicago-tickets-4-11-2027/event/107670520",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfUGkegDi06",
@@ -113705,7 +113776,8 @@
     "status": "announced",
     "public_onsale_at": "2026-09-25T15:00:00Z",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286294/Lukas-Graham-tickets-Sun-Apr-11-2027-House-Of-Blues-Chicago",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286294"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286294",
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-chicago-tickets-4-11-2027/event/107670520"
   },
   {
     "id": "tm-passenger-2027-brussels-z698xzg2z16v-xbfos",
@@ -114673,13 +114745,21 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670646",
+        "url": "https://www.stubhub.ie/john-summit-brooklyn-tickets-11-29-2026/event/107670646",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G65tTxsBE",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-09-30T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8292934"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8292934",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-brooklyn-tickets-11-29-2026/event/107670646"
   },
   {
     "id": "tm-vnv-nation-2027-denver-z7r9jz1a7jv8m",
@@ -131370,6 +131450,13 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670702",
+        "url": "https://www.stubhub.ie/needtobreathe-brooklyn-tickets-3-4-2027/event/107670702",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KxVnXBa",
@@ -131377,7 +131464,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290990",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290990/Needtobreathe-tickets-Thu-Mar-4-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290990/Needtobreathe-tickets-Thu-Mar-4-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/needtobreathe-brooklyn-tickets-3-4-2027/event/107670702"
   },
   {
     "id": "tm-needtobreathe-2027-boston-vv177z_3gkiozdvt",
@@ -131440,6 +131528,13 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670703",
+        "url": "https://www.stubhub.ie/needtobreathe-boston-tickets-3-5-2027/event/107670703",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GkIoZDVT",
@@ -131447,7 +131542,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290991",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290991/Needtobreathe-tickets-Fri-Mar-5-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290991/Needtobreathe-tickets-Fri-Mar-5-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/needtobreathe-boston-tickets-3-5-2027/event/107670703"
   },
   {
     "id": "tm-needtobreathe-2027-washington-1a4zkfggkdjqhau",
@@ -132178,6 +132274,13 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671360",
+        "url": "https://www.stubhub.ie/needtobreathe-houston-tickets-3-20-2027/event/107671360",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KkBAWh-",
@@ -132185,7 +132288,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290988",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290988/Needtobreathe-tickets-Sat-Mar-20-2027-713-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290988/Needtobreathe-tickets-Sat-Mar-20-2027-713-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/needtobreathe-houston-tickets-3-20-2027/event/107671360"
   },
   {
     "id": "tm-foy-vance-2026-edinburgh-1adbz_dgkdivmtc",

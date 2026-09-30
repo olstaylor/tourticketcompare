@@ -55,11 +55,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107155463",
-        "url": "https://www.stubhub.ie/sombr-tickets-vancouver-rogers-arena-9-29-2026/event/107155463",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -73,7 +73,7 @@
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-vancouver-rogers-arena-9-29-2026/event/107155463",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {

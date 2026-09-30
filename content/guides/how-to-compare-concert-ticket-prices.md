@@ -49,6 +49,14 @@ In the United States, the FTC's live-event fee rule, in effect since May 12, 202
 
 Where a ticket site supplies one, TourTicketCompare shows that site's lowest listed price for a date, with the time it was checked. Prices are checked every few hours. Use the [comparison hub](/compare-concert-ticket-prices) for the method, or go straight to an [artist page](/artists) and pick a date. A listed price tells you where to look first. It isn't live stock, and it isn't your final total.
 
+## Where can you compare prices for different concert venues?
+
+Start on the [artist's dates page](/artists) to find that artist's shows in different cities and venues. If your destination is fixed, browse [concerts by city](/cities) or [by venue](/venues) instead, then choose the artist and exact date. Open the checked ticket links on each date card to compare that show's listings.
+
+Different venues and nights are separate purchases, so compare their complete trip costs rather than calling one a cheaper version of the other. Include the ticket quantity, seat or standing area, travel, accommodation and local transport in your budget. A lower listed ticket price can be outweighed by the cost of getting there.
+
+Once you choose a show, keep the venue and date fixed while comparing providers. Where a date card shows more than one current price in the same currency, those figures help shortlist providers for that one show. Confirm the matching ticket details and complete total on each provider before paying.
+
 ## 1. Start with the concert, not the provider
 
 Find the date on an [artist page](/artists), then check these on every ticket site you open:

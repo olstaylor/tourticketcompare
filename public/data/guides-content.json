@@ -7,6 +7,11 @@
       },
       {
         "type": "section",
+        "title": "Where can you compare prices for different concert venues?",
+        "content": "Start on the [artist's dates page](/artists) to find that artist's shows in different cities and venues. If your destination is fixed, browse [concerts by city](/cities) or [by venue](/venues) instead, then choose the artist and exact date. Open the checked ticket links on each date card to compare that show's listings.\n\nDifferent venues and nights are separate purchases, so compare their complete trip costs rather than calling one a cheaper version of the other. Include the ticket quantity, seat or standing area, travel, accommodation and local transport in your budget. A lower listed ticket price can be outweighed by the cost of getting there.\n\nOnce you choose a show, keep the venue and date fixed while comparing providers. Where a date card shows more than one current price in the same currency, those figures help shortlist providers for that one show. Confirm the matching ticket details and complete total on each provider before paying."
+      },
+      {
+        "type": "section",
         "title": "1. Start with the concert, not the provider",
         "content": "Find the date on an [artist page](/artists), then check these on every ticket site you open:\n\n- **Artist and event name.** Tribute acts, festivals and similarly named events catch people out.\n- **Local date and start time.** Multi-night runs are the easiest thing to mix up.\n- **Venue and city.** Nearby venues can have near-identical names.\n- **Quantity.** A per-ticket price is not an order total.\n- **Ticket type.** Primary, official resale, marketplace resale, VIP, accessible, standing or seated.\n- **Section, row and view notes**, where the site shows them.\n\nIf any of these differ, you've found another option, not a cheaper version of the same one."
       },
@@ -135,7 +140,12 @@
       {
         "type": "section",
         "title": "What is the difference between Ticketmaster and Vivid Seats?",
-        "content": "The main difference is the ticket source: Ticketmaster sells primary tickets for many event organisers and also carries labelled resale tickets; Vivid Seats is a resale marketplace where independent resellers set their listing prices. They are separate businesses. A Vivid Seats order can still arrive through a Ticketmaster transfer when Ticketmaster issued the original digital ticket; that does not make it a direct Ticketmaster purchase.\n\nA Ticketmaster primary ticket and a Vivid Seats resale listing aren't automatically equivalent. Even for the same artist, date and venue, the seats, transfer timing and terms can differ. Use the authorised seller for an official onsale; for resale, compare the same ticket type, quantity and complete current total.\n\nOn TourTicketCompare, the Vivid Seats button on a date shows Vivid Seats' lowest listed price for that date when its feed supplies one, with how long ago it was checked. The Ticketmaster button is a plain link with no price. Use the figure to decide whether the Vivid Seats listings are worth opening, not as the total you'll pay.\n\n[Choose an artist and concert date](/compare-concert-ticket-prices) to find the checked provider links, then confirm the exact seat details, delivery terms and total at checkout."
+        "content": "The main difference is the ticket source: Ticketmaster sells primary tickets for many event organisers and also carries labelled resale tickets; Vivid Seats is a resale marketplace where independent resellers set their listing prices. They are separate businesses. A Vivid Seats order can still arrive through a Ticketmaster transfer when Ticketmaster issued the original digital ticket; that does not make it a direct Ticketmaster purchase.\n\nA Ticketmaster primary ticket and a Vivid Seats resale listing aren't automatically equivalent. Even for the same artist, date and venue, the seats, transfer timing and terms can differ. Use the authorised seller for an official onsale; for resale, compare the same ticket type, quantity and complete current total.\n\nOn TourTicketCompare, the Vivid Seats button on a date shows Vivid Seats' lowest listed price for that date when its feed supplies one, with how long ago it was checked. The Ticketmaster button is a plain link with no price. Use the figure to decide whether the Vivid Seats listings are worth opening, not as the total you'll pay."
+      },
+      {
+        "type": "section",
+        "title": "Find your concert",
+        "content": "[Choose your artist and concert date](/artists) to see the ticket links listed for that show. Match the city, venue and date before opening a provider. Where both Ticketmaster and Vivid Seats links are shown, use them to compare the seats and complete totals on each site. Coverage varies by show; a listed link does not guarantee tickets are still available."
       },
       {
         "type": "section",
@@ -383,7 +393,12 @@
       {
         "type": "section",
         "title": "Is SeatGeek or Ticketmaster better?",
-        "content": "For an official onsale, use whichever provider the artist, venue or promoter names as the authorised seller for that event. That can be Ticketmaster, SeatGeek or another primary seller. For resale, the better purchase depends on the exact ticket, seat, quantity, complete current total, delivery timing and protection terms.\n\nNeither platform is always cheaper. Match the same date and ticket type, then compare the final totals for the same number of tickets. A SeatGeek resale listing and a Ticketmaster primary ticket can have different prices and terms even when they are for the same show.\n\nTo put that comparison into practice, [choose an artist and concert date](/compare-concert-ticket-prices). Open the checked links for that date and confirm the seat details and total on each provider before paying."
+        "content": "For an official onsale, use whichever provider the artist, venue or promoter names as the authorised seller for that event. That can be Ticketmaster, SeatGeek or another primary seller. For resale, the better purchase depends on the exact ticket, seat, quantity, complete current total, delivery timing and protection terms.\n\nNeither platform is always cheaper. Match the same date and ticket type, then compare the final totals for the same number of tickets. A SeatGeek resale listing and a Ticketmaster primary ticket can have different prices and terms even when they are for the same show."
+      },
+      {
+        "type": "section",
+        "title": "Find your concert",
+        "content": "[Choose your artist and concert date](/artists) to see the ticket links listed for that show. Match the city, venue and date before opening a provider. Where both Ticketmaster and SeatGeek links are shown, use them to compare the seats and complete totals on each site. Coverage varies by show; a listed link does not guarantee tickets are still available."
       },
       {
         "type": "section",

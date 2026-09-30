@@ -13,8 +13,8 @@
 //
 // Every provider-click figure in this report is counted from `outbound_click`,
 // the server-side row written by /api/out. `provider_click` is reported beside
-// it only as a completion-rate diagnostic; it is never added to it, so a
-// double-firing client cannot inflate the funnel.
+// it as a separate signal. These populations are not joined: server receipts
+// do not prove human activation, and their ratio is not a conversion rate.
 //
 // Every statement is a SELECT executed through `wrangler d1 execute` — this
 // script never writes to D1 and creates no tables. Columns holding personal
@@ -37,10 +37,8 @@ const DEFAULT_WINDOW_DAYS = 30;
 const DEFAULT_TOP_LIMIT = 10;
 const DAY_MS = 24 * 60 * 60 * 1000;
 
-// Minimum volumes. Below these a rate is arithmetic, not evidence: one click on
-// two views is not a 50% conversion rate, and presenting it as one is how a
-// tiny sample turns into a bad decision. Rates under the threshold are reported
-// as "low volume" rather than as a number.
+// Minimum volumes for diagnostic tables. These floors suppress tiny samples;
+// they never turn unpaired browser and server counts into conversion rates.
 const DEFAULT_MIN_VIEWS_FOR_RATE = 30;
 const DEFAULT_MIN_CLICKS_FOR_RANKING = 3;
 
@@ -48,20 +46,21 @@ function usage() {
   return `Usage: node scripts/report-commercial-funnel.mjs [options]
 
 Owner-facing commercial funnel report over DEMAND_DB analytics_events. Counts
-sessions, artist/event views, provider clicks and click-through rate, splits
-clicks by artist, provider, page type and affiliate status, and flags pages with
+sessions, artist/event views, browser CTA intents and server redirects, splits
+redirects by artist, provider, page type and affiliate status, and flags pages with
 traffic but no clicks, artists with clicks but weak provider coverage, and
 signups from pages with no current dates.
 
-Provider clicks are counted from the server-side outbound_click row written by
-/api/out. Only SELECT statements are executed — nothing is written to D1.
+Server redirects are counted from outbound_click, not verified human clicks.
+Unreconciled visitor conversion rates are withheld. Only SELECT statements are
+executed — nothing is written to D1.
 
 Options:
   --days <n>            Report window in days (default: ${DEFAULT_WINDOW_DAYS}; 0 = all time)
   --since <iso-date>    Window start as YYYY-MM-DD (overrides --days)
   --until <iso-date>    Window end as YYYY-MM-DD (exclusive; defaults to now)
   --top <n>             Rows shown in each ranked table (default: ${DEFAULT_TOP_LIMIT})
-  --min-views <n>       Minimum views before a rate is reported (default: ${DEFAULT_MIN_VIEWS_FOR_RATE})
+  --min-views <n>       Minimum views for traffic diagnostic rows (default: ${DEFAULT_MIN_VIEWS_FOR_RATE})
   --min-clicks <n>      Minimum clicks before a row is ranked (default: ${DEFAULT_MIN_CLICKS_FOR_RANKING})
   --database <name>     D1 database name (default: ${DEFAULT_D1_DATABASE})
   --local               Query local D1 instead of remote D1
@@ -311,7 +310,7 @@ GROUP BY 1`
       key: "viewsByArtist",
       // Deliberately counted from page_view rows carrying an artist slug rather
       // than from the newer artist_view event: page_view has carried the slug
-      // since the table existed, so per-artist click-through stays comparable
+      // since the table existed, so per-artist views remain available
       // with every row already in the database. artist_view is reported on its
       // own line in the funnel summary.
       sql: `SELECT COALESCE(NULLIF(TRIM(artist_slug), ''), '(none)') AS artist_slug, COUNT(*) AS views
@@ -351,8 +350,7 @@ GROUP BY 1`
       //
       // The join target MUST be one row per visitor-day. Joining the click
       // against the raw page_view rows would match it once per page the visitor
-      // saw, multiplying a single click by their pageview count and producing
-      // landing-page rates above 100% against the distinct-session denominator.
+      // saw, multiplying a single receipt by their pageview count.
       // The subquery collapses each visitor-day to its earliest page_view;
       // SQLite's documented bare-column rule makes `landing_path` come from the
       // MIN(created_at) row, which is the landing by definition. It is
@@ -557,10 +555,12 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
     provider_clicks: outbound,
     outbound_blocked: at("outbound_blocked").events,
     signups: at("email_signup").events + at("artist_interest").events + at("price_alert_interest").events,
-    click_through_rate_per_session: rate(outbound, pageViews.sessions, options.minViews),
-    click_through_rate_per_page_view: rate(outbound, pageViews.events, options.minViews),
-    click_through_rate_per_cta_view: rate(outbound, ctaViews, options.minViews),
-    cta_click_to_redirect_rate: rate(outbound, providerClicks, options.minClicks)
+    // Retain the legacy keys, but never divide unpaired server and client
+    // populations. More volume does not establish attribution.
+    click_through_rate_per_session: null,
+    click_through_rate_per_page_view: null,
+    click_through_rate_per_cta_view: null,
+    cta_click_to_redirect_rate: null
   };
 
   const clicksByProviderRows = resultSets.clicksByProvider;
@@ -578,7 +578,7 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
     .map((entry) => ({
       ...entry,
       share_of_clicks: rate(entry.provider_clicks, outbound),
-      redirect_completion_rate: rate(entry.provider_clicks, entry.provider_clicks_client, options.minClicks)
+      redirect_completion_rate: null
     }))
     .sort((a, b) => b.provider_clicks - a.provider_clicks || a.provider.localeCompare(b.provider));
 
@@ -602,7 +602,7 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
         artist_slug: slug,
         artist_views: views,
         provider_clicks: clicks,
-        click_through_rate: rate(clicks, views, options.minViews)
+        click_through_rate: null
       };
     })
     .sort((a, b) => b.provider_clicks - a.provider_clicks || a.artist_slug.localeCompare(b.artist_slug));
@@ -619,7 +619,7 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
         page_views: views,
         sessions: Number(row.sessions) || 0,
         provider_clicks: clicks,
-        click_through_rate: rate(clicks, views, options.minViews)
+        click_through_rate: null
       };
     })
     .concat([...pageTypeClicks.entries()].map(([pageType, clicks]) => ({
@@ -654,7 +654,9 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
         landing_path: landingPath,
         sessions,
         provider_clicks: clicks,
-        click_through_rate: rate(clicks, sessions, options.minViews)
+        // The visitor-day landing join is an approximation, not a unique
+        // browser-intent match or a count of converting sessions.
+        click_through_rate: null
       };
     })
     .filter((row) => row.provider_clicks >= options.minClicks)
@@ -725,6 +727,13 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
       min_views_for_rate: options.minViews,
       min_clicks_for_ranking: options.minClicks
     },
+    measurement: {
+      status: "unreconciled",
+      redirect_count_basis: "server_issued_redirects_not_verified_human_clicks",
+      conversion_rates_withheld_reason: "client_intent_and_server_receipts_have_no_reliable_shared_identity",
+      landing_attribution_basis: "approximate_visitor_day_join",
+      qualified_affiliate_clicks: null
+    },
     funnel,
     clicks_by_provider: byProvider,
     reconciliation_by_provider: reconciliationByProvider,
@@ -775,8 +784,10 @@ export function renderReport(report) {
 
   lines.push("=== Commercial Funnel Report ===");
   lines.push(`Database: ${report.window.database} (${report.window.remote ? "remote" : "local"}) · Window: ${windowLabel}`);
-  lines.push(`Thresholds: rates need >= ${minViews} views · rankings need >= ${minClicks} clicks`);
-  lines.push("Provider clicks are counted from outbound_click (/api/out, server-side, authoritative).");
+  lines.push(`Thresholds: traffic tables need >= ${minViews} views · receipt rankings need >= ${minClicks} redirects`);
+  lines.push("outbound_click counts server-issued redirects, not verified human clicks.");
+  lines.push("Visitor conversion and CTA completion rates withheld: client intent and server receipts are not reliably joined.");
+  lines.push("Qualified affiliate clicks: unknown. Receipt rankings are investigation leads, not conversion rankings.");
   lines.push("");
 
   lines.push("-- Funnel --");
@@ -791,25 +802,20 @@ export function renderReport(report) {
       ["provider_cta_view", funnel.provider_cta_views],
       ["provider_click (client intent)", funnel.provider_clicks_client],
       ["outbound_attempt (server receipt)", funnel.outbound_attempts],
-      ["outbound_click (AUTHORITATIVE)", funnel.provider_clicks],
+      ["outbound_click (server redirect)", funnel.provider_clicks],
       ["outbound_blocked", funnel.outbound_blocked],
       ["signups", funnel.signups]
     ]
   ));
   lines.push("");
-  lines.push(`Provider click-through rate: ${formatRate(funnel.click_through_rate_per_session, funnel.sessions, minViews)} per session · ${formatRate(funnel.click_through_rate_per_page_view, funnel.page_views, minViews)} per page view · ${formatRate(funnel.click_through_rate_per_cta_view, funnel.provider_cta_views, minViews)} per CTA impression`);
-  lines.push(`CTA click → redirect completion: ${formatRate(funnel.cta_click_to_redirect_rate, funnel.provider_clicks_client, minClicks)}`);
-  lines.push("");
-
-  lines.push("-- Clicks by provider --");
+  lines.push("-- Server redirects by provider --");
   lines.push(renderTable(
-    ["provider", "clicks", "share", "cta_clicks", "completion", "blocked"],
+    ["provider", "redirects", "receipt_share", "client_intents", "blocked"],
     report.clicks_by_provider.map((row) => [
       row.provider,
       row.provider_clicks,
       formatRate(row.share_of_clicks, report.funnel.provider_clicks, 0),
       row.provider_clicks_client,
-      formatRate(row.redirect_completion_rate, row.provider_clicks_client, minClicks),
       row.blocked
     ])
   ));
@@ -830,53 +836,53 @@ export function renderReport(report) {
   ));
   lines.push("");
 
-  lines.push("-- Clicks by artist --");
+  lines.push("-- Server redirects by artist --");
   lines.push(renderTable(
-    ["artist", "clicks", "artist_views", "ctr"],
-    report.clicks_by_artist.map((row) => [row.artist_slug, row.provider_clicks, row.artist_views, formatRate(row.click_through_rate, row.artist_views, minViews)])
+    ["artist", "redirects", "artist_views"],
+    report.clicks_by_artist.map((row) => [row.artist_slug, row.provider_clicks, row.artist_views])
   ));
   lines.push("");
 
-  lines.push("-- Clicks by page type --");
+  lines.push("-- Server redirects by page type --");
   lines.push(renderTable(
-    ["page_type", "page_views", "sessions", "clicks", "ctr"],
-    report.clicks_by_page_type.map((row) => [row.page_type, row.page_views, row.sessions, row.provider_clicks, formatRate(row.click_through_rate, row.page_views, minViews)])
+    ["page_type", "page_views", "sessions", "redirects"],
+    report.clicks_by_page_type.map((row) => [row.page_type, row.page_views, row.sessions, row.provider_clicks])
   ));
   lines.push("");
 
-  lines.push("-- Clicks by CTA component --");
+  lines.push("-- Server redirects by CTA component --");
   lines.push(renderTable(
-    ["cta_location", "clicks"],
+    ["cta_location", "redirects"],
     report.clicks_by_cta_location.map((row) => [row.cta_location, row.provider_clicks])
   ));
   lines.push("");
 
   const split = report.affiliate_split;
-  lines.push("-- Affiliate vs non-affiliate clicks --");
+  lines.push("-- Affiliate vs non-affiliate server redirects --");
   lines.push(`affiliate: ${split.affiliate} · non-affiliate: ${split.non_affiliate} · unlabelled: ${split.unlabelled} · affiliate share: ${formatRate(split.affiliate_share, split.total, 0)}`);
   lines.push(renderTable(
-    ["destination_category", "clicks"],
+    ["destination_category", "redirects"],
     split.destination_categories.map((row) => [row.destination_category, row.clicks])
   ));
   lines.push("");
 
-  lines.push(`-- Top landing pages producing provider clicks (>= ${minClicks} clicks) --`);
+  lines.push(`-- Approximate landing attribution (>= ${minClicks} server redirects) --`);
   lines.push(renderTable(
-    ["landing_path", "clicks", "sessions", "ctr"],
-    report.top_landing_pages.map((row) => [row.landing_path, row.provider_clicks, row.sessions, formatRate(row.click_through_rate, row.sessions, minViews)])
+    ["landing_path", "redirects", "sessions"],
+    report.top_landing_pages.map((row) => [row.landing_path, row.provider_clicks, row.sessions])
   ));
   lines.push("");
 
-  lines.push(`-- Pages with traffic but no provider clicks (>= ${minViews} views) --`);
+  lines.push(`-- Pages with recorded views but no server redirects (>= ${minViews} views) --`);
   lines.push(renderTable(
     ["source_path", "page_type", "page_views", "sessions"],
     report.pages_with_traffic_no_clicks.map((row) => [row.source_path, row.page_type, row.page_views, row.sessions])
   ));
   lines.push("");
 
-  lines.push(`-- Artists earning clicks with weak provider coverage (>= ${minClicks} clicks) --`);
+  lines.push(`-- Artists with server redirects and weak provider coverage (>= ${minClicks} redirects) --`);
   lines.push(renderTable(
-    ["artist", "clicks", "upcoming", "affiliate_providers", "affiliate_coverage"],
+    ["artist", "redirects", "upcoming", "affiliate_providers", "affiliate_coverage"],
     report.artists_with_clicks_weak_coverage.map((row) => [
       row.artist_slug,
       row.provider_clicks,
@@ -894,7 +900,7 @@ export function renderReport(report) {
   ));
   lines.push("");
 
-  lines.push("-- Blocked outbound redirects (a click that never reached a provider) --");
+  lines.push("-- Blocked outbound redirects (requests that did not receive a redirect) --");
   lines.push(renderTable(
     ["provider", "status", "blocked"],
     report.blocked_redirects.map((row) => [row.provider, row.status, row.blocked])
@@ -1110,8 +1116,9 @@ function selfTest() {
     // provider_click events are never added in.
     assert.equal(report.funnel.provider_clicks, 44);
     assert.equal(report.funnel.provider_clicks_client, 50);
-    assert.equal(report.funnel.click_through_rate_per_session, 44 / 200);
-    assert.equal(report.funnel.cta_click_to_redirect_rate, 44 / 50);
+    assert.equal(report.funnel.click_through_rate_per_session, null);
+    assert.equal(report.funnel.cta_click_to_redirect_rate, null);
+    assert.equal(report.measurement.qualified_affiliate_clicks, null);
     assert.equal(report.funnel.signups, 7);
   });
 
@@ -1124,13 +1131,13 @@ function selfTest() {
       coverage
     );
     assert.equal(thin.funnel.click_through_rate_per_session, null, "3 sessions is not a click-through rate");
-    assert.match(renderReport(thin), /low volume \(n=3\)/);
+    assert.match(renderReport(thin), /rates withheld/);
   });
 
   check(() => {
     const seatgeek = report.clicks_by_provider.find((row) => row.provider === "seatgeek");
     assert.equal(seatgeek.provider_clicks, 26);
-    assert.equal(seatgeek.redirect_completion_rate, 26 / 30);
+    assert.equal(seatgeek.redirect_completion_rate, null);
     const vivid = report.clicks_by_provider.find((row) => row.provider === "vivid-seats");
     assert.equal(vivid.provider_clicks, 0);
     assert.equal(vivid.blocked, 6, "a click that never reached the provider must still be visible");
@@ -1138,7 +1145,7 @@ function selfTest() {
 
   check(() => {
     const artistA = report.clicks_by_artist.find((row) => row.artist_slug === "artist-a");
-    assert.equal(artistA.click_through_rate, 30 / 150);
+    assert.equal(artistA.click_through_rate, null);
     const artistB = report.clicks_by_artist.find((row) => row.artist_slug === "artist-b");
     assert.equal(artistB.click_through_rate, null, "20 artist views is below the rate threshold");
   });
@@ -1151,12 +1158,12 @@ function selfTest() {
 
   check(() => {
     assert.deepEqual(report.top_landing_pages.map((row) => row.landing_path), ["/artists/artist-a"]);
-    assert.equal(report.top_landing_pages[0].click_through_rate, 36 / 120);
+    assert.equal(report.top_landing_pages[0].click_through_rate, null);
   });
 
   check(() => {
-    // The guide page has real traffic and zero clicks; the city page is below
-    // the volume floor and must not be presented as a failure.
+    // The guide page has recorded views and zero receipts; the city page is
+    // below the diagnostic volume floor. Neither proves human demand.
     assert.deepEqual(
       report.pages_with_traffic_no_clicks.map((row) => row.source_path),
       ["/guides/how-to-avoid-ticket-scams"]
@@ -1184,11 +1191,41 @@ function selfTest() {
   check(() => {
     const rendered = renderReport(report);
     assert.match(rendered, /Commercial Funnel Report/);
-    assert.match(rendered, /outbound_click \(AUTHORITATIVE\)/);
-    assert.match(rendered, /Clicks by provider/);
+    assert.match(rendered, /outbound_click \(server redirect\)/);
+    assert.match(rendered, /Server redirects by provider/);
     assert.match(rendered, /Signups from artist pages with no current dates/);
     assert.match(rendered, /Blocked outbound redirects/);
   });
+
+  // A historical mismatch must remain visible as raw evidence without
+  // becoming a 6,368.97% "completion rate". The same rule applies when
+  // the counts happen to match: aggregate equality is not attribution.
+  for (const redirects of [5541, 87, 0]) {
+    check(() => {
+      const unpaired = buildReport({
+        ...fixtures,
+        totals: [
+          { event_name: "page_view", events: 300, visitors: 200, sessions: 250 },
+          { event_name: "provider_cta_view", events: 144, visitors: 100, sessions: 120 },
+          { event_name: "provider_click", events: 87, visitors: 60, sessions: 70 },
+          { event_name: "outbound_click", events: redirects, visitors: 60, sessions: 70 }
+        ]
+      }, options, { since: "", until: "" }, coverage);
+      assert.equal(unpaired.funnel.provider_clicks, redirects);
+      assert.equal(unpaired.funnel.provider_clicks_client, 87);
+      assert.equal(unpaired.measurement.status, "unreconciled");
+      for (const [key, value] of Object.entries(unpaired.funnel)) {
+        if (key.includes("rate")) assert.equal(value, null, key);
+      }
+      for (const rows of [unpaired.clicks_by_artist, unpaired.clicks_by_page_type, unpaired.top_landing_pages]) {
+        assert.ok(rows.every(row => row.click_through_rate === null));
+      }
+      assert.ok(unpaired.clicks_by_provider.every(row => row.redirect_completion_rate === null));
+      const rendered = renderReport(unpaired);
+      assert.match(rendered, /Qualified affiliate clicks: unknown/);
+      assert.doesNotMatch(rendered, /6368\.97%|Provider click-through rate:|redirect completion:/);
+    });
+  }
 
   return { tests };
 }

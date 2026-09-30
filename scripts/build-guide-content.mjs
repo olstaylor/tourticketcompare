@@ -144,8 +144,9 @@ const ALLOWED_COMPARISON_PROVIDERS = new Set([
 const SUPPORTED_COMPARISON_PROVIDER_PAIRS = new Set(["ticketmaster|vivid-seats"]);
 
 // Route shapes a guide body may link to, as complete patterns. Guides link to
-// each other, to the artist index and to the comparison hub; city and venue
-// routes are calendar-dependent and are not linkable from evergreen copy.
+// each other, to the browsing indexes and to the comparison hub. Individual
+// city and venue routes are calendar-dependent and are not linkable from
+// evergreen copy; their durable indexes remain useful as the roster changes.
 const INTERNAL_LINK_SHAPES = [
   { pattern: /^\/guides\/[a-z0-9-]+$/, kind: "guide" },
   { pattern: /^\/artists\/[a-z0-9-]+$/, kind: "artist" },
@@ -154,6 +155,8 @@ const INTERNAL_LINK_SHAPES = [
 const INTERNAL_LINK_EXACT = new Set([
   "/",
   "/artists",
+  "/cities",
+  "/venues",
   "/guides",
   "/blog",
   "/compare-concert-ticket-prices",
@@ -1160,6 +1163,19 @@ function selfTest() {
     baseContext({ allPaths: new Set(["/guides/example", "/guides/hidden"]) })
   );
   assert(draftGuideLink.some((problem) => /points at a draft guide/.test(problem)), "a published guide may not link to a draft");
+
+  const browsingLinks = validateGuide(
+    baseGuide({ sections: [{ type: "intro", content: "Browse [cities](/cities) and [venues](/venues)." }, { type: "section", title: "A", content: "B." }, { type: "section", title: "FAQ", content: "**Q?**\n\nA." }] }),
+    baseContext()
+  );
+  assert(!browsingLinks.some((problem) => /internal link/.test(problem)), "durable city and venue indexes are valid guide destinations");
+  for (const calendarPath of ["/cities/london-united-kingdom", "/venues/the-o2-london"]) {
+    const calendarLink = validateGuide(
+      baseGuide({ sections: [{ type: "intro", content: `See [dates](${calendarPath}).` }, { type: "section", title: "A", content: "B." }, { type: "section", title: "FAQ", content: "**Q?**\n\nA." }] }),
+      baseContext()
+    );
+    assert(calendarLink.some((problem) => /internal link/.test(problem)), "individual calendar-dependent location routes remain excluded from evergreen guide links");
+  }
 
   const badDate = validateGuide(baseGuide({ datePublished: "2026-02-30" }), baseContext());
   assert(badDate.some((problem) => /real YYYY-MM-DD calendar date/.test(problem)), "a non-calendar date fails");

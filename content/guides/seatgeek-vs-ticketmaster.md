@@ -47,7 +47,9 @@ For an official onsale, use whichever provider the artist, venue or promoter nam
 
 Neither platform is always cheaper. Match the same date and ticket type, then compare the final totals for the same number of tickets. A SeatGeek resale listing and a Ticketmaster primary ticket can have different prices and terms even when they are for the same show.
 
-To put that comparison into practice, [choose an artist and concert date](/compare-concert-ticket-prices). Open the checked links for that date and confirm the seat details and total on each provider before paying.
+## Find your concert
+
+[Choose your artist and concert date](/artists) to see the ticket links listed for that show. Match the city, venue and date before opening a provider. Where both Ticketmaster and SeatGeek links are shown, use them to compare the seats and complete totals on each site. Coverage varies by show; a listed link does not guarantee tickets are still available.
 
 ## SeatGeek vs Ticketmaster at a glance
 

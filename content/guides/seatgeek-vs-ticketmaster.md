@@ -5,6 +5,18 @@ description: Are SeatGeek and Ticketmaster the same? No. Compare their primary v
 status: published
 date_published: 2026-07-13
 sources:
+  - name: SeatGeek company information
+    publisher: SeatGeek
+    url: https://seatgeek.com/press
+    last_checked: 2026-09-30
+  - name: Live Nation Entertainment company overview
+    publisher: Live Nation Entertainment
+    url: https://investors.livenationentertainment.com/
+    last_checked: 2026-09-30
+  - name: Can SeatGeek resend my tickets or transfer email?
+    publisher: SeatGeek Help Center
+    url: https://support.seatgeek.com/hc/en-us/articles/49606763441555-Can-SeatGeek-resend-my-tickets-or-transfer-email
+    last_checked: 2026-09-30
   - name: 'Rule on Unfair or Deceptive Fees: Frequently Asked Questions'
     publisher: US Federal Trade Commission
     url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
@@ -121,6 +133,10 @@ For a wider marketplace comparison, see [Ticketmaster vs SeatGeek vs Vivid Seats
 - Buy only through the provider's official checkout.
 
 ## FAQ
+
+**Is SeatGeek owned by Ticketmaster?**
+
+No. SeatGeek and Ticketmaster are separate businesses. SeatGeek publishes its own company and investor information; Ticketmaster is part of Live Nation Entertainment. A SeatGeek order may still use Ticketmaster for mobile-ticket delivery: SeatGeek says some transfer tickets are sent through a third-party platform such as Ticketmaster or AXS. That delivery method does not change where you placed the order. Keep the marketplace order confirmation and follow the official transfer instructions for that ticket.
 
 **Why is SeatGeek sometimes cheaper than Ticketmaster?**
 

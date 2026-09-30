@@ -443,7 +443,7 @@
       {
         "type": "section",
         "title": "FAQ",
-        "content": "**Why is SeatGeek sometimes cheaper than Ticketmaster?**\n\nA lower SeatGeek listing may be seller-set resale inventory, a different seat, a different ticket type, or a different point in time. Ticketmaster may be showing primary, premium, or resale inventory. Compare the exact ticket and current complete total; SeatGeek is not always cheaper.\n\n**Is SeatGeek legit like Ticketmaster?**\n\nSeatGeek and Ticketmaster are established ticketing platforms with published terms, but they can play different roles for the same event. Use the official domain, check the listing type and delivery method, and read the current order-protection terms before buying.\n\n**How does SeatGeek have tickets but not Ticketmaster?**\n\nSeatGeek may show secondary-market tickets listed by eligible sellers after Ticketmaster primary inventory is unavailable. SeatGeek can also be the primary partner for some events. Inventory and ticket source vary by event.\n\n**Is SeatGeek better than Ticketmaster?**\n\nNeither is better for every event. Start with the official seller for an onsale. If comparing resale, use the exact ticket, complete current total, delivery timing, and protection terms rather than the provider name alone.\n\n**Which has lower fees, SeatGeek or Ticketmaster?**\n\nThere is no event-independent answer. Fees and other charges depend on the event, ticket, location, and optional choices. Compare the current order summaries for like-for-like tickets.\n\n**What is the most trusted concert ticket site?**\n\nFor primary tickets, start with the seller named by the artist, venue, team, or promoter. For resale, use an established marketplace and read its current protection and delivery terms. No one site is official for every event.\n\n**Does Deal Score prove SeatGeek is cheaper?**\n\nNo. Deal Score evaluates value among SeatGeek listings using SeatGeek's data. It is not a cross-platform price guarantee.\n\n**Does TourTicketCompare rank SeatGeek and Ticketmaster?**\n\nNo. The site explains their roles and links both to the same date. It never calls either platform better or cheaper in general."
+        "content": "**Is SeatGeek owned by Ticketmaster?**\n\nNo. SeatGeek and Ticketmaster are separate businesses. SeatGeek publishes its own company and investor information; Ticketmaster is part of Live Nation Entertainment. A SeatGeek order may still use Ticketmaster for mobile-ticket delivery: SeatGeek says some transfer tickets are sent through a third-party platform such as Ticketmaster or AXS. That delivery method does not change where you placed the order. Keep the marketplace order confirmation and follow the official transfer instructions for that ticket.\n\n**Why is SeatGeek sometimes cheaper than Ticketmaster?**\n\nA lower SeatGeek listing may be seller-set resale inventory, a different seat, a different ticket type, or a different point in time. Ticketmaster may be showing primary, premium, or resale inventory. Compare the exact ticket and current complete total; SeatGeek is not always cheaper.\n\n**Is SeatGeek legit like Ticketmaster?**\n\nSeatGeek and Ticketmaster are established ticketing platforms with published terms, but they can play different roles for the same event. Use the official domain, check the listing type and delivery method, and read the current order-protection terms before buying.\n\n**How does SeatGeek have tickets but not Ticketmaster?**\n\nSeatGeek may show secondary-market tickets listed by eligible sellers after Ticketmaster primary inventory is unavailable. SeatGeek can also be the primary partner for some events. Inventory and ticket source vary by event.\n\n**Is SeatGeek better than Ticketmaster?**\n\nNeither is better for every event. Start with the official seller for an onsale. If comparing resale, use the exact ticket, complete current total, delivery timing, and protection terms rather than the provider name alone.\n\n**Which has lower fees, SeatGeek or Ticketmaster?**\n\nThere is no event-independent answer. Fees and other charges depend on the event, ticket, location, and optional choices. Compare the current order summaries for like-for-like tickets.\n\n**What is the most trusted concert ticket site?**\n\nFor primary tickets, start with the seller named by the artist, venue, team, or promoter. For resale, use an established marketplace and read its current protection and delivery terms. No one site is official for every event.\n\n**Does Deal Score prove SeatGeek is cheaper?**\n\nNo. Deal Score evaluates value among SeatGeek listings using SeatGeek's data. It is not a cross-platform price guarantee.\n\n**Does TourTicketCompare rank SeatGeek and Ticketmaster?**\n\nNo. The site explains their roles and links both to the same date. It never calls either platform better or cheaper in general."
       },
       {
         "type": "section",
@@ -452,6 +452,24 @@
       }
     ],
     "sources": [
+      {
+        "name": "SeatGeek company information",
+        "publisher": "SeatGeek",
+        "url": "https://seatgeek.com/press",
+        "lastChecked": "2026-09-30"
+      },
+      {
+        "name": "Live Nation Entertainment company overview",
+        "publisher": "Live Nation Entertainment",
+        "url": "https://investors.livenationentertainment.com/",
+        "lastChecked": "2026-09-30"
+      },
+      {
+        "name": "Can SeatGeek resend my tickets or transfer email?",
+        "publisher": "SeatGeek Help Center",
+        "url": "https://support.seatgeek.com/hc/en-us/articles/49606763441555-Can-SeatGeek-resend-my-tickets-or-transfer-email",
+        "lastChecked": "2026-09-30"
+      },
       {
         "name": "Rule on Unfair or Deceptive Fees: Frequently Asked Questions",
         "publisher": "US Federal Trade Commission",

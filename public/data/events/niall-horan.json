@@ -362,11 +362,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7831763",
-        "url": "https://www.ticketliquidator.com/tickets/7831763/Niall-Horan-tickets-Tue-Sep-29-2026-Utilita-Arena-Sheffield",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "16gZkozPUZA5kedv",
@@ -374,7 +374,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-sheffield-utilita-arena-sheffield-29-9-2026/event/107153109",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831763/Niall-Horan-tickets-Tue-Sep-29-2026-Utilita-Arena-Sheffield"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-niall-horan-2026-london-1agzkoygkdkpykl",

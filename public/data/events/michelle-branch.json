@@ -117,11 +117,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8135390",
-        "url": "https://www.ticketliquidator.com/tickets/8135390/Michelle-Branch-tickets-Tue-Sep-29-2026-McMenamins-Crystal-Ballroom",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -134,7 +134,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JfoV",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135390/Michelle-Branch-tickets-Tue-Sep-29-2026-McMenamins-Crystal-Ballroom",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": ""
   },
   {

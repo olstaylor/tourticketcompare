@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-09-29T11:22:40.530Z
+Generated: 2026-09-30T11:13:39.489Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,16 +9,16 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 424 (needs_recheck: 424, provenance backfill: 0, stale re-check: 236)
+- Events selected: 425 (needs_recheck: 424, provenance backfill: 0, stale re-check: 234)
 - Events skipped before API checks: 144
 - API calls made: 400
-- Verified provenance written: 228
-- URLs added: 8
+- Verified provenance written: 231
+- URLs added: 0
 - URLs corrected: 0
 - URLs cleared: 0
-- Provenance un-verified: 0
+- Provenance un-verified: 3
 - Conflicts (ambiguous, untouched): 2
-- No qualifying listing: 162
+- No qualifying listing: 161
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: api_call_limit_reached
 
@@ -56,9 +56,9 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-john-summit-2026-houston-z7r9jz1a70t74 | john-summit | verify (applied) | 18257241 | https://seatgeek.com/john-summit-tickets/houston-texas-toyota-center-2026-11-05-7-pm/concert/18257241 | - |
 | tm-niall-horan-2026-berlin-z698xzc2z16eekfyqa | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-karol-g-2026-arlington-z7r9jz1a7xfrb | karol-g | verify (applied) | 18166850 | https://seatgeek.com/karol-g-tickets/arlington-texas-at-t-stadium-2026-10-15-7-pm/concert/18166850 | - |
-| tm-karol-g-2027-barcelona-z698xz2qz1k-d-v1k | karol-g | add (applied) | 18625638 | https://seatgeek.com/karol-g-tickets/barcelona-spain-estadio-olimpico-lluis-companys-2027-06-03-8-pm/concert/18625638 | - |
+| tm-karol-g-2027-barcelona-z698xz2qz1k-d-v1k | karol-g | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18625638 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
 | tm-karol-g-2027-barcelona-z698xz2qz1k8n04vk | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-karol-g-2027-sevilla-z698xz2qz1kp4_vuk | karol-g | add (applied) | 18625635 | https://seatgeek.com/karol-g-tickets/sevilla-spain-estadio-de-la-cartuja-2027-06-11-8-pm/concert/18625635 | - |
+| tm-karol-g-2027-sevilla-z698xz2qz1kp4_vuk | karol-g | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18625635 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
 | tm-karol-g-2027-sevilla-z698xz2qz16vvepfuz | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-karol-g-2027-sevilla-z698xz2qz16v_a-6fw | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-karol-g-2027-madrid-z698xz2qz16vq8a4f7 | karol-g | none | - | - | no qualifying SeatGeek listing (may not be listed) |
@@ -191,6 +191,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-missio-2027-chicago-z7r9jz1aazivb | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-cudahy-z7r9jz1aaziv_ | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-minneapolis-z7r9jz1aazivo | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-missio-2027-cleveland-vv17fz_8gkl63cwa | missio | verify (applied) | 18492738 | https://seatgeek.com/missio-tickets/cleveland-ohio-cambridge-room-at-house-of-blues-cleveland-1-2027-01-17-7-pm/concert/18492738 | - |
 | tm-missio-2027-washington-z7r9jz1aaziv- | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-brooklyn-z7r9jz1aazivx | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-carrboro-z7r9jz1aazivn | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
@@ -204,7 +205,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-vnv-nation-2027-salt-lake-city-z7r9jz1a7pmzg | vnv-nation | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-vnv-nation-2027-st-paul-z7r9jz1a7jzvu | vnv-nation | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-vnv-nation-2027-chicago-z7r9jz1a7pupm | vnv-nation | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-michelle-branch-2026-portland-z7r9jz1a7jfov | michelle-branch | verify (applied) | 18373482 | https://seatgeek.com/michelle-branch-tickets/portland-oregon-mcmenamins-crystal-ballroom-2026-09-29-8-pm/concert/18373482 | - |
+| tm-michelle-branch-2026-portland-z7r9jz1a7jfov | michelle-branch | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18373482 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
 | tm-michelle-branch-2026-san-luis-obispo-z7r9jz1a7jfbx | michelle-branch | verify (applied) | 18373486 | https://seatgeek.com/michelle-branch-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2026-10-06-8-pm/concert/18373486 | - |
 | tm-michelle-branch-2026-aspen-z7r9jz1a7jfoj | michelle-branch | verify (applied) | 18373495 | https://seatgeek.com/michelle-branch-tickets/aspen-colorado-belly-up-aspen-2026-10-10-8-pm/concert/18373495 | - |
 | tm-michelle-branch-2026-boulder-z7r9jz1a7jffk | michelle-branch | verify (applied) | 18373496 | https://seatgeek.com/michelle-branch-tickets/boulder-colorado-boulder-theater-2026-10-11-8-pm/concert/18373496 | - |
@@ -419,13 +420,9 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-haiden-henderson-2027-amsterdam-z698xzbpz16evufjub | haiden-henderson | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-haiden-henderson-2027-madrid-z698xz2qz1kumofqp | haiden-henderson | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-haiden-henderson-2027-milwaukee-z7r9jz1aaeea6 | haiden-henderson | none | - | - | no qualifying SeatGeek listing (may not be listed) |
-| tm-dylan-scott-2026-dallas-z7r9jz1aavsep | dylan-scott | add (applied) | 18603387 | https://seatgeek.com/dylan-scott-tickets/dallas-texas-the-bomb-factory-dallas-2026-10-15-8-pm/concert/18603387 | - |
-| tm-dylan-scott-2026-milwaukee-z7r9jz1aavse9 | dylan-scott | add (applied) | 18526286 | https://seatgeek.com/dylan-scott-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-24-8-pm/concert/18526286 | - |
-| tm-dylan-scott-2027-bismarck-z7r9jz1aavseb | dylan-scott | add (applied) | 18603379 | https://seatgeek.com/dylan-scott-tickets/bismarck-north-dakota-bismarck-event-center-2027-01-29-7-30-pm/concert/18603379 | - |
-| tm-dylan-scott-2027-denver-z7r9jz1aavse_ | dylan-scott | add (applied) | 18603380 | https://seatgeek.com/dylan-scott-tickets/denver-colorado-mission-ballroom-2027-02-18-8-pm/concert/18603380 | - |
-| tm-dylan-scott-2027-spokane-z7r9jz1aavsvm | dylan-scott | add (applied) | 18603382 | https://seatgeek.com/dylan-scott-tickets/spokane-washington-first-interstate-center-for-the-arts-2027-03-05-7-30-pm/concert/18603382 | - |
-| tm-dylan-scott-2027-wenatchee-z7r9jz1aavs7z | dylan-scott | add (applied) | 18603381 | https://seatgeek.com/dylan-scott-tickets/wenatchee-washington-town-toyota-center-2027-03-06-7-30-pm/concert/18603381 | - |
-| tm-valley-2027-quebec-z7r9jz1aavzfi | valley | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-dylan-scott-2026-dallas-z7r9jz1aavsep | dylan-scott | verify (applied) | 18603387 | https://seatgeek.com/dylan-scott-tickets/dallas-texas-the-bomb-factory-dallas-2026-10-15-8-pm/concert/18603387 | - |
+| tm-dylan-scott-2026-milwaukee-z7r9jz1aavse9 | dylan-scott | verify (applied) | 18526286 | https://seatgeek.com/dylan-scott-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-10-24-8-pm/concert/18526286 | - |
+| tm-dylan-scott-2027-bismarck-z7r9jz1aavseb | dylan-scott | verify (applied) | 18603379 | https://seatgeek.com/dylan-scott-tickets/bismarck-north-dakota-bismarck-event-center-2027-01-29-7-30-pm/concert/18603379 | - |
 
 ## Skipped before API checks
 

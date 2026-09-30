@@ -8283,11 +8283,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7921649",
-        "url": "https://www.ticketnetwork.com/en/p/7921649",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7921649",
@@ -8308,7 +8308,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AvbZ_aGkM9w2rv",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921649",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921649/Olivia-Rodrigo-tickets-Tue-Sep-29-2026-PPG-Paints-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-pittsburgh-tickets-9-29-2026/event/107165387"
   },
@@ -31969,11 +31969,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7831763",
-        "url": "https://www.ticketnetwork.com/en/p/7831763",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107153109",
@@ -31993,7 +31993,7 @@
     "ticketmaster_discovery_event_id": "16gZkozPUZA5kedv",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831763",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-sheffield-utilita-arena-sheffield-29-9-2026/event/107153109",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831763/Niall-Horan-tickets-Tue-Sep-29-2026-Utilita-Arena-Sheffield"
   },
@@ -36752,11 +36752,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7874821",
-        "url": "https://www.ticketnetwork.com/en/p/7874821",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107155463",
@@ -36776,7 +36776,7 @@
     "ticketmaster_discovery_event_id": "1AoZk3aGkddnbD1",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874821",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-vancouver-rogers-arena-9-29-2026/event/107155463",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874821/sombr-tickets-Tue-Sep-29-2026-Rogers-Arena"
   },
@@ -45149,11 +45149,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7883094",
-        "url": "https://www.ticketnetwork.com/en/p/7883094",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7883094",
@@ -45173,7 +45173,7 @@
     "ticketmaster_discovery_event_id": "vv17OZ_FGkTEC1td",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883094",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883094/Teddy-Swims-tickets-Tue-Sep-29-2026-Little-Caesars-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-detroit-tickets-9-29-2026/event/107163017"
   },
@@ -79288,18 +79288,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8135390",
-        "url": "https://www.ticketnetwork.com/en/p/8135390",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JfoV",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135390/Michelle-Branch-tickets-Tue-Sep-29-2026-McMenamins-Crystal-Ballroom",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135390"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-michelle-branch-2026-san-francisco-g5vyz_cnetamw",

@@ -62,11 +62,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7874821",
-        "url": "https://www.ticketliquidator.com/tickets/7874821/sombr-tickets-Tue-Sep-29-2026-Rogers-Arena",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk3aGkddnbD1",
@@ -74,7 +74,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-vancouver-rogers-arena-9-29-2026/event/107155463",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874821/sombr-tickets-Tue-Sep-29-2026-Rogers-Arena"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-sombr-2026-seattle-vvg1hz_feci1ir",

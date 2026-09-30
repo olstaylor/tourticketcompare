@@ -134,6 +134,11 @@
       },
       {
         "type": "section",
+        "title": "Find your concert",
+        "content": "[Choose your artist and concert date](/artists) to see the ticket links listed for that show. Match the city, venue and date before opening a provider. Where both Ticketmaster and Vivid Seats links are shown, use them to compare the seats and complete totals on each site. Coverage varies by show; a listed link does not guarantee tickets are still available."
+      },
+      {
+        "type": "section",
         "title": "Vivid Seats vs Ticketmaster at a glance",
         "content": "| Question | Ticketmaster | Vivid Seats |\n|---|---|---|\n| Typical role | Authorised primary seller for many events, plus labelled resale inventory | Resale marketplace |\n| Who sets the listed price? | Event organiser for primary tickets; reseller for resale tickets | Independent ticket reseller |\n| Upfront price in the US | Mandatory fees are included in the displayed total; tax and optional charges can be separate | Uses all-in ticket pricing that includes its service and delivery charges; government tax and selected extras can affect the final amount |\n| Delivery | Depends on the event and ticket type; mobile entry and transfers are common | Depends on the seller and listing; electronic transfer may arrive through another ticketing account |\n| Order protection | Terms depend on whether the ticket is primary or resale and on the event outcome | Published Buyer Guarantee applies subject to its terms and exclusions |\n| Loyalty feature | Event-specific programmes may vary | Vivid Seats Rewards is an app-based programme governed by current terms |\n\nThese are typical roles for a US audience. Inventory, display rules, and account requirements can differ by event or country, so read the exact listing and current provider terms."
       },
@@ -374,6 +379,11 @@
       {
         "type": "intro",
         "content": "**Short answer:** SeatGeek and Ticketmaster are separate companies, and neither is always cheaper or better. Ticketmaster is the primary ticketing provider for many events and also displays labelled resale inventory. SeatGeek is a primary ticketing provider for some partners and a secondary marketplace where fans and other sellers can list eligible tickets. The right starting point depends on who the artist, venue, team, or promoter names for the exact event.\n\nFor an official onsale, begin with the authorised primary seller. For resale, compare the exact ticket, seat, quantity, complete current total, delivery timing, and protection terms. A lower first price does not prove that either platform has the lower final total."
+      },
+      {
+        "type": "section",
+        "title": "Find your concert",
+        "content": "[Choose your artist and concert date](/artists) to see the ticket links listed for that show. Match the city, venue and date before opening a provider. Where both Ticketmaster and SeatGeek links are shown, use them to compare the seats and complete totals on each site. Coverage varies by show; a listed link does not guarantee tickets are still available."
       },
       {
         "type": "section",

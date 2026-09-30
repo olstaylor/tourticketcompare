@@ -48,9 +48,15 @@ sources:
 
 **Short verdict:** Ticketmaster is often the authorised primary seller for a concert and also carries clearly labelled resale tickets. Vivid Seats is a resale marketplace where independent resellers list tickets. Neither role makes one provider the right choice for every order. Start with the seller named by the artist, venue, or promoter for an official onsale. When you compare resale options, match the exact event, ticket type, quantity, section or standing area, delivery method, and complete checkout total.
 
-A Ticketmaster primary ticket and a Vivid Seats resale listing aren't automatically equivalent. Even for the same artist, date and venue, the seats, transfer timing and terms can differ, so the decision is about one purchase, not which brand is better.
+## What is the difference between Ticketmaster and Vivid Seats?
+
+The main difference is the ticket source: Ticketmaster sells primary tickets for many event organisers and also carries labelled resale tickets; Vivid Seats is a resale marketplace where independent resellers set their listing prices. They are separate businesses. A Vivid Seats order can still arrive through a Ticketmaster transfer when Ticketmaster issued the original digital ticket; that does not make it a direct Ticketmaster purchase.
+
+A Ticketmaster primary ticket and a Vivid Seats resale listing aren't automatically equivalent. Even for the same artist, date and venue, the seats, transfer timing and terms can differ. Use the authorised seller for an official onsale; for resale, compare the same ticket type, quantity and complete current total.
 
 On TourTicketCompare, the Vivid Seats button on a date shows Vivid Seats' lowest listed price for that date when its feed supplies one, with how long ago it was checked. The Ticketmaster button is a plain link with no price. Use the figure to decide whether the Vivid Seats listings are worth opening, not as the total you'll pay.
+
+[Choose an artist and concert date](/compare-concert-ticket-prices) to find the checked provider links, then confirm the exact seat details, delivery terms and total at checkout.
 
 ## Vivid Seats vs Ticketmaster at a glance
 

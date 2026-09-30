@@ -41,7 +41,13 @@ sources:
 
 **Short answer:** SeatGeek and Ticketmaster are separate companies, and neither is always cheaper or better. Ticketmaster is the primary ticketing provider for many events and also displays labelled resale inventory. SeatGeek is a primary ticketing provider for some partners and a secondary marketplace where fans and other sellers can list eligible tickets. The right starting point depends on who the artist, venue, team, or promoter names for the exact event.
 
-For an official onsale, begin with the authorised primary seller. For resale, compare the exact ticket, seat, quantity, complete current total, delivery timing, and protection terms. A lower first price does not prove that either platform has the lower final total.
+## Is SeatGeek or Ticketmaster better?
+
+For an official onsale, use whichever provider the artist, venue or promoter names as the authorised seller for that event. That can be Ticketmaster, SeatGeek or another primary seller. For resale, the better purchase depends on the exact ticket, seat, quantity, complete current total, delivery timing and protection terms.
+
+Neither platform is always cheaper. Match the same date and ticket type, then compare the final totals for the same number of tickets. A SeatGeek resale listing and a Ticketmaster primary ticket can have different prices and terms even when they are for the same show.
+
+To put that comparison into practice, [choose an artist and concert date](/compare-concert-ticket-prices). Open the checked links for that date and confirm the seat details and total on each provider before paying.
 
 ## SeatGeek vs Ticketmaster at a glance
 

@@ -130,7 +130,12 @@
     "sections": [
       {
         "type": "intro",
-        "content": "**Short verdict:** Ticketmaster is often the authorised primary seller for a concert and also carries clearly labelled resale tickets. Vivid Seats is a resale marketplace where independent resellers list tickets. Neither role makes one provider the right choice for every order. Start with the seller named by the artist, venue, or promoter for an official onsale. When you compare resale options, match the exact event, ticket type, quantity, section or standing area, delivery method, and complete checkout total.\n\nA Ticketmaster primary ticket and a Vivid Seats resale listing aren't automatically equivalent. Even for the same artist, date and venue, the seats, transfer timing and terms can differ, so the decision is about one purchase, not which brand is better.\n\nOn TourTicketCompare, the Vivid Seats button on a date shows Vivid Seats' lowest listed price for that date when its feed supplies one, with how long ago it was checked. The Ticketmaster button is a plain link with no price. Use the figure to decide whether the Vivid Seats listings are worth opening, not as the total you'll pay."
+        "content": "**Short verdict:** Ticketmaster is often the authorised primary seller for a concert and also carries clearly labelled resale tickets. Vivid Seats is a resale marketplace where independent resellers list tickets. Neither role makes one provider the right choice for every order. Start with the seller named by the artist, venue, or promoter for an official onsale. When you compare resale options, match the exact event, ticket type, quantity, section or standing area, delivery method, and complete checkout total."
+      },
+      {
+        "type": "section",
+        "title": "What is the difference between Ticketmaster and Vivid Seats?",
+        "content": "The main difference is the ticket source: Ticketmaster sells primary tickets for many event organisers and also carries labelled resale tickets; Vivid Seats is a resale marketplace where independent resellers set their listing prices. They are separate businesses. A Vivid Seats order can still arrive through a Ticketmaster transfer when Ticketmaster issued the original digital ticket; that does not make it a direct Ticketmaster purchase.\n\nA Ticketmaster primary ticket and a Vivid Seats resale listing aren't automatically equivalent. Even for the same artist, date and venue, the seats, transfer timing and terms can differ. Use the authorised seller for an official onsale; for resale, compare the same ticket type, quantity and complete current total.\n\nOn TourTicketCompare, the Vivid Seats button on a date shows Vivid Seats' lowest listed price for that date when its feed supplies one, with how long ago it was checked. The Ticketmaster button is a plain link with no price. Use the figure to decide whether the Vivid Seats listings are worth opening, not as the total you'll pay.\n\n[Choose an artist and concert date](/compare-concert-ticket-prices) to find the checked provider links, then confirm the exact seat details, delivery terms and total at checkout."
       },
       {
         "type": "section",
@@ -373,7 +378,12 @@
     "sections": [
       {
         "type": "intro",
-        "content": "**Short answer:** SeatGeek and Ticketmaster are separate companies, and neither is always cheaper or better. Ticketmaster is the primary ticketing provider for many events and also displays labelled resale inventory. SeatGeek is a primary ticketing provider for some partners and a secondary marketplace where fans and other sellers can list eligible tickets. The right starting point depends on who the artist, venue, team, or promoter names for the exact event.\n\nFor an official onsale, begin with the authorised primary seller. For resale, compare the exact ticket, seat, quantity, complete current total, delivery timing, and protection terms. A lower first price does not prove that either platform has the lower final total."
+        "content": "**Short answer:** SeatGeek and Ticketmaster are separate companies, and neither is always cheaper or better. Ticketmaster is the primary ticketing provider for many events and also displays labelled resale inventory. SeatGeek is a primary ticketing provider for some partners and a secondary marketplace where fans and other sellers can list eligible tickets. The right starting point depends on who the artist, venue, team, or promoter names for the exact event."
+      },
+      {
+        "type": "section",
+        "title": "Is SeatGeek or Ticketmaster better?",
+        "content": "For an official onsale, use whichever provider the artist, venue or promoter names as the authorised seller for that event. That can be Ticketmaster, SeatGeek or another primary seller. For resale, the better purchase depends on the exact ticket, seat, quantity, complete current total, delivery timing and protection terms.\n\nNeither platform is always cheaper. Match the same date and ticket type, then compare the final totals for the same number of tickets. A SeatGeek resale listing and a Ticketmaster primary ticket can have different prices and terms even when they are for the same show.\n\nTo put that comparison into practice, [choose an artist and concert date](/compare-concert-ticket-prices). Open the checked links for that date and confirm the seat details and total on each provider before paying."
       },
       {
         "type": "section",

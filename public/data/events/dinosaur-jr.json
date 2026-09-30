@@ -447,7 +447,7 @@
     "ticketmaster_event_id": "1C0064D90375144A",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-sacramento-california-10-20-2026/event/1C0064D90375144A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-sacramento-ace-of-spades-10-20-2026--concerts-rock/production/7234800",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-sacramento-california-10-20-2026/event/1C0064D90375144A",
     "last_verified_at": null,
@@ -469,11 +469,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7234800,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-sacramento-ace-of-spades-10-20-2026--concerts-rock/production/7234800",
+        "verified": true,
+        "last_verified_at": "2026-09-30",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

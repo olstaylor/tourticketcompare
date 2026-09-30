@@ -1381,10 +1381,19 @@ assert(pairwiseGuide.text.includes("<h2>Sources</h2>"), "focused guide should ex
 const pairwiseLd = extractJsonLd(pairwiseGuide.text);
 const pairwiseArticle = pairwiseLd?.["@graph"]?.find((node) => node?.["@type"] === "Article");
 const pairwiseFaq = pairwiseLd?.["@graph"]?.find((node) => node?.["@type"] === "FAQPage");
-assert(Array.isArray(pairwiseArticle?.citation) && pairwiseArticle.citation.length === 8, "focused guide Article schema should cite all eight visible primary sources");
+const pairwiseContent = (await readJson("public/data/guides-content.json"))["/guides/seatgeek-vs-ticketmaster"];
+const pairwiseSourceUrls = pairwiseContent.sources.map((source) => source.url);
+assert(pairwiseSourceUrls.length >= 8, "focused guide should retain substantial primary-source coverage");
+assert(JSON.stringify(pairwiseArticle?.citation) === JSON.stringify(pairwiseSourceUrls), "focused guide Article schema should cite every published primary source");
+for (const url of pairwiseSourceUrls) {
+  assert(pairwiseGuide.text.includes(`href="${url}"`), `focused guide source must also be visible: ${url}`);
+}
 assert(pairwiseArticle?.articleSection === "Compare prices and fees", "focused guide should join the comparison topic cluster");
 assert(pairwiseArticle?.dateModified === routeMetadataModule.GUIDE_ROUTES["/guides/seatgeek-vs-ticketmaster"]?.lastmod, "focused guide Article schema should expose the SEO review date");
-assert(Array.isArray(pairwiseFaq?.mainEntity) && pairwiseFaq.mainEntity.length === 8, "focused guide FAQ schema should mirror all eight visible answers");
+const pairwiseFaqCopy = pairwiseContent.sections.find((section) => section.title === "FAQ")?.content || "";
+const pairwiseQuestions = [...pairwiseFaqCopy.matchAll(/^\*\*(.+\?)\*\*$/gm)].map((match) => match[1]);
+assert(pairwiseQuestions.length >= 8, "focused guide should retain its buying FAQ coverage");
+assert(JSON.stringify(pairwiseFaq?.mainEntity?.map((entry) => entry.name)) === JSON.stringify(pairwiseQuestions), "focused guide FAQ schema should mirror every published question");
 
 const comparisonHub = await routeResponse("/compare-concert-ticket-prices");
 assert(

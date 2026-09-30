@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "000065159C471E82",
     "ticketmaster_url": "https://www.ticketmaster.com/too-many-zooz-brooklyn-new-york-10-30-2026/event/000065159C471E82",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-brooklyn-brooklyn-bowl---ny-10-30-2026/production/7479392",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/too-many-zooz-brooklyn-new-york-10-30-2026/event/000065159C471E82",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7479392,
+        "url": "https://www.vividseats.com/too-many-zooz-tickets-brooklyn-brooklyn-bowl---ny-10-30-2026/production/7479392",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -142,7 +142,7 @@
     "ticketmaster_event_id": "1E006531942A5AAF",
     "ticketmaster_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-denver-colorado-03-19-2027/event/1E006531942A5AAF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-denver-summit-music-hall-3-19-2027/production/7594958",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-denver-colorado-03-19-2027/event/1E006531942A5AAF",
     "last_verified_at": null,
@@ -164,11 +164,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7594958,
+        "url": "https://www.vividseats.com/too-many-zooz-tickets-denver-summit-music-hall-3-19-2027/production/7594958",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -211,7 +211,7 @@
     "ticketmaster_event_id": "3A006532158EC7B6",
     "ticketmaster_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-houston-texas-04-30-2027/event/3A006532158EC7B6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-houston-white-oak-music-hall---downstairs-4-30-2027/production/7594457",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-houston-texas-04-30-2027/event/3A006532158EC7B6",
     "last_verified_at": null,
@@ -233,11 +233,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7594457,
+        "url": "https://www.vividseats.com/too-many-zooz-tickets-houston-white-oak-music-hall---downstairs-4-30-2027/production/7594457",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -280,7 +280,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvMvf",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvMvf",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-tucson-la-rosa-5-6-2027/production/7595210",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvMvf",
     "last_verified_at": null,
@@ -302,11 +302,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7595210,
+        "url": "https://www.vividseats.com/too-many-zooz-tickets-tucson-la-rosa-5-6-2027/production/7595210",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -349,7 +349,7 @@
     "ticketmaster_event_id": "0F00652FC9DEA131",
     "ticketmaster_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-seattle-washington-05-14-2027/event/0F00652FC9DEA131",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-seattle-the-neptune-theatre-5-14-2027--concerts-alternative/production/7595252",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-seattle-washington-05-14-2027/event/0F00652FC9DEA131",
     "last_verified_at": null,
@@ -371,11 +371,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7595252,
+        "url": "https://www.vividseats.com/too-many-zooz-tickets-seattle-the-neptune-theatre-5-14-2027--concerts-alternative/production/7595252",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

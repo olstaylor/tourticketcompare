@@ -213,7 +213,11 @@ async function fetchArtistCatalog(artistName, env, fetchImpl) {
     const total = Number(response.data?.["@total"]);
     if (results.length < PAGE_SIZE || (Number.isFinite(total) && page * PAGE_SIZE >= total)) return { ok: true, data: rows };
   }
-  return { ok: false, status: 0, reason: "Impact Marketplace Products catalog exceeded the safe pagination cap" };
+  // A generic artist name (e.g. "Valley") matches more products than the cap
+  // allows. That is a property of the name, not a broken request, so it is
+  // reported as incomplete rather than failed. An incomplete catalog cannot
+  // prove a price is unique or absent, so the caller prices nothing from it.
+  return { ok: false, incomplete: true, status: 0, reason: "catalog_incomplete_pagination_cap" };
 }
 function buildSnapshotRow(item, price, now, freshnessHours) {
   const eventId = clean(item?.localId, 255);
@@ -317,7 +321,8 @@ async function runIngestion(options, deps = {}) {
     errors: 0,
     proposed_rows: [],
     skip_reasons: {},
-    error_details: []
+    error_details: [],
+    incomplete_artists: []
   };
   for (const skipped of selection.skipped) summary.skip_reasons[skipped.reason] = (summary.skip_reasons[skipped.reason] || 0) + 1;
   const byArtist = new Map();
@@ -326,6 +331,16 @@ async function runIngestion(options, deps = {}) {
   const checks = [];
   for (const [artistName, items] of byArtist) {
     const fetched = deps.fetchArtistCatalog ? await deps.fetchArtistCatalog(artistName, env) : await fetchArtistCatalog(artistName, env, deps.fetchImpl);
+    if (!fetched.ok && fetched.incomplete) {
+      // Same contract as sync-vividseats-events.mjs: an incomplete catalog is
+      // neither a failure nor evidence. No price row, no no_price check.
+      summary.incomplete_artists.push(artistName);
+      for (const item of items) {
+        summary.skipped++;
+        summary.skip_reasons.catalog_incomplete = (summary.skip_reasons.catalog_incomplete || 0) + 1;
+      }
+      continue;
+    }
     if (!fetched.ok) {
       for (const item of items) {
         summary.skipped++;
@@ -364,6 +379,8 @@ async function runIngestion(options, deps = {}) {
     summary.checks_recorded = checkResult.recorded || 0;
     if (checkResult.error) summary.checks_error = checkResult.error;
   }
+  const priceable = summary.eligible - (summary.skip_reasons.catalog_incomplete || 0);
+  summary.priceable = priceable;
   if (summary.eligible === 0) summary.zero_row_reason = "no_eligible_verified_events";
   else if (summary.usable === 0 && summary.fetched === 0 && summary.failed > 0) summary.zero_row_reason = "provider_fetch_failed";
   else if (summary.usable === 0) summary.zero_row_reason = "no_usable_current_prices";
@@ -427,7 +444,21 @@ async function selfTest() {
   });
   assert.equal(conflicted[0].outcome, "unusable", "conflicting prices are unusable, never no_price");
   assert.equal(applied.checks_error, "boom");
-  return { ok: true, tests: 36 };
+  let incompleteChecks = null;
+  const incomplete = await runIngestion({ apply: true, limit: null, eventId: "", freshnessHours: 6, database: DEFAULT_D1_DATABASE, remote: true }, {
+    catalog: { events: [verifiedFutureEvent, { ...verifiedFutureEvent, id: "event-v", artist_slug: "valley", vividseats_url: "https://www.vividseats.com/v-tickets/production/789" }], artistsBySlug: new Map([["raye", "RAYE"], ["valley", "Valley"]]) },
+    now, async fetchArtistCatalog(name) { return name === "Valley" ? { ok: false, incomplete: true, reason: "catalog_incomplete_pagination_cap" } : { ok: true, data: [{ CurrentPrice: 52, Currency: "USD", Offers: [{ Sku: "123" }] }] }; },
+    async writer(rows) { return { written: rows.length }; },
+    async checksWriter(checks) { incompleteChecks = checks; return { recorded: checks.length }; }
+  });
+  assert.equal(incomplete.failed, 0, "a capped catalog is not a failure");
+  assert.equal(incomplete.skip_reasons.catalog_incomplete, 1);
+  assert.deepEqual(incomplete.incomplete_artists, ["Valley"]);
+  assert.equal(incomplete.written, 1, "other artists still price");
+  assert.deepEqual(incompleteChecks.map((c) => c.event_id), ["event-1"], "a capped catalog records no no_price check");
+  const capped = await fetchArtistCatalog("Valley", { IMPACT_ACCOUNT_SID: "sid", IMPACT_AUTH_TOKEN: "tok" }, async () => ({ ok: true, status: 200, json: async () => ({ Results: Array.from({ length: PAGE_SIZE }, () => ({})), "@total": PAGE_SIZE * (MAX_PAGES + 1) }) }));
+  assert.equal(capped.ok, false); assert.equal(capped.incomplete, true);
+  return { ok: true, tests: 43 };
 }
 function printSummary(summary) {
   console.log(`Vivid Seats Impact price snapshot ${summary.mode} summary:`);
@@ -444,7 +475,8 @@ async function main() {
   const summary = await runIngestion(options);
   if (options.json) console.log(JSON.stringify(summary, null, 2)); else printSummary(summary);
   if (summary.checks_error) console.log(`::warning::vivid-seats price-check record not written: ${summary.checks_error.replace(/\s+/g, " ")}`);
-  if (summary.failed > 0 || (options.apply && summary.eligible > 0 && summary.usable === 0)) process.exitCode = 1;
+  if (summary.incomplete_artists.length) console.log(`::warning::Vivid Seats catalog exceeded the pagination cap (not priced): ${summary.incomplete_artists.join(", ")}`);
+  if (summary.failed > 0 || (options.apply && summary.priceable > 0 && summary.usable === 0)) process.exitCode = 1;
 }
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(redact(error.stack || error.message || error)); process.exitCode = 1; });
 export { APPROVED_SOURCE, buildHistoryInsertSql, buildSnapshotRow, buildUpsertSql, impactCredentials, marketplaceProductsUrl, pricesForProduction, runIngestion, selectEligibleEvents, vividProductionId };

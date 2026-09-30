@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "3100652EAB806F3B",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-montreal-quebec-02-05-2027/event/3100652EAB806F3B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-montreal-le-studio-td-2-5-2027--concerts-rock/production/7579939",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-montreal-quebec-02-05-2027/event/3100652EAB806F3B",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7579939,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-montreal-le-studio-td-2-5-2027--concerts-rock/production/7579939",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -285,7 +285,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvzfY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfY",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-chicago-park-west-2-12-2027--concerts-rock/production/7579444",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfY",
     "last_verified_at": null,
@@ -307,11 +307,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7579444,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-chicago-park-west-2-12-2027--concerts-rock/production/7579444",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -407,7 +407,7 @@
     "ticketmaster_event_id": "1100652E91186703",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-winnipeg-manitoba-02-16-2027/event/1100652E91186703",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-winnipeg-park-theatre---mb-2-16-2027--concerts-rock/production/7579430",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-winnipeg-manitoba-02-16-2027/event/1100652E91186703",
     "last_verified_at": null,
@@ -429,11 +429,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7579430,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-winnipeg-park-theatre---mb-2-16-2027--concerts-rock/production/7579430",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -598,7 +598,7 @@
     "ticketmaster_event_id": "1100652E92396947",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-calgary-alberta-02-20-2027/event/1100652E92396947",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-calgary-the-palace-theatre-calgary-2-20-2027--concerts-rock/production/7579440",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-calgary-alberta-02-20-2027/event/1100652E92396947",
     "last_verified_at": null,
@@ -620,11 +620,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7579440,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-calgary-the-palace-theatre-calgary-2-20-2027--concerts-rock/production/7579440",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -651,7 +651,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvgoz",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvgoz",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-victoria-capital-ballroom---victoria-2-23-2027--concerts-rock/production/7579951",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvgoz",
     "last_verified_at": null,
@@ -673,11 +673,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7579951,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-victoria-capital-ballroom---victoria-2-23-2027--concerts-rock/production/7579951",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -712,7 +712,7 @@
     "ticketmaster_event_id": "1100652E92F16D17",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-vancouver-british-columbia-02-24-2027/event/1100652E92F16D17",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-vancouver-commodore-ballroom-2-24-2027--concerts-rock/production/7579442",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-vancouver-british-columbia-02-24-2027/event/1100652E92F16D17",
     "last_verified_at": null,
@@ -734,11 +734,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7579442,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-vancouver-commodore-ballroom-2-24-2027--concerts-rock/production/7579442",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -773,7 +773,7 @@
     "ticketmaster_event_id": "0F00652AB1AE98D6",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-seattle-washington-02-26-2027/event/0F00652AB1AE98D6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-seattle-the-neptune-theatre-2-26-2027--concerts-rock/production/7579376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-seattle-washington-02-26-2027/event/0F00652AB1AE98D6",
     "last_verified_at": null,
@@ -795,11 +795,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7579376,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-seattle-the-neptune-theatre-2-26-2027--concerts-rock/production/7579376",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -834,7 +834,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvzfS",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfS",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-portland-wonder-ballroom-2-27-2027/production/7580200",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfS",
     "last_verified_at": null,
@@ -856,11 +856,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7580200,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-portland-wonder-ballroom-2-27-2027/production/7580200",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -956,7 +956,7 @@
     "ticketmaster_event_id": "09006521DDBFCEF5",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-los-angeles-california-03-02-2027/event/09006521DDBFCEF5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-los-angeles-the-bellwether-3-2-2027/production/7580204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-los-angeles-california-03-02-2027/event/09006521DDBFCEF5",
     "last_verified_at": null,
@@ -978,11 +978,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7580204,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-los-angeles-the-bellwether-3-2-2027/production/7580204",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1086,7 +1086,7 @@
     "ticketmaster_event_id": "1E00652EA3D363D8",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-salt-lake-city-utah-03-05-2027/event/1E00652EA3D363D8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-salt-lake-city-the-depot---ut-3-5-2027--concerts-rock/production/7579390",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-salt-lake-city-utah-03-05-2027/event/1E00652EA3D363D8",
     "last_verified_at": null,
@@ -1108,11 +1108,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7579390,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-salt-lake-city-the-depot---ut-3-5-2027--concerts-rock/production/7579390",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1261,7 +1261,7 @@
     "ticketmaster_event_id": "1B00652BDE776355",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-nashville-tennessee-03-10-2027/event/1B00652BDE776355",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-nashville-brooklyn-bowl---nashville-3-10-2027--concerts-rock/production/7579396",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-nashville-tennessee-03-10-2027/event/1B00652BDE776355",
     "last_verified_at": null,
@@ -1283,11 +1283,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7579396,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-nashville-brooklyn-bowl---nashville-3-10-2027--concerts-rock/production/7579396",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1330,7 +1330,7 @@
     "ticketmaster_event_id": "0E006523C519F7E8",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-atlanta-georgia-03-12-2027/event/0E006523C519F7E8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-atlanta-the-masquerade---hell-3-12-2027--concerts-rock/production/7579398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-atlanta-georgia-03-12-2027/event/0E006523C519F7E8",
     "last_verified_at": null,
@@ -1352,11 +1352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7579398,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-atlanta-the-masquerade---hell-3-12-2027--concerts-rock/production/7579398",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1383,7 +1383,7 @@
     "ticketmaster_event_id": "2D00652A9E8EDFA6",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-charlotte-north-carolina-03-13-2027/event/2D00652A9E8EDFA6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-charlotte-the-underground-at-the-fillmore-charlotte-3-13-2027--concerts-rock/production/7579404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-charlotte-north-carolina-03-13-2027/event/2D00652A9E8EDFA6",
     "last_verified_at": null,
@@ -1405,11 +1405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7579404,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-charlotte-the-underground-at-the-fillmore-charlotte-3-13-2027--concerts-rock/production/7579404",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1513,7 +1513,7 @@
     "ticketmaster_event_id": "02006530F21CDFF2",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-philadelphia-pennsylvania-03-16-2027/event/02006530F21CDFF2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-philadelphia-brooklyn-bowl-philadelphia-3-16-2027--concerts-rock/production/7579418",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-philadelphia-pennsylvania-03-16-2027/event/02006530F21CDFF2",
     "last_verified_at": null,
@@ -1535,11 +1535,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7579418,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-philadelphia-brooklyn-bowl-philadelphia-3-16-2027--concerts-rock/production/7579418",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1643,7 +1643,7 @@
     "ticketmaster_event_id": "0100652BB45A30E3",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-dyntbe-the-tour-boston-massachusetts-03-18-2027/event/0100652BB45A30E3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-boston-paradise-rock-club-3-18-2027--concerts-rock/production/7579422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-dyntbe-the-tour-boston-massachusetts-03-18-2027/event/0100652BB45A30E3",
     "last_verified_at": null,
@@ -1665,11 +1665,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7579422,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-boston-paradise-rock-club-3-18-2027--concerts-rock/production/7579422",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1704,7 +1704,7 @@
     "ticketmaster_event_id": "1000652EE7F895D1",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-toronto-ontario-03-20-2027/event/1000652EE7F895D1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-toronto-massey-hall---allied-music-centre-3-20-2027--concerts-rock/production/7579953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-toronto-ontario-03-20-2027/event/1000652EE7F895D1",
     "last_verified_at": null,
@@ -1726,11 +1726,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7579953,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-toronto-massey-hall---allied-music-centre-3-20-2027--concerts-rock/production/7579953",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -169,6 +169,7 @@ jobs:
           fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Vivid Seats price snapshots\n\n| Metric | Count |\n| --- | ---: |\n${rows}\n\n**Zero-row reason:** ${reason}\n`);
           if (summary.failed > 0) console.log(`::warning::${summary.failed} Vivid Seats observations failed.`);
           if (summary.zero_row_reason) console.log(`::notice::Vivid Seats zero-row reason: ${summary.zero_row_reason}`);
+          if (summary.incomplete_artists?.length) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `\n**Catalog over pagination cap (not priced):** ${summary.incomplete_artists.join(", ")}\n`);
           NODE
 
       # Bounded retention for the change-only history table, on apply runs

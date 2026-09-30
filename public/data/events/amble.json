@@ -48,17 +48,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107277078",
-        "url": "https://www.stubhub.ie/amble-tickets-sheffield-octagon-centre-28-9-2026/event/107277078",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_5SAGy5T",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-sheffield-octagon-centre-28-9-2026/event/107277078"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-amble-2026-glasgow-g5dzz_5s1tpu0",
@@ -73,7 +73,7 @@
     "ticketmaster_event_id": "3E0064BCCAFE5364",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/amble-glasgow-30-09-2026/event/3E0064BCCAFE5364",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-glasgow-o2-academy-glasgow-9-30-2026/production/7143867",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/amble-glasgow-30-09-2026/event/3E0064BCCAFE5364",
     "last_verified_at": null,
@@ -95,11 +95,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7143867,
+        "url": "https://www.vividseats.com/amble-tickets-glasgow-o2-academy-glasgow-9-30-2026/production/7143867",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -187,7 +187,7 @@
     "ticketmaster_event_id": "360064B603B4CD25",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/amble-manchester-03-10-2026/event/360064B603B4CD25",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-manchester-o2-apollo-manchester-10-3-2026--concerts-alternative/production/7105609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/amble-manchester-03-10-2026/event/360064B603B4CD25",
     "last_verified_at": null,
@@ -209,11 +209,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7105609,
+        "url": "https://www.vividseats.com/amble-tickets-manchester-o2-apollo-manchester-10-3-2026--concerts-alternative/production/7105609",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -362,7 +362,7 @@
     "ticketmaster_event_id": "3E0064BCC04B4B93",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/amble-london-08-10-2026/event/3E0064BCC04B4B93",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-london-o2-academy-brixton-10-8-2026--concerts-alternative/production/7105625",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/amble-london-08-10-2026/event/3E0064BCC04B4B93",
     "last_verified_at": null,
@@ -384,11 +384,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7105625,
+        "url": "https://www.vividseats.com/amble-tickets-london-o2-academy-brixton-10-8-2026--concerts-alternative/production/7105625",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -630,7 +630,7 @@
     "ticketmaster_event_id": "1100649BB3788107",
     "ticketmaster_url": "https://www.ticketmaster.ca/amble-vancouver-british-columbia-10-27-2026/event/1100649BB3788107",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-vancouver-orpheum-theatre---vancouver-10-27-2026--concerts-alternative/production/6982424",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/amble-vancouver-british-columbia-10-27-2026/event/1100649BB3788107",
     "last_verified_at": null,
@@ -652,11 +652,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6982424,
+        "url": "https://www.vividseats.com/amble-tickets-vancouver-orpheum-theatre---vancouver-10-27-2026--concerts-alternative/production/6982424",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -752,7 +752,7 @@
     "ticketmaster_event_id": "1000649A040E94FC",
     "ticketmaster_url": "https://www.ticketmaster.ca/amble-toronto-ontario-11-02-2026/event/1000649A040E94FC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-toronto-history-toronto-11-2-2026--concerts-alternative/production/6982426",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/amble-toronto-ontario-11-02-2026/event/1000649A040E94FC",
     "last_verified_at": null,
@@ -774,11 +774,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6982426,
+        "url": "https://www.vividseats.com/amble-tickets-toronto-history-toronto-11-2-2026--concerts-alternative/production/6982426",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -858,7 +858,7 @@
     "ticketmaster_event_id": "0100649CBC0A3C05",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-boston-massachusetts-11-06-2026/event/0100649CBC0A3C05",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-boston-citizens-house-of-blues-boston-11-6-2026--concerts-alternative/production/6982394",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-boston-massachusetts-11-06-2026/event/0100649CBC0A3C05",
     "last_verified_at": null,
@@ -880,11 +880,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6982394,
+        "url": "https://www.vividseats.com/amble-tickets-boston-citizens-house-of-blues-boston-11-6-2026--concerts-alternative/production/6982394",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -927,7 +927,7 @@
     "ticketmaster_event_id": "0000649EC4999749",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-brooklyn-new-york-11-07-2026/event/0000649EC4999749",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-brooklyn-brooklyn-paramount-11-7-2026--concerts-alternative/production/6982398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-brooklyn-new-york-11-07-2026/event/0000649EC4999749",
     "last_verified_at": null,
@@ -949,11 +949,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6982398,
+        "url": "https://www.vividseats.com/amble-tickets-brooklyn-brooklyn-paramount-11-7-2026--concerts-alternative/production/6982398",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1004,7 +1004,7 @@
     "ticketmaster_event_id": "0200649C2D05CF92",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-philadelphia-pennsylvania-11-10-2026/event/0200649C2D05CF92",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-philadelphia-theatre-of-living-arts-11-10-2026--concerts-alternative/production/6982400",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-philadelphia-pennsylvania-11-10-2026/event/0200649C2D05CF92",
     "last_verified_at": null,
@@ -1026,11 +1026,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6982400,
+        "url": "https://www.vividseats.com/amble-tickets-philadelphia-theatre-of-living-arts-11-10-2026--concerts-alternative/production/6982400",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1195,7 +1195,7 @@
     "ticketmaster_event_id": "1B0064CABED5F446",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-nashville-brooklyn-bowl---nashville-11-14-2026/production/7165441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
     "last_verified_at": null,
@@ -1217,11 +1217,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7165441,
+        "url": "https://www.vividseats.com/amble-tickets-nashville-brooklyn-bowl---nashville-11-14-2026/production/7165441",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1264,7 +1264,7 @@
     "ticketmaster_event_id": "1B006499DDF33ABC",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-new-orleans-louisiana-11-16-2026/event/1B006499DDF33ABC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-new-orleans-house-of-blues-new-orleans-11-16-2026--concerts-alternative/production/6982406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-new-orleans-louisiana-11-16-2026/event/1B006499DDF33ABC",
     "last_verified_at": null,
@@ -1286,11 +1286,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6982406,
+        "url": "https://www.vividseats.com/amble-tickets-new-orleans-house-of-blues-new-orleans-11-16-2026--concerts-alternative/production/6982406",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1386,7 +1386,7 @@
     "ticketmaster_event_id": "0C0064A1CAA1A75C",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-dallas-texas-11-18-2026/event/0C0064A1CAA1A75C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/amble-tickets-dallas-the-echo-lounge-and-music-hall-11-18-2026--concerts-alternative/production/6982420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-dallas-texas-11-18-2026/event/0C0064A1CAA1A75C",
     "last_verified_at": null,
@@ -1408,11 +1408,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6982420,
+        "url": "https://www.vividseats.com/amble-tickets-dallas-the-echo-lounge-and-music-hall-11-18-2026--concerts-alternative/production/6982420",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

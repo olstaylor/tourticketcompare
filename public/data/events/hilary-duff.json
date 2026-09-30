@@ -37,7 +37,7 @@
         "event_id": 6652450,
         "url": "https://www.vividseats.com/hilary-duff-tickets-vancouver-rogers-arena-1-22-2027--concerts-pop/production/6652450",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -114,7 +114,7 @@
         "event_id": 6678903,
         "url": "https://www.vividseats.com/hilary-duff-tickets-vancouver-rogers-arena-1-23-2027--concerts-pop/production/6678903",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -183,7 +183,7 @@
         "event_id": 6652458,
         "url": "https://www.vividseats.com/hilary-duff-tickets-calgary-scotiabank-saddledome-1-26-2027--concerts-pop/production/6652458",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -260,7 +260,7 @@
         "event_id": 6652467,
         "url": "https://www.vividseats.com/hilary-duff-tickets-edmonton-rogers-place-1-27-2027--concerts-pop/production/6652467",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -337,7 +337,7 @@
         "event_id": 6693424,
         "url": "https://www.vividseats.com/hilary-duff-tickets-saskatoon-sasktel-centre-1-29-2027--concerts-pop/production/6693424",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -406,7 +406,7 @@
         "event_id": 6652472,
         "url": "https://www.vividseats.com/hilary-duff-tickets-winnipeg-canada-life-centre-1-30-2027--concerts-pop/production/6652472",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -483,7 +483,7 @@
         "event_id": 6652474,
         "url": "https://www.vividseats.com/hilary-duff-tickets-hamilton-td-coliseum-2-2-2027--concerts-pop/production/6652474",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -589,7 +589,7 @@
         "event_id": 6652478,
         "url": "https://www.vividseats.com/hilary-duff-tickets-montreal-bell-centre-2-5-2027--concerts-pop/production/6652478",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -658,7 +658,7 @@
         "event_id": 6652480,
         "url": "https://www.vividseats.com/hilary-duff-tickets-halifax-scotiabank-centre-2-7-2027--concerts-pop/production/6652480",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -727,7 +727,7 @@
         "event_id": 7599724,
         "url": "https://www.vividseats.com/hilary-duff-tickets-madrid-movistar-arena---madrid-5-7-2027--concerts-pop/production/7599724",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -736,12 +736,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668996",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-madrid-movistar-arena-palacio-de-los-deportes-7-5-2027/event/107668996",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vPO4y_t",
     "timezone": "Europe/Madrid",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T08:00:00Z"
+    "public_onsale_at": "2026-10-02T08:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-madrid-movistar-arena-palacio-de-los-deportes-7-5-2027/event/107668996"
   },
   {
     "id": "tm-hilary-duff-2027-milano-zg9rmiynyz776e",
@@ -898,12 +906,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668998",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-amsterdam-ziggo-dome-17-5-2027/event/107668998",
+        "verified": true,
+        "last_verified_at": "2026-09-29",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k3djpek",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T08:00:00Z"
+    "public_onsale_at": "2026-10-02T08:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-amsterdam-ziggo-dome-17-5-2027/event/107668998"
   },
   {
     "id": "tm-hilary-duff-2027-orlando-1axzkfugkdwff3y",
@@ -943,7 +959,7 @@
         "event_id": 7599663,
         "url": "https://www.vividseats.com/hilary-duff-tickets-orlando-kia-center-10-2-2027--concerts-pop/production/7599663",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1021,7 +1037,7 @@
         "event_id": 7599665,
         "url": "https://www.vividseats.com/hilary-duff-tickets-raleigh-lenovo-center-10-4-2027--concerts-pop/production/7599665",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1099,7 +1115,7 @@
         "event_id": 7599667,
         "url": "https://www.vividseats.com/hilary-duff-tickets-baltimore-cfg-bank-arena-10-6-2027--concerts-pop/production/7599667",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1177,7 +1193,7 @@
         "event_id": 7599671,
         "url": "https://www.vividseats.com/hilary-duff-tickets-uncasville-mohegan-sun-arena-ct-10-8-2027--concerts-pop/production/7599671",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1411,7 +1427,7 @@
         "event_id": 7599679,
         "url": "https://www.vividseats.com/hilary-duff-tickets-columbus-value-city-arena-at-schottenstein-center-10-15-2027--concerts-pop/production/7599679",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1489,7 +1505,7 @@
         "event_id": 7599690,
         "url": "https://www.vividseats.com/hilary-duff-tickets-pittsburgh-ppg-paints-arena-10-16-2027--concerts-pop/production/7599690",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1645,7 +1661,7 @@
         "event_id": 7599704,
         "url": "https://www.vividseats.com/hilary-duff-tickets-fort-worth-dickies-arena-11-6-2027--concerts-pop/production/7599704",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1723,7 +1739,7 @@
         "event_id": 7599706,
         "url": "https://www.vividseats.com/hilary-duff-tickets-tulsa-bok-center-11-8-2027--concerts-pop/production/7599706",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1801,7 +1817,7 @@
         "event_id": 7599708,
         "url": "https://www.vividseats.com/hilary-duff-tickets-omaha-chi-health-center-omaha-11-10-2027--concerts-pop/production/7599708",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1871,7 +1887,7 @@
         "event_id": 7599710,
         "url": "https://www.vividseats.com/hilary-duff-tickets-milwaukee-fiserv-forum-11-12-2027--concerts-pop/production/7599710",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1949,7 +1965,7 @@
         "event_id": 7599714,
         "url": "https://www.vividseats.com/hilary-duff-tickets-kansas-city-t-mobile-center-11-15-2027--concerts-pop/production/7599714",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2027,7 +2043,7 @@
         "event_id": 7599716,
         "url": "https://www.vividseats.com/hilary-duff-tickets-denver-ball-arena-11-17-2027--concerts-pop/production/7599716",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2105,7 +2121,7 @@
         "event_id": 7599718,
         "url": "https://www.vividseats.com/hilary-duff-tickets-anaheim-honda-center-11-20-2027--concerts-pop/production/7599718",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-09-29",
         "availability_status": "listed"
       },
       "stubhub": {

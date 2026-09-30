@@ -5724,7 +5724,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${anchor("Browse artists", "#compare-by-artist", "button button-secondary")}</div><p class="disclosure-note">Prices are only compared when captured for the same event, each with the time it was taken. Treat them as a starting point rather than a seat-for-seat match or a final quote — the provider sets the price, fees, availability and delivery terms.</p></section><section id="compare-by-artist" class="nested-panel"><h2>Start with an artist</h2><p>Open an artist to find the date you mean. Compare at the level of a single show — that's the only comparison that tells you anything.</p>${renderComparisonHubArtistCards(
       catalog,
       events
-    )}</section><section id="compare-by-city" class="nested-panel"><h2>Find a concert by city</h2><p>If the city matters more than the act, start here — then narrow down to the artist, venue, and date.</p>${renderComparisonHubCityLinks(
+    )}</section><section id="compare-by-city" class="nested-panel"><h2>Find a concert by city or venue</h2><p>Choose a city below or ${anchor("browse venues", "/venues", "text-link")} to find the show and date you want. Open that date to compare its checked ticket links and any listed-price snapshots. Different venues are different purchases: include travel and accommodation when choosing between them.</p>${renderComparisonHubCityLinks(
       events
     )}</section>${renderComparisonHubEventCards(
       events,

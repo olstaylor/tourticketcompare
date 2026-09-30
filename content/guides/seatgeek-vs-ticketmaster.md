@@ -43,6 +43,10 @@ sources:
 
 For an official onsale, begin with the authorised primary seller. For resale, compare the exact ticket, seat, quantity, complete current total, delivery timing, and protection terms. A lower first price does not prove that either platform has the lower final total.
 
+## Find your concert
+
+[Choose your artist and concert date](/artists) to see the ticket links listed for that show. Match the city, venue and date before opening a provider. Where both Ticketmaster and SeatGeek links are shown, use them to compare the seats and complete totals on each site. Coverage varies by show; a listed link does not guarantee tickets are still available.
+
 ## SeatGeek vs Ticketmaster at a glance
 
 | Question | Ticketmaster | SeatGeek |

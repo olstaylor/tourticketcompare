@@ -214,9 +214,7 @@ async function buildSegments(env, only = SITEMAP_SEGMENTS, origin = "") {
     lastmod: newestDate(
       GUIDE_ROUTES[path]?.lastmod ?? TRUST_ROUTES[path]?.lastmod,
       DATA_DERIVED_INDEX_LASTMOD[path]
-    ),
-    changefreq: "monthly",
-    priority: path === "/" ? "1.0" : "0.6"
+    )
   }));
   // The on-sale calendar joins the pages segment only while its own gate
   // passes, read from the same derivation the router uses. Its lastmod is the
@@ -229,17 +227,13 @@ async function buildSegments(env, only = SITEMAP_SEGMENTS, origin = "") {
     if (calendar?.indexable) {
       staticEntries.push({
         path: "/on-sale",
-        lastmod: newestDate(calendar.lastOpenedDate, newestArtistLastmod),
-        changefreq: "daily",
-        priority: "0.6"
+        lastmod: newestDate(calendar.lastOpenedDate, newestArtistLastmod)
       });
     }
   }
   const artistEntries = indexableArtists.map(({ slug, lastmod }) => ({
     path: `/artists/${slug}`,
-    lastmod,
-    changefreq: "weekly",
-    priority: "0.8"
+    lastmod
   }));
   // Artist price guides live under /artists/, so they join the artists
   // segment, gated on the same derivation the router uses. They inherit every
@@ -253,9 +247,7 @@ async function buildSegments(env, only = SITEMAP_SEGMENTS, origin = "") {
     for (const guide of guides) {
       artistEntries.push({
         path: guide.path,
-        lastmod: newestDate(lastmodOf(guide.lastmod), artistLastmod.get(guide.artistSlug)),
-        changefreq: "daily",
-        priority: "0.7"
+        lastmod: newestDate(lastmodOf(guide.lastmod), artistLastmod.get(guide.artistSlug))
       });
     }
   }
@@ -264,9 +256,7 @@ async function buildSegments(env, only = SITEMAP_SEGMENTS, origin = "") {
   const artistCityEntries = (need.has("artist-cities") ? await loadIndexableArtistCities(env, indexableArtists.map((artist) => artist.slug)) : []).map(
     ({ path, lastmod }) => ({
       path,
-      lastmod: newestDate(lastmod, artistFallbackLastmod(artistVerificationDates, [path.split("/")[2]])),
-      changefreq: "weekly",
-      priority: "0.7"
+      lastmod: newestDate(lastmod, artistFallbackLastmod(artistVerificationDates, [path.split("/")[2]]))
     })
   );
   const [indexableCities, indexableVenues] = await Promise.all([
@@ -277,12 +267,10 @@ async function buildSegments(env, only = SITEMAP_SEGMENTS, origin = "") {
     ...indexableCities.map((city) => newestDate(city.lastmod, artistFallbackLastmod(artistVerificationDates, city.artistSlugs)))
   );
   const cityEntries = indexableCities.length
-    ? [{ path: "/cities", lastmod: cityLastmod, changefreq: "weekly", priority: "0.7" }].concat(
+    ? [{ path: "/cities", lastmod: cityLastmod }].concat(
         indexableCities.map((city) => ({
           path: `/cities/${city.slug}`,
-          lastmod: newestDate(city.lastmod, artistFallbackLastmod(artistVerificationDates, city.artistSlugs)),
-          changefreq: "weekly",
-          priority: "0.7"
+          lastmod: newestDate(city.lastmod, artistFallbackLastmod(artistVerificationDates, city.artistSlugs))
         }))
       )
     : [];
@@ -290,12 +278,10 @@ async function buildSegments(env, only = SITEMAP_SEGMENTS, origin = "") {
     ...indexableVenues.map((venue) => newestDate(venue.lastmod, artistFallbackLastmod(artistVerificationDates, venue.artistSlugs)))
   );
   const venueEntries = indexableVenues.length
-    ? [{ path: "/venues", lastmod: venueLastmod, changefreq: "weekly", priority: "0.6" }].concat(
+    ? [{ path: "/venues", lastmod: venueLastmod }].concat(
         indexableVenues.map((venue) => ({
           path: `/venues/${venue.slug}`,
-          lastmod: newestDate(venue.lastmod, artistFallbackLastmod(artistVerificationDates, venue.artistSlugs)),
-          changefreq: "weekly",
-          priority: "0.6"
+          lastmod: newestDate(venue.lastmod, artistFallbackLastmod(artistVerificationDates, venue.artistSlugs))
         }))
       )
     : [];
@@ -304,15 +290,11 @@ async function buildSegments(env, only = SITEMAP_SEGMENTS, origin = "") {
   // <lastmod>, per the shared rule above.
   const blogEntries = (need.has("blog") ? await loadIndexableBlogEntries(env) : []).map((entry) => ({
     path: entry.path,
-    lastmod: lastmodOf(entry.lastmod),
-    changefreq: entry.type === "blog-post" ? "monthly" : "weekly",
-    priority: entry.type === "blog-post" ? "0.6" : "0.5"
+    lastmod: lastmodOf(entry.lastmod)
   }));
   const eventEntries = (need.has("events") ? await loadIndexedEventPages(env, origin) : []).map((entry) => ({
     path: entry.path,
-    lastmod: newestDate(entry.lastmod) || artistFallbackLastmod(artistVerificationDates, [entry.artistSlug]),
-    changefreq: "daily",
-    priority: "0.6"
+    lastmod: newestDate(entry.lastmod) || artistFallbackLastmod(artistVerificationDates, [entry.artistSlug])
   }));
   return {
     pages: need.has("pages") ? staticEntries : [],
@@ -377,8 +359,6 @@ export function renderUrlset(entries, origin) {
         "  <url>",
         `    <loc>${escapeXml(`${origin}${entry.path}`)}</loc>`,
         entry.lastmod ? `    <lastmod>${escapeXml(entry.lastmod)}</lastmod>` : null,
-        `    <changefreq>${entry.changefreq}</changefreq>`,
-        `    <priority>${entry.priority}</priority>`,
         "  </url>"
       ]
         .filter(Boolean)

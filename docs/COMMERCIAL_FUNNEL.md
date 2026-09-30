@@ -39,18 +39,25 @@ count terminal rows for funnel totals and distinct IDs for reconciliation.
 | 7b. Click that never left | `outbound_blocked` | server, `functions/api/out.js` | Authoritative failure |
 | 8. Left an email address | `email_signup`, `artist_interest`, `price_alert_interest` | server, `functions/api/signup.js` | Authoritative |
 
-**`outbound_click` is the authoritative provider-click metric.** It is written
-by the redirect itself, so it cannot be missed by an ad blocker, a failed
-beacon, or a browser that closed before the beacon flushed. Every provider-click
-figure in the report — by artist, by provider, by page type, affiliate split,
-landing pages — is counted from `outbound_click` alone.
+**`outbound_click` is authoritative evidence of a server-issued redirect,
+not of a human clicking a button.** Crawlers, browser automation, repeat
+requests and requests discovered outside the visible CTA can reach `/api/out`.
+Client beacons can be missing independently. Count server receipts separately
+from browser CTA intent; neither count proves arrival at the provider or a sale.
 
-`provider_click` is the client's statement of intent. It is reported only beside
-the authoritative count, as a **completion rate** (`outbound_click` ÷
-`provider_click`). The two are never added together, so a double-firing client
-cannot inflate the funnel. A completion rate well under 100% means CTA clicks
-are being lost between the button and the redirect — usually a provider lane
-failing closed, which `outbound_blocked` will name.
+The commercial funnel report therefore withholds visitor CTR and CTA-to-redirect
+completion rates, including provider, artist, page-type and landing-page rates.
+The two populations have no reliable shared browser-intent identity. A larger
+sample, equal aggregate counts, or a ratio below 100% does not fix that problem.
+The approximate visitor-day landing join is not a count of converting sessions.
+
+For JSON compatibility, existing `provider_clicks` fields still count server
+redirects and the legacy conversion-rate fields remain present as `null`.
+`measurement` declares the counting basis, withholding reason and approximate
+landing attribution. `qualified_affiliate_clicks: null` means unknown, not zero.
+Shares within the same server-receipt population (provider share and affiliate
+share) remain valid descriptive ratios. Raw receipt rankings are investigation
+leads, not evidence of a page's human conversion rate or commercial value.
 
 `outbound_blocked` is a click that reached `/api/out` and did not get a
 redirect: an Impact tracking failure, a provider switched off, or a destination
@@ -61,7 +68,7 @@ probing requests are not demand signal and are not recorded.
 `outbound_attempt` is the server receipt before resolution. It is included for
 traceability, but is never added to success or blocked totals.
 
-### Why the authoritative event cannot be forged
+### Server-event writer protection does not prove human activity
 
 `/api/analytics` is a public, unauthenticated endpoint, and the report
 identifies an authoritative click purely by `event_name = 'outbound_click'`.
@@ -70,11 +77,10 @@ allow-list: posting `outbound_attempt`, `outbound_click` or `outbound_blocked`
 to it returns `400` and writes nothing. `/api/out` is the only writer of them.
 
 The client events that remain open — `page_view`, `artist_view`, `event_view`,
-`provider_cta_view`, `provider_click` — are denominators or non-authoritative
-intent. Forging them can only *depress* a rate, never inflate the click count,
-which is why they do not need the same protection. If you ever add a new
-client-writable event, check which side of that line it falls on before
-allowing it.
+`provider_cta_view`, `provider_click` — are indicative browser telemetry. An
+automated request can still invoke the legitimate `/api/out` writer and create
+a genuine redirect receipt. Protecting event names prevents client injection
+of server events; it does not authenticate a human or make conversion rates safe.
 
 ## Dimensions recorded
 
@@ -157,25 +163,24 @@ element text, resource URLs, or search queries.
 
 ### Minimum volumes
 
-A rate needs **≥ 30 views** in its denominator and a ranked row needs **≥ 3
-clicks**, or the report prints `low volume (n=…)` instead of a percentage. One
-click on two views is not a 50% conversion rate. Override with `--min-views` and
-`--min-clicks` if you know what you are doing; do not quote a rate that the
-report itself declined to compute.
+Traffic diagnostic tables use **≥ 30 recorded views** and receipt rankings use
+**≥ 3 server redirects** by default (`--min-views`, `--min-clicks`). These floors
+do not establish human activity. Visitor conversion and completion rates remain
+withheld at every sample size until a reliable joined measurement exists.
 
 ### Report sections
 
 | Section | Reads as |
 |---|---|
-| Funnel | Absolute counts for each step, plus click-through rate per session, per page view, and per CTA impression |
-| Clicks by provider | Which lanes actually earn clicks; `blocked` exposes lanes failing closed |
-| Clicks by artist | Which roster entries pay for themselves |
-| Clicks by page type | Whether artist pages, city pages, venue pages or guides produce clicks |
-| Clicks by CTA component | Which button position works |
-| Affiliate vs non-affiliate | Share of clicks that are monetizable at all |
-| Top landing pages producing clicks | Entry pages worth more traffic |
-| Pages with traffic and no clicks | Traffic that is not being converted — a CTA, coverage, or intent problem |
-| Artists with clicks but weak coverage | **The most actionable section.** Demand exists, but ≤1 affiliate provider publishes for that artist, or under half its upcoming dates carry an affiliate link |
+| Funnel | Separate counts of browser telemetry, server attempts, redirects and blocked requests |
+| Server redirects by provider | Receipt volume and failure counts; not verified human activations |
+| Server redirects by artist | Artists associated with redirect requests; not profitability |
+| Server redirects by page type | Source-path distribution across artist, city, venue and guide pages |
+| Server redirects by CTA component | Recorded component labels; not a conversion experiment |
+| Affiliate vs non-affiliate | Share of issued redirects pointing to affiliate destinations |
+| Approximate landing attribution | Visitor-day join for investigation, not exact journey attribution |
+| Pages with recorded views but no redirects | A candidate for CTA, coverage or telemetry investigation |
+| Artists with redirects and weak coverage | Receipt activity alongside ≤1 affiliate provider or affiliate links on under half of upcoming dates; validate human demand before prioritising |
 | Signups on pages with no dates | Demand for artists with nothing to sell yet — an onboarding/roster signal |
 | Blocked redirects | Clicks that never reached a provider, by failure reason |
 
@@ -373,15 +378,17 @@ Also currently unmeasurable:
   ≥50% for ≥1s; at most 20 event cards per page view). They are impression
   denominators, not a complete log of what was on screen.
 - **Client events need JavaScript.** A no-JS visitor produces no `page_view`,
-  but their CTA click still produces an `outbound_click` — so click-through rate
-  is very slightly overstated, never understated.
+  but their CTA activation can still produce an `outbound_click`. Automated
+  requests can also produce receipts without page views. The size of the gap
+  is unknown; the report does not convert it into a visitor conversion rate.
 - **Acquisition is captured once per browsing session** and only when the
   referring site sends a referrer. Direct, app-based and privacy-stripped
   referrers all appear as `direct`.
 - **Historical rows predate these dimensions.** Rows before the 0008 migration
-  have `NULL` for every new column. Per-artist click-through uses `page_view`
+  have `NULL` for every new column. Per-artist view counts use `page_view`
   rows carrying an artist slug — a column that has always existed — so that
-  particular metric stays comparable across the whole history. Counts before
+  that field remains available across the history. This does not establish a
+  comparable human-traffic population. Counts before
   2026-07-28 are additionally inflated by unfiltered crawler traffic (see
   `PROJECT_STATUS.md`).
 

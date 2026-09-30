@@ -458,7 +458,19 @@ async function selfTest() {
   assert.deepEqual(incompleteChecks.map((c) => c.event_id), ["event-1"], "a capped catalog records no no_price check");
   const capped = await fetchArtistCatalog("Valley", { IMPACT_ACCOUNT_SID: "sid", IMPACT_AUTH_TOKEN: "tok" }, async () => ({ ok: true, status: 200, json: async () => ({ Results: Array.from({ length: PAGE_SIZE }, () => ({})), "@total": PAGE_SIZE * (MAX_PAGES + 1) }) }));
   assert.equal(capped.ok, false); assert.equal(capped.incomplete, true);
-  return { ok: true, tests: 43 };
+  // The workflow tees stdout into a JSON file before parsing its summary.
+  // Both warning paths must leave that file parseable, even on a partial run.
+  const output = [], warnings = [];
+  const warned = { ...incomplete, checks_error: "D1 check write\nfailed" };
+  writeSummary(warned, true, { log: (line) => output.push(line), error: (line) => warnings.push(line) });
+  assert.deepEqual(JSON.parse(output.join("\n")), warned);
+  assert.equal(warnings.length, 2);
+  assert.match(warnings[0], /::warning::.*D1 check write failed/);
+  assert.match(warnings[1], /::warning::.*Valley/);
+  const cleanWarnings = [];
+  writeSummary(dry, true, { log() {}, error: (line) => cleanWarnings.push(line) });
+  assert.deepEqual(cleanWarnings, []);
+  return { ok: true, tests: 48 };
 }
 function printSummary(summary) {
   console.log(`Vivid Seats Impact price snapshot ${summary.mode} summary:`);
@@ -468,14 +480,18 @@ function printSummary(summary) {
   for (const row of summary.proposed_rows) console.log(JSON.stringify(row));
   for (const error of summary.error_details.slice(0, 20)) console.log(JSON.stringify(error));
 }
+function writeSummary(summary, json, logger = console) {
+  if (json) logger.log(JSON.stringify(summary, null, 2)); else printSummary(summary);
+  // Actions annotations go to stderr so --json stdout stays one JSON document.
+  if (summary.checks_error) logger.error(`::warning::vivid-seats price-check record not written: ${summary.checks_error.replace(/\s+/g, " ")}`);
+  if (summary.incomplete_artists.length) logger.error(`::warning::Vivid Seats catalog exceeded the pagination cap (not priced): ${summary.incomplete_artists.join(", ")}`);
+}
 async function main() {
   const options = parseArgs(process.argv.slice(2));
   if (options.help) return console.log(usage());
   if (options.selfTest) { const result = await selfTest(); return console.log(`Vivid Seats Impact price snapshot self-test passed (${result.tests} checks).`); }
   const summary = await runIngestion(options);
-  if (options.json) console.log(JSON.stringify(summary, null, 2)); else printSummary(summary);
-  if (summary.checks_error) console.log(`::warning::vivid-seats price-check record not written: ${summary.checks_error.replace(/\s+/g, " ")}`);
-  if (summary.incomplete_artists.length) console.log(`::warning::Vivid Seats catalog exceeded the pagination cap (not priced): ${summary.incomplete_artists.join(", ")}`);
+  writeSummary(summary, options.json);
   if (summary.failed > 0 || (options.apply && summary.priceable > 0 && summary.usable === 0)) process.exitCode = 1;
 }
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(redact(error.stack || error.message || error)); process.exitCode = 1; });

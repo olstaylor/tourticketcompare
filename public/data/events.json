@@ -8367,11 +8367,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7921650",
-        "url": "https://www.ticketliquidator.com/tickets/7921650/Olivia-Rodrigo-tickets-Wed-Sep-30-2026-PPG-Paints-Arena",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107165388",
@@ -8386,7 +8386,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AvbZ_aGkM9wRr7",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921650/Olivia-Rodrigo-tickets-Wed-Sep-30-2026-PPG-Paints-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-pittsburgh-tickets-9-30-2026/event/107165388"
   },
   {
@@ -17069,11 +17069,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7783960",
-        "url": "https://www.ticketliquidator.com/tickets/7783960/Bruno-Mars-tickets-Wed-Sep-30-2026-SoFi-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107133085",
@@ -17088,7 +17088,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_A6pmG6f",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7783960/Bruno-Mars-tickets-Wed-Sep-30-2026-SoFi-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-9-30-2026/event/107133085"
   },
   {
@@ -45233,11 +45233,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7883095",
-        "url": "https://www.ticketliquidator.com/tickets/7883095/Teddy-Swims-tickets-Wed-Sep-30-2026-Nationwide-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107163019",
@@ -45251,7 +45251,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883095/Teddy-Swims-tickets-Wed-Sep-30-2026-Nationwide-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-columbus-tickets-9-30-2026/event/107163019"
   },
   {
@@ -114227,13 +114227,21 @@
         "verified": true,
         "last_verified_at": "2026-10-01",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8297868",
+        "url": "https://www.ticketliquidator.com/tickets/8297868/Passenger-tickets-Wed-Sep-15-2027-O2-Apollo-Manchester",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G62wjaNuR",
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-manchester-o2-apollo-manchester-15-9-2027/event/107482766",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297868"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297868",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297868/Passenger-tickets-Wed-Sep-15-2027-O2-Apollo-Manchester"
   },
   {
     "id": "tm-passenger-2027-london-1auzkf3gkd0sykm",
@@ -144181,12 +144189,20 @@
         "verified": true,
         "last_verified_at": "2026-10-01",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8297135",
+        "url": "https://www.ticketliquidator.com/tickets/8297135/Andrea-Bocelli-tickets-Sat-Oct-9-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1adbZ_K03JdZd5Av",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-02T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297135"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297135",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297135/Andrea-Bocelli-tickets-Sat-Oct-9-2027-OVO-Hydro"
   }
 ]

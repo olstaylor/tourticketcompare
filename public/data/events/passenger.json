@@ -447,13 +447,21 @@
         "verified": true,
         "last_verified_at": "2026-10-01",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8297868",
+        "url": "https://www.ticketliquidator.com/tickets/8297868/Passenger-tickets-Wed-Sep-15-2027-O2-Apollo-Manchester",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G62wjaNuR",
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-manchester-o2-apollo-manchester-15-9-2027/event/107482766",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297868"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297868",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297868/Passenger-tickets-Wed-Sep-15-2027-O2-Apollo-Manchester"
   },
   {
     "id": "tm-passenger-2027-london-1auzkf3gkd0sykm",

@@ -1,0 +1,1190 @@
+[
+  {
+    "id": "tm-fantasia-2027-washington-1ka8vpuogaub0mr",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Capital One Arena",
+    "datetime_iso": "2027-02-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150065360DEA4BAF",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-washington-district-of-columbia-02-05-2027/event/150065360DEA4BAF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-washington-district-of-columbia-02-05-2027/event/150065360DEA4BAF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150065360DEA4BAF",
+        "discovery_event_id": "1kA8vPuOGAuB0mR",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-washington-district-of-columbia-02-05-2027/event/150065360DEA4BAF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kA8vPuOGAuB0mR",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-norfolk-vv1avzkfmgkdn5kye",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Norfolk",
+    "country": "United States Of America",
+    "venue": "Scope Arena",
+    "datetime_iso": "2027-02-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006537EA2C6E67",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-norfolk-virginia-02-06-2027/event/01006537EA2C6E67",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-norfolk-virginia-02-06-2027/event/01006537EA2C6E67",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006537EA2C6E67",
+        "discovery_event_id": "vv1AvZkfMGkdn5kyE",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-norfolk-virginia-02-06-2027/event/01006537EA2C6E67",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfMGkdn5kyE",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-belmont-park-1ayzkfugkdwafjv",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Belmont Park",
+    "country": "United States Of America",
+    "venue": "UBS Arena",
+    "datetime_iso": "2027-02-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "30006536FD148981",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-belmont-park-new-york-02-12-2027/event/30006536FD148981",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-belmont-park-new-york-02-12-2027/event/30006536FD148981",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006536FD148981",
+        "discovery_event_id": "1AYZkfUGkdWAFJv",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-belmont-park-new-york-02-12-2027/event/30006536FD148981",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AYZkfUGkdWAFJv",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-atlantic-city-vv1aezkfmgkegjgo6",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Atlantic City",
+    "country": "United States Of America",
+    "venue": "Boardwalk Hall",
+    "datetime_iso": "2027-02-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006537B598C447",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-atlantic-city-new-jersey-02-13-2027/event/02006537B598C447",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-atlantic-city-new-jersey-02-13-2027/event/02006537B598C447",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006537B598C447",
+        "discovery_event_id": "vv1AeZkfMGkegJGo6",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-atlantic-city-new-jersey-02-13-2027/event/02006537B598C447",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfMGkegJGo6",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-new-orleans-g5viz_k6css2k",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "Smoothie King Center",
+    "datetime_iso": "2027-02-20T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006531CEC733D3",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-new-orleans-louisiana-02-19-2027/event/1B006531CEC733D3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-new-orleans-louisiana-02-19-2027/event/1B006531CEC733D3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006531CEC733D3",
+        "discovery_event_id": "G5viZ_K6CsS2K",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-new-orleans-louisiana-02-19-2027/event/1B006531CEC733D3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_K6CsS2K",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-biloxi-g5viz_kxokyjj",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Biloxi",
+    "country": "United States Of America",
+    "venue": "Mississippi Coast Coliseum",
+    "datetime_iso": "2027-02-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006538911B999C",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-biloxi-mississippi-02-20-2027/event/1B006538911B999C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-biloxi-mississippi-02-20-2027/event/1B006538911B999C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006538911B999C",
+        "discovery_event_id": "G5viZ_KxokyJj",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-biloxi-mississippi-02-20-2027/event/1B006538911B999C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KxokyJj",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-ontario-vv1aazkfzgketkqbz",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Ontario",
+    "country": "United States Of America",
+    "venue": "Toyota Arena",
+    "datetime_iso": "2027-03-06T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006538BF19D600",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-ontario-california-03-05-2027/event/09006538BF19D600",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-ontario-california-03-05-2027/event/09006538BF19D600",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006538BF19D600",
+        "discovery_event_id": "vv1AaZkfzGkeTkqbZ",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-ontario-california-03-05-2027/event/09006538BF19D600",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZkfzGkeTkqbZ",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-oakland-g5vyz_krz5jaf",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2027-03-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006537B82E6148",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-oakland-california-03-06-2027/event/1C006537B82E6148",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-oakland-california-03-06-2027/event/1C006537B82E6148",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006537B82E6148",
+        "discovery_event_id": "G5vYZ_Krz5JAF",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-oakland-california-03-06-2027/event/1C006537B82E6148",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_Krz5JAF",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-fort-worth-vvg1yz_kbtlwh3",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2027-03-14T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0065363F7FDF12",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-fort-worth-texas-03-13-2027/event/0C0065363F7FDF12",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-fort-worth-texas-03-13-2027/event/0C0065363F7FDF12",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0065363F7FDF12",
+        "discovery_event_id": "vvG1YZ_KbTLWH3",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-fort-worth-texas-03-13-2027/event/0C0065363F7FDF12",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_KbTLWH3",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-atlanta-vvg1zz_kqs5ty6",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2027-03-27T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006536B12E9C07",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-atlanta-georgia-03-26-2027/event/0E006536B12E9C07",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-atlanta-georgia-03-26-2027/event/0E006536B12E9C07",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006536B12E9C07",
+        "discovery_event_id": "vvG1zZ_KQs5tY6",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-atlanta-georgia-03-26-2027/event/0E006536B12E9C07",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_KQs5tY6",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-orlando-1aefz_3gkx--7oo",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Addition Financial Arena",
+    "datetime_iso": "2027-03-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2200652FA1844811",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-orlando-florida-03-27-2027/event/2200652FA1844811",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-orlando-florida-03-27-2027/event/2200652FA1844811",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200652FA1844811",
+        "discovery_event_id": "1AeFZ_3GkX--7Oo",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-orlando-florida-03-27-2027/event/2200652FA1844811",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeFZ_3GkX--7Oo",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-saint-louis-vv17bz_3gktv8xq0",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Enterprise Center",
+    "datetime_iso": "2027-04-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600652FF4422764",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-saint-louis-missouri-04-09-2027/event/0600652FF4422764",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-saint-louis-missouri-04-09-2027/event/0600652FF4422764",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600652FF4422764",
+        "discovery_event_id": "vv17bZ_3GkTV8xq0",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-saint-louis-missouri-04-09-2027/event/0600652FF4422764",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_3GkTV8xq0",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-southaven-g5viz_krb7nuq",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Southaven",
+    "country": "United States Of America",
+    "venue": "Landers Center",
+    "datetime_iso": "2027-04-11T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0065379812A35A",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-southaven-mississippi-04-10-2027/event/1B0065379812A35A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-southaven-mississippi-04-10-2027/event/1B0065379812A35A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0065379812A35A",
+        "discovery_event_id": "G5viZ_Krb7nuQ",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-southaven-mississippi-04-10-2027/event/1B0065379812A35A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_Krb7nuQ",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-jacksonville-1axzkfwgkeynp6z",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Jacksonville",
+    "country": "United States Of America",
+    "venue": "VyStar Veterans Memorial Arena",
+    "datetime_iso": "2027-04-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006532B98E51F8",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-jacksonville-florida-04-16-2027/event/22006532B98E51F8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-jacksonville-florida-04-16-2027/event/22006532B98E51F8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006532B98E51F8",
+        "discovery_event_id": "1AxZkfwGkeyNP6z",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-jacksonville-florida-04-16-2027/event/22006532B98E51F8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZkfwGkeyNP6z",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-hollywood-vvg1vz_k9lsilt",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live",
+    "datetime_iso": "2027-04-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006535EBCEC7FF",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-hollywood-florida-04-17-2027/event/0D006535EBCEC7FF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-hollywood-florida-04-17-2027/event/0D006535EBCEC7FF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006535EBCEC7FF",
+        "discovery_event_id": "vvG1VZ_K9lSiLT",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-hollywood-florida-04-17-2027/event/0D006535EBCEC7FF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_K9lSiLT",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-phoenix-1a_zkfmgke0qgen",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2027-04-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006537A46B50A3",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-phoenix-arizona-04-23-2027/event/19006537A46B50A3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-phoenix-arizona-04-23-2027/event/19006537A46B50A3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006537A46B50A3",
+        "discovery_event_id": "1A_ZkfMGke0QgeN",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-phoenix-arizona-04-23-2027/event/19006537A46B50A3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_ZkfMGke0QgeN",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-charlotte-g5evz_k5a0ajy",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2027-05-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006532C59099B9",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-charlotte-north-carolina-05-07-2027/event/2D006532C59099B9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-charlotte-north-carolina-05-07-2027/event/2D006532C59099B9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006532C59099B9",
+        "discovery_event_id": "G5eVZ_K5A0aJy",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-charlotte-north-carolina-05-07-2027/event/2D006532C59099B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_K5A0aJy",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-raleigh-g5evz_kx4nbzb",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Lenovo Center",
+    "datetime_iso": "2027-05-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00653895A98E3A",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-raleigh-north-carolina-05-08-2027/event/2D00653895A98E3A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-raleigh-north-carolina-05-08-2027/event/2D00653895A98E3A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00653895A98E3A",
+        "discovery_event_id": "G5eVZ_Kx4nbzB",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-raleigh-north-carolina-05-08-2027/event/2D00653895A98E3A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_Kx4nbzB",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-chicago-vv1a7zkfugkdbhxkp",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-05-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006536FA6FE196",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-chicago-illinois-05-14-2027/event/04006536FA6FE196",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-chicago-illinois-05-14-2027/event/04006536FA6FE196",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006536FA6FE196",
+        "discovery_event_id": "vv1A7ZkfUGkdBhXkp",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-chicago-illinois-05-14-2027/event/04006536FA6FE196",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkfUGkdBhXkp",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-detroit-vv1afzkfsgkdkxfme",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2027-05-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006533C6F88B82",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-detroit-michigan-05-15-2027/event/08006533C6F88B82",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-detroit-michigan-05-15-2027/event/08006533C6F88B82",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006533C6F88B82",
+        "discovery_event_id": "vv1AFZkfSGkdkXFme",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-detroit-michigan-05-15-2027/event/08006533C6F88B82",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfSGkdkXFme",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-providence-vv1avzkfygkdtqjz9",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Providence",
+    "country": "United States Of America",
+    "venue": "Amica Mutual Pavilion",
+    "datetime_iso": "2027-05-22T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006530E96A6017",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-providence-rhode-island-05-21-2027/event/01006530E96A6017",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-providence-rhode-island-05-21-2027/event/01006530E96A6017",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006530E96A6017",
+        "discovery_event_id": "vv1AvZkfYGkdtQJZ9",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-providence-rhode-island-05-21-2027/event/01006530E96A6017",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfYGkdtQJZ9",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-fantasia-2027-newark-vv1aezkfugke-q6sn",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "The Love of Soul Tour",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2027-05-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006536A1747C63",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-newark-new-jersey-05-22-2027/event/02006536A1747C63",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-newark-new-jersey-05-22-2027/event/02006536A1747C63",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006536A1747C63",
+        "discovery_event_id": "vv1AeZkfUGke-q6sN",
+        "url": "https://www.ticketmaster.com/the-love-of-soul-tour-newark-new-jersey-05-22-2027/event/02006536A1747C63",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfUGke-q6sN",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  }
+]

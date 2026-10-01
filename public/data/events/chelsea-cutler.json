@@ -1,0 +1,812 @@
+[
+  {
+    "id": "tm-chelsea-cutler-2027-charleston-g5evz_kbudulq",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler - IS THIS THE END? Tour",
+    "city": "Charleston",
+    "country": "United States Of America",
+    "venue": "The Charleston Music Hall",
+    "datetime_iso": "2027-02-02T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00653E8D0F6ADA",
+    "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-charleston-south-carolina-02-01-2027/event/2D00653E8D0F6ADA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-charleston-south-carolina-02-01-2027/event/2D00653E8D0F6ADA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00653E8D0F6ADA",
+        "discovery_event_id": "G5eVZ_KBudUlQ",
+        "url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-charleston-south-carolina-02-01-2027/event/2D00653E8D0F6ADA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_KBudUlQ",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T14:00:00Z"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-charlotte-g5evz_kukxezh",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler - IS THIS THE END? Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Fillmore Charlotte",
+    "datetime_iso": "2027-02-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00653D93FA7E1B",
+    "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-charlotte-north-carolina-02-05-2027/event/2D00653D93FA7E1B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-charlotte-north-carolina-02-05-2027/event/2D00653D93FA7E1B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00653D93FA7E1B",
+        "discovery_event_id": "G5eVZ_KUKXEzh",
+        "url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-charlotte-north-carolina-02-05-2027/event/2D00653D93FA7E1B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_KUKXEzh",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T14:00:00Z"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-washington-164zkfuqdzacd655",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler - IS THIS THE END? Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "9:30 CLUB",
+    "datetime_iso": "2027-02-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006536743D26AA",
+    "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-washington-district-of-columbia-02-06-2027/event/15006536743D26AA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-washington-district-of-columbia-02-06-2027/event/15006536743D26AA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006536743D26AA",
+        "discovery_event_id": "164ZkfUqdZACd655",
+        "url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-washington-district-of-columbia-02-06-2027/event/15006536743D26AA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "164ZkfUqdZACd655",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T14:00:00Z"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-washington-1avfz_kgkw7gvak",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler - IS THIS THE END? Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "9:30 CLUB",
+    "datetime_iso": "2027-02-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500653C84D74253",
+    "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-washington-district-of-columbia-02-07-2027/event/1500653C84D74253",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-washington-district-of-columbia-02-07-2027/event/1500653C84D74253",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500653C84D74253",
+        "discovery_event_id": "1AvfZ_KGkw7gVaK",
+        "url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-washington-district-of-columbia-02-07-2027/event/1500653C84D74253",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_KGkw7gVaK",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T14:00:00Z"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-philadelphia-vv1aovpuygauryej",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler - IS THIS THE END? Tour",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Fillmore Philadelphia",
+    "datetime_iso": "2027-02-11T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020065379D7B90A6",
+    "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-philadelphia-pennsylvania-02-10-2027/event/020065379D7B90A6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-philadelphia-pennsylvania-02-10-2027/event/020065379D7B90A6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020065379D7B90A6",
+        "discovery_event_id": "vv1AOvPuyGAuryeJ",
+        "url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-philadelphia-pennsylvania-02-10-2027/event/020065379D7B90A6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AOvPuyGAuryeJ",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T14:00:00Z"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-brooklyn-k7vgf_kze_vgc",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler - IS THIS THE END? Tour",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2027-02-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000653E0267430E",
+    "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-brooklyn-new-york-02-12-2027/event/0000653E0267430E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-brooklyn-new-york-02-12-2027/event/0000653E0267430E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000653E0267430E",
+        "discovery_event_id": "k7vGF_Kze_VGC",
+        "url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-brooklyn-new-york-02-12-2027/event/0000653E0267430E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_Kze_VGC",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T14:00:00Z"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-toronto-1avzz_kgkstt7dw",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler - IS THIS THE END? Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-02-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000653CFFA44EFD",
+    "ticketmaster_url": "https://www.ticketmaster.ca/chelsea-cutler-is-this-the-end-toronto-ontario-02-16-2027/event/1000653CFFA44EFD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/chelsea-cutler-is-this-the-end-toronto-ontario-02-16-2027/event/1000653CFFA44EFD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000653CFFA44EFD",
+        "discovery_event_id": "1AvZZ_KGkSTt7DW",
+        "url": "https://www.ticketmaster.ca/chelsea-cutler-is-this-the-end-toronto-ontario-02-16-2027/event/1000653CFFA44EFD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_KGkSTt7DW",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T14:00:00Z"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-detroit-vv1afzkfugkelhvg0",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler - IS THIS THE END? Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Saint Andrew's Hall",
+    "datetime_iso": "2027-02-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006536ABF34D64",
+    "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-detroit-michigan-02-18-2027/event/08006536ABF34D64",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-detroit-michigan-02-18-2027/event/08006536ABF34D64",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006536ABF34D64",
+        "discovery_event_id": "vv1AFZkfUGkelHVg0",
+        "url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-detroit-michigan-02-18-2027/event/08006536ABF34D64",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfUGkelHVg0",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T14:00:00Z"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-chicago-vv178z_kgks8xdpl",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler - IS THIS THE END? Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Salt Shed Indoors (Shed)",
+    "datetime_iso": "2027-02-20T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400653CD08BB5AB",
+    "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-chicago-illinois-02-19-2027/event/0400653CD08BB5AB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-chicago-illinois-02-19-2027/event/0400653CD08BB5AB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400653CD08BB5AB",
+        "discovery_event_id": "vv178Z_KGkS8xDpl",
+        "url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-chicago-illinois-02-19-2027/event/0400653CD08BB5AB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_KGkS8xDpl",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T15:00:00Z"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-minneapolis-vv17bz_kgkswys5j",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler - IS THIS THE END? Tour",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "The Fillmore Minneapolis presented by Affinity Plus",
+    "datetime_iso": "2027-02-24T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600653CFDC312DC",
+    "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-minneapolis-minnesota-02-23-2027/event/0600653CFDC312DC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-minneapolis-minnesota-02-23-2027/event/0600653CFDC312DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600653CFDC312DC",
+        "discovery_event_id": "vv17bZ_KGkSWYs5j",
+        "url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-minneapolis-minnesota-02-23-2027/event/0600653CFDC312DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_KGkSWYs5j",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T15:00:00Z"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-dallas-vvg1yz_kraozwg",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler - IS THIS THE END? Tour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "South Side Ballroom",
+    "datetime_iso": "2027-02-26T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00653BC5478CB5",
+    "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-dallas-texas-02-25-2027/event/0C00653BC5478CB5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-dallas-texas-02-25-2027/event/0C00653BC5478CB5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00653BC5478CB5",
+        "discovery_event_id": "vvG1YZ_KRAozwg",
+        "url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-dallas-texas-02-25-2027/event/0C00653BC5478CB5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_KRAozwg",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T15:00:00Z"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-phoenix-16v0z_koag7ux58",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler - IS THIS THE END? Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Van Buren",
+    "datetime_iso": "2027-03-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900653805DBE2D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-phoenix-arizona-03-03-2027/event/1900653805DBE2D0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-phoenix-arizona-03-03-2027/event/1900653805DBE2D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900653805DBE2D0",
+        "discovery_event_id": "16v0Z_KOAG7UX58",
+        "url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-phoenix-arizona-03-03-2027/event/1900653805DBE2D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16v0Z_KOAG7UX58",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T17:00:00Z"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-los-angeles-vv1aazkfzgkdgncya",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler - IS THIS THE END? Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Bellwether",
+    "datetime_iso": "2027-03-05T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006538CC8CEE49",
+    "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-los-angeles-california-03-04-2027/event/09006538CC8CEE49",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-los-angeles-california-03-04-2027/event/09006538CC8CEE49",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006538CC8CEE49",
+        "discovery_event_id": "vv1AaZkfzGkdGNCya",
+        "url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-los-angeles-california-03-04-2027/event/09006538CC8CEE49",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZkfzGkdGNCya",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T17:00:00Z"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-san-diego-vvg1iz_ks1c6a3",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler - IS THIS THE END? Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "The Observatory North Park",
+    "datetime_iso": "2027-03-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B00653CCAB47152",
+    "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-san-diego-california-03-05-2027/event/0B00653CCAB47152",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-san-diego-california-03-05-2027/event/0B00653CCAB47152",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B00653CCAB47152",
+        "discovery_event_id": "vvG1iZ_KS1c6A3",
+        "url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-san-diego-california-03-05-2027/event/0B00653CCAB47152",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_KS1c6A3",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T17:00:00Z"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-boise-g5vzz_ksxzvbs",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler - IS THIS THE END? Tour",
+    "city": "Boise",
+    "country": "United States Of America",
+    "venue": "Knitting Factory - Boise",
+    "datetime_iso": "2027-03-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00653CE2001EB3",
+    "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-boise-idaho-03-10-2027/event/1E00653CE2001EB3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-boise-idaho-03-10-2027/event/1E00653CE2001EB3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00653CE2001EB3",
+        "discovery_event_id": "G5vzZ_KSxZvBS",
+        "url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-boise-idaho-03-10-2027/event/1E00653CE2001EB3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_KSxZvBS",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T16:00:00Z"
+  }
+]

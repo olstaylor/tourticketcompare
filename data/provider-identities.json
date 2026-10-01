@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-27",
+  "updated_at": "2026-10-01",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -975,6 +975,61 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-09-27 (sanctioned path D): SeatGeek performer 1957189 and Ticketmaster attraction K8vZ917hlEV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "fantasia",
+      "ticketmaster_attraction_id": "K8vZ917Cgvf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/fantasia-tickets/artist/1438797",
+      "seatgeek_performer_id": 2370,
+      "seatgeek_artist_url": "https://seatgeek.com/fantasia-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-01 (sanctioned path D): SeatGeek performer 2370 and Ticketmaster attraction K8vZ917Cgvf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "a-perfect-circle",
+      "ticketmaster_attraction_id": "K8vZ9171rq0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/a-perfect-circle-tickets/artist/707500",
+      "seatgeek_performer_id": 6131,
+      "seatgeek_artist_url": "https://seatgeek.com/a-perfect-circle-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-01 (sanctioned path D): SeatGeek performer 6131 and Ticketmaster attraction K8vZ9171rq0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "chelsea-cutler",
+      "ticketmaster_attraction_id": "K8vZ917prsf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/chelsea-cutler-tickets/artist/2437092",
+      "seatgeek_performer_id": 650563,
+      "seatgeek_artist_url": "https://seatgeek.com/chelsea-cutler-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-01 (sanctioned path D): SeatGeek performer 650563 and Ticketmaster attraction K8vZ917prsf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "the-red-clay-strays",
+      "ticketmaster_attraction_id": "K8vZ917bop0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/the-red-clay-strays-tickets/artist/2663076",
+      "seatgeek_performer_id": 664822,
+      "seatgeek_artist_url": "https://seatgeek.com/the-red-clay-strays-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-01 (sanctioned path D): SeatGeek performer 664822 and Ticketmaster attraction K8vZ917bop0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "daughtry",
+      "ticketmaster_attraction_id": "K8vZ917GZFf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/daughtry-tickets/artist/1097212",
+      "seatgeek_performer_id": 544,
+      "seatgeek_artist_url": "https://seatgeek.com/daughtry-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-01 (sanctioned path D): SeatGeek performer 544 and Ticketmaster attraction K8vZ917GZFf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

@@ -1316,6 +1316,76 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-amble",
     redirectUrl: "https://seatgeek.com/amble-tickets",
     verified: true
+  },
+  "fantasia:ticketmaster": {
+    artistSlug: "fantasia",
+    provider: "ticketmaster",
+    linkId: "tm-artist-fantasia",
+    redirectUrl: "https://www.ticketmaster.com/fantasia-tickets/artist/1438797",
+    verified: true
+  },
+  "fantasia:seatgeek": {
+    artistSlug: "fantasia",
+    provider: "seatgeek",
+    linkId: "sg-artist-fantasia",
+    redirectUrl: "https://seatgeek.com/fantasia-tickets",
+    verified: true
+  },
+  "a-perfect-circle:ticketmaster": {
+    artistSlug: "a-perfect-circle",
+    provider: "ticketmaster",
+    linkId: "tm-artist-a-perfect-circle",
+    redirectUrl: "https://www.ticketmaster.com/a-perfect-circle-tickets/artist/707500",
+    verified: true
+  },
+  "a-perfect-circle:seatgeek": {
+    artistSlug: "a-perfect-circle",
+    provider: "seatgeek",
+    linkId: "sg-artist-a-perfect-circle",
+    redirectUrl: "https://seatgeek.com/a-perfect-circle-tickets",
+    verified: true
+  },
+  "chelsea-cutler:ticketmaster": {
+    artistSlug: "chelsea-cutler",
+    provider: "ticketmaster",
+    linkId: "tm-artist-chelsea-cutler",
+    redirectUrl: "https://www.ticketmaster.com/chelsea-cutler-tickets/artist/2437092",
+    verified: true
+  },
+  "chelsea-cutler:seatgeek": {
+    artistSlug: "chelsea-cutler",
+    provider: "seatgeek",
+    linkId: "sg-artist-chelsea-cutler",
+    redirectUrl: "https://seatgeek.com/chelsea-cutler-tickets",
+    verified: true
+  },
+  "the-red-clay-strays:ticketmaster": {
+    artistSlug: "the-red-clay-strays",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-red-clay-strays",
+    redirectUrl: "https://www.ticketmaster.com/the-red-clay-strays-tickets/artist/2663076",
+    verified: true
+  },
+  "the-red-clay-strays:seatgeek": {
+    artistSlug: "the-red-clay-strays",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-red-clay-strays",
+    redirectUrl: "https://seatgeek.com/the-red-clay-strays-tickets",
+    verified: true
+  },
+  "daughtry:ticketmaster": {
+    artistSlug: "daughtry",
+    provider: "ticketmaster",
+    linkId: "tm-artist-daughtry",
+    redirectUrl: "https://www.ticketmaster.com/daughtry-tickets/artist/1097212",
+    verified: true
+  },
+  "daughtry:seatgeek": {
+    artistSlug: "daughtry",
+    provider: "seatgeek",
+    linkId: "sg-artist-daughtry",
+    redirectUrl: "https://seatgeek.com/daughtry-tickets",
+    verified: true
   }
 };
 

@@ -109,17 +109,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107277081",
-        "url": "https://www.stubhub.ie/amble-tickets-glasgow-o2-academy-glasgow-30-9-2026/event/107277081",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_5S1TPu0",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-glasgow-o2-academy-glasgow-30-9-2026/event/107277081"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-amble-2026-newcastle-upon-tyne-g5dzz_clsmpcl",

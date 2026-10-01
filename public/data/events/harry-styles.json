@@ -1091,17 +1091,17 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107085160",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-30-2026/event/107085160",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfAqI1d",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695880",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-30-2026/event/107085160"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505888295",

@@ -292,11 +292,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107165388",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-pittsburgh-tickets-9-30-2026/event/107165388",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -305,7 +305,7 @@
     "ticketmaster_discovery_event_id": "1AvbZ_aGkM9wRr7",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-pittsburgh-tickets-9-30-2026/event/107165388"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-olivia-rodrigo-2026-washington-1ka8v0pdgacx387",

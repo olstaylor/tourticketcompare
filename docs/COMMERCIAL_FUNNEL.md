@@ -219,7 +219,7 @@ network.
 A persistent gap in one direction is worth investigating; day-to-day variation
 of a few clicks is not.
 
-### Per-click reconciliation (optional, default OFF)
+### Per-click reconciliation (optional, flag-controlled)
 
 Every redirect gets a random `click_id`, stored on our row. It can also be
 passed to Impact as a SubId so individual clicks and actions line up exactly.
@@ -238,8 +238,8 @@ API `TrackingLinks` endpoint are **not** covered.
 
 ### SubId verification procedure (owner, one-time)
 
-`OUT_CLICK_ID_SUBID_ENABLED` is off by default and must stay off until this is
-done once:
+`OUT_CLICK_ID_SUBID_ENABLED` defaults off in the handler. Confirm the parameter
+before enabling; the reporting match is verified after a controlled deployment:
 
 1. Confirm with Impact that `subId1` (the default `OUT_CLICK_ID_SUBID_PARAM`)
    is the correct passthrough parameter name for these campaigns.
@@ -321,10 +321,26 @@ bookings. The report no longer claims a local shell flag describes production:
 a historical verified match remains valid after passthrough is switched off.
 Historical NULL eligibility is not backfilled or inferred.
 
-**Remaining dependency:** the owner must confirm campaign-specific SubId1
-support, enable the existing default-off passthrough, and verify the emitted
-ID in Impact using the procedure above. Supply the correct campaign IDs when
-running this report, especially SeatGeek and Vivid Seats (no defaults).
+**Rollout evidence (1 October 2026):** Impact's [Sub ID documentation](https://help.impact.com/partner/what-would-you-like-to-learn-about/platform-features/tracking/tracking-links/link-parameters/sub-id-and-shared-id-parameters-explained-for-partners)
+explicitly supports Sub IDs on all Impact tracking links, including vanity
+links, and gives `?subId1=test` as its parameter example. This establishes the
+parameter name for the existing Impact base links; it does not prove a live
+TTC ID appears in reporting. The owner authorized enabling the existing
+passthrough in [PR #1243](https://github.com/olstaylor/tourticketcompare/pull/1243).
+
+A controlled Chrome redirect on 1 October reached the correct Vivid Seats
+event and produced one stored receipt with reconciliation eligibility set.
+Impact's report for that day initially had no rows and states that clicks in
+the last three hours may be absent. **Live reporting reconciliation remains
+pending:** after that delay, match the controlled receipt's ID to Impact's
+SubId1. Do not count the internal test as visitor intent or a purchase, and
+do not infer verified arrival from eligibility alone. If the ID remains
+absent after reporting catches up, follow the flag-off rollback above.
+Parameter support does not remove this verification or establish a human
+conversion-rate denominator.
+
+Supply the correct campaign IDs when running the report, especially SeatGeek
+and Vivid Seats (no defaults).
 The report currently joins **SubId1 only**; other configurable fields such as
 SubId2 or SharedId and the API-generated TrackingLinks path are not covered.
 This change does not enable tracking, alter marketplace URLs, add a migration,

@@ -1,6 +1,6 @@
 # Vivid Seats CTA sync log
 
-Generated: 2026-09-30T11:22:40.577Z
+Generated: 2026-10-01T11:47:02.519Z
 
 Written by `scripts/sync-vividseats-events.mjs`. Identity anchor: an
 exact-name Impact Marketplace Products query for a registry-verified
@@ -10,16 +10,16 @@ timezone) against the Vivid Seats production slug date.
 ## Run summary
 
 - Mode: apply
-- Events selected: 534
-- Events skipped before API checks: 355
+- Events selected: 529
+- Events skipped before API checks: 358
 - API calls made: 80
 - Verified provenance written: 0
-- URLs added: 2
+- URLs added: 4
 - URLs corrected: 0
 - URLs cleared: 0
 - Provenance un-verified: 0
 - Conflicts (ambiguous, untouched): 52
-- No qualifying listing: 480
+- No qualifying listing: 473
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: no
 
@@ -27,7 +27,6 @@ timezone) against the Vivid Seats production slug date.
 
 | showId | artist | action | Vivid Seats id | url | notes |
 | --- | --- | --- | --- | --- | --- |
-| tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9w2rv | olivia-rodrigo | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-olivia-rodrigo-2026-montreal-1ad7z_agkmby4v9 | olivia-rodrigo | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-olivia-rodrigo-2026-montreal-1ad7z_agkmbsav_ | olivia-rodrigo | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vawas-e | olivia-rodrigo | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -181,7 +180,6 @@ timezone) against the Vivid Seats production slug date.
 | tm-trivium-2026-reno-17ayv0g6cnaivry | trivium | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-trivium-2026-omaha-17fzv0g6cxxpndr | trivium | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-trivium-2027-dublin-1abzkffgkdvsqon | trivium | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-sabaton-2026-thunder-bay-177zv0g65pwqtbn | sabaton | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-sabaton-2026-vancouver-z7r9jz1a7-ojs | sabaton | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-sabaton-2026-hollywood-vv1aazko4gkdzwp0r | sabaton | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-sabaton-2026-fort-lauderdale-z7r9jz1a7-oqe | sabaton | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -218,7 +216,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-stella-lefty-2027-san-francisco-g5vyz_ok5hlnw | stella-lefty | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-stella-lefty-2027-amsterdam-z698xzbpz16vj_pxbp | stella-lefty | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-stella-lefty-2027-manchester-g5dzz_36uppzk | stella-lefty | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-stella-lefty-2027-birmingham-g5dzz_o1n7vhc | stella-lefty | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-stella-lefty-2027-birmingham-g5dzz_o1n7vhc | stella-lefty | add (applied) | 7538473 | https://www.vividseats.com/stella-lefty-tickets-birmingham-o2-institute-birmingham-3-22-2027/production/7538473 | - |
 | tm-stella-lefty-2027-dublin-1avoz_8gkr5muwq | stella-lefty | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-stella-lefty-2027-dublin-1avoz_8gkr5mcw- | stella-lefty | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-stella-lefty-2026-saint-louis-1a-zkfxgkegfvfo | stella-lefty | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -234,9 +232,9 @@ timezone) against the Vivid Seats production slug date.
 | tm-the-airborne-toxic-event-2027-englewood-z7r9jz1aazgov | the-airborne-toxic-event | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-the-airborne-toxic-event-2027-portland-z7r9jz1aazfzx | the-airborne-toxic-event | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-andrea-bocelli-2026-montreal-1ad7z_dgkclbvf3 | andrea-bocelli | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-andrea-bocelli-2027-birmingham-1aegz_kgkwagold | andrea-bocelli | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-andrea-bocelli-2027-birmingham-1aegz_kgkwagold | andrea-bocelli | add (applied) | 7622420 | https://www.vividseats.com/andrea-bocelli-tickets-birmingham-utilita-arena-birmingham-9-29-2027--theater-opera/production/7622420 | - |
 | tm-andrea-bocelli-2027-london-1adfz_kgkwkiv7i | andrea-bocelli | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-andrea-bocelli-2027-glasgow-1adbz_k03jdzd5av | andrea-bocelli | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-andrea-bocelli-2027-glasgow-1adbz_k03jdzd5av | andrea-bocelli | add (applied) | 7622414 | https://www.vividseats.com/andrea-bocelli-tickets-glasgow-ovo-hydro-10-9-2027--theater-opera/production/7622414 | - |
 | tm-morat-2027-rosemont-vvg18z_1rgckw0 | morat | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-missio-2026-detroit-z7r9jz1aaziv8 | missio | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-missio-2026-toronto-1avzz_8gklvsj7l | missio | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -253,7 +251,6 @@ timezone) against the Vivid Seats production slug date.
 | tm-vnv-nation-2027-st-paul-z7r9jz1a7jzvu | vnv-nation | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-vnv-nation-2027-chicago-z7r9jz1a7pupm | vnv-nation | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-vnv-nation-2027-denver-z7r9jz1a7jv8m | vnv-nation | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-michelle-branch-2026-portland-z7r9jz1a7jfov | michelle-branch | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-michelle-branch-2026-san-francisco-g5vyz_cnetamw | michelle-branch | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-michelle-branch-2026-san-francisco-g5vyz_cnettzd | michelle-branch | conflict | - | - | ambiguous: 2 qualifying Vivid Seats listings match this event |
 | tm-michelle-branch-2026-boston-z7r9jz1a7j4zs | michelle-branch | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -374,7 +371,6 @@ timezone) against the Vivid Seats production slug date.
 | tm-the-warning-2027-birmingham-g5dzz_3jthdkp | the-warning | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-the-warning-2027-manchester-g5dzz_3jr_df6 | the-warning | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-the-warning-2027-oklahoma-city-z7r9jz1aavtgp | the-warning | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-the-warning-2027-montreal-1ad7z_3gknfhkqk | the-warning | add (applied) | 7555333 | https://www.vividseats.com/the-warning-tickets-montreal-mtelus-5-9-2027/production/7555333 | - |
 | tm-hans-zimmer-2027-kanata-1aszkf0gkdalm2x | hans-zimmer | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-hans-zimmer-2027-quebec-1fg8vp17a7z7uce8 | hans-zimmer | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-hans-zimmer-2027-cincinnati-1avbz_3gkbx_fb1 | hans-zimmer | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -452,7 +448,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-lizzy-mcalpine-2027-dublin-16bzkfw-sza81kca | lizzy-mcalpine | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-lizzy-mcalpine-2027-durham-g5evz_klljeql | lizzy-mcalpine | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-lizzy-mcalpine-2027-saint-louis-vv1kvovpu_ga2r6bf | lizzy-mcalpine | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-lizzy-mcalpine-2027-columbia-1a4zkfmgkejxp8r | lizzy-mcalpine | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-lizzy-mcalpine-2027-columbia-1a4zkfmgkejxp8r | lizzy-mcalpine | add (applied) | 7606598 | https://www.vividseats.com/lizzy-mcalpine-tickets-columbia-merriweather-post-pavilion-6-25-2027--concerts-alternative/production/7606598 | - |
 | tm-the-interrupters-2027-st-petersburg-vvg1vz_3xxt6_9 | the-interrupters | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-the-interrupters-2027-ft-lauderdale-vvg1vz_3bjcjr0 | the-interrupters | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-the-interrupters-2027-toronto-1a8zkfsgkdrk_-b | the-interrupters | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -461,7 +457,6 @@ timezone) against the Vivid Seats production slug date.
 | tm-the-interrupters-2027-saint-louis-vv17bz_3gkdzh1rc | the-interrupters | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-the-interrupters-2027-minneapolis-vv17bz_3gkbzsymo | the-interrupters | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-dinosaur-jr-2026-solana-beach-z7r9jz1a7puxp | dinosaur-jr | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-dinosaur-jr-2026-sacramento-g5vyz_u0dqoo1 | dinosaur-jr | add (applied) | 7234800 | https://www.vividseats.com/dinosaur-jr-tickets-sacramento-ace-of-spades-10-20-2026--concerts-rock/production/7234800 | - |
 | tm-dinosaur-jr-2026-portland-z7r9jz1a7pu-m | dinosaur-jr | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-dinosaur-jr-2026-salt-lake-city-z7r9jz1a7pmzv | dinosaur-jr | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-dinosaur-jr-2026-denver-z7r9jz1a7pu0p | dinosaur-jr | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -683,6 +678,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-jay-z-2026-bronx-1d006473db760a7f | jay-z | event is in the past — nothing to maintain |
 | tm-olivia-rodrigo-2026-hartford-z7r9jz1a706ep | olivia-rodrigo | event is in the past — nothing to maintain |
 | tm-olivia-rodrigo-2026-hartford-z7r9jz1a70677 | olivia-rodrigo | event is in the past — nothing to maintain |
+| tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9w2rv | olivia-rodrigo | event is in the past — nothing to maintain |
 | tm-bruno-mars-2026-columbus-vv1aazkcfgkdl2qzg | bruno-mars | event is in the past — nothing to maintain |
 | tm-bruno-mars-2026-toronto-1a8zkc8gkev_6oa | bruno-mars | event is in the past — nothing to maintain |
 | tm-bruno-mars-2026-toronto-1a8zkc8gkevq6og | bruno-mars | event is in the past — nothing to maintain |
@@ -902,6 +898,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-don-omar-2026-boston-vvg17z_1wjhcnw | don-omar | event is in the past — nothing to maintain |
 | tm-don-omar-2026-hartford-z7r9jz1a70eoa | don-omar | event is in the past — nothing to maintain |
 | tm-sabaton-2026-ottawa-1aszkowgkeikunf | sabaton | event is in the past — nothing to maintain |
+| tm-sabaton-2026-thunder-bay-177zv0g65pwqtbn | sabaton | event is in the past — nothing to maintain |
 | tm-beartooth-2026-oberhausen-z698xzc2z16v0vue-v | beartooth | event is in the past — nothing to maintain |
 | tm-beartooth-2026-hannover-z698xzc2z16vcpokjv | beartooth | event is in the past — nothing to maintain |
 | tm-beartooth-2026-berlin-z698xzc2z16vovkbjo | beartooth | event is in the past — nothing to maintain |
@@ -915,6 +912,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-andrea-bocelli-2026-morrison-z7r9jz1a7-zq4 | andrea-bocelli | event is in the past — nothing to maintain |
 | tm-andrea-bocelli-2026-morrison-z7r9jz1a7oy3p | andrea-bocelli | event is in the past — nothing to maintain |
 | tm-michelle-branch-2026-seattle-z7r9jz1a7jfoo | michelle-branch | event is in the past — nothing to maintain |
+| tm-michelle-branch-2026-portland-z7r9jz1a7jfov | michelle-branch | event is in the past — nothing to maintain |
 | tm-death-cab-for-cutie-2026-london-g5dzz_au0cejp | death-cab-for-cutie | event is in the past — nothing to maintain |
 | tm-death-cab-for-cutie-2026-london-g5dzz_1kfbxk8 | death-cab-for-cutie | event is in the past — nothing to maintain |
 | tm-john-summit-2026-las-vegas-z7r9jz1a7xbfk | john-summit | event is in the past — nothing to maintain |

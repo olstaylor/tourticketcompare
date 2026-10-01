@@ -51,6 +51,7 @@
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { includePastFromEnv, skipInSweep, PAST_RECHECK_DAYS } from './lib/tm-sweep-window.mjs';
 
 const DEFAULT_BASE = 'https://app.ticketmaster.com/discovery/v2';
 const DEFAULT_EVENTS_PATH = new URL('../public/data/events.json', import.meta.url);
@@ -277,6 +278,24 @@ async function loadIndexedArtistSlugs() {
       .filter((a) => a?.indexing_status === 'indexable_with_substantial_content')
       .map((a) => a.slug)
   );
+}
+
+// The events this sweep fetches: an indexed artist's event with a Discovery
+// id, minus long-past events with no stored Ticketmaster status that are not
+// due their rotating re-check today (scripts/lib/tm-sweep-window.mjs). A
+// skipped event is left exactly as it is.
+function selectSyncTargets(events, indexed, { now = Date.now(), includePast = false } = {}) {
+  const targets = [];
+  let skippedPast = 0;
+  for (const event of events) {
+    if (!indexed.has(clean(event?.artist_slug)) || !ticketmasterDiscoveryEventId(event)) continue;
+    if (skipInSweep(event, now, { includePast })) {
+      skippedPast += 1;
+      continue;
+    }
+    targets.push(event);
+  }
+  return { targets, skippedPast };
 }
 
 // Ticketmaster throttles a full-roster sweep as a burst, and until now a 429
@@ -969,6 +988,28 @@ async function runSelfTest() {
   });
   assert('a dropped connection is retried like a throttle', recovered.exists === true && transient === 2);
 
+  // Sweep window: only long-past, un-held events are ever skipped, and each of
+  // those is still checked on one day in every PAST_RECHECK_DAYS.
+  const sweepNow = Date.parse('2026-07-30T12:00:00Z');
+  const indexedSet = new Set(['a']);
+  const sweepEvents = [
+    { id: 'old', artist_slug: 'a', ticketmaster_discovery_event_id: 'vv1AaZkoVGkdF4iwr', datetime_iso: '2026-07-01T20:00:00Z' },
+    { id: 'recent', artist_slug: 'a', ticketmaster_discovery_event_id: 'vv1AaZkoVGkdF4iws', datetime_iso: '2026-07-25T20:00:00Z' },
+    { id: 'upcoming', artist_slug: 'a', ticketmaster_discovery_event_id: 'vv1AaZkoVGkdF4iwt', datetime_iso: '2026-08-01' },
+    { id: 'held', artist_slug: 'a', ticketmaster_discovery_event_id: 'vv1AaZkoVGkdF4iwu', datetime_iso: '2026-06-01T20:00:00Z', ticketmaster_status_code: 'postponed' },
+    { id: 'undated', artist_slug: 'a', ticketmaster_discovery_event_id: 'vv1AaZkoVGkdF4iwv', datetime_iso: '' },
+    { id: 'other-artist', artist_slug: 'b', ticketmaster_discovery_event_id: 'vv1AaZkoVGkdF4iww', datetime_iso: '2026-08-01' }
+  ];
+  const week = Array.from({ length: PAST_RECHECK_DAYS }, (_, day) => selectSyncTargets(sweepEvents, indexedSet, { now: sweepNow + day * 86400000 }));
+  assert('recent, upcoming, held and undated events are checked every day',
+    week.every((run) => ['recent', 'upcoming', 'held', 'undated'].every((id) => run.targets.some((e) => e.id === id))));
+  assert('a long-past event without a stored status is skipped on all but one day',
+    week.filter((run) => run.skippedPast === 1 && !run.targets.some((e) => e.id === 'old')).length === PAST_RECHECK_DAYS - 1);
+  assert('a long-past event is still checked once per rotation (late reschedules are found)',
+    week.filter((run) => run.targets.some((e) => e.id === 'old')).length === 1);
+  const fullSweep = selectSyncTargets(sweepEvents, indexedSet, { now: sweepNow, includePast: true });
+  assert('includePast restores the full sweep', fullSweep.skippedPast === 0 && fullSweep.targets.length === 5);
+
   let failed = 0;
   for (const c of checks) {
     if (!c.pass) failed += 1;
@@ -1008,10 +1049,12 @@ async function main() {
 
   const indexed = await loadIndexedArtistSlugs();
   const events = await readJson(eventsPath);
-  const targets = events.filter(
-    (e) => indexed.has(clean(e?.artist_slug)) && ticketmasterDiscoveryEventId(e)
-  );
+  const includePast = includePastFromEnv();
+  const { targets, skippedPast } = selectSyncTargets(events, indexed, { includePast });
   console.log(`Checking ${targets.length} tracked event(s) across ${indexed.size} indexed artist(s)...`);
+  console.log(includePast
+    ? 'TM_SWEEP_INCLUDE_PAST=1: long-past events are checked too.'
+    : `Skipped ${skippedPast} long-past event(s) not due their ${PAST_RECHECK_DAYS}-day re-check (set TM_SWEEP_INCLUDE_PAST=1 for a full sweep).`);
 
   const updates = [];
   const reviewItems = [];
@@ -1061,6 +1104,7 @@ async function main() {
 
   const summary = {
     checked,
+    skippedPast,
     updated: updates.length,
     reviewItems: reviewItems.length,
     errors: errors.length,

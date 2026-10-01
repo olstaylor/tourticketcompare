@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { includePastFromEnv, longPastEvent, pastRecheckDue, skipInSweep, PAST_RECHECK_DAYS } from './lib/tm-sweep-window.mjs';
 
 const DEFAULT_BASE = 'https://app.ticketmaster.com/discovery/v2';
 const EVENTS_DIR = new URL('../public/data/events/', import.meta.url);
@@ -202,7 +203,22 @@ function runSelfTest() {
       { dates: { start: { dateTime: '2026-08-01T20:00:00Z' } } },
       Date.parse('2026-07-30T12:00:00Z')
     ) === true],
-    ['malformed local event stays current', eventNeedsCurrentReview({ datetime_iso: 'invalid' }, null, Date.parse('2026-07-30T12:00:00Z')) === true]
+    ['malformed local event stays current', eventNeedsCurrentReview({ datetime_iso: 'invalid' }, null, Date.parse('2026-07-30T12:00:00Z')) === true],
+    // The sweep window (scripts/lib/tm-sweep-window.mjs): skip only what can no
+    // longer produce a current finding.
+    ['an event well past the grace window is skipped', longPastEvent({ datetime_iso: '2026-07-01T20:00:00Z' }, Date.parse('2026-07-30T12:00:00Z')) === true],
+    ['a just-finished event is still fetched', longPastEvent({ datetime_iso: '2026-07-25T20:00:00Z' }, Date.parse('2026-07-30T12:00:00Z')) === false],
+    ['an upcoming event is still fetched', longPastEvent({ datetime_iso: '2026-08-01T20:00:00Z' }, Date.parse('2026-07-30T12:00:00Z')) === false],
+    ['a held old event is still fetched', longPastEvent({ datetime_iso: '2026-07-01T20:00:00Z', ticketmaster_status_code: 'postponed' }, Date.parse('2026-07-30T12:00:00Z')) === false],
+    ['an unparseable date is still fetched', longPastEvent({ datetime_iso: 'invalid' }, Date.parse('2026-07-30T12:00:00Z')) === false],
+    ['TM_SWEEP_INCLUDE_PAST=1 restores the full sweep', includePastFromEnv({ TM_SWEEP_INCLUDE_PAST: '1' }) === true && includePastFromEnv({}) === false],
+    // A long-past event is never dropped: it is re-checked on exactly one day
+    // in every PAST_RECHECK_DAYS, so a late reschedule is still found.
+    ['a long-past event is re-checked once per rotation', Array.from({ length: PAST_RECHECK_DAYS }, (_, day) => Date.parse('2026-07-30T12:00:00Z') + day * 86400000)
+      .filter((now) => !skipInSweep({ id: 'tm-old', datetime_iso: '2026-07-01T20:00:00Z' }, now)).length === 1],
+    ['the re-check day is the rotation slot', Array.from({ length: PAST_RECHECK_DAYS }, (_, day) => Date.parse('2026-07-30T12:00:00Z') + day * 86400000)
+      .every((now) => skipInSweep({ id: 'tm-old', datetime_iso: '2026-07-01T20:00:00Z' }, now) === !pastRecheckDue({ id: 'tm-old' }, now))],
+    ['includePast never skips', skipInSweep({ id: 'tm-old', datetime_iso: '2026-07-01T20:00:00Z' }, Date.parse('2026-07-30T12:00:00Z'), { includePast: true }) === false]
   ];
   let failed = 0;
   for (const [label, pass] of checks) {
@@ -233,7 +249,9 @@ async function main() {
   let totalUnresolvable = 0;
   let totalCurrentFindings = 0;
   let totalHistoricalFindings = 0;
+  let totalSkippedPast = 0;
   const auditNow = Date.now();
+  const includePast = includePastFromEnv();
 
   for (const slug of slugs) {
     const events = await loadArtistEvents(slug);
@@ -242,6 +260,7 @@ async function main() {
     const errors = [];
     const changed = [];
     const unresolvable = [];
+    let skippedPast = 0;
 
     for (const event of withId) {
       const resolved = discoveryIdFor(event);
@@ -257,6 +276,13 @@ async function main() {
           datetime_iso: event.datetime_iso,
           reason: 'no Discovery API id (website/international code)'
         });
+        continue;
+      }
+      // Long past and not held: re-checked only on its rotation day, so it
+      // does not spend a call from the shared daily quota every day.
+      if (skipInSweep(event, auditNow, { includePast })) {
+        skippedPast += 1;
+        totalSkippedPast += 1;
         continue;
       }
       const id = resolved.id;
@@ -296,16 +322,20 @@ async function main() {
 
     perArtist.push({
       slug,
-      events_checked: withId.length - unresolvable.length,
+      events_checked: withId.length - unresolvable.length - skippedPast,
       events_unresolvable: unresolvable.length,
+      events_skipped_past: skippedPast,
       events_without_tm_id: events.length - withId.length,
       missing,
       errors,
       changed,
       unresolvable
     });
-    console.log(`  ${slug}: ${withId.length - unresolvable.length} checked, ${missing.length} missing, ${changed.length} changed, ${errors.length} errors, ${unresolvable.length} unresolvable`);
+    console.log(`  ${slug}: ${withId.length - unresolvable.length - skippedPast} checked, ${missing.length} missing, ${changed.length} changed, ${errors.length} errors, ${unresolvable.length} unresolvable, ${skippedPast} skipped (long past, not due)`);
   }
+  console.log(includePast
+    ? 'TM_SWEEP_INCLUDE_PAST=1: long-past events were fetched too.'
+    : `Skipped ${totalSkippedPast} long-past event(s) not due their ${PAST_RECHECK_DAYS}-day re-check (set TM_SWEEP_INCLUDE_PAST=1 for a full sweep).`);
 
   const summary = {
     checked_at: new Date().toISOString(),
@@ -316,6 +346,7 @@ async function main() {
       changed: totalChanged,
       errors: totalErrors,
       unresolvable: totalUnresolvable,
+      skipped_past: totalSkippedPast,
       current_findings: totalCurrentFindings,
       historical_findings: totalHistoricalFindings
     }

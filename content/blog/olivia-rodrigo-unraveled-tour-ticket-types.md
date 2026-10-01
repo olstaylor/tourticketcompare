@@ -4,6 +4,7 @@ seo_title: Unraveled Tour ticket types explained
 description: Standard, VIP and Silver Star tickets are sold differently on The Unraveled Tour, and the differences follow the ticket onto the resale market.
 summary: An Unraveled Tour ticket is not one product. The tour sells standard tickets, VIP packages and a request-based fixed-price ticket, and the rules attached to each — transferability, delivery timing, identity checks — decide what a second-hand listing is actually worth buying.
 date: 2026-09-25
+updated: 2026-10-01
 status: published
 tags:
   - tour-buying
@@ -24,6 +25,10 @@ sources:
 
 "A ticket for the Olivia Rodrigo show" describes three different products on The Unraveled Tour, sold on different terms. Most buying advice treats a ticket as one thing with a price attached. Here the terms attached to each type are the part that decides whether a listing you find later is a good deal or a partial one, and they are published — you do not have to guess.
 
+## Find your date before comparing tickets
+
+[Choose your city and show on the Olivia Rodrigo date board](/artists/olivia-rodrigo). Match the venue and date, then open the checked ticket links shown for that event. Before comparing totals, establish whether each listing is a standard ticket, a VIP package or a ticket from a separate allocation programme. A resale listing's VIP label does not establish that the original package extras are included. Coverage varies by date, and a checked link does not guarantee current availability.
+
 ## Standard tickets: the delivery clock matters
 
 The ordinary ticket is the one everything else is measured against, and two of its rules are worth knowing before you buy from anyone.
@@ -36,7 +41,7 @@ If you are buying from a resale marketplace, that is the mechanism behind a lot 
 
 Live Nation's tour announcement points VIP buyers to VIP Nation, and Ticketmaster's help page sets out what a package contains. Its GA Early Entry Experience is described as one general admission ticket with priority access to the floor, a VIP laminate and lanyard, a specially designed VIP gift item, a photo opportunity in front of the VIP backdrop, pre-show tour merchandise shopping, early entry into the venue, and designated check-in with on-site VIP staff.
 
-The part that matters second-hand is stated on the same page: merchandise, VIP package elements, fan club memberships and ticket insurance originally purchased with or included in a ticket are **not** transferable.
+The backdrop photo opportunity does not include artist participation, according to Ticketmaster's package description. The part that matters second-hand is stated on the same page: merchandise, VIP package elements, fan club memberships and ticket insurance originally purchased with or included in a ticket are **not** transferable.
 
 So a resale listing that says "VIP" may be transferring the seat and none of the things that made the package a package. That is not necessarily a bad buy — a floor ticket is a floor ticket — but it is a different purchase from the one the word implies, and it should be priced in your head accordingly. Before paying a premium for the label, ask the marketplace what is actually being transferred.
 

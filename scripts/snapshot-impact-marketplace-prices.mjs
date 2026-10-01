@@ -75,6 +75,27 @@ const RETRY_BACKOFF_MS = 500;
 const D1_MAX_ATTEMPTS = 5;
 const D1_RETRY_BACKOFF_MS = 3000;
 
+// The scheduled job has a 10-minute cap, and a run that hits it is *cancelled*
+// with no output, so nothing says which step stalled. Five ticketnetwork runs
+// were cancelled that way between 2026-09-27 and 2026-09-30 while a normal run
+// takes ~5 minutes. Events are fetched one at a time, so a slow proxy (see the
+// CPU-limit incident above) can stretch 200 lookups past the cap. Stop
+// fetching at FETCH_DEADLINE_MS and write what was collected; the events not
+// reached are reported as `deferred`, not `failed`, because nothing was wrong
+// with them and the next hourly run picks them up. Each wrangler call is also
+// bounded, so a stuck D1 import fails with a named error before the cap.
+const FETCH_DEADLINE_MS = 6 * 60 * 1000;
+const D1_EXEC_TIMEOUT_MS = 90 * 1000;
+
+async function d1ExecuteFile(exec, options, file) {
+  try {
+    await exec("npx", ["wrangler", "d1", "execute", options.database, options.remote ? "--remote" : "--local", "--file", file], { cwd: ROOT, maxBuffer: 10 * 1024 * 1024, timeout: D1_EXEC_TIMEOUT_MS, killSignal: "SIGKILL" });
+  } catch (error) {
+    if (error?.killed) throw Object.assign(new Error(`wrangler d1 execute did not finish within ${D1_EXEC_TIMEOUT_MS / 1000}s and was killed`), { stderr: error.stderr, stdout: error.stdout });
+    throw error;
+  }
+}
+
 function isRetriableD1WriteError(error) {
   return /processing a long-running import/i.test(`${error?.message || ""}\n${error?.stderr || ""}\n${error?.stdout || ""}`);
 }
@@ -302,7 +323,7 @@ async function writeRows(rows, options, deps = {}) {
     await fs.writeFile(file, buildSql(rows));
     for (let attempt = 1; ; attempt += 1) {
       try {
-        await exec("npx", ["wrangler", "d1", "execute", options.database, options.remote ? "--remote" : "--local", "--file", file], { cwd: ROOT, maxBuffer: 10 * 1024 * 1024 });
+        await d1ExecuteFile(exec, options, file);
         return rows.length;
       } catch (error) {
         // Contention is the only retriable write failure. A rejected schema, a
@@ -331,7 +352,7 @@ async function writePriceChecks(checks, checkedAt, options, deps = {}) {
     // International lanes import into one D1 concurrently.
     for (let attempt = 1; ; attempt += 1) {
       try {
-        await exec("npx", ["wrangler", "d1", "execute", options.database, options.remote ? "--remote" : "--local", "--file", file], { cwd: ROOT, maxBuffer: 10 * 1024 * 1024 });
+        await d1ExecuteFile(exec, options, file);
         return { recorded: checks.length };
       } catch (error) {
         if (attempt >= D1_MAX_ATTEMPTS || !isRetriableD1WriteError(error)) throw error;
@@ -353,7 +374,16 @@ async function run(options, deps = {}) {
   const checks = [];
   const errors = [];
   let fetched = 0;
-  for (const item of selected) {
+  let deferred = 0;
+  const clock = deps.clock || Date.now;
+  const startedAt = clock();
+  const deadlineMs = deps.fetchDeadlineMs ?? FETCH_DEADLINE_MS;
+  for (const [index, item] of selected.entries()) {
+    if (clock() - startedAt > deadlineMs) {
+      deferred = selected.length - index;
+      console.error(`::warning::${config.slug}: fetch deadline of ${Math.round(deadlineMs / 1000)}s reached after ${index} of ${selected.length} events; ${deferred} deferred to the next run`);
+      break;
+    }
     // Query by the already-verified provider event ID, not by artist name.
     // This keeps every cache row tied to one exact catalog record and avoids
     // broad artist-keyword pagination (for example, "Harry Styles").
@@ -375,7 +405,7 @@ async function run(options, deps = {}) {
     : { recorded: 0 };
   return {
     provider: config.slug, mode: options.apply ? "apply" : "dry-run", eligible: selected.length,
-    fetched, usable: rows.length, written, skipped: selected.length - rows.length, failed: errors.length,
+    fetched, usable: rows.length, written, skipped: selected.length - rows.length - deferred, deferred, failed: errors.length,
     checks: checks.length, checks_recorded: checkResult.recorded, ...(checkResult.error ? { checks_error: checkResult.error } : {}),
     zero_row_reason: selected.length === 0 ? "no_eligible_verified_events" : rows.length === 0 ? (errors.length ? "provider_fetch_failed" : "no_exact_current_prices") : undefined,
     proposed_rows: rows.map(({ id, ...row }) => row), errors
@@ -532,7 +562,31 @@ async function selfTest() {
     async execFile() { unrelenting += 1; throw Object.assign(new Error(contention.message), { stderr: contention.stderr }); }
   }), "contention that never clears must still fail the lane");
   assert.equal(unrelenting, D1_MAX_ATTEMPTS, "a contended import is retried to the cap");
-  return 47;
+
+  // A stuck wrangler import is killed and named, not left to the job cap.
+  let killedCalls = 0;
+  await assert.rejects(writeRows(writeRow, writeOptions, {
+    sleep: noSleep,
+    async execFile(_cmd, _args, opts) { killedCalls += 1; assert.equal(opts.timeout, D1_EXEC_TIMEOUT_MS); throw Object.assign(new Error("Command failed"), { killed: true }); }
+  }), /did not finish within/, "a hung D1 import fails with a named error");
+  assert.equal(killedCalls, 1, "a timed-out import is not retried as contention");
+
+  // Past the fetch deadline the run stops fetching, writes what it has, and
+  // reports the rest as deferred rather than failed.
+  const manyEvents = ["a", "b", "c", "d"].map((n) => ({ ...events[0], id: `e-${n}`, provider_links: { "ticket-liquidator": { verified: true, event_id: `tl-${n}` } } }));
+  let tick = 0;
+  let asked = 0;
+  const deadlined = await run({ provider: "ticket-liquidator", apply: false, eventId: "", limit: null, freshnessHours: 6, database: "x", remote: true }, {
+    data: [manyEvents, []], now: new Date("2026-07-13T00:00:00Z"), fetchDeadlineMs: 1000,
+    clock: () => (tick += 400),
+    async fetchArtistCatalog(_config, id) { asked += 1; return { ok: true, candidates: [{ ...candidate, externalId: id }] }; }
+  });
+  assert.equal(deadlined.eligible, 4);
+  assert.equal(deadlined.deferred, 4 - asked, "unreached events are deferred");
+  assert.ok(deadlined.deferred > 0 && asked > 0, "some fetched, some deferred");
+  assert.equal(deadlined.failed, 0, "a deadline is not a failure");
+  assert.equal(deadlined.usable, asked, "everything fetched before the deadline is kept");
+  return 52;
 }
 
 async function main() {

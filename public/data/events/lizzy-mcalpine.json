@@ -208,12 +208,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671407",
+        "url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-9-4-2027/event/107671407",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KrFm-83",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T09:00:00Z"
+    "public_onsale_at": "2026-10-02T09:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-9-4-2027/event/107671407"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-dublin-16bzkfw-sza81kca",

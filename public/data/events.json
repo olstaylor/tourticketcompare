@@ -2141,17 +2141,17 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107085160",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-30-2026/event/107085160",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfAqI1d",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695880",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-9-30-2026/event/107085160"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505888295",
@@ -8374,11 +8374,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107165388",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-pittsburgh-tickets-9-30-2026/event/107165388",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -8387,7 +8387,7 @@
     "ticketmaster_discovery_event_id": "1AvbZ_aGkM9wRr7",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-pittsburgh-tickets-9-30-2026/event/107165388"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-olivia-rodrigo-2026-washington-1ka8v0pdgacx387",
@@ -17076,11 +17076,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107133085",
-        "url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-9-30-2026/event/107133085",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
@@ -17089,7 +17089,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_A6pmG6f",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-9-30-2026/event/107133085"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyqbb4mx",
@@ -45240,11 +45240,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107163019",
-        "url": "https://www.stubhub.ie/teddy-swims-columbus-tickets-9-30-2026/event/107163019",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_FGkDx0-pN",
@@ -45252,7 +45252,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-columbus-tickets-9-30-2026/event/107163019"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-teddy-swims-2026-brooklyn-1adzz_fgknbfkoe",
@@ -48779,18 +48779,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107076162",
-        "url": "https://www.stubhub.ie/five-finger-death-punch-fort-worth-tickets-9-30-2026/event/107076162",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_ehes4-b",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676481",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-fort-worth-tickets-9-30-2026/event/107076162"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-rogers-g5viz_eq6la31",
@@ -121463,12 +121463,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671407",
+        "url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-9-4-2027/event/107671407",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KrFm-83",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T09:00:00Z"
+    "public_onsale_at": "2026-10-02T09:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-9-4-2027/event/107671407"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-dublin-16bzkfw-sza81kca",
@@ -141917,17 +141925,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107277081",
-        "url": "https://www.stubhub.ie/amble-tickets-glasgow-o2-academy-glasgow-30-9-2026/event/107277081",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_5S1TPu0",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-glasgow-o2-academy-glasgow-30-9-2026/event/107277081"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-amble-2026-newcastle-upon-tyne-g5dzz_clsmpcl",
@@ -144128,12 +144136,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671324",
+        "url": "https://www.stubhub.ie/andrea-bocelli-tickets-london-the-o2-arena-1-10-2027/event/107671324",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_KGkwkIv7I",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T09:00:00Z"
+    "public_onsale_at": "2026-10-02T09:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-london-the-o2-arena-1-10-2027/event/107671324"
   },
   {
     "id": "tm-andrea-bocelli-2027-glasgow-1adbz_k03jdzd5av",
@@ -144196,6 +144212,13 @@
         "verified": true,
         "last_verified_at": "2026-10-01",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671323",
+        "url": "https://www.stubhub.ie/andrea-bocelli-tickets-glasgow-ovo-hydro-arena-glasgow-9-10-2027/event/107671323",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1adbZ_K03JdZd5Av",
@@ -144203,6 +144226,7 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T09:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297135",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297135/Andrea-Bocelli-tickets-Sat-Oct-9-2027-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297135/Andrea-Bocelli-tickets-Sat-Oct-9-2027-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-glasgow-ovo-hydro-arena-glasgow-9-10-2027/event/107671323"
   }
 ]

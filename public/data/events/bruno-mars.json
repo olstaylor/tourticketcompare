@@ -2862,11 +2862,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107133085",
-        "url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-9-30-2026/event/107133085",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
@@ -2875,7 +2875,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_A6pmG6f",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-9-30-2026/event/107133085"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyqbb4mx",

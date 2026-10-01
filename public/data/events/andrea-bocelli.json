@@ -1961,12 +1961,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671324",
+        "url": "https://www.stubhub.ie/andrea-bocelli-tickets-london-the-o2-arena-1-10-2027/event/107671324",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_KGkwkIv7I",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T09:00:00Z"
+    "public_onsale_at": "2026-10-02T09:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-london-the-o2-arena-1-10-2027/event/107671324"
   },
   {
     "id": "tm-andrea-bocelli-2027-glasgow-1adbz_k03jdzd5av",
@@ -2029,6 +2037,13 @@
         "verified": true,
         "last_verified_at": "2026-10-01",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671323",
+        "url": "https://www.stubhub.ie/andrea-bocelli-tickets-glasgow-ovo-hydro-arena-glasgow-9-10-2027/event/107671323",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1adbZ_K03JdZd5Av",
@@ -2036,6 +2051,7 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T09:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297135",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297135/Andrea-Bocelli-tickets-Sat-Oct-9-2027-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297135/Andrea-Bocelli-tickets-Sat-Oct-9-2027-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-glasgow-ovo-hydro-arena-glasgow-9-10-2027/event/107671323"
   }
 ]

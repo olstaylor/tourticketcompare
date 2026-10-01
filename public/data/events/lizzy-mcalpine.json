@@ -982,7 +982,7 @@
     "ticketmaster_event_id": "15006537A689641E",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-columbia-maryland-06-25-2027/event/15006537A689641E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbia-merriweather-post-pavilion-6-25-2027--concerts-alternative/production/7606598",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-columbia-maryland-06-25-2027/event/15006537A689641E",
     "last_verified_at": null,
@@ -1004,11 +1004,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7606598,
+        "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbia-merriweather-post-pavilion-6-25-2027--concerts-alternative/production/7606598",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

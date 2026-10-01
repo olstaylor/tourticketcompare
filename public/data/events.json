@@ -73365,7 +73365,7 @@
     "ticketmaster_event_id": "3E006512AA1016ED",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/stella-lefty-birmingham-22-03-2027/event/3E006512AA1016ED",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-birmingham-o2-institute-birmingham-3-22-2027/production/7538473",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/stella-lefty-birmingham-22-03-2027/event/3E006512AA1016ED",
     "last_verified_at": null,
@@ -73387,11 +73387,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7538473,
+        "url": "https://www.vividseats.com/stella-lefty-tickets-birmingham-o2-institute-birmingham-3-22-2027/production/7538473",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -122221,7 +122221,7 @@
     "ticketmaster_event_id": "15006537A689641E",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-columbia-maryland-06-25-2027/event/15006537A689641E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbia-merriweather-post-pavilion-6-25-2027--concerts-alternative/production/7606598",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-columbia-maryland-06-25-2027/event/15006537A689641E",
     "last_verified_at": null,
@@ -122243,11 +122243,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7606598,
+        "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbia-merriweather-post-pavilion-6-25-2027--concerts-alternative/production/7606598",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -144024,7 +144024,7 @@
     "ticketmaster_event_id": "2300653C85D60AC3",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/andrea-bocelli-birmingham-29-09-2027/event/2300653C85D60AC3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-birmingham-utilita-arena-birmingham-9-29-2027--theater-opera/production/7622420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-birmingham-29-09-2027/event/2300653C85D60AC3",
     "last_verified_at": null,
@@ -144046,11 +144046,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7622420,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-birmingham-utilita-arena-birmingham-9-29-2027--theater-opera/production/7622420",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -144132,7 +144132,7 @@
     "ticketmaster_event_id": "3600653912983A40",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-glasgow-09-10-2027/event/3600653912983A40",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-glasgow-ovo-hydro-10-9-2027--theater-opera/production/7622414",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-glasgow-09-10-2027/event/3600653912983A40",
     "last_verified_at": null,
@@ -144154,11 +144154,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7622414,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-glasgow-ovo-hydro-10-9-2027--theater-opera/production/7622414",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

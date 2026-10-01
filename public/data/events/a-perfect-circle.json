@@ -1,0 +1,1727 @@
+[
+  {
+    "id": "tm-a-perfect-circle-2026-adelaide-1aefz_kgkrmdjgo",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Adelaide",
+    "country": "Australia",
+    "venue": "The Drive",
+    "datetime_iso": "2026-12-04T09:15:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500646BEE0E6D51",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/a-perfect-circle-adelaide-04-12-2026/event/2500646BEE0E6D51",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/a-perfect-circle-adelaide-04-12-2026/event/2500646BEE0E6D51",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500646BEE0E6D51",
+        "discovery_event_id": "1AefZ_kGkRmdJgo",
+        "url": "https://www.ticketmaster.com.au/a-perfect-circle-adelaide-04-12-2026/event/2500646BEE0E6D51",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_kGkRmdJgo",
+    "timezone": "Australia/Adelaide",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-perfect-circle-2026-brisbane-1avgz_kgklfnuo6",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "Riverstage",
+    "datetime_iso": "2026-12-08T07:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300646AD48F6807",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/a-perfect-circle-brisbane-08-12-2026/event/1300646AD48F6807",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/a-perfect-circle-brisbane-08-12-2026/event/1300646AD48F6807",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300646AD48F6807",
+        "discovery_event_id": "1AvGZ_kGklfNUO6",
+        "url": "https://www.ticketmaster.com.au/a-perfect-circle-brisbane-08-12-2026/event/1300646AD48F6807",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_kGklfNUO6",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-perfect-circle-2026-honolulu-vvg1iz_1qirhb6",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A PERFECT CIRCLE plus Special Guest PUSCIFER",
+    "city": "Honolulu",
+    "country": "United States Of America",
+    "venue": "Neal S Blaisdell Arena",
+    "datetime_iso": "2026-12-20T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064A6ACBFC607",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-plus-special-guest-honolulu-hawaii-12-19-2026/event/0A0064A6ACBFC607",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-plus-special-guest-honolulu-hawaii-12-19-2026/event/0A0064A6ACBFC607",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064A6ACBFC607",
+        "discovery_event_id": "vvG1IZ_1QiRHb6",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-plus-special-guest-honolulu-hawaii-12-19-2026/event/0A0064A6ACBFC607",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_1QiRHb6",
+    "timezone": "Pacific/Honolulu",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-vancouver-1k78vpcbgau8awz",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "UBC - Doug Mitchell Thunderbird Sports Centre",
+    "datetime_iso": "2027-04-14T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110065398D405F40",
+    "ticketmaster_url": "https://www.ticketmaster.ca/a-perfect-circle-vancouver-british-columbia-04-13-2027/event/110065398D405F40",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/a-perfect-circle-vancouver-british-columbia-04-13-2027/event/110065398D405F40",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110065398D405F40",
+        "discovery_event_id": "1k78vPCbGAu8AWZ",
+        "url": "https://www.ticketmaster.ca/a-perfect-circle-vancouver-british-columbia-04-13-2027/event/110065398D405F40",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78vPCbGAu8AWZ",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-calgary-1av7z_kgkn55gda",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Scotiabank Saddledome",
+    "datetime_iso": "2027-04-16T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100653A8B2F50C9",
+    "ticketmaster_url": "https://www.ticketmaster.ca/a-perfect-circle-calgary-alberta-04-15-2027/event/1100653A8B2F50C9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/a-perfect-circle-calgary-alberta-04-15-2027/event/1100653A8B2F50C9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100653A8B2F50C9",
+        "discovery_event_id": "1Av7Z_KGkn55gda",
+        "url": "https://www.ticketmaster.ca/a-perfect-circle-calgary-alberta-04-15-2027/event/1100653A8B2F50C9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_KGkn55gda",
+    "timezone": "America/Edmonton",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T16:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-edmonton-1aozkfygkey3iuu",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Rogers Place",
+    "datetime_iso": "2027-04-18T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006539B94ACDB6",
+    "ticketmaster_url": "https://www.ticketmaster.ca/a-perfect-circle-edmonton-alberta-04-17-2027/event/11006539B94ACDB6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/a-perfect-circle-edmonton-alberta-04-17-2027/event/11006539B94ACDB6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006539B94ACDB6",
+        "discovery_event_id": "1AoZkfyGkey3iUU",
+        "url": "https://www.ticketmaster.ca/a-perfect-circle-edmonton-alberta-04-17-2027/event/11006539B94ACDB6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkfyGkey3iUU",
+    "timezone": "America/Edmonton",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T16:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-winnipeg-16v7z_kjkg7bgkj",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Canada Life Centre",
+    "datetime_iso": "2027-04-20T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100653986EB54E6",
+    "ticketmaster_url": "https://www.ticketmaster.ca/a-perfect-circle-winnipeg-manitoba-04-19-2027/event/1100653986EB54E6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/a-perfect-circle-winnipeg-manitoba-04-19-2027/event/1100653986EB54E6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100653986EB54E6",
+        "discovery_event_id": "16v7Z_KJkG7BgKJ",
+        "url": "https://www.ticketmaster.ca/a-perfect-circle-winnipeg-manitoba-04-19-2027/event/1100653986EB54E6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16v7Z_KJkG7BgKJ",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-niagara-falls-1a8zkfmgkemh_mw",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Niagara Falls",
+    "country": "Canada",
+    "venue": "OLG Stage at Fallsview Casino",
+    "datetime_iso": "2027-04-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006537B76D9DFD",
+    "ticketmaster_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-22-2027/event/10006537B76D9DFD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-22-2027/event/10006537B76D9DFD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006537B76D9DFD",
+        "discovery_event_id": "1A8ZkfMGkeMh_MW",
+        "url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-22-2027/event/10006537B76D9DFD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkfMGkeMh_MW",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-niagara-falls-1a8zkfmgkemjazz",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Niagara Falls",
+    "country": "Canada",
+    "venue": "OLG Stage at Fallsview Casino",
+    "datetime_iso": "2027-04-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006537B7709E00",
+    "ticketmaster_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-23-2027/event/10006537B7709E00",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-23-2027/event/10006537B7709E00",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006537B7709E00",
+        "discovery_event_id": "1A8ZkfMGkeMjazZ",
+        "url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-23-2027/event/10006537B7709E00",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkfMGkeMjazZ",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-detroit-vv16fzkfma3zac8uka",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Fox Theatre Detroit",
+    "datetime_iso": "2027-04-25T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006537152DFC58",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-detroit-michigan-04-25-2027/event/08006537152DFC58",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-detroit-michigan-04-25-2027/event/08006537152DFC58",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006537152DFC58",
+        "discovery_event_id": "vv16FZkfMA3ZAC8uka",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-detroit-michigan-04-25-2027/event/08006537152DFC58",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16FZkfMA3ZAC8uka",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-boston-vv1k7z_kr_g7rccc",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-04-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100653799BEDB6D",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-boston-massachusetts-04-27-2027/event/0100653799BEDB6D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-boston-massachusetts-04-27-2027/event/0100653799BEDB6D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100653799BEDB6D",
+        "discovery_event_id": "vv1k7Z_Kr_G7Rccc",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-boston-massachusetts-04-27-2027/event/0100653799BEDB6D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1k7Z_Kr_G7Rccc",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-uncasville-g5vvz_khq_fxg",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Uncasville",
+    "country": "United States Of America",
+    "venue": "Mohegan Sun Arena",
+    "datetime_iso": "2027-04-28T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D006536DA648FB5",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-uncasville-connecticut-04-28-2027/event/1D006536DA648FB5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-uncasville-connecticut-04-28-2027/event/1D006536DA648FB5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006536DA648FB5",
+        "discovery_event_id": "G5vVZ_KhQ_FXg",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-uncasville-connecticut-04-28-2027/event/1D006536DA648FB5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_KhQ_FXg",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-camden-vv1aezkfzgkdun44v",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Camden",
+    "country": "United States Of America",
+    "venue": "Freedom Mortgage Pavilion",
+    "datetime_iso": "2027-05-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006538CD8D5574",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-camden-new-jersey-04-30-2027/event/02006538CD8D5574",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-camden-new-jersey-04-30-2027/event/02006538CD8D5574",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006538CD8D5574",
+        "discovery_event_id": "vv1AeZkfzGkduN44V",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-camden-new-jersey-04-30-2027/event/02006538CD8D5574",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfzGkduN44V",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-newark-vv1aezkfzgkecfwzd",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2027-05-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006538AD53DE3B",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-newark-new-jersey-05-01-2027/event/02006538AD53DE3B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-newark-new-jersey-05-01-2027/event/02006538AD53DE3B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006538AD53DE3B",
+        "discovery_event_id": "vv1AeZkfzGkecfWzD",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-newark-new-jersey-05-01-2027/event/02006538AD53DE3B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfzGkecfWzD",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-charlotte-g5evz_kj8b4gy",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Truliant Amphitheater",
+    "datetime_iso": "2027-05-04T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00653710615D70",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-charlotte-north-carolina-05-04-2027/event/2D00653710615D70",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-charlotte-north-carolina-05-04-2027/event/2D00653710615D70",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00653710615D70",
+        "discovery_event_id": "G5eVZ_Kj8b4gY",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-charlotte-north-carolina-05-04-2027/event/2D00653710615D70",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_Kj8b4gY",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-duluth-vvg1zz_kxwhwhz",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "Gas South Arena",
+    "datetime_iso": "2027-05-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006538BD6F2F38",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-duluth-georgia-05-05-2027/event/0E006538BD6F2F38",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-duluth-georgia-05-05-2027/event/0E006538BD6F2F38",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006538BD6F2F38",
+        "discovery_event_id": "vvG1zZ_KxWhwHz",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-duluth-georgia-05-05-2027/event/0E006538BD6F2F38",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_KxWhwHz",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-the-woodlands-g5diz_kjdvhi6",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "The Woodlands",
+    "country": "United States Of America",
+    "venue": "The Cynthia Woods Mitchell Pavilion sponsored by Huntsman",
+    "datetime_iso": "2027-05-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006539BBD3CB07",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-the-woodlands-texas-05-07-2027/event/3A006539BBD3CB07",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-the-woodlands-texas-05-07-2027/event/3A006539BBD3CB07",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006539BBD3CB07",
+        "discovery_event_id": "G5dIZ_KJDVHi6",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-the-woodlands-texas-05-07-2027/event/3A006539BBD3CB07",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_KJDVHi6",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-nashville-g5viz_knjkaln",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2027-05-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006538DC1897E3",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-nashville-tennessee-05-15-2027/event/1B006538DC1897E3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-nashville-tennessee-05-15-2027/event/1B006538DC1897E3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006538DC1897E3",
+        "discovery_event_id": "G5viZ_KNjkaLN",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-nashville-tennessee-05-15-2027/event/1B006538DC1897E3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KNjkaLN",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-saint-louis-vv1akzkfugkdepcmi",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Chaifetz Arena",
+    "datetime_iso": "2027-05-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006536C258EDE8",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-saint-louis-missouri-05-17-2027/event/06006536C258EDE8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-saint-louis-missouri-05-17-2027/event/06006536C258EDE8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006536C258EDE8",
+        "discovery_event_id": "vv1AkZkfUGkdepCMI",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-saint-louis-missouri-05-17-2027/event/06006536C258EDE8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfUGkdepCMI",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-cuyahoga-falls-vv1aazkfzgkeutduj",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Cuyahoga Falls",
+    "country": "United States Of America",
+    "venue": "Blossom Music Center",
+    "datetime_iso": "2027-05-20T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006538B6FFBDA6",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-cuyahoga-falls-ohio-05-20-2027/event/05006538B6FFBDA6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-cuyahoga-falls-ohio-05-20-2027/event/05006538B6FFBDA6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006538B6FFBDA6",
+        "discovery_event_id": "vv1AAZkfzGkeUTDUJ",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-cuyahoga-falls-ohio-05-20-2027/event/05006538B6FFBDA6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZkfzGkeUTDUJ",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-chicago-vv1kjz_kf7g7lms3",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Wintrust Arena",
+    "datetime_iso": "2027-05-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700653504AF7CD2",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-chicago-illinois-05-22-2027/event/0700653504AF7CD2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-chicago-illinois-05-22-2027/event/0700653504AF7CD2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700653504AF7CD2",
+        "discovery_event_id": "vv1kjZ_Kf7G7lMS3",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-chicago-illinois-05-22-2027/event/0700653504AF7CD2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kjZ_Kf7G7lMS3",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-shakopee-1a-zkfygkehcamo",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Shakopee",
+    "country": "United States Of America",
+    "venue": "Mystic Lake Amphitheater",
+    "datetime_iso": "2027-05-24T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "21006539BCB49DE0",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-shakopee-minnesota-05-23-2027/event/21006539BCB49DE0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-shakopee-minnesota-05-23-2027/event/21006539BCB49DE0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "21006539BCB49DE0",
+        "discovery_event_id": "1A-ZkfyGkeHcaMO",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-shakopee-minnesota-05-23-2027/event/21006539BCB49DE0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A-ZkfyGkeHcaMO",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-west-valley-city-g5vzz_kk2w7ui",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "West Valley City",
+    "country": "United States Of America",
+    "venue": "Canyon View Credit Union Stage at Maverik Center",
+    "datetime_iso": "2027-05-29T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0065318FC84DAC",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-west-valley-city-utah-05-28-2027/event/1E0065318FC84DAC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-west-valley-city-utah-05-28-2027/event/1E0065318FC84DAC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0065318FC84DAC",
+        "discovery_event_id": "G5vzZ_Kk2w7Ui",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-west-valley-city-utah-05-28-2027/event/1E0065318FC84DAC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_Kk2w7Ui",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T16:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-seattle-vvg1hz_kfmppzs",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-05-31T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0065352E956033",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-seattle-washington-05-30-2027/event/0F0065352E956033",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-seattle-washington-05-30-2027/event/0F0065352E956033",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0065352E956033",
+        "discovery_event_id": "vvG1HZ_KfmPpZS",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-seattle-washington-05-30-2027/event/0F0065352E956033",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_KfmPpZS",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-portland-vvg1hz_kbfgxyu",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Veterans Memorial Coliseum",
+    "datetime_iso": "2027-06-02T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00653608322C36",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-portland-oregon-06-01-2027/event/0F00653608322C36",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-portland-oregon-06-01-2027/event/0F00653608322C36",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00653608322C36",
+        "discovery_event_id": "vvG1HZ_KbFGxYU",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-portland-oregon-06-01-2027/event/0F00653608322C36",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_KbFGxYU",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-reno-1a9zkfygkembtoj",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Reno",
+    "country": "United States Of America",
+    "venue": "Grand Sierra Resort and Casino",
+    "datetime_iso": "2027-06-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006539AEEBF45C",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-reno-nevada-06-03-2027/event/17006539AEEBF45C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-reno-nevada-06-03-2027/event/17006539AEEBF45C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006539AEEBF45C",
+        "discovery_event_id": "1A9ZkfyGkemBToj",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-reno-nevada-06-03-2027/event/17006539AEEBF45C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkfyGkemBToj",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-daly-city-g5vyz_kwfsetp",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Daly City",
+    "country": "United States Of America",
+    "venue": "Cow Palace",
+    "datetime_iso": "2027-06-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00653C88C67FD6",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-daly-city-california-06-04-2027/event/1C00653C88C67FD6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-daly-city-california-06-04-2027/event/1C00653C88C67FD6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00653C88C67FD6",
+        "discovery_event_id": "G5vYZ_KwFsETp",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-daly-city-california-06-04-2027/event/1C00653C88C67FD6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_KwFsETp",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-hollywood-vvg1iz_kj6yzfl",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2027-06-07T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B00653707C3852B",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-hollywood-california-06-06-2027/event/0B00653707C3852B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-hollywood-california-06-06-2027/event/0B00653707C3852B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B00653707C3852B",
+        "discovery_event_id": "vvG1iZ_Kj6Yzfl",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-hollywood-california-06-06-2027/event/0B00653707C3852B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_Kj6Yzfl",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-chula-vista-vvg1iz_kl8jvkq",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Chula Vista",
+    "country": "United States Of America",
+    "venue": "North Island Credit Union Amphitheatre",
+    "datetime_iso": "2027-06-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006537D09814DD",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-chula-vista-california-06-08-2027/event/0A006537D09814DD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-chula-vista-california-06-08-2027/event/0A006537D09814DD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006537D09814DD",
+        "discovery_event_id": "vvG1IZ_KL8JvKq",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-chula-vista-california-06-08-2027/event/0A006537D09814DD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_KL8JvKq",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-las-vegas-1a9zkfmgkd8myho",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-06-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006537D0DF0F11",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-las-vegas-nevada-06-10-2027/event/17006537D0DF0F11",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-las-vegas-nevada-06-10-2027/event/17006537D0DF0F11",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006537D0DF0F11",
+        "discovery_event_id": "1A9ZkfMGkd8MYHo",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-las-vegas-nevada-06-10-2027/event/17006537D0DF0F11",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkfMGkd8MYHo",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-las-vegas-1a9zkfmgkd8y8h4",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-06-12T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006537D0E50F15",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-las-vegas-nevada-06-11-2027/event/17006537D0E50F15",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-las-vegas-nevada-06-11-2027/event/17006537D0E50F15",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006537D0E50F15",
+        "discovery_event_id": "1A9ZkfMGkd8y8H4",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-las-vegas-nevada-06-11-2027/event/17006537D0E50F15",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9ZkfMGkd8y8H4",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-phoenix-1a_zkfsgkd23t56",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Talking Stick Resort Amphitheatre",
+    "datetime_iso": "2027-06-14T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006531CF4A92C7",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-phoenix-arizona-06-13-2027/event/19006531CF4A92C7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-phoenix-arizona-06-13-2027/event/19006531CF4A92C7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006531CF4A92C7",
+        "discovery_event_id": "1A_ZkfsGkd23t56",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-phoenix-arizona-06-13-2027/event/19006531CF4A92C7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_ZkfsGkd23t56",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  }
+]

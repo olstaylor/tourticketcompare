@@ -1,0 +1,2193 @@
+[
+  {
+    "id": "tm-daughtry-2026-valley-center-vvg1iz_5rl2h1n",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Valley Center",
+    "country": "United States Of America",
+    "venue": "Harrah's Resort SoCal - The Events Center",
+    "datetime_iso": "2026-10-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064BBDF3FC2AA",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-valley-center-california-10-03-2026/event/0A0064BBDF3FC2AA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-valley-center-california-10-03-2026/event/0A0064BBDF3FC2AA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064BBDF3FC2AA",
+        "discovery_event_id": "vvG1IZ_5RL2H1n",
+        "url": "https://www.ticketmaster.com/daughtry-valley-center-california-10-03-2026/event/0A0064BBDF3FC2AA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_5RL2H1n",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-troy-k7vgf_grfdn3c",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Troy",
+    "country": "United States Of America",
+    "venue": "Troy Savings Bank Music Hall",
+    "datetime_iso": "2026-10-12T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064CBC80E348E",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-troy-new-york-10-12-2026/event/000064CBC80E348E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-troy-new-york-10-12-2026/event/000064CBC80E348E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064CBC80E348E",
+        "discovery_event_id": "k7vGF_GRFdN3C",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-troy-new-york-10-12-2026/event/000064CBC80E348E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_GRFdN3C",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-beverly-z7r9jz1a7pyjj",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Beverly",
+    "country": "United States Of America",
+    "venue": "The Cabot",
+    "datetime_iso": "2026-10-13T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PYjJ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYjJ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYjJ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PYjJ",
+        "discovery_event_id": "Z7r9jZ1A7PYjJ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PYjJ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PYjJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-uncasville-g5vvz_gld3qfv",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Uncasville",
+    "country": "United States Of America",
+    "venue": "Mohegan Sun Arena",
+    "datetime_iso": "2026-10-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D0064CAFB49D234",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-uncasville-connecticut-10-15-2026/event/1D0064CAFB49D234",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-uncasville-connecticut-10-15-2026/event/1D0064CAFB49D234",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D0064CAFB49D234",
+        "discovery_event_id": "G5vVZ_GlD3qFV",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-uncasville-connecticut-10-15-2026/event/1D0064CAFB49D234",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_GlD3qFV",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-waterloo-k7vgf_gm6sksu",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry: 20 Years Unplugged Tour (Ages 21 & Over)",
+    "city": "Waterloo",
+    "country": "United States Of America",
+    "venue": "del Lago Resort & Casino",
+    "datetime_iso": "2026-10-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064CB87CC6C4D",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-ages-waterloo-new-york-10-16-2026/event/000064CB87CC6C4D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-ages-waterloo-new-york-10-16-2026/event/000064CB87CC6C4D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064CB87CC6C4D",
+        "discovery_event_id": "k7vGF_Gm6Sksu",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-ages-waterloo-new-york-10-16-2026/event/000064CB87CC6C4D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_Gm6Sksu",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-atlantic-city-vvg1fz_gskknq7",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Atlantic City",
+    "country": "United States Of America",
+    "venue": "Ovation Hall at Ocean Casino Resort",
+    "datetime_iso": "2026-10-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020064CCD34EA744",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-atlantic-city-new-jersey-10-17-2026/event/020064CCD34EA744",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-atlantic-city-new-jersey-10-17-2026/event/020064CCD34EA744",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020064CCD34EA744",
+        "discovery_event_id": "vvG1FZ_GSKKnq7",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-atlantic-city-new-jersey-10-17-2026/event/020064CCD34EA744",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1FZ_GSKKnq7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-huntington-k7vgf_geicgms",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Huntington",
+    "country": "United States Of America",
+    "venue": "The Paramount in concert with Northwell",
+    "datetime_iso": "2026-10-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064C9EC38CDF1",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-huntington-new-york-10-20-2026/event/000064C9EC38CDF1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-huntington-new-york-10-20-2026/event/000064C9EC38CDF1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064C9EC38CDF1",
+        "discovery_event_id": "k7vGF_GEiCGMs",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-huntington-new-york-10-20-2026/event/000064C9EC38CDF1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_GEiCGMs",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-englewood-k7vgf_uejshyg",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Englewood",
+    "country": "United States Of America",
+    "venue": "Bergen Performing Arts Center",
+    "datetime_iso": "2026-10-21T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064D09CC5BC0C",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-englewood-new-jersey-10-21-2026/event/000064D09CC5BC0C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-englewood-new-jersey-10-21-2026/event/000064D09CC5BC0C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064D09CC5BC0C",
+        "discovery_event_id": "k7vGF_uejshYG",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-englewood-new-jersey-10-21-2026/event/000064D09CC5BC0C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_uejshYG",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-danville-vvg17z_gy_imrz",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Danville",
+    "country": "United States Of America",
+    "venue": "The Pantheon at Caesars Virginia",
+    "datetime_iso": "2026-10-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064CC19A2E7B8",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-danville-virginia-10-23-2026/event/010064CC19A2E7B8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-danville-virginia-10-23-2026/event/010064CC19A2E7B8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064CC19A2E7B8",
+        "discovery_event_id": "vvG17Z_GY_Imrz",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-danville-virginia-10-23-2026/event/010064CC19A2E7B8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_GY_Imrz",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-florence-17aov0g6gj3vrxt",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry: 20 Years Unplugged Tour (Ages 21 & Over)",
+    "city": "Florence",
+    "country": "United States Of America",
+    "venue": "Turfway Park",
+    "datetime_iso": "2026-10-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160064C99205E8A9",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-ages-florence-kentucky-10-24-2026/event/160064C99205E8A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-ages-florence-kentucky-10-24-2026/event/160064C99205E8A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160064C99205E8A9",
+        "discovery_event_id": "17AOv0G6GJ3vrxt",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-ages-florence-kentucky-10-24-2026/event/160064C99205E8A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AOv0G6GJ3vrxt",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-greensburg-z7r9jz1aazman",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Greensburg",
+    "country": "United States Of America",
+    "venue": "Palace Theatre-Greensburg",
+    "datetime_iso": "2026-10-26T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZMaN",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMaN",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMaN",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZMaN",
+        "discovery_event_id": "Z7r9jZ1AAZMaN",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMaN",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZMaN",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-wheeling-z7r9jz1aav9u8",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Wheeling",
+    "country": "United States Of America",
+    "venue": "Capitol Theatre - WV",
+    "datetime_iso": "2026-10-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv9u8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9u8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9u8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv9u8",
+        "discovery_event_id": "Z7r9jZ1AAv9u8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9u8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv9u8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-nashville-vvg1fz_gmyo5fy",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Brown County Music Center",
+    "datetime_iso": "2026-10-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050064CBB080B530",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-nashville-indiana-10-29-2026/event/050064CBB080B530",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-nashville-indiana-10-29-2026/event/050064CBB080B530",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050064CBB080B530",
+        "discovery_event_id": "vvG1fZ_GmYO5fY",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-nashville-indiana-10-29-2026/event/050064CBB080B530",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1fZ_GmYO5fY",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-la-vista-17fzv0g6gnabvqc",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "La Vista",
+    "country": "United States Of America",
+    "venue": "The Astro Theater",
+    "datetime_iso": "2026-11-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "200064CA896016AD",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-la-vista-nebraska-10-31-2026/event/200064CA896016AD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-la-vista-nebraska-10-31-2026/event/200064CA896016AD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "200064CA896016AD",
+        "discovery_event_id": "17FZv0G6GnabvQc",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-la-vista-nebraska-10-31-2026/event/200064CA896016AD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FZv0G6GnabvQc",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-des-moines-vvg1bz_gwkrfot",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Des Moines",
+    "country": "United States Of America",
+    "venue": "Hoyt Sherman Place",
+    "datetime_iso": "2026-11-02T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064CC86788469",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-des-moines-iowa-11-01-2026/event/060064CC86788469",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-des-moines-iowa-11-01-2026/event/060064CC86788469",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064CC86788469",
+        "discovery_event_id": "vvG1bZ_GwkrFot",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-des-moines-iowa-11-01-2026/event/060064CC86788469",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_GwkrFot",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-kansas-city-vvg1bz_gsftuwt",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "Uptown Theater",
+    "datetime_iso": "2026-11-04T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064CCC8FF6CBF",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-kansas-city-missouri-11-03-2026/event/060064CCC8FF6CBF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-kansas-city-missouri-11-03-2026/event/060064CCC8FF6CBF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064CCC8FF6CBF",
+        "discovery_event_id": "vvG1bZ_GSFTUwT",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-kansas-city-missouri-11-03-2026/event/060064CCC8FF6CBF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_GSFTUwT",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-oklahoma-city-z7r9jz1a7px8p",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry w/ Ryan Perdz",
+    "city": "Oklahoma City",
+    "country": "United States Of America",
+    "venue": "Criterion Theater - Oklahoma City",
+    "datetime_iso": "2026-11-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Px8p",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Px8p",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Px8p",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Px8p",
+        "discovery_event_id": "Z7r9jZ1A7Px8p",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Px8p",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Px8p",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-las-vegas-z7r9jz1a7pxak",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Pearl Concert Theater at Palms Casino Resort",
+    "datetime_iso": "2026-11-08T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PxAK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxAK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxAK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PxAK",
+        "discovery_event_id": "Z7r9jZ1A7PxAK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PxAK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PxAK",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-napa-g5vyz_gnjfn19",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Napa",
+    "country": "United States Of America",
+    "venue": "Uptown Theatre Napa",
+    "datetime_iso": "2026-11-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064CAA6523297",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-napa-california-11-08-2026/event/1C0064CAA6523297",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-napa-california-11-08-2026/event/1C0064CAA6523297",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064CAA6523297",
+        "discovery_event_id": "G5vYZ_GnJfN19",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-napa-california-11-08-2026/event/1C0064CAA6523297",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_GnJfN19",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-anaheim-vvg10z_grix-n9",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry: 20 Years Unplugged Tour",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "DigAlert Grove of Anaheim",
+    "datetime_iso": "2026-11-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064CBEC8A18D7",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-anaheim-california-11-10-2026/event/090064CBEC8A18D7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-anaheim-california-11-10-2026/event/090064CBEC8A18D7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064CBEC8A18D7",
+        "discovery_event_id": "vvG10Z_GRix-N9",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-anaheim-california-11-10-2026/event/090064CBEC8A18D7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_GRix-N9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-tucson-z7r9jz1a7pxk_",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Tucson",
+    "country": "United States Of America",
+    "venue": "Fox Theatre - Tucson AZ",
+    "datetime_iso": "2026-11-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Pxk_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxk_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxk_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Pxk_",
+        "discovery_event_id": "Z7r9jZ1A7Pxk_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pxk_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pxk_",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-san-antonio-g5diz_gsupj1v",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Aztec Theatre",
+    "datetime_iso": "2026-11-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064CCF65A6281",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-san-antonio-texas-11-13-2026/event/3A0064CCF65A6281",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-san-antonio-texas-11-13-2026/event/3A0064CCF65A6281",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064CCF65A6281",
+        "discovery_event_id": "G5dIZ_GSUpJ1v",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-san-antonio-texas-11-13-2026/event/3A0064CCF65A6281",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_GSUpJ1v",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2026-dallas-vvg1yz_gea3drr",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "Majestic Theatre Dallas",
+    "datetime_iso": "2026-11-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064C9C54BBBEF",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-dallas-texas-11-14-2026/event/0C0064C9C54BBBEF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-dallas-texas-11-14-2026/event/0C0064C9C54BBBEF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064C9C54BBBEF",
+        "discovery_event_id": "vvG1YZ_GEA3DRR",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-dallas-texas-11-14-2026/event/0C0064C9C54BBBEF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_GEA3DRR",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-pine-bluff-g5viz_kyugjqo",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Pine Bluff",
+    "country": "United States Of America",
+    "venue": "Saracen Casino Resort",
+    "datetime_iso": "2027-01-24T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00653C36D66691",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-pine-bluff-arkansas-01-23-2027/event/1B00653C36D66691",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-pine-bluff-arkansas-01-23-2027/event/1B00653C36D66691",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00653C36D66691",
+        "discovery_event_id": "G5viZ_KYUgJQo",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-pine-bluff-arkansas-01-23-2027/event/1B00653C36D66691",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KYUgJQo",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-orlando-1kfovpgdga2huxq",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Orlando",
+    "datetime_iso": "2027-01-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "220065303F6CD89A",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-orlando-florida-01-27-2027/event/220065303F6CD89A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-orlando-florida-01-27-2027/event/220065303F6CD89A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "220065303F6CD89A",
+        "discovery_event_id": "1kFOvPGdGA2huxQ",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-orlando-florida-01-27-2027/event/220065303F6CD89A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kFOvPGdGA2huxQ",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-biloxi-g5viz_ksbnt-6",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Biloxi",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Biloxi",
+    "datetime_iso": "2027-01-31T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00653CFAAA9847",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-biloxi-mississippi-01-30-2027/event/1B00653CFAAA9847",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-biloxi-mississippi-01-30-2027/event/1B00653CFAAA9847",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00653CFAAA9847",
+        "discovery_event_id": "G5viZ_KSBnt-6",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-biloxi-mississippi-01-30-2027/event/1B00653CFAAA9847",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KSBnt-6",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-houston-g5diz_kxwqqcm",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Bayou Music Center",
+    "datetime_iso": "2027-02-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006538BD75D3AE",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-houston-texas-01-31-2027/event/3A006538BD75D3AE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-houston-texas-01-31-2027/event/3A006538BD75D3AE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006538BD75D3AE",
+        "discovery_event_id": "G5dIZ_KxWqqCm",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-houston-texas-01-31-2027/event/3A006538BD75D3AE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_KxWqqCm",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-corpus-christi-g5diz_kxutltw",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Corpus Christi",
+    "country": "United States Of America",
+    "venue": "Selena Auditorium",
+    "datetime_iso": "2027-02-03T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006538B6FEBA72",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-corpus-christi-texas-02-02-2027/event/3A006538B6FEBA72",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-corpus-christi-texas-02-02-2027/event/3A006538B6FEBA72",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006538B6FEBA72",
+        "discovery_event_id": "G5dIZ_KxUTltw",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-corpus-christi-texas-02-02-2027/event/3A006538B6FEBA72",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_KxUTltw",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-sacramento-g5vyz_k60xnfe",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Channel 24",
+    "datetime_iso": "2027-02-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006531E4FAA502",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-sacramento-california-02-08-2027/event/1C006531E4FAA502",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-sacramento-california-02-08-2027/event/1C006531E4FAA502",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006531E4FAA502",
+        "discovery_event_id": "G5vYZ_K60Xnfe",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-sacramento-california-02-08-2027/event/1C006531E4FAA502",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_K60Xnfe",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-denver-g5vzz_knzyqbr",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2027-02-11T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006538C0C1DE9E",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-denver-colorado-02-10-2027/event/1E006538C0C1DE9E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-denver-colorado-02-10-2027/event/1E006538C0C1DE9E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006538C0C1DE9E",
+        "discovery_event_id": "G5vzZ_KNZYqBr",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-denver-colorado-02-10-2027/event/1E006538C0C1DE9E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_KNZYqBr",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T16:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-durant-vvg1yz_kgp_ixc",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Durant",
+    "country": "United States Of America",
+    "venue": "Choctaw Grand Theater",
+    "datetime_iso": "2027-02-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0065332566C8AD",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-durant-oklahoma-02-12-2027/event/0C0065332566C8AD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-durant-oklahoma-02-12-2027/event/0C0065332566C8AD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0065332566C8AD",
+        "discovery_event_id": "vvG1YZ_KGP_ixc",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-durant-oklahoma-02-12-2027/event/0C0065332566C8AD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_KGP_ixc",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-saint-louis-vv1fvovpgtjkz75857",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Pageant",
+    "datetime_iso": "2027-02-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060065329993AFA3",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-saint-louis-missouri-02-13-2027/event/060065329993AFA3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-saint-louis-missouri-02-13-2027/event/060065329993AFA3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060065329993AFA3",
+        "discovery_event_id": "vv1FvOvPGtJKZ75857",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-saint-louis-missouri-02-13-2027/event/060065329993AFA3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1FvOvPGtJKZ75857",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-duluth-vv1akzkfmgkdcbe8w",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "DECC Symphony Hall",
+    "datetime_iso": "2027-02-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006537EDEA7432",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-duluth-minnesota-02-16-2027/event/06006537EDEA7432",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-duluth-minnesota-02-16-2027/event/06006537EDEA7432",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006537EDEA7432",
+        "discovery_event_id": "vv1AkZkfMGkdcBE8w",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-duluth-minnesota-02-16-2027/event/06006537EDEA7432",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfMGkdcBE8w",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-rockford-16e7z_kkfg7v38v",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Rockford",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Rockford",
+    "datetime_iso": "2027-02-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2100653194D12434",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-rockford-illinois-02-20-2027/event/2100653194D12434",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-rockford-illinois-02-20-2027/event/2100653194D12434",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2100653194D12434",
+        "discovery_event_id": "16e7Z_KkfG7V38V",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-rockford-illinois-02-20-2027/event/2100653194D12434",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16e7Z_KkfG7V38V",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-gary-vv1aazkfygkesuefr",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Gary",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Northern Indiana",
+    "datetime_iso": "2027-02-22T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006539B334221E",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-gary-indiana-02-21-2027/event/05006539B334221E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-gary-indiana-02-21-2027/event/05006539B334221E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006539B334221E",
+        "discovery_event_id": "vv1AAZkfyGkeSueFr",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-gary-indiana-02-21-2027/event/05006539B334221E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZkfyGkeSueFr",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-detroit-vv1kezvpg_ga5zp8l",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "WRIF PRESENTS: Daughtry - 20 Years Unplugged Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "The Fillmore Detroit",
+    "datetime_iso": "2027-02-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080065319B02541F",
+    "ticketmaster_url": "https://www.ticketmaster.com/wrif-presents-daughtry-20-years-unplugged-detroit-michigan-02-23-2027/event/080065319B02541F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/wrif-presents-daughtry-20-years-unplugged-detroit-michigan-02-23-2027/event/080065319B02541F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080065319B02541F",
+        "discovery_event_id": "vv1keZvPG_GA5ZP8L",
+        "url": "https://www.ticketmaster.com/wrif-presents-daughtry-20-years-unplugged-detroit-michigan-02-23-2027/event/080065319B02541F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1keZvPG_GA5ZP8L",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-hershey-vv1aezkfmgkdtwgls",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Hershey",
+    "country": "United States Of America",
+    "venue": "Hershey Theatre",
+    "datetime_iso": "2027-02-27T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006537E9CB5AF3",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-hershey-pennsylvania-02-26-2027/event/02006537E9CB5AF3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-hershey-pennsylvania-02-26-2027/event/02006537E9CB5AF3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006537E9CB5AF3",
+        "discovery_event_id": "vv1AeZkfMGkdtwglS",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-hershey-pennsylvania-02-26-2027/event/02006537E9CB5AF3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfMGkdtwglS",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-bethlehem-vv1aovpg_ga5ljzy",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Bethlehem",
+    "country": "United States Of America",
+    "venue": "The Wind Creek Event Center",
+    "datetime_iso": "2027-02-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020065319B7DC030",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-bethlehem-pennsylvania-02-27-2027/event/020065319B7DC030",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-bethlehem-pennsylvania-02-27-2027/event/020065319B7DC030",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020065319B7DC030",
+        "discovery_event_id": "vv1AOvPG_GA5LjZY",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-bethlehem-pennsylvania-02-27-2027/event/020065319B7DC030",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AOvPG_GA5LjZY",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-charleston-g5evz_keoc7ae",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Charleston",
+    "country": "United States Of America",
+    "venue": "The Charleston Music Hall",
+    "datetime_iso": "2027-03-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006539D1384242",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-charleston-south-carolina-03-05-2027/event/2D006539D1384242",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-charleston-south-carolina-03-05-2027/event/2D006539D1384242",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006539D1384242",
+        "discovery_event_id": "G5eVZ_KEoC7ae",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-charleston-south-carolina-03-05-2027/event/2D006539D1384242",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_KEoC7ae",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-nashville-g5viz_khosea-",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2027-03-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006536E0C67161",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-nashville-tennessee-03-06-2027/event/1B006536E0C67161",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-nashville-tennessee-03-06-2027/event/1B006536E0C67161",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006536E0C67161",
+        "discovery_event_id": "G5viZ_KhOsEA-",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-nashville-tennessee-03-06-2027/event/1B006536E0C67161",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KhOsEA-",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T15:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-atlanta-vvg1zz_klwyfxu",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry - 20 Years Unplugged Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Tabernacle Presented by iTHINK Financial",
+    "datetime_iso": "2027-03-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006537FDE48FB6",
+    "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-atlanta-georgia-03-07-2027/event/0E006537FDE48FB6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-atlanta-georgia-03-07-2027/event/0E006537FDE48FB6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006537FDE48FB6",
+        "discovery_event_id": "vvG1zZ_KLWyFXU",
+        "url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-atlanta-georgia-03-07-2027/event/0E006537FDE48FB6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_KLWyFXU",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T14:00:00Z"
+  }
+]

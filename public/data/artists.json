@@ -1157,5 +1157,75 @@
     "last_verified_at": "2026-09-27",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-09-27"
+  },
+  {
+    "slug": "fantasia",
+    "name": "Fantasia",
+    "short_description": "R&B act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-01",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-01"
+  },
+  {
+    "slug": "a-perfect-circle",
+    "name": "A Perfect Circle",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-01",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-01"
+  },
+  {
+    "slug": "chelsea-cutler",
+    "name": "Chelsea Cutler",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-01",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-01"
+  },
+  {
+    "slug": "the-red-clay-strays",
+    "name": "The Red Clay Strays",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-01",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-01"
+  },
+  {
+    "slug": "daughtry",
+    "name": "Daughtry",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-01",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-01"
   }
 ]

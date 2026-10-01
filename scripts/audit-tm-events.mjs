@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { includePastFromEnv, longPastEvent } from './lib/tm-sweep-window.mjs';
+import { includePastFromEnv, longPastEvent, pastRecheckDue, skipInSweep, PAST_RECHECK_DAYS } from './lib/tm-sweep-window.mjs';
 
 const DEFAULT_BASE = 'https://app.ticketmaster.com/discovery/v2';
 const EVENTS_DIR = new URL('../public/data/events/', import.meta.url);
@@ -211,7 +211,14 @@ function runSelfTest() {
     ['an upcoming event is still fetched', longPastEvent({ datetime_iso: '2026-08-01T20:00:00Z' }, Date.parse('2026-07-30T12:00:00Z')) === false],
     ['a held old event is still fetched', longPastEvent({ datetime_iso: '2026-07-01T20:00:00Z', ticketmaster_status_code: 'postponed' }, Date.parse('2026-07-30T12:00:00Z')) === false],
     ['an unparseable date is still fetched', longPastEvent({ datetime_iso: 'invalid' }, Date.parse('2026-07-30T12:00:00Z')) === false],
-    ['TM_SWEEP_INCLUDE_PAST=1 restores the full sweep', includePastFromEnv({ TM_SWEEP_INCLUDE_PAST: '1' }) === true && includePastFromEnv({}) === false]
+    ['TM_SWEEP_INCLUDE_PAST=1 restores the full sweep', includePastFromEnv({ TM_SWEEP_INCLUDE_PAST: '1' }) === true && includePastFromEnv({}) === false],
+    // A long-past event is never dropped: it is re-checked on exactly one day
+    // in every PAST_RECHECK_DAYS, so a late reschedule is still found.
+    ['a long-past event is re-checked once per rotation', Array.from({ length: PAST_RECHECK_DAYS }, (_, day) => Date.parse('2026-07-30T12:00:00Z') + day * 86400000)
+      .filter((now) => !skipInSweep({ id: 'tm-old', datetime_iso: '2026-07-01T20:00:00Z' }, now)).length === 1],
+    ['the re-check day is the rotation slot', Array.from({ length: PAST_RECHECK_DAYS }, (_, day) => Date.parse('2026-07-30T12:00:00Z') + day * 86400000)
+      .every((now) => skipInSweep({ id: 'tm-old', datetime_iso: '2026-07-01T20:00:00Z' }, now) === !pastRecheckDue({ id: 'tm-old' }, now))],
+    ['includePast never skips', skipInSweep({ id: 'tm-old', datetime_iso: '2026-07-01T20:00:00Z' }, Date.parse('2026-07-30T12:00:00Z'), { includePast: true }) === false]
   ];
   let failed = 0;
   for (const [label, pass] of checks) {
@@ -271,9 +278,9 @@ async function main() {
         });
         continue;
       }
-      // Long past and not held: no finding about it could be current, so it
-      // does not spend a call from the shared daily quota.
-      if (!includePast && longPastEvent(event, auditNow)) {
+      // Long past and not held: re-checked only on its rotation day, so it
+      // does not spend a call from the shared daily quota every day.
+      if (skipInSweep(event, auditNow, { includePast })) {
         skippedPast += 1;
         totalSkippedPast += 1;
         continue;
@@ -324,11 +331,11 @@ async function main() {
       changed,
       unresolvable
     });
-    console.log(`  ${slug}: ${withId.length - unresolvable.length - skippedPast} checked, ${missing.length} missing, ${changed.length} changed, ${errors.length} errors, ${unresolvable.length} unresolvable, ${skippedPast} skipped (long past)`);
+    console.log(`  ${slug}: ${withId.length - unresolvable.length - skippedPast} checked, ${missing.length} missing, ${changed.length} changed, ${errors.length} errors, ${unresolvable.length} unresolvable, ${skippedPast} skipped (long past, not due)`);
   }
   console.log(includePast
     ? 'TM_SWEEP_INCLUDE_PAST=1: long-past events were fetched too.'
-    : `Skipped ${totalSkippedPast} long-past event(s) with no stored Ticketmaster status (set TM_SWEEP_INCLUDE_PAST=1 for a full sweep).`);
+    : `Skipped ${totalSkippedPast} long-past event(s) not due their ${PAST_RECHECK_DAYS}-day re-check (set TM_SWEEP_INCLUDE_PAST=1 for a full sweep).`);
 
   const summary = {
     checked_at: new Date().toISOString(),

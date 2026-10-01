@@ -66,6 +66,8 @@ jobs:
       - name: Recover discovery ids + refresh existing events
         env:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          # Repository variable: "1" restores the full daily sweep (scripts/lib/tm-sweep-window.mjs).
+          TM_SWEEP_INCLUDE_PAST: ${{ vars.TM_SWEEP_INCLUDE_PAST }}
           DRY_RUN: ${{ inputs.dry_run }}
         run: |
           set -euo pipefail

@@ -278,11 +278,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7921650",
-        "url": "https://www.ticketnetwork.com/en/p/7921650",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7921650",
@@ -303,7 +303,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AvbZ_aGkM9wRr7",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921650",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921650/Olivia-Rodrigo-tickets-Wed-Sep-30-2026-PPG-Paints-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-pittsburgh-tickets-9-30-2026/event/107165388"
   },

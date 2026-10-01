@@ -2015,11 +2015,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8297135",
+        "url": "https://www.ticketnetwork.com/en/p/8297135",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1adbZ_K03JdZd5Av",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T09:00:00Z"
+    "public_onsale_at": "2026-10-02T09:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297135"
   }
 ]

@@ -8360,11 +8360,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7921650",
-        "url": "https://www.ticketnetwork.com/en/p/7921650",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7921650",
@@ -8385,7 +8385,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AvbZ_aGkM9wRr7",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921650",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921650/Olivia-Rodrigo-tickets-Wed-Sep-30-2026-PPG-Paints-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-pittsburgh-tickets-9-30-2026/event/107165388"
   },
@@ -17062,11 +17062,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7783960",
-        "url": "https://www.ticketnetwork.com/en/p/7783960",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7783960",
@@ -17087,7 +17087,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_A6pmG6f",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7783960",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7783960/Bruno-Mars-tickets-Wed-Sep-30-2026-SoFi-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-9-30-2026/event/107133085"
   },
@@ -45226,11 +45226,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7883095",
-        "url": "https://www.ticketnetwork.com/en/p/7883095",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7883095",
@@ -45250,7 +45250,7 @@
     "ticketmaster_discovery_event_id": "vv17fZ_FGkDx0-pN",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883095",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883095/Teddy-Swims-tickets-Wed-Sep-30-2026-Nationwide-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-columbus-tickets-9-30-2026/event/107163019"
   },
@@ -114220,12 +114220,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8297868",
+        "url": "https://www.ticketnetwork.com/en/p/8297868",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G62wjaNuR",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-manchester-o2-apollo-manchester-15-9-2027/event/107482766"
+    "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-manchester-o2-apollo-manchester-15-9-2027/event/107482766",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297868"
   },
   {
     "id": "tm-passenger-2027-london-1auzkf3gkd0sykm",
@@ -144166,11 +144174,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8297135",
+        "url": "https://www.ticketnetwork.com/en/p/8297135",
+        "verified": true,
+        "last_verified_at": "2026-10-01",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1adbZ_K03JdZd5Av",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T09:00:00Z"
+    "public_onsale_at": "2026-10-02T09:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297135"
   }
 ]

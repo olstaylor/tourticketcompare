@@ -251,7 +251,11 @@ before enabling; the reporting match is verified after a controlled deployment:
    the `click_id` this site wrote for that click (readable from the
    `analytics_events` row, or from the `report:affiliate-performance` output's
    `sub_id_attribution.matched_orders` once a matching action clears).
-5. If the SubId does not appear, set the flag back to `"false"` — nothing
+5. Allow the report's stated processing delay before treating an absent row
+   as a mismatch. The dashboard warns that clicks from the last three hours
+   may be absent. Use **Performance by Sub ID and Shared ID** for the relevant
+   provider; a Ticketmaster-specific report cannot verify a Vivid Seats click.
+6. If the SubId still does not appear after reporting catches up, set the flag back to `"false"` — nothing
    else depends on it — and stop; do not guess at a different parameter name
    without confirming it with Impact first.
 
@@ -330,14 +334,21 @@ passthrough in [PR #1243](https://github.com/olstaylor/tourticketcompare/pull/12
 
 A controlled Chrome redirect on 1 October reached the correct Vivid Seats
 event and produced one stored receipt with reconciliation eligibility set.
-Impact's report for that day initially had no rows and states that clicks in
-the last three hours may be absent. **Live reporting reconciliation remains
-pending:** after that delay, match the controlled receipt's ID to Impact's
-SubId1. Do not count the internal test as visitor intent or a purchase, and
-do not infer verified arrival from eligibility alone. If the ID remains
-absent after reporting catches up, follow the flag-off rollback above.
-Parameter support does not remove this verification or establish a human
-conversion-rate denominator.
+At **11:23 UTC (12:23 BST)**, the account-wide **Performance by Sub ID and
+Shared ID** report, filtered to 1 October and the exact stored click ID,
+displayed one Vivid Seats row with **1 raw click and 0 actions**. The SubId1
+matched the eligible TTC receipt. This verifies parameter preservation and
+network receipt for the controlled Vivid Seats base-link path, not every
+provider campaign. The unfiltered report showed **0 Clicks** for that ID;
+do not turn its raw-click receipt into a qualified visitor or conversion rate.
+
+The earlier no-row check used a Ticketmaster-specific report and cannot
+establish Vivid Seats compatibility. A separate diagnostic ID appeared in
+Impact but had no stored TTC receipt, so it is excluded from reconciliation.
+Both visits were internal tests with no purchase. No customer order join,
+client-intent identity or human conversion-rate denominator is established
+by this check. Other provider paths remain unverified; retain the flag-off
+rollback for a confirmed mismatch after reporting catches up.
 
 Supply the correct campaign IDs when running the report, especially SeatGeek
 and Vivid Seats (no defaults).

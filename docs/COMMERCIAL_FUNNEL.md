@@ -345,9 +345,23 @@ do not turn its raw-click receipt into a qualified visitor or conversion rate.
 The earlier no-row check used a Ticketmaster-specific report and cannot
 establish Vivid Seats compatibility. A separate diagnostic ID appeared in
 Impact but had no stored TTC receipt, so it is excluded from reconciliation.
-Both visits were internal tests with no purchase. No customer order join,
-client-intent identity or human conversion-rate denominator is established
-by this check. Other provider paths remain unverified; retain the flag-off
+Both visits were internal tests with no purchase.
+
+A separate controlled Chrome redirect at **14:54 UTC (15:54 BST)** reached
+the matching SeatGeek Olivia Rodrigo event at Capital One Arena in Washington
+for 3 October 2026. It produced exactly one stored eligible TTC receipt.
+At **15:36 UTC (16:36 BST)**, the same account-wide report, filtered to
+1 October, Program All and the exact stored SubId1, displayed exactly one
+SeatGeek row: **1 Raw Click, 1 Click and 0 Actions**. This verifies parameter
+preservation for the tested SeatGeek base-link path. The positive match arrived
+within the reporting-delay window, so no further absence check is needed for
+this test. Exclude this internal click from customer performance, regardless
+of Impact's Click classification. The visit opened the rendered CTA URL;
+it did not verify a measured client CTA activation or intent/receipt join.
+
+No customer order join, client-intent identity or human conversion-rate
+denominator is established by these checks. Remaining provider paths are
+unverified; retain the flag-off
 rollback for a confirmed mismatch after reporting catches up.
 
 Supply the correct campaign IDs when running the report, especially SeatGeek

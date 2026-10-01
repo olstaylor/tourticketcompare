@@ -476,7 +476,7 @@
       "description": "What a price shown for an Oasis Live '27 date means, why nights at the same stadium differ, and the face-value rules for UK and Irish resale.",
       "summary": "With no general sale for Oasis Live '27, almost every price you can see for these dates is a resale price. Here is what those figures are, why two nights at the same stadium can look nothing alike, and which rules let you check a listing against what the ticket originally cost.",
       "datePublished": "2026-09-25",
-      "dateModified": "2026-09-25",
+      "dateModified": "2026-10-01",
       "status": "published",
       "author": "TourTicketCompare",
       "tags": [
@@ -492,7 +492,7 @@
       "relatedArtists": [
         "oasis"
       ],
-      "wordCount": 669,
+      "wordCount": 812,
       "sections": [
         {
           "type": "intro",
@@ -500,8 +500,13 @@
         },
         {
           "type": "section",
+          "title": "Compare prices for the date you want",
+          "content": "[Choose your city and concert night on the Oasis date board](/artists/oasis), then open the checked ticket links for that exact show. Where a card shows current listed prices, use them to decide which listings to inspect first. Keep the date, ticket quantity and seated or standing area fixed when comparing providers; a lower starting price for a different night or ticket type is a different purchase. Confirm the final total and current availability on the provider before paying."
+        },
+        {
+          "type": "section",
           "title": "A price here is a resale snapshot, not the ticket's price",
-          "content": "Where an Oasis date on this site carries a figure, it comes from a resale provider: Vivid Seats, TicketNetwork or StubHub International, each only for a listing checked against that exact date. The figure is that one provider's listed price at the time printed beside it. It is not the face value, it is not what a code-holder paid, and it is not a checkout total, because fees and delivery are added on the provider's own site. The [guide to ticket fees](/guides/concert-ticket-fees-explained) covers what usually gets added.\n\nA date with no figure is not a date with no tickets. It means no provider had a checked, current figure for it when the page was built. StubHub International links open stubhub.ie, whichever country the show is in, and the [StubHub International guide](/guides/stubhub-international-explained) explains why.\n\nThis post deliberately gives no face-value price list. The official sale is where those prices are set, and a number copied from elsewhere would be one more figure to check rather than one you can rely on."
+          "content": "Where an Oasis date on this site carries a figure, it comes from a resale provider: Vivid Seats, TicketNetwork or StubHub International, each only for a listing checked against that exact date. The figure is that one provider's listed price at the time printed beside it. It is not the face value, it is not what a code-holder paid, and it does not establish the final total for the tickets you select.\n\nDo not assume mandatory fees will always be added later. In the US, the FTC's live-event ticket fee rule requires mandatory fees in the upfront total; government charges, shipping and optional add-ons may be shown separately before payment. Other countries have their own rules. Check what the actual listing includes, then compare the final amount for your quantity, currency and selected extras. The [guide to ticket fees](/guides/concert-ticket-fees-explained) provides the checkout checklist.\n\nA date with no figure is not a date with no tickets. It means no provider had a checked, current figure for it when the page was built. StubHub International links open stubhub.ie, whichever country the show is in, and the [StubHub International guide](/guides/stubhub-international-explained) explains why.\n\nThis post deliberately gives no face-value price list. The official sale is where those prices are set, and a number copied from elsewhere would be one more figure to check rather than one you can rely on."
         },
         {
           "type": "section",
@@ -520,6 +525,10 @@
         }
       ],
       "sources": [
+        {
+          "label": "Federal Trade Commission — live-event ticket fee rule FAQ",
+          "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions"
+        },
         {
           "label": "Oasis official site — Oasis Live '27 ticket information",
           "url": "https://oasisinet.com/"

@@ -4,6 +4,7 @@ seo_title: Oasis 2027 ticket prices explained
 description: What a price shown for an Oasis Live '27 date means, why nights at the same stadium differ, and the face-value rules for UK and Irish resale.
 summary: With no general sale for Oasis Live '27, almost every price you can see for these dates is a resale price. Here is what those figures are, why two nights at the same stadium can look nothing alike, and which rules let you check a listing against what the ticket originally cost.
 date: 2026-09-25
+updated: 2026-10-01
 status: published
 tags:
   - tour-buying
@@ -16,6 +17,8 @@ related_guides:
   - primary-vs-resale-concert-tickets
   - stubhub-international-explained
 sources:
+  - label: Federal Trade Commission — live-event ticket fee rule FAQ
+    url: https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions
   - label: Oasis official site — Oasis Live '27 ticket information
     url: https://oasisinet.com/
   - label: NBC News — Oasis announce 38-date tour in 2027
@@ -28,9 +31,15 @@ sources:
 
 Oasis Live '27 is sold through registration and unique codes, with no general sale, as [the post on the code-only sale](/blog/oasis-live-27-code-only-ticket-sale) explains. NBC News reported that promoters said standard ticket prices for the tour are fixed. Put those two facts together and the picture is simple: the official price is set once, for the fans holding codes, and any price you see moving is a resale price.
 
+## Compare prices for the date you want
+
+[Choose your city and concert night on the Oasis date board](/artists/oasis), then open the checked ticket links for that exact show. Where a card shows current listed prices, use them to decide which listings to inspect first. Keep the date, ticket quantity and seated or standing area fixed when comparing providers; a lower starting price for a different night or ticket type is a different purchase. Confirm the final total and current availability on the provider before paying.
+
 ## A price here is a resale snapshot, not the ticket's price
 
-Where an Oasis date on this site carries a figure, it comes from a resale provider: Vivid Seats, TicketNetwork or StubHub International, each only for a listing checked against that exact date. The figure is that one provider's listed price at the time printed beside it. It is not the face value, it is not what a code-holder paid, and it is not a checkout total, because fees and delivery are added on the provider's own site. The [guide to ticket fees](/guides/concert-ticket-fees-explained) covers what usually gets added.
+Where an Oasis date on this site carries a figure, it comes from a resale provider: Vivid Seats, TicketNetwork or StubHub International, each only for a listing checked against that exact date. The figure is that one provider's listed price at the time printed beside it. It is not the face value, it is not what a code-holder paid, and it does not establish the final total for the tickets you select.
+
+Do not assume mandatory fees will always be added later. In the US, the FTC's live-event ticket fee rule requires mandatory fees in the upfront total; government charges, shipping and optional add-ons may be shown separately before payment. Other countries have their own rules. Check what the actual listing includes, then compare the final amount for your quantity, currency and selected extras. The [guide to ticket fees](/guides/concert-ticket-fees-explained) provides the checkout checklist.
 
 A date with no figure is not a date with no tickets. It means no provider had a checked, current figure for it when the page was built. StubHub International links open stubhub.ie, whichever country the show is in, and the [StubHub International guide](/guides/stubhub-international-explained) explains why.
 

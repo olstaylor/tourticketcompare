@@ -82,6 +82,74 @@ automated request can still invoke the legitimate `/api/out` writer and create
 a genuine redirect receipt. Protecting event names prevents client injection
 of server events; it does not authenticate a human or make conversion rates safe.
 
+## Lizzy McAlpine price-guide measurement baseline
+
+Reviewed **2026-10-02**; compare again around **2026-10-30**, allowing about
+28 days after the PR deploys. Target URL:
+`/artists/lizzy-mcalpine/ticket-prices`. These are the owner's supplied query
+export figures, not public page copy or page-filtered performance. The export's
+date range, country/device/search-type filters and query-to-page mapping were
+not supplied; record them before comparing equivalent reporting windows.
+
+| Query | Clicks | Impressions | CTR | Average position |
+| --- | ---: | ---: | ---: | ---: |
+| lizzy mcalpine ticket prices | 5 | 511 | 1.0% | 9.3 |
+| lizzy mcalpine tour prices | 2 | 113 | 1.8% | 7.6 |
+| how much are lizzy mcalpine tickets | 2 | 606 | 0.3% | 9.6 |
+| lizzy mcalpine tour ticket prices | 1 | 94 | 1.06%* | 9.1 |
+| lizzy mcalpine concert ticket prices | 1 | 35 | 2.86%* | 9.1 |
+| Cluster total | 11 | 1,359 | 0.81%* | ~9.27* |
+
+\* Calculated from the supplied counts; cluster position is weighted by
+impressions using rounded query positions, so it is approximate.
+
+Before editing, at repository commit `bc1df812`, the target returned **404,
+noindex,follow**, with title “Page Not Found | TourTicketCompare”, description
+“This TourTicketCompare page is not published.” and no introductory answer.
+The artist route returned **200, index,follow**, canonical
+`https://tourticketcompare.com/artists/lizzy-mcalpine`, title “Lizzy McAlpine
+Tickets 2027 | Compare Prices & Tour Dates” and H1 “Lizzy McAlpine tickets and
+tour dates”. Oasis's existing guide returned **200, index,follow** with its
+own canonical. Baseline HTML was rendered before editing using the repository
+asset fixture; this is a local route audit, not a production observation.
+
+Lizzy qualified at 08:32 UTC: 24 upcoming dates in 24 cities, 21 publishable
+dates and 18 snapshot-ready dates, exceeding the existing 6-date / 2-city /
+3-snapshot-ready thresholds. Her auto-promoted artist also exceeded its
+3-upcoming-date gate. Snapshot readiness is verified event/provider provenance,
+not evidence that a fresh numeric cache row exists. Production D1 was not
+accessible in this workspace; its local cache and history were empty. No live
+numeric price, price-history or commercial-intent baseline is asserted.
+
+In a temporary source copy with only registry approval applied, the original
+template would have generated title “Lizzy McAlpine 2027 Ticket Prices: Resale
+& Tour Dates”, description “Lizzy McAlpine 2027 ticket prices: face value,
+each date's latest listed resale price and recent price moves.” and lead:
+“TourTicketCompare tracks 24 upcoming Lizzy McAlpine dates in 24 cities (Wed,
+Feb 3, 2027 to Sat, Jul 17, 2027). This page covers what those tickets cost:
+where face value is sold, the lowest listed resale price for each date, and
+how those prices have moved.” Its tables followed the at-a-glance and
+face-value sections. This hypothetical render distinguishes template changes
+from the actual pre-change 404.
+
+After deployment, confirm the guide's canonical, indexing eligibility and
+fresh provider coverage. Re-export these exact five queries with the same
+filters and equivalent date-window length, reviewing both the entire cluster
+and query × page results for this guide and the artist page. Compare
+impressions, position, clicks and CTR; do not attribute a query-only change
+to the new page without its page mapping. Keep the deployment date and
+Search Console indexing lag alongside the results.
+
+For outbound provider intent, use existing `provider_click` telemetry filtered
+to this guide's `source_path`, `artist_slug=lizzy-mcalpine`,
+`page_type=artist_price_guide` and `cta_location=price_guide`. Report
+`outbound_click` successes and `outbound_blocked` separately with the same
+dimensions; inspect artist-page `event_card` intent separately for visitors
+who followed “Compare this show”. Do not claim joined visitor conversion,
+provider arrival, orders or commission from these counts. Capture the first
+post-deployment 28-day window; the pre-publication guide has no comparable
+visitor baseline, and absence of access is unknown rather than zero.
+
 ## Dimensions recorded
 
 On the authoritative outbound row, everything below is derived server-side from

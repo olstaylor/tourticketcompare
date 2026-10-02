@@ -137,6 +137,7 @@ export const OG_CARDS = {
   "/artists/kenny-chesney/tickets/foxborough-united-states": {"url":"/og/artists-kenny-chesney-tickets-foxborough-united-states.png","alt":"Tickets: Kenny Chesney in Foxborough"},
   "/artists/latto": {"url":"/og/artists-latto.png","alt":"Tickets & tour dates: Latto"},
   "/artists/lizzy-mcalpine": {"url":"/og/artists-lizzy-mcalpine.png","alt":"Tickets & tour dates: Lizzy McAlpine"},
+  "/artists/lizzy-mcalpine/ticket-prices": {"url":"/og/artists-lizzy-mcalpine-ticket-prices.png","alt":"Ticket prices: Lizzy McAlpine"},
   "/artists/lukas-graham": {"url":"/og/artists-lukas-graham.png","alt":"Tickets & tour dates: Lukas Graham"},
   "/artists/luke-combs": {"url":"/og/artists-luke-combs.png","alt":"Tickets & tour dates: Luke Combs"},
   "/artists/malcolm-todd": {"url":"/og/artists-malcolm-todd.png","alt":"Tickets & tour dates: Malcolm Todd"},

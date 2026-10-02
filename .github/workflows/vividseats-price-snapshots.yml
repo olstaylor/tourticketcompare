@@ -35,8 +35,12 @@ on:
     paths:
       - '.github/workflows/vividseats-price-snapshots.yml'
       - 'scripts/snapshot-vividseats-prices.mjs'
+      - 'scripts/lib/price-timing-capture.mjs'
+      - 'functions/_price-timing.js'
   schedule:
     - cron: '47 * * * *'
+    # Additional pass only over shows inside 48h; full-roster cadence stays hourly.
+    - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
       apply:
@@ -90,6 +94,9 @@ jobs:
 
       - name: Run provider pricing history prune self-test
         run: npm run prices:history:prune:self-test
+
+      - name: Validate checkpoint capture and calculations
+        run: npm run test:price-timing
 
       - name: Check Impact and D1 configuration
         env:
@@ -151,6 +158,7 @@ jobs:
         run: |
           set -euo pipefail
           args=(--database "${D1_DATABASE_NAME}")
+          if [ "${{ github.event.schedule }}" = '17 * * * *' ]; then args+=(--within-hours 48); fi
           if [ -n "${SNAPSHOT_LIMIT}" ]; then args+=(--limit "${SNAPSHOT_LIMIT}"); fi
           if [ -n "${SNAPSHOT_EVENT_ID}" ]; then args+=(--event-id "${SNAPSHOT_EVENT_ID}"); fi
           node scripts/snapshot-vividseats-prices.mjs --apply --json "${args[@]}" | tee "$RUNNER_TEMP/vividseats-price-summary.json"

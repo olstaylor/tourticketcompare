@@ -14,8 +14,8 @@ All times UTC. What each lane may write, and the gated auto-merge contract every
 | `seatgeek-cta-sync.yml` | 05:00 + dispatch | High-confidence SeatGeek event-link enrichment + identity-anchored provenance verification; auto-merges after in-run validation. |
 | `vividseats-cta-sync.yml` | 05:30 + dispatch | Catalog-backed Vivid Seats event-link/provenance sync; auto-merges after in-run validation. |
 | `impact-marketplace-provider-sync.yml` | TicketNetwork 06:00, Ticket Liquidator 06:30, StubHub International 07:00 (serialized) | Unambiguous exact-event link PRs; scheduled runs auto-merge after in-run validation. Manual dispatch is preview-first; a manual apply opens a review-only PR. |
-| `impact-marketplace-price-snapshots.yml` | hourly + push to its own workflow/config/writer + dispatch | Exact-ID D1 snapshots for TicketNetwork + StubHub International, then a 90-day history prune. D1 only, never the repo. |
-| `vividseats-price-snapshots.yml` | hourly + push to its own workflow/writer + dispatch | Exact-event D1 snapshots + the same 90-day prune. D1 only. |
+| `impact-marketplace-price-snapshots.yml` | hourly full roster (:17), extra final-48h pass (:47) + push to workflow/config/writer/timing helpers + dispatch | Exact-ID D1 snapshots for TicketNetwork + StubHub International; durable timing capture; 90-day change-history prune. D1 only, never the repo. |
+| `vividseats-price-snapshots.yml` | hourly full roster (:47), extra final-48h pass (:17) + push to workflow/writer/timing helpers + dispatch | Exact-event D1 snapshots and durable timing capture; same change-history prune. D1 only. |
 | `price-freshness-check.yml` | hourly (:35) + dispatch | Read-only probe of the live `/api/shows` cache-only price lanes; fails when no expected provider lane is serving a fresh price. Watches the site, not the writers, so a snapshot cron that silently stops firing still surfaces. Writes nothing. |
 | `price-coverage-report.yml` | daily 09:15 + dispatch | Read-only probe of the live `/api/shows` price payload (`scripts/report-price-coverage.mjs`). Fails when under 90% of on-sale dates mapped on a price lane (Vivid Seats, TicketNetwork, StubHub International) show a price, or when over 25% of displayed prices are older than 12h, the partial regressions `price-freshness-check.yml` cannot see. Rewrites the rolling `automation:price-coverage` issue with the zero-price-source backlog by artist and country. Writes nothing else. |
 | `site-health.yml` | daily 09:40 + dispatch | Production crawl of every URL in the live sitemap index (status, redirects, noindex, canonical, title, H1, JSON-LD, duplicate titles, 5xx under parallel load), sitemap-segment agreement, `/api/health`, the price-coverage gates, and links to the open findings of the self-closing sensors (`automation:daily-audit`, `automation:health`, `automation:prelaunch-validation`) and work-queue items. Rewrites the rolling `automation:site-health` issue and closes it when clear. Never opens a PR. Runbook: `docs/ARTIST_INGESTION.md` → Keeping it healthy. |
@@ -148,13 +148,40 @@ GitHub's [current GITHUB_TOKEN documentation](https://docs.github.com/en/actions
 
 ### Price snapshot cadence
 
+The timing foundations add a second hourly tick **only for upcoming shows inside
+48 hours**, ordered by resolved UTC start before applying any event limit. Full
+roster runs retain their hourly cadence and 24-hour display expiry. The extra
+ticks use `--within-hours 48`; no eligible shows or a completed near-show lookup
+with no supplied price is a valid outcome. Provider failures and timing import
+failures still fail the collection job. This adds API requests only for the
+near-show cohort; the existing request deadlines, D1 contention retries and
+10-minute job budgets remain in place. Nominal half-hourly polling improves
+T-1h coverage but does not guarantee delivery: keep missing observations missing.
+
+Both writers now create migration `0012` tables within their separate check
+import. Price publication happens first; a failed check/timing import leaves
+those prices published but reports `timing_capture_status: failed` and a failing
+CLI exit. Successful imports report `imported`; this does not imply that every
+checkpoint has coverage. Existing cache, CTA and history display gates are
+unchanged. The durable checkpoint tables are never pruned by the change-history
+retention script. Detailed methodology and public-release limits are in
+[ARCHITECTURE → Internal historical price timing foundations](ARCHITECTURE.md#internal-historical-price-timing-foundations).
+
+Rollout: merge the reviewed changes, inspect each lane's push-triggered apply
+summary for `timing_capture_status: imported`, and verify table creation and
+capture near a checkpoint with the existing Cloudflare credentials. Collection
+starts then; no historical backfill is supported. To roll back extra polling,
+remove only the additional cron entries (marketplace `:47`, Vivid `:17`). To
+roll back capture, revert the timing additions to the writers; leave the D1
+tables intact so collected history survives. No public insight UI is enabled.
+
 Both numeric-price lanes (TicketNetwork/StubHub International via the shared Impact marketplace workflow, and Vivid Seats) run hourly with a 24-hour freshness constant (`DEFAULT_FRESHNESS_HOURS`) — the interval must stay strictly below the constant, since the display gate hides any row past `expires_at`. Each scheduled apply run ends with a 90-day retention prune of `provider_pricing_history`. Ticket Liquidator stays price-disabled (no numeric `CurrentPrice` in its feed); SeatGeek has no numeric pricing lane at all (permanent API limitation).
 
 **Size the constant against delivered runs, not the nominal cron.** On 2026-09-08 both lanes stopped being scheduled — the marketplace lane last ran 04:38Z, Vivid 05:16Z, and the following ticks never fired. GitHub drops scheduled ticks under load and never replays them, so both workflows still showed green from their last successful run while their rows aged out: every TicketNetwork and StubHub International price left the site at 10:38Z, with Vivid due to follow at 11:16Z. Measured gaps between *actual* Vivid runs over 2026-09-06..08 were 2.2h, 2.8h, 4.5h, 3.5h, 4.9h, 7.8h, 5.8h and 6.3h against a nominal 2h — two of them already past the then-current 6h constant, so this had been blanking prices intermittently for days. The hourly cron plus a 24h constant now absorbs a full day of missed ticks.
 
 **The constant is sized for graceful degradation, not merely to bridge the gap between runs (owner-directed 2026-09-08).** A window set just wide enough for the expected cadence means any scheduling failure that outlives it blanks every price on the site, which is what visitors actually saw that day. At 24h the same failure leaves the last known price on the card instead, so the outage degrades into slightly older prices rather than into no prices. That is only honest because the age is always visible: every price prints its capture time, and past `PRICE_STALE_AFTER_HOURS` (12h, defined identically in `functions/[[path]].js` and `public/app.js`) the card's disclosure note adds an explicit "last checked N hours ago". A snapshot is never presented as a live quote, so an older one is labelled rather than disguised. Listed prices drift ~2.3%/hour, so 24h is the point where that label is doing real work — widen it further and the label stops being enough.
 
-**Every completed lookup is also recorded** in D1 `provider_price_checks` (one row per event and lane, priced or not; `scripts/lib/price-checks.mjs`), in a separate execute after the price rows that can never fail the lane. The router reads it to date a card's "No listed price at our last check of …" note, and quotes a check only while it is under 36h old. The writers create the table themselves (`CREATE TABLE IF NOT EXISTS`), so there is no migration to apply by hand; a run summary's `checks_error` field reports a failed check write.
+**Every completed lookup is also recorded** in D1 `provider_price_checks` (one row per event and lane, priced or not; `scripts/lib/price-checks.mjs`), in a separate execute after the price rows alongside timing evidence; a failed import leaves prices published and fails the collection CLI. The router reads it to date a card's "No listed price at our last check of …" note, and quotes a check only while it is under 36h old. The writers create the table themselves (`CREATE TABLE IF NOT EXISTS`), so there is no migration to apply by hand; a run summary's `checks_error` field reports a failed check write.
 
 Because no writer failure is involved, nothing in the snapshot workflows can detect this: their freshness audit only runs when they run. `price-freshness-check.yml` covers that gap from outside, and a red run there means prices are already dark for visitors — re-run both snapshot workflows with `apply=true` to restore them immediately.
 

@@ -15,8 +15,15 @@ Numbered SQL files applied to the production D1 database `tourticketcompare-dema
 | `0009_impact_reconciliation_eligibility.sql` | Records whether TTC actually propagated the click ID into an Impact base-tracking URL; existing rows remain NULL and are not treated as reconcilable | **Applied 2026-08-26** — confirmed via a live `PRAGMA table_info(analytics_events)` read; the nullable integer column is present at column 29. |
 | `0010_provider_price_checks.sql` | `provider_price_checks`: when each price lane last looked for a listed price on an event, and whether it found one. Read by the router to date a card's "no listed price" note | **Self-applying.** Both snapshot writers prefix their check SQL with the same `CREATE TABLE IF NOT EXISTS`, so the first scheduled run after merge creates it. Added 2026-09-24. |
 | `0011_provider_price_history_source_index.sql` | Additive index for the existing recorded-price read path, matching its `event_id`, `provider`, `source` and `observed_at` predicates | **Pending application.** Apply once with `wrangler d1 execute` after merge, then confirm with `PRAGMA index_list(provider_pricing_history)`. Added 2026-10-01. |
+| `0012_event_price_timing.sql` | Retained event schedule revisions and compact provider checkpoint evidence for internal analysis | **Self-applying after merge.** Created by the snapshot writers' price-check imports; not applied to production during implementation. |
 
 Notes:
+
+- `0012_event_price_timing.sql` adds the internal event metadata/revision and
+  compact provider checkpoint tables. **Self-applying after merge:** price-check
+  imports create them idempotently; no production application was performed
+  during implementation. These tables are independent of 90-day history pruning.
+  See [ARCHITECTURE → Internal historical price timing foundations](../docs/ARCHITECTURE.md#internal-historical-price-timing-foundations).
 
 - `npm run demand:migrate` runs **only** `0001_demand.sql`. Later migrations were applied
   one-off with `wrangler d1 execute tourticketcompare-demand --remote --file migrations/<file>`,

@@ -36,7 +36,15 @@ import {
   priceGuideRegistered,
   priceGuideRouteDecision
 } from "./_price-guides.js";
-import { derivePriceMove, fetchEventPriceMoveSeries, PRICE_MOVE_WINDOW_DAYS } from "./_event-price-moves.js";
+import {
+  derivePriceMove,
+  fetchEventPriceMoveSeries,
+  PRICE_MOVE_WINDOW_DAYS,
+  deriveWeeklyPriceChange,
+  fetchEventWeeklyPriceSeries,
+  withinWeeklyChangeWindow,
+  WEEKLY_CHANGE_DAYS
+} from "./_event-price-moves.js";
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, resolveEventRoute } from "./_event-pages.js";
 import { EVENT_INDEXING_PILOT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
 import {
@@ -2783,6 +2791,17 @@ function priceMoveSentence(move) {
   return `${move.name} ${move.direction} ${delta}: ${from} when recorded ${fromDate}, now ${to}${changed ? ` since ${changed}` : ""}.`;
 }
 
+// One lane's 7-day change for a date close to show day, as a sentence, or "".
+// Shared by the artist-city price answer and the event page. A statement of
+// what this date's listed price did, never of what it will do.
+function weeklyChangeSentence(change) {
+  if (!change) return "";
+  const from = formatServerPrice(change.from, change.currency);
+  const to = formatServerPrice(change.to, change.currency);
+  if (!from || !to || !Number.isFinite(change.percent)) return "";
+  return `Lowest listed price on ${change.name} ${change.direction} ${change.percent}% over the last ${WEEKLY_CHANGE_DAYS} days: ${from} a week ago, ${to} at the latest check.`;
+}
+
 // The page-level answer to the question these pages are actually searched for.
 // One row per tracked date, each carrying that date's own lowest eligible
 // listed-price snapshot, the provider offering it, and when it was captured.
@@ -2803,7 +2822,7 @@ function priceMoveSentence(move) {
 // Indexability is not consulted. A single-date page is noindex because it adds
 // nothing an artist page cannot already rank for, which is a routing judgement,
 // not a reason to withhold the price from the visitor who is standing on it.
-function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId = new Map()) {
+function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId = new Map(), weeklyChangeByShowId = new Map()) {
   const rows = priceAnswer?.rows || [];
   if (!priceAnswer?.pricedRowCount || !rows.length) return "";
 
@@ -2838,9 +2857,12 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
         // "we have recorded it lower" and "this is the lowest we recorded".
         const lowText = priceLowLabel(priceLowByShowId.get(row.showId), row.lowest.price);
         const lowLine = lowText ? `<span class="price-answer-low muted">${escapeHtml(lowText)}</span>` : "";
+        // Close to show day only, and only for the lane on the button.
+        const weekText = weeklyChangeSentence(weeklyChangeByShowId.get(row.showId));
+        const weekLine = weekText ? `<span class="price-answer-low muted">${escapeHtml(weekText)}</span>` : "";
         priceCell = `${button}<span class="price-answer-asof muted">${escapeHtml(
           age ? `${asOf}, ${age}` : asOf
-        )}</span>${lowLine}`;
+        )}</span>${lowLine}${weekLine}`;
       } else if (row.checked) {
         // Checked and nothing eligible came back. Saying so is honest; saying it
         // about a row the server never queried would not be.
@@ -5736,6 +5758,15 @@ function renderEventPageBody(route, events, env) {
     const move = derivePriceMove(row.lowest, priceMoveSeries.get(`${row.showId}|${row.lowest.provider}`) || []);
     const moveText = move ? priceMoveSentence(move) : "";
     if (moveText) priceItems.push(`Latest recorded change: ${moveText}`);
+    // Close to show day, one line per site whose badge is showing, so a buyer
+    // deciding this week sees what each site's price did this week.
+    const priceWeekSeries = route.priceWeekSeries instanceof Map ? route.priceWeekSeries : new Map();
+    for (const lane of priceWeekSeries.size ? row.lanes : []) {
+      const weekText = weeklyChangeSentence(
+        deriveWeeklyPriceChange(lane, priceWeekSeries.get(`${row.showId}|${lane.provider}`) || [], { showStartsAt: row.datetimeISO })
+      );
+      if (weekText) priceItems.push(`This week: ${weekText}`);
+    }
   }
   const pricesHtml = priceItems.length
     ? `<section class="nested-panel" aria-labelledby="eventPricesTitle"><h2 id="eventPricesTitle">Recorded prices for this date</h2><ul>${priceItems
@@ -6083,7 +6114,20 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
         if (low) priceLowByShowId.set(row.showId, low);
       }
     }
-    const priceAnswerHtml = renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId);
+    // The 7-day change for the lane on each row's button, for dates close to
+    // show day. Same single gate: row.lowest is a lane passing it right now.
+    const priceWeekSeries = route.priceWeekSeries instanceof Map ? route.priceWeekSeries : new Map();
+    const weeklyChangeByShowId = new Map();
+    if (priceWeekSeries.size) {
+      for (const row of priceAnswer.rows) {
+        if (!row.lowest) continue;
+        const change = deriveWeeklyPriceChange(row.lowest, priceWeekSeries.get(`${row.showId}|${row.lowest.provider}`) || [], {
+          showStartsAt: row.datetimeISO
+        });
+        if (change) weeklyChangeByShowId.set(row.showId, change);
+      }
+    }
+    const priceAnswerHtml = renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId, weeklyChangeByShowId);
     // What the table states, the lead and the at-a-glance panel stop restating.
     // Both fall back to their full form when the table renders nothing, so a
     // page with no eligible price is unchanged in body copy as well as layout.
@@ -7031,6 +7075,7 @@ export async function onRequest(context) {
   timer.mark("data");
   let priceLowSeries = new Map();
   let priceMoveSeries = new Map();
+  let priceWeekSeries = new Map();
   let renderEvents = events;
   if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event") && events.length) {
     // Query prices for exactly the cards each route renders, not a fixed prefix
@@ -7087,6 +7132,14 @@ export async function onRequest(context) {
     const priceMovePromise = route.type === "price-guide" || route.type === "event"
       ? fetchEventPriceMoveSeries(env?.DEMAND_DB || env?.DB, candidateIds, APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
       : null;
+    // The 7-day change reads only dates close to show day, on the two surfaces
+    // that render it, so a board with nothing that close issues no extra read.
+    const weeklyIds = route.type === "artist-city" || route.type === "event"
+      ? priceCandidates.filter((show) => withinWeeklyChangeWindow(show?.dateTimeISO)).map((show) => String(show?.id || ""))
+      : [];
+    const priceWeekPromise = weeklyIds.length
+      ? fetchEventWeeklyPriceSeries(env?.DEMAND_DB || env?.DB, weeklyIds, APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
+      : null;
     const pricedShows = await attachApprovedMarketplacePrices(priceCandidates, env);
     const pricedById = new Map(pricedShows.map((show) => [String(show?.id || ""), show]));
     renderEvents = events.map((event) => {
@@ -7098,6 +7151,7 @@ export async function onRequest(context) {
     });
     if (priceLowPromise) priceLowSeries = await priceLowPromise;
     if (priceMovePromise) priceMoveSeries = await priceMovePromise;
+    if (priceWeekPromise) priceWeekSeries = await priceWeekPromise;
   }
   timer.mark("prices");
   const guideContent = route.type === "guide" ? await loadGuideContent(env) : {};
@@ -7122,6 +7176,7 @@ export async function onRequest(context) {
   // is passed through exactly as before.
   if (priceLowSeries.size) renderRoute = { ...renderRoute, priceLowSeries };
   if (priceMoveSeries.size) renderRoute = { ...renderRoute, priceMoveSeries };
+  if (priceWeekSeries.size) renderRoute = { ...renderRoute, priceWeekSeries };
   // The event-indexing pilot: an event page renders index,follow only as an
   // active pilot member, and a parent board identifies an active pilot
   // performance by that page's url and @id. Every other route, and every

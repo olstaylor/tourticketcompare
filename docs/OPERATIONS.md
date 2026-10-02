@@ -182,13 +182,18 @@ Backfill and steady-state are the same command; it is idempotent per UTC day. Dr
 ```bash
 npm run prices:rollup:daily -- --since 2026-06-01          # preview a full backfill
 npm run prices:rollup:daily -- --since 2026-06-01 --apply  # one-off backfill
-npm run prices:rollup:daily:apply                          # steady state: today + yesterday
+npm run prices:rollup:daily:apply                          # steady state: the last 7 days
 ```
 
-Two rules make a re-run safe and are the reason this can be run at any time, in any order:
+**Each day opens at the standing price.** History is change-only, so a price unchanged across midnight writes nothing on the new day. Each day is therefore seeded from the previous day's rollup row (its `low_price_last`), which makes first/min/max cover the whole day and gives an unchanged day a row of its own. A seed is not an observation: a row with `observations = 0` is a carried day, its `first_observed_at` predates the day, and it is written only while the event's known `event_date` is still ahead. Days run oldest first, so each seeds the next; a backfill must therefore start from the first day it means to rebuild.
 
-- A day is only replaced by a summary built from **at least as many observations**, so re-running over a window whose raw rows have since been pruned is a no-op rather than silent data loss.
-- A known `event_date` is never overwritten with NULL, so days that predate the writers carrying the column pick it up from any later row that has it.
+The rules that make a re-run safe and are the reason this can be run at any time:
+
+- A day is replaced only by a summary built from **more observations**, or from the same number with different aggregates (a seed added or corrected). A prune can only lower the count, so re-running over a window whose raw rows have since been pruned is a no-op rather than silent data loss, and re-running over an unchanged day writes nothing.
+- A known `event_date` is never overwritten with NULL, and a NULL one is filled when a later run knows it.
+- Steady-state runs re-check the last 7 days, so a day missed while the step was failing (it is `continue-on-error`) is recovered by the next healthy run. A partial failure exits non-zero even with `--json`, and the job summary names the failed days.
+
+**Legacy rows carry no event date.** History written before the writers saw the column is NULL there, and events.json drops an event's record after the show. `npm run prices:event-dates:backfill` (dry-run by default; `-- --apply` to write) copies `datetime_iso` from events.json onto every NULL `event_date` in both tables, and touches nothing else. Run it once, then re-run the rollup backfill so carried days can be written for those events.
 
 Rows below `MIN_PLAUSIBLE_LISTED_PRICE` are excluded, matching the public read path — the same floor `/api/price-history` applies on read, so the rollup never records an observation the site would refuse to display.
 

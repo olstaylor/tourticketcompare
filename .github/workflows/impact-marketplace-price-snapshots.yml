@@ -195,12 +195,12 @@ jobs:
           const rows = providers.split(/\s+/).filter(Boolean).map((provider) => {
             try {
               const s = JSON.parse(fs.readFileSync(path.join(dir, `pricing-rollup-${provider}.json`), "utf8"));
-              return `| ${provider} | ${s.days} | ${s.eligible_rollup_rows} | ${s.written} | ${s.zero_row_reason || "—"} |`;
+              return `| ${provider} | ${s.days} | ${s.eligible_rollup_rows} | ${s.written} | ${s.failed ? `**${s.failed}** (${s.days_failed.join(", ")})` : 0} | ${s.zero_row_reason || "—"} |`;
             } catch {
-              return `| ${provider} | — | — | **step failed** | rollup did not report; prices are unaffected |`;
+              return `| ${provider} | — | — | **step failed** | — | rollup did not report; prices are unaffected |`;
             }
           }).join("\n");
-          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Daily price rollup\n\n| Provider | Days | Eligible | Written | Zero-row reason |\n| --- | ---: | ---: | ---: | --- |\n${rows}\n`);
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `## Daily price rollup\n\n| Provider | Days | Eligible | Written | Failed days | Zero-row reason |\n| --- | ---: | ---: | ---: | ---: | --- |\n${rows}\n`);
           NODE
 
       # Bounded retention for the change-only history table. Scoped per

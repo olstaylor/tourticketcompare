@@ -247,11 +247,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7976477",
-        "url": "https://www.ticketnetwork.com/en/p/7976477",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7976477",
@@ -271,7 +271,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_1D_Hllv",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976477",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976477/Don-Omar-tickets-Thu-Oct-1-2026-American-Airlines-Center",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-dallas-tickets-10-1-2026/event/107198485"
   },

@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906844",
+        "url": "https://www.ticketnetwork.com/en/p/7906844",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70vjk",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906844"
   },
   {
     "id": "tm-the-red-clay-strays-2026-fort-worth-vvg1yz_f0exkqy",
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906845",
+        "url": "https://www.ticketnetwork.com/en/p/7906845",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_F0exkqy",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906845"
   },
   {
     "id": "tm-the-red-clay-strays-2026-fort-worth-vvg1yz_f0kf9e_",
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7948261",
+        "url": "https://www.ticketnetwork.com/en/p/7948261",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_F0kF9e_",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7948261"
   },
   {
     "id": "tm-the-red-clay-strays-2026-orlando-1aefz_fgkvf8_5e",
@@ -258,11 +282,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906846",
+        "url": "https://www.ticketnetwork.com/en/p/7906846",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_FGkVF8_5e",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906846"
   },
   {
     "id": "tm-the-red-clay-strays-2026-savannah-vvg1zz_fxgmnus",
@@ -311,11 +343,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906847",
+        "url": "https://www.ticketnetwork.com/en/p/7906847",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_FXgmnUS",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906847"
   },
   {
     "id": "tm-the-red-clay-strays-2026-charleston-g5evz_akknp14",
@@ -364,11 +404,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906849",
+        "url": "https://www.ticketnetwork.com/en/p/7906849",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_aKKNp14",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906849"
   },
   {
     "id": "tm-the-red-clay-strays-2026-greenville-g5evz_a5lvwt0",
@@ -417,11 +465,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906850",
+        "url": "https://www.ticketnetwork.com/en/p/7906850",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_a5LVWt0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906850"
   },
   {
     "id": "tm-the-red-clay-strays-2026-nashville-g5vizbum8x11w",
@@ -470,11 +526,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7566206",
+        "url": "https://www.ticketnetwork.com/en/p/7566206",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZbUm8X11w",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7566206"
   },
   {
     "id": "tm-the-red-clay-strays-2026-nashville-g5vizbubiwctj",
@@ -523,11 +587,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7599586",
+        "url": "https://www.ticketnetwork.com/en/p/7599586",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZbUBiwctj",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7599586"
   },
   {
     "id": "tm-the-red-clay-strays-2026-knoxville-g5viz_ae91dt_",
@@ -576,11 +648,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906851",
+        "url": "https://www.ticketnetwork.com/en/p/7906851",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_ae91DT_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906851"
   },
   {
     "id": "tm-the-red-clay-strays-2026-birmingham-1aozk38gkdpv4cc",
@@ -629,11 +709,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906852",
+        "url": "https://www.ticketnetwork.com/en/p/7906852",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk38GkdPv4cC",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906852"
   },
   {
     "id": "tm-the-red-clay-strays-2026-baton-rouge-z7r9jz1a70vj6",
@@ -735,11 +823,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906854",
+        "url": "https://www.ticketnetwork.com/en/p/7906854",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70vjF",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906854"
   },
   {
     "id": "tm-the-red-clay-strays-2026-jonesboro-g5viz_f5t3whv",
@@ -788,11 +884,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906855",
+        "url": "https://www.ticketnetwork.com/en/p/7906855",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_F5t3WHV",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906855"
   },
   {
     "id": "tm-the-red-clay-strays-2026-atlanta-vvg1zz_7rkxyy-",
@@ -841,11 +945,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748076",
+        "url": "https://www.ticketnetwork.com/en/p/7748076",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_7RKxyY-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748076"
   },
   {
     "id": "tm-the-red-clay-strays-2026-las-vegas-z7r9jz1a70pzp",
@@ -894,11 +1006,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7970241",
+        "url": "https://www.ticketnetwork.com/en/p/7970241",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70PZp",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7970241"
   },
   {
     "id": "tm-the-red-clay-strays-2027-raleigh-g5evz_kwmllt1",
@@ -947,12 +1067,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300893",
+        "url": "https://www.ticketnetwork.com/en/p/8300893",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KwMllT1",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300893"
   },
   {
     "id": "tm-the-red-clay-strays-2027-columbia-g5evz_ksmjps3",
@@ -1001,12 +1129,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300894",
+        "url": "https://www.ticketnetwork.com/en/p/8300894",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KSmjPs3",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300894"
   },
   {
     "id": "tm-the-red-clay-strays-2027-rosemont-vv178z_kgksozism",
@@ -1055,12 +1191,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300895",
+        "url": "https://www.ticketnetwork.com/en/p/8300895",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_KGkSOzisM",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300895"
   },
   {
     "id": "tm-the-red-clay-strays-2027-saint-louis-vv17bz_3gkxtmyfx",
@@ -1163,12 +1307,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300897",
+        "url": "https://www.ticketnetwork.com/en/p/8300897",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkS0gmZs",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300897"
   },
   {
     "id": "tm-the-red-clay-strays-2027-indianapolis-vv17fz_kgks5i1ir",
@@ -1217,12 +1369,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300898",
+        "url": "https://www.ticketnetwork.com/en/p/8300898",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_KGkS5i1ir",
     "timezone": "America/Indiana/Indianapolis",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300898"
   },
   {
     "id": "tm-the-red-clay-strays-2027-charleston-1avbz_kgkb6hkqy",
@@ -1271,12 +1431,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300899",
+        "url": "https://www.ticketnetwork.com/en/p/8300899",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_KGkB6HKqY",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300899"
   },
   {
     "id": "tm-the-red-clay-strays-2027-estero-vvg1vz_ks60_np",
@@ -1325,12 +1493,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300900",
+        "url": "https://www.ticketnetwork.com/en/p/8300900",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_KS60_nP",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300900"
   },
   {
     "id": "tm-the-red-clay-strays-2027-saskatoon-1av7z_kgkwfc4o1",
@@ -1379,12 +1555,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300890",
+        "url": "https://www.ticketnetwork.com/en/p/8300890",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkwfC4o1",
     "timezone": "America/Swift_Current",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T16:00:00Z"
+    "public_onsale_at": "2026-10-09T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300890"
   },
   {
     "id": "tm-the-red-clay-strays-2027-edmonton-1av7z_kgksqo5v0",
@@ -1433,12 +1617,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300891",
+        "url": "https://www.ticketnetwork.com/en/p/8300891",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkSQO5V0",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T16:00:00Z"
+    "public_onsale_at": "2026-10-09T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300891"
   },
   {
     "id": "tm-the-red-clay-strays-2027-winnipeg-1av7z_kgkgyzwh1",
@@ -1487,12 +1679,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300892",
+        "url": "https://www.ticketnetwork.com/en/p/8300892",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkgyZwH1",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300892"
   },
   {
     "id": "tm-the-red-clay-strays-2027-uncasville-g5vvz_koktqjf",
@@ -1541,12 +1741,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300901",
+        "url": "https://www.ticketnetwork.com/en/p/8300901",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_KOkTQJF",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300901"
   },
   {
     "id": "tm-the-red-clay-strays-2027-allentown-1adzz_kgkmg3bkj",
@@ -1595,12 +1803,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300902",
+        "url": "https://www.ticketnetwork.com/en/p/8300902",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_KGkMG3Bkj",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300902"
   },
   {
     "id": "tm-the-red-clay-strays-2027-mobile-g5viz_k1kuycs",
@@ -1649,11 +1865,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8285231",
+        "url": "https://www.ticketnetwork.com/en/p/8285231",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_K1KUycs",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8285231"
   },
   {
     "id": "tm-the-red-clay-strays-2027-mobile-g5viz_3tpkkro",
@@ -1702,11 +1926,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277070",
+        "url": "https://www.ticketnetwork.com/en/p/8277070",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3TPkkro",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277070"
   },
   {
     "id": "tm-the-red-clay-strays-2027-mobile-g5viz_k14dqes",
@@ -1755,11 +1987,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8282109",
+        "url": "https://www.ticketnetwork.com/en/p/8282109",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_K14DQeS",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8282109"
   },
   {
     "id": "tm-the-red-clay-strays-2027-bangor-vv1f7z_kqaonzdc55",
@@ -1808,12 +2048,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300903",
+        "url": "https://www.ticketnetwork.com/en/p/8300903",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1F7Z_KqaONZdC55",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300903"
   },
   {
     "id": "tm-the-red-clay-strays-2027-gilford-vv177z_kgklli63o",
@@ -1916,12 +2164,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300905",
+        "url": "https://www.ticketnetwork.com/en/p/8300905",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KSrxvbm",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300905"
   },
   {
     "id": "tm-the-red-clay-strays-2027-clarkston-vv17oz_kgkvl-rxl",
@@ -1970,12 +2226,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300906",
+        "url": "https://www.ticketnetwork.com/en/p/8300906",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkVl-Rxl",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300906"
   },
   {
     "id": "tm-the-red-clay-strays-2027-berkeley-g5vyz_kir6nxo",
@@ -2024,12 +2288,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300907",
+        "url": "https://www.ticketnetwork.com/en/p/8300907",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_Kir6nxO",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300907"
   },
   {
     "id": "tm-the-red-clay-strays-2027-bend-vvg1hz_kwvob2j",
@@ -2078,12 +2350,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300908",
+        "url": "https://www.ticketnetwork.com/en/p/8300908",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KwVoB2j",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300908"
   },
   {
     "id": "tm-the-red-clay-strays-2027-boise-g5vzz_kjqef3d",
@@ -2132,12 +2412,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300909",
+        "url": "https://www.ticketnetwork.com/en/p/8300909",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KJqEF3d",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T16:00:00Z"
+    "public_onsale_at": "2026-10-09T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300909"
   },
   {
     "id": "tm-the-red-clay-strays-2027-rogers-g5viz_kuooawu",
@@ -2186,12 +2474,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300910",
+        "url": "https://www.ticketnetwork.com/en/p/8300910",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KUooaWU",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300910"
   },
   {
     "id": "tm-the-red-clay-strays-2027-corpus-christi-g5diz_ksvr9iw",
@@ -2240,12 +2536,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300911",
+        "url": "https://www.ticketnetwork.com/en/p/8300911",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KSVr9iW",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300911"
   },
   {
     "id": "tm-the-red-clay-strays-2027-austin-g5diz_kmbauv1",
@@ -2294,11 +2598,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300912",
+        "url": "https://www.ticketnetwork.com/en/p/8300912",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KMBAUV1",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300912"
   }
 ]

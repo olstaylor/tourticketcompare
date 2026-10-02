@@ -125,11 +125,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7874826",
-        "url": "https://www.ticketnetwork.com/en/p/7874826",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107158168",
@@ -149,7 +149,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_FECi1Ir",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874826",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-seattle-tickets-10-1-2026/event/107158168",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874826/sombr-tickets-Thu-Oct-1-2026-Climate-Pledge-Arena"
   },

@@ -34546,11 +34546,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7457598",
-        "url": "https://www.ticketnetwork.com/en/p/7457598",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107202112",
@@ -34570,7 +34570,7 @@
     "ticketmaster_discovery_event_id": "vv17OZbSGkI0b7TI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457598",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-detroit-tickets-10-1-2026/event/107202112",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457598/Doja-Cat-tickets-Thu-Oct-1-2026-Little-Caesars-Arena"
   },
@@ -36829,11 +36829,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7874826",
-        "url": "https://www.ticketnetwork.com/en/p/7874826",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107158168",
@@ -36853,7 +36853,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_FECi1Ir",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874826",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-seattle-tickets-10-1-2026/event/107158168",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874826/sombr-tickets-Thu-Oct-1-2026-Climate-Pledge-Arena"
   },
@@ -50804,11 +50804,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7976477",
-        "url": "https://www.ticketnetwork.com/en/p/7976477",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7976477",
@@ -50828,7 +50828,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_1D_Hllv",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976477",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976477/Don-Omar-tickets-Thu-Oct-1-2026-American-Airlines-Center",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-dallas-tickets-10-1-2026/event/107198485"
   },
@@ -82488,18 +82488,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8042834",
-        "url": "https://www.ticketnetwork.com/en/p/8042834",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pf-Y",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042834/Sylvan-Esso-tickets-Thu-Oct-1-2026-The-Eastern-GA",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042834"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-sylvan-esso-2026-washington-17a8v0g6g2lzmgt",
@@ -119109,11 +119109,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034376",
-        "url": "https://www.ticketnetwork.com/en/p/8034376",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8034376",
@@ -119126,7 +119126,7 @@
     "ticketmaster_discovery_event_id": "vvG1OZ_G99eDO3",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034376",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034376/Malcolm-Todd-tickets-Thu-Oct-1-2026-Fox-Theatre-Detroit"
   },
   {
@@ -144276,12 +144276,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293963",
+        "url": "https://www.ticketnetwork.com/en/p/8293963",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kA8vPuOGAuB0mR",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293963"
   },
   {
     "id": "tm-fantasia-2027-norfolk-vv1avzkfmgkdn5kye",
@@ -144330,12 +144338,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293964",
+        "url": "https://www.ticketnetwork.com/en/p/8293964",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfMGkdn5kyE",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293964"
   },
   {
     "id": "tm-fantasia-2027-belmont-park-1ayzkfugkdwafjv",
@@ -144438,12 +144454,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293966",
+        "url": "https://www.ticketnetwork.com/en/p/8293966",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfMGkegJGo6",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293966"
   },
   {
     "id": "tm-fantasia-2027-new-orleans-g5viz_k6css2k",
@@ -144492,12 +144516,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293967",
+        "url": "https://www.ticketnetwork.com/en/p/8293967",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_K6CsS2K",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293967"
   },
   {
     "id": "tm-fantasia-2027-biloxi-g5viz_kxokyjj",
@@ -144546,12 +144578,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293969",
+        "url": "https://www.ticketnetwork.com/en/p/8293969",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KxokyJj",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293969"
   },
   {
     "id": "tm-fantasia-2027-ontario-vv1aazkfzgketkqbz",
@@ -144600,12 +144640,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294732",
+        "url": "https://www.ticketnetwork.com/en/p/8294732",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkfzGkeTkqbZ",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294732"
   },
   {
     "id": "tm-fantasia-2027-oakland-g5vyz_krz5jaf",
@@ -144654,12 +144702,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294733",
+        "url": "https://www.ticketnetwork.com/en/p/8294733",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_Krz5JAF",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294733"
   },
   {
     "id": "tm-fantasia-2027-fort-worth-vvg1yz_kbtlwh3",
@@ -144708,12 +144764,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293970",
+        "url": "https://www.ticketnetwork.com/en/p/8293970",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KbTLWH3",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293970"
   },
   {
     "id": "tm-fantasia-2027-atlanta-vvg1zz_kqs5ty6",
@@ -144762,12 +144826,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293971",
+        "url": "https://www.ticketnetwork.com/en/p/8293971",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KQs5tY6",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293971"
   },
   {
     "id": "tm-fantasia-2027-orlando-1aefz_3gkx--7oo",
@@ -144816,12 +144888,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293972",
+        "url": "https://www.ticketnetwork.com/en/p/8293972",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_3GkX--7Oo",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293972"
   },
   {
     "id": "tm-fantasia-2027-saint-louis-vv17bz_3gktv8xq0",
@@ -144924,12 +145004,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293975",
+        "url": "https://www.ticketnetwork.com/en/p/8293975",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_Krb7nuQ",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293975"
   },
   {
     "id": "tm-fantasia-2027-jacksonville-1axzkfwgkeynp6z",
@@ -144978,12 +145066,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293976",
+        "url": "https://www.ticketnetwork.com/en/p/8293976",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfwGkeyNP6z",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293976"
   },
   {
     "id": "tm-fantasia-2027-hollywood-vvg1vz_k9lsilt",
@@ -145032,12 +145128,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293977",
+        "url": "https://www.ticketnetwork.com/en/p/8293977",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_K9lSiLT",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293977"
   },
   {
     "id": "tm-fantasia-2027-phoenix-1a_zkfmgke0qgen",
@@ -145086,12 +145190,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294734",
+        "url": "https://www.ticketnetwork.com/en/p/8294734",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfMGke0QgeN",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294734"
   },
   {
     "id": "tm-fantasia-2027-charlotte-g5evz_k5a0ajy",
@@ -145140,12 +145252,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293978",
+        "url": "https://www.ticketnetwork.com/en/p/8293978",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_K5A0aJy",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293978"
   },
   {
     "id": "tm-fantasia-2027-raleigh-g5evz_kx4nbzb",
@@ -145194,12 +145314,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293979",
+        "url": "https://www.ticketnetwork.com/en/p/8293979",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kx4nbzB",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293979"
   },
   {
     "id": "tm-fantasia-2027-chicago-vv1a7zkfugkdbhxkp",
@@ -145248,12 +145376,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293980",
+        "url": "https://www.ticketnetwork.com/en/p/8293980",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfUGkdBhXkp",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293980"
   },
   {
     "id": "tm-fantasia-2027-detroit-vv1afzkfsgkdkxfme",
@@ -145302,12 +145438,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293981",
+        "url": "https://www.ticketnetwork.com/en/p/8293981",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfSGkdkXFme",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293981"
   },
   {
     "id": "tm-fantasia-2027-providence-vv1avzkfygkdtqjz9",
@@ -145356,12 +145500,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293982",
+        "url": "https://www.ticketnetwork.com/en/p/8293982",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfYGkdtQJZ9",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293982"
   },
   {
     "id": "tm-fantasia-2027-newark-vv1aezkfugke-q6sn",
@@ -145410,12 +145562,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293983",
+        "url": "https://www.ticketnetwork.com/en/p/8293983",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfUGke-q6sN",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293983"
   },
   {
     "id": "tm-a-perfect-circle-2026-adelaide-1aefz_kgkrmdjgo",
@@ -145623,12 +145783,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295085",
+        "url": "https://www.ticketnetwork.com/en/p/8295085",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPCbGAu8AWZ",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295085"
   },
   {
     "id": "tm-a-perfect-circle-2027-calgary-1av7z_kgkn55gda",
@@ -145677,12 +145845,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295086",
+        "url": "https://www.ticketnetwork.com/en/p/8295086",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkn55gda",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T16:00:00Z"
+    "public_onsale_at": "2026-10-02T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295086"
   },
   {
     "id": "tm-a-perfect-circle-2027-edmonton-1aozkfygkey3iuu",
@@ -145731,12 +145907,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295087",
+        "url": "https://www.ticketnetwork.com/en/p/8295087",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfyGkey3iUU",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T16:00:00Z"
+    "public_onsale_at": "2026-10-02T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295087"
   },
   {
     "id": "tm-a-perfect-circle-2027-winnipeg-16v7z_kjkg7bgkj",
@@ -145785,12 +145969,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295088",
+        "url": "https://www.ticketnetwork.com/en/p/8295088",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v7Z_KJkG7BgKJ",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295088"
   },
   {
     "id": "tm-a-perfect-circle-2027-niagara-falls-1a8zkfmgkemh_mw",
@@ -145947,12 +146139,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295063",
+        "url": "https://www.ticketnetwork.com/en/p/8295063",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16FZkfMA3ZAC8uka",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295063"
   },
   {
     "id": "tm-a-perfect-circle-2027-boston-vv1k7z_kr_g7rccc",
@@ -146001,12 +146201,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295064",
+        "url": "https://www.ticketnetwork.com/en/p/8295064",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_Kr_G7Rccc",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295064"
   },
   {
     "id": "tm-a-perfect-circle-2027-uncasville-g5vvz_khq_fxg",
@@ -146055,12 +146263,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295065",
+        "url": "https://www.ticketnetwork.com/en/p/8295065",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_KhQ_FXg",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295065"
   },
   {
     "id": "tm-a-perfect-circle-2027-camden-vv1aezkfzgkdun44v",
@@ -146109,12 +146325,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295066",
+        "url": "https://www.ticketnetwork.com/en/p/8295066",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfzGkduN44V",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295066"
   },
   {
     "id": "tm-a-perfect-circle-2027-newark-vv1aezkfzgkecfwzd",
@@ -146163,12 +146387,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295067",
+        "url": "https://www.ticketnetwork.com/en/p/8295067",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfzGkecfWzD",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295067"
   },
   {
     "id": "tm-a-perfect-circle-2027-charlotte-g5evz_kj8b4gy",
@@ -146217,12 +146449,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295068",
+        "url": "https://www.ticketnetwork.com/en/p/8295068",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kj8b4gY",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295068"
   },
   {
     "id": "tm-a-perfect-circle-2027-duluth-vvg1zz_kxwhwhz",
@@ -146271,12 +146511,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295069",
+        "url": "https://www.ticketnetwork.com/en/p/8295069",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KxWhwHz",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295069"
   },
   {
     "id": "tm-a-perfect-circle-2027-the-woodlands-g5diz_kjdvhi6",
@@ -146379,12 +146627,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295071",
+        "url": "https://www.ticketnetwork.com/en/p/8295071",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KNjkaLN",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295071"
   },
   {
     "id": "tm-a-perfect-circle-2027-saint-louis-vv1akzkfugkdepcmi",
@@ -146487,12 +146743,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295073",
+        "url": "https://www.ticketnetwork.com/en/p/8295073",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfzGkeUTDUJ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295073"
   },
   {
     "id": "tm-a-perfect-circle-2027-chicago-vv1kjz_kf7g7lms3",
@@ -146541,12 +146805,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295074",
+        "url": "https://www.ticketnetwork.com/en/p/8295074",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kjZ_Kf7G7lMS3",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295074"
   },
   {
     "id": "tm-a-perfect-circle-2027-shakopee-1a-zkfygkehcamo",
@@ -146703,12 +146975,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295077",
+        "url": "https://www.ticketnetwork.com/en/p/8295077",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KfmPpZS",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295077"
   },
   {
     "id": "tm-a-perfect-circle-2027-portland-vvg1hz_kbfgxyu",
@@ -146757,12 +147037,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295078",
+        "url": "https://www.ticketnetwork.com/en/p/8295078",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KbFGxYU",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295078"
   },
   {
     "id": "tm-a-perfect-circle-2027-reno-1a9zkfygkembtoj",
@@ -146865,12 +147153,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295079",
+        "url": "https://www.ticketnetwork.com/en/p/8295079",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KwFsETp",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295079"
   },
   {
     "id": "tm-a-perfect-circle-2027-hollywood-vvg1iz_kj6yzfl",
@@ -146919,12 +147215,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295081",
+        "url": "https://www.ticketnetwork.com/en/p/8295081",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_Kj6Yzfl",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295081"
   },
   {
     "id": "tm-a-perfect-circle-2027-chula-vista-vvg1iz_kl8jvkq",
@@ -146973,12 +147277,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295080",
+        "url": "https://www.ticketnetwork.com/en/p/8295080",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_KL8JvKq",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295080"
   },
   {
     "id": "tm-a-perfect-circle-2027-las-vegas-1a9zkfmgkd8myho",
@@ -147027,12 +147339,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295083",
+        "url": "https://www.ticketnetwork.com/en/p/8295083",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkfMGkd8MYHo",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295083"
   },
   {
     "id": "tm-a-perfect-circle-2027-las-vegas-1a9zkfmgkd8y8h4",
@@ -147081,12 +147401,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295084",
+        "url": "https://www.ticketnetwork.com/en/p/8295084",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkfMGkd8y8H4",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295084"
   },
   {
     "id": "tm-a-perfect-circle-2027-phoenix-1a_zkfsgkd23t56",
@@ -147135,12 +147463,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295082",
+        "url": "https://www.ticketnetwork.com/en/p/8295082",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfsGkd23t56",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295082"
   },
   {
     "id": "tm-chelsea-cutler-2027-charleston-g5evz_kbudulq",
@@ -147243,12 +147579,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301000",
+        "url": "https://www.ticketnetwork.com/en/p/8301000",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KUKXEzh",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301000"
   },
   {
     "id": "tm-chelsea-cutler-2027-washington-164zkfuqdzacd655",
@@ -147297,12 +147641,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301001",
+        "url": "https://www.ticketnetwork.com/en/p/8301001",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "164ZkfUqdZACd655",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301001"
   },
   {
     "id": "tm-chelsea-cutler-2027-washington-1avfz_kgkw7gvak",
@@ -147351,12 +147703,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301002",
+        "url": "https://www.ticketnetwork.com/en/p/8301002",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_KGkw7gVaK",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301002"
   },
   {
     "id": "tm-chelsea-cutler-2027-philadelphia-vv1aovpuygauryej",
@@ -147405,12 +147765,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301003",
+        "url": "https://www.ticketnetwork.com/en/p/8301003",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AOvPuyGAuryeJ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301003"
   },
   {
     "id": "tm-chelsea-cutler-2027-brooklyn-k7vgf_kze_vgc",
@@ -147459,12 +147827,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301004",
+        "url": "https://www.ticketnetwork.com/en/p/8301004",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_Kze_VGC",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301004"
   },
   {
     "id": "tm-chelsea-cutler-2027-toronto-1avzz_kgkstt7dw",
@@ -147675,12 +148051,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301007",
+        "url": "https://www.ticketnetwork.com/en/p/8301007",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkSWYs5j",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301007"
   },
   {
     "id": "tm-chelsea-cutler-2027-dallas-vvg1yz_kraozwg",
@@ -147729,12 +148113,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301008",
+        "url": "https://www.ticketnetwork.com/en/p/8301008",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KRAozwg",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301008"
   },
   {
     "id": "tm-chelsea-cutler-2027-phoenix-16v0z_koag7ux58",
@@ -147783,12 +148175,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301009",
+        "url": "https://www.ticketnetwork.com/en/p/8301009",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v0Z_KOAG7UX58",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301009"
   },
   {
     "id": "tm-chelsea-cutler-2027-los-angeles-vv1aazkfzgkdgncya",
@@ -147837,12 +148237,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301010",
+        "url": "https://www.ticketnetwork.com/en/p/8301010",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkfzGkdGNCya",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301010"
   },
   {
     "id": "tm-chelsea-cutler-2027-san-diego-vvg1iz_ks1c6a3",
@@ -147891,12 +148299,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301011",
+        "url": "https://www.ticketnetwork.com/en/p/8301011",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_KS1c6A3",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301011"
   },
   {
     "id": "tm-chelsea-cutler-2027-boise-g5vzz_ksxzvbs",
@@ -148052,11 +148468,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906844",
+        "url": "https://www.ticketnetwork.com/en/p/7906844",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70vjk",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906844"
   },
   {
     "id": "tm-the-red-clay-strays-2026-fort-worth-vvg1yz_f0exkqy",
@@ -148105,11 +148529,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906845",
+        "url": "https://www.ticketnetwork.com/en/p/7906845",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_F0exkqy",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906845"
   },
   {
     "id": "tm-the-red-clay-strays-2026-fort-worth-vvg1yz_f0kf9e_",
@@ -148158,11 +148590,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7948261",
+        "url": "https://www.ticketnetwork.com/en/p/7948261",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_F0kF9e_",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7948261"
   },
   {
     "id": "tm-the-red-clay-strays-2026-orlando-1aefz_fgkvf8_5e",
@@ -148211,11 +148651,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906846",
+        "url": "https://www.ticketnetwork.com/en/p/7906846",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_FGkVF8_5e",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906846"
   },
   {
     "id": "tm-the-red-clay-strays-2026-savannah-vvg1zz_fxgmnus",
@@ -148264,11 +148712,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906847",
+        "url": "https://www.ticketnetwork.com/en/p/7906847",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_FXgmnUS",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906847"
   },
   {
     "id": "tm-the-red-clay-strays-2026-charleston-g5evz_akknp14",
@@ -148317,11 +148773,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906849",
+        "url": "https://www.ticketnetwork.com/en/p/7906849",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_aKKNp14",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906849"
   },
   {
     "id": "tm-the-red-clay-strays-2026-greenville-g5evz_a5lvwt0",
@@ -148370,11 +148834,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906850",
+        "url": "https://www.ticketnetwork.com/en/p/7906850",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_a5LVWt0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906850"
   },
   {
     "id": "tm-the-red-clay-strays-2026-nashville-g5vizbum8x11w",
@@ -148423,11 +148895,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7566206",
+        "url": "https://www.ticketnetwork.com/en/p/7566206",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZbUm8X11w",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7566206"
   },
   {
     "id": "tm-the-red-clay-strays-2026-nashville-g5vizbubiwctj",
@@ -148476,11 +148956,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7599586",
+        "url": "https://www.ticketnetwork.com/en/p/7599586",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZbUBiwctj",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7599586"
   },
   {
     "id": "tm-the-red-clay-strays-2026-knoxville-g5viz_ae91dt_",
@@ -148529,11 +149017,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906851",
+        "url": "https://www.ticketnetwork.com/en/p/7906851",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_ae91DT_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906851"
   },
   {
     "id": "tm-the-red-clay-strays-2026-birmingham-1aozk38gkdpv4cc",
@@ -148582,11 +149078,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906852",
+        "url": "https://www.ticketnetwork.com/en/p/7906852",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk38GkdPv4cC",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906852"
   },
   {
     "id": "tm-the-red-clay-strays-2026-baton-rouge-z7r9jz1a70vj6",
@@ -148688,11 +149192,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906854",
+        "url": "https://www.ticketnetwork.com/en/p/7906854",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70vjF",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906854"
   },
   {
     "id": "tm-the-red-clay-strays-2026-jonesboro-g5viz_f5t3whv",
@@ -148741,11 +149253,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7906855",
+        "url": "https://www.ticketnetwork.com/en/p/7906855",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_F5t3WHV",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906855"
   },
   {
     "id": "tm-the-red-clay-strays-2026-atlanta-vvg1zz_7rkxyy-",
@@ -148794,11 +149314,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748076",
+        "url": "https://www.ticketnetwork.com/en/p/7748076",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_7RKxyY-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748076"
   },
   {
     "id": "tm-the-red-clay-strays-2026-las-vegas-z7r9jz1a70pzp",
@@ -148847,11 +149375,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7970241",
+        "url": "https://www.ticketnetwork.com/en/p/7970241",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70PZp",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7970241"
   },
   {
     "id": "tm-the-red-clay-strays-2027-raleigh-g5evz_kwmllt1",
@@ -148900,12 +149436,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300893",
+        "url": "https://www.ticketnetwork.com/en/p/8300893",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KwMllT1",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300893"
   },
   {
     "id": "tm-the-red-clay-strays-2027-columbia-g5evz_ksmjps3",
@@ -148954,12 +149498,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300894",
+        "url": "https://www.ticketnetwork.com/en/p/8300894",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KSmjPs3",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300894"
   },
   {
     "id": "tm-the-red-clay-strays-2027-rosemont-vv178z_kgksozism",
@@ -149008,12 +149560,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300895",
+        "url": "https://www.ticketnetwork.com/en/p/8300895",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_KGkSOzisM",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300895"
   },
   {
     "id": "tm-the-red-clay-strays-2027-saint-louis-vv17bz_3gkxtmyfx",
@@ -149116,12 +149676,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300897",
+        "url": "https://www.ticketnetwork.com/en/p/8300897",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkS0gmZs",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300897"
   },
   {
     "id": "tm-the-red-clay-strays-2027-indianapolis-vv17fz_kgks5i1ir",
@@ -149170,12 +149738,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300898",
+        "url": "https://www.ticketnetwork.com/en/p/8300898",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_KGkS5i1ir",
     "timezone": "America/Indiana/Indianapolis",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300898"
   },
   {
     "id": "tm-the-red-clay-strays-2027-charleston-1avbz_kgkb6hkqy",
@@ -149224,12 +149800,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300899",
+        "url": "https://www.ticketnetwork.com/en/p/8300899",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_KGkB6HKqY",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300899"
   },
   {
     "id": "tm-the-red-clay-strays-2027-estero-vvg1vz_ks60_np",
@@ -149278,12 +149862,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300900",
+        "url": "https://www.ticketnetwork.com/en/p/8300900",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_KS60_nP",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300900"
   },
   {
     "id": "tm-the-red-clay-strays-2027-saskatoon-1av7z_kgkwfc4o1",
@@ -149332,12 +149924,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300890",
+        "url": "https://www.ticketnetwork.com/en/p/8300890",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkwfC4o1",
     "timezone": "America/Swift_Current",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T16:00:00Z"
+    "public_onsale_at": "2026-10-09T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300890"
   },
   {
     "id": "tm-the-red-clay-strays-2027-edmonton-1av7z_kgksqo5v0",
@@ -149386,12 +149986,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300891",
+        "url": "https://www.ticketnetwork.com/en/p/8300891",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkSQO5V0",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T16:00:00Z"
+    "public_onsale_at": "2026-10-09T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300891"
   },
   {
     "id": "tm-the-red-clay-strays-2027-winnipeg-1av7z_kgkgyzwh1",
@@ -149440,12 +150048,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300892",
+        "url": "https://www.ticketnetwork.com/en/p/8300892",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkgyZwH1",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300892"
   },
   {
     "id": "tm-the-red-clay-strays-2027-uncasville-g5vvz_koktqjf",
@@ -149494,12 +150110,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300901",
+        "url": "https://www.ticketnetwork.com/en/p/8300901",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_KOkTQJF",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300901"
   },
   {
     "id": "tm-the-red-clay-strays-2027-allentown-1adzz_kgkmg3bkj",
@@ -149548,12 +150172,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300902",
+        "url": "https://www.ticketnetwork.com/en/p/8300902",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_KGkMG3Bkj",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300902"
   },
   {
     "id": "tm-the-red-clay-strays-2027-mobile-g5viz_k1kuycs",
@@ -149602,11 +150234,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8285231",
+        "url": "https://www.ticketnetwork.com/en/p/8285231",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_K1KUycs",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8285231"
   },
   {
     "id": "tm-the-red-clay-strays-2027-mobile-g5viz_3tpkkro",
@@ -149655,11 +150295,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277070",
+        "url": "https://www.ticketnetwork.com/en/p/8277070",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3TPkkro",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277070"
   },
   {
     "id": "tm-the-red-clay-strays-2027-mobile-g5viz_k14dqes",
@@ -149708,11 +150356,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8282109",
+        "url": "https://www.ticketnetwork.com/en/p/8282109",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_K14DQeS",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8282109"
   },
   {
     "id": "tm-the-red-clay-strays-2027-bangor-vv1f7z_kqaonzdc55",
@@ -149761,12 +150417,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300903",
+        "url": "https://www.ticketnetwork.com/en/p/8300903",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1F7Z_KqaONZdC55",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300903"
   },
   {
     "id": "tm-the-red-clay-strays-2027-gilford-vv177z_kgklli63o",
@@ -149869,12 +150533,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300905",
+        "url": "https://www.ticketnetwork.com/en/p/8300905",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KSrxvbm",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300905"
   },
   {
     "id": "tm-the-red-clay-strays-2027-clarkston-vv17oz_kgkvl-rxl",
@@ -149923,12 +150595,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300906",
+        "url": "https://www.ticketnetwork.com/en/p/8300906",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkVl-Rxl",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300906"
   },
   {
     "id": "tm-the-red-clay-strays-2027-berkeley-g5vyz_kir6nxo",
@@ -149977,12 +150657,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300907",
+        "url": "https://www.ticketnetwork.com/en/p/8300907",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_Kir6nxO",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300907"
   },
   {
     "id": "tm-the-red-clay-strays-2027-bend-vvg1hz_kwvob2j",
@@ -150031,12 +150719,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300908",
+        "url": "https://www.ticketnetwork.com/en/p/8300908",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KwVoB2j",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300908"
   },
   {
     "id": "tm-the-red-clay-strays-2027-boise-g5vzz_kjqef3d",
@@ -150085,12 +150781,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300909",
+        "url": "https://www.ticketnetwork.com/en/p/8300909",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KJqEF3d",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T16:00:00Z"
+    "public_onsale_at": "2026-10-09T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300909"
   },
   {
     "id": "tm-the-red-clay-strays-2027-rogers-g5viz_kuooawu",
@@ -150139,12 +150843,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300910",
+        "url": "https://www.ticketnetwork.com/en/p/8300910",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KUooaWU",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300910"
   },
   {
     "id": "tm-the-red-clay-strays-2027-corpus-christi-g5diz_ksvr9iw",
@@ -150193,12 +150905,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300911",
+        "url": "https://www.ticketnetwork.com/en/p/8300911",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KSVr9iW",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300911"
   },
   {
     "id": "tm-the-red-clay-strays-2027-austin-g5diz_kmbauv1",
@@ -150247,12 +150967,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300912",
+        "url": "https://www.ticketnetwork.com/en/p/8300912",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KMBAUV1",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300912"
   },
   {
     "id": "tm-daughtry-2026-valley-center-vvg1iz_5rl2h1n",
@@ -150354,11 +151082,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056795",
+        "url": "https://www.ticketnetwork.com/en/p/8056795",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_GRFdN3C",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056795"
   },
   {
     "id": "tm-daughtry-2026-beverly-z7r9jz1a7pyjj",
@@ -150407,11 +151143,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8057257",
+        "url": "https://www.ticketnetwork.com/en/p/8057257",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PYjJ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057257"
   },
   {
     "id": "tm-daughtry-2026-uncasville-g5vvz_gld3qfv",
@@ -150460,11 +151204,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056796",
+        "url": "https://www.ticketnetwork.com/en/p/8056796",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_GlD3qFV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056796"
   },
   {
     "id": "tm-daughtry-2026-waterloo-k7vgf_gm6sksu",
@@ -150566,11 +151318,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056798",
+        "url": "https://www.ticketnetwork.com/en/p/8056798",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_GSKKnq7",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056798"
   },
   {
     "id": "tm-daughtry-2026-huntington-k7vgf_geicgms",
@@ -150672,11 +151432,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8057258",
+        "url": "https://www.ticketnetwork.com/en/p/8057258",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_uejshYG",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057258"
   },
   {
     "id": "tm-daughtry-2026-danville-vvg17z_gy_imrz",
@@ -150725,11 +151493,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056801",
+        "url": "https://www.ticketnetwork.com/en/p/8056801",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GY_Imrz",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056801"
   },
   {
     "id": "tm-daughtry-2026-florence-17aov0g6gj3vrxt",
@@ -150778,11 +151554,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8044153",
+        "url": "https://www.ticketnetwork.com/en/p/8044153",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G6GJ3vrxt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8044153"
   },
   {
     "id": "tm-daughtry-2026-greensburg-z7r9jz1aazman",
@@ -150937,11 +151721,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056802",
+        "url": "https://www.ticketnetwork.com/en/p/8056802",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_GmYO5fY",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056802"
   },
   {
     "id": "tm-daughtry-2026-la-vista-17fzv0g6gnabvqc",
@@ -151043,11 +151835,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056805",
+        "url": "https://www.ticketnetwork.com/en/p/8056805",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_GwkrFot",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056805"
   },
   {
     "id": "tm-daughtry-2026-kansas-city-vvg1bz_gsftuwt",
@@ -151096,11 +151896,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056806",
+        "url": "https://www.ticketnetwork.com/en/p/8056806",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_GSFTUwT",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056806"
   },
   {
     "id": "tm-daughtry-2026-oklahoma-city-z7r9jz1a7px8p",
@@ -151202,11 +152010,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8057262",
+        "url": "https://www.ticketnetwork.com/en/p/8057262",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PxAK",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057262"
   },
   {
     "id": "tm-daughtry-2026-napa-g5vyz_gnjfn19",
@@ -151255,11 +152071,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056807",
+        "url": "https://www.ticketnetwork.com/en/p/8056807",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GnJfN19",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056807"
   },
   {
     "id": "tm-daughtry-2026-anaheim-vvg10z_grix-n9",
@@ -151308,11 +152132,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056808",
+        "url": "https://www.ticketnetwork.com/en/p/8056808",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GRix-N9",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056808"
   },
   {
     "id": "tm-daughtry-2026-tucson-z7r9jz1a7pxk_",
@@ -151414,11 +152246,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056809",
+        "url": "https://www.ticketnetwork.com/en/p/8056809",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_GSUpJ1v",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056809"
   },
   {
     "id": "tm-daughtry-2026-dallas-vvg1yz_gea3drr",
@@ -151467,11 +152307,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056810",
+        "url": "https://www.ticketnetwork.com/en/p/8056810",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_GEA3DRR",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056810"
   },
   {
     "id": "tm-daughtry-2027-pine-bluff-g5viz_kyugjqo",
@@ -151520,12 +152368,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295475",
+        "url": "https://www.ticketnetwork.com/en/p/8295475",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KYUgJQo",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295475"
   },
   {
     "id": "tm-daughtry-2027-orlando-1kfovpgdga2huxq",
@@ -151574,12 +152430,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295476",
+        "url": "https://www.ticketnetwork.com/en/p/8295476",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kFOvPGdGA2huxQ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295476"
   },
   {
     "id": "tm-daughtry-2027-biloxi-g5viz_ksbnt-6",
@@ -151682,12 +152546,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295478",
+        "url": "https://www.ticketnetwork.com/en/p/8295478",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KxWqqCm",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295478"
   },
   {
     "id": "tm-daughtry-2027-corpus-christi-g5diz_kxutltw",
@@ -151736,12 +152608,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295479",
+        "url": "https://www.ticketnetwork.com/en/p/8295479",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KxUTltw",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295479"
   },
   {
     "id": "tm-daughtry-2027-sacramento-g5vyz_k60xnfe",
@@ -151790,12 +152670,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295481",
+        "url": "https://www.ticketnetwork.com/en/p/8295481",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K60Xnfe",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295481"
   },
   {
     "id": "tm-daughtry-2027-denver-g5vzz_knzyqbr",
@@ -151844,12 +152732,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295482",
+        "url": "https://www.ticketnetwork.com/en/p/8295482",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KNZYqBr",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T16:00:00Z"
+    "public_onsale_at": "2026-10-02T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295482"
   },
   {
     "id": "tm-daughtry-2027-durant-vvg1yz_kgp_ixc",
@@ -152060,12 +152956,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295486",
+        "url": "https://www.ticketnetwork.com/en/p/8295486",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16e7Z_KkfG7V38V",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295486"
   },
   {
     "id": "tm-daughtry-2027-gary-vv1aazkfygkesuefr",
@@ -152114,12 +153018,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295487",
+        "url": "https://www.ticketnetwork.com/en/p/8295487",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfyGkeSueFr",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295487"
   },
   {
     "id": "tm-daughtry-2027-detroit-vv1kezvpg_ga5zp8l",
@@ -152168,12 +153080,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295488",
+        "url": "https://www.ticketnetwork.com/en/p/8295488",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1keZvPG_GA5ZP8L",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295488"
   },
   {
     "id": "tm-daughtry-2027-hershey-vv1aezkfmgkdtwgls",
@@ -152222,12 +153142,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295489",
+        "url": "https://www.ticketnetwork.com/en/p/8295489",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfMGkdtwglS",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295489"
   },
   {
     "id": "tm-daughtry-2027-bethlehem-vv1aovpg_ga5ljzy",
@@ -152384,12 +153312,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295492",
+        "url": "https://www.ticketnetwork.com/en/p/8295492",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KhOsEA-",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295492"
   },
   {
     "id": "tm-daughtry-2027-atlanta-vvg1zz_klwyfxu",

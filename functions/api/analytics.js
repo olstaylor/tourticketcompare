@@ -12,6 +12,28 @@ import {
 } from "../_funnel.js";
 
 const MAX_BODY_SIZE = 8 * 1024;
+
+// A per-isolate flood guard, kept in memory so it costs no D1 writes. It is
+// generous (well above what one visitor, or a shared office or mobile IP,
+// sends) and only stops a single address hammering the endpoint; excess
+// beacons are acknowledged but not stored, so clients have nothing to retry.
+const FLOOD_WINDOW_MS = 60 * 1000;
+const FLOOD_MAX_PER_WINDOW = 300;
+const FLOOD_MAX_TRACKED = 5000;
+const floodCounters = new Map();
+
+export function overFloodLimit(ip, now = Date.now()) {
+  if (!ip) return false;
+  const windowStart = now - (now % FLOOD_WINDOW_MS);
+  let entry = floodCounters.get(ip);
+  if (!entry || entry.windowStart !== windowStart) {
+    if (!entry && floodCounters.size >= FLOOD_MAX_TRACKED) floodCounters.clear();
+    entry = { windowStart, count: 0 };
+    floodCounters.set(ip, entry);
+  }
+  entry.count += 1;
+  return entry.count > FLOOD_MAX_PER_WINDOW;
+}
 // Client-observable funnel steps only.
 //
 // `outbound_attempt`, `outbound_click` and `outbound_blocked` are deliberately
@@ -178,6 +200,10 @@ async function hashRequestKey(request) {
 export async function onRequestPost({ request, env }) {
   const db = getDemandDb(env);
   if (!db) return json({ ok: false, status: "storage_unavailable" }, 503);
+
+  if (overFloodLimit(clean(request.headers.get("cf-connecting-ip"), 120))) {
+    return json({ ok: true, status: "ignored" });
+  }
 
   const contentLength = Number(request.headers.get("content-length") || "0");
   if (Number.isFinite(contentLength) && contentLength > MAX_BODY_SIZE) {

@@ -289,7 +289,7 @@ assert(
 assert(cityText.includes(`Compare tickets for a ${CITY} concert`), "city page keeps its ticket-comparison section");
 assert(
   cityText.includes("Each date's buttons open that exact show on the ticket site") &&
-    cityText.includes("leads to all of that artist's dates"),
+    cityText.includes("leads to more dates from that artist"),
   "city guidance directs visitors to the direct ticket CTA and retains artist pages for details"
 );
 assert(

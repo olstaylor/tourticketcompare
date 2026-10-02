@@ -1916,11 +1916,12 @@ function artistTileMeta(catalog, artist, events, now = Date.now()) {
   const status = artistCardStatus(catalog, artist, events, now);
   if (status.pending) return { status, meta: status.badge };
   if (status.dateless) return { status, meta: "No dates listed yet" };
-  const upcoming = futureShowsForArtist(events, artist.slug, 500);
-  const linked = upcoming.filter((show) => show.publishable && safeShowTicketUrl(show.ticketmaster_url));
-  // A board whose dates are all announced but not yet on sale still has dates
-  // to count; without this fallback the tile read a bare "Dates listed".
-  const shows = linked.length ? linked : upcoming.filter((show) => !eventLifecycleHeld(show));
+  // Every active upcoming date counts, linked or not, so the tile agrees with
+  // the artist board it opens: a date announced before its on-sale is still
+  // listed there. Counting only linked dates made an artist with 20 dates read
+  // "11 dates" (or a bare "Dates listed" with none linked yet), and could name
+  // a later date as the next one.
+  const shows = futureShowsForArtist(events, artist.slug, 500).filter((show) => !eventLifecycleHeld(show));
   // "Sep 25" this year, "Feb 10, 2027" beyond it: keeps each row to one line.
   const thisYear = `, ${new Date(now).getUTCFullYear()}`;
   const nextFull = shows.length ? formatCardDate(shows[0].dateTimeISO, shows[0].timezone) : null;
@@ -2741,7 +2742,7 @@ function artistCityFaqEntries(artist, artistCity) {
     [
       `How current is this ${artist.name} ${artistCity.city} page?`,
       artistCity.lastmod
-        ? `The dates were last checked ${formatVerificationDate(artistCity.lastmod)}, and past dates come off the page automatically.`
+        ? `The most recent check on any of these dates was ${formatVerificationDate(artistCity.lastmod)}. Dates can be checked on different days, and past dates come off the page automatically.`
         : "Past dates come off the page automatically."
     ]
   ];
@@ -3222,8 +3223,8 @@ function renderArtistCityAnswerSummary(artist, artistCity, { datesTabled = false
   // captured. The clarifier is only meaningful beside a price table.
   const recency = checked
     ? datesTabled
-      ? `Dates last checked ${checked}. Each price above shows its own capture time.`
-      : `Dates last checked ${checked}.`
+      ? `Latest date check: ${checked}. Each price above shows its own capture time.`
+      : `Latest date check: ${checked}.`
     : "";
   // One summary, below the dates (2026-09-25, owner request). It replaced a
   // lead paragraph and a disclosure paragraph above the dates plus a deck of
@@ -3410,7 +3411,7 @@ export function renderCityPageBody(route, events = [], options = {}) {
       "Tips for buying and more cities",
       `<section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
         city.city
-      )} concert</h2><p>Each date's buttons open that exact show on the ticket site, and the artist link on a card leads to all of that artist's dates. A price shown applies to that one show at the time stated. Check the final total, fees and delivery terms on the ticket site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
+      )} concert</h2><p>Each date's buttons open that exact show on the ticket site, and the link under each card leads to more dates from that artist. A price shown applies to that one show at the time stated. Check the final total, fees and delivery terms on the ticket site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
         "All cities",
         "/cities",
         "button button-secondary"

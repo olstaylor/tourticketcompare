@@ -329,7 +329,7 @@ export function artistTicketHelp() {
       "A price is one site's listed price for that date, captured at the time shown beside it: a snapshot, not live stock and not your final total.",
       "When several sites have a snapshot for the same date, the lower listed figure is marked. That compares one date only: never across different dates, and never a claim that a site is cheaper overall.",
       "Fees, delivery and tax are added at the provider's checkout, so compare the total there.",
-      "A date with no button is one whose link hasn't been matched to that exact event yet."
+      "A date can be listed without a button, for example before it goes on sale or while its link is still being matched to that exact event."
     ]
   };
 }

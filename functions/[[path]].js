@@ -9,6 +9,7 @@ import {
   fitTitleToBudget,
   withoutParentheticalQualifier,
   artistPageTitle,
+  artistTourLabel,
   eventLocalYear,
   yearRangeLabel
 } from "./_route-metadata.js";
@@ -750,14 +751,14 @@ async function routeForPath(pathname, env) {
     const hasUpcoming = artistHasUpcomingShow(artistEvents, artist.slug);
     // The year(s) in the title are read off the same future shows the board
     // renders, in each card's venue-local calendar.
-    const yearLabel = yearRangeLabel(
-      futureShowsForArtist(artistEvents, artist.slug).map((show) => eventLocalYear(show.dateTimeISO, show.timezone))
-    );
+    const futureShows = futureShowsForArtist(artistEvents, artist.slug);
+    const yearLabel = yearRangeLabel(futureShows.map((show) => eventLocalYear(show.dateTimeISO, show.timezone)));
+    const tourLabel = artistTourLabel(futureShows.map((show) => show.tour_name));
     return {
       type: "artist",
       path,
       indexable: artistPageIndexable(enrichedArtist, artistEvents, artist.slug),
-      title: artistPageTitle(artist, yearLabel),
+      title: artistPageTitle(artist, yearLabel, tourLabel),
       // The authored description promises dates, which is right while the board
       // has them. An empty board gets a description that matches what the page
       // actually says, so a shared or cached snippet never promises dates that

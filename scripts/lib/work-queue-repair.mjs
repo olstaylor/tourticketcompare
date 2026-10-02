@@ -24,12 +24,14 @@
 //      accept, or an artefact that is not on the allowlist all end the same way:
 //      no work, with the reason recorded.
 //
-// v1 supports exactly one finding type, `generated_artifact_stale`, and opens a
+// Supports stale generated output and bounded SeatGeek URL batches, and opens a
 // pull request a human merges. It never merges, never enables auto-merge, and
 // never touches a `risk:red` item.
 
 import { GENERATED_ARTEFACTS } from "../check-generated-freshness.mjs";
-import { QUEUE_LABEL, fingerprintFromBody } from "./work-queue.mjs";
+import { QUEUE_LABEL, fingerprintFromBody, fingerprintFor, classify } from "./work-queue.mjs";
+import { PROVIDER_URL_SOURCE, PROVIDER_URL_TYPE, PROVIDER_URL_VALIDATION, providerUrlIdentity,
+  validProviderUrlEvidence, providerUrlPaths } from "./provider-url-work.mjs";
 
 /**
  * The supported finding types and the one repair operation each is permitted.
@@ -40,6 +42,7 @@ import { QUEUE_LABEL, fingerprintFromBody } from "./work-queue.mjs";
  * deliberate, reviewed change — a label, a body, or a comment cannot do it.
  */
 export const SUPPORTED_FINDINGS = Object.freeze({
+  event_needs_provider_url: Object.freeze({ source: PROVIDER_URL_SOURCE, operation: "verify-seatgeek-event-batch" }),
   generated_artifact_stale: Object.freeze({
     source: "generated-freshness",
     // The only operation this worker knows how to perform. It resolves to an
@@ -210,6 +213,22 @@ export function assessIssue(issue, { artefacts = GENERATED_ARTEFACTS, supported 
   const evidence = block.evidence;
   if (!evidence || typeof evidence !== "object" || Array.isArray(evidence)) return reject("the machine-readable block carries no evidence object");
 
+  if (block.type === PROVIDER_URL_TYPE) {
+    if (!validProviderUrlEvidence(evidence)) return reject("invalid or unbounded provider URL batch");
+    const identity = providerUrlIdentity(evidence);
+    if (!Array.isArray(block.identity) || !sameSet(block.identity, identity)) return reject("provider batch identity disagrees with the event IDs");
+    if (fingerprintFor({ source, type: block.type, identity }) !== fingerprint) return reject("provider batch fingerprint does not match its identity");
+    const verdict = classify({ type: block.type });
+    if (verdict.risk !== risk || verdict.priority !== priority || verdict.execution !== block.execution) return reject("provider batch classification disagrees with repository policy");
+    return { eligible: true, outcome: null, reason: "supported, classified and bounded provider verification", plan: {
+      issueNumber: issue.number, fingerprint, type: block.type, operation: spec.operation,
+      artistSlug: evidence.artist_slug, performerId: evidence.performer_id, eventIds: [...evidence.event_ids].sort(),
+      artefactId: `seatgeek-${evidence.artist_slug}`, label: `SeatGeek URLs for ${evidence.artist_slug}`,
+      risk, priority, source, expectedPaths: providerUrlPaths(evidence.artist_slug), validation: [...PROVIDER_URL_VALIDATION],
+      branch: branchNameFor({ artefactId: `seatgeek-${evidence.artist_slug}`, fingerprint })
+    } };
+  }
+
   const artefactId = evidence.artefact_id;
   if (typeof artefactId !== "string" || !artefactId) return reject("the evidence names no artefact id");
   // The lookup that makes issue text powerless: the repair is whatever the
@@ -269,7 +288,7 @@ export function assessIssue(issue, { artefacts = GENERATED_ARTEFACTS, supported 
  * Choose at most ONE work item from the open queue.
  *
  * One run repairs one item, which is the whole Stage 3 contract. Selection is
- * deterministic — lowest issue number among the eligible — so a re-run picks the
+ * deterministic — priority then lowest eligible issue number — so a re-run picks the
  * same item rather than racing between two.
  */
 export function selectWorkItem(issues, { artefacts = GENERATED_ARTEFACTS, supported = SUPPORTED_FINDINGS, requestedIssue = null } = {}) {
@@ -279,7 +298,8 @@ export function selectWorkItem(issues, { artefacts = GENERATED_ARTEFACTS, suppor
   if (requestedIssue && assessments.length === 0) {
     return { selected: null, assessments, reason: `issue #${requestedIssue} is not in the open work queue` };
   }
-  const eligible = assessments.filter((assessment) => assessment.eligible).sort((a, b) => a.issue.number - b.issue.number);
+  const eligible = assessments.filter((assessment) => assessment.eligible)
+    .sort((a, b) => a.plan.priority.localeCompare(b.plan.priority) || a.issue.number - b.issue.number);
   if (!eligible.length) {
     return { selected: null, assessments, reason: "no open queue issue is an eligible, supported work item" };
   }
@@ -315,10 +335,13 @@ export const touchesProtectedPath = (changed) => PROTECTED_PATHS.some((pattern) 
  * regeneration is expected to change, because the allowlist entry declares
  * them; anything else ends the run rather than being reviewed away later.
  */
-export function classifyDiff(changedPaths, { expectedPaths }) {
+export function classifyDiff(changedPaths, { expectedPaths, type }) {
   const changed = [...(changedPaths || [])].filter(Boolean).sort();
   const unexpected = changed.filter((path) => !withinDeclaredPaths(path, expectedPaths));
-  const protectedHits = changed.filter(touchesProtectedPath);
+  // Provider batches additionally pass a field-level guard in the runner.
+  // Only these exact event paths are exempt; all other protected paths remain.
+  const protectedHits = changed.filter((file) => touchesProtectedPath(file)
+    && !(type === PROVIDER_URL_TYPE && expectedPaths.includes(file) && /^public\/data\/events(?:\.json|\/[^/]+\.json)$/.test(file)));
   return { changed, unexpected, protectedHits, ok: changed.length > 0 && unexpected.length === 0 && protectedHits.length === 0 };
 }
 
@@ -376,6 +399,16 @@ const bullets = (lines) => lines.filter(Boolean).map((line) => `- ${line}`).join
  * ran, what changed, what did not, and that a human merges it.
  */
 export function buildPullRequest({ plan, diff, checkOutputBefore = "" }) {
+  if (plan.type === PROVIDER_URL_TYPE) {
+    return { title: `maintenance: verify SeatGeek URLs for ${plan.artistSlug}`, body: [
+      prMarkerFor(plan.fingerprint), `Refs #${plan.issueNumber}; the coverage sensor closes the finding after it clears.`, "",
+      `Verifies a bounded batch of ${plan.eventIds.length} upcoming events against the SeatGeek API for registry performer ${plan.performerId}.`,
+      plan.providerSummary ?? "", "Only positive exact-event results are applied; unmatched events remain unresolved.",
+      "Changes only the batch's SeatGeek URL/provenance, the artist partition and generated status figures.", "",
+      `Validation: ${plan.validation.map((command) => `\`${command}\``).join(", ")}, \`git diff --check\`, and field/file diff guards.`, "",
+      "A human reviews and merges this PR after Prelaunch Validation passes on this exact head."
+    ].join("\n") };
+  }
   const title = `maintenance: regenerate stale ${plan.label} (${plan.artefactId})`;
   const body = [
     prMarkerFor(plan.fingerprint),

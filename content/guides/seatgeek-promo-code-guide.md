@@ -4,6 +4,9 @@ h1: How should I verify a SeatGeek promo code safely?
 description: Learn how to verify SeatGeek promo-code claims safely by checking eligibility, final checkout totals, fees, and order terms on SeatGeek before purchase.
 status: published
 date_published: 2026-06-11
+comparison_providers:
+  - ticketmaster
+  - seatgeek
 sources:
   - name: How do I use a SeatGeek promo code?
     publisher: SeatGeek Help Center
@@ -90,3 +93,4 @@ No. SeatGeek says promo codes cannot be applied to an order after it has been pl
 - [Concert ticket fees explained](/guides/concert-ticket-fees-explained)
 - [How to avoid overpaying for concert tickets](/guides/how-to-avoid-overpaying-for-concert-tickets)
 - [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)
+- [Vivid Seats promo codes and fees](/guides/vivid-seats-promo-codes-and-fees)

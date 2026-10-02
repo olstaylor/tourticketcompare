@@ -4,6 +4,7 @@ import { classifyDeviceCategory, classifyPageType, normalizeAnalyticsPath } from
 const MAX_BODY_SIZE = 8 * 1024;
 const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
 const RATE_LIMIT_MAX = 5;
+const RATE_LIMIT_SWEEP_CHANCE = 0.02;
 const ARTISTS_JSON_PATH = "/data/artists.json";
 
 // Allowlist is derived from artists.json at runtime — every artist record
@@ -73,6 +74,17 @@ async function hashRequestKey(request) {
     .join("");
 }
 
+// The rate-limit bucket is keyed on the client IP alone. Folding the
+// user-agent in (as the stored request_key does) let a caller reset their
+// bucket just by rotating the User-Agent header.
+async function hashRateLimitKey(request) {
+  const ip = clean(request.headers.get("cf-connecting-ip") || request.headers.get("x-forwarded-for"), 120);
+  const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(`signup-ip|${ip}`));
+  return Array.from(new Uint8Array(digest))
+    .map((byte) => byte.toString(16).padStart(2, "0"))
+    .join("");
+}
+
 async function applyRateLimit(db, key, now) {
   const windowStart = new Date(Math.floor(now.getTime() / RATE_LIMIT_WINDOW_MS) * RATE_LIMIT_WINDOW_MS).toISOString();
   const resetAt = new Date(Date.parse(windowStart) + RATE_LIMIT_WINDOW_MS).toISOString();
@@ -86,6 +98,15 @@ async function applyRateLimit(db, key, now) {
     .bind(limitKey, windowStart, resetAt)
     .run();
   const row = await db.prepare("SELECT count FROM rate_limits WHERE key = ?1").bind(limitKey).first();
+  // Each window writes a fresh row, so expired rows are swept occasionally
+  // rather than left to grow the table forever.
+  if (Math.random() < RATE_LIMIT_SWEEP_CHANCE) {
+    try {
+      await db.prepare("DELETE FROM rate_limits WHERE key LIKE 'signup:%' AND reset_at < ?1").bind(now.toISOString()).run();
+    } catch (error) {
+      // Housekeeping only; never fail a signup over it.
+    }
+  }
   return Number(row?.count || 0) <= RATE_LIMIT_MAX;
 }
 
@@ -158,7 +179,6 @@ function safeBackHref(value) {
 
 const HTML_MESSAGES = {
   subscribed: "You're on the watchlist. You'll get an email when verified dates and checked ticket links are listed.",
-  already_subscribed: "You're already on the watchlist — you'll hear when verified dates are listed.",
   invalid_email: "That email address didn't look right. Please go back and try again.",
   invalid_form: "That submission couldn't be read. Please go back and try again.",
   invalid_artist: "That artist couldn't be matched. Please go back and try again.",
@@ -172,7 +192,7 @@ const HTML_MESSAGES = {
 function htmlResponse(result, status, backHref = "/artists") {
   const heading = result.ok ? "You're on the watchlist" : "Signup not completed";
   const message = HTML_MESSAGES[result.status] || "Something went wrong. Please go back and try again.";
-  const body = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex" /><title>${heading} | TourTicketCompare</title><link rel="stylesheet" href="/styles.css?v=20260927a" /></head><body><main id="mainContent"><section class="content-page"><h1>${heading}</h1><p class="lead">${message}</p><div class="action-row"><a class="button button-primary" href="${backHref}">Back to the artist page</a><a class="button button-secondary" href="/artists">Browse artists</a></div></section></main></body></html>`;
+  const body = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex" /><title>${heading} | TourTicketCompare</title><link rel="stylesheet" href="/styles.css?v=20261002u" /></head><body><main id="mainContent"><section class="content-page"><h1>${heading}</h1><p class="lead">${message}</p><div class="action-row"><a class="button button-primary" href="${backHref}">Back to the artist page</a><a class="button button-secondary" href="/artists">Browse artists</a></div></section></main></body></html>`;
   return new Response(body, {
     status,
     headers: {
@@ -198,18 +218,31 @@ export async function onRequestPost({ request, env }) {
   if (Number.isFinite(contentLength) && contentLength > MAX_BODY_SIZE) {
     return respond({ ok: false, status: "payload_too_large" }, 413);
   }
+  // Content-Length is absent on chunked uploads, so the size is enforced on
+  // the bytes actually read as well.
+  let rawBody;
+  try {
+    rawBody = await request.arrayBuffer();
+  } catch (error) {
+    return respond({ ok: false, status: asHtml ? "invalid_form" : "invalid_json" }, 400);
+  }
+  if (rawBody.byteLength > MAX_BODY_SIZE) {
+    return respond({ ok: false, status: "payload_too_large" }, 413);
+  }
 
   let payload = null;
   if (asHtml) {
     try {
-      const form = await request.formData();
+      const form = await new Response(rawBody, {
+        headers: { "Content-Type": request.headers.get("content-type") || "" }
+      }).formData();
       payload = Object.fromEntries(Array.from(form.entries()).map(([key, value]) => [key, String(value)]));
     } catch (error) {
       return respond({ ok: false, status: "invalid_form" }, 400);
     }
   } else {
     try {
-      payload = await request.json();
+      payload = JSON.parse(new TextDecoder().decode(rawBody));
     } catch (error) {
       return respond({ ok: false, status: "invalid_json" }, 400);
     }
@@ -233,7 +266,7 @@ export async function onRequestPost({ request, env }) {
   const now = new Date();
   const createdAt = now.toISOString();
   const requestKey = await hashRequestKey(request);
-  const allowed = await applyRateLimit(db, requestKey, now);
+  const allowed = await applyRateLimit(db, await hashRateLimitKey(request), now);
   if (!allowed) return respond({ ok: false, status: "rate_limited" }, 429);
 
   const row = {
@@ -256,8 +289,6 @@ export async function onRequestPost({ request, env }) {
   // alert email stack is worth building.
   const isPriceAlertInterest = clean(payload?.intent, 40).toLowerCase() === "price_alert";
   const alertArtistSlug = isPriceAlertInterest ? "" : artistSlug;
-
-  const existing = await db.prepare("SELECT email FROM email_subscribers WHERE email = ?1").bind(email).first();
 
   await db
     .prepare(
@@ -303,7 +334,9 @@ export async function onRequestPost({ request, env }) {
   return respond(
     {
       ok: true,
-      status: existing ? "already_subscribed" : "subscribed",
+      // Same answer whether or not the address was already on the list, so the
+      // endpoint cannot be used to check who has subscribed.
+      status: "subscribed",
       email,
       artistSlug: artistSlug || null
     },

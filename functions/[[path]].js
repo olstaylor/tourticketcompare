@@ -9,6 +9,7 @@ import {
   fitTitleToBudget,
   withoutParentheticalQualifier,
   artistPageTitle,
+  artistTourLabel,
   eventLocalYear,
   yearRangeLabel
 } from "./_route-metadata.js";
@@ -27,7 +28,7 @@ import { deriveCityDatePrices } from "./_artist-city-prices.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
 import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, EVENT_LIFECYCLE, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
-import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
+import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import {
   PRICE_GUIDE_SEGMENT,
   derivePriceGuide,
@@ -192,24 +193,6 @@ const RESERVED_FILES = new Set(["/app.js", "/styles.css", "/favicon.svg", "/robo
 // bindings cannot share data; discard failures so a transient asset problem is
 // retried by the next request.
 const ASSET_JSON_CACHE_BY_BINDING = new WeakMap();
-
-// Keep the highest-value editorial guide routable even if an edge deploy briefly
-// serves stale route metadata. PRICE_GUIDE_FALLBACK mirrors that guide's
-// GUIDE_ROUTES entry and prevents Googlebot/Search Console from seeing a
-// transient 404/noindex response, or a page stripped of its visible
-// Published/Updated line and its Article datePublished/dateModified.
-//
-// It is a separate top-level binding in functions/_guide-routes.generated.js,
-// not a lookup into GUIDE_ROUTES: a missing or malformed entry there still
-// leaves this object intact, which is the case it exists for. (It has never
-// covered the module failing to load outright — GUIDE_ROUTES is imported at
-// module scope, so that takes every HTML route down regardless.)
-//
-// Both are generated from the same Markdown, so they cannot drift:
-// scripts/build-guide-content.mjs refuses to draft, rename or delete that
-// guide, and scripts/route-metadata.test.mjs asserts every field of the
-// fallback equals the GUIDE_ROUTES entry.
-
 
 // _headers applies to static-asset responses only, not to function-generated responses.
 // These headers must be set explicitly on every HTML Response returned by this function.
@@ -442,9 +425,12 @@ async function loadJsonAsset(env, path, isValid, fallback) {
   let pending = cache.get(path);
   if (!pending) {
     pending = (async () => {
+      const startedAt = Date.now();
       const response = await assets.fetch(new Request(`https://assets.local${path}`));
+      const fetchedAt = Date.now();
       if (!response.ok) throw new Error(`Asset request failed: ${path}`);
       const data = await response.json();
+      ASSET_LOAD_TIMINGS.push({ path, fetchMs: fetchedAt - startedAt, bodyMs: Date.now() - fetchedAt });
       if (!isValid(data)) throw new Error(`Asset payload was invalid: ${path}`);
       return data;
     })();
@@ -481,6 +467,9 @@ async function routeForPath(pathname, env) {
   if (OLD_GUIDE_REDIRECTS[path]) return { type: "redirect", location: OLD_GUIDE_REDIRECTS[path] };
   if (path === "/compare-concert-ticket-prices") return { type: "comparison-hub", path, ...TRUST_ROUTES[path] };
   if (path === "/" || PUBLIC_HTML_ROUTES.has(path)) return { type: "static", path, ...TRUST_ROUTES[path] };
+  // PRICE_GUIDE_FALLBACK keeps the highest-value guide routable (not a 404 or
+  // noindex) if an edge deploy briefly serves stale route metadata. It is a
+  // separate generated binding, so a bad GUIDE_ROUTES entry leaves it intact.
   const guide = GUIDE_ROUTES[path] || (path === PRICE_GUIDE_FALLBACK_PATH ? PRICE_GUIDE_FALLBACK : null);
   if (guide) {
     return {
@@ -773,14 +762,14 @@ async function routeForPath(pathname, env) {
     const hasUpcoming = artistHasUpcomingShow(artistEvents, artist.slug);
     // The year(s) in the title are read off the same future shows the board
     // renders, in each card's venue-local calendar.
-    const yearLabel = yearRangeLabel(
-      futureShowsForArtist(artistEvents, artist.slug).map((show) => eventLocalYear(show.dateTimeISO, show.timezone))
-    );
+    const futureShows = futureShowsForArtist(artistEvents, artist.slug);
+    const yearLabel = yearRangeLabel(futureShows.map((show) => eventLocalYear(show.dateTimeISO, show.timezone)));
+    const tourLabel = artistTourLabel(futureShows.map((show) => show.tour_name));
     return {
       type: "artist",
       path,
       indexable: artistPageIndexable(enrichedArtist, artistEvents, artist.slug),
-      title: artistPageTitle(artist, yearLabel),
+      title: artistPageTitle(artist, yearLabel, tourLabel),
       // The authored description promises dates, which is right while the board
       // has them. An empty board gets a description that matches what the page
       // actually says, so a shared or cached snippet never promises dates that
@@ -1939,9 +1928,12 @@ function artistTileMeta(catalog, artist, events, now = Date.now()) {
   const status = artistCardStatus(catalog, artist, events, now);
   if (status.pending) return { status, meta: status.badge };
   if (status.dateless) return { status, meta: "No dates listed yet" };
-  const shows = futureShowsForArtist(events, artist.slug, 500).filter(
-    (show) => show.publishable && safeShowTicketUrl(show.ticketmaster_url)
-  );
+  // Every active upcoming date counts, linked or not, so the tile agrees with
+  // the artist board it opens: a date announced before its on-sale is still
+  // listed there. Counting only linked dates made an artist with 20 dates read
+  // "11 dates" (or a bare "Dates listed" with none linked yet), and could name
+  // a later date as the next one.
+  const shows = futureShowsForArtist(events, artist.slug, 500).filter((show) => !eventLifecycleHeld(show));
   // "Sep 25" this year, "Feb 10, 2027" beyond it: keeps each row to one line.
   const thisYear = `, ${new Date(now).getUTCFullYear()}`;
   const nextFull = shows.length ? formatCardDate(shows[0].dateTimeISO, shows[0].timezone) : null;
@@ -2263,8 +2255,10 @@ function cityForVenue(events, venue) {
   ) || null;
 }
 
+// The country goes through the same alias map as city pages, so a venue whose
+// source records say "Great Britain" reads "United Kingdom" like its city page.
 function venueLocationLabel(venue) {
-  return [venue.city, venue.country].filter((part) => String(part || "").trim()).join(", ");
+  return [venue.city, venue.country ? normalizeCountry(venue.country) : ""].filter((part) => String(part || "").trim()).join(", ");
 }
 
 function venueShowCountLabel(count) {
@@ -2378,10 +2372,13 @@ function renderArtistTourSummariesHtml(tours, artist) {
       const end = formatShowDateServer(tour.endISO, tour.endTimezone);
       const range = start && end && start !== end ? `${start} – ${end}` : start || end || "";
       const showLabel = `${tour.showCount} upcoming ${tour.showCount === 1 ? "date" : "dates"}`;
-      const cityLabel = tour.cityCount
-        ? ` across ${tour.cityCount} ${tour.cityCount === 1 ? "city" : "cities"}`
-        : "";
-      const citiesLine = tour.sampleCities.length
+      const singleCity = tour.cityCount === 1 && tour.sampleCities.length === 1;
+      const cityLabel = singleCity
+        ? ` in ${tour.sampleCities[0]}`
+        : tour.cityCount
+          ? ` across ${tour.cityCount} cities`
+          : "";
+      const citiesLine = !singleCity && tour.sampleCities.length
         ? `<p class="muted">Cities include ${escapeHtml(tour.sampleCities.join(", "))}${
             tour.cityCount > tour.sampleCities.length ? ", and more" : ""
           }.</p>`
@@ -2393,7 +2390,7 @@ function renderArtistTourSummariesHtml(tours, artist) {
     .join("");
   return `<section class="nested-panel"><h2>${escapeHtml(
     artist.name
-  )} tours and dates</h2><p>The runs behind the dates listed above. Pick a date up there to get to the ticket links for it.</p><div class="card-grid">${cards}</div></section>`;
+  )} tours and dates</h2><p>Ticket links are on each date above.</p><div class="card-grid">${cards}</div></section>`;
 }
 
 // The artist page's board + derived content, computed once per request. The
@@ -2456,8 +2453,14 @@ function collapsedGroupHtml(summary, html) {
   return `<details class="page-more"><summary>${escapeHtml(summary)}</summary><div class="page-more__body">${html}</div></details>`;
 }
 
-function renderArtistTicketHelpHtml(help) {
-  const points = help.points.map((point) => `<li>${escapeHtml(point)}</li>`).join("");
+// `withArtistPanel` false drops the point about the "Where to buy" buttons, for
+// pages (artist-city) that render the date board without that panel: the help
+// must not describe furniture the page does not have.
+function renderArtistTicketHelpHtml(help, { withArtistPanel = true } = {}) {
+  const points = help.points
+    .filter((point) => withArtistPanel || !/Where to buy/.test(point))
+    .map((point) => `<li>${escapeHtml(point)}</li>`)
+    .join("");
   return `<section class="nested-panel artist-ticket-help" data-artist-ticket-help><h2>How prices and links work here</h2><p>${escapeHtml(
     help.intro
   )}</p><ul class="check-list">${points}</ul></section>`;
@@ -2515,7 +2518,7 @@ function renderArtistTicketCitiesHtml(events, artist, lowestByShowId = new Map()
   const singles = cities.filter((city) => !city.indexable);
 
   const runsHtml = runs.length
-    ? `<p>Multi-date runs — the dates, venues, and ticket links for each city:</p><ul class="guide-link-list">${runs
+    ? `<p>Cities with more than one date:</p><ul class="guide-link-list">${runs
         .slice(0, 40)
         .map(
           (city) =>
@@ -2550,17 +2553,16 @@ function renderArtistLocationLinksHtml(events, artist, lowestByShowId) {
   const groups = [
     {
       heading: "Dates by city",
-      note: "Straight to one city's dates, venues, and ticket links.",
       html: renderArtistTicketCitiesHtml(events, artist, lowestByShowId)
     },
     {
       heading: "Cities on this run",
-      note: `Who else is playing the cities ${artist.name} is visiting.`,
+      note: `Every tracked concert in each city, not only ${artist.name}'s.`,
       items: renderArtistCitiesHtml(events, artist)
     },
     {
       heading: "Venues on this run",
-      note: `What else is on at the venues ${artist.name} is playing.`,
+      note: `Every tracked concert at each venue, not only ${artist.name}'s.`,
       items: renderArtistVenuesHtml(events, artist)
     }
   ].filter((group) => group.html || group.items);
@@ -2568,9 +2570,9 @@ function renderArtistLocationLinksHtml(events, artist, lowestByShowId) {
   const blocks = groups
     .map(
       (group) =>
-        `<div class="artist-location-group"><h3>${escapeHtml(group.heading)}</h3><p class="muted">${escapeHtml(
-          group.note
-        )}</p>${group.html || `<ul class="guide-link-list">${group.items}</ul>`}</div>`
+        `<div class="artist-location-group"><h3>${escapeHtml(group.heading)}</h3>${
+          group.note ? `<p class="muted">${escapeHtml(group.note)}</p>` : ""
+        }${group.html || `<ul class="guide-link-list">${group.items}</ul>`}</div>`
     )
     .join("");
   return `<section class="nested-panel artist-location-links"><h2>Where these dates are</h2>${blocks}</section>`;
@@ -2717,6 +2719,11 @@ function artistCityIntroSentence(artist, artistCity, { datesTabled = false } = {
 // location-page FAQ — the city and venue templates carry none, because theirs
 // only restated the counts and schedule already visible on the page (see
 // docs/ROUTE_INDEXABILITY_POLICY.md § Shared content rules for location pages).
+function joinVenueList(items) {
+  if (items.length <= 2) return items.join(" and ");
+  return `${items.slice(0, -1).join(", ")} and ${items[items.length - 1]}`;
+}
+
 function artistCityFaqEntries(artist, artistCity) {
   const next = artistCity.shows[0];
   const venues = artistCity.venues || [];
@@ -2726,25 +2733,29 @@ function artistCityFaqEntries(artist, artistCity) {
       `How many ${artist.name} concerts are coming up in ${artistCity.city}?`,
       `TourTicketCompare currently tracks ${cityShowCountLabel(artistCity.showCount)} for ${artist.name} in ${artistCity.city}, ${artistCity.country}${
         range ? ` (${range})` : ""
-      }. Coverage changes automatically as reviewed dates pass or new dates are verified.`
+      }. New dates are added as they are confirmed, and past ones drop off.`
     ],
     [
       `Where does ${artist.name} play in ${artistCity.city}?`,
       venues.length
-        ? `The tracked ${artistCity.city} ${venues.length === 1 ? "date is" : "dates are"} at ${venues.join(", ")}. This is selective reviewed coverage, not a full local calendar.`
+        ? artistCity.showCount === 1
+          ? `The ${artistCity.city} date is at ${venues.join(", ")}.`
+          : venues.length === 1
+            ? `All ${artistCity.showCount} ${artistCity.city} dates are at ${venues[0]}.`
+            : `The ${artistCity.city} dates are at ${joinVenueList(venues)}.`
         : `Venue details appear on each date once verified by the source.`
     ],
     [
       `What is the next ${artist.name} date in ${artistCity.city}?`,
       next
-        ? `The next currently tracked date is ${formatShowDateServer(next.datetime_iso, next.timezone)} at ${next.venue}. Confirm the schedule and ticket details with the provider before travelling, because they can change.`
+        ? `${formatShowDateServer(next.datetime_iso, next.timezone)} at ${next.venue}. Start times can change, so check the ticket site before you travel.`
         : "No upcoming reviewed date is currently available."
     ],
     [
       `How current is this ${artist.name} ${artistCity.city} page?`,
       artistCity.lastmod
-        ? `The most recently checked event record on this page was verified ${formatVerificationDate(artistCity.lastmod)}. Individual dates can have different verification dates, and expired dates are removed automatically.`
-        : "Each date is tied to a reviewed event record, and expired dates are removed automatically."
+        ? `The most recent check on any of these dates was ${formatVerificationDate(artistCity.lastmod)}. Dates can be checked on different days, and past dates come off the page automatically.`
+        : "Past dates come off the page automatically."
     ]
   ];
   return entries;
@@ -3218,12 +3229,13 @@ function artistCityShowIdSet(artistCity) {
 // — so the grid is dropped and that one fact is folded into the short answer
 // rather than left as a lone card in a three-column grid.
 //
-// The heading and the "Short answer:" lead-in are load-bearing in both
-// variants: scripts/audit-internal-links.mjs requires both on every
-// artist-city page, so this compresses the panel and never removes it. (The
+// The heading is load-bearing in both variants: scripts/audit-internal-links.mjs
+// requires it on every artist-city page, so this compresses the panel and never
+// removes it. (The "Short answer:" lead-in it used to require was dropped
+// 2026-10-02 in the page-quality pass: a label announcing an answer is filler.) The
 // audits build their offline env with no DEMAND_DB binding, so they only ever
 // render the unabridged variant; the compressed one is covered by
-// scripts/artist-city-prices.test.mjs.)
+// scripts/artist-city-prices.test.mjs.
 function renderArtistCityAnswerSummary(artist, artistCity, { datesTabled = false } = {}) {
   const checked = formatVerificationDate(artistCity.lastmod);
   const runNote = artistCity.multiNightSameVenue
@@ -3237,19 +3249,19 @@ function renderArtistCityAnswerSummary(artist, artistCity, { datesTabled = false
   // captured. The clarifier is only meaningful beside a price table.
   const recency = checked
     ? datesTabled
-      ? `The most recent event record on this page was checked ${checked} — that is when the event itself was last verified, not when a price was captured; each figure above carries its own capture time.`
-      : `The most recent event record on this page was checked ${checked}.`
-    : `Each date carries its own verification record.`;
+      ? `Latest date check: ${checked}. Each price above shows its own capture time.`
+      : `Latest date check: ${checked}.`
+    : "";
   // One summary, below the dates (2026-09-25, owner request). It replaced a
   // lead paragraph and a disclosure paragraph above the dates plus a deck of
   // "Next tracked date" / "Tracked date range" / "Venues" / "Verification
   // recency" cards, which between them stated the count, venue and range twice
   // and put the first date a screen and a half down on a phone. The first card
   // on the board is the next date; this sentence states the rest once.
-  return `<section class="nested-panel artist-city-summary" aria-labelledby="artistCityAnswerTitle">${heading}<p><strong>Short answer:</strong> ${escapeHtml(
+  return `<section class="nested-panel artist-city-summary" aria-labelledby="artistCityAnswerTitle">${heading}<p class="artist-city-summary__lead">${escapeHtml(
     artistCityIntroSentence(artist, artistCity, { datesTabled })
   )}${escapeHtml(runNote)}</p><p class="disclosure-note">${escapeHtml(
-    `${recency} This is a selective list of reviewed dates, not a complete local calendar.`
+    `${recency ? `${recency} ` : ""}These are selected dates, not a full local concert calendar.`
   )}</p></section>`;
 }
 
@@ -3283,7 +3295,7 @@ function renderArtistCityRelatedLinks(artist, artistCity, otherCities, cityIndex
     parts.push(
       `<section class="nested-panel"><h2>Other cities on the ${escapeHtml(
         artist.name
-      )} run</h2><p>See ${escapeHtml(artist.name)} dates and checked ticket options in other cities:</p><ul class="guide-link-list">${items}</ul></section>`
+      )} run</h2><ul class="guide-link-list">${items}</ul></section>`
     );
   }
   return parts.join("");
@@ -3425,7 +3437,7 @@ export function renderCityPageBody(route, events = [], options = {}) {
       "Tips for buying and more cities",
       `<section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
         city.city
-      )} concert</h2><p>Use the ticket button on the selected date above when available to reach its checked ticket links. Open the artist page for additional date details; any recorded prices apply to that exact show. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
+      )} concert</h2><p>Each date's buttons open that exact show on the ticket site, and the link under each card leads to more dates from that artist. A price shown applies to that one show at the time stated. Check the final total, fees and delivery terms on the ticket site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
         "All cities",
         "/cities",
         "button button-secondary"
@@ -3476,7 +3488,7 @@ export function renderVenuePageBody(route, events = [], options = {}) {
       "Tips for buying and more venues",
       `<section class="nested-panel"><h2>Getting tickets at ${escapeHtml(
         venue.venue
-      )}</h2><p>Use the ticket button on the date you want, or open that show's artist page for the full event view. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${
+      )}</h2><p>Each date's buttons open that exact show on the ticket site. A price shown applies to that one show at the time stated. Check the final total, fees and delivery terms on the ticket site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${
         cityPage ? anchor(`More concerts in ${cityPage.city}`, `/cities/${cityPage.slug}`, "button button-secondary") : ""
       }${anchor("All venues", "/venues", "button button-secondary")}</div></section>`
     )}`
@@ -3539,7 +3551,8 @@ const GUIDE_PROVIDER_NAMES = [
   ["seatgeek", "SeatGeek"],
   ["vivid-seats", "Vivid Seats"],
   ["stubhub", "StubHub"],
-  ["ticketnetwork", "TicketNetwork"]
+  ["ticketnetwork", "TicketNetwork"],
+  ["ticket-liquidator", "Ticket Liquidator"]
 ];
 
 function guideProviders(path) {
@@ -3616,21 +3629,55 @@ function renderGuideClusters() {
   return clusterSections + moreSection;
 }
 
-// Keep in sync with renderArtistStatusLegend in public/app.js.
-function renderArtistStatusLegendHtml() {
-  const items = [
-    ["status-badge", "Dates listed", "Upcoming dates and ticket links on the page"],
-    ["status-badge status-badge-muted", "No dates currently listed", "No future dates — artist page and alerts only"],
-    ["status-badge status-badge-muted", "Being checked", "Links appear once they've been checked"]
-  ];
-  return `<div class="artist-status-legend" aria-label="Artist card status legend">${items
-    .map(
-      ([badgeClass, badge, detail]) =>
-        `<span class="artist-status-legend-item"><span class="${badgeClass}">${escapeHtml(
-          badge
-        )}</span><span class="status-chip-detail">${escapeHtml(detail)}</span></span>`
-    )
-    .join("")}</div>`;
+// Homepage "Going on sale soon" (2026-10-02, owner request): the next few
+// artists with a public on-sale ahead, from the same derivation as /on-sale, so
+// an on-sale day is visible where visitors land rather than one link deep.
+const HOMEPAGE_ONSALE_ARTISTS = 4;
+
+function homepageOnsaleWhen(entry) {
+  try {
+    return new Date(entry.onsaleMs).toLocaleString("en-US", {
+      weekday: "short",
+      month: "short",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      timeZone: entry.timezone || "UTC",
+      timeZoneName: "short"
+    });
+  } catch (error) {
+    return `${new Date(entry.onsaleMs).toISOString().slice(0, 16).replace("T", " ")} UTC`;
+  }
+}
+
+function renderHomepageOnsaleStrip(events, now = Date.now()) {
+  const calendar = deriveOnsaleCalendar(events, now);
+  const seen = new Set();
+  const rows = [];
+  for (const day of calendar.upcoming) {
+    for (const artist of day.artists) {
+      if (seen.has(artist.artistSlug) || rows.length >= HOMEPAGE_ONSALE_ARTISTS) continue;
+      seen.add(artist.artistSlug);
+      rows.push(artist);
+    }
+  }
+  if (!rows.length) return "";
+  const items = rows
+    .map((artist) => {
+      const first = artist.shows[0];
+      const count = artist.shows.length;
+      return `<li><a class="home-artist" href="/artists/${escapeAttr(slugify(artist.artistSlug))}"><span class="home-artist__name">${escapeHtml(
+        artist.artistName
+      )}</span><span class="home-artist__meta">${escapeHtml(
+        `${count} ${count === 1 ? "date" : "dates"} · on sale ${homepageOnsaleWhen(first)}`
+      )}</span></a></li>`;
+    })
+    .join("");
+  return `<section class="home-onsale" aria-labelledby="homeOnsaleTitle"><div class="home-section__head"><h3 id="homeOnsaleTitle">Going on sale soon</h3>${anchor(
+    "Full on-sale calendar",
+    "/on-sale",
+    "text-link"
+  )}</div><ul class="home-artist-list">${items}</ul></section>`;
 }
 
 function renderHomepageGuideLinks() {
@@ -4140,7 +4187,7 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
     .map((item) => {
       const provider = slugify(item.provider);
       const displayName = PROVIDER_DISPLAY_NAMES[provider] || item.provider;
-      const label = "Check provider";
+      const label = `All ${artist.name} tickets on ${displayName}`;
       const destination = withCtaLocation(artistProviderHref(artist, item, surface), "artist_provider_panel");
       const verificationNote = providerVerificationNote(item);
       return `<article class="provider-card"><p class="eyebrow">Artist page</p><h3>${escapeHtml(displayName)}</h3>${anchor(
@@ -4190,15 +4237,15 @@ function renderVerificationDisclosure(artist, hasShows = true) {
   // printing it would be a freshness claim attached to nothing.
   const artistVerifiedDate = hasShows ? formatVerificationDate(artist.last_verified_at) : null;
   const checkedLine = artistVerifiedDate
-    ? `<p><strong>Data checked:</strong> artist links ${escapeHtml(
+    ? `<p><strong>Data checked:</strong> artist links last confirmed ${escapeHtml(
         artistVerifiedDate
-      )}. That's the most recent date the automated link checks recorded against this page's records; the checks themselves run daily. This page has no separate human editorial review date, so none is printed.</p>`
+      )}, by an automated check rather than a human review.</p>`
     : "";
   const verificationLines = hasShows
-    ? `<p><strong>What's verified:</strong> that each date comes from a source record with a date, venue and city, and that every button on a date card resolves to that exact event on that provider's site. Where a link fails those checks, the date stays listed with no button. The artist-level buttons under &ldquo;Where to buy&rdquo; are checked too, but they land on the artist's page on a ticket site rather than on one date.</p><p><strong>What isn't verified:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. Those belong to the provider and are settled at their checkout. A price shown here is one site's listed snapshot at the time stamped beside it, not a quote.</p>`
+    ? `<p><strong>What's verified:</strong> every date comes from a source listing with a date, venue and city, and every button on a date card opens that exact event on the ticket site. A date that fails stays listed without a button. The &ldquo;Where to buy&rdquo; buttons are checked too, but open the artist's page rather than one date.</p><p><strong>What isn't verified:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. The ticket site settles those at checkout. A price here is one site's listed price at the time shown, not a quote.</p>`
     : `<p><strong>What's verified:</strong> there are no confirmed upcoming ${escapeHtml(
         artist.name
-      )} dates, so this page lists none. A date goes up only with a date, venue and city from the source, and a ticket button appears only once its link resolves to that exact event.</p>`;
+      )} dates, so none are listed. A date goes up only with a date, venue and city from the source, and a ticket button only once its link opens that exact event.</p>`;
   return `<section class="nested-panel verification-disclosure" data-artist-trust aria-labelledby="artistProvenance"><h2 id="artistProvenance">How this page is checked</h2><p>${siteBylineHtml()}. TourTicketCompare is independent and unofficial, and is not affiliated with ${escapeHtml(
     artist.name
   )}, any promoter, or any ticket site.</p>${checkedLine}${verificationLines}<p class="disclosure-note">Some outbound links earn TourTicketCompare a commission — see the ${anchor(
@@ -4453,8 +4500,13 @@ function showDatePartsServer(iso, timezone) {
 // resale lanes with their own verified exact-event provenance still render:
 // resale marketplaces list before a public on-sale, and /api/out has never
 // gated on it. Keep in sync with public/app.js.
-function publicOnsaleLabel(event) {
+function publicOnsaleLabel(event, now = Date.now()) {
   const at = new Date(String(event?.public_onsale_at || ""));
+  // Ticketmaster marks "to be announced" with far-future placeholders such as
+  // 9999-12-31; the on-sale calendar already ignores those, so the label does too.
+  if (at.getTime() - now > ONSALE_MAX_HORIZON_DAYS * 24 * 60 * 60 * 1000) {
+    return "Public on-sale date not yet announced by Ticketmaster.";
+  }
   let when = at.toISOString().slice(0, 16).replace("T", " ") + " UTC";
   try {
     when = at.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit", timeZone: event?.timezone || "UTC", timeZoneName: "short" });
@@ -4481,6 +4533,36 @@ function onsaleDayHeading(day) {
   return date.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
 }
 
+// A tour announcement can put 20+ dates on one day; listed in full, the page
+// ran to ~23,000px on a phone. Each artist shows its first ONSALE_VISIBLE_SHOWS
+// dates and folds the rest into a closed <details>, which works without JS and
+// keeps every date in the HTML.
+const ONSALE_VISIBLE_SHOWS = 3;
+
+function renderOnsaleShowItems(shows) {
+  return shows
+    .map(
+      (show) =>
+        `<li data-event-id="${escapeAttr(show.id)}"><strong>${escapeHtml(onsaleTimeLabel(show))}</strong> · ${escapeHtml(
+          [show.city, show.venue].filter(Boolean).join(" · ")
+        )}${show.datetimeIso ? escapeHtml(` · show ${formatShowDateServer(show.datetimeIso, show.timezone)}`) : ""}</li>`
+    )
+    .join("");
+}
+
+function renderOnsaleShowList(shows) {
+  // Fold only when it hides at least two dates; a "1 more" toggle saves nothing.
+  if (shows.length <= ONSALE_VISIBLE_SHOWS + 1) {
+    return `<ul class="venue-show-list onsale-shows">${renderOnsaleShowItems(shows)}</ul>`;
+  }
+  const rest = shows.slice(ONSALE_VISIBLE_SHOWS);
+  return `<ul class="venue-show-list onsale-shows">${renderOnsaleShowItems(
+    shows.slice(0, ONSALE_VISIBLE_SHOWS)
+  )}</ul><details class="onsale-more"><summary>${escapeHtml(
+    `Show ${rest.length} more ${rest.length === 1 ? "date" : "dates"}`
+  )}</summary><ul class="venue-show-list onsale-shows">${renderOnsaleShowItems(rest)}</ul></details>`;
+}
+
 function renderOnsaleDayGroups(groups) {
   return groups
     .map(
@@ -4492,14 +4574,7 @@ function renderOnsaleDayGroups(groups) {
             (artist) =>
               `<h4>${anchor(artist.artistName, `/artists/${slugify(artist.artistSlug)}`, "text-link")} <span class="muted">${escapeHtml(
                 `· ${artist.shows.length} ${artist.shows.length === 1 ? "date" : "dates"}`
-              )}</span></h4><ul class="venue-show-list onsale-shows">${artist.shows
-                .map(
-                  (show) =>
-                    `<li data-event-id="${escapeAttr(show.id)}"><strong>${escapeHtml(onsaleTimeLabel(show))}</strong> · ${escapeHtml(
-                      [show.city, show.venue].filter(Boolean).join(" · ")
-                    )}${show.datetimeIso ? escapeHtml(` · show ${formatShowDateServer(show.datetimeIso, show.timezone)}`) : ""}</li>`
-                )
-                .join("")}</ul>`
+              )}</span></h4>${renderOnsaleShowList(artist.shows)}`
           )
           .join("")}</section>`
     )
@@ -5452,19 +5527,38 @@ function safeTicketmasterGuideEventUrl(event) {
   } catch (error) { return null; }
 }
 
-export function guideProviderPairEligibility(events, env = {}) {
-  if (!isVividSeatsConfigured(env)) return [];
+// The lanes a comparison guide may pair. Each gate is the one the lane's own
+// event-card button uses (serverShowCtaSpecs), so a guide never shows a
+// button the event's own page would suppress. Ticketmaster additionally needs
+// a stored URL on an allowlisted Ticketmaster host that carries its event id.
+const GUIDE_PAIR_PROVIDERS = new Set(PROVIDER_DISPLAY_ORDER);
+
+function guidePairLanePublishable(event, provider, env = {}) {
+  if (!GUIDE_PAIR_PROVIDERS.has(provider)) return false;
+  if (provider === "ticketmaster") return Boolean(safeTicketmasterGuideEventUrl(event) && eventLinkPublishable(event));
+  if (provider === "seatgeek") {
+    return Boolean(isSeatGeekConfigured(env) && safeSeatGeekTicketUrl(event?.seatgeek_url) && providerEventPublishable(event, "seatgeek"));
+  }
+  if (provider === "vivid-seats") {
+    return Boolean(isVividSeatsConfigured(env) && safeVividSeatsTicketUrl(event?.vividseats_url) && providerEventPublishable(event, "vivid-seats"));
+  }
+  const marketplace = IMPACT_MARKETPLACE_PROVIDERS.find((candidate) => candidate.slug === provider);
+  return Boolean(
+    marketplace &&
+      isImpactMarketplaceConfigured(env, marketplace) &&
+      providerEventPublishable(event, provider) &&
+      eventTicketHref(event, provider)
+  );
+}
+
+export function guideProviderPairEligibility(events, env = {}, pair = ["ticketmaster", "vivid-seats"]) {
+  if (!Array.isArray(pair) || pair.length !== 2 || pair[0] === pair[1]) return [];
+  if (!pair.every((provider) => GUIDE_PAIR_PROVIDERS.has(provider))) return [];
   return (events || [])
     .filter((event) => {
       const date = Date.parse(String(event?.datetime_iso || event?.dateTimeISO || ""));
       if (!Number.isFinite(date) || date < Date.now()) return false;
-      return Boolean(
-        event?.id &&
-          safeTicketmasterGuideEventUrl(event) &&
-          eventLinkPublishable(event) &&
-          safeVividSeatsTicketUrl(event?.vividseats_url) &&
-          providerEventPublishable(event, "vivid-seats")
-      );
+      return Boolean(event?.id && pair.every((provider) => guidePairLanePublishable(event, provider, env)));
     })
     .sort(
       (a, b) =>
@@ -5479,11 +5573,30 @@ function guideProviderPairHref(event, provider, guideSlug, position) {
   return `${base}&guideSlug=${encodeURIComponent(guideSlug)}&position=${position}`;
 }
 
+// One date per artist, soonest first, so a residency cannot fill every card.
+function guideProviderPairDisplayed(eligible, limit = 8) {
+  const seen = new Set();
+  const displayed = [];
+  for (const event of eligible) {
+    const key = slugify(event.artist_slug) || String(event.id);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    displayed.push(event);
+    if (displayed.length === limit) break;
+  }
+  return displayed;
+}
+
 export function renderGuideProviderPair(route, events, env = {}) {
   const pair = Array.isArray(route?.comparisonProviders) ? route.comparisonProviders : [];
-  if (pair.length !== 2 || pair[0] !== "ticketmaster" || pair[1] !== "vivid-seats") return "";
-  const eligible = guideProviderPairEligibility(events, env);
-  const displayed = eligible.slice(0, 8);
+  if (pair.length !== 2 || pair[0] === pair[1] || !pair.every((provider) => GUIDE_PAIR_PROVIDERS.has(provider))) return "";
+  // Affiliate lanes render before the plain Ticketmaster link, as on every
+  // event card; the first button is the primary one.
+  const ordered = [...pair].sort((a, b) => providerDisplayRank(a) - providerDisplayRank(b));
+  const names = ordered.map((provider) => PROVIDER_DISPLAY_NAMES[provider] || provider);
+  const both = `${names[0]} and ${names[1]}`;
+  const eligible = guideProviderPairEligibility(events, env, ordered);
+  const displayed = guideProviderPairDisplayed(eligible);
   const guideSlug = route.path.split("/").at(-1);
   const calculatedAt = new Date().toISOString();
   const methodology = `<p class="disclosure-note guide-provider-pair-methodology">${escapeHtml(
@@ -5503,25 +5616,28 @@ export function renderGuideProviderPair(route, events, env = {}) {
       const artistName = String(event.artist_name || event.event_name || artistSlug).trim();
       const date = formatShowDateServer(event.datetime_iso || event.dateTimeISO, event.timezone);
       const location = [event.venue, event.city].map((value) => String(value || "").trim()).filter(Boolean).join(" · ");
-      const ticketmasterHref = guideProviderPairHref(event, "ticketmaster", guideSlug, position);
-      const vividSeatsHref = guideProviderPairHref(event, "vivid-seats", guideSlug, position);
-      if (!ticketmasterHref || !vividSeatsHref) return "";
+      const hrefs = ordered.map((provider) => guideProviderPairHref(event, provider, guideSlug, position));
+      if (hrefs.some((href) => !href)) return "";
+      const buttons = ordered
+        .map(
+          (provider, buttonIndex) =>
+            `<a class="button ${buttonIndex === 0 ? "button-primary" : "button-secondary"}" href="${escapeAttr(hrefs[buttonIndex])}" target="_blank" rel="${escapeAttr(
+              outboundCtaRel(hrefs[buttonIndex])
+            )}" data-cta-provider="${escapeAttr(provider)}" data-cta-artist="${escapeAttr(artistSlug)}" data-cta-show-id="${escapeAttr(
+              event.id
+            )}" data-cta-location="guide_provider_pair" data-cta-position="${position}">Check ${escapeHtml(names[buttonIndex])}</a>`
+        )
+        .join("");
       return `<article class="info-card guide-provider-pair-card" data-event-id="${escapeAttr(event.id)}"><h3>${anchor(
         artistName,
         `/artists/${artistSlug}`,
         "guide-card-link"
-      )}</h3><p>${escapeHtml([date, location].filter(Boolean).join(" · "))}</p><div class="guide-provider-pair-actions"><a class="button button-secondary" href="${escapeAttr(
-        ticketmasterHref
-      )}" target="_blank" rel="${escapeAttr(outboundCtaRel(ticketmasterHref))}" data-cta-provider="ticketmaster" data-cta-artist="${escapeAttr(
-        artistSlug
-      )}" data-cta-show-id="${escapeAttr(event.id)}" data-cta-location="guide_provider_pair" data-cta-position="${position}">Check Ticketmaster</a><a class="button button-primary" href="${escapeAttr(
-        vividSeatsHref
-      )}" target="_blank" rel="${escapeAttr(outboundCtaRel(vividSeatsHref))}" data-cta-provider="vivid-seats" data-cta-artist="${escapeAttr(
-        artistSlug
-      )}" data-cta-show-id="${escapeAttr(event.id)}" data-cta-location="guide_provider_pair" data-cta-position="${position}">Check Vivid Seats</a></div></article>`;
+      )}</h3><p>${escapeHtml([date, location].filter(Boolean).join(" · "))}</p><div class="guide-provider-pair-actions">${buttons}</div></article>`;
     })
     .join("");
-  return `<section class="nested-panel guide-provider-pair" aria-labelledby="providerPairTitle"><h2 id="providerPairTitle">Compare the same event on both providers</h2><p>These are the next reviewed dates with a safe, event-specific link for both Ticketmaster and Vivid Seats. Open both and match the ticket details and checkout total yourself.</p><div class="card-grid guide-provider-pair-grid">${rows}</div>${methodology}</section>`;
+  return `<section class="nested-panel guide-provider-pair" aria-labelledby="providerPairTitle"><h2 id="providerPairTitle">Compare the same event on both providers</h2><p>${escapeHtml(
+    `These are upcoming dates, one per artist, with a checked event-specific link on both ${both}. Open both and compare the same seats and the checkout total yourself.`
+  )}</p><div class="card-grid guide-provider-pair-grid">${rows}</div>${methodology}</section>`;
 }
 
 // Title and description for an event page. Composed before any price is
@@ -5703,7 +5819,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "Google's privacy policy",
       "https://policies.google.com/privacy",
       "text-link"
-    )}, and the publisher tag of Impact, an affiliate network, which reports a page impression to Impact and may set its own cookies. If you reject, neither loads. You can change your choice at any time with &ldquo;Cookie settings&rdquo; at the bottom of every page. TourTicketCompare sets no cookies of its own. It uses your browser's local storage to remember your cookie choice, session storage to group the pages of one visit, which is cleared when the tab closes, and local storage to remember your last choice in the currency converter. After you click through to a ticket site, that site or its affiliate network may set its own cookies so a purchase can be credited.</p></section><section class="nested-panel"><h2>How the information is used</h2><ul class="check-list"><li>To run the site and its forms, and to email you about the artist you asked about if you joined a date alert.</li><li>To count interest in price-drop emails. No price emails are sent; the count decides whether they are worth building.</li><li>To understand which pages, guides and ticket links are useful, and to measure clicks through affiliate links.</li><li>To investigate broken links, incorrect event details, abuse, and technical problems.</li></ul></section><section class="nested-panel"><h2>Who else handles it</h2><ul class="check-list"><li><strong>Cloudflare</strong> hosts the site. It processes every request, including your IP address, to serve and protect the site, and stores the form and measurement records described above.</li><li><strong>Google</strong> receives analytics data through Google Analytics, if you accept cookies.</li><li><strong>Impact</strong>, an affiliate network, receives a page-impression request from each page you view through its publisher tag, if you accept cookies. Impact also receives the random click ID when you follow a supported affiliate ticket link, independently of whether its publisher tag loads. This is separate from the consent-gated page-impression tag described above. Impact and the ticket site's own privacy notices apply to information they collect after you follow a link.</li><li><strong>Ticket sites</strong> receive your visit when you click a ticket button. TourTicketCompare does not sell tickets or take payments, and never sees your checkout, payment or account details. Each ticket site's own privacy notice and terms apply there.</li></ul></section><section class="nested-panel"><h2>How long it is kept</h2><p>Email signups are kept until you ask for them to be removed. Measurement records are kept for analysing trends over time and are not currently deleted on a fixed schedule.</p></section><section class="nested-panel"><h2>Your choices and rights</h2><p>You don't need to give an email address to use the site. To have your email address removed, or to ask what the site holds about you, email ${anchor(
+    )}, and the publisher tag of Impact, an affiliate network, which reports a page impression to Impact and may set its own cookies. If you reject, neither loads. You can change your choice at any time with &ldquo;Cookie settings&rdquo; at the bottom of every page. TourTicketCompare sets no cookies of its own. It uses your browser's local storage to remember your cookie choice, session storage to group the pages of one visit, which is cleared when the tab closes, and local storage to remember your last choice in the currency converter. After you click through to a ticket site, that site or its affiliate network may set its own cookies so a purchase can be credited.</p></section><section class="nested-panel"><h2>How the information is used</h2><ul class="check-list"><li>To run the site and its forms, and to email you about the artist you asked about if you joined a date alert.</li><li>To count interest in price-drop emails. No price emails are sent; the count decides whether they are worth building.</li><li>To understand which pages, guides and ticket links are useful, and to measure clicks through affiliate links.</li><li>To investigate broken links, incorrect event details, abuse, and technical problems.</li></ul></section><section class="nested-panel"><h2>Who else handles it</h2><ul class="check-list"><li><strong>Cloudflare</strong> hosts the site. It processes every request, including your IP address, to serve and protect the site, and stores the form and measurement records described above.</li><li><strong>Google</strong> receives analytics data through Google Analytics, if you accept cookies.</li><li><strong>Impact</strong>, an affiliate network, receives a page-impression request from each page you view through its publisher tag, if you accept cookies. Impact also receives the random click ID when you follow a supported affiliate ticket link, independently of whether its publisher tag loads. This is separate from the consent-gated page-impression tag described above. Impact and the ticket site's own privacy notices apply to information they collect after you follow a link.</li><li><strong>Resend</strong>, an email delivery service, receives your email address and the content of the alert when the site sends you an artist date-alert email, so that it can deliver it.</li><li><strong>Ticket sites</strong> receive your visit when you click a ticket button. TourTicketCompare does not sell tickets or take payments, and never sees your checkout, payment or account details. Each ticket site's own privacy notice and terms apply there.</li></ul></section><section class="nested-panel"><h2>How long it is kept</h2><p>Email signups are kept until you ask for them to be removed. Measurement records are kept for analysing trends over time and are not currently deleted on a fixed schedule.</p></section><section class="nested-panel"><h2>Your choices and rights</h2><p>You don't need to give an email address to use the site. To have your email address removed, or to ask what the site holds about you, email ${anchor(
       "hello@tourticketcompare.com",
       "mailto:hello@tourticketcompare.com",
       "text-link"
@@ -6067,7 +6183,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       eventPageLinker(route.events || events, [artist])
     )}${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
       "How prices and links work, and useful links",
-      `${renderArtistTicketHelpHtml(artistTicketHelp())}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
+      `${renderArtistTicketHelpHtml(artistTicketHelp(), { withArtistPanel: false })}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       `All ${artist.name} tickets and dates`,
       `/artists/${artist.slug}`,
       "mini-link"
@@ -6076,11 +6192,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "/guides/how-to-compare-concert-ticket-prices",
       "mini-link"
     )}${anchor("Concert ticket fees explained", "/guides/concert-ticket-fees-explained", "mini-link")}</div></section>`
-    )}<div class="action-row">${anchor(
-      `All ${artist.name} tickets`,
-      `/artists/${artist.slug}`,
-      "button button-primary"
-    )}${anchor("Compare concert ticket prices", "/compare-concert-ticket-prices", "button button-secondary")}</div>${faqHtml}</section></main>`;
+    )}${faqHtml}</section></main>`;
   }
 
   if (route.type === "guide") {
@@ -6477,7 +6589,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "All artists",
     HOME_PRIMARY_CTA_HREF,
     "text-link"
-  )}</div>${renderHomepageArtistLinks(catalog, events)}<p class="home-browse">Planning around a place? ${anchor(
+  )}</div>${renderHomepageArtistLinks(catalog, events)}${renderHomepageOnsaleStrip(events)}<p class="home-browse">Planning around a place? ${anchor(
     "Browse cities",
     "/cities",
     "text-link"
@@ -6501,6 +6613,16 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></details></div></main>`;
 }
 
+// JSON-LD is raw text inside <script>, so a "</script>" in any event, venue or
+// artist name would end the element early and inject markup. Escaping "<" (and
+// the two JS line separators) keeps the JSON identical once parsed.
+function jsonForScriptTag(value) {
+  return JSON.stringify(value)
+    .replace(/</g, "\\u003c")
+    .replace(/\u2028/g, "\\u2028")
+    .replace(/\u2029/g, "\\u2029");
+}
+
 function injectRoute(html, route, origin, catalog, events = [], guideContent = {}, env = {}) {
   // A route is indexable only when the *request* host is allowed to be indexed.
   // Non-canonical hosts (notably <project>.pages.dev, which serves production)
@@ -6511,26 +6633,26 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   const robots =
     route.indexable && hostIndexable ? "index,follow,max-image-preview:large" : "noindex,follow";
   let next = html;
-  next = next.replace(/<title>[^<]*<\/title>/i, `<title>${escapeAttr(route.title)}</title>`);
+  next = next.replace(/<title>[^<]*<\/title>/i, () => `<title>${escapeAttr(route.title)}</title>`);
   next = next.replace(
     /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="description" content="${escapeAttr(route.description)}" />`
+    () => `<meta name="description" content="${escapeAttr(route.description)}" />`
   );
   next = next.replace(
     /<meta\s+name="robots"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="robots" content="${robots}" />`
+    () => `<meta name="robots" content="${robots}" />`
   );
   next = next.replace(
     /<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:title" content="${escapeAttr(route.title)}" />`
+    () => `<meta property="og:title" content="${escapeAttr(route.title)}" />`
   );
   next = next.replace(
     /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:description" content="${escapeAttr(route.description)}" />`
+    () => `<meta property="og:description" content="${escapeAttr(route.description)}" />`
   );
   next = next.replace(
     /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:url" content="${escapeAttr(canonicalUrl)}" />`
+    () => `<meta property="og:url" content="${escapeAttr(canonicalUrl)}" />`
   );
   // Per-page social card when one has been generated for this route, otherwise
   // the shared brand card. OG_CARDS is a generated manifest of files that exist
@@ -6542,11 +6664,11 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   const ogImageUrl = ogCardUrl(route, origin);
   next = next.replace(
     /<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:image" content="${escapeAttr(ogImageUrl)}" />`
+    () => `<meta property="og:image" content="${escapeAttr(ogImageUrl)}" />`
   );
   next = next.replace(
     /<meta\s+name="twitter:image"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="twitter:image" content="${escapeAttr(ogImageUrl)}" />`
+    () => `<meta name="twitter:image" content="${escapeAttr(ogImageUrl)}" />`
   );
   // The shell's alt text describes the default card, which is wrong once a
   // page-specific one is in use. The alt comes from the manifest rather than
@@ -6558,34 +6680,34 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     const ogImageAlt = /tourticketcompare/i.test(ogCard.alt) ? ogCard.alt : `${ogCard.alt} — TourTicketCompare`;
     next = next.replace(
       /<meta\s+property="og:image:alt"\s+content="[^"]*"\s*\/?>/i,
-      `<meta property="og:image:alt" content="${escapeAttr(ogImageAlt)}" />`
+      () => `<meta property="og:image:alt" content="${escapeAttr(ogImageAlt)}" />`
     );
     next = next.replace(
       /<meta\s+name="twitter:image:alt"\s+content="[^"]*"\s*\/?>/i,
-      `<meta name="twitter:image:alt" content="${escapeAttr(ogImageAlt)}" />`
+      () => `<meta name="twitter:image:alt" content="${escapeAttr(ogImageAlt)}" />`
     );
   }
   next = next.replace(
     /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="twitter:title" content="${escapeAttr(route.title)}" />`
+    () => `<meta name="twitter:title" content="${escapeAttr(route.title)}" />`
   );
   next = next.replace(
     /<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="twitter:description" content="${escapeAttr(route.description)}" />`
+    () => `<meta name="twitter:description" content="${escapeAttr(route.description)}" />`
   );
   next = next.replace(
     /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/i,
-    `<link rel="canonical" href="${escapeAttr(canonicalUrl)}" />`
+    () => `<link rel="canonical" href="${escapeAttr(canonicalUrl)}" />`
   );
   next = next.replace(
     /<meta\s+property="og:type"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:type" content="${route.type === "guide" || route.type === "blog-post" ? "article" : "website"}" />`
+    () => `<meta property="og:type" content="${route.type === "guide" || route.type === "blog-post" ? "article" : "website"}" />`
   );
   next = next.replace(
     /<script\s+type="application\/ld\+json">[\s\S]*?<\/script>/i,
-    `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin, guideContent, events, catalog, env))}</script>`
+    () => `<script type="application/ld+json">${jsonForScriptTag(routeSchema(route, origin, guideContent, events, catalog, env))}</script>`
   );
-  next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent, env));
+  next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, () => renderMainContent(route, catalog, events, guideContent, env));
   // Footer copyright year. public/app.js fills #currentYear on load, so every
   // JS visitor saw the right year and nobody noticed that the served HTML ships
   // an empty span — crawlers and no-JS visitors were reading a bare
@@ -6619,7 +6741,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     route.type === "venues-index" ||
     route.path === "/artists"
   ) {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20260924c" defer></script></body>');
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20261002m" defer></script></body>');
   }
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.
@@ -6637,11 +6759,11 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20260927a" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20260927a" />'
+      '<link rel="stylesheet" href="/styles.css?v=20261002u" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20261002u" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260924b" /></head>');
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260924v" defer></script></body>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261002a" defer></script></body>');
   }
   return next;
 }
@@ -6865,9 +6987,47 @@ function renderNotFoundHtml(html, pathname, origin) {
   return next;
 }
 
+// Per-isolate counters for the Server-Timing header below: how many requests
+// this isolate has served and when it started, so a slow response can be told
+// apart as a cold isolate (first request, loading every data file) or a warm
+// one.
+// Workers' clock reads 0 at module scope, so the start is taken on the first
+// request instead.
+let isolateStartedAt = 0;
+let isolateRequestCount = 0;
+// Every data file this isolate has loaded, with how long its fetch and body
+// took. A render reports the loads that finished while it ran.
+const ASSET_LOAD_TIMINGS = [];
+
+// Server-Timing for an HTML render: where the wall-clock time before the first
+// byte went. Workers' clock only advances across I/O, so each stage reads as
+// time spent waiting on asset loads or D1, which is what moves time to first
+// byte. Visible in any browser's network panel, and to curl as a header.
+function renderTimer() {
+  const marks = [];
+  let last = Date.now();
+  if (!isolateStartedAt) isolateStartedAt = last;
+  const firstLoad = ASSET_LOAD_TIMINGS.length;
+  return {
+    mark(name) {
+      const now = Date.now();
+      marks.push(`${name};dur=${now - last}`);
+      last = now;
+    },
+    header() {
+      const loads = ASSET_LOAD_TIMINGS.slice(firstLoad).map(
+        (load) => `asset;desc="${load.path.replace(/[^\w./-]/g, "")}";dur=${load.fetchMs + load.bodyMs}, asset-body;desc="${load.path.replace(/[^\w./-]/g, "")}";dur=${load.bodyMs}`
+      );
+      return [...marks, ...loads, `isolate;desc="req ${isolateRequestCount} age ${Math.round((Date.now() - isolateStartedAt) / 1000)}s"`].join(", ");
+    }
+  };
+}
+
 export async function onRequest(context) {
   const { request, env, next } = context;
   const url = new URL(request.url);
+  isolateRequestCount += 1;
+  const timer = renderTimer();
 
   // Safety net for www→apex host normalization; if a Cloudflare edge redirect
   // rule exists it fires before this code is reached.
@@ -6888,11 +7048,13 @@ export async function onRequest(context) {
   }
 
   const route = await routeForPath(pathname, env);
+  timer.mark("route");
   if (!route && /\.[a-z0-9]+$/i.test(pathname)) return next();
   const indexResponse = await env.ASSETS.fetch(new Request(new URL("/", request.url), request));
   if (!indexResponse.ok) return next();
 
   const html = await indexResponse.text();
+  timer.mark("shell");
   if (!route) {
     const injected404 = renderNotFoundHtml(html, pathname, url.origin);
     const headers = new Headers(indexResponse.headers);
@@ -6910,6 +7072,7 @@ export async function onRequest(context) {
   const needsGuideEvents = route.type === "guide" && Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2;
   const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || route.path === "/artists" || route.path === "/";
   const events = route.events || (needsEvents ? await loadEvents(env) : []);
+  timer.mark("data");
   let priceLowSeries = new Map();
   let priceMoveSeries = new Map();
   let priceWeekSeries = new Map();
@@ -6990,6 +7153,7 @@ export async function onRequest(context) {
     if (priceMovePromise) priceMoveSeries = await priceMovePromise;
     if (priceWeekPromise) priceWeekSeries = await priceWeekPromise;
   }
+  timer.mark("prices");
   const guideContent = route.type === "guide" ? await loadGuideContent(env) : {};
   // The homepage and the guides index promote /blog only while the blog has
   // something to land on. The gate is the same blogIndexIndexable() that
@@ -7024,10 +7188,13 @@ export async function onRequest(context) {
     }
     if (pilot.pathById.size) renderRoute = { ...renderRoute, indexedEventPaths: pilot.pathById };
   }
+  timer.mark("extras");
   const injected = injectRoute(html, renderRoute, url.origin, catalog, renderEvents, guideContent, env);
+  timer.mark("render");
   const headers = new Headers(indexResponse.headers);
   headers.set("Content-Type", "text/html; charset=UTF-8");
   headers.set("Cache-Control", htmlCacheControl(route));
+  headers.set("Server-Timing", timer.header());
   applySecurityHeaders(headers);
   return new Response(injected, { status: 200, headers });
 }

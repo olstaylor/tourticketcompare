@@ -1,5 +1,5 @@
 import { TRUST_ROUTES, GUIDE_ROUTES, canonicalOrigin } from "./_route-metadata.js";
-import { deriveCities } from "./_cities.js";
+import { deriveCities, citySlug } from "./_cities.js";
 import { deriveVenues } from "./_venues.js";
 import { deriveIndexableArtistCities } from "./_artist-cities.js";
 import { derivePosts as deriveBlogPosts, postIndexable as blogPostIndexable } from "./_blog.js";
@@ -23,7 +23,15 @@ function loadJsonAsset(env, pathname) {
   if (!env || typeof env !== "object") return fetchJsonAsset(env, pathname);
   if (!assetsByEnv.has(env)) assetsByEnv.set(env, new Map());
   const cache = assetsByEnv.get(env);
-  if (!cache.has(pathname)) cache.set(pathname, fetchJsonAsset(env, pathname).catch(() => null));
+  if (!cache.has(pathname)) {
+    // A failed load is not memoised, so one transient ASSETS error cannot
+    // blank the file for every later read against this env.
+    const load = fetchJsonAsset(env, pathname).catch(() => null).then((value) => {
+      if (value === null) cache.delete(pathname);
+      return value;
+    });
+    cache.set(pathname, load);
+  }
   return cache.get(pathname);
 }
 
@@ -145,8 +153,13 @@ export function artistFactsBySlug(events, now = Date.now()) {
   const facts = new Map();
   for (const [slug, rows] of grouped) {
     rows.sort((a, b) => a.showMs - b.showMs);
-    const cities = new Set(rows.map(({ event }) => String(event.city || "").trim().toLowerCase()).filter(Boolean));
-    const localDates = rows.map(({ event }) => resolveEventLocalDate(event).iso).filter(Boolean);
+    // Country-qualified, as the city pages are: Birmingham UK and Birmingham
+    // US are two cities.
+    const cities = new Set(rows.filter(({ event }) => String(event.city || "").trim()).map(({ event }) => citySlug(event.city, event.country)));
+    // A range is printed only when every counted date resolves to a venue-local
+    // day; otherwise an unresolved first or last show would shorten it.
+    const localDates = rows.map(({ event }) => resolveEventLocalDate(event).iso);
+    const allDatesResolved = localDates.every(Boolean);
     const tours = [...new Set(rows.map(({ event }) => String(event.tour_name || "").trim()).filter(Boolean))];
     const nextOnsaleMs = rows
       .map(({ event }) => Date.parse(String(event.public_onsale_at || "").trim()))
@@ -155,8 +168,8 @@ export function artistFactsBySlug(events, now = Date.now()) {
     facts.set(slug, {
       showCount: rows.length,
       cityCount: cities.size,
-      firstDate: localDates[0] || "",
-      lastDate: localDates[localDates.length - 1] || "",
+      firstDate: allDatesResolved ? localDates[0] : "",
+      lastDate: allDatesResolved ? localDates[localDates.length - 1] : "",
       tours: tours.slice(0, MAX_TOUR_NAMES),
       moreTours: Math.max(0, tours.length - MAX_TOUR_NAMES),
       nextOnsale: Number.isFinite(nextOnsaleMs) ? new Date(nextOnsaleMs).toISOString().slice(0, 16).replace("T", " ") : ""
@@ -257,8 +270,10 @@ export async function onRequestGet({ request, env }) {
     )
   ];
 
+  // These four already lead the "Comparison methodology" section below.
+  const methodologyPaths = new Set(["/compare-concert-ticket-prices", "/how-it-works", "/editorial-policy", "/affiliate-disclosure"]);
   const trustLines = Object.entries(TRUST_ROUTES)
-    .filter(([path, route]) => path !== "/" && route.indexable)
+    .filter(([path, route]) => path !== "/" && !methodologyPaths.has(path) && route.indexable)
     .map(([path, route]) => linkLine(origin, path, route.title.replace(" | TourTicketCompare", ""), route.description));
 
   const body = `# TourTicketCompare

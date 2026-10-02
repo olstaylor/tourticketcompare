@@ -406,10 +406,12 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(!/Ticket Liquidator\s*\$/.test(body), "a price-display-disabled lane never reaches the table");
   assert(!/SeatGeek\s*\$\d/.test(body), "SeatGeek never carries a price");
 
-  // The panel the internal-link audit depends on keeps its two required
-  // markers. It is compressed, never removed: audit-internal-links.mjs fails an
-  // artist-city page that is missing either string.
-  assert(body.includes("At a glance:") && body.includes("Short answer:"), "the at-a-glance panel keeps the markers the internal-link audit requires");
+  // The panel the internal-link audit depends on keeps its required heading.
+  // It is compressed, never removed: audit-internal-links.mjs fails an
+  // artist-city page that is missing it. The "Short answer:" label is gone
+  // (2026-10-02): a label announcing an answer added nothing to the answer.
+  assert(body.includes("At a glance:"), "the at-a-glance panel keeps the heading the internal-link audit requires");
+  assert(!body.includes("Short answer:"), "the summary leads with the fact, not a label announcing it");
 
   // Say each fact once. The table above lists every tracked date and names the
   // venue, so the three cards that restate it are gone and the lead no longer
@@ -418,14 +420,14 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     assert(!body.includes(card), `"${card}" is not reprinted as a card beside the table that already states it`);
   }
   assert(
-    body.includes("most recent event record on this page was checked"),
+    body.includes("Latest date check:"),
     "the one fact the table does not carry \u2014 event-record verification \u2014 survives the compression"
   );
   assert(
-    /not when a price was captured/.test(body),
+    /Each price above shows its own capture time/.test(body),
     "the panel distinguishes event-record verification from price capture time"
   );
-  const lead = text((page.main.match(/<p><strong>Short answer:<\/strong>([\s\S]*?)<\/p>/) || [])[1] || "");
+  const lead = text((page.main.match(/<p class="artist-city-summary__lead">([\s\S]*?)<\/p>/) || [])[1] || "");
   assert(lead.includes(`TourTicketCompare tracks 2 upcoming shows for ${ARTIST.name} in ${RUN_CITY}`), "the lead still states the count, which the table only implies");
   assert(!lead.includes("Fixture Arena"), "the lead drops the venue the table names in its own lead");
   assert(!/Sep 10, 2026 to/.test(lead), "the lead drops the date range the table states row by row");
@@ -511,8 +513,8 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   for (const card of ["Next tracked date", "Tracked date range", "Verification recency"]) {
     assert(!body.includes(card), `"${card}" is not reprinted as a card`);
   }
-  assert(body.includes("most recent event record on this page was checked"), "the summary keeps the event-record verification date");
-  const unpricedLead = text((page.main.match(/<p><strong>Short answer:<\/strong>([\s\S]*?)<\/p>/) || [])[1] || "");
+  assert(body.includes("Latest date check:"), "the summary keeps the event-record verification date");
+  const unpricedLead = text((page.main.match(/<p class="artist-city-summary__lead">([\s\S]*?)<\/p>/) || [])[1] || "");
   assert(
     unpricedLead.includes("Fixture Arena") && /Sep 10, 2026 to/.test(unpricedLead),
     "the lead keeps the venue and date range when no table states them"

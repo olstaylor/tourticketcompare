@@ -27,6 +27,7 @@ import {
   extractGeneratedFreshnessFindings,
   extractHealthFindings,
   extractLinkFindings,
+  extractProviderUrlFindings,
   fingerprintFor,
   fingerprintFromBody,
   markerFor,
@@ -42,6 +43,26 @@ const flag = (name) => {
 const SELF_TEST = argv.includes("--self-test");
 const DRY_RUN = argv.includes("--dry-run");
 
+// GitHub does not reliably attach a label that has never been created. New
+// finding types must be usable on their first production run, without manual
+// repository label setup. Only labels derived from trusted policy are allowed.
+export async function ensureQueueLabels(github, labels) {
+  const allowed = new Set(Object.keys(FINDING_TYPES).flatMap((type) => classify({ type }).labels));
+  for (const name of [...new Set(labels)]) {
+    if (!allowed.has(name)) throw new Error(`Refusing an unknown queue label: ${name}`);
+    const route = `/labels/${encodeURIComponent(name)}`;
+    try { await github("GET", route); continue; }
+    catch (error) { if (!/ 404: /.test(error.message)) throw error; }
+    try {
+      await github("POST", "/labels", { name, color: "D4C5F9", description: "Maintenance work queue classification" });
+    } catch (error) {
+      // Another sensor may have created it between the read and write.
+      if (!/ 422: /.test(error.message)) throw error;
+      await github("GET", route);
+    }
+  }
+}
+
 async function readJsonIfPresent(path) {
   if (!path) return null;
   try {
@@ -52,9 +73,15 @@ async function readJsonIfPresent(path) {
   }
 }
 
-export async function collectFindings({ healthPath, linksPath, generatedPath }) {
+export async function collectFindings({ healthPath, linksPath, generatedPath, providerUrlsPath }) {
   const findings = [];
   const sources = [];
+  const providerUrls = await readJsonIfPresent(providerUrlsPath);
+  if (providerUrls) {
+    const extracted = extractProviderUrlFindings(providerUrls);
+    findings.push(...extracted);
+    sources.push({ source: "provider-url-coverage", path: providerUrlsPath, findings: extracted.length });
+  }
   const health = await readJsonIfPresent(healthPath);
   if (health) {
     const extracted = extractHealthFindings(health);
@@ -73,6 +100,7 @@ export async function collectFindings({ healthPath, linksPath, generatedPath }) 
     findings.push(...extracted);
     sources.push({ source: "generated-freshness", path: generatedPath, findings: extracted.length });
   }
+  findings.sort((a, b) => (classify(a).priority ?? "P3").localeCompare(classify(b).priority ?? "P3"));
   return { findings, sources };
 }
 
@@ -584,10 +612,11 @@ async function main() {
   const { findings, sources } = await collectFindings({
     healthPath: flag("--health"),
     linksPath: flag("--links"),
-    generatedPath: flag("--generated")
+    generatedPath: flag("--generated"),
+    providerUrlsPath: flag("--provider-urls")
   });
   if (!sources.length) {
-    console.error("Nothing to read. Pass --health, --links and/or --generated <path>.");
+    console.error("Nothing to read. Pass --health, --links, --generated or --provider-urls <path>.");
     process.exit(2);
   }
 
@@ -648,6 +677,8 @@ async function main() {
     activeSources: sources.map((s) => s.source)
   });
   console.log(renderPlan(plan, sources));
+
+  await ensureQueueLabels(github, [...plan.create, ...plan.update, ...plan.reopen].flatMap((entry) => entry.payload.labels));
 
   for (const entry of plan.create) {
     const issue = await github("POST", "/issues", {

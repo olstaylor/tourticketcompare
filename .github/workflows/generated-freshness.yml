@@ -64,9 +64,13 @@ jobs:
         run: |
           node scripts/check-generated-freshness.mjs --self-test
           node scripts/materialize-work-queue.mjs --self-test
+          node scripts/provider-url-work.test.mjs
 
       - name: Check generated artefacts against their sources
         run: node scripts/check-generated-freshness.mjs --json generated-freshness-findings.json
+
+      - name: Report upcoming provider URL gaps
+        run: node scripts/report-provider-url-work.mjs --json .audit/provider-url-findings.json
 
       # Fails the run if the workspace is not exactly as checked out. The probe
       # restores everything it regenerates, and a leak would mean a later step
@@ -84,4 +88,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: node scripts/materialize-work-queue.mjs --generated generated-freshness-findings.json
+        run: node scripts/materialize-work-queue.mjs --generated generated-freshness-findings.json --provider-urls .audit/provider-url-findings.json
+
+      - name: Preserve complete provider URL coverage evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: provider-url-coverage
+          path: .audit/provider-url-findings.json

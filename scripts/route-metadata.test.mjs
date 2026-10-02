@@ -17,6 +17,7 @@ import {
   fitTitleToBudget,
   withoutParentheticalQualifier,
   artistPageTitle,
+  artistTourLabel,
   eventLocalYear,
   yearRangeLabel
 } from "../functions/_route-metadata.js";
@@ -194,6 +195,40 @@ assert(
 );
 const longName = { name: "A Very Long Artist Name That Goes On And On", seo_title: "" };
 assert(artistPageTitle(longName, "2026–2027").length <= TITLE_LENGTH_LIMIT, "never over budget");
+
+// ─── artistTourLabel + tour-named artist titles ─────────────────────────────
+assert(artistTourLabel(["The Unraveled Tour", "The Unraveled Tour"]) === "The Unraveled Tour", "one shared tour name");
+assert(artistTourLabel(["The Romantic Tour", "", ""]) === "", "a name on under half the dates is not the board's tour");
+assert(artistTourLabel(["The Romantic Tour", ""]) === "The Romantic Tour", "exactly half the dates is enough");
+assert(artistTourLabel(["Tour A", "Tour B"]) === "", "two tours on one board name neither");
+assert(artistTourLabel([" Tour A ", "Tour A", null]) === "Tour A", "names are trimmed before comparing");
+assert(artistTourLabel([]) === "" && artistTourLabel(undefined) === "", "no dates, no tour");
+
+const olivia = { name: "Olivia Rodrigo", seo_title: "Olivia Rodrigo Tickets & Tour Dates | TourTicketCompare" };
+assert(
+  artistPageTitle(olivia, "2026–2027", "The Unraveled Tour") === "Olivia Rodrigo Tickets 2026–2027 | The Unraveled Tour Dates",
+  "a shared tour name replaces the generic tail"
+);
+const oasis = { name: "Oasis", seo_title: "Oasis Tickets & Tour Dates | TourTicketCompare" };
+assert(
+  artistPageTitle(oasis, "2027", "Oasis Live '27") === "Oasis Tickets 2027 | Oasis Live '27 Tour Dates",
+  "\"Tour\" is appended only when the name lacks it"
+);
+const gracie = { name: "Gracie Abrams", seo_title: "Gracie Abrams Tickets & Tour Dates | TourTicketCompare" };
+assert(
+  artistPageTitle(gracie, "2026–2027", "The Look at My Life Tour") === "Gracie Abrams Look at My Life Tour Tickets 2026–2027",
+  "an over-budget tour tail falls back to the tour-led query form, dropping a leading \"The\""
+);
+assert(
+  artistPageTitle(harry, "2026–2027", "") === "Harry Styles Tickets 2026–2027 | Compare Prices & Tour Dates",
+  "no shared tour keeps the generic title"
+);
+assert(artistPageTitle(custom, "2026", "Oasis Live '27") === custom.seo_title, "a hand-written title is never rewritten, tour or not");
+assert(artistPageTitle(bts, "", "Some Tour") === bts.seo_title, "no upcoming dates ignores the tour");
+assert(
+  artistPageTitle(longName, "2026–2027", "An Extremely Long Tour Name For Testing Budgets").length <= TITLE_LENGTH_LIMIT,
+  "a tour title is never over budget"
+);
 
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 

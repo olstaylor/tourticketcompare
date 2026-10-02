@@ -4,6 +4,9 @@ h1: 'Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets'
 description: Compare Ticketmaster, SeatGeek and Vivid Seats by ticket type, current total, delivery and buyer protection before choosing a provider.
 status: published
 date_published: 2026-06-11
+comparison_providers:
+  - seatgeek
+  - vivid-seats
 sources:
   - name: 'Rule on Unfair or Deceptive Fees: Frequently Asked Questions'
     publisher: US Federal Trade Commission

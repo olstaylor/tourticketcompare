@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { pathToFileURL } from 'node:url';
+import { createSnapshotSweep, quotaHeaders, safeFetchError, reportSnapshotStats } from './lib/tm-event-snapshot.mjs';
 import { includePastFromEnv, longPastEvent, pastRecheckDue, skipInSweep, PAST_RECHECK_DAYS } from './lib/tm-sweep-window.mjs';
 
 const DEFAULT_BASE = 'https://app.ticketmaster.com/discovery/v2';
@@ -12,6 +14,8 @@ const jsonFlagIndex = argv.indexOf('--json');
 const jsonOutPath = jsonFlagIndex >= 0 ? (argv[jsonFlagIndex + 1] || null) : null;
 const emitJson = jsonFlagIndex >= 0;
 const selfTest = argv.includes('--self-test');
+const snapshotOutIndex = argv.indexOf('--snapshot-out');
+const snapshotOutPath = snapshotOutIndex >= 0 ? argv[snapshotOutIndex + 1] : null;
 const requestDelayMs = Number.parseInt(process.env.TM_REQUEST_DELAY_MS || '300', 10);
 const requestTimeoutMs = Number.parseInt(process.env.TM_REQUEST_TIMEOUT_MS || '15000', 10);
 
@@ -40,11 +44,11 @@ function isDiscoveryFormatId(value) {
 // `ticketmaster_discovery_event_id` field; fall back to `ticketmaster_event_id`
 // only when it is itself Discovery-format. Returns null when no usable Discovery
 // id exists — those events are reported as "unresolvable", never "missing".
-function discoveryIdFor(event) {
+export function discoveryIdFor(event) {
   const explicit =
     clean(event?.ticketmaster_discovery_event_id) ||
     clean(event?.provider_links?.ticketmaster?.discovery_event_id);
-  if (explicit) return { id: explicit, source: 'discovery_event_id' };
+  if (isDiscoveryFormatId(explicit)) return { id: explicit, source: 'discovery_event_id' };
   const legacy = clean(event?.ticketmaster_event_id);
   if (isDiscoveryFormatId(legacy)) return { id: legacy, source: 'ticketmaster_event_id' };
   return null;
@@ -73,7 +77,7 @@ async function loadArtistEvents(slug) {
   }
 }
 
-async function fetchEvent(apiKey, base, eventId) {
+async function fetchEvent(apiKey, base, eventId, sweep) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), requestTimeoutMs);
   const url = `${base}/events/${encodeURIComponent(eventId)}.json?apikey=${encodeURIComponent(apiKey)}`;
@@ -84,20 +88,23 @@ async function fetchEvent(apiKey, base, eventId) {
       signal: controller.signal,
       headers: { 'user-agent': 'TourTicketCompareAudit/1.0 (+https://tourticketcompare.com)' }
     });
+    sweep.observeResponse(response);
+    const quota = quotaHeaders(response.headers);
     const status = response.status;
     if (status === 404 || status === 410) {
-      return { status, exists: false, data: null };
+      return { status, exists: false, data: null, quota };
     }
     if (!response.ok) {
-      return { status, exists: null, error: `HTTP ${status}`, data: null };
+      return { status, exists: null, error: `HTTP ${status}`, data: null, quota };
     }
     const data = await response.json().catch(() => null);
-    return { status, exists: true, data };
+    return { status, exists: true, data, quota };
   } catch (error) {
+    sweep.observeResponse(null);
     return {
       status: null,
       exists: null,
-      error: error?.name === 'AbortError' ? `timeout after ${requestTimeoutMs}ms` : String(error?.message || error),
+      error: safeFetchError(error, requestTimeoutMs),
       data: null
     };
   } finally {
@@ -159,7 +166,7 @@ function normalizeVenue(name) {
 // e.g. a sold-out show going `offsale` — is not a data error.
 const ACTIONABLE_STATUSES = new Set(['cancelled', 'canceled', 'postponed', 'rescheduled']);
 
-function compareLocal(localEvent, remote) {
+export function compareLocal(localEvent, remote) {
   const diffs = [];
   if (!remote?.data) return diffs;
 
@@ -238,6 +245,7 @@ async function main() {
   }
   const base = clean(process.env.TICKETMASTER_DISCOVERY_BASE_URL || DEFAULT_BASE).replace(/\/+$/, '');
 
+  const sweep = createSnapshotSweep({ base, secrets: [apiKey] });
   const slugs = await loadIndexedArtistSlugs();
   console.log(`Auditing TM events for ${slugs.length} indexed artists...`);
 
@@ -269,6 +277,7 @@ async function main() {
         // URL slug). The Discovery API cannot confirm or deny this event, so we
         // must not report it as missing. Surface it separately for backfill.
         totalUnresolvable += 1;
+        sweep.unresolvable(event);
         unresolvable.push({
           id: event.id,
           ticketmaster_event_id: clean(event.ticketmaster_event_id),
@@ -286,7 +295,7 @@ async function main() {
         continue;
       }
       const id = resolved.id;
-      const result = await fetchEvent(apiKey, base, id);
+      const result = await sweep.get(id, () => fetchEvent(apiKey, base, id, sweep));
       totalChecked += 1;
       if (result.exists === false) {
         totalMissing += 1;
@@ -317,7 +326,7 @@ async function main() {
           });
         }
       }
-      if (requestDelayMs > 0) await sleep(requestDelayMs);
+      if (result.source === 'direct' && requestDelayMs > 0) await sleep(requestDelayMs);
     }
 
     perArtist.push({
@@ -337,7 +346,12 @@ async function main() {
     ? 'TM_SWEEP_INCLUDE_PAST=1: long-past events were fetched too.'
     : `Skipped ${totalSkippedPast} long-past event(s) not due their ${PAST_RECHECK_DAYS}-day re-check (set TM_SWEEP_INCLUDE_PAST=1 for a full sweep).`);
 
+  sweep.stats.skipped_past = totalSkippedPast;
+  if (snapshotOutPath) await sweep.write(snapshotOutPath);
+  await reportSnapshotStats(sweep.stats);
+
   const summary = {
+    requests: sweep.stats,
     checked_at: new Date().toISOString(),
     artists: perArtist,
     totals: {
@@ -361,10 +375,10 @@ async function main() {
       console.log(JSON.stringify(summary, null, 2));
     }
   }
-  return 0;
+  return totalErrors > 0 ? 1 : 0;
 }
 
-main()
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main()
   .then((code) => process.exit(code ?? 0))
   .catch((err) => {
     console.error('audit-tm-events failed:', err);

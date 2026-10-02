@@ -4,7 +4,7 @@
 // alert it sends, from GitHub Actions) and functions/api/unsubscribe.js (records
 // an opt-out from a link in that email). Both run the same idempotent schema
 // first, so the tables create themselves on first use and no manual migration
-// is needed. migrations/0012_email_alerts.sql is the same SQL, for reference
+// is needed. migrations/0013_email_alerts.sql is the same SQL, for reference
 // and for applying by hand.
 //
 // An unsubscribe link carries a random per-email token stored on the send row,

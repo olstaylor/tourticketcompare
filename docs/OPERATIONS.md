@@ -161,6 +161,31 @@ Because no writer failure is involved, nothing in the snapshot workflows can det
 
 **The hourly cron did not, on its own, revive the Vivid lane.** After it shipped at 11:24Z that day the marketplace lane resumed normally, but Vivid's 11:47Z and 12:47Z ticks both failed to fire — 7h37m with no run, while its sibling ran on schedule from the same repository. So this is not general scheduler load: GitHub was simply not running that one workflow, and no cron interval can fix a workflow that is never invoked. What restored the marketplace lanes was its `push` trigger firing on merge, which Vivid lacked. Vivid now carries the same trigger on its own workflow file and `scripts/snapshot-vividseats-prices.mjs`, so any change to either bootstraps fresh rows on `main`. Treat that as a recovery lever, not a fix: it makes a stalled lane restorable by a commit rather than only by a manual dispatch, and it does nothing to make the schedule itself reliable. If ticks keep going missing, move the writers to a Cloudflare Cron Trigger and take GitHub's scheduler out of the critical path.
 
+### Daily price rollup (`provider_pricing_daily`)
+
+The 90-day prune above bounds `provider_pricing_history`, which is right for the sparkline and wrong for anything longitudinal — the rows that age out are the ones that can never be re-collected. `scripts/rollup-provider-pricing-daily.mjs` (migration 0012) summarises history into the never-pruned `provider_pricing_daily`: one row per event × provider × source × currency × UTC day, carrying min/max/first/last of `low_price` and the observation count behind them. It reads history and writes only the rollup.
+
+Backfill and steady-state are the same command; it is idempotent per UTC day. Dry-run by default.
+
+```bash
+npm run prices:rollup:daily -- --since 2026-06-01          # preview a full backfill
+npm run prices:rollup:daily -- --since 2026-06-01 --apply  # one-off backfill
+npm run prices:rollup:daily:apply                          # steady state: today + yesterday
+```
+
+Two rules make a re-run safe and are the reason this can be run at any time, in any order:
+
+- A day is only replaced by a summary built from **at least as many observations**, so re-running over a window whose raw rows have since been pruned is a no-op rather than silent data loss.
+- A known `event_date` is never overwritten with NULL, so days that predate the writers carrying the column pick it up from any later row that has it.
+
+Rows below `MIN_PLAUSIBLE_LISTED_PRICE` are excluded, matching the public read path — the same floor `/api/price-history` applies on read, so the rollup never records an observation the site would refuse to display.
+
+**Scheduled inside both price-snapshot workflows**, provider-scoped, immediately *before* each lane's retention prune — so observations about to age out are summarised rather than lost, and the three concurrent snapshot jobs never contend on the same rollup rows. The step is `continue-on-error`: a snapshot run's contract is writing prices, so a rollup failure leaves the lane green and the prices written. It surfaces as a stale rollup, never as a dark price badge, and each run prints eligible/written/zero-row-reason to the job summary.
+
+That makes the rollup self-maintaining from the day this deploys, but it does **not** reach backwards. Run the one-off backfill once, before the prune reaches the oldest observations — the rows it would collect cannot be re-collected afterwards.
+
+**Migration 0012 can be applied before or after the code deploys.** Both snapshot writers probe the live schema once per run and emit the column set the database actually has, so a writer never fails because a migration has not landed yet; until it does, `event_date` is simply not recorded and the rollup reports that the table is missing and exits clean. The probe fails closed to the previous column set on purpose — a failed history insert takes the cache upsert down with it, and at 24h freshness that blanks every price on the site.
+
 ### Daily audit runtime budget
 
 The `audit` job's cost is dominated by the URL liveness check, and that cost is linear in **unique outbound URLs**, not in artists or providers. At 1,369 events the dataset carries 4,676 unique URLs across 18 hosts — 3.42 URLs per event, since each event can hold a Ticketmaster, SeatGeek, Vivid Seats and `source_url` destination plus `provider_links` entries for TicketNetwork, Ticket Liquidator and StubHub International. Measured per-URL latency is ~0.51s, HEAD plus the confirming ranged GET included.

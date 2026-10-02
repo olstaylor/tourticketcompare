@@ -133,7 +133,9 @@ function selfTest() {
     [report.candidates.find((c) => c.slug === "launcher")?.wouldIndex === true, "a multi-city priced launch would index"],
     [report.candidates.find((c) => c.slug === "thin")?.reasons.includes("below_price_coverage_threshold"), "an unpriced launch says why it would stay noindex"],
     [body.includes("**The Launchers** (`launcher`) · 7 dates with a public on-sale 2026-09-26"), "the issue names the artist and the launch"],
-    [body.includes("### Live guides (1)"), "the live guides are listed"]
+    [body.includes(`### Live guides (${PRICE_GUIDE_ARTISTS.length})`) &&
+      PRICE_GUIDE_ARTISTS.every((slug) => body.includes(`\`${slug}\` → /artists/${slug}/ticket-prices`)),
+      "every approved guide is listed"]
   ];
   const failed = checks.filter(([ok]) => !ok).map(([, message]) => message);
   console.log(`[price-guide-candidates] self-test: ${failed.length ? `FAILED — ${failed.join("; ")}` : `${checks.length} assertions passed`}`);

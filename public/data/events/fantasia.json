@@ -46,12 +46,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293963",
+        "url": "https://www.ticketnetwork.com/en/p/8293963",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kA8vPuOGAuB0mR",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293963"
   },
   {
     "id": "tm-fantasia-2027-norfolk-vv1avzkfmgkdn5kye",
@@ -100,12 +108,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293964",
+        "url": "https://www.ticketnetwork.com/en/p/8293964",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfMGkdn5kyE",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293964"
   },
   {
     "id": "tm-fantasia-2027-belmont-park-1ayzkfugkdwafjv",
@@ -208,12 +224,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293966",
+        "url": "https://www.ticketnetwork.com/en/p/8293966",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfMGkegJGo6",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293966"
   },
   {
     "id": "tm-fantasia-2027-new-orleans-g5viz_k6css2k",
@@ -262,12 +286,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293967",
+        "url": "https://www.ticketnetwork.com/en/p/8293967",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_K6CsS2K",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293967"
   },
   {
     "id": "tm-fantasia-2027-biloxi-g5viz_kxokyjj",
@@ -316,12 +348,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293969",
+        "url": "https://www.ticketnetwork.com/en/p/8293969",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KxokyJj",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293969"
   },
   {
     "id": "tm-fantasia-2027-ontario-vv1aazkfzgketkqbz",
@@ -370,12 +410,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294732",
+        "url": "https://www.ticketnetwork.com/en/p/8294732",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkfzGkeTkqbZ",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294732"
   },
   {
     "id": "tm-fantasia-2027-oakland-g5vyz_krz5jaf",
@@ -424,12 +472,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294733",
+        "url": "https://www.ticketnetwork.com/en/p/8294733",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_Krz5JAF",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294733"
   },
   {
     "id": "tm-fantasia-2027-fort-worth-vvg1yz_kbtlwh3",
@@ -478,12 +534,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293970",
+        "url": "https://www.ticketnetwork.com/en/p/8293970",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KbTLWH3",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293970"
   },
   {
     "id": "tm-fantasia-2027-atlanta-vvg1zz_kqs5ty6",
@@ -532,12 +596,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293971",
+        "url": "https://www.ticketnetwork.com/en/p/8293971",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KQs5tY6",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293971"
   },
   {
     "id": "tm-fantasia-2027-orlando-1aefz_3gkx--7oo",
@@ -586,12 +658,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293972",
+        "url": "https://www.ticketnetwork.com/en/p/8293972",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_3GkX--7Oo",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293972"
   },
   {
     "id": "tm-fantasia-2027-saint-louis-vv17bz_3gktv8xq0",
@@ -694,12 +774,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293975",
+        "url": "https://www.ticketnetwork.com/en/p/8293975",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_Krb7nuQ",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293975"
   },
   {
     "id": "tm-fantasia-2027-jacksonville-1axzkfwgkeynp6z",
@@ -748,12 +836,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293976",
+        "url": "https://www.ticketnetwork.com/en/p/8293976",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkfwGkeyNP6z",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293976"
   },
   {
     "id": "tm-fantasia-2027-hollywood-vvg1vz_k9lsilt",
@@ -802,12 +898,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293977",
+        "url": "https://www.ticketnetwork.com/en/p/8293977",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_K9lSiLT",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293977"
   },
   {
     "id": "tm-fantasia-2027-phoenix-1a_zkfmgke0qgen",
@@ -856,12 +960,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294734",
+        "url": "https://www.ticketnetwork.com/en/p/8294734",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfMGke0QgeN",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294734"
   },
   {
     "id": "tm-fantasia-2027-charlotte-g5evz_k5a0ajy",
@@ -910,12 +1022,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293978",
+        "url": "https://www.ticketnetwork.com/en/p/8293978",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_K5A0aJy",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293978"
   },
   {
     "id": "tm-fantasia-2027-raleigh-g5evz_kx4nbzb",
@@ -964,12 +1084,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293979",
+        "url": "https://www.ticketnetwork.com/en/p/8293979",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kx4nbzB",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293979"
   },
   {
     "id": "tm-fantasia-2027-chicago-vv1a7zkfugkdbhxkp",
@@ -1018,12 +1146,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293980",
+        "url": "https://www.ticketnetwork.com/en/p/8293980",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfUGkdBhXkp",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293980"
   },
   {
     "id": "tm-fantasia-2027-detroit-vv1afzkfsgkdkxfme",
@@ -1072,12 +1208,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293981",
+        "url": "https://www.ticketnetwork.com/en/p/8293981",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfSGkdkXFme",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293981"
   },
   {
     "id": "tm-fantasia-2027-providence-vv1avzkfygkdtqjz9",
@@ -1126,12 +1270,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293982",
+        "url": "https://www.ticketnetwork.com/en/p/8293982",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfYGkdtQJZ9",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293982"
   },
   {
     "id": "tm-fantasia-2027-newark-vv1aezkfugke-q6sn",
@@ -1180,11 +1332,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293983",
+        "url": "https://www.ticketnetwork.com/en/p/8293983",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfUGke-q6sN",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293983"
   }
 ]

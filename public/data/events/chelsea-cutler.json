@@ -100,12 +100,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301000",
+        "url": "https://www.ticketnetwork.com/en/p/8301000",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KUKXEzh",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301000"
   },
   {
     "id": "tm-chelsea-cutler-2027-washington-164zkfuqdzacd655",
@@ -154,12 +162,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301001",
+        "url": "https://www.ticketnetwork.com/en/p/8301001",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "164ZkfUqdZACd655",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301001"
   },
   {
     "id": "tm-chelsea-cutler-2027-washington-1avfz_kgkw7gvak",
@@ -208,12 +224,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301002",
+        "url": "https://www.ticketnetwork.com/en/p/8301002",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_KGkw7gVaK",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301002"
   },
   {
     "id": "tm-chelsea-cutler-2027-philadelphia-vv1aovpuygauryej",
@@ -262,12 +286,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301003",
+        "url": "https://www.ticketnetwork.com/en/p/8301003",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AOvPuyGAuryeJ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301003"
   },
   {
     "id": "tm-chelsea-cutler-2027-brooklyn-k7vgf_kze_vgc",
@@ -316,12 +348,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301004",
+        "url": "https://www.ticketnetwork.com/en/p/8301004",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_Kze_VGC",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301004"
   },
   {
     "id": "tm-chelsea-cutler-2027-toronto-1avzz_kgkstt7dw",
@@ -532,12 +572,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301007",
+        "url": "https://www.ticketnetwork.com/en/p/8301007",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkSWYs5j",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301007"
   },
   {
     "id": "tm-chelsea-cutler-2027-dallas-vvg1yz_kraozwg",
@@ -586,12 +634,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301008",
+        "url": "https://www.ticketnetwork.com/en/p/8301008",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KRAozwg",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301008"
   },
   {
     "id": "tm-chelsea-cutler-2027-phoenix-16v0z_koag7ux58",
@@ -640,12 +696,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301009",
+        "url": "https://www.ticketnetwork.com/en/p/8301009",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v0Z_KOAG7UX58",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301009"
   },
   {
     "id": "tm-chelsea-cutler-2027-los-angeles-vv1aazkfzgkdgncya",
@@ -694,12 +758,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301010",
+        "url": "https://www.ticketnetwork.com/en/p/8301010",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkfzGkdGNCya",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301010"
   },
   {
     "id": "tm-chelsea-cutler-2027-san-diego-vvg1iz_ks1c6a3",
@@ -748,12 +820,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301011",
+        "url": "https://www.ticketnetwork.com/en/p/8301011",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_KS1c6A3",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301011"
   },
   {
     "id": "tm-chelsea-cutler-2027-boise-g5vzz_ksxzvbs",

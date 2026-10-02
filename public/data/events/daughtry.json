@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056795",
+        "url": "https://www.ticketnetwork.com/en/p/8056795",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_GRFdN3C",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056795"
   },
   {
     "id": "tm-daughtry-2026-beverly-z7r9jz1a7pyjj",
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8057257",
+        "url": "https://www.ticketnetwork.com/en/p/8057257",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PYjJ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057257"
   },
   {
     "id": "tm-daughtry-2026-uncasville-g5vvz_gld3qfv",
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056796",
+        "url": "https://www.ticketnetwork.com/en/p/8056796",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_GlD3qFV",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056796"
   },
   {
     "id": "tm-daughtry-2026-waterloo-k7vgf_gm6sksu",
@@ -311,11 +335,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056798",
+        "url": "https://www.ticketnetwork.com/en/p/8056798",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_GSKKnq7",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056798"
   },
   {
     "id": "tm-daughtry-2026-huntington-k7vgf_geicgms",
@@ -417,11 +449,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8057258",
+        "url": "https://www.ticketnetwork.com/en/p/8057258",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_uejshYG",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057258"
   },
   {
     "id": "tm-daughtry-2026-danville-vvg17z_gy_imrz",
@@ -470,11 +510,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056801",
+        "url": "https://www.ticketnetwork.com/en/p/8056801",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GY_Imrz",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056801"
   },
   {
     "id": "tm-daughtry-2026-florence-17aov0g6gj3vrxt",
@@ -523,11 +571,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8044153",
+        "url": "https://www.ticketnetwork.com/en/p/8044153",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G6GJ3vrxt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8044153"
   },
   {
     "id": "tm-daughtry-2026-greensburg-z7r9jz1aazman",
@@ -682,11 +738,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056802",
+        "url": "https://www.ticketnetwork.com/en/p/8056802",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1fZ_GmYO5fY",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056802"
   },
   {
     "id": "tm-daughtry-2026-la-vista-17fzv0g6gnabvqc",
@@ -788,11 +852,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056805",
+        "url": "https://www.ticketnetwork.com/en/p/8056805",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_GwkrFot",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056805"
   },
   {
     "id": "tm-daughtry-2026-kansas-city-vvg1bz_gsftuwt",
@@ -841,11 +913,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056806",
+        "url": "https://www.ticketnetwork.com/en/p/8056806",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_GSFTUwT",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056806"
   },
   {
     "id": "tm-daughtry-2026-oklahoma-city-z7r9jz1a7px8p",
@@ -947,11 +1027,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8057262",
+        "url": "https://www.ticketnetwork.com/en/p/8057262",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PxAK",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057262"
   },
   {
     "id": "tm-daughtry-2026-napa-g5vyz_gnjfn19",
@@ -1000,11 +1088,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056807",
+        "url": "https://www.ticketnetwork.com/en/p/8056807",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GnJfN19",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056807"
   },
   {
     "id": "tm-daughtry-2026-anaheim-vvg10z_grix-n9",
@@ -1053,11 +1149,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056808",
+        "url": "https://www.ticketnetwork.com/en/p/8056808",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GRix-N9",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056808"
   },
   {
     "id": "tm-daughtry-2026-tucson-z7r9jz1a7pxk_",
@@ -1159,11 +1263,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056809",
+        "url": "https://www.ticketnetwork.com/en/p/8056809",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_GSUpJ1v",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056809"
   },
   {
     "id": "tm-daughtry-2026-dallas-vvg1yz_gea3drr",
@@ -1212,11 +1324,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056810",
+        "url": "https://www.ticketnetwork.com/en/p/8056810",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_GEA3DRR",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056810"
   },
   {
     "id": "tm-daughtry-2027-pine-bluff-g5viz_kyugjqo",
@@ -1265,12 +1385,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295475",
+        "url": "https://www.ticketnetwork.com/en/p/8295475",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KYUgJQo",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295475"
   },
   {
     "id": "tm-daughtry-2027-orlando-1kfovpgdga2huxq",
@@ -1319,12 +1447,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295476",
+        "url": "https://www.ticketnetwork.com/en/p/8295476",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kFOvPGdGA2huxQ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295476"
   },
   {
     "id": "tm-daughtry-2027-biloxi-g5viz_ksbnt-6",
@@ -1427,12 +1563,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295478",
+        "url": "https://www.ticketnetwork.com/en/p/8295478",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KxWqqCm",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295478"
   },
   {
     "id": "tm-daughtry-2027-corpus-christi-g5diz_kxutltw",
@@ -1481,12 +1625,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295479",
+        "url": "https://www.ticketnetwork.com/en/p/8295479",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KxUTltw",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295479"
   },
   {
     "id": "tm-daughtry-2027-sacramento-g5vyz_k60xnfe",
@@ -1535,12 +1687,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295481",
+        "url": "https://www.ticketnetwork.com/en/p/8295481",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K60Xnfe",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295481"
   },
   {
     "id": "tm-daughtry-2027-denver-g5vzz_knzyqbr",
@@ -1589,12 +1749,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295482",
+        "url": "https://www.ticketnetwork.com/en/p/8295482",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KNZYqBr",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T16:00:00Z"
+    "public_onsale_at": "2026-10-02T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295482"
   },
   {
     "id": "tm-daughtry-2027-durant-vvg1yz_kgp_ixc",
@@ -1805,12 +1973,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295486",
+        "url": "https://www.ticketnetwork.com/en/p/8295486",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16e7Z_KkfG7V38V",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295486"
   },
   {
     "id": "tm-daughtry-2027-gary-vv1aazkfygkesuefr",
@@ -1859,12 +2035,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295487",
+        "url": "https://www.ticketnetwork.com/en/p/8295487",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfyGkeSueFr",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295487"
   },
   {
     "id": "tm-daughtry-2027-detroit-vv1kezvpg_ga5zp8l",
@@ -1913,12 +2097,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295488",
+        "url": "https://www.ticketnetwork.com/en/p/8295488",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1keZvPG_GA5ZP8L",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295488"
   },
   {
     "id": "tm-daughtry-2027-hershey-vv1aezkfmgkdtwgls",
@@ -1967,12 +2159,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295489",
+        "url": "https://www.ticketnetwork.com/en/p/8295489",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfMGkdtwglS",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295489"
   },
   {
     "id": "tm-daughtry-2027-bethlehem-vv1aovpg_ga5ljzy",
@@ -2129,12 +2329,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295492",
+        "url": "https://www.ticketnetwork.com/en/p/8295492",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KhOsEA-",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295492"
   },
   {
     "id": "tm-daughtry-2027-atlanta-vvg1zz_klwyfxu",

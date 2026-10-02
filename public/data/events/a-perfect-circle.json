@@ -205,12 +205,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295085",
+        "url": "https://www.ticketnetwork.com/en/p/8295085",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPCbGAu8AWZ",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295085"
   },
   {
     "id": "tm-a-perfect-circle-2027-calgary-1av7z_kgkn55gda",
@@ -259,12 +267,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295086",
+        "url": "https://www.ticketnetwork.com/en/p/8295086",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkn55gda",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T16:00:00Z"
+    "public_onsale_at": "2026-10-02T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295086"
   },
   {
     "id": "tm-a-perfect-circle-2027-edmonton-1aozkfygkey3iuu",
@@ -313,12 +329,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295087",
+        "url": "https://www.ticketnetwork.com/en/p/8295087",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfyGkey3iUU",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T16:00:00Z"
+    "public_onsale_at": "2026-10-02T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295087"
   },
   {
     "id": "tm-a-perfect-circle-2027-winnipeg-16v7z_kjkg7bgkj",
@@ -367,12 +391,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295088",
+        "url": "https://www.ticketnetwork.com/en/p/8295088",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v7Z_KJkG7BgKJ",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295088"
   },
   {
     "id": "tm-a-perfect-circle-2027-niagara-falls-1a8zkfmgkemh_mw",
@@ -529,12 +561,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295063",
+        "url": "https://www.ticketnetwork.com/en/p/8295063",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16FZkfMA3ZAC8uka",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295063"
   },
   {
     "id": "tm-a-perfect-circle-2027-boston-vv1k7z_kr_g7rccc",
@@ -583,12 +623,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295064",
+        "url": "https://www.ticketnetwork.com/en/p/8295064",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_Kr_G7Rccc",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295064"
   },
   {
     "id": "tm-a-perfect-circle-2027-uncasville-g5vvz_khq_fxg",
@@ -637,12 +685,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295065",
+        "url": "https://www.ticketnetwork.com/en/p/8295065",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_KhQ_FXg",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295065"
   },
   {
     "id": "tm-a-perfect-circle-2027-camden-vv1aezkfzgkdun44v",
@@ -691,12 +747,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295066",
+        "url": "https://www.ticketnetwork.com/en/p/8295066",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfzGkduN44V",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295066"
   },
   {
     "id": "tm-a-perfect-circle-2027-newark-vv1aezkfzgkecfwzd",
@@ -745,12 +809,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295067",
+        "url": "https://www.ticketnetwork.com/en/p/8295067",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfzGkecfWzD",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295067"
   },
   {
     "id": "tm-a-perfect-circle-2027-charlotte-g5evz_kj8b4gy",
@@ -799,12 +871,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295068",
+        "url": "https://www.ticketnetwork.com/en/p/8295068",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kj8b4gY",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295068"
   },
   {
     "id": "tm-a-perfect-circle-2027-duluth-vvg1zz_kxwhwhz",
@@ -853,12 +933,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295069",
+        "url": "https://www.ticketnetwork.com/en/p/8295069",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KxWhwHz",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295069"
   },
   {
     "id": "tm-a-perfect-circle-2027-the-woodlands-g5diz_kjdvhi6",
@@ -961,12 +1049,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295071",
+        "url": "https://www.ticketnetwork.com/en/p/8295071",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KNjkaLN",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295071"
   },
   {
     "id": "tm-a-perfect-circle-2027-saint-louis-vv1akzkfugkdepcmi",
@@ -1069,12 +1165,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295073",
+        "url": "https://www.ticketnetwork.com/en/p/8295073",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfzGkeUTDUJ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295073"
   },
   {
     "id": "tm-a-perfect-circle-2027-chicago-vv1kjz_kf7g7lms3",
@@ -1123,12 +1227,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295074",
+        "url": "https://www.ticketnetwork.com/en/p/8295074",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kjZ_Kf7G7lMS3",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295074"
   },
   {
     "id": "tm-a-perfect-circle-2027-shakopee-1a-zkfygkehcamo",
@@ -1285,12 +1397,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295077",
+        "url": "https://www.ticketnetwork.com/en/p/8295077",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KfmPpZS",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295077"
   },
   {
     "id": "tm-a-perfect-circle-2027-portland-vvg1hz_kbfgxyu",
@@ -1339,12 +1459,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295078",
+        "url": "https://www.ticketnetwork.com/en/p/8295078",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KbFGxYU",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295078"
   },
   {
     "id": "tm-a-perfect-circle-2027-reno-1a9zkfygkembtoj",
@@ -1447,12 +1575,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295079",
+        "url": "https://www.ticketnetwork.com/en/p/8295079",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KwFsETp",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295079"
   },
   {
     "id": "tm-a-perfect-circle-2027-hollywood-vvg1iz_kj6yzfl",
@@ -1501,12 +1637,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295081",
+        "url": "https://www.ticketnetwork.com/en/p/8295081",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_Kj6Yzfl",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295081"
   },
   {
     "id": "tm-a-perfect-circle-2027-chula-vista-vvg1iz_kl8jvkq",
@@ -1555,12 +1699,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295080",
+        "url": "https://www.ticketnetwork.com/en/p/8295080",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_KL8JvKq",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295080"
   },
   {
     "id": "tm-a-perfect-circle-2027-las-vegas-1a9zkfmgkd8myho",
@@ -1609,12 +1761,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295083",
+        "url": "https://www.ticketnetwork.com/en/p/8295083",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkfMGkd8MYHo",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295083"
   },
   {
     "id": "tm-a-perfect-circle-2027-las-vegas-1a9zkfmgkd8y8h4",
@@ -1663,12 +1823,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295084",
+        "url": "https://www.ticketnetwork.com/en/p/8295084",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkfMGkd8y8H4",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295084"
   },
   {
     "id": "tm-a-perfect-circle-2027-phoenix-1a_zkfsgkd23t56",
@@ -1717,11 +1885,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295082",
+        "url": "https://www.ticketnetwork.com/en/p/8295082",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfsGkd23t56",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z"
+    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295082"
   }
 ]

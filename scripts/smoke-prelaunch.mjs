@@ -66,7 +66,7 @@ const expectedTitle = new Map([
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where available, then check the total.";
-const APP_ASSET_VERSION = "20260926a";
+const APP_ASSET_VERSION = "20261002a";
 const TTC_HOME_ASSET_VERSION = "20260924b";
 const TTC_HOME_JS_ASSET_VERSION = "20261002a";
 const TTC_SHELL_ASSET_VERSION = "20260925a";

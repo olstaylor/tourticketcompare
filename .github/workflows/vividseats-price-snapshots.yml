@@ -202,12 +202,12 @@ jobs:
           # silently stopped looks exactly like one that had nothing to do.
           node --input-type=module - "$RUNNER_TEMP/vividseats-pricing-rollup.json" <<'NODE'
           import fs from "node:fs";
-          let row = "| — | — | **step failed** | rollup did not report; prices are unaffected |";
+          let row = "| — | — | **step failed** | — | rollup did not report; prices are unaffected |";
           try {
             const s = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
-            row = `| ${s.days} | ${s.eligible_rollup_rows} | ${s.written} | ${s.zero_row_reason || "—"} |`;
+            row = `| ${s.days} | ${s.eligible_rollup_rows} | ${s.written} | ${s.failed ? `**${s.failed}** (${s.days_failed.join(", ")})` : 0} | ${s.zero_row_reason || "—"} |`;
           } catch {}
-          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `\n### Daily price rollup\n\n| Days | Eligible | Written | Zero-row reason |\n| ---: | ---: | ---: | --- |\n${row}\n`);
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `\n### Daily price rollup\n\n| Days | Eligible | Written | Failed days | Zero-row reason |\n| ---: | ---: | ---: | ---: | --- |\n${row}\n`);
           NODE
 
       # Bounded retention for the change-only history table, on apply runs

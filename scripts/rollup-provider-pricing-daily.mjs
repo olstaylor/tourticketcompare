@@ -31,9 +31,12 @@ const DEFAULT_D1_DATABASE = "tourticketcompare-demand";
 // than scanning a day across every lane. A backfill normally leaves it unset.
 const KNOWN_PROVIDERS = ["ticketnetwork", "stubhub-international", "ticket-liquidator", "vivid-seats", "seatgeek"];
 // Steady-state default. Today's UTC day is still accumulating observations and
-// yesterday's may have been closed out after the last run, so both are
-// recomputed. Re-running a day is safe by construction (see the conflict rule).
-const DEFAULT_DAYS = 2;
+// yesterday's may have been closed out after the last run; the rest of the
+// week is re-checked so a day missed by a failed run (the workflow step is
+// continue-on-error) is recovered by the next healthy one instead of aging out
+// unsummarised. Re-running a day is safe and, once it is unchanged, writes
+// nothing (see the conflict rule).
+const DEFAULT_DAYS = 7;
 // A backfill that reaches further than the raw table can possibly go is a
 // typo, not a request. The retention prune caps history at 365 days even at
 // its most generous setting.
@@ -165,43 +168,88 @@ function providerClause(provider) {
   return provider ? `\n    AND provider = '${sqlText(provider)}'` : "";
 }
 
-function rollupSql(day, provider = "") {
+// The history table is change-only: a price that stands unchanged across
+// midnight writes nothing on the new day. So each day is SEEDED with the
+// standing price it opened at, taken from the previous day's rollup row
+// (low_price_last, observed at its last_observed_at), alongside that day's own
+// change rows. That makes low_price_first / low_price_min / low_price_max true
+// for the whole day rather than only for the part after its first change, and
+// it gives an unchanged day a row of its own instead of a hole.
+//
+// A seed is not an observation: it adds 0 to `observations`, so a row with
+// observations = 0 is a carried day ("nothing changed, nothing recorded"), and
+// its first_observed_at predates the day. Carried rows are written only while
+// the event is still ahead (its known event_date is on or after the day), so a
+// date that has passed, or one whose date was never recorded, stops being
+// carried rather than asserting a price nobody is polling any more.
+//
+// Seeding from the rollup rather than the raw table keeps each statement
+// bounded to one day of history plus one day of rollup, and chains: days are
+// processed oldest first, so each day's row seeds the next.
+function dayRowsSql(day, provider = "") {
   const since = sqlText(`${day}T00:00:00`);
   const until = sqlText(`${addDays(day, 1)}T00:00:00`);
-  return `INSERT INTO provider_pricing_daily
-  (id, observed_date, event_id, artist_slug, provider, source, currency, event_date,
-   low_price_min, low_price_max, low_price_first, low_price_last,
-   observations, first_observed_at, last_observed_at, updated_at)
-SELECT
-  provider || ':' || event_id || ':' || source || ':' || currency || ':' || observed_date,
+  const previous = sqlText(addDays(day, -1));
+  const today = sqlText(day);
+  return `SELECT
+  provider || ':' || event_id || ':' || source || ':' || currency || ':' || observed_date AS id,
   observed_date, event_id, artist_slug, provider, source, currency, event_date,
   low_price_min, low_price_max, low_price_first, low_price_last,
-  observations, first_observed_at, last_observed_at, CURRENT_TIMESTAMP
+  observations, first_observed_at, last_observed_at
 FROM (
   SELECT
-    substr(observed_at, 1, 10) AS observed_date,
-    event_id, provider, source,
-    COALESCE(currency, 'USD') AS currency,
+    '${today}' AS observed_date,
+    event_id, provider, source, currency,
     MAX(artist_slug) OVER w AS artist_slug,
     MAX(event_date) OVER w AS event_date,
     MIN(low_price) OVER w AS low_price_min,
     MAX(low_price) OVER w AS low_price_max,
     FIRST_VALUE(low_price) OVER w AS low_price_first,
     LAST_VALUE(low_price) OVER w AS low_price_last,
-    COUNT(*) OVER w AS observations,
+    SUM(is_observation) OVER w AS observations,
     FIRST_VALUE(observed_at) OVER w AS first_observed_at,
     LAST_VALUE(observed_at) OVER w AS last_observed_at,
     ROW_NUMBER() OVER w AS rn
-  FROM provider_pricing_history
-  WHERE observed_at >= '${since}' AND observed_at < '${until}'
-    AND low_price IS NOT NULL AND low_price >= ${MIN_PLAUSIBLE_LISTED_PRICE}${providerClause(provider)}
+  FROM (
+    SELECT event_id, provider, source, COALESCE(currency, 'USD') AS currency, artist_slug, event_date,
+           low_price, observed_at, 1 AS is_observation
+    FROM provider_pricing_history
+    WHERE observed_at >= '${since}' AND observed_at < '${until}'
+      AND low_price IS NOT NULL AND low_price >= ${MIN_PLAUSIBLE_LISTED_PRICE}${providerClause(provider)}
+    UNION ALL
+    SELECT event_id, provider, source, currency, artist_slug, event_date,
+           low_price_last, last_observed_at, 0
+    FROM provider_pricing_daily
+    WHERE observed_date = '${previous}'${providerClause(provider)}
+  )
   WINDOW w AS (
-    PARTITION BY event_id, provider, source, COALESCE(currency, 'USD'), substr(observed_at, 1, 10)
+    PARTITION BY event_id, provider, source, currency
     ORDER BY observed_at
     ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING
   )
 )
 WHERE rn = 1
+  AND (observations > 0 OR substr(event_date, 1, 10) >= '${today}')`;
+}
+
+// The conflict rule decides whether a re-run may replace a day:
+//
+//   * more observations than the stored row: always (the day was still filling);
+//   * the same observations but different aggregates: yes (the seed was added
+//     or corrected; a prune can only ever LOWER the count, so this never lets a
+//     pruned re-run through);
+//   * a stored NULL event_date that is now known: yes, enrichment only;
+//   * otherwise nothing, so an hourly re-run over unchanged days writes nothing.
+function rollupSql(day, provider = "") {
+  return `INSERT INTO provider_pricing_daily
+  (id, observed_date, event_id, artist_slug, provider, source, currency, event_date,
+   low_price_min, low_price_max, low_price_first, low_price_last,
+   observations, first_observed_at, last_observed_at, updated_at)
+SELECT id, observed_date, event_id, artist_slug, provider, source, currency, event_date,
+  low_price_min, low_price_max, low_price_first, low_price_last,
+  observations, first_observed_at, last_observed_at, CURRENT_TIMESTAMP
+FROM (${dayRowsSql(day, provider)})
+WHERE true
 ON CONFLICT(event_id, provider, source, currency, observed_date) DO UPDATE SET
   artist_slug = excluded.artist_slug,
   event_date = COALESCE(excluded.event_date, provider_pricing_daily.event_date),
@@ -213,26 +261,18 @@ ON CONFLICT(event_id, provider, source, currency, observed_date) DO UPDATE SET
   first_observed_at = excluded.first_observed_at,
   last_observed_at = excluded.last_observed_at,
   updated_at = CURRENT_TIMESTAMP
-WHERE excluded.observations >= provider_pricing_daily.observations;`;
+WHERE excluded.observations > provider_pricing_daily.observations
+   OR (excluded.observations = provider_pricing_daily.observations AND (
+        excluded.low_price_min IS NOT provider_pricing_daily.low_price_min
+     OR excluded.low_price_max IS NOT provider_pricing_daily.low_price_max
+     OR excluded.low_price_first IS NOT provider_pricing_daily.low_price_first
+     OR excluded.low_price_last IS NOT provider_pricing_daily.low_price_last
+     OR excluded.first_observed_at IS NOT provider_pricing_daily.first_observed_at))
+   OR (provider_pricing_daily.event_date IS NULL AND excluded.event_date IS NOT NULL);`;
 }
 
-// The load-bearing safeguard. Re-running the rollup over a day whose raw rows
-// have since been pruned would otherwise overwrite a complete summary with a
-// thinner one — silently destroying the very history the table exists to keep.
-// A day can only ever be replaced by a summary built from at least as many
-// observations, so a post-prune re-run is a no-op rather than data loss.
-// COALESCE on event_date is the same instinct: a known date is never replaced
-// by NULL.
-
 function previewSql(day, provider = "") {
-  const since = sqlText(`${day}T00:00:00`);
-  const until = sqlText(`${addDays(day, 1)}T00:00:00`);
-  return `SELECT COUNT(*) AS rollup_rows, COALESCE(SUM(n), 0) AS observations FROM (
-  SELECT COUNT(*) AS n FROM provider_pricing_history
-  WHERE observed_at >= '${since}' AND observed_at < '${until}'
-    AND low_price IS NOT NULL AND low_price >= ${MIN_PLAUSIBLE_LISTED_PRICE}${providerClause(provider)}
-  GROUP BY event_id, provider, source, COALESCE(currency, 'USD')
-);`;
+  return `SELECT COUNT(*) AS rollup_rows, COALESCE(SUM(observations), 0) AS observations FROM (${dayRowsSql(day, provider)});`;
 }
 
 function firstRow(payload) {
@@ -283,6 +323,8 @@ async function run(options, deps = {}) {
       const preview = firstRow(await d1(previewSql(day, options.provider), options, deps.runner));
       summary.eligible_rollup_rows += Number(preview.rollup_rows ?? 0);
       summary.observations_summarised += Number(preview.observations ?? 0);
+      // Days run oldest first and each is seeded from the day before, so a
+      // carried day is written even when it holds no change rows of its own.
       if (options.apply && Number(preview.rollup_rows ?? 0) > 0) {
         summary.written += changes(await d1(rollupSql(day, options.provider), options, deps.runner));
       }
@@ -307,7 +349,7 @@ function selfTest() {
 
   expect(() => assert.equal(parseArgs([], "2026-09-14").apply, false, "dry-run must be the default"));
   expect(() => assert.equal(parseArgs([], "2026-09-14").remote, true));
-  expect(() => assert.equal(parseArgs([], "2026-09-14").since, "2026-09-13"));
+  expect(() => assert.equal(parseArgs([], "2026-09-14").since, "2026-09-08"));
   expect(() => assert.equal(parseArgs([], "2026-09-14").until, "2026-09-15", "today must be inside the window"));
   expect(() => assert.equal(parseArgs(["--days", "30"], "2026-09-14").since, "2026-08-16"));
   expect(() => assert.equal(parseArgs(["--since", "2026-06-01"], "2026-09-14").span, 106));
@@ -330,27 +372,34 @@ function selfTest() {
   expect(() => assert.doesNotMatch(sql, /(DELETE|DROP|ALTER)/i));
   expect(() => assert.doesNotMatch(sql, /UPDATE provider_pricing_history/i));
   expect(() => assert.doesNotMatch(sql, /provider_pricing_cache/i));
-  // Day-bounded on both sides, so one statement can never scan the whole table.
+  // Day-bounded on both sides, so one statement can never scan the whole table,
+  // and seeded from exactly the previous day's rollup.
   expect(() => assert.match(sql, /observed_at >= '2026-09-13T00:00:00' AND observed_at < '2026-09-14T00:00:00'/));
+  expect(() => assert.match(sql, /FROM provider_pricing_daily\n    WHERE observed_date = '2026-09-12'/));
+  // A seed is not an observation, and a carried day stops once the date passes.
+  expect(() => assert.match(sql, /SUM\(is_observation\) OVER w AS observations/));
+  expect(() => assert.match(sql, /observations > 0 OR substr\(event_date, 1, 10\) >= '2026-09-13'/));
   // The frame is what makes LAST_VALUE mean "last in the day" rather than
   // "this row", and the floor must match the public read path.
   expect(() => assert.match(sql, /ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING/));
   expect(() => assert.match(sql, new RegExp(`low_price >= ${MIN_PLAUSIBLE_LISTED_PRICE}\\b`)));
   expect(() => assert.equal(MIN_PLAUSIBLE_LISTED_PRICE, 10, "floor drifted from the public price gate"));
   // Currency is partitioned, never collapsed.
-  expect(() => assert.match(sql, /PARTITION BY event_id, provider, source, COALESCE\(currency, 'USD'\), substr\(observed_at, 1, 10\)/));
-  // The two rules that make a re-run safe after a prune.
-  expect(() => assert.match(sql, /WHERE excluded\.observations >= provider_pricing_daily\.observations;$/));
+  expect(() => assert.match(sql, /PARTITION BY event_id, provider, source, currency\n/));
+  // The rules that make a re-run safe after a prune and quiet when unchanged.
+  expect(() => assert.match(sql, /WHERE excluded\.observations > provider_pricing_daily\.observations\n/));
+  expect(() => assert.doesNotMatch(sql, /excluded\.observations >= /));
   expect(() => assert.match(sql, /event_date = COALESCE\(excluded\.event_date, provider_pricing_daily\.event_date\)/));
   expect(() => assert.doesNotMatch(previewSql("2026-09-13"), /INSERT|UPDATE|DELETE/i));
 
-  // Provider scoping narrows the read and nothing else: it must not reach the
+  // Provider scoping narrows both reads and nothing else: it must not reach the
   // partition key, or one lane's run would collapse rows belonging to another.
   const scoped = rollupSql("2026-09-13", "vivid-seats");
-  expect(() => assert.match(scoped, /AND provider = 'vivid-seats'\n  WINDOW w AS/));
+  expect(() => assert.equal((scoped.match(/AND provider = 'vivid-seats'/g) || []).length, 2));
   expect(() => assert.match(scoped, /PARTITION BY event_id, provider, source/));
   expect(() => assert.match(previewSql("2026-09-13", "vivid-seats"), /AND provider = 'vivid-seats'/));
   expect(() => assert.doesNotMatch(rollupSql("2026-09-13"), /AND provider = '/));
+  expect(() => assert.equal(parseArgs([], "2026-09-14").days, 7, "a week is re-checked by default"));
 
   return checks;
 }
@@ -360,12 +409,14 @@ async function main() {
   if (options.help) return console.log(usage());
   if (options.selfTest) return console.log(`Provider pricing daily rollup self-test passed (${selfTest()} checks).`);
   const summary = await run(options);
+  // Set before any early return: both workflows run with --json, and a partial
+  // failure must still fail the step so it reaches their ROLLUP FAILED branch.
+  if (summary.failed > 0) process.exitCode = 1;
   if (options.json) return console.log(JSON.stringify(summary, null, 2));
   console.log(`[pricing-rollup] ${summary.mode} ${summary.provider} ${summary.since} -> ${summary.until} (${summary.days} day(s))`);
   console.log(`[pricing-rollup] eligible rollup rows: ${summary.eligible_rollup_rows} from ${summary.observations_summarised} observations`);
   console.log(`[pricing-rollup] written: ${summary.written}${summary.failed ? `, failed days: ${summary.days_failed.join(", ")}` : ""}`);
   if (summary.zero_row_reason) console.log(`[pricing-rollup] zero rows written — ${summary.zero_row_reason}`);
-  if (summary.failed > 0) process.exitCode = 1;
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
@@ -375,4 +426,4 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   });
 }
 
-export { parseArgs, rollupSql, previewSql, daysInWindow, run, selfTest };
+export { parseArgs, rollupSql, dayRowsSql, previewSql, daysInWindow, run, selfTest };

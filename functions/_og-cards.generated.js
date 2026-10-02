@@ -11,6 +11,7 @@
 export const OG_CARDS = {
   "/artists/a-perfect-circle": {"url":"/og/artists-a-perfect-circle.png","alt":"Tickets & tour dates: A Perfect Circle"},
   "/artists/a-perfect-circle/tickets/las-vegas-united-states": {"url":"/og/artists-a-perfect-circle-tickets-las-vegas-united-states.png","alt":"Tickets: A Perfect Circle in Las Vegas"},
+  "/artists/a-perfect-circle/tickets/niagara-falls-canada": {"url":"/og/artists-a-perfect-circle-tickets-niagara-falls-canada.png","alt":"Tickets: A Perfect Circle in Niagara Falls"},
   "/artists/alan-walker": {"url":"/og/artists-alan-walker.png","alt":"Tickets & tour dates: Alan Walker"},
   "/artists/alan-walker/tickets/new-york-united-states": {"url":"/og/artists-alan-walker-tickets-new-york-united-states.png","alt":"Tickets: Alan Walker in New York"},
   "/artists/alan-walker/tickets/toronto-canada": {"url":"/og/artists-alan-walker-tickets-toronto-canada.png","alt":"Tickets: Alan Walker in Toronto"},

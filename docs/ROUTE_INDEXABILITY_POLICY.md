@@ -566,9 +566,8 @@ These apply to city, venue, and artist-city pages together.
   itself are in `docs/PROVIDER_DATA_POLICY.md`. The same rule
   governs the rest of the page when the table renders: the table states every
   tracked date and its venue, so the at-a-glance summary drops the date range
-  and venue it would otherwise repeat, keeping its heading, its "Short answer:"
-  lead-in and the event-record verification date, which the table does not
-  carry. It falls back to the unabridged sentence when no price renders.
+  and venue it would otherwise repeat, keeping its heading, its count sentence
+  and the event-record verification date, which the table does not carry. It falls back to the unabridged sentence when no price renders.
 - **Dates before the summary on location pages.** City, venue and artist-city
   pages go from the page title straight to the dates (after the price table,
   where an artist-city page has one). The summary sentence and the
@@ -576,7 +575,8 @@ These apply to city, venue, and artist-city pages together.
   collapsed. The only copy between the title and the first date is the
   one-line "How this site makes money" statement in the board header, beside
   the buttons it describes. The artist-city page states its count, venue and
-  range once, in the at-a-glance "Short answer:"; the separate lead paragraph
+  range once, in the at-a-glance summary sentence (its "Short answer:" label
+  was dropped on 2026-10-02 as filler); the separate lead paragraph
   and the "Next tracked date" / "Tracked date range" / "Venues" /
   "Verification recency" card deck that restated it were removed on
   2026-09-25.

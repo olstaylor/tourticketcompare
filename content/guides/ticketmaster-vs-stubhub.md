@@ -5,6 +5,10 @@ description: Compare Ticketmaster and StubHub by checking event source, ticket t
 status: published
 date_published: 2026-06-11
 sources:
+  - name: What's the difference between StubHub North America and StubHub International?
+    publisher: StubHub UK Support
+    url: https://support.stubhub.co.uk/en/support/solutions/articles/80000695369-what-s-the-difference-between-stubhub-north-america-and-stubhub-international-
+    last_checked: 2026-10-02
   - name: 'Third-Party Resale Tickets: Everything You Need to Know'
     publisher: Ticketmaster Help
     url: https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know
@@ -28,6 +32,10 @@ On a Ticketmaster event you will typically meet a published onsale date and time
 StubHub is a secondary marketplace: the tickets are listed by sellers who already hold them or expect to transfer them, not by the event itself. It is not the primary seller for a show unless that show's official sources say so.
 
 That changes what you are looking at. Sellers set their own prices within StubHub's rules, and a listing can change or vanish before you finish checking out. Seat detail and delivery timing depend entirely on the individual listing, and StubHub's fees and terms are shown before you pay. So the checks shift towards the listing itself: does it match the exact event and seats, what is the total after fees, when and how does it deliver, and what do StubHub's current buyer-protection, refund, and dispute terms cover for that order?
+
+## Which StubHub this site links to
+
+StubHub runs two separately owned businesses. StubHub's support site says stubhub.com and stubhub.ca are StubHub North America, while its UK, Irish and most European sites belong to StubHub International, with separate accounts. Every StubHub button on TourTicketCompare is a StubHub International link that opens a stubhub.ie event page, including for US and Canadian shows. Check the currency and read StubHub International's terms for that order. [StubHub International explained](/guides/stubhub-international-explained) covers what that means at checkout.
 
 ## Side by side
 

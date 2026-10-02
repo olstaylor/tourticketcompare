@@ -113,7 +113,7 @@ Provider credential families currently used by code include network-level Impact
 
 | Routes | Header |
 |---|---|
-| Content-only: guides (except the provider-pair guide), blog, and the static trust pages | `public, max-age=0, s-maxage=600, stale-while-revalidate=3600` |
+| Content-only: guides (except provider-pair guides, those with `comparison_providers`), blog, and the static trust pages | `public, max-age=0, s-maxage=600, stale-while-revalidate=3600` |
 | Everything event-derived: `/`, `/artists`, `/cities`, `/venues`, and every artist, city, venue, artist-city and comparison-hub page | `no-cache, max-age=0, must-revalidate` |
 
 Both keep `max-age=0`, so a browser always revalidates and a deploy that bumps a versioned asset URL still reaches returning visitors on their next request.

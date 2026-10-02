@@ -21,7 +21,7 @@ legacy_article_headline: How to Avoid Overpaying for Concert Tickets
 legacy_article_description: Practical guidance on understanding concert ticket pricing, comparing final checkout totals, avoiding pressure decisions, and confirming provider terms before you buy.
 ---
 
-Most overpaying comes down to three things: fees that only appear on the last screen, buying resale while primary tickets are still on sale, and deciding in a hurry before you've seen the terms. Each has a simple check, and this guide goes through them.
+Most overpaying comes down to three things: fees that only appear on the last screen, buying resale while primary tickets are still on sale, and deciding in a hurry before you've seen the terms.
 
 TourTicketCompare shows each ticket site's lowest listed price for a date where the site supplies one, with the time it was checked, and links to the right event page. It doesn't sell tickets or confirm availability, and a listed price isn't what you'll pay. The ticket site sets that at checkout.
 

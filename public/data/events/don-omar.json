@@ -261,11 +261,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107198485",
-        "url": "https://www.stubhub.ie/don-omar-dallas-tickets-10-1-2026/event/107198485",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1D_Hllv",
@@ -273,7 +273,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-dallas-tickets-10-1-2026/event/107198485"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-orlando-17fov0g61tztiqr",

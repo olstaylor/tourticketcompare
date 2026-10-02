@@ -2895,9 +2895,8 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
 function priceGuideTitle(artist, yearLabel) {
   const year = yearLabel ? `${yearLabel} ` : "";
   return fitTitleToBudget([
-    `${artist.name} ${year}Ticket Prices: Resale Prices & Tour Dates`,
-    `${artist.name} ${year}Ticket Prices: Resale & Tour Dates`,
-    `${artist.name} ${year}Ticket Prices & Tour Dates`,
+    `${artist.name} ${year}Ticket Prices by Date & Provider`,
+    `${artist.name} ${year}Ticket Prices by Date`,
     `${artist.name} ${year}Ticket Prices`,
     `${artist.name} Ticket Prices`
   ]);
@@ -2909,9 +2908,9 @@ function priceGuideDescription(artist, guide, yearLabel) {
   }`;
   const year = yearLabel ? ` ${yearLabel}` : "";
   return fitMetaDescription(
-    `What ${artist.name}${year} tickets cost: where face value is sold, each date's latest listed resale price with the time it was checked, and recent price moves across ${scope}.`,
-    `What ${artist.name}${year} tickets cost: where face value is sold, each date's latest listed resale price and recent price moves across ${scope}.`,
-    `${artist.name}${year} ticket prices: face value, each date's latest listed resale price and recent price moves.`
+    `Check ${artist.name}${year} listed resale prices by date and provider across ${scope}, with price-check times and recorded changes. Compare the exact show.`,
+    `Check ${artist.name}${year} listed resale prices by date and provider, with price-check times and recorded changes. Compare ticket sites for the exact show.`,
+    `${artist.name}${year} ticket prices by date and provider, with listed resale prices, price-check times and links to compare the exact show.`
   );
 }
 
@@ -2979,7 +2978,11 @@ function renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, indexab
             artist,
             row,
             lowByShowId.get(row.showId)
-          )}</td><td data-label="Sites compared">${row.lowest ? String(row.comparedCount) : "—"}</td></tr>`;
+          )}</td><td data-label="Sites compared">${row.lowest ? String(row.comparedCount) : "—"}<br>${anchor(
+            "Compare this show",
+            `/artists/${artist.slug}#${showAnchorId({ id: row.showId })}`,
+            "text-link"
+          )}</td></tr>`;
         })
         .join("");
       if (!rows) return "";
@@ -3004,7 +3007,7 @@ function renderPriceGuideMoves(artist, moves, pricedRowCount, guideShowsById) {
   if (!pricedRowCount) return "";
   const heading = `<h2 id="priceGuideMovesTitle">How ${escapeHtml(artist.name)} resale prices have moved</h2>`;
   if (!moves.length) {
-    return `<section class="nested-panel" aria-labelledby="priceGuideMovesTitle">${heading}<p>No recorded change in the last ${PRICE_MOVE_WINDOW_DAYS} days for any of the prices shown above. Each figure is re-checked through the day and a new figure is recorded only when it changes.</p></section>`;
+    return `<section class="nested-panel" aria-labelledby="priceGuideMovesTitle">${heading}<p>No recent price move can be shown from the recorded history for the prices above. History may be missing or unchanged; this does not mean prices have stayed the same.</p></section>`;
   }
   const down = moves.filter((move) => move.direction === "down").length;
   const up = moves.length - down;
@@ -3070,14 +3073,25 @@ function renderPriceGuideBody(route, events, env) {
   const range = priceGuideDateRangeLabel(guide);
   const artistHref = `/artists/${artist.slug}`;
   const checkedCount = priceAnswer.rows.filter((row) => row.checked).length;
+  const firstPricedRow = priceAnswer.rows.find((row) => row.lowest);
+  const firstPricedShow = firstPricedRow ? guideShowsById.get(firstPricedRow.showId) : null;
+  // One chronological example, never a minimum across dates. Use the same
+  // attributed, timestamped lane as its table row and tracked button.
+  const currentAnswer = firstPricedRow && firstPricedShow
+    ? `${firstPricedShow.city}, ${firstPricedShow.venue}, ${formatShowDateServer(firstPricedRow.datetimeISO, firstPricedRow.timezone)}: ${formatServerPrice(firstPricedRow.lowest.price, firstPricedRow.lowest.currency)} listed on ${firstPricedRow.lowest.name}, checked ${formatServerSnapshotTime(firstPricedRow.lowest.fetchedAt)}. ${priceAnswer.pricedRowCount} of ${guide.showCount} dates show a listed resale price right now.`
+    : checkedCount
+      ? "No eligible listed resale price is displayed for the checked dates right now. Missing pricing does not mean tickets are unavailable."
+      : "Listed-price snapshots could not be checked on this visit. Use each date's ticket links to check prices with the provider.";
 
   const leadHtml = `<h1 id="priceGuideTitle">${escapeHtml(artist.name)} ticket prices${
     route.yearLabel ? ` for ${escapeHtml(route.yearLabel)}` : ""
   }</h1><p class="lead">${escapeHtml(
-    `TourTicketCompare tracks ${guide.showCount} upcoming ${artist.name} ${guide.showCount === 1 ? "date" : "dates"} in ${guide.cityCount} ${
+    currentAnswer
+  )}</p><p>${escapeHtml(
+    `Listed prices by date and provider for ${guide.showCount} upcoming ${artist.name} ${guide.showCount === 1 ? "date" : "dates"} in ${guide.cityCount} ${
       guide.cityCount === 1 ? "city" : "cities"
-    }${range ? ` (${range})` : ""}. This page covers what those tickets cost: where face value is sold, the lowest listed resale price for each date, and how those prices have moved.`
-  )} ${anchor(`To buy, go to the ${artist.name} tickets page`, artistHref, "text-link")}.</p>`;
+    }${range ? ` (${range})` : ""}.`
+  )} ${anchor("See prices by date", "#priceGuideDatesTitle", "text-link")} or ${anchor("compare ticket sites for your show", artistHref, "text-link")}.</p>`;
 
   const nextOnsale = guide.nextOnsaleAt ? formatServerSnapshotTime(guide.nextOnsaleAt) : "";
   const cards = [
@@ -3124,6 +3138,7 @@ function renderPriceGuideBody(route, events, env) {
   )}</p>${renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, route.indexableCitySlugs || new Set())}<p class="disclosure-note">Each figure is a provider-supplied listed-price snapshot for that exact date, captured at the time shown — not live inventory, not availability, and not a final checkout total. Fees, taxes, delivery and the final total are settled at the provider's checkout.</p></section>`;
 
   const movesHtml = renderPriceGuideMoves(artist, moves, priceAnswer.pricedRowCount, guideShowsById);
+  const missingPricesHtml = `<section class="nested-panel" aria-labelledby="priceGuideMissingTitle"><h2 id="priceGuideMissingTitle">Why a date may have no displayed price</h2><p>A ticket link can be shown without a price. A listed-price snapshot needs an approved provider source, a verified match to that exact show, and a valid currency and check time. Expired snapshots are hidden; a missing price can also mean no usable snapshot was supplied or the latest check could not be completed.</p><p>Ticketmaster is an official ticket-link source here, not a displayed price source. No Ticketmaster price on this page does not mean no tickets. SeatGeek supplies ticket links but no numeric snapshots; Ticket Liquidator's feed currently supplies no usable numeric prices. Use “Compare this show” to open the exact date's ticket options and confirm seats, fees and the final total with the provider.</p></section>`;
 
   const linkItems = [...linkCounts.entries()]
     .map(([name, count]) => `<li>${escapeHtml(`${name}: linked for ${count} of ${guide.showCount} ${guide.showCount === 1 ? "date" : "dates"}`)}</li>`)
@@ -3160,7 +3175,7 @@ function renderPriceGuideBody(route, events, env) {
 
   return `<main id="mainContent"><section class="content-page price-guide-page" aria-labelledby="priceGuideTitle">${renderBreadcrumbHtml(
     route
-  )}${leadHtml}<p class="disclosure-note">Prices are set by each ticket site and change often. Every figure here is a timestamped listed-price snapshot for one verified date, not a final checkout total.</p>${glanceHtml}${faceValueHtml}${tablesHtml}${movesHtml}${whereHtml}${relatedHtml}</section></main>`;
+  )}${leadHtml}<p class="disclosure-note">Every figure is a provider-supplied resale listed-price snapshot for one verified date, not Ticketmaster face value, ticket availability or a final checkout total. Confirm fees, taxes and delivery at checkout.</p>${tablesHtml}${movesHtml}${missingPricesHtml}${glanceHtml}${faceValueHtml}${whereHtml}${relatedHtml}</section></main>`;
 }
 
 function artistCityShowIdSet(artistCity) {

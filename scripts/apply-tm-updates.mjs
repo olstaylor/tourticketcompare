@@ -51,6 +51,8 @@
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { pathToFileURL } from 'node:url';
+import { createSnapshotSweep, loadSnapshot, quotaHeaders, safeFetchError, reportSnapshotStats } from './lib/tm-event-snapshot.mjs';
 import { includePastFromEnv, skipInSweep, PAST_RECHECK_DAYS } from './lib/tm-sweep-window.mjs';
 
 const DEFAULT_BASE = 'https://app.ticketmaster.com/discovery/v2';
@@ -77,6 +79,7 @@ function arg(name) {
 }
 const dryRun = argv.includes('--dry-run');
 const jsonOutPath = arg('--json');
+const snapshotPath = arg('--snapshot');
 const eventsPath = arg('--events')
   ? new URL(`file://${path.resolve(arg('--events'))}`)
   : DEFAULT_EVENTS_PATH;
@@ -372,20 +375,23 @@ async function fetchEvent(apiKey, base, eventId, deps = {}) {
         signal: controller.signal,
         headers: { 'user-agent': 'TourTicketCompareSync/1.0 (+https://tourticketcompare.com)' }
       });
+      deps.observeResponse?.(response);
+      const quota = quotaHeaders(response.headers);
       const status = response.status;
-      if (status === 404 || status === 410) return { status, exists: false, data: null };
+      if (status === 404 || status === 410) return { status, exists: false, data: null, quota };
       if (response.ok) {
         const data = await response.json().catch(() => null);
-        return { status, exists: true, data };
+        return { status, exists: true, data, quota };
       }
-      last = { status, exists: null, error: `HTTP ${status}`, data: null };
+      last = { status, exists: null, error: `HTTP ${status}`, data: null, quota };
       // A deterministic refusal (401, 403, 400…) is a verdict, not a blip.
       if (!isRetriableTmStatus(status)) return last;
     } catch (error) {
+      deps.observeResponse?.(null);
       last = {
         status: null,
         exists: null,
-        error: error?.name === 'AbortError' ? `timeout after ${requestTimeoutMs}ms` : String(error?.message || error),
+        error: safeFetchError(error, requestTimeoutMs),
         data: null
       };
     } finally {
@@ -659,7 +665,7 @@ function computeLifecycleChange(event, remote) {
 //     now lists", which is only true once the new date itself has applied.
 //   - A recorded hold is also surfaced for review, because only a human
 //     decides whether the row is removed and tombstoned.
-function planEventSync(event, remote, discoveryId) {
+export function planEventSync(event, remote, discoveryId) {
   const intendedChanges = computeIntendedUpdates(event, remote);
   const blockers = attachIntendedChanges(computeReviewBlockers(event, remote), intendedChanges);
   const lifecycleChange = computeLifecycleChange(event, remote);
@@ -1047,6 +1053,8 @@ async function main() {
   }
   const base = clean(process.env.TICKETMASTER_DISCOVERY_BASE_URL || DEFAULT_BASE).replace(/\/+$/, '');
 
+  const snapshot = await loadSnapshot(snapshotPath, base);
+  const sweep = createSnapshotSweep({ base, snapshot, secrets: [apiKey] });
   const indexed = await loadIndexedArtistSlugs();
   const events = await readJson(eventsPath);
   const includePast = includePastFromEnv();
@@ -1056,6 +1064,10 @@ async function main() {
     ? 'TM_SWEEP_INCLUDE_PAST=1: long-past events are checked too.'
     : `Skipped ${skippedPast} long-past event(s) not due their ${PAST_RECHECK_DAYS}-day re-check (set TM_SWEEP_INCLUDE_PAST=1 for a full sweep).`);
 
+  sweep.stats.skipped_past = skippedPast;
+  for (const event of events) {
+    if (indexed.has(clean(event?.artist_slug)) && !ticketmasterDiscoveryEventId(event)) sweep.unresolvable(event);
+  }
   const updates = [];
   const reviewItems = [];
   const errors = [];
@@ -1066,7 +1078,7 @@ async function main() {
 
   for (const event of targets) {
     const id = ticketmasterDiscoveryEventId(event);
-    const result = await fetchEvent(apiKey, base, id, { budget: retryBudget });
+    const result = await sweep.get(id, () => fetchEvent(apiKey, base, id, { budget: retryBudget, observeResponse: sweep.observeResponse }));
     checked += 1;
 
     if (result.exists === false) {
@@ -1099,7 +1111,7 @@ async function main() {
         });
       }
     }
-    if (requestDelayMs > 0) await sleep(requestDelayMs);
+    if (result.source === 'direct' && requestDelayMs > 0) await sleep(requestDelayMs);
   }
 
   const summary = {
@@ -1116,7 +1128,9 @@ async function main() {
     autoCommitSafe: updates.length > 0 && errors.length === 0
   };
 
+  await reportSnapshotStats(sweep.stats);
   const report = {
+    requests: sweep.stats,
     checked_at: new Date().toISOString(),
     dry_run: dryRun,
     updates,
@@ -1155,9 +1169,12 @@ async function main() {
     await fs.writeFile(jsonOutPath, JSON.stringify(report, null, 2));
     console.log(`Report written to ${jsonOutPath}`);
   }
+  // Preserve evidence and the existing zero-error commit veto, then fail the
+  // step so quota exhaustion cannot masquerade as a successful sync.
+  if (errors.length) process.exitCode = 1;
 }
 
-main().catch((err) => {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main().catch((err) => {
   console.error('apply-tm-updates failed:', err);
   process.exit(1);
 });

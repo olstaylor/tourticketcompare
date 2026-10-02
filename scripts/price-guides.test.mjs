@@ -159,7 +159,7 @@ const HISTORY_ROWS = [
   { event_id: "pg-lon-1", provider: "ticketnetwork", currency: "GBP", low_price: 350, observed_at: "2026-07-30T09:00:00Z" }
 ];
 
-function fakeDb() {
+function fakeDb({ priceRows = PRICE_ROWS, historyRows = HISTORY_ROWS, historyFails = false } = {}) {
   return {
     prepare(sql) {
       return {
@@ -167,11 +167,12 @@ function fakeDb() {
           return {
             async all() {
               const wanted = new Set(bindings.map(String));
-              if (/provider_pricing_cache/.test(sql)) return { results: PRICE_ROWS.filter((row) => wanted.has(row.event_id)) };
+              if (/provider_pricing_cache/.test(sql)) return { results: priceRows.filter((row) => wanted.has(row.event_id)) };
+              if (historyFails) throw new Error("History unavailable");
               // The move query (ROW_NUMBER over the window): newest rows per series.
               if (/ROW_NUMBER\(\)/.test(sql)) {
                 const windowStart = String(bindings.at(-1));
-                return { results: HISTORY_ROWS.filter((row) => wanted.has(row.event_id) && row.observed_at >= windowStart) };
+                return { results: historyRows.filter((row) => wanted.has(row.event_id) && row.observed_at >= windowStart) };
               }
               return { results: [] };
             }
@@ -206,7 +207,7 @@ for (const file of ["index.html", "data/catalog.json", "data/artists.json", "dat
 }
 baseAssets.set("/", baseAssets.get("/index.html"));
 
-function env({ withDb, events = EVENTS }) {
+function env({ withDb, events = EVENTS, dbOptions }) {
   const assets = new Map(baseAssets);
   assets.set("/data/events.json", JSON.stringify(events));
   return {
@@ -222,7 +223,7 @@ function env({ withDb, events = EVENTS }) {
     VIVIDSEATS_PRICE_DISPLAY_ENABLED: "true",
     TICKETNETWORK_PUBLIC_ENABLED: "true",
     TICKETNETWORK_PRICE_DISPLAY_ENABLED: "true",
-    ...(withDb === "failing" ? { DEMAND_DB: failingDb() } : withDb ? { DEMAND_DB: fakeDb() } : {}),
+    ...(withDb === "failing" ? { DEMAND_DB: failingDb() } : withDb ? { DEMAND_DB: fakeDb(dbOptions) } : {}),
     ASSETS: {
       async fetch(request) {
         const body = assets.get(new URL(request.url).pathname);
@@ -267,10 +268,19 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(page.robots.startsWith("index,follow"), "a guide passing its gate is indexable");
   assert(page.title.startsWith("Oasis 2026 Ticket Prices"), "the title carries the year read off the upcoming dates");
   assert(!/[£$€]\s?\d/.test(page.title + page.description), "no figure in the title or description");
+  assert(text(page.title).includes("by Date & Provider"), "the title describes the price answer rather than a generic tour board");
+  assert(page.description.includes("date and provider") && !page.description.includes("face value"), "metadata describes the sourced listed prices");
+  const lead = text(page.main.match(/<p class="lead">([\s\S]*?)<\/p>/)?.[1]);
+  assert(lead.includes("Manchester, Heaton Park, Fri, Sep 11, 2026") && lead.includes("£182 listed on Vivid Seats") && lead.includes("9 Aug 2026"), "the first answer ties one chronological example to its venue, date, provider and check time");
+  assert(page.main.indexOf('id="priceGuideDatesTitle"') < page.main.indexOf('id="priceGuideGlanceTitle"') && page.main.indexOf('id="priceGuideDatesTitle"') < page.main.indexOf('id="priceGuideFaceTitle"'), "date prices precede supporting explanation");
+  assert((page.main.match(/>Compare this show<\/a>/g) || []).length === 6, "every date, including a priced date, links to all its exact-show ticket options");
+  assert(page.main.includes('href="/artists/oasis#show-pg-man-1"'), "exact-show comparison goes to the artist card anchor");
 
   const body = text(page.main);
   assert(body.includes("Face value: the official ticket price"), "the page answers the face-value question");
   assert(body.includes("has no approved source for face-value prices"), "and says plainly that it prints no face value");
+  assert(body.includes("No Ticketmaster price on this page does not mean no tickets"), "missing Ticketmaster pricing is distinguished from ticket availability");
+  assert(body.includes("Expired snapshots are hidden") && body.includes("latest check could not be completed"), "missing prices explain freshness and unsuccessful reads without claiming inventory");
   assert(body.includes("£182") && body.includes("£395"), "each date keeps its own lowest listed price");
   assert(!body.includes("£210") && !body.includes("£420"), "only the same-event lowest lane is printed as the answer");
   assert(!/\bfrom £\d/i.test(body) && !/cheapest date/i.test(body) && !/price range/i.test(body), "no cross-date minimum, range or cheapest date");
@@ -311,6 +321,36 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(!body.includes("No listed-price snapshot right now"), "a failed read never reports a snapshot as absent");
   assert(!body.includes("show a listed resale price right now"), "with no price read, the page claims nothing about prices");
   assert(!body.includes("How Oasis resale prices have moved"), "and renders no move section");
+  assert(body.includes("Listed-price snapshots could not be checked on this visit"), "failed reads are explained near the top without implying zero coverage");
+}
+
+for (const dbOptions of [{ historyRows: [] }, { historyFails: true }]) {
+  const page = await render(GUIDE_PATH, { withDb: true, dbOptions });
+  const body = text(page.main);
+  assert(body.includes("No recent price move can be shown") && !body.includes("No recorded change in the last"), "absent or failed history never asserts unchanged prices");
+  assert(body.includes("£182 listed on Vivid Seats"), "a history failure does not hide an eligible current price");
+}
+
+for (const priceRows of [[], PRICE_ROWS.map((row) => ({ ...row, expires_at: "2026-08-08T09:00:00Z" }))]) {
+  const page = await render(GUIDE_PATH, { withDb: true, dbOptions: { priceRows } });
+  const body = text(page.main);
+  assert(body.includes("No eligible listed resale price is displayed for the checked dates") && !body.includes("£182"), "empty and expired cache rows give an honest price-free answer");
+  assert(!body.includes("How Oasis resale prices have moved"), "withheld current prices cannot publish historical moves");
+}
+
+{
+  const events = JSON.parse(await read("public/data/events.json"));
+  const guidePath = "/artists/lizzy-mcalpine/ticket-prices";
+  assert(guides.priceGuideRegistered("lizzy-mcalpine"), "Lizzy has the owner-requested approved guide");
+  const page = await render(guidePath, { withDb: false, events });
+  assert(page.status === 200 && page.robots.startsWith("index,follow"), "Lizzy's repository dates qualify for an indexable guide");
+  assert(page.html.includes(`rel="canonical" href="${ORIGIN}${guidePath}"`), "Lizzy's canonical is the durable price-guide URL");
+  assert(text(page.title) === "Lizzy McAlpine 2027 Ticket Prices by Date & Provider", "Lizzy's generated title matches the evidenced price intent");
+  assert(text(page.main).includes("Lizzy McAlpine ticket prices for 2027"), "Lizzy's H1 retains the clear price intent");
+  const artist = await render("/artists/lizzy-mcalpine", { withDb: false, events });
+  assert(artist.main.includes(`href="${guidePath}"`), "Lizzy's artist page naturally links into the guide");
+  const city = await render("/artists/lizzy-mcalpine/tickets/glasgow-united-kingdom", { withDb: false, events });
+  assert(city.main.includes(`href="${guidePath}"`), "Lizzy's single-date city page also links into the guide");
 }
 
 {

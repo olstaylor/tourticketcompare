@@ -50,7 +50,7 @@ import { eventLifecycleHeld, eventPublishable, publicOnsalePending, priceGuideGa
 // and artist-city pages all follow from the data. Removing one turns the URL
 // into a 301 to the artist page (see priceGuideRouteDecision). Candidates are
 // proposed in the `automation:price-guide-candidates` issue.
-export const PRICE_GUIDE_ARTISTS = Object.freeze(["oasis"]);
+export const PRICE_GUIDE_ARTISTS = Object.freeze(["oasis", "lizzy-mcalpine"]);
 
 export const PRICE_GUIDE_SEGMENT = "ticket-prices";
 

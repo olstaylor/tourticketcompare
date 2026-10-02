@@ -34,6 +34,8 @@ export const STEPS = [
   { id: "events:validate:partitions:self-test",   lane: "units",  run: "npm run events:validate:partitions:self-test" },
   { id: "audit:links:self-test",                  lane: "units",  run: "node scripts/verify-outbound-links.mjs --self-test" },
   { id: "audit:tm-events:self-test",              lane: "units",  run: "node scripts/audit-tm-events.mjs --self-test" },
+  { id: "tm:snapshot:self-test", lane: "units", run: "node scripts/tm-event-snapshot.test.mjs" },
+  { id: "tm:snapshot-artifact:self-test", lane: "units", run: "node scripts/find-tm-snapshot.mjs --self-test" },
   { id: "audit:report:self-test",                 lane: "units",  run: "node scripts/daily-audit-report.mjs --self-test" },
   { id: "data:sync-review:self-test",             lane: "units",  run: "node scripts/report-tm-sync-review.mjs --self-test" },
   { id: "test:bump-guard",                        lane: "quick",  run: "npm run test:bump-guard" },

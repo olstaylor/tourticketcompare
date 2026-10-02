@@ -4,6 +4,9 @@ h1: What is StubHub International, and why does it open stubhub.ie?
 description: Why a StubHub International button can open stubhub.ie for a US or UK show, how its price is shown here, and what to check about currency and terms.
 status: published
 date_published: 2026-09-25
+comparison_providers:
+  - ticketmaster
+  - stubhub-international
 sources:
   - name: What's the difference between StubHub North America and StubHub International?
     publisher: StubHub UK Support

@@ -141,7 +141,6 @@ const ALLOWED_COMPARISON_PROVIDERS = new Set([
   "ticket-liquidator",
   "stubhub-international"
 ]);
-const SUPPORTED_COMPARISON_PROVIDER_PAIRS = new Set(["ticketmaster|vivid-seats"]);
 
 // Route shapes a guide body may link to, as complete patterns. Guides link to
 // each other, to the browsing indexes and to the comparison hub. Individual
@@ -341,15 +340,6 @@ export function validateGuide(guide, context) {
           ].join(", ")})`
         );
       }
-    }
-    if (
-      guide.comparisonProviders.length === 2 &&
-      guide.comparisonProviders.every((provider) => ALLOWED_COMPARISON_PROVIDERS.has(provider)) &&
-      !SUPPORTED_COMPARISON_PROVIDER_PAIRS.has(guide.comparisonProviders.join("|"))
-    ) {
-      problems.push(
-        `${where}: comparison provider pair "${guide.comparisonProviders.join(" + ")}" has no runtime renderer (supported: ticketmaster + vivid-seats)`
-      );
     }
   }
 
@@ -967,11 +957,11 @@ function selfTest() {
   );
   assert(validProviderPair.length === 0, "an allowlisted two-provider comparison validates clean");
 
-  const unsupportedProviderPair = validateGuide(
-    baseGuide({ comparisonProviders: ["ticketmaster", "seatgeek"] }),
+  const affiliatePair = validateGuide(
+    baseGuide({ comparisonProviders: ["vivid-seats", "seatgeek"] }),
     baseContext()
   );
-  assert(unsupportedProviderPair.some((problem) => /has no runtime renderer/.test(problem)), "an allowlisted but unsupported provider pair fails");
+  assert(affiliatePair.length === 0, "any two allowlisted lanes validate clean: the renderer pairs any of them");
 
   const oneProvider = validateGuide(baseGuide({ comparisonProviders: ["ticketmaster"] }), baseContext());
   assert(oneProvider.some((problem) => /exactly two provider slugs/.test(problem)), "a one-sided comparison pair fails");

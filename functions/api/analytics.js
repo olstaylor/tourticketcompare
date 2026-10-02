@@ -12,6 +12,28 @@ import {
 } from "../_funnel.js";
 
 const MAX_BODY_SIZE = 8 * 1024;
+
+// A per-isolate flood guard, kept in memory so it costs no D1 writes. It is
+// generous (well above what one visitor, or a shared office or mobile IP,
+// sends) and only stops a single address hammering the endpoint; excess
+// beacons are acknowledged but not stored, so clients have nothing to retry.
+const FLOOD_WINDOW_MS = 60 * 1000;
+const FLOOD_MAX_PER_WINDOW = 300;
+const FLOOD_MAX_TRACKED = 5000;
+const floodCounters = new Map();
+
+export function overFloodLimit(ip, now = Date.now()) {
+  if (!ip) return false;
+  const windowStart = now - (now % FLOOD_WINDOW_MS);
+  let entry = floodCounters.get(ip);
+  if (!entry || entry.windowStart !== windowStart) {
+    if (!entry && floodCounters.size >= FLOOD_MAX_TRACKED) floodCounters.clear();
+    entry = { windowStart, count: 0 };
+    floodCounters.set(ip, entry);
+  }
+  entry.count += 1;
+  return entry.count > FLOOD_MAX_PER_WINDOW;
+}
 // Client-observable funnel steps only.
 //
 // `outbound_attempt`, `outbound_click` and `outbound_blocked` are deliberately
@@ -143,6 +165,13 @@ export function externalReferrer(value) {
 
 // Event ids are opaque catalogue keys (e.g. tm-<artist>-<year>-<city>-<hex>).
 // Accept only that shape so a beacon cannot write free text into the column.
+// Slugs and link ids are identifiers, never free text: anything else is
+// dropped rather than stored.
+function safeIdentifier(value, max) {
+  const raw = clean(value, max);
+  return /^[A-Za-z0-9][A-Za-z0-9._:-]*$/.test(raw) ? raw : null;
+}
+
 export function safeEventId(value) {
   const raw = clean(value, 120);
   return /^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$/.test(raw) ? raw : null;
@@ -172,14 +201,22 @@ export async function onRequestPost({ request, env }) {
   const db = getDemandDb(env);
   if (!db) return json({ ok: false, status: "storage_unavailable" }, 503);
 
+  if (overFloodLimit(clean(request.headers.get("cf-connecting-ip"), 120))) {
+    return json({ ok: true, status: "ignored" });
+  }
+
   const contentLength = Number(request.headers.get("content-length") || "0");
   if (Number.isFinite(contentLength) && contentLength > MAX_BODY_SIZE) {
     return json({ ok: false, status: "payload_too_large" }, 413);
   }
 
+  // Content-Length is absent on chunked uploads, so the size is enforced on
+  // the bytes actually read as well.
   let payload = null;
   try {
-    payload = await request.json();
+    const rawBody = await request.arrayBuffer();
+    if (rawBody.byteLength > MAX_BODY_SIZE) return json({ ok: false, status: "payload_too_large" }, 413);
+    payload = JSON.parse(new TextDecoder().decode(rawBody));
   } catch (error) {
     return json({ ok: false, status: "invalid_json" }, 400);
   }
@@ -195,7 +232,7 @@ export async function onRequestPost({ request, env }) {
   const metadata = sanitizeMetadata(payload?.metadata);
   const now = new Date().toISOString();
   const sourcePath = safePath(payload?.sourcePath);
-  const artistSlug = clean(payload?.artistSlug, 80) || null;
+  const artistSlug = safeIdentifier(payload?.artistSlug, 80);
   const requestKey = await hashRequestKey(request);
   // Client-reported external origin wins. The header is a last-resort fallback
   // and is subject to the same own-host rejection: under the site's
@@ -205,9 +242,8 @@ export async function onRequestPost({ request, env }) {
     externalReferrer(payload?.referrer) || externalReferrer(request.headers.get("referer"));
   const userAgent = clean(request.headers.get("user-agent"), 255) || null;
   const provider = normalizeProviderSlug(payload?.provider || metadata.provider) || null;
-  const tourSlug = clean(payload?.tourSlug || metadata.tourSlug, 120) || null;
-  const destinationHost = clean(payload?.destinationHost || metadata.destinationHost, 255) || null;
-  const linkId = clean(payload?.linkId || metadata.linkId, 120) || null;
+  const tourSlug = safeIdentifier(payload?.tourSlug || metadata.tourSlug, 120);
+  const linkId = safeIdentifier(payload?.linkId || metadata.linkId, 120);
 
   // Funnel dimensions. Page type and device category are derived server-side so
   // that every event — including the server-side outbound click, which has no
@@ -247,7 +283,9 @@ export async function onRequestPost({ request, env }) {
     metadata_json: metadataJson,
     provider,
     tour_slug: tourSlug,
-    destination_host: destinationHost,
+    // Only /api/out knows where a click really went; a beacon's claim is not
+    // recorded.
+    destination_host: null,
     link_id: linkId,
     page_type: pageType,
     landing_path: landingPath,

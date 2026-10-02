@@ -382,6 +382,10 @@
         "lastChecked": "2026-09-21",
         "linkCheckedAt": "2026-10-01"
       }
+    ],
+    "comparisonProviders": [
+      "seatgeek",
+      "vivid-seats"
     ]
   },
   "/guides/seatgeek-vs-ticketmaster": {
@@ -527,6 +531,10 @@
         "lastChecked": "2026-09-21",
         "linkCheckedAt": "2026-09-16"
       }
+    ],
+    "comparisonProviders": [
+      "ticketmaster",
+      "seatgeek"
     ]
   },
   "/guides/ticketnetwork-vs-ticketmaster": {
@@ -548,7 +556,7 @@
       {
         "type": "section",
         "title": "TicketNetwork: a marketplace, not a box office",
-        "content": "TicketNetwork describes itself as connecting buyers to events where \"all tickets are listed by professional ticket-selling companies & trusted ticket sellers.\" It is a marketplace layer: the sellers hold or expect to hold the tickets, and they set their own prices under the marketplace's rules. TicketNetwork's own pages carry the disclaimer that resale ticket prices may be above face value.\n\nWhat it does put its name to is a guarantee. TicketNetwork publishes a 100% money-back guarantee stating that \"your tickets will arrive before the event\" and that \"all tickets are legitimate tickets, valid for entry.\" The same guarantee says you will receive the tickets you ordered or comparable alternatives, and that if an event is permanently cancelled TicketNetwork will coordinate a full refund of the order, excluding delivery fees. If a ticket fails at the door, it asks for evidence from the venue, such as a letter or an email from venue staff, so it can recover the refund from the seller. That is a meaningful promise, and it is a different shape from the primary-ticketing promise: it is not that you paid the organiser's price, it is that the ticket you paid for will work.\n\nBecause listings are seller-set, availability and price on TicketNetwork move independently of whatever Ticketmaster is showing. A show that is sold out on the primary can still have listings here, and that is the ordinary case rather than a red flag."
+        "content": "TicketNetwork describes itself as connecting buyers to events where \"all tickets are listed by professional ticket-selling companies & trusted ticket sellers.\" It is a marketplace layer: the sellers hold or expect to hold the tickets, and they set their own prices under the marketplace's rules. TicketNetwork's own pages carry the disclaimer that resale ticket prices may be above face value.\n\nWhat it does put its name to is a guarantee. TicketNetwork publishes a 100% money-back guarantee stating that \"your tickets will arrive before the event\" and that \"all tickets are legitimate tickets, valid for entry.\" The same guarantee says you will receive the tickets you ordered or comparable alternatives, and that a permanently cancelled event is refunded. Its cancellation FAQ says the refund excludes delivery charges, or you can take a credit voucher worth 110% of the order instead. That is a meaningful promise, and it is a different shape from the primary-ticketing promise: it is not that you paid the organiser's price, it is that the ticket you paid for will work.\n\nBecause listings are seller-set, availability and price on TicketNetwork move independently of whatever Ticketmaster is showing. A show that is sold out on the primary can still have listings here, and that is the ordinary case rather than a red flag."
       },
       {
         "type": "section",
@@ -558,7 +566,7 @@
       {
         "type": "section",
         "title": "The guarantees are the real difference",
-        "content": "This is the axis most comparisons skip, and it is the one that changes what you should do.\n\n- **A Ticketmaster primary ticket** comes through the organiser's authorised channel at the organiser's price, on Ticketmaster's own terms for that event.\n- **A Ticketmaster third-party resale ticket** is final unless the event is cancelled. The help page cited here sets out that cancellation route but does not set out an arrival-or-entry guarantee, so read the terms attached to your own order rather than assuming the familiar branding covers it.\n- **A TicketNetwork listing** is seller-priced, and backed by the published 100% money-back guarantee covering arrival before the event and validity for entry.\n\nRead those as three different products, not two websites. If a guarantee matters to your purchase (an expensive seat, a long trip, a gift), compare the guarantee wording as carefully as the price, and read it on the provider's own site at the moment you buy, because terms change."
+        "content": "- **A Ticketmaster primary ticket** comes through the organiser's authorised channel at the organiser's price, on Ticketmaster's own terms for that event.\n- **A Ticketmaster third-party resale ticket** is final unless the event is cancelled. The help page cited here sets out that cancellation route but does not set out an arrival-or-entry guarantee, so read the terms attached to your own order rather than assuming the familiar branding covers it.\n- **A TicketNetwork listing** is seller-priced, and backed by the published 100% money-back guarantee covering arrival before the event and validity for entry.\n\nRead those as three different products, not two websites. If a guarantee matters to your purchase (an expensive seat, a long trip, a gift), compare the guarantee wording as carefully as the price, and read it on the provider's own site at the moment you buy, because terms change."
       },
       {
         "type": "section",
@@ -573,10 +581,16 @@
       {
         "type": "section",
         "title": "Related guides",
-        "content": "- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)\n- [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)\n- [Concert ticket fees explained](/guides/concert-ticket-fees-explained)\n- [How to read a ticket listing](/guides/how-to-read-a-ticket-listing)\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)"
+        "content": "- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)\n- [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)\n- [Concert ticket fees explained](/guides/concert-ticket-fees-explained)\n- [How to read a ticket listing](/guides/how-to-read-a-ticket-listing)\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)\n- [Is TicketNetwork legit?](/guides/is-ticketnetwork-legit)"
       }
     ],
     "sources": [
+      {
+        "name": "COVID-19 FAQs",
+        "publisher": "TicketNetwork",
+        "url": "https://www.ticketnetwork.com/en/covid-19-faqs",
+        "lastChecked": "2026-10-02"
+      },
       {
         "name": "About Us",
         "publisher": "TicketNetwork",
@@ -612,13 +626,17 @@
         "lastChecked": "2026-09-21",
         "linkCheckedAt": "2026-10-01"
       }
+    ],
+    "comparisonProviders": [
+      "ticketmaster",
+      "ticketnetwork"
     ]
   },
   "/guides/how-to-avoid-overpaying-for-concert-tickets": {
     "sections": [
       {
         "type": "intro",
-        "content": "Most overpaying comes down to three things: fees that only appear on the last screen, buying resale while primary tickets are still on sale, and deciding in a hurry before you've seen the terms. Each has a simple check, and this guide goes through them.\n\nTourTicketCompare shows each ticket site's lowest listed price for a date where the site supplies one, with the time it was checked, and links to the right event page. It doesn't sell tickets or confirm availability, and a listed price isn't what you'll pay. The ticket site sets that at checkout."
+        "content": "Most overpaying comes down to three things: fees that only appear on the last screen, buying resale while primary tickets are still on sale, and deciding in a hurry before you've seen the terms.\n\nTourTicketCompare shows each ticket site's lowest listed price for a date where the site supplies one, with the time it was checked, and links to the right event page. It doesn't sell tickets or confirm availability, and a listed price isn't what you'll pay. The ticket site sets that at checkout."
       },
       {
         "type": "section",
@@ -700,7 +718,7 @@
     "sections": [
       {
         "type": "intro",
-        "content": "\"Buy early\" and \"wait for prices to drop\" are both offered as the answer, and neither holds for every show. There's no single best moment to buy. The right moment depends on what you care about most: getting in at all, a particular seat, sitting with your group, sticking to a budget, or keeping your options open.\n\nSo there's no magic day here. Decide which of those matters most, and the timing follows. TourTicketCompare shows each ticket site's recent listed price for a date, but it doesn't track stock or predict where a price is heading. The final price, fees, availability and terms are on the ticket site when you check out."
+        "content": "\"Buy early\" and \"wait for prices to drop\" are both offered as the answer, and neither holds for every show. There's no single best moment to buy. The right moment depends on what you care about most: getting in at all, a particular seat, sitting with your group, sticking to a budget, or keeping your options open.\n\nDecide which of those matters most, and the timing follows. TourTicketCompare shows each ticket site's recent listed price for a date, but it doesn't track stock or predict where a price is heading. The final price, fees, availability and terms are on the ticket site when you check out."
       },
       {
         "type": "section",
@@ -781,7 +799,7 @@
       {
         "type": "section",
         "title": "Resale tickets: bought from someone else",
-        "content": "A resale ticket is listed by someone who already holds it, or expects to be able to transfer it. The price is the seller's, set within the marketplace's rules, not anyone's official figure. StubHub, SeatGeek, and Vivid Seats are largely resale marketplaces, and some primary platforms run their own official resale for certain shows.\n\nWhat that means in practice:\n\n- Seller-set prices can sit above or below what official channels charged.\n- A listing can change or disappear while you are still deciding.\n- Protection and terms differ by platform, event, and order.\n- Delivery and transfer timing depend on the individual listing.\n\nVivid Seats' help page states the pricing side directly: every price on its marketplace is set independently by the reseller, based on supply and demand for the event and the seat location, and can be higher or lower than the face value printed on the ticket.\n\nTourTicketCompare links to checked destinations but does not certify individual sellers or listings."
+        "content": "A resale ticket is listed by someone who already holds it, or expects to be able to transfer it. The price is the seller's, set within the marketplace's rules, not anyone's official figure. StubHub and Vivid Seats are resale marketplaces; SeatGeek is both a resale marketplace and the primary seller for some leagues and venues. Some primary platforms run their own official resale for certain shows.\n\nWhat that means in practice:\n\n- Seller-set prices can sit above or below what official channels charged.\n- A listing can change or disappear while you are still deciding.\n- Protection and terms differ by platform, event, and order.\n- Delivery and transfer timing depend on the individual listing.\n\nVivid Seats' help page states the pricing side directly: every price on its marketplace is set independently by the reseller, based on supply and demand for the event and the seat location, and can be higher or lower than the face value printed on the ticket.\n\nTourTicketCompare links to checked destinations but does not certify individual sellers or listings."
       },
       {
         "type": "section",
@@ -816,7 +834,7 @@
       {
         "type": "section",
         "title": "Related guides",
-        "content": "- [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)\n- [How to read a concert ticket listing](/guides/how-to-read-a-ticket-listing)\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)\n- [Browse checked artist pages](/artists)"
+        "content": "- [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)\n- [How to read a concert ticket listing](/guides/how-to-read-a-ticket-listing)\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)\n- [Browse checked artist pages](/artists)\n- [What to do when Ticketmaster has no tickets left](/guides/no-tickets-left-on-ticketmaster)"
       }
     ],
     "sources": [
@@ -887,7 +905,7 @@
       {
         "type": "section",
         "title": "Related guides",
-        "content": "- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)\n- [How to read a ticket listing](/guides/how-to-read-a-ticket-listing)\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)\n- [Is Vivid Seats legit?](/guides/is-vivid-seats-legit)\n- [Is SeatGeek legit?](/guides/is-seatgeek-legit)"
+        "content": "- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)\n- [How to read a ticket listing](/guides/how-to-read-a-ticket-listing)\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)\n- [Is Vivid Seats legit?](/guides/is-vivid-seats-legit)\n- [Is SeatGeek legit?](/guides/is-seatgeek-legit)\n- [Is TicketNetwork legit?](/guides/is-ticketnetwork-legit)\n- [Is Ticket Liquidator legit?](/guides/is-ticket-liquidator-legit)\n- [StubHub International explained](/guides/stubhub-international-explained)"
       }
     ],
     "sources": [
@@ -1014,6 +1032,11 @@
       },
       {
         "type": "section",
+        "title": "Which StubHub this site links to",
+        "content": "StubHub runs two separately owned businesses. StubHub's support site says stubhub.com and stubhub.ca are StubHub North America, while its UK, Irish and most European sites belong to StubHub International, with separate accounts. Every StubHub button on TourTicketCompare is a StubHub International link that opens a stubhub.ie event page, including for US and Canadian shows. Check the currency and read StubHub International's terms for that order. [StubHub International explained](/guides/stubhub-international-explained) covers what that means at checkout."
+      },
+      {
+        "type": "section",
         "title": "Side by side",
         "content": "| | Ticketmaster | StubHub |\n| --- | --- | --- |\n| **Role** | Official primary ticketing, plus official resale on some events | Resale marketplace |\n| **Who prices it** | The event organiser, promoter, or provider | Individual sellers, within marketplace rules |\n| **How prices move** | By event, ticket type, and any demand-based category | Sellers can change or pull listings at any time |\n| **Stock** | Depends on the event and sale type | Depends on what sellers have listed |\n| **Delivery** | Instant mobile, delayed, digital, or shipped, by event | Set by the listing and marketplace rules |\n| **Terms to read** | Ticketmaster's event-specific policies | StubHub's buyer, delivery, refund, and dispute terms |\n\nRead the table as a map of what differs. Which one suits you comes down to the specific event, seat, total, and terms in front of you."
       },
@@ -1044,6 +1067,12 @@
       }
     ],
     "sources": [
+      {
+        "name": "What's the difference between StubHub North America and StubHub International?",
+        "publisher": "StubHub UK Support",
+        "url": "https://support.stubhub.co.uk/en/support/solutions/articles/80000695369-what-s-the-difference-between-stubhub-north-america-and-stubhub-international-",
+        "lastChecked": "2026-10-02"
+      },
       {
         "name": "Third-Party Resale Tickets: Everything You Need to Know",
         "publisher": "Ticketmaster Help",
@@ -1094,7 +1123,7 @@
       {
         "type": "section",
         "title": "Related guides",
-        "content": "- [Concert ticket fees explained](/guides/concert-ticket-fees-explained)\n- [How to avoid overpaying for concert tickets](/guides/how-to-avoid-overpaying-for-concert-tickets)\n- [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)"
+        "content": "- [Concert ticket fees explained](/guides/concert-ticket-fees-explained)\n- [How to avoid overpaying for concert tickets](/guides/how-to-avoid-overpaying-for-concert-tickets)\n- [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)\n- [Vivid Seats promo codes and fees](/guides/vivid-seats-promo-codes-and-fees)"
       }
     ],
     "sources": [
@@ -1112,6 +1141,10 @@
         "lastChecked": "2026-09-21",
         "linkCheckedAt": "2026-08-03"
       }
+    ],
+    "comparisonProviders": [
+      "ticketmaster",
+      "seatgeek"
     ]
   },
   "/guides/concert-ticket-fees-explained": {
@@ -1316,7 +1349,7 @@
     "sections": [
       {
         "type": "intro",
-        "content": "Most of what goes wrong on onsale day happens before the queue opens: an unverified account, a missed fan registration, the wrong time zone. Preparation can't promise you a ticket, but it removes the mistakes that cost people a place before they reach checkout.\n\nThe ticket site runs the onsale: stock, queue order, prices and fees. Here's a routine for the days before and the morning itself."
+        "content": "Most of what goes wrong on onsale day happens before the queue opens: an unverified account, a missed fan registration, the wrong time zone. Preparation can't promise you a ticket, but it removes the mistakes that cost people a place before they reach checkout.\n\nThe ticket site runs the onsale: stock, queue order, prices and fees."
       },
       {
         "type": "section",
@@ -1346,7 +1379,7 @@
       {
         "type": "section",
         "title": "Related guides",
-        "content": "- [When to buy concert tickets](/guides/when-is-the-best-time-to-buy-concert-tickets)\n- [How to read a ticket listing](/guides/how-to-read-a-ticket-listing)\n- [How to avoid ticket scams and fake listings](/guides/how-to-avoid-ticket-scams)\n- [What to do if a concert is postponed or cancelled](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled)"
+        "content": "- [When to buy concert tickets](/guides/when-is-the-best-time-to-buy-concert-tickets)\n- [How to read a ticket listing](/guides/how-to-read-a-ticket-listing)\n- [How to avoid ticket scams and fake listings](/guides/how-to-avoid-ticket-scams)\n- [What to do if a concert is postponed or cancelled](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled)\n- [What to do when Ticketmaster has no tickets left](/guides/no-tickets-left-on-ticketmaster)\n- [SeatGeek promo code guide](/guides/seatgeek-promo-code-guide)"
       }
     ],
     "sources": [
@@ -1491,7 +1524,7 @@
       {
         "type": "section",
         "title": "Related guides",
-        "content": "- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)\n- [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)\n- [How to avoid ticket scams and fake listings](/guides/how-to-avoid-ticket-scams)"
+        "content": "- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)\n- [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)\n- [How to avoid ticket scams and fake listings](/guides/how-to-avoid-ticket-scams)\n- [Is SeatGeek legit?](/guides/is-seatgeek-legit)\n- [Is Vivid Seats legit?](/guides/is-vivid-seats-legit)\n- [Is TicketNetwork legit?](/guides/is-ticketnetwork-legit)"
       }
     ],
     "sources": [
@@ -1557,7 +1590,7 @@
       {
         "type": "section",
         "title": "StubHub in the US vs StubHub outside North America",
-        "content": "StubHub's own support site explains that stubhub.com and stubhub.ca are StubHub North America, while the StubHub sites in the UK, Ireland, much of Europe and Mexico belong to [StubHub International](/guides/stubhub-international-explained), a separately owned business. Accounts do not carry over between the two. If you are buying for a show outside the US or Canada, check which StubHub site you are on and read that site's terms."
+        "content": "StubHub's own support site explains that stubhub.com and stubhub.ca are StubHub North America, while the StubHub sites in the UK, Ireland, much of Europe and Mexico belong to [StubHub International](/guides/stubhub-international-explained), a separately owned business. Accounts do not carry over between the two. If you are buying for a show outside the US or Canada, check which StubHub site you are on and read that site's terms. On TourTicketCompare, every StubHub button is a StubHub International link that opens a stubhub.ie event page, including for US shows, so the StubHub terms that apply to an order placed from this site are StubHub International's."
       },
       {
         "type": "section",
@@ -1676,6 +1709,12 @@
     ],
     "sources": [
       {
+        "name": "Vivid Seats Guarantee terms",
+        "publisher": "Vivid Seats",
+        "url": "https://www.vividseats.com/guarantee.html",
+        "lastChecked": "2026-10-02"
+      },
+      {
         "name": "How are ticket prices determined?",
         "publisher": "Vivid Seats Customer Support",
         "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
@@ -1721,6 +1760,10 @@
         "url": "https://support.seatgeek.com/hc/en-us/articles/360058426253-How-and-when-will-my-tickets-be-delivered",
         "lastChecked": "2026-09-25"
       }
+    ],
+    "comparisonProviders": [
+      "vivid-seats",
+      "seatgeek"
     ]
   },
   "/guides/vivid-seats-vs-stubhub": {
@@ -1762,7 +1805,7 @@
       {
         "type": "section",
         "title": "Check which StubHub site you're on",
-        "content": "StubHub's support site says stubhub.com and stubhub.ca are StubHub North America, while the StubHub sites in the UK, Ireland, much of Europe and Mexico belong to [StubHub International](/guides/stubhub-international-explained), a separately owned business with its own accounts. If you are buying for a show outside the US or Canada, read the terms of the StubHub site the listing is on."
+        "content": "StubHub's support site says stubhub.com and stubhub.ca are StubHub North America, while the StubHub sites in the UK, Ireland, much of Europe and Mexico belong to [StubHub International](/guides/stubhub-international-explained), a separately owned business with its own accounts. If you are buying for a show outside the US or Canada, read the terms of the StubHub site the listing is on. On TourTicketCompare, every StubHub button is a StubHub International link that opens a stubhub.ie event page, including for US shows, so the StubHub terms that apply to an order placed from this site are StubHub International's."
       },
       {
         "type": "section",
@@ -1781,6 +1824,12 @@
       }
     ],
     "sources": [
+      {
+        "name": "Vivid Seats Guarantee terms",
+        "publisher": "Vivid Seats",
+        "url": "https://www.vividseats.com/guarantee.html",
+        "lastChecked": "2026-10-02"
+      },
       {
         "name": "How are ticket prices determined?",
         "publisher": "Vivid Seats Customer Support",
@@ -1881,10 +1930,16 @@
       {
         "type": "section",
         "title": "Related guides",
-        "content": "- [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster)\n- [Vivid Seats vs StubHub](/guides/vivid-seats-vs-stubhub)\n- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)\n- [How to avoid ticket scams](/guides/how-to-avoid-ticket-scams)"
+        "content": "- [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster)\n- [Vivid Seats vs StubHub](/guides/vivid-seats-vs-stubhub)\n- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)\n- [How to avoid ticket scams](/guides/how-to-avoid-ticket-scams)\n- [Is SeatGeek legit?](/guides/is-seatgeek-legit)\n- [Vivid Seats promo codes and fees](/guides/vivid-seats-promo-codes-and-fees)"
       }
     ],
     "sources": [
+      {
+        "name": "Vivid Seats Guarantee terms",
+        "publisher": "Vivid Seats",
+        "url": "https://www.vividseats.com/guarantee.html",
+        "lastChecked": "2026-10-02"
+      },
       {
         "name": "Vivid Seats order protection terms",
         "publisher": "Vivid Seats Customer Support",
@@ -1927,6 +1982,10 @@
         "lastChecked": "2026-09-25",
         "linkCheckedAt": "2026-10-01"
       }
+    ],
+    "comparisonProviders": [
+      "ticketmaster",
+      "vivid-seats"
     ]
   },
   "/guides/is-seatgeek-legit": {
@@ -1978,7 +2037,7 @@
       {
         "type": "section",
         "title": "Related guides",
-        "content": "- [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)\n- [SeatGeek vs StubHub](/guides/seatgeek-vs-stubhub)\n- [SeatGeek promo code guide](/guides/seatgeek-promo-code-guide)\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)"
+        "content": "- [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster)\n- [SeatGeek vs StubHub](/guides/seatgeek-vs-stubhub)\n- [SeatGeek promo code guide](/guides/seatgeek-promo-code-guide)\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)\n- [Is Vivid Seats legit?](/guides/is-vivid-seats-legit)\n- [Vivid Seats vs SeatGeek](/guides/vivid-seats-vs-seatgeek)"
       }
     ],
     "sources": [
@@ -2013,6 +2072,261 @@
         "lastChecked": "2026-09-25",
         "linkCheckedAt": "2026-10-01"
       }
+    ],
+    "comparisonProviders": [
+      "ticketmaster",
+      "seatgeek"
+    ]
+  },
+  "/guides/is-ticket-liquidator-legit": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "**Short answer:** yes, Ticket Liquidator is a legitimate resale marketplace that has been running since 2003. Despite the name, it is not a clearance outlet: it lists tickets from third-party sellers, usually above face value, and backs orders with a 100% Money-Back Guarantee that the tickets arrive before the event and get you in. It is part of the same South Windsor, Connecticut business as TicketNetwork, so expect many of the same listings on both. A postponed show is not refunded."
+      },
+      {
+        "type": "section",
+        "title": "Who runs Ticket Liquidator",
+        "content": "Ticket Liquidator's company page says the name is a registered trademark of Ticket Software, LLC, and gives the same address as TicketNetwork: 75 Gerber Road East, South Windsor, Connecticut. TicketNetwork describes itself as running \"a vast network of websites\" where buyers and sellers exchange tickets, and Ticket Liquidator is one of those sites.\n\nIn practice that means two things. The seller behind a listing is usually a ticket broker, not Ticket Liquidator itself. And the same seats can appear on Ticket Liquidator and TicketNetwork at once, so compare the two on the final total rather than assuming they are separate stock."
+      },
+      {
+        "type": "section",
+        "title": "Why the name is misleading",
+        "content": "\"Liquidator\" suggests leftover tickets sold cheaply. Ticket Liquidator's own FAQ says the opposite: tickets on the site \"will therefore usually be priced greater than face value\", because sellers paid for them and set their own prices. Its company page repeats that resale prices may be above face value.\n\nPrices can still fall below face value for a show with weak demand, but nothing about the site makes that more likely than on any other resale marketplace."
+      },
+      {
+        "type": "section",
+        "title": "What the guarantee covers",
+        "content": "Ticket Liquidator's 100% Money-Back Guarantee, as its company page describes it, covers:\n\n- Tickets that are legitimate and valid for entry.\n- Delivery before the event.\n- Seats comparable to the ones you ordered.\n- A refund if the event is cancelled.\n\nIt does not cover changing your mind. The FAQ is direct about this: all sales are final, which it says is standard across both primary and resale ticketing."
+      },
+      {
+        "type": "section",
+        "title": "Cancelled and postponed shows",
+        "content": "- **Cancelled:** the FAQ says a cancelled event is refunded in full, minus shipping. Its COVID-19 FAQ adds a choice between that refund and a credit voucher worth 110% of the original order, less delivery charges, valid for 365 days from issue.\n- **Postponed:** tickets stay valid for the new date, with no refund.\n\nIf a moved date does not work for you, plan to resell rather than to claim a refund. [What to do if a concert is postponed or cancelled](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled) walks through the options."
+      },
+      {
+        "type": "section",
+        "title": "Fees and delivery",
+        "content": "The FAQ says a service fee is part of every order and is a percentage of the ticket price. At the time of checking it also listed separate flat charges for email delivery, will-call and local pickup. These can change, so read the order summary before you pay.\n\nDelivery depends on the seller. Some tickets are not printed or issued until a few weeks before the show, and the FAQ says sellers ship as soon as they receive them. A gap between buying and receiving is normal; the guarantee is what covers a ticket that never comes. Note the delivery method on the listing, because a mobile transfer, an email PDF and a will-call pickup each work differently on the day. See [ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)."
+      },
+      {
+        "type": "section",
+        "title": "How to check a Ticket Liquidator listing",
+        "content": "- Match the artist, date, venue and city exactly. Resale sites list many similar events.\n- Read the listing notes for restrictions such as age limits, obstructed views or a delivery date.\n- Take the order to the final review screen and compare that total with the same section on the primary seller and on TicketNetwork.\n- Pay by card, keep the confirmation email, and save the support details: (860) 768-9263 or customersupport@ticketliquidator.com, per its FAQ.\n\nOn TourTicketCompare, a Ticket Liquidator button appears on a date only after its link has been matched to that exact event. No Ticket Liquidator price is shown on the site; open the listing to see one."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Is Ticket Liquidator a real company?**\n\nYes. It has operated since 2003 from South Windsor, Connecticut, and is part of the same business as TicketNetwork.\n\n**Is Ticket Liquidator cheaper than other sites?**\n\nNot by design. Its own FAQ says prices are usually above face value, because sellers set them. Compare the checkout total for the same seats on other sites.\n\n**Does Ticket Liquidator refund postponed events?**\n\nNo. Its FAQ says tickets for a postponed event are valid for the new date and are not refunded. A cancelled event is refunded, minus shipping.\n\n**Who do I contact about a Ticket Liquidator order?**\n\nIts FAQ lists (860) 768-9263 and customersupport@ticketliquidator.com. Have your order number ready.\n\n**Are Ticket Liquidator and TicketNetwork the same?**\n\nThey are separate websites run within the same business, and many listings appear on both. See [is TicketNetwork legit](/guides/is-ticketnetwork-legit)."
+      },
+      {
+        "type": "section",
+        "title": "Related guides",
+        "content": "- [How to avoid ticket scams](/guides/how-to-avoid-ticket-scams)\n- [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)\n- [Concert ticket fees explained](/guides/concert-ticket-fees-explained)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "About Ticket Liquidator",
+        "publisher": "Ticket Liquidator",
+        "url": "https://www.ticketliquidator.com/company-info",
+        "lastChecked": "2026-10-02"
+      },
+      {
+        "name": "Frequently Asked Questions",
+        "publisher": "Ticket Liquidator",
+        "url": "https://www.ticketliquidator.com/page/faqs",
+        "lastChecked": "2026-10-02"
+      },
+      {
+        "name": "COVID-19 FAQs",
+        "publisher": "Ticket Liquidator",
+        "url": "https://www.ticketliquidator.com/page/covid-19-faqs",
+        "lastChecked": "2026-10-02"
+      },
+      {
+        "name": "About TicketNetwork",
+        "publisher": "TicketNetwork",
+        "url": "https://www.ticketnetwork.com/about-us",
+        "lastChecked": "2026-10-02"
+      }
+    ],
+    "comparisonProviders": [
+      "ticketmaster",
+      "ticket-liquidator"
+    ]
+  },
+  "/guides/is-ticketnetwork-legit": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "**Short answer:** yes, TicketNetwork is a real, long-running resale marketplace, not a scam site. It was founded in 2002 in South Windsor, Connecticut, and it does not own most of the tickets it lists: independent sellers do. Every order carries its 100% Money-Back Guarantee, which promises the tickets arrive before the event and are valid for entry. Prices are set by sellers and are often above face value, a postponed show is not refunded, and it has settled with regulators in New York and Canada over how it sold and priced tickets."
+      },
+      {
+        "type": "section",
+        "title": "What TicketNetwork is",
+        "content": "TicketNetwork describes itself as an online exchange that connects buyers and sellers. The company also builds ticketing software, including a point-of-sale system that brokers use, and runs a network of websites where those listings appear. Ticket Liquidator is one of them, so the same seller's tickets can show up on more than one of these sites.\n\nThat makes TicketNetwork a secondary market. It is not the box office, and it is not connected to the artist, venue or promoter. Its own policies page says it plainly: resale ticket prices may be above face value."
+      },
+      {
+        "type": "section",
+        "title": "Are TicketNetwork tickets real?",
+        "content": "The tickets are real tickets, resold by someone who bought them first. What protects you is the guarantee rather than the seller. TicketNetwork's wording is short:\n\n- Your tickets will arrive before the event.\n- Your tickets will be valid for entry.\n\nIts company page adds that a permanently cancelled event is refunded. Read that list carefully: it does not cover changing your mind, a better seat appearing for less, or a show that moves to a date you cannot make."
+      },
+      {
+        "type": "section",
+        "title": "Cancelled and postponed shows",
+        "content": "TicketNetwork's cancellation FAQ, written during the pandemic and still published, sets out two different outcomes:\n\n- **Cancelled for good:** you choose between a refund of the original order or a credit voucher worth 110% of it. In both cases delivery charges are kept back. The FAQ says refunds can take up to 30 days from the day you ask for one.\n- **Postponed or rescheduled:** your original tickets stay valid for the new date. No refund or voucher is offered.\n\nThe postponed case is where most bad reviews of resale sites come from. If you could not make a moved date, the realistic route is to resell the tickets, not to ask for your money back. See [what to do if a concert is postponed or cancelled](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled)."
+      },
+      {
+        "type": "section",
+        "title": "Fees and the total you pay",
+        "content": "Compare TicketNetwork on the checkout total, not on the first number you see. In 2023 Canada's Competition Bureau found that TicketNetwork had advertised prices consumers could not actually pay, with mandatory fees adding more than 38% on average, priced Canadian events in US dollars without saying so, and used content that suggested buyers were dealing with the venue or artist. TicketNetwork paid a penalty of 825,000 Canadian dollars and agreed to stop those practices.\n\nThe practical habit holds on any site: take the order all the way to the final review screen, check the currency, and compare that figure against the same seats elsewhere. [Concert ticket fees explained](/guides/concert-ticket-fees-explained) covers what each fee line usually means."
+      },
+      {
+        "type": "section",
+        "title": "Speculative listings",
+        "content": "In 2019 New York's Attorney General announced a settlement of 1.55 million US dollars with TicketNetwork, a related company and their owner over speculative tickets: listings for seats the seller did not yet own, which the seller tried to buy only after a customer had paid. More than 96,000 New York orders were affected between 2012 and 2018. The settlement required clear disclosure when a seller does not have the tickets in hand. The companies did not admit liability.\n\nSpeculative and pre-sale listings still exist across the resale market. Before you buy, check the listing and checkout for words like \"in-hand date\", \"estimated delivery\" or a note that the seller will acquire the tickets. A listing that appears before the public on-sale, for a show where nobody can have tickets yet, is the usual sign."
+      },
+      {
+        "type": "section",
+        "title": "Delivery timing",
+        "content": "Many tickets are released by the venue or primary seller only days before the show, so a resale order often shows no tickets for a while. That is normal and is the case the delivery promise exists for. Note the delivery date and method shown at checkout, keep your confirmation email, and contact TicketNetwork if nothing has arrived as the event gets close. [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) explains the usual methods."
+      },
+      {
+        "type": "section",
+        "title": "When TicketNetwork is worth checking",
+        "content": "TicketNetwork is useful when the primary sale has nothing left in the section you want, or the show is a long way off and you want to see what resale looks like. It is less useful on the morning of an on-sale, when face-value tickets may still be released on the primary.\n\nOn TourTicketCompare, a TicketNetwork button appears on a date only once its link has been matched to that exact event. When TicketNetwork's feed supplies one, the button also shows its lowest listed price with how long ago it was checked. Treat that as a reason to open the listing, not as the total."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Is TicketNetwork a real company?**\n\nYes. It was founded in 2002 and is based in South Windsor, Connecticut. It runs an online resale exchange and ticketing software for brokers.\n\n**Does TicketNetwork sell fake tickets?**\n\nTicketNetwork's guarantee says tickets will arrive before the event and be valid for entry, and it applies to every order. If a ticket does not get you in, contact TicketNetwork straight away with your order number.\n\n**Does TicketNetwork refund postponed concerts?**\n\nNo. Its cancellation FAQ says tickets for a postponed or rescheduled show remain valid for the new date and no refund or voucher is offered. Only a permanently cancelled event qualifies for a refund or a 110% credit voucher.\n\n**Why are TicketNetwork prices higher than face value?**\n\nSellers set resale prices, and TicketNetwork's policies page states that they may be above face value. Compare the final checkout total against the primary seller and other resale sites before you buy.\n\n**Is Ticket Liquidator the same as TicketNetwork?**\n\nTicket Liquidator is one of the retail sites in TicketNetwork's network, and the two share an address. See [is Ticket Liquidator legit](/guides/is-ticket-liquidator-legit)."
+      },
+      {
+        "type": "section",
+        "title": "Related guides",
+        "content": "- [TicketNetwork vs Ticketmaster](/guides/ticketnetwork-vs-ticketmaster)\n- [How to avoid ticket scams](/guides/how-to-avoid-ticket-scams)\n- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "About TicketNetwork",
+        "publisher": "TicketNetwork",
+        "url": "https://www.ticketnetwork.com/about-us",
+        "lastChecked": "2026-10-02"
+      },
+      {
+        "name": "Policies",
+        "publisher": "TicketNetwork",
+        "url": "https://www.ticketnetwork.com/policies",
+        "lastChecked": "2026-10-02"
+      },
+      {
+        "name": "COVID-19 FAQs",
+        "publisher": "TicketNetwork",
+        "url": "https://www.ticketnetwork.com/en/covid-19-faqs",
+        "lastChecked": "2026-10-02"
+      },
+      {
+        "name": "Attorney General James Announces Settlement With Ticket Resale Companies For Selling Tickets They Never Owned",
+        "publisher": "New York State Attorney General",
+        "url": "https://ag.ny.gov/press-release/2019/attorney-general-james-announces-settlement-ticket-resale-companies-selling",
+        "lastChecked": "2026-10-02"
+      },
+      {
+        "name": "TicketNetwork to pay penalty to settle misleading advertising concerns in the ticket resale market",
+        "publisher": "Competition Bureau Canada",
+        "url": "https://www.canada.ca/en/competition-bureau/news/2023/11/ticketnetwork-to-pay-825000-penalty-to-settle-misleading-advertising-concerns-in-the-ticket-resale-market.html",
+        "lastChecked": "2026-10-02"
+      }
+    ],
+    "comparisonProviders": [
+      "ticketmaster",
+      "ticketnetwork"
+    ]
+  },
+  "/guides/no-tickets-left-on-ticketmaster": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "\"No tickets available\" on Ticketmaster means none are on sale there at that moment, for that search. It is not always final. Ticketmaster says venues release held seats as the show gets closer, and orders that fail are put back on sale, so checking again does work sometimes. Your other routes are Ticketmaster's own resale listings, and resale marketplaces such as SeatGeek and Vivid Seats, where prices are set by sellers. Which one makes sense depends on whether the tour restricts resale, how close the show is, and how much above face value you are willing to pay."
+      },
+      {
+        "type": "section",
+        "title": "First, check it is not your search",
+        "content": "Ticketmaster's UK help page lists three reasons for the message: the search filters are too narrow, the tickets sold quickly, or a presale has ended and the general sale has not started. Before anything else:\n\n- Clear price, quantity and section filters, and try one ticket instead of four. Single seats often remain when pairs do not.\n- Check the date and venue. Multi-night runs have several near-identical events.\n- If a presale just closed, note when the general sale opens and come back then."
+      },
+      {
+        "type": "section",
+        "title": "Why more tickets can appear later",
+        "content": "Ticketmaster's help centre gives several reasons tickets come back:\n\n- The venue releases tickets it held back, for example seats the artist or production no longer needs.\n- Once the stage is built, the venue knows which seats are not obstructed and puts more on sale.\n- An order fails because a card is declined and the buyer cannot be reached.\n- A buyer breaks the ticket limits or terms, and their tickets are cancelled and released.\n\nTicketmaster also says it cannot promise more tickets will come. Release timing is not announced, so the practical approach is to check at a few set times, such as the week of the show and the day before, rather than refreshing all day."
+      },
+      {
+        "type": "section",
+        "title": "Ticketmaster's own resale",
+        "content": "On many events Ticketmaster shows resale listings next to its standard tickets, sold by fans who bought earlier. How much those cost depends on the tour.\n\nSome artists use Face Value Exchange. On those tours Ticketmaster sets every resale listing at what the seller originally paid, including fees and taxes, so you pay face value. Ticketmaster's blog says tickets on Face Value Exchange tours are mobile-only and restricted from transfer, which is how the price cap holds. On other tours, Ticketmaster resale prices are set by sellers and can be well above face value."
+      },
+      {
+        "type": "section",
+        "title": "If the tour restricts transfers",
+        "content": "This is the check most people skip. When a tour locks tickets to the buyer's account or restricts transfer, a listing on another site may not be deliverable in the normal way. Read the event's ticket terms on Ticketmaster before you buy elsewhere. If they say tickets cannot be transferred, Ticketmaster's own resale is the only route that matches them."
+      },
+      {
+        "type": "section",
+        "title": "Buying on a resale site",
+        "content": "When transfers are allowed, resale marketplaces are a normal way to buy after the primary sale runs out. They are not a scam by default, but the rules differ from a box-office purchase:\n\n- **The seller sets the price.** It can be above or below face value, and it moves as the show gets closer. There is no reliable day when prices drop; see [when is the best time to buy concert tickets](/guides/when-is-the-best-time-to-buy-concert-tickets).\n- **Compare totals, not headline prices.** Take each order to the final review screen and compare the same section and row. [How to compare concert ticket prices](/guides/how-to-compare-concert-ticket-prices) has a method.\n- **Read the guarantee.** Established marketplaces back orders against tickets that do not arrive or do not scan. A postponed show is usually not refunded on resale. See [is SeatGeek legit](/guides/is-seatgeek-legit) and [is Vivid Seats legit](/guides/is-vivid-seats-legit).\n- **Expect late delivery.** Resale tickets often arrive in the last day or two before the show. That is normal, and covered by the guarantee if they never come.\n\nAvoid buying from strangers on social media or by bank transfer. Payment methods with no buyer protection are where most real ticket fraud happens. [How to avoid ticket scams](/guides/how-to-avoid-ticket-scams) covers the warning signs."
+      },
+      {
+        "type": "section",
+        "title": "A simple plan",
+        "content": "1. Clear your filters and recheck Ticketmaster, including single seats.\n2. Check Ticketmaster's resale listings, and whether the tour uses Face Value Exchange or restricts transfers.\n3. If transfers are allowed, compare the same seats on one or two resale marketplaces on the checkout total.\n4. Set a ceiling you would pay, and check back near the show if nothing fits it.\n\nTourTicketCompare lists each upcoming date with its checked links to Ticketmaster and resale sites. Ticketmaster links are plain links; resale sites may pay the site a commission, which does not change your price."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Does Ticketmaster release more tickets?**\n\nSometimes. Ticketmaster says venues can release held seats as the show approaches, and that tickets from failed or cancelled orders go back on sale. It does not guarantee it, and timing is not announced.\n\n**What does \"Tickets not currently available\" mean on Ticketmaster?**\n\nTicketmaster's UK help page gives three causes: filters that are too narrow, tickets that sold quickly, or a presale that has ended before the general sale opens.\n\n**Is Ticketmaster resale at face value?**\n\nOnly on tours that use Face Value Exchange, where resale listings are fixed at what the seller paid, including fees. On other tours the seller sets the resale price.\n\n**Is it safe to buy resale tickets from another site?**\n\nBuying on an established marketplace with a published buyer guarantee is a normal, protected purchase. Check the event's transfer terms first, compare the full total, and never pay a private seller by bank transfer.\n\n**Do resale prices go down closer to the concert?**\n\nThey can go either way. Resale prices follow seller decisions and demand, and no day reliably brings them down."
+      },
+      {
+        "type": "section",
+        "title": "Related guides",
+        "content": "- [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)\n- [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)\n- [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Why am I seeing \"Tickets not available\"?",
+        "publisher": "Ticketmaster Help",
+        "url": "https://help.ticketmaster.sg/hc/en-us/articles/7622293144593-Why-am-I-seeing-Tickets-not-available-or-Tickets-sold-out",
+        "lastChecked": "2026-10-02"
+      },
+      {
+        "name": "What does \"Tickets not currently available from Ticketmaster\" mean?",
+        "publisher": "Ticketmaster UK Help",
+        "url": "https://help.ticketmaster.co.uk/hc/en-us/articles/360006537273-What-does-Tickets-not-currently-available-from-Ticketmaster-mean",
+        "lastChecked": "2026-10-02"
+      },
+      {
+        "name": "How does Ticketmaster's Face Value Exchange work?",
+        "publisher": "Ticketmaster Help",
+        "url": "https://help.ticketmaster.com/hc/en-us/articles/9781464415249-How-does-Ticketmaster-s-Face-Value-Exchange-work",
+        "lastChecked": "2026-10-02"
+      },
+      {
+        "name": "How Face Value Exchange Works",
+        "publisher": "Ticketmaster",
+        "url": "https://blog.ticketmaster.com/face-value-exchange/",
+        "lastChecked": "2026-10-02"
+      },
+      {
+        "name": "Third-Party Resale Tickets: Everything You Need to Know",
+        "publisher": "Ticketmaster Help",
+        "url": "https://help.ticketmaster.com/hc/en-us/articles/9781090147985-Third-Party-Resale-Tickets-Everything-You-Need-to-Know",
+        "lastChecked": "2026-10-02"
+      }
+    ],
+    "comparisonProviders": [
+      "seatgeek",
+      "vivid-seats"
     ]
   },
   "/guides/stubhub-international-explained": {
@@ -2084,6 +2398,83 @@
         "lastChecked": "2026-09-21",
         "linkCheckedAt": "2026-10-01"
       }
+    ],
+    "comparisonProviders": [
+      "ticketmaster",
+      "stubhub-international"
+    ]
+  },
+  "/guides/vivid-seats-promo-codes-and-fees": {
+    "sections": [
+      {
+        "type": "intro",
+        "content": "Most Vivid Seats promo codes take a fixed amount off once the tickets in your order pass a minimum spend, and that minimum is counted before service and delivery charges. The discount comes off the ticket cost only, never the fees. Vivid Seats shows all-in prices, so the number on an event page already includes its service and delivery charges, and the honest test of any code is the total on the final checkout screen. TourTicketCompare does not publish codes; this guide explains how they behave so you can tell quickly whether one is worth your time."
+      },
+      {
+        "type": "section",
+        "title": "How Vivid Seats promo codes work",
+        "content": "Vivid Seats' help page on promotional codes sets out the rules that trip most people up:\n\n- **A minimum spend.** Most promotions need the tickets to reach a set amount before they apply. Its example is a fixed-amount code that only applies once the tickets alone, before service and shipping charges, reach the stated purchase total.\n- **Ticket cost only.** A code worth a fixed amount reduces the ticket cost, not the total. Service and delivery charges are unchanged.\n- **Email offers with no code.** Some promotions arrive as an email with a banner rather than a code. Vivid Seats says to click the banner, choose tickets in the window that opens and check out there; the discount is applied automatically.\n\nTo enter a code, choose your tickets, sign in or create an account, and start checkout. In the payment section, open \"Apply a Gift Card or Promo Code\", enter it, select Apply, and check the updated amount before you pay."
+      },
+      {
+        "type": "section",
+        "title": "Why a Vivid Seats code does nothing",
+        "content": "When a code is accepted but the total barely moves, or it is rejected, the cause is usually one of these:\n\n- The tickets come in under the minimum. The minimum ignores fees, so an order whose total clears the threshold only because of fees does not qualify.\n- The offer was tied to an email link and is being entered as a code on a fresh page.\n- The code has expired, or it was meant for a different account or a first order.\n- The code came from a coupon site and was never valid for your order.\n\nIf a code fails, decide on the full total. Searching for another code while the seats sit in your basket is how people end up paying more for a worse listing."
+      },
+      {
+        "type": "section",
+        "title": "What the Vivid Seats price includes",
+        "content": "Vivid Seats uses all-in pricing. Its fees article says a service charge and a delivery charge are included in every ticket price you see once you start shopping, so the number on the event page is not a base price waiting for fees to be added. Taxes are not mentioned there; check the order summary for them in your area.\n\nWhat the all-in price does not tell you is whether the listing is good value. Sellers set resale prices on Vivid Seats, not Vivid Seats itself. Compare the final total for the same section and row on another site, and on the primary seller if anything is left there. [Concert ticket fees explained](/guides/concert-ticket-fees-explained) covers how other sites present their charges."
+      },
+      {
+        "type": "section",
+        "title": "Vivid Seats Rewards",
+        "content": "Vivid Seats Rewards is often a better saving than a code for anyone who buys more than one show a year:\n\n- You get one stamp per ticket bought.\n- Ten stamps make one Reward Credit.\n- Each stamp is worth the ticket price minus taxes, operating and processing costs, and a Reward Credit is the average value of your ten stamps.\n- Stamps and credits expire, on a timeline that depends on your membership level: Rising Star, Super Fan or Icon.\n\nSo a credit earned on ten cheap tickets is worth a cheap ticket, not an expensive one. Use it before it expires, and check the credit's value at checkout rather than assuming it covers a whole ticket."
+      },
+      {
+        "type": "section",
+        "title": "Staying safe while you look for codes",
+        "content": "Coupon searches attract lookalike sites. Enter codes only on vividseats.com or the Vivid Seats app, and never on a page that asks you to sign in to \"unlock\" a discount. A code that arrives by direct message, or that asks for card details before you have chosen tickets, is not worth testing. [How to avoid ticket scams](/guides/how-to-avoid-ticket-scams) has the full checklist.\n\nOn TourTicketCompare, the Vivid Seats button on a date opens the matched event on Vivid Seats. When its feed supplies one, the button shows Vivid Seats' lowest listed price with how long ago it was checked. That figure is a snapshot, not the checkout total."
+      },
+      {
+        "type": "section",
+        "title": "FAQ",
+        "content": "**Do Vivid Seats promo codes work on fees?**\n\nNo. Vivid Seats says fixed-amount codes apply to the cost of the tickets only, and service and shipping fees are not affected.\n\n**Why does my Vivid Seats promo code say I have not reached the minimum?**\n\nThe minimum is counted on the ticket cost before service and delivery charges. If the tickets alone are under the threshold, the code will not apply, even when the total with fees is above it.\n\n**Does the Vivid Seats price include fees?**\n\nYes. Vivid Seats uses all-in pricing, and says a service charge and delivery charge are included in every ticket price shown once you start shopping. Check the order summary for any taxes.\n\n**How do I use a Vivid Seats discount from an email?**\n\nIf the email has no code, click its banner, choose your tickets in the window that opens, and check out there. Vivid Seats says the discount is then applied automatically.\n\n**How much is a Vivid Seats Reward Credit worth?**\n\nIt is the average value of the ten tickets that earned it, after taxes and processing costs are taken off. The credit expires on a timeline set by your membership level."
+      },
+      {
+        "type": "section",
+        "title": "Related guides",
+        "content": "- [Is Vivid Seats legit?](/guides/is-vivid-seats-legit)\n- [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster)\n- [SeatGeek promo code guide](/guides/seatgeek-promo-code-guide)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "How do I use my promotional code?",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210531-i-received-a-promotional-email-code-from-vivid-seats-but-i-can-t-apply-it-to-my-order-during-checkou",
+        "lastChecked": "2026-10-02"
+      },
+      {
+        "name": "Are there additional fees? How are fees determined?",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210524-are-there-additional-fees-how-are-fees-determined-",
+        "lastChecked": "2026-10-02"
+      },
+      {
+        "name": "Vivid Seats Rewards",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/11000106875-vivid-seats-rewards",
+        "lastChecked": "2026-10-02"
+      },
+      {
+        "name": "How are ticket prices determined?",
+        "publisher": "Vivid Seats Customer Support",
+        "url": "https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-",
+        "lastChecked": "2026-10-02"
+      }
+    ],
+    "comparisonProviders": [
+      "ticketmaster",
+      "vivid-seats"
     ]
   }
 }

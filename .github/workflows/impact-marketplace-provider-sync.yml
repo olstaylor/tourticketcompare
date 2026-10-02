@@ -9,7 +9,7 @@ name: Impact marketplace provider sync
 
 on:
   schedule:
-    # Run after Ticketmaster (04:00), SeatGeek (05:00), and Vivid Seats (05:30).
+    # Run after Ticketmaster (02:40), SeatGeek (05:00), and Vivid Seats (05:30).
     # A shared concurrency group queues overruns rather than racing data files.
     - cron: '0 6 * * *'   # TicketNetwork
     - cron: '30 6 * * *'  # Ticket Liquidator

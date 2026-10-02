@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-02",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -1030,6 +1030,61 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-01 (sanctioned path D): SeatGeek performer 544 and Ticketmaster attraction K8vZ917GZFf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "greta-van-fleet",
+      "ticketmaster_attraction_id": "K8vZ91738o0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/greta-van-fleet-tickets/artist/1971779",
+      "seatgeek_performer_id": 600913,
+      "seatgeek_artist_url": "https://seatgeek.com/greta-van-fleet-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-02 (sanctioned path D): SeatGeek performer 600913 and Ticketmaster attraction K8vZ91738o0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "riley-green",
+      "ticketmaster_attraction_id": "K8vZ9173IbV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/riley-green-tickets/artist/2011722",
+      "seatgeek_performer_id": 284195,
+      "seatgeek_artist_url": "https://seatgeek.com/riley-green-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-02 (sanctioned path D): SeatGeek performer 284195 and Ticketmaster attraction K8vZ9173IbV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "hazlett",
+      "ticketmaster_attraction_id": "K8vZ917bZzV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/hazlett-tickets/artist/2625420",
+      "seatgeek_performer_id": 810010,
+      "seatgeek_artist_url": "https://seatgeek.com/hazlett-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-02 (sanctioned path D): SeatGeek performer 810010 and Ticketmaster attraction K8vZ917bZzV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "carly-rae-jepsen",
+      "ticketmaster_attraction_id": "K8vZ9172pOV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/carly-rae-jepsen-tickets/artist/1393390",
+      "seatgeek_performer_id": 16295,
+      "seatgeek_artist_url": "https://seatgeek.com/carly-rae-jepsen-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-02 (sanctioned path D): SeatGeek performer 16295 and Ticketmaster attraction K8vZ9172pOV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "dylan-gossett",
+      "ticketmaster_attraction_id": "K8vZ917j68V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/dylan-gossett-tickets/artist/3086445",
+      "seatgeek_performer_id": 807490,
+      "seatgeek_artist_url": "https://seatgeek.com/dylan-gossett-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-02 (sanctioned path D): SeatGeek performer 807490 and Ticketmaster attraction K8vZ917j68V captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

@@ -1386,6 +1386,76 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-daughtry",
     redirectUrl: "https://seatgeek.com/daughtry-tickets",
     verified: true
+  },
+  "greta-van-fleet:ticketmaster": {
+    artistSlug: "greta-van-fleet",
+    provider: "ticketmaster",
+    linkId: "tm-artist-greta-van-fleet",
+    redirectUrl: "https://www.ticketmaster.com/greta-van-fleet-tickets/artist/1971779",
+    verified: true
+  },
+  "greta-van-fleet:seatgeek": {
+    artistSlug: "greta-van-fleet",
+    provider: "seatgeek",
+    linkId: "sg-artist-greta-van-fleet",
+    redirectUrl: "https://seatgeek.com/greta-van-fleet-tickets",
+    verified: true
+  },
+  "riley-green:ticketmaster": {
+    artistSlug: "riley-green",
+    provider: "ticketmaster",
+    linkId: "tm-artist-riley-green",
+    redirectUrl: "https://www.ticketmaster.com/riley-green-tickets/artist/2011722",
+    verified: true
+  },
+  "riley-green:seatgeek": {
+    artistSlug: "riley-green",
+    provider: "seatgeek",
+    linkId: "sg-artist-riley-green",
+    redirectUrl: "https://seatgeek.com/riley-green-tickets",
+    verified: true
+  },
+  "hazlett:ticketmaster": {
+    artistSlug: "hazlett",
+    provider: "ticketmaster",
+    linkId: "tm-artist-hazlett",
+    redirectUrl: "https://www.ticketmaster.com/hazlett-tickets/artist/2625420",
+    verified: true
+  },
+  "hazlett:seatgeek": {
+    artistSlug: "hazlett",
+    provider: "seatgeek",
+    linkId: "sg-artist-hazlett",
+    redirectUrl: "https://seatgeek.com/hazlett-tickets",
+    verified: true
+  },
+  "carly-rae-jepsen:ticketmaster": {
+    artistSlug: "carly-rae-jepsen",
+    provider: "ticketmaster",
+    linkId: "tm-artist-carly-rae-jepsen",
+    redirectUrl: "https://www.ticketmaster.com/carly-rae-jepsen-tickets/artist/1393390",
+    verified: true
+  },
+  "carly-rae-jepsen:seatgeek": {
+    artistSlug: "carly-rae-jepsen",
+    provider: "seatgeek",
+    linkId: "sg-artist-carly-rae-jepsen",
+    redirectUrl: "https://seatgeek.com/carly-rae-jepsen-tickets",
+    verified: true
+  },
+  "dylan-gossett:ticketmaster": {
+    artistSlug: "dylan-gossett",
+    provider: "ticketmaster",
+    linkId: "tm-artist-dylan-gossett",
+    redirectUrl: "https://www.ticketmaster.com/dylan-gossett-tickets/artist/3086445",
+    verified: true
+  },
+  "dylan-gossett:seatgeek": {
+    artistSlug: "dylan-gossett",
+    provider: "seatgeek",
+    linkId: "sg-artist-dylan-gossett",
+    redirectUrl: "https://seatgeek.com/dylan-gossett-tickets",
+    verified: true
   }
 };
 

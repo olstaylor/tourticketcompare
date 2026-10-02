@@ -1,0 +1,1965 @@
+[
+  {
+    "id": "tm-riley-green-2026-durant-vvg1yz_5svc-7d",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: Cowboy As It Gets Tour 2026",
+    "city": "Durant",
+    "country": "United States Of America",
+    "venue": "Choctaw Grand Theater",
+    "datetime_iso": "2026-10-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064BCF4B6113B",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-cowboy-as-it-gets-durant-oklahoma-10-02-2026/event/0C0064BCF4B6113B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-cowboy-as-it-gets-durant-oklahoma-10-02-2026/event/0C0064BCF4B6113B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064BCF4B6113B",
+        "discovery_event_id": "vvG1YZ_5SVc-7D",
+        "url": "https://www.ticketmaster.com/riley-green-cowboy-as-it-gets-durant-oklahoma-10-02-2026/event/0C0064BCF4B6113B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_5SVc-7D",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2026-durant-vvg1yz_ggasrcz",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: Cowboy As It Gets Tour 2026",
+    "city": "Durant",
+    "country": "United States Of America",
+    "venue": "Choctaw Grand Theater",
+    "datetime_iso": "2026-10-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064C305CDE3B8",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-cowboy-as-it-gets-durant-oklahoma-10-03-2026/event/0C0064C305CDE3B8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-cowboy-as-it-gets-durant-oklahoma-10-03-2026/event/0C0064C305CDE3B8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064C305CDE3B8",
+        "discovery_event_id": "vvG1YZ_GGASrCz",
+        "url": "https://www.ticketmaster.com/riley-green-cowboy-as-it-gets-durant-oklahoma-10-03-2026/event/0C0064C305CDE3B8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_GGASrCz",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2026-nashville-z7r9jz1aaekfy",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Pinnacle - TN",
+    "datetime_iso": "2026-10-31T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAekfy",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekfy",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekfy",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAekfy",
+        "discovery_event_id": "Z7r9jZ1AAekfy",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekfy",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAekfy",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2026-las-vegas-z7r9jz1a7peqa",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green - Ages 21+",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Theatre at Resorts World Las Vegas",
+    "datetime_iso": "2026-12-07T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PeQa",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PeQa",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PeQa",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PeQa",
+        "discovery_event_id": "Z7r9jZ1A7PeQa",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PeQa",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PeQa",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2026-las-vegas-z7r9jz1a7peq7",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green - Ages 21+",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Theatre at Resorts World Las Vegas",
+    "datetime_iso": "2026-12-11T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Peq7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Peq7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Peq7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Peq7",
+        "discovery_event_id": "Z7r9jZ1A7Peq7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Peq7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Peq7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-seattle-vvg1hz_keoq4yp",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-04-03T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00653091695C25",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-seattle-washington-04-02-2027/event/0F00653091695C25",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-seattle-washington-04-02-2027/event/0F00653091695C25",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00653091695C25",
+        "discovery_event_id": "vvG1HZ_KeoQ4YP",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-seattle-washington-04-02-2027/event/0F00653091695C25",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_KeoQ4YP",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-riley-green-2027-eugene-vvg1hz_3divdk0",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Eugene",
+    "country": "United States Of America",
+    "venue": "Matthew Knight Arena",
+    "datetime_iso": "2027-04-04T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00652EEC07B4E4",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-eugene-oregon-04-03-2027/event/0F00652EEC07B4E4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-eugene-oregon-04-03-2027/event/0F00652EEC07B4E4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00652EEC07B4E4",
+        "discovery_event_id": "vvG1HZ_3DivDK0",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-eugene-oregon-04-03-2027/event/0F00652EEC07B4E4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_3DivDK0",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-02T17:00:00Z"
+  },
+  {
+    "id": "tm-riley-green-2027-edmonton-1av7z_3gkwgn0bp",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Rogers Place",
+    "datetime_iso": "2027-04-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100652F758E4625",
+    "ticketmaster_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-edmonton-alberta-04-08-2027/event/1100652F758E4625",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-edmonton-alberta-04-08-2027/event/1100652F758E4625",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100652F758E4625",
+        "discovery_event_id": "1Av7Z_3GkWgN0bP",
+        "url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-edmonton-alberta-04-08-2027/event/1100652F758E4625",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_3GkWgN0bP",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-calgary-1aozkfygkderjem",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Scotiabank Saddledome",
+    "datetime_iso": "2027-04-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006530C279C9F7",
+    "ticketmaster_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-calgary-alberta-04-09-2027/event/11006530C279C9F7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-calgary-alberta-04-09-2027/event/11006530C279C9F7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006530C279C9F7",
+        "discovery_event_id": "1AoZkfYGkderjEM",
+        "url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-calgary-alberta-04-09-2027/event/11006530C279C9F7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkfYGkderjEM",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-saskatoon-1av7z_3gkdixvhi",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Saskatoon",
+    "country": "Canada",
+    "venue": "SaskTel Centre",
+    "datetime_iso": "2027-04-11T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100652EECF81F28",
+    "ticketmaster_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-saskatoon-saskatchewan-04-10-2027/event/1100652EECF81F28",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-saskatoon-saskatchewan-04-10-2027/event/1100652EECF81F28",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100652EECF81F28",
+        "discovery_event_id": "1Av7Z_3GkDiXvHI",
+        "url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-saskatoon-saskatchewan-04-10-2027/event/1100652EECF81F28",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_3GkDiXvHI",
+    "timezone": "America/Swift_Current",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-raleigh-g5evz_ke-2cfw",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Coastal Credit Union Music Park at Walnut Creek",
+    "datetime_iso": "2027-04-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006530A13ED53D",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-raleigh-north-carolina-04-29-2027/event/2D006530A13ED53D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-raleigh-north-carolina-04-29-2027/event/2D006530A13ED53D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006530A13ED53D",
+        "discovery_event_id": "G5eVZ_Ke-2cfW",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-raleigh-north-carolina-04-29-2027/event/2D006530A13ED53D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_Ke-2cfW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-knoxville-g5viz_3wie3-p",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Knoxville",
+    "country": "United States Of America",
+    "venue": "Food City Center",
+    "datetime_iso": "2027-04-30T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00652F68092865",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-knoxville-tennessee-04-30-2027/event/1B00652F68092865",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-knoxville-tennessee-04-30-2027/event/1B00652F68092865",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00652F68092865",
+        "discovery_event_id": "G5viZ_3WIe3-P",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-knoxville-tennessee-04-30-2027/event/1B00652F68092865",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_3WIe3-P",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-greenville-g5evz_k14klik",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Greenville",
+    "country": "United States Of America",
+    "venue": "Bon Secours Wellness Arena",
+    "datetime_iso": "2027-05-01T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006532954EBB06",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-greenville-south-carolina-05-01-2027/event/2D006532954EBB06",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-greenville-south-carolina-05-01-2027/event/2D006532954EBB06",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006532954EBB06",
+        "discovery_event_id": "G5eVZ_K14Klik",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-greenville-south-carolina-05-01-2027/event/2D006532954EBB06",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_K14Klik",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-fort-worth-vvg1yz_kepbp4s",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2027-05-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00653096616571",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-fort-worth-texas-05-06-2027/event/0C00653096616571",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-fort-worth-texas-05-06-2027/event/0C00653096616571",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00653096616571",
+        "discovery_event_id": "vvG1YZ_Kepbp4s",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-fort-worth-texas-05-06-2027/event/0C00653096616571",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_Kepbp4s",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-wichita-vv1akzkfwgkdilqfv",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Wichita",
+    "country": "United States Of America",
+    "venue": "INTRUST Bank Arena",
+    "datetime_iso": "2027-05-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006532E8ADD534",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-wichita-kansas-05-07-2027/event/06006532E8ADD534",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-wichita-kansas-05-07-2027/event/06006532E8ADD534",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006532E8ADD534",
+        "discovery_event_id": "vv1AkZkfwGkdIlqfV",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-wichita-kansas-05-07-2027/event/06006532E8ADD534",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfwGkdIlqfV",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-rogers-g5viz_k5ft6hv",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Rogers",
+    "country": "United States Of America",
+    "venue": "Walmart AMP",
+    "datetime_iso": "2027-05-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006532D4A476C1",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-rogers-arkansas-05-08-2027/event/1B006532D4A476C1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-rogers-arkansas-05-08-2027/event/1B006532D4A476C1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006532D4A476C1",
+        "discovery_event_id": "G5viZ_K5ft6hv",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-rogers-arkansas-05-08-2027/event/1B006532D4A476C1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_K5ft6hv",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-tulsa-1aozkfsgkexhv7n",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "BOK Center",
+    "datetime_iso": "2027-05-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006531A26F4123",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-tulsa-oklahoma-05-20-2027/event/20006531A26F4123",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-tulsa-oklahoma-05-20-2027/event/20006531A26F4123",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006531A26F4123",
+        "discovery_event_id": "1AOZkfsGkexhV7N",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-tulsa-oklahoma-05-20-2027/event/20006531A26F4123",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZkfsGkexhV7N",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-dallas-vvg1yz_k1h0ipi",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "Dos Equis Pavilion",
+    "datetime_iso": "2027-05-22T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0065329B928968",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-dallas-texas-05-21-2027/event/0C0065329B928968",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-dallas-texas-05-21-2027/event/0C0065329B928968",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0065329B928968",
+        "discovery_event_id": "vvG1YZ_K1h0IPI",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-dallas-texas-05-21-2027/event/0C0065329B928968",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_K1h0IPI",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-lafayette-g5viz_3r9l7s7",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Lafayette",
+    "country": "United States Of America",
+    "venue": "Lafayette Cajundome",
+    "datetime_iso": "2027-05-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00652BD77C4C44",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-lafayette-louisiana-05-22-2027/event/1B00652BD77C4C44",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-lafayette-louisiana-05-22-2027/event/1B00652BD77C4C44",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00652BD77C4C44",
+        "discovery_event_id": "G5viZ_3R9L7s7",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-lafayette-louisiana-05-22-2027/event/1B00652BD77C4C44",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_3R9L7s7",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-brandon-g5viz_3t3qkqr",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Brandon",
+    "country": "United States Of America",
+    "venue": "Brandon Amphitheater",
+    "datetime_iso": "2027-06-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00652FD275369E",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-brandon-mississippi-06-03-2027/event/1B00652FD275369E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-brandon-mississippi-06-03-2027/event/1B00652FD275369E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00652FD275369E",
+        "discovery_event_id": "G5viZ_3T3qKQr",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-brandon-mississippi-06-03-2027/event/1B00652FD275369E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_3T3qKQr",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-orange-beach-g5viz_kvcnsvm",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Orange Beach",
+    "country": "United States Of America",
+    "venue": "The Wharf Amphitheater",
+    "datetime_iso": "2027-06-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0065306D8F3D37",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-orange-beach-alabama-06-04-2027/event/1B0065306D8F3D37",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-orange-beach-alabama-06-04-2027/event/1B0065306D8F3D37",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0065306D8F3D37",
+        "discovery_event_id": "G5viZ_KvcNSVM",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-orange-beach-alabama-06-04-2027/event/1B0065306D8F3D37",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KvcNSVM",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-orange-beach-g5viz_k5itlvp",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Orange Beach",
+    "country": "United States Of America",
+    "venue": "The Wharf Amphitheater",
+    "datetime_iso": "2027-06-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006532E8A6BD25",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-orange-beach-alabama-06-05-2027/event/1B006532E8A6BD25",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-orange-beach-alabama-06-05-2027/event/1B006532E8A6BD25",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006532E8A6BD25",
+        "discovery_event_id": "G5viZ_K5ItlVP",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-orange-beach-alabama-06-05-2027/event/1B006532E8A6BD25",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_K5ItlVP",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-mount-pleasant-z7r9jz1aaef_z",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green w/ Muscadine Bloodline",
+    "city": "Mount Pleasant",
+    "country": "United States Of America",
+    "venue": "Soaring Eagle Casino & Resort",
+    "datetime_iso": "2027-06-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeF_Z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeF_Z",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeF_Z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeF_Z",
+        "discovery_event_id": "Z7r9jZ1AAeF_Z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeF_Z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeF_Z",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-toronto-1a8zkfwgkd5hci5",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "RBC Amphitheatre",
+    "datetime_iso": "2027-06-11T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006532CB6CEB0B",
+    "ticketmaster_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-toronto-ontario-06-11-2027/event/10006532CB6CEB0B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-toronto-ontario-06-11-2027/event/10006532CB6CEB0B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006532CB6CEB0B",
+        "discovery_event_id": "1A8ZkfwGkd5hCi5",
+        "url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-toronto-ontario-06-11-2027/event/10006532CB6CEB0B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkfwGkd5hCi5",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-toronto-1a8zkfwgkd5hxip",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "RBC Amphitheatre",
+    "datetime_iso": "2027-06-12T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006532CB6FEB16",
+    "ticketmaster_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-toronto-ontario-06-12-2027/event/10006532CB6FEB16",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-toronto-ontario-06-12-2027/event/10006532CB6FEB16",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006532CB6FEB16",
+        "discovery_event_id": "1A8ZkfwGkd5hXip",
+        "url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-toronto-ontario-06-12-2027/event/10006532CB6FEB16",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8ZkfwGkd5hXip",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-gilford-vv1avzkfsgke-elvi",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Gilford",
+    "country": "United States Of America",
+    "venue": "BankNH Pavilion",
+    "datetime_iso": "2027-06-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006531A109FD2C",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-18-2027/event/01006531A109FD2C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-18-2027/event/01006531A109FD2C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006531A109FD2C",
+        "discovery_event_id": "vv1AvZkfsGke-eLVi",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-18-2027/event/01006531A109FD2C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfsGke-eLVi",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-gilford-vv1avzkfsgkeipxy_",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Gilford",
+    "country": "United States Of America",
+    "venue": "BankNH Pavilion",
+    "datetime_iso": "2027-06-19T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006531A85A2C19",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-19-2027/event/01006531A85A2C19",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-19-2027/event/01006531A85A2C19",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006531A85A2C19",
+        "discovery_event_id": "vv1AvZkfsGkeIpxY_",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-19-2027/event/01006531A85A2C19",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfsGkeIpxY_",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-clarkston-vv1afzkfwgkdw_jcp",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "99.5 WYCD Hoedown featuring - Riley Green: That's Just Me Tour",
+    "city": "Clarkston",
+    "country": "United States Of America",
+    "venue": "Pine Knob Music Theatre",
+    "datetime_iso": "2027-06-25T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006532F265C396",
+    "ticketmaster_url": "https://www.ticketmaster.com/995-wycd-hoedown-featuring-riley-green-clarkston-michigan-06-25-2027/event/08006532F265C396",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/995-wycd-hoedown-featuring-riley-green-clarkston-michigan-06-25-2027/event/08006532F265C396",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006532F265C396",
+        "discovery_event_id": "vv1AFZkfwGkdw_jCp",
+        "url": "https://www.ticketmaster.com/995-wycd-hoedown-featuring-riley-green-clarkston-michigan-06-25-2027/event/08006532F265C396",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfwGkdw_jCp",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-clarkston-vv1afzkfygkenvgq1",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "99.5 WYCD Hoedown featuring - Riley Green: That's Just Me Tour",
+    "city": "Clarkston",
+    "country": "United States Of America",
+    "venue": "Pine Knob Music Theatre",
+    "datetime_iso": "2027-06-26T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006539A3D3574A",
+    "ticketmaster_url": "https://www.ticketmaster.com/995-wycd-hoedown-featuring-riley-green-clarkston-michigan-06-26-2027/event/08006539A3D3574A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/995-wycd-hoedown-featuring-riley-green-clarkston-michigan-06-26-2027/event/08006539A3D3574A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006539A3D3574A",
+        "discovery_event_id": "vv1AFZkfyGkeNVgq1",
+        "url": "https://www.ticketmaster.com/995-wycd-hoedown-featuring-riley-green-clarkston-michigan-06-26-2027/event/08006539A3D3574A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfyGkeNVgq1",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-syracuse-k7vgf_k1rwxjy",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Syracuse",
+    "country": "United States Of America",
+    "venue": "Empower Federal Credit Union Amphitheater at Lakeview",
+    "datetime_iso": "2027-07-15T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000065329EF7E9B0",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-syracuse-new-york-07-15-2027/event/000065329EF7E9B0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-syracuse-new-york-07-15-2027/event/000065329EF7E9B0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000065329EF7E9B0",
+        "discovery_event_id": "k7vGF_K1rWXJY",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-syracuse-new-york-07-15-2027/event/000065329EF7E9B0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_K1rWXJY",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-allentown-1adzz_3gkdwsja0",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Allentown",
+    "country": "United States Of America",
+    "venue": "PPL Center",
+    "datetime_iso": "2027-07-16T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000652EFDC5C164",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-allentown-pennsylvania-07-16-2027/event/3000652EFDC5C164",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-allentown-pennsylvania-07-16-2027/event/3000652EFDC5C164",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000652EFDC5C164",
+        "discovery_event_id": "1AdZZ_3GkDWsjA0",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-allentown-pennsylvania-07-16-2027/event/3000652EFDC5C164",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdZZ_3GkDWsjA0",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-columbia-1a4zkfwgkdajcik",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Columbia",
+    "country": "United States Of America",
+    "venue": "Merriweather Post Pavilion",
+    "datetime_iso": "2027-07-22T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006532C998EA06",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-columbia-maryland-07-22-2027/event/15006532C998EA06",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-columbia-maryland-07-22-2027/event/15006532C998EA06",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006532C998EA06",
+        "discovery_event_id": "1A4ZkfwGkdaJCIk",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-columbia-maryland-07-22-2027/event/15006532C998EA06",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkfwGkdaJCIk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-bethel-k7vgf_kkxvsto",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Bethel",
+    "country": "United States Of America",
+    "venue": "Bethel Woods Center for the Arts",
+    "datetime_iso": "2027-07-23T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006531A2071A60",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-bethel-new-york-07-23-2027/event/00006531A2071A60",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-bethel-new-york-07-23-2027/event/00006531A2071A60",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006531A2071A60",
+        "discovery_event_id": "k7vGF_KkxvstO",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-bethel-new-york-07-23-2027/event/00006531A2071A60",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_KkxvstO",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-mansfield-vv1avzkfwgke0hynm",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Mansfield",
+    "country": "United States Of America",
+    "venue": "Xfinity Center",
+    "datetime_iso": "2027-07-24T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006532A46F08EE",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-mansfield-massachusetts-07-24-2027/event/01006532A46F08EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-mansfield-massachusetts-07-24-2027/event/01006532A46F08EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006532A46F08EE",
+        "discovery_event_id": "vv1AvZkfwGke0hYNm",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-mansfield-massachusetts-07-24-2027/event/01006532A46F08EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfwGke0hYNm",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-evansville-vv16azkfwxpza8acgv",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Evansville",
+    "country": "United States Of America",
+    "venue": "Ford Center",
+    "datetime_iso": "2027-07-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006532896F4DB0",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-evansville-indiana-07-29-2027/event/05006532896F4DB0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-evansville-indiana-07-29-2027/event/05006532896F4DB0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006532896F4DB0",
+        "discovery_event_id": "vv16AZkfwxpZA8ACGv",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-evansville-indiana-07-29-2027/event/05006532896F4DB0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16AZkfwxpZA8ACGv",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-maryland-heights-vv1fvovpgtqtz755aa",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Maryland Heights",
+    "country": "United States Of America",
+    "venue": "Hollywood Casino Amphitheater",
+    "datetime_iso": "2027-07-31T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060065329769AA44",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-maryland-heights-missouri-07-30-2027/event/060065329769AA44",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-maryland-heights-missouri-07-30-2027/event/060065329769AA44",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060065329769AA44",
+        "discovery_event_id": "vv1FvOvPGtqtZ755AA",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-maryland-heights-missouri-07-30-2027/event/060065329769AA44",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1FvOvPGtqtZ755AA",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-riley-green-2027-milwaukee-vv1a6zkfwgkdjdyhh",
+    "artist_slug": "riley-green",
+    "artist_name": "Riley Green",
+    "event_name": "Riley Green: That's Just Me Tour",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "American Family Insurance Amphitheater - Summerfest Grounds",
+    "datetime_iso": "2027-08-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006532DCEF96FC",
+    "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-milwaukee-wisconsin-07-31-2027/event/07006532DCEF96FC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-milwaukee-wisconsin-07-31-2027/event/07006532DCEF96FC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006532DCEF96FC",
+        "discovery_event_id": "vv1A6ZkfwGkdjDyhH",
+        "url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-milwaukee-wisconsin-07-31-2027/event/07006532DCEF96FC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6ZkfwGkdjDyhH",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

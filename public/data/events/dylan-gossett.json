@@ -1,0 +1,1661 @@
+[
+  {
+    "id": "tm-dylan-gossett-2026-asheville-z7r9jz1a70afv",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett & Charles Wesley Godwin",
+    "city": "Asheville",
+    "country": "United States Of America",
+    "venue": "Hellbenders by The Orange Peel",
+    "datetime_iso": "2026-10-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70afv",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70afv",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70afv",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70afv",
+        "discovery_event_id": "Z7r9jZ1A70afv",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70afv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70afv",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2026-louisville-z7r9jz1a7ps7v",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett w/ Slater Nalley",
+    "city": "Louisville",
+    "country": "United States Of America",
+    "venue": "Old Foresters Paristown Hall",
+    "datetime_iso": "2026-10-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Ps7V",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps7V",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps7V",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Ps7V",
+        "discovery_event_id": "Z7r9jZ1A7Ps7V",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps7V",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ps7V",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2026-waco-z7r9jz1a7jdak",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett",
+    "city": "Waco",
+    "country": "United States Of America",
+    "venue": "Magnolia Market at the Silos",
+    "datetime_iso": "2026-10-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7JdAk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JdAk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JdAk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7JdAk",
+        "discovery_event_id": "Z7r9jZ1A7JdAk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JdAk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7JdAk",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2026-chicago-vvg18z_u5xbtr6",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - Live In Concert",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Salt Shed Indoors (Shed)",
+    "datetime_iso": "2026-10-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064D2FEEBF787",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-live-in-concert-chicago-illinois-10-27-2026/event/040064D2FEEBF787",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-live-in-concert-chicago-illinois-10-27-2026/event/040064D2FEEBF787",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064D2FEEBF787",
+        "discovery_event_id": "vvG18Z_u5XBTr6",
+        "url": "https://www.ticketmaster.com/dylan-gossett-live-in-concert-chicago-illinois-10-27-2026/event/040064D2FEEBF787",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_u5XBTr6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2026-pittsburgh-17aov0g6u5ijrxe",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett & Charles Wesley Godwin",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Citizens Live at The Wylie",
+    "datetime_iso": "2026-10-31T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160064D2E899E8A7",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-charles-wesley-godwin-pittsburgh-pennsylvania-10-30-2026/event/160064D2E899E8A7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-charles-wesley-godwin-pittsburgh-pennsylvania-10-30-2026/event/160064D2E899E8A7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160064D2E899E8A7",
+        "discovery_event_id": "17AOv0G6u5IJrxE",
+        "url": "https://www.ticketmaster.com/dylan-gossett-charles-wesley-godwin-pittsburgh-pennsylvania-10-30-2026/event/160064D2E899E8A7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AOv0G6u5IJrxE",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2026-apopka-z7r9jz1a7ps7y",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett w/ Buffalo Traffic Jam",
+    "city": "Apopka",
+    "country": "United States Of America",
+    "venue": "Apopka Amphitheater",
+    "datetime_iso": "2026-11-21T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Ps7y",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps7y",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps7y",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Ps7y",
+        "discovery_event_id": "Z7r9jZ1A7Ps7y",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps7y",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ps7y",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2026-brisbane-177yv0g61tezlg8",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett: The Headed Out Back Tour",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "The Fortitude Music Hall",
+    "datetime_iso": "2026-12-05T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064AFE702B310",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/dylan-gossett-the-headed-out-back-brisbane-05-12-2026/event/130064AFE702B310",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/dylan-gossett-the-headed-out-back-brisbane-05-12-2026/event/130064AFE702B310",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064AFE702B310",
+        "discovery_event_id": "177Yv0G61TEZlG8",
+        "url": "https://www.ticketmaster.com.au/dylan-gossett-the-headed-out-back-brisbane-05-12-2026/event/130064AFE702B310",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G61TEZlG8",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2026-sydney-177yv0g655_-4r3",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Headed Out Back Tour",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "Sydney Opera House - Forecourt",
+    "datetime_iso": "2026-12-06T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064B2D9855BD2",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/dylan-gossett-the-headed-out-back-sydney-06-12-2026/event/130064B2D9855BD2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/dylan-gossett-the-headed-out-back-sydney-06-12-2026/event/130064B2D9855BD2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064B2D9855BD2",
+        "discovery_event_id": "177Yv0G655_-4R3",
+        "url": "https://www.ticketmaster.com.au/dylan-gossett-the-headed-out-back-sydney-06-12-2026/event/130064B2D9855BD2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G655_-4R3",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2026-west-melbourne-177yv0g653cuwz_",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett",
+    "city": "West Melbourne",
+    "country": "Australia",
+    "venue": "Festival Hall Melbourne",
+    "datetime_iso": "2026-12-08T08:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130064B48EDB2E19",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/dylan-gossett-west-melbourne-08-12-2026/event/130064B48EDB2E19",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/dylan-gossett-west-melbourne-08-12-2026/event/130064B48EDB2E19",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130064B48EDB2E19",
+        "discovery_event_id": "177Yv0G653CUwz_",
+        "url": "https://www.ticketmaster.com.au/dylan-gossett-west-melbourne-08-12-2026/event/130064B48EDB2E19",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Yv0G653CUwz_",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-london-g5dzz_8kn_3tz",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-02-18T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006504EA652A78",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-london-18-02-2027/event/3E006504EA652A78",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-london-18-02-2027/event/3E006504EA652A78",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006504EA652A78",
+        "discovery_event_id": "G5dzZ_8Kn_3tz",
+        "url": "https://www.ticketmaster.co.uk/dylan-gossett-london-18-02-2027/event/3E006504EA652A78",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_8Kn_3tz",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-manchester-g5dzz_8hqwevt",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - Ramblin' Eu/Uk Tour 2027",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Victoria Warehouse Manchester",
+    "datetime_iso": "2027-02-19T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006506DDF4207F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-manchester-19-02-2027/event/3E006506DDF4207F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-manchester-19-02-2027/event/3E006506DDF4207F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006506DDF4207F",
+        "discovery_event_id": "G5dzZ_8hqWevT",
+        "url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-manchester-19-02-2027/event/3E006506DDF4207F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_8hqWevT",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-birmingham-g5dzz_83l8ohz",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Academy Birmingham",
+    "datetime_iso": "2027-02-21T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006504AB4116C0",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-birmingham-21-02-2027/event/3E006504AB4116C0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-birmingham-21-02-2027/event/3E006504AB4116C0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006504AB4116C0",
+        "discovery_event_id": "G5dzZ_83l8ohZ",
+        "url": "https://www.ticketmaster.co.uk/dylan-gossett-birmingham-21-02-2027/event/3E006504AB4116C0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_83l8ohZ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-glasgow-g5dzz_8pg5sb3",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - Ramblin' Eu/Uk Tour 2027",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "O2 Academy Glasgow",
+    "datetime_iso": "2027-02-23T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006505B52F1612",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-23-02-2027/event/3E006505B52F1612",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-23-02-2027/event/3E006505B52F1612",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006505B52F1612",
+        "discovery_event_id": "G5dzZ_8pg5sb3",
+        "url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-23-02-2027/event/3E006505B52F1612",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_8pg5sb3",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-glasgow-g5dzz_8qwdoqp",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - Ramblin' Eu/Uk Tour 2027",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "O2 Academy Glasgow",
+    "datetime_iso": "2027-02-24T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006506B20D1765",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-24-02-2027/event/3E006506B20D1765",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-24-02-2027/event/3E006506B20D1765",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006506B20D1765",
+        "discovery_event_id": "G5dzZ_8QwdoqP",
+        "url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-24-02-2027/event/3E006506B20D1765",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_8QwdoqP",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-dublin-17kzv0g62wo552g",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-02-27T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064FC912CB3CC",
+    "ticketmaster_url": "https://www.ticketmaster.ie/dylan-gossett-dublin-27-02-2027/event/180064FC912CB3CC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/dylan-gossett-dublin-27-02-2027/event/180064FC912CB3CC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064FC912CB3CC",
+        "discovery_event_id": "17kZv0G62wo552G",
+        "url": "https://www.ticketmaster.ie/dylan-gossett-dublin-27-02-2027/event/180064FC912CB3CC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17kZv0G62wo552G",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-charleston-g5evz_kdp4j6z",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Ramblin' Tour 2027",
+    "city": "Charleston",
+    "country": "United States Of America",
+    "venue": "The Charleston Music Hall",
+    "datetime_iso": "2027-03-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00653EE555C1C0",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charleston-south-carolina-03-25-2027/event/2D00653EE555C1C0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charleston-south-carolina-03-25-2027/event/2D00653EE555C1C0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00653EE555C1C0",
+        "discovery_event_id": "G5eVZ_KDP4j6Z",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charleston-south-carolina-03-25-2027/event/2D00653EE555C1C0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_KDP4j6Z",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T14:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-north-myrtle-beach-g5evz_kuxkrl8",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Ramblin' Tour 2027",
+    "city": "North Myrtle Beach",
+    "country": "United States Of America",
+    "venue": "House of Blues Myrtle Beach",
+    "datetime_iso": "2027-03-26T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00653DBE4DEAD0",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-north-myrtle-beach-south-carolina-03-26-2027/event/2D00653DBE4DEAD0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-north-myrtle-beach-south-carolina-03-26-2027/event/2D00653DBE4DEAD0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00653DBE4DEAD0",
+        "discovery_event_id": "G5eVZ_KUXKrl8",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-north-myrtle-beach-south-carolina-03-26-2027/event/2D00653DBE4DEAD0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_KUXKrl8",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T14:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-charlotte-g5evz_kb2iepf",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Ramblin' Tour 2027",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Fillmore Charlotte",
+    "datetime_iso": "2027-03-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00653E8FB27954",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charlotte-north-carolina-03-27-2027/event/2D00653E8FB27954",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charlotte-north-carolina-03-27-2027/event/2D00653E8FB27954",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00653E8FB27954",
+        "discovery_event_id": "G5eVZ_KB2iEPf",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charlotte-north-carolina-03-27-2027/event/2D00653E8FB27954",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_KB2iEPf",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T14:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-saint-louis-1ae7z_kgkyeggq8",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett The Ramblin' Tour 2027",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Factory",
+    "datetime_iso": "2027-04-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2100653E42D4C750",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-saint-louis-missouri-03-31-2027/event/2100653E42D4C750",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-saint-louis-missouri-03-31-2027/event/2100653E42D4C750",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2100653E42D4C750",
+        "discovery_event_id": "1Ae7Z_KGkyegGq8",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-saint-louis-missouri-03-31-2027/event/2100653E42D4C750",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae7Z_KGkyegGq8",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T15:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-memphis-g5viz_f659_2b",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Ramblin' Tour 2027",
+    "city": "Memphis",
+    "country": "United States Of America",
+    "venue": "Satellite Music Hall",
+    "datetime_iso": "2027-04-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006541CB5D93D8",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-memphis-tennessee-04-03-2027/event/1B006541CB5D93D8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-memphis-tennessee-04-03-2027/event/1B006541CB5D93D8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006541CB5D93D8",
+        "discovery_event_id": "G5viZ_f659_2b",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-memphis-tennessee-04-03-2027/event/1B006541CB5D93D8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_f659_2b",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T15:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-birmingham-1aezz_kgkbdr7ks",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Ramblin' Tour 2027",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Avondale Brewing Co.",
+    "datetime_iso": "2027-04-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000653EBBBC44F3",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-birmingham-alabama-04-04-2027/event/2000653EBBBC44F3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-birmingham-alabama-04-04-2027/event/2000653EBBBC44F3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000653EBBBC44F3",
+        "discovery_event_id": "1AeZZ_KGkBDR7KS",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-birmingham-alabama-04-04-2027/event/2000653EBBBC44F3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_KGkBDR7KS",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T15:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-philadelphia-vv17fz_kgkmvqdsy",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Ramblin' Tour 2027",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Met Presented by Highmark",
+    "datetime_iso": "2027-04-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200653DC1683C79",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-philadelphia-pennsylvania-04-06-2027/event/0200653DC1683C79",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-philadelphia-pennsylvania-04-06-2027/event/0200653DC1683C79",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200653DC1683C79",
+        "discovery_event_id": "vv17FZ_KGkMvQdsy",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-philadelphia-pennsylvania-04-06-2027/event/0200653DC1683C79",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_KGkMvQdsy",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T14:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-baltimore-1avfz_kgkbht6mj",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Ramblin' Tour 2027",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "The Paramount Baltimore",
+    "datetime_iso": "2027-04-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500653E9BFC7BA6",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-baltimore-maryland-04-07-2027/event/1500653E9BFC7BA6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-baltimore-maryland-04-07-2027/event/1500653E9BFC7BA6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500653E9BFC7BA6",
+        "discovery_event_id": "1AvfZ_KGkBhT6mJ",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-baltimore-maryland-04-07-2027/event/1500653E9BFC7BA6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_KGkBhT6mJ",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T14:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-detroit-vv17oz_kgkub0uhh",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Ramblin' Tour 2027",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "The Fillmore Detroit",
+    "datetime_iso": "2027-04-10T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800653DBA936F3C",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-detroit-michigan-04-10-2027/event/0800653DBA936F3C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-detroit-michigan-04-10-2027/event/0800653DBA936F3C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800653DBA936F3C",
+        "discovery_event_id": "vv17OZ_KGkUB0UHH",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-detroit-michigan-04-10-2027/event/0800653DBA936F3C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_KGkUB0UHH",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T14:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-grand-rapids-vv17oz_kgkubfkdd",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Ramblin' Tour 2027",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "GLC Live at 20 Monroe",
+    "datetime_iso": "2027-04-11T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800653DBA206EC3",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-grand-rapids-michigan-04-11-2027/event/0800653DBA206EC3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-grand-rapids-michigan-04-11-2027/event/0800653DBA206EC3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800653DBA206EC3",
+        "discovery_event_id": "vv17OZ_KGkUBFkDd",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-grand-rapids-michigan-04-11-2027/event/0800653DBA206EC3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_KGkUBFkDd",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T14:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-indianapolis-vv17fz_kgkd3hmfo",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Ramblin' Tour 2027",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Old National Centre",
+    "datetime_iso": "2027-05-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500653ED2F2E211",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-indianapolis-indiana-05-04-2027/event/0500653ED2F2E211",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-indianapolis-indiana-05-04-2027/event/0500653ED2F2E211",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500653ED2F2E211",
+        "discovery_event_id": "vv17fZ_KGkD3HmFo",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-indianapolis-indiana-05-04-2027/event/0500653ED2F2E211",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_KGkD3HmFo",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T14:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-madison-vv17jz_kgkmgwnt1",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Ramblin' Tour 2027",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "The Sylvee",
+    "datetime_iso": "2027-05-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700653DF5F6AFCA",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-madison-wisconsin-05-06-2027/event/0700653DF5F6AFCA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-madison-wisconsin-05-06-2027/event/0700653DF5F6AFCA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700653DF5F6AFCA",
+        "discovery_event_id": "vv17jZ_KGkMgWnT1",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-madison-wisconsin-05-06-2027/event/0700653DF5F6AFCA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_KGkMgWnT1",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T15:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-kansas-city-vv17bz_kgkwikfde",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Ramblin' Tour 2027",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "Uptown Theater",
+    "datetime_iso": "2027-05-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600653CAC1880E7",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-kansas-city-missouri-05-07-2027/event/0600653CAC1880E7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-kansas-city-missouri-05-07-2027/event/0600653CAC1880E7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600653CAC1880E7",
+        "discovery_event_id": "vv17bZ_KGkwikFdE",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-kansas-city-missouri-05-07-2027/event/0600653CAC1880E7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_KGkwikFdE",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T15:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-la-vista-1aezz_kgkwpxe_0",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Ramblin' Tour 2027",
+    "city": "La Vista",
+    "country": "United States Of America",
+    "venue": "The Astro Theater",
+    "datetime_iso": "2027-05-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000653C96F82664",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-la-vista-nebraska-05-08-2027/event/2000653C96F82664",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-la-vista-nebraska-05-08-2027/event/2000653C96F82664",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000653C96F82664",
+        "discovery_event_id": "1AeZZ_KGkwpXe_0",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-la-vista-nebraska-05-08-2027/event/2000653C96F82664",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_KGkwpXe_0",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T15:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-austin-g5diz_fkdqvvu",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Ramblin Tour 2027",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Amphitheater",
+    "datetime_iso": "2027-05-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006541BB741D0D",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-austin-texas-05-13-2027/event/3A006541BB741D0D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-austin-texas-05-13-2027/event/3A006541BB741D0D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006541BB741D0D",
+        "discovery_event_id": "G5dIZ_fkDqvVu",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-austin-texas-05-13-2027/event/3A006541BB741D0D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_fkDqvVu",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T15:00:00Z"
+  },
+  {
+    "id": "tm-dylan-gossett-2027-houston-g5diz_kmyuwxg",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Ramblin' Tour 2027",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Bayou Music Center",
+    "datetime_iso": "2027-05-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00653DF0372FB5",
+    "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-houston-texas-05-14-2027/event/3A00653DF0372FB5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-houston-texas-05-14-2027/event/3A00653DF0372FB5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00653DF0372FB5",
+        "discovery_event_id": "G5dIZ_KMYuwXg",
+        "url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-houston-texas-05-14-2027/event/3A00653DF0372FB5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_KMYuwXg",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-06T15:00:00Z"
+  }
+]

@@ -286,9 +286,30 @@ jobs:
           public/data/guides-content.json
           PROJECT_STATUS.md
 
+      # The publishing App has no `workflows` permission, so GitHub refuses any
+      # branch whose workflow files differ from `main`'s. A run checked out
+      # before a workflow change merged builds exactly such a branch: on
+      # 2026-10-02 #1262 merged six minutes into the run and the push was
+      # rejected, failing the run. Rebasing here would publish content the
+      # suite above never saw, so the run withholds today's bump instead and
+      # the next scheduled run, checked out on the new main, publishes it.
+      - name: Withhold publishing if main's workflows moved during this run
+        id: base
+        if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
+        run: |
+          git fetch --no-tags --quiet origin main
+          if git diff --quiet HEAD origin/main -- .github/workflows/; then
+            echo "current=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "current=false" >> "$GITHUB_OUTPUT"
+            MSG="Workflow files on main changed after this run checked out ${GITHUB_SHA::8}; GitHub would refuse the branch, so today's verification-date bump is withheld and the next scheduled run publishes it."
+            echo "::warning::${MSG}"
+            echo "${MSG}" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
       - name: Prepare publishing identity
         id: publishing-identity
-        if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
+        if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true && steps.base.outputs.current == 'true'
         uses: ./.github/actions/automation-identity
         with:
           enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
@@ -297,7 +318,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish through a validated, auto-merged PR
-        if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true
+        if: steps.diff.outputs.changed == 'true' && inputs.dry_run != true && steps.base.outputs.current == 'true'
         env:
           GITHUB_TOKEN: ${{ steps.publishing-identity.outputs.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}

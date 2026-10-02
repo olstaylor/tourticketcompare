@@ -6904,6 +6904,26 @@ export async function onRequest(context) {
     } else {
       priceCandidates = publishableFutureShows(events, 6);
     }
+    // The recorded low reads provider_pricing_history, which the cache attach
+    // below never touches. Artist-city only — it is the one surface that renders
+    // the figure, and skipping it elsewhere keeps the extra read off every other
+    // route. Two statements per 50 dates, and a failure degrades to no low
+    // rather than to no page.
+    //
+    // The price guide's "how prices have moved" reads the newest change-points
+    // of each series. One statement per 50 dates, price-guide only, and a
+    // failure degrades to no moves rather than to no page.
+    //
+    // Neither depends on the cache attach, so all three D1 reads are issued
+    // together: awaited one after another they stacked a round trip each onto
+    // the page's time to first byte.
+    const candidateIds = priceCandidates.map((show) => String(show?.id || ""));
+    const priceLowPromise = route.type === "artist-city" || route.type === "price-guide" || route.type === "event"
+      ? fetchEventPriceLowSeries(env?.DEMAND_DB || env?.DB, candidateIds, APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
+      : null;
+    const priceMovePromise = route.type === "price-guide" || route.type === "event"
+      ? fetchEventPriceMoveSeries(env?.DEMAND_DB || env?.DB, candidateIds, APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
+      : null;
     const pricedShows = await attachApprovedMarketplacePrices(priceCandidates, env);
     const pricedById = new Map(pricedShows.map((show) => [String(show?.id || ""), show]));
     renderEvents = events.map((event) => {
@@ -6913,28 +6933,8 @@ export async function onRequest(context) {
       if (priced.priceChecks) next.priceChecks = priced.priceChecks;
       return next;
     });
-    // The recorded low reads provider_pricing_history, which the cache attach
-    // above never touches. Artist-city only — it is the one surface that renders
-    // the figure, and skipping it elsewhere keeps the extra read off every other
-    // route. Two statements per 50 dates, and a failure degrades to no low
-    // rather than to no page.
-    if (route.type === "artist-city" || route.type === "price-guide" || route.type === "event") {
-      priceLowSeries = await fetchEventPriceLowSeries(
-        env?.DEMAND_DB || env?.DB,
-        priceCandidates.map((show) => String(show?.id || "")),
-        APPROVED_MARKETPLACE_PRICE_LANES
-      ).catch(() => new Map());
-    }
-    // The price guide's "how prices have moved" reads the newest change-points
-    // of each series. One statement per 50 dates, price-guide only, and a
-    // failure degrades to no moves rather than to no page.
-    if (route.type === "price-guide" || route.type === "event") {
-      priceMoveSeries = await fetchEventPriceMoveSeries(
-        env?.DEMAND_DB || env?.DB,
-        priceCandidates.map((show) => String(show?.id || "")),
-        APPROVED_MARKETPLACE_PRICE_LANES
-      ).catch(() => new Map());
-    }
+    if (priceLowPromise) priceLowSeries = await priceLowPromise;
+    if (priceMovePromise) priceMoveSeries = await priceMovePromise;
   }
   const guideContent = route.type === "guide" ? await loadGuideContent(env) : {};
   // The homepage and the guides index promote /blog only while the blog has

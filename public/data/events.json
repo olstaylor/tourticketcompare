@@ -34553,11 +34553,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107202112",
-        "url": "https://www.stubhub.ie/doja-cat-detroit-tickets-10-1-2026/event/107202112",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -34571,7 +34571,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-detroit-tickets-10-1-2026/event/107202112",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -36836,11 +36836,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107158168",
-        "url": "https://www.stubhub.ie/sombr-seattle-tickets-10-1-2026/event/107158168",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -36854,7 +36854,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-seattle-tickets-10-1-2026/event/107158168",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -39416,18 +39416,18 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107189143",
-        "url": "https://www.stubhub.ie/john-summit-champaign-tickets-10-1-2026/event/107189143",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70IJb",
     "status": "on-sale",
     "timezone": "America/Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982945",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-champaign-tickets-10-1-2026/event/107189143"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-john-summit-2026-montreal-17g8v0g652qqblc",
@@ -50818,11 +50818,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107198485",
-        "url": "https://www.stubhub.ie/don-omar-dallas-tickets-10-1-2026/event/107198485",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1D_Hllv",
@@ -50830,7 +50830,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-dallas-tickets-10-1-2026/event/107198485"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-orlando-17fov0g61tztiqr",
@@ -144290,6 +144290,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671382",
+        "url": "https://www.stubhub.ie/fantasia-washington-tickets-2-5-2027/event/107671382",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kA8vPuOGAuB0mR",
@@ -144297,7 +144304,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293963",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293963/The-Love-of-Soul-Tour-tickets-Fri-Feb-5-2027-Capital-One-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293963/The-Love-of-Soul-Tour-tickets-Fri-Feb-5-2027-Capital-One-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/fantasia-washington-tickets-2-5-2027/event/107671382"
   },
   {
     "id": "tm-fantasia-2027-norfolk-vv1avzkfmgkdn5kye",
@@ -144554,6 +144562,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670734",
+        "url": "https://www.stubhub.ie/fantasia-new-orleans-tickets-2-19-2027/event/107670734",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_K6CsS2K",
@@ -144561,7 +144576,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293967",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293967/The-Love-of-Soul-Tour-tickets-Fri-Feb-19-2027-Smoothie-King-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293967/The-Love-of-Soul-Tour-tickets-Fri-Feb-19-2027-Smoothie-King-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/fantasia-new-orleans-tickets-2-19-2027/event/107670734"
   },
   {
     "id": "tm-fantasia-2027-biloxi-g5viz_kxokyjj",
@@ -144694,6 +144710,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671383",
+        "url": "https://www.stubhub.ie/fantasia-ontario-tickets-3-5-2027/event/107671383",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkfzGkeTkqbZ",
@@ -144701,7 +144724,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294732",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294732/The-Love-of-Soul-Tour-tickets-Fri-Mar-5-2027-Toyota-Arena-Ontario"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294732/The-Love-of-Soul-Tour-tickets-Fri-Mar-5-2027-Toyota-Arena-Ontario",
+    "stubhub_international_url": "https://www.stubhub.ie/fantasia-ontario-tickets-3-5-2027/event/107671383"
   },
   {
     "id": "tm-fantasia-2027-oakland-g5vyz_krz5jaf",
@@ -144834,6 +144858,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671384",
+        "url": "https://www.stubhub.ie/fantasia-fort-worth-tickets-3-13-2027/event/107671384",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KbTLWH3",
@@ -144841,7 +144872,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293970",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293970/The-Love-of-Soul-Tour-tickets-Sat-Mar-13-2027-Dickies-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293970/The-Love-of-Soul-Tour-tickets-Sat-Mar-13-2027-Dickies-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/fantasia-fort-worth-tickets-3-13-2027/event/107671384"
   },
   {
     "id": "tm-fantasia-2027-atlanta-vvg1zz_kqs5ty6",
@@ -144904,6 +144936,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670735",
+        "url": "https://www.stubhub.ie/fantasia-atlanta-tickets-3-26-2027/event/107670735",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KQs5tY6",
@@ -144911,7 +144950,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293971",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293971/The-Love-of-Soul-Tour-tickets-Fri-Mar-26-2027-State-Farm-Arena-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293971/The-Love-of-Soul-Tour-tickets-Fri-Mar-26-2027-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/fantasia-atlanta-tickets-3-26-2027/event/107670735"
   },
   {
     "id": "tm-fantasia-2027-orlando-1aefz_3gkx--7oo",
@@ -145238,6 +145278,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670736",
+        "url": "https://www.stubhub.ie/fantasia-hollywood-tickets-4-17-2027/event/107670736",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_K9lSiLT",
@@ -145245,7 +145292,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293977",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293977/The-Love-of-Soul-Tour-tickets-Sat-Apr-17-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293977/The-Love-of-Soul-Tour-tickets-Sat-Apr-17-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+    "stubhub_international_url": "https://www.stubhub.ie/fantasia-hollywood-tickets-4-17-2027/event/107670736"
   },
   {
     "id": "tm-fantasia-2027-phoenix-1a_zkfmgke0qgen",
@@ -145378,6 +145426,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671385",
+        "url": "https://www.stubhub.ie/fantasia-charlotte-tickets-5-7-2027/event/107671385",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_K5A0aJy",
@@ -145385,7 +145440,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293978",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293978/The-Love-of-Soul-Tour-tickets-Fri-May-7-2027-Spectrum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293978/The-Love-of-Soul-Tour-tickets-Fri-May-7-2027-Spectrum-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/fantasia-charlotte-tickets-5-7-2027/event/107671385"
   },
   {
     "id": "tm-fantasia-2027-raleigh-g5evz_kx4nbzb",
@@ -145518,6 +145574,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670737",
+        "url": "https://www.stubhub.ie/fantasia-chicago-tickets-5-14-2027/event/107670737",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfUGkdBhXkp",
@@ -145525,7 +145588,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293980",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293980/The-Love-of-Soul-Tour-tickets-Fri-May-14-2027-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293980/The-Love-of-Soul-Tour-tickets-Fri-May-14-2027-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/fantasia-chicago-tickets-5-14-2027/event/107670737"
   },
   {
     "id": "tm-fantasia-2027-detroit-vv1afzkfsgkdkxfme",
@@ -145588,6 +145652,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671386",
+        "url": "https://www.stubhub.ie/fantasia-detroit-tickets-5-15-2027/event/107671386",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfSGkdkXFme",
@@ -145595,7 +145666,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293981",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293981/The-Love-of-Soul-Tour-tickets-Sat-May-15-2027-Little-Caesars-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293981/The-Love-of-Soul-Tour-tickets-Sat-May-15-2027-Little-Caesars-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/fantasia-detroit-tickets-5-15-2027/event/107671386"
   },
   {
     "id": "tm-fantasia-2027-providence-vv1avzkfygkdtqjz9",
@@ -145728,6 +145800,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670738",
+        "url": "https://www.stubhub.ie/fantasia-newark-tickets-5-22-2027/event/107670738",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfUGke-q6sN",
@@ -145735,7 +145814,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293983",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293983/The-Love-of-Soul-Tour-tickets-Sat-May-22-2027-Prudential-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293983/The-Love-of-Soul-Tour-tickets-Sat-May-22-2027-Prudential-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/fantasia-newark-tickets-5-22-2027/event/107670738"
   },
   {
     "id": "tm-a-perfect-circle-2026-adelaide-1aefz_kgkrmdjgo",
@@ -148816,12 +148896,20 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107457334",
+        "url": "https://www.stubhub.ie/the-red-clay-strays-fort-worth-tickets-10-7-2026/event/107457334",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_F0exkqy",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906845"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906845",
+    "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-fort-worth-tickets-10-7-2026/event/107457334"
   },
   {
     "id": "tm-the-red-clay-strays-2026-fort-worth-vvg1yz_f0kf9e_",
@@ -148877,12 +148965,20 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107457313",
+        "url": "https://www.stubhub.ie/the-red-clay-strays-fort-worth-tickets-10-8-2026/event/107457313",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_F0kF9e_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7948261"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7948261",
+    "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-fort-worth-tickets-10-8-2026/event/107457313"
   },
   {
     "id": "tm-the-red-clay-strays-2026-orlando-1aefz_fgkvf8_5e",
@@ -148938,12 +149034,20 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107212078",
+        "url": "https://www.stubhub.ie/the-red-clay-strays-orlando-tickets-10-14-2026/event/107212078",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_FGkVF8_5e",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906846"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906846",
+    "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-orlando-tickets-10-14-2026/event/107212078"
   },
   {
     "id": "tm-the-red-clay-strays-2026-savannah-vvg1zz_fxgmnus",
@@ -149182,12 +149286,20 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107129344",
+        "url": "https://www.stubhub.ie/the-red-clay-strays-nashville-tickets-10-22-2026/event/107129344",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZbUm8X11w",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7566206"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7566206",
+    "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-nashville-tickets-10-22-2026/event/107129344"
   },
   {
     "id": "tm-the-red-clay-strays-2026-nashville-g5vizbubiwctj",
@@ -149243,12 +149355,20 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107130358",
+        "url": "https://www.stubhub.ie/the-red-clay-strays-nashville-tickets-10-23-2026/event/107130358",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZbUBiwctj",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7599586"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7599586",
+    "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-nashville-tickets-10-23-2026/event/107130358"
   },
   {
     "id": "tm-the-red-clay-strays-2026-knoxville-g5viz_ae91dt_",
@@ -149601,12 +149721,20 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107130357",
+        "url": "https://www.stubhub.ie/the-red-clay-strays-atlanta-tickets-11-13-2026/event/107130357",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_7RKxyY-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748076"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748076",
+    "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-atlanta-tickets-11-13-2026/event/107130357"
   },
   {
     "id": "tm-the-red-clay-strays-2026-las-vegas-z7r9jz1a70pzp",
@@ -149662,12 +149790,20 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107198216",
+        "url": "https://www.stubhub.ie/the-red-clay-strays-las-vegas-tickets-12-5-2026/event/107198216",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70PZp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7970241"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7970241",
+    "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-las-vegas-tickets-12-5-2026/event/107198216"
   },
   {
     "id": "tm-the-red-clay-strays-2027-raleigh-g5evz_kwmllt1",

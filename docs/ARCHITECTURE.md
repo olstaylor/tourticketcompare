@@ -214,10 +214,15 @@ of binary files on every data sync. This is also why `npm run og:check` verifies
 that referenced cards exist rather than that the manifest matches the current
 indexable surface — city, venue and artist-city routes appear and disappear on
 their own, and an exact-match check would fail on any day the calendar moved.
-Coverage is watched separately: `npm run og:coverage:check` fails when a current
-indexable route has no card, and it is the check the generated-freshness sensor
-runs for the `og-cards` artefact, so new routes get a rebuild PR from the
-work-queue repair worker rather than waiting for a manual `og:build`.
+Cards are built at the source: every lane that writes event or artist data
+(auto-promote, Ticketmaster new shows, TM data refresh, nightly sync, the
+SeatGeek, Vivid Seats and Impact CTA syncs) runs `npm run og:build` before
+`test:mvp` and commits `public/og/` and the manifest with its data, so a page
+never ships on the shared card. Coverage is the backstop:
+`npm run og:coverage:check` fails when a current indexable route has no card,
+and it is the check the generated-freshness sensor runs for the `og-cards`
+artefact, so anything a lane misses gets a rebuild PR from the work-queue repair
+worker.
 
 Cards are rasterised with `sharp` (a devDependency) against the DejaVu faces the
 brand template names first. Generate on Linux so committed cards match CI.

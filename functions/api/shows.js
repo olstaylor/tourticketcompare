@@ -1066,12 +1066,23 @@ export const APPROVED_MARKETPLACE_PRICE_LANES = [
 // to a handful of queries instead of two point reads per show.
 const PRICING_CACHE_BULK_CHUNK_SIZE = 50;
 
+// The ids split into fixed-size chunks, in order. Each chunk's statement is
+// independent of the others, so callers issue them together rather than one
+// round trip after another: every D1 read from an HTML route sits directly on
+// the page's time to first byte.
+function pricingCacheChunks(showIds) {
+  const chunks = [];
+  for (let i = 0; i < showIds.length; i += PRICING_CACHE_BULK_CHUNK_SIZE) {
+    chunks.push(showIds.slice(i, i + PRICING_CACHE_BULK_CHUNK_SIZE));
+  }
+  return chunks;
+}
+
 async function fetchApprovedMarketplaceCachedRows(db, showIds) {
   const rowsByKey = new Map();
-  for (let i = 0; i < showIds.length; i += PRICING_CACHE_BULK_CHUNK_SIZE) {
-    const chunk = showIds.slice(i, i + PRICING_CACHE_BULK_CHUNK_SIZE);
+  const results = await Promise.all(pricingCacheChunks(showIds).map((chunk) => {
     const placeholders = chunk.map((_, index) => `?${index + 1}`).join(", ");
-    const result = await db
+    return db
       .prepare(
         `SELECT event_id, provider, low_price, avg_price, high_price, currency, inventory_count, verified_at, expires_at, source
          FROM provider_pricing_cache
@@ -1080,6 +1091,8 @@ async function fetchApprovedMarketplaceCachedRows(db, showIds) {
       )
       .bind(...chunk)
       .all();
+  }));
+  for (const result of results) {
     for (const row of Array.isArray(result?.results) ? result.results : []) {
       if (!row || typeof row !== "object") continue;
       rowsByKey.set(`${String(row.event_id)}:${String(row.provider)}`, row);
@@ -1101,13 +1114,14 @@ async function fetchProviderPriceChecks(db, showIds) {
   const checks = new Map();
   if (!db || !showIds.length) return checks;
   try {
-    for (let i = 0; i < showIds.length; i += PRICING_CACHE_BULK_CHUNK_SIZE) {
-      const chunk = showIds.slice(i, i + PRICING_CACHE_BULK_CHUNK_SIZE);
+    const results = await Promise.all(pricingCacheChunks(showIds).map((chunk) => {
       const placeholders = chunk.map((_, index) => `?${index + 1}`).join(", ");
-      const result = await db
+      return db
         .prepare(`SELECT event_id, provider, checked_at FROM provider_price_checks WHERE outcome = 'no_price' AND event_id IN (${placeholders})`)
         .bind(...chunk)
         .all();
+    }));
+    for (const result of results) {
       for (const row of Array.isArray(result?.results) ? result.results : []) {
         const eventId = String(row?.event_id || "");
         const checkedAt = String(row?.checked_at || "");
@@ -1141,6 +1155,9 @@ export async function attachApprovedMarketplacePrices(shows, env) {
   if (db && laneStates.some((state) => state.enabled)) {
     const showIds = [...new Set(shows.map((show) => String(show?.id || "").trim()).filter(Boolean))];
     if (showIds.length) {
+      // Both reads go out together. fetchProviderPriceChecks never rejects (it
+      // degrades to an empty map), so only the cache read can fail the board.
+      const checksPromise = fetchProviderPriceChecks(db, showIds);
       try {
         rowsByKey = await fetchApprovedMarketplaceCachedRows(db, showIds);
       } catch (err) {
@@ -1150,7 +1167,7 @@ export async function attachApprovedMarketplacePrices(shows, env) {
         // not be read (pricesWereChecked in [[path]].js and app.js).
         return shows.map((show) => ({ ...show, prices: [], priceQueryFailed: true }));
       }
-      checksByEvent = await fetchProviderPriceChecks(db, showIds);
+      checksByEvent = await checksPromise;
     }
   }
 

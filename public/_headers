@@ -40,6 +40,16 @@
 /currency-converter.js
   Cache-Control: public, max-age=31536000, immutable
 
+/price-history.js
+  Cache-Control: public, max-age=31536000, immutable
+
+# Self-hosted fonts. Their URLs carry no ?v=, so they get a long TTL rather
+# than `immutable`: a replaced font file reaches returning visitors within a
+# month. Without this they fell back to the default four-hour revalidation,
+# so every return visit re-requested the font that every page preloads.
+/fonts/*
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
+
 /favicon.svg
   Cache-Control: public, max-age=604800
 

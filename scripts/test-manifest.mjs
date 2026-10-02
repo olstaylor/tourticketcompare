@@ -113,6 +113,8 @@ export const STEPS = [
   { id: "test:artist-demotion",                   lane: "units",  run: "node scripts/artist-demotion.test.mjs" },
   { id: "status:validate",                        lane: "quick",  run: "npm run status:validate" },
   { id: "test:signup-intent",                     lane: "units",  run: "node scripts/signup-intent.test.mjs" },
+  { id: "alerts:date:self-test",                  lane: "units",  run: "node scripts/send-date-alerts.mjs --self-test" },
+  { id: "test:unsubscribe",                       lane: "units",  run: "node scripts/unsubscribe.test.mjs" },
   { id: "content:voice:self-test",                lane: "units",  run: "node scripts/check-site-voice.mjs --self-test" },
   { id: "content:voice:check",                    lane: "quick",  run: "node scripts/check-site-voice.mjs" },
   { id: "content:owner-copy:self-test",           lane: "units",  run: "node scripts/check-owner-copy.mjs --self-test" },

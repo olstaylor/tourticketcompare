@@ -62,7 +62,9 @@ functions/
     shows.js                 Event API and cache-only price responses
     health.js                Runtime/config presence without secret values
     analytics.js             First-party write-only analytics beacon
-    signup.js                Email/interest demand capture (nothing is ever emailed)
+    signup.js                Email/interest capture; artist date-alert signups are emailed
+                             once by scripts/send-date-alerts.mjs, price interest never
+    unsubscribe.js           Opt-out from the link in a date-alert email (GET confirms, POST records)
     price-history.js         Read-only snapshot history behind the badge display gate
     rates.js                 Cache-backed ECB reference rates for /currency-converter
     admin/                   GitHub OAuth handshake for the editor (ADMIN_HOST only)

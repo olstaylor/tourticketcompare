@@ -93,13 +93,29 @@ jobs:
             printf '%s\n' '{"status":"skipped","reason":"TICKETMASTER_API_KEY not set"}' > .audit/tm-status.json
             exit 0
           fi
-          if node scripts/audit-tm-events.mjs --json .audit/tm.json; then
+          if node scripts/audit-tm-events.mjs --json .audit/tm.json --snapshot-out .audit/tm-snapshot.json; then
             printf '%s\n' '{"status":"ok"}' > .audit/tm-status.json
           else
             code=$?
             printf '%s\n' "{\"status\":\"failed\",\"reason\":\"audit-tm-events.mjs exited ${code}\"}" > .audit/tm-status.json
             exit $code
           fi
+
+      # Separate short-lived artifact: the audit evidence keeps its existing
+      # retention, while the shared fetch is never long-lived business data.
+      # Only scheduled main runs may supply observations to another workflow.
+      - name: Upload tracked TM response snapshot
+        if: always() && github.event_name == 'schedule' && github.ref == 'refs/heads/main' && vars.TM_SHARED_SNAPSHOT_DISABLED != '1' && hashFiles('.audit/tm-snapshot.json') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: tm-tracked-event-snapshot
+          path: .audit/tm-snapshot.json
+          include-hidden-files: true
+          retention-days: 1
+
+      - name: Remove transport snapshot from long-lived audit artefacts
+        if: always()
+        run: rm -f .audit/tm-snapshot.json .audit/tm-snapshot.json.tmp
 
       # Confirms each guide's cited source URL still resolves. Runs here, in the
       # job that publishes the rolling issue and uploads .audit/, so a broken
@@ -133,6 +149,14 @@ jobs:
           # the verification-dates job.
           include-hidden-files: true
           retention-days: 30
+
+      # Keep the rolling findings and artifacts above, then make a failed
+      # Discovery sweep visible as a red run. Verification dates remain held.
+      - name: Fail on TM fetch errors
+        if: always() && steps.tm.outcome == 'failure'
+        run: |
+          echo "::error::Ticketmaster audit failed; evidence was retained and verification dates are withheld."
+          exit 1
 
   verification-dates:
     runs-on: ubuntu-latest

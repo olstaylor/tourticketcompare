@@ -83,16 +83,43 @@ jobs:
       - name: Prepare report directory
         run: mkdir -p .audit
 
+      # Optional handoff from a completed scheduled audit on main. Dispatches
+      # always fetch independently. The script also checks every entry's exact
+      # ID, integrity and six-hour freshness at consumption time.
+      - name: Find fresh tracked TM snapshot
+        id: snapshot
+        if: github.event_name == 'schedule' && github.ref == 'refs/heads/main' && vars.TM_SHARED_SNAPSHOT_DISABLED != '1'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/find-tm-snapshot.mjs
+
+      - name: Download tracked TM snapshot
+        id: snapshot-download
+        if: steps.snapshot.outputs.artifact_id != ''
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          artifact-ids: ${{ steps.snapshot.outputs.artifact_id }}
+          run-id: ${{ steps.snapshot.outputs.run_id }}
+          github-token: ${{ github.token }}
+          path: .audit/shared-tm
+          merge-multiple: true
+
       - name: Apply authoritative TM field updates
         id: apply
         env:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
           # Repository variable: "1" restores the full daily sweep (scripts/lib/tm-sweep-window.mjs).
           TM_SWEEP_INCLUDE_PAST: ${{ vars.TM_SWEEP_INCLUDE_PAST }}
+          SNAPSHOT_DOWNLOADED: ${{ steps.snapshot-download.outcome == 'success' }}
         run: |
           DRY=""
           if [ "${{ inputs.dry_run }}" = "true" ]; then DRY="--dry-run"; fi
-          node scripts/apply-tm-updates.mjs $DRY --json .audit/tm-sync.json
+          SNAPSHOT_ARGS=()
+          if [ "$SNAPSHOT_DOWNLOADED" = "true" ]; then
+            SNAPSHOT_ARGS=(--snapshot .audit/shared-tm/tm-snapshot.json)
+          fi
+          node scripts/apply-tm-updates.mjs $DRY --json .audit/tm-sync.json "${SNAPSHOT_ARGS[@]}"
 
       - name: Detect data changes
         id: diff

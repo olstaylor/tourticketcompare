@@ -238,6 +238,15 @@ export function artistSearchIntro(artist, status, options = {}) {
   // Multi-night runs are not restated here (2026-09-25): every card in a run
   // carries its own "Night 1 of 2" chip, directly under this sentence.
 
+  // The soonest date is what most visitors arrived to check, so the lead names
+  // it. It is the first card on the board, so the sentence cannot disagree with
+  // what renders directly beneath it.
+  if (status.showCount > 1) {
+    const nextLabel = formatDate(status.next?.iso, status.next?.timezone);
+    const nextPlace = [status.next?.venue, status.next?.city].filter(Boolean).join(", ");
+    if (nextLabel && nextPlace) sentences.push(`Next: ${nextLabel} at ${nextPlace}.`);
+  }
+
   if (status.showsWithoutCta > 0 && status.showsWithCta > 0) {
     sentences.push(
       `${status.showsWithCta} of the ${status.showCount} have a checked ticket link.`
@@ -248,9 +257,10 @@ export function artistSearchIntro(artist, status, options = {}) {
         ? `There's no checked ticket link for it yet, so the date is listed without a button.`
         : `None of them have a checked ticket link yet, so they are listed without buttons.`
     );
-  } else if (status.providerCoverageVaries) {
-    sentences.push(`Every date has at least one checked ticket link, though how many ticket sites cover a date varies.`);
   }
+  // Uneven per-date provider coverage is no longer narrated here: every card
+  // shows its own buttons, and the sentence ("though how many ticket sites cover
+  // a date varies") was a hedge the reader could not act on.
 
   return sentences.slice(0, 3).join(" ");
 }
@@ -314,11 +324,12 @@ export function artistTicketHelp() {
     intro:
       "TourTicketCompare doesn't sell tickets. You buy on the ticket site the button opens.",
     points: [
-      "A button on a date card opens that ticket site's page for that exact date. The buttons under \"Where to buy\" are different: they open the artist's page on a ticket site, not a specific date.",
-      "A price on a button is a snapshot: one site's listed price for that one date, captured at the time shown next to it. Not live stock, and not your final total.",
-      "Where more than one site has a snapshot for the same date, the lower listed figure and the site offering it are named. That compares two timestamped snapshots for one date — never across different dates, and never a claim that a site is cheaper overall.",
-      "Fees, delivery and tax are added at the provider's checkout — compare the total there, not the first number you see.",
-      "A date-card button only appears once the link has been followed to that exact event. Until then, the date is listed with no button rather than a guess."
+      "A button on a date card opens that exact date on the ticket site.",
+      "The buttons under \"Where to buy\" open the artist's page on each ticket site, not a specific date.",
+      "A price is one site's listed price for that date, captured at the time shown beside it: a snapshot, not live stock and not your final total.",
+      "When several sites have a snapshot for the same date, the lower listed figure is marked. That compares one date only: never across different dates, and never a claim that a site is cheaper overall.",
+      "Fees, delivery and tax are added at the provider's checkout, so compare the total there.",
+      "A date with no button is one whose link hasn't been matched to that exact event yet."
     ]
   };
 }

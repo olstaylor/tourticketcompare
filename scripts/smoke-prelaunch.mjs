@@ -68,7 +68,7 @@ const expectedTitle = new Map([
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where available, then check the total.";
 const APP_ASSET_VERSION = "20260926a";
 const TTC_HOME_ASSET_VERSION = "20260924b";
-const TTC_HOME_JS_ASSET_VERSION = "20260924v";
+const TTC_HOME_JS_ASSET_VERSION = "20261002a";
 const TTC_SHELL_ASSET_VERSION = "20260925a";
 const SHELL_SCRIPT_ASSET_VERSION = "20260926a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-4/p1dKV8DVVc+KAFU6w/f5XPSPD2Po0Wx8aWhKVLdjI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
@@ -1931,7 +1931,7 @@ const lightweightGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster")
 assert(lightweightGuide.text.includes(`/shell.js?v=${SHELL_SCRIPT_ASSET_VERSION}`), "guide routes must load the shared shell");
 assert(!lightweightGuide.text.includes("/app.js?v="), "guide routes must not load the universal app bundle");
 assert(!lightweightGuide.text.includes("/ttc-home.css?v="), "guide routes must not download homepage presentation CSS");
-assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20260924c"), "artist routes must load only the artist-board route module");
+assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20261002a"), "artist routes must load only the artist-board route module");
 assert(!serverMorganWithSeatGeek.text.includes("/app.js?v="), "artist routes must not load the universal app bundle");
 const converterAssets = await routeResponse("/currency-converter");
 assert(converterAssets.text.includes("/currency-converter.js?v=20260821a"), "currency converter must load its route module");
@@ -3824,7 +3824,7 @@ assert(
 );
 assert(!beyonceEmptyStatePage.text.includes("Data checked:"), "empty artist pages should omit last-checked claims");
 assert(
-  manyBoard.html.includes("no separate human editorial review date"),
+  manyBoard.html.includes("by an automated check rather than a human review"),
   "the provenance block should distinguish automated checks from human review"
 );
 // The event-record date range (derived from mixed-semantics event
@@ -3863,7 +3863,7 @@ assert(!beyonceEmptyStatePage.text.includes("event records"), "empty-board artis
 // Artist-level provider buttons land on the artist's page, not on one date, so
 // neither the provenance block nor the shared help may claim otherwise.
 assert(
-  manyBoard.html.includes("every button on a date card resolves to that exact event"),
+  manyBoard.html.includes("every button on a date card opens that exact event"),
   "the provenance block should scope the exact-event claim to date-card buttons"
 );
 assert(
@@ -3871,7 +3871,7 @@ assert(
   "the provenance block must not claim artist-level buttons resolve to a specific date"
 );
 assert(
-  manyBoard.html.includes("they open the artist&#39;s page on a ticket site, not a specific date"),
+  manyBoard.html.includes("open the artist&#39;s page on each ticket site, not a specific date"),
   "the shared help should describe where artist-level provider buttons land"
 );
 

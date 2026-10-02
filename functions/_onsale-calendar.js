@@ -18,7 +18,7 @@ export const ONSALE_RECENT_DAYS = 7;
 // A public on-sale further out than this is not a real schedule. Discovery
 // uses far-future placeholders (a 9999-12-31 row exists) for "to be announced",
 // and listing one would advertise a date Ticketmaster never set.
-const ONSALE_MAX_HORIZON_DAYS = 365;
+export const ONSALE_MAX_HORIZON_DAYS = 365;
 
 function trimmed(value) {
   return String(value || "").trim();

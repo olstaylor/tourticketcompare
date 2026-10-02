@@ -1477,7 +1477,6 @@ function renderArtistStatusLegend() {
   const legend = document.createElement("div");
   legend.className = "artist-status-legend";
   legend.setAttribute("aria-label", "Artist card status legend");
-  // Keep in sync with renderArtistStatusLegendHtml in functions/[[path]].js.
   const items = [
     ["status-badge", "Dates listed", "Upcoming dates and ticket links on the page"],
     ["status-badge status-badge-muted", "No dates currently listed", "No future dates — artist page and alerts only"],

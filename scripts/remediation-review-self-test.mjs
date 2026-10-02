@@ -63,8 +63,8 @@ const smokeVersion = smoke.match(/const APP_ASSET_VERSION = "([0-9a-z]+)"/)?.[1]
 assert.equal(appVersion, smokeVersion);
 assert.equal(shell.match(/\/ttc-shell\.css\?v=([0-9a-z]+)/)?.[1], "20260925a");
 assert.equal(route.match(/\/ttc-home\.css\?v=([0-9a-z]+)/)?.[1], "20260924b");
-assert.equal(route.match(/\/ttc-home\.js\?v=([0-9a-z]+)/)?.[1], "20260924v");
-assert.match(route, /\/artist-board\.js\?v=20260924c/);
+assert.equal(route.match(/\/ttc-home\.js\?v=([0-9a-z]+)/)?.[1], "20261002a");
+assert.match(route, /\/artist-board\.js\?v=20261002a/);
 assert.match(route, /\/currency-converter\.js\?v=20260821a/);
 
 // PR #727 split the universal application bundle into route modules. These

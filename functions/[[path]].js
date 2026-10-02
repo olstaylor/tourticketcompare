@@ -27,7 +27,7 @@ import { deriveCityDatePrices } from "./_artist-city-prices.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
 import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, EVENT_LIFECYCLE, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
-import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
+import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import {
   PRICE_GUIDE_SEGMENT,
   derivePriceGuide,
@@ -184,24 +184,6 @@ const RESERVED_FILES = new Set(["/app.js", "/styles.css", "/favicon.svg", "/robo
 // bindings cannot share data; discard failures so a transient asset problem is
 // retried by the next request.
 const ASSET_JSON_CACHE_BY_BINDING = new WeakMap();
-
-// Keep the highest-value editorial guide routable even if an edge deploy briefly
-// serves stale route metadata. PRICE_GUIDE_FALLBACK mirrors that guide's
-// GUIDE_ROUTES entry and prevents Googlebot/Search Console from seeing a
-// transient 404/noindex response, or a page stripped of its visible
-// Published/Updated line and its Article datePublished/dateModified.
-//
-// It is a separate top-level binding in functions/_guide-routes.generated.js,
-// not a lookup into GUIDE_ROUTES: a missing or malformed entry there still
-// leaves this object intact, which is the case it exists for. (It has never
-// covered the module failing to load outright — GUIDE_ROUTES is imported at
-// module scope, so that takes every HTML route down regardless.)
-//
-// Both are generated from the same Markdown, so they cannot drift:
-// scripts/build-guide-content.mjs refuses to draft, rename or delete that
-// guide, and scripts/route-metadata.test.mjs asserts every field of the
-// fallback equals the GUIDE_ROUTES entry.
-
 
 // _headers applies to static-asset responses only, not to function-generated responses.
 // These headers must be set explicitly on every HTML Response returned by this function.
@@ -473,6 +455,9 @@ async function routeForPath(pathname, env) {
   if (OLD_GUIDE_REDIRECTS[path]) return { type: "redirect", location: OLD_GUIDE_REDIRECTS[path] };
   if (path === "/compare-concert-ticket-prices") return { type: "comparison-hub", path, ...TRUST_ROUTES[path] };
   if (path === "/" || PUBLIC_HTML_ROUTES.has(path)) return { type: "static", path, ...TRUST_ROUTES[path] };
+  // PRICE_GUIDE_FALLBACK keeps the highest-value guide routable (not a 404 or
+  // noindex) if an edge deploy briefly serves stale route metadata. It is a
+  // separate generated binding, so a bad GUIDE_ROUTES entry leaves it intact.
   const guide = GUIDE_ROUTES[path] || (path === PRICE_GUIDE_FALLBACK_PATH ? PRICE_GUIDE_FALLBACK : null);
   if (guide) {
     return {
@@ -3616,23 +3601,6 @@ function renderGuideClusters() {
   return clusterSections + moreSection;
 }
 
-// Keep in sync with renderArtistStatusLegend in public/app.js.
-function renderArtistStatusLegendHtml() {
-  const items = [
-    ["status-badge", "Dates listed", "Upcoming dates and ticket links on the page"],
-    ["status-badge status-badge-muted", "No dates currently listed", "No future dates — artist page and alerts only"],
-    ["status-badge status-badge-muted", "Being checked", "Links appear once they've been checked"]
-  ];
-  return `<div class="artist-status-legend" aria-label="Artist card status legend">${items
-    .map(
-      ([badgeClass, badge, detail]) =>
-        `<span class="artist-status-legend-item"><span class="${badgeClass}">${escapeHtml(
-          badge
-        )}</span><span class="status-chip-detail">${escapeHtml(detail)}</span></span>`
-    )
-    .join("")}</div>`;
-}
-
 function renderHomepageGuideLinks() {
   const priorityPaths = [
     "/guides/vivid-seats-vs-ticketmaster",
@@ -4453,8 +4421,13 @@ function showDatePartsServer(iso, timezone) {
 // resale lanes with their own verified exact-event provenance still render:
 // resale marketplaces list before a public on-sale, and /api/out has never
 // gated on it. Keep in sync with public/app.js.
-function publicOnsaleLabel(event) {
+function publicOnsaleLabel(event, now = Date.now()) {
   const at = new Date(String(event?.public_onsale_at || ""));
+  // Ticketmaster marks "to be announced" with far-future placeholders such as
+  // 9999-12-31; the on-sale calendar already ignores those, so the label does too.
+  if (at.getTime() - now > ONSALE_MAX_HORIZON_DAYS * 24 * 60 * 60 * 1000) {
+    return "Public on-sale date not yet announced by Ticketmaster.";
+  }
   let when = at.toISOString().slice(0, 16).replace("T", " ") + " UTC";
   try {
     when = at.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit", timeZone: event?.timezone || "UTC", timeZoneName: "short" });
@@ -6475,6 +6448,16 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></details></div></main>`;
 }
 
+// JSON-LD is raw text inside <script>, so a "</script>" in any event, venue or
+// artist name would end the element early and inject markup. Escaping "<" (and
+// the two JS line separators) keeps the JSON identical once parsed.
+function jsonForScriptTag(value) {
+  return JSON.stringify(value)
+    .replace(/</g, "\\u003c")
+    .replace(/\u2028/g, "\\u2028")
+    .replace(/\u2029/g, "\\u2029");
+}
+
 function injectRoute(html, route, origin, catalog, events = [], guideContent = {}, env = {}) {
   // A route is indexable only when the *request* host is allowed to be indexed.
   // Non-canonical hosts (notably <project>.pages.dev, which serves production)
@@ -6485,26 +6468,26 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   const robots =
     route.indexable && hostIndexable ? "index,follow,max-image-preview:large" : "noindex,follow";
   let next = html;
-  next = next.replace(/<title>[^<]*<\/title>/i, `<title>${escapeAttr(route.title)}</title>`);
+  next = next.replace(/<title>[^<]*<\/title>/i, () => `<title>${escapeAttr(route.title)}</title>`);
   next = next.replace(
     /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="description" content="${escapeAttr(route.description)}" />`
+    () => `<meta name="description" content="${escapeAttr(route.description)}" />`
   );
   next = next.replace(
     /<meta\s+name="robots"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="robots" content="${robots}" />`
+    () => `<meta name="robots" content="${robots}" />`
   );
   next = next.replace(
     /<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:title" content="${escapeAttr(route.title)}" />`
+    () => `<meta property="og:title" content="${escapeAttr(route.title)}" />`
   );
   next = next.replace(
     /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:description" content="${escapeAttr(route.description)}" />`
+    () => `<meta property="og:description" content="${escapeAttr(route.description)}" />`
   );
   next = next.replace(
     /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:url" content="${escapeAttr(canonicalUrl)}" />`
+    () => `<meta property="og:url" content="${escapeAttr(canonicalUrl)}" />`
   );
   // Per-page social card when one has been generated for this route, otherwise
   // the shared brand card. OG_CARDS is a generated manifest of files that exist
@@ -6516,11 +6499,11 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   const ogImageUrl = ogCardUrl(route, origin);
   next = next.replace(
     /<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:image" content="${escapeAttr(ogImageUrl)}" />`
+    () => `<meta property="og:image" content="${escapeAttr(ogImageUrl)}" />`
   );
   next = next.replace(
     /<meta\s+name="twitter:image"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="twitter:image" content="${escapeAttr(ogImageUrl)}" />`
+    () => `<meta name="twitter:image" content="${escapeAttr(ogImageUrl)}" />`
   );
   // The shell's alt text describes the default card, which is wrong once a
   // page-specific one is in use. The alt comes from the manifest rather than
@@ -6532,34 +6515,34 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     const ogImageAlt = /tourticketcompare/i.test(ogCard.alt) ? ogCard.alt : `${ogCard.alt} — TourTicketCompare`;
     next = next.replace(
       /<meta\s+property="og:image:alt"\s+content="[^"]*"\s*\/?>/i,
-      `<meta property="og:image:alt" content="${escapeAttr(ogImageAlt)}" />`
+      () => `<meta property="og:image:alt" content="${escapeAttr(ogImageAlt)}" />`
     );
     next = next.replace(
       /<meta\s+name="twitter:image:alt"\s+content="[^"]*"\s*\/?>/i,
-      `<meta name="twitter:image:alt" content="${escapeAttr(ogImageAlt)}" />`
+      () => `<meta name="twitter:image:alt" content="${escapeAttr(ogImageAlt)}" />`
     );
   }
   next = next.replace(
     /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="twitter:title" content="${escapeAttr(route.title)}" />`
+    () => `<meta name="twitter:title" content="${escapeAttr(route.title)}" />`
   );
   next = next.replace(
     /<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="twitter:description" content="${escapeAttr(route.description)}" />`
+    () => `<meta name="twitter:description" content="${escapeAttr(route.description)}" />`
   );
   next = next.replace(
     /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/i,
-    `<link rel="canonical" href="${escapeAttr(canonicalUrl)}" />`
+    () => `<link rel="canonical" href="${escapeAttr(canonicalUrl)}" />`
   );
   next = next.replace(
     /<meta\s+property="og:type"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:type" content="${route.type === "guide" || route.type === "blog-post" ? "article" : "website"}" />`
+    () => `<meta property="og:type" content="${route.type === "guide" || route.type === "blog-post" ? "article" : "website"}" />`
   );
   next = next.replace(
     /<script\s+type="application\/ld\+json">[\s\S]*?<\/script>/i,
-    `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin, guideContent, events, catalog, env))}</script>`
+    () => `<script type="application/ld+json">${jsonForScriptTag(routeSchema(route, origin, guideContent, events, catalog, env))}</script>`
   );
-  next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent, env));
+  next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, () => renderMainContent(route, catalog, events, guideContent, env));
   // Footer copyright year. public/app.js fills #currentYear on load, so every
   // JS visitor saw the right year and nobody noticed that the served HTML ships
   // an empty span — crawlers and no-JS visitors were reading a bare
@@ -6593,7 +6576,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     route.type === "venues-index" ||
     route.path === "/artists"
   ) {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20260924c" defer></script></body>');
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20261002a" defer></script></body>');
   }
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.
@@ -6615,7 +6598,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
       '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20260927a" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260924b" /></head>');
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260924v" defer></script></body>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261002a" defer></script></body>');
   }
   return next;
 }

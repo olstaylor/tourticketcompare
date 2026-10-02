@@ -1314,13 +1314,21 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300897",
+        "url": "https://www.ticketliquidator.com/tickets/8300897/The-Red-Clay-Strays-tickets-Sun-Jan-31-2027-CHI-Health-Center-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkS0gmZs",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-09T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300897"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300897",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300897/The-Red-Clay-Strays-tickets-Sun-Jan-31-2027-CHI-Health-Center-Omaha"
   },
   {
     "id": "tm-the-red-clay-strays-2027-indianapolis-vv17fz_kgks5i1ir",
@@ -1438,13 +1446,21 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300899",
+        "url": "https://www.ticketliquidator.com/tickets/8300899/The-Red-Clay-Strays-tickets-Thu-Feb-11-2027-Charleston-Coliseum-Convention-Center-Charleston",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_KGkB6HKqY",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-09T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300899"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300899",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300899/The-Red-Clay-Strays-tickets-Thu-Feb-11-2027-Charleston-Coliseum-Convention-Center-Charleston"
   },
   {
     "id": "tm-the-red-clay-strays-2027-estero-vvg1vz_ks60_np",

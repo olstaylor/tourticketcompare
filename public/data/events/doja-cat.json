@@ -62,11 +62,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7457598",
-        "url": "https://www.ticketliquidator.com/tickets/7457598/Doja-Cat-tickets-Thu-Oct-1-2026-Little-Caesars-Arena",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZbSGkI0b7TI",
@@ -74,7 +74,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-detroit-tickets-10-1-2026/event/107202112",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457598/Doja-Cat-tickets-Thu-Oct-1-2026-Little-Caesars-Arena"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-doja-cat-2026-chicago-vv178zbsgknyfves",

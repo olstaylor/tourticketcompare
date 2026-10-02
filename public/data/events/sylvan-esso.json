@@ -48,11 +48,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8042834",
-        "url": "https://www.ticketliquidator.com/tickets/8042834/Sylvan-Esso-tickets-Thu-Oct-1-2026-The-Eastern-GA",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pf-Y",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042834/Sylvan-Esso-tickets-Thu-Oct-1-2026-The-Eastern-GA",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": ""
   },
   {

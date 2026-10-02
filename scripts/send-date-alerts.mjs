@@ -33,7 +33,6 @@
 import { execFile } from "node:child_process";
 import { randomBytes } from "node:crypto";
 import fs from "node:fs/promises";
-import os from "node:os";
 import path from "node:path";
 import assert from "node:assert/strict";
 import { fileURLToPath } from "node:url";
@@ -138,7 +137,13 @@ export function listedDatesFor(events, artistSlug, now = Date.now()) {
 export function planAlerts({ interests = [], unsubscribes = [], sends = [], artists = [], events = [], now = Date.now() }) {
   const artistBySlug = new Map(artists.map((artist) => [artist.slug, artist]));
   const unsubscribedAt = new Map(unsubscribes.map((row) => [row.email, row.unsubscribed_at]));
-  const alreadySent = new Set(sends.filter((row) => row.alert_kind === DATE_ALERT_KIND).map((row) => `${row.email}|${row.artist_slug}`));
+  // A failed send stays due so the next run retries it; a sent or claimed row
+  // (claimed = the run stopped mid-send, outcome unknown) never is.
+  const alreadySent = new Set(
+    sends
+      .filter((row) => row.alert_kind === DATE_ALERT_KIND && row.status !== "failed")
+      .map((row) => `${row.email}|${row.artist_slug}`)
+  );
   const datesCache = new Map();
   const due = [];
   const skipped = { unknown_artist: 0, artist_under_review: 0, no_listed_dates: 0, unsubscribed: 0, already_sent: 0 };
@@ -300,21 +305,32 @@ export function sqlString(value) {
   return `'${String(value ?? "").replace(/'/g, "''")}'`;
 }
 
+// --command, not --file: with --remote, wrangler treats --file as a bulk
+// import, which returns only a summary (no rows) and makes the database
+// unavailable while it runs. --command runs the statements as one batch and
+// returns one result set per statement.
 async function runD1(statements, options) {
-  const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), "ttc-date-alerts-"));
-  const sqlPath = path.join(tempDir, "date-alerts.sql");
-  await fs.writeFile(sqlPath, `${statements.map((sql) => `${sql};`).join("\n")}\n`, "utf8");
-  const args = ["wrangler", "d1", "execute", options.database, options.remote ? "--remote" : "--local", "--file", sqlPath, "--json"];
+  const args = [
+    "wrangler", "d1", "execute", options.database,
+    options.remote ? "--remote" : "--local",
+    "--command", statements.map((sql) => `${sql};`).join("\n"),
+    "--json"
+  ];
+  const result = await execFileAsync("npx", args, { cwd: REPO_ROOT, maxBuffer: 1024 * 1024 * 10 });
+  return parseD1Results(result.stdout, statements.length);
+}
+
+export function parseD1Results(stdout, expected) {
+  let parsed;
   try {
-    const result = await execFileAsync("npx", args, { cwd: REPO_ROOT, maxBuffer: 1024 * 1024 * 10 });
-    const parsed = JSON.parse(result.stdout);
-    if (!Array.isArray(parsed) || parsed.some((entry) => entry?.success !== true)) {
-      throw new Error("a D1 statement did not succeed");
-    }
-    return parsed.map((entry) => entry.results || []);
-  } finally {
-    await fs.rm(tempDir, { recursive: true, force: true });
+    parsed = JSON.parse(stdout);
+  } catch (error) {
+    throw new Error(`wrangler d1 execute did not return JSON: ${String(stdout).slice(0, 200)}`);
   }
+  if (!Array.isArray(parsed) || parsed.length !== expected || parsed.some((entry) => entry?.success !== true || !Array.isArray(entry.results))) {
+    throw new Error(`Expected ${expected} successful D1 result sets`);
+  }
+  return parsed.map((entry) => entry.results);
 }
 
 async function readSubscriberState(options) {
@@ -340,7 +356,7 @@ async function readRepoData() {
 }
 
 function printPlan({ due, skipped }, limit) {
-  console.log(`Date alerts due: ${due.length}${due.length > limit ? ` (this run sends at most ${limit})` : ""}`);
+  console.log(`Date alerts due: ${due.length}${due.length > limit ? ` (this run sends at most ${limit}; run send again for the rest)` : ""}`);
   for (const [slug, count] of summarizeByArtist(due)) console.log(`  ${slug}: ${count}`);
   console.log(`Not due: ${Object.entries(skipped).map(([reason, n]) => `${reason}=${n}`).join(", ")}`);
 }
@@ -461,9 +477,12 @@ function selfTest() {
     { email: "b@x.test", unsubscribed_at: "2026-08-01T00:00:00Z" },
     { email: "d@x.test", unsubscribed_at: "2026-08-01T00:00:00Z" }
   ];
-  const sends = [{ email: "c@x.test", artist_slug: "olivia-rodrigo", alert_kind: DATE_ALERT_KIND, status: "sent" }];
+  const sends = [
+    { email: "c@x.test", artist_slug: "olivia-rodrigo", alert_kind: DATE_ALERT_KIND, status: "sent" },
+    { email: "a@x.test", artist_slug: "olivia-rodrigo", alert_kind: DATE_ALERT_KIND, status: "failed" }
+  ];
   const plan = planAlerts({ interests, unsubscribes, sends, artists, events, now });
-  assert.deepEqual(plan.due.map((alert) => alert.email).sort(), ["a@x.test", "d@x.test"], "due: fresh signup, and a re-signup after unsubscribing");
+  assert.deepEqual(plan.due.map((alert) => alert.email).sort(), ["a@x.test", "d@x.test"], "due: a failed send (retried), and a re-signup after unsubscribing");
   assert.deepEqual(plan.skipped, { unknown_artist: 1, artist_under_review: 1, no_listed_dates: 1, unsubscribed: 1, already_sent: 1 });
   assert.deepEqual(summarizeByArtist(plan.due), [["olivia-rodrigo", 2]]);
 
@@ -487,6 +506,10 @@ function selfTest() {
   assert.ok(email.text.includes("utm_campaign=date_alert"), "artist link is tagged");
   assert.ok(!/cheapest|lowest price|\$\d|£\d|€\d|sold out|selling fast/i.test(email.text), "no price or availability claims");
 
+  const claimedPlan = planAlerts({ interests: interests.slice(0, 1), sends: [{ ...sends[1], status: "claimed" }], artists, events, now });
+  assert.equal(claimedPlan.due.length, 0, "a claimed row (outcome unknown) is never resent");
+  assert.deepEqual(parseD1Results('[{"results":[{"n":1}],"success":true},{"results":[],"success":true}]', 2), [[{ n: 1 }], []]);
+  assert.throws(() => parseD1Results('[{"Total queries executed":2,"success":true}]', 2), /Expected 2/, "an import-style summary is rejected, not read as rows");
   assert.equal(sqlString("o'brien@x.test"), "'o''brien@x.test'");
   assert.throws(() => readSendConfig({}), /RESEND_API_KEY, ALERT_EMAIL_FROM, ALERT_POSTAL_ADDRESS/);
   assert.equal(parseArgs([]).mode, "preview");

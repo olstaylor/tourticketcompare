@@ -7,7 +7,8 @@ name: Artist date alerts
 #
 # preview  counts due alerts per artist; sends and writes nothing
 # test     sends one sample to test_to; records nothing
-# send     sends every due alert and records each in D1 so no one is emailed twice
+# send     sends due alerts, up to `limit` per run, and records each in D1 so no
+#          one is emailed twice; the log says when more are left, so run it again
 
 on:
   workflow_dispatch:
@@ -26,6 +27,10 @@ on:
         description: "Artist slug for a test send (optional)"
         required: false
         default: ""
+      limit:
+        description: "Most alerts one send run emails (rerun to send the rest)"
+        required: false
+        default: "500"
 
 permissions:
   contents: read
@@ -59,9 +64,10 @@ jobs:
           MODE: ${{ inputs.mode }}
           TEST_TO: ${{ inputs.test_to }}
           ARTIST: ${{ inputs.artist }}
+          LIMIT: ${{ inputs.limit }}
         run: |
           set -euo pipefail
-          args=(--mode "$MODE")
+          args=(--mode "$MODE" --limit "${LIMIT:-500}")
           if [ "$MODE" = "test" ]; then
             args+=(--test-to "$TEST_TO")
             if [ -n "$ARTIST" ]; then args+=(--artist "$ARTIST"); fi

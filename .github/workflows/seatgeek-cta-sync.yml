@@ -31,7 +31,7 @@ name: SeatGeek CTA sync
 
 on:
   schedule:
-    # 05:00 UTC — after the 04:00 tm-new-shows-pr run has merged its new
+    # 05:00 UTC — after the 02:40 tm-new-shows-pr run has merged its new
     # shows, so they are enriched with SeatGeek URLs the same morning.
     - cron: '0 5 * * *'
   workflow_dispatch:

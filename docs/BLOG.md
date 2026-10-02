@@ -119,6 +119,7 @@ howto:
 | `status` | no | `published` or `draft`. Defaults to `draft`. |
 | `date_published` | to publish | `YYYY-MM-DD`. Optional while a guide has never been published; required to publish, and fixed for good once it has. |
 | `sources` | 2+ to publish | `name`, `publisher`, https `url`, and `last_checked`. |
+| `comparison_providers` | no | Exactly two approved ticket sites (`ticketmaster`, `seatgeek`, `vivid-seats`, `ticketnetwork`, `ticket-liquidator`, `stubhub-international`). Adds a block of up to eight upcoming dates, one per artist, with a checked event link on both sites, each behind the same gate as that site's event-card button. Use it on a guide that compares those two sites. |
 | `howto` | no | `name`, `description`, and `steps` of `name`/`text`. Published as HowTo structured data, so only for a guide that genuinely walks through steps the page covers. |
 
 Body rules match the blog's: prose before the first heading becomes the intro, `##` opens a section, a single `#` is rejected, images are rejected, links must be site paths or https URLs. A published guide additionally needs a `## FAQ` section written as `**bold questions**` followed by plain answers — the router turns it into the page's FAQPage structured data.

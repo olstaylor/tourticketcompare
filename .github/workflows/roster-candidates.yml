@@ -5,7 +5,7 @@ name: Roster candidates
 # scripts/lib/artist-screen.mjs) → rolling `automation:roster-candidates` issue.
 # Writes no repository file and promotes nobody; a later, separately switched
 # lane (PR 6) acts on the screen. 10:15 UTC keeps clear of the Ticketmaster
-# sweeps at 03:00–04:00.
+# lanes at 02:40–04:00.
 
 on:
   schedule:

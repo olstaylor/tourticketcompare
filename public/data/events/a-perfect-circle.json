@@ -568,13 +568,21 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295063",
+        "url": "https://www.ticketliquidator.com/tickets/8295063/A-Perfect-Circle-tickets-Sun-Apr-25-2027-Fox-Theatre-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16FZkfMA3ZAC8uka",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295063"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295063",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295063/A-Perfect-Circle-tickets-Sun-Apr-25-2027-Fox-Theatre-Detroit"
   },
   {
     "id": "tm-a-perfect-circle-2027-boston-vv1k7z_kr_g7rccc",
@@ -1466,13 +1474,21 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295078",
+        "url": "https://www.ticketliquidator.com/tickets/8295078/A-Perfect-Circle-tickets-Tue-Jun-1-2027-Portland-Veterans-Memorial-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KbFGxYU",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-02T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295078"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295078",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295078/A-Perfect-Circle-tickets-Tue-Jun-1-2027-Portland-Veterans-Memorial-Coliseum"
   },
   {
     "id": "tm-a-perfect-circle-2027-reno-1a9zkfygkembtoj",
@@ -1644,13 +1660,21 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295081",
+        "url": "https://www.ticketliquidator.com/tickets/8295081/A-Perfect-Circle-tickets-Sun-Jun-6-2027-Hollywood-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_Kj6Yzfl",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-02T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295081"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295081",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295081/A-Perfect-Circle-tickets-Sun-Jun-6-2027-Hollywood-Bowl"
   },
   {
     "id": "tm-a-perfect-circle-2027-chula-vista-vvg1iz_kl8jvkq",
@@ -1768,13 +1792,21 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295083",
+        "url": "https://www.ticketliquidator.com/tickets/8295083/A-Perfect-Circle-tickets-Thu-Jun-10-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkfMGkd8MYHo",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-02T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295083"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295083",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295083/A-Perfect-Circle-tickets-Thu-Jun-10-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
   },
   {
     "id": "tm-a-perfect-circle-2027-las-vegas-1a9zkfmgkd8y8h4",
@@ -1830,13 +1862,21 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295084",
+        "url": "https://www.ticketliquidator.com/tickets/8295084/A-Perfect-Circle-tickets-Fri-Jun-11-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkfMGkd8y8H4",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-02T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295084"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295084",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295084/A-Perfect-Circle-tickets-Fri-Jun-11-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
   },
   {
     "id": "tm-a-perfect-circle-2027-phoenix-1a_zkfsgkd23t56",

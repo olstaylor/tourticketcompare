@@ -238,18 +238,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034376",
-        "url": "https://www.ticketliquidator.com/tickets/8034376/Malcolm-Todd-tickets-Thu-Oct-1-2026-Fox-Theatre-Detroit",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_G99eDO3",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034376/Malcolm-Todd-tickets-Thu-Oct-1-2026-Fox-Theatre-Detroit"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-malcolm-todd-2026-nashville-g5viz_g1jq0ud",

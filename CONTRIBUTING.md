@@ -1,6 +1,6 @@
 # Contributing
 
-Practical guide for working on TourTicketCompare. Start by reading [CLAUDE.md](CLAUDE.md) → [PROJECT_STATUS.md](PROJECT_STATUS.md) → [BACKLOG.md](BACKLOG.md). Architecture: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). Workflow schedules, secrets, and incidents: [docs/OPERATIONS.md](docs/OPERATIONS.md).
+Practical guide for working on TourTicketCompare. Read [CLAUDE.md](CLAUDE.md) first; it holds the rules and links to everything else.
 
 ---
 

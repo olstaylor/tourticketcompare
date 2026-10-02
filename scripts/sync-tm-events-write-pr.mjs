@@ -725,7 +725,9 @@ async function main() {
 
   const slugs = [...new Set(usedArtists.filter((a) => a.proposed > 0).map((a) => a.slug))];
   const slugLabel = slugs.length === 1 ? slugs[0] : `batch-${slugs.length}`;
-  const branch = `automation/tm-events-${slugLabel}-${today}`;
+  // The UTC hour keeps the morning and afternoon runs on separate branches, so
+  // a morning PR left open for a human never blocks the afternoon push.
+  const branch = `automation/tm-events-${slugLabel}-${today}-${new Date().toISOString().slice(11, 13)}h`;
   // -B (not -b) so a re-run after a previous failure, or a same-day rerun,
   // reuses/resets the date+slug automation branch instead of failing fatally.
   run("git", ["checkout", "-B", branch]);

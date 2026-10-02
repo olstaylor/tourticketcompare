@@ -86,7 +86,7 @@ Nothing below needs a hand edit once the artist is promoted:
 Every promoted artist is registered `sync_enabled` in
 `data/provider-identities.json`. After that:
 
-- **New Ticketmaster dates:** `tm-new-shows-pr.yml`, daily 02:40.
+- **New Ticketmaster dates:** `tm-new-shows-pr.yml`, twice daily (02:40 and 16:20).
 - **Date, venue and name changes:** `nightly-data-sync.yml`, 03:30.
 - **Resale links:** the SeatGeek, Vivid Seats and Impact marketplace syncs
   (05:00–07:00).

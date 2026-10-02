@@ -681,6 +681,9 @@ async function main() {
   // status doc rides along in this commit (before test:mvp, which then sees
   // matching counts). Keeps the auto-merged new-shows PR from drifting the doc.
   run("node", ["scripts/validate-status-counts.mjs", "--write"]);
+  // Card every page these events made indexable, so it never ships on the
+  // shared /og-image.png (scripts/build-og-cards.mjs).
+  run("npm", ["run", "og:build"]);
   run("npm", ["run", "test:mvp"]);
   run("git", ["diff", "--check"]);
 
@@ -697,6 +700,8 @@ async function main() {
     "public/data/events",
     "public/index.html",
     "PROJECT_STATUS.md",
+    "public/og",
+    "functions/_og-cards.generated.js",
   ]);
   run("git", ["commit", "-m", `automation: add ${proposedRows.length} verified Ticketmaster event(s) for ${slugs.join(", ")}`]);
 

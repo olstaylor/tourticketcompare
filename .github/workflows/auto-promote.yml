@@ -111,6 +111,8 @@ jobs:
           npm run events:partition
           node scripts/validate-status-counts.mjs --write
           node scripts/audit-indexable-surface.mjs --write-status
+          # Card every page this promotion made indexable (scripts/build-og-cards.mjs).
+          npm run og:build
           node scripts/auto-promote.mjs --check-out-against artifacts/auto/out.base.js
           npm run test:mvp
           npm run test:providers
@@ -145,7 +147,7 @@ jobs:
           echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
           SUMMARY=$(node -e 'const r=require("./artifacts/auto/promoted.json"); console.log(r.promoted.map(p=>`- \`${p.slug}\` (${p.providers.join(", ")}): ${p.seo_title}`).join("\n")); if (r.held.length) console.log("\nHeld:\n" + r.held.map(h=>`- \`${h.slug}\`: ${h.reasons.join("; ")}`).join("\n"))')
           git checkout -B "$BRANCH"
-          git add public/data/artists.json public/data/catalog.json public/data/events.json public/data/events public/data/events-index.json public/index.html functions/api/out.js data/provider-identities.json PROJECT_STATUS.md reports/provider-sync/seatgeek-cta-auto-add.md
+          git add public/data/artists.json public/data/catalog.json public/data/events.json public/data/events public/data/events-index.json public/index.html functions/api/out.js data/provider-identities.json PROJECT_STATUS.md reports/provider-sync/seatgeek-cta-auto-add.md public/og functions/_og-cards.generated.js
           git commit -m "automation: auto-promote ${TODAY}"
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           node scripts/push-automation-branch.mjs "$BRANCH" --force-with-lease

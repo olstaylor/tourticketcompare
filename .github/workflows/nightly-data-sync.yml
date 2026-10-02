@@ -180,6 +180,8 @@ jobs:
           # Self-heal PROJECT_STATUS.md counts so this direct-to-main commit
           # never drifts the status doc (warning-first check can't block auto-merge).
           node scripts/validate-status-counts.mjs --write
+          # Card every page this sync made indexable (scripts/build-og-cards.mjs).
+          npm run og:build
 
       - name: Run smoke tests before push
         if: steps.diff.outputs.changed == 'true' && steps.gate.outputs.commit_allowed == 'true'
@@ -212,7 +214,7 @@ jobs:
           git config user.name "tourticketcompare-bot"
           git config user.email "tourticketcompare-bot@users.noreply.github.com"
           git checkout -B "$BRANCH"
-          git add public/data/events.json public/data/events public/data/events-index.json public/index.html PROJECT_STATUS.md
+          git add public/data/events.json public/data/events public/data/events-index.json public/index.html PROJECT_STATUS.md public/og functions/_og-cards.generated.js
           git commit -m "Nightly data sync: refresh tracked event dates/venues (${TODAY})"
           node scripts/push-automation-branch.mjs "$BRANCH" --force-with-lease
           BRANCH="$BRANCH" \

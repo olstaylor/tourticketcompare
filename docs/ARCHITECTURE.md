@@ -284,6 +284,132 @@ Server rendering queries the cache for **exactly the cards a route renders** —
 
 A queried card with no eligible price says why, as specifically as the server can establish (`priceUnavailableNote` in `functions/[[path]].js`): the price-supplying lanes it is mapped on and the time of their last recorded check (`provider_price_checks`, quoted only under 36h); or, when it has no button on any price-supplying lane, that the date is not matched on those sites yet; otherwise the undated note. None of them is an availability claim.
 
+### Internal historical price timing foundations
+
+The internal implementation is `functions/_price-timing.js`; it has no public
+route or UI. It analyses **recorded provider-listed prices**. The Impact writers
+accept an unambiguous exact-event `CurrentPrice`/`Price`, but that field's name
+does not establish the lowest *available admission ticket*. Confirm that
+semantics for every contributing provider before using that public wording.
+
+**Audit, 2026-10-02.** The existing `provider_pricing_history` is change-only;
+successful unchanged polls are omitted, earlier `provider_price_checks` outcomes
+are overwritten, historical rows have no showtime/lifecycle revision, and
+scheduled jobs delete observations older than 90 days. Those tables cannot
+reliably reconstruct the six timing checkpoints and are deliberately never
+used to backfill this analysis. The repository has 2,339 unique event IDs,
+2,336 resolvable start instants and three date-only events. `events.json` is
+6.05 MB; the search index is 0.85 MB. These are repository observations, not a
+production D1 coverage audit. SeatGeek has no numeric lane; Ticket Liquidator
+remains price-disabled. A completed lookup with `no_price` establishes no
+supplied price, not no listings or sold out; a failed lookup establishes neither.
+
+**Capture and storage.** `scripts/lib/price-timing-capture.mjs` adds two D1
+tables through the existing price-check import (migration `0012`, self-applying):
+
+- `event_price_timing_events`: retained local event ID, artist, country, resolved
+  UTC start, lifecycle, schedule revision, metadata observation time and first
+  reconciliation at least 24 hours after the scheduled start.
+- `event_price_timing_checkpoints`: at most six rows per provider per schedule
+  revision and methodology version. Each preserves the nearest valid price
+  (UTC showtime, currency, source, exact provider ID, inventory evidence and UTC capture time)
+  and, separately, the nearest lookup attempt and its outcome. Outcomes are
+  `priced`, `no_price`, `unusable`, `failed` and `incomplete`. Availability remains
+  unknown; zero inventory cannot qualify as a usable price.
+
+Every attempted lookup can compete, including unchanged prices and failures.
+Capture timestamps are taken after each catalog response, rather than stamping
+every event with the start of a long run. Unattempted/deferred events create no
+observation. Only verified mappings on the three approved numeric-price lanes
+contribute. Missing source times and held lifecycle states do not produce price
+evidence. Date conversion reuses the existing venue-time resolver; stored times
+are UTC ISO instants. A date-only start is never treated as midnight.
+
+The compact rows are the sufficient evidence for this deterministic metric,
+not a complete raw poll log. A closer candidate replaces a farther one; exact
+ties choose the earlier capture time, then a canonical observation tuple.
+Replaying the same input is a no-op, and out-of-order observations produce the
+same selected result. Start, lifecycle, artist or country changes increment the
+schedule revision. Earlier revision rows remain stored but cannot contribute to
+the current schedule, even if a show moves away and then back to its old date.
+Older runs cannot roll metadata backwards or attach a pre-revision observation
+to a newer revision. Provider product IDs must also match between paired points.
+
+Timing evidence has **no automatic age-based deletion**, including after the
+event disappears from the current catalog. Existing 90-day change-history
+pruning does not touch these tables. Completed records retain their metadata;
+unreconciled removed records cannot become completed samples. Explicit duplicate
+removals after reconciliation still need analytical exclusion before public use.
+
+**Selection windows.** For each provider, select the closest actual valid
+observation to start minus the checkpoint, within these inclusive tolerances:
+
+| Checkpoint | Tolerance |
+|---|---|
+| 14d | ±12 hours |
+| 7d | ±6 hours |
+| 48h | ±2 hours |
+| 24h | ±1 hour |
+| 12h | ±1 hour |
+| 1h | ±30 minutes |
+
+All observations must precede showtime. There is no interpolation, carry-forward,
+stale-cache substitution or legacy-history inference. These accuracy limits do
+not guarantee a delivered observation: GitHub can omit scheduled ticks. A closer
+failed, absent-price, unusable or incomplete attempt makes a retained price
+partial. Primary statistics require complete pairs. Missing checkpoints remain
+missing. The derived event result includes price, currency, provider count,
+expected count, observation time range, provider attribution, missing reasons,
+percentage change versus 14d and versus the immediately previous checkpoint.
+
+**Calculation.** `getPriceTimingStats({ db, artistId, checkpoint, currency,
+country, providers })` requires an explicit fixed provider panel and native
+currency/country cohort. For each event/checkpoint, take the minimum qualifying
+listed price within that panel. Then calculate `100 * (checkpoint / baseline -
+1)` for each completed pair, and report the **median of those percentages**,
+strictly-cheaper event percentage, paired sample size, eligible event count,
+exclusion counts, 25th/75th percentiles and calculation time/version. Ties are
+not cheaper. Previous-checkpoint movement has its own paired sample size; it
+never skips a missing intermediate checkpoint. No FX conversion is performed.
+Current ECB reference rates on `/api/rates` are not historical FX evidence.
+
+Counts below 10 have `confidence: insufficient` and `claimEligible: false`;
+10–49 are indicative, and 50+ are a stronger sample. These describe sample
+sufficiency, not statistical certainty. A zero sample returns null statistics.
+A small non-zero sample may be inspected internally, but never supports a strong
+artist-level claim. Counts and exclusions always accompany numerical results.
+`claimEligible` refers only to the minimum paired sample rule; `publicReady` is
+always false in this internal foundation until the release checks below are
+implemented and verified.
+
+Queries are indexed and artist-scoped, chunked at 40 event IDs, and never parse
+the master event file. The default ceiling is 500 completed events (maximum
+1,000); exceeding it returns `analysis_limit_exceeded` with null statistics,
+not an aggregate over truncated data. Database/schema errors propagate rather
+than becoming a fabricated zero sample. No aggregate table is necessary yet.
+An uncomputed oversized sample has `sampleSize: null`, not an invented zero.
+Keep larger report computation off the 2,000 ms public Worker request path.
+
+**Before public use.** Merge and observe successful capture first; this checkout
+has not applied production schema or collected production evidence. Verify feed
+minimum-price semantics, provider historical aggregate permissions, delivered
+checkpoint coverage, stable provider mappings, duplicate/deletion exclusions
+and post-show lifecycle reconciliation. Passing a scheduled start plus 24 hours
+is an assumption that the performance occurred, not independent attendance
+confirmation; cancelled/postponed/unknown lifecycle records are excluded, but
+an unreported cancellation can still be missed. The floor of 10 native currency
+units follows existing display gates and can exclude genuinely cheap tickets.
+Symmetric windows are retrospective approximations, not executable buying
+strategies; missing data and provider panels can introduce selection bias.
+
+Full baseline-to-show evidence begins approximately two weeks after deployment
+for newly observed shows. Ten comparable completed shows, not ten snapshots,
+are needed for an indicative artist claim. Timing depends on that artist's
+actual calendar and data coverage. Later use can include artist-level timing
+guidance, an event's own observed history alongside comparable-show context,
+monthly reports and editorial/PR statistics. All must retain cohort definitions,
+sample sizes, provider attribution, dates, exclusions and non-predictive framing.
+
 ## Bindings and secrets
 
 `wrangler.toml` declares the `DEMAND_DB` binding and non-secret development defaults. Production secrets and environment-specific flags are configured in Cloudflare Pages and GitHub Actions.

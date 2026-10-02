@@ -434,9 +434,12 @@ async function loadJsonAsset(env, path, isValid, fallback) {
   let pending = cache.get(path);
   if (!pending) {
     pending = (async () => {
+      const startedAt = Date.now();
       const response = await assets.fetch(new Request(`https://assets.local${path}`));
+      const fetchedAt = Date.now();
       if (!response.ok) throw new Error(`Asset request failed: ${path}`);
       const data = await response.json();
+      ASSET_LOAD_TIMINGS.push({ path, fetchMs: fetchedAt - startedAt, bodyMs: Date.now() - fetchedAt });
       if (!isValid(data)) throw new Error(`Asset payload was invalid: ${path}`);
       return data;
     })();
@@ -6825,8 +6828,13 @@ function renderNotFoundHtml(html, pathname, origin) {
 // this isolate has served and when it started, so a slow response can be told
 // apart as a cold isolate (first request, loading every data file) or a warm
 // one.
-const ISOLATE_STARTED_AT = Date.now();
+// Workers' clock reads 0 at module scope, so the start is taken on the first
+// request instead.
+let isolateStartedAt = 0;
 let isolateRequestCount = 0;
+// Every data file this isolate has loaded, with how long its fetch and body
+// took. A render reports the loads that finished while it ran.
+const ASSET_LOAD_TIMINGS = [];
 
 // Server-Timing for an HTML render: where the wall-clock time before the first
 // byte went. Workers' clock only advances across I/O, so each stage reads as
@@ -6835,6 +6843,8 @@ let isolateRequestCount = 0;
 function renderTimer() {
   const marks = [];
   let last = Date.now();
+  if (!isolateStartedAt) isolateStartedAt = last;
+  const firstLoad = ASSET_LOAD_TIMINGS.length;
   return {
     mark(name) {
       const now = Date.now();
@@ -6842,7 +6852,10 @@ function renderTimer() {
       last = now;
     },
     header() {
-      return [...marks, `isolate;desc="req ${isolateRequestCount} age ${Math.round((Date.now() - ISOLATE_STARTED_AT) / 1000)}s"`].join(", ");
+      const loads = ASSET_LOAD_TIMINGS.slice(firstLoad).map(
+        (load) => `asset;desc="${load.path.replace(/[^\w./-]/g, "")}";dur=${load.fetchMs + load.bodyMs}, asset-body;desc="${load.path.replace(/[^\w./-]/g, "")}";dur=${load.bodyMs}`
+      );
+      return [...marks, ...loads, `isolate;desc="req ${isolateRequestCount} age ${Math.round((Date.now() - isolateStartedAt) / 1000)}s"`].join(", ");
     }
   };
 }

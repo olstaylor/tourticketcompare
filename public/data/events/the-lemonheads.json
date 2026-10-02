@@ -661,5 +661,58 @@
     "ticketmaster_discovery_event_id": "1AvbZ_3GkmYbpfp",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-tampa-z7r9jz1aavwob",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads (under 18 with parent or legal guardian)",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Orpheum Theatre - Tampa",
+    "datetime_iso": "2027-02-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvwOb",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwOb",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwOb",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvwOb",
+        "discovery_event_id": "Z7r9jZ1AAvwOb",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwOb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvwOb",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

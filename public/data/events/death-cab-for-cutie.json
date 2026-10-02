@@ -1571,5 +1571,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271406",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271406/Death-Cab-for-Cutie-tickets-Fri-Mar-26-2027-Saenger-Theatre-New-Orleans"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-detroit-z7r9jz1aaeefp",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Masonic Temple - Detroit",
+    "datetime_iso": "2027-04-01T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeefP",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeefP",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeefP",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeefP",
+        "discovery_event_id": "Z7r9jZ1AAeefP",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeefP",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeefP",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

@@ -153958,5 +153958,2814 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-andrea-bocelli-2027-chorzow-z698xzqpz16v7kfvze",
+    "artist_slug": "andrea-bocelli",
+    "artist_name": "Andrea Bocelli",
+    "event_name": "Andrea Bocelli",
+    "city": "Chorzów",
+    "country": "Poland",
+    "venue": "Stadion Śląski",
+    "datetime_iso": "2027-05-30T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1113534002",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/andrea-bocelli-tickets/1113534002?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/andrea-bocelli-tickets/1113534002?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1113534002",
+        "discovery_event_id": "Z698xZQpZ16v7KfVZe",
+        "url": "https://www.ticketmaster.pl/event/andrea-bocelli-tickets/1113534002?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ16v7KfVZe",
+    "timezone": "Europe/Warsaw",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-andrea-bocelli-2027-london-1adfz_kgkbcpkr9",
+    "artist_slug": "andrea-bocelli",
+    "artist_name": "Andrea Bocelli",
+    "event_name": "Andrea Bocelli",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-10-01T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500653E8E593797",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/andrea-bocelli-london-01-10-2027/event/3500653E8E593797",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-london-01-10-2027/event/3500653E8E593797",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500653E8E593797",
+        "discovery_event_id": "1AdfZ_KGkBCpKr9",
+        "url": "https://www.ticketmaster.co.uk/andrea-bocelli-london-01-10-2027/event/3500653E8E593797",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_KGkBCpKr9",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-andrea-bocelli-2027-manchester-1amzkfzgkd7qkyk",
+    "artist_slug": "andrea-bocelli",
+    "artist_name": "Andrea Bocelli",
+    "event_name": "Andrea Bocelli: Romanza - 30th Anniversary",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-10-05T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006538C4746C13",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-manchester-05-10-2027/event/37006538C4746C13",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-manchester-05-10-2027/event/37006538C4746C13",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006538C4746C13",
+        "discovery_event_id": "1AMZkfzGkd7qkYK",
+        "url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-manchester-05-10-2027/event/37006538C4746C13",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkfzGkd7qkYK",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blondshell-2027-vancouver-16ozkfzopzauakea",
+    "artist_slug": "blondshell",
+    "artist_name": "Blondshell",
+    "event_name": "Blondshell - Scaring Strangers Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Commodore Ballroom",
+    "datetime_iso": "2027-03-07T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006538816C4514",
+    "ticketmaster_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006538816C4514",
+        "discovery_event_id": "16oZkfzOpZAuAkeA",
+        "url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16oZkfzOpZAuAkeA",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blondshell-2027-asbury-park-k7vgf_knjlgim",
+    "artist_slug": "blondshell",
+    "artist_name": "Blondshell",
+    "event_name": "Blondshell - Scaring Strangers Tour",
+    "city": "Asbury Park",
+    "country": "United States Of America",
+    "venue": "The Stone Pony",
+    "datetime_iso": "2027-03-23T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006538E67CCB2E",
+    "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-asbury-park-new-jersey-03-23-2027/event/00006538E67CCB2E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-asbury-park-new-jersey-03-23-2027/event/00006538E67CCB2E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006538E67CCB2E",
+        "discovery_event_id": "k7vGF_KNJLGim",
+        "url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-asbury-park-new-jersey-03-23-2027/event/00006538E67CCB2E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_KNJLGim",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blondshell-2027-madison-vv1kvyvpc_ga55f1w",
+    "artist_slug": "blondshell",
+    "artist_name": "Blondshell",
+    "event_name": "Blondshell - Scaring Strangers Tour",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "Majestic Theatre",
+    "datetime_iso": "2027-05-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "070065399B2D42BD",
+    "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-madison-wisconsin-05-15-2027/event/070065399B2D42BD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-madison-wisconsin-05-15-2027/event/070065399B2D42BD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "070065399B2D42BD",
+        "discovery_event_id": "vv1kvYvPC_GA55f1W",
+        "url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-madison-wisconsin-05-15-2027/event/070065399B2D42BD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvYvPC_GA55f1W",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blondshell-2027-detroit-vv1afzkfmgkdgjzny",
+    "artist_slug": "blondshell",
+    "artist_name": "Blondshell",
+    "event_name": "Blondshell - Scaring Strangers Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Saint Andrew's Hall",
+    "datetime_iso": "2027-05-17T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006537CC738AB0",
+    "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-detroit-michigan-05-17-2027/event/08006537CC738AB0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-detroit-michigan-05-17-2027/event/08006537CC738AB0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006537CC738AB0",
+        "discovery_event_id": "vv1AFZkfMGkdGjznY",
+        "url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-detroit-michigan-05-17-2027/event/08006537CC738AB0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfMGkdGjznY",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blondshell-2027-saint-louis-vv1kbz_kjdg7cpvx",
+    "artist_slug": "blondshell",
+    "artist_name": "Blondshell",
+    "event_name": "Blondshell - Scaring Strangers Tour",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Delmar Hall",
+    "datetime_iso": "2027-05-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600653983B56D3E",
+    "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-saint-louis-missouri-05-22-2027/event/0600653983B56D3E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-saint-louis-missouri-05-22-2027/event/0600653983B56D3E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600653983B56D3E",
+        "discovery_event_id": "vv1kbZ_KJdG7cpVX",
+        "url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-saint-louis-missouri-05-22-2027/event/0600653983B56D3E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kbZ_KJdG7cpVX",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-detroit-z7r9jz1aaeefp",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "event_name": "Death Cab for Cutie - I Built You A Tower Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Masonic Temple - Detroit",
+    "datetime_iso": "2027-04-01T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeefP",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeefP",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeefP",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeefP",
+        "discovery_event_id": "Z7r9jZ1AAeefP",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeefP",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeefP",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-sunrise-z7r9jz1aaeve7",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Sunrise",
+    "country": "United States Of America",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2027-10-01T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeve7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeve7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeve7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeve7",
+        "discovery_event_id": "Z7r9jZ1AAeve7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeve7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeve7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-cleveland-z7r9jz1aaevea",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Rocket Arena",
+    "datetime_iso": "2027-10-13T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeveA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeveA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeveA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeveA",
+        "discovery_event_id": "Z7r9jZ1AAeveA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeveA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeveA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-des-moines-z7r9jz1aaevep",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Des Moines",
+    "country": "United States Of America",
+    "venue": "Casey's Center",
+    "datetime_iso": "2027-11-15T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAevep",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevep",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevep",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAevep",
+        "discovery_event_id": "Z7r9jZ1AAevep",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevep",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAevep",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-anaheim-vv170z_kgkrlzqwi",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2027-11-22T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900653BDF01AF68",
+    "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-21-2027/event/0900653BDF01AF68",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-21-2027/event/0900653BDF01AF68",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900653BDF01AF68",
+        "discovery_event_id": "vv170Z_KGkRLZQWI",
+        "url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-21-2027/event/0900653BDF01AF68",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_KGkRLZQWI",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-torrensville-1akzkfggkepdplf",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine - The Over Country Tour",
+    "city": "Torrensville",
+    "country": "Australia",
+    "venue": "Thebarton Theatre",
+    "datetime_iso": "2027-02-02T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006535A5ED6AC8",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/lizzy-mcalpine-the-over-country-tour-torrensville-02-02-2027/event/13006535A5ED6AC8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/lizzy-mcalpine-the-over-country-tour-torrensville-02-02-2027/event/13006535A5ED6AC8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006535A5ED6AC8",
+        "discovery_event_id": "1AKZkfgGkePDplF",
+        "url": "https://www.ticketmaster.com.au/lizzy-mcalpine-the-over-country-tour-torrensville-02-02-2027/event/13006535A5ED6AC8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkfgGkePDplF",
+    "timezone": "Australia/Adelaide",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-london-g5dzz_krvbn6w",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine THE OVER COUNTRY TOUR",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-03-31T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006537B4EA31F2",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-31-03-2027/event/3E006537B4EA31F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-31-03-2027/event/3E006537B4EA31F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006537B4EA31F2",
+        "discovery_event_id": "G5dzZ_KrVBN6w",
+        "url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-31-03-2027/event/3E006537B4EA31F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KrVBN6w",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-london-g5dzz_kslx95p",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine THE OVER COUNTRY TOUR",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-04-01T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00653CDFF972D6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-01-04-2027/event/3E00653CDFF972D6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-01-04-2027/event/3E00653CDFF972D6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00653CDFF972D6",
+        "discovery_event_id": "G5dzZ_KSLX95p",
+        "url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-01-04-2027/event/3E00653CDFF972D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KSLX95p",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-london-g5dzz_kscgmsk",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine THE OVER COUNTRY TOUR",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-04-02T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00653CED337C46",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-02-04-2027/event/3E00653CED337C46",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-02-04-2027/event/3E00653CED337C46",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00653CED337C46",
+        "discovery_event_id": "G5dzZ_KScGMsk",
+        "url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-02-04-2027/event/3E00653CED337C46",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KScGMsk",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-birmingham-g5dzz_kkek096",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine - the Over Country Tour",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Academy Birmingham",
+    "datetime_iso": "2027-04-07T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006531A74E45C7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-birmingham-07-04-2027/event/3E006531A74E45C7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-birmingham-07-04-2027/event/3E006531A74E45C7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006531A74E45C7",
+        "discovery_event_id": "G5dzZ_KkEK096",
+        "url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-birmingham-07-04-2027/event/3E006531A74E45C7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KkEK096",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-glasgow-g5dzz_kwtjarb",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine - the Over Country Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "O2 Academy Glasgow",
+    "datetime_iso": "2027-04-10T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00653CBF9857BA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-glasgow-10-04-2027/event/3E00653CBF9857BA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-glasgow-10-04-2027/event/3E00653CBF9857BA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00653CBF9857BA",
+        "discovery_event_id": "G5dzZ_KwTJArB",
+        "url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-glasgow-10-04-2027/event/3E00653CBF9857BA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KwTJArB",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-dallas-z7r9jz1aaekq3",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine w/ Sydney Ross Mitchell",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "The Bomb Factory",
+    "datetime_iso": "2027-05-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAekq3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekq3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekq3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAekq3",
+        "discovery_event_id": "Z7r9jZ1AAekq3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekq3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAekq3",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-atlanta-z7r9jz1aaea-b",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine w/ Sydney Ross Mitchell",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Fox Theatre - Atlanta",
+    "datetime_iso": "2027-05-03T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeA-b",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-b",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-b",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeA-b",
+        "discovery_event_id": "Z7r9jZ1AAeA-b",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-b",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA-b",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-columbus-z7r9jz1aaea09",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Palace Theatre Columbus",
+    "datetime_iso": "2027-05-06T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeA09",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA09",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA09",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeA09",
+        "discovery_event_id": "Z7r9jZ1AAeA09",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA09",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA09",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-milwaukee-z7r9jz1aaea0_",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine w/ Sydney Ross Mitchell",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Riverside Theater - WI",
+    "datetime_iso": "2027-05-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeA0_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA0_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA0_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeA0_",
+        "discovery_event_id": "Z7r9jZ1AAeA0_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA0_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA0_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-minneapolis-vv1akzkfsgkdlgq7t",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine: The Over Country Tour",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "State Theatre",
+    "datetime_iso": "2027-05-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006531EBD5D13F",
+    "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-13-2027/event/06006531EBD5D13F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-13-2027/event/06006531EBD5D13F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006531EBD5D13F",
+        "discovery_event_id": "vv1AkZkfsGkdlgq7T",
+        "url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-13-2027/event/06006531EBD5D13F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfsGkdlgq7T",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-kansas-city-z7r9jz1aaekqk",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine w/ Sydney Ross Mitchell",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "The Midland Theatre - MO",
+    "datetime_iso": "2027-05-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAekqK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekqK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekqK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAekqK",
+        "discovery_event_id": "Z7r9jZ1AAekqK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekqK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAekqK",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-oklahoma-city-z7r9jz1aaea-p",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine",
+    "city": "Oklahoma City",
+    "country": "United States Of America",
+    "venue": "Thelma Gaylord Performing Arts Theatre",
+    "datetime_iso": "2027-05-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeA-P",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-P",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-P",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeA-P",
+        "discovery_event_id": "Z7r9jZ1AAeA-P",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-P",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA-P",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-boston-vv1a8vpuzga1bypi",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine: The Over Country Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Agganis Arena",
+    "datetime_iso": "2027-06-21T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010065378A639968",
+    "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-21-2027/event/010065378A639968",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-21-2027/event/010065378A639968",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010065378A639968",
+        "discovery_event_id": "vv1A8vPuzGA1byPI",
+        "url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-21-2027/event/010065378A639968",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A8vPuzGA1byPI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-morrison-z7r9jz1aaeax6",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine w/ Searows",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-07-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeAx6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAx6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAx6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeAx6",
+        "discovery_event_id": "Z7r9jZ1AAeAx6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAx6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeAx6",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-philadelphia-z7r9jz1aavk18",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr w/ Starcrawler",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Union Transfer",
+    "datetime_iso": "2027-02-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvK18",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK18",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK18",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvK18",
+        "discovery_event_id": "Z7r9jZ1AAvK18",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK18",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvK18",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-needtobreathe-2027-kansas-city-z7r9jz1aaek_i",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "Needtobreathe w/ Conner Smith",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "The Midland Theatre - MO",
+    "datetime_iso": "2027-02-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAek_I",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_I",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_I",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAek_I",
+        "discovery_event_id": "Z7r9jZ1AAek_I",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_I",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAek_I",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-needtobreathe-2027-lancaster-z7r9jz1aaek_t",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "Needtobreathe w/ Conner Smith",
+    "city": "Lancaster",
+    "country": "United States Of America",
+    "venue": "American Music Theatre",
+    "datetime_iso": "2027-03-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAek_t",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_t",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_t",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAek_t",
+        "discovery_event_id": "Z7r9jZ1AAek_t",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_t",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAek_t",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-san-francisco-z7r9jz1aae4_v",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance w/ Bonnie Bishop",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Great American Music Hall",
+    "datetime_iso": "2026-11-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe4_V",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4_V",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4_V",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe4_V",
+        "discovery_event_id": "Z7r9jZ1AAe4_V",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4_V",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4_V",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-tampa-z7r9jz1aavwob",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads (under 18 with parent or legal guardian)",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Orpheum Theatre - Tampa",
+    "datetime_iso": "2027-02-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvwOb",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwOb",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwOb",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvwOb",
+        "discovery_event_id": "Z7r9jZ1AAvwOb",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwOb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvwOb",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-vancouver-1aozkfugkdvinj7",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP w/ very special guest Molly Tuttle",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Queen Elizabeth Theatre",
+    "datetime_iso": "2027-03-13T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006536C1B2A704",
+    "ticketmaster_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-vancouver-british-columbia-03-12-2027/event/11006536C1B2A704",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-vancouver-british-columbia-03-12-2027/event/11006536C1B2A704",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006536C1B2A704",
+        "discovery_event_id": "1AoZkfUGkdvinj7",
+        "url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-vancouver-british-columbia-03-12-2027/event/11006536C1B2A704",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkfUGkdvinj7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-calgary-1k78vpuega13dcp",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP w/ very special guest Molly Tuttle",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Southern Alberta Jubilee Auditorium",
+    "datetime_iso": "2027-03-15T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110065367A483B65",
+    "ticketmaster_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-calgary-alberta-03-14-2027/event/110065367A483B65",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-calgary-alberta-03-14-2027/event/110065367A483B65",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110065367A483B65",
+        "discovery_event_id": "1k78vPuEGA13dcP",
+        "url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-calgary-alberta-03-14-2027/event/110065367A483B65",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78vPuEGA13dcP",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-winnipeg-1k78vpupga1vvti",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP w/ very special guest Molly Tuttle",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Burton Cummings Theatre",
+    "datetime_iso": "2027-03-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110065356A041A68",
+    "ticketmaster_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-winnipeg-manitoba-03-17-2027/event/110065356A041A68",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-winnipeg-manitoba-03-17-2027/event/110065356A041A68",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110065356A041A68",
+        "discovery_event_id": "1k78vPupGA1vvtI",
+        "url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-winnipeg-manitoba-03-17-2027/event/110065356A041A68",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78vPupGA1vvtI",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-ottawa-1aszkfgjd0vzecc",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel, CGP w/ very special guest Molly Tuttle",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "National Arts Centre / Centre national des Arts",
+    "datetime_iso": "2027-03-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006535983934DD",
+    "ticketmaster_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-ottawa-ontario-03-20-2027/event/31006535983934DD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-ottawa-ontario-03-20-2027/event/31006535983934DD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006535983934DD",
+        "discovery_event_id": "1asZkfgJd0VZeCC",
+        "url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-ottawa-ontario-03-20-2027/event/31006535983934DD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1asZkfgJd0VZeCC",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tommy-emmanuel-2027-toronto-z7r9jz1aaeox3",
+    "artist_slug": "tommy-emmanuel",
+    "artist_name": "Tommy Emmanuel",
+    "event_name": "Tommy Emmanuel w/ Molly Tuttle Band",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Massey Hall",
+    "datetime_iso": "2027-03-22T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeox3",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeox3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeox3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeox3",
+        "discovery_event_id": "Z7r9jZ1AAeox3",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeox3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeox3",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-yacht-rock-revue-2027-jacksonville-z7r9jz1aaeebg",
+    "artist_slug": "yacht-rock-revue",
+    "artist_name": "Yacht Rock Revue",
+    "event_name": "Yacht Rock Revue",
+    "city": "Jacksonville",
+    "country": "United States Of America",
+    "venue": "Florida Theatre Jacksonville",
+    "datetime_iso": "2027-01-30T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeebg",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeebg",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeebg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeebg",
+        "discovery_event_id": "Z7r9jZ1AAeebg",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeebg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeebg",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-too-many-zooz-2026-buffalo-z7r9jz1aav60y",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz: Live in Canada (Mostly!) Tour",
+    "city": "Buffalo",
+    "country": "United States Of America",
+    "venue": "Asbury Hall at Babeville",
+    "datetime_iso": "2026-11-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv60Y",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv60Y",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv60Y",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv60Y",
+        "discovery_event_id": "Z7r9jZ1AAv60Y",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv60Y",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv60Y",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-co-mayo-1abzkfugkd8w25a",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Co. Mayo",
+    "country": "Ireland",
+    "venue": "TF Royal Theatre, Castlebar",
+    "datetime_iso": "2026-12-20T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006536D0F4F2C9",
+    "ticketmaster_url": "https://www.ticketmaster.ie/amble-co-mayo-20-12-2026/event/18006536D0F4F2C9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/amble-co-mayo-20-12-2026/event/18006536D0F4F2C9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006536D0F4F2C9",
+        "discovery_event_id": "1AbZkfUGkd8W25a",
+        "url": "https://www.ticketmaster.ie/amble-co-mayo-20-12-2026/event/18006536D0F4F2C9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkfUGkd8W25a",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-co-mayo-1abzkfugkd8wl5u",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Co. Mayo",
+    "country": "Ireland",
+    "venue": "TF Royal Theatre, Castlebar",
+    "datetime_iso": "2026-12-21T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006536D0F5F2CD",
+    "ticketmaster_url": "https://www.ticketmaster.ie/amble-co-mayo-21-12-2026/event/18006536D0F5F2CD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/amble-co-mayo-21-12-2026/event/18006536D0F5F2CD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006536D0F5F2CD",
+        "discovery_event_id": "1AbZkfUGkd8WL5u",
+        "url": "https://www.ticketmaster.ie/amble-co-mayo-21-12-2026/event/18006536D0F5F2CD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkfUGkd8WL5u",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fantasia-2027-las-vegas-z7r9jz1aaef4j",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "Fantasia Barrino w/ Anthony Hamilton",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "MGM Grand Garden Arena",
+    "datetime_iso": "2027-04-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAef4J",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4J",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4J",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAef4J",
+        "discovery_event_id": "Z7r9jZ1AAef4J",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4J",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAef4J",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-grand-prairie-z7r9jz1aae8a6",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle w/ The Cult",
+    "city": "Grand Prairie",
+    "country": "United States Of America",
+    "venue": "Texas Trust CU Theatre",
+    "datetime_iso": "2027-05-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe8a6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8a6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8a6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe8a6",
+        "discovery_event_id": "Z7r9jZ1AAe8a6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8a6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8a6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-morrison-z7r9jz1aae8af",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle w/ The Cult",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-28T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe8aF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8aF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8aF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe8aF",
+        "discovery_event_id": "Z7r9jZ1AAe8aF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8aF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8aF",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-melbourne-z7r9jz1aae83v",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Melbourne",
+    "country": "United States Of America",
+    "venue": "Maxwell C. King Center for the Performing Arts",
+    "datetime_iso": "2027-01-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe83v",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83v",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83v",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe83v",
+        "discovery_event_id": "Z7r9jZ1AAe83v",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83v",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83v",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-clearwater-z7r9jz1aae83e",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Clearwater",
+    "country": "United States Of America",
+    "venue": "Ruth Eckerd Hall",
+    "datetime_iso": "2027-01-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe83e",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83e",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83e",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe83e",
+        "discovery_event_id": "Z7r9jZ1AAe83e",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83e",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83e",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-austin-z7r9jz1aae83d",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Austin City Limits Live at The Moody Theater",
+    "datetime_iso": "2027-02-04T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe83d",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83d",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83d",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe83d",
+        "discovery_event_id": "Z7r9jZ1AAe83d",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83d",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83d",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-ventura-z7r9jz1aae837",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Ventura",
+    "country": "United States Of America",
+    "venue": "The Majestic Ventura Theater - CA",
+    "datetime_iso": "2027-02-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe837",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe837",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe837",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe837",
+        "discovery_event_id": "Z7r9jZ1AAe837",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe837",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe837",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-cedar-rapids-z7r9jz1aae83a",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Cedar Rapids",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre-Iowa",
+    "datetime_iso": "2027-02-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe83A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe83A",
+        "discovery_event_id": "Z7r9jZ1AAe83A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83A",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-eau-claire-z7r9jz1aae83k",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Eau Claire",
+    "country": "United States Of America",
+    "venue": "RCU Theatre",
+    "datetime_iso": "2027-02-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe83k",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe83k",
+        "discovery_event_id": "Z7r9jZ1AAe83k",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83k",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-orono-z7r9jz1aae836",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Orono",
+    "country": "United States Of America",
+    "venue": "Hutchins Concert Hall",
+    "datetime_iso": "2027-03-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe836",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe836",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe836",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe836",
+        "discovery_event_id": "Z7r9jZ1AAe836",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe836",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe836",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-charlottesville-z7r9jz1aae83f",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Charlottesville",
+    "country": "United States Of America",
+    "venue": "Paramount Theater - VA",
+    "datetime_iso": "2027-03-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe83F",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83F",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe83F",
+        "discovery_event_id": "Z7r9jZ1AAe83F",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83F",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

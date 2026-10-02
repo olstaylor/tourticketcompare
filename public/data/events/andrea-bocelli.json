@@ -1991,5 +1991,164 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297135",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297135/Andrea-Bocelli-tickets-Sat-Oct-9-2027-OVO-Hydro",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-glasgow-ovo-hydro-arena-glasgow-9-10-2027/event/107671323"
+  },
+  {
+    "id": "tm-andrea-bocelli-2027-chorzow-z698xzqpz16v7kfvze",
+    "artist_slug": "andrea-bocelli",
+    "artist_name": "Andrea Bocelli",
+    "event_name": "Andrea Bocelli",
+    "city": "Chorzów",
+    "country": "Poland",
+    "venue": "Stadion Śląski",
+    "datetime_iso": "2027-05-30T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1113534002",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/andrea-bocelli-tickets/1113534002?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/andrea-bocelli-tickets/1113534002?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1113534002",
+        "discovery_event_id": "Z698xZQpZ16v7KfVZe",
+        "url": "https://www.ticketmaster.pl/event/andrea-bocelli-tickets/1113534002?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ16v7KfVZe",
+    "timezone": "Europe/Warsaw",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-andrea-bocelli-2027-london-1adfz_kgkbcpkr9",
+    "artist_slug": "andrea-bocelli",
+    "artist_name": "Andrea Bocelli",
+    "event_name": "Andrea Bocelli",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-10-01T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500653E8E593797",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/andrea-bocelli-london-01-10-2027/event/3500653E8E593797",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-london-01-10-2027/event/3500653E8E593797",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500653E8E593797",
+        "discovery_event_id": "1AdfZ_KGkBCpKr9",
+        "url": "https://www.ticketmaster.co.uk/andrea-bocelli-london-01-10-2027/event/3500653E8E593797",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_KGkBCpKr9",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-andrea-bocelli-2027-manchester-1amzkfzgkd7qkyk",
+    "artist_slug": "andrea-bocelli",
+    "artist_name": "Andrea Bocelli",
+    "event_name": "Andrea Bocelli: Romanza - 30th Anniversary",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-10-05T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006538C4746C13",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-manchester-05-10-2027/event/37006538C4746C13",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-manchester-05-10-2027/event/37006538C4746C13",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006538C4746C13",
+        "discovery_event_id": "1AMZkfzGkd7qkYK",
+        "url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-manchester-05-10-2027/event/37006538C4746C13",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkfzGkd7qkYK",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

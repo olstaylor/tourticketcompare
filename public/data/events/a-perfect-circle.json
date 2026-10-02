@@ -1939,5 +1939,111 @@
     "status": "announced",
     "public_onsale_at": "2026-10-02T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295082"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-grand-prairie-z7r9jz1aae8a6",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle w/ The Cult",
+    "city": "Grand Prairie",
+    "country": "United States Of America",
+    "venue": "Texas Trust CU Theatre",
+    "datetime_iso": "2027-05-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe8a6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8a6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8a6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe8a6",
+        "discovery_event_id": "Z7r9jZ1AAe8a6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8a6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8a6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-morrison-z7r9jz1aae8af",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle w/ The Cult",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-28T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe8aF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8aF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8aF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe8aF",
+        "discovery_event_id": "Z7r9jZ1AAe8aF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8aF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8aF",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

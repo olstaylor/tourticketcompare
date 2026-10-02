@@ -1358,5 +1358,111 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290988",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290988/Needtobreathe-tickets-Sat-Mar-20-2027-713-Music-Hall",
     "stubhub_international_url": "https://www.stubhub.ie/needtobreathe-houston-tickets-3-20-2027/event/107671360"
+  },
+  {
+    "id": "tm-needtobreathe-2027-kansas-city-z7r9jz1aaek_i",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "Needtobreathe w/ Conner Smith",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "The Midland Theatre - MO",
+    "datetime_iso": "2027-02-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAek_I",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_I",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_I",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAek_I",
+        "discovery_event_id": "Z7r9jZ1AAek_I",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_I",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAek_I",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-needtobreathe-2027-lancaster-z7r9jz1aaek_t",
+    "artist_slug": "needtobreathe",
+    "artist_name": "NEEDTOBREATHE",
+    "event_name": "Needtobreathe w/ Conner Smith",
+    "city": "Lancaster",
+    "country": "United States Of America",
+    "venue": "American Music Theatre",
+    "datetime_iso": "2027-03-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAek_t",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_t",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_t",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAek_t",
+        "discovery_event_id": "Z7r9jZ1AAek_t",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_t",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAek_t",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

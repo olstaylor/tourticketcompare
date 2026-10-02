@@ -1433,5 +1433,58 @@
     "ticketmaster_discovery_event_id": "vv177Z_7GkSjYNiw",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-foy-vance-2026-san-francisco-z7r9jz1aae4_v",
+    "artist_slug": "foy-vance",
+    "artist_name": "Foy Vance",
+    "event_name": "Foy Vance w/ Bonnie Bishop",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Great American Music Hall",
+    "datetime_iso": "2026-11-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe4_V",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4_V",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4_V",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe4_V",
+        "discovery_event_id": "Z7r9jZ1AAe4_V",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4_V",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4_V",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

@@ -1630,5 +1630,800 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287523",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287523/Lizzy-McAlpine-tickets-Sat-Jul-17-2027-Climate-Pledge-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-seattle-tickets-7-17-2027/event/107670460"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-torrensville-1akzkfggkepdplf",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine - The Over Country Tour",
+    "city": "Torrensville",
+    "country": "Australia",
+    "venue": "Thebarton Theatre",
+    "datetime_iso": "2027-02-02T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006535A5ED6AC8",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/lizzy-mcalpine-the-over-country-tour-torrensville-02-02-2027/event/13006535A5ED6AC8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/lizzy-mcalpine-the-over-country-tour-torrensville-02-02-2027/event/13006535A5ED6AC8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006535A5ED6AC8",
+        "discovery_event_id": "1AKZkfgGkePDplF",
+        "url": "https://www.ticketmaster.com.au/lizzy-mcalpine-the-over-country-tour-torrensville-02-02-2027/event/13006535A5ED6AC8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkfgGkePDplF",
+    "timezone": "Australia/Adelaide",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-london-g5dzz_krvbn6w",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine THE OVER COUNTRY TOUR",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-03-31T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006537B4EA31F2",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-31-03-2027/event/3E006537B4EA31F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-31-03-2027/event/3E006537B4EA31F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006537B4EA31F2",
+        "discovery_event_id": "G5dzZ_KrVBN6w",
+        "url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-31-03-2027/event/3E006537B4EA31F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KrVBN6w",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-london-g5dzz_kslx95p",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine THE OVER COUNTRY TOUR",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-04-01T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00653CDFF972D6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-01-04-2027/event/3E00653CDFF972D6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-01-04-2027/event/3E00653CDFF972D6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00653CDFF972D6",
+        "discovery_event_id": "G5dzZ_KSLX95p",
+        "url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-01-04-2027/event/3E00653CDFF972D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KSLX95p",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-london-g5dzz_kscgmsk",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine THE OVER COUNTRY TOUR",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-04-02T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00653CED337C46",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-02-04-2027/event/3E00653CED337C46",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-02-04-2027/event/3E00653CED337C46",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00653CED337C46",
+        "discovery_event_id": "G5dzZ_KScGMsk",
+        "url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-02-04-2027/event/3E00653CED337C46",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KScGMsk",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-birmingham-g5dzz_kkek096",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine - the Over Country Tour",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Academy Birmingham",
+    "datetime_iso": "2027-04-07T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006531A74E45C7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-birmingham-07-04-2027/event/3E006531A74E45C7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-birmingham-07-04-2027/event/3E006531A74E45C7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006531A74E45C7",
+        "discovery_event_id": "G5dzZ_KkEK096",
+        "url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-birmingham-07-04-2027/event/3E006531A74E45C7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KkEK096",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-glasgow-g5dzz_kwtjarb",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine - the Over Country Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "O2 Academy Glasgow",
+    "datetime_iso": "2027-04-10T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00653CBF9857BA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-glasgow-10-04-2027/event/3E00653CBF9857BA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-glasgow-10-04-2027/event/3E00653CBF9857BA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00653CBF9857BA",
+        "discovery_event_id": "G5dzZ_KwTJArB",
+        "url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-glasgow-10-04-2027/event/3E00653CBF9857BA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KwTJArB",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-dallas-z7r9jz1aaekq3",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine w/ Sydney Ross Mitchell",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "The Bomb Factory",
+    "datetime_iso": "2027-05-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAekq3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekq3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekq3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAekq3",
+        "discovery_event_id": "Z7r9jZ1AAekq3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekq3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAekq3",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-atlanta-z7r9jz1aaea-b",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine w/ Sydney Ross Mitchell",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Fox Theatre - Atlanta",
+    "datetime_iso": "2027-05-03T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeA-b",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-b",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-b",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeA-b",
+        "discovery_event_id": "Z7r9jZ1AAeA-b",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-b",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA-b",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-columbus-z7r9jz1aaea09",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Palace Theatre Columbus",
+    "datetime_iso": "2027-05-06T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeA09",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA09",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA09",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeA09",
+        "discovery_event_id": "Z7r9jZ1AAeA09",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA09",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA09",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-milwaukee-z7r9jz1aaea0_",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine w/ Sydney Ross Mitchell",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Riverside Theater - WI",
+    "datetime_iso": "2027-05-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeA0_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA0_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA0_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeA0_",
+        "discovery_event_id": "Z7r9jZ1AAeA0_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA0_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA0_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-minneapolis-vv1akzkfsgkdlgq7t",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine: The Over Country Tour",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "State Theatre",
+    "datetime_iso": "2027-05-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006531EBD5D13F",
+    "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-13-2027/event/06006531EBD5D13F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-13-2027/event/06006531EBD5D13F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006531EBD5D13F",
+        "discovery_event_id": "vv1AkZkfsGkdlgq7T",
+        "url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-13-2027/event/06006531EBD5D13F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfsGkdlgq7T",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-kansas-city-z7r9jz1aaekqk",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine w/ Sydney Ross Mitchell",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "The Midland Theatre - MO",
+    "datetime_iso": "2027-05-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAekqK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekqK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekqK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAekqK",
+        "discovery_event_id": "Z7r9jZ1AAekqK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekqK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAekqK",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-oklahoma-city-z7r9jz1aaea-p",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine",
+    "city": "Oklahoma City",
+    "country": "United States Of America",
+    "venue": "Thelma Gaylord Performing Arts Theatre",
+    "datetime_iso": "2027-05-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeA-P",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-P",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-P",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeA-P",
+        "discovery_event_id": "Z7r9jZ1AAeA-P",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-P",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA-P",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-boston-vv1a8vpuzga1bypi",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine: The Over Country Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Agganis Arena",
+    "datetime_iso": "2027-06-21T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010065378A639968",
+    "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-21-2027/event/010065378A639968",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-21-2027/event/010065378A639968",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010065378A639968",
+        "discovery_event_id": "vv1A8vPuzGA1byPI",
+        "url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-21-2027/event/010065378A639968",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A8vPuzGA1byPI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-morrison-z7r9jz1aaeax6",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine w/ Searows",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-07-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeAx6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAx6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAx6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeAx6",
+        "discovery_event_id": "Z7r9jZ1AAeAx6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAx6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeAx6",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

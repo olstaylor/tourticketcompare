@@ -257,10 +257,15 @@
     }
     function expandTo(anchorId) {
       var target = anchorId ? document.getElementById(anchorId) : null;
-      if (!target || !section.contains(target) || !target.hidden || expanded) return;
-      expanded = true;
-      apply();
-      target.scrollIntoView({ block: "start" });
+      if (!target || !section.contains(target) || !target.hidden) return;
+      if (!expanded) {
+        expanded = true;
+        apply();
+      }
+      // Still hidden means an active filter excludes it; clear the filters so
+      // the jump lands instead of silently doing nothing.
+      if (target.hidden && (state.query || state.country || state.city)) resetAll();
+      if (!target.hidden) target.scrollIntoView({ block: "start" });
     }
     more.addEventListener("click", function () {
       expanded = true;
@@ -342,10 +347,19 @@
     event.preventDefault();
     var anchorId = String(action.getAttribute("data-copy-show-link") || "").trim();
     if (!anchorId) return;
+    // Remember the real label once, so a second click inside the reset delay
+    // cannot capture "Copied" as the label to restore.
+    if (!action.dataset.copyLabel) action.dataset.copyLabel = action.textContent;
+    var label = action.dataset.copyLabel;
+    var flash = function (text) {
+      action.textContent = text;
+      window.clearTimeout(Number(action.dataset.copyTimer || 0));
+      action.dataset.copyTimer = String(window.setTimeout(function () { action.textContent = label; }, 1800));
+    };
     copy(window.location.origin + window.location.pathname + "#" + anchorId).then(function () {
-      var label = action.textContent;
-      action.textContent = "Copied";
-      window.setTimeout(function () { action.textContent = label; }, 1800);
+      flash("Copied");
+    }).catch(function () {
+      flash("Copy failed");
     });
   });
 

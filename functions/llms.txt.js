@@ -4,10 +4,11 @@ import { deriveVenues } from "./_venues.js";
 import { deriveIndexableArtistCities } from "./_artist-cities.js";
 import { derivePosts as deriveBlogPosts, postIndexable as blogPostIndexable } from "./_blog.js";
 import { artistPageIndexable } from "./_artist-indexability.js";
-import { deriveOnsaleCalendar } from "./_onsale-calendar.js";
+import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS } from "./_onsale-calendar.js";
 import { deriveIndexablePriceGuides } from "./_price-guides.js";
 import { resolveEventLocalDate } from "./_event-local-date.js";
 import { eventIndexingPilotFor } from "./[[path]].js";
+import { eventLifecycleHeld } from "./_route-indexability.js";
 
 // llms.txt (https://llmstxt.org) — a curated index for answer engines and AI
 // crawlers. Derived from _route-metadata.js and the artist data files (the
@@ -22,7 +23,15 @@ function loadJsonAsset(env, pathname) {
   if (!env || typeof env !== "object") return fetchJsonAsset(env, pathname);
   if (!assetsByEnv.has(env)) assetsByEnv.set(env, new Map());
   const cache = assetsByEnv.get(env);
-  if (!cache.has(pathname)) cache.set(pathname, fetchJsonAsset(env, pathname).catch(() => null));
+  if (!cache.has(pathname)) {
+    // A failed load is not memoised, so one transient ASSETS error cannot
+    // blank the file for every later read against this env.
+    const load = fetchJsonAsset(env, pathname).catch(() => null).then((value) => {
+      if (value === null) cache.delete(pathname);
+      return value;
+    });
+    cache.set(pathname, load);
+  }
   return cache.get(pathname);
 }
 
@@ -115,6 +124,74 @@ async function loadIndexedEventPages(env, requestOrigin, artistNameBySlug) {
   }
 }
 
+// Citable per-artist facts for answer engines: how many upcoming dates the
+// artist page lists, in how many cities, the venue-local date range, the tour
+// name(s) and the next Ticketmaster public on-sale inside the /on-sale page's
+// window (Ticketmaster's far-future "TBA" sentinel never qualifies). Every value is
+// read from reviewed events.json records (the same rows the page renders);
+// cancelled or postponed dates are left out, and nothing about price is said.
+// An artist with no upcoming date gets no fact line rather than a zero.
+const MAX_TOUR_NAMES = 2;
+const DAY_MS = 24 * 60 * 60 * 1000;
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+function formatLocalDate(iso) {
+  const [year, month, day] = iso.split("-").map(Number);
+  return `${day} ${MONTHS[month - 1]} ${year}`;
+}
+
+export function artistFactsBySlug(events, now = Date.now()) {
+  const grouped = new Map();
+  for (const event of Array.isArray(events) ? events : []) {
+    if (!event || typeof event !== "object" || eventLifecycleHeld(event)) continue;
+    const slug = String(event.artist_slug || "").trim();
+    const showMs = Date.parse(String(event.datetime_iso || "").trim());
+    if (!slug || !Number.isFinite(showMs) || showMs < now) continue;
+    if (!grouped.has(slug)) grouped.set(slug, []);
+    grouped.get(slug).push({ event, showMs });
+  }
+  const facts = new Map();
+  for (const [slug, rows] of grouped) {
+    rows.sort((a, b) => a.showMs - b.showMs);
+    const cities = new Set(rows.map(({ event }) => String(event.city || "").trim().toLowerCase()).filter(Boolean));
+    const localDates = rows.map(({ event }) => resolveEventLocalDate(event).iso).filter(Boolean);
+    const tours = [...new Set(rows.map(({ event }) => String(event.tour_name || "").trim()).filter(Boolean))];
+    const nextOnsaleMs = rows
+      .map(({ event }) => Date.parse(String(event.public_onsale_at || "").trim()))
+      .filter((ms) => Number.isFinite(ms) && ms > now && ms - now <= ONSALE_LOOKAHEAD_DAYS * DAY_MS)
+      .sort((a, b) => a - b)[0];
+    facts.set(slug, {
+      showCount: rows.length,
+      cityCount: cities.size,
+      firstDate: localDates[0] || "",
+      lastDate: localDates[localDates.length - 1] || "",
+      tours: tours.slice(0, MAX_TOUR_NAMES),
+      moreTours: Math.max(0, tours.length - MAX_TOUR_NAMES),
+      nextOnsale: Number.isFinite(nextOnsaleMs) ? new Date(nextOnsaleMs).toISOString().slice(0, 16).replace("T", " ") : ""
+    });
+  }
+  return facts;
+}
+
+export function artistFactsSentence(facts) {
+  if (!facts || !facts.showCount) return "";
+  const parts = [];
+  let dates = `${facts.showCount} upcoming ${facts.showCount === 1 ? "date" : "dates"}`;
+  if (facts.cityCount) dates += ` in ${facts.cityCount} ${facts.cityCount === 1 ? "city" : "cities"}`;
+  if (facts.firstDate && facts.lastDate) {
+    dates += facts.firstDate === facts.lastDate
+      ? ` on ${formatLocalDate(facts.firstDate)}`
+      : `, ${formatLocalDate(facts.firstDate)} to ${formatLocalDate(facts.lastDate)}`;
+  }
+  parts.push(dates);
+  if (facts.tours.length) {
+    const more = facts.moreTours ? ` and ${facts.moreTours} more` : "";
+    parts.push(`Tour: ${facts.tours.join("; ")}${more}`);
+  }
+  if (facts.nextOnsale) parts.push(`Next Ticketmaster public on-sale: ${facts.nextOnsale} UTC`);
+  return `${parts.join(". ")}.`;
+}
+
 function linkLine(origin, path, name, description) {
   const suffix = description ? `: ${description}` : "";
   return `- [${name}](${origin}${path})${suffix}`;
@@ -138,9 +215,12 @@ export async function onRequestGet({ request, env }) {
 
   const artists = await loadIndexableArtists(env);
   const locations = await loadIndexableLocations(env, artists.map((artist) => artist.slug));
-  const artistLines = artists.map((artist) =>
-    linkLine(origin, `/artists/${artist.slug}`, artist.name, artist.description)
-  );
+  const facts = artistFactsBySlug(await loadJsonAsset(env, "/data/events.json"));
+  const artistLines = artists.map((artist) => {
+    const factLine = artistFactsSentence(facts.get(artist.slug));
+    const description = [artist.description, factLine].filter(Boolean).join(" ");
+    return linkLine(origin, `/artists/${artist.slug}`, artist.name, description);
+  });
   const artistNameBySlug = new Map(artists.map((artist) => [artist.slug, artist.name]));
   const eventPages = await loadIndexedEventPages(env, `${requestUrl.protocol}//${requestUrl.host}`, artistNameBySlug);
   const eventLines = eventPages.map((page) =>
@@ -185,13 +265,17 @@ export async function onRequestGet({ request, env }) {
     )
   ];
 
+  // These four already lead the "Comparison methodology" section below.
+  const methodologyPaths = new Set(["/compare-concert-ticket-prices", "/how-it-works", "/editorial-policy", "/affiliate-disclosure"]);
   const trustLines = Object.entries(TRUST_ROUTES)
-    .filter(([path, route]) => path !== "/" && route.indexable)
+    .filter(([path, route]) => path !== "/" && !methodologyPaths.has(path) && route.indexable)
     .map(([path, route]) => linkLine(origin, path, route.title.replace(" | TourTicketCompare", ""), route.description));
 
   const body = `# TourTicketCompare
 
 > Independent, unofficial ticket research for major live music tours. The site publishes verified ticket links, reviewed event details, and timestamped provider-supplied listed-price snapshots when approved data passes exact-event, source, and freshness checks. It does not sell tickets or claim live inventory, guaranteed availability, or final checkout totals.
+
+Updated: ${new Date().toISOString().slice(0, 10)}. Artist dates, city counts and on-sale times below are read from the same reviewed records as the pages they link to.
 
 Key facts:
 

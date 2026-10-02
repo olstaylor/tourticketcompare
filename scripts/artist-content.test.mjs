@@ -87,7 +87,9 @@ const bigIntro = artistSearchIntro({ name: "Harry Styles" }, bigStatus, options)
 assert(bigIntro.includes("5 upcoming dates in 3 cities and 3 countries"), "intro should state the tracked count");
 assert(bigIntro.includes("3 cities") && bigIntro.includes("3 countries"), "intro should state the geographic spread");
 assert(bigIntro.includes("2026-09-01") && bigIntro.includes("2026-09-15"), "intro should state the run's range");
-assert(!bigIntro.includes("The O2"), "a multi-night run is shown by the cards' night chips, not restated in the intro");
+assert(!/night|run\b/i.test(bigIntro), "a multi-night run is shown by the cards' night chips, not restated in the intro");
+assert(bigIntro.includes("Next: 2026-09-01 at The O2, London."), "the intro names the soonest date, which is the board's first card");
+assert(!/cover a date varies/.test(bigIntro), "uneven provider coverage is shown per card, not hedged in the intro");
 assertCopySafe(bigIntro, "large-board intro");
 
 // --- Single-date board ------------------------------------------------------

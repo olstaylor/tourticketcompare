@@ -2860,3 +2860,139 @@ summary {
     margin-right: 0;
   }
 }
+
+/* Phone date boards (2026-10-02, UX pass). On a 390px phone the date cards sat
+   inside three boxes (page, board, card), which left the ticket buttons ~270px
+   wide and pushed the first one below the fold. The board loses its own box so
+   the cards use the page width, and the per-card footer (freshness note,
+   snapshot-history toggle, copy link, details link) packs into fewer lines.
+   Text, order and links are unchanged. */
+@media (max-width: 640px) {
+  .show-board,
+  .section-grid[data-show-list] {
+    gap: 14px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+  }
+
+  .show-board > .section-intro h2 {
+    margin-bottom: 4px;
+  }
+
+  .show-card {
+    gap: 6px 12px;
+    padding: 12px;
+  }
+
+  .show-card-actions {
+    gap: 4px 14px;
+  }
+
+  .show-card .provider-cta-notes {
+    padding: 2px 2px 0;
+  }
+
+  .show-card .provider-cta-notes .disclosure-note {
+    font-size: 0.74rem;
+    line-height: 1.4;
+  }
+
+  /* The history toggle reads as a text action beside "Copy link" and "Show
+     details" rather than a pill on its own row. */
+  .show-card-actions > .price-history {
+    margin: 0;
+    width: auto;
+  }
+
+  .show-card-actions > .price-history:has(.price-history-panel:not([hidden])) {
+    flex-basis: 100%;
+  }
+
+  .show-card .price-history-toggle {
+    min-height: 36px;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--green);
+    font-size: 0.78rem;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .show-card .copy-show-link,
+  .show-card .show-details-link {
+    min-height: 36px;
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+  }
+
+  /* As on desktop, the "Lowest listed" badge sits on the tile's top edge, so
+     that tile is no taller than its neighbours and the grid rows stay even. */
+  .show-card .provider-cta-group {
+    row-gap: 10px;
+    margin-top: 4px;
+  }
+
+  .show-card .provider-cta-lowest {
+    position: relative;
+  }
+
+  .show-card .provider-cta-lowest .provider-cta-badge {
+    position: absolute;
+    top: -8px;
+    left: 8px;
+    font-size: 0.62rem;
+  }
+}
+
+/* Date board search with no matches (artist-board.js). */
+.show-board-empty {
+  display: grid;
+  justify-items: start;
+  gap: 10px;
+  padding: 16px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-md);
+  background: var(--bg);
+}
+
+.show-board-empty[hidden] {
+  display: none;
+}
+
+.show-board-empty p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* Event page facts: label column and value column, one row per fact, instead
+   of the browser's default indented dd under each dt. */
+.event-facts {
+  display: grid;
+  grid-template-columns: minmax(96px, max-content) minmax(0, 1fr);
+  gap: 0 16px;
+  margin: 0;
+}
+
+.event-facts dt,
+.event-facts dd {
+  margin: 0;
+  padding: 8px 0;
+  border-top: 1px solid var(--line);
+  line-height: 1.4;
+}
+
+.event-facts dt {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.event-facts dd {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}

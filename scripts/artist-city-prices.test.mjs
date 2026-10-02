@@ -420,7 +420,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     assert(!body.includes(card), `"${card}" is not reprinted as a card beside the table that already states it`);
   }
   assert(
-    body.includes("Dates last checked"),
+    body.includes("Latest date check:"),
     "the one fact the table does not carry \u2014 event-record verification \u2014 survives the compression"
   );
   assert(
@@ -513,7 +513,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   for (const card of ["Next tracked date", "Tracked date range", "Verification recency"]) {
     assert(!body.includes(card), `"${card}" is not reprinted as a card`);
   }
-  assert(body.includes("Dates last checked"), "the summary keeps the event-record verification date");
+  assert(body.includes("Latest date check:"), "the summary keeps the event-record verification date");
   const unpricedLead = text((page.main.match(/<p class="artist-city-summary__lead">([\s\S]*?)<\/p>/) || [])[1] || "");
   assert(
     unpricedLead.includes("Fixture Arena") && /Sep 10, 2026 to/.test(unpricedLead),

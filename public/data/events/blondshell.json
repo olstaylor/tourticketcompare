@@ -340,5 +340,270 @@
     "ticketmaster_discovery_event_id": "1AvOZ_aGkwt8mRu",
     "timezone": "Europe/London",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-blondshell-2027-vancouver-16ozkfzopzauakea",
+    "artist_slug": "blondshell",
+    "artist_name": "Blondshell",
+    "event_name": "Blondshell - Scaring Strangers Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Commodore Ballroom",
+    "datetime_iso": "2027-03-07T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006538816C4514",
+    "ticketmaster_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006538816C4514",
+        "discovery_event_id": "16oZkfzOpZAuAkeA",
+        "url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16oZkfzOpZAuAkeA",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blondshell-2027-asbury-park-k7vgf_knjlgim",
+    "artist_slug": "blondshell",
+    "artist_name": "Blondshell",
+    "event_name": "Blondshell - Scaring Strangers Tour",
+    "city": "Asbury Park",
+    "country": "United States Of America",
+    "venue": "The Stone Pony",
+    "datetime_iso": "2027-03-23T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006538E67CCB2E",
+    "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-asbury-park-new-jersey-03-23-2027/event/00006538E67CCB2E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-asbury-park-new-jersey-03-23-2027/event/00006538E67CCB2E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006538E67CCB2E",
+        "discovery_event_id": "k7vGF_KNJLGim",
+        "url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-asbury-park-new-jersey-03-23-2027/event/00006538E67CCB2E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_KNJLGim",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blondshell-2027-madison-vv1kvyvpc_ga55f1w",
+    "artist_slug": "blondshell",
+    "artist_name": "Blondshell",
+    "event_name": "Blondshell - Scaring Strangers Tour",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "Majestic Theatre",
+    "datetime_iso": "2027-05-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "070065399B2D42BD",
+    "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-madison-wisconsin-05-15-2027/event/070065399B2D42BD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-madison-wisconsin-05-15-2027/event/070065399B2D42BD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "070065399B2D42BD",
+        "discovery_event_id": "vv1kvYvPC_GA55f1W",
+        "url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-madison-wisconsin-05-15-2027/event/070065399B2D42BD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvYvPC_GA55f1W",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blondshell-2027-detroit-vv1afzkfmgkdgjzny",
+    "artist_slug": "blondshell",
+    "artist_name": "Blondshell",
+    "event_name": "Blondshell - Scaring Strangers Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Saint Andrew's Hall",
+    "datetime_iso": "2027-05-17T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006537CC738AB0",
+    "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-detroit-michigan-05-17-2027/event/08006537CC738AB0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-detroit-michigan-05-17-2027/event/08006537CC738AB0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006537CC738AB0",
+        "discovery_event_id": "vv1AFZkfMGkdGjznY",
+        "url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-detroit-michigan-05-17-2027/event/08006537CC738AB0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfMGkdGjznY",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blondshell-2027-saint-louis-vv1kbz_kjdg7cpvx",
+    "artist_slug": "blondshell",
+    "artist_name": "Blondshell",
+    "event_name": "Blondshell - Scaring Strangers Tour",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Delmar Hall",
+    "datetime_iso": "2027-05-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600653983B56D3E",
+    "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-saint-louis-missouri-05-22-2027/event/0600653983B56D3E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-saint-louis-missouri-05-22-2027/event/0600653983B56D3E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600653983B56D3E",
+        "discovery_event_id": "vv1kbZ_KJdG7cpVX",
+        "url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-saint-louis-missouri-05-22-2027/event/0600653983B56D3E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kbZ_KJdG7cpVX",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

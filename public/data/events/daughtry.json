@@ -2605,5 +2605,429 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-02T14:00:00Z"
+  },
+  {
+    "id": "tm-daughtry-2027-melbourne-z7r9jz1aae83v",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Melbourne",
+    "country": "United States Of America",
+    "venue": "Maxwell C. King Center for the Performing Arts",
+    "datetime_iso": "2027-01-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe83v",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83v",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83v",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe83v",
+        "discovery_event_id": "Z7r9jZ1AAe83v",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83v",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83v",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-clearwater-z7r9jz1aae83e",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Clearwater",
+    "country": "United States Of America",
+    "venue": "Ruth Eckerd Hall",
+    "datetime_iso": "2027-01-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe83e",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83e",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83e",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe83e",
+        "discovery_event_id": "Z7r9jZ1AAe83e",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83e",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83e",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-austin-z7r9jz1aae83d",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Austin City Limits Live at The Moody Theater",
+    "datetime_iso": "2027-02-04T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe83d",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83d",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83d",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe83d",
+        "discovery_event_id": "Z7r9jZ1AAe83d",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83d",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83d",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-ventura-z7r9jz1aae837",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Ventura",
+    "country": "United States Of America",
+    "venue": "The Majestic Ventura Theater - CA",
+    "datetime_iso": "2027-02-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe837",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe837",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe837",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe837",
+        "discovery_event_id": "Z7r9jZ1AAe837",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe837",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe837",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-cedar-rapids-z7r9jz1aae83a",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Cedar Rapids",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre-Iowa",
+    "datetime_iso": "2027-02-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe83A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe83A",
+        "discovery_event_id": "Z7r9jZ1AAe83A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83A",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-eau-claire-z7r9jz1aae83k",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Eau Claire",
+    "country": "United States Of America",
+    "venue": "RCU Theatre",
+    "datetime_iso": "2027-02-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe83k",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe83k",
+        "discovery_event_id": "Z7r9jZ1AAe83k",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83k",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-orono-z7r9jz1aae836",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Orono",
+    "country": "United States Of America",
+    "venue": "Hutchins Concert Hall",
+    "datetime_iso": "2027-03-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe836",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe836",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe836",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe836",
+        "discovery_event_id": "Z7r9jZ1AAe836",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe836",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe836",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-daughtry-2027-charlottesville-z7r9jz1aae83f",
+    "artist_slug": "daughtry",
+    "artist_name": "Daughtry",
+    "event_name": "Daughtry",
+    "city": "Charlottesville",
+    "country": "United States Of America",
+    "venue": "Paramount Theater - VA",
+    "datetime_iso": "2027-03-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe83F",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83F",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe83F",
+        "discovery_event_id": "Z7r9jZ1AAe83F",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83F",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

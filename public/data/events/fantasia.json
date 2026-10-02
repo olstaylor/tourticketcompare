@@ -1586,5 +1586,58 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293983",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293983/The-Love-of-Soul-Tour-tickets-Sat-May-22-2027-Prudential-Center",
     "stubhub_international_url": "https://www.stubhub.ie/fantasia-newark-tickets-5-22-2027/event/107670738"
+  },
+  {
+    "id": "tm-fantasia-2027-las-vegas-z7r9jz1aaef4j",
+    "artist_slug": "fantasia",
+    "artist_name": "Fantasia",
+    "event_name": "Fantasia Barrino w/ Anthony Hamilton",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "MGM Grand Garden Arena",
+    "datetime_iso": "2027-04-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAef4J",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4J",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4J",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAef4J",
+        "discovery_event_id": "Z7r9jZ1AAef4J",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4J",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAef4J",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

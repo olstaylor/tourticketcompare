@@ -1674,5 +1674,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239627",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239627/Dinosaur-Jr-tickets-Sat-Mar-13-2027-Citizens-House-Of-Blues-Boston"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-philadelphia-z7r9jz1aavk18",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr w/ Starcrawler",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Union Transfer",
+    "datetime_iso": "2027-02-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvK18",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK18",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK18",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvK18",
+        "discovery_event_id": "Z7r9jZ1AAvK18",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK18",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvK18",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

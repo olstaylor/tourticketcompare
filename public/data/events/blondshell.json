@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70E_4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E_4",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/blondshell-tickets-portland-mcmenamins-crystal-ballroom-10-19-2026--concerts-alternative/production/7047997",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70E_4",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7047997,
-        "url": "https://www.vividseats.com/blondshell-tickets-portland-mcmenamins-crystal-ballroom-10-19-2026--concerts-alternative/production/7047997",
-        "verified": true,
-        "last_verified_at": "2026-09-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

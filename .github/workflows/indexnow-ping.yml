@@ -38,9 +38,11 @@ on:
       # next ordinary crawl.
       - 'public/data/blog-content.json'
       # Buying guides: the generated route table carries each guide's URL and
-      # its provenance-derived lastmod, so a new or revised guide lands here
-      # (guides-content.json alone only holds the body copy).
+      # its provenance-derived lastmod; the compiled body copy catches a
+      # body-only revision made the same day as the last one, which leaves the
+      # route table byte-for-byte unchanged.
       - 'functions/_guide-routes.generated.js'
+      - 'public/data/guides-content.json'
       # Code that decides which routes are indexable at all.
       - 'functions/sitemap.xml.js'
       - 'functions/sitemaps/**'

@@ -16,6 +16,7 @@ Numbered SQL files applied to the production D1 database `tourticketcompare-dema
 | `0010_provider_price_checks.sql` | `provider_price_checks`: when each price lane last looked for a listed price on an event, and whether it found one. Read by the router to date a card's "no listed price" note | **Self-applying.** Both snapshot writers prefix their check SQL with the same `CREATE TABLE IF NOT EXISTS`, so the first scheduled run after merge creates it. Added 2026-09-24. |
 | `0011_provider_price_history_source_index.sql` | Additive index for the existing recorded-price read path, matching its `event_id`, `provider`, `source` and `observed_at` predicates | **Pending application.** Apply once with `wrangler d1 execute` after merge, then confirm with `PRAGMA index_list(provider_pricing_history)`. Added 2026-10-01. |
 | `0012_provider_pricing_daily_rollup.sql` | Never-pruned `provider_pricing_daily` rollup (one row per event × provider × source × currency × UTC day: min/max/first/last of `low_price`, plus an observation count) and a nullable `event_date` column on `provider_pricing_history` | **Not yet applied.** Added 2026-09-14. |
+| `0013_email_alerts.sql` | `email_alert_sends` (one row per date-alert email, with its unsubscribe token) and `email_unsubscribes` (opt-outs from that link) | **Self-applying.** `scripts/send-date-alerts.mjs` (send mode) and `functions/api/unsubscribe.js` run the same `CREATE ... IF NOT EXISTS` statements first, so nothing needs applying by hand. Added 2026-10-02. |
 
 Notes:
 

@@ -32,7 +32,7 @@ permissions:
 # keeps only ONE run pending per group and evicts any earlier pending one, so
 # membership is a cost as well as a protection: a third member makes it possible
 # for a pending nightly sync to be dropped, and a silently skipped publication is
-# the exact failure this change exists to stop. tm-new-shows-pr (04:00) was the
+# the exact failure this change exists to stop. tm-new-shows-pr (then 04:00) was the
 # concrete case — an overrunning audit would let it evict the pending 03:30 sync
 # — so it keeps its own group and relies on the per-request throttle retry in
 # scripts/apply-tm-updates.mjs, which degrades to reported errors rather than

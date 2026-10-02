@@ -4,7 +4,7 @@ Owner-managed. Agents may correct facts (dated) but not reorder or re-scope prio
 
 ## Active priorities (in order)
 
-Items 1–4 are operational (owner plus gated tooling), not engineering.
+Items 1–5 are operational (owner plus gated tooling), not engineering.
 
 ### 1. Affiliate-pivot owner follow-ups
 
@@ -64,6 +64,15 @@ Open items:
 - **Open owner decision:** three Hamburg box-seat rows ("| Logen-Seat" for niall-horan and sabaton, "| Box-Seat" for teddy-swims) render as non-performance pages. Either tombstone them by Ticketmaster id so the real concert listing can be ingested, or leave them.
 - Review the rolling `automation:*` dashboards and withheld rows from the new-show PRs.
 
+### 5. Switch on artist date-alert emails (added 2026-10-02 at the owner's request)
+
+The sender, unsubscribe page and manual `date-alerts.yml` workflow shipped in PR #1279; nothing sends until these owner steps are done. On 2026-10-02, 4 alerts were due (Olivia Rodrigo, Tame Impala, Shakira, Gracie Abrams; the last looks like an owner test address).
+
+1. Create a Resend account and verify `tourticketcompare.com` (DNS records in Cloudflare).
+2. Add GitHub Actions secrets `RESEND_API_KEY`, `ALERT_EMAIL_FROM` (e.g. `TourTicketCompare <alerts@tourticketcompare.com>`) and `ALERT_POSTAL_ADDRESS` (a PO box is fine); `ALERT_REPLY_TO` is optional.
+3. Run **Artist date alerts** in `test` mode to an owner address, check it, then run `send`.
+4. Decide later whether it should run on a schedule (it has none by design). Presale/on-sale alerts would need new signup-form wording first: the form promises "dates are listed. Nothing else."
+
 ## Engineering track: auto-ingest plan (owner-approved 2026-09-23)
 
 **Goal:**
@@ -102,9 +111,9 @@ The owner reviews auto-published output after it publishes, through the daily di
 
 ## Maintenance loop
 
-Stages 1–3 are live (mechanism in `docs/OPERATIONS.md`). Stage 3 (`work-queue-repair.yml`) opens one PR per `generated_artifact_stale` issue and never merges; every PR it opens needs a human review and merge.
+Stages 1–3 are live (mechanism in `docs/OPERATIONS.md` → Stage 3). Stage 3 (`work-queue-repair.yml`) handles `generated_artifact_stale` and, since 2026-10-02, `event_needs_provider_url` (missing or unverified SeatGeek destinations, at most 20 event IDs per artist through the strict API verifier; it never changes `verification_status` or infers tour labels). It opens one PR per issue and never merges; every PR needs a human review and merge.
 
-**Still open:** a real production run against a genuine finding, then a decision on whether to support a second finding type. That would be new scope.
+**Still open:** genuine production runs, human review and merge of their PRs, and proof the sensors recover.
 
 **Stage 4 gates:**
 - genuine Stage 3 production evidence;

@@ -98,7 +98,15 @@ contract and Impact wrapping, no price or availability claim without a source.
 design — never a direct commit, never an auto-merge. So is
 `work-queue-repair.yml`, the maintenance loop's Stage 3 worker: it may push one
 branch and open one pull request regenerating an artefact already on the
-machine-owned list in group B, and it stops there. It holds no merge call at
+machine-owned list in group B, or verifying an `event_needs_provider_url`
+batch through the existing SeatGeek API verifier. The latter is limited to
+positive exact-event matches for at most 20 explicit event IDs of one
+registry-verified artist: only `seatgeek_url`, `provider_links.seatgeek`, that
+artist's partition and generated status figures may change. Field and file
+guards, production event/partition validation, `test:providers`, `test:mvp`
+and the exact-head check are required. Unmatched events stay unresolved;
+`tour_name`, `verification_status`, Ticketmaster and other providers stay
+untouched. It stops at a human-reviewed PR. It holds no merge call at
 all, so it is not a writer this index governs — the human who merges its pull
 request is. Widening it into an auto-merge path is Stage 4 in
 [BACKLOG.md](BACKLOG.md), which is unbuilt and needs owner approval and a row in

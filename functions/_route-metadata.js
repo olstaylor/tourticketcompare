@@ -194,6 +194,25 @@ export function yearRangeLabel(years) {
 }
 
 /**
+ * The one tour name an artist's upcoming dates share, or "" when there is no
+ * single answer. A name counts only when it is the sole distinct non-empty
+ * `tour_name` on the board and covers at least half of the upcoming dates, so
+ * a title never names a tour most of the listed dates are not part of, and a
+ * board mixing two tours names neither. Never inferred: `tour_name` is blank
+ * unless a verified source set it.
+ *
+ * @param {Array<string|null|undefined>} tourNames One entry per upcoming date.
+ * @returns {string}
+ */
+export function artistTourLabel(tourNames) {
+  const names = (Array.isArray(tourNames) ? tourNames : []).map((name) => String(name ?? "").trim());
+  const named = names.filter(Boolean);
+  const distinct = [...new Set(named)];
+  if (distinct.length !== 1 || named.length * 2 < names.length) return "";
+  return distinct[0];
+}
+
+/**
  * The artist page <title>. Tour searches usually carry the year ("bts tour
  * 2027"), so an artist with upcoming dates gets the year(s) of those dates in
  * the title. The label comes only from dates on the board, so the title never
@@ -205,15 +224,24 @@ export function yearRangeLabel(years) {
  * "<artist> tickets <year>", and comparing checked ticket sites per date is
  * the page's job. The tail is shed before the year or the name is.
  *
+ * When the upcoming dates carry one verified tour name (see artistTourLabel),
+ * the tail names that tour instead — "<Artist> Tickets <year> | <Tour> Dates"
+ * — so the page also answers "<artist> tour <year>" and "<tour> tickets".
+ * Search Console (2026-10) showed the big-artist pages ranking only for the
+ * bare "<artist> tickets" query, where the sellers own page one. The tour
+ * name is printed exactly as the event records carry it; "Tour" is appended
+ * only when the name does not already contain the word.
+ *
  * Only the house templates in catalog.json are rewritten; a hand-written
  * `seo_title` is left exactly as authored. No upcoming dates, no year, and no
  * "Compare Prices" promise over an empty board: the authored title stands.
  *
  * @param {{ name?: string, seo_title?: string }} artist
  * @param {string} yearLabel From yearRangeLabel over the board's shows.
+ * @param {string} [tourLabel] From artistTourLabel over the same shows.
  * @returns {string}
  */
-export function artistPageTitle(artist, yearLabel) {
+export function artistPageTitle(artist, yearLabel, tourLabel = "") {
   const name = String(artist?.name ?? "").trim();
   const authored = String(artist?.seo_title ?? "").trim() || `${name} Tickets | Options & Availability`;
   const houseTemplates = [
@@ -223,7 +251,15 @@ export function artistPageTitle(artist, yearLabel) {
     `${name} Tickets | Options & Availability`
   ];
   if (!name || !yearLabel || !houseTemplates.includes(authored)) return authored;
+  const tour = String(tourLabel ?? "").trim();
+  const tourPhrase = tour ? (/\btour\b/i.test(tour) ? tour : `${tour} Tour`) : "";
   return fitTitleToBudget([
+    ...(tourPhrase
+      ? [
+          `${name} Tickets ${yearLabel} | ${tourPhrase} Dates`,
+          `${name} ${tourPhrase.replace(/^the\s+/i, "")} Tickets ${yearLabel}`
+        ]
+      : []),
     `${name} Tickets ${yearLabel} | Compare Prices & Tour Dates`,
     `${name} Tickets ${yearLabel} | Compare Prices & Dates`,
     `${name} Tickets ${yearLabel} | Compare Prices`,
@@ -341,7 +377,7 @@ export const TRUST_ROUTES = {
       "How TourTicketCompare handles analytics, watchlist signups, and information when you browse or follow a ticket link.",
     indexable: true,
     breadcrumb: [{ name: "Privacy policy", path: "/privacy" }],
-    lastmod: "2026-10-01"
+    lastmod: "2026-10-02"
   },
   "/terms": {
     title: "Terms of Use | TourTicketCompare",

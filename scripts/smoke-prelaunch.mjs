@@ -1176,14 +1176,15 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   const actualTitle = extractTitle(text);
   // An artist title carries the venue-local year(s) of its upcoming dates when
   // it has any (see artistPageTitle in functions/_route-metadata.js).
+  const artistUpcoming = artist
+    ? events.filter((ev) => normalizeSlug(ev?.artist_slug) === normalizeSlug(artist.slug) && Date.parse(ev?.datetime_iso) >= Date.now())
+    : [];
   const artistYearLabel = artist
-    ? routeMetadataModule.yearRangeLabel(
-        events
-          .filter((ev) => normalizeSlug(ev?.artist_slug) === normalizeSlug(artist.slug) && Date.parse(ev?.datetime_iso) >= Date.now())
-          .map((ev) => routeMetadataModule.eventLocalYear(ev.datetime_iso, ev.timezone))
-      )
+    ? routeMetadataModule.yearRangeLabel(artistUpcoming.map((ev) => routeMetadataModule.eventLocalYear(ev.datetime_iso, ev.timezone)))
     : "";
-  const expectedT = expectedTitle.get(pathname) || (artist ? routeMetadataModule.artistPageTitle(artist, artistYearLabel) : undefined);
+  const artistTour = artist ? routeMetadataModule.artistTourLabel(artistUpcoming.map((ev) => ev.tour_name)) : "";
+  const expectedT =
+    expectedTitle.get(pathname) || (artist ? routeMetadataModule.artistPageTitle(artist, artistYearLabel, artistTour) : undefined);
   assert(actualTitle === expectedT, `${pathname} title should be "${expectedT}", got "${actualTitle}"`);
 
   if (functionBackedStaticRoutes.includes(pathname)) {
@@ -1931,7 +1932,7 @@ const lightweightGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster")
 assert(lightweightGuide.text.includes(`/shell.js?v=${SHELL_SCRIPT_ASSET_VERSION}`), "guide routes must load the shared shell");
 assert(!lightweightGuide.text.includes("/app.js?v="), "guide routes must not load the universal app bundle");
 assert(!lightweightGuide.text.includes("/ttc-home.css?v="), "guide routes must not download homepage presentation CSS");
-assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20261002a"), "artist routes must load only the artist-board route module");
+assert(serverMorganWithSeatGeek.text.includes("/artist-board.js?v=20261002m"), "artist routes must load only the artist-board route module");
 assert(!serverMorganWithSeatGeek.text.includes("/app.js?v="), "artist routes must not load the universal app bundle");
 const converterAssets = await routeResponse("/currency-converter");
 assert(converterAssets.text.includes("/currency-converter.js?v=20260821a"), "currency converter must load its route module");

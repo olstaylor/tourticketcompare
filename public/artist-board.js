@@ -170,6 +170,17 @@
     more.type = "button";
     more.className = "button button-secondary show-board-more";
     more.hidden = true;
+    // A search that matches nothing used to leave only "Showing 0 of N" above
+    // an empty space. Say so in the board itself, with a way back.
+    var empty = document.createElement("div");
+    empty.className = "show-board-empty";
+    empty.hidden = true;
+    var emptyText = document.createElement("p");
+    var emptyReset = document.createElement("button");
+    emptyReset.type = "button";
+    emptyReset.className = "button button-secondary";
+    emptyReset.textContent = "Show all dates";
+    empty.append(emptyText, emptyReset);
 
     function refreshCityOptions(preferred) {
       if (!city) {
@@ -238,6 +249,10 @@
       count.textContent = "Showing " + shown.length + " of " + entries.length + " listed dates";
       more.hidden = !capped;
       more.textContent = "Show all " + visible.length + " dates";
+      empty.hidden = visible.length > 0;
+      emptyText.textContent = state.query
+        ? "No listed dates match \u201c" + state.query + "\u201d. Try a city or venue name, or clear the search."
+        : "No listed dates match these filters.";
       updateUrl();
     }
     function expandTo(anchorId) {
@@ -281,6 +296,10 @@
     if (city) city.addEventListener("change", function () { state.city = city.value; apply(); });
     if (sort) sort.addEventListener("change", function () { state.sort = sort.value || "soonest"; apply(); });
     reset.addEventListener("click", resetAll);
+    emptyReset.addEventListener("click", function () {
+      resetAll();
+      query.focus();
+    });
     share.addEventListener("click", function () {
       updateUrl();
       copy(window.location.href).then(function () {
@@ -303,6 +322,7 @@
     var last = grouped ? groups[groups.length - 1] || grid : grid;
     first.before(bar, count);
     last.after(more);
+    more.after(empty);
     // A deep link to a date beyond the first BOARD_LIMIT keeps the board open.
     var initialTarget = window.location.hash ? document.getElementById(decodeURIComponent(window.location.hash.slice(1))) : null;
     if (initialTarget && section.contains(initialTarget)) {

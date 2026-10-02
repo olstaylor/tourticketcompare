@@ -1,5 +1,5 @@
 import { TRUST_ROUTES, GUIDE_ROUTES, canonicalOrigin } from "./_route-metadata.js";
-import { deriveCities } from "./_cities.js";
+import { deriveCities, citySlug } from "./_cities.js";
 import { deriveVenues } from "./_venues.js";
 import { deriveIndexableArtistCities } from "./_artist-cities.js";
 import { derivePosts as deriveBlogPosts, postIndexable as blogPostIndexable } from "./_blog.js";
@@ -153,8 +153,13 @@ export function artistFactsBySlug(events, now = Date.now()) {
   const facts = new Map();
   for (const [slug, rows] of grouped) {
     rows.sort((a, b) => a.showMs - b.showMs);
-    const cities = new Set(rows.map(({ event }) => String(event.city || "").trim().toLowerCase()).filter(Boolean));
-    const localDates = rows.map(({ event }) => resolveEventLocalDate(event).iso).filter(Boolean);
+    // Country-qualified, as the city pages are: Birmingham UK and Birmingham
+    // US are two cities.
+    const cities = new Set(rows.filter(({ event }) => String(event.city || "").trim()).map(({ event }) => citySlug(event.city, event.country)));
+    // A range is printed only when every counted date resolves to a venue-local
+    // day; otherwise an unresolved first or last show would shorten it.
+    const localDates = rows.map(({ event }) => resolveEventLocalDate(event).iso);
+    const allDatesResolved = localDates.every(Boolean);
     const tours = [...new Set(rows.map(({ event }) => String(event.tour_name || "").trim()).filter(Boolean))];
     const nextOnsaleMs = rows
       .map(({ event }) => Date.parse(String(event.public_onsale_at || "").trim()))
@@ -163,8 +168,8 @@ export function artistFactsBySlug(events, now = Date.now()) {
     facts.set(slug, {
       showCount: rows.length,
       cityCount: cities.size,
-      firstDate: localDates[0] || "",
-      lastDate: localDates[localDates.length - 1] || "",
+      firstDate: allDatesResolved ? localDates[0] : "",
+      lastDate: allDatesResolved ? localDates[localDates.length - 1] : "",
       tours: tours.slice(0, MAX_TOUR_NAMES),
       moreTours: Math.max(0, tours.length - MAX_TOUR_NAMES),
       nextOnsale: Number.isFinite(nextOnsaleMs) ? new Date(nextOnsaleMs).toISOString().slice(0, 16).replace("T", " ") : ""

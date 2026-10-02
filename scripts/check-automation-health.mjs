@@ -108,7 +108,7 @@ const ROLLING_ISSUE_LABEL = "automation:health";
 export const WATCHED_LANES = [
   { file: "daily-audit.yml", name: "Daily data audit", cadence: "daily 03:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
   { file: "nightly-data-sync.yml", name: "Nightly data sync", cadence: "daily 03:30", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
-  { file: "tm-new-shows-pr.yml", name: "Ticketmaster new shows PR", cadence: "daily 04:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
+  { file: "tm-new-shows-pr.yml", name: "Ticketmaster new shows PR", cadence: "daily 02:40", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
   { file: "seatgeek-cta-sync.yml", name: "SeatGeek CTA sync", cadence: "daily 05:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
   { file: "vividseats-cta-sync.yml", name: "Vivid Seats CTA sync", cadence: "daily 05:30", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },
   { file: "impact-marketplace-provider-sync.yml", name: "Impact marketplace provider sync", cadence: "daily 06:00/06:30/07:00", maxAgeHours: 30, eventDriven: true, failuresBeforeIncident: 1, sharesMainGate: true },

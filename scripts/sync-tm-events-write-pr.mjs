@@ -243,6 +243,22 @@ function partitionReport(report, namesBySlug) {
   return { proposedRows, withheld, skippedArtists, usedArtists, proposedIdByKey };
 }
 
+// A run is an outage, not a quiet day, when at least this share of the artists
+// it was meant to check could not be looked up. On 2026-10-01 and 2026-10-02
+// every artist came back HTTP 429 (the shared Discovery quota was already
+// spent by the per-event sweeps), the run found nothing, and it still went
+// green, so no sensor said that new tours had stopped reaching the site. One
+// artist failing on a blip stays green; a quarter of the roster does not.
+const LOOKUP_OUTAGE_SHARE = 0.25;
+
+// Pure. Counts the eligible artists whose live lookup failed against those it
+// was meant to check (checked + failed; ineligible artists are not counted).
+function lookupOutage({ skippedArtists, usedArtists }, share = LOOKUP_OUTAGE_SHARE) {
+  const failed = skippedArtists.filter((s) => s.reason.startsWith("live lookup ")).length;
+  const attempted = usedArtists.length + failed;
+  return { failed, attempted, outage: failed > 0 && failed >= attempted * share };
+}
+
 // report.json the apply-artists.mjs write path expects: mode must be "dry-run"
 // and every processed slug needs a confidence. The recogniser only proposes a
 // row when the registry's verified attraction is the event's PRIMARY
@@ -576,6 +592,20 @@ function selfTest() {
   assert("coverage totals count skipped artists", coverage.totals.skipped === 2);
   assert("coverage pr is null until a PR is opened", coverage.pr === null);
 
+  const outageOf = (failed, ok) => lookupOutage({
+    skippedArtists: [
+      ...Array.from({ length: failed }, (_, i) => ({ slug: `f${i}`, reason: "live lookup failed (HTTP 429) — refusing to write from an incomplete fetch" })),
+      { slug: "ineligible", reason: "not eligible: sync_enabled is false" },
+    ],
+    usedArtists: Array.from({ length: ok }, (_, i) => ({ slug: `ok${i}`, proposed: 0 })),
+  });
+  assert("every lookup failing is an outage", outageOf(93, 0).outage === true);
+  assert("a quarter of the roster failing is an outage", outageOf(25, 75).outage === true);
+  assert("one artist failing on a blip is not an outage", outageOf(1, 92).outage === false);
+  assert("a clean run is not an outage", outageOf(0, 93).outage === false);
+  assert("ineligible artists are not counted as attempted", outageOf(1, 3).attempted === 4);
+  assert("the sample report (1 failed, 1 checked) counts as an outage", lookupOutage(part).outage === true);
+
   let failed = 0;
   for (const c of checks) {
     if (!c.pass) failed += 1;
@@ -620,6 +650,15 @@ async function main() {
 
   console.log(`Recognised report: ${proposedRows.length} proposed row(s), ${withheld.length} withheld, ${skippedArtists.length} artist(s) skipped.`);
   for (const s of skippedArtists) console.log(`  skipped ${s.slug}: ${s.reason}`);
+
+  // Whatever the checked artists found is still published below; the run then
+  // ends red (see the exit at the bottom of this file) so automation-health
+  // and the Actions tab show that the rest of the roster went unchecked.
+  const outage = lookupOutage({ skippedArtists, usedArtists });
+  if (outage.outage) {
+    lookupOutageExit = 1;
+    console.log(`::error title=Ticketmaster lookups failed::${outage.failed} of ${outage.attempted} artists could not be checked, so their new shows were not looked for. See the skip reasons above.`);
+  }
 
   const today = new Date().toISOString().slice(0, 10);
   const outDir = path.resolve(REPO_ROOT, options.outDir || path.join("artifacts", "tm-events", today));
@@ -870,8 +909,12 @@ async function main() {
   return 0;
 }
 
+// Set by main() when the roster lookup was an outage. Applied only to an
+// otherwise clean exit, so a held or failed merge keeps its own exit code.
+let lookupOutageExit = 0;
+
 main()
-  .then((code) => process.exit(code))
+  .then((code) => process.exit(code === 0 ? lookupOutageExit : code))
   .catch((error) => {
     console.error(`ERROR: ${error.message || error}`);
     process.exit(1);

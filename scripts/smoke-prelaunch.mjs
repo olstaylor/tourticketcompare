@@ -3824,7 +3824,7 @@ assert(
 );
 assert(!beyonceEmptyStatePage.text.includes("Data checked:"), "empty artist pages should omit last-checked claims");
 assert(
-  manyBoard.html.includes("no separate human editorial review date"),
+  manyBoard.html.includes("by an automated check rather than a human review"),
   "the provenance block should distinguish automated checks from human review"
 );
 // The event-record date range (derived from mixed-semantics event
@@ -3863,7 +3863,7 @@ assert(!beyonceEmptyStatePage.text.includes("event records"), "empty-board artis
 // Artist-level provider buttons land on the artist's page, not on one date, so
 // neither the provenance block nor the shared help may claim otherwise.
 assert(
-  manyBoard.html.includes("every button on a date card resolves to that exact event"),
+  manyBoard.html.includes("every button on a date card opens that exact event"),
   "the provenance block should scope the exact-event claim to date-card buttons"
 );
 assert(
@@ -3871,7 +3871,7 @@ assert(
   "the provenance block must not claim artist-level buttons resolve to a specific date"
 );
 assert(
-  manyBoard.html.includes("they open the artist&#39;s page on a ticket site, not a specific date"),
+  manyBoard.html.includes("open the artist&#39;s page on each ticket site, not a specific date"),
   "the shared help should describe where artist-level provider buttons land"
 );
 

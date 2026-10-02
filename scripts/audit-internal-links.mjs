@@ -372,7 +372,6 @@ for (const entry of artistCityEntries) {
   const requiredCopy = [
     "Tickets in",
     "At a glance:",
-    "Short answer:",
     `href="/artists/${entry.artistSlug}"`
   ];
   for (const marker of requiredCopy) {

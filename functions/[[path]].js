@@ -1931,9 +1931,11 @@ function artistTileMeta(catalog, artist, events, now = Date.now()) {
   const status = artistCardStatus(catalog, artist, events, now);
   if (status.pending) return { status, meta: status.badge };
   if (status.dateless) return { status, meta: "No dates listed yet" };
-  const shows = futureShowsForArtist(events, artist.slug, 500).filter(
-    (show) => show.publishable && safeShowTicketUrl(show.ticketmaster_url)
-  );
+  const upcoming = futureShowsForArtist(events, artist.slug, 500);
+  const linked = upcoming.filter((show) => show.publishable && safeShowTicketUrl(show.ticketmaster_url));
+  // A board whose dates are all announced but not yet on sale still has dates
+  // to count; without this fallback the tile read a bare "Dates listed".
+  const shows = linked.length ? linked : upcoming.filter((show) => !eventLifecycleHeld(show));
   // "Sep 25" this year, "Feb 10, 2027" beyond it: keeps each row to one line.
   const thisYear = `, ${new Date(now).getUTCFullYear()}`;
   const nextFull = shows.length ? formatCardDate(shows[0].dateTimeISO, shows[0].timezone) : null;
@@ -2255,8 +2257,10 @@ function cityForVenue(events, venue) {
   ) || null;
 }
 
+// The country goes through the same alias map as city pages, so a venue whose
+// source records say "Great Britain" reads "United Kingdom" like its city page.
 function venueLocationLabel(venue) {
-  return [venue.city, venue.country].filter((part) => String(part || "").trim()).join(", ");
+  return [venue.city, venue.country ? normalizeCountry(venue.country) : ""].filter((part) => String(part || "").trim()).join(", ");
 }
 
 function venueShowCountLabel(count) {
@@ -2370,10 +2374,13 @@ function renderArtistTourSummariesHtml(tours, artist) {
       const end = formatShowDateServer(tour.endISO, tour.endTimezone);
       const range = start && end && start !== end ? `${start} – ${end}` : start || end || "";
       const showLabel = `${tour.showCount} upcoming ${tour.showCount === 1 ? "date" : "dates"}`;
-      const cityLabel = tour.cityCount
-        ? ` across ${tour.cityCount} ${tour.cityCount === 1 ? "city" : "cities"}`
-        : "";
-      const citiesLine = tour.sampleCities.length
+      const singleCity = tour.cityCount === 1 && tour.sampleCities.length === 1;
+      const cityLabel = singleCity
+        ? ` in ${tour.sampleCities[0]}`
+        : tour.cityCount
+          ? ` across ${tour.cityCount} cities`
+          : "";
+      const citiesLine = !singleCity && tour.sampleCities.length
         ? `<p class="muted">Cities include ${escapeHtml(tour.sampleCities.join(", "))}${
             tour.cityCount > tour.sampleCities.length ? ", and more" : ""
           }.</p>`
@@ -2385,7 +2392,7 @@ function renderArtistTourSummariesHtml(tours, artist) {
     .join("");
   return `<section class="nested-panel"><h2>${escapeHtml(
     artist.name
-  )} tours and dates</h2><p>The runs behind the dates listed above. Pick a date up there to get to the ticket links for it.</p><div class="card-grid">${cards}</div></section>`;
+  )} tours and dates</h2><p>Ticket links are on each date above.</p><div class="card-grid">${cards}</div></section>`;
 }
 
 // The artist page's board + derived content, computed once per request. The
@@ -2448,8 +2455,14 @@ function collapsedGroupHtml(summary, html) {
   return `<details class="page-more"><summary>${escapeHtml(summary)}</summary><div class="page-more__body">${html}</div></details>`;
 }
 
-function renderArtistTicketHelpHtml(help) {
-  const points = help.points.map((point) => `<li>${escapeHtml(point)}</li>`).join("");
+// `withArtistPanel` false drops the point about the "Where to buy" buttons, for
+// pages (artist-city) that render the date board without that panel: the help
+// must not describe furniture the page does not have.
+function renderArtistTicketHelpHtml(help, { withArtistPanel = true } = {}) {
+  const points = help.points
+    .filter((point) => withArtistPanel || !/Where to buy/.test(point))
+    .map((point) => `<li>${escapeHtml(point)}</li>`)
+    .join("");
   return `<section class="nested-panel artist-ticket-help" data-artist-ticket-help><h2>How prices and links work here</h2><p>${escapeHtml(
     help.intro
   )}</p><ul class="check-list">${points}</ul></section>`;
@@ -2507,7 +2520,7 @@ function renderArtistTicketCitiesHtml(events, artist, lowestByShowId = new Map()
   const singles = cities.filter((city) => !city.indexable);
 
   const runsHtml = runs.length
-    ? `<p>Multi-date runs — the dates, venues, and ticket links for each city:</p><ul class="guide-link-list">${runs
+    ? `<p>Cities with more than one date:</p><ul class="guide-link-list">${runs
         .slice(0, 40)
         .map(
           (city) =>
@@ -2542,17 +2555,16 @@ function renderArtistLocationLinksHtml(events, artist, lowestByShowId) {
   const groups = [
     {
       heading: "Dates by city",
-      note: "Straight to one city's dates, venues, and ticket links.",
       html: renderArtistTicketCitiesHtml(events, artist, lowestByShowId)
     },
     {
       heading: "Cities on this run",
-      note: `Who else is playing the cities ${artist.name} is visiting.`,
+      note: `Every tracked concert in each city, not only ${artist.name}'s.`,
       items: renderArtistCitiesHtml(events, artist)
     },
     {
       heading: "Venues on this run",
-      note: `What else is on at the venues ${artist.name} is playing.`,
+      note: `Every tracked concert at each venue, not only ${artist.name}'s.`,
       items: renderArtistVenuesHtml(events, artist)
     }
   ].filter((group) => group.html || group.items);
@@ -2560,9 +2572,9 @@ function renderArtistLocationLinksHtml(events, artist, lowestByShowId) {
   const blocks = groups
     .map(
       (group) =>
-        `<div class="artist-location-group"><h3>${escapeHtml(group.heading)}</h3><p class="muted">${escapeHtml(
-          group.note
-        )}</p>${group.html || `<ul class="guide-link-list">${group.items}</ul>`}</div>`
+        `<div class="artist-location-group"><h3>${escapeHtml(group.heading)}</h3>${
+          group.note ? `<p class="muted">${escapeHtml(group.note)}</p>` : ""
+        }${group.html || `<ul class="guide-link-list">${group.items}</ul>`}</div>`
     )
     .join("");
   return `<section class="nested-panel artist-location-links"><h2>Where these dates are</h2>${blocks}</section>`;
@@ -2709,6 +2721,11 @@ function artistCityIntroSentence(artist, artistCity, { datesTabled = false } = {
 // location-page FAQ — the city and venue templates carry none, because theirs
 // only restated the counts and schedule already visible on the page (see
 // docs/ROUTE_INDEXABILITY_POLICY.md § Shared content rules for location pages).
+function joinVenueList(items) {
+  if (items.length <= 2) return items.join(" and ");
+  return `${items.slice(0, -1).join(", ")} and ${items[items.length - 1]}`;
+}
+
 function artistCityFaqEntries(artist, artistCity) {
   const next = artistCity.shows[0];
   const venues = artistCity.venues || [];
@@ -2718,25 +2735,29 @@ function artistCityFaqEntries(artist, artistCity) {
       `How many ${artist.name} concerts are coming up in ${artistCity.city}?`,
       `TourTicketCompare currently tracks ${cityShowCountLabel(artistCity.showCount)} for ${artist.name} in ${artistCity.city}, ${artistCity.country}${
         range ? ` (${range})` : ""
-      }. Coverage changes automatically as reviewed dates pass or new dates are verified.`
+      }. New dates are added as they are confirmed, and past ones drop off.`
     ],
     [
       `Where does ${artist.name} play in ${artistCity.city}?`,
       venues.length
-        ? `The tracked ${artistCity.city} ${venues.length === 1 ? "date is" : "dates are"} at ${venues.join(", ")}. This is selective reviewed coverage, not a full local calendar.`
+        ? artistCity.showCount === 1
+          ? `The ${artistCity.city} date is at ${venues.join(", ")}.`
+          : venues.length === 1
+            ? `All ${artistCity.showCount} ${artistCity.city} dates are at ${venues[0]}.`
+            : `The ${artistCity.city} dates are at ${joinVenueList(venues)}.`
         : `Venue details appear on each date once verified by the source.`
     ],
     [
       `What is the next ${artist.name} date in ${artistCity.city}?`,
       next
-        ? `The next currently tracked date is ${formatShowDateServer(next.datetime_iso, next.timezone)} at ${next.venue}. Confirm the schedule and ticket details with the provider before travelling, because they can change.`
+        ? `${formatShowDateServer(next.datetime_iso, next.timezone)} at ${next.venue}. Start times can change, so check the ticket site before you travel.`
         : "No upcoming reviewed date is currently available."
     ],
     [
       `How current is this ${artist.name} ${artistCity.city} page?`,
       artistCity.lastmod
-        ? `The most recently checked event record on this page was verified ${formatVerificationDate(artistCity.lastmod)}. Individual dates can have different verification dates, and expired dates are removed automatically.`
-        : "Each date is tied to a reviewed event record, and expired dates are removed automatically."
+        ? `The dates were last checked ${formatVerificationDate(artistCity.lastmod)}, and past dates come off the page automatically.`
+        : "Past dates come off the page automatically."
     ]
   ];
   return entries;
@@ -3196,12 +3217,13 @@ function artistCityShowIdSet(artistCity) {
 // — so the grid is dropped and that one fact is folded into the short answer
 // rather than left as a lone card in a three-column grid.
 //
-// The heading and the "Short answer:" lead-in are load-bearing in both
-// variants: scripts/audit-internal-links.mjs requires both on every
-// artist-city page, so this compresses the panel and never removes it. (The
+// The heading is load-bearing in both variants: scripts/audit-internal-links.mjs
+// requires it on every artist-city page, so this compresses the panel and never
+// removes it. (The "Short answer:" lead-in it used to require was dropped
+// 2026-10-02 in the page-quality pass: a label announcing an answer is filler.) The
 // audits build their offline env with no DEMAND_DB binding, so they only ever
 // render the unabridged variant; the compressed one is covered by
-// scripts/artist-city-prices.test.mjs.)
+// scripts/artist-city-prices.test.mjs.
 function renderArtistCityAnswerSummary(artist, artistCity, { datesTabled = false } = {}) {
   const checked = formatVerificationDate(artistCity.lastmod);
   const runNote = artistCity.multiNightSameVenue
@@ -3215,19 +3237,19 @@ function renderArtistCityAnswerSummary(artist, artistCity, { datesTabled = false
   // captured. The clarifier is only meaningful beside a price table.
   const recency = checked
     ? datesTabled
-      ? `The most recent event record on this page was checked ${checked} — that is when the event itself was last verified, not when a price was captured; each figure above carries its own capture time.`
-      : `The most recent event record on this page was checked ${checked}.`
-    : `Each date carries its own verification record.`;
+      ? `Dates last checked ${checked}. Each price above shows its own capture time.`
+      : `Dates last checked ${checked}.`
+    : "";
   // One summary, below the dates (2026-09-25, owner request). It replaced a
   // lead paragraph and a disclosure paragraph above the dates plus a deck of
   // "Next tracked date" / "Tracked date range" / "Venues" / "Verification
   // recency" cards, which between them stated the count, venue and range twice
   // and put the first date a screen and a half down on a phone. The first card
   // on the board is the next date; this sentence states the rest once.
-  return `<section class="nested-panel artist-city-summary" aria-labelledby="artistCityAnswerTitle">${heading}<p><strong>Short answer:</strong> ${escapeHtml(
+  return `<section class="nested-panel artist-city-summary" aria-labelledby="artistCityAnswerTitle">${heading}<p class="artist-city-summary__lead">${escapeHtml(
     artistCityIntroSentence(artist, artistCity, { datesTabled })
   )}${escapeHtml(runNote)}</p><p class="disclosure-note">${escapeHtml(
-    `${recency} This is a selective list of reviewed dates, not a complete local calendar.`
+    `${recency ? `${recency} ` : ""}These are selected dates, not a full local concert calendar.`
   )}</p></section>`;
 }
 
@@ -3261,7 +3283,7 @@ function renderArtistCityRelatedLinks(artist, artistCity, otherCities, cityIndex
     parts.push(
       `<section class="nested-panel"><h2>Other cities on the ${escapeHtml(
         artist.name
-      )} run</h2><p>See ${escapeHtml(artist.name)} dates and checked ticket options in other cities:</p><ul class="guide-link-list">${items}</ul></section>`
+      )} run</h2><ul class="guide-link-list">${items}</ul></section>`
     );
   }
   return parts.join("");
@@ -3403,7 +3425,7 @@ export function renderCityPageBody(route, events = [], options = {}) {
       "Tips for buying and more cities",
       `<section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
         city.city
-      )} concert</h2><p>Use the ticket button on the selected date above when available to reach its checked ticket links. Open the artist page for additional date details; any recorded prices apply to that exact show. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
+      )} concert</h2><p>Each date's buttons open that exact show on the ticket site, and the artist link on a card leads to all of that artist's dates. A price shown applies to that one show at the time stated. Check the final total, fees and delivery terms on the ticket site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
         "All cities",
         "/cities",
         "button button-secondary"
@@ -3454,7 +3476,7 @@ export function renderVenuePageBody(route, events = [], options = {}) {
       "Tips for buying and more venues",
       `<section class="nested-panel"><h2>Getting tickets at ${escapeHtml(
         venue.venue
-      )}</h2><p>Use the ticket button on the date you want, or open that show's artist page for the full event view. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${
+      )}</h2><p>Each date's buttons open that exact show on the ticket site. A price shown applies to that one show at the time stated. Check the final total, fees and delivery terms on the ticket site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${
         cityPage ? anchor(`More concerts in ${cityPage.city}`, `/cities/${cityPage.slug}`, "button button-secondary") : ""
       }${anchor("All venues", "/venues", "button button-secondary")}</div></section>`
     )}`
@@ -4118,7 +4140,7 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
     .map((item) => {
       const provider = slugify(item.provider);
       const displayName = PROVIDER_DISPLAY_NAMES[provider] || item.provider;
-      const label = "Check provider";
+      const label = `All ${artist.name} tickets on ${displayName}`;
       const destination = withCtaLocation(artistProviderHref(artist, item, surface), "artist_provider_panel");
       const verificationNote = providerVerificationNote(item);
       return `<article class="provider-card"><p class="eyebrow">Artist page</p><h3>${escapeHtml(displayName)}</h3>${anchor(
@@ -4168,15 +4190,15 @@ function renderVerificationDisclosure(artist, hasShows = true) {
   // printing it would be a freshness claim attached to nothing.
   const artistVerifiedDate = hasShows ? formatVerificationDate(artist.last_verified_at) : null;
   const checkedLine = artistVerifiedDate
-    ? `<p><strong>Data checked:</strong> artist links ${escapeHtml(
+    ? `<p><strong>Data checked:</strong> artist links last confirmed ${escapeHtml(
         artistVerifiedDate
-      )}. That's the most recent date the automated link checks recorded against this page's records; the checks themselves run daily. This page has no separate human editorial review date, so none is printed.</p>`
+      )}, by an automated check rather than a human review.</p>`
     : "";
   const verificationLines = hasShows
-    ? `<p><strong>What's verified:</strong> that each date comes from a source record with a date, venue and city, and that every button on a date card resolves to that exact event on that provider's site. Where a link fails those checks, the date stays listed with no button. The artist-level buttons under &ldquo;Where to buy&rdquo; are checked too, but they land on the artist's page on a ticket site rather than on one date.</p><p><strong>What isn't verified:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. Those belong to the provider and are settled at their checkout. A price shown here is one site's listed snapshot at the time stamped beside it, not a quote.</p>`
+    ? `<p><strong>What's verified:</strong> every date comes from a source listing with a date, venue and city, and every button on a date card opens that exact event on the ticket site. A date that fails stays listed without a button. The &ldquo;Where to buy&rdquo; buttons are checked too, but open the artist's page rather than one date.</p><p><strong>What isn't verified:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. The ticket site settles those at checkout. A price here is one site's listed price at the time shown, not a quote.</p>`
     : `<p><strong>What's verified:</strong> there are no confirmed upcoming ${escapeHtml(
         artist.name
-      )} dates, so this page lists none. A date goes up only with a date, venue and city from the source, and a ticket button appears only once its link resolves to that exact event.</p>`;
+      )} dates, so none are listed. A date goes up only with a date, venue and city from the source, and a ticket button only once its link opens that exact event.</p>`;
   return `<section class="nested-panel verification-disclosure" data-artist-trust aria-labelledby="artistProvenance"><h2 id="artistProvenance">How this page is checked</h2><p>${siteBylineHtml()}. TourTicketCompare is independent and unofficial, and is not affiliated with ${escapeHtml(
     artist.name
   )}, any promoter, or any ticket site.</p>${checkedLine}${verificationLines}<p class="disclosure-note">Some outbound links earn TourTicketCompare a commission — see the ${anchor(
@@ -6023,7 +6045,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       eventPageLinker(route.events || events, [artist])
     )}${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
       "How prices and links work, and useful links",
-      `${renderArtistTicketHelpHtml(artistTicketHelp())}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
+      `${renderArtistTicketHelpHtml(artistTicketHelp(), { withArtistPanel: false })}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       `All ${artist.name} tickets and dates`,
       `/artists/${artist.slug}`,
       "mini-link"
@@ -6032,11 +6054,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "/guides/how-to-compare-concert-ticket-prices",
       "mini-link"
     )}${anchor("Concert ticket fees explained", "/guides/concert-ticket-fees-explained", "mini-link")}</div></section>`
-    )}<div class="action-row">${anchor(
-      `All ${artist.name} tickets`,
-      `/artists/${artist.slug}`,
-      "button button-primary"
-    )}${anchor("Compare concert ticket prices", "/compare-concert-ticket-prices", "button button-secondary")}</div>${faqHtml}</section></main>`;
+    )}${faqHtml}</section></main>`;
   }
 
   if (route.type === "guide") {

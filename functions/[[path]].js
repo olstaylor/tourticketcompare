@@ -3611,6 +3611,57 @@ function renderArtistStatusLegendHtml() {
     .join("")}</div>`;
 }
 
+// Homepage "Going on sale soon" (2026-10-02, owner request): the next few
+// artists with a public on-sale ahead, from the same derivation as /on-sale, so
+// an on-sale day is visible where visitors land rather than one link deep.
+const HOMEPAGE_ONSALE_ARTISTS = 4;
+
+function homepageOnsaleWhen(entry) {
+  try {
+    return new Date(entry.onsaleMs).toLocaleString("en-US", {
+      weekday: "short",
+      month: "short",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      timeZone: entry.timezone || "UTC",
+      timeZoneName: "short"
+    });
+  } catch (error) {
+    return `${new Date(entry.onsaleMs).toISOString().slice(0, 16).replace("T", " ")} UTC`;
+  }
+}
+
+function renderHomepageOnsaleStrip(events, now = Date.now()) {
+  const calendar = deriveOnsaleCalendar(events, now);
+  const seen = new Set();
+  const rows = [];
+  for (const day of calendar.upcoming) {
+    for (const artist of day.artists) {
+      if (seen.has(artist.artistSlug) || rows.length >= HOMEPAGE_ONSALE_ARTISTS) continue;
+      seen.add(artist.artistSlug);
+      rows.push(artist);
+    }
+  }
+  if (!rows.length) return "";
+  const items = rows
+    .map((artist) => {
+      const first = artist.shows[0];
+      const count = artist.shows.length;
+      return `<li><a class="home-artist" href="/artists/${escapeAttr(slugify(artist.artistSlug))}"><span class="home-artist__name">${escapeHtml(
+        artist.artistName
+      )}</span><span class="home-artist__meta">${escapeHtml(
+        `${count} ${count === 1 ? "date" : "dates"} · on sale ${homepageOnsaleWhen(first)}`
+      )}</span></a></li>`;
+    })
+    .join("");
+  return `<section class="home-onsale" aria-labelledby="homeOnsaleTitle"><div class="home-section__head"><h3 id="homeOnsaleTitle">Going on sale soon</h3>${anchor(
+    "Full on-sale calendar",
+    "/on-sale",
+    "text-link"
+  )}</div><ul class="home-artist-list">${items}</ul></section>`;
+}
+
 function renderHomepageGuideLinks() {
   const priorityPaths = [
     "/guides/vivid-seats-vs-ticketmaster",
@@ -4459,6 +4510,36 @@ function onsaleDayHeading(day) {
   return date.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
 }
 
+// A tour announcement can put 20+ dates on one day; listed in full, the page
+// ran to ~23,000px on a phone. Each artist shows its first ONSALE_VISIBLE_SHOWS
+// dates and folds the rest into a closed <details>, which works without JS and
+// keeps every date in the HTML.
+const ONSALE_VISIBLE_SHOWS = 3;
+
+function renderOnsaleShowItems(shows) {
+  return shows
+    .map(
+      (show) =>
+        `<li data-event-id="${escapeAttr(show.id)}"><strong>${escapeHtml(onsaleTimeLabel(show))}</strong> · ${escapeHtml(
+          [show.city, show.venue].filter(Boolean).join(" · ")
+        )}${show.datetimeIso ? escapeHtml(` · show ${formatShowDateServer(show.datetimeIso, show.timezone)}`) : ""}</li>`
+    )
+    .join("");
+}
+
+function renderOnsaleShowList(shows) {
+  // Fold only when it hides at least two dates; a "1 more" toggle saves nothing.
+  if (shows.length <= ONSALE_VISIBLE_SHOWS + 1) {
+    return `<ul class="venue-show-list onsale-shows">${renderOnsaleShowItems(shows)}</ul>`;
+  }
+  const rest = shows.slice(ONSALE_VISIBLE_SHOWS);
+  return `<ul class="venue-show-list onsale-shows">${renderOnsaleShowItems(
+    shows.slice(0, ONSALE_VISIBLE_SHOWS)
+  )}</ul><details class="onsale-more"><summary>${escapeHtml(
+    `Show ${rest.length} more ${rest.length === 1 ? "date" : "dates"}`
+  )}</summary><ul class="venue-show-list onsale-shows">${renderOnsaleShowItems(rest)}</ul></details>`;
+}
+
 function renderOnsaleDayGroups(groups) {
   return groups
     .map(
@@ -4470,14 +4551,7 @@ function renderOnsaleDayGroups(groups) {
             (artist) =>
               `<h4>${anchor(artist.artistName, `/artists/${slugify(artist.artistSlug)}`, "text-link")} <span class="muted">${escapeHtml(
                 `· ${artist.shows.length} ${artist.shows.length === 1 ? "date" : "dates"}`
-              )}</span></h4><ul class="venue-show-list onsale-shows">${artist.shows
-                .map(
-                  (show) =>
-                    `<li data-event-id="${escapeAttr(show.id)}"><strong>${escapeHtml(onsaleTimeLabel(show))}</strong> · ${escapeHtml(
-                      [show.city, show.venue].filter(Boolean).join(" · ")
-                    )}${show.datetimeIso ? escapeHtml(` · show ${formatShowDateServer(show.datetimeIso, show.timezone)}`) : ""}</li>`
-                )
-                .join("")}</ul>`
+              )}</span></h4>${renderOnsaleShowList(artist.shows)}`
           )
           .join("")}</section>`
     )
@@ -6433,7 +6507,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "All artists",
     HOME_PRIMARY_CTA_HREF,
     "text-link"
-  )}</div>${renderHomepageArtistLinks(catalog, events)}<p class="home-browse">Planning around a place? ${anchor(
+  )}</div>${renderHomepageArtistLinks(catalog, events)}${renderHomepageOnsaleStrip(events)}<p class="home-browse">Planning around a place? ${anchor(
     "Browse cities",
     "/cities",
     "text-link"

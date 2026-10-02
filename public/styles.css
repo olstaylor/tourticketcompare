@@ -2996,3 +2996,51 @@ summary {
   font-weight: 600;
   overflow-wrap: anywhere;
 }
+
+/* Homepage "Going on sale soon" block inside the artists section; its rows
+   reuse the homepage artist tiles. */
+.home-onsale {
+  margin-top: 22px;
+}
+
+.home-onsale .home-section__head h3 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+/* On-sale calendar: the dates folded under "Show N more dates". */
+.onsale-more {
+  margin: 4px 0 12px;
+}
+
+.onsale-more > summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  color: var(--accent-dark);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.onsale-more[open] > summary {
+  margin-bottom: 4px;
+}
+
+.onsale-day {
+  gap: 0;
+}
+
+.onsale-day > h4 {
+  margin: 18px 0 6px;
+}
+
+.onsale-day > h3 + h4 {
+  margin-top: 8px;
+}
+
+.onsale-day .onsale-shows {
+  margin: 0;
+}

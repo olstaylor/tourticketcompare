@@ -6821,9 +6821,37 @@ function renderNotFoundHtml(html, pathname, origin) {
   return next;
 }
 
+// Per-isolate counters for the Server-Timing header below: how many requests
+// this isolate has served and when it started, so a slow response can be told
+// apart as a cold isolate (first request, loading every data file) or a warm
+// one.
+const ISOLATE_STARTED_AT = Date.now();
+let isolateRequestCount = 0;
+
+// Server-Timing for an HTML render: where the wall-clock time before the first
+// byte went. Workers' clock only advances across I/O, so each stage reads as
+// time spent waiting on asset loads or D1, which is what moves time to first
+// byte. Visible in any browser's network panel, and to curl as a header.
+function renderTimer() {
+  const marks = [];
+  let last = Date.now();
+  return {
+    mark(name) {
+      const now = Date.now();
+      marks.push(`${name};dur=${now - last}`);
+      last = now;
+    },
+    header() {
+      return [...marks, `isolate;desc="req ${isolateRequestCount} age ${Math.round((Date.now() - ISOLATE_STARTED_AT) / 1000)}s"`].join(", ");
+    }
+  };
+}
+
 export async function onRequest(context) {
   const { request, env, next } = context;
   const url = new URL(request.url);
+  isolateRequestCount += 1;
+  const timer = renderTimer();
 
   // Safety net for www→apex host normalization; if a Cloudflare edge redirect
   // rule exists it fires before this code is reached.
@@ -6844,11 +6872,13 @@ export async function onRequest(context) {
   }
 
   const route = await routeForPath(pathname, env);
+  timer.mark("route");
   if (!route && /\.[a-z0-9]+$/i.test(pathname)) return next();
   const indexResponse = await env.ASSETS.fetch(new Request(new URL("/", request.url), request));
   if (!indexResponse.ok) return next();
 
   const html = await indexResponse.text();
+  timer.mark("shell");
   if (!route) {
     const injected404 = renderNotFoundHtml(html, pathname, url.origin);
     const headers = new Headers(indexResponse.headers);
@@ -6866,6 +6896,7 @@ export async function onRequest(context) {
   const needsGuideEvents = route.type === "guide" && Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2;
   const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || route.path === "/artists" || route.path === "/";
   const events = route.events || (needsEvents ? await loadEvents(env) : []);
+  timer.mark("data");
   let priceLowSeries = new Map();
   let priceMoveSeries = new Map();
   let renderEvents = events;
@@ -6936,6 +6967,7 @@ export async function onRequest(context) {
     if (priceLowPromise) priceLowSeries = await priceLowPromise;
     if (priceMovePromise) priceMoveSeries = await priceMovePromise;
   }
+  timer.mark("prices");
   const guideContent = route.type === "guide" ? await loadGuideContent(env) : {};
   // The homepage and the guides index promote /blog only while the blog has
   // something to land on. The gate is the same blogIndexIndexable() that
@@ -6969,10 +7001,13 @@ export async function onRequest(context) {
     }
     if (pilot.pathById.size) renderRoute = { ...renderRoute, indexedEventPaths: pilot.pathById };
   }
+  timer.mark("extras");
   const injected = injectRoute(html, renderRoute, url.origin, catalog, renderEvents, guideContent, env);
+  timer.mark("render");
   const headers = new Headers(indexResponse.headers);
   headers.set("Content-Type", "text/html; charset=UTF-8");
   headers.set("Cache-Control", htmlCacheControl(route));
+  headers.set("Server-Timing", timer.header());
   applySecurityHeaders(headers);
   return new Response(injected, { status: 200, headers });
 }

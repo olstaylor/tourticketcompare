@@ -108,7 +108,7 @@ Past failures each net catches: 08-26 zero-event indexable pages → D-tier noin
 
 ### Build order — six PRs, each ≤ 400 lines, each shippable alone
 
-**Status (fact recorded 2026-09-24 by agent):** PR 3 (#1092), PR 1 (#1094), PR 2 (#1095), PR 4 (#1101, review fixes #1103/#1106), PR 5 (#1102, review fix #1105) and PR 6a (#1104, music-only screen #1114) are merged and live. **Only 6b — the Stage 4 / E maintenance auto-merge — remains unbuilt.**
+**Status (fact recorded 2026-09-24 by agent):** PR 3 (#1092), PR 1 (#1094), PR 2 (#1095), PR 4 (#1101, review fixes #1103/#1106), PR 5 (#1102, review fix #1105) and PR 6a (#1104, music-only screen #1114) are merged and live. **Only 6b — the Stage 4 / E maintenance auto-merge — remains unbuilt.** (**Fact recorded 2026-10-02 by agent; owner decision the same day:** 6b stays unbuilt until rule E's own precondition is close to met. Stage 3 has opened two PRs — #1151 human-merged with no edit, #1184 closed unmerged — so the record is 1 of the 10 clean merges E requires, and the repair lane has been blocked since 2026-09-28 by #1184's leftover branch.)
 
 1. **PR 3 — Artist-page honesty and zero-event handling** (first). Empty `[]` partitions for zero-event indexable artists, artist-level CTA on the empty board, empty-state claims rewritten (owner copy), D-tier noindex gate. **Protected: `functions/[[path]].js`.**
 2. **PR 1 — Kill switch, ledger and digest.** Guard wired into the five group-A lanes. No protected files.

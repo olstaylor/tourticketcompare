@@ -184,9 +184,14 @@ it before uploading the existing 30-day audit evidence. Nothing under `public/`
 or `data/` is used to store this transport. It is never committed or served.
 
 Scheduled nightly sync uses `find-tm-snapshot.mjs` to select an artifact from a
-completed, successful **scheduled** `daily-audit.yml` run on `main` in this same
-repository. A manual dispatch, branch/fork run, failed run, expired artifact or
-run older than six hours cannot supply it. Lookup/download failure simply uses
+completed **scheduled** `daily-audit.yml` run on `main` in this same repository
+whose `audit` job succeeded. Trust is anchored on that job, which alone
+produces the snapshot and fails on unresolved fetch errors, not on the run's
+overall conclusion: on 2026-10-02 a rejected verification-dates push failed the
+run, the sync discarded a usable handoff, and fetching all 2,083 events again
+exhausted the day's Discovery quota. A manual dispatch, branch/fork run, failed
+or cancelled `audit` job, expired artifact or run older than six hours cannot
+supply it. Lookup/download failure simply uses
 the existing direct fetches. The two workflows keep their existing concurrency
 group and schedules; no new infrastructure, token scope or publishing lane is
 introduced. If GitHub starts sync first, there may be no usable snapshot and

@@ -36,6 +36,7 @@ export const GUIDE_ROUTES = {
     h1: "Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets",
     description: "Compare Ticketmaster, SeatGeek and Vivid Seats by ticket type, current total, delivery and buyer protection before choosing a provider.",
     fullContent: true,
+    comparisonProviders: ["seatgeek","vivid-seats"],
     datePublished: "2026-06-11",
     lastmod: "2026-09-26"
   },
@@ -44,6 +45,7 @@ export const GUIDE_ROUTES = {
     h1: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
     description: "Are SeatGeek and Ticketmaster the same? No. Compare their primary vs resale roles, how each prices a listing, fees, delivery and buyer protection.",
     fullContent: true,
+    comparisonProviders: ["ticketmaster","seatgeek"],
     datePublished: "2026-07-13",
     lastmod: "2026-09-30"
   },
@@ -52,6 +54,7 @@ export const GUIDE_ROUTES = {
     h1: "How should I compare TicketNetwork and Ticketmaster?",
     description: "Compare TicketNetwork and Ticketmaster: who sells the ticket, who sets the price, what each guarantees, delivery timing, and the complete total at checkout.",
     fullContent: true,
+    comparisonProviders: ["ticketmaster","ticketnetwork"],
     datePublished: "2026-08-19",
     lastmod: "2026-09-26"
   },
@@ -172,6 +175,7 @@ export const GUIDE_ROUTES = {
     h1: "Vivid Seats vs SeatGeek: What Is the Difference?",
     description: "Vivid Seats vs SeatGeek compared on who sets prices, all-in fees, buyer protection, cancelled and postponed events, delivery and rewards.",
     fullContent: true,
+    comparisonProviders: ["vivid-seats","seatgeek"],
     datePublished: "2026-09-25",
     lastmod: "2026-09-26"
   },

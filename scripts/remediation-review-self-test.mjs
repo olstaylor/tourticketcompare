@@ -17,7 +17,6 @@ const sharedShell = await readFile("public/shell.js", "utf8");
 const webVitals = await readFile("public/web-vitals.js", "utf8");
 const vitalsReport = await readFile("scripts/report-web-vitals.mjs", "utf8");
 const guideBuilder = await readFile("scripts/build-guide-content.mjs", "utf8");
-const cmsConfig = await readFile("public/admin/config.yml", "utf8");
 
 const metadata = sanitizeMetadata({
   priceSnapshot: "present",
@@ -91,9 +90,8 @@ assert.match(route, /renderComparisonHubEventCards\(\s*events,\s*env\s*\)/);
 assert.match(route, /ctaLocation: "comparison_hub"/);
 assert.match(route, /attachApprovedMarketplacePrices\(priceCandidates, env\)/);
 
-assert.match(guideBuilder, /SUPPORTED_COMPARISON_PROVIDER_PAIRS/);
-assert.match(guideBuilder, /has no runtime renderer/);
-assert.doesNotMatch(cmsConfig, /value: seatgeek/);
+assert.match(guideBuilder, /ALLOWED_COMPARISON_PROVIDERS/);
+assert.match(guideBuilder, /is not allowlisted/);
 
 assert.match(webVitals, /parts\[1\] === "tags"/);
 assert.match(webVitals, /return "blog-tag"/);

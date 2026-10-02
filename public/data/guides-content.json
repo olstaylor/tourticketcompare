@@ -382,6 +382,10 @@
         "lastChecked": "2026-09-21",
         "linkCheckedAt": "2026-10-01"
       }
+    ],
+    "comparisonProviders": [
+      "seatgeek",
+      "vivid-seats"
     ]
   },
   "/guides/seatgeek-vs-ticketmaster": {
@@ -527,6 +531,10 @@
         "lastChecked": "2026-09-21",
         "linkCheckedAt": "2026-09-16"
       }
+    ],
+    "comparisonProviders": [
+      "ticketmaster",
+      "seatgeek"
     ]
   },
   "/guides/ticketnetwork-vs-ticketmaster": {
@@ -612,6 +620,10 @@
         "lastChecked": "2026-09-21",
         "linkCheckedAt": "2026-10-01"
       }
+    ],
+    "comparisonProviders": [
+      "ticketmaster",
+      "ticketnetwork"
     ]
   },
   "/guides/how-to-avoid-overpaying-for-concert-tickets": {
@@ -1721,6 +1733,10 @@
         "url": "https://support.seatgeek.com/hc/en-us/articles/360058426253-How-and-when-will-my-tickets-be-delivered",
         "lastChecked": "2026-09-25"
       }
+    ],
+    "comparisonProviders": [
+      "vivid-seats",
+      "seatgeek"
     ]
   },
   "/guides/vivid-seats-vs-stubhub": {

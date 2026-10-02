@@ -4,6 +4,9 @@ h1: How should I compare TicketNetwork and Ticketmaster?
 description: 'Compare TicketNetwork and Ticketmaster: who sells the ticket, who sets the price, what each guarantees, delivery timing, and the complete total at checkout.'
 status: published
 date_published: 2026-08-19
+comparison_providers:
+  - ticketmaster
+  - ticketnetwork
 sources:
   - name: About Us
     publisher: TicketNetwork

@@ -24,6 +24,7 @@
     "report:price-coverage:self-test": "node scripts/report-price-coverage.mjs --self-test",
     "test:artist-city-prices": "node scripts/artist-city-prices.test.mjs",
     "test:event-price-low": "node scripts/event-price-low.test.mjs",
+    "test:price-outliers": "node --no-warnings scripts/price-outliers.test.mjs",
     "test:route-indexability": "node scripts/route-indexability.test.mjs",
     "test:route-metadata": "node scripts/route-metadata.test.mjs",
     "test:homepage-proposition": "node scripts/homepage-proposition.test.mjs",

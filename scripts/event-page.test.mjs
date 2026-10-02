@@ -109,6 +109,9 @@ const PAST_CANCELLED = fixtureEvent("fixture-past-cancelled", "2026-07-03T01:00:
 // Düsseldorf, 00:30 local on 30 Aug: still 29 Aug in UTC.
 const DUSSELDORF = fixtureEvent("fixture-dusseldorf", "2026-08-29T22:30:00Z", { city: "Düsseldorf", country: "Germany", venue: "Merkur Spiel-Arena", timezone: "Europe/Berlin" });
 const SHELL = fixtureEvent("fixture-shell", "2026-09-20T01:00:00Z", { artist_slug: String(shellArtist.slug), artist_name: String(shellArtist.name || shellArtist.slug) });
+// Six days out at NOW: close enough to show day for the 7-day change. Kept out of
+// EVENTS and rendered only by its own block, so no other assertion sees it.
+const NEAR = fixtureEvent("fixture-near", "2026-08-15T01:00:00Z");
 const EVENTS = [PRICED, STALE, RESCHEDULED, CANCELLED, POSTPONED, UNRECOGNISED, PENDING_BARE, NO_DESTINATION, UPSELL, PAST_HERE, PAST_ELSEWHERE, PAST_CANCELLED, DUSSELDORF, SHELL];
 const HELD = [CANCELLED, POSTPONED, UNRECOGNISED];
 
@@ -119,6 +122,8 @@ const PRICE_ROWS = [
   cacheRow(PRICED, "vivid-seats", 182, "vividseats_impact_marketplace_api"),
   cacheRow(PRICED, "ticketnetwork", 190, "ticketnetwork_impact_marketplace_api"),
   cacheRow(RESCHEDULED, "vivid-seats", 205, "vividseats_impact_marketplace_api"),
+  cacheRow(NEAR, "vivid-seats", 182, "vividseats_impact_marketplace_api"),
+  cacheRow(NEAR, "ticketnetwork", 190, "ticketnetwork_impact_marketplace_api"),
   // Expired: must be invisible on both surfaces.
   cacheRow(STALE, "vivid-seats", 99, "vividseats_impact_marketplace_api", "2026-08-02T09:00:00Z"),
   // Held dates have fresh rows; neither surface may show them.
@@ -129,7 +134,13 @@ const PRICE_ROWS = [
 const WINDOW_MIN_ROWS = [{ event_id: PRICED.id, provider: "vivid-seats", currency: "USD", low_price: 150, observed_at: "2026-07-20T09:00:00Z" }];
 const SERIES_ROWS = [
   { event_id: PRICED.id, provider: "vivid-seats", currency: "USD", low_price: 182, observed_at: "2026-08-09T09:00:00Z" },
-  { event_id: PRICED.id, provider: "vivid-seats", currency: "USD", low_price: 200, observed_at: "2026-08-01T09:00:00Z" }
+  { event_id: PRICED.id, provider: "vivid-seats", currency: "USD", low_price: 200, observed_at: "2026-08-01T09:00:00Z" },
+  // NEAR/Vivid Seats: 224 standing a week ago, after a one-reading $40 glitch
+  // that must never surface, then 182 now.
+  { event_id: NEAR.id, provider: "vivid-seats", currency: "USD", low_price: 220, observed_at: "2026-07-30T09:00:00Z" },
+  { event_id: NEAR.id, provider: "vivid-seats", currency: "USD", low_price: 40, observed_at: "2026-07-31T09:00:00Z" },
+  { event_id: NEAR.id, provider: "vivid-seats", currency: "USD", low_price: 224, observed_at: "2026-08-01T09:00:00Z" },
+  { event_id: NEAR.id, provider: "vivid-seats", currency: "USD", low_price: 182, observed_at: "2026-08-09T09:00:00Z" }
 ];
 
 const queriedIds = [];
@@ -292,6 +303,22 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   const stale = await render(pathOf(STALE));
   assert(!/\$99/.test(stale.html) && !/\$99/.test(card(parent.html, STALE.id)), "an expired snapshot shows on neither surface");
   assert(JSON.stringify(buttons(card(stale.html, STALE.id))) === JSON.stringify(buttons(card(parent.html, STALE.id))), "the stale date's buttons match the parent's");
+}
+
+// ─── the 7-day change close to show day ─────────────────────────────────────
+
+{
+  const WEEK_LINE = "Lowest listed price on Vivid Seats down 19% over the last 7 days: $224 a week ago, $182 at the latest check.";
+  const withNear = [...EVENTS, NEAR];
+  const page = await render(pathOf(NEAR), withNear);
+  const prices = text(meta(page.html, /(<section[^>]*aria-labelledby="eventPricesTitle"[\s\S]*?<\/section>)/));
+  assert(prices.includes(`This week: ${WEEK_LINE}`), `a date six days out states its 7-day change (got ${prices.slice(0, 400)})`);
+  assert(!/TicketNetwork (up|down) \d+%/.test(prices), "a lane with no history a week old says nothing");
+  assert(!/\$40\b/.test(page.html), "the one-reading glitch never reaches the page");
+  const parent = await render(ARTIST_CITY, withNear);
+  assert(text(parent.html).includes(WEEK_LINE), "the parent price answer states the same change");
+  const far = await render(pathOf(PRICED), withNear);
+  assert(!/This week:/.test(far.html) && !/over the last 7 days/.test(far.html), "a date a month out states no weekly change");
 }
 
 // ─── out-of-date readable slugs and reschedules ─────────────────────────────

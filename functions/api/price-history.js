@@ -5,6 +5,7 @@ import {
   APPROVED_MARKETPLACE_PRICE_LANES,
   MIN_PLAUSIBLE_LISTED_PRICE
 } from "./shows.js";
+import { dropIsolatedSpikes } from "../_price-outliers.js";
 
 // On-site per-event price history (Phase 1). Read-only consumer of the
 // immutable provider_pricing_history table written by the scheduled snapshot
@@ -69,7 +70,7 @@ function displayableLane(priceLane) {
   return { currency, source: priceLane.source, price, observedAt: priceLane.fetchedAt || null };
 }
 
-async function fetchProviderSeries(db, eventId, dbKey, source, currency) {
+async function fetchProviderSeries(db, eventId, dbKey, source, currency, currentPrice) {
   const since = new Date(Date.now() - HISTORY_WINDOW_DAYS * 24 * 60 * 60 * 1000).toISOString();
   const result = await db
     .prepare(
@@ -98,10 +99,14 @@ async function fetchProviderSeries(db, eventId, dbKey, source, currency) {
     if (!Number.isFinite(Date.parse(observedAt))) continue;
     points.push({ price: Number(price.toFixed(2)), observedAt });
   }
+  // A reading that reverts at the next change is a feed glitch, and a chart
+  // point is a claim like any other (functions/_price-outliers.js). The live
+  // badge price is the newest row's later neighbour.
+  const guarded = dropIsolatedSpikes(points, { trailingPrice: currentPrice });
   // Newest kept if the window is unusually dense.
-  return points.length > MAX_POINTS_PER_PROVIDER
-    ? points.slice(points.length - MAX_POINTS_PER_PROVIDER)
-    : points;
+  return guarded.length > MAX_POINTS_PER_PROVIDER
+    ? guarded.slice(guarded.length - MAX_POINTS_PER_PROVIDER)
+    : guarded;
 }
 
 export async function onRequestGet({ request, env }) {
@@ -143,7 +148,7 @@ export async function onRequestGet({ request, env }) {
 
     let points = [];
     try {
-      points = await fetchProviderSeries(db, showId, laneConfig.dbKey, laneConfig.approvedSource, gate.currency);
+      points = await fetchProviderSeries(db, showId, laneConfig.dbKey, laneConfig.approvedSource, gate.currency, gate.price);
     } catch (error) {
       points = [];
     }

@@ -17,7 +17,7 @@ sources:
 
 Most of what goes wrong on onsale day happens before the queue opens: an unverified account, a missed fan registration, the wrong time zone. Preparation can't promise you a ticket, but it removes the mistakes that cost people a place before they reach checkout.
 
-The ticket site runs the onsale: stock, queue order, prices and fees. Here's a routine for the days before and the morning itself.
+The ticket site runs the onsale: stock, queue order, prices and fees.
 
 ## Before onsale day
 
@@ -73,3 +73,5 @@ Do not rush to an unverified seller. Recheck the official source for later relea
 - [How to read a ticket listing](/guides/how-to-read-a-ticket-listing)
 - [How to avoid ticket scams and fake listings](/guides/how-to-avoid-ticket-scams)
 - [What to do if a concert is postponed or cancelled](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled)
+- [What to do when Ticketmaster has no tickets left](/guides/no-tickets-left-on-ticketmaster)
+- [SeatGeek promo code guide](/guides/seatgeek-promo-code-guide)

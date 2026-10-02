@@ -4,7 +4,14 @@ h1: 'Vivid Seats vs SeatGeek: What Is the Difference?'
 description: Vivid Seats vs SeatGeek compared on who sets prices, all-in fees, buyer protection, cancelled and postponed events, delivery and rewards.
 status: published
 date_published: 2026-09-25
+comparison_providers:
+  - vivid-seats
+  - seatgeek
 sources:
+  - name: Vivid Seats Guarantee terms
+    publisher: Vivid Seats
+    url: https://www.vividseats.com/guarantee.html
+    last_checked: 2026-10-02
   - name: How are ticket prices determined?
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-

@@ -4,6 +4,9 @@ h1: Is SeatGeek legit, and are its tickets real?
 description: Is SeatGeek legit? Who sells tickets on it, what its buyer protection covers and excludes, all-in fees, late delivery, and cancelled or postponed shows.
 status: published
 date_published: 2026-09-25
+comparison_providers:
+  - ticketmaster
+  - seatgeek
 sources:
   - name: Can I trust tickets sold on SeatGeek?
     publisher: SeatGeek Help Center
@@ -118,3 +121,5 @@ A SeatGeek order is covered by the Buyer Guarantee. A private sale paid by payme
 - [SeatGeek vs StubHub](/guides/seatgeek-vs-stubhub)
 - [SeatGeek promo code guide](/guides/seatgeek-promo-code-guide)
 - [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)
+- [Is Vivid Seats legit?](/guides/is-vivid-seats-legit)
+- [Vivid Seats vs SeatGeek](/guides/vivid-seats-vs-seatgeek)

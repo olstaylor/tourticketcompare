@@ -3525,7 +3525,8 @@ const GUIDE_PROVIDER_NAMES = [
   ["seatgeek", "SeatGeek"],
   ["vivid-seats", "Vivid Seats"],
   ["stubhub", "StubHub"],
-  ["ticketnetwork", "TicketNetwork"]
+  ["ticketnetwork", "TicketNetwork"],
+  ["ticket-liquidator", "Ticket Liquidator"]
 ];
 
 function guideProviders(path) {
@@ -3600,6 +3601,57 @@ function renderGuideClusters() {
         .join("")}</ul></section>`
     : "";
   return clusterSections + moreSection;
+}
+
+// Homepage "Going on sale soon" (2026-10-02, owner request): the next few
+// artists with a public on-sale ahead, from the same derivation as /on-sale, so
+// an on-sale day is visible where visitors land rather than one link deep.
+const HOMEPAGE_ONSALE_ARTISTS = 4;
+
+function homepageOnsaleWhen(entry) {
+  try {
+    return new Date(entry.onsaleMs).toLocaleString("en-US", {
+      weekday: "short",
+      month: "short",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      timeZone: entry.timezone || "UTC",
+      timeZoneName: "short"
+    });
+  } catch (error) {
+    return `${new Date(entry.onsaleMs).toISOString().slice(0, 16).replace("T", " ")} UTC`;
+  }
+}
+
+function renderHomepageOnsaleStrip(events, now = Date.now()) {
+  const calendar = deriveOnsaleCalendar(events, now);
+  const seen = new Set();
+  const rows = [];
+  for (const day of calendar.upcoming) {
+    for (const artist of day.artists) {
+      if (seen.has(artist.artistSlug) || rows.length >= HOMEPAGE_ONSALE_ARTISTS) continue;
+      seen.add(artist.artistSlug);
+      rows.push(artist);
+    }
+  }
+  if (!rows.length) return "";
+  const items = rows
+    .map((artist) => {
+      const first = artist.shows[0];
+      const count = artist.shows.length;
+      return `<li><a class="home-artist" href="/artists/${escapeAttr(slugify(artist.artistSlug))}"><span class="home-artist__name">${escapeHtml(
+        artist.artistName
+      )}</span><span class="home-artist__meta">${escapeHtml(
+        `${count} ${count === 1 ? "date" : "dates"} · on sale ${homepageOnsaleWhen(first)}`
+      )}</span></a></li>`;
+    })
+    .join("");
+  return `<section class="home-onsale" aria-labelledby="homeOnsaleTitle"><div class="home-section__head"><h3 id="homeOnsaleTitle">Going on sale soon</h3>${anchor(
+    "Full on-sale calendar",
+    "/on-sale",
+    "text-link"
+  )}</div><ul class="home-artist-list">${items}</ul></section>`;
 }
 
 function renderHomepageGuideLinks() {
@@ -4455,6 +4507,36 @@ function onsaleDayHeading(day) {
   return date.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
 }
 
+// A tour announcement can put 20+ dates on one day; listed in full, the page
+// ran to ~23,000px on a phone. Each artist shows its first ONSALE_VISIBLE_SHOWS
+// dates and folds the rest into a closed <details>, which works without JS and
+// keeps every date in the HTML.
+const ONSALE_VISIBLE_SHOWS = 3;
+
+function renderOnsaleShowItems(shows) {
+  return shows
+    .map(
+      (show) =>
+        `<li data-event-id="${escapeAttr(show.id)}"><strong>${escapeHtml(onsaleTimeLabel(show))}</strong> · ${escapeHtml(
+          [show.city, show.venue].filter(Boolean).join(" · ")
+        )}${show.datetimeIso ? escapeHtml(` · show ${formatShowDateServer(show.datetimeIso, show.timezone)}`) : ""}</li>`
+    )
+    .join("");
+}
+
+function renderOnsaleShowList(shows) {
+  // Fold only when it hides at least two dates; a "1 more" toggle saves nothing.
+  if (shows.length <= ONSALE_VISIBLE_SHOWS + 1) {
+    return `<ul class="venue-show-list onsale-shows">${renderOnsaleShowItems(shows)}</ul>`;
+  }
+  const rest = shows.slice(ONSALE_VISIBLE_SHOWS);
+  return `<ul class="venue-show-list onsale-shows">${renderOnsaleShowItems(
+    shows.slice(0, ONSALE_VISIBLE_SHOWS)
+  )}</ul><details class="onsale-more"><summary>${escapeHtml(
+    `Show ${rest.length} more ${rest.length === 1 ? "date" : "dates"}`
+  )}</summary><ul class="venue-show-list onsale-shows">${renderOnsaleShowItems(rest)}</ul></details>`;
+}
+
 function renderOnsaleDayGroups(groups) {
   return groups
     .map(
@@ -4466,14 +4548,7 @@ function renderOnsaleDayGroups(groups) {
             (artist) =>
               `<h4>${anchor(artist.artistName, `/artists/${slugify(artist.artistSlug)}`, "text-link")} <span class="muted">${escapeHtml(
                 `· ${artist.shows.length} ${artist.shows.length === 1 ? "date" : "dates"}`
-              )}</span></h4><ul class="venue-show-list onsale-shows">${artist.shows
-                .map(
-                  (show) =>
-                    `<li data-event-id="${escapeAttr(show.id)}"><strong>${escapeHtml(onsaleTimeLabel(show))}</strong> · ${escapeHtml(
-                      [show.city, show.venue].filter(Boolean).join(" · ")
-                    )}${show.datetimeIso ? escapeHtml(` · show ${formatShowDateServer(show.datetimeIso, show.timezone)}`) : ""}</li>`
-                )
-                .join("")}</ul>`
+              )}</span></h4>${renderOnsaleShowList(artist.shows)}`
           )
           .join("")}</section>`
     )
@@ -5426,19 +5501,38 @@ function safeTicketmasterGuideEventUrl(event) {
   } catch (error) { return null; }
 }
 
-export function guideProviderPairEligibility(events, env = {}) {
-  if (!isVividSeatsConfigured(env)) return [];
+// The lanes a comparison guide may pair. Each gate is the one the lane's own
+// event-card button uses (serverShowCtaSpecs), so a guide never shows a
+// button the event's own page would suppress. Ticketmaster additionally needs
+// a stored URL on an allowlisted Ticketmaster host that carries its event id.
+const GUIDE_PAIR_PROVIDERS = new Set(PROVIDER_DISPLAY_ORDER);
+
+function guidePairLanePublishable(event, provider, env = {}) {
+  if (!GUIDE_PAIR_PROVIDERS.has(provider)) return false;
+  if (provider === "ticketmaster") return Boolean(safeTicketmasterGuideEventUrl(event) && eventLinkPublishable(event));
+  if (provider === "seatgeek") {
+    return Boolean(isSeatGeekConfigured(env) && safeSeatGeekTicketUrl(event?.seatgeek_url) && providerEventPublishable(event, "seatgeek"));
+  }
+  if (provider === "vivid-seats") {
+    return Boolean(isVividSeatsConfigured(env) && safeVividSeatsTicketUrl(event?.vividseats_url) && providerEventPublishable(event, "vivid-seats"));
+  }
+  const marketplace = IMPACT_MARKETPLACE_PROVIDERS.find((candidate) => candidate.slug === provider);
+  return Boolean(
+    marketplace &&
+      isImpactMarketplaceConfigured(env, marketplace) &&
+      providerEventPublishable(event, provider) &&
+      eventTicketHref(event, provider)
+  );
+}
+
+export function guideProviderPairEligibility(events, env = {}, pair = ["ticketmaster", "vivid-seats"]) {
+  if (!Array.isArray(pair) || pair.length !== 2 || pair[0] === pair[1]) return [];
+  if (!pair.every((provider) => GUIDE_PAIR_PROVIDERS.has(provider))) return [];
   return (events || [])
     .filter((event) => {
       const date = Date.parse(String(event?.datetime_iso || event?.dateTimeISO || ""));
       if (!Number.isFinite(date) || date < Date.now()) return false;
-      return Boolean(
-        event?.id &&
-          safeTicketmasterGuideEventUrl(event) &&
-          eventLinkPublishable(event) &&
-          safeVividSeatsTicketUrl(event?.vividseats_url) &&
-          providerEventPublishable(event, "vivid-seats")
-      );
+      return Boolean(event?.id && pair.every((provider) => guidePairLanePublishable(event, provider, env)));
     })
     .sort(
       (a, b) =>
@@ -5453,11 +5547,30 @@ function guideProviderPairHref(event, provider, guideSlug, position) {
   return `${base}&guideSlug=${encodeURIComponent(guideSlug)}&position=${position}`;
 }
 
+// One date per artist, soonest first, so a residency cannot fill every card.
+function guideProviderPairDisplayed(eligible, limit = 8) {
+  const seen = new Set();
+  const displayed = [];
+  for (const event of eligible) {
+    const key = slugify(event.artist_slug) || String(event.id);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    displayed.push(event);
+    if (displayed.length === limit) break;
+  }
+  return displayed;
+}
+
 export function renderGuideProviderPair(route, events, env = {}) {
   const pair = Array.isArray(route?.comparisonProviders) ? route.comparisonProviders : [];
-  if (pair.length !== 2 || pair[0] !== "ticketmaster" || pair[1] !== "vivid-seats") return "";
-  const eligible = guideProviderPairEligibility(events, env);
-  const displayed = eligible.slice(0, 8);
+  if (pair.length !== 2 || pair[0] === pair[1] || !pair.every((provider) => GUIDE_PAIR_PROVIDERS.has(provider))) return "";
+  // Affiliate lanes render before the plain Ticketmaster link, as on every
+  // event card; the first button is the primary one.
+  const ordered = [...pair].sort((a, b) => providerDisplayRank(a) - providerDisplayRank(b));
+  const names = ordered.map((provider) => PROVIDER_DISPLAY_NAMES[provider] || provider);
+  const both = `${names[0]} and ${names[1]}`;
+  const eligible = guideProviderPairEligibility(events, env, ordered);
+  const displayed = guideProviderPairDisplayed(eligible);
   const guideSlug = route.path.split("/").at(-1);
   const calculatedAt = new Date().toISOString();
   const methodology = `<p class="disclosure-note guide-provider-pair-methodology">${escapeHtml(
@@ -5477,25 +5590,28 @@ export function renderGuideProviderPair(route, events, env = {}) {
       const artistName = String(event.artist_name || event.event_name || artistSlug).trim();
       const date = formatShowDateServer(event.datetime_iso || event.dateTimeISO, event.timezone);
       const location = [event.venue, event.city].map((value) => String(value || "").trim()).filter(Boolean).join(" · ");
-      const ticketmasterHref = guideProviderPairHref(event, "ticketmaster", guideSlug, position);
-      const vividSeatsHref = guideProviderPairHref(event, "vivid-seats", guideSlug, position);
-      if (!ticketmasterHref || !vividSeatsHref) return "";
+      const hrefs = ordered.map((provider) => guideProviderPairHref(event, provider, guideSlug, position));
+      if (hrefs.some((href) => !href)) return "";
+      const buttons = ordered
+        .map(
+          (provider, buttonIndex) =>
+            `<a class="button ${buttonIndex === 0 ? "button-primary" : "button-secondary"}" href="${escapeAttr(hrefs[buttonIndex])}" target="_blank" rel="${escapeAttr(
+              outboundCtaRel(hrefs[buttonIndex])
+            )}" data-cta-provider="${escapeAttr(provider)}" data-cta-artist="${escapeAttr(artistSlug)}" data-cta-show-id="${escapeAttr(
+              event.id
+            )}" data-cta-location="guide_provider_pair" data-cta-position="${position}">Check ${escapeHtml(names[buttonIndex])}</a>`
+        )
+        .join("");
       return `<article class="info-card guide-provider-pair-card" data-event-id="${escapeAttr(event.id)}"><h3>${anchor(
         artistName,
         `/artists/${artistSlug}`,
         "guide-card-link"
-      )}</h3><p>${escapeHtml([date, location].filter(Boolean).join(" · "))}</p><div class="guide-provider-pair-actions"><a class="button button-secondary" href="${escapeAttr(
-        ticketmasterHref
-      )}" target="_blank" rel="${escapeAttr(outboundCtaRel(ticketmasterHref))}" data-cta-provider="ticketmaster" data-cta-artist="${escapeAttr(
-        artistSlug
-      )}" data-cta-show-id="${escapeAttr(event.id)}" data-cta-location="guide_provider_pair" data-cta-position="${position}">Check Ticketmaster</a><a class="button button-primary" href="${escapeAttr(
-        vividSeatsHref
-      )}" target="_blank" rel="${escapeAttr(outboundCtaRel(vividSeatsHref))}" data-cta-provider="vivid-seats" data-cta-artist="${escapeAttr(
-        artistSlug
-      )}" data-cta-show-id="${escapeAttr(event.id)}" data-cta-location="guide_provider_pair" data-cta-position="${position}">Check Vivid Seats</a></div></article>`;
+      )}</h3><p>${escapeHtml([date, location].filter(Boolean).join(" · "))}</p><div class="guide-provider-pair-actions">${buttons}</div></article>`;
     })
     .join("");
-  return `<section class="nested-panel guide-provider-pair" aria-labelledby="providerPairTitle"><h2 id="providerPairTitle">Compare the same event on both providers</h2><p>These are the next reviewed dates with a safe, event-specific link for both Ticketmaster and Vivid Seats. Open both and match the ticket details and checkout total yourself.</p><div class="card-grid guide-provider-pair-grid">${rows}</div>${methodology}</section>`;
+  return `<section class="nested-panel guide-provider-pair" aria-labelledby="providerPairTitle"><h2 id="providerPairTitle">Compare the same event on both providers</h2><p>${escapeHtml(
+    `These are upcoming dates, one per artist, with a checked event-specific link on both ${both}. Open both and compare the same seats and the checkout total yourself.`
+  )}</p><div class="card-grid guide-provider-pair-grid">${rows}</div>${methodology}</section>`;
 }
 
 // Title and description for an event page. Composed before any price is
@@ -6425,7 +6541,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "All artists",
     HOME_PRIMARY_CTA_HREF,
     "text-link"
-  )}</div>${renderHomepageArtistLinks(catalog, events)}<p class="home-browse">Planning around a place? ${anchor(
+  )}</div>${renderHomepageArtistLinks(catalog, events)}${renderHomepageOnsaleStrip(events)}<p class="home-browse">Planning around a place? ${anchor(
     "Browse cities",
     "/cities",
     "text-link"
@@ -6577,7 +6693,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     route.type === "venues-index" ||
     route.path === "/artists"
   ) {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20261002a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20261002m" defer></script></body>');
   }
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.
@@ -6595,8 +6711,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20260927a" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20260927a" />'
+      '<link rel="stylesheet" href="/styles.css?v=20261002u" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20261002u" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260924b" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20261002a" defer></script></body>');

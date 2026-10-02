@@ -53,13 +53,15 @@
 //   node scripts/verify-seatgeek-events.mjs --apply          (write mode)
 //   node scripts/verify-seatgeek-events.mjs --artist <slug>  (filter)
 //   node scripts/verify-seatgeek-events.mjs --self-test      (offline tests)
-// Options: --limit N, --max-api-calls N, --delay-ms N, --recheck-days N,
+// Options: --event-id <exact-id> (repeatable; overrides broad selection),
+//          --add-only (positive matches; never clear or unverify),
+//          --limit N, --max-api-calls N, --delay-ms N, --recheck-days N,
 //          --json, --log-path <path>
 
 import fs from "node:fs/promises";
 import { execFile } from "node:child_process";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { eventInstantMs } from "./lib/event-local-date.mjs";
 import { eventMatchesArtistFilter } from "./lib/artist-filter.mjs";
 
@@ -101,7 +103,7 @@ function normalizeText(value) {
 
 // Mirrors validateSeatGeekEventUrl in functions/api/out.js (fail-safe copy —
 // out.js stays the runtime source of truth).
-function isValidSeatGeekEventUrl(value) {
+export function isValidSeatGeekEventUrl(value) {
   const raw = clean(value, 2048);
   if (!raw) return false;
   let parsed;
@@ -267,7 +269,8 @@ function decideOutcome({ storedUrl, storedVerified, idCheck, discovery }) {
 
 // Mutate one event in place per the decided outcome (apply mode). Only
 // seatgeek_url and provider_links.seatgeek are ever touched.
-function applyOutcomeToEvent(event, outcome, today) {
+export function applyOutcomeToEvent(event, outcome, today, { addOnly = false } = {}) {
+  if (addOnly && !["add", "verify", "correct"].includes(outcome.action)) return false;
   if (!event.provider_links || typeof event.provider_links !== "object") event.provider_links = {};
   const existing = (typeof event.provider_links.seatgeek === "object" && event.provider_links.seatgeek) || {};
   if (outcome.action === "verify" || outcome.action === "add" || outcome.action === "correct") {
@@ -310,10 +313,11 @@ function daysSince(dateString, now = new Date()) {
 // Selection policy: FUTURE events only (see PAST_EVENT_GRACE_MS) among:
 // needs_recheck events, events holding an unverified seatgeek_url
 // (provenance backfill), and stale verified provenance.
-function selectEvents(events, registryBySlug, options, now = new Date()) {
+export function selectEvents(events, registryBySlug, options, now = new Date()) {
   const selected = [];
   const skipped = [];
   for (const event of events) {
+    if (options.eventIds && !options.eventIds.includes(event.id)) continue;
     const slug = clean(event?.artist_slug, 120);
     // Same `--artist` semantics as the enrichment lane (scripts/lib/artist-filter.mjs):
     // an exact artist slug or artist name, never a substring.
@@ -323,7 +327,7 @@ function selectEvents(events, registryBySlug, options, now = new Date()) {
     const sgLink = event?.provider_links?.seatgeek;
     const verified = sgLink?.verified === true;
     const stale = verified && daysSince(sgLink?.last_verified_at, now) >= options.recheckDays;
-    const wanted = status === "needs_recheck" || (storedUrl && !verified) || stale;
+    const wanted = options.eventIds || status === "needs_recheck" || (storedUrl && !verified) || stale;
     if (!wanted) continue;
     const registry = registryBySlug.get(slug);
     if (!registry || clean(registry.review_status) !== "verified" || !Number.isInteger(registry.seatgeek_performer_id)) {
@@ -623,10 +627,12 @@ function selfTest() {
 
 // ─── Main ───────────────────────────────────────────────────────────────────
 
-function parseArgs(argv) {
+export function parseArgs(argv) {
   const options = {
     apply: false,
     artist: "",
+    eventIds: null,
+    addOnly: false,
     limit: null,
     delayMs: DEFAULT_REQUEST_DELAY_MS,
     maxApiCalls: null,
@@ -645,6 +651,8 @@ function parseArgs(argv) {
       return value;
     };
     if (arg === "--apply") options.apply = true;
+    else if (arg === "--event-id") (options.eventIds ??= []).push(next());
+    else if (arg === "--add-only") options.addOnly = true;
     else if (arg === "--artist") options.artist = clean(next(), 120);
     else if (arg === "--limit") options.limit = Math.max(1, Number.parseInt(next(), 10) || 1);
     else if (arg === "--delay-ms") options.delayMs = Math.max(0, Number.parseInt(next(), 10) || 0);
@@ -765,7 +773,9 @@ async function main() {
     }
 
     const outcome = decideOutcome({ storedUrl, storedVerified, idCheck, discovery });
-    const applied = options.apply ? applyOutcomeToEvent(event, outcome, today) : false;
+    // Maintenance batches acquire verified links only. Withdrawing a lane
+    // remains the dedicated sync's responsibility, never a queue repair.
+    const applied = options.apply ? applyOutcomeToEvent(event, outcome, today, { addOnly: options.addOnly }) : false;
     if (applied) changedIds.add(event.id);
     if (outcome.action === "correct" && storedUrl) outcome.notes.push(`replaced ${storedUrl}`);
     results.push({
@@ -832,7 +842,7 @@ async function main() {
   return 0;
 }
 
-main().then((code) => {
+if (process.argv[1] && pathToFileURL(process.argv[1]).href === import.meta.url) main().then((code) => {
   process.exitCode = code;
 }).catch((error) => {
   console.error(`Error: ${clean(error?.message || error, 500)}`);

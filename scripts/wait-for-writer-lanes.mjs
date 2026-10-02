@@ -54,12 +54,14 @@ export const WRITER_LANES = [
   "impact-marketplace-provider-sync.yml",
   "auto-promote.yml",
   "autopublish-health.yml",
+  "work-queue-repair.yml",
 ];
 
 // The lanes that wait. The others are still waited FOR; they just have no
 // headroom under the < 60 minute job cap (configure-automation-identity.mjs)
 // to spend queueing, and none of them has lost a race yet.
 export const WAITING_LANES = [
+  "work-queue-repair.yml",
   "nightly-data-sync.yml",
   "tm-new-shows-pr.yml",
   "seatgeek-cta-sync.yml",
@@ -255,7 +257,7 @@ async function selfTest() {
   );
   const writes = (wf) =>
     Object.values(wf.jobs || {}).some((job) =>
-      (job.steps || []).some((s) => /git add[^\n]*public\/data\/events|sync-tm-events-write-pr\.mjs/.test(s.run || ""))
+      (job.steps || []).some((s) => /git add[^\n]*public\/data\/events|sync-tm-events-write-pr\.mjs|node scripts\/run-work-queue-repair\.mjs(?! --self-test)/.test(s.run || ""))
     );
   const derived = Object.keys(workflows).filter((f) => writes(workflows[f])).sort();
   assert.deepEqual(derived, [...WRITER_LANES].sort(), "WRITER_LANES must list exactly the workflows that commit event data");

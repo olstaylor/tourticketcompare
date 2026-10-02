@@ -10,15 +10,14 @@
 //     -> open ONE pull request
 //     -> stop.
 //
-// It supports exactly one finding type, `generated_artifact_stale`, and its
-// repair is one command looked up in `GENERATED_ARTEFACTS` — the same fixed
-// allowlist the sensor itself runs. Nothing in an issue can name a command, a
+// Generated repairs use `GENERATED_ARTEFACTS`; provider URL batches use the
+// existing SeatGeek verifier and a field-level allowlist. Nothing in an issue can name a command, a
 // path or a repair: see scripts/lib/work-queue-repair.mjs, which holds the whole
 // decision layer and is pure, so the safety boundary is proved by `--self-test`
 // rather than by watching a run.
 //
 // It never merges, never enables auto-merge, never touches a `risk:red` item,
-// and never edits a source file to make a check pass. Every attempted item ends
+// and never widens a repair beyond its declared operation. Every attempted item ends
 // on one explicit outcome: FIXED, BLOCKED, NEEDS HUMAN or NO SAFE WORK.
 //
 // Usage:
@@ -35,6 +34,8 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { GENERATED_ARTEFACTS } from "./check-generated-freshness.mjs";
 import { DEFAULT_POLL_MS, DEFAULT_TIMEOUT_MS, earnRequiredCheck } from "./lib/required-check.mjs";
 import { pushWithRetry } from "./push-automation-branch.mjs";
+import { PROVIDER_URL_TYPE } from "./lib/provider-url-work.mjs";
+import { performProviderUrlRepair } from "./lib/provider-url-repair.mjs";
 import {
   ALLOWED_RISKS,
   FAILING_OUTCOMES,
@@ -259,7 +260,7 @@ if (SELF_TEST) {
     assert.equal(assessIssue(other).eligible, false, `type ${type} must not be actionable`);
     assert.match(assessIssue(other).reason, /not a finding type this worker supports|reported by/);
   }
-  assert.deepEqual(Object.keys(SUPPORTED_FINDINGS), ["generated_artifact_stale"], "v1 supports exactly one finding type");
+  assert.deepEqual(Object.keys(SUPPORTED_FINDINGS).sort(), ["event_needs_provider_url", "generated_artifact_stale"], "only the reviewed finding types are supported");
   // A prototype key is not a supported type.
   assert.equal(assessIssue(editBlock(queueIssue(), (block) => { block.type = "constructor"; })).eligible, false);
 
@@ -517,7 +518,20 @@ async function main() {
   );
   say(`${issues.length} open \`work-queue\` + \`agent:ready\` issue(s) to consider.`);
 
-  const { selected, assessments, reason: selectionReason } = selectWorkItem(issues, { requestedIssue });
+  const openPullRequests = await github("GET", "/pulls?state=open&per_page=100");
+  const available = [];
+  for (const issue of issues) {
+    const assessment = assessIssue(issue);
+    if (assessment.eligible && existingRepair({ plan: assessment.plan, openPullRequests }) && !requestedIssue) continue;
+    // An exact batch with no qualifying listing needs an operator decision;
+    // do not let it monopolise every daily run. Explicit dispatch may retry it.
+    if (assessment.eligible && assessment.plan.type === PROVIDER_URL_TYPE && !requestedIssue) {
+      const comments = await github("GET", `/issues/${issue.number}/comments?per_page=100`);
+      if (alreadyReported(comments, commentMarkerFor(assessment.plan.fingerprint, OUTCOMES.NEEDS_HUMAN))) continue;
+    }
+    available.push(issue);
+  }
+  const { selected, assessments, reason: selectionReason } = selectWorkItem(available, { requestedIssue });
   for (const assessment of assessments) {
     say(`  #${assessment.issue.number} ${assessment.eligible ? "ELIGIBLE" : "skipped"}: ${assessment.reason}`);
   }
@@ -527,9 +541,9 @@ async function main() {
 
   const plan = selected.plan;
   say("");
-  say(`Selected #${plan.issueNumber}: regenerate \`${plan.artefactId}\` (${plan.type}, risk:${plan.risk}, ${plan.priority}).`);
-  say(`  repair      ${plan.regenerate}`);
-  say(`  check       ${plan.check}`);
+  say(`Selected #${plan.issueNumber}: ${plan.operation} \`${plan.artefactId}\` (${plan.type}, risk:${plan.risk}, ${plan.priority}).`);
+  say(`  repair      ${plan.regenerate ?? "registry-anchored SeatGeek verifier"}`);
+  say(`  check       ${plan.check ?? "current coverage and provider-only field guard"}`);
   say(`  may change  ${plan.expectedPaths.join(", ")}`);
   say(`  branch      ${plan.branch}`);
 
@@ -558,7 +572,6 @@ async function main() {
   };
 
   // ── idempotence and concurrency ───────────────────────────────────────────
-  const openPullRequests = await github("GET", "/pulls?state=open&per_page=100");
   const duplicate = existingRepair({ plan, openPullRequests });
   if (duplicate) {
     finish({ outcome: OUTCOMES.NO_SAFE_WORK, reason: `a repair is already in flight: ${duplicate.reason}`, plan });
@@ -597,14 +610,24 @@ async function main() {
     await report(verdict.outcome, `${verdict.reason} (at: ${label}).`);
   };
 
-  const before = runAllowlistedCommand(plan.check);
+  let providerRepair = null;
+  if (plan.type === PROVIDER_URL_TYPE) {
+    try { providerRepair = performProviderUrlRepair(plan, ROOT); }
+    catch { providerRepair = { outcome: OUTCOMES.BLOCKED, reason: "Provider batch repair failed while reading or verifying repository evidence" }; }
+    if (providerRepair.outcome) {
+      restoreWorkspace();
+      await report(providerRepair.outcome, providerRepair.reason);
+    }
+    say(providerRepair.reason);
+  }
+  const before = providerRepair ? { exit: 1, output: providerRepair.checkOutputBefore } : runAllowlistedCommand(plan.check);
   say("");
-  say(`${plan.check} exited ${before.exit} (a non-zero exit is the finding reproducing).`);
+  say(`${plan.check ?? "Current provider coverage check"} exited ${before.exit} (a non-zero exit is the finding reproducing).`);
   observations.checkExitBefore = before.exit;
   await step("re-checking the finding");
 
-  const regenerate = runAllowlistedCommand(plan.regenerate);
-  say(`${plan.regenerate} exited ${regenerate.exit}.`);
+  const regenerate = providerRepair ? { exit: 0 } : runAllowlistedCommand(plan.regenerate);
+  say(`${plan.regenerate ?? "Bounded SeatGeek verification"} exited ${regenerate.exit}.`);
   observations.regenerateExit = regenerate.exit;
   if (regenerate.exit !== 0) say(regenerate.output);
   await step("running the approved regeneration");
@@ -626,8 +649,8 @@ async function main() {
   }
   await step("inspecting the diff");
 
-  const after = runAllowlistedCommand(plan.check);
-  say(`${plan.check} after regenerating exited ${after.exit}.`);
+  const after = providerRepair ? { exit: providerRepair.guard().ok ? 0 : 1 } : runAllowlistedCommand(plan.check);
+  say(`${plan.check ?? "Provider field guard"} after repair exited ${after.exit}.`);
   observations.checkExitAfter = after.exit;
   if (after.exit !== 0) say(after.output);
   await step("confirming the repair");
@@ -653,6 +676,12 @@ async function main() {
   }
   observations.validationFailures = validationFailures;
   await step("running the required validation");
+  // Validation must not enlarge the proposed repair's file or field scope.
+  const finalPaths = git(["status", "--porcelain", "--untracked-files=all"]).stdout.split("\n").map((line) => line.slice(3).trim()).filter(Boolean);
+  if (!classifyDiff(finalPaths, plan).ok || (providerRepair && !providerRepair.guard().ok)) {
+    restoreWorkspace();
+    await report(OUTCOMES.NEEDS_HUMAN, "Validation changed files or fields outside the declared repair boundary");
+  }
 
   // ── publish ───────────────────────────────────────────────────────────────
   const { title, body } = buildPullRequest({ plan, diff: observations.diff, checkOutputBefore: before.output });
@@ -665,7 +694,7 @@ async function main() {
     finish({ outcome: OUTCOMES.FIXED, reason: "dry run — the repair validated cleanly and would have opened one pull request.", plan });
   }
 
-  const commitMessage = [
+  const commitMessage = providerRepair ? `${title}\n\nRefs #${plan.issueNumber}.\n${plan.providerSummary}` : [
     title,
     "",
     `Regenerated by the Stage 3 maintenance worker from work-queue issue #${plan.issueNumber}.`,
@@ -740,7 +769,8 @@ async function main() {
 
   await report(
     OUTCOMES.FIXED,
-    `\`${plan.regenerate}\` cleared \`${plan.check}\`, every required validation passed on exactly this content, Prelaunch Validation passed on the pushed head, and one pull request is open for review.`,
+    providerRepair ? `${plan.providerSummary}\nEvery required validation and Prelaunch Validation passed; one PR is open for human review.`
+      : `\`${plan.regenerate}\` cleared \`${plan.check}\`, every required validation passed on exactly this content, Prelaunch Validation passed on the pushed head, and one pull request is open for review.`,
     pullRequest
   );
 }

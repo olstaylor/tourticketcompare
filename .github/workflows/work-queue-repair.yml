@@ -9,7 +9,12 @@ name: Work queue repair
 #   finding still holds -> perform the one bounded repair its type permits ->
 #   run the required validation -> open ONE pull request -> stop.
 #
-# v1 supports exactly one finding type, `generated_artifact_stale`, and its
+# Supports generated_artifact_stale and event_needs_provider_url. Provider
+# batches use the existing registry-anchored SeatGeek verifier with explicit
+# event IDs and a positive-match-only field guard. The worker may stage
+# public/data/events.json and exactly the selected artist's partition, plus
+# generated PROJECT_STATUS.md figures, for a human-reviewed PR.
+# The generated_artifact_stale
 # repair is one command looked up in the fixed `GENERATED_ARTEFACTS` allowlist in
 # scripts/check-generated-freshness.mjs — the same list the sensor itself runs.
 # Nothing in an issue can name a command, a path or a repair; the worker only
@@ -75,10 +80,17 @@ jobs:
     # The repair runs the artefact's own check twice, its generator, and the
     # full `test:mvp` suite, then waits for Prelaunch Validation to reach a
     # verdict on the pushed head (capped at 25 minutes by the helper).
-    timeout-minutes: 50
+    timeout-minutes: 59
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Wait for older event-data writer runs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 8
 
       # The finding was proved against `main`, and the repair's pull request
       # targets `main`. A dispatch from any other ref would branch the repair
@@ -116,6 +128,7 @@ jobs:
           node scripts/check-generated-freshness.mjs --self-test
           node scripts/materialize-work-queue.mjs --self-test
           node scripts/run-work-queue-repair.mjs --self-test
+          node scripts/provider-url-work.test.mjs
 
       - name: Identify the runner as the automation bot
         run: |
@@ -142,12 +155,21 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           REQUESTED_ISSUE: ${{ inputs.issue }}
           REQUESTED_DRY_RUN: ${{ inputs.dry_run }}
+          SEATGEEK_CLIENT_ID: ${{ secrets.SEATGEEK_CLIENT_ID }}
         run: |
           set -euo pipefail
           args=()
           if [ -n "${REQUESTED_ISSUE:-}" ]; then args+=(--issue "$REQUESTED_ISSUE"); fi
           if [ "${REQUESTED_DRY_RUN:-false}" = "true" ]; then args+=(--dry-run); fi
           node scripts/run-work-queue-repair.mjs ${args[@]+"${args[@]}"}
+
+      - name: Preserve provider batch verification evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: provider-url-repair
+          path: .audit/provider-url-repair.md
+          if-no-files-found: ignore
 
       - name: Report
         if: always()

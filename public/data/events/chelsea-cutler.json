@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "2D00653E8D0F6ADA",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-charleston-south-carolina-02-01-2027/event/2D00653E8D0F6ADA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-charleston-charleston-music-hall-2-1-2027/production/7637072",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-charleston-south-carolina-02-01-2027/event/2D00653E8D0F6ADA",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7637072,
+        "url": "https://www.vividseats.com/chelsea-cutler-tickets-charleston-charleston-music-hall-2-1-2027/production/7637072",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -66,7 +66,7 @@
     "ticketmaster_event_id": "2D00653D93FA7E1B",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-charlotte-north-carolina-02-05-2027/event/2D00653D93FA7E1B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-charlotte-the-fillmore-charlotte-2-5-2027/production/7637087",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-charlotte-north-carolina-02-05-2027/event/2D00653D93FA7E1B",
     "last_verified_at": null,
@@ -88,11 +88,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7637087,
+        "url": "https://www.vividseats.com/chelsea-cutler-tickets-charlotte-the-fillmore-charlotte-2-5-2027/production/7637087",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -100,12 +100,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301000",
+        "url": "https://www.ticketnetwork.com/en/p/8301000",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301000",
+        "url": "https://www.ticketliquidator.com/tickets/8301000/Chelsea-Cutler-tickets-Fri-Feb-5-2027-The-Fillmore-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KUKXEzh",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301000",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301000/Chelsea-Cutler-tickets-Fri-Feb-5-2027-The-Fillmore-Charlotte"
   },
   {
     "id": "tm-chelsea-cutler-2027-washington-164zkfuqdzacd655",
@@ -154,12 +170,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301001",
+        "url": "https://www.ticketnetwork.com/en/p/8301001",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301001",
+        "url": "https://www.ticketliquidator.com/tickets/8301001/Chelsea-Cutler-tickets-Sat-Feb-6-2027-930-Club",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "164ZkfUqdZACd655",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301001",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301001/Chelsea-Cutler-tickets-Sat-Feb-6-2027-930-Club"
   },
   {
     "id": "tm-chelsea-cutler-2027-washington-1avfz_kgkw7gvak",
@@ -208,12 +240,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301002",
+        "url": "https://www.ticketnetwork.com/en/p/8301002",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301002",
+        "url": "https://www.ticketliquidator.com/tickets/8301002/Chelsea-Cutler-tickets-Sun-Feb-7-2027-930-Club",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_KGkw7gVaK",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301002",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301002/Chelsea-Cutler-tickets-Sun-Feb-7-2027-930-Club"
   },
   {
     "id": "tm-chelsea-cutler-2027-philadelphia-vv1aovpuygauryej",
@@ -228,7 +276,7 @@
     "ticketmaster_event_id": "020065379D7B90A6",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-philadelphia-pennsylvania-02-10-2027/event/020065379D7B90A6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-philadelphia-the-fillmore-philadelphia-2-10-2027/production/7637094",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-philadelphia-pennsylvania-02-10-2027/event/020065379D7B90A6",
     "last_verified_at": null,
@@ -250,11 +298,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7637094,
+        "url": "https://www.vividseats.com/chelsea-cutler-tickets-philadelphia-the-fillmore-philadelphia-2-10-2027/production/7637094",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -262,12 +310,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301003",
+        "url": "https://www.ticketnetwork.com/en/p/8301003",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301003",
+        "url": "https://www.ticketliquidator.com/tickets/8301003/Chelsea-Cutler-tickets-Wed-Feb-10-2027-The-Fillmore-Philadelphia",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AOvPuyGAuryeJ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301003",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301003/Chelsea-Cutler-tickets-Wed-Feb-10-2027-The-Fillmore-Philadelphia"
   },
   {
     "id": "tm-chelsea-cutler-2027-brooklyn-k7vgf_kze_vgc",
@@ -282,7 +346,7 @@
     "ticketmaster_event_id": "0000653E0267430E",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-brooklyn-new-york-02-12-2027/event/0000653E0267430E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-brooklyn-brooklyn-paramount-2-12-2027/production/7637078",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-brooklyn-new-york-02-12-2027/event/0000653E0267430E",
     "last_verified_at": null,
@@ -304,11 +368,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7637078,
+        "url": "https://www.vividseats.com/chelsea-cutler-tickets-brooklyn-brooklyn-paramount-2-12-2027/production/7637078",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -316,12 +380,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301004",
+        "url": "https://www.ticketnetwork.com/en/p/8301004",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301004",
+        "url": "https://www.ticketliquidator.com/tickets/8301004/Chelsea-Cutler-tickets-Fri-Feb-12-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_Kze_VGC",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301004",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301004/Chelsea-Cutler-tickets-Fri-Feb-12-2027-Brooklyn-Paramount"
   },
   {
     "id": "tm-chelsea-cutler-2027-toronto-1avzz_kgkstt7dw",
@@ -532,12 +612,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301007",
+        "url": "https://www.ticketnetwork.com/en/p/8301007",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301007",
+        "url": "https://www.ticketliquidator.com/tickets/8301007/Chelsea-Cutler-tickets-Tue-Feb-23-2027-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkSWYs5j",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301007",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301007/Chelsea-Cutler-tickets-Tue-Feb-23-2027-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus"
   },
   {
     "id": "tm-chelsea-cutler-2027-dallas-vvg1yz_kraozwg",
@@ -552,7 +648,7 @@
     "ticketmaster_event_id": "0C00653BC5478CB5",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-dallas-texas-02-25-2027/event/0C00653BC5478CB5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-dallas-south-side-ballroom-2-25-2027/production/7637108",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-dallas-texas-02-25-2027/event/0C00653BC5478CB5",
     "last_verified_at": null,
@@ -574,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7637108,
+        "url": "https://www.vividseats.com/chelsea-cutler-tickets-dallas-south-side-ballroom-2-25-2027/production/7637108",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -586,12 +682,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301008",
+        "url": "https://www.ticketnetwork.com/en/p/8301008",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301008",
+        "url": "https://www.ticketliquidator.com/tickets/8301008/Chelsea-Cutler-tickets-Thu-Feb-25-2027-South-Side-Ballroom-at-Gilleys",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KRAozwg",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301008",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301008/Chelsea-Cutler-tickets-Thu-Feb-25-2027-South-Side-Ballroom-at-Gilleys"
   },
   {
     "id": "tm-chelsea-cutler-2027-phoenix-16v0z_koag7ux58",
@@ -606,7 +718,7 @@
     "ticketmaster_event_id": "1900653805DBE2D0",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-phoenix-arizona-03-03-2027/event/1900653805DBE2D0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-phoenix-the-van-buren-3-3-2027/production/7637484",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-phoenix-arizona-03-03-2027/event/1900653805DBE2D0",
     "last_verified_at": null,
@@ -628,11 +740,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7637484,
+        "url": "https://www.vividseats.com/chelsea-cutler-tickets-phoenix-the-van-buren-3-3-2027/production/7637484",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -640,12 +752,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301009",
+        "url": "https://www.ticketnetwork.com/en/p/8301009",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301009",
+        "url": "https://www.ticketliquidator.com/tickets/8301009/Chelsea-Cutler-tickets-Wed-Mar-3-2027-The-Van-Buren",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v0Z_KOAG7UX58",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301009",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301009/Chelsea-Cutler-tickets-Wed-Mar-3-2027-The-Van-Buren"
   },
   {
     "id": "tm-chelsea-cutler-2027-los-angeles-vv1aazkfzgkdgncya",
@@ -660,7 +788,7 @@
     "ticketmaster_event_id": "09006538CC8CEE49",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-los-angeles-california-03-04-2027/event/09006538CC8CEE49",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-los-angeles-the-bellwether-3-4-2027/production/7637464",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-los-angeles-california-03-04-2027/event/09006538CC8CEE49",
     "last_verified_at": null,
@@ -682,11 +810,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7637464,
+        "url": "https://www.vividseats.com/chelsea-cutler-tickets-los-angeles-the-bellwether-3-4-2027/production/7637464",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -694,12 +822,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301010",
+        "url": "https://www.ticketnetwork.com/en/p/8301010",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301010",
+        "url": "https://www.ticketliquidator.com/tickets/8301010/Chelsea-Cutler-tickets-Thu-Mar-4-2027-The-Bellwether",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkfzGkdGNCya",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301010",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301010/Chelsea-Cutler-tickets-Thu-Mar-4-2027-The-Bellwether"
   },
   {
     "id": "tm-chelsea-cutler-2027-san-diego-vvg1iz_ks1c6a3",
@@ -714,7 +858,7 @@
     "ticketmaster_event_id": "0B00653CCAB47152",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-san-diego-california-03-05-2027/event/0B00653CCAB47152",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-san-diego-the-observatory-north-park-3-5-2027/production/7637476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-san-diego-california-03-05-2027/event/0B00653CCAB47152",
     "last_verified_at": null,
@@ -736,11 +880,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7637476,
+        "url": "https://www.vividseats.com/chelsea-cutler-tickets-san-diego-the-observatory-north-park-3-5-2027/production/7637476",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -748,12 +892,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301011",
+        "url": "https://www.ticketnetwork.com/en/p/8301011",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301011",
+        "url": "https://www.ticketliquidator.com/tickets/8301011/Chelsea-Cutler-tickets-Fri-Mar-5-2027-The-Observatory-North-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_KS1c6A3",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301011",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301011/Chelsea-Cutler-tickets-Fri-Mar-5-2027-The-Observatory-North-Park"
   },
   {
     "id": "tm-chelsea-cutler-2027-boise-g5vzz_ksxzvbs",
@@ -768,7 +928,7 @@
     "ticketmaster_event_id": "1E00653CE2001EB3",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-boise-idaho-03-10-2027/event/1E00653CE2001EB3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-boise-knitting-factory-concert-house-boise-3-10-2027/production/7637474",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-boise-idaho-03-10-2027/event/1E00653CE2001EB3",
     "last_verified_at": null,
@@ -790,11 +950,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7637474,
+        "url": "https://www.vividseats.com/chelsea-cutler-tickets-boise-knitting-factory-concert-house-boise-3-10-2027/production/7637474",
+        "verified": true,
+        "last_verified_at": "2026-10-02",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

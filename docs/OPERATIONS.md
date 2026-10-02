@@ -9,7 +9,7 @@ All times UTC. What each lane may write, and the gated auto-merge contract every
 | Workflow | Schedule | Behavior |
 |---|---|---|
 | `daily-audit.yml` | 03:00 + dispatch | URL liveness + Ticketmaster Discovery diff to the rolling `automation:daily-audit` issue; publishes `last_verified_at` bumps for clean artists through an auto-merged PR. A `status-figures` job also runs daily and publishes the generated blocks in `PROJECT_STATUS.md` (route surface, empty boards) the same way, regardless of the audit job's own outcome. |
-| `nightly-data-sync.yml` | 03:30 + dispatch (queues behind `daily-audit.yml` on the shared `ticketmaster-api` concurrency group, so it starts later whenever that lane is still running) | Auto-commits lossless factual updates only (date/time, venue, `event_name`, canonical TM URL); anything needing judgement goes to `automation:data-sync`. Dispatch defaults to dry-run. |
+| `nightly-data-sync.yml` | 03:30 + dispatch (queues behind `daily-audit.yml` on the shared `ticketmaster-api` concurrency group, so it starts later whenever that lane is still running) | Auto-commits lossless factual updates only (date/time, venue, `event_name`, canonical TM URL); anything needing judgement goes to `automation:data-sync`. Scheduled runs reuse fresh exact-ID audit responses where valid; dispatch defaults to dry-run and always fetches directly. |
 | `tm-new-shows-pr.yml` | 04:00 + dispatch | New-show discovery PR; auto-merges after in-run validation. `tour_name` stays blank for human review. |
 | `seatgeek-cta-sync.yml` | 05:00 + dispatch | High-confidence SeatGeek event-link enrichment + identity-anchored provenance verification; auto-merges after in-run validation. |
 | `vividseats-cta-sync.yml` | 05:30 + dispatch | Catalog-backed Vivid Seats event-link/provenance sync; auto-merges after in-run validation. |
@@ -186,6 +186,146 @@ Watch that ratio rather than the event count when sizing future growth — if on
 
 Two costs were left in place on purpose. Every URL is re-checked daily including the 553 (11.8%) referenced only by past events, which the script already classifies as non-actionable *after* fetching them; skipping those would be a coverage reduction, and the archive-only share will grow, so it is the next thing to look at if the budget tightens. The Ticketmaster Discovery diff is a separate ~6.8 minutes and scales with artists, not events.
 
+### Shared tracked-event Ticketmaster sweep
+
+The audit remains the first daily tracked-event sweep. It calls
+`audit-tm-events.mjs --snapshot-out .audit/tm-snapshot.json` while producing its
+ordinary drift/missing/error report. Scheduled runs on `main` upload the
+transport as `tm-tracked-event-snapshot`, retained for **one day**, and remove
+it before uploading the existing 30-day audit evidence. Nothing under `public/`
+or `data/` is used to store this transport. It is never committed or served.
+
+Scheduled nightly sync uses `find-tm-snapshot.mjs` to select an artifact from a
+completed, successful **scheduled** `daily-audit.yml` run on `main` in this same
+repository. A manual dispatch, branch/fork run, failed run, expired artifact or
+run older than six hours cannot supply it. Lookup/download failure simply uses
+the existing direct fetches. The two workflows keep their existing concurrency
+group and schedules; no new infrastructure, token scope or publishing lane is
+introduced. If GitHub starts sync first, there may be no usable snapshot and
+that day's saving will be smaller.
+
+`scripts/lib/tm-event-snapshot.mjs` owns the versioned envelope and response
+projection. Records are keyed by the **exact, case-sensitive Discovery event
+ID**, bound to the Discovery base URL by its hash, and include fetch time,
+HTTP status, existence verdict, response kind, integrity checksum, and the raw
+fields both consumers read: event ID/name/URL, start/date/timezone/status,
+public on-sale time, venue names/zones/cities/countries with full venue
+cardinality, and attraction names in source order. Missing source fields stay
+null and keep the existing ambiguity gates. It persists no request URL, API
+key, arbitrary headers, `_links` or price fields; network error messages never
+include a credential-bearing URL.
+
+The snapshot and **each response at consumption time** have a fixed six-hour
+freshness limit (`SNAPSHOT_MAX_AGE_MS`), deliberately much shorter than the
+daily cadence. A partial/malformed/version-mismatched/source-mismatched
+snapshot, missing entry, checksum failure, future timestamp, or stale entry
+falls back to a direct request. Successful exact-ID 200s are reused; 404/410
+retain their status and stay **review-only**, never permission to delete.
+Transient/network/429/5xx and other HTTP failures remain explicit failed
+observations in the transport and are **not reused as verdicts**: sync makes a
+fresh request with its unchanged bounded retry budget. An unresolvable
+storefront/numeric ID is separate from the response map, never a missing show.
+Both lanes still select their own targets from their current checkout and
+re-evaluate the full local audit/sync rules; a newly tracked ID is fetched.
+
+The 14-day grace and seven-day long-past rotation from #1257 are unchanged.
+Held/rescheduled/undated/recent/upcoming rows keep their daily checks, and
+`TM_SWEEP_INCLUDE_PAST=1` still restores the full sweep. Cancellation/postponement
+holds, identity and ambiguity blockers, reschedule/date/venue decisions,
+human-only deletions/tour names, diff scope and every validation/publish gate
+remain in the consumers. Errors still veto sync publication. Both scripts now
+exit nonzero **after writing their evidence** on unresolved fetch errors;
+the audit's existing continue-on-error step retains the rolling findings and
+marks `tm-status.json` failed, then a final failure step makes the job red and
+withholds verification dates. Malformed/mismatched 200s are errors, never a
+clean audit.
+
+Logs, JSON reports (`requests`) and job summaries expose `events_requested`,
+`snapshot_reused`, `in_run_reused`, `direct_requests` (including retries),
+`skipped_past`, `unresolvable`, `snapshot_failed_entries`, `transient_failures`
+(failed attempts), `failed_events` (unresolved events), and
+`estimated_calls_saved` (old one-request-per-target baseline minus actual
+direct attempts; it can be negative during an outage). Sum the saved counts
+across the two lanes for the two-sweep saving. Only allowlisted numeric quota
+headers are recorded, when present, including Ticketmaster's `Rate-Limit` and
+`Rate-Limit-Available`; missing headers are normal. They are observations,
+not proof of remaining capacity later in the day.
+
+**Committed-data estimate, 2026-10-02 at 03:00 UTC, baseline `bc1df812`:**
+2,339 events, 93 indexed artists, 2,291 queryable tracked Discovery IDs and 48
+unresolvable rows. The rotation excludes 208 rows that day, leaving 2,083
+targets in **each** sweep, all exact-ID duplicates. Excludes retries, manual
+dispatches and traffic-dependent runtime calls; assumes a usable audit
+snapshot and normal provider responses. These are request estimates, not
+measured production usage or a claim that the quota incident is closed.
+
+| Scheduled consumer | Previous requests/day | With shared snapshot |
+|---|---:|---:|
+| Daily audit / `audit-tm-events.mjs` | 2,083 | 2,083 |
+| Nightly sync / `apply-tm-updates.mjs` | 2,083 | 0 normally; direct fallback/retries as needed |
+| New shows / `sync-tm-events-write-pr.mjs` → `sync-ticketmaster-events.py` | 93 (one attraction-events query per enabled verified identity) | 93 |
+| Roster candidates / `report-roster-forecast.mjs` + `propose-onboarding-batch.mjs` | ~330–840 | unchanged |
+| Auto-promote / same forecast + capture, `auto-promote.mjs` identity re-fetch + new-artist ingestion | ~330–840 + 0–25 | unchanged |
+| Price-guide candidates and other cache-only sensors | 0 Discovery calls | 0 |
+| **Scheduled fleet estimate, auto-promote on** | **~4,919–5,964** | **~2,836–3,881** |
+
+The **2,083-call saving** halves the tracked sweeps (about **35–42%** of the
+estimated scheduled fleet), adding headroom for discovery. Advancing the
+unchanged data through 2–8 October's rotation gives roughly 2,063–2,083 calls
+per sweep per day, averaging 2,071: two sweeps ~4,142 → ~2,071. With the
+include-past override on, today's two sweeps are 4,582 → 2,291.
+
+**Every other Discovery caller audited, intentionally outside this reuse:**
+
+- `report-roster-forecast.mjs`: 330 currently tracked markets with supported
+  country codes; one or two pages each (size 200), then up to 60 attraction
+  lookups: ~330–720 per full scan. Each roster workflow separately screens up
+  to 20 names with `propose-onboarding-batch.mjs`: one attraction lookup/search
+  each plus up to five event pages each, up to 120 additional calls. The actual
+  shortlist and page count require live data, so a precise daily total cannot
+  be inferred from committed events. Those searches find untracked events and
+  recapture identities; tracked-event snapshots cannot replace them.
+- `auto-promote.mjs` independently re-fetches captured attraction identities
+  in the promotion job for every eligible screened candidate (same-job
+  verification, up to 20 before the promotion cap); its new-artist ingestion
+  invokes the recogniser once per promoted artist (up to five). These
+  independent verification/discovery calls remain mandatory.
+- `propose-artists.mjs`: manual proposal, an attraction search then one
+  attraction-events query per matched name (plus diagnostic reachability and
+  attraction probe in diagnostic mode). **0 scheduled daily calls**.
+- `backfill-discovery-ids.mjs`: manual exact-event resolution probes plus up
+  to five attraction-event pages per artist needing recovery. Used by manual
+  `tm-data-refresh-pr.yml`, followed by a direct field-sync (~2,083 today,
+  depending on recovered IDs/rotation). **0 scheduled daily calls**.
+- `backfill-event-timezones.mjs`: manual one exact-event request per selected
+  missing-zone row. **0 scheduled daily calls**.
+- `functions/api/shows.js`: opt-in live artist discovery (one keyword event
+  search per cache miss, 30-minute fresh cache); optional per-event Discovery
+  price checks. Repo defaults have live artist discovery off and Discovery
+  price checks explicitly false, so ordinary traffic makes **0** of these
+  calls. Overrides/traffic cannot be counted from git; neither path changes.
+  Provider scaffolding has no implemented Discovery request. Outbound URL
+  liveness checks query storefront URLs, not the Discovery quota.
+
+**Production verification:** on the first genuine scheduled audit/sync pair,
+check the one-day artifact exists and contains no credentials; the ordinary
+audit still has its full findings, unresolvable and rotation counts; sync names
+the selected scheduled run and reports mostly `snapshot_reused`, with direct
+requests only for absent/stale/failed entries. Review the same factual diff and
+human-review issue, confirm the zero-error gate and in-job/exact-head validation
+still hold, and confirm the new-shows lane still performs all 93 identity
+queries without sustained 429s. Do not close the quota incident from an offline
+projection.
+
+**Rollback:** set repository variable `TM_SHARED_SNAPSHOT_DISABLED=1` before
+the next run. Audit still fetches and reports normally; it stops uploading the
+transport and scheduled sync stops looking it up, restoring direct two-sweep
+requests without changing any publishing/rotation rule. Manual dispatches
+already fetch directly. Clearing the variable enables reuse again. For a code
+rollback, revert the shared-snapshot PR; there is no schema/data migration and
+#1257's weekly rotation remains. A running sync that already downloaded its
+snapshot remains subject to all six-hour/integrity/safety gates.
+
 ## Secrets and bindings
 
 Full setup steps: [DEPLOYMENT.md](DEPLOYMENT.md). Reference of the actual credential names in use:
@@ -215,7 +355,7 @@ Infrastructure/automation issues only — dated, short, actionable. Content and 
 
 - **Work queue repair is blocked by a superseded branch (open 2026-09-30; #966).** Run `36704411871` refused to overwrite `automation/work-queue-repair-og-cards-9709a441ce59a015`, which still points at `6a7fce7ccc6fabe71c188a39c726cf98f56b493e`. Its PR #1184 was closed unmerged as outdated on 2026-09-28; the closing note requested branch deletion, but the branch remains and has no open PR. Delete that exact obsolete branch after owner approval, then let the next repair run regenerate from current `main`. Keep the worker's refusal to overwrite existing branches.
 
-- **The Ticketmaster Discovery key ran out on 2026-09-27, and both Ticketmaster writers published nothing (open).** The daily audit's per-event TM diff (08:46–09:00Z) finished with 0 errors. The nightly sync, queued behind it, started at 09:28Z and got `HTTP 429` on 1,911 of its 2,023 per-event lookups for fifteen straight minutes, through its retry budget, so its commit gate vetoed the run. The TM new-shows lane at 09:40Z then failed all 83 artist lookups in 9 seconds: its recogniser has no retry, and its coverage issue said only "live lookup failed". A 429 that holds for a quarter of an hour across retries points to the daily quota being spent, not the per-second limit. Two full sweeps now hit the same `/events/{id}` resource each day, the audit's diff and the nightly sync, each about one call per event. `events.json` grew from 1,427 to 2,183 events in a week, so together they come close to the default 5,000-call daily allowance before the roster, auto-promote and new-shows lanes spend any. The last of those is the cheapest (one call per artist) and the one that finds new dates, and it runs last. The skip reason now carries the status the recogniser saw (`live lookup failed (HTTP 429)`). **Past events are no longer re-fetched daily (2026-10-01):** an event more than 14 days past that carries no stored `ticketmaster_status_code` is re-checked by both sweeps on one day in seven, on a fixed rotation keyed by its id (`scripts/lib/tm-sweep-window.mjs`), rather than every night. It is never dropped, because Ticketmaster can reschedule a long-past date and the new-shows recogniser withholds a row whose Ticketmaster id already exists, so these sweeps are the only path that moves it. On that day's data each sweep went from 2,138 to 1,942 calls, and the saving grows as the archive does. Each run prints the skipped count; setting the repository variable `TM_SWEEP_INCLUDE_PAST` to `1` restores the full daily sweep in `daily-audit.yml`, `nightly-data-sync.yml` and `tm-data-refresh-pr.yml`. The remaining capacity levers are still an owner decision: ask Ticketmaster for a higher quota, or make the two sweeps share one fetch.
+- **The Ticketmaster Discovery key ran out on 2026-09-27, and both Ticketmaster writers published nothing (open).** The daily audit's per-event TM diff (08:46–09:00Z) finished with 0 errors. The nightly sync, queued behind it, started at 09:28Z and got `HTTP 429` on 1,911 of its 2,023 per-event lookups for fifteen straight minutes, through its retry budget, so its commit gate vetoed the run. The TM new-shows lane at 09:40Z then failed all 83 artist lookups in 9 seconds: its recogniser has no retry, and its coverage issue said only "live lookup failed". A 429 that holds for a quarter of an hour across retries points to the daily quota being spent, not the per-second limit. Two full sweeps now hit the same `/events/{id}` resource each day, the audit's diff and the nightly sync, each about one call per event. `events.json` grew from 1,427 to 2,183 events in a week, so together they come close to the default 5,000-call daily allowance before the roster, auto-promote and new-shows lanes spend any. The last of those is the cheapest (one call per artist) and the one that finds new dates, and it runs last. The skip reason now carries the status the recogniser saw (`live lookup failed (HTTP 429)`). **Past events are no longer re-fetched daily (2026-10-01):** an event more than 14 days past that carries no stored `ticketmaster_status_code` is re-checked by both sweeps on one day in seven, on a fixed rotation keyed by its id (`scripts/lib/tm-sweep-window.mjs`), rather than every night. It is never dropped, because Ticketmaster can reschedule a long-past date and the new-shows recogniser withholds a row whose Ticketmaster id already exists, so these sweeps are the only path that moves it. On that day's data each sweep went from 2,138 to 1,942 calls, and the saving grows as the archive does. Each run prints the skipped count; setting the repository variable `TM_SWEEP_INCLUDE_PAST` to `1` restores the full daily sweep in `daily-audit.yml`, `nightly-data-sync.yml` and `tm-data-refresh-pr.yml`. The shared-fetch implementation and expected further saving are documented above under "Shared tracked-event Ticketmaster sweep"; genuine production verification is still required before closing this incident. A higher quota remains a separate owner decision.
 
 - **Site health latched itself red through its own work-queue item (resolved 2026-09-28).** `check-site-health.mjs` already refused to gate on `automation:health`, because that issue watches `site-health.yml` itself. But `materialize-work-queue.mjs` copies each `automation:health` finding into its own `work-queue` issue, and every open `work-queue` issue gated. One red run opened #1168 "Scheduled lane not completing: Site health", which failed every later run and so stayed open. Sections 1–4 were all green on the 27 September run. `workQueueItemGates` now treats the `automation-health` work item whose identity is `site-health.yml` as linked context; every other work item still gates.
 

@@ -8,6 +8,10 @@ comparison_providers:
   - ticketmaster
   - ticketnetwork
 sources:
+  - name: COVID-19 FAQs
+    publisher: TicketNetwork
+    url: https://www.ticketnetwork.com/en/covid-19-faqs
+    last_checked: 2026-10-02
   - name: About Us
     publisher: TicketNetwork
     url: https://www.ticketnetwork.com/about-us
@@ -60,7 +64,7 @@ So "I bought it on Ticketmaster" does not by itself tell you which protections a
 
 TicketNetwork describes itself as connecting buyers to events where "all tickets are listed by professional ticket-selling companies & trusted ticket sellers." It is a marketplace layer: the sellers hold or expect to hold the tickets, and they set their own prices under the marketplace's rules. TicketNetwork's own pages carry the disclaimer that resale ticket prices may be above face value.
 
-What it does put its name to is a guarantee. TicketNetwork publishes a 100% money-back guarantee stating that "your tickets will arrive before the event" and that "all tickets are legitimate tickets, valid for entry." The same guarantee says you will receive the tickets you ordered or comparable alternatives, and that if an event is permanently cancelled TicketNetwork will coordinate a full refund of the order, excluding delivery fees. If a ticket fails at the door, it asks for evidence from the venue, such as a letter or an email from venue staff, so it can recover the refund from the seller. That is a meaningful promise, and it is a different shape from the primary-ticketing promise: it is not that you paid the organiser's price, it is that the ticket you paid for will work.
+What it does put its name to is a guarantee. TicketNetwork publishes a 100% money-back guarantee stating that "your tickets will arrive before the event" and that "all tickets are legitimate tickets, valid for entry." The same guarantee says you will receive the tickets you ordered or comparable alternatives, and that a permanently cancelled event is refunded. Its cancellation FAQ says the refund excludes delivery charges, or you can take a credit voucher worth 110% of the order instead. That is a meaningful promise, and it is a different shape from the primary-ticketing promise: it is not that you paid the organiser's price, it is that the ticket you paid for will work.
 
 Because listings are seller-set, availability and price on TicketNetwork move independently of whatever Ticketmaster is showing. A show that is sold out on the primary can still have listings here, and that is the ordinary case rather than a red flag.
 
@@ -75,8 +79,6 @@ The number that decides it is the complete current total, and neither site's hea
 In practice that means the honest comparison happens late, on two checkout pages, for two seats you have actually matched.
 
 ## The guarantees are the real difference
-
-This is the axis most comparisons skip, and it is the one that changes what you should do.
 
 - **A Ticketmaster primary ticket** comes through the organiser's authorised channel at the organiser's price, on Ticketmaster's own terms for that event.
 - **A Ticketmaster third-party resale ticket** is final unless the event is cancelled. The help page cited here sets out that cancellation route but does not set out an arrival-or-entry guarantee, so read the terms attached to your own order rather than assuming the familiar branding covers it.
@@ -119,3 +121,4 @@ Start with whoever the artist, venue, or promoter names as the official seller. 
 - [Concert ticket fees explained](/guides/concert-ticket-fees-explained)
 - [How to read a ticket listing](/guides/how-to-read-a-ticket-listing)
 - [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)
+- [Is TicketNetwork legit?](/guides/is-ticketnetwork-legit)

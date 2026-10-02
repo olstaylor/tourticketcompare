@@ -4,7 +4,14 @@ h1: Is Vivid Seats legit, and is it safe to buy from?
 description: Is Vivid Seats legit? What it is, who sets its prices, what its published guarantee covers, cancelled and postponed events, and checks before buying.
 status: published
 date_published: 2026-09-25
+comparison_providers:
+  - ticketmaster
+  - vivid-seats
 sources:
+  - name: Vivid Seats Guarantee terms
+    publisher: Vivid Seats
+    url: https://www.vividseats.com/guarantee.html
+    last_checked: 2026-10-02
   - name: Vivid Seats order protection terms
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000210291-what-is-the-100-buyer-guarantee-
@@ -121,3 +128,5 @@ No. The site checks that a link goes to the right event on Vivid Seats. The sell
 - [Vivid Seats vs StubHub](/guides/vivid-seats-vs-stubhub)
 - [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets)
 - [How to avoid ticket scams](/guides/how-to-avoid-ticket-scams)
+- [Is SeatGeek legit?](/guides/is-seatgeek-legit)
+- [Vivid Seats promo codes and fees](/guides/vivid-seats-promo-codes-and-fees)

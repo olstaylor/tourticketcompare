@@ -3517,7 +3517,8 @@ const GUIDE_PROVIDER_NAMES = [
   ["seatgeek", "SeatGeek"],
   ["vivid-seats", "Vivid Seats"],
   ["stubhub", "StubHub"],
-  ["ticketnetwork", "TicketNetwork"]
+  ["ticketnetwork", "TicketNetwork"],
+  ["ticket-liquidator", "Ticket Liquidator"]
 ];
 
 function guideProviders(path) {

@@ -21,7 +21,7 @@ sources:
 
 "Buy early" and "wait for prices to drop" are both offered as the answer, and neither holds for every show. There's no single best moment to buy. The right moment depends on what you care about most: getting in at all, a particular seat, sitting with your group, sticking to a budget, or keeping your options open.
 
-So there's no magic day here. Decide which of those matters most, and the timing follows. TourTicketCompare shows each ticket site's recent listed price for a date, but it doesn't track stock or predict where a price is heading. The final price, fees, availability and terms are on the ticket site when you check out.
+Decide which of those matters most, and the timing follows. TourTicketCompare shows each ticket site's recent listed price for a date, but it doesn't track stock or predict where a price is heading. The final price, fees, availability and terms are on the ticket site when you check out.
 
 ## Decide what you're optimising for
 

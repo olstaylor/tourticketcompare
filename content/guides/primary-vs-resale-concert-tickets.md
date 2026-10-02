@@ -36,7 +36,7 @@ What to expect:
 
 ## Resale tickets: bought from someone else
 
-A resale ticket is listed by someone who already holds it, or expects to be able to transfer it. The price is the seller's, set within the marketplace's rules, not anyone's official figure. StubHub, SeatGeek, and Vivid Seats are largely resale marketplaces, and some primary platforms run their own official resale for certain shows.
+A resale ticket is listed by someone who already holds it, or expects to be able to transfer it. The price is the seller's, set within the marketplace's rules, not anyone's official figure. StubHub and Vivid Seats are resale marketplaces; SeatGeek is both a resale marketplace and the primary seller for some leagues and venues. Some primary platforms run their own official resale for certain shows.
 
 What that means in practice:
 
@@ -112,3 +112,4 @@ Not always. Delivery depends on when the seller receives and transfers the ticke
 - [How to read a concert ticket listing](/guides/how-to-read-a-ticket-listing)
 - [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)
 - [Browse checked artist pages](/artists)
+- [What to do when Ticketmaster has no tickets left](/guides/no-tickets-left-on-ticketmaster)

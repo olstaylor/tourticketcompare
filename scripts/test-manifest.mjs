@@ -50,6 +50,7 @@ export const STEPS = [
   { id: "generated:freshness:self-test",         lane: "units",  run: "npm run generated:freshness:self-test" },
   { id: "queue:materialize:self-test",           lane: "units",  run: "npm run queue:materialize:self-test" },
   { id: "queue:repair:self-test",                lane: "units",  run: "npm run queue:repair:self-test" },
+  { id: "test:provider-url-work",                lane: "units",  run: "node scripts/provider-url-work.test.mjs" },
   { id: "required-check:self-test",              lane: "units",  run: "npm run required-check:self-test" },
   { id: "push-branch:self-test",                 lane: "units",  run: "npm run push-branch:self-test" },
   { id: "writer-lanes:self-test",                lane: "units",  run: "npm run writer-lanes:self-test" },

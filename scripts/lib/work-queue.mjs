@@ -17,6 +17,7 @@
 // scripts/materialize-work-queue.mjs. Nothing in this file can write anything.
 
 import { createHash } from "node:crypto";
+import { PROVIDER_URL_SOURCE, PROVIDER_URL_TYPE, providerUrlIdentity, validProviderUrlEvidence } from "./provider-url-work.mjs";
 
 export const QUEUE_LABEL = "work-queue";
 export const QUEUE_MARKER_PREFIX = "<!-- work-queue:v1 fingerprint=";
@@ -32,6 +33,8 @@ export const QUEUE_MARKER_PREFIX = "<!-- work-queue:v1 fingerprint=";
 // sensor's rolling issue, which this layer never touches, and the overflow is
 // reported in the run summary. The cap withholds a *task*, never evidence.
 export const DEFAULT_LIMITS = { maxNewPerRun: 5, maxOpenQueue: 25 };
+// Coverage is a backlog, not an incident. Reserve room for P1 repair findings.
+export const PROVIDER_URL_QUEUE_LIMITS = { maxNewPerRun: 2, maxOpenQueue: 10 };
 
 // Surfaces a coding agent must never change autonomously. Drawn from CLAUDE.md
 // -> Protected Areas and SAFE_PUBLISHING_RULES.md -> What AI Agents May Not
@@ -65,6 +68,19 @@ export const RED_SURFACES = new Set([
  * a red type can never be agent-ready regardless of what this table says.
  */
 export const FINDING_TYPES = {
+  event_needs_provider_url: {
+    source: PROVIDER_URL_SOURCE, priority: "P2", risk: "amber", execution: "agent:ready", touches: [],
+    summary: "An upcoming event batch needs independently verified SeatGeek URLs.",
+    matters: "Missing resale provenance leaves visitors without a verified resale alternative. A historical needs_recheck status alone is not a missing-link finding.",
+    acceptance: [
+      "Re-prove the current artist identity and exact event IDs against repository data.",
+      "Use only the registry-anchored SeatGeek API verifier; apply positive exact-event matches only.",
+      "Change only seatgeek_url and provider_links.seatgeek for the declared batch (at most 20 events), its artist partition, and generated status figures.",
+      "Report unmatched or ambiguous events explicitly; never infer a URL, tour label or confidence status.",
+      "Open one human-reviewed PR; do not merge."
+    ],
+    validation: ["`npm run events:validate:prod`", "`npm run events:validate:partitions`", "`npm run test:providers`", "`npm run test:mvp`", "`git diff --check`"]
+  },
   // A scheduled lane that failed, stopped being invoked, or stopped reaching a
   // verdict. Human-required because the remediation is a diagnosis: the run log
   // could name a provider outage, a red `main`, a credential, or a genuine code
@@ -92,7 +108,7 @@ export const FINDING_TYPES = {
 
   // A committed generated artefact that has drifted from its source.
   //
-  // The first and so far only agent-ready class, and it is agent-ready for one
+  // The original agent-ready class, and it is agent-ready for one
   // reason: the repair is not a judgement. The artefact is generated from
   // authoritative repository data by a fixed command, the sensor has already
   // proved in the same run that running that command makes the failing check
@@ -296,6 +312,29 @@ export function buildPayload(finding, registry = FINDING_TYPES) {
 }
 
 // ─── Extractors ─────────────────────────────────────────────────────────────
+export function extractProviderUrlFindings(report) {
+  if (report?.schema_version !== 1 || report.source !== PROVIDER_URL_SOURCE || report.complete !== true || !Array.isArray(report.batches)) {
+    throw new Error("Incomplete provider URL sensor report; refusing recovery sweep");
+  }
+  return report.batches.map((batch) => {
+    // Blocked batches claim their fingerprints but do not open new agent work.
+    // They are still in the complete report; a lost identity is not recovery.
+    if (!Array.isArray(batch.event_ids) || !batch.event_ids.length || (batch.eligible && !validProviderUrlEvidence(batch))) {
+      throw new Error("Invalid provider URL batch; refusing recovery sweep");
+    }
+    return {
+      source: PROVIDER_URL_SOURCE, type: PROVIDER_URL_TYPE, identity: providerUrlIdentity(batch),
+      promote: batch.eligible === true, retain: true,
+      sensor: "scripts/report-provider-url-work.mjs", dashboard: "the provider-url-coverage Actions artifact",
+      affected: `${batch.artist_slug}: ${batch.event_ids.length} exact events`,
+      title: `Event needs provider URL: ${batch.artist_slug} / SeatGeek (${batch.event_ids.length} events)`,
+      statement: `${batch.event_ids.length} upcoming events have missing or inconsistent SeatGeek verification. ${batch.no_verified_resale} have no verified resale provider.`,
+      evidence: [`Artist: ${batch.artist_slug}`, `Verified performer ID: ${batch.performer_id ?? "missing"}`,
+        `Event IDs: ${batch.event_ids.join(", ")}`, ...(batch.blocked_reason ? [batch.blocked_reason] : [])],
+      data: { provider: "seatgeek", artist_slug: batch.artist_slug, performer_id: batch.performer_id, event_ids: [...batch.event_ids].sort() }
+    };
+  });
+}
 //
 // Each reads a sensor's own structured output. No prose is parsed: if a sensor
 // only renders for humans, it is not integrated until it emits structure.
@@ -554,6 +593,8 @@ export function planQueue({
 
   const openQueueCount = existingIssues.filter((issue) => issue.state === "open").length;
   let created = 0;
+  let providerCreated = 0;
+  const openProviderCount = existingIssues.filter((issue) => issue.state === "open" && sourceFromBody(issue.body) === PROVIDER_URL_SOURCE).length;
   const seen = new Set();
 
   for (const finding of findings) {
@@ -590,12 +631,15 @@ export function planQueue({
       continue;
     }
 
-    if (created >= limits.maxNewPerRun || openQueueCount + created >= limits.maxOpenQueue) {
+    const providerCapped = finding.type === PROVIDER_URL_TYPE
+      && (providerCreated >= PROVIDER_URL_QUEUE_LIMITS.maxNewPerRun || openProviderCount + providerCreated >= PROVIDER_URL_QUEUE_LIMITS.maxOpenQueue);
+    if (providerCapped || created >= limits.maxNewPerRun || openQueueCount + created >= limits.maxOpenQueue) {
       plan.overflow.push({ payload, finding });
       continue;
     }
     plan.create.push({ payload, finding });
     created += 1;
+    if (finding.type === PROVIDER_URL_TYPE) providerCreated += 1;
   }
 
   // Recovery is scoped to the sources this run actually read, and that scoping is

@@ -137,6 +137,8 @@ jobs:
             node scripts/sync-impact-marketplace-events.mjs --apply "${args[@]}"
             npm run events:partition
             node scripts/validate-status-counts.mjs --write
+            # Card every page this run's data made indexable (scripts/build-og-cards.mjs).
+            if ! git diff --quiet -- public/data; then npm run og:build; fi
           else
             node scripts/sync-impact-marketplace-events.mjs "${args[@]}"
           fi
@@ -181,7 +183,7 @@ jobs:
           TODAY=$(date -u +%Y-%m-%d)
           BRANCH="automation/${PROVIDER}-impact-sync-${TODAY}"
           git checkout -B "$BRANCH"
-          git add public/data/events.json public/data/events-index.json public/data/events public/index.html PROJECT_STATUS.md
+          git add public/data/events.json public/data/events-index.json public/data/events public/index.html PROJECT_STATUS.md public/og functions/_og-cards.generated.js
           git commit -m "automation: ${PROVIDER} Impact catalog sync (${TODAY})"
           node scripts/push-automation-branch.mjs "$BRANCH" --force-with-lease
           BRANCH="$BRANCH" \

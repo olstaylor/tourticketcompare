@@ -272,7 +272,7 @@ function buildRow(config, item, price, now, freshnessHours) {
     expires_at: new Date(now.getTime() + freshnessHours * 3600000).toISOString(),
     source: config.priceSource,
     // Venue-local event datetime, denormalised onto the history row (migration
-    // 0010). Write time is the only moment it is reliably known: history rows
+    // 0012). Write time is the only moment it is reliably known: history rows
     // outlive the events.json records they point at, and once that record is
     // gone the observation cannot be placed against its own concert date.
     // Null when the event carries no date — never guessed.
@@ -287,7 +287,7 @@ function sqlLiteral(value) {
 }
 
 // includeEventDate reflects what the database actually has, probed once per run
-// (scripts/lib/pricing-schema.mjs). Defaults to the post-0010 shape; the caller
+// (scripts/lib/pricing-schema.mjs). Defaults to the post-0012 shape; the caller
 // passes false when the column is absent so the write degrades to the previous
 // column set instead of failing.
 function buildHistoryInsertSql(row, includeEventDate = true) {
@@ -621,7 +621,7 @@ async function selfTest() {
   // A dateless event stores NULL rather than a guess.
   const dateless = buildSql([{ id: "x", artist_slug: "raye", event_id: "e1", provider: config.slug, low_price: 60, avg_price: null, high_price: null, currency: "GBP", inventory_count: 4, verified_at: "2026-07-13T00:00:00.000Z", expires_at: "2026-07-13T06:00:00.000Z", source: config.priceSource, event_date: null }]);
   assert.match(dateless, /source, observed_at, event_date\)\nSELECT .*, NULL\n/);
-  // Pre-0010 database: the write must degrade to the previous column set rather
+  // Pre-0012 database: the write must degrade to the previous column set rather
   // than fail. A failed history insert takes the cache upsert down with it, and
   // with a 24h freshness window that blanks every price on the site.
   const legacy = buildSql([{ id: "x", artist_slug: "raye", event_id: "e1", provider: config.slug, low_price: 60, avg_price: null, high_price: null, currency: "GBP", inventory_count: 4, verified_at: "2026-07-13T00:00:00.000Z", expires_at: "2026-07-13T06:00:00.000Z", source: config.priceSource, event_date: "2027-07-09T19:00:00Z" }], false);

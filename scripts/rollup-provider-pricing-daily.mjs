@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Daily rollup of provider_pricing_history into provider_pricing_daily
-// (migration 0010). Backfill and steady-state are the same operation: this
+// (migration 0012). Backfill and steady-state are the same operation: this
 // script is idempotent per UTC day, so running it once over a wide --since
 // window backfills, and running it over the last day or two keeps the rollup
 // current.
@@ -269,12 +269,12 @@ async function run(options, deps = {}) {
     zero_row_reason: null
   };
 
-  // Migration 0010 is applied by hand, so this can legitimately run against a
+  // Migration 0012 is applied by hand, so this can legitimately run against a
   // database that has no rollup table yet. That is a "nothing to do", not a
   // failure: say so plainly and exit clean, rather than throwing an unknown-table
   // error into a workflow step that exists to be quiet when healthy.
   if (!(await (deps.rollupExists || dailyRollupExists)(options, deps.runner))) {
-    summary.zero_row_reason = "provider_pricing_daily does not exist — apply migration 0010";
+    summary.zero_row_reason = "provider_pricing_daily does not exist — apply migration 0012";
     return summary;
   }
 

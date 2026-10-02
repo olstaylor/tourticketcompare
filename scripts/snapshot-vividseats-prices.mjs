@@ -231,7 +231,7 @@ function buildSnapshotRow(item, price, now, freshnessHours) {
     inventory_count: price.inventoryCount, verified_at: verifiedAt,
     expires_at: new Date(now.getTime() + freshnessHours * 3600000).toISOString(), source: APPROVED_SOURCE,
     // Venue-local event datetime, denormalised onto the history row (migration
-    // 0010). Write time is the only moment it is reliably known: history rows
+    // 0012). Write time is the only moment it is reliably known: history rows
     // outlive the events.json records they point at, and once that record is
     // gone the observation cannot be placed against its own concert date.
     // Null when the event carries no date — never guessed.
@@ -240,7 +240,7 @@ function buildSnapshotRow(item, price, now, freshnessHours) {
 }
 function sqlLiteral(value) { if (value == null) return "NULL"; if (typeof value === "number") return Number.isFinite(value) ? String(value) : "NULL"; return `'${String(value).replaceAll("'", "''")}'`; }
 // includeEventDate reflects what the database actually has, probed once per run
-// (scripts/lib/pricing-schema.mjs). Defaults to the post-0010 shape; the caller
+// (scripts/lib/pricing-schema.mjs). Defaults to the post-0012 shape; the caller
 // passes false when the column is absent so the write degrades to the previous
 // column set instead of failing.
 function buildHistoryInsertSql(row, includeEventDate = true) {
@@ -290,7 +290,7 @@ async function writeRowsToD1(rows, options) {
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), "vividseats-impact-snapshot-"));
   const sqlPath = path.join(dir, "upsert-provider-pricing-cache.sql");
   try {
-    // Emit the column set this database actually has. Migration 0010 is
+    // Emit the column set this database actually has. Migration 0012 is
     // applied by hand, so code and schema disagree for some window in
     // whichever direction the operator picks; a price write must survive both.
     const includeEventDate = await historySupportsEventDate(options);
@@ -436,7 +436,7 @@ async function selfTest() {
   // event date would manufacture a price-change row.
   assert.doesNotMatch(sql, /SELECT low_price IS[^\n]*event_date/);
   assert.doesNotMatch(sql, /INSERT INTO provider_pricing_cache[^;]*event_date/);
-  // Pre-0010 database: the write must degrade to the previous column set rather
+  // Pre-0012 database: the write must degrade to the previous column set rather
   // than fail. A failed history insert takes the cache upsert down with it, and
   // with a 24h freshness window that blanks every price on the site.
   const legacy = buildUpsertSql([built.row], false);

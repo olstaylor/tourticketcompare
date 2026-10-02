@@ -37,7 +37,7 @@ Notes:
   set the database actually has, exactly as the analytics writers do for the `0008` columns.
   Against a database without this migration they write the previous column set and
   `event_date` is simply not recorded; the rollup reports
-  `provider_pricing_daily does not exist — apply migration 0010` and exits clean. The probe
+  `provider_pricing_daily does not exist — apply migration 0012` and exits clean. The probe
   fails closed to the previous column set, because the cost of wrongly omitting `event_date`
   is one run of history rows missing an optional field, while the cost of wrongly including
   it is a failed write — and a failed history insert takes the cache upsert down with it,

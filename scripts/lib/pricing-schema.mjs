@@ -1,6 +1,6 @@
 // Runtime detection of optional pricing-schema columns and tables.
 //
-// Migration 0010 adds provider_pricing_history.event_date and the
+// Migration 0012 adds provider_pricing_history.event_date and the
 // provider_pricing_daily rollup. Both snapshot writers deploy the moment their
 // branch merges, but a migration is applied by hand — so for some window the
 // code and the database disagree, in whichever direction the operator happens

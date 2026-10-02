@@ -1363,7 +1363,8 @@ function createLiveAdapter(provider, env) {
       }
 
       const baseUrl = String(env?.TICKETMASTER_DISCOVERY_BASE_URL || DEFAULT_TICKETMASTER_DISCOVERY_BASE).replace(/\/+$/, "");
-      const discoveryPriceChecksEnabled = getEnvBoolean(env?.TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED, true);
+      // Off unless explicitly enabled, matching how /api/health reports it.
+      const discoveryPriceChecksEnabled = getEnvBoolean(env?.TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED, false);
       if (!discoveryPriceChecksEnabled) {
         return {
           provider,

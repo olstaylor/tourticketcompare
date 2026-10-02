@@ -143,6 +143,13 @@ export function externalReferrer(value) {
 
 // Event ids are opaque catalogue keys (e.g. tm-<artist>-<year>-<city>-<hex>).
 // Accept only that shape so a beacon cannot write free text into the column.
+// Slugs and link ids are identifiers, never free text: anything else is
+// dropped rather than stored.
+function safeIdentifier(value, max) {
+  const raw = clean(value, max);
+  return /^[A-Za-z0-9][A-Za-z0-9._:-]*$/.test(raw) ? raw : null;
+}
+
 export function safeEventId(value) {
   const raw = clean(value, 120);
   return /^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$/.test(raw) ? raw : null;
@@ -177,9 +184,13 @@ export async function onRequestPost({ request, env }) {
     return json({ ok: false, status: "payload_too_large" }, 413);
   }
 
+  // Content-Length is absent on chunked uploads, so the size is enforced on
+  // the bytes actually read as well.
   let payload = null;
   try {
-    payload = await request.json();
+    const rawBody = await request.arrayBuffer();
+    if (rawBody.byteLength > MAX_BODY_SIZE) return json({ ok: false, status: "payload_too_large" }, 413);
+    payload = JSON.parse(new TextDecoder().decode(rawBody));
   } catch (error) {
     return json({ ok: false, status: "invalid_json" }, 400);
   }
@@ -195,7 +206,7 @@ export async function onRequestPost({ request, env }) {
   const metadata = sanitizeMetadata(payload?.metadata);
   const now = new Date().toISOString();
   const sourcePath = safePath(payload?.sourcePath);
-  const artistSlug = clean(payload?.artistSlug, 80) || null;
+  const artistSlug = safeIdentifier(payload?.artistSlug, 80);
   const requestKey = await hashRequestKey(request);
   // Client-reported external origin wins. The header is a last-resort fallback
   // and is subject to the same own-host rejection: under the site's
@@ -205,9 +216,8 @@ export async function onRequestPost({ request, env }) {
     externalReferrer(payload?.referrer) || externalReferrer(request.headers.get("referer"));
   const userAgent = clean(request.headers.get("user-agent"), 255) || null;
   const provider = normalizeProviderSlug(payload?.provider || metadata.provider) || null;
-  const tourSlug = clean(payload?.tourSlug || metadata.tourSlug, 120) || null;
-  const destinationHost = clean(payload?.destinationHost || metadata.destinationHost, 255) || null;
-  const linkId = clean(payload?.linkId || metadata.linkId, 120) || null;
+  const tourSlug = safeIdentifier(payload?.tourSlug || metadata.tourSlug, 120);
+  const linkId = safeIdentifier(payload?.linkId || metadata.linkId, 120);
 
   // Funnel dimensions. Page type and device category are derived server-side so
   // that every event — including the server-side outbound click, which has no
@@ -247,7 +257,9 @@ export async function onRequestPost({ request, env }) {
     metadata_json: metadataJson,
     provider,
     tour_slug: tourSlug,
-    destination_host: destinationHost,
+    // Only /api/out knows where a click really went; a beacon's claim is not
+    // recorded.
+    destination_host: null,
     link_id: linkId,
     page_type: pageType,
     landing_path: landingPath,

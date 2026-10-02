@@ -3,7 +3,7 @@
 // do not and why, and how old the prices on the site are.
 //
 // Added 2026-09-24 (Phase 1 of the launch-readiness milestone,
-// docs/audits/2026-09-launch-readiness.md §1). `price-freshness-check.yml`
+// PR #1125). `price-freshness-check.yml`
 // already turns red on a total blackout, when no lane is serving a price at
 // all. This covers the partial regressions it cannot see:
 //   - a lane that silently stops pricing the dates it is mapped to;

@@ -141,3 +141,6 @@ For your next booking:
 - [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)
 - [How resale ticket pricing works](/guides/how-resale-ticket-pricing-works)
 - [How to avoid ticket scams and fake listings](/guides/how-to-avoid-ticket-scams)
+- [Is SeatGeek legit?](/guides/is-seatgeek-legit)
+- [Is Vivid Seats legit?](/guides/is-vivid-seats-legit)
+- [Is TicketNetwork legit?](/guides/is-ticketnetwork-legit)

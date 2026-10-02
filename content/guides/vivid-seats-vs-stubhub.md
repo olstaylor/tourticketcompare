@@ -5,6 +5,10 @@ description: Vivid Seats vs StubHub compared on seller pricing, upfront fees, bu
 status: published
 date_published: 2026-09-25
 sources:
+  - name: Vivid Seats Guarantee terms
+    publisher: Vivid Seats
+    url: https://www.vividseats.com/guarantee.html
+    last_checked: 2026-10-02
   - name: How are ticket prices determined?
     publisher: Vivid Seats Customer Support
     url: https://support.vividseats.com/support/solutions/articles/1000210417-how-are-ticket-prices-determined-
@@ -92,7 +96,7 @@ On both sites, delivery depends on how the venue issues tickets. Vivid Seats ema
 
 ## Check which StubHub site you're on
 
-StubHub's support site says stubhub.com and stubhub.ca are StubHub North America, while the StubHub sites in the UK, Ireland, much of Europe and Mexico belong to [StubHub International](/guides/stubhub-international-explained), a separately owned business with its own accounts. If you are buying for a show outside the US or Canada, read the terms of the StubHub site the listing is on.
+StubHub's support site says stubhub.com and stubhub.ca are StubHub North America, while the StubHub sites in the UK, Ireland, much of Europe and Mexico belong to [StubHub International](/guides/stubhub-international-explained), a separately owned business with its own accounts. If you are buying for a show outside the US or Canada, read the terms of the StubHub site the listing is on. On TourTicketCompare, every StubHub button is a StubHub International link that opens a stubhub.ie event page, including for US shows, so the StubHub terms that apply to an order placed from this site are StubHub International's.
 
 ## Which should you use?
 

@@ -62,6 +62,7 @@ const env = {
 };
 
 const { onRequest, SCHEMA_OFFERS_APPROVED_PROVIDERS } = await import(pathToFileURL(path.join(root, "functions/[[path]].js")));
+const { artistPageIndexable } = await import(pathToFileURL(path.join(root, "functions/_artist-indexability.js")));
 const { OG_CARDS } = await import(pathToFileURL(path.join(root, "functions/_og-cards.generated.js")));
 
 // MusicEvent.image must name the same file as the page's og:image meta, and
@@ -246,12 +247,30 @@ function expectedMusicEventCount(artistSlug) {
 // row, real data can never emit an Offer.
 {
   const catalog = JSON.parse(await fs.readFile(path.join(root, "public/data/catalog.json"), "utf8"));
+  const artistsMeta = JSON.parse(await fs.readFile(path.join(root, "public/data/artists.json"), "utf8"));
   let checked = 0;
   let totalEvents = 0;
   for (const artist of catalog.artists || []) {
     const pathname = `/artists/${artist.slug}`;
     const html = await (await render(pathname)).text();
     assertApexHead(html, pathname);
+    // A noindex artist page emits no MusicEvent nodes (functions/[[path]].js
+    // gates them on route.indexable). An auto-promoted artist with fewer than
+    // AUTO_PROMOTED_MIN_UPCOMING_SHOWS upcoming dates is exactly that page: it
+    // still renders its dates, but expecting nodes for them failed every PR
+    // that carried one (auto-promote 2026-10-02, /artists/hazlett with 2).
+    // Indexability comes from the router's own predicate, and the robots meta
+    // must agree with it, so this cannot quietly accept a page gone noindex.
+    const meta = artistsMeta.find((record) => record?.slug === artist.slug) || {};
+    const indexable = artistPageIndexable(
+      { ...artist, indexing_status: meta.indexing_status || "", promotion_source: meta.promotion_source || "" },
+      events,
+      artist.slug
+    );
+    const robots = html.match(/<meta\s+name="robots"\s+content="([^"]*)"/i)?.[1] || "";
+    if (robots.includes("noindex") === indexable) {
+      fail(`${pathname}: robots is "${robots}" but artistPageIndexable() says ${indexable ? "indexable" : "noindex"}`);
+    }
     const graph = extractGraph(html, pathname);
     if (!graph) continue;
     // Selected by @id, not by type: "the first Person in the graph" once
@@ -264,7 +283,7 @@ function expectedMusicEventCount(artistSlug) {
       fail(`${pathname}: artist node is "${artistNode["@type"]}", expected Person or MusicGroup`);
     }
     const musicEvents = graph.filter((node) => node["@type"] === "MusicEvent");
-    const expected = expectedMusicEventCount(artist.slug);
+    const expected = indexable ? expectedMusicEventCount(artist.slug) : 0;
     // Read the rendered page, not the publishable-event count. An artist whose
     // upcoming records have no publishable ticket destination still renders its
     // date cards and its FAQ, while expectedMusicEventCount() filters through
@@ -963,7 +982,7 @@ function expectedMusicEventCount(artistSlug) {
       return record;
     }
     const day = 24 * 60 * 60 * 1000;
-    // A venue-local 20:00 in Springfield (America/Chicago) is 01:00Z the next
+    // A venue-local 20:00 (19:00 in winter) in Springfield (America/Chicago) is 01:00Z the next
     // UTC day, so every fixture's UTC and local dates differ.
     const at = (daysAhead, utcTime = "01:00:00") => `${new Date(Date.now() + daysAhead * day).toISOString().slice(0, 10)}T${utcTime}Z`;
     const SCHEDULED = fixture("schema-fixture-scheduled", at(30));
@@ -1030,9 +1049,12 @@ function expectedMusicEventCount(artistSlug) {
     const jsonLdIn = (html) => /application\/ld\+json/.test(html);
 
     const scheduled = await check(SCHEDULED, "scheduled");
-    if (scheduled?.eventStatus === STATUS_URL.scheduled && /-05:00$/.test(scheduled.startDate) && scheduled.startDate.startsWith(resolveEventLocalDate(SCHEDULED).iso) && !SCHEDULED.datetime_iso.startsWith(resolveEventLocalDate(SCHEDULED).iso)) {
+    // Chicago is -05:00 (CDT) or -06:00 (CST) depending on the date, and the
+    // fixture date floats 30 days ahead of today, so either offset is right;
+    // pinning -05:00 failed every PR from 2026-10-03 (fixture past Nov 1).
+    if (scheduled?.eventStatus === STATUS_URL.scheduled && /-0[56]:00$/.test(scheduled.startDate) && scheduled.startDate.startsWith(resolveEventLocalDate(SCHEDULED).iso) && !SCHEDULED.datetime_iso.startsWith(resolveEventLocalDate(SCHEDULED).iso)) {
       ok(`event fixture scheduled: EventScheduled at the venue-local ${scheduled.startDate} (stored ${SCHEDULED.datetime_iso}, a UTC date one day later)`);
-    } else fail(`event fixture scheduled: expected EventScheduled at a venue-local -05:00 time, got ${JSON.stringify(scheduled)}`);
+    } else fail(`event fixture scheduled: expected EventScheduled at a venue-local Chicago (-05:00/-06:00) time, got ${JSON.stringify(scheduled)}`);
     if (scheduled && /Official Platinum/.test(scheduled.name)) fail("event fixture scheduled: the provider listing title leaked into the name");
 
     // The same fresh approved row renders a price on the page and an Offer on

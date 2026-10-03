@@ -1984,18 +1984,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8043823",
-        "url": "https://www.ticketliquidator.com/tickets/8043823/Sylvan-Esso-tickets-Fri-Oct-2-2026-The-Orange-Peel",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PajJ",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043823/Sylvan-Esso-tickets-Fri-Oct-2-2026-The-Orange-Peel"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-sylvan-esso-2026-asheville-z7r9jz1a7paje",

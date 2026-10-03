@@ -2642,12 +2642,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295552",
+        "url": "https://www.ticketliquidator.com/tickets/8295552/Daughtry-tickets-Mon-Jan-25-2027-King-Center-For-The-Performing-Arts",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83v",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295552"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295552",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295552/Daughtry-tickets-Mon-Jan-25-2027-King-Center-For-The-Performing-Arts"
   },
   {
     "id": "tm-daughtry-2027-clearwater-z7r9jz1aae83e",
@@ -2703,12 +2711,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295553",
+        "url": "https://www.ticketliquidator.com/tickets/8295553/Daughtry-tickets-Thu-Jan-28-2027-Ruth-Eckerd-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83e",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295553"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295553",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295553/Daughtry-tickets-Thu-Jan-28-2027-Ruth-Eckerd-Hall"
   },
   {
     "id": "tm-daughtry-2027-austin-z7r9jz1aae83d",
@@ -2931,12 +2947,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295556",
+        "url": "https://www.ticketliquidator.com/tickets/8295556/Daughtry-tickets-Thu-Feb-18-2027-RCU-Theatre-At-Pablo-Center-at-the-Confluence",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83k",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295556"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295556",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295556/Daughtry-tickets-Thu-Feb-18-2027-RCU-Theatre-At-Pablo-Center-at-the-Confluence"
   },
   {
     "id": "tm-daughtry-2027-orono-z7r9jz1aae836",
@@ -2992,12 +3016,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295558",
+        "url": "https://www.ticketliquidator.com/tickets/8295558/Daughtry-tickets-Mon-Mar-1-2027-Hutchins-Concert-Hall-At-Collins-Center-for-the-Arts",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe836",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295558"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295558",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295558/Daughtry-tickets-Mon-Mar-1-2027-Hutchins-Concert-Hall-At-Collins-Center-for-the-Arts"
   },
   {
     "id": "tm-daughtry-2027-charlottesville-z7r9jz1aae83f",

@@ -17146,11 +17146,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7668643",
-        "url": "https://www.ticketliquidator.com/tickets/7668643/Bruno-Mars-tickets-Fri-Oct-2-2026-SoFi-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107068177",
@@ -17165,7 +17165,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZbyQBb4mX",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668643/Bruno-Mars-tickets-Fri-Oct-2-2026-SoFi-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-2-2026/event/107068177"
   },
   {
@@ -25907,11 +25907,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7583746",
-        "url": "https://www.ticketliquidator.com/tickets/7583746/Zach-Bryan-tickets-Fri-Oct-2-2026-Gillette-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107026100",
@@ -25925,7 +25925,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583746/Zach-Bryan-tickets-Fri-Oct-2-2026-Gillette-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-foxborough-tickets-10-2-2026/event/107026100"
   },
   {
@@ -36922,11 +36922,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7874848",
-        "url": "https://www.ticketliquidator.com/tickets/7874848/sombr-tickets-Fri-Oct-2-2026-Moda-Center-at-the-Rose-Quarter",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_FLJtDXU",
@@ -36934,7 +36934,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-portland-tickets-10-2-2026/event/107155465",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874848/sombr-tickets-Fri-Oct-2-2026-Moda-Center-at-the-Rose-Quarter"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-sombr-2026-sacramento-g5vyz_fli21bj",
@@ -41947,11 +41947,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7896542",
-        "url": "https://www.ticketliquidator.com/tickets/7896542/Karol-G-tickets-Fri-Oct-2-2026-Hard-Rock-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107162168",
@@ -41965,7 +41965,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896542/Karol-G-tickets-Fri-Oct-2-2026-Hard-Rock-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-miami-gardens-tickets-10-2-2026/event/107162168"
   },
   {
@@ -45312,11 +45312,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7883096",
-        "url": "https://www.ticketliquidator.com/tickets/7883096/Teddy-Swims-tickets-Fri-Oct-2-2026-Barclays-Center",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107154938",
@@ -45330,7 +45330,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883096/Teddy-Swims-tickets-Fri-Oct-2-2026-Barclays-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-brooklyn-tickets-10-2-2026/event/107154938"
   },
   {
@@ -66462,18 +66462,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7783797",
-        "url": "https://www.ticketliquidator.com/tickets/7783797/Sabaton-tickets-Fri-Oct-2-2026-Burton-Cummings-Theatre",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkobGkelDVU-",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7783797/Sabaton-tickets-Fri-Oct-2-2026-Burton-Cummings-Theatre"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-sabaton-2026-vancouver-z7r9jz1a7-ojs",
@@ -129301,18 +129301,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8043823",
-        "url": "https://www.ticketliquidator.com/tickets/8043823/Sylvan-Esso-tickets-Fri-Oct-2-2026-The-Orange-Peel",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PajJ",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043823/Sylvan-Esso-tickets-Fri-Oct-2-2026-The-Orange-Peel"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-sylvan-esso-2026-asheville-z7r9jz1a7paje",
@@ -153867,12 +153867,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293403",
+        "url": "https://www.ticketliquidator.com/tickets/8293403/Andrea-Bocelli-tickets-Tue-Oct-5-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfzGkd7qkYK",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293403"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293403",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293403/Andrea-Bocelli-tickets-Tue-Oct-5-2027-Co-Op-Live"
   },
   {
     "id": "tm-blondshell-2027-vancouver-16ozkfzopzauakea",
@@ -153928,12 +153936,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295784",
+        "url": "https://www.ticketliquidator.com/tickets/8295784/Blondshell-tickets-Sat-Mar-6-2027-Commodore-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16oZkfzOpZAuAkeA",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295784"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295784",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295784/Blondshell-tickets-Sat-Mar-6-2027-Commodore-Ballroom"
   },
   {
     "id": "tm-blondshell-2027-asbury-park-k7vgf_knjlgim",
@@ -154042,12 +154058,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295778",
+        "url": "https://www.ticketliquidator.com/tickets/8295778/Blondshell-tickets-Sat-May-15-2027-Majestic-Theatre-Madison",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvYvPC_GA55f1W",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295778"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295778",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295778/Blondshell-tickets-Sat-May-15-2027-Majestic-Theatre-Madison"
   },
   {
     "id": "tm-blondshell-2027-detroit-vv1afzkfmgkdgjzny",
@@ -154262,12 +154286,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284543",
+        "url": "https://www.ticketliquidator.com/tickets/8284543/Hilary-Duff-tickets-Fri-Oct-1-2027-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeve7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284543"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284543",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284543/Hilary-Duff-tickets-Fri-Oct-1-2027-Amerant-Bank-Arena"
   },
   {
     "id": "tm-hilary-duff-2027-cleveland-z7r9jz1aaevea",
@@ -154323,12 +154355,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284549",
+        "url": "https://www.ticketliquidator.com/tickets/8284549/Hilary-Duff-tickets-Wed-Oct-13-2027-Rocket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeveA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284549"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284549",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284549/Hilary-Duff-tickets-Wed-Oct-13-2027-Rocket-Arena"
   },
   {
     "id": "tm-hilary-duff-2027-des-moines-z7r9jz1aaevep",
@@ -154384,12 +154424,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284569",
+        "url": "https://www.ticketliquidator.com/tickets/8284569/Hilary-Duff-tickets-Sun-Nov-14-2027-Caseys-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAevep",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284569"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284569",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284569/Hilary-Duff-tickets-Sun-Nov-14-2027-Caseys-Center"
   },
   {
     "id": "tm-hilary-duff-2027-anaheim-vv170z_kgkrlzqwi",
@@ -154445,12 +154493,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301234",
+        "url": "https://www.ticketliquidator.com/tickets/8301234/Hilary-Duff-tickets-Sun-Nov-21-2027-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_KGkRLZQWI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301234"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301234",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301234/Hilary-Duff-tickets-Sun-Nov-21-2027-Honda-Center"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-torrensville-1akzkfggkepdplf",
@@ -154559,12 +154615,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8297685",
+        "url": "https://www.ticketliquidator.com/tickets/8297685/Lizzy-McAlpine-tickets-Wed-Mar-31-2027-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KrVBN6w",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297685"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297685",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297685/Lizzy-McAlpine-tickets-Wed-Mar-31-2027-O2-Academy-Brixton"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-london-g5dzz_kslx95p",
@@ -154620,12 +154684,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8297134",
+        "url": "https://www.ticketliquidator.com/tickets/8297134/Lizzy-McAlpine-tickets-Thu-Apr-1-2027-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KSLX95p",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297134"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297134",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297134/Lizzy-McAlpine-tickets-Thu-Apr-1-2027-O2-Academy-Brixton"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-london-g5dzz_kscgmsk",
@@ -154681,12 +154753,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8299948",
+        "url": "https://www.ticketliquidator.com/tickets/8299948/Lizzy-McAlpine-tickets-Fri-Apr-2-2027-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KScGMsk",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299948"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299948",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8299948/Lizzy-McAlpine-tickets-Fri-Apr-2-2027-O2-Academy-Brixton"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-birmingham-g5dzz_kkek096",
@@ -154795,12 +154875,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8299949",
+        "url": "https://www.ticketliquidator.com/tickets/8299949/Lizzy-McAlpine-tickets-Sat-Apr-10-2027-O2-Academy-Glasgow",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KwTJArB",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299949"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299949",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8299949/Lizzy-McAlpine-tickets-Sat-Apr-10-2027-O2-Academy-Glasgow"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-dallas-z7r9jz1aaekq3",
@@ -154856,12 +154944,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287525",
+        "url": "https://www.ticketliquidator.com/tickets/8287525/Lizzy-McAlpine-tickets-Fri-Apr-30-2027-The-Bomb-Factory",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAekq3",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287525"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287525",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287525/Lizzy-McAlpine-tickets-Fri-Apr-30-2027-The-Bomb-Factory"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-atlanta-z7r9jz1aaea-b",
@@ -154917,12 +155013,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300134",
+        "url": "https://www.ticketliquidator.com/tickets/8300134/Lizzy-McAlpine-tickets-Mon-May-3-2027-Fabulous-Fox-Theatre-Atlanta",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA-b",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300134"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300134",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300134/Lizzy-McAlpine-tickets-Mon-May-3-2027-Fabulous-Fox-Theatre-Atlanta"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-columbus-z7r9jz1aaea09",
@@ -154978,12 +155082,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287526",
+        "url": "https://www.ticketliquidator.com/tickets/8287526/Lizzy-McAlpine-tickets-Thu-May-6-2027-Palace-Theatre-Columbus",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA09",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287526"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287526",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287526/Lizzy-McAlpine-tickets-Thu-May-6-2027-Palace-Theatre-Columbus"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-milwaukee-z7r9jz1aaea0_",
@@ -155039,12 +155151,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287527",
+        "url": "https://www.ticketliquidator.com/tickets/8287527/Lizzy-McAlpine-tickets-Mon-May-10-2027-Riverside-Theater-WI",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA0_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287527"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287527",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287527/Lizzy-McAlpine-tickets-Mon-May-10-2027-Riverside-Theater-WI"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-minneapolis-vv1akzkfsgkdlgq7t",
@@ -155100,12 +155220,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300364",
+        "url": "https://www.ticketliquidator.com/tickets/8300364/Lizzy-McAlpine-tickets-Thu-May-13-2027-State-Theatre-MN",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfsGkdlgq7T",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300364"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300364",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300364/Lizzy-McAlpine-tickets-Thu-May-13-2027-State-Theatre-MN"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-kansas-city-z7r9jz1aaekqk",
@@ -155161,12 +155289,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287528",
+        "url": "https://www.ticketliquidator.com/tickets/8287528/Lizzy-McAlpine-tickets-Mon-May-17-2027-The-Midland-Theatre-MO",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAekqK",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287528"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287528",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287528/Lizzy-McAlpine-tickets-Mon-May-17-2027-The-Midland-Theatre-MO"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-oklahoma-city-z7r9jz1aaea-p",
@@ -155275,12 +155411,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8298345",
+        "url": "https://www.ticketliquidator.com/tickets/8298345/Lizzy-McAlpine-tickets-Mon-Jun-21-2027-Agganis-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPuzGA1byPI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8298345"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8298345",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8298345/Lizzy-McAlpine-tickets-Mon-Jun-21-2027-Agganis-Arena"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-morrison-z7r9jz1aaeax6",
@@ -155336,12 +155480,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287530",
+        "url": "https://www.ticketliquidator.com/tickets/8287530/Lizzy-McAlpine-tickets-Tue-Jul-6-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeAx6",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287530"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287530",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287530/Lizzy-McAlpine-tickets-Tue-Jul-6-2027-Red-Rocks-Amphitheatre"
   },
   {
     "id": "tm-dinosaur-jr-2027-philadelphia-z7r9jz1aavk18",
@@ -155450,12 +155602,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8291002",
+        "url": "https://www.ticketliquidator.com/tickets/8291002/Needtobreathe-tickets-Tue-Feb-23-2027-The-Midland-Theatre-MO",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAek_I",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8291002"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8291002",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8291002/Needtobreathe-tickets-Tue-Feb-23-2027-The-Midland-Theatre-MO"
   },
   {
     "id": "tm-needtobreathe-2027-lancaster-z7r9jz1aaek_t",
@@ -155511,12 +155671,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8291003",
+        "url": "https://www.ticketliquidator.com/tickets/8291003/Needtobreathe-tickets-Mon-Mar-1-2027-American-Music-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAek_t",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8291003"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8291003",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8291003/Needtobreathe-tickets-Mon-Mar-1-2027-American-Music-Theatre"
   },
   {
     "id": "tm-foy-vance-2026-san-francisco-z7r9jz1aae4_v",
@@ -155572,12 +155740,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748035",
+        "url": "https://www.ticketliquidator.com/tickets/7748035/Foy-Vance-tickets-Sun-Nov-8-2026-The-Great-American-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4_V",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748035"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748035",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748035/Foy-Vance-tickets-Sun-Nov-8-2026-The-Great-American-Music-Hall"
   },
   {
     "id": "tm-the-lemonheads-2027-tampa-z7r9jz1aavwob",
@@ -155951,12 +156127,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284483",
+        "url": "https://www.ticketliquidator.com/tickets/8284483/Yacht-Rock-Revue-tickets-Fri-Jan-29-2027-Florida-Theatre-Jacksonville",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeebg",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284483"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284483",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284483/Yacht-Rock-Revue-tickets-Fri-Jan-29-2027-Florida-Theatre-Jacksonville"
   },
   {
     "id": "tm-too-many-zooz-2026-buffalo-z7r9jz1aav60y",
@@ -156012,12 +156196,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8236208",
+        "url": "https://www.ticketliquidator.com/tickets/8236208/Too-Many-Zooz-tickets-Fri-Nov-13-2026-Asbury-Hall-at-Babeville",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv60Y",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8236208"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8236208",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8236208/Too-Many-Zooz-tickets-Fri-Nov-13-2026-Asbury-Hall-at-Babeville"
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8w25a",
@@ -156179,12 +156371,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294558",
+        "url": "https://www.ticketliquidator.com/tickets/8294558/The-Love-of-Soul-Tour-tickets-Sat-Apr-24-2027-MGM-Grand-Garden-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAef4J",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294558"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294558",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294558/The-Love-of-Soul-Tour-tickets-Sat-Apr-24-2027-MGM-Grand-Garden-Arena"
   },
   {
     "id": "tm-a-perfect-circle-2027-grand-prairie-z7r9jz1aae8a6",
@@ -156240,12 +156440,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295092",
+        "url": "https://www.ticketliquidator.com/tickets/8295092/A-Perfect-Circle-tickets-Sat-May-8-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8a6",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295092"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295092",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295092/A-Perfect-Circle-tickets-Sat-May-8-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie"
   },
   {
     "id": "tm-a-perfect-circle-2027-morrison-z7r9jz1aae8af",
@@ -156362,12 +156570,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295552",
+        "url": "https://www.ticketliquidator.com/tickets/8295552/Daughtry-tickets-Mon-Jan-25-2027-King-Center-For-The-Performing-Arts",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83v",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295552"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295552",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295552/Daughtry-tickets-Mon-Jan-25-2027-King-Center-For-The-Performing-Arts"
   },
   {
     "id": "tm-daughtry-2027-clearwater-z7r9jz1aae83e",
@@ -156423,12 +156639,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295553",
+        "url": "https://www.ticketliquidator.com/tickets/8295553/Daughtry-tickets-Thu-Jan-28-2027-Ruth-Eckerd-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83e",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295553"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295553",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295553/Daughtry-tickets-Thu-Jan-28-2027-Ruth-Eckerd-Hall"
   },
   {
     "id": "tm-daughtry-2027-austin-z7r9jz1aae83d",
@@ -156651,12 +156875,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295556",
+        "url": "https://www.ticketliquidator.com/tickets/8295556/Daughtry-tickets-Thu-Feb-18-2027-RCU-Theatre-At-Pablo-Center-at-the-Confluence",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83k",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295556"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295556",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295556/Daughtry-tickets-Thu-Feb-18-2027-RCU-Theatre-At-Pablo-Center-at-the-Confluence"
   },
   {
     "id": "tm-daughtry-2027-orono-z7r9jz1aae836",
@@ -156712,12 +156944,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295558",
+        "url": "https://www.ticketliquidator.com/tickets/8295558/Daughtry-tickets-Mon-Mar-1-2027-Hutchins-Concert-Hall-At-Collins-Center-for-the-Arts",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe836",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295558"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295558",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295558/Daughtry-tickets-Mon-Mar-1-2027-Hutchins-Concert-Hall-At-Collins-Center-for-the-Arts"
   },
   {
     "id": "tm-daughtry-2027-charlottesville-z7r9jz1aae83f",

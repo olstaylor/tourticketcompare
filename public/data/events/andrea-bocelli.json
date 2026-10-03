@@ -1876,7 +1876,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-birmingham-utilita-arena-birmingham-9-29-2027--theater-opera/production/7622420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-birmingham-29-09-2027/event/2300653C85D60AC3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1911,8 +1911,7 @@
     },
     "ticketmaster_discovery_event_id": "1AeGZ_KGkwAgOld",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T09:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-andrea-bocelli-2027-glasgow-1adbz_k03jdzd5av",
@@ -1930,7 +1929,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-glasgow-ovo-hydro-10-9-2027--theater-opera/production/7622414",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-glasgow-09-10-2027/event/3600653912983A40",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1986,8 +1985,7 @@
     },
     "ticketmaster_discovery_event_id": "1adbZ_K03JdZd5Av",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T09:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297135",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297135/Andrea-Bocelli-tickets-Sat-Oct-9-2027-OVO-Hydro",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-glasgow-ovo-hydro-arena-glasgow-9-10-2027/event/107671323"

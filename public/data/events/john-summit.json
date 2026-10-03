@@ -1644,7 +1644,7 @@
     "vividseats_url": "https://www.vividseats.com/john-summit-tickets-brooklyn-barclays-center-11-29-2026/production/7607459",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-brooklyn-new-york-11-29-2026/event/300064BA7F8B1EA7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1693,8 +1693,7 @@
     },
     "ticketmaster_discovery_event_id": "17GZv0G65tTxsBE",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-09-30T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8292934",
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-brooklyn-tickets-11-29-2026/event/107670646"
   }

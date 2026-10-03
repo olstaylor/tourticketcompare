@@ -1464,7 +1464,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-charleston-charleston-coliseum-and-convention-center-2-11-2027/production/7637070",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-charleston-west-virginia-02-11-2027/event/1600653E87F13770",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1514,7 +1514,7 @@
     "ticketmaster_discovery_event_id": "1AvbZ_KGkB6HKqY",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "public_onsale_at": "2026-10-09T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300899",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300899/The-Red-Clay-Strays-tickets-Thu-Feb-11-2027-Charleston-Coliseum-Convention-Center-Charleston"
   },

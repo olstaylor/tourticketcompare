@@ -730,7 +730,7 @@
     "id": "tm-sylvan-esso-2026-chicago-vv178z_agksv90pf",
     "artist_slug": "sylvan-esso",
     "artist_name": "Sylvan Esso",
-    "event_name": "Sylvan Esso presented by Jack Daniel's",
+    "event_name": "Sylvan Esso with Sen Morimoto presented by Jack Daniel's",
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "The Salt Shed Indoors (Shed)",
@@ -742,7 +742,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-presented-by-jack-daniels-chicago-illinois-10-22-2026/event/0400649CF45E4588",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

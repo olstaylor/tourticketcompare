@@ -131,7 +131,7 @@
     "city": "Washington",
     "country": "United States Of America",
     "venue": "9:30 CLUB",
-    "datetime_iso": "2027-02-07T01:00:00Z",
+    "datetime_iso": "2027-02-07T00:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "15006536743D26AA",
     "ticketmaster_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-washington-district-of-columbia-02-06-2027/event/15006536743D26AA",
@@ -139,7 +139,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-washington-district-of-columbia-02-06-2027/event/15006536743D26AA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

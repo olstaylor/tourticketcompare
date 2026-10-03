@@ -1,6 +1,6 @@
 # SeatGeek CTA verification log
 
-Generated: 2026-10-02T11:09:19.036Z
+Generated: 2026-10-03T10:27:48.058Z
 
 Written by `scripts/verify-seatgeek-events.mjs`. Identity anchor: the
 registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
@@ -9,16 +9,16 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 ## Run summary
 
 - Mode: apply
-- Events selected: 432 (needs_recheck: 432, provenance backfill: 0, stale re-check: 231)
-- Events skipped before API checks: 148
+- Events selected: 462 (needs_recheck: 461, provenance backfill: 0, stale re-check: 231)
+- Events skipped before API checks: 150
 - API calls made: 400
 - Verified provenance written: 231
 - URLs added: 0
 - URLs corrected: 0
 - URLs cleared: 0
-- Provenance un-verified: 2
+- Provenance un-verified: 1
 - Conflicts (ambiguous, untouched): 2
-- No qualifying listing: 163
+- No qualifying listing: 165
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: api_call_limit_reached
 
@@ -52,7 +52,6 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-sombr-2026-houston-z7r9jz1a7x8ae | sombr | verify (applied) | 18175625 | https://seatgeek.com/sombr-tickets/houston-texas-toyota-center-2026-10-17-7-pm/concert/18175625 | - |
 | tm-sombr-2026-sunrise-z7r9jz1a7x8vw | sombr | verify (applied) | 18164919 | https://seatgeek.com/sombr-tickets/sunrise-florida-amerant-bank-arena-2026-10-24-7-pm/concert/18164919 | - |
 | tm-sombr-2026-cleveland-z7r9jz1a7xav7 | sombr | verify (applied) | 18157641 | https://seatgeek.com/sombr-tickets/cleveland-ohio-rocket-arena-2026-11-13-7-30-pm/concert/18157641 | - |
-| tm-john-summit-2026-champaign-z7r9jz1a70ijb | john-summit | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18257239 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
 | tm-john-summit-2026-houston-z7r9jz1a70t74 | john-summit | verify (applied) | 18257241 | https://seatgeek.com/john-summit-tickets/houston-texas-toyota-center-2026-11-05-7-pm/concert/18257241 | - |
 | tm-niall-horan-2026-berlin-z698xzc2z16eekfyqa | niall-horan | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-karol-g-2026-arlington-z7r9jz1a7xfrb | karol-g | verify (applied) | 18166850 | https://seatgeek.com/karol-g-tickets/arlington-texas-at-t-stadium-2026-10-15-7-pm/concert/18166850 | - |
@@ -191,6 +190,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-missio-2027-chicago-z7r9jz1aazivb | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-cudahy-z7r9jz1aaziv_ | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-minneapolis-z7r9jz1aazivo | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-missio-2027-cleveland-vv17fz_8gkl63cwa | missio | verify (applied) | 18492738 | https://seatgeek.com/missio-tickets/cleveland-ohio-cambridge-room-at-house-of-blues-cleveland-1-2027-01-17-7-pm/concert/18492738 | - |
 | tm-missio-2027-washington-z7r9jz1aaziv- | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-brooklyn-z7r9jz1aazivx | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 | tm-missio-2027-carrboro-z7r9jz1aazivn | missio | none | - | - | no qualifying SeatGeek listing (may not be listed) |
@@ -218,7 +218,6 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-fkj-2027-seattle-z7r9jz1a7pduz | fkj | verify (applied) | 18282297 | https://seatgeek.com/fkj-tickets/seattle-washington-showbox-sodo-2027-04-23-8-pm/concert/18282297 | - |
 | tm-fkj-2027-denver-z7r9jz1a7pk0s | fkj | verify (applied) | 18282299 | https://seatgeek.com/fkj-tickets/denver-colorado-mission-ballroom-2027-04-29-8-pm/concert/18282299 | - |
 | tm-fkj-2027-austin-z7r9jz1a7pdvn | fkj | verify (applied) | 18282301 | https://seatgeek.com/fkj-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-06-12-8-pm/concert/18282301 | - |
-| tm-sylvan-esso-2026-atlanta-z7r9jz1a7pf-y | sylvan-esso | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18299134 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
 | tm-sylvan-esso-2026-philadelphia-z7r9jz1a7pxvf | sylvan-esso | verify (applied) | 18299136 | https://seatgeek.com/sylvan-esso-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-10-12-8-pm/concert/18299136 | - |
 | tm-sylvan-esso-2026-milwaukee-z7r9jz1a7pfos | sylvan-esso | verify (applied) | 18299151 | https://seatgeek.com/sylvan-esso-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-21-8-pm/concert/18299151 | - |
 | tm-sylvan-esso-2026-minneapolis-z7r9jz1a7pfoy | sylvan-esso | verify (applied) | 18299152 | https://seatgeek.com/sylvan-esso-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-10-23-8-30-pm/concert/18299152 | - |
@@ -364,7 +363,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-yuridia-2027-sugar-land-z7r9jz1aav-_t | yuridia | verify (applied) | 18570402 | https://seatgeek.com/yuridia-tickets/sugar-land-texas-smart-financial-centre-2027-03-11-8-pm/concert/18570402 | - |
 | tm-yuridia-2027-edinburg-z7r9jz1aav-_y | yuridia | verify (applied) | 18570410 | https://seatgeek.com/yuridia-tickets/edinburg-texas-bert-ogden-arena-2027-03-19-8-pm/concert/18570410 | - |
 | tm-yuridia-2027-brooklyn-z7r9jz1aav-_s | yuridia | verify (applied) | 18570411 | https://seatgeek.com/yuridia-tickets/brooklyn-new-york-kings-theatre-brooklyn-2027-03-27-8-pm/concert/18570411 | - |
-| tm-sylvan-esso-2026-asheville-z7r9jz1a7pajj | sylvan-esso | verify (applied) | 18299138 | https://seatgeek.com/sylvan-esso-tickets/asheville-north-carolina-the-orange-peel-2026-10-02-8-pm/concert/18299138 | - |
+| tm-sylvan-esso-2026-asheville-z7r9jz1a7pajj | sylvan-esso | unverify (applied) | - | - | stored URL failed: SeatGeek /events/18299138 returned HTTP 404 (listing confirmed gone); previously verified record no longer matches |
 | tm-sylvan-esso-2026-asheville-z7r9jz1a7paje | sylvan-esso | verify (applied) | 18299135 | https://seatgeek.com/sylvan-esso-tickets/asheville-north-carolina-the-orange-peel-2026-10-03-8-pm/concert/18299135 | - |
 | tm-hans-zimmer-2027-hartford-z7r9jz1aavvqk | hans-zimmer | verify (applied) | 18601917 | https://seatgeek.com/hans-zimmer-tickets/hartford-connecticut-peoplesbank-arena-2027-02-17-7-30-pm/concert/18601917 | - |
 | tm-hans-zimmer-2027-kansas-city-z7r9jz1aavvq6 | hans-zimmer | verify (applied) | 18601968 | https://seatgeek.com/hans-zimmer-tickets/kansas-city-missouri-t-mobile-center-2027-03-19-8-pm/concert/18601968 | - |
@@ -424,6 +423,8 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-dylan-scott-2027-spokane-z7r9jz1aavsvm | dylan-scott | verify (applied) | 18603382 | https://seatgeek.com/dylan-scott-tickets/spokane-washington-first-interstate-center-for-the-arts-2027-03-05-7-30-pm/concert/18603382 | - |
 | tm-dylan-scott-2027-wenatchee-z7r9jz1aavs7z | dylan-scott | verify (applied) | 18603381 | https://seatgeek.com/dylan-scott-tickets/wenatchee-washington-town-toyota-center-2027-03-06-7-30-pm/concert/18603381 | - |
 | tm-valley-2027-quebec-z7r9jz1aavzfi | valley | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-valley-2027-waterloo-z7r9jz1aavzft | valley | none | - | - | no qualifying SeatGeek listing (may not be listed) |
+| tm-valley-2027-chicago-z7r9jz1aavzfy | valley | none | - | - | no qualifying SeatGeek listing (may not be listed) |
 
 ## Skipped before API checks
 
@@ -562,6 +563,7 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-tame-impala-2026-houston-z7r9jz1a7-f_z | tame-impala | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-tame-impala-2026-houston-z7r9jz1a7-a4m | tame-impala | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-john-summit-2026-chicago-z7r9jz1aazo4o | john-summit | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-john-summit-2026-champaign-z7r9jz1a70ijb | john-summit | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bad-bunny-2026-san-juan-z7r9jz1aazgb_ | bad-bunny | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-bad-bunny-2026-san-juan-z7r9jz1aazm40 | bad-bunny | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-teddy-swims-2026-kansas-city-z7r9jz1a70v1a | teddy-swims | event is in the past — SeatGeek delists finished shows; nothing to maintain |
@@ -575,5 +577,6 @@ registry-verified `seatgeek_performer_id`; date anchor: UTC-instant match
 | tm-andrea-bocelli-2026-morrison-z7r9jz1a7oy3p | andrea-bocelli | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-michelle-branch-2026-seattle-z7r9jz1a7jfoo | michelle-branch | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-michelle-branch-2026-portland-z7r9jz1a7jfov | michelle-branch | event is in the past — SeatGeek delists finished shows; nothing to maintain |
+| tm-sylvan-esso-2026-atlanta-z7r9jz1a7pf-y | sylvan-esso | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-death-cab-for-cutie-2026-brussels-z698xzg2z1ayvwax | death-cab-for-cutie | event is in the past — SeatGeek delists finished shows; nothing to maintain |
 | tm-john-summit-2026-las-vegas-z7r9jz1a7xbfk | john-summit | event is in the past — SeatGeek delists finished shows; nothing to maintain |

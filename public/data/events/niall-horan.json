@@ -506,7 +506,7 @@
     "city": "Hamburg",
     "country": "Germany",
     "venue": "Barclays Arena",
-    "datetime_iso": "2026-10-07T18:00:00Z",
+    "datetime_iso": "2026-10-07T17:30:00Z",
     "tour_name": "Dinner Party Live On Tour",
     "ticketmaster_event_id": "1564356658",
     "ticketmaster_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-%7C-logen-seat-tickets/1564356658?language=en-us",
@@ -514,7 +514,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-hamburg-barclays-arena---hamburg-10-7-2026--concerts-pop/production/6832659",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-%7C-logen-seat-tickets/1564356658?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2884,7 +2884,7 @@
     "city": "Berlin",
     "country": "Germany",
     "venue": "Uber Arena",
-    "datetime_iso": "2026-10-08T18:00:00Z",
+    "datetime_iso": "2026-10-08T17:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "2086230689",
     "ticketmaster_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-%7C-box-seat-tickets/2086230689?language=en-us",
@@ -2892,7 +2892,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-berlin-uber-arena-10-8-2026--concerts-pop/production/6832662",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-%7C-box-seat-tickets/2086230689?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {

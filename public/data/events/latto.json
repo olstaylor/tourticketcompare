@@ -125,7 +125,7 @@
     "id": "tm-latto-2026-chicago-vv1a7zkfvgkdplqxd",
     "artist_slug": "latto",
     "artist_name": "Latto",
-    "event_name": "Latto VIP Upgrades (Event Ticket Not Included)",
+    "event_name": "Latto VIP Upgrade (Event Ticket Not Included)",
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "United Center",
@@ -137,7 +137,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/latto-vip-upgrades-event-ticket-not-chicago-illinois-10-03-2026/event/04006501D67DD8BB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

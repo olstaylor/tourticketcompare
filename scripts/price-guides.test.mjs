@@ -361,7 +361,7 @@ for (const priceRows of [[], PRICE_ROWS.map((row) => ({ ...row, expires_at: "202
 }
 
 {
-  const missing = await render("/artists/metallica/ticket-prices");
+  const missing = await render("/artists/zach-bryan/ticket-prices");
   assert(missing.status === 404, "an artist without an approved guide 404s");
   const unknown = await render("/artists/not-an-artist/ticket-prices");
   assert(unknown.status === 404, "an unknown artist 404s");

@@ -1,0 +1,1244 @@
+[
+  {
+    "id": "tm-carly-rae-jepsen-2027-edmonton-1av7z_kgklarlu8",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Northern Alberta Jubilee Auditorium",
+    "datetime_iso": "2027-04-16T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100653AC57AB350",
+    "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-edmonton-alberta-04-15-2027/event/1100653AC57AB350",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-edmonton-alberta-04-15-2027/event/1100653AC57AB350",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100653AC57AB350",
+        "discovery_event_id": "1Av7Z_KGklArlu8",
+        "url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-edmonton-alberta-04-15-2027/event/1100653AC57AB350",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_KGklArlu8",
+    "timezone": "America/Edmonton",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T16:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-calgary-1av7z_kgkulm9f3",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Grey Eagle Event Centre",
+    "datetime_iso": "2027-04-17T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100653D9FDD7212",
+    "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-calgary-alberta-04-16-2027/event/1100653D9FDD7212",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-calgary-alberta-04-16-2027/event/1100653D9FDD7212",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100653D9FDD7212",
+        "discovery_event_id": "1Av7Z_KGkULM9F3",
+        "url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-calgary-alberta-04-16-2027/event/1100653D9FDD7212",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_KGkULM9F3",
+    "timezone": "America/Edmonton",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T16:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-vancouver-1av7z_kgklk3dkw",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Orpheum Theatre",
+    "datetime_iso": "2027-04-19T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100653AC64BB4F2",
+    "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-vancouver-british-columbia-04-18-2027/event/1100653AC64BB4F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-vancouver-british-columbia-04-18-2027/event/1100653AC64BB4F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100653AC64BB4F2",
+        "discovery_event_id": "1Av7Z_KGklk3DKw",
+        "url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-vancouver-british-columbia-04-18-2027/event/1100653AC64BB4F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_KGklk3DKw",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T17:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-san-francisco-g5vyz_kdn9abg",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2027-04-22T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00653EE35C5635",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-san-francisco-california-04-21-2027/event/1C00653EE35C5635",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-san-francisco-california-04-21-2027/event/1C00653EE35C5635",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00653EE35C5635",
+        "discovery_event_id": "G5vYZ_KDN9Abg",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-san-francisco-california-04-21-2027/event/1C00653EE35C5635",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_KDN9Abg",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T17:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-inglewood-vv170z_kgkmkrrsm",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2027-04-23T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900653DD37AFC77",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-inglewood-california-04-22-2027/event/0900653DD37AFC77",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-inglewood-california-04-22-2027/event/0900653DD37AFC77",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900653DD37AFC77",
+        "discovery_event_id": "vv170Z_KGkMKrRsM",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-inglewood-california-04-22-2027/event/0900653DD37AFC77",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_KGkMKrRsM",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T17:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-san-diego-vvg1iz_kmdzlco",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Petco Park",
+    "datetime_iso": "2027-04-24T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00653DFBE2B391",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-san-diego-california-04-23-2027/event/0A00653DFBE2B391",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-san-diego-california-04-23-2027/event/0A00653DFBE2B391",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00653DFBE2B391",
+        "discovery_event_id": "vvG1IZ_KMDzlCo",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-san-diego-california-04-23-2027/event/0A00653DFBE2B391",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_KMDzlCo",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T17:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-las-vegas-1avjz_kgksxz4qo",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Cosmopolitan of Las Vegas",
+    "datetime_iso": "2027-05-01T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653C7E015760",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-las-vegas-nevada-04-30-2027/event/1700653C7E015760",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-las-vegas-nevada-04-30-2027/event/1700653C7E015760",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653C7E015760",
+        "discovery_event_id": "1AvjZ_KGksXZ4qO",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-las-vegas-nevada-04-30-2027/event/1700653C7E015760",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_KGksXZ4qO",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T17:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-phoenix-1kk8vpc_gacbk4n",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2027-05-02T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190065399E606563",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-phoenix-arizona-05-01-2027/event/190065399E606563",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-phoenix-arizona-05-01-2027/event/190065399E606563",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190065399E606563",
+        "discovery_event_id": "1kk8vPC_GACbk4N",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-phoenix-arizona-05-01-2027/event/190065399E606563",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kk8vPC_GACbk4N",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T17:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-irving-vvg1yz_kwbaerl",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2027-05-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00653CBA167BDF",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-irving-texas-05-05-2027/event/0C00653CBA167BDF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-irving-texas-05-05-2027/event/0C00653CBA167BDF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00653CBA167BDF",
+        "discovery_event_id": "vvG1YZ_KwBAERL",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-irving-texas-05-05-2027/event/0C00653CBA167BDF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_KwBAERL",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T15:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-austin-g5diz_kbdqtji",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Amphitheater",
+    "datetime_iso": "2027-05-08T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00653EBB77F9AC",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-austin-texas-05-07-2027/event/3A00653EBB77F9AC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-austin-texas-05-07-2027/event/3A00653EBB77F9AC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00653EBB77F9AC",
+        "discovery_event_id": "G5dIZ_KBDqTJi",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-austin-texas-05-07-2027/event/3A00653EBB77F9AC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_KBDqTJi",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T15:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-houston-g5diz_kbuz9jg",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2027-05-09T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00653E8D017735",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-houston-texas-05-08-2027/event/3A00653E8D017735",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-houston-texas-05-08-2027/event/3A00653E8D017735",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00653E8D017735",
+        "discovery_event_id": "G5dIZ_KBuZ9jg",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-houston-texas-05-08-2027/event/3A00653E8D017735",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_KBuZ9jg",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T15:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-nashville-g5viz_kdzypqh",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2027-05-11T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00653EC0C1669B",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-nashville-tennessee-05-10-2027/event/1B00653EC0C1669B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-nashville-tennessee-05-10-2027/event/1B00653EC0C1669B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00653EC0C1669B",
+        "discovery_event_id": "G5viZ_KDZYpQh",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-nashville-tennessee-05-10-2027/event/1B00653EC0C1669B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KDZYpQh",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T15:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-atlanta-vvg1zz_kmrbzzs",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Roxy",
+    "datetime_iso": "2027-05-11T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00653DDEEB8031",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-atlanta-georgia-05-11-2027/event/0E00653DDEEB8031",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-atlanta-georgia-05-11-2027/event/0E00653DDEEB8031",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00653DDEEB8031",
+        "discovery_event_id": "vvG1zZ_KMrBzZs",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-atlanta-georgia-05-11-2027/event/0E00653DDEEB8031",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_KMrBzZs",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T14:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-charlotte-g5evz_ksv1qq1",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Skyla Credit Union Amphitheatre",
+    "datetime_iso": "2027-05-12T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00653CC129D74A",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-charlotte-north-carolina-05-12-2027/event/2D00653CC129D74A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-charlotte-north-carolina-05-12-2027/event/2D00653CC129D74A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00653CC129D74A",
+        "discovery_event_id": "G5eVZ_KSv1qq1",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-charlotte-north-carolina-05-12-2027/event/2D00653CC129D74A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_KSv1qq1",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T14:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-washington-1avfz_kgkz-xcfn",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2027-05-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500653E21F8E22A",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-washington-district-of-columbia-05-14-2027/event/1500653E21F8E22A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-washington-district-of-columbia-05-14-2027/event/1500653E21F8E22A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500653E21F8E22A",
+        "discovery_event_id": "1AvfZ_KGkz-XCFn",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-washington-district-of-columbia-05-14-2027/event/1500653E21F8E22A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_KGkz-XCFn",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T14:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-new-york-g5diz_krvp7ot",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Madison Square Garden",
+    "datetime_iso": "2027-05-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B00653BC1584829",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-new-york-new-york-05-15-2027/event/3B00653BC1584829",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-new-york-new-york-05-15-2027/event/3B00653BC1584829",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B00653BC1584829",
+        "discovery_event_id": "G5diZ_KRvp7Ot",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-new-york-new-york-05-15-2027/event/3B00653BC1584829",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_KRvp7Ot",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T14:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-philadelphia-vv17fz_kgkmz_nj4",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Met Presented by Highmark",
+    "datetime_iso": "2027-05-18T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200653DC0663995",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-philadelphia-pennsylvania-05-18-2027/event/0200653DC0663995",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-philadelphia-pennsylvania-05-18-2027/event/0200653DC0663995",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200653DC0663995",
+        "discovery_event_id": "vv17FZ_KGkMZ_NJ4",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-philadelphia-pennsylvania-05-18-2027/event/0200653DC0663995",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_KGkMZ_NJ4",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T14:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-boston-vv177z_kgklscrut",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-05-19T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100653AF339EDA9",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-boston-massachusetts-05-19-2027/event/0100653AF339EDA9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-boston-massachusetts-05-19-2027/event/0100653AF339EDA9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100653AF339EDA9",
+        "discovery_event_id": "vv177Z_KGklSCrUt",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-boston-massachusetts-05-19-2027/event/0100653AF339EDA9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_KGklSCrUt",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T14:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-chicago-vv17jz_kgkbbdisc",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Chicago Theatre",
+    "datetime_iso": "2027-05-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700653EBAEE8CED",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-chicago-illinois-05-21-2027/event/0700653EBAEE8CED",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-chicago-illinois-05-21-2027/event/0700653EBAEE8CED",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700653EBAEE8CED",
+        "discovery_event_id": "vv17jZ_KGkBBDISc",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-chicago-illinois-05-21-2027/event/0700653EBAEE8CED",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_KGkBBDISc",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T15:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-detroit-vv17oz_kgkdnnigp",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Fox Theatre Detroit",
+    "datetime_iso": "2027-05-22T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800653EEA8EC325",
+    "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-detroit-michigan-05-22-2027/event/0800653EEA8EC325",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-detroit-michigan-05-22-2027/event/0800653EEA8EC325",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800653EEA8EC325",
+        "discovery_event_id": "vv17OZ_KGkDnNiGP",
+        "url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-detroit-michigan-05-22-2027/event/0800653EEA8EC325",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_KGkDnNiGP",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T14:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-toronto-1avzz_kgkiawwxu",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-05-25T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000653A09F7D88D",
+    "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-25-2027/event/1000653A09F7D88D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-25-2027/event/1000653A09F7D88D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000653A09F7D88D",
+        "discovery_event_id": "1AvZZ_KGkIaWWxu",
+        "url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-25-2027/event/1000653A09F7D88D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_KGkIaWWxu",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T14:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-ottawa-1ad7z_kgkir7yjb",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "History Ottawa",
+    "datetime_iso": "2027-05-28T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100653A1E1309BA",
+    "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-ottawa-ontario-05-28-2027/event/3100653A1E1309BA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-ottawa-ontario-05-28-2027/event/3100653A1E1309BA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100653A1E1309BA",
+        "discovery_event_id": "1Ad7Z_KGkIr7YJB",
+        "url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-ottawa-ontario-05-28-2027/event/3100653A1E1309BA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_KGkIr7YJB",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T14:00:00Z"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-montreal-1ad7z_kgkumfj2g",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "MTELUS",
+    "datetime_iso": "2027-05-29T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100653DB72263CC",
+    "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-montreal-quebec-05-29-2027/event/3100653DB72263CC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-montreal-quebec-05-29-2027/event/3100653DB72263CC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100653DB72263CC",
+        "discovery_event_id": "1Ad7Z_KGkUMFJ2G",
+        "url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-montreal-quebec-05-29-2027/event/3100653DB72263CC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_KGkUMFJ2G",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T14:00:00Z"
+  }
+]

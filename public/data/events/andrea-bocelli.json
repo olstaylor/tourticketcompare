@@ -2090,11 +2090,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671324",
+        "url": "https://www.stubhub.ie/andrea-bocelli-tickets-london-the-o2-arena-1-10-2027/event/107671324",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_KGkBCpKr9",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-london-the-o2-arena-1-10-2027/event/107671324"
   },
   {
     "id": "tm-andrea-bocelli-2027-manchester-1amzkfzgkd7qkyk",
@@ -2157,12 +2165,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671325",
+        "url": "https://www.stubhub.ie/andrea-bocelli-tickets-manchester-co-op-live-5-10-2027/event/107671325",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfzGkd7qkYK",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293403",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293403/Andrea-Bocelli-tickets-Tue-Oct-5-2027-Co-Op-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293403/Andrea-Bocelli-tickets-Tue-Oct-5-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-manchester-co-op-live-5-10-2027/event/107671325"
   }
 ]

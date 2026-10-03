@@ -2939,11 +2939,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107068177",
-        "url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-2-2026/event/107068177",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
@@ -2952,7 +2952,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZbyQBb4mX",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-2-2026/event/107068177"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyhid9od",
@@ -3893,11 +3893,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666002",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-19-2-2027/event/107666002",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aefZ_o37vvZdCkk",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-19-2-2027/event/107666002"
   },
   {
     "id": "tm-bruno-mars-2027-docklands-1aefz_ogknww0xk",
@@ -3948,17 +3956,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107666003",
-        "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-20-2-2027/event/107666003",
-        "verified": true,
-        "last_verified_at": "2026-09-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknWW0xk",
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-20-2-2027/event/107666003"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2027-docklands-1aefz_ogknwx7x5",

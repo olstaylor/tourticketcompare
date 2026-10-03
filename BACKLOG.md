@@ -53,12 +53,12 @@ Open items:
 
 ### 4. Routine data hygiene (recurring)
 
-- **`needs_recheck`:** 275 events (2026-09-21). This is not a manual CTA queue; runtime checks handle the destinations.
-  - 36 upcoming ones lack a verified resale lane but still show the Ticketmaster button.
+- **`needs_recheck`:** 496 events (2026-10-03). This is not a manual CTA queue; runtime checks handle the destinations.
+  - 90 upcoming ones (of 106 in total) lack a verified resale lane but still show the Ticketmaster button (2026-10-03).
   - The count climbs with each large ingestion run. Recount it with the same test `scripts/validate-status-counts.mjs` uses.
   - Compute "renders no CTA" claims with `eventLinkPublishable` and `providerEventPublishable`, never by hand.
 - **Guide source re-verification (human-only):** the owner last did this on 2026-09-21 across all 18 guides. Source sites return 403 to agents, so an agent must never bump a `last_checked` date. `npm run guides:sources:check` only covers reachability.
-- **Blank tour labels:** 1,042 events on indexable artists have an empty `tour_name` (2026-09-24), mostly from Ticketmaster ingestion. Backfill only with verified tour names; never infer them from URLs or `event_name`.
+- **Blank tour labels:** 1,686 events on indexable artists have an empty `tour_name` (2026-10-03), mostly from Ticketmaster ingestion. Backfill only with verified tour names; never infer them from URLs or `event_name`.
 - **`events-index.json`:** `validate-partitions.mjs` enforces it. Fix any failure with `npm run events:partition`, never by hand.
 - **Tombstones:** when deleting an `events.json` row that Ticketmaster still lists, add it to `data/deleted-events.json` in the same change (`docs/PROVIDER_SYNC.md`).
 - **Open owner decision:** three Hamburg box-seat rows ("| Logen-Seat" for niall-horan and sabaton, "| Box-Seat" for teddy-swims) render as non-performance pages. Either tombstone them by Ticketmaster id so the real concert listing can be ingested, or leave them.

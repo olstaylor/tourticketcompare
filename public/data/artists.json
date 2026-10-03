@@ -1227,5 +1227,75 @@
     "last_verified_at": "2026-10-01",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-01"
+  },
+  {
+    "slug": "greta-van-fleet",
+    "name": "Greta Van Fleet",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-03",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-03"
+  },
+  {
+    "slug": "fontaines-d-c",
+    "name": "Fontaines D.C.",
+    "short_description": "Alternative act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-03",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-03"
+  },
+  {
+    "slug": "riley-green",
+    "name": "Riley Green",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-03",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-03"
+  },
+  {
+    "slug": "hazlett",
+    "name": "Hazlett",
+    "short_description": "Alternative act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-03",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-03"
+  },
+  {
+    "slug": "carly-rae-jepsen",
+    "name": "Carly Rae Jepsen",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-03",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-03"
   }
 ]

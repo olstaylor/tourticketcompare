@@ -1,0 +1,108 @@
+[
+  {
+    "id": "tm-hazlett-2027-eugene-z7r9jz1aaeojp",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Eugene",
+    "country": "United States Of America",
+    "venue": "Wow Hall",
+    "datetime_iso": "2027-05-30T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeojP",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeojP",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeojP",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeojP",
+        "discovery_event_id": "Z7r9jZ1AAeojP",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeojP",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeojP",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-austin-g5diz_kepkpyq",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Scoot Inn",
+    "datetime_iso": "2027-06-12T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006539D64E5E5A",
+    "ticketmaster_url": "https://www.ticketmaster.com/hazlett-austin-texas-06-12-2027/event/3A006539D64E5E5A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hazlett-austin-texas-06-12-2027/event/3A006539D64E5E5A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006539D64E5E5A",
+        "discovery_event_id": "G5dIZ_KEpKPyQ",
+        "url": "https://www.ticketmaster.com/hazlett-austin-texas-06-12-2027/event/3A006539D64E5E5A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_KEpKPyQ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

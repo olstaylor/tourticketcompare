@@ -1447,7 +1447,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe4_V",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4_V",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-san-francisco-great-american-music-hall-11-8-2026/production/6687145",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4_V",
     "last_verified_at": null,
@@ -1469,11 +1469,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6687145,
+        "url": "https://www.vividseats.com/foy-vance-tickets-san-francisco-great-american-music-hall-11-8-2026/production/6687145",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

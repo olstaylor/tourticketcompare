@@ -1352,7 +1352,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAek_I",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_I",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-kansas-city-the-midland-theatre-2-23-2027/production/7612033",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_I",
     "last_verified_at": null,
@@ -1374,11 +1374,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7612033,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-kansas-city-the-midland-theatre-2-23-2027/production/7612033",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1405,7 +1405,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAek_t",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_t",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-lancaster-american-music-theatre-3-1-2027/production/7611938",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAek_t",
     "last_verified_at": null,
@@ -1427,11 +1427,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7611938,
+        "url": "https://www.vividseats.com/needtobreathe-tickets-lancaster-american-music-theatre-3-1-2027/production/7611938",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

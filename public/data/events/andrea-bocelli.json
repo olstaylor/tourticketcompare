@@ -2056,7 +2056,7 @@
     "ticketmaster_event_id": "3500653E8E593797",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/andrea-bocelli-london-01-10-2027/event/3500653E8E593797",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-london-the-o2---london-10-1-2027--theater-opera/production/7622416",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-london-01-10-2027/event/3500653E8E593797",
     "last_verified_at": null,
@@ -2078,11 +2078,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7622416,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-london-the-o2---london-10-1-2027--theater-opera/production/7622416",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2109,7 +2109,7 @@
     "ticketmaster_event_id": "37006538C4746C13",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-manchester-05-10-2027/event/37006538C4746C13",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-manchester-co-op-live-10-5-2027--theater-opera/production/7620595",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-manchester-05-10-2027/event/37006538C4746C13",
     "last_verified_at": null,
@@ -2131,11 +2131,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7620595,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-manchester-co-op-live-10-5-2027--theater-opera/production/7620595",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

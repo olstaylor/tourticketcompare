@@ -472,7 +472,7 @@
         "event_id": 7234800,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-sacramento-ace-of-spades-10-20-2026--concerts-rock/production/7234800",
         "verified": true,
-        "last_verified_at": "2026-09-30",
+        "last_verified_at": "2026-10-03",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1688,7 +1688,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvK18",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK18",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-philadelphia-union-transfer-2-13-2027--concerts-rock/production/7492605",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK18",
     "last_verified_at": null,
@@ -1710,11 +1710,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7492605,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-philadelphia-union-transfer-2-13-2027--concerts-rock/production/7492605",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

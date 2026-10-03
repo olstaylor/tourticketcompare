@@ -1720,7 +1720,7 @@
     "ticketmaster_event_id": "110065367A483B65",
     "ticketmaster_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-calgary-alberta-03-14-2027/event/110065367A483B65",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-calgary-southern-alberta-jubilee-auditorium-3-14-2027/production/7626969",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-calgary-alberta-03-14-2027/event/110065367A483B65",
     "last_verified_at": null,
@@ -1742,11 +1742,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7626969,
+        "url": "https://www.vividseats.com/tommy-emmanuel-tickets-calgary-southern-alberta-jubilee-auditorium-3-14-2027/production/7626969",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

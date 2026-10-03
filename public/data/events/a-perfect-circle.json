@@ -1924,7 +1924,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe8a6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8a6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-5-8-2027--concerts-alternative/production/7623577",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8a6",
     "last_verified_at": null,
@@ -1946,11 +1946,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7623577,
+        "url": "https://www.vividseats.com/a-perfect-circle-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-5-8-2027--concerts-alternative/production/7623577",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1977,7 +1977,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe8aF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8aF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-morrison-red-rocks-amphitheatre-5-27-2027--concerts-alternative/production/7623517",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8aF",
     "last_verified_at": null,
@@ -1999,11 +1999,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7623517,
+        "url": "https://www.vividseats.com/a-perfect-circle-tickets-morrison-red-rocks-amphitheatre-5-27-2027--concerts-alternative/production/7623517",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

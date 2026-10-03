@@ -2154,7 +2154,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeve7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeve7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-sunrise-amerant-bank-arena-10-1-2027--concerts-pop/production/7599601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeve7",
     "last_verified_at": null,
@@ -2176,11 +2176,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599601,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-sunrise-amerant-bank-arena-10-1-2027--concerts-pop/production/7599601",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2313,7 +2313,7 @@
     "ticketmaster_event_id": "0900653BDF01AF68",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-21-2027/event/0900653BDF01AF68",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-anaheim-honda-center-11-21-2027/production/7628085",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-21-2027/event/0900653BDF01AF68",
     "last_verified_at": null,
@@ -2335,11 +2335,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7628085,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-anaheim-honda-center-11-21-2027/production/7628085",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

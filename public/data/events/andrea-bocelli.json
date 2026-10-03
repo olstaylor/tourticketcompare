@@ -2143,10 +2143,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293403",
+        "url": "https://www.ticketnetwork.com/en/p/8293403",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfzGkd7qkYK",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293403"
   }
 ]

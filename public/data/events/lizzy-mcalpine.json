@@ -1707,11 +1707,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8297685",
+        "url": "https://www.ticketnetwork.com/en/p/8297685",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KrVBN6w",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297685"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-london-g5dzz_kslx95p",
@@ -1760,11 +1768,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8297134",
+        "url": "https://www.ticketnetwork.com/en/p/8297134",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KSLX95p",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297134"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-london-g5dzz_kscgmsk",
@@ -1813,11 +1829,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8299948",
+        "url": "https://www.ticketnetwork.com/en/p/8299948",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KScGMsk",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299948"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-birmingham-g5dzz_kkek096",
@@ -1919,11 +1943,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8299949",
+        "url": "https://www.ticketnetwork.com/en/p/8299949",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KwTJArB",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299949"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-dallas-z7r9jz1aaekq3",
@@ -1972,11 +2004,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287525",
+        "url": "https://www.ticketnetwork.com/en/p/8287525",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAekq3",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287525"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-atlanta-z7r9jz1aaea-b",
@@ -2025,11 +2065,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300134",
+        "url": "https://www.ticketnetwork.com/en/p/8300134",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA-b",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300134"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-columbus-z7r9jz1aaea09",
@@ -2078,11 +2126,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287526",
+        "url": "https://www.ticketnetwork.com/en/p/8287526",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA09",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287526"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-milwaukee-z7r9jz1aaea0_",
@@ -2131,11 +2187,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287527",
+        "url": "https://www.ticketnetwork.com/en/p/8287527",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA0_",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287527"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-minneapolis-vv1akzkfsgkdlgq7t",
@@ -2184,11 +2248,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300364",
+        "url": "https://www.ticketnetwork.com/en/p/8300364",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfsGkdlgq7T",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300364"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-kansas-city-z7r9jz1aaekqk",
@@ -2237,11 +2309,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287528",
+        "url": "https://www.ticketnetwork.com/en/p/8287528",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAekqK",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287528"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-oklahoma-city-z7r9jz1aaea-p",
@@ -2343,11 +2423,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8298345",
+        "url": "https://www.ticketnetwork.com/en/p/8298345",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPuzGA1byPI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8298345"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-morrison-z7r9jz1aaeax6",
@@ -2396,10 +2484,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287530",
+        "url": "https://www.ticketnetwork.com/en/p/8287530",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeAx6",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287530"
   }
 ]

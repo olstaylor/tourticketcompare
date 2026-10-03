@@ -17139,11 +17139,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7668643",
-        "url": "https://www.ticketnetwork.com/en/p/7668643",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7668643",
@@ -17164,7 +17164,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZbyQBb4mX",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668643",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668643/Bruno-Mars-tickets-Fri-Oct-2-2026-SoFi-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-2-2026/event/107068177"
   },
@@ -25900,11 +25900,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7583746",
-        "url": "https://www.ticketnetwork.com/en/p/7583746",
-        "verified": true,
-        "last_verified_at": "2026-07-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7583746",
@@ -25924,7 +25924,7 @@
     "ticketmaster_discovery_event_id": "vv1AvZkuPGkeOEQ1t",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583746",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583746/Zach-Bryan-tickets-Fri-Oct-2-2026-Gillette-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-foxborough-tickets-10-2-2026/event/107026100"
   },
@@ -36908,11 +36908,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7874848",
-        "url": "https://www.ticketnetwork.com/en/p/7874848",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107155465",
@@ -36932,7 +36932,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_FLJtDXU",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874848",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-portland-tickets-10-2-2026/event/107155465",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874848/sombr-tickets-Fri-Oct-2-2026-Moda-Center-at-the-Rose-Quarter"
   },
@@ -41940,11 +41940,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7896542",
-        "url": "https://www.ticketnetwork.com/en/p/7896542",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7896542",
@@ -41964,7 +41964,7 @@
     "ticketmaster_discovery_event_id": "vvG1VZ_a38LpR5",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896542",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896542/Karol-G-tickets-Fri-Oct-2-2026-Hard-Rock-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-miami-gardens-tickets-10-2-2026/event/107162168"
   },
@@ -45305,11 +45305,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7883096",
-        "url": "https://www.ticketnetwork.com/en/p/7883096",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7883096",
@@ -45329,7 +45329,7 @@
     "ticketmaster_discovery_event_id": "1AdZZ_FGknbFKOe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883096",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883096/Teddy-Swims-tickets-Fri-Oct-2-2026-Barclays-Center",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-brooklyn-tickets-10-2-2026/event/107154938"
   },
@@ -66455,11 +66455,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7783797",
-        "url": "https://www.ticketnetwork.com/en/p/7783797",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7783797",
@@ -66472,7 +66472,7 @@
     "ticketmaster_discovery_event_id": "1AoZkobGkelDVU-",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7783797",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7783797/Sabaton-tickets-Fri-Oct-2-2026-Burton-Cummings-Theatre"
   },
   {
@@ -129294,11 +129294,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8043823",
-        "url": "https://www.ticketnetwork.com/en/p/8043823",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8043823",
@@ -129311,7 +129311,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PajJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043823",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043823/Sylvan-Esso-tickets-Fri-Oct-2-2026-The-Orange-Peel"
   },
   {
@@ -153860,11 +153860,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293403",
+        "url": "https://www.ticketnetwork.com/en/p/8293403",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfzGkd7qkYK",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293403"
   },
   {
     "id": "tm-blondshell-2027-vancouver-16ozkfzopzauakea",
@@ -153913,11 +153921,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295784",
+        "url": "https://www.ticketnetwork.com/en/p/8295784",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16oZkfzOpZAuAkeA",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295784"
   },
   {
     "id": "tm-blondshell-2027-asbury-park-k7vgf_knjlgim",
@@ -154019,11 +154035,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295778",
+        "url": "https://www.ticketnetwork.com/en/p/8295778",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvYvPC_GA55f1W",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295778"
   },
   {
     "id": "tm-blondshell-2027-detroit-vv1afzkfmgkdgjzny",
@@ -154231,11 +154255,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284543",
+        "url": "https://www.ticketnetwork.com/en/p/8284543",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeve7",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284543"
   },
   {
     "id": "tm-hilary-duff-2027-cleveland-z7r9jz1aaevea",
@@ -154284,11 +154316,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284549",
+        "url": "https://www.ticketnetwork.com/en/p/8284549",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeveA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284549"
   },
   {
     "id": "tm-hilary-duff-2027-des-moines-z7r9jz1aaevep",
@@ -154337,11 +154377,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284569",
+        "url": "https://www.ticketnetwork.com/en/p/8284569",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAevep",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284569"
   },
   {
     "id": "tm-hilary-duff-2027-anaheim-vv170z_kgkrlzqwi",
@@ -154390,11 +154438,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301234",
+        "url": "https://www.ticketnetwork.com/en/p/8301234",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_KGkRLZQWI",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301234"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-torrensville-1akzkfggkepdplf",
@@ -154496,11 +154552,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8297685",
+        "url": "https://www.ticketnetwork.com/en/p/8297685",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KrVBN6w",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297685"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-london-g5dzz_kslx95p",
@@ -154549,11 +154613,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8297134",
+        "url": "https://www.ticketnetwork.com/en/p/8297134",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KSLX95p",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297134"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-london-g5dzz_kscgmsk",
@@ -154602,11 +154674,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8299948",
+        "url": "https://www.ticketnetwork.com/en/p/8299948",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KScGMsk",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299948"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-birmingham-g5dzz_kkek096",
@@ -154708,11 +154788,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8299949",
+        "url": "https://www.ticketnetwork.com/en/p/8299949",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KwTJArB",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299949"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-dallas-z7r9jz1aaekq3",
@@ -154761,11 +154849,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287525",
+        "url": "https://www.ticketnetwork.com/en/p/8287525",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAekq3",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287525"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-atlanta-z7r9jz1aaea-b",
@@ -154814,11 +154910,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300134",
+        "url": "https://www.ticketnetwork.com/en/p/8300134",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA-b",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300134"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-columbus-z7r9jz1aaea09",
@@ -154867,11 +154971,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287526",
+        "url": "https://www.ticketnetwork.com/en/p/8287526",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA09",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287526"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-milwaukee-z7r9jz1aaea0_",
@@ -154920,11 +155032,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287527",
+        "url": "https://www.ticketnetwork.com/en/p/8287527",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA0_",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287527"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-minneapolis-vv1akzkfsgkdlgq7t",
@@ -154973,11 +155093,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300364",
+        "url": "https://www.ticketnetwork.com/en/p/8300364",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfsGkdlgq7T",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300364"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-kansas-city-z7r9jz1aaekqk",
@@ -155026,11 +155154,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287528",
+        "url": "https://www.ticketnetwork.com/en/p/8287528",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAekqK",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287528"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-oklahoma-city-z7r9jz1aaea-p",
@@ -155132,11 +155268,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8298345",
+        "url": "https://www.ticketnetwork.com/en/p/8298345",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPuzGA1byPI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8298345"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-morrison-z7r9jz1aaeax6",
@@ -155185,11 +155329,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287530",
+        "url": "https://www.ticketnetwork.com/en/p/8287530",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeAx6",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287530"
   },
   {
     "id": "tm-dinosaur-jr-2027-philadelphia-z7r9jz1aavk18",
@@ -155291,11 +155443,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8291002",
+        "url": "https://www.ticketnetwork.com/en/p/8291002",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAek_I",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8291002"
   },
   {
     "id": "tm-needtobreathe-2027-lancaster-z7r9jz1aaek_t",
@@ -155344,11 +155504,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8291003",
+        "url": "https://www.ticketnetwork.com/en/p/8291003",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAek_t",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8291003"
   },
   {
     "id": "tm-foy-vance-2026-san-francisco-z7r9jz1aae4_v",
@@ -155397,11 +155565,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748035",
+        "url": "https://www.ticketnetwork.com/en/p/7748035",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4_V",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748035"
   },
   {
     "id": "tm-the-lemonheads-2027-tampa-z7r9jz1aavwob",
@@ -155768,11 +155944,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284483",
+        "url": "https://www.ticketnetwork.com/en/p/8284483",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeebg",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284483"
   },
   {
     "id": "tm-too-many-zooz-2026-buffalo-z7r9jz1aav60y",
@@ -155821,11 +156005,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8236208",
+        "url": "https://www.ticketnetwork.com/en/p/8236208",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv60Y",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8236208"
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8w25a",
@@ -155980,11 +156172,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294558",
+        "url": "https://www.ticketnetwork.com/en/p/8294558",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAef4J",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294558"
   },
   {
     "id": "tm-a-perfect-circle-2027-grand-prairie-z7r9jz1aae8a6",
@@ -156033,11 +156233,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295092",
+        "url": "https://www.ticketnetwork.com/en/p/8295092",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8a6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295092"
   },
   {
     "id": "tm-a-perfect-circle-2027-morrison-z7r9jz1aae8af",
@@ -156086,11 +156294,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295091",
+        "url": "https://www.ticketnetwork.com/en/p/8295091",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8aF",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295091"
   },
   {
     "id": "tm-daughtry-2027-melbourne-z7r9jz1aae83v",
@@ -156139,11 +156355,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295552",
+        "url": "https://www.ticketnetwork.com/en/p/8295552",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83v",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295552"
   },
   {
     "id": "tm-daughtry-2027-clearwater-z7r9jz1aae83e",
@@ -156192,11 +156416,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295553",
+        "url": "https://www.ticketnetwork.com/en/p/8295553",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83e",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295553"
   },
   {
     "id": "tm-daughtry-2027-austin-z7r9jz1aae83d",
@@ -156245,11 +156477,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295554",
+        "url": "https://www.ticketnetwork.com/en/p/8295554",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83d",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295554"
   },
   {
     "id": "tm-daughtry-2027-ventura-z7r9jz1aae837",
@@ -156404,11 +156644,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295556",
+        "url": "https://www.ticketnetwork.com/en/p/8295556",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83k",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295556"
   },
   {
     "id": "tm-daughtry-2027-orono-z7r9jz1aae836",
@@ -156457,11 +156705,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295558",
+        "url": "https://www.ticketnetwork.com/en/p/8295558",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe836",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295558"
   },
   {
     "id": "tm-daughtry-2027-charlottesville-z7r9jz1aae83f",

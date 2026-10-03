@@ -818,11 +818,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7896542",
-        "url": "https://www.ticketnetwork.com/en/p/7896542",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7896542",
@@ -842,7 +842,7 @@
     "ticketmaster_discovery_event_id": "vvG1VZ_a38LpR5",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896542",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896542/Karol-G-tickets-Fri-Oct-2-2026-Hard-Rock-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-miami-gardens-tickets-10-2-2026/event/107162168"
   },

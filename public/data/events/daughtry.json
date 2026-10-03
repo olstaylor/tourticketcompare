@@ -2635,11 +2635,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295552",
+        "url": "https://www.ticketnetwork.com/en/p/8295552",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83v",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295552"
   },
   {
     "id": "tm-daughtry-2027-clearwater-z7r9jz1aae83e",
@@ -2688,11 +2696,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295553",
+        "url": "https://www.ticketnetwork.com/en/p/8295553",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83e",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295553"
   },
   {
     "id": "tm-daughtry-2027-austin-z7r9jz1aae83d",
@@ -2741,11 +2757,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295554",
+        "url": "https://www.ticketnetwork.com/en/p/8295554",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83d",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295554"
   },
   {
     "id": "tm-daughtry-2027-ventura-z7r9jz1aae837",
@@ -2900,11 +2924,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295556",
+        "url": "https://www.ticketnetwork.com/en/p/8295556",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83k",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295556"
   },
   {
     "id": "tm-daughtry-2027-orono-z7r9jz1aae836",
@@ -2953,11 +2985,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295558",
+        "url": "https://www.ticketnetwork.com/en/p/8295558",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe836",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295558"
   },
   {
     "id": "tm-daughtry-2027-charlottesville-z7r9jz1aae83f",

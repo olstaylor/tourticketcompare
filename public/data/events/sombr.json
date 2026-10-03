@@ -202,11 +202,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7874848",
-        "url": "https://www.ticketnetwork.com/en/p/7874848",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107155465",
@@ -226,7 +226,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_FLJtDXU",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874848",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-portland-tickets-10-2-2026/event/107155465",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874848/sombr-tickets-Fri-Oct-2-2026-Moda-Center-at-the-Rose-Quarter"
   },

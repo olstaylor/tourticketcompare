@@ -1393,12 +1393,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8291002",
+        "url": "https://www.ticketliquidator.com/tickets/8291002/Needtobreathe-tickets-Tue-Feb-23-2027-The-Midland-Theatre-MO",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAek_I",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8291002"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8291002",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8291002/Needtobreathe-tickets-Tue-Feb-23-2027-The-Midland-Theatre-MO"
   },
   {
     "id": "tm-needtobreathe-2027-lancaster-z7r9jz1aaek_t",
@@ -1454,11 +1462,19 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8291003",
+        "url": "https://www.ticketliquidator.com/tickets/8291003/Needtobreathe-tickets-Mon-Mar-1-2027-American-Music-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAek_t",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8291003"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8291003",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8291003/Needtobreathe-tickets-Mon-Mar-1-2027-American-Music-Theatre"
   }
 ]

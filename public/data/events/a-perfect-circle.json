@@ -1965,12 +1965,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295092",
+        "url": "https://www.ticketliquidator.com/tickets/8295092/A-Perfect-Circle-tickets-Sat-May-8-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8a6",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295092"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295092",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295092/A-Perfect-Circle-tickets-Sat-May-8-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie"
   },
   {
     "id": "tm-a-perfect-circle-2027-morrison-z7r9jz1aae8af",

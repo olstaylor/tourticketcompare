@@ -874,11 +874,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107026100",
-        "url": "https://www.stubhub.ie/zach-bryan-foxborough-tickets-10-2-2026/event/107026100",
-        "verified": true,
-        "last_verified_at": "2026-07-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkuPGkeOEQ1t",
@@ -886,7 +886,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-foxborough-tickets-10-2-2026/event/107026100"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-zach-bryan-2026-foxborough-vv16vzkuso6za26afg",

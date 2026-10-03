@@ -425,17 +425,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107154080",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-london-the-o2-arena-2-10-2026/event/107154080",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkoyGkdKPykL",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-london-the-o2-arena-2-10-2026/event/107154080"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-niall-horan-2026-london-1agzkoygkdvbgdi",

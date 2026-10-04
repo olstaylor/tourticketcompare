@@ -1395,11 +1395,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106954186",
-        "url": "https://www.stubhub.ie/ed-sheeran-atlanta-tickets-10-3-2026/event/106954186",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZbwTZ4wSv",
@@ -1408,7 +1408,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-atlanta-tickets-10-3-2026/event/106954186"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-indianapolis-050063299afd15f3",

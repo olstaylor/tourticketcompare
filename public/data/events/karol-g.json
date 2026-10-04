@@ -909,11 +909,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162346",
-        "url": "https://www.stubhub.ie/karol-g-miami-gardens-tickets-10-3-2026/event/107162346",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_afeZYVt",
@@ -921,7 +921,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-miami-gardens-tickets-10-3-2026/event/107162346"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-karol-g-2026-tampa-vvg1vz_aksr-m3",

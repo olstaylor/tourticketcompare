@@ -299,18 +299,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8135381",
-        "url": "https://www.ticketnetwork.com/en/p/8135381",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_CL6GFwp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135381/Michelle-Branch-tickets-Sat-Oct-3-2026-The-Wiltern",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135381"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-michelle-branch-2026-del-mar-vvg1iz_cje3msh",

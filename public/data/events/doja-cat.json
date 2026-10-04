@@ -125,11 +125,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7457602",
-        "url": "https://www.ticketnetwork.com/en/p/7457602",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "106969165",
@@ -149,7 +149,7 @@
     "ticketmaster_discovery_event_id": "vv178ZbSGknyfVeS",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457602",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-chicago-tickets-10-3-2026/event/106969165",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457602/Doja-Cat-tickets-Sat-Oct-3-2026-United-Center"
   },

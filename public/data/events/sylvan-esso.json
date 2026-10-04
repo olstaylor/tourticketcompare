@@ -2046,11 +2046,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8043824",
-        "url": "https://www.ticketnetwork.com/en/p/8043824",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8043824",
@@ -2063,7 +2063,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PajE",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043824",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043824/Sylvan-Esso-tickets-Sat-Oct-3-2026-The-Orange-Peel"
   }
 ]

@@ -8438,11 +8438,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7921651",
-        "url": "https://www.ticketnetwork.com/en/p/7921651",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7921651",
@@ -8463,7 +8463,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1kA8v0PdGACx387",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921651",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921651/Olivia-Rodrigo-tickets-Sat-Oct-3-2026-Capital-One-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-washington-tickets-10-3-2026/event/107162468"
   },
@@ -17217,11 +17217,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7668644",
-        "url": "https://www.ticketnetwork.com/en/p/7668644",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7668644",
@@ -17242,7 +17242,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZbyhId9oD",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668644",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668644/Bruno-Mars-tickets-Sat-Oct-3-2026-SoFi-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-3-2026/event/107071099"
   },
@@ -21007,11 +21007,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7418596",
-        "url": "https://www.ticketnetwork.com/en/p/7418596",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7418596",
@@ -21032,7 +21032,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "machine_high_confidence",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418596",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418596/Ed-Sheeran-tickets-Sat-Oct-3-2026-Mercedes-Benz-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-atlanta-tickets-10-3-2026/event/106954186"
   },
@@ -25978,11 +25978,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7583747",
-        "url": "https://www.ticketnetwork.com/en/p/7583747",
-        "verified": true,
-        "last_verified_at": "2026-07-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7583747",
@@ -26002,7 +26002,7 @@
     "ticketmaster_discovery_event_id": "vv16vZkuSO6ZA26aFG",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583747",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583747/Zach-Bryan-tickets-Sat-Oct-3-2026-Gillette-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/zach-bryan-foxborough-tickets-10-3-2026/event/107025155"
   },
@@ -34626,11 +34626,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7457602",
-        "url": "https://www.ticketnetwork.com/en/p/7457602",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "106969165",
@@ -34650,7 +34650,7 @@
     "ticketmaster_discovery_event_id": "vv178ZbSGknyfVeS",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457602",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-chicago-tickets-10-3-2026/event/106969165",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457602/Doja-Cat-tickets-Sat-Oct-3-2026-United-Center"
   },
@@ -42018,11 +42018,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7913597",
-        "url": "https://www.ticketnetwork.com/en/p/7913597",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7913597",
@@ -42042,7 +42042,7 @@
     "ticketmaster_discovery_event_id": "vvG1VZ_afeZYVt",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7913597",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7913597/Karol-G-tickets-Sat-Oct-3-2026-Hard-Rock-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-miami-gardens-tickets-10-3-2026/event/107162346"
   },
@@ -50884,11 +50884,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7976478",
-        "url": "https://www.ticketnetwork.com/en/p/7976478",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7976478",
@@ -50908,7 +50908,7 @@
     "ticketmaster_discovery_event_id": "17FOv0G61TZTiqR",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976478",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976478/Don-Omar-tickets-Sat-Oct-3-2026-Kia-Center",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-orlando-tickets-10-3-2026/event/107189121"
   },
@@ -67350,11 +67350,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7996083",
-        "url": "https://www.ticketnetwork.com/en/p/7996083",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7996083",
@@ -67374,7 +67374,7 @@
     "ticketmaster_discovery_event_id": "G5dzZ_1URR0eT",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996083",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996083/Beartooth-tickets-Sat-Oct-3-2026-O2-Academy-Brixton",
     "stubhub_international_url": "https://www.stubhub.ie/beartooth-tickets-london-o2-academy-brixton-3-10-2026/event/107169082"
   },
@@ -79466,18 +79466,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8135381",
-        "url": "https://www.ticketnetwork.com/en/p/8135381",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_CL6GFwp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135381/Michelle-Branch-tickets-Sat-Oct-3-2026-The-Wiltern",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135381"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-michelle-branch-2026-del-mar-vvg1iz_cje3msh",
@@ -119057,11 +119057,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034329",
-        "url": "https://www.ticketnetwork.com/en/p/8034329",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8034329",
@@ -119074,7 +119074,7 @@
     "ticketmaster_discovery_event_id": "G5viZ_G1Jq0ud",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034329",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034329/Malcolm-Todd-tickets-Sat-Oct-3-2026-The-Truth"
   },
   {
@@ -127045,11 +127045,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7758708",
-        "url": "https://www.ticketnetwork.com/en/p/7758708",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7758708",
@@ -127069,7 +127069,7 @@
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfu40",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758708",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758708/Metallica-tickets-Sat-Oct-3-2026-Sphere",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-3-2026/event/107120357"
   },
@@ -129372,11 +129372,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8043824",
-        "url": "https://www.ticketnetwork.com/en/p/8043824",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8043824",
@@ -129389,7 +129389,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PajE",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043824",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043824/Sylvan-Esso-tickets-Sat-Oct-3-2026-The-Orange-Peel"
   },
   {
@@ -157148,12 +157148,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303343",
+        "url": "https://www.ticketnetwork.com/en/p/8303343",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KDABKfS",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303343"
   },
   {
     "id": "tm-greta-van-fleet-2027-tampa-vvg1vz_kmcwtil",
@@ -157202,12 +157210,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303344",
+        "url": "https://www.ticketnetwork.com/en/p/8303344",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_KMcwTIl",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303344"
   },
   {
     "id": "tm-greta-van-fleet-2027-jacksonville-1aefz_kgkdyuafx",
@@ -157256,12 +157272,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303345",
+        "url": "https://www.ticketnetwork.com/en/p/8303345",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_KGkDYUafX",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303345"
   },
   {
     "id": "tm-greta-van-fleet-2027-atlanta-vvg1zz_kmneaip",
@@ -157310,12 +157334,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303346",
+        "url": "https://www.ticketnetwork.com/en/p/8303346",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KMneaIP",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303346"
   },
   {
     "id": "tm-greta-van-fleet-2027-nashville-g5viz_kzhjzwy",
@@ -157364,12 +157396,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303347",
+        "url": "https://www.ticketnetwork.com/en/p/8303347",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KzHJZWY",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T15:00:00Z"
+    "public_onsale_at": "2026-10-15T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303347"
   },
   {
     "id": "tm-greta-van-fleet-2027-rosemont-vv178z_kgkmrjctr",
@@ -157418,12 +157458,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303349",
+        "url": "https://www.ticketnetwork.com/en/p/8303349",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_KGkMrJCtr",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T15:00:00Z"
+    "public_onsale_at": "2026-10-15T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303349"
   },
   {
     "id": "tm-greta-van-fleet-2027-omaha-vv17bz_kgkmgzcnp",
@@ -157472,12 +157520,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303350",
+        "url": "https://www.ticketnetwork.com/en/p/8303350",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkMGZcNP",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T15:00:00Z"
+    "public_onsale_at": "2026-10-15T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303350"
   },
   {
     "id": "tm-greta-van-fleet-2027-minneapolis-vv17bz_kgku0ofzs",
@@ -157526,12 +157582,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303351",
+        "url": "https://www.ticketnetwork.com/en/p/8303351",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkU0OFZs",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T15:00:00Z"
+    "public_onsale_at": "2026-10-15T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303351"
   },
   {
     "id": "tm-greta-van-fleet-2027-louisville-1avbz_kgkbymb5h",
@@ -157580,12 +157644,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303353",
+        "url": "https://www.ticketnetwork.com/en/p/8303353",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_KGkBYMb5h",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303353"
   },
   {
     "id": "tm-greta-van-fleet-2027-pittsburgh-1avbz_kgkmosrsz",
@@ -157634,12 +157706,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303354",
+        "url": "https://www.ticketnetwork.com/en/p/8303354",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_KGkMOsrsz",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303354"
   },
   {
     "id": "tm-greta-van-fleet-2027-detroit-vv17oz_kgkwt_pf2",
@@ -157688,12 +157768,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303355",
+        "url": "https://www.ticketnetwork.com/en/p/8303355",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkwT_Pf2",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303355"
   },
   {
     "id": "tm-greta-van-fleet-2027-boston-vv177z_kgknm09yr",
@@ -157742,12 +157830,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303357",
+        "url": "https://www.ticketnetwork.com/en/p/8303357",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_KGknM09Yr",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303357"
   },
   {
     "id": "tm-greta-van-fleet-2027-albany-k7vgf_kbmaa9o",
@@ -157796,12 +157892,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303358",
+        "url": "https://www.ticketnetwork.com/en/p/8303358",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KBmAa9o",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303358"
   },
   {
     "id": "tm-greta-van-fleet-2027-brooklyn-1adzz_kgkljmams",
@@ -157850,12 +157954,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303359",
+        "url": "https://www.ticketnetwork.com/en/p/8303359",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_KGklJMams",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303359"
   },
   {
     "id": "tm-greta-van-fleet-2027-philadelphia-1adzz_kgkv_zy6y",
@@ -157904,12 +158016,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303360",
+        "url": "https://www.ticketnetwork.com/en/p/8303360",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_KGkV_Zy6Y",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303360"
   },
   {
     "id": "tm-greta-van-fleet-2027-charlotte-g5evz_kd5pkxs",
@@ -157958,12 +158078,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303361",
+        "url": "https://www.ticketnetwork.com/en/p/8303361",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KD5PkXS",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303361"
   },
   {
     "id": "tm-greta-van-fleet-2027-knoxville-g5viz_fat50pa",
@@ -158012,12 +158140,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303362",
+        "url": "https://www.ticketnetwork.com/en/p/8303362",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_fAt50pA",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303362"
   },
   {
     "id": "tm-greta-van-fleet-2027-fort-worth-vvg1yz_f6vci7r",
@@ -158066,12 +158202,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303363",
+        "url": "https://www.ticketnetwork.com/en/p/8303363",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f6vci7r",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T15:00:00Z"
+    "public_onsale_at": "2026-10-15T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303363"
   },
   {
     "id": "tm-greta-van-fleet-2027-tulsa-1aezz_kgkdnv4sg",
@@ -158120,12 +158264,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303364",
+        "url": "https://www.ticketnetwork.com/en/p/8303364",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_KGkDnv4SG",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T15:00:00Z"
+    "public_onsale_at": "2026-10-15T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303364"
   },
   {
     "id": "tm-greta-van-fleet-2027-anaheim-vv170z_kgkm7preh",
@@ -158174,12 +158326,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303365",
+        "url": "https://www.ticketnetwork.com/en/p/8303365",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_KGkM7Preh",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T17:00:00Z"
+    "public_onsale_at": "2026-10-15T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303365"
   },
   {
     "id": "tm-greta-van-fleet-2027-phoenix-1av0z_kgkbck9ok",
@@ -158228,12 +158388,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303366",
+        "url": "https://www.ticketnetwork.com/en/p/8303366",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_KGkBcK9Ok",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T17:00:00Z"
+    "public_onsale_at": "2026-10-15T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303366"
   },
   {
     "id": "tm-greta-van-fleet-2027-reno-1avjz_kgkmchefe",
@@ -158282,12 +158450,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303367",
+        "url": "https://www.ticketnetwork.com/en/p/8303367",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkMCHeFE",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T17:00:00Z"
+    "public_onsale_at": "2026-10-15T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303367"
   },
   {
     "id": "tm-greta-van-fleet-2027-seattle-vvg1hz_km-zrdh",
@@ -158336,12 +158512,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303368",
+        "url": "https://www.ticketnetwork.com/en/p/8303368",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KM-zRdh",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T17:00:00Z"
+    "public_onsale_at": "2026-10-15T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303368"
   },
   {
     "id": "tm-greta-van-fleet-2027-portland-vvg1hz_kle7js7",
@@ -158390,12 +158574,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303369",
+        "url": "https://www.ticketnetwork.com/en/p/8303369",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_Kle7js7",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T17:00:00Z"
+    "public_onsale_at": "2026-10-15T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303369"
   },
   {
     "id": "tm-greta-van-fleet-2027-boise-g5vzz_fkffj8x",
@@ -158444,12 +158636,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303370",
+        "url": "https://www.ticketnetwork.com/en/p/8303370",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fkfFJ8x",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T16:00:00Z"
+    "public_onsale_at": "2026-10-15T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303370"
   },
   {
     "id": "tm-greta-van-fleet-2027-denver-g5vzz_kbjtioy",
@@ -158498,12 +158698,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303372",
+        "url": "https://www.ticketnetwork.com/en/p/8303372",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KBJtIoY",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T16:00:00Z"
+    "public_onsale_at": "2026-10-15T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303372"
   },
   {
     "id": "tm-greta-van-fleet-2027-munich-z698xzc2z16v70efz3",
@@ -158984,12 +159192,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303348",
+        "url": "https://www.ticketnetwork.com/en/p/8303348",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_KGkBYUd70",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T09:00:00Z"
+    "public_onsale_at": "2026-10-09T09:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303348"
   },
   {
     "id": "tm-greta-van-fleet-2027-glasgow-1auzk4vgkene4-w",
@@ -159146,12 +159362,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303387",
+        "url": "https://www.ticketnetwork.com/en/p/8303387",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkw_OgTY",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T17:00:00Z"
+    "public_onsale_at": "2026-10-15T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303387"
   },
   {
     "id": "tm-greta-van-fleet-2027-edmonton-1av7z_kgkmfujae",
@@ -159200,12 +159424,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303388",
+        "url": "https://www.ticketnetwork.com/en/p/8303388",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkMFUjAE",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T16:00:00Z"
+    "public_onsale_at": "2026-10-15T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303388"
   },
   {
     "id": "tm-greta-van-fleet-2027-calgary-1av7z_kgkum7iwv",
@@ -159254,12 +159486,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303389",
+        "url": "https://www.ticketnetwork.com/en/p/8303389",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkUm7IwV",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T16:00:00Z"
+    "public_onsale_at": "2026-10-15T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303389"
   },
   {
     "id": "tm-greta-van-fleet-2027-winnipeg-1av7z_kgkmeitov",
@@ -159308,12 +159548,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303390",
+        "url": "https://www.ticketnetwork.com/en/p/8303390",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkMEITov",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T15:00:00Z"
+    "public_onsale_at": "2026-10-15T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303390"
   },
   {
     "id": "tm-greta-van-fleet-2027-kansas-city-vv1akzk4vgkdr0kg1",
@@ -159362,12 +159610,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303373",
+        "url": "https://www.ticketnetwork.com/en/p/8303373",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4vGkdr0kg1",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T15:00:00Z"
+    "public_onsale_at": "2026-10-15T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303373"
   },
   {
     "id": "tm-greta-van-fleet-2027-saint-louis-vv17bz_kgkm_stkv",
@@ -159470,12 +159726,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303375",
+        "url": "https://www.ticketnetwork.com/en/p/8303375",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4vGkeXl1Ix",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303375"
   },
   {
     "id": "tm-greta-van-fleet-2027-noblesville-vv17fz_kgkmuku1m",
@@ -159524,12 +159788,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303376",
+        "url": "https://www.ticketnetwork.com/en/p/8303376",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_KGkMuKu1m",
     "timezone": "America/Indiana/Indianapolis",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303376"
   },
   {
     "id": "tm-greta-van-fleet-2027-raleigh-g5evz_f6z0uw6",
@@ -159578,12 +159850,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303377",
+        "url": "https://www.ticketnetwork.com/en/p/8303377",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_f6Z0Uw6",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303377"
   },
   {
     "id": "tm-greta-van-fleet-2027-columbia-1avfz_kgkss_xxt",
@@ -159632,12 +159912,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303378",
+        "url": "https://www.ticketnetwork.com/en/p/8303378",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_KGkSs_xxT",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303378"
   },
   {
     "id": "tm-greta-van-fleet-2027-hershey-vv17fz_kgkdofs3p",
@@ -159686,12 +159974,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303379",
+        "url": "https://www.ticketnetwork.com/en/p/8303379",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkDOFs3p",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303379"
   },
   {
     "id": "tm-greta-van-fleet-2027-uncasville-g5vvz_kwzs711",
@@ -159740,12 +160036,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303380",
+        "url": "https://www.ticketnetwork.com/en/p/8303380",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_KwzS711",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303380"
   },
   {
     "id": "tm-greta-van-fleet-2027-gilford-vv177z_kgkni4das",
@@ -159848,12 +160152,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303391",
+        "url": "https://www.ticketnetwork.com/en/p/8303391",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_KGkSaKUp4",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303391"
   },
   {
     "id": "tm-greta-van-fleet-2027-toronto-1avzz_kgkswyehx",
@@ -159956,12 +160268,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303382",
+        "url": "https://www.ticketnetwork.com/en/p/8303382",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkwlsfoG",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-15T14:00:00Z"
+    "public_onsale_at": "2026-10-15T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303382"
   },
   {
     "id": "tm-fontaines-d-c-2026-madrid-z698xz2qz1k__7ko4",
@@ -160275,11 +160595,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8243932",
+        "url": "https://www.ticketnetwork.com/en/p/8243932",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_oCwiP0O",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243932"
   },
   {
     "id": "tm-fontaines-d-c-2026-glasgow-1auzkffgketljog",
@@ -160328,11 +160656,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8243933",
+        "url": "https://www.ticketnetwork.com/en/p/8243933",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkffGketlJOG",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243933"
   },
   {
     "id": "tm-fontaines-d-c-2026-leeds-g5vhz_8b5sfcc",
@@ -160434,11 +160770,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8243928",
+        "url": "https://www.ticketnetwork.com/en/p/8243928",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeGZ_8GkDXXLC2",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243928"
   },
   {
     "id": "tm-fontaines-d-c-2026-london-1agzkfogkenxxaj",
@@ -160540,12 +160884,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303807",
+        "url": "https://www.ticketnetwork.com/en/p/8303807",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGkeDOsQI",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303807"
   },
   {
     "id": "tm-fontaines-d-c-2027-philadelphia-vv17fz_kgks-xsxp",
@@ -160648,12 +161000,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303810",
+        "url": "https://www.ticketnetwork.com/en/p/8303810",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkSEW9Wu",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303810"
   },
   {
     "id": "tm-fontaines-d-c-2027-chicago-vv1k8z_fkfg7zjno",
@@ -160756,12 +161116,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303812",
+        "url": "https://www.ticketnetwork.com/en/p/8303812",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_KGkloizCL",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303812"
   },
   {
     "id": "tm-fontaines-d-c-2027-minneapolis-vv17bz_kgkijqu5x",
@@ -160810,12 +161178,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303813",
+        "url": "https://www.ticketnetwork.com/en/p/8303813",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkijqU5X",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303813"
   },
   {
     "id": "tm-fontaines-d-c-2027-vancouver-1av7z_kgkupzetr",
@@ -160864,12 +161240,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303822",
+        "url": "https://www.ticketnetwork.com/en/p/8303822",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkUPzETr",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303822"
   },
   {
     "id": "tm-fontaines-d-c-2027-seattle-vvg1hz_kbr3b0c",
@@ -160918,12 +161302,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303814",
+        "url": "https://www.ticketnetwork.com/en/p/8303814",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KBR3B0C",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303814"
   },
   {
     "id": "tm-fontaines-d-c-2027-sacramento-g5vyz_kmgztid",
@@ -160972,12 +161364,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303815",
+        "url": "https://www.ticketnetwork.com/en/p/8303815",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KMGzTiD",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303815"
   },
   {
     "id": "tm-fontaines-d-c-2027-san-francisco-g5vyz_k9cdguj",
@@ -161026,12 +161426,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303816",
+        "url": "https://www.ticketnetwork.com/en/p/8303816",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K9Cdguj",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303816"
   },
   {
     "id": "tm-fontaines-d-c-2027-milano-zg9rmiynyzd1ve",
@@ -161292,11 +161700,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271586",
+        "url": "https://www.ticketnetwork.com/en/p/8271586",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGkM3HlfK",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271586"
   },
   {
     "id": "tm-fontaines-d-c-2027-manchester-g5dzz_omjzv0z",
@@ -161504,11 +161920,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264053",
+        "url": "https://www.ticketnetwork.com/en/p/8264053",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ku8vPF_GA19KNu",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264053"
   },
   {
     "id": "tm-fontaines-d-c-2027-toronto-1avzz_kgkmdxopu",
@@ -161611,12 +162035,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303818",
+        "url": "https://www.ticketnetwork.com/en/p/8303818",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vfZ_fkaG7MPC7",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303818"
   },
   {
     "id": "tm-fontaines-d-c-2027-atlanta-vvg1zz_keib7ia",
@@ -161665,12 +162097,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303820",
+        "url": "https://www.ticketnetwork.com/en/p/8303820",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KEIb7ia",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303820"
   },
   {
     "id": "tm-fontaines-d-c-2027-inglewood-vv1ke8vpuyga5p1et",
@@ -161719,12 +162159,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303821",
+        "url": "https://www.ticketnetwork.com/en/p/8303821",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1ke8vPuYGA5P1Et",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303821"
   },
   {
     "id": "tm-riley-green-2026-durant-vvg1yz_ggasrcz",
@@ -161879,11 +162327,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018163",
+        "url": "https://www.ticketnetwork.com/en/p/8018163",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PeQa",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018163"
   },
   {
     "id": "tm-riley-green-2026-las-vegas-z7r9jz1a7peq7",
@@ -161932,11 +162388,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018164",
+        "url": "https://www.ticketnetwork.com/en/p/8018164",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Peq7",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018164"
   },
   {
     "id": "tm-riley-green-2027-spokane-z7r9jz1aaezrp",
@@ -161985,11 +162449,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293121",
+        "url": "https://www.ticketnetwork.com/en/p/8293121",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZrp",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293121"
   },
   {
     "id": "tm-riley-green-2027-seattle-vvg1hz_keoq4yp",
@@ -162038,11 +162510,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293123",
+        "url": "https://www.ticketnetwork.com/en/p/8293123",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KeoQ4YP",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293123"
   },
   {
     "id": "tm-riley-green-2027-eugene-vvg1hz_3divdk0",
@@ -162091,11 +162571,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293124",
+        "url": "https://www.ticketnetwork.com/en/p/8293124",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3DivDK0",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293124"
   },
   {
     "id": "tm-riley-green-2027-edmonton-1av7z_3gkwgn0bp",
@@ -162144,11 +162632,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293148",
+        "url": "https://www.ticketnetwork.com/en/p/8293148",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkWgN0bP",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293148"
   },
   {
     "id": "tm-riley-green-2027-calgary-1aozkfygkderjem",
@@ -162197,11 +162693,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293149",
+        "url": "https://www.ticketnetwork.com/en/p/8293149",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfYGkderjEM",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293149"
   },
   {
     "id": "tm-riley-green-2027-saskatoon-1av7z_3gkdixvhi",
@@ -162250,11 +162754,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293150",
+        "url": "https://www.ticketnetwork.com/en/p/8293150",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkDiXvHI",
     "timezone": "America/Swift_Current",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293150"
   },
   {
     "id": "tm-riley-green-2027-raleigh-g5evz_ke-2cfw",
@@ -162303,11 +162815,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293125",
+        "url": "https://www.ticketnetwork.com/en/p/8293125",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Ke-2cfW",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293125"
   },
   {
     "id": "tm-riley-green-2027-knoxville-g5viz_3wie3-p",
@@ -162356,11 +162876,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293127",
+        "url": "https://www.ticketnetwork.com/en/p/8293127",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3WIe3-P",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293127"
   },
   {
     "id": "tm-riley-green-2027-greenville-g5evz_k14klik",
@@ -162409,11 +162937,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293128",
+        "url": "https://www.ticketnetwork.com/en/p/8293128",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_K14Klik",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293128"
   },
   {
     "id": "tm-riley-green-2027-fort-worth-vvg1yz_kepbp4s",
@@ -162462,11 +162998,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293130",
+        "url": "https://www.ticketnetwork.com/en/p/8293130",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_Kepbp4s",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293130"
   },
   {
     "id": "tm-riley-green-2027-wichita-vv1akzkfwgkdilqfv",
@@ -162515,11 +163059,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293131",
+        "url": "https://www.ticketnetwork.com/en/p/8293131",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfwGkdIlqfV",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293131"
   },
   {
     "id": "tm-riley-green-2027-rogers-g5viz_k5ft6hv",
@@ -162568,11 +163120,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293132",
+        "url": "https://www.ticketnetwork.com/en/p/8293132",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_K5ft6hv",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293132"
   },
   {
     "id": "tm-riley-green-2027-tulsa-1aozkfsgkexhv7n",
@@ -162621,11 +163181,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293133",
+        "url": "https://www.ticketnetwork.com/en/p/8293133",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfsGkexhV7N",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293133"
   },
   {
     "id": "tm-riley-green-2027-dallas-vvg1yz_k1h0ipi",
@@ -162674,11 +163242,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293134",
+        "url": "https://www.ticketnetwork.com/en/p/8293134",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_K1h0IPI",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293134"
   },
   {
     "id": "tm-riley-green-2027-lafayette-g5viz_3r9l7s7",
@@ -162780,11 +163356,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293136",
+        "url": "https://www.ticketnetwork.com/en/p/8293136",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3T3qKQr",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293136"
   },
   {
     "id": "tm-riley-green-2027-orange-beach-g5viz_kvcnsvm",
@@ -162939,11 +163523,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294259",
+        "url": "https://www.ticketnetwork.com/en/p/8294259",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeF_Z",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294259"
   },
   {
     "id": "tm-riley-green-2027-toronto-1a8zkfwgkd5hci5",
@@ -163204,11 +163796,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293140",
+        "url": "https://www.ticketnetwork.com/en/p/8293140",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfwGkdw_jCp",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293140"
   },
   {
     "id": "tm-riley-green-2027-clarkston-vv1afzkfygkenvgq1",
@@ -163257,11 +163857,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300342",
+        "url": "https://www.ticketnetwork.com/en/p/8300342",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfyGkeNVgq1",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300342"
   },
   {
     "id": "tm-riley-green-2027-syracuse-k7vgf_k1rwxjy",
@@ -163310,11 +163918,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294264",
+        "url": "https://www.ticketnetwork.com/en/p/8294264",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_K1rWXJY",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294264"
   },
   {
     "id": "tm-riley-green-2027-allentown-1adzz_3gkdwsja0",
@@ -163363,11 +163979,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293141",
+        "url": "https://www.ticketnetwork.com/en/p/8293141",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_3GkDWsjA0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293141"
   },
   {
     "id": "tm-riley-green-2027-columbia-1a4zkfwgkdajcik",
@@ -163416,11 +164040,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293142",
+        "url": "https://www.ticketnetwork.com/en/p/8293142",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfwGkdaJCIk",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293142"
   },
   {
     "id": "tm-riley-green-2027-bethel-k7vgf_kkxvsto",
@@ -163469,11 +164101,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293143",
+        "url": "https://www.ticketnetwork.com/en/p/8293143",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KkxvstO",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293143"
   },
   {
     "id": "tm-riley-green-2027-mansfield-vv1avzkfwgke0hynm",
@@ -163522,11 +164162,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293144",
+        "url": "https://www.ticketnetwork.com/en/p/8293144",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfwGke0hYNm",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293144"
   },
   {
     "id": "tm-riley-green-2027-evansville-vv16azkfwxpza8acgv",
@@ -163575,11 +164223,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293145",
+        "url": "https://www.ticketnetwork.com/en/p/8293145",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16AZkfwxpZA8ACGv",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293145"
   },
   {
     "id": "tm-riley-green-2027-maryland-heights-vv1fvovpgtqtz755aa",
@@ -163734,11 +164390,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8054862",
+        "url": "https://www.ticketnetwork.com/en/p/8054862",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeojP",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054862"
   },
   {
     "id": "tm-hazlett-2027-austin-g5diz_kepkpyq",
@@ -163840,12 +164504,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300790",
+        "url": "https://www.ticketnetwork.com/en/p/8300790",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGklArlu8",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T16:00:00Z"
+    "public_onsale_at": "2026-10-08T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300790"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-calgary-1av7z_kgkulm9f3",
@@ -163948,12 +164620,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300792",
+        "url": "https://www.ticketnetwork.com/en/p/8300792",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGklk3DKw",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T17:00:00Z"
+    "public_onsale_at": "2026-10-08T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300792"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-san-francisco-g5vyz_kdn9abg",
@@ -164002,12 +164682,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300771",
+        "url": "https://www.ticketnetwork.com/en/p/8300771",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KDN9Abg",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T17:00:00Z"
+    "public_onsale_at": "2026-10-08T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300771"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-inglewood-vv170z_kgkmkrrsm",
@@ -164056,12 +164744,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300772",
+        "url": "https://www.ticketnetwork.com/en/p/8300772",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_KGkMKrRsM",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T17:00:00Z"
+    "public_onsale_at": "2026-10-08T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300772"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-san-diego-vvg1iz_kmdzlco",
@@ -164110,12 +164806,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300773",
+        "url": "https://www.ticketnetwork.com/en/p/8300773",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_KMDzlCo",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T17:00:00Z"
+    "public_onsale_at": "2026-10-08T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300773"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-las-vegas-1avjz_kgksxz4qo",
@@ -164164,12 +164868,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300776",
+        "url": "https://www.ticketnetwork.com/en/p/8300776",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGksXZ4qO",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T17:00:00Z"
+    "public_onsale_at": "2026-10-08T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300776"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-phoenix-1kk8vpc_gacbk4n",
@@ -164218,12 +164930,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300777",
+        "url": "https://www.ticketnetwork.com/en/p/8300777",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8vPC_GACbk4N",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T17:00:00Z"
+    "public_onsale_at": "2026-10-08T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300777"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-irving-vvg1yz_kwbaerl",
@@ -164272,12 +164992,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300778",
+        "url": "https://www.ticketnetwork.com/en/p/8300778",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KwBAERL",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T15:00:00Z"
+    "public_onsale_at": "2026-10-08T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300778"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-austin-g5diz_kbdqtji",
@@ -164326,12 +165054,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300779",
+        "url": "https://www.ticketnetwork.com/en/p/8300779",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KBDqTJi",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T15:00:00Z"
+    "public_onsale_at": "2026-10-08T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300779"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-houston-g5diz_kbuz9jg",
@@ -164380,12 +165116,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300780",
+        "url": "https://www.ticketnetwork.com/en/p/8300780",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KBuZ9jg",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T15:00:00Z"
+    "public_onsale_at": "2026-10-08T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300780"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-nashville-g5viz_kdzypqh",
@@ -164434,12 +165178,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300781",
+        "url": "https://www.ticketnetwork.com/en/p/8300781",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KDZYpQh",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T15:00:00Z"
+    "public_onsale_at": "2026-10-08T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300781"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-atlanta-vvg1zz_kmrbzzs",
@@ -164488,12 +165240,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300782",
+        "url": "https://www.ticketnetwork.com/en/p/8300782",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KMrBzZs",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300782"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-charlotte-g5evz_ksv1qq1",
@@ -164542,12 +165302,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300783",
+        "url": "https://www.ticketnetwork.com/en/p/8300783",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KSv1qq1",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300783"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-washington-1avfz_kgkz-xcfn",
@@ -164596,12 +165364,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300784",
+        "url": "https://www.ticketnetwork.com/en/p/8300784",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_KGkz-XCFn",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300784"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-new-york-g5diz_krvp7ot",
@@ -164650,12 +165426,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300785",
+        "url": "https://www.ticketnetwork.com/en/p/8300785",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KRvp7Ot",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300785"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-philadelphia-vv17fz_kgkmz_nj4",
@@ -164704,12 +165488,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300786",
+        "url": "https://www.ticketnetwork.com/en/p/8300786",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkMZ_NJ4",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300786"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-boston-vv177z_kgklscrut",
@@ -164758,12 +165550,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300787",
+        "url": "https://www.ticketnetwork.com/en/p/8300787",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_KGklSCrUt",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300787"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-chicago-vv17jz_kgkbbdisc",
@@ -164812,12 +165612,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300788",
+        "url": "https://www.ticketnetwork.com/en/p/8300788",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_KGkBBDISc",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T15:00:00Z"
+    "public_onsale_at": "2026-10-08T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300788"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-detroit-vv17oz_kgkdnnigp",
@@ -164866,12 +165674,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300789",
+        "url": "https://www.ticketnetwork.com/en/p/8300789",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkDnNiGP",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300789"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-toronto-1avzz_kgkiawwxu",
@@ -165028,11 +165844,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300795",
+        "url": "https://www.ticketnetwork.com/en/p/8300795",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_KGkUMFJ2G",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300795"
   }
 ]

@@ -5357,13 +5357,13 @@
     "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-boston-td-garden-7-22-2026--concerts-pop/production/5973685",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-10-04",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0100631AAEF23EE8",
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-22-2026/event/0100631AAEF23EE8",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-10-04",
         "availability_status": "on_sale",
         "discovery_event_id": "vv177ZbsGknmHNDI"
       },
@@ -5406,7 +5406,8 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv177ZbsGknmHNDI",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373449",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373449/Ariana-Grande-tickets-Thu-Jul-23-2026-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373449/Ariana-Grande-tickets-Thu-Jul-23-2026-TD-Garden",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-ariana-grande-2026-boston-0100631aca626435",
@@ -160982,7 +160983,7 @@
     "id": "tm-fontaines-d-c-2027-san-francisco-g5vyz_k9cdguj",
     "artist_slug": "fontaines-d-c",
     "artist_name": "Fontaines D.C.",
-    "event_name": "Fontaines D.C.",
+    "event_name": "Live 105 Presents: Fontaines D.C.",
     "city": "San Francisco",
     "country": "United States Of America",
     "venue": "Bill Graham Civic Auditorium",
@@ -160994,7 +160995,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-san-francisco-california-05-12-2027/event/1C006535CE0F535C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

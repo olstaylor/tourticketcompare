@@ -358,12 +358,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671388",
+        "url": "https://www.stubhub.ie/riley-green-seattle-tickets-4-2-2027/event/107671388",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KeoQ4YP",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293123"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293123",
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-seattle-tickets-4-2-2027/event/107671388"
   },
   {
     "id": "tm-riley-green-2027-eugene-vvg1hz_3divdk0",
@@ -846,12 +854,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671387",
+        "url": "https://www.stubhub.ie/riley-green-fort-worth-tickets-5-6-2027/event/107671387",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_Kepbp4s",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293130"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293130",
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-fort-worth-tickets-5-6-2027/event/107671387"
   },
   {
     "id": "tm-riley-green-2027-wichita-vv1akzkfwgkdilqfv",
@@ -2026,12 +2042,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671436",
+        "url": "https://www.stubhub.ie/riley-green-mansfield-tickets-7-24-2027/event/107671436",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfwGke0hYNm",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293144"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293144",
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-mansfield-tickets-7-24-2027/event/107671436"
   },
   {
     "id": "tm-riley-green-2027-evansville-vv16azkfwxpza8acgv",

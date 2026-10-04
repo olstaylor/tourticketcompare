@@ -338,11 +338,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107189121",
-        "url": "https://www.stubhub.ie/don-omar-orlando-tickets-10-3-2026/event/107189121",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G61TZTiqR",
@@ -350,7 +350,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-orlando-tickets-10-3-2026/event/107189121"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-miami-vvg1vz_1mbpqce",

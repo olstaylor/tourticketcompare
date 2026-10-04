@@ -152,11 +152,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018163",
+        "url": "https://www.ticketnetwork.com/en/p/8018163",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PeQa",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018163"
   },
   {
     "id": "tm-riley-green-2026-las-vegas-z7r9jz1a7peq7",
@@ -205,11 +213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8018164",
+        "url": "https://www.ticketnetwork.com/en/p/8018164",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Peq7",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018164"
   },
   {
     "id": "tm-riley-green-2027-spokane-z7r9jz1aaezrp",
@@ -258,11 +274,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293121",
+        "url": "https://www.ticketnetwork.com/en/p/8293121",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZrp",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293121"
   },
   {
     "id": "tm-riley-green-2027-seattle-vvg1hz_keoq4yp",
@@ -311,11 +335,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293123",
+        "url": "https://www.ticketnetwork.com/en/p/8293123",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KeoQ4YP",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293123"
   },
   {
     "id": "tm-riley-green-2027-eugene-vvg1hz_3divdk0",
@@ -364,11 +396,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293124",
+        "url": "https://www.ticketnetwork.com/en/p/8293124",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3DivDK0",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293124"
   },
   {
     "id": "tm-riley-green-2027-edmonton-1av7z_3gkwgn0bp",
@@ -417,11 +457,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293148",
+        "url": "https://www.ticketnetwork.com/en/p/8293148",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkWgN0bP",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293148"
   },
   {
     "id": "tm-riley-green-2027-calgary-1aozkfygkderjem",
@@ -470,11 +518,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293149",
+        "url": "https://www.ticketnetwork.com/en/p/8293149",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfYGkderjEM",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293149"
   },
   {
     "id": "tm-riley-green-2027-saskatoon-1av7z_3gkdixvhi",
@@ -523,11 +579,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293150",
+        "url": "https://www.ticketnetwork.com/en/p/8293150",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkDiXvHI",
     "timezone": "America/Swift_Current",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293150"
   },
   {
     "id": "tm-riley-green-2027-raleigh-g5evz_ke-2cfw",
@@ -576,11 +640,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293125",
+        "url": "https://www.ticketnetwork.com/en/p/8293125",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Ke-2cfW",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293125"
   },
   {
     "id": "tm-riley-green-2027-knoxville-g5viz_3wie3-p",
@@ -629,11 +701,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293127",
+        "url": "https://www.ticketnetwork.com/en/p/8293127",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3WIe3-P",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293127"
   },
   {
     "id": "tm-riley-green-2027-greenville-g5evz_k14klik",
@@ -682,11 +762,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293128",
+        "url": "https://www.ticketnetwork.com/en/p/8293128",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_K14Klik",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293128"
   },
   {
     "id": "tm-riley-green-2027-fort-worth-vvg1yz_kepbp4s",
@@ -735,11 +823,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293130",
+        "url": "https://www.ticketnetwork.com/en/p/8293130",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_Kepbp4s",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293130"
   },
   {
     "id": "tm-riley-green-2027-wichita-vv1akzkfwgkdilqfv",
@@ -788,11 +884,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293131",
+        "url": "https://www.ticketnetwork.com/en/p/8293131",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfwGkdIlqfV",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293131"
   },
   {
     "id": "tm-riley-green-2027-rogers-g5viz_k5ft6hv",
@@ -841,11 +945,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293132",
+        "url": "https://www.ticketnetwork.com/en/p/8293132",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_K5ft6hv",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293132"
   },
   {
     "id": "tm-riley-green-2027-tulsa-1aozkfsgkexhv7n",
@@ -894,11 +1006,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293133",
+        "url": "https://www.ticketnetwork.com/en/p/8293133",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfsGkexhV7N",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293133"
   },
   {
     "id": "tm-riley-green-2027-dallas-vvg1yz_k1h0ipi",
@@ -947,11 +1067,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293134",
+        "url": "https://www.ticketnetwork.com/en/p/8293134",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_K1h0IPI",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293134"
   },
   {
     "id": "tm-riley-green-2027-lafayette-g5viz_3r9l7s7",
@@ -1053,11 +1181,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293136",
+        "url": "https://www.ticketnetwork.com/en/p/8293136",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3T3qKQr",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293136"
   },
   {
     "id": "tm-riley-green-2027-orange-beach-g5viz_kvcnsvm",
@@ -1212,11 +1348,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294259",
+        "url": "https://www.ticketnetwork.com/en/p/8294259",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeF_Z",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294259"
   },
   {
     "id": "tm-riley-green-2027-toronto-1a8zkfwgkd5hci5",
@@ -1477,11 +1621,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293140",
+        "url": "https://www.ticketnetwork.com/en/p/8293140",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfwGkdw_jCp",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293140"
   },
   {
     "id": "tm-riley-green-2027-clarkston-vv1afzkfygkenvgq1",
@@ -1530,11 +1682,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300342",
+        "url": "https://www.ticketnetwork.com/en/p/8300342",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfyGkeNVgq1",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300342"
   },
   {
     "id": "tm-riley-green-2027-syracuse-k7vgf_k1rwxjy",
@@ -1583,11 +1743,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8294264",
+        "url": "https://www.ticketnetwork.com/en/p/8294264",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_K1rWXJY",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294264"
   },
   {
     "id": "tm-riley-green-2027-allentown-1adzz_3gkdwsja0",
@@ -1636,11 +1804,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293141",
+        "url": "https://www.ticketnetwork.com/en/p/8293141",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_3GkDWsjA0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293141"
   },
   {
     "id": "tm-riley-green-2027-columbia-1a4zkfwgkdajcik",
@@ -1689,11 +1865,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293142",
+        "url": "https://www.ticketnetwork.com/en/p/8293142",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfwGkdaJCIk",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293142"
   },
   {
     "id": "tm-riley-green-2027-bethel-k7vgf_kkxvsto",
@@ -1742,11 +1926,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293143",
+        "url": "https://www.ticketnetwork.com/en/p/8293143",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KkxvstO",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293143"
   },
   {
     "id": "tm-riley-green-2027-mansfield-vv1avzkfwgke0hynm",
@@ -1795,11 +1987,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293144",
+        "url": "https://www.ticketnetwork.com/en/p/8293144",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfwGke0hYNm",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293144"
   },
   {
     "id": "tm-riley-green-2027-evansville-vv16azkfwxpza8acgv",
@@ -1848,11 +2048,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293145",
+        "url": "https://www.ticketnetwork.com/en/p/8293145",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16AZkfwxpZA8ACGv",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293145"
   },
   {
     "id": "tm-riley-green-2027-maryland-heights-vv1fvovpgtqtz755aa",

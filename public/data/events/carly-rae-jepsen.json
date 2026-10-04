@@ -46,12 +46,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300790",
+        "url": "https://www.ticketnetwork.com/en/p/8300790",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGklArlu8",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T16:00:00Z"
+    "public_onsale_at": "2026-10-08T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300790"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-calgary-1av7z_kgkulm9f3",
@@ -154,12 +162,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300792",
+        "url": "https://www.ticketnetwork.com/en/p/8300792",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGklk3DKw",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T17:00:00Z"
+    "public_onsale_at": "2026-10-08T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300792"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-san-francisco-g5vyz_kdn9abg",
@@ -208,12 +224,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300771",
+        "url": "https://www.ticketnetwork.com/en/p/8300771",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KDN9Abg",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T17:00:00Z"
+    "public_onsale_at": "2026-10-08T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300771"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-inglewood-vv170z_kgkmkrrsm",
@@ -262,12 +286,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300772",
+        "url": "https://www.ticketnetwork.com/en/p/8300772",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_KGkMKrRsM",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T17:00:00Z"
+    "public_onsale_at": "2026-10-08T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300772"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-san-diego-vvg1iz_kmdzlco",
@@ -316,12 +348,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300773",
+        "url": "https://www.ticketnetwork.com/en/p/8300773",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_KMDzlCo",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T17:00:00Z"
+    "public_onsale_at": "2026-10-08T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300773"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-las-vegas-1avjz_kgksxz4qo",
@@ -370,12 +410,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300776",
+        "url": "https://www.ticketnetwork.com/en/p/8300776",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGksXZ4qO",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T17:00:00Z"
+    "public_onsale_at": "2026-10-08T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300776"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-phoenix-1kk8vpc_gacbk4n",
@@ -424,12 +472,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300777",
+        "url": "https://www.ticketnetwork.com/en/p/8300777",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8vPC_GACbk4N",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T17:00:00Z"
+    "public_onsale_at": "2026-10-08T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300777"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-irving-vvg1yz_kwbaerl",
@@ -478,12 +534,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300778",
+        "url": "https://www.ticketnetwork.com/en/p/8300778",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KwBAERL",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T15:00:00Z"
+    "public_onsale_at": "2026-10-08T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300778"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-austin-g5diz_kbdqtji",
@@ -532,12 +596,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300779",
+        "url": "https://www.ticketnetwork.com/en/p/8300779",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KBDqTJi",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T15:00:00Z"
+    "public_onsale_at": "2026-10-08T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300779"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-houston-g5diz_kbuz9jg",
@@ -586,12 +658,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300780",
+        "url": "https://www.ticketnetwork.com/en/p/8300780",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KBuZ9jg",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T15:00:00Z"
+    "public_onsale_at": "2026-10-08T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300780"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-nashville-g5viz_kdzypqh",
@@ -640,12 +720,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300781",
+        "url": "https://www.ticketnetwork.com/en/p/8300781",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KDZYpQh",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T15:00:00Z"
+    "public_onsale_at": "2026-10-08T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300781"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-atlanta-vvg1zz_kmrbzzs",
@@ -694,12 +782,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300782",
+        "url": "https://www.ticketnetwork.com/en/p/8300782",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KMrBzZs",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300782"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-charlotte-g5evz_ksv1qq1",
@@ -748,12 +844,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300783",
+        "url": "https://www.ticketnetwork.com/en/p/8300783",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KSv1qq1",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300783"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-washington-1avfz_kgkz-xcfn",
@@ -802,12 +906,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300784",
+        "url": "https://www.ticketnetwork.com/en/p/8300784",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_KGkz-XCFn",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300784"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-new-york-g5diz_krvp7ot",
@@ -856,12 +968,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300785",
+        "url": "https://www.ticketnetwork.com/en/p/8300785",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KRvp7Ot",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300785"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-philadelphia-vv17fz_kgkmz_nj4",
@@ -910,12 +1030,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300786",
+        "url": "https://www.ticketnetwork.com/en/p/8300786",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkMZ_NJ4",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300786"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-boston-vv177z_kgklscrut",
@@ -964,12 +1092,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300787",
+        "url": "https://www.ticketnetwork.com/en/p/8300787",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_KGklSCrUt",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300787"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-chicago-vv17jz_kgkbbdisc",
@@ -1018,12 +1154,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300788",
+        "url": "https://www.ticketnetwork.com/en/p/8300788",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_KGkBBDISc",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T15:00:00Z"
+    "public_onsale_at": "2026-10-08T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300788"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-detroit-vv17oz_kgkdnnigp",
@@ -1072,12 +1216,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300789",
+        "url": "https://www.ticketnetwork.com/en/p/8300789",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkDnNiGP",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300789"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-toronto-1avzz_kgkiawwxu",
@@ -1234,11 +1386,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300795",
+        "url": "https://www.ticketnetwork.com/en/p/8300795",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_KGkUMFJ2G",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-08T14:00:00Z"
+    "public_onsale_at": "2026-10-08T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300795"
   }
 ]

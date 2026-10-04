@@ -53,13 +53,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303343",
+        "url": "https://www.ticketliquidator.com/tickets/8303343/Greta-Van-Fleet-tickets-Wed-Feb-3-2027-Enmarket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KDABKfS",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303343"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303343",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303343/Greta-Van-Fleet-tickets-Wed-Feb-3-2027-Enmarket-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-tampa-vvg1vz_kmcwtil",
@@ -115,13 +123,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303344",
+        "url": "https://www.ticketliquidator.com/tickets/8303344/Greta-Van-Fleet-tickets-Fri-Feb-5-2027-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_KMcwTIl",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303344"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303344",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303344/Greta-Van-Fleet-tickets-Fri-Feb-5-2027-Benchmark-International-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-jacksonville-1aefz_kgkdyuafx",
@@ -177,13 +193,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303345",
+        "url": "https://www.ticketliquidator.com/tickets/8303345/Greta-Van-Fleet-tickets-Sat-Feb-6-2027-VyStar-Veterans-Memorial-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_KGkDYUafX",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303345"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303345",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303345/Greta-Van-Fleet-tickets-Sat-Feb-6-2027-VyStar-Veterans-Memorial-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-atlanta-vvg1zz_kmneaip",
@@ -239,13 +263,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303346",
+        "url": "https://www.ticketliquidator.com/tickets/8303346/Greta-Van-Fleet-tickets-Tue-Feb-9-2027-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KMneaIP",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303346"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303346",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303346/Greta-Van-Fleet-tickets-Tue-Feb-9-2027-State-Farm-Arena-GA"
   },
   {
     "id": "tm-greta-van-fleet-2027-nashville-g5viz_kzhjzwy",
@@ -301,13 +333,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303347",
+        "url": "https://www.ticketliquidator.com/tickets/8303347/Greta-Van-Fleet-tickets-Wed-Feb-10-2027-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KzHJZWY",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-15T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303347"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303347",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303347/Greta-Van-Fleet-tickets-Wed-Feb-10-2027-Bridgestone-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-rosemont-vv178z_kgkmrjctr",
@@ -363,13 +403,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303349",
+        "url": "https://www.ticketliquidator.com/tickets/8303349/Greta-Van-Fleet-tickets-Fri-Feb-12-2027-Allstate-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_KGkMrJCtr",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-15T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303349"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303349",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303349/Greta-Van-Fleet-tickets-Fri-Feb-12-2027-Allstate-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-omaha-vv17bz_kgkmgzcnp",
@@ -425,13 +473,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303350",
+        "url": "https://www.ticketliquidator.com/tickets/8303350/Greta-Van-Fleet-tickets-Sat-Feb-13-2027-CHI-Health-Center-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkMGZcNP",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-15T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303350"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303350",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303350/Greta-Van-Fleet-tickets-Sat-Feb-13-2027-CHI-Health-Center-Omaha"
   },
   {
     "id": "tm-greta-van-fleet-2027-minneapolis-vv17bz_kgku0ofzs",
@@ -487,13 +543,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303351",
+        "url": "https://www.ticketliquidator.com/tickets/8303351/Greta-Van-Fleet-tickets-Mon-Feb-15-2027-Target-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkU0OFZs",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-15T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303351"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303351",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303351/Greta-Van-Fleet-tickets-Mon-Feb-15-2027-Target-Center"
   },
   {
     "id": "tm-greta-van-fleet-2027-louisville-1avbz_kgkbymb5h",
@@ -549,13 +613,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303353",
+        "url": "https://www.ticketliquidator.com/tickets/8303353/Greta-Van-Fleet-tickets-Fri-Feb-19-2027-KFC-Yum-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_KGkBYMb5h",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303353"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303353",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303353/Greta-Van-Fleet-tickets-Fri-Feb-19-2027-KFC-Yum-Center"
   },
   {
     "id": "tm-greta-van-fleet-2027-pittsburgh-1avbz_kgkmosrsz",
@@ -611,13 +683,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303354",
+        "url": "https://www.ticketliquidator.com/tickets/8303354/Greta-Van-Fleet-tickets-Sat-Feb-20-2027-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_KGkMOsrsz",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303354"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303354",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303354/Greta-Van-Fleet-tickets-Sat-Feb-20-2027-PPG-Paints-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-detroit-vv17oz_kgkwt_pf2",
@@ -673,13 +753,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303355",
+        "url": "https://www.ticketliquidator.com/tickets/8303355/Greta-Van-Fleet-tickets-Tue-Mar-2-2027-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkwT_Pf2",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303355"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303355",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303355/Greta-Van-Fleet-tickets-Tue-Mar-2-2027-Little-Caesars-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-boston-vv177z_kgknm09yr",
@@ -735,13 +823,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303357",
+        "url": "https://www.ticketliquidator.com/tickets/8303357/Greta-Van-Fleet-tickets-Fri-Mar-5-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_KGknM09Yr",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303357"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303357",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303357/Greta-Van-Fleet-tickets-Fri-Mar-5-2027-TD-Garden"
   },
   {
     "id": "tm-greta-van-fleet-2027-albany-k7vgf_kbmaa9o",
@@ -797,13 +893,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303358",
+        "url": "https://www.ticketliquidator.com/tickets/8303358/Greta-Van-Fleet-tickets-Sat-Mar-6-2027-MVP-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_KBmAa9o",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303358"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303358",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303358/Greta-Van-Fleet-tickets-Sat-Mar-6-2027-MVP-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-brooklyn-1adzz_kgkljmams",
@@ -859,13 +963,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303359",
+        "url": "https://www.ticketliquidator.com/tickets/8303359/Greta-Van-Fleet-tickets-Mon-Mar-8-2027-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_KGklJMams",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303359"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303359",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303359/Greta-Van-Fleet-tickets-Mon-Mar-8-2027-Barclays-Center"
   },
   {
     "id": "tm-greta-van-fleet-2027-philadelphia-1adzz_kgkv_zy6y",
@@ -921,13 +1033,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303360",
+        "url": "https://www.ticketliquidator.com/tickets/8303360/Greta-Van-Fleet-tickets-Wed-Mar-10-2027-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_KGkV_Zy6Y",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303360"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303360",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303360/Greta-Van-Fleet-tickets-Wed-Mar-10-2027-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-charlotte-g5evz_kd5pkxs",
@@ -983,13 +1103,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303361",
+        "url": "https://www.ticketliquidator.com/tickets/8303361/Greta-Van-Fleet-tickets-Fri-Mar-12-2027-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KD5PkXS",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303361"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303361",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303361/Greta-Van-Fleet-tickets-Fri-Mar-12-2027-Spectrum-Center"
   },
   {
     "id": "tm-greta-van-fleet-2027-knoxville-g5viz_fat50pa",
@@ -1045,13 +1173,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303362",
+        "url": "https://www.ticketliquidator.com/tickets/8303362/Greta-Van-Fleet-tickets-Sat-Mar-13-2027-Thompson-Boling-Arena-at-Food-City-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_fAt50pA",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303362"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303362",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303362/Greta-Van-Fleet-tickets-Sat-Mar-13-2027-Thompson-Boling-Arena-at-Food-City-Center"
   },
   {
     "id": "tm-greta-van-fleet-2027-fort-worth-vvg1yz_f6vci7r",
@@ -1107,13 +1243,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303363",
+        "url": "https://www.ticketliquidator.com/tickets/8303363/Greta-Van-Fleet-tickets-Mon-Mar-15-2027-Dickies-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f6vci7r",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-15T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303363"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303363",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303363/Greta-Van-Fleet-tickets-Mon-Mar-15-2027-Dickies-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-tulsa-1aezz_kgkdnv4sg",
@@ -1169,13 +1313,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303364",
+        "url": "https://www.ticketliquidator.com/tickets/8303364/Greta-Van-Fleet-tickets-Tue-Mar-16-2027-BOK-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_KGkDnv4SG",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-15T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303364"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303364",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303364/Greta-Van-Fleet-tickets-Tue-Mar-16-2027-BOK-Center"
   },
   {
     "id": "tm-greta-van-fleet-2027-anaheim-vv170z_kgkm7preh",
@@ -1231,13 +1383,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303365",
+        "url": "https://www.ticketliquidator.com/tickets/8303365/Greta-Van-Fleet-tickets-Fri-Mar-19-2027-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_KGkM7Preh",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-15T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303365"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303365",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303365/Greta-Van-Fleet-tickets-Fri-Mar-19-2027-Honda-Center"
   },
   {
     "id": "tm-greta-van-fleet-2027-phoenix-1av0z_kgkbck9ok",
@@ -1293,13 +1453,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303366",
+        "url": "https://www.ticketliquidator.com/tickets/8303366/Greta-Van-Fleet-tickets-Sat-Mar-20-2027-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_KGkBcK9Ok",
     "timezone": "America/Phoenix",
     "status": "announced",
     "public_onsale_at": "2026-10-15T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303366"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303366",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303366/Greta-Van-Fleet-tickets-Sat-Mar-20-2027-Mortgage-Matchup-Center"
   },
   {
     "id": "tm-greta-van-fleet-2027-reno-1avjz_kgkmchefe",
@@ -1355,13 +1523,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303367",
+        "url": "https://www.ticketliquidator.com/tickets/8303367/Greta-Van-Fleet-tickets-Mon-Mar-22-2027-Reno-Events-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkMCHeFE",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-15T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303367"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303367",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303367/Greta-Van-Fleet-tickets-Mon-Mar-22-2027-Reno-Events-Center"
   },
   {
     "id": "tm-greta-van-fleet-2027-seattle-vvg1hz_km-zrdh",
@@ -1417,13 +1593,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303368",
+        "url": "https://www.ticketliquidator.com/tickets/8303368/Greta-Van-Fleet-tickets-Wed-Mar-24-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KM-zRdh",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-15T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303368"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303368",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303368/Greta-Van-Fleet-tickets-Wed-Mar-24-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-portland-vvg1hz_kle7js7",
@@ -1479,13 +1663,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303369",
+        "url": "https://www.ticketliquidator.com/tickets/8303369/Greta-Van-Fleet-tickets-Thu-Mar-25-2027-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_Kle7js7",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-15T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303369"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303369",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303369/Greta-Van-Fleet-tickets-Thu-Mar-25-2027-Moda-Center-at-the-Rose-Quarter"
   },
   {
     "id": "tm-greta-van-fleet-2027-boise-g5vzz_fkffj8x",
@@ -1541,13 +1733,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303370",
+        "url": "https://www.ticketliquidator.com/tickets/8303370/Greta-Van-Fleet-tickets-Sat-Mar-27-2027-ExtraMile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fkfFJ8x",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-10-15T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303370"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303370",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303370/Greta-Van-Fleet-tickets-Sat-Mar-27-2027-ExtraMile-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-denver-g5vzz_kbjtioy",
@@ -1603,13 +1803,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303372",
+        "url": "https://www.ticketliquidator.com/tickets/8303372/Greta-Van-Fleet-tickets-Tue-Mar-30-2027-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KBJtIoY",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-10-15T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303372"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303372",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303372/Greta-Van-Fleet-tickets-Tue-Mar-30-2027-Ball-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-munich-z698xzc2z16v70efz3",
@@ -2097,13 +2305,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303348",
+        "url": "https://www.ticketliquidator.com/tickets/8303348/Greta-Van-Fleet-tickets-Tue-Jun-1-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_KGkBYUd70",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-09T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303348"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303348",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303348/Greta-Van-Fleet-tickets-Tue-Jun-1-2027-Co-Op-Live"
   },
   {
     "id": "tm-greta-van-fleet-2027-glasgow-1auzk4vgkene4-w",
@@ -2267,13 +2483,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303387",
+        "url": "https://www.ticketliquidator.com/tickets/8303387/Greta-Van-Fleet-tickets-Mon-Jul-5-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkw_OgTY",
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-10-15T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303387"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303387",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303387/Greta-Van-Fleet-tickets-Mon-Jul-5-2027-Rogers-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-edmonton-1av7z_kgkmfujae",
@@ -2329,13 +2553,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303388",
+        "url": "https://www.ticketliquidator.com/tickets/8303388/Greta-Van-Fleet-tickets-Wed-Jul-7-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkMFUjAE",
     "timezone": "America/Edmonton",
     "status": "announced",
     "public_onsale_at": "2026-10-15T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303388"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303388",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303388/Greta-Van-Fleet-tickets-Wed-Jul-7-2027-Rogers-Place"
   },
   {
     "id": "tm-greta-van-fleet-2027-calgary-1av7z_kgkum7iwv",
@@ -2391,13 +2623,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303389",
+        "url": "https://www.ticketliquidator.com/tickets/8303389/Greta-Van-Fleet-tickets-Thu-Jul-8-2027-Scotiabank-Saddledome",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkUm7IwV",
     "timezone": "America/Edmonton",
     "status": "announced",
     "public_onsale_at": "2026-10-15T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303389"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303389",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303389/Greta-Van-Fleet-tickets-Thu-Jul-8-2027-Scotiabank-Saddledome"
   },
   {
     "id": "tm-greta-van-fleet-2027-winnipeg-1av7z_kgkmeitov",
@@ -2453,13 +2693,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303390",
+        "url": "https://www.ticketliquidator.com/tickets/8303390/Greta-Van-Fleet-tickets-Sat-Jul-10-2027-Canada-Life-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkMEITov",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-15T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303390"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303390",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303390/Greta-Van-Fleet-tickets-Sat-Jul-10-2027-Canada-Life-Centre"
   },
   {
     "id": "tm-greta-van-fleet-2027-kansas-city-vv1akzk4vgkdr0kg1",
@@ -2515,13 +2763,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303373",
+        "url": "https://www.ticketliquidator.com/tickets/8303373/Greta-Van-Fleet-tickets-Tue-Jul-13-2027-T-Mobile-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4vGkdr0kg1",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-15T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303373"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303373",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303373/Greta-Van-Fleet-tickets-Tue-Jul-13-2027-T-Mobile-Center"
   },
   {
     "id": "tm-greta-van-fleet-2027-saint-louis-vv17bz_kgkm_stkv",
@@ -2631,13 +2887,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303375",
+        "url": "https://www.ticketliquidator.com/tickets/8303375/Greta-Van-Fleet-tickets-Fri-Jul-16-2027-Nationwide-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4vGkeXl1Ix",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303375"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303375",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303375/Greta-Van-Fleet-tickets-Fri-Jul-16-2027-Nationwide-Arena"
   },
   {
     "id": "tm-greta-van-fleet-2027-noblesville-vv17fz_kgkmuku1m",
@@ -2693,13 +2957,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303376",
+        "url": "https://www.ticketliquidator.com/tickets/8303376/Greta-Van-Fleet-tickets-Sat-Jul-17-2027-Ruoff-Music-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_KGkMuKu1m",
     "timezone": "America/Indiana/Indianapolis",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303376"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303376",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303376/Greta-Van-Fleet-tickets-Sat-Jul-17-2027-Ruoff-Music-Center"
   },
   {
     "id": "tm-greta-van-fleet-2027-raleigh-g5evz_f6z0uw6",
@@ -2755,13 +3027,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303377",
+        "url": "https://www.ticketliquidator.com/tickets/8303377/Greta-Van-Fleet-tickets-Tue-Jul-20-2027-Lenovo-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_f6Z0Uw6",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303377"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303377",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303377/Greta-Van-Fleet-tickets-Tue-Jul-20-2027-Lenovo-Center"
   },
   {
     "id": "tm-greta-van-fleet-2027-columbia-1avfz_kgkss_xxt",
@@ -2817,13 +3097,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303378",
+        "url": "https://www.ticketliquidator.com/tickets/8303378/Greta-Van-Fleet-tickets-Wed-Jul-21-2027-Merriweather-Post-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_KGkSs_xxT",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303378"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303378",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303378/Greta-Van-Fleet-tickets-Wed-Jul-21-2027-Merriweather-Post-Pavilion"
   },
   {
     "id": "tm-greta-van-fleet-2027-hershey-vv17fz_kgkdofs3p",
@@ -2879,13 +3167,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303379",
+        "url": "https://www.ticketliquidator.com/tickets/8303379/Greta-Van-Fleet-tickets-Fri-Jul-23-2027-Giant-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkDOFs3p",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303379"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303379",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303379/Greta-Van-Fleet-tickets-Fri-Jul-23-2027-Giant-Center"
   },
   {
     "id": "tm-greta-van-fleet-2027-uncasville-g5vvz_kwzs711",
@@ -2941,13 +3237,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303380",
+        "url": "https://www.ticketliquidator.com/tickets/8303380/Greta-Van-Fleet-tickets-Sat-Jul-24-2027-Mohegan-Sun-Arena-CT",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_KwzS711",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303380"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303380",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303380/Greta-Van-Fleet-tickets-Sat-Jul-24-2027-Mohegan-Sun-Arena-CT"
   },
   {
     "id": "tm-greta-van-fleet-2027-gilford-vv177z_kgkni4das",
@@ -3057,13 +3361,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303391",
+        "url": "https://www.ticketliquidator.com/tickets/8303391/Greta-Van-Fleet-tickets-Wed-Jul-28-2027-Place-Bell",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_KGkSaKUp4",
     "timezone": "America/Toronto",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303391"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303391",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303391/Greta-Van-Fleet-tickets-Wed-Jul-28-2027-Place-Bell"
   },
   {
     "id": "tm-greta-van-fleet-2027-toronto-1avzz_kgkswyehx",
@@ -3173,12 +3485,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303382",
+        "url": "https://www.ticketliquidator.com/tickets/8303382/Greta-Van-Fleet-tickets-Sat-Jul-31-2027-Acrisure-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkwlsfoG",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-15T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303382"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303382",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303382/Greta-Van-Fleet-tickets-Sat-Jul-31-2027-Acrisure-Amphitheater"
   }
 ]

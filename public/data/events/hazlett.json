@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054862",
+        "url": "https://www.ticketliquidator.com/tickets/8054862/Hazlett-tickets-Sat-May-29-2027-Wow-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeojP",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054862"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054862",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054862/Hazlett-tickets-Sat-May-29-2027-Wow-Hall"
   },
   {
     "id": "tm-hazlett-2027-austin-g5diz_kepkpyq",

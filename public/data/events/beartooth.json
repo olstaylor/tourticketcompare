@@ -214,11 +214,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7996083",
-        "url": "https://www.ticketliquidator.com/tickets/7996083/Beartooth-tickets-Sat-Oct-3-2026-O2-Academy-Brixton",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107169082",
@@ -232,7 +232,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996083/Beartooth-tickets-Sat-Oct-3-2026-O2-Academy-Brixton",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/beartooth-tickets-london-o2-academy-brixton-3-10-2026/event/107169082"
   },
   {

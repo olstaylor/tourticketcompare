@@ -318,12 +318,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8243932",
+        "url": "https://www.ticketliquidator.com/tickets/8243932/Fontaines-DC-tickets-Sat-Nov-21-2026-AO-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_oCwiP0O",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243932"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243932",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8243932/Fontaines-DC-tickets-Sat-Nov-21-2026-AO-Arena"
   },
   {
     "id": "tm-fontaines-d-c-2026-glasgow-1auzkffgketljog",
@@ -379,12 +387,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8243933",
+        "url": "https://www.ticketliquidator.com/tickets/8243933/Fontaines-DC-tickets-Sun-Nov-22-2026-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkffGketlJOG",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243933"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243933",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8243933/Fontaines-DC-tickets-Sun-Nov-22-2026-OVO-Hydro"
   },
   {
     "id": "tm-fontaines-d-c-2026-leeds-g5vhz_8b5sfcc",
@@ -493,12 +509,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8243928",
+        "url": "https://www.ticketliquidator.com/tickets/8243928/Fontaines-DC-tickets-Wed-Nov-25-2026-Utilita-Arena-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeGZ_8GkDXXLC2",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243928"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243928",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8243928/Fontaines-DC-tickets-Wed-Nov-25-2026-Utilita-Arena-Birmingham"
   },
   {
     "id": "tm-fontaines-d-c-2026-london-1agzkfogkenxxaj",
@@ -607,13 +631,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303807",
+        "url": "https://www.ticketliquidator.com/tickets/8303807/Fontaines-DC-tickets-Fri-Apr-23-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGkeDOsQI",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303807"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303807",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303807/Fontaines-DC-tickets-Fri-Apr-23-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-fontaines-d-c-2027-philadelphia-vv17fz_kgks-xsxp",
@@ -723,13 +755,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303810",
+        "url": "https://www.ticketliquidator.com/tickets/8303810/Fontaines-DC-tickets-Tue-Apr-27-2027-Fox-Theatre-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkSEW9Wu",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303810"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303810",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303810/Fontaines-DC-tickets-Tue-Apr-27-2027-Fox-Theatre-Detroit"
   },
   {
     "id": "tm-fontaines-d-c-2027-chicago-vv1k8z_fkfg7zjno",
@@ -839,13 +879,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303812",
+        "url": "https://www.ticketliquidator.com/tickets/8303812/Fontaines-DC-tickets-Fri-Apr-30-2027-Landmark-Credit-Union-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_KGkloizCL",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-09T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303812"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303812",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303812/Fontaines-DC-tickets-Fri-Apr-30-2027-Landmark-Credit-Union-Live"
   },
   {
     "id": "tm-fontaines-d-c-2027-minneapolis-vv17bz_kgkijqu5x",
@@ -901,13 +949,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303813",
+        "url": "https://www.ticketliquidator.com/tickets/8303813/Fontaines-DC-tickets-Sat-May-1-2027-The-Armory-Minneapolis",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkijqU5X",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-09T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303813"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303813",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303813/Fontaines-DC-tickets-Sat-May-1-2027-The-Armory-Minneapolis"
   },
   {
     "id": "tm-fontaines-d-c-2027-vancouver-1av7z_kgkupzetr",
@@ -963,13 +1019,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303822",
+        "url": "https://www.ticketliquidator.com/tickets/8303822/Fontaines-DC-tickets-Wed-May-5-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkUPzETr",
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303822"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303822",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303822/Fontaines-DC-tickets-Wed-May-5-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
   },
   {
     "id": "tm-fontaines-d-c-2027-seattle-vvg1hz_kbr3b0c",
@@ -1025,13 +1089,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303814",
+        "url": "https://www.ticketliquidator.com/tickets/8303814/Fontaines-DC-tickets-Sat-May-8-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KBR3B0C",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303814"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303814",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303814/Fontaines-DC-tickets-Sat-May-8-2027-Wamu-Theater-At-Lumen-Field-Event-Center"
   },
   {
     "id": "tm-fontaines-d-c-2027-sacramento-g5vyz_kmgztid",
@@ -1087,13 +1159,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303815",
+        "url": "https://www.ticketliquidator.com/tickets/8303815/Fontaines-DC-tickets-Tue-May-11-2027-Channel-24",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KMGzTiD",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303815"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303815",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303815/Fontaines-DC-tickets-Tue-May-11-2027-Channel-24"
   },
   {
     "id": "tm-fontaines-d-c-2027-san-francisco-g5vyz_k9cdguj",
@@ -1149,13 +1229,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303816",
+        "url": "https://www.ticketliquidator.com/tickets/8303816/Fontaines-DC-tickets-Wed-May-12-2027-Bill-Graham-Civic-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K9Cdguj",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303816"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303816",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303816/Fontaines-DC-tickets-Wed-May-12-2027-Bill-Graham-Civic-Auditorium"
   },
   {
     "id": "tm-fontaines-d-c-2027-milano-zg9rmiynyzd1ve",
@@ -1423,12 +1511,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271586",
+        "url": "https://www.ticketliquidator.com/tickets/8271586/Fontaines-DC-tickets-Thu-Jul-1-2027-St-James-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGkM3HlfK",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271586"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271586",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271586/Fontaines-DC-tickets-Thu-Jul-1-2027-St-James-Park"
   },
   {
     "id": "tm-fontaines-d-c-2027-manchester-g5dzz_omjzv0z",
@@ -1643,12 +1739,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264053",
+        "url": "https://www.ticketliquidator.com/tickets/8264053/Fontaines-DC-tickets-Fri-Jul-9-2027-London-Stadium-At-Queen-Elizabeth-Olympic-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ku8vPF_GA19KNu",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264053"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264053",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264053/Fontaines-DC-tickets-Fri-Jul-9-2027-London-Stadium-At-Queen-Elizabeth-Olympic-Park"
   },
   {
     "id": "tm-fontaines-d-c-2027-toronto-1avzz_kgkmdxopu",
@@ -1758,13 +1862,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303818",
+        "url": "https://www.ticketliquidator.com/tickets/8303818/Fontaines-DC-tickets-Thu-Sep-30-2027-Merriweather-Post-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vfZ_fkaG7MPC7",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303818"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303818",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303818/Fontaines-DC-tickets-Thu-Sep-30-2027-Merriweather-Post-Pavilion"
   },
   {
     "id": "tm-fontaines-d-c-2027-atlanta-vvg1zz_keib7ia",
@@ -1820,13 +1932,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303820",
+        "url": "https://www.ticketliquidator.com/tickets/8303820/Fontaines-DC-tickets-Fri-Oct-8-2027-Synovus-Bank-Amphitheater-at-Chastain-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KEIb7ia",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303820"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303820",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303820/Fontaines-DC-tickets-Fri-Oct-8-2027-Synovus-Bank-Amphitheater-at-Chastain-Park"
   },
   {
     "id": "tm-fontaines-d-c-2027-inglewood-vv1ke8vpuyga5p1et",
@@ -1882,12 +2002,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303821",
+        "url": "https://www.ticketliquidator.com/tickets/8303821/Fontaines-DC-tickets-Fri-Oct-15-2027-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1ke8vPuYGA5P1Et",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303821"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303821",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303821/Fontaines-DC-tickets-Fri-Oct-15-2027-The-Kia-Forum"
   }
 ]

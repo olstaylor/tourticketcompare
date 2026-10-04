@@ -1019,7 +1019,7 @@
     "id": "tm-fontaines-d-c-2027-san-francisco-g5vyz_k9cdguj",
     "artist_slug": "fontaines-d-c",
     "artist_name": "Fontaines D.C.",
-    "event_name": "Fontaines D.C.",
+    "event_name": "Live 105 Presents: Fontaines D.C.",
     "city": "San Francisco",
     "country": "United States Of America",
     "venue": "Bill Graham Civic Auditorium",
@@ -1031,7 +1031,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-san-francisco-california-05-12-2027/event/1C006535CE0F535C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-04",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

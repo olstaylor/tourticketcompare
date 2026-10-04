@@ -415,7 +415,7 @@
     "ticketmaster_event_id": "10006537B76D9DFD",
     "ticketmaster_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-22-2027/event/10006537B76D9DFD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-22-2027--concerts-alternative/production/7623563",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-22-2027/event/10006537B76D9DFD",
     "last_verified_at": "2026-10-03",
@@ -437,11 +437,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7623563,
+        "url": "https://www.vividseats.com/a-perfect-circle-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-22-2027--concerts-alternative/production/7623563",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

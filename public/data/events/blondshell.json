@@ -354,7 +354,7 @@
     "ticketmaster_event_id": "11006538816C4514",
     "ticketmaster_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/blondshell-tickets-vancouver-commodore-ballroom-3-6-2027/production/7625188",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
     "last_verified_at": null,
@@ -376,11 +376,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7625188,
+        "url": "https://www.vividseats.com/blondshell-tickets-vancouver-commodore-ballroom-3-6-2027/production/7625188",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

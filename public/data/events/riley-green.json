@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeZrp",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZrp",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-spokane-numerica-veterans-arena-4-1-2027/production/7618130",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZrp",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618130,
+        "url": "https://www.vividseats.com/riley-green-tickets-spokane-numerica-veterans-arena-4-1-2027/production/7618130",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "0F00653091695C25",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-seattle-washington-04-02-2027/event/0F00653091695C25",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-seattle-climate-pledge-arena-4-2-2027/production/7618128",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-seattle-washington-04-02-2027/event/0F00653091695C25",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618128,
+        "url": "https://www.vividseats.com/riley-green-tickets-seattle-climate-pledge-arena-4-2-2027/production/7618128",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "0F00652EEC07B4E4",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-eugene-oregon-04-03-2027/event/0F00652EEC07B4E4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-eugene-matthew-knight-arena-4-3-2027/production/7618132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-eugene-oregon-04-03-2027/event/0F00652EEC07B4E4",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618132,
+        "url": "https://www.vividseats.com/riley-green-tickets-eugene-matthew-knight-arena-4-3-2027/production/7618132",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "1100652F758E4625",
     "ticketmaster_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-edmonton-alberta-04-08-2027/event/1100652F758E4625",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-edmonton-rogers-place-4-8-2027--concerts-country-and-folk/production/7618682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-edmonton-alberta-04-08-2027/event/1100652F758E4625",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618682,
+        "url": "https://www.vividseats.com/riley-green-tickets-edmonton-rogers-place-4-8-2027--concerts-country-and-folk/production/7618682",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "11006530C279C9F7",
     "ticketmaster_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-calgary-alberta-04-09-2027/event/11006530C279C9F7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-calgary-scotiabank-saddledome-4-9-2027/production/7618664",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-calgary-alberta-04-09-2027/event/11006530C279C9F7",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618664,
+        "url": "https://www.vividseats.com/riley-green-tickets-calgary-scotiabank-saddledome-4-9-2027/production/7618664",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "1100652EECF81F28",
     "ticketmaster_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-saskatoon-saskatchewan-04-10-2027/event/1100652EECF81F28",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-saskatoon-sasktel-centre-4-10-2027/production/7618680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-saskatoon-saskatchewan-04-10-2027/event/1100652EECF81F28",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618680,
+        "url": "https://www.vividseats.com/riley-green-tickets-saskatoon-sasktel-centre-4-10-2027/production/7618680",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "2D006530A13ED53D",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-raleigh-north-carolina-04-29-2027/event/2D006530A13ED53D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-4-29-2027/production/7618134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-raleigh-north-carolina-04-29-2027/event/2D006530A13ED53D",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618134,
+        "url": "https://www.vividseats.com/riley-green-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-4-29-2027/production/7618134",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "1B00652F68092865",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-knoxville-tennessee-04-30-2027/event/1B00652F68092865",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-knoxville-thompson-boling-arena-at-food-city-center-4-30-2027/production/7618136",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-knoxville-tennessee-04-30-2027/event/1B00652F68092865",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618136,
+        "url": "https://www.vividseats.com/riley-green-tickets-knoxville-thompson-boling-arena-at-food-city-center-4-30-2027/production/7618136",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "2D006532954EBB06",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-greenville-south-carolina-05-01-2027/event/2D006532954EBB06",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-greenville-bon-secours-wellness-arena-5-1-2027/production/7618144",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-greenville-south-carolina-05-01-2027/event/2D006532954EBB06",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618144,
+        "url": "https://www.vividseats.com/riley-green-tickets-greenville-bon-secours-wellness-arena-5-1-2027/production/7618144",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "0C00653096616571",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-fort-worth-texas-05-06-2027/event/0C00653096616571",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-fort-worth-dickies-arena-5-6-2027/production/7618146",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-fort-worth-texas-05-06-2027/event/0C00653096616571",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618146,
+        "url": "https://www.vividseats.com/riley-green-tickets-fort-worth-dickies-arena-5-6-2027/production/7618146",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "06006532E8ADD534",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-wichita-kansas-05-07-2027/event/06006532E8ADD534",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-wichita-intrust-bank-arena-5-7-2027/production/7618142",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-wichita-kansas-05-07-2027/event/06006532E8ADD534",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618142,
+        "url": "https://www.vividseats.com/riley-green-tickets-wichita-intrust-bank-arena-5-7-2027/production/7618142",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "1B006532D4A476C1",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-rogers-arkansas-05-08-2027/event/1B006532D4A476C1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-rogers-walmart-amp-5-8-2027/production/7618170",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-rogers-arkansas-05-08-2027/event/1B006532D4A476C1",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618170,
+        "url": "https://www.vividseats.com/riley-green-tickets-rogers-walmart-amp-5-8-2027/production/7618170",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "20006531A26F4123",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-tulsa-oklahoma-05-20-2027/event/20006531A26F4123",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-tulsa-bok-center-5-20-2027/production/7618172",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-tulsa-oklahoma-05-20-2027/event/20006531A26F4123",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618172,
+        "url": "https://www.vividseats.com/riley-green-tickets-tulsa-bok-center-5-20-2027/production/7618172",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "0C0065329B928968",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-dallas-texas-05-21-2027/event/0C0065329B928968",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-dallas-dos-equis-pavilion-5-21-2027/production/7618204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-dallas-texas-05-21-2027/event/0C0065329B928968",
     "last_verified_at": null,
@@ -935,11 +935,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618204,
+        "url": "https://www.vividseats.com/riley-green-tickets-dallas-dos-equis-pavilion-5-21-2027/production/7618204",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1019,7 +1019,7 @@
     "ticketmaster_event_id": "1B00652FD275369E",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-brandon-mississippi-06-03-2027/event/1B00652FD275369E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-brandon-brandon-amphitheater-6-3-2027/production/7618192",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-brandon-mississippi-06-03-2027/event/1B00652FD275369E",
     "last_verified_at": null,
@@ -1041,11 +1041,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618192,
+        "url": "https://www.vividseats.com/riley-green-tickets-brandon-brandon-amphitheater-6-3-2027/production/7618192",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1072,7 +1072,7 @@
     "ticketmaster_event_id": "1B0065306D8F3D37",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-orange-beach-alabama-06-04-2027/event/1B0065306D8F3D37",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-orange-beach-amphitheater-at-the-wharf-6-4-2027/production/7618180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-orange-beach-alabama-06-04-2027/event/1B0065306D8F3D37",
     "last_verified_at": null,
@@ -1094,11 +1094,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618180,
+        "url": "https://www.vividseats.com/riley-green-tickets-orange-beach-amphitheater-at-the-wharf-6-4-2027/production/7618180",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1125,7 +1125,7 @@
     "ticketmaster_event_id": "1B006532E8A6BD25",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-orange-beach-alabama-06-05-2027/event/1B006532E8A6BD25",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-orange-beach-amphitheater-at-the-wharf-6-5-2027--concerts-country-and-folk/production/7636580",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-orange-beach-alabama-06-05-2027/event/1B006532E8A6BD25",
     "last_verified_at": null,
@@ -1147,11 +1147,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636580,
+        "url": "https://www.vividseats.com/riley-green-tickets-orange-beach-amphitheater-at-the-wharf-6-5-2027--concerts-country-and-folk/production/7636580",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1178,7 +1178,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeF_Z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeF_Z",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-mount-pleasant-soaring-eagle-casino-and-resort-6-10-2027/production/7618638",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeF_Z",
     "last_verified_at": null,
@@ -1200,11 +1200,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618638,
+        "url": "https://www.vividseats.com/riley-green-tickets-mount-pleasant-soaring-eagle-casino-and-resort-6-10-2027/production/7618638",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1231,7 +1231,7 @@
     "ticketmaster_event_id": "10006532CB6CEB0B",
     "ticketmaster_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-toronto-ontario-06-11-2027/event/10006532CB6CEB0B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-toronto-rbc-amphitheatre-6-11-2027/production/7618686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-toronto-ontario-06-11-2027/event/10006532CB6CEB0B",
     "last_verified_at": null,
@@ -1253,11 +1253,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618686,
+        "url": "https://www.vividseats.com/riley-green-tickets-toronto-rbc-amphitheatre-6-11-2027/production/7618686",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1284,7 +1284,7 @@
     "ticketmaster_event_id": "10006532CB6FEB16",
     "ticketmaster_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-toronto-ontario-06-12-2027/event/10006532CB6FEB16",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-toronto-rbc-amphitheatre-6-12-2027--concerts-country-and-folk/production/7636602",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-toronto-ontario-06-12-2027/event/10006532CB6FEB16",
     "last_verified_at": null,
@@ -1306,11 +1306,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636602,
+        "url": "https://www.vividseats.com/riley-green-tickets-toronto-rbc-amphitheatre-6-12-2027--concerts-country-and-folk/production/7636602",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1337,7 +1337,7 @@
     "ticketmaster_event_id": "01006531A109FD2C",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-18-2027/event/01006531A109FD2C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-gilford-banknh-pavilion-6-18-2027/production/7618196",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-18-2027/event/01006531A109FD2C",
     "last_verified_at": null,
@@ -1359,11 +1359,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618196,
+        "url": "https://www.vividseats.com/riley-green-tickets-gilford-banknh-pavilion-6-18-2027/production/7618196",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1390,7 +1390,7 @@
     "ticketmaster_event_id": "01006531A85A2C19",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-19-2027/event/01006531A85A2C19",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-gilford-banknh-pavilion-6-19-2027--concerts-country-and-folk/production/7636582",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-19-2027/event/01006531A85A2C19",
     "last_verified_at": null,
@@ -1412,11 +1412,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636582,
+        "url": "https://www.vividseats.com/riley-green-tickets-gilford-banknh-pavilion-6-19-2027--concerts-country-and-folk/production/7636582",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1443,7 +1443,7 @@
     "ticketmaster_event_id": "08006532F265C396",
     "ticketmaster_url": "https://www.ticketmaster.com/995-wycd-hoedown-featuring-riley-green-clarkston-michigan-06-25-2027/event/08006532F265C396",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-clarkston-pine-knob-music-theatre-6-25-2027/production/7618228",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/995-wycd-hoedown-featuring-riley-green-clarkston-michigan-06-25-2027/event/08006532F265C396",
     "last_verified_at": null,
@@ -1465,11 +1465,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618228,
+        "url": "https://www.vividseats.com/riley-green-tickets-clarkston-pine-knob-music-theatre-6-25-2027/production/7618228",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1496,7 +1496,7 @@
     "ticketmaster_event_id": "08006539A3D3574A",
     "ticketmaster_url": "https://www.ticketmaster.com/995-wycd-hoedown-featuring-riley-green-clarkston-michigan-06-26-2027/event/08006539A3D3574A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-clarkston-pine-knob-music-theatre-6-26-2027--concerts-country-and-folk/production/7637034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/995-wycd-hoedown-featuring-riley-green-clarkston-michigan-06-26-2027/event/08006539A3D3574A",
     "last_verified_at": null,
@@ -1518,11 +1518,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7637034,
+        "url": "https://www.vividseats.com/riley-green-tickets-clarkston-pine-knob-music-theatre-6-26-2027--concerts-country-and-folk/production/7637034",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1549,7 +1549,7 @@
     "ticketmaster_event_id": "000065329EF7E9B0",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-syracuse-new-york-07-15-2027/event/000065329EF7E9B0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-syracuse-empower-federal-credit-union-amphitheater-at-lakeview-7-15-2027/production/7618652",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-syracuse-new-york-07-15-2027/event/000065329EF7E9B0",
     "last_verified_at": null,
@@ -1571,11 +1571,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618652,
+        "url": "https://www.vividseats.com/riley-green-tickets-syracuse-empower-federal-credit-union-amphitheater-at-lakeview-7-15-2027/production/7618652",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1602,7 +1602,7 @@
     "ticketmaster_event_id": "3000652EFDC5C164",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-allentown-pennsylvania-07-16-2027/event/3000652EFDC5C164",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-allentown-ppl-center-7-16-2027/production/7618240",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-allentown-pennsylvania-07-16-2027/event/3000652EFDC5C164",
     "last_verified_at": null,
@@ -1624,11 +1624,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618240,
+        "url": "https://www.vividseats.com/riley-green-tickets-allentown-ppl-center-7-16-2027/production/7618240",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1655,7 +1655,7 @@
     "ticketmaster_event_id": "15006532C998EA06",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-columbia-maryland-07-22-2027/event/15006532C998EA06",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-columbia-merriweather-post-pavilion-7-22-2027/production/7618186",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-columbia-maryland-07-22-2027/event/15006532C998EA06",
     "last_verified_at": null,
@@ -1677,11 +1677,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618186,
+        "url": "https://www.vividseats.com/riley-green-tickets-columbia-merriweather-post-pavilion-7-22-2027/production/7618186",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1708,7 +1708,7 @@
     "ticketmaster_event_id": "00006531A2071A60",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-bethel-new-york-07-23-2027/event/00006531A2071A60",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-bethel-bethel-woods-center-for-the-arts-7-23-2027/production/7618250",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-bethel-new-york-07-23-2027/event/00006531A2071A60",
     "last_verified_at": null,
@@ -1730,11 +1730,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618250,
+        "url": "https://www.vividseats.com/riley-green-tickets-bethel-bethel-woods-center-for-the-arts-7-23-2027/production/7618250",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1761,7 +1761,7 @@
     "ticketmaster_event_id": "01006532A46F08EE",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-mansfield-massachusetts-07-24-2027/event/01006532A46F08EE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-mansfield-xfinity-center---ma-7-24-2027/production/7618226",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-mansfield-massachusetts-07-24-2027/event/01006532A46F08EE",
     "last_verified_at": null,
@@ -1783,11 +1783,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618226,
+        "url": "https://www.vividseats.com/riley-green-tickets-mansfield-xfinity-center---ma-7-24-2027/production/7618226",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1814,7 +1814,7 @@
     "ticketmaster_event_id": "05006532896F4DB0",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-evansville-indiana-07-29-2027/event/05006532896F4DB0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-evansville-ford-center-evansville-7-29-2027/production/7618220",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-evansville-indiana-07-29-2027/event/05006532896F4DB0",
     "last_verified_at": null,
@@ -1836,11 +1836,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618220,
+        "url": "https://www.vividseats.com/riley-green-tickets-evansville-ford-center-evansville-7-29-2027/production/7618220",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1920,7 +1920,7 @@
     "ticketmaster_event_id": "07006532DCEF96FC",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-milwaukee-wisconsin-07-31-2027/event/07006532DCEF96FC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/riley-green-tickets-milwaukee-henry-maier-festival-park---american-family-insurance-amphitheater-7-31-2027/production/7618510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-milwaukee-wisconsin-07-31-2027/event/07006532DCEF96FC",
     "last_verified_at": null,
@@ -1942,11 +1942,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7618510,
+        "url": "https://www.vividseats.com/riley-green-tickets-milwaukee-henry-maier-festival-park---american-family-insurance-amphitheater-7-31-2027/production/7618510",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

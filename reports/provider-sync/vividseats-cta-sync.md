@@ -1,6 +1,6 @@
 # Vivid Seats CTA sync log
 
-Generated: 2026-10-03T10:40:45.847Z
+Generated: 2026-10-04T11:25:36.510Z
 
 Written by `scripts/sync-vividseats-events.mjs`. Identity anchor: an
 exact-name Impact Marketplace Products query for a registry-verified
@@ -10,16 +10,16 @@ timezone) against the Vivid Seats production slug date.
 ## Run summary
 
 - Mode: apply
-- Events selected: 599
-- Events skipped before API checks: 378
-- API calls made: 85
-- Verified provenance written: 2
-- URLs added: 31
+- Events selected: 715
+- Events skipped before API checks: 381
+- API calls made: 90
+- Verified provenance written: 4
+- URLs added: 96
 - URLs corrected: 0
 - URLs cleared: 0
 - Provenance un-verified: 0
 - Conflicts (ambiguous, untouched): 50
-- No qualifying listing: 516
+- No qualifying listing: 565
 - Transient API errors (untouched, retried next run): 0
 - Stopped early: no
 
@@ -216,6 +216,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-stella-lefty-2027-san-francisco-g5vyz_ok5hlnw | stella-lefty | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-stella-lefty-2027-amsterdam-z698xzbpz16vj_pxbp | stella-lefty | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-stella-lefty-2027-manchester-g5dzz_36uppzk | stella-lefty | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-stella-lefty-2027-birmingham-g5dzz_o1n7vhc | stella-lefty | verify (applied) | 7538473 | https://www.vividseats.com/stella-lefty-tickets-birmingham-o2-institute-birmingham-3-22-2027/production/7538473 | - |
 | tm-stella-lefty-2027-dublin-1avoz_8gkr5muwq | stella-lefty | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-stella-lefty-2027-dublin-1avoz_8gkr5mcw- | stella-lefty | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-stella-lefty-2026-saint-louis-1a-zkfxgkegfvfo | stella-lefty | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -230,9 +231,9 @@ timezone) against the Vivid Seats production slug date.
 | tm-the-airborne-toxic-event-2027-englewood-z7r9jz1aazgov | the-airborne-toxic-event | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-the-airborne-toxic-event-2027-portland-z7r9jz1aazfzx | the-airborne-toxic-event | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-andrea-bocelli-2026-montreal-1ad7z_dgkclbvf3 | andrea-bocelli | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-andrea-bocelli-2027-birmingham-1aegz_kgkwagold | andrea-bocelli | verify (applied) | 7622420 | https://www.vividseats.com/andrea-bocelli-tickets-birmingham-utilita-arena-birmingham-9-29-2027--theater-opera/production/7622420 | - |
+| tm-andrea-bocelli-2027-glasgow-1adbz_k03jdzd5av | andrea-bocelli | verify (applied) | 7622414 | https://www.vividseats.com/andrea-bocelli-tickets-glasgow-ovo-hydro-10-9-2027--theater-opera/production/7622414 | - |
 | tm-andrea-bocelli-2027-chorzow-z698xzqpz16v7kfvze | andrea-bocelli | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-andrea-bocelli-2027-london-1adfz_kgkbcpkr9 | andrea-bocelli | add (applied) | 7622416 | https://www.vividseats.com/andrea-bocelli-tickets-london-the-o2---london-10-1-2027--theater-opera/production/7622416 | - |
-| tm-andrea-bocelli-2027-manchester-1amzkfzgkd7qkyk | andrea-bocelli | add (applied) | 7620595 | https://www.vividseats.com/andrea-bocelli-tickets-manchester-co-op-live-10-5-2027--theater-opera/production/7620595 | - |
 | tm-morat-2027-rosemont-vvg18z_1rgckw0 | morat | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-missio-2026-detroit-z7r9jz1aaziv8 | missio | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-missio-2026-toronto-1avzz_8gklvsj7l | missio | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -267,9 +268,8 @@ timezone) against the Vivid Seats production slug date.
 | tm-sylvan-esso-2026-durham-g5evz_1dgn5_o | sylvan-esso | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-sylvan-esso-2026-durham-g5evz_1dgp5h6 | sylvan-esso | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-sylvan-esso-2026-chicago-vv178z_agksv90pf | sylvan-esso | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-sylvan-esso-2027-denver-z7r9jz1a7pj-s | sylvan-esso | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-sylvan-esso-2027-denver-z7r9jz1a7pj-s | sylvan-esso | add (applied) | 7190302 | https://www.vividseats.com/sylvan-esso-tickets-denver-ogden-theatre-3-6-2027--concerts-dance-electronica/production/7190302 | - |
 | tm-sylvan-esso-2027-salt-lake-city-z7r9jz1a7pxjk | sylvan-esso | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-sylvan-esso-2026-asheville-z7r9jz1a7pajj | sylvan-esso | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-sylvan-esso-2026-asheville-z7r9jz1a7paje | sylvan-esso | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-blondshell-2026-portland-z7r9jz1a70e_4 | blondshell | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-blondshell-2026-amsterdam-z698xzbpz16evuaf-z | blondshell | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -277,9 +277,7 @@ timezone) against the Vivid Seats production slug date.
 | tm-blondshell-2026-glasgow-17uov0g616cnj6j | blondshell | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-blondshell-2026-london-g5vhz_adn7kja | blondshell | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-blondshell-2026-dublin-1avoz_agkwt8mru | blondshell | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-blondshell-2027-vancouver-16ozkfzopzauakea | blondshell | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-blondshell-2027-asbury-park-k7vgf_knjlgim | blondshell | add (applied) | 7625132 | https://www.vividseats.com/blondshell-tickets-asbury-park-stone-pony-3-23-2027/production/7625132 | - |
-| tm-blondshell-2027-madison-vv1kvyvpc_ga55f1w | blondshell | add (applied) | 7626132 | https://www.vividseats.com/blondshell-tickets-madison-majestic-theatre---madison-5-15-2027/production/7626132 | - |
+| tm-blondshell-2027-vancouver-16ozkfzopzauakea | blondshell | add (applied) | 7625188 | https://www.vividseats.com/blondshell-tickets-vancouver-commodore-ballroom-3-6-2027/production/7625188 | - |
 | tm-blondshell-2027-detroit-vv1afzkfmgkdgjzny | blondshell | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-blondshell-2027-saint-louis-vv1kbz_kjdg7cpvx | blondshell | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-pink-martini-2026-redding-z7r9jz1a7ps3o | pink-martini | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -373,7 +371,6 @@ timezone) against the Vivid Seats production slug date.
 | tm-the-warning-2027-manchester-g5dzz_3jr_df6 | the-warning | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-the-warning-2027-vancouver-z7r9jz1aavjo7 | the-warning | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-the-warning-2027-oklahoma-city-z7r9jz1aavtgp | the-warning | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-the-warning-2027-montreal-1ad7z_3gknfhkqk | the-warning | verify (applied) | 7555333 | https://www.vividseats.com/the-warning-tickets-montreal-mtelus-5-9-2027/production/7555333 | - |
 | tm-hans-zimmer-2027-kanata-1aszkf0gkdalm2x | hans-zimmer | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-hans-zimmer-2027-quebec-1fg8vp17a7z7uce8 | hans-zimmer | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-hans-zimmer-2027-cincinnati-1avbz_3gkbx_fb1 | hans-zimmer | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -394,10 +391,8 @@ timezone) against the Vivid Seats production slug date.
 | tm-hilary-duff-2027-hershey-vv1aezkfugkempa0j | hilary-duff | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-hilary-duff-2027-buffalo-k7vgf_k9lboi8 | hilary-duff | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-hilary-duff-2027-san-antonio-g5diz_kh8lc6s | hilary-duff | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-hilary-duff-2027-sunrise-z7r9jz1aaeve7 | hilary-duff | add (applied) | 7599601 | https://www.vividseats.com/hilary-duff-tickets-sunrise-amerant-bank-arena-10-1-2027--concerts-pop/production/7599601 | - |
 | tm-hilary-duff-2027-cleveland-z7r9jz1aaevea | hilary-duff | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-hilary-duff-2027-des-moines-z7r9jz1aaevep | hilary-duff | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-hilary-duff-2027-anaheim-vv170z_kgkrlzqwi | hilary-duff | add (applied) | 7628085 | https://www.vividseats.com/hilary-duff-tickets-anaheim-honda-center-11-21-2027/production/7628085 | - |
 | tm-josiah-queen-2027-saint-louis-vv1akzkfngkee0a6p | josiah-queen | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-josiah-queen-2027-san-diego-vvg1iz_33lzbne | josiah-queen | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-ha-ash-2027-toronto-1a8zkfwgkedyh_t | ha-ash | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -454,21 +449,11 @@ timezone) against the Vivid Seats production slug date.
 | tm-lizzy-mcalpine-2027-dublin-16bzkfw-sza81kca | lizzy-mcalpine | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-lizzy-mcalpine-2027-durham-g5evz_klljeql | lizzy-mcalpine | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-lizzy-mcalpine-2027-saint-louis-vv1kvovpu_ga2r6bf | lizzy-mcalpine | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-lizzy-mcalpine-2027-columbia-1a4zkfmgkejxp8r | lizzy-mcalpine | verify (applied) | 7606598 | https://www.vividseats.com/lizzy-mcalpine-tickets-columbia-merriweather-post-pavilion-6-25-2027--concerts-alternative/production/7606598 | - |
 | tm-lizzy-mcalpine-2027-torrensville-1akzkfggkepdplf | lizzy-mcalpine | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-lizzy-mcalpine-2027-london-g5dzz_krvbn6w | lizzy-mcalpine | add (applied) | 7606823 | https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-3-31-2027--concerts-alternative/production/7606823 | - |
-| tm-lizzy-mcalpine-2027-london-g5dzz_kslx95p | lizzy-mcalpine | add (applied) | 7628968 | https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-4-1-2027/production/7628968 | - |
-| tm-lizzy-mcalpine-2027-london-g5dzz_kscgmsk | lizzy-mcalpine | add (applied) | 7636984 | https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-4-2-2027/production/7636984 | - |
 | tm-lizzy-mcalpine-2027-birmingham-g5dzz_kkek096 | lizzy-mcalpine | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-lizzy-mcalpine-2027-glasgow-g5dzz_kwtjarb | lizzy-mcalpine | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-lizzy-mcalpine-2027-dallas-z7r9jz1aaekq3 | lizzy-mcalpine | add (applied) | 7606724 | https://www.vividseats.com/lizzy-mcalpine-tickets-dallas-the-bomb-factory-4-30-2027--concerts-alternative/production/7606724 | - |
-| tm-lizzy-mcalpine-2027-atlanta-z7r9jz1aaea-b | lizzy-mcalpine | add (applied) | 7606728 | https://www.vividseats.com/lizzy-mcalpine-tickets-atlanta-fox-theatre---atlanta-5-3-2027--concerts-alternative/production/7606728 | - |
-| tm-lizzy-mcalpine-2027-columbus-z7r9jz1aaea09 | lizzy-mcalpine | add (applied) | 7606732 | https://www.vividseats.com/lizzy-mcalpine-tickets-columbus-palace-theatre-columbus-5-6-2027--concerts-alternative/production/7606732 | - |
-| tm-lizzy-mcalpine-2027-milwaukee-z7r9jz1aaea0_ | lizzy-mcalpine | add (applied) | 7606750 | https://www.vividseats.com/lizzy-mcalpine-tickets-milwaukee-riverside-theater---wi-5-10-2027--concerts-alternative/production/7606750 | - |
-| tm-lizzy-mcalpine-2027-minneapolis-vv1akzkfsgkdlgq7t | lizzy-mcalpine | add (applied) | 7631653 | https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-13-2027/production/7631653 | - |
-| tm-lizzy-mcalpine-2027-kansas-city-z7r9jz1aaekqk | lizzy-mcalpine | add (applied) | 7606754 | https://www.vividseats.com/lizzy-mcalpine-tickets-kansas-city-the-midland-theatre-5-17-2027--concerts-alternative/production/7606754 | - |
 | tm-lizzy-mcalpine-2027-oklahoma-city-z7r9jz1aaea-p | lizzy-mcalpine | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-lizzy-mcalpine-2027-boston-vv1a8vpuzga1bypi | lizzy-mcalpine | add (applied) | 7631927 | https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-21-2027--concerts-alternative/production/7631927 | - |
-| tm-lizzy-mcalpine-2027-morrison-z7r9jz1aaeax6 | lizzy-mcalpine | add (applied) | 7606811 | https://www.vividseats.com/lizzy-mcalpine-tickets-morrison-red-rocks-amphitheatre-7-6-2027--concerts-alternative/production/7606811 | - |
 | tm-the-interrupters-2027-st-petersburg-vvg1vz_3xxt6_9 | the-interrupters | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-the-interrupters-2027-ft-lauderdale-vvg1vz_3bjcjr0 | the-interrupters | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-the-interrupters-2027-london-1avzz_3gkmfyun4 | the-interrupters | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -476,10 +461,9 @@ timezone) against the Vivid Seats production slug date.
 | tm-the-interrupters-2027-saint-louis-vv17bz_3gkdzh1rc | the-interrupters | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-the-interrupters-2027-minneapolis-vv17bz_3gkbzsymo | the-interrupters | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-dinosaur-jr-2026-solana-beach-z7r9jz1a7puxp | dinosaur-jr | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-dinosaur-jr-2026-sacramento-g5vyz_u0dqoo1 | dinosaur-jr | verify (applied) | 7234800 | https://www.vividseats.com/dinosaur-jr-tickets-sacramento-ace-of-spades-10-20-2026--concerts-rock/production/7234800 | - |
 | tm-dinosaur-jr-2026-portland-z7r9jz1a7pu-m | dinosaur-jr | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-dinosaur-jr-2026-salt-lake-city-z7r9jz1a7pmzv | dinosaur-jr | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-dinosaur-jr-2026-denver-z7r9jz1a7pu0p | dinosaur-jr | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-dinosaur-jr-2026-denver-z7r9jz1a7pu0p | dinosaur-jr | add (applied) | 7234825 | https://www.vividseats.com/dinosaur-jr-tickets-denver-ogden-theatre-10-29-2026--concerts-rock/production/7234825 | - |
 | tm-dinosaur-jr-2026-austin-g5diz_usqkioq | dinosaur-jr | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-dinosaur-jr-2026-san-antonio-z7r9jz1a7j7j_ | dinosaur-jr | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-dinosaur-jr-2026-new-orleans-z7r9jz1a7pu-o | dinosaur-jr | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -487,12 +471,9 @@ timezone) against the Vivid Seats production slug date.
 | tm-dinosaur-jr-2027-athens-z7r9jz1aavk1o | dinosaur-jr | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-dinosaur-jr-2027-cincinnati-1kaovpaogacpo0v | dinosaur-jr | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-dinosaur-jr-2027-minneapolis-z7r9jz1aav8op | dinosaur-jr | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-dinosaur-jr-2027-toronto-1a8zkf4gkdtrlfj | dinosaur-jr | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-dinosaur-jr-2027-philadelphia-z7r9jz1aavk18 | dinosaur-jr | add (applied) | 7492605 | https://www.vividseats.com/dinosaur-jr-tickets-philadelphia-union-transfer-2-13-2027--concerts-rock/production/7492605 | - |
+| tm-dinosaur-jr-2027-toronto-1a8zkf4gkdtrlfj | dinosaur-jr | add (applied) | 7492671 | https://www.vividseats.com/dinosaur-jr-tickets-toronto-the-danforth-music-hall-3-7-2027--concerts-rock/production/7492671 | - |
 | tm-needtobreathe-2027-omaha-1aezz_kekbozdu2k | needtobreathe | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-needtobreathe-2027-durham-g5evz_khc4kmz | needtobreathe | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-needtobreathe-2027-kansas-city-z7r9jz1aaek_i | needtobreathe | add (applied) | 7612033 | https://www.vividseats.com/needtobreathe-tickets-kansas-city-the-midland-theatre-2-23-2027/production/7612033 | - |
-| tm-needtobreathe-2027-lancaster-z7r9jz1aaek_t | needtobreathe | add (applied) | 7611938 | https://www.vividseats.com/needtobreathe-tickets-lancaster-american-music-theatre-3-1-2027/production/7611938 | - |
 | tm-foy-vance-2026-edinburgh-1adbz_dgkdivmtc | foy-vance | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-foy-vance-2026-stirling-1auzkoegkew3ujs | foy-vance | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-foy-vance-2026-manchester-g5vhz_3kr3ers | foy-vance | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -503,12 +484,9 @@ timezone) against the Vivid Seats production slug date.
 | tm-foy-vance-2026-boise-g5vzz_akyqnb8 | foy-vance | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-foy-vance-2027-brisbane-1akzkf_gkes7kkl | foy-vance | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-foy-vance-2027-cincinnati-z7r9jz1a7-k1v | foy-vance | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-foy-vance-2026-san-francisco-z7r9jz1aae4_v | foy-vance | add (applied) | 6687145 | https://www.vividseats.com/foy-vance-tickets-san-francisco-great-american-music-hall-11-8-2026/production/6687145 | - |
-| tm-the-lemonheads-2026-london-g5dzz_audfsuq | the-lemonheads | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-the-lemonheads-2026-birmingham-g5dzzbgmxafgo | the-lemonheads | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-the-lemonheads-2027-boston-vv177z_3gkn_hus- | the-lemonheads | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-the-lemonheads-2027-detroit-vv17oz_3gklkn916 | the-lemonheads | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-the-lemonheads-2027-tampa-z7r9jz1aavwob | the-lemonheads | add (applied) | 7559489 | https://www.vividseats.com/the-lemonheads-tickets-tampa-orpheum-theatre---tampa-2-18-2027/production/7559489 | - |
 | tm-tommy-emmanuel-2026-anchorage-z7r9jz1a7pdjf | tommy-emmanuel | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-tommy-emmanuel-2026-dublin-1kkzv0qagauuqvy | tommy-emmanuel | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-tommy-emmanuel-2026-durham-z7r9jz1a70f-w | tommy-emmanuel | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -520,9 +498,8 @@ timezone) against the Vivid Seats production slug date.
 | tm-tommy-emmanuel-2027-mckees-rocks-1apzkfngkd53yok | tommy-emmanuel | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-tommy-emmanuel-2027-rochester-z7r9jz1aavsp7 | tommy-emmanuel | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-tommy-emmanuel-2027-derry-z7r9jz1aavspk | tommy-emmanuel | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-tommy-emmanuel-2027-vancouver-1aozkfugkdvinj7 | tommy-emmanuel | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-tommy-emmanuel-2027-calgary-1k78vpuega13dcp | tommy-emmanuel | add (applied) | 7626969 | https://www.vividseats.com/tommy-emmanuel-tickets-calgary-southern-alberta-jubilee-auditorium-3-14-2027/production/7626969 | - |
-| tm-tommy-emmanuel-2027-winnipeg-1k78vpupga1vvti | tommy-emmanuel | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-tommy-emmanuel-2027-vancouver-1aozkfugkdvinj7 | tommy-emmanuel | add (applied) | 7627291 | https://www.vividseats.com/tommy-emmanuel-tickets-vancouver-queen-elizabeth-theatre---vancouver-3-12-2027/production/7627291 | - |
+| tm-tommy-emmanuel-2027-winnipeg-1k78vpupga1vvti | tommy-emmanuel | add (applied) | 7648393 | https://www.vividseats.com/tommy-emmanuel-tickets-winnipeg-burton-cummings-theatre-3-17-2027/production/7648393 | - |
 | tm-tommy-emmanuel-2027-ottawa-1aszkfgjd0vzecc | tommy-emmanuel | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-tommy-emmanuel-2027-toronto-z7r9jz1aaeox3 | tommy-emmanuel | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-haiden-henderson-2027-dublin-1abzkfigkeweheg | haiden-henderson | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -562,10 +539,8 @@ timezone) against the Vivid Seats production slug date.
 | tm-yacht-rock-revue-2027-clearwater-z7r9jz1aaevfz | yacht-rock-revue | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-yacht-rock-revue-2027-melbourne-z7r9jz1aaee4f | yacht-rock-revue | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-yacht-rock-revue-2027-chicago-vv178z_3gkmzl562 | yacht-rock-revue | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-yacht-rock-revue-2027-jacksonville-z7r9jz1aaeebg | yacht-rock-revue | add (applied) | 7597884 | https://www.vividseats.com/the-yacht-rock-revue-tickets-jacksonville-florida-theatre-jacksonville-1-29-2027/production/7597884 | - |
 | tm-too-many-zooz-2027-wroclaw-z698xzqpz1kcapprk | too-many-zooz | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-too-many-zooz-2026-buffalo-z7r9jz1aav60y | too-many-zooz | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-amble-2026-newcastle-upon-tyne-g5dzz_clsmpcl | amble | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-amble-2026-manchester-17uov0g65bdcgvp | amble | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-amble-2026-cardiff-g5vhz_5sqgbqz | amble | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-amble-2026-los-angeles-vv170z_agkrleod6 | amble | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -596,12 +571,10 @@ timezone) against the Vivid Seats production slug date.
 | tm-fantasia-2027-las-vegas-z7r9jz1aaef4j | fantasia | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-a-perfect-circle-2026-adelaide-1aefz_kgkrmdjgo | a-perfect-circle | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-a-perfect-circle-2026-brisbane-1avgz_kgklfnuo6 | a-perfect-circle | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-a-perfect-circle-2027-niagara-falls-1a8zkfmgkemh_mw | a-perfect-circle | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-a-perfect-circle-2027-niagara-falls-1a8zkfmgkemh_mw | a-perfect-circle | add (applied) | 7623563 | https://www.vividseats.com/a-perfect-circle-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-22-2027--concerts-alternative/production/7623563 | - |
 | tm-a-perfect-circle-2027-saint-louis-vv1akzkfugkdepcmi | a-perfect-circle | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-a-perfect-circle-2027-west-valley-city-g5vzz_kk2w7ui | a-perfect-circle | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-a-perfect-circle-2027-reno-1a9zkfygkembtoj | a-perfect-circle | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-a-perfect-circle-2027-grand-prairie-z7r9jz1aae8a6 | a-perfect-circle | add (applied) | 7623577 | https://www.vividseats.com/a-perfect-circle-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-5-8-2027--concerts-alternative/production/7623577 | - |
-| tm-a-perfect-circle-2027-morrison-z7r9jz1aae8af | a-perfect-circle | add (applied) | 7623517 | https://www.vividseats.com/a-perfect-circle-tickets-morrison-red-rocks-amphitheatre-5-27-2027--concerts-alternative/production/7623517 | - |
 | tm-chelsea-cutler-2027-washington-164zkfuqdzacd655 | chelsea-cutler | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-chelsea-cutler-2027-washington-1avfz_kgkw7gvak | chelsea-cutler | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-chelsea-cutler-2027-toronto-1avzz_kgkstt7dw | chelsea-cutler | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
@@ -618,14 +591,157 @@ timezone) against the Vivid Seats production slug date.
 | tm-daughtry-2026-san-antonio-g5diz_gsupj1v | daughtry | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-daughtry-2027-saint-louis-vv1fvovpgtjkz75857 | daughtry | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
 | tm-daughtry-2027-atlanta-vvg1zz_klwyfxu | daughtry | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-daughtry-2027-melbourne-z7r9jz1aae83v | daughtry | add (applied) | 7625464 | https://www.vividseats.com/daughtry-tickets-melbourne-king-center-for-the-performing-arts-1-25-2027--concerts-rock/production/7625464 | - |
-| tm-daughtry-2027-clearwater-z7r9jz1aae83e | daughtry | add (applied) | 7624134 | https://www.vividseats.com/daughtry-tickets-clearwater-ruth-eckerd-hall-1-28-2027/production/7624134 | - |
-| tm-daughtry-2027-austin-z7r9jz1aae83d | daughtry | add (applied) | 7623701 | https://www.vividseats.com/daughtry-tickets-austin-austin-city-limits-live-at-the-moody-theater-2-3-2027/production/7623701 | - |
-| tm-daughtry-2027-ventura-z7r9jz1aae837 | daughtry | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-daughtry-2027-ventura-z7r9jz1aae837 | daughtry | add (applied) | 7625242 | https://www.vividseats.com/daughtry-tickets-ventura-the-majestic-ventura-theater-2-6-2027--concerts-rock/production/7625242 | - |
 | tm-daughtry-2027-cedar-rapids-z7r9jz1aae83a | daughtry | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-daughtry-2027-eau-claire-z7r9jz1aae83k | daughtry | add (applied) | 7627197 | https://www.vividseats.com/daughtry-tickets-eau-claire-rcu-theatre---pablo-center-at-the-confluence-2-18-2027/production/7627197 | - |
 | tm-daughtry-2027-orono-z7r9jz1aae836 | daughtry | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
-| tm-daughtry-2027-charlottesville-z7r9jz1aae83f | daughtry | add (applied) | 7624065 | https://www.vividseats.com/daughtry-tickets-charlottesville-paramount-theater-charlottesville-3-3-2027/production/7624065 | - |
+| tm-greta-van-fleet-2027-savannah-vvg1zz_kdabkfs | greta-van-fleet | add (applied) | 7642178 | https://www.vividseats.com/greta-van-fleet-tickets-savannah-enmarket-arena-2-3-2027/production/7642178 | - |
+| tm-greta-van-fleet-2027-tampa-vvg1vz_kmcwtil | greta-van-fleet | add (applied) | 7642170 | https://www.vividseats.com/greta-van-fleet-tickets-tampa-benchmark-international-arena-2-5-2027/production/7642170 | - |
+| tm-greta-van-fleet-2027-jacksonville-1aefz_kgkdyuafx | greta-van-fleet | add (applied) | 7642110 | https://www.vividseats.com/greta-van-fleet-tickets-jacksonville-vystar-veterans-memorial-arena-2-6-2027/production/7642110 | - |
+| tm-greta-van-fleet-2027-atlanta-vvg1zz_kmneaip | greta-van-fleet | add (applied) | 7642152 | https://www.vividseats.com/greta-van-fleet-tickets-atlanta-state-farm-arena-2-9-2027/production/7642152 | - |
+| tm-greta-van-fleet-2027-nashville-g5viz_kzhjzwy | greta-van-fleet | add (applied) | 7642172 | https://www.vividseats.com/greta-van-fleet-tickets-nashville-bridgestone-arena-2-10-2027/production/7642172 | - |
+| tm-greta-van-fleet-2027-rosemont-vv178z_kgkmrjctr | greta-van-fleet | add (applied) | 7642180 | https://www.vividseats.com/greta-van-fleet-tickets-rosemont-allstate-arena-2-12-2027/production/7642180 | - |
+| tm-greta-van-fleet-2027-omaha-vv17bz_kgkmgzcnp | greta-van-fleet | add (applied) | 7642102 | https://www.vividseats.com/greta-van-fleet-tickets-omaha-chi-health-center-omaha-2-13-2027/production/7642102 | - |
+| tm-greta-van-fleet-2027-minneapolis-vv17bz_kgku0ofzs | greta-van-fleet | add (applied) | 7642158 | https://www.vividseats.com/greta-van-fleet-tickets-minneapolis-target-center-2-15-2027/production/7642158 | - |
+| tm-greta-van-fleet-2027-louisville-1avbz_kgkbymb5h | greta-van-fleet | add (applied) | 7642122 | https://www.vividseats.com/greta-van-fleet-tickets-louisville-kfc-yum-center-2-19-2027/production/7642122 | - |
+| tm-greta-van-fleet-2027-pittsburgh-1avbz_kgkmosrsz | greta-van-fleet | add (applied) | 7642136 | https://www.vividseats.com/greta-van-fleet-tickets-pittsburgh-ppg-paints-arena-2-20-2027/production/7642136 | - |
+| tm-greta-van-fleet-2027-detroit-vv17oz_kgkwt_pf2 | greta-van-fleet | add (applied) | 7642148 | https://www.vividseats.com/greta-van-fleet-tickets-detroit-little-caesars-arena-3-2-2027/production/7642148 | - |
+| tm-greta-van-fleet-2027-boston-vv177z_kgknm09yr | greta-van-fleet | add (applied) | 7642108 | https://www.vividseats.com/greta-van-fleet-tickets-boston-td-garden-3-5-2027/production/7642108 | - |
+| tm-greta-van-fleet-2027-albany-k7vgf_kbmaa9o | greta-van-fleet | add (applied) | 7642140 | https://www.vividseats.com/greta-van-fleet-tickets-albany-mvp-arena-3-6-2027/production/7642140 | - |
+| tm-greta-van-fleet-2027-brooklyn-1adzz_kgkljmams | greta-van-fleet | add (applied) | 7642146 | https://www.vividseats.com/greta-van-fleet-tickets-brooklyn-barclays-center-3-8-2027/production/7642146 | - |
+| tm-greta-van-fleet-2027-philadelphia-1adzz_kgkv_zy6y | greta-van-fleet | add (applied) | 7642134 | https://www.vividseats.com/greta-van-fleet-tickets-philadelphia-xfinity-mobile-arena-3-10-2027/production/7642134 | - |
+| tm-greta-van-fleet-2027-charlotte-g5evz_kd5pkxs | greta-van-fleet | add (applied) | 7642096 | https://www.vividseats.com/greta-van-fleet-tickets-charlotte-spectrum-center-3-12-2027/production/7642096 | - |
+| tm-greta-van-fleet-2027-knoxville-g5viz_fat50pa | greta-van-fleet | add (applied) | 7642114 | https://www.vividseats.com/greta-van-fleet-tickets-knoxville-thompson-boling-arena-at-food-city-center-3-13-2027/production/7642114 | - |
+| tm-greta-van-fleet-2027-fort-worth-vvg1yz_f6vci7r | greta-van-fleet | add (applied) | 7642182 | https://www.vividseats.com/greta-van-fleet-tickets-fort-worth-dickies-arena-3-15-2027/production/7642182 | - |
+| tm-greta-van-fleet-2027-tulsa-1aezz_kgkdnv4sg | greta-van-fleet | add (applied) | 7642162 | https://www.vividseats.com/greta-van-fleet-tickets-tulsa-bok-center-3-16-2027/production/7642162 | - |
+| tm-greta-van-fleet-2027-anaheim-vv170z_kgkm7preh | greta-van-fleet | add (applied) | 7642130 | https://www.vividseats.com/greta-van-fleet-tickets-anaheim-honda-center-3-19-2027/production/7642130 | - |
+| tm-greta-van-fleet-2027-phoenix-1av0z_kgkbck9ok | greta-van-fleet | add (applied) | 7642092 | https://www.vividseats.com/greta-van-fleet-tickets-phoenix-mortgage-matchup-center-3-20-2027/production/7642092 | - |
+| tm-greta-van-fleet-2027-reno-1avjz_kgkmchefe | greta-van-fleet | add (applied) | 7642168 | https://www.vividseats.com/greta-van-fleet-tickets-reno-reno-events-center-3-22-2027/production/7642168 | - |
+| tm-greta-van-fleet-2027-seattle-vvg1hz_km-zrdh | greta-van-fleet | add (applied) | 7642094 | https://www.vividseats.com/greta-van-fleet-tickets-seattle-climate-pledge-arena-3-24-2027/production/7642094 | - |
+| tm-greta-van-fleet-2027-portland-vvg1hz_kle7js7 | greta-van-fleet | add (applied) | 7642126 | https://www.vividseats.com/greta-van-fleet-tickets-portland-moda-center-3-25-2027/production/7642126 | - |
+| tm-greta-van-fleet-2027-boise-g5vzz_fkffj8x | greta-van-fleet | add (applied) | 7642160 | https://www.vividseats.com/greta-van-fleet-tickets-boise-extramile-arena-3-27-2027/production/7642160 | - |
+| tm-greta-van-fleet-2027-denver-g5vzz_kbjtioy | greta-van-fleet | add (applied) | 7642098 | https://www.vividseats.com/greta-van-fleet-tickets-denver-ball-arena-3-30-2027/production/7642098 | - |
+| tm-greta-van-fleet-2027-munich-z698xzc2z16v70efz3 | greta-van-fleet | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-greta-van-fleet-2027-assago-zg9rmiynyz7k7a | greta-van-fleet | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-greta-van-fleet-2027-hamburg-z698xzc2z1k83jea7 | greta-van-fleet | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-greta-van-fleet-2027-berlin-z698xzc2z1kfv0zvs | greta-van-fleet | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-greta-van-fleet-2027-amsterdam-z698xzbpz1kpzobgo | greta-van-fleet | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-greta-van-fleet-2027-forest-brussels-z698xzg2z16ez30gvn | greta-van-fleet | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-greta-van-fleet-2027-london-1adfz_kgkmuet5g | greta-van-fleet | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-greta-van-fleet-2027-birmingham-1aegz_kgkmz0sov | greta-van-fleet | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-greta-van-fleet-2027-manchester-1adjz_kgkbyud70 | greta-van-fleet | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-greta-van-fleet-2027-glasgow-1auzk4vgkene4-w | greta-van-fleet | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-greta-van-fleet-2027-dublin-1abzkfmgkes3wyd | greta-van-fleet | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-greta-van-fleet-2027-vancouver-1av7z_kgkw_ogty | greta-van-fleet | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-greta-van-fleet-2027-edmonton-1av7z_kgkmfujae | greta-van-fleet | add (applied) | 7642106 | https://www.vividseats.com/greta-van-fleet-tickets-edmonton-rogers-place-7-7-2027/production/7642106 | - |
+| tm-greta-van-fleet-2027-calgary-1av7z_kgkum7iwv | greta-van-fleet | add (applied) | 7642090 | https://www.vividseats.com/greta-van-fleet-tickets-calgary-scotiabank-saddledome-7-8-2027/production/7642090 | - |
+| tm-greta-van-fleet-2027-winnipeg-1av7z_kgkmeitov | greta-van-fleet | add (applied) | 7642164 | https://www.vividseats.com/greta-van-fleet-tickets-winnipeg-canada-life-centre-7-10-2027/production/7642164 | - |
+| tm-greta-van-fleet-2027-kansas-city-vv1akzk4vgkdr0kg1 | greta-van-fleet | add (applied) | 7642120 | https://www.vividseats.com/greta-van-fleet-tickets-kansas-city-t-mobile-center-7-13-2027/production/7642120 | - |
+| tm-greta-van-fleet-2027-saint-louis-vv17bz_kgkm_stkv | greta-van-fleet | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-greta-van-fleet-2027-columbus-vv1aazk4vgkexl1ix | greta-van-fleet | add (applied) | 7642116 | https://www.vividseats.com/greta-van-fleet-tickets-columbus-nationwide-arena-7-16-2027/production/7642116 | - |
+| tm-greta-van-fleet-2027-noblesville-vv17fz_kgkmuku1m | greta-van-fleet | add (applied) | 7642100 | https://www.vividseats.com/greta-van-fleet-tickets-noblesville-ruoff-music-center-7-17-2027/production/7642100 | - |
+| tm-greta-van-fleet-2027-raleigh-g5evz_f6z0uw6 | greta-van-fleet | add (applied) | 7642150 | https://www.vividseats.com/greta-van-fleet-tickets-raleigh-lenovo-center-7-20-2027/production/7642150 | - |
+| tm-greta-van-fleet-2027-columbia-1avfz_kgkss_xxt | greta-van-fleet | add (applied) | 7642117 | https://www.vividseats.com/greta-van-fleet-tickets-columbia-merriweather-post-pavilion-7-21-2027/production/7642117 | - |
+| tm-greta-van-fleet-2027-hershey-vv17fz_kgkdofs3p | greta-van-fleet | add (applied) | 7642132 | https://www.vividseats.com/greta-van-fleet-tickets-hershey-giant-center-7-23-2027/production/7642132 | - |
+| tm-greta-van-fleet-2027-uncasville-g5vvz_kwzs711 | greta-van-fleet | add (applied) | 7642174 | https://www.vividseats.com/greta-van-fleet-tickets-uncasville-mohegan-sun-arena-ct-7-24-2027/production/7642174 | - |
+| tm-greta-van-fleet-2027-gilford-vv177z_kgkni4das | greta-van-fleet | add (applied) | 7642112 | https://www.vividseats.com/greta-van-fleet-tickets-gilford-banknh-pavilion-7-26-2027/production/7642112 | - |
+| tm-greta-van-fleet-2027-laval-1ad7z_kgksakup4 | greta-van-fleet | add (applied) | 7642144 | https://www.vividseats.com/greta-van-fleet-tickets-laval-place-bell-7-28-2027/production/7642144 | - |
+| tm-greta-van-fleet-2027-toronto-1avzz_kgkswyehx | greta-van-fleet | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-greta-van-fleet-2027-grand-rapids-vv17oz_kgkwlsfog | greta-van-fleet | add (applied) | 7642128 | https://www.vividseats.com/greta-van-fleet-tickets-grand-rapids-acrisure-amphitheater-7-31-2027/production/7642128 | - |
+| tm-fontaines-d-c-2026-madrid-z698xz2qz1k__7ko4 | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2026-barcelona-z698xz2qz16vvp4sps | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2026-casalecchio-di-reno-bologna-zg9rmiynyzdk1k | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2026-merksem-antwerpen-z698xzg2z16ve_oz7v | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2026-liverpool-1adjz_8gkv_dtbp | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2026-manchester-g5vhz_ocwip0o | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2026-glasgow-1auzkffgketljog | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2026-leeds-g5vhz_8b5sfcc | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2026-birmingham-1aegz_8gkdxxlc2 | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2026-london-1agzkfogkenxxaj | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-boston-vv1avzkfggkedosqi | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-philadelphia-vv17fz_kgks-xsxp | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-detroit-vv17oz_kgksew9wu | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-chicago-vv1k8z_fkfg7zjno | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-milwaukee-vv17jz_kgkloizcl | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-minneapolis-vv17bz_kgkijqu5x | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-vancouver-1av7z_kgkupzetr | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-seattle-vvg1hz_kbr3b0c | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-sacramento-g5vyz_kmgztid | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-san-francisco-g5vyz_k9cdguj | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-milano-zg9rmiynyzd1ve | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-co-meath-1avoz_ogkwypefm | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-co-meath-1avoz_ogkw7fwfl | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-cardiff-g5vhz_oiinrjk | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-newcastle-upon-tyne-1adfz_ogkm3hlfk | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-manchester-g5dzz_omjzv0z | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-manchester-g5dzz_osdpprt | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-glasgow-1adbz_ogkrs74cl | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-london-1ku8vpf_ga19knu | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-toronto-1avzz_kgkmdxopu | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-columbia-16vfz_fkag7mpc7 | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-atlanta-vvg1zz_keib7ia | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-fontaines-d-c-2027-inglewood-vv1ke8vpuyga5p1et | fontaines-d-c | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-riley-green-2026-durant-vvg1yz_ggasrcz | riley-green | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-riley-green-2026-nashville-z7r9jz1aaekfy | riley-green | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-riley-green-2026-las-vegas-z7r9jz1a7peqa | riley-green | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-riley-green-2026-las-vegas-z7r9jz1a7peq7 | riley-green | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-riley-green-2027-spokane-z7r9jz1aaezrp | riley-green | add (applied) | 7618130 | https://www.vividseats.com/riley-green-tickets-spokane-numerica-veterans-arena-4-1-2027/production/7618130 | - |
+| tm-riley-green-2027-seattle-vvg1hz_keoq4yp | riley-green | add (applied) | 7618128 | https://www.vividseats.com/riley-green-tickets-seattle-climate-pledge-arena-4-2-2027/production/7618128 | - |
+| tm-riley-green-2027-eugene-vvg1hz_3divdk0 | riley-green | add (applied) | 7618132 | https://www.vividseats.com/riley-green-tickets-eugene-matthew-knight-arena-4-3-2027/production/7618132 | - |
+| tm-riley-green-2027-edmonton-1av7z_3gkwgn0bp | riley-green | add (applied) | 7618682 | https://www.vividseats.com/riley-green-tickets-edmonton-rogers-place-4-8-2027--concerts-country-and-folk/production/7618682 | - |
+| tm-riley-green-2027-calgary-1aozkfygkderjem | riley-green | add (applied) | 7618664 | https://www.vividseats.com/riley-green-tickets-calgary-scotiabank-saddledome-4-9-2027/production/7618664 | - |
+| tm-riley-green-2027-saskatoon-1av7z_3gkdixvhi | riley-green | add (applied) | 7618680 | https://www.vividseats.com/riley-green-tickets-saskatoon-sasktel-centre-4-10-2027/production/7618680 | - |
+| tm-riley-green-2027-raleigh-g5evz_ke-2cfw | riley-green | add (applied) | 7618134 | https://www.vividseats.com/riley-green-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-4-29-2027/production/7618134 | - |
+| tm-riley-green-2027-knoxville-g5viz_3wie3-p | riley-green | add (applied) | 7618136 | https://www.vividseats.com/riley-green-tickets-knoxville-thompson-boling-arena-at-food-city-center-4-30-2027/production/7618136 | - |
+| tm-riley-green-2027-greenville-g5evz_k14klik | riley-green | add (applied) | 7618144 | https://www.vividseats.com/riley-green-tickets-greenville-bon-secours-wellness-arena-5-1-2027/production/7618144 | - |
+| tm-riley-green-2027-fort-worth-vvg1yz_kepbp4s | riley-green | add (applied) | 7618146 | https://www.vividseats.com/riley-green-tickets-fort-worth-dickies-arena-5-6-2027/production/7618146 | - |
+| tm-riley-green-2027-wichita-vv1akzkfwgkdilqfv | riley-green | add (applied) | 7618142 | https://www.vividseats.com/riley-green-tickets-wichita-intrust-bank-arena-5-7-2027/production/7618142 | - |
+| tm-riley-green-2027-rogers-g5viz_k5ft6hv | riley-green | add (applied) | 7618170 | https://www.vividseats.com/riley-green-tickets-rogers-walmart-amp-5-8-2027/production/7618170 | - |
+| tm-riley-green-2027-tulsa-1aozkfsgkexhv7n | riley-green | add (applied) | 7618172 | https://www.vividseats.com/riley-green-tickets-tulsa-bok-center-5-20-2027/production/7618172 | - |
+| tm-riley-green-2027-dallas-vvg1yz_k1h0ipi | riley-green | add (applied) | 7618204 | https://www.vividseats.com/riley-green-tickets-dallas-dos-equis-pavilion-5-21-2027/production/7618204 | - |
+| tm-riley-green-2027-lafayette-g5viz_3r9l7s7 | riley-green | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-riley-green-2027-brandon-g5viz_3t3qkqr | riley-green | add (applied) | 7618192 | https://www.vividseats.com/riley-green-tickets-brandon-brandon-amphitheater-6-3-2027/production/7618192 | - |
+| tm-riley-green-2027-orange-beach-g5viz_kvcnsvm | riley-green | add (applied) | 7618180 | https://www.vividseats.com/riley-green-tickets-orange-beach-amphitheater-at-the-wharf-6-4-2027/production/7618180 | - |
+| tm-riley-green-2027-orange-beach-g5viz_k5itlvp | riley-green | add (applied) | 7636580 | https://www.vividseats.com/riley-green-tickets-orange-beach-amphitheater-at-the-wharf-6-5-2027--concerts-country-and-folk/production/7636580 | - |
+| tm-riley-green-2027-mount-pleasant-z7r9jz1aaef_z | riley-green | add (applied) | 7618638 | https://www.vividseats.com/riley-green-tickets-mount-pleasant-soaring-eagle-casino-and-resort-6-10-2027/production/7618638 | - |
+| tm-riley-green-2027-toronto-1a8zkfwgkd5hci5 | riley-green | add (applied) | 7618686 | https://www.vividseats.com/riley-green-tickets-toronto-rbc-amphitheatre-6-11-2027/production/7618686 | - |
+| tm-riley-green-2027-toronto-1a8zkfwgkd5hxip | riley-green | add (applied) | 7636602 | https://www.vividseats.com/riley-green-tickets-toronto-rbc-amphitheatre-6-12-2027--concerts-country-and-folk/production/7636602 | - |
+| tm-riley-green-2027-gilford-vv1avzkfsgke-elvi | riley-green | add (applied) | 7618196 | https://www.vividseats.com/riley-green-tickets-gilford-banknh-pavilion-6-18-2027/production/7618196 | - |
+| tm-riley-green-2027-gilford-vv1avzkfsgkeipxy_ | riley-green | add (applied) | 7636582 | https://www.vividseats.com/riley-green-tickets-gilford-banknh-pavilion-6-19-2027--concerts-country-and-folk/production/7636582 | - |
+| tm-riley-green-2027-clarkston-vv1afzkfwgkdw_jcp | riley-green | add (applied) | 7618228 | https://www.vividseats.com/riley-green-tickets-clarkston-pine-knob-music-theatre-6-25-2027/production/7618228 | - |
+| tm-riley-green-2027-clarkston-vv1afzkfygkenvgq1 | riley-green | add (applied) | 7637034 | https://www.vividseats.com/riley-green-tickets-clarkston-pine-knob-music-theatre-6-26-2027--concerts-country-and-folk/production/7637034 | - |
+| tm-riley-green-2027-syracuse-k7vgf_k1rwxjy | riley-green | add (applied) | 7618652 | https://www.vividseats.com/riley-green-tickets-syracuse-empower-federal-credit-union-amphitheater-at-lakeview-7-15-2027/production/7618652 | - |
+| tm-riley-green-2027-allentown-1adzz_3gkdwsja0 | riley-green | add (applied) | 7618240 | https://www.vividseats.com/riley-green-tickets-allentown-ppl-center-7-16-2027/production/7618240 | - |
+| tm-riley-green-2027-columbia-1a4zkfwgkdajcik | riley-green | add (applied) | 7618186 | https://www.vividseats.com/riley-green-tickets-columbia-merriweather-post-pavilion-7-22-2027/production/7618186 | - |
+| tm-riley-green-2027-bethel-k7vgf_kkxvsto | riley-green | add (applied) | 7618250 | https://www.vividseats.com/riley-green-tickets-bethel-bethel-woods-center-for-the-arts-7-23-2027/production/7618250 | - |
+| tm-riley-green-2027-mansfield-vv1avzkfwgke0hynm | riley-green | add (applied) | 7618226 | https://www.vividseats.com/riley-green-tickets-mansfield-xfinity-center---ma-7-24-2027/production/7618226 | - |
+| tm-riley-green-2027-evansville-vv16azkfwxpza8acgv | riley-green | add (applied) | 7618220 | https://www.vividseats.com/riley-green-tickets-evansville-ford-center-evansville-7-29-2027/production/7618220 | - |
+| tm-riley-green-2027-maryland-heights-vv1fvovpgtqtz755aa | riley-green | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-riley-green-2027-milwaukee-vv1a6zkfwgkdjdyhh | riley-green | add (applied) | 7618510 | https://www.vividseats.com/riley-green-tickets-milwaukee-henry-maier-festival-park---american-family-insurance-amphitheater-7-31-2027/production/7618510 | - |
+| tm-hazlett-2027-eugene-z7r9jz1aaeojp | hazlett | add (applied) | 7626942 | https://www.vividseats.com/hazlett-tickets-eugene-wow-hall-5-29-2027/production/7626942 | - |
+| tm-hazlett-2027-austin-g5diz_kepkpyq | hazlett | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-carly-rae-jepsen-2027-edmonton-1av7z_kgklarlu8 | carly-rae-jepsen | add (applied) | 7636669 | https://www.vividseats.com/carly-rae-jepsen-tickets-edmonton-northern-alberta-jubilee-auditorium-4-15-2027/production/7636669 | - |
+| tm-carly-rae-jepsen-2027-calgary-1av7z_kgkulm9f3 | carly-rae-jepsen | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-carly-rae-jepsen-2027-vancouver-1av7z_kgklk3dkw | carly-rae-jepsen | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-carly-rae-jepsen-2027-san-francisco-g5vyz_kdn9abg | carly-rae-jepsen | add (applied) | 7636617 | https://www.vividseats.com/carly-rae-jepsen-tickets-san-francisco-bill-graham-civic-auditorium-4-21-2027--concerts-pop/production/7636617 | - |
+| tm-carly-rae-jepsen-2027-inglewood-vv170z_kgkmkrrsm | carly-rae-jepsen | add (applied) | 7636619 | https://www.vividseats.com/carly-rae-jepsen-tickets-inglewood-kia-forum-4-22-2027--concerts-pop/production/7636619 | - |
+| tm-carly-rae-jepsen-2027-san-diego-vvg1iz_kmdzlco | carly-rae-jepsen | add (applied) | 7636621 | https://www.vividseats.com/carly-rae-jepsen-tickets-san-diego-gallagher-square-at-petco-park-4-23-2027--concerts-pop/production/7636621 | - |
+| tm-carly-rae-jepsen-2027-las-vegas-1avjz_kgksxz4qo | carly-rae-jepsen | add (applied) | 7636633 | https://www.vividseats.com/carly-rae-jepsen-tickets-las-vegas-cosmopolitan-of-las-vegas-4-30-2027--concerts-pop/production/7636633 | - |
+| tm-carly-rae-jepsen-2027-phoenix-1kk8vpc_gacbk4n | carly-rae-jepsen | add (applied) | 7636635 | https://www.vividseats.com/carly-rae-jepsen-tickets-phoenix-arizona-financial-theatre-5-1-2027--concerts-pop/production/7636635 | - |
+| tm-carly-rae-jepsen-2027-irving-vvg1yz_kwbaerl | carly-rae-jepsen | add (applied) | 7636637 | https://www.vividseats.com/carly-rae-jepsen-tickets-irving-pavilion-at-toyota-music-factory-5-5-2027--concerts-pop/production/7636637 | - |
+| tm-carly-rae-jepsen-2027-austin-g5diz_kbdqtji | carly-rae-jepsen | add (applied) | 7636639 | https://www.vividseats.com/carly-rae-jepsen-tickets-austin-moody-amphitheater-5-7-2027--concerts-pop/production/7636639 | - |
+| tm-carly-rae-jepsen-2027-houston-g5diz_kbuz9jg | carly-rae-jepsen | add (applied) | 7636641 | https://www.vividseats.com/carly-rae-jepsen-tickets-houston-713-music-hall-5-8-2027--concerts-pop/production/7636641 | - |
+| tm-carly-rae-jepsen-2027-nashville-g5viz_kdzypqh | carly-rae-jepsen | add (applied) | 7636643 | https://www.vividseats.com/carly-rae-jepsen-tickets-nashville-the-truth-5-10-2027--concerts-pop/production/7636643 | - |
+| tm-carly-rae-jepsen-2027-atlanta-vvg1zz_kmrbzzs | carly-rae-jepsen | add (applied) | 7636653 | https://www.vividseats.com/carly-rae-jepsen-tickets-atlanta-coca-cola-roxy-theatre-5-11-2027--concerts-pop/production/7636653 | - |
+| tm-carly-rae-jepsen-2027-charlotte-g5evz_ksv1qq1 | carly-rae-jepsen | add (applied) | 7636657 | https://www.vividseats.com/carly-rae-jepsen-tickets-charlotte-skyla-credit-union-amphitheatre-5-12-2027--concerts-pop/production/7636657 | - |
+| tm-carly-rae-jepsen-2027-washington-1avfz_kgkz-xcfn | carly-rae-jepsen | add (applied) | 7636659 | https://www.vividseats.com/carly-rae-jepsen-tickets-washington-dc-the-anthem-5-14-2027--concerts-pop/production/7636659 | - |
+| tm-carly-rae-jepsen-2027-new-york-g5diz_krvp7ot | carly-rae-jepsen | add (applied) | 7636661 | https://www.vividseats.com/carly-rae-jepsen-tickets-new-york-madison-square-garden-5-15-2027--concerts-pop/production/7636661 | - |
+| tm-carly-rae-jepsen-2027-philadelphia-vv17fz_kgkmz_nj4 | carly-rae-jepsen | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-carly-rae-jepsen-2027-boston-vv177z_kgklscrut | carly-rae-jepsen | add (applied) | 7636665 | https://www.vividseats.com/carly-rae-jepsen-tickets-boston-mgm-music-hall-at-fenway-5-19-2027--concerts-pop/production/7636665 | - |
+| tm-carly-rae-jepsen-2027-chicago-vv17jz_kgkbbdisc | carly-rae-jepsen | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-carly-rae-jepsen-2027-detroit-vv17oz_kgkdnnigp | carly-rae-jepsen | add (applied) | 7636671 | https://www.vividseats.com/carly-rae-jepsen-tickets-detroit-fox-theatre-detroit-5-22-2027--concerts-pop/production/7636671 | - |
+| tm-carly-rae-jepsen-2027-toronto-1avzz_kgkiawwxu | carly-rae-jepsen | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-carly-rae-jepsen-2027-ottawa-1ad7z_kgkir7yjb | carly-rae-jepsen | none | - | - | no qualifying Vivid Seats listing (may not be listed) |
+| tm-carly-rae-jepsen-2027-montreal-1ad7z_kgkumfj2g | carly-rae-jepsen | add (applied) | 7636681 | https://www.vividseats.com/carly-rae-jepsen-tickets-montreal-mtelus-5-29-2027--concerts-pop/production/7636681 | - |
 
 ## Skipped before API checks
 
@@ -1006,6 +1122,9 @@ timezone) against the Vivid Seats production slug date.
 | tm-malcolm-todd-2026-toronto-177zv0g6gcmycf1 | malcolm-todd | event is in the past — nothing to maintain |
 | tm-malcolm-todd-2026-detroit-vvg1oz_g99edo3 | malcolm-todd | event is in the past — nothing to maintain |
 | tm-metallica-2026-las-vegas-1a9zko4gkdtkw4- | metallica | event is in the past — nothing to maintain |
+| tm-sylvan-esso-2026-asheville-z7r9jz1a7pajj | sylvan-esso | event is in the past — nothing to maintain |
+| tm-the-lemonheads-2026-london-g5dzz_audfsuq | the-lemonheads | event is in the past — nothing to maintain |
 | tm-amble-2026-sheffield-g5vhz_5sagy5t | amble | event is in the past — nothing to maintain |
 | tm-amble-2026-glasgow-g5dzz_5s1tpu0 | amble | event is in the past — nothing to maintain |
+| tm-amble-2026-newcastle-upon-tyne-g5dzz_clsmpcl | amble | event is in the past — nothing to maintain |
 | tm-the-red-clay-strays-2026-pittsburgh-1avbz_fgklj6-n0 | the-red-clay-strays | event is in the past — nothing to maintain |

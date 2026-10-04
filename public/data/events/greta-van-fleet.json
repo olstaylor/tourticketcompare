@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "0E00653EC5E93533",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-savannah-georgia-02-03-2027/event/0E00653EC5E93533",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-savannah-enmarket-arena-2-3-2027/production/7642178",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-savannah-georgia-02-03-2027/event/0E00653EC5E93533",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642178,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-savannah-enmarket-arena-2-3-2027/production/7642178",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -66,7 +66,7 @@
     "ticketmaster_event_id": "0D00653DEDCBFA2B",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-tampa-florida-02-05-2027/event/0D00653DEDCBFA2B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-tampa-benchmark-international-arena-2-5-2027/production/7642170",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-tampa-florida-02-05-2027/event/0D00653DEDCBFA2B",
     "last_verified_at": null,
@@ -88,11 +88,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642170,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-tampa-benchmark-international-arena-2-5-2027/production/7642170",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -120,7 +120,7 @@
     "ticketmaster_event_id": "2200653EF0D8953E",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-jacksonville-florida-02-06-2027/event/2200653EF0D8953E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-jacksonville-vystar-veterans-memorial-arena-2-6-2027/production/7642110",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-jacksonville-florida-02-06-2027/event/2200653EF0D8953E",
     "last_verified_at": null,
@@ -142,11 +142,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642110,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-jacksonville-vystar-veterans-memorial-arena-2-6-2027/production/7642110",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -174,7 +174,7 @@
     "ticketmaster_event_id": "0E00653DEA089A25",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-atlanta-georgia-02-09-2027/event/0E00653DEA089A25",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-atlanta-state-farm-arena-2-9-2027/production/7642152",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-atlanta-georgia-02-09-2027/event/0E00653DEA089A25",
     "last_verified_at": null,
@@ -196,11 +196,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642152,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-atlanta-state-farm-arena-2-9-2027/production/7642152",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -228,7 +228,7 @@
     "ticketmaster_event_id": "1B00653E3C980F70",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-nashville-tennessee-02-10-2027/event/1B00653E3C980F70",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-nashville-bridgestone-arena-2-10-2027/production/7642172",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-nashville-tennessee-02-10-2027/event/1B00653E3C980F70",
     "last_verified_at": null,
@@ -250,11 +250,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642172,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-nashville-bridgestone-arena-2-10-2027/production/7642172",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282,7 +282,7 @@
     "ticketmaster_event_id": "0400653DDE98EA5E",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-rosemont-illinois-02-12-2027/event/0400653DDE98EA5E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-rosemont-allstate-arena-2-12-2027/production/7642180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-rosemont-illinois-02-12-2027/event/0400653DDE98EA5E",
     "last_verified_at": null,
@@ -304,11 +304,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642180,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-rosemont-allstate-arena-2-12-2027/production/7642180",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -336,7 +336,7 @@
     "ticketmaster_event_id": "0600653DCC02D8E5",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-omaha-nebraska-02-13-2027/event/0600653DCC02D8E5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-omaha-chi-health-center-omaha-2-13-2027/production/7642102",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-omaha-nebraska-02-13-2027/event/0600653DCC02D8E5",
     "last_verified_at": null,
@@ -358,11 +358,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642102,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-omaha-chi-health-center-omaha-2-13-2027/production/7642102",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -390,7 +390,7 @@
     "ticketmaster_event_id": "0600653DA4808031",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-minneapolis-minnesota-02-15-2027/event/0600653DA4808031",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-minneapolis-target-center-2-15-2027/production/7642158",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-minneapolis-minnesota-02-15-2027/event/0600653DA4808031",
     "last_verified_at": null,
@@ -412,11 +412,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642158,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-minneapolis-target-center-2-15-2027/production/7642158",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -444,7 +444,7 @@
     "ticketmaster_event_id": "1600653EB0DD82DB",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-louisville-kentucky-02-19-2027/event/1600653EB0DD82DB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-louisville-kfc-yum-center-2-19-2027/production/7642122",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-louisville-kentucky-02-19-2027/event/1600653EB0DD82DB",
     "last_verified_at": null,
@@ -466,11 +466,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642122,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-louisville-kfc-yum-center-2-19-2027/production/7642122",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -498,7 +498,7 @@
     "ticketmaster_event_id": "1600653DE0C5EC78",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-pittsburgh-pennsylvania-02-20-2027/event/1600653DE0C5EC78",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-pittsburgh-ppg-paints-arena-2-20-2027/production/7642136",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-pittsburgh-pennsylvania-02-20-2027/event/1600653DE0C5EC78",
     "last_verified_at": null,
@@ -520,11 +520,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642136,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-pittsburgh-ppg-paints-arena-2-20-2027/production/7642136",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -552,7 +552,7 @@
     "ticketmaster_event_id": "0800653CBF66550F",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-detroit-michigan-03-02-2027/event/0800653CBF66550F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-detroit-little-caesars-arena-3-2-2027/production/7642148",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-detroit-michigan-03-02-2027/event/0800653CBF66550F",
     "last_verified_at": null,
@@ -574,11 +574,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642148,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-detroit-little-caesars-arena-3-2-2027/production/7642148",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -606,7 +606,7 @@
     "ticketmaster_event_id": "0100653AB7917C1E",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-boston-massachusetts-03-05-2027/event/0100653AB7917C1E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-boston-td-garden-3-5-2027/production/7642108",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-boston-massachusetts-03-05-2027/event/0100653AB7917C1E",
     "last_verified_at": null,
@@ -628,11 +628,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642108,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-boston-td-garden-3-5-2027/production/7642108",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -660,7 +660,7 @@
     "ticketmaster_event_id": "0000653EAE1495D1",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-albany-new-york-03-06-2027/event/0000653EAE1495D1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-albany-mvp-arena-3-6-2027/production/7642140",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-albany-new-york-03-06-2027/event/0000653EAE1495D1",
     "last_verified_at": null,
@@ -682,11 +682,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642140,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-albany-mvp-arena-3-6-2027/production/7642140",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -714,7 +714,7 @@
     "ticketmaster_event_id": "3000653AE6DC9BB1",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-brooklyn-new-york-03-08-2027/event/3000653AE6DC9BB1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-brooklyn-barclays-center-3-8-2027/production/7642146",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-brooklyn-new-york-03-08-2027/event/3000653AE6DC9BB1",
     "last_verified_at": null,
@@ -736,11 +736,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642146,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-brooklyn-barclays-center-3-8-2027/production/7642146",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -768,7 +768,7 @@
     "ticketmaster_event_id": "3000653D190391F0",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-philadelphia-pennsylvania-03-10-2027/event/3000653D190391F0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-philadelphia-xfinity-mobile-arena-3-10-2027/production/7642134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-philadelphia-pennsylvania-03-10-2027/event/3000653D190391F0",
     "last_verified_at": null,
@@ -790,11 +790,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642134,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-philadelphia-xfinity-mobile-arena-3-10-2027/production/7642134",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -822,7 +822,7 @@
     "ticketmaster_event_id": "2D00653ECB946FB3",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-charlotte-north-carolina-03-12-2027/event/2D00653ECB946FB3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-charlotte-spectrum-center-3-12-2027/production/7642096",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-charlotte-north-carolina-03-12-2027/event/2D00653ECB946FB3",
     "last_verified_at": null,
@@ -844,11 +844,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642096,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-charlotte-spectrum-center-3-12-2027/production/7642096",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -876,7 +876,7 @@
     "ticketmaster_event_id": "1B006541692E4585",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-knoxville-tennessee-03-13-2027/event/1B006541692E4585",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-knoxville-thompson-boling-arena-at-food-city-center-3-13-2027/production/7642114",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-knoxville-tennessee-03-13-2027/event/1B006541692E4585",
     "last_verified_at": null,
@@ -898,11 +898,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642114,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-knoxville-thompson-boling-arena-at-food-city-center-3-13-2027/production/7642114",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -930,7 +930,7 @@
     "ticketmaster_event_id": "0C006541C1B6C11E",
     "ticketmaster_url": "https://www.ticketmaster.com/971-the-eagle-presents-greta-van-fort-worth-texas-03-15-2027/event/0C006541C1B6C11E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-fort-worth-dickies-arena-3-15-2027/production/7642182",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/971-the-eagle-presents-greta-van-fort-worth-texas-03-15-2027/event/0C006541C1B6C11E",
     "last_verified_at": null,
@@ -952,11 +952,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642182,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-fort-worth-dickies-arena-3-15-2027/production/7642182",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -984,7 +984,7 @@
     "ticketmaster_event_id": "2000653EEA055CCC",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-tulsa-oklahoma-03-16-2027/event/2000653EEA055CCC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-tulsa-bok-center-3-16-2027/production/7642162",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-tulsa-oklahoma-03-16-2027/event/2000653EEA055CCC",
     "last_verified_at": null,
@@ -1006,11 +1006,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642162,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-tulsa-bok-center-3-16-2027/production/7642162",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1038,7 +1038,7 @@
     "ticketmaster_event_id": "0900653DC495E09B",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-anaheim-california-03-19-2027/event/0900653DC495E09B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-anaheim-honda-center-3-19-2027/production/7642130",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-anaheim-california-03-19-2027/event/0900653DC495E09B",
     "last_verified_at": null,
@@ -1060,11 +1060,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642130,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-anaheim-honda-center-3-19-2027/production/7642130",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1092,7 +1092,7 @@
     "ticketmaster_event_id": "1900653EAD4D7806",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-phoenix-arizona-03-20-2027/event/1900653EAD4D7806",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-phoenix-mortgage-matchup-center-3-20-2027/production/7642092",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-phoenix-arizona-03-20-2027/event/1900653EAD4D7806",
     "last_verified_at": null,
@@ -1114,11 +1114,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642092,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-phoenix-mortgage-matchup-center-3-20-2027/production/7642092",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1146,7 +1146,7 @@
     "ticketmaster_event_id": "1700653DCEF02227",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-reno-nevada-03-22-2027/event/1700653DCEF02227",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-reno-reno-events-center-3-22-2027/production/7642168",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-reno-nevada-03-22-2027/event/1700653DCEF02227",
     "last_verified_at": null,
@@ -1168,11 +1168,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642168,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-reno-reno-events-center-3-22-2027/production/7642168",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1200,7 +1200,7 @@
     "ticketmaster_event_id": "0F00653DE1E2F0DB",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-seattle-washington-03-24-2027/event/0F00653DE1E2F0DB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-seattle-climate-pledge-arena-3-24-2027/production/7642094",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-seattle-washington-03-24-2027/event/0F00653DE1E2F0DB",
     "last_verified_at": null,
@@ -1222,11 +1222,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642094,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-seattle-climate-pledge-arena-3-24-2027/production/7642094",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1254,7 +1254,7 @@
     "ticketmaster_event_id": "0F00653AC211CC44",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-portland-oregon-03-25-2027/event/0F00653AC211CC44",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-portland-moda-center-3-25-2027/production/7642126",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-portland-oregon-03-25-2027/event/0F00653AC211CC44",
     "last_verified_at": null,
@@ -1276,11 +1276,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642126,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-portland-moda-center-3-25-2027/production/7642126",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1308,7 +1308,7 @@
     "ticketmaster_event_id": "1E00654194226422",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-boise-idaho-03-27-2027/event/1E00654194226422",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-boise-extramile-arena-3-27-2027/production/7642160",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-boise-idaho-03-27-2027/event/1E00654194226422",
     "last_verified_at": null,
@@ -1330,11 +1330,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642160,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-boise-extramile-arena-3-27-2027/production/7642160",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1362,7 +1362,7 @@
     "ticketmaster_event_id": "1E00653EA6A68470",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-denver-colorado-03-30-2027/event/1E00653EA6A68470",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-denver-ball-arena-3-30-2027/production/7642098",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-denver-colorado-03-30-2027/event/1E00653EA6A68470",
     "last_verified_at": null,
@@ -1384,11 +1384,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642098,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-denver-ball-arena-3-30-2027/production/7642098",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2064,7 +2064,7 @@
     "ticketmaster_event_id": "1100653DC8D9C167",
     "ticketmaster_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-edmonton-alberta-07-07-2027/event/1100653DC8D9C167",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-edmonton-rogers-place-7-7-2027/production/7642106",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-edmonton-alberta-07-07-2027/event/1100653DC8D9C167",
     "last_verified_at": null,
@@ -2086,11 +2086,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642106,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-edmonton-rogers-place-7-7-2027/production/7642106",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2118,7 +2118,7 @@
     "ticketmaster_event_id": "1100653DAE128CB4",
     "ticketmaster_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-calgary-alberta-07-08-2027/event/1100653DAE128CB4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-calgary-scotiabank-saddledome-7-8-2027/production/7642090",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-calgary-alberta-07-08-2027/event/1100653DAE128CB4",
     "last_verified_at": null,
@@ -2140,11 +2140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642090,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-calgary-scotiabank-saddledome-7-8-2027/production/7642090",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2172,7 +2172,7 @@
     "ticketmaster_event_id": "1100653DE7A3F441",
     "ticketmaster_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-winnipeg-manitoba-07-10-2027/event/1100653DE7A3F441",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-winnipeg-canada-life-centre-7-10-2027/production/7642164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-winnipeg-manitoba-07-10-2027/event/1100653DE7A3F441",
     "last_verified_at": null,
@@ -2194,11 +2194,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642164,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-winnipeg-canada-life-centre-7-10-2027/production/7642164",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2226,7 +2226,7 @@
     "ticketmaster_event_id": "06006541DE906D4A",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-kansas-city-missouri-07-13-2027/event/06006541DE906D4A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-kansas-city-t-mobile-center-7-13-2027/production/7642120",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-kansas-city-missouri-07-13-2027/event/06006541DE906D4A",
     "last_verified_at": null,
@@ -2248,11 +2248,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642120,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-kansas-city-t-mobile-center-7-13-2027/production/7642120",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2334,7 +2334,7 @@
     "ticketmaster_event_id": "05006541BEACAA22",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-columbus-ohio-07-16-2027/event/05006541BEACAA22",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-columbus-nationwide-arena-7-16-2027/production/7642116",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-columbus-ohio-07-16-2027/event/05006541BEACAA22",
     "last_verified_at": null,
@@ -2356,11 +2356,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642116,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-columbus-nationwide-arena-7-16-2027/production/7642116",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2388,7 +2388,7 @@
     "ticketmaster_event_id": "0500653DCD4CD2AE",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-noblesville-indiana-07-17-2027/event/0500653DCD4CD2AE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-noblesville-ruoff-music-center-7-17-2027/production/7642100",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-noblesville-indiana-07-17-2027/event/0500653DCD4CD2AE",
     "last_verified_at": null,
@@ -2410,11 +2410,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642100,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-noblesville-ruoff-music-center-7-17-2027/production/7642100",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2442,7 +2442,7 @@
     "ticketmaster_event_id": "2D006541C0936C87",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-raleigh-north-carolina-07-20-2027/event/2D006541C0936C87",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-raleigh-lenovo-center-7-20-2027/production/7642150",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-raleigh-north-carolina-07-20-2027/event/2D006541C0936C87",
     "last_verified_at": null,
@@ -2464,11 +2464,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642150,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-raleigh-lenovo-center-7-20-2027/production/7642150",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2496,7 +2496,7 @@
     "ticketmaster_event_id": "1500653CF16628BF",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-columbia-maryland-07-21-2027/event/1500653CF16628BF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-columbia-merriweather-post-pavilion-7-21-2027/production/7642117",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-columbia-maryland-07-21-2027/event/1500653CF16628BF",
     "last_verified_at": null,
@@ -2518,11 +2518,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642117,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-columbia-merriweather-post-pavilion-7-21-2027/production/7642117",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2550,7 +2550,7 @@
     "ticketmaster_event_id": "0200653EE0231496",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-hershey-pennsylvania-07-23-2027/event/0200653EE0231496",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-hershey-giant-center-7-23-2027/production/7642132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-hershey-pennsylvania-07-23-2027/event/0200653EE0231496",
     "last_verified_at": null,
@@ -2572,11 +2572,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642132,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-hershey-giant-center-7-23-2027/production/7642132",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2604,7 +2604,7 @@
     "ticketmaster_event_id": "1D00653CB8CC428A",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-uncasville-connecticut-07-24-2027/event/1D00653CB8CC428A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-uncasville-mohegan-sun-arena-ct-7-24-2027/production/7642174",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-uncasville-connecticut-07-24-2027/event/1D00653CB8CC428A",
     "last_verified_at": null,
@@ -2626,11 +2626,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642174,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-uncasville-mohegan-sun-arena-ct-7-24-2027/production/7642174",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2658,7 +2658,7 @@
     "ticketmaster_event_id": "0100653AAC543171",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-gilford-new-hampshire-07-26-2027/event/0100653AAC543171",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-gilford-banknh-pavilion-7-26-2027/production/7642112",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-gilford-new-hampshire-07-26-2027/event/0100653AAC543171",
     "last_verified_at": null,
@@ -2680,11 +2680,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642112,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-gilford-banknh-pavilion-7-26-2027/production/7642112",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2712,7 +2712,7 @@
     "ticketmaster_event_id": "3100653CC94F6595",
     "ticketmaster_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-laval-quebec-07-28-2027/event/3100653CC94F6595",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-laval-place-bell-7-28-2027/production/7642144",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-laval-quebec-07-28-2027/event/3100653CC94F6595",
     "last_verified_at": null,
@@ -2734,11 +2734,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642144,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-laval-place-bell-7-28-2027/production/7642144",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2820,7 +2820,7 @@
     "ticketmaster_event_id": "0800653CABC5444C",
     "ticketmaster_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-grand-rapids-michigan-07-31-2027/event/0800653CABC5444C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-grand-rapids-acrisure-amphitheater-7-31-2027/production/7642128",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-grand-rapids-michigan-07-31-2027/event/0800653CABC5444C",
     "last_verified_at": null,
@@ -2842,11 +2842,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642128,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-grand-rapids-acrisure-amphitheater-7-31-2027/production/7642128",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

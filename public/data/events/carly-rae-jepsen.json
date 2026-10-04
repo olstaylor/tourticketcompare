@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "1100653AC57AB350",
     "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-edmonton-alberta-04-15-2027/event/1100653AC57AB350",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-edmonton-northern-alberta-jubilee-auditorium-4-15-2027/production/7636669",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-edmonton-alberta-04-15-2027/event/1100653AC57AB350",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636669,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-edmonton-northern-alberta-jubilee-auditorium-4-15-2027/production/7636669",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -174,7 +174,7 @@
     "ticketmaster_event_id": "1C00653EE35C5635",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-san-francisco-california-04-21-2027/event/1C00653EE35C5635",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-san-francisco-bill-graham-civic-auditorium-4-21-2027--concerts-pop/production/7636617",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-san-francisco-california-04-21-2027/event/1C00653EE35C5635",
     "last_verified_at": null,
@@ -196,11 +196,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636617,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-san-francisco-bill-graham-civic-auditorium-4-21-2027--concerts-pop/production/7636617",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -228,7 +228,7 @@
     "ticketmaster_event_id": "0900653DD37AFC77",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-inglewood-california-04-22-2027/event/0900653DD37AFC77",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-inglewood-kia-forum-4-22-2027--concerts-pop/production/7636619",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-inglewood-california-04-22-2027/event/0900653DD37AFC77",
     "last_verified_at": null,
@@ -250,11 +250,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636619,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-inglewood-kia-forum-4-22-2027--concerts-pop/production/7636619",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282,7 +282,7 @@
     "ticketmaster_event_id": "0A00653DFBE2B391",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-san-diego-california-04-23-2027/event/0A00653DFBE2B391",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-san-diego-gallagher-square-at-petco-park-4-23-2027--concerts-pop/production/7636621",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-san-diego-california-04-23-2027/event/0A00653DFBE2B391",
     "last_verified_at": null,
@@ -304,11 +304,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636621,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-san-diego-gallagher-square-at-petco-park-4-23-2027--concerts-pop/production/7636621",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -336,7 +336,7 @@
     "ticketmaster_event_id": "1700653C7E015760",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-las-vegas-nevada-04-30-2027/event/1700653C7E015760",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-las-vegas-cosmopolitan-of-las-vegas-4-30-2027--concerts-pop/production/7636633",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-las-vegas-nevada-04-30-2027/event/1700653C7E015760",
     "last_verified_at": null,
@@ -358,11 +358,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636633,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-las-vegas-cosmopolitan-of-las-vegas-4-30-2027--concerts-pop/production/7636633",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -390,7 +390,7 @@
     "ticketmaster_event_id": "190065399E606563",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-phoenix-arizona-05-01-2027/event/190065399E606563",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-phoenix-arizona-financial-theatre-5-1-2027--concerts-pop/production/7636635",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-phoenix-arizona-05-01-2027/event/190065399E606563",
     "last_verified_at": null,
@@ -412,11 +412,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636635,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-phoenix-arizona-financial-theatre-5-1-2027--concerts-pop/production/7636635",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -444,7 +444,7 @@
     "ticketmaster_event_id": "0C00653CBA167BDF",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-irving-texas-05-05-2027/event/0C00653CBA167BDF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-irving-pavilion-at-toyota-music-factory-5-5-2027--concerts-pop/production/7636637",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-irving-texas-05-05-2027/event/0C00653CBA167BDF",
     "last_verified_at": null,
@@ -466,11 +466,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636637,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-irving-pavilion-at-toyota-music-factory-5-5-2027--concerts-pop/production/7636637",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -498,7 +498,7 @@
     "ticketmaster_event_id": "3A00653EBB77F9AC",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-austin-texas-05-07-2027/event/3A00653EBB77F9AC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-austin-moody-amphitheater-5-7-2027--concerts-pop/production/7636639",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-austin-texas-05-07-2027/event/3A00653EBB77F9AC",
     "last_verified_at": null,
@@ -520,11 +520,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636639,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-austin-moody-amphitheater-5-7-2027--concerts-pop/production/7636639",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -552,7 +552,7 @@
     "ticketmaster_event_id": "3A00653E8D017735",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-houston-texas-05-08-2027/event/3A00653E8D017735",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-houston-713-music-hall-5-8-2027--concerts-pop/production/7636641",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-houston-texas-05-08-2027/event/3A00653E8D017735",
     "last_verified_at": null,
@@ -574,11 +574,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636641,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-houston-713-music-hall-5-8-2027--concerts-pop/production/7636641",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -606,7 +606,7 @@
     "ticketmaster_event_id": "1B00653EC0C1669B",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-nashville-tennessee-05-10-2027/event/1B00653EC0C1669B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-nashville-the-truth-5-10-2027--concerts-pop/production/7636643",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-nashville-tennessee-05-10-2027/event/1B00653EC0C1669B",
     "last_verified_at": null,
@@ -628,11 +628,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636643,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-nashville-the-truth-5-10-2027--concerts-pop/production/7636643",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -660,7 +660,7 @@
     "ticketmaster_event_id": "0E00653DDEEB8031",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-atlanta-georgia-05-11-2027/event/0E00653DDEEB8031",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-atlanta-coca-cola-roxy-theatre-5-11-2027--concerts-pop/production/7636653",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-atlanta-georgia-05-11-2027/event/0E00653DDEEB8031",
     "last_verified_at": null,
@@ -682,11 +682,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636653,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-atlanta-coca-cola-roxy-theatre-5-11-2027--concerts-pop/production/7636653",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -714,7 +714,7 @@
     "ticketmaster_event_id": "2D00653CC129D74A",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-charlotte-north-carolina-05-12-2027/event/2D00653CC129D74A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-charlotte-skyla-credit-union-amphitheatre-5-12-2027--concerts-pop/production/7636657",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-charlotte-north-carolina-05-12-2027/event/2D00653CC129D74A",
     "last_verified_at": null,
@@ -736,11 +736,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636657,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-charlotte-skyla-credit-union-amphitheatre-5-12-2027--concerts-pop/production/7636657",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -768,7 +768,7 @@
     "ticketmaster_event_id": "1500653E21F8E22A",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-washington-district-of-columbia-05-14-2027/event/1500653E21F8E22A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-washington-dc-the-anthem-5-14-2027--concerts-pop/production/7636659",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-washington-district-of-columbia-05-14-2027/event/1500653E21F8E22A",
     "last_verified_at": null,
@@ -790,11 +790,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636659,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-washington-dc-the-anthem-5-14-2027--concerts-pop/production/7636659",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -822,7 +822,7 @@
     "ticketmaster_event_id": "3B00653BC1584829",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-new-york-new-york-05-15-2027/event/3B00653BC1584829",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-new-york-madison-square-garden-5-15-2027--concerts-pop/production/7636661",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-new-york-new-york-05-15-2027/event/3B00653BC1584829",
     "last_verified_at": null,
@@ -844,11 +844,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636661,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-new-york-madison-square-garden-5-15-2027--concerts-pop/production/7636661",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -930,7 +930,7 @@
     "ticketmaster_event_id": "0100653AF339EDA9",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-boston-massachusetts-05-19-2027/event/0100653AF339EDA9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-boston-mgm-music-hall-at-fenway-5-19-2027--concerts-pop/production/7636665",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-boston-massachusetts-05-19-2027/event/0100653AF339EDA9",
     "last_verified_at": null,
@@ -952,11 +952,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636665,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-boston-mgm-music-hall-at-fenway-5-19-2027--concerts-pop/production/7636665",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1038,7 +1038,7 @@
     "ticketmaster_event_id": "0800653EEA8EC325",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-detroit-michigan-05-22-2027/event/0800653EEA8EC325",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-detroit-fox-theatre-detroit-5-22-2027--concerts-pop/production/7636671",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-detroit-michigan-05-22-2027/event/0800653EEA8EC325",
     "last_verified_at": null,
@@ -1060,11 +1060,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636671,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-detroit-fox-theatre-detroit-5-22-2027--concerts-pop/production/7636671",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1200,7 +1200,7 @@
     "ticketmaster_event_id": "3100653DB72263CC",
     "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-montreal-quebec-05-29-2027/event/3100653DB72263CC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-montreal-mtelus-5-29-2027--concerts-pop/production/7636681",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-montreal-quebec-05-29-2027/event/3100653DB72263CC",
     "last_verified_at": null,
@@ -1222,11 +1222,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636681,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-montreal-mtelus-5-29-2027--concerts-pop/production/7636681",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

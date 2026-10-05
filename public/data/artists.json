@@ -9,7 +9,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-03"
+    "last_verified_at": "2026-10-04"
   },
   {
     "slug": "harry-styles",
@@ -45,7 +45,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-03"
+    "last_verified_at": "2026-10-04"
   },
   {
     "slug": "bad-bunny",
@@ -57,7 +57,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-03"
+    "last_verified_at": "2026-10-04"
   },
   {
     "slug": "morgan-wallen",
@@ -69,7 +69,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-03"
+    "last_verified_at": "2026-10-04"
   },
   {
     "slug": "jay-z",
@@ -141,7 +141,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-03"
+    "last_verified_at": "2026-10-04"
   },
   {
     "slug": "charli-xcx",
@@ -165,7 +165,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-03"
+    "last_verified_at": "2026-10-04"
   },
   {
     "slug": "summer-walker",
@@ -189,7 +189,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-03"
+    "last_verified_at": "2026-10-04"
   },
   {
     "slug": "sabrina-carpenter",
@@ -219,7 +219,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-03"
+    "last_verified_at": "2026-10-04"
   },
   {
     "slug": "zach-bryan",
@@ -243,7 +243,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-03"
+    "last_verified_at": "2026-10-04"
   },
   {
     "slug": "coldplay",
@@ -264,7 +264,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-03"
+    "last_verified_at": "2026-10-04"
   },
   {
     "slug": "tame-impala",
@@ -1227,5 +1227,75 @@
     "last_verified_at": "2026-10-01",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-01"
+  },
+  {
+    "slug": "greta-van-fleet",
+    "name": "Greta Van Fleet",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-03",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-03"
+  },
+  {
+    "slug": "fontaines-d-c",
+    "name": "Fontaines D.C.",
+    "short_description": "Alternative act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-03",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-03"
+  },
+  {
+    "slug": "riley-green",
+    "name": "Riley Green",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-03",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-03"
+  },
+  {
+    "slug": "hazlett",
+    "name": "Hazlett",
+    "short_description": "Alternative act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-03",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-03"
+  },
+  {
+    "slug": "carly-rae-jepsen",
+    "name": "Carly Rae Jepsen",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-03",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-03"
   }
 ]

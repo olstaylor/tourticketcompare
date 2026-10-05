@@ -441,7 +441,7 @@
         "event_id": 18085658,
         "url": "https://seatgeek.com/foy-vance-tickets/los-angeles-california-el-rey-theatre-los-angeles-2026-11-06-8-pm/concert/18085658",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -510,7 +510,7 @@
         "event_id": 18085660,
         "url": "https://seatgeek.com/foy-vance-tickets/los-angeles-california-el-rey-theatre-los-angeles-2026-11-07-8-pm/concert/18085660",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -579,7 +579,7 @@
         "event_id": 18085699,
         "url": "https://seatgeek.com/foy-vance-tickets/portland-oregon-aladdin-theater-2026-11-10-7-pm/concert/18085699",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -839,7 +839,7 @@
         "event_id": 18085728,
         "url": "https://seatgeek.com/foy-vance-tickets/englewood-colorado-gothic-theatre-2026-11-21-7-pm/concert/18085728",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1030,7 +1030,7 @@
         "event_id": 18085786,
         "url": "https://seatgeek.com/foy-vance-tickets/atlanta-georgia-variety-playhouse-2027-04-08-7-pm/concert/18085786",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1221,7 +1221,7 @@
         "event_id": 18085797,
         "url": "https://seatgeek.com/foy-vance-tickets/saint-paul-minnesota-fitzgerald-theater-2027-04-15-7-pm/concert/18085797",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1343,7 +1343,7 @@
         "event_id": 18387603,
         "url": "https://seatgeek.com/foy-vance-tickets/york-pennsylvania-appell-center-for-the-performing-arts-capitol-theatre-2027-04-27-7-pm/concert/18387603",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1447,7 +1447,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe4_V",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4_V",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-san-francisco-great-american-music-hall-11-8-2026/production/6687145",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4_V",
     "last_verified_at": null,
@@ -1469,11 +1469,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6687145,
+        "url": "https://www.vividseats.com/foy-vance-tickets-san-francisco-great-american-music-hall-11-8-2026/production/6687145",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1481,10 +1481,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748035",
+        "url": "https://www.ticketnetwork.com/en/p/7748035",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748035",
+        "url": "https://www.ticketliquidator.com/tickets/7748035/Foy-Vance-tickets-Sun-Nov-8-2026-The-Great-American-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4_V",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748035",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748035/Foy-Vance-tickets-Sun-Nov-8-2026-The-Great-American-Music-Hall"
   }
 ]

@@ -2601,7 +2601,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe83v",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83v",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-melbourne-king-center-for-the-performing-arts-1-25-2027--concerts-rock/production/7625464",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83v",
     "last_verified_at": null,
@@ -2623,11 +2623,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7625464,
+        "url": "https://www.vividseats.com/daughtry-tickets-melbourne-king-center-for-the-performing-arts-1-25-2027--concerts-rock/production/7625464",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2635,11 +2635,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295552",
+        "url": "https://www.ticketnetwork.com/en/p/8295552",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295552",
+        "url": "https://www.ticketliquidator.com/tickets/8295552/Daughtry-tickets-Mon-Jan-25-2027-King-Center-For-The-Performing-Arts",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83v",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295552",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295552/Daughtry-tickets-Mon-Jan-25-2027-King-Center-For-The-Performing-Arts"
   },
   {
     "id": "tm-daughtry-2027-clearwater-z7r9jz1aae83e",
@@ -2654,7 +2670,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe83e",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83e",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-clearwater-ruth-eckerd-hall-1-28-2027/production/7624134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83e",
     "last_verified_at": null,
@@ -2676,11 +2692,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7624134,
+        "url": "https://www.vividseats.com/daughtry-tickets-clearwater-ruth-eckerd-hall-1-28-2027/production/7624134",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2688,11 +2704,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295553",
+        "url": "https://www.ticketnetwork.com/en/p/8295553",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295553",
+        "url": "https://www.ticketliquidator.com/tickets/8295553/Daughtry-tickets-Thu-Jan-28-2027-Ruth-Eckerd-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83e",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295553",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295553/Daughtry-tickets-Thu-Jan-28-2027-Ruth-Eckerd-Hall"
   },
   {
     "id": "tm-daughtry-2027-austin-z7r9jz1aae83d",
@@ -2707,7 +2739,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe83d",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83d",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-austin-austin-city-limits-live-at-the-moody-theater-2-3-2027/production/7623701",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83d",
     "last_verified_at": null,
@@ -2729,11 +2761,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7623701,
+        "url": "https://www.vividseats.com/daughtry-tickets-austin-austin-city-limits-live-at-the-moody-theater-2-3-2027/production/7623701",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2741,11 +2773,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295554",
+        "url": "https://www.ticketnetwork.com/en/p/8295554",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83d",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295554"
   },
   {
     "id": "tm-daughtry-2027-ventura-z7r9jz1aae837",
@@ -2760,7 +2800,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe837",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe837",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-ventura-the-majestic-ventura-theater-2-6-2027--concerts-rock/production/7625242",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe837",
     "last_verified_at": null,
@@ -2782,11 +2822,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7625242,
+        "url": "https://www.vividseats.com/daughtry-tickets-ventura-the-majestic-ventura-theater-2-6-2027--concerts-rock/production/7625242",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2866,7 +2906,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe83k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-eau-claire-rcu-theatre---pablo-center-at-the-confluence-2-18-2027/production/7627197",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
     "last_verified_at": null,
@@ -2888,11 +2928,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7627197,
+        "url": "https://www.vividseats.com/daughtry-tickets-eau-claire-rcu-theatre---pablo-center-at-the-confluence-2-18-2027/production/7627197",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2900,11 +2940,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295556",
+        "url": "https://www.ticketnetwork.com/en/p/8295556",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295556",
+        "url": "https://www.ticketliquidator.com/tickets/8295556/Daughtry-tickets-Thu-Feb-18-2027-RCU-Theatre-At-Pablo-Center-at-the-Confluence",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83k",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295556",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295556/Daughtry-tickets-Thu-Feb-18-2027-RCU-Theatre-At-Pablo-Center-at-the-Confluence"
   },
   {
     "id": "tm-daughtry-2027-orono-z7r9jz1aae836",
@@ -2953,11 +3009,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295558",
+        "url": "https://www.ticketnetwork.com/en/p/8295558",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295558",
+        "url": "https://www.ticketliquidator.com/tickets/8295558/Daughtry-tickets-Mon-Mar-1-2027-Hutchins-Concert-Hall-At-Collins-Center-for-the-Arts",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe836",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295558",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295558/Daughtry-tickets-Mon-Mar-1-2027-Hutchins-Concert-Hall-At-Collins-Center-for-the-Arts"
   },
   {
     "id": "tm-daughtry-2027-charlottesville-z7r9jz1aae83f",
@@ -2972,7 +3044,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe83F",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-charlottesville-paramount-theater-charlottesville-3-3-2027/production/7624065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83F",
     "last_verified_at": null,
@@ -2994,11 +3066,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7624065,
+        "url": "https://www.vividseats.com/daughtry-tickets-charlottesville-paramount-theater-charlottesville-3-3-2027/production/7624065",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

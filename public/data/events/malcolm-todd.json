@@ -300,25 +300,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034329",
-        "url": "https://www.ticketnetwork.com/en/p/8034329",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034329",
-        "url": "https://www.ticketliquidator.com/tickets/8034329/Malcolm-Todd-tickets-Sat-Oct-3-2026-The-Truth",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_G1Jq0ud",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034329",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034329/Malcolm-Todd-tickets-Sat-Oct-3-2026-The-Truth"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-malcolm-todd-2026-maryland-heights-vvg1bz_gclzidq",
@@ -595,7 +595,7 @@
         "event_id": 18292579,
         "url": "https://seatgeek.com/malcolm-todd-tickets/denver-colorado-mission-ballroom-2026-10-11-7-pm/concert/18292579",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -664,7 +664,7 @@
         "event_id": 18296767,
         "url": "https://seatgeek.com/malcolm-todd-tickets/denver-colorado-mission-ballroom-2026-10-12-7-pm/concert/18296767",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -940,7 +940,7 @@
         "event_id": 18292574,
         "url": "https://seatgeek.com/malcolm-todd-tickets/vancouver-canada-pne-forum-vancouver-2026-10-18-8-pm/concert/18292574",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1009,7 +1009,7 @@
         "event_id": 18292564,
         "url": "https://seatgeek.com/malcolm-todd-tickets/portland-oregon-arlene-schnitzer-concert-hall-2026-10-19-8-pm/concert/18292564",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {

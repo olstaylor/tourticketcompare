@@ -494,33 +494,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7883096",
-        "url": "https://www.ticketnetwork.com/en/p/7883096",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7883096",
-        "url": "https://www.ticketliquidator.com/tickets/7883096/Teddy-Swims-tickets-Fri-Oct-2-2026-Barclays-Center",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107154938",
-        "url": "https://www.stubhub.ie/teddy-swims-brooklyn-tickets-10-2-2026/event/107154938",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_FGknbFKOe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883096",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883096/Teddy-Swims-tickets-Fri-Oct-2-2026-Barclays-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-brooklyn-tickets-10-2-2026/event/107154938"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-teddy-swims-2026-toronto-1avzz_fgku3eucw",
@@ -1214,7 +1214,7 @@
         "event_id": 18175691,
         "url": "https://seatgeek.com/teddy-swims-tickets/sunrise-florida-amerant-bank-arena-2026-10-23-7-pm/concert/18175691",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1368,7 +1368,7 @@
         "event_id": 18185160,
         "url": "https://seatgeek.com/teddy-swims-tickets/houston-texas-toyota-center-2026-10-27-7-pm/concert/18185160",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1668,7 +1668,7 @@
         "event_id": 18143695,
         "url": "https://seatgeek.com/teddy-swims-tickets/salt-lake-city-utah-delta-center-1-2026-11-03-7-pm/concert/18143695",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2130,7 +2130,7 @@
         "event_id": 18185177,
         "url": "https://seatgeek.com/teddy-swims-tickets/san-diego-california-pechanga-arena-san-diego-2026-11-13-7-pm/concert/18185177",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2199,7 +2199,7 @@
         "event_id": 18185180,
         "url": "https://seatgeek.com/teddy-swims-tickets/las-vegas-nevada-t-mobile-arena-2026-11-14-7-pm/concert/18185180",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -1591,7 +1591,7 @@
         "event_id": 18581453,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/houston-texas-toyota-center-2027-02-07-8-pm/concert/18581453",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1898,7 +1898,7 @@
         "event_id": 7622420,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-birmingham-utilita-arena-birmingham-9-29-2027--theater-opera/production/7622420",
         "verified": true,
-        "last_verified_at": "2026-10-01",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1951,7 +1951,7 @@
         "event_id": 7622414,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-glasgow-ovo-hydro-10-9-2027--theater-opera/production/7622414",
         "verified": true,
-        "last_verified_at": "2026-10-01",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2056,7 +2056,7 @@
     "ticketmaster_event_id": "3500653E8E593797",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/andrea-bocelli-london-01-10-2027/event/3500653E8E593797",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-london-the-o2---london-10-1-2027--theater-opera/production/7622416",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-london-01-10-2027/event/3500653E8E593797",
     "last_verified_at": null,
@@ -2078,11 +2078,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7622416,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-london-the-o2---london-10-1-2027--theater-opera/production/7622416",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2090,11 +2090,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671324",
+        "url": "https://www.stubhub.ie/andrea-bocelli-tickets-london-the-o2-arena-1-10-2027/event/107671324",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_KGkBCpKr9",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-london-the-o2-arena-1-10-2027/event/107671324"
   },
   {
     "id": "tm-andrea-bocelli-2027-manchester-1amzkfzgkd7qkyk",
@@ -2109,7 +2117,7 @@
     "ticketmaster_event_id": "37006538C4746C13",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-manchester-05-10-2027/event/37006538C4746C13",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-manchester-co-op-live-10-5-2027--theater-opera/production/7620595",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/andrea-bocelli-romanza-30th-anniversary-manchester-05-10-2027/event/37006538C4746C13",
     "last_verified_at": null,
@@ -2131,11 +2139,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7620595,
+        "url": "https://www.vividseats.com/andrea-bocelli-tickets-manchester-co-op-live-10-5-2027--theater-opera/production/7620595",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2143,10 +2151,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8293403",
+        "url": "https://www.ticketnetwork.com/en/p/8293403",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293403",
+        "url": "https://www.ticketliquidator.com/tickets/8293403/Andrea-Bocelli-tickets-Tue-Oct-5-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671325",
+        "url": "https://www.stubhub.ie/andrea-bocelli-tickets-manchester-co-op-live-5-10-2027/event/107671325",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZkfzGkd7qkYK",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293403",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293403/Andrea-Bocelli-tickets-Tue-Oct-5-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-manchester-co-op-live-5-10-2027/event/107671325"
   }
 ]

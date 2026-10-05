@@ -223,17 +223,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107277080",
-        "url": "https://www.stubhub.ie/amble-tickets-manchester-o2-apollo-manchester-3-10-2026/event/107277080",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G65bdcGVP",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-manchester-o2-apollo-manchester-3-10-2026/event/107277080"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-amble-2026-nottingham-g5vhz_5y-lcue",

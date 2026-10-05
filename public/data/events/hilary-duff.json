@@ -2154,7 +2154,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeve7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeve7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-sunrise-amerant-bank-arena-10-1-2027--concerts-pop/production/7599601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeve7",
     "last_verified_at": null,
@@ -2176,11 +2176,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599601,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-sunrise-amerant-bank-arena-10-1-2027--concerts-pop/production/7599601",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2188,11 +2188,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284543",
+        "url": "https://www.ticketnetwork.com/en/p/8284543",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284543",
+        "url": "https://www.ticketliquidator.com/tickets/8284543/Hilary-Duff-tickets-Fri-Oct-1-2027-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669003",
+        "url": "https://www.stubhub.ie/hilary-duff-sunrise-tickets-10-1-2027/event/107669003",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeve7",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284543",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284543/Hilary-Duff-tickets-Fri-Oct-1-2027-Amerant-Bank-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-sunrise-tickets-10-1-2027/event/107669003"
   },
   {
     "id": "tm-hilary-duff-2027-cleveland-z7r9jz1aaevea",
@@ -2241,11 +2265,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284549",
+        "url": "https://www.ticketnetwork.com/en/p/8284549",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284549",
+        "url": "https://www.ticketliquidator.com/tickets/8284549/Hilary-Duff-tickets-Wed-Oct-13-2027-Rocket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669004",
+        "url": "https://www.stubhub.ie/hilary-duff-cleveland-tickets-10-13-2027/event/107669004",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeveA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284549",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284549/Hilary-Duff-tickets-Wed-Oct-13-2027-Rocket-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-cleveland-tickets-10-13-2027/event/107669004"
   },
   {
     "id": "tm-hilary-duff-2027-des-moines-z7r9jz1aaevep",
@@ -2294,11 +2342,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284569",
+        "url": "https://www.ticketnetwork.com/en/p/8284569",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284569",
+        "url": "https://www.ticketliquidator.com/tickets/8284569/Hilary-Duff-tickets-Sun-Nov-14-2027-Caseys-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669019",
+        "url": "https://www.stubhub.ie/hilary-duff-des-moines-tickets-11-14-2027/event/107669019",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAevep",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284569",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284569/Hilary-Duff-tickets-Sun-Nov-14-2027-Caseys-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-des-moines-tickets-11-14-2027/event/107669019"
   },
   {
     "id": "tm-hilary-duff-2027-anaheim-vv170z_kgkrlzqwi",
@@ -2313,7 +2385,7 @@
     "ticketmaster_event_id": "0900653BDF01AF68",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-21-2027/event/0900653BDF01AF68",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-anaheim-honda-center-11-21-2027/production/7628085",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-21-2027/event/0900653BDF01AF68",
     "last_verified_at": null,
@@ -2335,11 +2407,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7628085,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-anaheim-honda-center-11-21-2027/production/7628085",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2347,10 +2419,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301234",
+        "url": "https://www.ticketnetwork.com/en/p/8301234",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301234",
+        "url": "https://www.ticketliquidator.com/tickets/8301234/Hilary-Duff-tickets-Sun-Nov-21-2027-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_KGkRLZQWI",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301234",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301234/Hilary-Duff-tickets-Sun-Nov-21-2027-Honda-Center"
   }
 ]

@@ -1513,33 +1513,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7758708",
-        "url": "https://www.ticketnetwork.com/en/p/7758708",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7758708",
-        "url": "https://www.ticketliquidator.com/tickets/7758708/Metallica-tickets-Sat-Oct-3-2026-Sphere",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107120357",
-        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-3-2026/event/107120357",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfu40",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758708",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758708/Metallica-tickets-Sat-Oct-3-2026-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-3-2026/event/107120357"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-metallica-2026-las-vegas-1avjz_agkns9qkh",
@@ -2482,7 +2482,7 @@
         "event_id": 18595092,
         "url": "https://seatgeek.com/metallica-tickets/raleigh-north-carolina-carter-finley-stadium-2027-06-02-6-pm/concert/18595092",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-03",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2559,7 +2559,7 @@
         "event_id": 18595101,
         "url": "https://seatgeek.com/metallica-tickets/madison-wisconsin-camp-randall-stadium-2027-06-12-6-pm/concert/18595101",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-03",
         "availability_status": "listed"
       },
       "vivid-seats": {

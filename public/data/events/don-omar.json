@@ -324,33 +324,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7976478",
-        "url": "https://www.ticketnetwork.com/en/p/7976478",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7976478",
-        "url": "https://www.ticketliquidator.com/tickets/7976478/Don-Omar-tickets-Sat-Oct-3-2026-Kia-Center",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107189121",
-        "url": "https://www.stubhub.ie/don-omar-orlando-tickets-10-3-2026/event/107189121",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G61TZTiqR",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976478",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976478/Don-Omar-tickets-Sat-Oct-3-2026-Kia-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-orlando-tickets-10-3-2026/event/107189121"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-miami-vvg1vz_1mbpqce",
@@ -999,7 +999,7 @@
         "event_id": 18257187,
         "url": "https://seatgeek.com/don-omar-tickets/houston-texas-toyota-center-2026-10-23-8-pm/concert/18257187",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1222,7 +1222,7 @@
         "event_id": 18250878,
         "url": "https://seatgeek.com/don-omar-tickets/las-vegas-nevada-michelob-ultra-arena-at-mandalay-bay-resort-casino-2026-10-30-8-pm/concert/18250878",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1798,7 +1798,7 @@
         "event_id": 18333383,
         "url": "https://seatgeek.com/don-omar-tickets/san-diego-california-pechanga-arena-san-diego-2027-02-10-8-pm/concert/18333383",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {

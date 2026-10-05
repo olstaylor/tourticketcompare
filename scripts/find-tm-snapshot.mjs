@@ -28,13 +28,41 @@ export function auditJobSucceeded(jobs) {
   return audit.length === 1 && audit[0].status === 'completed' && audit[0].conclusion === 'success';
 }
 
-export async function findSnapshot({ request, repo, now = Date.now() }) {
+// Why a listed run was not trusted, for the log. On 2026-10-05 the lookup found
+// nothing 36 minutes after a successful audit had uploaded its snapshot, and
+// the run log could not say which check refused it; the nightly sync then
+// fetched every event itself and spent the day's Ticketmaster quota.
+export function untrustedReason(run, repo, now = Date.now()) {
+  const at = Date.parse(run?.run_started_at);
+  if (run?.event !== 'schedule') return `event ${run?.event}`;
+  if (run?.head_branch !== 'main') return `branch ${run?.head_branch}`;
+  if (run?.path !== '.github/workflows/daily-audit.yml') return `path ${run?.path}`;
+  if (run?.head_repository?.full_name !== repo) return `repository ${run?.head_repository?.full_name}`;
+  if (run?.status !== 'completed') return `status ${run?.status}`;
+  if (!Number.isSafeInteger(run?.id)) return 'no run id';
+  if (!Number.isFinite(at) || at > now) return `start time ${run?.run_started_at}`;
+  if (now - at > SNAPSHOT_MAX_AGE_MS) return `started ${run?.run_started_at}, older than ${SNAPSHOT_MAX_AGE_MS / 3600000}h`;
+  return null;
+}
+
+export async function findSnapshot({ request, repo, now = Date.now(), log = () => {} }) {
   const runs = await request(`/repos/${repo}/actions/workflows/daily-audit.yml/runs?branch=main&event=schedule&status=completed&per_page=10`);
-  for (const run of (runs.workflow_runs || []).filter((r) => trustedAuditRun(r, repo, now)).sort((a, b) => Date.parse(b.run_started_at) - Date.parse(a.run_started_at))) {
-    if (!auditJobSucceeded(await request(`/repos/${repo}/actions/runs/${run.id}/jobs?filter=latest&per_page=100`))) continue;
+  const listed = runs.workflow_runs || [];
+  log(`${listed.length} completed scheduled audit run(s) listed.`);
+  for (const run of listed) {
+    if (!trustedAuditRun(run, repo, now)) log(`Run ${run?.id}: not trusted (${untrustedReason(run, repo, now) || 'unknown'}).`);
+  }
+  for (const run of listed.filter((r) => trustedAuditRun(r, repo, now)).sort((a, b) => Date.parse(b.run_started_at) - Date.parse(a.run_started_at))) {
+    const jobs = await request(`/repos/${repo}/actions/runs/${run.id}/jobs?filter=latest&per_page=100`);
+    if (!auditJobSucceeded(jobs)) {
+      const audit = (jobs?.jobs || []).filter((job) => job?.name === AUDIT_JOB);
+      log(`Run ${run.id}: audit job not a single success (${audit.map((job) => `${job.status}/${job.conclusion}`).join(', ') || `none of ${(jobs?.jobs || []).length} job(s)`}).`);
+      continue;
+    }
     const artifacts = await request(`/repos/${repo}/actions/runs/${run.id}/artifacts?per_page=100`);
     const artifact = (artifacts.artifacts || []).find((a) => a.name === SNAPSHOT_ARTIFACT && a.expired === false && Number.isSafeInteger(a.id));
     if (artifact) return { run_id: run.id, artifact_id: artifact.id };
+    log(`Run ${run.id}: no unexpired ${SNAPSHOT_ARTIFACT} artifact among ${(artifacts.artifacts || []).map((a) => `${a.name}${a.expired ? ' (expired)' : ''}`).join(', ') || 'none'}.`);
   }
   return null;
 }
@@ -71,6 +99,12 @@ async function selfTest() {
   for (const artifact of [{ id: 99, name: SNAPSHOT_ARTIFACT, expired: true }, { id: 99, name: 'daily-audit-42', expired: false }]) {
     assert.equal(await findSnapshot({ request: scripted([run], okJobs, { artifacts: [artifact] }), repo, now }), null);
   }
+  assert.equal(untrustedReason(run, repo, now), null);
+  assert.match(untrustedReason({ ...run, run_started_at: '2026-10-01T03:00:00Z' }, repo, now), /older than 6h/);
+  assert.match(untrustedReason({ ...run, head_repository: { full_name: 'fork/repo' } }, repo, now), /repository fork\/repo/);
+  const lines = [];
+  await findSnapshot({ request: scripted([run], { jobs: [] }, artifactList), repo, now, log: (line) => lines.push(line) });
+  assert(lines.some((line) => /audit job not a single success \(none of 0 job/.test(line)), 'a refused run says why');
   console.log('PASS snapshot artifact selection: completed scheduled main run, successful audit job, same repository, bounded age, exact artifact, no fork/manual/failed-audit/expired evidence');
 }
 
@@ -87,9 +121,9 @@ async function main() {
       if (!response.ok) throw new Error(`GitHub HTTP ${response.status}`);
       return response.json();
     };
-    selected = await findSnapshot({ request, repo });
-  } catch {
-    console.warn('Snapshot lookup unavailable; nightly sync will fetch directly.');
+    selected = await findSnapshot({ request, repo, log: (line) => console.log(line) });
+  } catch (error) {
+    console.warn(`Snapshot lookup unavailable (${error?.message || error}); nightly sync will fetch directly.`);
   }
   console.log(selected ? `Using scheduled audit run ${selected.run_id}, artifact ${selected.artifact_id}.` : 'No fresh trusted audit snapshot found; nightly sync will fetch directly.');
   if (process.env.GITHUB_OUTPUT) await fs.appendFile(process.env.GITHUB_OUTPUT, `run_id=${selected?.run_id || ''}\nartifact_id=${selected?.artifact_id || ''}\n`);

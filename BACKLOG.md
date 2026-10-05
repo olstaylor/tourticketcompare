@@ -54,7 +54,7 @@ Open items:
 ### 4. Routine data hygiene (recurring)
 
 - **`needs_recheck`:** 507 events (2026-10-05). This is not a manual CTA queue; runtime checks handle the destinations.
-  - 72 upcoming ones (of 89 in total) lack a verified resale lane (2026-10-05). 67 still show the Ticketmaster button; the other 5 (greta-van-fleet Europe) publish no link until their public on-sale on 2026-10-09.
+  - 72 upcoming ones (of 89 in total) lack a verified resale lane (2026-10-05). Once past their public on-sale, they still show the Ticketmaster button.
   - The count climbs with each large ingestion run. Recount it with the same test `scripts/validate-status-counts.mjs` uses.
   - Compute "renders no CTA" claims with `eventLinkPublishable` and `providerEventPublishable`, never by hand.
 - **Guide source re-verification (human-only):** the owner last did this on 2026-09-21 across all 18 guides. Source sites return 403 to agents, so an agent must never bump a `last_checked` date. `npm run guides:sources:check` only covers reachability.

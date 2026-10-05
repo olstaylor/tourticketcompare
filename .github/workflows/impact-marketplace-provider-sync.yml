@@ -131,7 +131,10 @@ jobs:
           ARTIST: ${{ steps.config.outputs.artist }}
         run: |
           set -euo pipefail
-          args=(--provider "$PROVIDER" --max-api-calls 400 --delay-ms 1000)
+          # The runtime limit keeps the sync inside the 59-minute job, leaving room for
+          # the validation steps; the artist order rotates daily, so a run cut short
+          # by it does not leave the same artists unchecked every night.
+          args=(--provider "$PROVIDER" --max-api-calls 1200 --max-runtime-minutes 35 --delay-ms 1000)
           if [ -n "$ARTIST" ]; then args+=(--artist "$ARTIST"); fi
           if [ "$MODE" = "apply" ]; then
             node scripts/sync-impact-marketplace-events.mjs --apply "${args[@]}"

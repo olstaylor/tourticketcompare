@@ -29,9 +29,14 @@ const EVENTS_PATH = path.join(ROOT, "public", "data", "events.json");
 const ARTISTS_PATH = path.join(ROOT, "public", "data", "artists.json");
 const REGISTRY_PATH = path.join(ROOT, "data", "provider-identities.json");
 const PAGE_SIZE = 100;
-const MAX_PAGES = 5;
+// 20 pages × 100 items: the largest artist catalogs exceed 500 items, and a
+// truncated catalog can neither add nor clear a link (it reports "not checked").
+const MAX_PAGES = 20;
 const DEFAULT_DELAY_MS = 1000;
-const REQUEST_TIMEOUT_MS = 30000;
+// Large catalog queries routinely took longer than 30 s through the proxy; a
+// page that still times out is retried once before the catalog is incomplete.
+const REQUEST_TIMEOUT_MS = 60000;
+const RETRY_DELAY_MS = 5000;
 const PAST_GRACE_MS = 24 * 60 * 60 * 1000;
 
 function usage() {
@@ -47,6 +52,11 @@ Options:
   --limit <n>             Limit selected events
   --max-api-calls <n>     Stop safely after n catalog requests
   --delay-ms <n>          Delay between Impact calls (default: ${DEFAULT_DELAY_MS})
+  --max-runtime-minutes <n>
+                          Stop safely once the run has lasted n minutes; the
+                          remaining catalogs are logged as not checked
+  --rotation-key <n>      Which artist the run starts from (default: UTC day
+                          number), so a capped run reaches every artist in turn
   --apply                 Write public/data/events.json
                           (every completed run, dry or applied, rewrites
                           reports/provider-sync/<provider>-event-sync.md)
@@ -56,24 +66,26 @@ Options:
 }
 
 function parseArgs(argv) {
-  const options = { provider: "", artist: "", limit: null, maxApiCalls: null, delayMs: DEFAULT_DELAY_MS, apply: false, json: false, selfTest: false };
+  const options = { provider: "", artist: "", limit: null, maxApiCalls: null, delayMs: DEFAULT_DELAY_MS, retryDelayMs: RETRY_DELAY_MS, deadline: null, rotationKey: null, apply: false, json: false, selfTest: false };
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
     if (arg === "--apply") options.apply = true;
     else if (arg === "--json") options.json = true;
     else if (arg === "--self-test") options.selfTest = true;
     else if (arg === "-h" || arg === "--help") options.help = true;
-    else if (["--provider", "--artist", "--limit", "--max-api-calls", "--delay-ms"].includes(arg)) {
+    else if (["--provider", "--artist", "--limit", "--max-api-calls", "--delay-ms", "--max-runtime-minutes", "--rotation-key"].includes(arg)) {
       const value = argv[++i];
       if (value == null || value.startsWith("--")) throw new Error(`${arg} requires a value`);
       if (arg === "--provider") options.provider = clean(value, 80).toLowerCase();
       else if (arg === "--artist") options.artist = clean(value, 120).toLowerCase();
       else {
         const number = Number.parseInt(value, 10);
-        if (!Number.isInteger(number) || number < (arg === "--delay-ms" ? 0 : 1)) throw new Error(`${arg} has an invalid value`);
+        if (!Number.isInteger(number) || number < (["--delay-ms", "--rotation-key"].includes(arg) ? 0 : 1)) throw new Error(`${arg} has an invalid value`);
         if (arg === "--limit") options.limit = number;
         if (arg === "--max-api-calls") options.maxApiCalls = number;
         if (arg === "--delay-ms") options.delayMs = number;
+        if (arg === "--max-runtime-minutes") options.deadline = Date.now() + number * 60 * 1000;
+        if (arg === "--rotation-key") options.rotationKey = number;
       }
     } else throw new Error(`Unknown option: ${arg}`);
   }
@@ -287,25 +299,36 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
     ? `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`
     : "";
   const candidates = [];
+  const now = () => (options.now ? options.now() : Date.now());
   for (let page = 1; page <= MAX_PAGES; page += 1) {
-    if (options.maxApiCalls != null && state.apiCalls >= options.maxApiCalls) return { candidates, complete: false, stopReason: "api_call_limit" };
-    if (options.delayMs) await new Promise((resolve) => setTimeout(resolve, options.delayMs));
-    state.apiCalls += 1;
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
     let response;
-    try {
-      response = await fetchImpl(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), {
-        headers: {
-          Accept: "application/json",
-          ...(authorization ? { Authorization: authorization } : {}),
-          ...catalogProxyHeaders(env)
-        },
-        signal: controller.signal
-      });
-    } catch (error) {
-      return { candidates, complete: false, stopReason: `request_failed:${clean(error?.message, 120)}` };
-    } finally { clearTimeout(timeout); }
+    // One retry for a timed-out/failed request or a transient 429/5xx; a
+    // refusal (401/403/proxy 404) is never retried.
+    for (let attempt = 1; attempt <= 2; attempt += 1) {
+      if (options.maxApiCalls != null && state.apiCalls >= options.maxApiCalls) return { candidates, complete: false, stopReason: "api_call_limit" };
+      if (options.deadline != null && now() >= options.deadline) return { candidates, complete: false, stopReason: "runtime_limit" };
+      const wait = attempt === 1 ? options.delayMs : (options.retryDelayMs ?? RETRY_DELAY_MS);
+      if (wait) await new Promise((resolve) => setTimeout(resolve, wait));
+      state.apiCalls += 1;
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+      let failure = "";
+      try {
+        response = await fetchImpl(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), {
+          headers: {
+            Accept: "application/json",
+            ...(authorization ? { Authorization: authorization } : {}),
+            ...catalogProxyHeaders(env)
+          },
+          signal: controller.signal
+        });
+      } catch (error) {
+        failure = `request_failed:${clean(error?.message, 120)}`;
+      } finally { clearTimeout(timeout); }
+      const transient = failure || response.status === 429 || response.status >= 500;
+      if (!transient) break;
+      if (attempt === 2) return { candidates, complete: false, stopReason: failure || `http_${response.status}` };
+    }
     // An incomplete catalog is a normal, silent, exit-0 outcome that preserves
     // existing links, so anything meaning "we were refused" has to be an
     // authFailure instead — otherwise a refused run looks identical to a run
@@ -386,7 +409,13 @@ async function run(options, deps = {}) {
   }
   let authFailure = false;
   let authFailureReason = "";
-  for (const [artistName, artistEvents] of byArtist) {
+  // Start from a different artist each day: when a run stops early (call
+  // budget or runtime limit) the same artists are not the ones left unchecked.
+  const artistQueue = [...byArtist];
+  const rotationKey = options.rotationKey ?? Math.floor((deps.now || new Date()).getTime() / 86400000);
+  const start = artistQueue.length ? rotationKey % artistQueue.length : 0;
+  const rotated = [...artistQueue.slice(start), ...artistQueue.slice(0, start)];
+  for (const [artistName, artistEvents] of rotated) {
     let catalog = deps.fetchCatalog ? await deps.fetchCatalog(config, artistName, options, state) : await fetchCatalog(config, artistName, options, state, deps.env, deps.fetchImpl);
     if (catalog.authFailure) { authFailure = true; authFailureReason = catalog.stopReason || ""; break; }
     if (config.slug === "ticket-liquidator" && catalog.complete) {
@@ -504,6 +533,35 @@ async function selfTest() {
   assert.equal(gateRejected.authFailure, true);
   assert.equal(gateRejected.stopReason, "http_404");
   assert.equal(gateRejected.complete, false);
+  // A timed-out page is retried once, then the catalog continues.
+  const tnEnv = { ...proxyEnv, IMPACT_TICKETNETWORK_CAMPAIGN_ID: "2322", IMPACT_TICKETNETWORK_CATALOG_ID: "896" };
+  const pageOf = (n, total) => new Response(JSON.stringify({ Items: Array.from({ length: n }, (_, i) => ({ ...catalogItem, CampaignId: "2322", CatalogItemId: `x${i}` })), "@total": total }), { status: 200 });
+  let calls = 0;
+  const retried = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => {
+    calls += 1;
+    if (calls === 1) throw new Error("This operation was aborted");
+    return pageOf(3, 3);
+  });
+  assert.equal(retried.complete, true);
+  assert.equal(calls, 2);
+  // Two failures in a row leave the catalog incomplete, with the reason kept.
+  const twice = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => { throw new Error("This operation was aborted"); });
+  assert.deepEqual([twice.complete, twice.stopReason], [false, "request_failed:This operation was aborted"]);
+  // A transient 503 is retried; a refusal is not.
+  let calls503 = 0;
+  const after503 = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => (++calls503 === 1 ? new Response("", { status: 503 }) : pageOf(1, 1)));
+  assert.equal(after503.complete, true);
+  let calls401 = 0;
+  await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => { calls401 += 1; return new Response("", { status: 401 }); });
+  assert.equal(calls401, 1);
+  // Catalogs past the old 5-page cap now complete (7 pages of 100).
+  let page = 0;
+  const big = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => { page += 1; return pageOf(page < 7 ? 100 : 40, 640); });
+  assert.deepEqual([big.complete, page], [true, 7]);
+  // The runtime limit stops cleanly and says why.
+  const late = await fetchCatalog(config, "RAYE", { delayMs: 0, deadline: 1000, now: () => 2000 }, { apiCalls: 0 }, tnEnv, async () => pageOf(1, 1));
+  assert.deepEqual([late.complete, late.stopReason], [false, "runtime_limit"]);
+  assert.equal(outcomeNote("none", { catalogComplete: false, stopReason: "runtime_limit" }), "not checked: catalog incomplete (runtime_limit)");
   // The same 404 without the proxy stays an ordinary incomplete catalog.
   const directNotFound = await fetchCatalog(
     config, "RAYE", { delayMs: 0 }, { apiCalls: 0 },
@@ -639,7 +697,19 @@ async function selfTest() {
   assert.match(merged, /^- Filtered run \(artist stadium-act\): .*1 row\(s\) carried over/m);
   assert.equal((merged.match(/^\| (n5|other) \| /gm) || []).length, 2);
   assert.equal(carriedOutcomeRows("", unlisted.results).length, 0);
-  return 68;
+  // The artist order rotates with the key, so a capped run reaches everyone.
+  const twoArtists = [[night("a1", 4), { ...night("b1", 5), artist_slug: "other-act" }], [{ slug: "stadium-act", name: "Stadium Act" }, { slug: "other-act", name: "Other Act" }], [{ slug: "stadium-act", review_status: "verified" }, { slug: "other-act", review_status: "verified" }]];
+  const order = async (key) => {
+    const seen = [];
+    await run({ provider: "ticketnetwork", artist: "", limit: null, maxApiCalls: null, delayMs: 0, rotationKey: key, apply: false, json: false }, {
+      now: new Date("2026-09-27T00:00:00Z"), data: twoArtists,
+      async fetchCatalog(_c, name) { seen.push(name); return { candidates: [], complete: true, stopReason: "" }; }
+    });
+    return seen;
+  };
+  assert.deepEqual(await order(0), ["Stadium Act", "Other Act"]);
+  assert.deepEqual(await order(1), ["Other Act", "Stadium Act"]);
+  return 78;
 }
 
 async function main() {

@@ -757,9 +757,9 @@ async function main() {
   // A branch with no open pull request is never re-pushed over. Two cases are
   // finished without a human: a branch still sitting exactly at the head of a
   // pull request a human already closed or merged (`settledBranch`), which is
-  // removed under a lease before publishing; and this worker's own validated
-  // push whose pull request was never opened (`resumableBranchDecision`).
-  // Extra commits or a diff outside the boundary still need a human.
+  // removed under a lease and published afresh; and this worker's own validated
+  // push whose pull request was never opened (`resumableBranchDecision`). Extra
+  // commits, a moved tip or a diff outside the boundary still need a human.
   let remoteRef = null;
   try {
     remoteRef = await github("GET", `/git/ref/heads/${plan.branch}`);
@@ -769,41 +769,35 @@ async function main() {
   let leaseSha = null;
   if (remoteRef) {
     const owner = repo.split("/")[0];
-    const pullRequestsFromBranch = await github(
-      "GET",
-      `/pulls?state=all&head=${encodeURIComponent(`${owner}:${plan.branch}`)}&per_page=100`
-    );
-    const settled = settledBranch({ branch: plan.branch, branchSha: remoteRef?.object?.sha, closedPullRequests: pullRequestsFromBranch });
-    if (settled) {
-      leaseSha = settled.sha;
-      say(`\`${plan.branch}\` is left over: ${settled.reason}. It will be removed under a lease pinned to that sha before publishing.`);
-    }
-  }
-  if (remoteRef && !leaseSha) {
-    const owner = repo.split("/")[0];
     const [pullRequestsFromBranch, comparison] = await Promise.all([
       github("GET", `/pulls?state=all&head=${encodeURIComponent(`${owner}:${plan.branch}`)}&per_page=10`),
       github("GET", `/compare/main...${plan.branch}`)
     ]);
-    const decision = resumableBranchDecision({ plan, pullRequestsFromBranch, comparison });
-    if (!decision.resume) {
-      await report(
-        OUTCOMES.NEEDS_HUMAN,
-        `\`${plan.branch}\` already exists on the remote with no open pull request, and it is not safe to resume: ${decision.reason}. A human should look at it and delete it before this repair runs again; re-pushing over it is not something this worker will decide on its own.`
-      );
+    const settled = settledBranch({ branch: plan.branch, branchSha: remoteRef?.object?.sha, closedPullRequests: pullRequestsFromBranch });
+    if (settled) {
+      leaseSha = settled.sha;
+      say(`\`${plan.branch}\` is left over: ${settled.reason}. It will be removed under a lease pinned to that sha before publishing.`);
+    } else {
+      const decision = resumableBranchDecision({ plan, pullRequestsFromBranch, comparison });
+      if (!decision.resume) {
+        await report(
+          OUTCOMES.NEEDS_HUMAN,
+          `\`${plan.branch}\` already exists on the remote with no open pull request, and it is not safe to resume: ${decision.reason}. A human should look at it and delete it before this repair runs again; re-pushing over it is not something this worker will decide on its own.`
+        );
+      }
+      say(`Resuming ${plan.branch}: ${decision.reason}.`);
+      if (DRY_RUN) {
+        finish({ outcome: OUTCOMES.FIXED, reason: "dry run — would open the pull request for the branch an earlier run pushed.", plan });
+      }
+      if (decision.providerSummary) plan.providerSummary = decision.providerSummary;
+      const { title, body } = buildPullRequest({ plan, diff: { changed: decision.changed } });
+      const resumedNote = "An earlier run validated and pushed this repair but could not open its pull request; this run opened it and Prelaunch Validation passed on that exact head. One PR is open for human review.";
+      await publishPullRequest({
+        title,
+        body: `${body}\n\nResumed by a later run: an earlier run validated and pushed this branch but could not open its pull request.`,
+        fixedReason: plan.providerSummary ? `${plan.providerSummary}\n${resumedNote}` : resumedNote
+      });
     }
-    say(`Resuming ${plan.branch}: ${decision.reason}.`);
-    if (DRY_RUN) {
-      finish({ outcome: OUTCOMES.FIXED, reason: "dry run — would open the pull request for the branch an earlier run pushed.", plan });
-    }
-    if (decision.providerSummary) plan.providerSummary = decision.providerSummary;
-    const { title, body } = buildPullRequest({ plan, diff: { changed: decision.changed } });
-    const resumedNote = "An earlier run validated and pushed this repair but could not open its pull request; this run opened it and Prelaunch Validation passed on that exact head. One PR is open for human review.";
-    await publishPullRequest({
-      title,
-      body: `${body}\n\nResumed by a later run: an earlier run validated and pushed this branch but could not open its pull request.`,
-      fixedReason: plan.providerSummary ? `${plan.providerSummary}\n${resumedNote}` : resumedNote
-    });
   }
 
   // ── repair ────────────────────────────────────────────────────────────────

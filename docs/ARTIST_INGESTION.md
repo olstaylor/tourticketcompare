@@ -145,7 +145,9 @@ something needs attention and closes itself when all is clear. Each run:
      (linked for context only: it watches `site-health.yml`, so it never
      fails this check);
    - `automation:prelaunch-validation`: PRs with no passing validation;
-   - open `work-queue` items.
+   - open `work-queue` items (provider URL coverage items are linked for
+     context only: a SeatGeek gap is not a site fault, and a batch SeatGeek
+     never lists would keep this check red for good).
 
 | Finding | First move |
 |---|---|

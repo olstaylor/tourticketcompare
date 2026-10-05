@@ -3535,7 +3535,9 @@ export function renderVenuePageBody(route, events = [], options = {}) {
   const shell = (body) =>
     `<main id="mainContent"><section class="content-page venue-page" aria-labelledby="venueTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="venueTitle">${escapeHtml(venue.venue)} concerts and upcoming shows</h1>${body}${renderLocationProvenance(
+    )}<h1 id="venueTitle">${escapeHtml(
+      venue.sharedName && venue.city ? `${venue.venue}, ${venue.city}` : venue.venue
+    )} concerts and upcoming shows</h1>${body}${renderLocationProvenance(
       "Report an incorrect event",
       venue.lastmod
     )}</section></main>`;

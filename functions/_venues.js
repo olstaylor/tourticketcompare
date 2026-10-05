@@ -135,6 +135,17 @@ function deriveVenuesUncached(events, options = {}) {
     venues.push({ ...record, indexable: gate.indexable, exclusionReasons: gate.reasons });
   }
 
+  // Two cities can each have a venue with the same name (Paramount Theatre in
+  // Seattle and Denver). Flag them so the page H1 can name the city, otherwise
+  // the pages share a heading and test:mvp's duplicate-H1 audit fails the
+  // ingestion lane that added the second one.
+  const nameCounts = new Map();
+  for (const venue of venues) {
+    const key = venue.venue.toLowerCase();
+    nameCounts.set(key, (nameCounts.get(key) || 0) + 1);
+  }
+  for (const venue of venues) venue.sharedName = nameCounts.get(venue.venue.toLowerCase()) > 1;
+
   venues.sort(
     (a, b) => b.showCount - a.showCount || a.venue.localeCompare(b.venue) || a.slug.localeCompare(b.slug)
   );

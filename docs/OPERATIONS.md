@@ -436,6 +436,8 @@ Infrastructure/automation issues only — dated, short, actionable. Content and 
 
 One line each; the full write-ups are in git history (`git log -p -- docs/OPERATIONS.md`).
 
+- Auto-promote failed `test:mvp` on a duplicate venue H1 when a promoted artist added a second "Paramount Theatre" (Denver, beside Seattle); a venue name used in more than one city now carries the city in its H1 (resolved 2026-10-05).
+- Site health stayed red on open SeatGeek provider URL coverage items, which can stay open for good; they are now linked for context, not gating (resolved 2026-10-05).
 - Site health latched itself red through its own work-queue item (resolved 2026-09-28).
 - Late-started lanes branched from a `main` that was about to move, and their PRs conflicted (resolved 2026-09-28).
 - A freshly minted App token is briefly refused by git, and the losing lane published nothing (resolved 2026-09-22).

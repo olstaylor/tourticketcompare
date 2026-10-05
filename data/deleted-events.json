@@ -98,6 +98,110 @@
       "local_date": "2027-05-16",
       "reason": "Ticketmaster hospitality add-on listing (\"Hilary Duff: the lucky me tour | be•at Premium Bistronomy Experience\" at Legacy Lounge), not the concert itself; the concert row (777103846) is kept. The recogniser now withholds \"<concert name> | …\" add-ons with add_on_listing. Removed in the pre-pilot event integrity cleanup.",
       "deleted_at": "2026-09-27"
+    },
+    {
+      "artist_slug": "olivia-rodrigo",
+      "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vqafzjg",
+      "ticketmaster_discovery_event_id": "Z698xZbpZ16eeK73Fx",
+      "ticketmaster_event_id": "1685500735",
+      "reason": "Ticketmaster venue-premium upgrade listing (\"Olivia Rodrigo | Venue Premium Packages\" at Ziggo Dome Club; the storefront URL reads \"vinyl room upgrade, event ticket not included\"), not a concert date. It rendered as a tour night on the artist page. Tombstoned by Ticketmaster id only (no venue/date key) so the real concert at the same venue and night can still be ingested. Removed with owner approval after the 2026-10-03 data audit.",
+      "deleted_at": "2026-10-05"
+    },
+    {
+      "artist_slug": "olivia-rodrigo",
+      "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vgjp_pe",
+      "ticketmaster_discovery_event_id": "Z698xZbpZ16vAOfwGx",
+      "ticketmaster_event_id": "1326599942",
+      "reason": "Ticketmaster venue-premium upgrade listing (\"Olivia Rodrigo | Venue Premium Packages\" at Ziggo Dome Club; the storefront URL reads \"vinyl room upgrade, event ticket not included\"), not a concert date. It rendered as a tour night on the artist page. Tombstoned by Ticketmaster id only (no venue/date key) so the real concert at the same venue and night can still be ingested. Removed with owner approval after the 2026-10-03 data audit.",
+      "deleted_at": "2026-10-05"
+    },
+    {
+      "artist_slug": "olivia-rodrigo",
+      "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v-bo4pa",
+      "ticketmaster_discovery_event_id": "Z698xZbpZ1krKo_rd",
+      "ticketmaster_event_id": "1858815589",
+      "reason": "Ticketmaster venue-premium upgrade listing (\"Olivia Rodrigo | Venue Premium Packages\" at Ziggo Dome Club; the storefront URL reads \"vinyl room upgrade, event ticket not included\"), not a concert date. It rendered as a tour night on the artist page. Tombstoned by Ticketmaster id only (no venue/date key) so the real concert at the same venue and night can still be ingested. Removed with owner approval after the 2026-10-03 data audit.",
+      "deleted_at": "2026-10-05"
+    },
+    {
+      "artist_slug": "olivia-rodrigo",
+      "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kpn0tog",
+      "ticketmaster_discovery_event_id": "Z698xZbpZ16vb_GPZo",
+      "ticketmaster_event_id": "963929835",
+      "reason": "Ticketmaster venue-premium upgrade listing (\"Olivia Rodrigo | Venue Premium Packages\" at Ziggo Dome Club; the storefront URL reads \"vinyl room upgrade, event ticket not included\"), not a concert date. It rendered as a tour night on the artist page. Tombstoned by Ticketmaster id only (no venue/date key) so the real concert at the same venue and night can still be ingested. Removed with owner approval after the 2026-10-03 data audit.",
+      "deleted_at": "2026-10-05"
+    },
+    {
+      "artist_slug": "niall-horan",
+      "id": "tm-niall-horan-2026-hamburg-z698xzc2z16v40up_b",
+      "ticketmaster_discovery_event_id": "Z698xZC2Z16v40up_b",
+      "ticketmaster_event_id": "1564356658",
+      "reason": "Ticketmaster box-seat listing (\"Niall Horan: Dinner Party Live On Tour | Logen-Seat\" at Barclays Arena), not the concert listing itself. Tombstoned by Ticketmaster id only (no venue/date key) so the real concert at the same venue and night can still be ingested. Removed with owner approval after the 2026-10-03 data audit.",
+      "deleted_at": "2026-10-05"
+    },
+    {
+      "artist_slug": "latto",
+      "id": "tm-latto-2026-petersburg-vv1avzkfkgkej6frv",
+      "ticketmaster_discovery_event_id": "vv1AvZkfkGkeJ6fRV",
+      "ticketmaster_event_id": "01006506A61D4BF4",
+      "reason": "Ticketmaster suite listing (\"VSU Homecoming Concert Suite 2026\" at VSU Multi-Purpose Center) for a university homecoming event, not an artist concert listing. Tombstoned by Ticketmaster id only (no venue/date key) so the real concert at the same venue and night can still be ingested. Removed with owner approval after the 2026-10-03 data audit.",
+      "deleted_at": "2026-10-05"
+    },
+    {
+      "artist_slug": "niall-horan",
+      "id": "tm-niall-horan-2026-berlin-z698xzc2z16eekfyqa",
+      "ticketmaster_discovery_event_id": "Z698xZC2Z16eekFYQa",
+      "ticketmaster_event_id": "2086230689",
+      "reason": "Ticketmaster box-seat listing (\"Niall Horan: Dinner Party Live On Tour | Box seat\" at Uber Arena), not the concert listing itself. Tombstoned by Ticketmaster id only (no venue/date key) so the real concert at the same venue and night can still be ingested. Removed with owner approval after the 2026-10-03 data audit.",
+      "deleted_at": "2026-10-05"
+    },
+    {
+      "artist_slug": "teddy-swims",
+      "id": "tm-teddy-swims-2027-hamburg-z698xzc2z16v7i-zc9",
+      "ticketmaster_discovery_event_id": "Z698xZC2Z16v7I-zC9",
+      "ticketmaster_event_id": "1128878397",
+      "reason": "Ticketmaster box-seat listing (\"Teddy Swims - The UGLY Tour | Box-Seat\" at Barclays Arena), not the concert listing itself. Tombstoned by Ticketmaster id only (no venue/date key) so the real concert at the same venue and night can still be ingested. Removed with owner approval after the 2026-10-03 data audit.",
+      "deleted_at": "2026-10-05"
+    },
+    {
+      "artist_slug": "five-finger-death-punch",
+      "id": "tm-five-finger-death-punch-2027-hamburg-z698xzc2z16vad3p4g",
+      "ticketmaster_discovery_event_id": "Z698xZC2Z16vAd3p4g",
+      "ticketmaster_event_id": "1143496575",
+      "reason": "Ticketmaster box-seat listing (\"Five Finger Death Punch | Box seat in the Ticketmaster Suite\" at Barclays Arena), not the concert listing itself. Tombstoned by Ticketmaster id only (no venue/date key) so the real concert at the same venue and night can still be ingested. Removed with owner approval after the 2026-10-03 data audit.",
+      "deleted_at": "2026-10-05"
+    },
+    {
+      "artist_slug": "don-omar",
+      "id": "tm-don-omar-2027-berlin-z698xzc2z16v4ogoca",
+      "ticketmaster_discovery_event_id": "Z698xZC2Z16v4oGoCA",
+      "ticketmaster_event_id": "1551311385",
+      "reason": "Ticketmaster box-seat listing (\"Don Omar - The Last King World To | Box seat in the Ticketmaster Suite\" at Uber Arena), not the concert listing itself. Tombstoned by Ticketmaster id only (no venue/date key) so the real concert at the same venue and night can still be ingested. Removed with owner approval after the 2026-10-03 data audit.",
+      "deleted_at": "2026-10-05"
+    },
+    {
+      "artist_slug": "sabaton",
+      "id": "tm-sabaton-2027-hamburg-z698xzc2z16vakvyjp",
+      "ticketmaster_discovery_event_id": "Z698xZC2Z16vAkvyJp",
+      "ticketmaster_event_id": "1146079996",
+      "reason": "Ticketmaster box-seat listing (\"SABATON: The Legendary Tour Part 2 | Logen-Seat\" at Barclays Arena), not the concert listing itself. Tombstoned by Ticketmaster id only (no venue/date key) so the real concert at the same venue and night can still be ingested. Removed with owner approval after the 2026-10-03 data audit.",
+      "deleted_at": "2026-10-05"
+    },
+    {
+      "artist_slug": "the-warning",
+      "id": "tm-the-warning-2027-london-1adjz_3gkbnrnkt",
+      "ticketmaster_discovery_event_id": "1AdjZ_3GkBnrNkt",
+      "ticketmaster_event_id": "3700652EAA7A31A9",
+      "reason": "Ticketmaster venue-premium hospitality listing (\"The Warning - Venue Premium Tickets\" at OVO Arena Wembley), not the concert listing itself. Tombstoned by Ticketmaster id only (no venue/date key) so the real concert at the same venue and night can still be ingested. Removed with owner approval after the 2026-10-03 data audit.",
+      "deleted_at": "2026-10-05"
+    },
+    {
+      "artist_slug": "latto",
+      "id": "tm-latto-2026-chicago-vv1a7zkfvgkdplqxd",
+      "ticketmaster_discovery_event_id": "vv1A7ZkfvGkdpLqxD",
+      "ticketmaster_event_id": "04006501D67DD8BB",
+      "reason": "Ticketmaster VIP upgrade listing (\"Latto VIP Upgrade (Event Ticket Not Included)\" at United Center), not a concert date. It rendered as the artist's next show. Tombstoned by Ticketmaster id only (no venue/date key) so the real concert at the same venue and night can still be ingested. Removed with owner approval after the 2026-10-03 data audit.",
+      "deleted_at": "2026-10-05"
     }
   ]
 }

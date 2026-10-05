@@ -1486,7 +1486,7 @@
     "ticketmaster_event_id": "1112262957",
     "ticketmaster_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1112262957?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-4-2026/production/6828116",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/shakira-las-mujeres-ya-no-lloran-residencia-europea-tickets/1112262957?language=en-us",
     "last_verified_at": "2026-07-07",
@@ -1507,11 +1507,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6828116,
-        "url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-4-2026/production/6828116",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1616,7 +1616,7 @@
         "event_id": 6837757,
         "url": "https://www.vividseats.com/shakira-tickets-madrid-estadio-shakira-10-10-2026/production/6837757",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -79,7 +79,6 @@ export const OG_CARDS = {
   "/artists/don-omar": {"url":"/og/artists-don-omar.png","alt":"Tickets & tour dates: Don Omar"},
   "/artists/don-omar/ticket-prices": {"url":"/og/artists-don-omar-ticket-prices.png","alt":"Ticket prices: Don Omar"},
   "/artists/don-omar/tickets/inglewood-united-states": {"url":"/og/artists-don-omar-tickets-inglewood-united-states.png","alt":"Tickets: Don Omar in Inglewood"},
-  "/artists/don-omar/tickets/miami-united-states": {"url":"/og/artists-don-omar-tickets-miami-united-states.png","alt":"Tickets: Don Omar in Miami"},
   "/artists/don-omar/tickets/newark-united-states": {"url":"/og/artists-don-omar-tickets-newark-united-states.png","alt":"Tickets: Don Omar in Newark"},
   "/artists/don-omar/tickets/rosemont-united-states": {"url":"/og/artists-don-omar-tickets-rosemont-united-states.png","alt":"Tickets: Don Omar in Rosemont"},
   "/artists/dylan-scott": {"url":"/og/artists-dylan-scott.png","alt":"Tickets & tour dates: Dylan Scott"},

@@ -774,7 +774,7 @@ comparison window below has been measured.
 | 2026-09-30 | Sitemap drops `changefreq`/`priority`; longer event meta description; guide answer and linking changes |
 | 2026-10-02 | Tour name in artist titles, bands as `MusicGroup`; filler copy cut on artist, artist-city, city and venue; four buying guides; `llms.txt` artist facts and IndexNow; nine price guides approved |
 | 2026-10-03 | 62 more price guides (72 indexable) |
-| 2026-10-05 | Comparison-data and one-canonical rules above: indexable artist-city 202 → 143, city 117 → 89, venue 231 → 176 (site 777 → 635). "Compare Prices" dropped from artist and artist-city titles and descriptions where no date has two price lanes. `MusicEvent.name` is "<artist> at <venue>" where Ticketmaster's event name does not name the artist. `npm run audit:metadata-accuracy:check` added to CI |
+| 2026-10-05 | Comparison-data and one-canonical rules above: indexable artist-city 201 → 143, city 117 → 89, venue 231 → 176 (site 776 → 635). "Compare Prices" dropped from artist and artist-city titles and descriptions where no date has two price lanes. `MusicEvent.name` is "<artist> at <venue>" where Ticketmaster's event name does not name the artist. `npm run audit:metadata-accuracy:check` added to CI |
 
 ### Expected decay vs structural regression
 

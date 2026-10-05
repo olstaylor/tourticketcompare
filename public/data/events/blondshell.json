@@ -354,7 +354,7 @@
     "ticketmaster_event_id": "11006538816C4514",
     "ticketmaster_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/blondshell-tickets-vancouver-commodore-ballroom-3-6-2027/production/7625188",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
     "last_verified_at": null,
@@ -376,11 +376,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7625188,
+        "url": "https://www.vividseats.com/blondshell-tickets-vancouver-commodore-ballroom-3-6-2027/production/7625188",
+        "verified": true,
+        "last_verified_at": "2026-10-04",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -388,11 +388,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295784",
+        "url": "https://www.ticketnetwork.com/en/p/8295784",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295784",
+        "url": "https://www.ticketliquidator.com/tickets/8295784/Blondshell-tickets-Sat-Mar-6-2027-Commodore-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16oZkfzOpZAuAkeA",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295784",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295784/Blondshell-tickets-Sat-Mar-6-2027-Commodore-Ballroom"
   },
   {
     "id": "tm-blondshell-2027-asbury-park-k7vgf_knjlgim",
@@ -407,7 +423,7 @@
     "ticketmaster_event_id": "00006538E67CCB2E",
     "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-asbury-park-new-jersey-03-23-2027/event/00006538E67CCB2E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/blondshell-tickets-asbury-park-stone-pony-3-23-2027/production/7625132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-asbury-park-new-jersey-03-23-2027/event/00006538E67CCB2E",
     "last_verified_at": null,
@@ -429,11 +445,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7625132,
+        "url": "https://www.vividseats.com/blondshell-tickets-asbury-park-stone-pony-3-23-2027/production/7625132",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -460,7 +476,7 @@
     "ticketmaster_event_id": "070065399B2D42BD",
     "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-madison-wisconsin-05-15-2027/event/070065399B2D42BD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/blondshell-tickets-madison-majestic-theatre---madison-5-15-2027/production/7626132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-madison-wisconsin-05-15-2027/event/070065399B2D42BD",
     "last_verified_at": null,
@@ -482,11 +498,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7626132,
+        "url": "https://www.vividseats.com/blondshell-tickets-madison-majestic-theatre---madison-5-15-2027/production/7626132",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -494,11 +510,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295778",
+        "url": "https://www.ticketnetwork.com/en/p/8295778",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295778",
+        "url": "https://www.ticketliquidator.com/tickets/8295778/Blondshell-tickets-Sat-May-15-2027-Majestic-Theatre-Madison",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvYvPC_GA55f1W",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295778",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295778/Blondshell-tickets-Sat-May-15-2027-Majestic-Theatre-Madison"
   },
   {
     "id": "tm-blondshell-2027-detroit-vv1afzkfmgkdgjzny",

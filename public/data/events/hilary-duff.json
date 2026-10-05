@@ -705,7 +705,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-madrid-movistar-arena---madrid-5-7-2027--concerts-pop/production/7599724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/hilary-duff-the-lucky-me-tour-tickets/1960579669?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -747,8 +747,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vPO4y_t",
     "timezone": "Europe/Madrid",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T08:00:00Z",
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-madrid-movistar-arena-palacio-de-los-deportes-7-5-2027/event/107668996"
   },
   {
@@ -767,7 +766,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/hilary-duff-the-lucky-me-tour-milano-10-05-2027/event/segp4wi4du5m",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -802,8 +801,7 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZ776e",
     "timezone": "Europe/Rome",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T08:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-hilary-duff-2027-forest-brussels-z698xzg2z1kqm7d-k",
@@ -821,7 +819,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/hilary-duff-the-lucky-me-tour-tickets/777103846",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -856,8 +854,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kqM7d-k",
     "timezone": "Europe/Brussels",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T08:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-hilary-duff-2027-amsterdam-z698xzbpz1k3djpek",
@@ -867,7 +864,7 @@
     "city": "Amsterdam",
     "country": "Netherlands",
     "venue": "Ziggo Dome",
-    "datetime_iso": "2027-05-17T18:00:00Z",
+    "datetime_iso": "2027-05-17T17:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "483716086",
     "ticketmaster_url": "https://www.ticketmaster.nl/event/hilary-duff-the-lucky-me-tour-tickets/483716086?language=en-us",
@@ -875,7 +872,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/hilary-duff-the-lucky-me-tour-tickets/483716086?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -917,8 +914,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k3djpek",
     "timezone": "Europe/Amsterdam",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T08:00:00Z",
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-amsterdam-ziggo-dome-17-5-2027/event/107668998"
   },
   {
@@ -937,7 +933,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-orlando-kia-center-10-2-2027--concerts-pop/production/7599663",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-orlando-florida-10-02-2027/event/22006536FD2084B0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -993,8 +989,7 @@
     },
     "ticketmaster_discovery_event_id": "1AxZkfUGkdWFF3Y",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284544/Hilary-Duff-tickets-Sat-Oct-2-2027-Kia-Center",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284544",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-orlando-tickets-10-2-2027/event/107669005"
@@ -1015,7 +1010,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-raleigh-lenovo-center-10-4-2027--concerts-pop/production/7599665",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-raleigh-north-carolina-10-04-2027/event/2D0065359DD47ADC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1071,8 +1066,7 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kpqg6lj",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284585/Hilary-Duff-tickets-Mon-Oct-4-2027-Lenovo-Center",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284585",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-raleigh-tickets-10-4-2027/event/107669009"
@@ -1093,7 +1087,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-baltimore-cfg-bank-arena-10-6-2027--concerts-pop/production/7599667",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-baltimore-maryland-10-06-2027/event/15006532BF12D227",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1149,8 +1143,7 @@
     },
     "ticketmaster_discovery_event_id": "1A4ZkfwGkeT7cFE",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284545/Hilary-Duff-tickets-Wed-Oct-6-2027-CFG-Bank-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284545",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-baltimore-tickets-10-6-2027/event/107669006"
@@ -1171,7 +1164,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-uncasville-mohegan-sun-arena-ct-10-8-2027--concerts-pop/production/7599671",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-uncasville-connecticut-10-08-2027/event/1D006532FBCAA9B8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1227,8 +1220,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vVZ_K5DwnJz",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284546/Hilary-Duff-tickets-Fri-Oct-8-2027-Mohegan-Sun-Arena-CT",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284546",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-uncasville-tickets-10-8-2027/event/107670000"
@@ -1249,7 +1241,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-hershey-pennsylvania-10-09-2027/event/02006536AE949926",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1305,8 +1297,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfUGkemPa0J",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284547/Hilary-Duff-tickets-Sat-Oct-9-2027-Giant-Center",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284547",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-hershey-tickets-10-9-2027/event/107670001"
@@ -1327,7 +1318,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-buffalo-new-york-10-11-2027/event/00006535EB611B10",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1383,8 +1374,7 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_K9lboi8",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284548/Hilary-Duff-tickets-Mon-Oct-11-2027-KeyBank-Center",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284548",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-buffalo-tickets-10-11-2027/event/107669008"
@@ -1405,7 +1395,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-columbus-value-city-arena-at-schottenstein-center-10-15-2027--concerts-pop/production/7599679",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-columbus-ohio-10-15-2027/event/050065350AB1F627",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1461,8 +1451,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1kv8vPu8GA1iLbE",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284550/Hilary-Duff-tickets-Fri-Oct-15-2027-Value-City-Arena-at-The-Schottenstein-Center",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284550",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-columbus-tickets-10-15-2027/event/107669996"
@@ -1483,7 +1472,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-pittsburgh-ppg-paints-arena-10-16-2027--concerts-pop/production/7599690",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-pittsburgh-pennsylvania-10-16-2027/event/16006531DA59D328",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1539,8 +1528,7 @@
     },
     "ticketmaster_discovery_event_id": "1ApZkfsGkdQpqGI",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284583/Hilary-Duff-tickets-Sat-Oct-16-2027-PPG-Paints-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284583",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-pittsburgh-tickets-10-16-2027/event/107669007"
@@ -1561,7 +1549,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-san-antonio-texas-11-05-2027/event/3A006536D07CE1F1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1617,8 +1605,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_Kh8LC6s",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284551/Hilary-Duff-tickets-Fri-Nov-5-2027-Frost-Bank-Center",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284551",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-san-antonio-tickets-11-5-2027/event/107669998"
@@ -1639,7 +1626,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-fort-worth-dickies-arena-11-6-2027--concerts-pop/production/7599704",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-fort-worth-texas-11-06-2027/event/0C00652AE5AD2E75",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1695,8 +1682,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3lPl3yg",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284554/Hilary-Duff-tickets-Sat-Nov-6-2027-Dickies-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284554",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-fort-worth-tickets-11-6-2027/event/107669002"
@@ -1717,7 +1703,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-tulsa-bok-center-11-8-2027--concerts-pop/production/7599706",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-tulsa-oklahoma-11-08-2027/event/20006535C7C037E7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1773,8 +1759,7 @@
     },
     "ticketmaster_discovery_event_id": "1AOZkfgGkd6YdLE",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284555/Hilary-Duff-tickets-Mon-Nov-8-2027-BOK-Center",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284555",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tulsa-tickets-11-8-2027/event/107669997"
@@ -1795,7 +1780,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-omaha-chi-health-center-omaha-11-10-2027--concerts-pop/production/7599708",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-omaha-nebraska-11-10-2027/event/06006535EB9E9C11",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1844,8 +1829,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfgGkdlEtYo",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284567/Hilary-Duff-tickets-Wed-Nov-10-2027-CHI-Health-Center-Omaha",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284567"
   },
@@ -1865,7 +1849,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-milwaukee-fiserv-forum-11-12-2027--concerts-pop/production/7599710",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-milwaukee-wisconsin-11-12-2027/event/07006535EF0E6E27",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1921,8 +1905,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfgGkdRdJzE",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284568/Hilary-Duff-tickets-Fri-Nov-12-2027-Fiserv-Forum",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284568",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-milwaukee-tickets-11-12-2027/event/107669010"
@@ -1943,7 +1926,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-kansas-city-t-mobile-center-11-15-2027--concerts-pop/production/7599714",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-kansas-city-missouri-11-15-2027/event/060065360A7C997E",
-    "last_verified_at": "2026-09-25",
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1999,8 +1982,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPuOGA1LaPX",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284570/Hilary-Duff-tickets-Mon-Nov-15-2027-T-Mobile-Center",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284570",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-kansas-city-tickets-11-15-2027/event/107670007"
@@ -2021,7 +2003,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-denver-ball-arena-11-17-2027--concerts-pop/production/7599716",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-denver-colorado-11-17-2027/event/1E006531AF598E79",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2077,8 +2059,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KkRpbyy",
     "timezone": "America/Denver",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T16:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284571/Hilary-Duff-tickets-Wed-Nov-17-2027-Ball-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284571",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-denver-tickets-11-17-2027/event/107669020"
@@ -2099,7 +2080,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-anaheim-honda-center-11-20-2027--concerts-pop/production/7599718",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-20-2027/event/0900653698966358",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2155,8 +2136,7 @@
     },
     "ticketmaster_discovery_event_id": "vv110Z_KQbPJub",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284572/Hilary-Duff-tickets-Sat-Nov-20-2027-Honda-Center",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284572",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-anaheim-tickets-11-20-2027/event/107670011"
@@ -2174,7 +2154,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeve7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeve7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-sunrise-amerant-bank-arena-10-1-2027--concerts-pop/production/7599601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeve7",
     "last_verified_at": null,
@@ -2196,11 +2176,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7599601,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-sunrise-amerant-bank-arena-10-1-2027--concerts-pop/production/7599601",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2208,11 +2188,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284543",
+        "url": "https://www.ticketnetwork.com/en/p/8284543",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284543",
+        "url": "https://www.ticketliquidator.com/tickets/8284543/Hilary-Duff-tickets-Fri-Oct-1-2027-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669003",
+        "url": "https://www.stubhub.ie/hilary-duff-sunrise-tickets-10-1-2027/event/107669003",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeve7",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284543",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284543/Hilary-Duff-tickets-Fri-Oct-1-2027-Amerant-Bank-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-sunrise-tickets-10-1-2027/event/107669003"
   },
   {
     "id": "tm-hilary-duff-2027-cleveland-z7r9jz1aaevea",
@@ -2261,11 +2265,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284549",
+        "url": "https://www.ticketnetwork.com/en/p/8284549",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284549",
+        "url": "https://www.ticketliquidator.com/tickets/8284549/Hilary-Duff-tickets-Wed-Oct-13-2027-Rocket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669004",
+        "url": "https://www.stubhub.ie/hilary-duff-cleveland-tickets-10-13-2027/event/107669004",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeveA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284549",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284549/Hilary-Duff-tickets-Wed-Oct-13-2027-Rocket-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-cleveland-tickets-10-13-2027/event/107669004"
   },
   {
     "id": "tm-hilary-duff-2027-des-moines-z7r9jz1aaevep",
@@ -2314,11 +2342,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284569",
+        "url": "https://www.ticketnetwork.com/en/p/8284569",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284569",
+        "url": "https://www.ticketliquidator.com/tickets/8284569/Hilary-Duff-tickets-Sun-Nov-14-2027-Caseys-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669019",
+        "url": "https://www.stubhub.ie/hilary-duff-des-moines-tickets-11-14-2027/event/107669019",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAevep",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284569",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284569/Hilary-Duff-tickets-Sun-Nov-14-2027-Caseys-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-des-moines-tickets-11-14-2027/event/107669019"
   },
   {
     "id": "tm-hilary-duff-2027-anaheim-vv170z_kgkrlzqwi",
@@ -2333,7 +2385,7 @@
     "ticketmaster_event_id": "0900653BDF01AF68",
     "ticketmaster_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-21-2027/event/0900653BDF01AF68",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-anaheim-honda-center-11-21-2027/production/7628085",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-21-2027/event/0900653BDF01AF68",
     "last_verified_at": null,
@@ -2355,11 +2407,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7628085,
+        "url": "https://www.vividseats.com/hilary-duff-tickets-anaheim-honda-center-11-21-2027/production/7628085",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2367,10 +2419,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8301234",
+        "url": "https://www.ticketnetwork.com/en/p/8301234",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301234",
+        "url": "https://www.ticketliquidator.com/tickets/8301234/Hilary-Duff-tickets-Sun-Nov-21-2027-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_KGkRLZQWI",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301234",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301234/Hilary-Duff-tickets-Sun-Nov-21-2027-Honda-Center"
   }
 ]

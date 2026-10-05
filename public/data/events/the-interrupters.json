@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-tempe-marquee-theatre-3-19-2027--concerts-rock/production/7592422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-tempe-arizona-03-19-2027/event/1900652992F7671A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -57,15 +57,14 @@
     },
     "ticketmaster_discovery_event_id": "16v0Z_3J3G7WUjQ",
     "timezone": "America/Phoenix",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284358"
   },
   {
     "id": "tm-the-interrupters-2027-dallas-vvg1yz_k69fczg",
     "artist_slug": "the-interrupters",
     "artist_name": "The Interrupters",
-    "event_name": "The Interrupters",
+    "event_name": "ALT 103.7 Presents The Interrupters",
     "city": "Dallas",
     "country": "United States Of America",
     "venue": "House of Blues Dallas",
@@ -77,7 +76,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-dallas-house-of-blues-dallas-3-23-2027--concerts-rock/production/7592424",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-dallas-texas-03-23-2027/event/0C006531D750EE0C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1215,7 +1214,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-salt-lake-city-the-union-event-center---salt-lake-city-4-24-2027--concerts-rock/production/7592476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-salt-lake-city-utah-04-24-2027/event/1E00652AB1E58D81",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1257,8 +1256,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3nsybUv",
     "timezone": "America/Denver",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T16:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284381"
   },
   {
@@ -1277,7 +1275,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-los-angeles-the-wiltern-4-30-2027--concerts-rock/production/7592478",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-los-angeles-california-04-30-2027/event/090065318DFF5BCC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1319,8 +1317,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1ke8vPGbGAuTgRG",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284386"
   },
   {
@@ -1339,7 +1336,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-anaheim-house-of-blues-anaheim-5-2-2027--concerts-rock/production/7592480",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-anaheim-california-05-02-2027/event/090065312496E753",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1388,8 +1385,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1Fe8vPG33pZ72Fk7",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-09-25T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284387",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284387/The-Interrupters-tickets-Sun-May-2-2027-House-Of-Blues-Anaheim"
   }

@@ -202,33 +202,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7874848",
-        "url": "https://www.ticketnetwork.com/en/p/7874848",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107155465",
-        "url": "https://www.stubhub.ie/sombr-portland-tickets-10-2-2026/event/107155465",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7874848",
-        "url": "https://www.ticketliquidator.com/tickets/7874848/sombr-tickets-Fri-Oct-2-2026-Moda-Center-at-the-Rose-Quarter",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_FLJtDXU",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874848",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-portland-tickets-10-2-2026/event/107155465",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874848/sombr-tickets-Fri-Oct-2-2026-Moda-Center-at-the-Rose-Quarter"
+    "ticketnetwork_url": "",
+    "stubhub_international_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-sombr-2026-sacramento-g5vyz_fli21bj",
@@ -545,7 +545,7 @@
         "event_id": 18175618,
         "url": "https://seatgeek.com/sombr-tickets/san-diego-california-pechanga-arena-san-diego-2026-10-13-7-pm/concert/18175618",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -614,7 +614,7 @@
         "event_id": 18175621,
         "url": "https://seatgeek.com/sombr-tickets/glendale-arizona-desert-diamond-arena-2026-10-14-7-pm/concert/18175621",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -691,7 +691,7 @@
         "event_id": 18175623,
         "url": "https://seatgeek.com/sombr-tickets/oklahoma-city-oklahoma-paycom-center-2026-10-16-7-pm/concert/18175623",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -760,7 +760,7 @@
         "event_id": 18175625,
         "url": "https://seatgeek.com/sombr-tickets/houston-texas-toyota-center-2026-10-17-7-pm/concert/18175625",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1060,7 +1060,7 @@
         "event_id": 18164919,
         "url": "https://seatgeek.com/sombr-tickets/sunrise-florida-amerant-bank-arena-2026-10-24-7-pm/concert/18164919",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2050,7 +2050,7 @@
         "event_id": 18157641,
         "url": "https://seatgeek.com/sombr-tickets/cleveland-ohio-rocket-arena-2026-11-13-7-30-pm/concert/18157641",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {

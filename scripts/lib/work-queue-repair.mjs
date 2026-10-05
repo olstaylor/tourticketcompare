@@ -324,6 +324,118 @@ export function existingRepair({ plan, openPullRequests = [] }) {
   return null;
 }
 
+/**
+ * A failed GitHub API call worth retrying: no HTTP response at all (undici's
+ * "fetch failed", a reset, a DNS or socket error) or a 5xx. Any 4xx is a
+ * verdict and is never retried.
+ */
+export function isTransientApiError(error) {
+  const message = String(error?.message ?? error ?? "");
+  const status = message.match(/^GitHub API \S+ \S+ (\d{3}):/)?.[1];
+  if (status) return Number(status) >= 500;
+  return /fetch failed|network|socket|ECONNRESET|ECONNREFUSED|ETIMEDOUT|EAI_AGAIN|UND_ERR/i.test(message);
+}
+
+/**
+ * Open the pull request, retrying only transient failures. On 2026-10-03 a
+ * single `fetch failed` on POST /pulls left a validated, pushed branch with no
+ * pull request, and the next run would have refused to touch it. A POST whose
+ * response was lost may still have created the pull request, and a 422 may
+ * mean one already exists, so every failure first looks for an open pull
+ * request from the branch before retrying or giving up.
+ */
+export async function openPullRequestWithRetry({
+  open,
+  findOpen,
+  attempts = 4,
+  baseDelayMs = 2000,
+  sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms)),
+  log = () => {}
+}) {
+  let delay = baseDelayMs;
+  for (let attempt = 1; ; attempt += 1) {
+    try {
+      return await open();
+    } catch (error) {
+      let existing = null;
+      try {
+        existing = await findOpen();
+      } catch {
+        // Best effort: a failed lookup falls through to the retry decision.
+      }
+      if (existing) return existing;
+      if (!isTransientApiError(error) || attempt >= attempts) throw error;
+      log(`Opening the pull request failed (${error.message}); retrying in ${delay / 1000}s (attempt ${attempt + 1} of ${attempts}).`);
+      await sleep(delay);
+      delay *= 2;
+    }
+  }
+}
+
+/**
+ * The derived branch exists but no pull request is open from it. Exactly one
+ * case is safe to finish without a human: this worker pushed its validated
+ * commit and then failed to open the pull request. That branch is precisely
+ * one commit ahead of main, the commit carries this plan's title (the worker
+ * only pushes after every in-job validation passed), its diff stays inside the
+ * plan's declared paths, and no pull request was ever opened from it. Anything
+ * else — a pull request that was closed or merged, extra commits, a diff
+ * outside the boundary — stays a human decision.
+ *
+ * `comparison` is the GitHub compare API response for main...branch.
+ */
+// The compare API lists at most this many changed files and truncates silently.
+export const COMPARE_FILE_LIMIT = 300;
+
+/**
+ * A provider repair's commit carries the verifier's summary after its
+ * `Refs #N.` line (verified/unresolved counts and every unresolved event with
+ * its reason), the only record of it once the run that made it has ended.
+ */
+export function providerSummaryFromCommit(message, plan) {
+  const marker = `\nRefs #${plan.issueNumber}.\n`;
+  const at = String(message || "").indexOf(marker);
+  if (at < 0) return null;
+  const summary = String(message).slice(at + marker.length).trim();
+  return /^\d+\/\d+ event URLs verified\. \d+ unresolved\./.test(summary) ? summary : null;
+}
+
+export function resumableBranchDecision({ plan, pullRequestsFromBranch = [], comparison }) {
+  const keep = (reason) => ({ resume: false, reason });
+  const earlier = pullRequestsFromBranch[0];
+  if (earlier) {
+    return keep(`pull request #${earlier.number} was already opened from it (${earlier.merged_at ? "merged" : earlier.state})`);
+  }
+  const commits = comparison?.commits || [];
+  if (comparison?.ahead_by !== 1 || commits.length !== 1) {
+    return keep(`it is ${comparison?.ahead_by ?? "an unknown number of"} commit(s) ahead of main, not this worker's single repair commit`);
+  }
+  const message = String(commits[0]?.commit?.message || "");
+  const subject = message.split("\n")[0];
+  if (subject !== pullRequestTitleFor(plan)) return keep(`its commit "${subject}" is not this repair's commit`);
+  // A full file list is the only way to prove the boundary, so a list the API
+  // may have cut short (an OG rebuild can touch hundreds of cards) fails closed.
+  const files = comparison.files || [];
+  if (files.length >= COMPARE_FILE_LIMIT) {
+    return keep(`its diff lists ${files.length} files, and the compare API truncates at ${COMPARE_FILE_LIMIT}, so the boundary cannot be checked in full`);
+  }
+  const diff = classifyDiff(files.map((file) => file.filename), plan);
+  if (!diff.ok) return keep(`its diff leaves the declared paths (${[...diff.unexpected, ...diff.protectedHits].join(", ") || "no changes"})`);
+  // A provider batch's pull request must list every unresolved event, and only
+  // the commit still holds that list.
+  let providerSummary = null;
+  if (plan.type === PROVIDER_URL_TYPE) {
+    providerSummary = providerSummaryFromCommit(message, plan);
+    if (!providerSummary) return keep("its commit does not carry the verifier's summary, so the unresolved events cannot be listed");
+  }
+  return {
+    resume: true,
+    reason: "this worker pushed its validated commit to it, but the pull request was never opened",
+    changed: diff.changed,
+    providerSummary
+  };
+}
+
 /** Is a changed path inside one of the artefacts the entry declares? */
 export const withinDeclaredPaths = (changed, declared) =>
   declared.some((allowed) => changed === allowed || changed.startsWith(`${allowed}/`));
@@ -398,9 +510,15 @@ const bullets = (lines) => lines.filter(Boolean).map((line) => `- ${line}`).join
  * The pull request a successful repair opens. Deliberately narrow prose: what
  * ran, what changed, what did not, and that a human merges it.
  */
+export function pullRequestTitleFor(plan) {
+  return plan.type === PROVIDER_URL_TYPE
+    ? `maintenance: verify SeatGeek URLs for ${plan.artistSlug}`
+    : `maintenance: regenerate stale ${plan.label} (${plan.artefactId})`;
+}
+
 export function buildPullRequest({ plan, diff, checkOutputBefore = "" }) {
   if (plan.type === PROVIDER_URL_TYPE) {
-    return { title: `maintenance: verify SeatGeek URLs for ${plan.artistSlug}`, body: [
+    return { title: pullRequestTitleFor(plan), body: [
       prMarkerFor(plan.fingerprint), `Refs #${plan.issueNumber}; the coverage sensor closes the finding after it clears.`, "",
       `Verifies a bounded batch of ${plan.eventIds.length} upcoming events against the SeatGeek API for registry performer ${plan.performerId}.`,
       plan.providerSummary ?? "", "Only positive exact-event results are applied; unmatched events remain unresolved.",
@@ -409,7 +527,7 @@ export function buildPullRequest({ plan, diff, checkOutputBefore = "" }) {
       "A human reviews and merges this PR after Prelaunch Validation passes on this exact head."
     ].join("\n") };
   }
-  const title = `maintenance: regenerate stale ${plan.label} (${plan.artefactId})`;
+  const title = pullRequestTitleFor(plan);
   const body = [
     prMarkerFor(plan.fingerprint),
     `Closes nothing on its own — refs #${plan.issueNumber}, which stays open until the sensor confirms the finding has cleared.`,

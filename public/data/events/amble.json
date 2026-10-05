@@ -223,17 +223,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107277080",
-        "url": "https://www.stubhub.ie/amble-tickets-manchester-o2-apollo-manchester-3-10-2026/event/107277080",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G65bdcGVP",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-manchester-o2-apollo-manchester-3-10-2026/event/107277080"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-amble-2026-nottingham-g5vhz_5y-lcue",
@@ -1458,7 +1458,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-17-12-2026/event/18006536D0F0F2B9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1493,8 +1493,7 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkfUGkd8H21y",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-09-30T09:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8hl5a",
@@ -1512,7 +1511,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-18-12-2026/event/18006536D0F1F2C5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1547,8 +1546,7 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkfUGkd8HL5A",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-09-30T09:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8hr56",
@@ -1566,7 +1564,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-19-12-2026/event/18006536D0F2F2C7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1601,8 +1599,7 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkfUGkd8HR56",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-09-30T09:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-amble-2027-madrid-z698xz2qz1kozfaa3",

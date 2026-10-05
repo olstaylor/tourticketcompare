@@ -324,6 +324,27 @@ export function existingRepair({ plan, openPullRequests = [] }) {
   return null;
 }
 
+/**
+ * A remote branch with no open pull request is normally a guess the worker
+ * refuses to make. The one case that is not a guess: its tip is exactly the
+ * head of a pull request a human already closed or merged from that branch.
+ * Everything on it was then reviewed and decided, and GitHub keeps that head
+ * reachable from the pull request, so replacing the branch loses nothing. Any
+ * other tip — a push no pull request carried, or commits added after one
+ * closed — stays a human decision. The caller deletes the branch only under a
+ * `--force-with-lease` pinned to this sha, so a tip that moves after this read
+ * is refused by git rather than lost.
+ */
+export function settledBranch({ branch, branchSha, closedPullRequests = [] }) {
+  if (!branch || !/^[0-9a-f]{40}$/.test(String(branchSha || ""))) return null;
+  for (const pr of closedPullRequests) {
+    if (pr?.state !== "closed") continue;
+    if (pr?.head?.ref !== branch || pr?.head?.sha !== branchSha) continue;
+    return { pr, sha: branchSha, reason: `pull request #${pr.number} was ${pr.merged_at ? "merged" : "closed"} with \`${branch}\` at ${branchSha.slice(0, 7)}, and the branch has not moved since` };
+  }
+  return null;
+}
+
 /** Is a changed path inside one of the artefacts the entry declares? */
 export const withinDeclaredPaths = (changed, declared) =>
   declared.some((allowed) => changed === allowed || changed.startsWith(`${allowed}/`));

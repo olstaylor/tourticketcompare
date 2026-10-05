@@ -39,6 +39,7 @@
 //      figure belongs to one date, one provider and one capture time.
 
 import { slugify, normalizeCountry, citySlug } from "./_cities.js";
+import { canonicalCity } from "./_venues.js";
 import { PRICE_SNAPSHOT_PROVIDERS, eventLifecycleHeld, eventPriceComparable, eventPublishable, publicOnsalePending, priceGuideGate } from "./_route-indexability.js";
 
 // ---------------------------------------------------------------------------
@@ -217,7 +218,7 @@ export function derivePriceGuide(events, artistSlug, options = {}) {
     if (!event || typeof event !== "object" || slugify(event.artist_slug) !== target) continue;
     const iso = String(event.datetime_iso || event.dateTimeISO || "").trim();
     const ts = Date.parse(iso);
-    const city = String(event.city || "").trim();
+    const city = canonicalCity(event.city);
     const country = normalizeCountry(event.country);
     const id = String(event.id || "").trim();
     if (!id || !city || !Number.isFinite(ts) || ts < now) continue;

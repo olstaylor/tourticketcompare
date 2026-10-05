@@ -21,7 +21,7 @@ import { OG_CARDS } from "./_og-cards.generated.js";
 import { attachApprovedMarketplacePrices, APPROVED_MARKETPLACE_PRICE_LANES } from "./api/shows.js";
 import { deriveEventPriceLow, fetchEventPriceLowSeries, PRICE_LOW_WINDOW_DAYS } from "./_event-price-low.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
-import { deriveVenues, findVenue } from "./_venues.js";
+import { canonicalLocationPath, deriveVenues, findVenue, venueSlug } from "./_venues.js";
 import { citySlug, deriveCities, findCity, normalizeCountry } from "./_cities.js";
 import { deriveArtistCities, deriveIndexableArtistCities, findArtistCity, artistCityFootprint } from "./_artist-cities.js";
 import { deriveCityDatePrices } from "./_artist-city-prices.js";
@@ -465,6 +465,10 @@ function findTour(catalog, artistSlug, tourSlug) {
 async function routeForPath(pathname, env) {
   const path = normalizePath(pathname);
   if (OLD_GUIDE_REDIRECTS[path]) return { type: "redirect", location: OLD_GUIDE_REDIRECTS[path] };
+  // A city, venue or artist-city URL written with an aliased city spelling
+  // (CITY_ALIASES in _venues.js) 301s to the merged canonical page.
+  const canonicalLocation = canonicalLocationPath(path);
+  if (canonicalLocation) return { type: "redirect", location: canonicalLocation };
   if (path === "/compare-concert-ticket-prices") return { type: "comparison-hub", path, ...TRUST_ROUTES[path] };
   if (path === "/" || PUBLIC_HTML_ROUTES.has(path)) return { type: "static", path, ...TRUST_ROUTES[path] };
   // PRICE_GUIDE_FALLBACK keeps the highest-value guide routable (not a 404 or
@@ -1124,7 +1128,8 @@ function foldName(value) {
 function musicEventName(show, artistName) {
   const eventName = String(show.event_name || "").trim();
   const artist = foldName(artistName);
-  if (eventName && artist && foldName(eventName).includes(artist)) return eventName;
+  // Whole words only: "Rush" must not match "Rushmore", nor "Muse" "Museum".
+  if (eventName && artist && ` ${foldName(eventName)} `.includes(` ${artist} `)) return eventName;
   return show.venue ? `${artistName} at ${show.venue}` : `${artistName} — ${show.city}`;
 }
 
@@ -5798,7 +5803,7 @@ function eventPageRoute(decision, artist, catalog, events) {
   const shortDate = formatShortDateServer(event.datetime_iso, event.timezone);
   const locationSlug = citySlug(city, country);
   const artistCity = findArtistCity(events, artist.slug, locationSlug);
-  const venueSlugValue = slugify(`${venue} ${city}`);
+  const venueSlugValue = venueSlug(venue, city);
   return {
     type: "event",
     path: decision.canonicalPath,

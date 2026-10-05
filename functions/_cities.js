@@ -1,4 +1,4 @@
-import { venueSlug } from "./_venues.js";
+import { canonicalCity, venueSlug } from "./_venues.js";
 import { cityGate, eventLifecycleHeld, eventPublishable, eventPriceComparable, eventStatusPublishable } from "./_route-indexability.js";
 
 // Shared city derivation used by the HTML router, sitemap, llms.txt, and
@@ -31,7 +31,7 @@ export function normalizeCountry(value) {
 }
 
 export function citySlug(city, country) {
-  return slugify(`${String(city || "").trim()} ${normalizeCountry(country)}`);
+  return slugify(`${canonicalCity(city)} ${normalizeCountry(country)}`);
 }
 
 function latestVerifiedDate(shows) {
@@ -69,7 +69,7 @@ function deriveCitiesUncached(events, options = {}) {
 
   for (const event of Array.isArray(events) ? events : []) {
     if (!event || typeof event !== "object") continue;
-    const city = String(event.city || "").trim();
+    const city = canonicalCity(event.city);
     const country = normalizeCountry(event.country);
     const venue = String(event.venue || "").trim();
     const artistSlug = slugify(event.artist_slug);

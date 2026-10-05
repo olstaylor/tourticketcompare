@@ -26,7 +26,7 @@
 //     filtered to one show card, so it earns navigation but not a listing.
 
 import { slugify, normalizeCountry, citySlug } from "./_cities.js";
-import { venueSlug } from "./_venues.js";
+import { canonicalCity, venueSlug } from "./_venues.js";
 import { artistCityGate, eventPriceComparable, eventPublishable, eventStatusPublishable } from "./_route-indexability.js";
 
 // Providers, in a stable display order, that carry a verified stored link on an
@@ -108,7 +108,7 @@ export function deriveArtistCities(events, artistSlug, options = {}) {
   for (const event of Array.isArray(events) ? events : []) {
     if (!event || typeof event !== "object") continue;
     if (slugify(event.artist_slug) !== target) continue;
-    const city = String(event.city || "").trim();
+    const city = canonicalCity(event.city);
     const country = normalizeCountry(event.country);
     const venue = String(event.venue || "").trim();
     const iso = String(event.dateTimeISO || event.datetime_iso || "").trim();
@@ -232,7 +232,7 @@ export function artistCityFootprint(events, artistSlug) {
   for (const event of Array.isArray(events) ? events : []) {
     if (!event || typeof event !== "object") continue;
     if (slugify(event.artist_slug) !== target) continue;
-    const city = String(event.city || "").trim();
+    const city = canonicalCity(event.city);
     const country = normalizeCountry(event.country);
     if (!city || !country) continue;
     const slug = citySlug(city, country);

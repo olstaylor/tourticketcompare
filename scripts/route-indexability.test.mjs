@@ -32,7 +32,7 @@ import {
   artistCityGate
 } from "../functions/_route-indexability.js";
 import { deriveCities } from "../functions/_cities.js";
-import { deriveVenues } from "../functions/_venues.js";
+import { canonicalLocationPath, deriveVenues } from "../functions/_venues.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -378,6 +378,28 @@ const priced = {
   const venue = deriveVenues(events, opts)[0];
   assert(venue.indexable === false, "three shows from a single artist do not make a venue page indexable");
   assert(venue.exclusionReasons.includes(EXCLUSION_REASONS.BELOW_ARTIST_THRESHOLD), "with the artist-threshold reason recorded");
+}
+
+// --- City aliases: one place, one page -------------------------------------
+// Ticketmaster spells Jannus Live's city both "St Petersburg" and "Saint
+// Petersburg"; the derivations must merge them rather than split the venue.
+{
+  const events = [
+    ev({ ...priced, id: "sp1", city: "St Petersburg", country: "United States", venue: "Jannus Live", datetime_iso: futureA }),
+    ev({ ...priced, id: "sp2", city: "Saint Petersburg", country: "United States", venue: "Jannus Live", datetime_iso: futureB })
+  ];
+  const venues = deriveVenues(events, opts);
+  assert(venues.length === 1 && venues[0].slug === "jannus-live-st-petersburg" && venues[0].showCount === 2, "both spellings merge into one venue page");
+  const cities = deriveCities(events, opts);
+  assert(cities.length === 1 && cities[0].slug === "st-petersburg-united-states", "and one city page");
+  assert(canonicalLocationPath("/venues/jannus-live-saint-petersburg") === "/venues/jannus-live-st-petersburg", "the alias venue URL maps to the merged page");
+  assert(canonicalLocationPath("/cities/saint-petersburg-united-states") === "/cities/st-petersburg-united-states", "the alias city URL maps to the merged page");
+  assert(
+    canonicalLocationPath("/artists/x/tickets/saint-petersburg-united-states") === "/artists/x/tickets/st-petersburg-united-states",
+    "the alias artist-city URL maps to the merged page"
+  );
+  assert(canonicalLocationPath("/venues/jannus-live-st-petersburg") === "", "a canonical URL is left alone");
+  assert(canonicalLocationPath("/cities/saint-paul-united-states") === "", "no general Saint -> St rewrite");
 }
 
 // --- Redirect map: canonical destination behaviour -------------------------

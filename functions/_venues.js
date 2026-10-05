@@ -16,11 +16,48 @@ export function slugify(value) {
     .replace(/(^-|-$)/g, "");
 }
 
+// Ticketmaster spells some cities more than one way for the same place: Jannus
+// Live's dates arrive as both "St Petersburg" and "Saint Petersburg", which
+// split one venue (and one city) across two pages. The nightly field-sync
+// copies Ticketmaster's spelling back onto each record, so the records cannot
+// be made consistent at rest; the derivations read the city through this map
+// instead. Only exact, known aliases are listed: a general "Saint" -> "St" rule
+// would move established URLs such as /cities/saint-paul-united-states. The
+// target is the spelling the existing indexed URLs already use.
+const CITY_ALIASES = new Map([["saint petersburg", "St Petersburg"]]);
+
+export function canonicalCity(city) {
+  const raw = String(city || "").trim();
+  return CITY_ALIASES.get(raw.toLowerCase()) || raw;
+}
+
+// The same aliases as URL slug fragments ("saint-petersburg" -> "st-petersburg").
+const CITY_SLUG_ALIASES = [...CITY_ALIASES].map(([alias, canonical]) => [slugify(alias), slugify(canonical)]);
+
+/**
+ * The canonical path for a city, venue or artist-city URL written with an
+ * aliased city spelling, or "" when the path is already canonical. The router
+ * 301s an alias URL here, so a page indexed or linked under the other spelling
+ * lands on the merged page instead of a 404.
+ *
+ * @param {string} path
+ * @returns {string}
+ */
+export function canonicalLocationPath(path) {
+  const match = String(path || "").match(/^(\/cities\/|\/venues\/|\/artists\/[a-z0-9-]+\/tickets\/)([a-z0-9-]+)$/);
+  if (!match) return "";
+  let slug = match[2];
+  for (const [alias, canonical] of CITY_SLUG_ALIASES) {
+    slug = slug.replace(new RegExp(`(^|-)${alias}(?=-|$)`), `$1${canonical}`);
+  }
+  return slug === match[2] ? "" : `${match[1]}${slug}`;
+}
+
 // A venue is keyed by venue name + city so two cities with a similarly named venue
 // stay distinct, while inconsistent country labels for the same physical venue
 // (e.g. "United States" vs "United States Of America") merge into one page.
 export function venueSlug(venue, city) {
-  return slugify(`${String(venue || "").trim()} ${String(city || "").trim()}`);
+  return slugify(`${String(venue || "").trim()} ${canonicalCity(city)}`);
 }
 
 function mostFrequent(values) {
@@ -69,7 +106,7 @@ function deriveVenuesUncached(events, options = {}) {
   for (const event of Array.isArray(events) ? events : []) {
     if (!event || typeof event !== "object") continue;
     const venue = String(event.venue || "").trim();
-    const city = String(event.city || "").trim();
+    const city = canonicalCity(event.city);
     const iso = String(event.dateTimeISO || event.datetime_iso || "").trim();
     const artistSlug = slugify(event.artist_slug);
     const ts = Date.parse(iso);

@@ -30306,5 +30306,65 @@
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "announced"
+  },
+  {
+    "id": "tm-niall-horan-2026-hamburg-z698xzc2z1ka-fjkp",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "country": "Germany",
+    "city": "Hamburg",
+    "venue": "Barclays Arena",
+    "datetime_iso": "2026-10-07T17:30:00Z",
+    "timezone": "Europe/Berlin",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-niall-horan-2026-berlin-z698xzc2z16vvx0w-e",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "country": "Germany",
+    "city": "Berlin",
+    "venue": "Uber Arena",
+    "datetime_iso": "2026-10-08T17:30:00Z",
+    "timezone": "Europe/Berlin",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-latto-2026-petersburg-vvg17z_2r3gq4t",
+    "artist_slug": "latto",
+    "artist_name": "Latto",
+    "country": "United States Of America",
+    "city": "Petersburg",
+    "venue": "VSU Multi-Purpose Center",
+    "datetime_iso": "2026-10-08T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-teddy-swims-2027-hamburg-z698xzc2z16vpvz6g3",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "country": "Germany",
+    "city": "Hamburg",
+    "venue": "Barclays Arena",
+    "datetime_iso": "2027-03-10T19:00:00Z",
+    "timezone": "Europe/Berlin",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-london-1adjz_3gknpoval",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "OVO Arena Wembley",
+    "datetime_iso": "2027-04-02T17:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

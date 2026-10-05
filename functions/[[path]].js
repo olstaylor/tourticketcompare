@@ -1020,6 +1020,16 @@ function guideFaqEntries(guideEntry) {
   return entries.filter((entry) => entry.answers.length).map((entry) => [entry.question, entry.answers.join(" ")]);
 }
 
+// The homepage FAQ, rendered in the "How it works" panel and mirrored as
+// FAQPage JSON-LD. Site policy only: no figure, provider claim or date that
+// could go stale.
+const HOME_FAQ = [
+  ["Is TourTicketCompare official?", "No. TourTicketCompare is independent and unofficial, and isn't connected to any artist, venue or promoter."],
+  ["Does TourTicketCompare sell tickets?", "No. You buy on the ticket site itself. The site links to the official sale where it can verify one, and to approved resale sites for the same date."],
+  ["How does the site make money?", "Some ticket links earn a commission if you buy, at no extra cost to you. The affiliate disclosure explains how it works."],
+  ["Are the prices shown final?", "No. Each price is a ticket site's listed price for one date at the time shown. Fees, taxes, delivery and the final total are set at the ticket site's checkout."]
+];
+
 function faqPageSchema(questions) {
   return {
     "@type": "FAQPage",
@@ -1200,11 +1210,13 @@ function venueLocalIso(iso, timezone) {
 // states: the H1's artist and venue, the facts' city and country, the
 // venue-local date and start time, and the Ticketmaster status line.
 // eventPageSchemaDecision (functions/_event-pages.js) decides whether there is
-// a node at all and which eventStatus it carries. There are no `offers` on
-// this node under any flag — SCHEMA_OFFERS_ENABLED covers the parent boards
-// only — and no description, organizer, endDate or previousStartDate: none is
-// a fact the page holds beyond what the other fields already say.
-function eventPageSchema(route, origin, catalog, now = Date.now()) {
+// a node at all and which eventStatus it carries. `offers` follow the same
+// gates as the parent boards (SCHEMA_OFFERS_ENABLED, then
+// musicEventOffersSchema over the copy onRequest priced), so an Offer exists
+// only where the page's own ticket button shows that price. There is no
+// description, organizer, endDate or previousStartDate: none is a fact the
+// page holds beyond what the other fields already say.
+function eventPageSchema(route, origin, catalog, events = [], env = {}, now = Date.now()) {
   const decision = eventPageSchemaDecision(route.event, { now });
   if (!decision.eligible) return [];
   const show = enrichEventAsShow(route.event);
@@ -1218,6 +1230,11 @@ function eventPageSchema(route, origin, catalog, now = Date.now()) {
   const pageUrl = `${origin}${route.path}`;
   const address = { "@type": "PostalAddress", addressLocality: show.city };
   if (show.country) address.addressCountry = schemaCountry(show.country);
+  const eventId = String(route.event.id || "").trim();
+  const priced = events.find((candidate) => String(candidate?.id || "").trim() === eventId);
+  const offers = priced && !eventLifecycleHeld(show) && schemaOffersEnabledForArtist(env, artist.slug)
+    ? musicEventOffersSchema(enrichEventAsShow(priced), origin, env)
+    : [];
   return [
     { "@type": performerTypeForArtist(catalog, artist.slug), "@id": artistId, name: artist.name, url: `${origin}${artistPath}` },
     {
@@ -1234,7 +1251,8 @@ function eventPageSchema(route, origin, catalog, now = Date.now()) {
       performer: { "@id": artistId },
       // The page's own og:image (the shared brand card: event pages have no
       // per-page card), as every MusicEvent.image on the site is.
-      image: ogCardUrl(route, origin)
+      image: ogCardUrl(route, origin),
+      ...(offers.length ? { offers } : {})
     }
   ];
 }
@@ -1447,9 +1465,13 @@ function blogPostingSchema(route, origin) {
 function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}, env = {}) {
   const graph = baseSchema(origin);
   if (route.breadcrumb) graph.push(breadcrumbSchema(route, origin));
-  if (route.type === "event") graph.push(...eventPageSchema(route, origin, catalog));
+  if (route.type === "event") graph.push(...eventPageSchema(route, origin, catalog, events, env));
   // The author page is the one route that carries a Person node.
   if (route.path === AUTHOR_PATH) graph.push(personSchema(origin));
+  // No SearchAction on the WebSite node: Google retired the sitelinks search
+  // box, and the template URL only gave crawlers a query URL to fetch
+  // (scripts/smoke-prelaunch.mjs).
+  if (route.path === "/") graph.push(faqPageSchema(HOME_FAQ));
   if (route.type === "artist") {
     const artistModel = artistBoardModel(route, events, env);
     const rendersSummary =
@@ -1521,9 +1543,10 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
   }
   if (route.type === "price-guide" && route.guide) {
     // A plain WebPage about the artist. No MusicEvent (the artist page owns
-    // those, and duplicating them here would split them across two URLs), no
-    // Offer and no FAQPage: the page's figures are snapshots with their own
-    // capture times, and none of them is repeated in structured data.
+    // those, and duplicating them here would split them across two URLs) and
+    // no Offer: the page's figures are snapshots with their own capture times.
+    // The FAQPage mirrors the visible FAQ word for word, built from the same
+    // view, so it repeats only the one dated example the page's lead prints.
     graph.push({
       "@type": "WebPage",
       "@id": `${origin}${route.path}#webpage`,
@@ -1541,6 +1564,8 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
       },
       relatedLink: [`${origin}/artists/${route.artist.slug}`]
     });
+    const faqEntries = priceGuideFaqEntries(route, derivePriceGuideView(route, events, env));
+    if (faqEntries.length) graph.push(faqPageSchema(faqEntries));
   }
   if (route.type === "onsale-calendar") {
     const calendar = route.calendar || {};
@@ -3063,7 +3088,9 @@ function renderPriceGuideMoves(artist, moves, pricedRowCount, guideShowsById) {
   return `<section class="nested-panel" aria-labelledby="priceGuideMovesTitle">${heading}<p>${escapeHtml(summary)}</p><ul>${items}</ul><p class="disclosure-note">Each change compares one ticket site's listed-price snapshots for one date, in one currency. Dates are never compared with each other.</p></section>`;
 }
 
-function renderPriceGuideBody(route, events, env) {
+// Everything the price guide derives from the priced events, shared by the
+// visible page and its FAQPage JSON-LD so the two can never disagree.
+function derivePriceGuideView(route, events, env) {
   const artist = route.artist;
   const guide = route.guide;
   const seatGeekAvailable = isSeatGeekConfigured(env);
@@ -3116,6 +3143,62 @@ function renderPriceGuideBody(route, events, env) {
       ? "No eligible listed resale price is displayed for the checked dates right now. Missing pricing does not mean tickets are unavailable."
       : "Listed-price snapshots could not be checked on this visit. Use each date's ticket links to check prices with the provider.";
 
+  const nextOnsale = guide.nextOnsaleAt ? formatServerSnapshotTime(guide.nextOnsaleAt) : "";
+  return { priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, checkedCount, currentAnswer, guideShowsById, nextOnsale };
+}
+
+// The price guide's FAQ: visible on the page and mirrored as FAQPage JSON-LD.
+// Every answer is built from the same view the page renders, so it carries no
+// figure the page does not already print, and never a tour-wide minimum.
+function priceGuideFaqEntries(route, view) {
+  const artist = route.artist;
+  const guide = route.guide;
+  const name = artist.name;
+  const dates = `${guide.showCount} tracked ${guide.showCount === 1 ? "date" : "dates"}`;
+  const entries = [];
+  entries.push([
+    `How much are ${name} tickets?`,
+    `It depends on the date, city and seat. ${view.currentAnswer} Every figure on this page is one ticket site's resale listed price for one date at its capture time, not face value and not a final checkout total.`
+  ]);
+  const moveSentence = view.moves.length
+    ? (() => {
+        const down = view.moves.filter((move) => move.direction === "down").length;
+        return ` Across the ${name} dates showing a price, ${view.moves.length} have a recorded change in the last ${PRICE_MOVE_WINDOW_DAYS} days: ${down} lower and ${view.moves.length - down} higher.`;
+      })()
+    : "";
+  entries.push([
+    `When is the best time to buy ${name} tickets?`,
+    `There isn't a reliable best moment to buy. Resale prices for each date move up and down independently, and the site doesn't predict where a price is heading.${moveSentence} Buying at the official sale gives the most seat choice; waiting can pay off, but can also mean fewer seats or a higher total.`
+  ]);
+  entries.push([
+    `When do ${name} tickets go on sale?`,
+    guide.onsalePendingCount
+      ? `Ticketmaster lists a public on-sale time for ${guide.onsalePendingCount} of the ${dates}, the next at ${view.nextOnsale}. Until then any listing you see for those dates is resale.`
+      : `None of the ${dates} has an upcoming Ticketmaster public on-sale time on record. Where Ticketmaster sells a date, its link is on the ${name} page.`
+  ]);
+  const linked = [...view.linkCounts.entries()].map(([site, count]) => `${site} (${count} of ${guide.showCount})`);
+  if (linked.length) {
+    entries.push([
+      `Where can I buy ${name} tickets?`,
+      `The site links to these ticket sites for the ${dates}, each matched to the exact event: ${linked.join(", ")}. A link means the date is listed there, not that tickets are available.`
+    ]);
+  }
+  return entries;
+}
+
+function renderPriceGuideFaqHtml(entries) {
+  if (!entries.length) return "";
+  return `<section class="nested-panel" aria-labelledby="priceGuideFaqTitle"><h2 id="priceGuideFaqTitle">FAQ</h2>${entries
+    .map(([question, answer]) => `<h3>${escapeHtml(question)}</h3><p>${escapeHtml(answer)}</p>`)
+    .join("")}</section>`;
+}
+
+function renderPriceGuideBody(route, events, env) {
+  const artist = route.artist;
+  const guide = route.guide;
+  const view = derivePriceGuideView(route, events, env);
+  const { priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, checkedCount, currentAnswer, guideShowsById, nextOnsale } = view;
+
   const leadHtml = `<h1 id="priceGuideTitle">${escapeHtml(artist.name)} ticket prices${
     route.yearLabel ? ` for ${escapeHtml(route.yearLabel)}` : ""
   }</h1><p class="lead">${escapeHtml(
@@ -3126,7 +3209,6 @@ function renderPriceGuideBody(route, events, env) {
     }${range ? ` (${range})` : ""}.`
   )} ${anchor("See prices by date", "#priceGuideDatesTitle", "text-link")} or ${anchor("compare ticket sites for your show", artistHref, "text-link")}.</p>`;
 
-  const nextOnsale = guide.nextOnsaleAt ? formatServerSnapshotTime(guide.nextOnsaleAt) : "";
   const cards = [
     [
       "Tracked dates",
@@ -3208,7 +3290,7 @@ function renderPriceGuideBody(route, events, env) {
 
   return `<main id="mainContent"><section class="content-page price-guide-page" aria-labelledby="priceGuideTitle">${renderBreadcrumbHtml(
     route
-  )}${leadHtml}<p class="disclosure-note">Every figure is a provider-supplied resale listed-price snapshot for one verified date, not Ticketmaster face value, ticket availability or a final checkout total. Confirm fees, taxes and delivery at checkout.</p>${tablesHtml}${movesHtml}${missingPricesHtml}${glanceHtml}${faceValueHtml}${whereHtml}${relatedHtml}</section></main>`;
+  )}${leadHtml}<p class="disclosure-note">Every figure is a provider-supplied resale listed-price snapshot for one verified date, not Ticketmaster face value, ticket availability or a final checkout total. Confirm fees, taxes and delivery at checkout.</p>${tablesHtml}${movesHtml}${missingPricesHtml}${glanceHtml}${faceValueHtml}${whereHtml}${renderPriceGuideFaqHtml(priceGuideFaqEntries(route, view))}${relatedHtml}</section></main>`;
 }
 
 function artistCityShowIdSet(artistCity) {
@@ -5802,13 +5884,47 @@ function renderEventPageBody(route, events, env) {
   ].filter(Boolean);
   const linksHtml = `<section class="nested-panel"><h2>More ${escapeHtml(artist.name)} dates</h2><div class="mini-link-grid">${links.join("")}</div></section>`;
 
+  // "What to know": the page's own facts restated as a buyer's checklist, plus
+  // links to the guides that cover delivery, scams and cancellations. No door
+  // time is stated: the event record doesn't hold one.
+  const whenLine = `${artist.name} plays ${show.venue} in ${show.city} on ${dateLabel}${
+    localTime ? `, with a listed start time of ${localTime} local time` : ""
+  }. Door times aren't in the event record, so check your ticket or the venue before you travel.`;
+  // A held (cancelled, postponed or unconfirmed) date states its status
+  // above; nothing here may read as if the show goes ahead.
+  const knowItems = held ? [] : [escapeHtml(whenLine)];
+  if (!held) {
+    knowItems.push(
+      escapeHtml(
+        publicOnsalePending(show)
+          ? "The official sale hasn't opened yet. When it does, it sells tickets at face value. Resale listings can sit above or below face value, and the total is only final at the ticket site's checkout, after fees, taxes and delivery."
+          : "The official sale sells tickets at face value. Resale listings can sit above or below it, and the total is only final at the ticket site's checkout, after fees, taxes and delivery."
+      )
+    );
+  }
+  knowItems.push(
+    escapeHtml(
+      "Each resale site sets its own buyer guarantee, refund rules and delivery date. Read them before you pay, keep the purchase on that site, and never pay a stranger by bank transfer for tickets."
+    )
+  );
+  const knowGuides = [
+    "/guides/ticket-delivery-and-transfer-timing",
+    "/guides/how-to-avoid-ticket-scams",
+    "/guides/what-to-do-if-a-concert-is-postponed-or-cancelled"
+  ]
+    .filter((guidePath) => GUIDE_ROUTES[guidePath])
+    .map((guidePath) => anchor(GUIDE_ROUTES[guidePath].h1 || GUIDE_ROUTES[guidePath].title, guidePath, "mini-link"));
+  const knowHtml = `<section class="nested-panel" aria-labelledby="eventKnowTitle"><h2 id="eventKnowTitle">What to know before you buy</h2><ul>${knowItems
+    .map((item) => `<li>${item}</li>`)
+    .join("")}</ul>${knowGuides.length ? `<div class="mini-link-grid">${knowGuides.join("")}</div>` : ""}</section>`;
+
   const ticketsHeading = held ? "Ticket status" : "Ticket links for this date";
   const disclosure = ctaSpecs.length ? renderMoneyDisclosureHtml() : "";
   return `<main id="mainContent"><section class="content-page event-page" aria-labelledby="eventTitle" data-page-artist="${escapeAttr(artist.slug)}">${renderBreadcrumbHtml(
     route
   )}<h1 id="eventTitle">${escapeHtml(`${artist.name} at ${show.venue}, ${show.city} — ${dateLabel}`)}</h1><section class="section-grid show-board" aria-labelledby="eventTicketsTitle"><div class="section-intro"><h2 id="eventTicketsTitle">${escapeHtml(
     ticketsHeading
-  )}</h2>${disclosure}</div><div class="card-grid show-card-grid">${cardHtml}</div></section>${pricesHtml}${factsHtml}${linksHtml}</section></main>`;
+  )}</h2>${disclosure}</div><div class="card-grid show-card-grid">${cardHtml}</div></section>${pricesHtml}${factsHtml}${knowHtml}${linksHtml}</section></main>`;
 }
 
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
@@ -6606,7 +6722,9 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   )}</p><details class="home-more home-about" id="how-it-works"><summary>How it works and how the site stays honest</summary><div class="card-grid what-you-can-do"><h2 id="whatYouCanDoTitle" class="sr-only">How it works</h2>${HOME_STEPS.map(
     (step) =>
       `<article class="info-card"><h3>${escapeHtml(step.title)}</h3><p>${escapeHtml(step.body)}</p>${anchor(step.ctaLabel, step.href, "text-link")}</article>`
-  ).join("")}</div><div class="nested-panel trust-section"><h2 id="trustTitle">How the site stays honest</h2><p>TourTicketCompare is independent and unofficial, and doesn't sell tickets. Every link is checked before it goes up, and a link that can't be checked isn't shown.</p><p>Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.</p><p>Learn more: ${anchor("How it works", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div><div class="action-row">${anchor(
+  ).join("")}</div><div class="nested-panel trust-section"><h2 id="trustTitle">How the site stays honest</h2><p>TourTicketCompare is independent and unofficial, and doesn't sell tickets. Every link is checked before it goes up, and a link that can't be checked isn't shown.</p><p>Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.</p><p>Learn more: ${anchor("How it works", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div><div class="nested-panel home-faq"><h2 id="homeFaqTitle">FAQ</h2>${HOME_FAQ.map(
+    ([question, answer]) => `<h3>${escapeHtml(question)}</h3><p>${escapeHtml(answer)}</p>`
+  ).join("")}</div><div class="action-row">${anchor(
     HOME_PRIMARY_CTA_LABEL,
     HOME_PRIMARY_CTA_HREF,
     "button button-secondary"
@@ -7023,7 +7141,155 @@ function renderTimer() {
   };
 }
 
+// Edge cache for artist price guides (/artists/<artist>/ticket-prices).
+//
+// A guide reads three D1 series for every upcoming date, which costs it most of
+// a second before the first byte. Its HTML depends only on the path and the
+// data, so a render is kept in this colo's Cache API and served with
+// stale-while-revalidate semantics: fresh for PRICE_GUIDE_EDGE_FRESH_SECONDS,
+// then served stale for up to PRICE_GUIDE_EDGE_STALE_SECONDS more while one
+// background render replaces it. Response headers alone cannot do this: Pages
+// Functions responses are ruled non-cacheable at request time
+// (`cf-cache-status: DYNAMIC`), and no Cache Rule exists for these routes.
+//
+// What visitors and crawlers see is unchanged apart from age: the browser
+// still gets HTML_CACHE_CONTROL, and every figure keeps its own capture time on
+// the page. A copy is never served past the moment the live render would have
+// changed on its own: the render reports the earliest expiry of any price
+// snapshot it read and the earliest start of any date it listed
+// (EDGE_VALID_UNTIL_HEADER), and the copy dies then, fresh or stale. So a
+// withdrawn price or a started show never outlives its gate (DEPLOYMENT.md,
+// "never widen to an event-derived route" is about header-driven caching,
+// which has no such bound). Only complete 200 renders whose price read
+// succeeded are stored; a 404, redirect, error or failed read never is.
+const PRICE_GUIDE_EDGE_FRESH_SECONDS = 300;
+const PRICE_GUIDE_EDGE_STALE_SECONDS = 3600;
+const PRICE_GUIDE_EDGE_PATH = /^\/artists\/[a-z0-9-]+\/ticket-prices$/;
+const EDGE_RENDERED_AT_HEADER = "X-TTC-Rendered-At";
+const EDGE_EXPIRES_AT_HEADER = "X-TTC-Edge-Expires-At";
+const EDGE_VALID_UNTIL_HEADER = "X-TTC-Edge-Valid-Until";
+
+// The moment a price guide's render stops being what a live render would
+// show: the earliest snapshot expiry, pending public on-sale or show start
+// among the priced shows.
+// null when the price read failed, so that render is never stored.
+function edgeValidUntilFor(shows) {
+  let until = Number.POSITIVE_INFINITY;
+  for (const show of shows) {
+    if (show?.priceQueryFailed) return null;
+    const starts = Date.parse(show?.dateTimeISO || show?.datetime_iso || "");
+    if (Number.isFinite(starts)) until = Math.min(until, starts);
+    // A pending public on-sale is stated on the page until it opens.
+    const onsale = Date.parse(show?.public_onsale_at || "");
+    if (Number.isFinite(onsale) && onsale > Date.now()) until = Math.min(until, onsale);
+    for (const price of Array.isArray(show?.prices) ? show.prices : []) {
+      const expires = Date.parse(price?.expiresAt || "");
+      if (Number.isFinite(expires)) until = Math.min(until, expires);
+    }
+  }
+  return until;
+}
+const EDGE_CACHE_STATUS_HEADER = "X-TTC-Edge-Cache";
+
+// Cache entries outlive deployments, so the key carries a fingerprint of the
+// environment (flags, kill switches and, where Pages sets it, the commit):
+// flipping any *_ENABLED switch or deploying new code starts a fresh key
+// rather than serving HTML rendered under the old configuration.
+function edgeConfigVersion(env) {
+  const entries = Object.entries(env || {})
+    .filter(([, value]) => typeof value === "string")
+    .sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0));
+  let hash = 0x811c9dc5;
+  for (const char of `${EDGE_CACHE_CODE_VERSION}|${JSON.stringify(entries)}`) {
+    hash ^= char.charCodeAt(0);
+    hash = Math.imul(hash, 0x01000193) >>> 0;
+  }
+  return hash.toString(36);
+}
+
+// Bump when the price guide's rendering changes in a way the environment
+// fingerprint would not see (CF_PAGES_COMMIT_SHA covers it where present).
+const EDGE_CACHE_CODE_VERSION = "2026-10-05";
+
+// One background refresh per key per isolate, so a burst of stale hits
+// renders once rather than once per request.
+const EDGE_REFRESHES_IN_FLIGHT = new Map();
+
+function edgeCacheFor(request, url) {
+  if (request.method !== "GET") return null;
+  if (!PRICE_GUIDE_EDGE_PATH.test(url.pathname)) return null;
+  const cache = globalThis.caches?.default;
+  return cache ? cache : null;
+}
+
+async function storeEdgeCopy(cache, key, response) {
+  const now = Date.now();
+  const validUntil = Number(response.headers.get(EDGE_VALID_UNTIL_HEADER));
+  const expiresAt = Math.min(Number.isNaN(validUntil) ? 0 : validUntil, now + (PRICE_GUIDE_EDGE_FRESH_SECONDS + PRICE_GUIDE_EDGE_STALE_SECONDS) * 1000);
+  if (!response.headers.has(EDGE_VALID_UNTIL_HEADER) || !(expiresAt > now)) return;
+  const headers = new Headers(response.headers);
+  headers.set("Cache-Control", `public, max-age=${Math.ceil((expiresAt - now) / 1000)}`);
+  headers.set(EDGE_RENDERED_AT_HEADER, String(now));
+  headers.set(EDGE_EXPIRES_AT_HEADER, String(expiresAt));
+  headers.delete(EDGE_VALID_UNTIL_HEADER);
+  headers.delete("Set-Cookie");
+  await cache.put(key, new Response(response.body, { status: response.status, headers }));
+}
+
+function servedEdgeCopy(cached, status) {
+  const headers = new Headers(cached.headers);
+  headers.set("Cache-Control", HTML_CACHE_CONTROL);
+  headers.set(EDGE_CACHE_STATUS_HEADER, status);
+  headers.delete(EDGE_RENDERED_AT_HEADER);
+  headers.delete(EDGE_EXPIRES_AT_HEADER);
+  return new Response(cached.body, { status: cached.status, headers });
+}
+
+async function renderAndStore(context, cache, key) {
+  const renderUrl = new URL(key.url);
+  renderUrl.search = "";
+  const response = await renderRequest({ ...context, request: new Request(renderUrl) });
+  if (response.status === 200) await storeEdgeCopy(cache, key, response);
+}
+
 export async function onRequest(context) {
+  const url = new URL(context.request.url);
+  const cache = edgeCacheFor(context.request, url);
+  if (!cache) return renderRequest(context);
+  const key = new Request(`${url.origin}${url.pathname}?edge-v=${edgeConfigVersion(context.env)}`, { method: "GET" });
+  const background = (promise) => {
+    const settled = promise.catch(() => {});
+    if (typeof context.waitUntil === "function") context.waitUntil(settled);
+    return settled;
+  };
+  let cached = null;
+  try {
+    cached = await cache.match(key);
+  } catch {
+    cached = null;
+  }
+  if (cached && Date.now() < Number(cached.headers.get(EDGE_EXPIRES_AT_HEADER) || 0)) {
+    const ageSeconds = (Date.now() - Number(cached.headers.get(EDGE_RENDERED_AT_HEADER) || 0)) / 1000;
+    if (ageSeconds >= 0 && ageSeconds < PRICE_GUIDE_EDGE_FRESH_SECONDS) return servedEdgeCopy(cached, "HIT");
+    if (ageSeconds >= 0) {
+      if (!EDGE_REFRESHES_IN_FLIGHT.has(key.url)) {
+        const refresh = renderAndStore(context, cache, key).finally(() => EDGE_REFRESHES_IN_FLIGHT.delete(key.url));
+        EDGE_REFRESHES_IN_FLIGHT.set(key.url, refresh);
+        background(refresh);
+      }
+      return servedEdgeCopy(cached, "STALE");
+    }
+  }
+  const response = await renderRequest(context);
+  if (response.status !== 200) return response;
+  background(storeEdgeCopy(cache, key, response.clone()));
+  const headers = new Headers(response.headers);
+  headers.delete(EDGE_VALID_UNTIL_HEADER);
+  headers.set(EDGE_CACHE_STATUS_HEADER, "MISS");
+  return new Response(response.body, { status: response.status, headers });
+}
+
+async function renderRequest(context) {
   const { request, env, next } = context;
   const url = new URL(request.url);
   isolateRequestCount += 1;
@@ -7075,6 +7341,7 @@ export async function onRequest(context) {
   timer.mark("data");
   let priceLowSeries = new Map();
   let priceMoveSeries = new Map();
+  let edgeValidUntil = null;
   let priceWeekSeries = new Map();
   let renderEvents = events;
   if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event") && events.length) {
@@ -7141,6 +7408,7 @@ export async function onRequest(context) {
       ? fetchEventWeeklyPriceSeries(env?.DEMAND_DB || env?.DB, weeklyIds, APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
       : null;
     const pricedShows = await attachApprovedMarketplacePrices(priceCandidates, env);
+    if (route.type === "price-guide") edgeValidUntil = edgeValidUntilFor(pricedShows);
     const pricedById = new Map(pricedShows.map((show) => [String(show?.id || ""), show]));
     renderEvents = events.map((event) => {
       const priced = pricedById.get(String(event?.id || ""));
@@ -7195,6 +7463,8 @@ export async function onRequest(context) {
   headers.set("Content-Type", "text/html; charset=UTF-8");
   headers.set("Cache-Control", htmlCacheControl(route));
   headers.set("Server-Timing", timer.header());
+  // Read and stripped by onRequest's edge cache; never reaches a visitor.
+  if (edgeValidUntil !== null) headers.set(EDGE_VALID_UNTIL_HEADER, String(edgeValidUntil));
   applySecurityHeaders(headers);
   return new Response(injected, { status: 200, headers });
 }

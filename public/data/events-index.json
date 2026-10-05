@@ -2280,18 +2280,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vqafzjg",
-    "artist_slug": "olivia-rodrigo",
-    "artist_name": "Olivia Rodrigo",
-    "country": "Netherlands",
-    "city": "Amsterdam",
-    "venue": "Ziggo Dome Club",
-    "datetime_iso": "2027-03-23T19:01:00Z",
-    "timezone": "Europe/Amsterdam",
-    "tour_name": "The Unraveled Tour",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kk7ajpa",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
@@ -2299,18 +2287,6 @@
     "city": "Amsterdam",
     "venue": "Ziggo Dome",
     "datetime_iso": "2027-03-24T18:00:00Z",
-    "timezone": "Europe/Amsterdam",
-    "tour_name": "The Unraveled Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vgjp_pe",
-    "artist_slug": "olivia-rodrigo",
-    "artist_name": "Olivia Rodrigo",
-    "country": "Netherlands",
-    "city": "Amsterdam",
-    "venue": "Ziggo Dome Club",
-    "datetime_iso": "2027-03-24T19:01:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "The Unraveled Tour",
     "status": "on-sale"
@@ -2328,18 +2304,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v-bo4pa",
-    "artist_slug": "olivia-rodrigo",
-    "artist_name": "Olivia Rodrigo",
-    "country": "Netherlands",
-    "city": "Amsterdam",
-    "venue": "Ziggo Dome Club",
-    "datetime_iso": "2027-03-27T19:01:00Z",
-    "timezone": "Europe/Amsterdam",
-    "tour_name": "The Unraveled Tour",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v_8bagm",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
@@ -2347,18 +2311,6 @@
     "city": "Amsterdam",
     "venue": "Ziggo Dome",
     "datetime_iso": "2027-03-28T17:00:00Z",
-    "timezone": "Europe/Amsterdam",
-    "tour_name": "The Unraveled Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kpn0tog",
-    "artist_slug": "olivia-rodrigo",
-    "artist_name": "Olivia Rodrigo",
-    "country": "Netherlands",
-    "city": "Amsterdam",
-    "venue": "Ziggo Dome Club",
-    "datetime_iso": "2027-03-28T18:01:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "The Unraveled Tour",
     "status": "on-sale"
@@ -5804,18 +5756,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-niall-horan-2026-hamburg-z698xzc2z16v40up_b",
-    "artist_slug": "niall-horan",
-    "artist_name": "Niall Horan",
-    "country": "Germany",
-    "city": "Hamburg",
-    "venue": "Barclays Arena",
-    "datetime_iso": "2026-10-07T17:30:00Z",
-    "timezone": "Europe/Berlin",
-    "tour_name": "Dinner Party Live On Tour",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-niall-horan-2026-amsterdam-z698xzbpz1a9focb",
     "artist_slug": "niall-horan",
     "artist_name": "Niall Horan",
@@ -7280,30 +7220,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-latto-2026-petersburg-vv1avzkfkgkej6frv",
-    "artist_slug": "latto",
-    "artist_name": "Latto",
-    "country": "United States Of America",
-    "city": "Petersburg",
-    "venue": "VSU Multi-Purpose Center",
-    "datetime_iso": "2026-10-08T00:00:00Z",
-    "timezone": "America/New_York",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-niall-horan-2026-berlin-z698xzc2z16eekfyqa",
-    "artist_slug": "niall-horan",
-    "artist_name": "Niall Horan",
-    "country": "Germany",
-    "city": "Berlin",
-    "venue": "Uber Arena",
-    "datetime_iso": "2026-10-08T17:30:00Z",
-    "timezone": "Europe/Berlin",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-john-summit-2026-los-angeles-vvg1iz_2teslqm",
     "artist_slug": "john-summit",
     "artist_name": "John Summit",
@@ -8360,18 +8276,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-teddy-swims-2027-hamburg-z698xzc2z16v7i-zc9",
-    "artist_slug": "teddy-swims",
-    "artist_name": "Teddy Swims",
-    "country": "Germany",
-    "city": "Hamburg",
-    "venue": "Barclays Arena",
-    "datetime_iso": "2027-03-10T19:00:00Z",
-    "timezone": "Europe/Berlin",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-teddy-swims-2027-berlin-z698xzc2z16v8g0v0d",
     "artist_slug": "teddy-swims",
     "artist_name": "Teddy Swims",
@@ -8836,18 +8740,6 @@
     "venue": "The O2",
     "datetime_iso": "2027-01-23T18:30:00Z",
     "timezone": "Europe/London",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-five-finger-death-punch-2027-hamburg-z698xzc2z16vad3p4g",
-    "artist_slug": "five-finger-death-punch",
-    "artist_name": "Five Finger Death Punch",
-    "country": "Germany",
-    "city": "Hamburg",
-    "venue": "Barclays Arena",
-    "datetime_iso": "2027-01-27T18:00:00Z",
-    "timezone": "Europe/Berlin",
     "tour_name": "",
     "status": "on-sale"
   },
@@ -9437,18 +9329,6 @@
     "datetime_iso": "2027-03-15T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "The Last King World Tour",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-don-omar-2027-berlin-z698xzc2z16v4ogoca",
-    "artist_slug": "don-omar",
-    "artist_name": "Don Omar",
-    "country": "Germany",
-    "city": "Berlin",
-    "venue": "Uber Arena",
-    "datetime_iso": "2027-06-28T18:00:00Z",
-    "timezone": "Europe/Berlin",
-    "tour_name": "",
     "status": "on-sale"
   },
   {
@@ -11884,18 +11764,6 @@
     "venue": "Rotterdam Ahoy",
     "datetime_iso": "2027-04-24T17:00:00Z",
     "timezone": "Europe/Amsterdam",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-sabaton-2027-hamburg-z698xzc2z16vakvyjp",
-    "artist_slug": "sabaton",
-    "artist_name": "Sabaton",
-    "country": "Germany",
-    "city": "Hamburg",
-    "venue": "Barclays Arena",
-    "datetime_iso": "2027-04-28T17:00:00Z",
-    "timezone": "Europe/Berlin",
     "tour_name": "",
     "status": "on-sale"
   },
@@ -18248,18 +18116,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-the-warning-2027-london-1adjz_3gkbnrnkt",
-    "artist_slug": "the-warning",
-    "artist_name": "The Warning",
-    "country": "Great Britain",
-    "city": "London",
-    "venue": "OVO Arena Wembley",
-    "datetime_iso": "2027-04-02T17:00:00Z",
-    "timezone": "Europe/London",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-the-warning-2027-phoenix-1av0z_3gkl3jytk",
     "artist_slug": "the-warning",
     "artist_name": "The Warning",
@@ -22912,18 +22768,6 @@
     "venue": "T-Mobile Arena",
     "datetime_iso": "2026-11-01T02:30:00Z",
     "timezone": "America/Los_Angeles",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-latto-2026-chicago-vv1a7zkfvgkdplqxd",
-    "artist_slug": "latto",
-    "artist_name": "Latto",
-    "country": "United States Of America",
-    "city": "Chicago",
-    "venue": "United Center",
-    "datetime_iso": "2026-10-04T00:30:00Z",
-    "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
   },
@@ -30462,5 +30306,65 @@
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "announced"
+  },
+  {
+    "id": "tm-niall-horan-2026-hamburg-z698xzc2z1ka-fjkp",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "country": "Germany",
+    "city": "Hamburg",
+    "venue": "Barclays Arena",
+    "datetime_iso": "2026-10-07T17:30:00Z",
+    "timezone": "Europe/Berlin",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-niall-horan-2026-berlin-z698xzc2z16vvx0w-e",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "country": "Germany",
+    "city": "Berlin",
+    "venue": "Uber Arena",
+    "datetime_iso": "2026-10-08T17:30:00Z",
+    "timezone": "Europe/Berlin",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-latto-2026-petersburg-vvg17z_2r3gq4t",
+    "artist_slug": "latto",
+    "artist_name": "Latto",
+    "country": "United States Of America",
+    "city": "Petersburg",
+    "venue": "VSU Multi-Purpose Center",
+    "datetime_iso": "2026-10-08T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-teddy-swims-2027-hamburg-z698xzc2z16vpvz6g3",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "country": "Germany",
+    "city": "Hamburg",
+    "venue": "Barclays Arena",
+    "datetime_iso": "2027-03-10T19:00:00Z",
+    "timezone": "Europe/Berlin",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-warning-2027-london-1adjz_3gknpoval",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "country": "Great Britain",
+    "city": "London",
+    "venue": "OVO Arena Wembley",
+    "datetime_iso": "2027-04-02T17:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

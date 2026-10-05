@@ -499,67 +499,6 @@
     "stubhub_international_url": ""
   },
   {
-    "id": "tm-niall-horan-2026-hamburg-z698xzc2z16v40up_b",
-    "artist_slug": "niall-horan",
-    "artist_name": "Niall Horan",
-    "event_name": "Niall Horan: Dinner Party Live On Tour | Logen-Seat",
-    "city": "Hamburg",
-    "country": "Germany",
-    "venue": "Barclays Arena",
-    "datetime_iso": "2026-10-07T17:30:00Z",
-    "tour_name": "Dinner Party Live On Tour",
-    "ticketmaster_event_id": "1564356658",
-    "ticketmaster_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-%7C-logen-seat-tickets/1564356658?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-hamburg-barclays-arena---hamburg-10-7-2026--concerts-pop/production/6832659",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-%7C-logen-seat-tickets/1564356658?language=en-us",
-    "last_verified_at": "2026-10-03",
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "1564356658",
-        "discovery_event_id": "Z698xZC2Z16v40up_b",
-        "url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-%7C-logen-seat-tickets/1564356658?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": 6832659,
-        "url": "https://www.vividseats.com/niall-horan-tickets-hamburg-barclays-arena---hamburg-10-7-2026--concerts-pop/production/6832659",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub-international": {
-        "event_id": "107148173",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-hamburg-barclays-arena-hamburg-7-10-2026/event/107148173",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZC2Z16v40up_b",
-    "timezone": "Europe/Berlin",
-    "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-hamburg-barclays-arena-hamburg-7-10-2026/event/107148173"
-  },
-  {
     "id": "tm-niall-horan-2026-amsterdam-z698xzbpz1a9focb",
     "artist_slug": "niall-horan",
     "artist_name": "Niall Horan",
@@ -751,7 +690,7 @@
         "event_id": 6832670,
         "url": "https://www.vividseats.com/niall-horan-tickets-barcelona-palau-sant-jordi-10-25-2026--concerts-pop/production/6832670",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1110,14 +1049,14 @@
         "event_id": 18235523,
         "url": "https://seatgeek.com/niall-horan-tickets/saint-paul-minnesota-grand-casino-arena-2027-03-17-7-30-pm/concert/18235523",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7017227,
         "url": "https://www.vividseats.com/niall-horan-tickets-saint-paul-grand-casino-arena-3-17-2027/production/7017227",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1186,7 +1125,7 @@
         "event_id": 7017219,
         "url": "https://www.vividseats.com/niall-horan-tickets-detroit-little-caesars-arena-3-19-2027/production/7017219",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1263,7 +1202,7 @@
         "event_id": 7017191,
         "url": "https://www.vividseats.com/niall-horan-tickets-columbus-nationwide-arena-3-20-2027/production/7017191",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1332,7 +1271,7 @@
         "event_id": 7017215,
         "url": "https://www.vividseats.com/niall-horan-tickets-chicago-united-center-3-23-2027/production/7017215",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1409,7 +1348,7 @@
         "event_id": 7017203,
         "url": "https://www.vividseats.com/niall-horan-tickets-indianapolis-gainbridge-fieldhouse-3-26-2027/production/7017203",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1531,7 +1470,7 @@
         "event_id": 7017201,
         "url": "https://www.vividseats.com/niall-horan-tickets-toronto-scotiabank-arena-3-30-2027/production/7017201",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1584,7 +1523,7 @@
         "event_id": 7017243,
         "url": "https://www.vividseats.com/niall-horan-tickets-montreal-bell-centre-4-2-2027--concerts-pop/production/7017243",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1653,7 +1592,7 @@
         "event_id": 7017205,
         "url": "https://www.vividseats.com/niall-horan-tickets-brooklyn-barclays-center-4-4-2027/production/7017205",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1730,7 +1669,7 @@
         "event_id": 7017207,
         "url": "https://www.vividseats.com/niall-horan-tickets-baltimore-cfg-bank-arena-4-8-2027/production/7017207",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1799,7 +1738,7 @@
         "event_id": 7017199,
         "url": "https://www.vividseats.com/niall-horan-tickets-boston-td-garden-4-12-2027/production/7017199",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1876,7 +1815,7 @@
         "event_id": 7017239,
         "url": "https://www.vividseats.com/niall-horan-tickets-raleigh-lenovo-center-4-15-2027--concerts-pop/production/7017239",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1945,7 +1884,7 @@
         "event_id": 7017237,
         "url": "https://www.vividseats.com/niall-horan-tickets-orlando-kia-center-4-17-2027--concerts-pop/production/7017237",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2022,7 +1961,7 @@
         "event_id": 7017229,
         "url": "https://www.vividseats.com/niall-horan-tickets-atlanta-state-farm-arena-4-28-2027/production/7017229",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2099,7 +2038,7 @@
         "event_id": 7017193,
         "url": "https://www.vividseats.com/niall-horan-tickets-new-orleans-smoothie-king-center-4-29-2027/production/7017193",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2169,14 +2108,14 @@
         "event_id": 18235544,
         "url": "https://seatgeek.com/niall-horan-tickets/houston-texas-toyota-center-2027-05-01-7-30-pm/concert/18235544",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7017234,
         "url": "https://www.vividseats.com/niall-horan-tickets-houston-toyota-center---tx-5-1-2027--concerts-pop/production/7017234",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2245,7 +2184,7 @@
         "event_id": 7017217,
         "url": "https://www.vividseats.com/niall-horan-tickets-fort-worth-dickies-arena-5-2-2027/production/7017217",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2322,7 +2261,7 @@
         "event_id": 7017231,
         "url": "https://www.vividseats.com/niall-horan-tickets-austin-moody-center-atx-5-14-2027--concerts-pop/production/7017231",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2399,7 +2338,7 @@
         "event_id": 7017223,
         "url": "https://www.vividseats.com/niall-horan-tickets-denver-ball-arena-5-16-2027/production/7017223",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2529,7 +2468,7 @@
         "event_id": 7017195,
         "url": "https://www.vividseats.com/niall-horan-tickets-phoenix-mortgage-matchup-center-5-20-2027/production/7017195",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2606,7 +2545,7 @@
         "event_id": 7017187,
         "url": "https://www.vividseats.com/niall-horan-tickets-inglewood-kia-forum-5-22-2027--concerts-pop/production/7017187",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2683,7 +2622,7 @@
         "event_id": 7017185,
         "url": "https://www.vividseats.com/niall-horan-tickets-san-francisco-chase-center-5-25-2027--concerts-pop/production/7017185",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2760,7 +2699,7 @@
         "event_id": 7017183,
         "url": "https://www.vividseats.com/niall-horan-tickets-seattle-climate-pledge-arena-5-27-2027--concerts-pop/production/7017183",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2875,83 +2814,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954249",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-vancouver-rogers-arena-5-29-2027/event/107165604",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954249/Niall-Horan-tickets-Sat-May-29-2027-Rogers-Arena"
-  },
-  {
-    "id": "tm-niall-horan-2026-berlin-z698xzc2z16eekfyqa",
-    "artist_slug": "niall-horan",
-    "artist_name": "Niall Horan",
-    "event_name": "Niall Horan: Dinner Party Live On Tour | Box seat",
-    "city": "Berlin",
-    "country": "Germany",
-    "venue": "Uber Arena",
-    "datetime_iso": "2026-10-08T17:30:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "2086230689",
-    "ticketmaster_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-%7C-box-seat-tickets/2086230689?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-berlin-uber-arena-10-8-2026--concerts-pop/production/6832662",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-%7C-box-seat-tickets/2086230689?language=en-us",
-    "last_verified_at": "2026-10-03",
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "2086230689",
-        "discovery_event_id": "Z698xZC2Z16eekFYQa",
-        "url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-%7C-box-seat-tickets/2086230689?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
-      },
-      "vivid-seats": {
-        "event_id": 6832662,
-        "url": "https://www.vividseats.com/niall-horan-tickets-berlin-uber-arena-10-8-2026--concerts-pop/production/6832662",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "ticketnetwork": {
-        "event_id": "7831762",
-        "url": "https://www.ticketnetwork.com/en/p/7831762",
-        "verified": true,
-        "last_verified_at": "2026-08-12",
-        "availability_status": "listed"
-      },
-      "ticket-liquidator": {
-        "event_id": "7831762",
-        "url": "https://www.ticketliquidator.com/tickets/7831762/Niall-Horan-tickets-Thu-Oct-8-2026-Uber-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-12",
-        "availability_status": "listed"
-      },
-      "stubhub-international": {
-        "event_id": "107148175",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-berlin-uber-arena-8-10-2026/event/107148175",
-        "verified": true,
-        "last_verified_at": "2026-08-12",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZC2Z16eekFYQa",
-    "timezone": "Europe/Berlin",
-    "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831762",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831762/Niall-Horan-tickets-Thu-Oct-8-2026-Uber-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-berlin-uber-arena-8-10-2026/event/107148175"
   },
   {
     "id": "tm-niall-horan-2026-dublin-1avoz_6rofpzd5ed",
@@ -3212,14 +3074,14 @@
         "event_id": 18235537,
         "url": "https://seatgeek.com/niall-horan-tickets/hartford-connecticut-peoplesbank-arena-2027-04-13-7-30-pm/concert/18235537",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7017241,
         "url": "https://www.vividseats.com/niall-horan-tickets-hartford-peoplesbank-arena-4-13-2027--concerts-pop/production/7017241",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3249,5 +3111,111 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954214",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954214/Niall-Horan-tickets-Tue-Apr-13-2027-PeoplesBank-Arena"
+  },
+  {
+    "id": "tm-niall-horan-2026-hamburg-z698xzc2z1ka-fjkp",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan: Dinner Party Live On Tour",
+    "city": "Hamburg",
+    "country": "Germany",
+    "venue": "Barclays Arena",
+    "datetime_iso": "2026-10-07T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "261526196",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-tickets/261526196?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-hamburg-barclays-arena---hamburg-10-7-2026--concerts-pop/production/6832659",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-tickets/261526196?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "261526196",
+        "discovery_event_id": "Z698xZC2Z1ka-fJkp",
+        "url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-tickets/261526196?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6832659,
+        "url": "https://www.vividseats.com/niall-horan-tickets-hamburg-barclays-arena---hamburg-10-7-2026--concerts-pop/production/6832659",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1ka-fJkp",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-niall-horan-2026-berlin-z698xzc2z16vvx0w-e",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan: Dinner Party Live On Tour",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Uber Arena",
+    "datetime_iso": "2026-10-08T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1062932867",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-tickets/1062932867?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-berlin-uber-arena-10-8-2026--concerts-pop/production/6832662",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-tickets/1062932867?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1062932867",
+        "discovery_event_id": "Z698xZC2Z16vvx0w-E",
+        "url": "https://www.ticketmaster.de/event/niall-horan-dinner-party-live-on-tour-tickets/1062932867?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 6832662,
+        "url": "https://www.vividseats.com/niall-horan-tickets-berlin-uber-arena-10-8-2026--concerts-pop/production/6832662",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vvx0w-E",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
   }
 ]

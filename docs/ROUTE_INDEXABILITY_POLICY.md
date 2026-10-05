@@ -38,6 +38,57 @@ way it is:
 
 ---
 
+## Comparison data (2026-10-05)
+
+Every aggregation route — city, venue, artist-city and price guide — tells a
+searcher it compares ticket options. A listed-price comparison is only ever
+same-event (`docs/PROVIDER_DATA_POLICY.md`), so such a route is indexable only
+while **at least one of its publishable upcoming dates carries verified,
+URL-bearing provenance on ≥ 2 listed-price lanes**
+(`COMPARISON_MIN_PRICE_PROVIDERS`, `eventPriceComparable` in
+`functions/_route-indexability.js`). The lanes are the ones with price display
+rights: Vivid Seats, TicketNetwork and StubHub International
+(`PRICE_SNAPSHOT_PROVIDERS`). SeatGeek has no snapshot lane and Ticketmaster is
+a link source, so neither counts.
+
+**Date count never substitutes for it.** A run of dates with one price lane,
+or none, is a templated schedule rather than a comparison. A route that fails
+this condition renders `noindex,follow` with exclusion code
+`no_price_comparison`, leaves the sitemap and `llms.txt`, and stays linked.
+It returns to the index automatically when a second price lane is verified on
+any of its dates.
+
+Like the price-guide snapshot test, the condition is **static readiness** read
+from `events.json`, not whether D1 served a price on this render, so an expired
+cache row cannot flip a page in or out of the index.
+
+**Not applied to artist pages.** The artist page is the canonical hub that
+every other route defers to (see "keep one canonical" below), and it stays
+indexed between tours by owner decision (2026-09-24). Event pages apply the
+same two-lane rule through `EVENT_MIN_SNAPSHOT_READY_LANES` (below); a pilot
+member that falls under it drops out of indexing and is never replaced.
+
+**Why now.** Adopted during Google's September 2026 spam update (rollout began
+2026-09-24), when scaled, templated pages are the main risk. The measurement
+plan and dated change log are under Monitoring → "Google September 2026 spam
+update" below.
+
+### Keep one canonical where routes answer the same query
+
+Two more conditions, adopted the same day, stop two URLs carrying the same
+answer:
+
+- **City vs venue.** A city whose every upcoming show is at one venue lists
+  exactly what that venue page lists. The venue page is the precise one, so a
+  city page needs ≥ 2 venues (`CITY_MIN_VENUES`, code `below_venue_threshold`).
+- **Artist-city vs artist.** When every upcoming show the artist has is in one
+  city, the artist-city page repeats the artist page. It needs the artist to be
+  playing ≥ 2 cities (`ARTIST_CITY_MIN_ARTIST_CITIES`, code
+  `duplicates_artist_page`).
+
+Both pages stay live, `noindex,follow` and linked, and recover on their own
+when the data changes.
+
 ## Per-route decisions
 
 ### Artist — `/artists/<slug>`
@@ -92,13 +143,15 @@ robots meta.
 
 ### City — `/cities/<city-country>`
 
-**Indexable when** all three hold:
+**Indexable when** all of these hold:
 
 | Requirement | Value | Why |
 |---|---|---|
 | Upcoming tracked shows | ≥ 4 | Enough breadth that the page is not a restatement of one artist page |
 | Distinct artists | ≥ 2 | A single-artist city page *is* the artist page filtered by city |
+| Distinct venues | ≥ 2 | A single-venue city page *is* the venue page (`below_venue_threshold`, 2026-10-05) |
 | Shows with a publishable ticket destination | ≥ 1 | A page titled "concerts in X" that can lead nowhere cannot serve its own purpose |
+| Shows with ≥ 2 listed-price lanes | ≥ 1 | Comparison data, above (`no_price_comparison`, 2026-10-05) |
 
 The destination requirement is the part this policy added. "Can lead somewhere"
 means what the renderer means by it: a row whose own verification status is
@@ -118,8 +171,9 @@ concert calendar. That disclosure is visible on the page, not only in the FAQ.
 
 ### Venue — `/venues/<venue-city>`
 
-**Indexable when** all three hold: ≥ 3 upcoming tracked shows, ≥ 2 distinct
-artists, ≥ 1 show with a publishable ticket destination.
+**Indexable when** all of these hold: ≥ 3 upcoming tracked shows, ≥ 2 distinct
+artists, ≥ 1 show with a publishable ticket destination, and ≥ 1 show with
+≥ 2 listed-price lanes (comparison data, above).
 
 The bar is one show lower than a city's because venue intent is narrower and
 venue inventory turns over faster. The destination requirement is identical and
@@ -146,8 +200,8 @@ This is where the policy makes its substantive change.
 
 | Situation | Response |
 |---|---|
-| Artist editorially indexable **and** ≥ 2 publishable upcoming shows in the city | **200, `index,follow`**, self-canonical, in the sitemap |
-| Artist editorially indexable **and** exactly 1 publishable upcoming show | **200, `noindex,follow`**, self-canonical, not in the sitemap, still linked |
+| Artist editorially indexable **and** ≥ 2 publishable upcoming shows in the city **and** ≥ 1 of them with ≥ 2 listed-price lanes **and** the artist plays ≥ 2 cities | **200, `index,follow`**, self-canonical, in the sitemap |
+| Artist editorially indexable **and** exactly 1 publishable upcoming show, no date with two price lanes, or the artist's only city | **200, `noindex,follow`**, self-canonical, not in the sitemap, still linked |
 | Real footprint in that city but no publishable upcoming show, or artist under review | **301 to `/artists/<artist>`** |
 | Anything else | **404** |
 
@@ -215,7 +269,7 @@ each reason it fails):
 | A genuine performance, not an upsell listing | `non_performance` | Premium seats, boxes, packages are not the concert |
 | The page carries a valid `MusicEvent` (`eventPageSchemaDecision`) | `no_event_schema` | An indexed event page should be the canonical, machine-readable description of one performance. This excludes a pre-on-sale date and a resale-only record, exactly as the parent boards' schema does |
 | ≥ 2 publishable ticket destinations (`EVENT_MIN_PUBLISHABLE_DESTINATIONS`) | `below_destination_threshold` | The page's reason to exist beside its artist page is a comparison for exactly this date; one destination (in practice: Ticketmaster alone) is the parent card restated |
-| ≥ 1 snapshot-ready lane (`EVENT_MIN_SNAPSHOT_READY_LANES`) | `no_snapshot_ready_lane` | The event page's other unique content is this date's listed-price snapshot, recorded low and price move, which only a snapshot lane can ever supply |
+| ≥ 2 snapshot-ready lanes (`EVENT_MIN_SNAPSHOT_READY_LANES`, raised from 1 on 2026-10-05) | `no_snapshot_ready_lane` (none), `below_snapshot_lane_threshold` (one) | The event page's other unique content is this date's listed-price snapshot, recorded low and price move, which only a snapshot lane can ever supply; two make it a same-event comparison, the rule every aggregation route follows (Comparison data, above) |
 | No duplicate ambiguity | `duplicate_ambiguity` | TTC must be able to say this row *is* the performance, not one of two rows for it |
 
 Codes are stable: `npm run report:event-routes` and the audit group by them,
@@ -430,6 +484,8 @@ condition is static readiness, read from `events.json`, not whether D1 served a
 price on this render: indexability must not flap with the cache. Below the bar
 the page renders `noindex,follow` and leaves the sitemap and `llms.txt`. New
 exclusion codes: `below_city_threshold`, `below_price_coverage_threshold`.
+Since 2026-10-05 it also needs one date with ≥ 2 listed-price lanes
+(comparison data, above; `no_price_comparison`).
 
 The guide prints no figure the site cannot source. It explains face value and
 prints none (no approved source), and every price is one date's own lowest
@@ -690,6 +746,36 @@ indexing — so they need no re-anchor.
 | `npm run audit:indexable-surface:check` | CI mode — no writes, exit 1 on a problem |
 | `npm run audit:indexable-surface:baseline` | Re-anchor `reports/indexable-surface/baseline.json` |
 | `npm run audit:indexable-surface:self-test` | Offline unit tests for its pure functions |
+| `npm run audit:metadata-accuracy:check` | Every indexable page and served event page: `MusicEvent` name, date, venue, city and status against `events.json`; title and description years, counts and price claims; duplicate titles and descriptions. Exit 1 on any finding |
+
+### Google September 2026 spam update
+
+Google's September 2026 spam update began rolling out on **2026-09-24**
+(Google Search Status Dashboard; up to two weeks, still rolling out on
+2026-10-02). Act on quality now; draw no conclusion about rankings until the
+comparison window below has been measured.
+
+- **Baseline:** Search Console performance, **2026-09-17 to 2026-09-23**.
+- **Comparison:** the first clean seven days starting the day after the
+  dashboard marks the rollout complete. Compare by route type (URL pattern),
+  and report the URLs whose robots changed on 2026-10-05 as their own group.
+- **Hold until the comparison is recorded:** no event pages beyond the frozen
+  30-page pilot, and no event page added to the index before it renders a
+  same-event comparison table (two listed-price lanes) and its price context.
+  Scaled template launches during the window confound the measurement.
+- **Log every search-facing change** below, by merge date, until the
+  comparison is recorded. Then delete this section; git history keeps it.
+
+| Date | Change |
+|---|---|
+| 2026-09-24 | Indexability pass (expired pages, internal links); sitemap split behind `/sitemap-index.xml`; full artist `MusicEvent` schema; template layout and copy changes on home, artist, city, venue and guides; auto-promote lane on (further batches 09-25, 09-26, 09-27, 10-01, 10-03) |
+| 2026-09-25 | Tour year in artist titles; `/on-sale` added; all blog drafts published; five provider guides added; premium-seat listings withheld |
+| 2026-09-26 | Artist and artist-city titles rewritten; dates-first layout on artist, city, venue and artist-city; first price guides; event pages served `noindex` |
+| 2026-09-27 | Event-page indexing pilot: 30 frozen event pages `index,follow`; event duplicate and add-on cleanup |
+| 2026-09-30 | Sitemap drops `changefreq`/`priority`; longer event meta description; guide answer and linking changes |
+| 2026-10-02 | Tour name in artist titles, bands as `MusicGroup`; filler copy cut on artist, artist-city, city and venue; four buying guides; `llms.txt` artist facts and IndexNow; nine price guides approved |
+| 2026-10-03 | 62 more price guides (72 indexable) |
+| 2026-10-05 | Comparison-data and one-canonical rules above: indexable artist-city 201 → 143, city 117 → 89, venue 231 → 176 (site 776 → 635). "Compare Prices" dropped from artist and artist-city titles and descriptions where no date has two price lanes. `MusicEvent.name` is "<artist> at <venue>" where Ticketmaster's event name does not name the artist. `npm run audit:metadata-accuracy:check` added to CI. Event pages need two snapshot lanes (owner-approved): five pilot members with one lane drop out, leaving 25 indexed |
 
 ### Expected decay vs structural regression
 

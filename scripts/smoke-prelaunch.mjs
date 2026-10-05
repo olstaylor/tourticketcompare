@@ -757,6 +757,7 @@ await read("public/404.html");
 
 const middlewareModule = await import(pathToFileURL(path.join(root, "functions/_middleware.js")));
 const routeMetadataModule = await import(pathToFileURL(path.join(root, "functions/_route-metadata.js")));
+const routeIndexabilityModule = await import(pathToFileURL(path.join(root, "functions/_route-indexability.js")));
 const sitemapModule = await import(pathToFileURL(path.join(root, "functions/sitemap.xml.js")));
 const showsModule = await import(pathToFileURL(path.join(root, "functions/api/shows.js")));
 const outModule = await import(pathToFileURL(path.join(root, "functions/api/out.js")));
@@ -1183,8 +1184,11 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
     ? routeMetadataModule.yearRangeLabel(artistUpcoming.map((ev) => routeMetadataModule.eventLocalYear(ev.datetime_iso, ev.timezone)))
     : "";
   const artistTour = artist ? routeMetadataModule.artistTourLabel(artistUpcoming.map((ev) => ev.tour_name)) : "";
+  // "Compare Prices" only when an upcoming date carries two listed-price lanes.
+  const artistPriced = artistUpcoming.some((ev) => routeIndexabilityModule.eventPriceComparable(ev));
   const expectedT =
-    expectedTitle.get(pathname) || (artist ? routeMetadataModule.artistPageTitle(artist, artistYearLabel, artistTour) : undefined);
+    expectedTitle.get(pathname) ||
+    (artist ? routeMetadataModule.artistPageTitle(artist, artistYearLabel, artistTour, { priced: artistPriced }) : undefined);
   assert(actualTitle === expectedT, `${pathname} title should be "${expectedT}", got "${actualTitle}"`);
 
   if (functionBackedStaticRoutes.includes(pathname)) {

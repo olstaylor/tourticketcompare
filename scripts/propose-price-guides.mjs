@@ -107,7 +107,13 @@ function selfTest() {
     datetime_iso: iso,
     public_onsale_at: onsale,
     ticketmaster_url: `https://www.ticketmaster.co.uk/event/${id}`,
-    provider_links: priced ? { "vivid-seats": { verified: true, url: `https://www.vividseats.com/x/production/${id.length}` } } : {}
+    // Two listed-price lanes: comparison data the price-guide gate requires.
+    provider_links: priced
+      ? {
+          "vivid-seats": { verified: true, url: `https://www.vividseats.com/x/production/${id.length}` },
+          ticketnetwork: { verified: true, url: `https://www.ticketnetwork.com/tickets/${id.length}` }
+        }
+      : {}
   });
   const launch = Array.from({ length: 7 }, (_, i) =>
     event(`l${i}`, "launcher", i % 2 ? "Leeds" : "Cardiff", `2027-06-0${i + 1}T19:00:00Z`, "2026-09-26T09:00:00Z")

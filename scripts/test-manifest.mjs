@@ -67,6 +67,7 @@ export const STEPS = [
   { id: "validate:internal-links",                lane: "quick",  run: "npm run validate:internal-links" },
   { id: "audit:indexable-surface:self-test",      lane: "units",  run: "npm run audit:indexable-surface:self-test" },
   { id: "audit:indexable-surface:check",          lane: "quick",  run: "npm run audit:indexable-surface:check" },
+  { id: "audit:metadata-accuracy:check",          lane: "quick",  run: "npm run audit:metadata-accuracy:check" },
   { id: "test:artist-content",                    lane: "quick",  run: "npm run test:artist-content" },
   { id: "test:artist-presentation",               lane: "quick",  run: "npm run test:artist-presentation" },
   { id: "test:artist-cities",                     lane: "quick",  run: "npm run test:artist-cities" },

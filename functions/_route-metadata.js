@@ -232,6 +232,11 @@ export function artistTourLabel(tourNames) {
  * name is printed exactly as the event records carry it; "Tour" is appended
  * only when the name does not already contain the word.
  *
+ * "Compare Prices" is promised only when `options.priced` is true: an upcoming
+ * date carries two listed-price lanes, so the page can show a same-event
+ * comparison (eventPriceComparable). Otherwise the tail says what the page
+ * does have — tour dates and ticket links.
+ *
  * Only the house templates in catalog.json are rewritten; a hand-written
  * `seo_title` is left exactly as authored. No upcoming dates, no year, and no
  * "Compare Prices" promise over an empty board: the authored title stands.
@@ -239,9 +244,10 @@ export function artistTourLabel(tourNames) {
  * @param {{ name?: string, seo_title?: string }} artist
  * @param {string} yearLabel From yearRangeLabel over the board's shows.
  * @param {string} [tourLabel] From artistTourLabel over the same shows.
+ * @param {{ priced?: boolean }} [options]
  * @returns {string}
  */
-export function artistPageTitle(artist, yearLabel, tourLabel = "") {
+export function artistPageTitle(artist, yearLabel, tourLabel = "", { priced = true } = {}) {
   const name = String(artist?.name ?? "").trim();
   const authored = String(artist?.seo_title ?? "").trim() || `${name} Tickets | Options & Availability`;
   const houseTemplates = [
@@ -260,9 +266,13 @@ export function artistPageTitle(artist, yearLabel, tourLabel = "") {
           `${name} ${tourPhrase.replace(/^the\s+/i, "")} Tickets ${yearLabel}`
         ]
       : []),
-    `${name} Tickets ${yearLabel} | Compare Prices & Tour Dates`,
-    `${name} Tickets ${yearLabel} | Compare Prices & Dates`,
-    `${name} Tickets ${yearLabel} | Compare Prices`,
+    ...(priced
+      ? [
+          `${name} Tickets ${yearLabel} | Compare Prices & Tour Dates`,
+          `${name} Tickets ${yearLabel} | Compare Prices & Dates`,
+          `${name} Tickets ${yearLabel} | Compare Prices`
+        ]
+      : [`${name} Tickets ${yearLabel} | Tour Dates & Ticket Links`, `${name} Tickets ${yearLabel} | Tour Dates`]),
     `${name} Tickets ${yearLabel}`,
     authored
   ]);

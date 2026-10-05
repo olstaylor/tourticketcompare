@@ -18,7 +18,13 @@ import {
   VENUE_MIN_SHOWS,
   VENUE_MIN_ARTISTS,
   ARTIST_CITY_MIN_SHOWS,
+  ARTIST_CITY_MIN_ARTIST_CITIES,
+  CITY_MIN_VENUES,
+  COMPARISON_MIN_PRICE_PROVIDERS,
+  PRICE_SNAPSHOT_PROVIDERS,
   EXCLUSION_REASONS,
+  eventPriceComparable,
+  eventPriceSnapshotProviders,
   eventPublishable,
   eventStatusPublishable,
   cityGate,
@@ -60,6 +66,16 @@ function ev(overrides = {}) {
     ...overrides
   };
 }
+
+// Two listed-price lanes: a date carrying comparison data
+// (docs/ROUTE_INDEXABILITY_POLICY.md § Comparison data).
+const priced = {
+  provider_links: {
+    ticketmaster: { verified: true },
+    "vivid-seats": { verified: true, url: "https://www.vividseats.com/artist-one-tickets/production/1" },
+    ticketnetwork: { verified: true, url: "https://www.ticketnetwork.com/tickets/1" }
+  }
+};
 
 // --- Publishability -------------------------------------------------------
 {
@@ -143,9 +159,69 @@ function ev(overrides = {}) {
   assert(eventStatusPublishable(ev()) === true, "a stored Ticketmaster destination passes the event-status gate too");
 }
 
+// --- Comparison data ------------------------------------------------------
+{
+  assert(COMPARISON_MIN_PRICE_PROVIDERS === 2, "a comparison needs two listed-price lanes");
+  assert(
+    JSON.stringify([...PRICE_SNAPSHOT_PROVIDERS].sort()) === JSON.stringify(["stubhub-international", "ticketnetwork", "vivid-seats"]),
+    "only the lanes with price display rights count"
+  );
+  assert(eventPriceComparable(ev(priced), NOW) === true, "two verified, URL-bearing price lanes make a date comparable");
+  const one = ev({ provider_links: { ticketmaster: { verified: true }, "vivid-seats": { verified: true, url: "https://www.vividseats.com/x/production/1" } } });
+  assert(eventPriceComparable(one, NOW) === false, "one price lane is not a comparison");
+  const seatgeek = ev({
+    provider_links: {
+      "vivid-seats": { verified: true, url: "https://www.vividseats.com/x/production/1" },
+      seatgeek: { verified: true, url: "https://seatgeek.com/x" }
+    }
+  });
+  assert(eventPriceComparable(seatgeek, NOW) === false, "SeatGeek has no snapshot lane, so it cannot be the second price");
+  const noUrl = ev({
+    provider_links: {
+      "vivid-seats": { verified: true, url: "https://www.vividseats.com/x/production/1" },
+      ticketnetwork: { verified: true, url: "" }
+    }
+  });
+  assert(eventPriceSnapshotProviders(noUrl).length === 1, "provenance without a stored URL is not a price lane");
+  const held = ev({ ...priced, ticketmaster_status_code: "cancelled" });
+  assert(eventPriceComparable(held, NOW) === false, "a cancelled date is never comparison data");
+}
+
 // --- Gate units -----------------------------------------------------------
 {
-  assert(cityGate({ showCount: CITY_MIN_SHOWS, artistCount: CITY_MIN_ARTISTS, publishableCount: 1 }).indexable, "a city exactly on every threshold is indexable");
+  const city = { showCount: CITY_MIN_SHOWS, artistCount: CITY_MIN_ARTISTS, venueCount: CITY_MIN_VENUES, publishableCount: 1, comparableCount: 1 };
+  assert(cityGate(city).indexable, "a city exactly on every threshold is indexable");
+  assert(
+    cityGate({ ...city, comparableCount: 0 }).reasons.includes(EXCLUSION_REASONS.NO_PRICE_COMPARISON),
+    "a city with no date carrying two price lanes reports no_price_comparison, whatever its date count"
+  );
+  assert(
+    !cityGate({ ...city, showCount: 40, comparableCount: 0 }).indexable,
+    "date count does not substitute for comparison data"
+  );
+  assert(
+    cityGate({ ...city, venueCount: 1 }).reasons.includes(EXCLUSION_REASONS.BELOW_VENUE_THRESHOLD),
+    "a single-venue city defers to its venue page with below_venue_threshold"
+  );
+  assert(
+    !cityGate({ ...city, publishableCount: 0, comparableCount: 0 }).reasons.includes(EXCLUSION_REASONS.NO_PRICE_COMPARISON),
+    "a city that leads nowhere reports the destination reason, not also the comparison reason"
+  );
+  assert(
+    !venueGate({ showCount: VENUE_MIN_SHOWS, artistCount: VENUE_MIN_ARTISTS, publishableCount: 1, comparableCount: 0 }).indexable,
+    "a venue with no comparison data is excluded"
+  );
+  assert(
+    artistCityGate({ showCount: 2, publishableCount: 2, comparableCount: 0, artistCityCount: 2 }).reasons.includes(EXCLUSION_REASONS.NO_PRICE_COMPARISON),
+    "a multi-date artist-city with no comparison data reports no_price_comparison"
+  );
+  assert(
+    artistCityGate({ showCount: 3, publishableCount: 3, comparableCount: 3, artistCityCount: 1 }).reasons.includes(EXCLUSION_REASONS.DUPLICATES_ARTIST_PAGE),
+    "the artist's only city repeats the artist page and reports duplicates_artist_page"
+  );
+  assert(ARTIST_CITY_MIN_ARTIST_CITIES === 2, "an artist-city needs the artist to play a second city");
+}
+{
   assert(
     cityGate({ showCount: CITY_MIN_SHOWS - 1, artistCount: CITY_MIN_ARTISTS, publishableCount: 1 }).reasons.includes(
       EXCLUSION_REASONS.BELOW_SHOW_THRESHOLD
@@ -167,13 +243,16 @@ function ev(overrides = {}) {
     "an empty city reports no_upcoming_shows rather than a threshold miss"
   );
 
-  assert(venueGate({ showCount: VENUE_MIN_SHOWS, artistCount: VENUE_MIN_ARTISTS, publishableCount: 1 }).indexable, "a venue exactly on every threshold is indexable");
+  assert(venueGate({ showCount: VENUE_MIN_SHOWS, artistCount: VENUE_MIN_ARTISTS, publishableCount: 1, comparableCount: 1 }).indexable, "a venue exactly on every threshold is indexable");
   assert(
     !venueGate({ showCount: VENUE_MIN_SHOWS, artistCount: VENUE_MIN_ARTISTS, publishableCount: 0 }).indexable,
     "a venue with no publishable destination is excluded"
   );
 
-  assert(artistCityGate({ showCount: 2, publishableCount: ARTIST_CITY_MIN_SHOWS }).indexable, "an artist-city run on the threshold is indexable");
+  assert(
+    artistCityGate({ showCount: 2, publishableCount: ARTIST_CITY_MIN_SHOWS, comparableCount: 1, artistCityCount: 2 }).indexable,
+    "an artist-city run on the threshold is indexable"
+  );
   assert(
     artistCityGate({ showCount: 1, publishableCount: 1 }).reasons.includes(EXCLUSION_REASONS.BELOW_SHOW_THRESHOLD),
     "a single-date artist-city reports below_show_threshold"
@@ -193,10 +272,10 @@ function ev(overrides = {}) {
 {
   // Four shows, two artists, all publishable -> indexable.
   const events = [
-    ev({ id: "c1", datetime_iso: futureA }),
-    ev({ id: "c2", datetime_iso: futureB }),
-    ev({ id: "c3", artist_slug: "artist-two", artist_name: "Artist Two", datetime_iso: futureC }),
-    ev({ id: "c4", artist_slug: "artist-two", artist_name: "Artist Two", datetime_iso: futureD })
+    ev({ ...priced, id: "c1", datetime_iso: futureA }),
+    ev({ ...priced, id: "c2", datetime_iso: futureB }),
+    ev({ ...priced, id: "c3", artist_slug: "artist-two", artist_name: "Artist Two", venue: "O2 Academy Leeds", datetime_iso: futureC }),
+    ev({ ...priced, id: "c4", artist_slug: "artist-two", artist_name: "Artist Two", venue: "O2 Academy Leeds", datetime_iso: futureD })
   ];
   const city = deriveCities(events, opts)[0];
   assert(city.showCount === 4 && city.artistCount === 2, "the fixture city has four shows across two artists");
@@ -226,13 +305,42 @@ function ev(overrides = {}) {
 {
   // One publishable date is enough to clear the destination gate.
   const events = [
-    ev({ id: "e1", datetime_iso: futureA }),
+    ev({ ...priced, id: "e1", datetime_iso: futureA }),
     ev({ id: "e2", datetime_iso: futureB, ticketmaster_url: "", verification_status: "needs_recheck", provider_links: {} }),
-    ev({ id: "e3", artist_slug: "artist-two", datetime_iso: futureC, ticketmaster_url: "", verification_status: "needs_recheck", provider_links: {} }),
+    ev({ id: "e3", artist_slug: "artist-two", venue: "O2 Academy Leeds", datetime_iso: futureC, ticketmaster_url: "", verification_status: "needs_recheck", provider_links: {} }),
     ev({ id: "e4", artist_slug: "artist-two", datetime_iso: futureD, ticketmaster_url: "", verification_status: "needs_recheck", provider_links: {} })
   ];
   const city = deriveCities(events, opts)[0];
   assert(city.publishableCount === 1 && city.indexable === true, "one reachable destination clears the city destination gate");
+}
+{
+  // Same city, every date publishable but on one price lane only: a schedule,
+  // not a comparison, so it stays out of the index however many dates it has.
+  const oneLane = { provider_links: { ticketmaster: { verified: true }, "vivid-seats": { verified: true, url: "https://www.vividseats.com/x/production/1" } } };
+  const events = [
+    ev({ id: "j1", datetime_iso: futureA, ...oneLane }),
+    ev({ id: "j2", datetime_iso: futureB, ...oneLane }),
+    ev({ id: "j3", artist_slug: "artist-two", venue: "O2 Academy Leeds", datetime_iso: futureC, ...oneLane }),
+    ev({ id: "j4", artist_slug: "artist-two", venue: "O2 Academy Leeds", datetime_iso: futureD, ...oneLane })
+  ];
+  const city = deriveCities(events, opts)[0];
+  assert(city.publishableCount === 4 && city.comparableCount === 0, "four publishable dates, none comparable");
+  assert(city.indexable === false && city.exclusionReasons.includes(EXCLUSION_REASONS.NO_PRICE_COMPARISON), "the city is excluded for no_price_comparison");
+  const venue = deriveVenues(events, opts).find((entry) => entry.showCount === 2 && entry.venue !== "O2 Academy Leeds") || deriveVenues(events, opts)[0];
+  assert(venue.comparableCount === 0, "the venue derivation counts comparison data the same way");
+}
+{
+  // Every date at one venue: the city page is the venue page again.
+  const events = [
+    ev({ ...priced, id: "k1", datetime_iso: futureA }),
+    ev({ ...priced, id: "k2", datetime_iso: futureB }),
+    ev({ ...priced, id: "k3", artist_slug: "artist-two", datetime_iso: futureC }),
+    ev({ ...priced, id: "k4", artist_slug: "artist-two", datetime_iso: futureD })
+  ];
+  const city = deriveCities(events, opts)[0];
+  const venue = deriveVenues(events, opts)[0];
+  assert(city.indexable === false && city.exclusionReasons.includes(EXCLUSION_REASONS.BELOW_VENUE_THRESHOLD), "a single-venue city is excluded for below_venue_threshold");
+  assert(venue.indexable === true, "while its venue page, listing the same dates, stays indexable");
 }
 {
   const events = [ev({ id: "f1", datetime_iso: past })];
@@ -242,9 +350,9 @@ function ev(overrides = {}) {
 // --- Venue derivation -----------------------------------------------------
 {
   const events = [
-    ev({ id: "g1", datetime_iso: futureA }),
-    ev({ id: "g2", datetime_iso: futureB }),
-    ev({ id: "g3", artist_slug: "artist-two", datetime_iso: futureC })
+    ev({ ...priced, id: "g1", datetime_iso: futureA }),
+    ev({ ...priced, id: "g2", datetime_iso: futureB }),
+    ev({ ...priced, id: "g3", artist_slug: "artist-two", datetime_iso: futureC })
   ];
   const venue = deriveVenues(events, opts)[0];
   assert(venue.showCount === 3 && venue.artistCount === 2, "the fixture venue has three shows across two artists");

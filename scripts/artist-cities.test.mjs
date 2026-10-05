@@ -84,11 +84,24 @@ function ev(overrides) {
   assert(city.shows[0].timezone === "America/Chicago", "artist-city shows preserve the event timezone");
 }
 
+// Two listed-price lanes on one date: comparison data
+// (docs/ROUTE_INDEXABILITY_POLICY.md § Comparison data).
+const priced = {
+  provider_links: {
+    ticketmaster: { verified: true },
+    "vivid-seats": { verified: true, url: "https://www.vividseats.com/test-artist-tickets/production/1" },
+    "stubhub-international": { verified: true, url: "https://www.stubhub.ie/test-artist-tickets/event/1" }
+  }
+};
+// The artist also plays a second city, so this page is not the artist page again.
+const elsewhere = { city: "Manchester", venue: "AO Arena", datetime_iso: future3 };
+
 // --- Multiple events, same venue: multi-night run, indexable ----------------
 {
   const events = [
-    ev({ id: "b1", datetime_iso: future1 }),
-    ev({ id: "b2", datetime_iso: future2 })
+    ev({ id: "b1", datetime_iso: future1, ...priced }),
+    ev({ id: "b2", datetime_iso: future2 }),
+    ev({ id: "b0", ...elsewhere })
   ];
   const city = deriveArtistCities(events, "test-artist", opts)[0];
   assert(city.showCount === 2 && city.venueCount === 1, "two dates at one venue");
@@ -99,6 +112,27 @@ function ev(overrides) {
   assert(city.indexable === true, "a multi-date city run is indexable");
   assert(city.exclusionReasons.length === 0, "an indexable run reports no exclusion reasons");
   assert(deriveIndexableArtistCities(events, ["test-artist"], opts).length === 1, "the multi-date run enters the indexable set");
+}
+
+// --- Comparison data and the artist page -------------------------------------
+{
+  const unpriced = deriveArtistCities(
+    [ev({ id: "p1", datetime_iso: future1 }), ev({ id: "p2", datetime_iso: future2 }), ev({ id: "p0", ...elsewhere })],
+    "test-artist",
+    opts
+  ).find((city) => city.slug === "london-united-kingdom");
+  assert(unpriced.publishableCount === 2 && unpriced.comparableCount === 0, "two publishable dates, neither with two price lanes");
+  assert(
+    unpriced.indexable === false && unpriced.exclusionReasons.includes(EXCLUSION_REASONS.NO_PRICE_COMPARISON),
+    "a multi-date run with no comparison data is not indexable, whatever its date count"
+  );
+
+  const onlyCity = deriveArtistCities([ev({ id: "q1", datetime_iso: future1, ...priced }), ev({ id: "q2", datetime_iso: future2, ...priced })], "test-artist", opts)[0];
+  assert(onlyCity.artistCityCount === 1, "the artist plays one city");
+  assert(
+    onlyCity.indexable === false && onlyCity.exclusionReasons.includes(EXCLUSION_REASONS.DUPLICATES_ARTIST_PAGE),
+    "the artist's only city repeats the artist page and stays out of the index"
+  );
 }
 
 // --- Two upcoming dates, only one publishable: not indexable ----------------
@@ -191,7 +225,7 @@ function ev(overrides) {
 
 // --- Indexable set gates on the caller-supplied artist allowlist ------------
 {
-  const events = [ev({ id: "j1" }), ev({ id: "j2", datetime_iso: future2 })];
+  const events = [ev({ id: "j1", ...priced }), ev({ id: "j2", datetime_iso: future2 }), ev({ id: "j0", ...elsewhere })];
   assert(deriveIndexableArtistCities(events, [], opts).length === 0, "no indexable artists -> no indexable artist-city pages");
   assert(deriveRenderedArtistCities(events, [], opts).length === 0, "an editorially non-indexable artist renders no artist-city pages either");
   const entries = deriveIndexableArtistCities(events, ["test-artist"], opts);

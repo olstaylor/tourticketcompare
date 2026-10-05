@@ -214,6 +214,22 @@ for (const page of indexablePages) {
   }
 }
 
+// Comparison data (docs/ROUTE_INDEXABILITY_POLICY.md § Comparison data),
+// re-derived from the raw records and the published lane list rather than the
+// derivations' own comparableCount: a date counts when it is publishable and
+// carries verified, URL-bearing provenance on COMPARISON_MIN_PRICE_PROVIDERS
+// listed-price lanes.
+const eventsById = new Map(events.map((event) => [String(event?.id || "").trim(), event]));
+function independentlyComparable(id) {
+  const event = eventsById.get(String(id || "").trim());
+  if (!event || !policyModule.eventPublishable(event)) return false;
+  const lanes = policyModule.PRICE_SNAPSHOT_PROVIDERS.filter(
+    (provider) => event.provider_links?.[provider]?.verified === true && String(event.provider_links?.[provider]?.url || "").trim()
+  );
+  return lanes.length >= policyModule.COMPARISON_MIN_PRICE_PROVIDERS;
+}
+const hasComparableShow = (shows) => (shows || []).some((show) => independentlyComparable(show.id));
+
 // City pages are generated from changing event data, so validate the complete
 // set rather than relying on a single representative smoke route. These checks
 // enforce useful, evidence-backed location pages and prevent a future data
@@ -226,10 +242,12 @@ for (const city of cities) {
   const expectedIndexable =
     city.showCount >= policyModule.CITY_MIN_SHOWS &&
     city.artistCount >= policyModule.CITY_MIN_ARTISTS &&
-    city.publishableCount >= 1;
+    city.venueCount >= policyModule.CITY_MIN_VENUES &&
+    city.publishableCount >= 1 &&
+    hasComparableShow(city.shows);
   if (city.indexable !== expectedIndexable) {
     problems.push(
-      `city quality: ${path} indexability does not match the ${policyModule.CITY_MIN_SHOWS}-show / ${policyModule.CITY_MIN_ARTISTS}-artist / publishable-destination gate`
+      `city quality: ${path} indexability does not match the ${policyModule.CITY_MIN_SHOWS}-show / ${policyModule.CITY_MIN_ARTISTS}-artist / ${policyModule.CITY_MIN_VENUES}-venue / publishable-destination / comparison-data gate`
     );
   }
   if (!page || page.status !== 200) {
@@ -289,10 +307,11 @@ for (const venue of venues) {
   const expectedIndexable =
     venue.showCount >= policyModule.VENUE_MIN_SHOWS &&
     venue.artistSlugs.length >= policyModule.VENUE_MIN_ARTISTS &&
-    venue.publishableCount >= 1;
+    venue.publishableCount >= 1 &&
+    hasComparableShow(venue.shows);
   if (venue.indexable !== expectedIndexable) {
     problems.push(
-      `venue quality: ${path} indexability does not match the ${policyModule.VENUE_MIN_SHOWS}-show / ${policyModule.VENUE_MIN_ARTISTS}-artist / publishable-destination gate`
+      `venue quality: ${path} indexability does not match the ${policyModule.VENUE_MIN_SHOWS}-show / ${policyModule.VENUE_MIN_ARTISTS}-artist / publishable-destination / comparison-data gate`
     );
   }
   if (!page || page.status !== 200) {
@@ -360,10 +379,13 @@ for (const entry of artistCityEntries) {
   }
   // The gate is re-derived here from the published constant so a change to
   // deriveArtistCities() cannot silently move the indexable set on its own.
-  const expectedIndexable = entry.publishableCount >= policyModule.ARTIST_CITY_MIN_SHOWS;
+  const expectedIndexable =
+    entry.publishableCount >= policyModule.ARTIST_CITY_MIN_SHOWS &&
+    entry.comparableCount >= 1 &&
+    entry.artistCityCount >= policyModule.ARTIST_CITY_MIN_ARTIST_CITIES;
   if (page.indexable !== expectedIndexable) {
     problems.push(
-      `artist-city quality: ${entry.path} renders ${page.indexable ? "index" : "noindex"} but has ${entry.publishableCount} publishable upcoming show(s) (threshold ${policyModule.ARTIST_CITY_MIN_SHOWS})`
+      `artist-city quality: ${entry.path} renders ${page.indexable ? "index" : "noindex"} but has ${entry.publishableCount} publishable upcoming show(s) (threshold ${policyModule.ARTIST_CITY_MIN_SHOWS}), ${entry.comparableCount} with two price lanes, and the artist plays ${entry.artistCityCount} upcoming cities`
     );
   }
   const mainText = decodeEntities(page.mainHtml);

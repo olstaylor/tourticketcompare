@@ -52,8 +52,13 @@ assert(new Set(guides.PRICE_GUIDE_ARTISTS).size === guides.PRICE_GUIDE_ARTISTS.l
 }
 
 {
-  const gate = policy.priceGuideGate({ showCount: 6, cityCount: 2, publishableCount: 6, snapshotReadyCount: 3 });
+  const gate = policy.priceGuideGate({ showCount: 6, cityCount: 2, publishableCount: 6, snapshotReadyCount: 3, comparableCount: 1 });
   assert(gate.indexable && gate.reasons.length === 0, "a multi-city run with snapshot-ready dates is indexable");
+  const unpriced = policy.priceGuideGate({ showCount: 6, cityCount: 2, publishableCount: 6, snapshotReadyCount: 6, comparableCount: 0 });
+  assert(
+    !unpriced.indexable && unpriced.reasons.includes("no_price_comparison"),
+    "snapshot-ready dates on one lane each are not comparison data (no_price_comparison)"
+  );
   const thin = policy.priceGuideGate({ showCount: 5, cityCount: 1, publishableCount: 5, snapshotReadyCount: 2 });
   assert(!thin.indexable, "a short single-city run is not indexable");
   for (const reason of ["below_show_threshold", "below_city_threshold", "below_price_coverage_threshold"]) {

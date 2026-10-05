@@ -408,11 +408,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7976479",
-        "url": "https://www.ticketliquidator.com/tickets/7976479/Don-Omar-tickets-Sun-Oct-4-2026-Kaseya-Center",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107185216",
@@ -426,7 +426,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976479/Don-Omar-tickets-Sun-Oct-4-2026-Kaseya-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-miami-tickets-10-4-2026/event/107185216"
   },
   {

@@ -3631,11 +3631,19 @@
         "verified": true,
         "last_verified_at": "2026-10-05",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167507",
+        "url": "https://www.ticketliquidator.com/tickets/8167507/Teddy-Swims-tickets-Wed-Mar-10-2027-Barclays-Arena-Hamburg",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vpvZ6G3",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167507"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167507",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167507/Teddy-Swims-tickets-Wed-Mar-10-2027-Barclays-Arena-Hamburg"
   }
 ]

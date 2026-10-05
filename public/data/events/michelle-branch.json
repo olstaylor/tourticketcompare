@@ -361,11 +361,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8135382",
-        "url": "https://www.ticketliquidator.com/tickets/8135382/Michelle-Branch-tickets-Sun-Oct-4-2026-The-Sound-At-The-Del-Mar-Fairgrounds",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -378,7 +378,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_CJE3MsH",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135382/Michelle-Branch-tickets-Sun-Oct-4-2026-The-Sound-At-The-Del-Mar-Fairgrounds",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": ""
   },
   {

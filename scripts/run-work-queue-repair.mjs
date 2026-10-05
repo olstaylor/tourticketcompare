@@ -62,6 +62,7 @@ import {
   repairVerdict,
   resumableBranchDecision,
   selectWorkItem,
+  settledBranch,
   touchesProtectedPath,
   withinDeclaredPaths
 } from "./lib/work-queue-repair.mjs";
@@ -301,6 +302,19 @@ if (SELF_TEST) {
   assert.equal(existingRepair({ plan, openPullRequests: [] }), null);
   // A different finding's repair is not this one's duplicate.
   assert.equal(existingRepair({ plan, openPullRequests: [{ number: 9, head: { ref: "other" }, body: prMarkerFor("ffffffffffffffff") }] }), null);
+  // A leftover branch is replaceable only while its tip is exactly the head of
+  // a pull request a human already closed or merged from that same branch.
+  const tip = "a".repeat(40);
+  const closedPr = (over = {}) => ({ number: 7, state: "closed", merged_at: null, head: { ref: plan.branch, sha: tip }, ...over });
+  assert.equal(settledBranch({ branch: plan.branch, branchSha: tip, closedPullRequests: [closedPr()] }).sha, tip);
+  assert.ok(settledBranch({ branch: plan.branch, branchSha: tip, closedPullRequests: [closedPr({ merged_at: "2026-09-25T00:00:00Z" })] }).reason.includes("was merged"));
+  // Moved after the PR closed, or pushed by a run whose PR never opened: a human decides.
+  assert.equal(settledBranch({ branch: plan.branch, branchSha: "b".repeat(40), closedPullRequests: [closedPr()] }), null);
+  assert.equal(settledBranch({ branch: plan.branch, branchSha: tip, closedPullRequests: [] }), null);
+  // Only a closed PR from this exact branch counts, and only a well-formed sha.
+  assert.equal(settledBranch({ branch: plan.branch, branchSha: tip, closedPullRequests: [closedPr({ state: "open" })] }), null);
+  assert.equal(settledBranch({ branch: plan.branch, branchSha: tip, closedPullRequests: [closedPr({ head: { ref: "other", sha: tip } })] }), null);
+  assert.equal(settledBranch({ branch: plan.branch, branchSha: undefined, closedPullRequests: [closedPr({ head: { ref: plan.branch, sha: undefined } })] }), null);
   // The outcome comment marker is per finding AND per outcome, so a re-run that
   // reaches the same conclusion says nothing twice.
   const marker = commentMarkerFor(plan.fingerprint, OUTCOMES.NEEDS_HUMAN);
@@ -740,42 +754,50 @@ async function main() {
     finish({ outcome: OUTCOMES.NO_SAFE_WORK, reason: `a repair is already in flight: ${duplicate.reason}`, plan });
   }
 
-  // A branch with no open pull request is never re-pushed over. The one case
-  // finished without a human is this worker's own validated push whose pull
-  // request was never opened (resumableBranchDecision); a closed or merged pull
-  // request, extra commits or a diff outside the boundary still need a human.
-  let branchExists = false;
+  // A branch with no open pull request is never re-pushed over. Two cases are
+  // finished without a human: a branch still sitting exactly at the head of a
+  // pull request a human already closed or merged (`settledBranch`), which is
+  // removed under a lease and published afresh; and this worker's own validated
+  // push whose pull request was never opened (`resumableBranchDecision`). Extra
+  // commits, a moved tip or a diff outside the boundary still need a human.
+  let remoteRef = null;
   try {
-    await github("GET", `/git/ref/heads/${plan.branch}`);
-    branchExists = true;
+    remoteRef = await github("GET", `/git/ref/heads/${plan.branch}`);
   } catch (error) {
     if (!/ 404: /.test(error.message)) throw error;
   }
-  if (branchExists) {
+  let leaseSha = null;
+  if (remoteRef) {
     const owner = repo.split("/")[0];
     const [pullRequestsFromBranch, comparison] = await Promise.all([
       github("GET", `/pulls?state=all&head=${encodeURIComponent(`${owner}:${plan.branch}`)}&per_page=10`),
       github("GET", `/compare/main...${plan.branch}`)
     ]);
-    const decision = resumableBranchDecision({ plan, pullRequestsFromBranch, comparison });
-    if (!decision.resume) {
-      await report(
-        OUTCOMES.NEEDS_HUMAN,
-        `\`${plan.branch}\` already exists on the remote with no open pull request, and it is not safe to resume: ${decision.reason}. A human should look at it and delete it before this repair runs again; re-pushing over it is not something this worker will decide on its own.`
-      );
+    const settled = settledBranch({ branch: plan.branch, branchSha: remoteRef?.object?.sha, closedPullRequests: pullRequestsFromBranch });
+    if (settled) {
+      leaseSha = settled.sha;
+      say(`\`${plan.branch}\` is left over: ${settled.reason}. It will be removed under a lease pinned to that sha before publishing.`);
+    } else {
+      const decision = resumableBranchDecision({ plan, pullRequestsFromBranch, comparison });
+      if (!decision.resume) {
+        await report(
+          OUTCOMES.NEEDS_HUMAN,
+          `\`${plan.branch}\` already exists on the remote with no open pull request, and it is not safe to resume: ${decision.reason}. A human should look at it and delete it before this repair runs again; re-pushing over it is not something this worker will decide on its own.`
+        );
+      }
+      say(`Resuming ${plan.branch}: ${decision.reason}.`);
+      if (DRY_RUN) {
+        finish({ outcome: OUTCOMES.FIXED, reason: "dry run — would open the pull request for the branch an earlier run pushed.", plan });
+      }
+      if (decision.providerSummary) plan.providerSummary = decision.providerSummary;
+      const { title, body } = buildPullRequest({ plan, diff: { changed: decision.changed } });
+      const resumedNote = "An earlier run validated and pushed this repair but could not open its pull request; this run opened it and Prelaunch Validation passed on that exact head. One PR is open for human review.";
+      await publishPullRequest({
+        title,
+        body: `${body}\n\nResumed by a later run: an earlier run validated and pushed this branch but could not open its pull request.`,
+        fixedReason: plan.providerSummary ? `${plan.providerSummary}\n${resumedNote}` : resumedNote
+      });
     }
-    say(`Resuming ${plan.branch}: ${decision.reason}.`);
-    if (DRY_RUN) {
-      finish({ outcome: OUTCOMES.FIXED, reason: "dry run — would open the pull request for the branch an earlier run pushed.", plan });
-    }
-    if (decision.providerSummary) plan.providerSummary = decision.providerSummary;
-    const { title, body } = buildPullRequest({ plan, diff: { changed: decision.changed } });
-    const resumedNote = "An earlier run validated and pushed this repair but could not open its pull request; this run opened it and Prelaunch Validation passed on that exact head. One PR is open for human review.";
-    await publishPullRequest({
-      title,
-      body: `${body}\n\nResumed by a later run: an earlier run validated and pushed this branch but could not open its pull request.`,
-      fixedReason: plan.providerSummary ? `${plan.providerSummary}\n${resumedNote}` : resumedNote
-    });
   }
 
   // ── repair ────────────────────────────────────────────────────────────────
@@ -903,13 +925,25 @@ async function main() {
   // installation token is briefly refused by git-over-HTTPS with a 403 that
   // reads like a permanent settings problem. Only that signature is retried
   // — a push git rejected on the merits still blocks at once.
-  const pushed = await pushWithRetry({
-    args: ["push", "-u", "origin", plan.branch],
-    run: (args) => {
-      const result = git(args);
-      return { status: result.exit, output: `${result.stdout || ""}${result.stderr || ""}` };
+  const runPush = (args) => {
+    const result = git(args);
+    return { status: result.exit, output: `${result.stdout || ""}${result.stderr || ""}` };
+  };
+  // A settled leftover branch is deleted, not force-pushed over: its tip sits
+  // on an older main, and GitHub refuses an App push whose ref update spans a
+  // workflow-file change. The delete carries the lease, so a tip that moved
+  // since the read above is refused rather than lost.
+  if (leaseSha) {
+    const deleted = await pushWithRetry({
+      args: ["push", `--force-with-lease=refs/heads/${plan.branch}:${leaseSha}`, "origin", `:refs/heads/${plan.branch}`],
+      run: runPush
+    });
+    if (!deleted.ok) {
+      await report(OUTCOMES.BLOCKED, `the leftover \`${plan.branch}\` could not be removed under its lease: ${truncate(deleted.output)}`);
     }
-  });
+    say(`Removed leftover ${plan.branch} (was ${leaseSha.slice(0, 7)}).`);
+  }
+  const pushed = await pushWithRetry({ args: ["push", "-u", "origin", plan.branch], run: runPush });
   if (!pushed.ok) {
     await report(OUTCOMES.BLOCKED, `\`git push\` failed while publishing the repair: ${truncate(pushed.output)}`);
   }

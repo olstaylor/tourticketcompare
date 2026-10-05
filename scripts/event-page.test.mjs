@@ -284,8 +284,8 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   assert(!/href="\/events\//.test(mainOf(page.html)), "the page links to no other event page");
 
   // Structured data: the site graph, the breadcrumb, and one MusicEvent for
-  // this performance, identified by this page — with no offer, although the
-  // page prints approved prices and SCHEMA_OFFERS_ENABLED is on.
+  // this performance, identified by this page, with an Offer for each price
+  // badge the page's own ticket buttons show (SCHEMA_OFFERS_ENABLED is on).
   // scripts/validate-route-schema.mjs checks every property against the page.
   const graph = graphOf(page.html);
   const nodes = graph.filter((node) => node?.["@type"] === "MusicEvent");
@@ -296,7 +296,10 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   assert(node.eventStatus === "https://schema.org/EventScheduled", "a scheduled date is EventScheduled");
   assert(node.performer?.["@id"] === `${ORIGIN}/artists/${ARTIST.slug}#artist`, "the performer is the artist page's own entity");
   assert(node.name === `${ARTIST.name} at Fixture Arena` && node.location?.name === "Fixture Arena" && node.location?.address?.addressLocality === "Springfield", "name and location are the visible venue and city");
-  assert(!("offers" in node) && !graph.some((entry) => entry?.["@type"] === "Offer") && !/price|availability/i.test(JSON.stringify(node)), "no Offer, price or availability in the event page's structured data");
+  const offers = Array.isArray(node.offers) ? node.offers : [];
+  assert(offers.length >= 1, "a priced event page carries an Offer");
+  assert(offers.every((offer) => offer["@type"] === "Offer" && mainOf(page.html).includes(String(Math.round(offer.price))) && offer.url.startsWith(`${ORIGIN}/api/out?`) && offer.priceValidUntil), "each Offer is a visible price with its tracked link and expiry");
+  assert(!/availability/i.test(JSON.stringify(node)), "no availability claim in the event page's structured data");
   assert(graph.some((entry) => entry?.["@type"] === "BreadcrumbList"), "the visible breadcrumb is mirrored");
 
   // Stale snapshot: invisible on both surfaces.

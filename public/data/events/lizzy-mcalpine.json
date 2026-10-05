@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/lizzy-mcalpine-the-over-country-tour-torrensville-03-02-2027/event/13006535DDD5CEEA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,8 +50,7 @@
     },
     "ticketmaster_discovery_event_id": "1AKZkfgGkdqgjDn",
     "timezone": "Australia/Adelaide",
-    "status": "announced",
-    "public_onsale_at": "2026-09-30T02:30:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-brisbane-1akzkfugkeggjy4",
@@ -69,7 +68,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/lizzy-mcalpine-the-over-country-tour-brisbane-12-02-2027/event/13006536B5326C15",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -104,8 +103,7 @@
     },
     "ticketmaster_discovery_event_id": "1AKZkfUGkegGJY4",
     "timezone": "Australia/Brisbane",
-    "status": "announced",
-    "public_onsale_at": "2026-09-30T02:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-warsaw-z698xzqpz16vfyab0p",
@@ -123,7 +121,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/lizzy-mcalpine-support-worthitpurchase-%7C-the-over-country-tour-tickets/1230158916?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -158,18 +156,17 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ16vFYAb0p",
     "timezone": "Europe/Warsaw",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T08:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-glasgow-g5dzz_krfm-83",
     "artist_slug": "lizzy-mcalpine",
     "artist_name": "Lizzy McAlpine",
-    "event_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine - the Over Country Tour",
     "city": "Glasgow",
     "country": "Great Britain",
     "venue": "O2 Academy Glasgow",
-    "datetime_iso": "2027-04-09T18:00:00Z",
+    "datetime_iso": "2027-04-09T17:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "3E00653788BA1412",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-glasgow-09-04-2027/event/3E00653788BA1412",
@@ -177,7 +174,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-glasgow-09-04-2027/event/3E00653788BA1412",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -219,8 +216,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KrFm-83",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T09:00:00Z",
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-9-4-2027/event/107671407"
   },
   {
@@ -231,7 +227,7 @@
     "city": "Dublin",
     "country": "Ireland",
     "venue": "3Arena",
-    "datetime_iso": "2027-04-12T17:30:00Z",
+    "datetime_iso": "2027-04-12T17:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "18006532873F95D4",
     "ticketmaster_url": "https://www.ticketmaster.ie/lizzy-mcalpine-the-over-country-tour-dublin-12-04-2027/event/18006532873F95D4",
@@ -239,7 +235,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/lizzy-mcalpine-the-over-country-tour-dublin-12-04-2027/event/18006532873F95D4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -274,8 +270,7 @@
     },
     "ticketmaster_discovery_event_id": "16bZkfw-SZA81kCA",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T09:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-houston-g5diz_kko6pz2",
@@ -293,7 +288,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-houston-713-music-hall-5-1-2027/production/7606570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-houston-texas-05-01-2027/event/3A006531911D6E0F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -315,7 +310,7 @@
         "event_id": 7606570,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-houston-713-music-hall-5-1-2027/production/7606570",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -349,8 +344,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_Kko6pz2",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287503",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287503/Lizzy-McAlpine-tickets-Sat-May-1-2027-713-Music-Hall",
     "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-houston-tickets-5-1-2027/event/107670451"
@@ -371,7 +365,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-durham-north-carolina-05-04-2027/event/2D006537DF9A769F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -406,8 +400,7 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KLLJEQL",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-detroit-vv1afzkfmgkdd0jd5",
@@ -425,7 +418,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-detroit-fox-theatre-detroit-5-7-2027/production/7606574",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-detroit-michigan-05-07-2027/event/08006537FB91CECB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -447,7 +440,7 @@
         "event_id": 7606574,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-detroit-fox-theatre-detroit-5-7-2027/production/7606574",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -474,8 +467,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfMGkdD0jD5",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287505",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287505/Lizzy-McAlpine-tickets-Fri-May-7-2027-Fox-Theatre-Detroit"
   },
@@ -495,7 +487,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-indianapolis-clowes-memorial-hall-5-9-2027/production/7606576",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-indianapolis-indiana-05-09-2027/event/05006535B611EE82",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -517,7 +509,7 @@
         "event_id": 7606576,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-indianapolis-clowes-memorial-hall-5-9-2027/production/7606576",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -544,8 +536,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfgGkeU7rBe",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287506",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287506/Lizzy-McAlpine-tickets-Sun-May-9-2027-Clowes-Memorial-Hall"
   },
@@ -565,7 +556,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-12-2027/production/7606578",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-12-2027/event/06006531EBD2D135",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -587,7 +578,7 @@
         "event_id": 7606578,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-12-2027/production/7606578",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -614,8 +605,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfsGkdlVc7g",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287507",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287507/Lizzy-McAlpine-tickets-Wed-May-12-2027-State-Theatre-MN"
   },
@@ -635,7 +625,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-saint-louis-missouri-05-15-2027/event/060065359F787E88",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -670,8 +660,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPu_GA2r6BF",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-nashville-g5viz_kqsm0og",
@@ -689,7 +678,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-nashville-bridgestone-arena-6-16-2027/production/7606584",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-nashville-tennessee-06-16-2027/event/1B00653773DE4835",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -711,7 +700,7 @@
         "event_id": 7606584,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-nashville-bridgestone-arena-6-16-2027/production/7606584",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -745,8 +734,7 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_KqSM0Og",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287510",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287510/Lizzy-McAlpine-tickets-Wed-Jun-16-2027-Bridgestone-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-nashville-tickets-6-16-2027/event/107670480"
@@ -767,7 +755,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-philadelphia-xfinity-mobile-arena-6-18-2027/production/7606586",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wxpn-welcomes-lizzy-mcalpine-the-over-philadelphia-pennsylvania-06-18-2027/event/30006531F6639F96",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -789,7 +777,7 @@
         "event_id": 7606586,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-philadelphia-xfinity-mobile-arena-6-18-2027/production/7606586",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -823,8 +811,7 @@
     },
     "ticketmaster_discovery_event_id": "1AYZkfsGkdUbyXp",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287512",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287512/Lizzy-McAlpine-tickets-Fri-Jun-18-2027-Xfinity-Mobile-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-philadelphia-tickets-6-18-2027/event/107670455"
@@ -845,7 +832,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-20-2027/production/7606590",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-20-2027/event/010065378A60995E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -867,7 +854,7 @@
         "event_id": 7606590,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-20-2027/production/7606590",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -894,8 +881,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1A8vPuzGA1baPr",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287513",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287513/Lizzy-McAlpine-tickets-Sun-Jun-20-2027-Agganis-Arena"
   },
@@ -915,7 +901,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-new-york-madison-square-garden-6-24-2027/production/7606580",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-new-york-new-york-06-24-2027/event/3B006537909D2CC2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -937,7 +923,7 @@
         "event_id": 7606580,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-new-york-madison-square-garden-6-24-2027/production/7606580",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -971,8 +957,7 @@
     },
     "ticketmaster_discovery_event_id": "G5diZ_Kr8E3Se",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287514",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287514/Lizzy-McAlpine-tickets-Thu-Jun-24-2027-Madison-Square-Garden",
     "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-new-york-tickets-6-24-2027/event/107670456"
@@ -993,7 +978,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbia-merriweather-post-pavilion-6-25-2027--concerts-alternative/production/7606598",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-columbia-maryland-06-25-2027/event/15006537A689641E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1015,7 +1000,7 @@
         "event_id": 7606598,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbia-merriweather-post-pavilion-6-25-2027--concerts-alternative/production/7606598",
         "verified": true,
-        "last_verified_at": "2026-10-01",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1042,8 +1027,7 @@
     },
     "ticketmaster_discovery_event_id": "1A4ZkfMGkeJxp8r",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287516",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287516/Lizzy-McAlpine-tickets-Fri-Jun-25-2027-Merriweather-Post-Pavilion"
   },
@@ -1063,7 +1047,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-toronto-scotiabank-arena-6-27-2027--concerts-alternative/production/7606716",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/lizzy-mcalpine-the-over-country-tour-toronto-ontario-06-27-2027/event/10006532A18F8C90",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1085,7 +1069,7 @@
         "event_id": 7606716,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-toronto-scotiabank-arena-6-27-2027--concerts-alternative/production/7606716",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1098,8 +1082,7 @@
     },
     "ticketmaster_discovery_event_id": "1A8ZkfwGke-Nzw8",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T14:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-chicago-vv1a7zkfggkenm_sz",
@@ -1117,7 +1100,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-chicago-united-center-6-29-2027--concerts-alternative/production/7606600",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-chicago-illinois-06-29-2027/event/04006535AADD9CC0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1139,7 +1122,7 @@
         "event_id": 7606600,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-chicago-united-center-6-29-2027--concerts-alternative/production/7606600",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1173,8 +1156,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfgGkenM_SZ",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287517",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287517/Lizzy-McAlpine-tickets-Tue-Jun-29-2027-United-Center",
     "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-chicago-tickets-6-29-2027/event/107669203"
@@ -1195,7 +1177,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-austin-moody-center-atx-7-2-2027--concerts-alternative/production/7606604",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-austin-texas-07-02-2027/event/3A0065329D25838A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1217,7 +1199,7 @@
         "event_id": 7606604,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-austin-moody-center-atx-7-2-2027--concerts-alternative/production/7606604",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1251,8 +1233,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_K1qabC1",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287518",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287518/Lizzy-McAlpine-tickets-Fri-Jul-2-2027-Moody-Center-ATX",
     "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-austin-tickets-7-2-2027/event/107670457"
@@ -1273,7 +1254,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-san-diego-the-rady-shell-at-jacobs-park-7-9-2027--concerts-alternative/production/7606606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-san-diego-california-07-09-2027/event/0A0065365069CDEC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1295,7 +1276,7 @@
         "event_id": 7606606,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-san-diego-the-rady-shell-at-jacobs-park-7-9-2027--concerts-alternative/production/7606606",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1322,8 +1303,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_K_8QjMi",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287519",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287519/Lizzy-McAlpine-tickets-Fri-Jul-9-2027-The-Rady-Shell-at-Jacobs-Park"
   },
@@ -1343,7 +1323,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-inglewood-kia-forum-7-10-2027/production/7606614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-inglewood-california-07-10-2027/event/09006536E3C9E1DF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1365,7 +1345,7 @@
         "event_id": 7606614,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-inglewood-kia-forum-7-10-2027/production/7606614",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1399,8 +1379,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AaZkfUGkdNwr6L",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287520",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287520/Lizzy-McAlpine-tickets-Sat-Jul-10-2027-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-inglewood-tickets-7-10-2027/event/107670458"
@@ -1421,7 +1400,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-san-francisco-chase-center-7-13-2027/production/7606620",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-san-francisco-california-07-13-2027/event/1C006531E959B015",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1443,7 +1422,7 @@
         "event_id": 7606620,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-san-francisco-chase-center-7-13-2027/production/7606620",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1477,8 +1456,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K6tphZ4",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287521",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287521/Lizzy-McAlpine-tickets-Tue-Jul-13-2027-Chase-Center",
     "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-san-francisco-tickets-7-13-2027/event/107670459"
@@ -1499,7 +1477,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-portland-moda-center-7-15-2027/production/7606624",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-portland-oregon-07-15-2027/event/0F00653582563117",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1521,7 +1499,7 @@
         "event_id": 7606624,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-portland-moda-center-7-15-2027/production/7606624",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1548,8 +1526,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_Kpe4N79",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287522",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287522/Lizzy-McAlpine-tickets-Thu-Jul-15-2027-Moda-Center-at-the-Rose-Quarter"
   },
@@ -1569,7 +1546,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-seattle-climate-pledge-arena-7-17-2027/production/7606630",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-seattle-washington-07-17-2027/event/0F00653207A196E3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1591,7 +1568,7 @@
         "event_id": 7606630,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-seattle-climate-pledge-arena-7-17-2027/production/7606630",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1625,10 +1602,1036 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KF6I_hN",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-02T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287523",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287523/Lizzy-McAlpine-tickets-Sat-Jul-17-2027-Climate-Pledge-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-seattle-tickets-7-17-2027/event/107670460"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-torrensville-1akzkfggkepdplf",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine - The Over Country Tour",
+    "city": "Torrensville",
+    "country": "Australia",
+    "venue": "Thebarton Theatre",
+    "datetime_iso": "2027-02-02T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006535A5ED6AC8",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/lizzy-mcalpine-the-over-country-tour-torrensville-02-02-2027/event/13006535A5ED6AC8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/lizzy-mcalpine-the-over-country-tour-torrensville-02-02-2027/event/13006535A5ED6AC8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006535A5ED6AC8",
+        "discovery_event_id": "1AKZkfgGkePDplF",
+        "url": "https://www.ticketmaster.com.au/lizzy-mcalpine-the-over-country-tour-torrensville-02-02-2027/event/13006535A5ED6AC8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZkfgGkePDplF",
+    "timezone": "Australia/Adelaide",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-london-g5dzz_krvbn6w",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine THE OVER COUNTRY TOUR",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-03-31T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006537B4EA31F2",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-31-03-2027/event/3E006537B4EA31F2",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-3-31-2027--concerts-alternative/production/7606823",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-31-03-2027/event/3E006537B4EA31F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006537B4EA31F2",
+        "discovery_event_id": "G5dzZ_KrVBN6w",
+        "url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-31-03-2027/event/3E006537B4EA31F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7606823,
+        "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-3-31-2027--concerts-alternative/production/7606823",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8297685",
+        "url": "https://www.ticketnetwork.com/en/p/8297685",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8297685",
+        "url": "https://www.ticketliquidator.com/tickets/8297685/Lizzy-McAlpine-tickets-Wed-Mar-31-2027-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671408",
+        "url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-london-o2-academy-brixton-31-3-2027/event/107671408",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KrVBN6w",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297685",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297685/Lizzy-McAlpine-tickets-Wed-Mar-31-2027-O2-Academy-Brixton",
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-london-o2-academy-brixton-31-3-2027/event/107671408"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-london-g5dzz_kslx95p",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine THE OVER COUNTRY TOUR",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-04-01T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00653CDFF972D6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-01-04-2027/event/3E00653CDFF972D6",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-4-1-2027/production/7628968",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-01-04-2027/event/3E00653CDFF972D6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00653CDFF972D6",
+        "discovery_event_id": "G5dzZ_KSLX95p",
+        "url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-01-04-2027/event/3E00653CDFF972D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7628968,
+        "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-4-1-2027/production/7628968",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8297134",
+        "url": "https://www.ticketnetwork.com/en/p/8297134",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8297134",
+        "url": "https://www.ticketliquidator.com/tickets/8297134/Lizzy-McAlpine-tickets-Thu-Apr-1-2027-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671423",
+        "url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-london-o2-academy-brixton-1-4-2027/event/107671423",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KSLX95p",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297134",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297134/Lizzy-McAlpine-tickets-Thu-Apr-1-2027-O2-Academy-Brixton",
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-london-o2-academy-brixton-1-4-2027/event/107671423"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-london-g5dzz_kscgmsk",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine THE OVER COUNTRY TOUR",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-04-02T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00653CED337C46",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-02-04-2027/event/3E00653CED337C46",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-4-2-2027/production/7636984",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-02-04-2027/event/3E00653CED337C46",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00653CED337C46",
+        "discovery_event_id": "G5dzZ_KScGMsk",
+        "url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-london-02-04-2027/event/3E00653CED337C46",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7636984,
+        "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-4-2-2027/production/7636984",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8299948",
+        "url": "https://www.ticketnetwork.com/en/p/8299948",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8299948",
+        "url": "https://www.ticketliquidator.com/tickets/8299948/Lizzy-McAlpine-tickets-Fri-Apr-2-2027-O2-Academy-Brixton",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670889",
+        "url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-london-o2-academy-brixton-2-4-2027/event/107670889",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KScGMsk",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299948",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8299948/Lizzy-McAlpine-tickets-Fri-Apr-2-2027-O2-Academy-Brixton",
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-london-o2-academy-brixton-2-4-2027/event/107670889"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-birmingham-g5dzz_kkek096",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine - the Over Country Tour",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Academy Birmingham",
+    "datetime_iso": "2027-04-07T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006531A74E45C7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-birmingham-07-04-2027/event/3E006531A74E45C7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-birmingham-07-04-2027/event/3E006531A74E45C7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006531A74E45C7",
+        "discovery_event_id": "G5dzZ_KkEK096",
+        "url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-birmingham-07-04-2027/event/3E006531A74E45C7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671411",
+        "url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-birmingham-o2-academy-birmingham-7-4-2027/event/107671411",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KkEK096",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-birmingham-o2-academy-birmingham-7-4-2027/event/107671411"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-glasgow-g5dzz_kwtjarb",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine - the Over Country Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "O2 Academy Glasgow",
+    "datetime_iso": "2027-04-10T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00653CBF9857BA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-glasgow-10-04-2027/event/3E00653CBF9857BA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-glasgow-10-04-2027/event/3E00653CBF9857BA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00653CBF9857BA",
+        "discovery_event_id": "G5dzZ_KwTJArB",
+        "url": "https://www.ticketmaster.co.uk/lizzy-mcalpine-the-over-country-tour-glasgow-10-04-2027/event/3E00653CBF9857BA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8299949",
+        "url": "https://www.ticketnetwork.com/en/p/8299949",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8299949",
+        "url": "https://www.ticketliquidator.com/tickets/8299949/Lizzy-McAlpine-tickets-Sat-Apr-10-2027-O2-Academy-Glasgow",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KwTJArB",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299949",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8299949/Lizzy-McAlpine-tickets-Sat-Apr-10-2027-O2-Academy-Glasgow"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-dallas-z7r9jz1aaekq3",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine w/ Sydney Ross Mitchell",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "The Bomb Factory",
+    "datetime_iso": "2027-05-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAekq3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekq3",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-dallas-the-bomb-factory-4-30-2027--concerts-alternative/production/7606724",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekq3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAekq3",
+        "discovery_event_id": "Z7r9jZ1AAekq3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekq3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7606724,
+        "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-dallas-the-bomb-factory-4-30-2027--concerts-alternative/production/7606724",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287525",
+        "url": "https://www.ticketnetwork.com/en/p/8287525",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287525",
+        "url": "https://www.ticketliquidator.com/tickets/8287525/Lizzy-McAlpine-tickets-Fri-Apr-30-2027-The-Bomb-Factory",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAekq3",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287525",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287525/Lizzy-McAlpine-tickets-Fri-Apr-30-2027-The-Bomb-Factory"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-atlanta-z7r9jz1aaea-b",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine w/ Sydney Ross Mitchell",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Fox Theatre - Atlanta",
+    "datetime_iso": "2027-05-03T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeA-b",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-b",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-atlanta-fox-theatre---atlanta-5-3-2027--concerts-alternative/production/7606728",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-b",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeA-b",
+        "discovery_event_id": "Z7r9jZ1AAeA-b",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-b",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7606728,
+        "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-atlanta-fox-theatre---atlanta-5-3-2027--concerts-alternative/production/7606728",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300134",
+        "url": "https://www.ticketnetwork.com/en/p/8300134",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300134",
+        "url": "https://www.ticketliquidator.com/tickets/8300134/Lizzy-McAlpine-tickets-Mon-May-3-2027-Fabulous-Fox-Theatre-Atlanta",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA-b",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300134",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300134/Lizzy-McAlpine-tickets-Mon-May-3-2027-Fabulous-Fox-Theatre-Atlanta"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-columbus-z7r9jz1aaea09",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Palace Theatre Columbus",
+    "datetime_iso": "2027-05-06T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeA09",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA09",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbus-palace-theatre-columbus-5-6-2027--concerts-alternative/production/7606732",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA09",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeA09",
+        "discovery_event_id": "Z7r9jZ1AAeA09",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA09",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7606732,
+        "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbus-palace-theatre-columbus-5-6-2027--concerts-alternative/production/7606732",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287526",
+        "url": "https://www.ticketnetwork.com/en/p/8287526",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287526",
+        "url": "https://www.ticketliquidator.com/tickets/8287526/Lizzy-McAlpine-tickets-Thu-May-6-2027-Palace-Theatre-Columbus",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA09",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287526",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287526/Lizzy-McAlpine-tickets-Thu-May-6-2027-Palace-Theatre-Columbus"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-milwaukee-z7r9jz1aaea0_",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine w/ Sydney Ross Mitchell",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Riverside Theater - WI",
+    "datetime_iso": "2027-05-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeA0_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA0_",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-milwaukee-riverside-theater---wi-5-10-2027--concerts-alternative/production/7606750",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA0_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeA0_",
+        "discovery_event_id": "Z7r9jZ1AAeA0_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA0_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7606750,
+        "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-milwaukee-riverside-theater---wi-5-10-2027--concerts-alternative/production/7606750",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287527",
+        "url": "https://www.ticketnetwork.com/en/p/8287527",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287527",
+        "url": "https://www.ticketliquidator.com/tickets/8287527/Lizzy-McAlpine-tickets-Mon-May-10-2027-Riverside-Theater-WI",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA0_",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287527",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287527/Lizzy-McAlpine-tickets-Mon-May-10-2027-Riverside-Theater-WI"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-minneapolis-vv1akzkfsgkdlgq7t",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine: The Over Country Tour",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "State Theatre",
+    "datetime_iso": "2027-05-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006531EBD5D13F",
+    "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-13-2027/event/06006531EBD5D13F",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-13-2027/production/7631653",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-13-2027/event/06006531EBD5D13F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006531EBD5D13F",
+        "discovery_event_id": "vv1AkZkfsGkdlgq7T",
+        "url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-13-2027/event/06006531EBD5D13F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7631653,
+        "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-13-2027/production/7631653",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300364",
+        "url": "https://www.ticketnetwork.com/en/p/8300364",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300364",
+        "url": "https://www.ticketliquidator.com/tickets/8300364/Lizzy-McAlpine-tickets-Thu-May-13-2027-State-Theatre-MN",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfsGkdlgq7T",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300364",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300364/Lizzy-McAlpine-tickets-Thu-May-13-2027-State-Theatre-MN"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-kansas-city-z7r9jz1aaekqk",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine w/ Sydney Ross Mitchell",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "The Midland Theatre - MO",
+    "datetime_iso": "2027-05-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAekqK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekqK",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-kansas-city-the-midland-theatre-5-17-2027--concerts-alternative/production/7606754",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekqK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAekqK",
+        "discovery_event_id": "Z7r9jZ1AAekqK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekqK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7606754,
+        "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-kansas-city-the-midland-theatre-5-17-2027--concerts-alternative/production/7606754",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287528",
+        "url": "https://www.ticketnetwork.com/en/p/8287528",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287528",
+        "url": "https://www.ticketliquidator.com/tickets/8287528/Lizzy-McAlpine-tickets-Mon-May-17-2027-The-Midland-Theatre-MO",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAekqK",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287528",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287528/Lizzy-McAlpine-tickets-Mon-May-17-2027-The-Midland-Theatre-MO"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-oklahoma-city-z7r9jz1aaea-p",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine",
+    "city": "Oklahoma City",
+    "country": "United States Of America",
+    "venue": "Thelma Gaylord Performing Arts Theatre",
+    "datetime_iso": "2027-05-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeA-P",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-P",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-P",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeA-P",
+        "discovery_event_id": "Z7r9jZ1AAeA-P",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-P",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA-P",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-boston-vv1a8vpuzga1bypi",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine: The Over Country Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Agganis Arena",
+    "datetime_iso": "2027-06-21T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010065378A639968",
+    "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-21-2027/event/010065378A639968",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-21-2027--concerts-alternative/production/7631927",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-21-2027/event/010065378A639968",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010065378A639968",
+        "discovery_event_id": "vv1A8vPuzGA1byPI",
+        "url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-21-2027/event/010065378A639968",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7631927,
+        "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-21-2027--concerts-alternative/production/7631927",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8298345",
+        "url": "https://www.ticketnetwork.com/en/p/8298345",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8298345",
+        "url": "https://www.ticketliquidator.com/tickets/8298345/Lizzy-McAlpine-tickets-Mon-Jun-21-2027-Agganis-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A8vPuzGA1byPI",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8298345",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8298345/Lizzy-McAlpine-tickets-Mon-Jun-21-2027-Agganis-Arena"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-morrison-z7r9jz1aaeax6",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine w/ Searows",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-07-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeAx6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAx6",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-morrison-red-rocks-amphitheatre-7-6-2027--concerts-alternative/production/7606811",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAx6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeAx6",
+        "discovery_event_id": "Z7r9jZ1AAeAx6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAx6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7606811,
+        "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-morrison-red-rocks-amphitheatre-7-6-2027--concerts-alternative/production/7606811",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287530",
+        "url": "https://www.ticketnetwork.com/en/p/8287530",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287530",
+        "url": "https://www.ticketliquidator.com/tickets/8287530/Lizzy-McAlpine-tickets-Tue-Jul-6-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669216",
+        "url": "https://www.stubhub.ie/lizzy-mcalpine-morrison-tickets-7-6-2027/event/107669216",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeAx6",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287530",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287530/Lizzy-McAlpine-tickets-Tue-Jul-6-2027-Red-Rocks-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-morrison-tickets-7-6-2027/event/107669216"
   }
 ]

@@ -212,7 +212,7 @@
         "event_id": 7559479,
         "url": "https://www.vividseats.com/the-lemonheads-tickets-brooklyn-brooklyn-bowl---ny-2-11-2027/production/7559479",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -289,7 +289,7 @@
         "event_id": 7559509,
         "url": "https://www.vividseats.com/the-lemonheads-tickets-atlanta-the-masquerade---hell-2-20-2027/production/7559509",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -342,7 +342,7 @@
         "event_id": 7561053,
         "url": "https://www.vividseats.com/the-lemonheads-tickets-houston-white-oak-music-hall---upstairs-2-22-2027--concerts-rock/production/7561053",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -403,7 +403,7 @@
         "event_id": 7559491,
         "url": "https://www.vividseats.com/the-lemonheads-tickets-los-angeles-teragram-ballroom-3-4-2027/production/7559491",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -464,7 +464,7 @@
         "event_id": 7561057,
         "url": "https://www.vividseats.com/the-lemonheads-tickets-san-francisco-august-hall-3-7-2027--concerts-rock/production/7561057",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -525,7 +525,7 @@
         "event_id": 7558847,
         "url": "https://www.vividseats.com/the-lemonheads-tickets-madison-majestic-theatre---madison-3-19-2027/production/7558847",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -647,7 +647,7 @@
         "event_id": 7559499,
         "url": "https://www.vividseats.com/the-lemonheads-tickets-cincinnati-ludlow-garage-3-26-2027/production/7559499",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -659,6 +659,59 @@
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_3GkmYbpfp",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-tampa-z7r9jz1aavwob",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads (under 18 with parent or legal guardian)",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Orpheum Theatre - Tampa",
+    "datetime_iso": "2027-02-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvwOb",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwOb",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-tampa-orpheum-theatre---tampa-2-18-2027/production/7559489",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwOb",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvwOb",
+        "discovery_event_id": "Z7r9jZ1AAvwOb",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvwOb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7559489,
+        "url": "https://www.vividseats.com/the-lemonheads-tickets-tampa-orpheum-theatre---tampa-2-18-2027/production/7559489",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvwOb",
     "timezone": "America/New_York",
     "status": "on-sale"
   }

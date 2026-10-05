@@ -9,7 +9,7 @@ TourTicketCompare is a static-first Cloudflare Pages application with Pages Func
 | `public/` | Static HTML shell, client JavaScript, CSS, and public JSON data |
 | `functions/` | Cloudflare Pages middleware, server-rendered route adaptation, APIs, redirects, and sitemap |
 | Cloudflare Pages | Production hosting and Git-integrated deployment |
-| Cloudflare D1 (`DEMAND_DB`) | Signups, analytics, rate caps, provider pricing cache, and pricing history |
+| Cloudflare D1 (`DEMAND_DB`) | Signups, analytics, rate caps, provider pricing cache, pricing history, and the never-pruned daily price rollup |
 
 Cloudflare Pages + Pages Functions is the only production path. Vercel and the former standalone Worker are not deployment targets; do not reintroduce either without an explicit architecture decision.
 
@@ -41,7 +41,8 @@ functions/
   _venues.js                 Venue aggregation derived from events.json (shared with sitemap)
   _artist-cities.js          Artist-city aggregation for /artists/<artist>/tickets/<city>
   _price-guides.js           Artist price-guide registry, derivation and launch detection (/artists/<artist>/ticket-prices)
-  _event-price-moves.js      Latest recorded per-date, per-provider price move for the price guide
+  _event-price-moves.js      Latest recorded per-date, per-provider price move; 7-day change for dates ≤ 14 days out
+  _price-outliers.js         Isolated-spike rule shared by every recorded-price claim
   _route-indexability.js     Shared route-usefulness thresholds, publishability test, reasons
   _event-local-date.js       Strict venue-local date/instant resolver (runtime + provider matchers)
   _event-pages.js            Event identity, stable keys, /events/* routing and event-page schema decision
@@ -62,7 +63,9 @@ functions/
     shows.js                 Event API and cache-only price responses
     health.js                Runtime/config presence without secret values
     analytics.js             First-party write-only analytics beacon
-    signup.js                Email/interest demand capture (nothing is ever emailed)
+    signup.js                Email/interest capture; artist date-alert signups are emailed
+                             once by scripts/send-date-alerts.mjs, price interest never
+    unsubscribe.js           Opt-out from the link in a date-alert email (GET confirms, POST records)
     price-history.js         Read-only snapshot history behind the badge display gate
     rates.js                 Cache-backed ECB reference rates for /currency-converter
     admin/                   GitHub OAuth handshake for the editor (ADMIN_HOST only)
@@ -212,10 +215,15 @@ of binary files on every data sync. This is also why `npm run og:check` verifies
 that referenced cards exist rather than that the manifest matches the current
 indexable surface — city, venue and artist-city routes appear and disappear on
 their own, and an exact-match check would fail on any day the calendar moved.
-Coverage is watched separately: `npm run og:coverage:check` fails when a current
-indexable route has no card, and it is the check the generated-freshness sensor
-runs for the `og-cards` artefact, so new routes get a rebuild PR from the
-work-queue repair worker rather than waiting for a manual `og:build`.
+Cards are built at the source: every lane that writes event or artist data
+(auto-promote, Ticketmaster new shows, TM data refresh, nightly sync, the
+SeatGeek, Vivid Seats and Impact CTA syncs) runs `npm run og:build` before
+`test:mvp` and commits `public/og/` and the manifest with its data, so a page
+never ships on the shared card. Coverage is the backstop:
+`npm run og:coverage:check` fails when a current indexable route has no card,
+and it is the check the generated-freshness sensor runs for the `og-cards`
+artefact, so anything a lane misses gets a rebuild PR from the work-queue repair
+worker.
 
 Cards are rasterised with `sharp` (a devDependency) against the DejaVu faces the
 brand template names first. Generate on Linux so committed cards match CI.

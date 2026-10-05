@@ -95,6 +95,9 @@ jobs:
       - name: Run provider pricing history prune self-test
         run: npm run prices:history:prune:self-test
 
+      - name: Run provider pricing daily rollup self-test
+        run: npm run prices:rollup:daily:self-test
+
       - name: Validate checkpoint capture and calculations
         run: npm run test:price-timing
 
@@ -178,6 +181,41 @@ jobs:
           if (summary.failed > 0) console.log(`::warning::${summary.failed} Vivid Seats observations failed.`);
           if (summary.zero_row_reason) console.log(`::notice::Vivid Seats zero-row reason: ${summary.zero_row_reason}`);
           if (summary.incomplete_artists?.length) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `\n**Catalog over pagination cap (not priced):** ${summary.incomplete_artists.join(", ")}\n`);
+          NODE
+
+      # Summarise the day into the never-pruned rollup BEFORE the prune runs,
+      # so observations about to age out are captured rather than lost. Scoped
+      # to this lane so it never contends with the marketplace workflow's
+      # concurrent jobs. Idempotent per UTC day, and it only ever replaces a
+      # day with a summary built from at least as many observations, so a
+      # re-run after a prune is a no-op rather than data loss.
+      #
+      # continue-on-error: this job's contract is writing prices. A rollup
+      # failure must leave the lane green and the prices written; the gap shows
+      # up as a stale rollup, not as a dark price badge.
+      - name: Roll the Vivid Seats day up into provider_pricing_daily
+        if: github.event_name != 'workflow_dispatch' || github.event.inputs.apply == 'true'
+        continue-on-error: true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -uo pipefail
+          node scripts/rollup-provider-pricing-daily.mjs --provider vivid-seats --database "${D1_DATABASE_NAME}" --apply --json \
+            > "$RUNNER_TEMP/vividseats-pricing-rollup.json" 2>"$RUNNER_TEMP/vividseats-pricing-rollup.err" \
+            || echo "ROLLUP FAILED: $(tail -n 3 "$RUNNER_TEMP/vividseats-pricing-rollup.err")"
+          cat "$RUNNER_TEMP/vividseats-pricing-rollup.json" || true
+          # continue-on-error hides a thrown step completely, so the summary has
+          # to be written even when the rollup failed — otherwise a rollup that
+          # silently stopped looks exactly like one that had nothing to do.
+          node --input-type=module - "$RUNNER_TEMP/vividseats-pricing-rollup.json" <<'NODE'
+          import fs from "node:fs";
+          let row = "| — | — | **step failed** | — | rollup did not report; prices are unaffected |";
+          try {
+            const s = JSON.parse(fs.readFileSync(process.argv[2], "utf8"));
+            row = `| ${s.days} | ${s.eligible_rollup_rows} | ${s.written} | ${s.failed ? `**${s.failed}** (${s.days_failed.join(", ")})` : 0} | ${s.zero_row_reason || "—"} |`;
+          } catch {}
+          fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `\n### Daily price rollup\n\n| Days | Eligible | Written | Failed days | Zero-row reason |\n| ---: | ---: | ---: | ---: | --- |\n${row}\n`);
           NODE
 
       # Bounded retention for the change-only history table, on apply runs

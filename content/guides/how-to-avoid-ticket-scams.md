@@ -143,3 +143,6 @@ It can be hard. Contact your bank straight away, report the payment as fraud and
 - [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing)
 - [Is Vivid Seats legit?](/guides/is-vivid-seats-legit)
 - [Is SeatGeek legit?](/guides/is-seatgeek-legit)
+- [Is TicketNetwork legit?](/guides/is-ticketnetwork-legit)
+- [Is Ticket Liquidator legit?](/guides/is-ticket-liquidator-legit)
+- [StubHub International explained](/guides/stubhub-international-explained)

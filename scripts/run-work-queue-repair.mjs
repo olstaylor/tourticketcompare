@@ -10,15 +10,14 @@
 //     -> open ONE pull request
 //     -> stop.
 //
-// It supports exactly one finding type, `generated_artifact_stale`, and its
-// repair is one command looked up in `GENERATED_ARTEFACTS` — the same fixed
-// allowlist the sensor itself runs. Nothing in an issue can name a command, a
+// Generated repairs use `GENERATED_ARTEFACTS`; provider URL batches use the
+// existing SeatGeek verifier and a field-level allowlist. Nothing in an issue can name a command, a
 // path or a repair: see scripts/lib/work-queue-repair.mjs, which holds the whole
 // decision layer and is pure, so the safety boundary is proved by `--self-test`
 // rather than by watching a run.
 //
 // It never merges, never enables auto-merge, never touches a `risk:red` item,
-// and never edits a source file to make a check pass. Every attempted item ends
+// and never widens a repair beyond its declared operation. Every attempted item ends
 // on one explicit outcome: FIXED, BLOCKED, NEEDS HUMAN or NO SAFE WORK.
 //
 // Usage:
@@ -35,6 +34,8 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { GENERATED_ARTEFACTS } from "./check-generated-freshness.mjs";
 import { DEFAULT_POLL_MS, DEFAULT_TIMEOUT_MS, earnRequiredCheck } from "./lib/required-check.mjs";
 import { pushWithRetry } from "./push-automation-branch.mjs";
+import { PROVIDER_URL_TYPE } from "./lib/provider-url-work.mjs";
+import { performProviderUrlRepair } from "./lib/provider-url-repair.mjs";
 import {
   ALLOWED_RISKS,
   FAILING_OUTCOMES,
@@ -51,9 +52,15 @@ import {
   existingRepair,
   isAllowedBranch,
   isAllowedCommand,
+  isTransientApiError,
+  openPullRequestWithRetry,
   parseMachineBlock,
+  COMPARE_FILE_LIMIT,
   prMarkerFor,
+  providerSummaryFromCommit,
+  pullRequestTitleFor,
   repairVerdict,
+  resumableBranchDecision,
   selectWorkItem,
   touchesProtectedPath,
   withinDeclaredPaths
@@ -259,7 +266,7 @@ if (SELF_TEST) {
     assert.equal(assessIssue(other).eligible, false, `type ${type} must not be actionable`);
     assert.match(assessIssue(other).reason, /not a finding type this worker supports|reported by/);
   }
-  assert.deepEqual(Object.keys(SUPPORTED_FINDINGS), ["generated_artifact_stale"], "v1 supports exactly one finding type");
+  assert.deepEqual(Object.keys(SUPPORTED_FINDINGS).sort(), ["event_needs_provider_url", "generated_artifact_stale"], "only the reviewed finding types are supported");
   // A prototype key is not a supported type.
   assert.equal(assessIssue(editBlock(queueIssue(), (block) => { block.type = "constructor"; })).eligible, false);
 
@@ -425,6 +432,114 @@ if (SELF_TEST) {
   assert.match(comment.body, /Stage 3 worker: NEEDS HUMAN/);
   assert.match(comment.body, /stays open/);
 
+  // --- opening the pull request survives a transient API failure --------------
+  // 2026-10-03: one `fetch failed` on POST /pulls left a validated, pushed
+  // branch with no pull request. Transient failures retry; verdicts do not.
+  assert.equal(isTransientApiError(new Error("fetch failed")), true);
+  assert.equal(isTransientApiError(new Error("GitHub API POST /repos/o/r/pulls 502: Bad Gateway")), true);
+  assert.equal(isTransientApiError(new Error("GitHub API POST /repos/o/r/pulls 422: Validation Failed")), false);
+  assert.equal(isTransientApiError(new Error("GitHub API GET /repos/o/r/pulls 404: Not Found")), false);
+  {
+    const sleeps = [];
+    let calls = 0;
+    const opened = await openPullRequestWithRetry({
+      open: async () => {
+        calls += 1;
+        if (calls < 3) throw new Error("fetch failed");
+        return { number: 7 };
+      },
+      findOpen: async () => null,
+      sleep: async (ms) => sleeps.push(ms)
+    });
+    assert.equal(opened.number, 7);
+    assert.deepEqual(sleeps, [2000, 4000], "transient failures back off and retry");
+  }
+  {
+    // The POST succeeded server-side but its response was lost: find it, never open a second.
+    let calls = 0;
+    const found = await openPullRequestWithRetry({
+      open: async () => { calls += 1; throw new Error("fetch failed"); },
+      findOpen: async () => ({ number: 8 }),
+      sleep: async () => {}
+    });
+    assert.equal(found.number, 8);
+    assert.equal(calls, 1, "an existing pull request ends the retries");
+  }
+  {
+    let calls = 0;
+    await assert.rejects(openPullRequestWithRetry({
+      open: async () => { calls += 1; throw new Error("GitHub API POST /repos/o/r/pulls 422: Validation Failed"); },
+      findOpen: async () => null,
+      sleep: async () => {}
+    }), /422/);
+    assert.equal(calls, 1, "a 4xx verdict is never retried");
+    calls = 0;
+    await assert.rejects(openPullRequestWithRetry({
+      open: async () => { calls += 1; throw new Error("fetch failed"); },
+      findOpen: async () => null,
+      attempts: 3,
+      sleep: async () => {}
+    }), /fetch failed/);
+    assert.equal(calls, 3, "retries stop at the attempt budget");
+  }
+
+  // --- a branch pushed without its pull request is resumed, nothing else -----
+  assert.equal(pullRequestTitleFor(plan), pr.title, "the resume check and the pull request share one title");
+  const ownPush = (over = {}) => ({
+    ahead_by: 1,
+    commits: [{ commit: { message: `${pr.title}\n\nRegenerated by the Stage 3 maintenance worker.` } }],
+    files: [{ filename: "data/content-provenance.json" }],
+    ...over
+  });
+  const resumed = resumableBranchDecision({ plan, pullRequestsFromBranch: [], comparison: ownPush() });
+  assert.equal(resumed.resume, true, "this worker's own unopened push is resumed");
+  assert.deepEqual(resumed.changed, ["data/content-provenance.json"]);
+  const refusals = [
+    [{ pullRequestsFromBranch: [{ number: 5, state: "closed", merged_at: null }], comparison: ownPush() }, /#5 .*closed/],
+    [{ pullRequestsFromBranch: [{ number: 6, state: "closed", merged_at: "2026-10-01T00:00:00Z" }], comparison: ownPush() }, /#6 .*merged/],
+    [{ comparison: ownPush({ ahead_by: 2, commits: [{ commit: { message: pr.title } }, { commit: { message: "Merge main" } }] }) }, /2 commit/],
+    [{ comparison: ownPush({ commits: [{ commit: { message: "something else" } }] }) }, /not this repair's commit/],
+    [{ comparison: ownPush({ files: [{ filename: "data/content-provenance.json" }, { filename: "functions/api/out.js" }] }) }, /leaves the declared paths/],
+    [{ comparison: ownPush({ files: [] }) }, /leaves the declared paths/],
+    [{ comparison: undefined }, /unknown number/]
+  ];
+  for (const [input, reason] of refusals) {
+    const decision = resumableBranchDecision({ plan, ...input });
+    assert.equal(decision.resume, false, `must not resume: ${decision.reason}`);
+    assert.match(decision.reason, reason);
+  }
+  // The compare API truncates its file list at 300, so a list that long cannot
+  // prove the boundary even when every listed path is inside it.
+  const manyCards = Array.from({ length: COMPARE_FILE_LIMIT }, () => ({ filename: "data/content-provenance.json" }));
+  const truncated = resumableBranchDecision({ plan, comparison: ownPush({ files: manyCards }) });
+  assert.equal(truncated.resume, false, "a possibly truncated file list fails closed");
+  assert.match(truncated.reason, /truncates at 300/);
+
+  // A resumed provider batch recovers the verifier's summary, unresolved events
+  // included, from its own commit; without it the run does not resume.
+  const providerPlan = {
+    type: PROVIDER_URL_TYPE,
+    artistSlug: "fixture-artist",
+    issueNumber: 1293,
+    expectedPaths: ["public/data/events.json", "public/data/events/fixture-artist.json", "PROJECT_STATUS.md"]
+  };
+  const providerSummary = "19/20 event URLs verified. 1 unresolved.\ntm-fixture-1: no_match (no exact event)";
+  const providerPush = (message) => ({
+    ahead_by: 1,
+    commits: [{ commit: { message } }],
+    files: providerPlan.expectedPaths.map((filename) => ({ filename }))
+  });
+  const providerTitle = pullRequestTitleFor(providerPlan);
+  assert.equal(providerSummaryFromCommit(`${providerTitle}\n\nRefs #1293.\n${providerSummary}`, providerPlan), providerSummary);
+  const providerResumed = resumableBranchDecision({ plan: providerPlan, comparison: providerPush(`${providerTitle}\n\nRefs #1293.\n${providerSummary}`) });
+  assert.equal(providerResumed.resume, true);
+  assert.equal(providerResumed.providerSummary, providerSummary, "the resumed PR lists every unresolved event");
+  for (const message of [providerTitle, `${providerTitle}\n\nRefs #1293.\n`, `${providerTitle}\n\nRefs #999.\n${providerSummary}`]) {
+    const decision = resumableBranchDecision({ plan: providerPlan, comparison: providerPush(message) });
+    assert.equal(decision.resume, false, "a provider commit without its summary is not resumed");
+    assert.match(decision.reason, /verifier's summary/);
+  }
+
   // --- the writer cannot write in a dry run -----------------------------------
   const { readFile } = await import("node:fs/promises");
   const source = await readFile(new URL(import.meta.url), "utf8");
@@ -517,7 +632,20 @@ async function main() {
   );
   say(`${issues.length} open \`work-queue\` + \`agent:ready\` issue(s) to consider.`);
 
-  const { selected, assessments, reason: selectionReason } = selectWorkItem(issues, { requestedIssue });
+  const openPullRequests = await github("GET", "/pulls?state=open&per_page=100");
+  const available = [];
+  for (const issue of issues) {
+    const assessment = assessIssue(issue);
+    if (assessment.eligible && existingRepair({ plan: assessment.plan, openPullRequests }) && !requestedIssue) continue;
+    // An exact batch with no qualifying listing needs an operator decision;
+    // do not let it monopolise every daily run. Explicit dispatch may retry it.
+    if (assessment.eligible && assessment.plan.type === PROVIDER_URL_TYPE && !requestedIssue) {
+      const comments = await github("GET", `/issues/${issue.number}/comments?per_page=100`);
+      if (alreadyReported(comments, commentMarkerFor(assessment.plan.fingerprint, OUTCOMES.NEEDS_HUMAN))) continue;
+    }
+    available.push(issue);
+  }
+  const { selected, assessments, reason: selectionReason } = selectWorkItem(available, { requestedIssue });
   for (const assessment of assessments) {
     say(`  #${assessment.issue.number} ${assessment.eligible ? "ELIGIBLE" : "skipped"}: ${assessment.reason}`);
   }
@@ -527,9 +655,9 @@ async function main() {
 
   const plan = selected.plan;
   say("");
-  say(`Selected #${plan.issueNumber}: regenerate \`${plan.artefactId}\` (${plan.type}, risk:${plan.risk}, ${plan.priority}).`);
-  say(`  repair      ${plan.regenerate}`);
-  say(`  check       ${plan.check}`);
+  say(`Selected #${plan.issueNumber}: ${plan.operation} \`${plan.artefactId}\` (${plan.type}, risk:${plan.risk}, ${plan.priority}).`);
+  say(`  repair      ${plan.regenerate ?? "registry-anchored SeatGeek verifier"}`);
+  say(`  check       ${plan.check ?? "current coverage and provider-only field guard"}`);
   say(`  may change  ${plan.expectedPaths.join(", ")}`);
   say(`  branch      ${plan.branch}`);
 
@@ -557,15 +685,65 @@ async function main() {
     finish({ outcome, reason, plan, pullRequest });
   };
 
+  // Open the pull request for the pushed branch, earn Prelaunch Validation on
+  // its exact head, and report the terminal outcome. Shared by a fresh repair
+  // and by resuming a branch an earlier run pushed but could not open.
+  const publishPullRequest = async ({ title, body, fixedReason }) => {
+    const owner = repo.split("/")[0];
+    let pullRequest = null;
+    try {
+      pullRequest = await openPullRequestWithRetry({
+        open: () => github("POST", "/pulls", { title, head: plan.branch, base: "main", body, maintainer_can_modify: true }),
+        findOpen: async () =>
+          (await github("GET", `/pulls?state=open&head=${encodeURIComponent(`${owner}:${plan.branch}`)}&per_page=1`))[0] || null,
+        log: say
+      });
+    } catch (error) {
+      await report(
+        OUTCOMES.BLOCKED,
+        `the repair is validated and pushed to \`${plan.branch}\`, but the pull request could not be opened: ${error.message}. The next run opens it for this branch without repeating the repair.`
+      );
+    }
+    say(`Opened pull request #${pullRequest.number}: ${pullRequest.html_url}`);
+    say("It is NOT merged and must not be auto-merged. A human reviews and merges it.");
+
+    // The exact-head gate, and the reason it lives here rather than in a later
+    // workflow step: a pull request opened with the Actions token raises no
+    // `pull_request` run, so without this the head a human would merge carries no
+    // verdict at all — and a step that ran *after* the outcome was reported would
+    // leave the issue and the job summary claiming FIXED for a head that had
+    // gone red. Earning it before the report is what makes the terminal outcome
+    // honest: FIXED means the pushed head is green.
+    const verdict = await earnRequiredCheck({
+      request,
+      repo,
+      branch: plan.branch,
+      sha: pullRequest.head.sha,
+      timeoutMs: Number(process.env.REQUIRED_CHECK_TIMEOUT_MS || DEFAULT_TIMEOUT_MS),
+      pollMs: Number(process.env.REQUIRED_CHECK_POLL_MS || DEFAULT_POLL_MS),
+      log: say
+    });
+    if (!verdict.ok) {
+      await report(
+        OUTCOMES.NEEDS_HUMAN,
+        `the repair validated in-job and is pushed to \`${plan.branch}\` as pull request #${pullRequest.number}, but Prelaunch Validation did not come back green on that exact head: ${verdict.detail}${verdict.url ? ` (${verdict.url})` : ""}. The pull request is open and must not be merged until that is resolved.`,
+        pullRequest
+      );
+    }
+    say(`Prelaunch Validation passed on ${pullRequest.head.sha.slice(0, 7)}${verdict.url ? `: ${verdict.url}` : ""}`);
+    await report(OUTCOMES.FIXED, fixedReason, pullRequest);
+  };
+
   // ── idempotence and concurrency ───────────────────────────────────────────
-  const openPullRequests = await github("GET", "/pulls?state=open&per_page=100");
   const duplicate = existingRepair({ plan, openPullRequests });
   if (duplicate) {
     finish({ outcome: OUTCOMES.NO_SAFE_WORK, reason: `a repair is already in flight: ${duplicate.reason}`, plan });
   }
 
-  // A branch with no open pull request is not something to guess about: a human
-  // either closed the PR or a previous run died mid-push.
+  // A branch with no open pull request is never re-pushed over. The one case
+  // finished without a human is this worker's own validated push whose pull
+  // request was never opened (resumableBranchDecision); a closed or merged pull
+  // request, extra commits or a diff outside the boundary still need a human.
   let branchExists = false;
   try {
     await github("GET", `/git/ref/heads/${plan.branch}`);
@@ -574,10 +752,30 @@ async function main() {
     if (!/ 404: /.test(error.message)) throw error;
   }
   if (branchExists) {
-    await report(
-      OUTCOMES.NEEDS_HUMAN,
-      `\`${plan.branch}\` already exists on the remote with no open pull request — a previous attempt whose pull request was closed, or one that died after pushing, or a merged branch that was never deleted. A human should look at it and delete it before this repair runs again; re-pushing over it is not something this worker will decide on its own.`
-    );
+    const owner = repo.split("/")[0];
+    const [pullRequestsFromBranch, comparison] = await Promise.all([
+      github("GET", `/pulls?state=all&head=${encodeURIComponent(`${owner}:${plan.branch}`)}&per_page=10`),
+      github("GET", `/compare/main...${plan.branch}`)
+    ]);
+    const decision = resumableBranchDecision({ plan, pullRequestsFromBranch, comparison });
+    if (!decision.resume) {
+      await report(
+        OUTCOMES.NEEDS_HUMAN,
+        `\`${plan.branch}\` already exists on the remote with no open pull request, and it is not safe to resume: ${decision.reason}. A human should look at it and delete it before this repair runs again; re-pushing over it is not something this worker will decide on its own.`
+      );
+    }
+    say(`Resuming ${plan.branch}: ${decision.reason}.`);
+    if (DRY_RUN) {
+      finish({ outcome: OUTCOMES.FIXED, reason: "dry run — would open the pull request for the branch an earlier run pushed.", plan });
+    }
+    if (decision.providerSummary) plan.providerSummary = decision.providerSummary;
+    const { title, body } = buildPullRequest({ plan, diff: { changed: decision.changed } });
+    const resumedNote = "An earlier run validated and pushed this repair but could not open its pull request; this run opened it and Prelaunch Validation passed on that exact head. One PR is open for human review.";
+    await publishPullRequest({
+      title,
+      body: `${body}\n\nResumed by a later run: an earlier run validated and pushed this branch but could not open its pull request.`,
+      fixedReason: plan.providerSummary ? `${plan.providerSummary}\n${resumedNote}` : resumedNote
+    });
   }
 
   // ── repair ────────────────────────────────────────────────────────────────
@@ -597,14 +795,24 @@ async function main() {
     await report(verdict.outcome, `${verdict.reason} (at: ${label}).`);
   };
 
-  const before = runAllowlistedCommand(plan.check);
+  let providerRepair = null;
+  if (plan.type === PROVIDER_URL_TYPE) {
+    try { providerRepair = performProviderUrlRepair(plan, ROOT); }
+    catch { providerRepair = { outcome: OUTCOMES.BLOCKED, reason: "Provider batch repair failed while reading or verifying repository evidence" }; }
+    if (providerRepair.outcome) {
+      restoreWorkspace();
+      await report(providerRepair.outcome, providerRepair.reason);
+    }
+    say(providerRepair.reason);
+  }
+  const before = providerRepair ? { exit: 1, output: providerRepair.checkOutputBefore } : runAllowlistedCommand(plan.check);
   say("");
-  say(`${plan.check} exited ${before.exit} (a non-zero exit is the finding reproducing).`);
+  say(`${plan.check ?? "Current provider coverage check"} exited ${before.exit} (a non-zero exit is the finding reproducing).`);
   observations.checkExitBefore = before.exit;
   await step("re-checking the finding");
 
-  const regenerate = runAllowlistedCommand(plan.regenerate);
-  say(`${plan.regenerate} exited ${regenerate.exit}.`);
+  const regenerate = providerRepair ? { exit: 0 } : runAllowlistedCommand(plan.regenerate);
+  say(`${plan.regenerate ?? "Bounded SeatGeek verification"} exited ${regenerate.exit}.`);
   observations.regenerateExit = regenerate.exit;
   if (regenerate.exit !== 0) say(regenerate.output);
   await step("running the approved regeneration");
@@ -626,8 +834,8 @@ async function main() {
   }
   await step("inspecting the diff");
 
-  const after = runAllowlistedCommand(plan.check);
-  say(`${plan.check} after regenerating exited ${after.exit}.`);
+  const after = providerRepair ? { exit: providerRepair.guard().ok ? 0 : 1 } : runAllowlistedCommand(plan.check);
+  say(`${plan.check ?? "Provider field guard"} after repair exited ${after.exit}.`);
   observations.checkExitAfter = after.exit;
   if (after.exit !== 0) say(after.output);
   await step("confirming the repair");
@@ -653,6 +861,12 @@ async function main() {
   }
   observations.validationFailures = validationFailures;
   await step("running the required validation");
+  // Validation must not enlarge the proposed repair's file or field scope.
+  const finalPaths = git(["status", "--porcelain", "--untracked-files=all"]).stdout.split("\n").map((line) => line.slice(3).trim()).filter(Boolean);
+  if (!classifyDiff(finalPaths, plan).ok || (providerRepair && !providerRepair.guard().ok)) {
+    restoreWorkspace();
+    await report(OUTCOMES.NEEDS_HUMAN, "Validation changed files or fields outside the declared repair boundary");
+  }
 
   // ── publish ───────────────────────────────────────────────────────────────
   const { title, body } = buildPullRequest({ plan, diff: observations.diff, checkOutputBefore: before.output });
@@ -665,7 +879,7 @@ async function main() {
     finish({ outcome: OUTCOMES.FIXED, reason: "dry run — the repair validated cleanly and would have opened one pull request.", plan });
   }
 
-  const commitMessage = [
+  const commitMessage = providerRepair ? `${title}\n\nRefs #${plan.issueNumber}.\n${plan.providerSummary}` : [
     title,
     "",
     `Regenerated by the Stage 3 maintenance worker from work-queue issue #${plan.issueNumber}.`,
@@ -701,46 +915,10 @@ async function main() {
   }
   say(`Pushed ${plan.branch}.`);
 
-  let pullRequest = null;
-  try {
-    pullRequest = await github("POST", "/pulls", { title, head: plan.branch, base: "main", body, maintainer_can_modify: true });
-  } catch (error) {
-    await report(
-      OUTCOMES.BLOCKED,
-      `the repair is validated and pushed to \`${plan.branch}\`, but the pull request could not be opened: ${error.message}`
-    );
-  }
-  say(`Opened pull request #${pullRequest.number}: ${pullRequest.html_url}`);
-  say("It is NOT merged and must not be auto-merged. A human reviews and merges it.");
-
-  // The exact-head gate, and the reason it lives here rather than in a later
-  // workflow step: a pull request opened with the Actions token raises no
-  // `pull_request` run, so without this the head a human would merge carries no
-  // verdict at all — and a step that ran *after* the outcome was reported would
-  // leave the issue and the job summary claiming FIXED for a head that had
-  // gone red. Earning it before the report is what makes the terminal outcome
-  // honest: FIXED means the pushed head is green.
-  const verdict = await earnRequiredCheck({
-    request,
-    repo,
-    branch: plan.branch,
-    sha: pullRequest.head.sha,
-    timeoutMs: Number(process.env.REQUIRED_CHECK_TIMEOUT_MS || DEFAULT_TIMEOUT_MS),
-    pollMs: Number(process.env.REQUIRED_CHECK_POLL_MS || DEFAULT_POLL_MS),
-    log: say
+  await publishPullRequest({
+    title,
+    body,
+    fixedReason: providerRepair ? `${plan.providerSummary}\nEvery required validation and Prelaunch Validation passed; one PR is open for human review.`
+      : `\`${plan.regenerate}\` cleared \`${plan.check}\`, every required validation passed on exactly this content, Prelaunch Validation passed on the pushed head, and one pull request is open for review.`
   });
-  if (!verdict.ok) {
-    await report(
-      OUTCOMES.NEEDS_HUMAN,
-      `the repair validated in-job and is pushed to \`${plan.branch}\` as pull request #${pullRequest.number}, but Prelaunch Validation did not come back green on that exact head: ${verdict.detail}${verdict.url ? ` (${verdict.url})` : ""}. The pull request is open and must not be merged until that is resolved.`,
-      pullRequest
-    );
-  }
-  say(`Prelaunch Validation passed on ${pullRequest.head.sha.slice(0, 7)}${verdict.url ? `: ${verdict.url}` : ""}`);
-
-  await report(
-    OUTCOMES.FIXED,
-    `\`${plan.regenerate}\` cleared \`${plan.check}\`, every required validation passed on exactly this content, Prelaunch Validation passed on the pushed head, and one pull request is open for review.`,
-    pullRequest
-  );
 }

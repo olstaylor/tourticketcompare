@@ -109,6 +109,9 @@ const PAST_CANCELLED = fixtureEvent("fixture-past-cancelled", "2026-07-03T01:00:
 // Düsseldorf, 00:30 local on 30 Aug: still 29 Aug in UTC.
 const DUSSELDORF = fixtureEvent("fixture-dusseldorf", "2026-08-29T22:30:00Z", { city: "Düsseldorf", country: "Germany", venue: "Merkur Spiel-Arena", timezone: "Europe/Berlin" });
 const SHELL = fixtureEvent("fixture-shell", "2026-09-20T01:00:00Z", { artist_slug: String(shellArtist.slug), artist_name: String(shellArtist.name || shellArtist.slug) });
+// Six days out at NOW: close enough to show day for the 7-day change. Kept out of
+// EVENTS and rendered only by its own block, so no other assertion sees it.
+const NEAR = fixtureEvent("fixture-near", "2026-08-15T01:00:00Z");
 const EVENTS = [PRICED, STALE, RESCHEDULED, CANCELLED, POSTPONED, UNRECOGNISED, PENDING_BARE, NO_DESTINATION, UPSELL, PAST_HERE, PAST_ELSEWHERE, PAST_CANCELLED, DUSSELDORF, SHELL];
 const HELD = [CANCELLED, POSTPONED, UNRECOGNISED];
 
@@ -119,6 +122,8 @@ const PRICE_ROWS = [
   cacheRow(PRICED, "vivid-seats", 182, "vividseats_impact_marketplace_api"),
   cacheRow(PRICED, "ticketnetwork", 190, "ticketnetwork_impact_marketplace_api"),
   cacheRow(RESCHEDULED, "vivid-seats", 205, "vividseats_impact_marketplace_api"),
+  cacheRow(NEAR, "vivid-seats", 182, "vividseats_impact_marketplace_api"),
+  cacheRow(NEAR, "ticketnetwork", 190, "ticketnetwork_impact_marketplace_api"),
   // Expired: must be invisible on both surfaces.
   cacheRow(STALE, "vivid-seats", 99, "vividseats_impact_marketplace_api", "2026-08-02T09:00:00Z"),
   // Held dates have fresh rows; neither surface may show them.
@@ -129,7 +134,13 @@ const PRICE_ROWS = [
 const WINDOW_MIN_ROWS = [{ event_id: PRICED.id, provider: "vivid-seats", currency: "USD", low_price: 150, observed_at: "2026-07-20T09:00:00Z" }];
 const SERIES_ROWS = [
   { event_id: PRICED.id, provider: "vivid-seats", currency: "USD", low_price: 182, observed_at: "2026-08-09T09:00:00Z" },
-  { event_id: PRICED.id, provider: "vivid-seats", currency: "USD", low_price: 200, observed_at: "2026-08-01T09:00:00Z" }
+  { event_id: PRICED.id, provider: "vivid-seats", currency: "USD", low_price: 200, observed_at: "2026-08-01T09:00:00Z" },
+  // NEAR/Vivid Seats: 224 standing a week ago, after a one-reading $40 glitch
+  // that must never surface, then 182 now.
+  { event_id: NEAR.id, provider: "vivid-seats", currency: "USD", low_price: 220, observed_at: "2026-07-30T09:00:00Z" },
+  { event_id: NEAR.id, provider: "vivid-seats", currency: "USD", low_price: 40, observed_at: "2026-07-31T09:00:00Z" },
+  { event_id: NEAR.id, provider: "vivid-seats", currency: "USD", low_price: 224, observed_at: "2026-08-01T09:00:00Z" },
+  { event_id: NEAR.id, provider: "vivid-seats", currency: "USD", low_price: 182, observed_at: "2026-08-09T09:00:00Z" }
 ];
 
 const queriedIds = [];
@@ -273,8 +284,8 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   assert(!/href="\/events\//.test(mainOf(page.html)), "the page links to no other event page");
 
   // Structured data: the site graph, the breadcrumb, and one MusicEvent for
-  // this performance, identified by this page — with no offer, although the
-  // page prints approved prices and SCHEMA_OFFERS_ENABLED is on.
+  // this performance, identified by this page, with an Offer for each price
+  // badge the page's own ticket buttons show (SCHEMA_OFFERS_ENABLED is on).
   // scripts/validate-route-schema.mjs checks every property against the page.
   const graph = graphOf(page.html);
   const nodes = graph.filter((node) => node?.["@type"] === "MusicEvent");
@@ -285,13 +296,32 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   assert(node.eventStatus === "https://schema.org/EventScheduled", "a scheduled date is EventScheduled");
   assert(node.performer?.["@id"] === `${ORIGIN}/artists/${ARTIST.slug}#artist`, "the performer is the artist page's own entity");
   assert(node.name === `${ARTIST.name} at Fixture Arena` && node.location?.name === "Fixture Arena" && node.location?.address?.addressLocality === "Springfield", "name and location are the visible venue and city");
-  assert(!("offers" in node) && !graph.some((entry) => entry?.["@type"] === "Offer") && !/price|availability/i.test(JSON.stringify(node)), "no Offer, price or availability in the event page's structured data");
+  const offers = Array.isArray(node.offers) ? node.offers : [];
+  assert(offers.length >= 1, "a priced event page carries an Offer");
+  assert(offers.every((offer) => offer["@type"] === "Offer" && mainOf(page.html).includes(String(Math.round(offer.price))) && offer.url.startsWith(`${ORIGIN}/api/out?`) && offer.priceValidUntil), "each Offer is a visible price with its tracked link and expiry");
+  assert(!/availability/i.test(JSON.stringify(node)), "no availability claim in the event page's structured data");
   assert(graph.some((entry) => entry?.["@type"] === "BreadcrumbList"), "the visible breadcrumb is mirrored");
 
   // Stale snapshot: invisible on both surfaces.
   const stale = await render(pathOf(STALE));
   assert(!/\$99/.test(stale.html) && !/\$99/.test(card(parent.html, STALE.id)), "an expired snapshot shows on neither surface");
   assert(JSON.stringify(buttons(card(stale.html, STALE.id))) === JSON.stringify(buttons(card(parent.html, STALE.id))), "the stale date's buttons match the parent's");
+}
+
+// ─── the 7-day change close to show day ─────────────────────────────────────
+
+{
+  const WEEK_LINE = "Lowest listed price on Vivid Seats down 19% over the last 7 days: $224 a week ago, $182 at the latest check.";
+  const withNear = [...EVENTS, NEAR];
+  const page = await render(pathOf(NEAR), withNear);
+  const prices = text(meta(page.html, /(<section[^>]*aria-labelledby="eventPricesTitle"[\s\S]*?<\/section>)/));
+  assert(prices.includes(`This week: ${WEEK_LINE}`), `a date six days out states its 7-day change (got ${prices.slice(0, 400)})`);
+  assert(!/TicketNetwork (up|down) \d+%/.test(prices), "a lane with no history a week old says nothing");
+  assert(!/\$40\b/.test(page.html), "the one-reading glitch never reaches the page");
+  const parent = await render(ARTIST_CITY, withNear);
+  assert(text(parent.html).includes(WEEK_LINE), "the parent price answer states the same change");
+  const far = await render(pathOf(PRICED), withNear);
+  assert(!/This week:/.test(far.html) && !/over the last 7 days/.test(far.html), "a date a month out states no weekly change");
 }
 
 // ─── out-of-date readable slugs and reschedules ─────────────────────────────
@@ -328,6 +358,7 @@ for (const event of HELD) {
   assert(outLinks(page.html, event.id) === 0 && !/\/api\/out/.test(mainOf(page.html)), `${event.id}: no ticket button`);
   assert(!/\$\d/.test(mainOf(page.html)) && !/price-history|eventPricesTitle|How this site makes money/.test(page.html), `${event.id}: no price, price history or buying disclosure`);
   assert(/Ticket status/.test(page.html) && !/ Tickets/.test(title(page.html)), `${event.id}: no ticket-buying framing in the heading or title (got ${title(page.html)})`);
+  assert(!/ plays /.test(mainOf(page.html)) && !/before you travel/.test(mainOf(page.html)), `${event.id}: the buying notes never say the held show goes ahead`);
   // Structured data agrees with the hold: a factual cancelled or postponed
   // node, never an unrecognised status, and never an offer, price or
   // availability, although a fresh approved row exists and the flag is on.

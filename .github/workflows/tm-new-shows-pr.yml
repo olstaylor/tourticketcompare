@@ -32,9 +32,18 @@ name: Ticketmaster new shows PR
 
 on:
   schedule:
-    # 04:00 UTC — after the 03:00 daily audit, separate from the (manual-only)
-    # nightly data sync which historically ran at 03:30.
-    - cron: '0 4 * * *'
+    # 02:40 UTC — deliberately BEFORE the 03:00 daily audit and 03:30 nightly
+    # sync. All three share one daily Discovery quota; the two per-event sweeps
+    # spend ~2,000 calls each, this lane ~one per artist, and it is the one that
+    # finds new tours. Run last, it got HTTP 429 for every artist on 2026-09-27,
+    # 2026-10-01 and 2026-10-02. Off the top of the hour because GitHub delivers
+    # :00 crons here hours late.
+    - cron: '40 2 * * *'
+    # 16:20 UTC — a second pass (owner-approved 2026-10-02) for tours announced
+    # that US morning, so they are listed the same day rather than the next.
+    # About one Discovery call per artist. SeatGeek and Vivid Seats links for
+    # these dates follow at the next morning's CTA syncs.
+    - cron: '20 16 * * *'
   workflow_dispatch:
     inputs:
       artist:

@@ -37,8 +37,17 @@ on:
       # manually if you want the ping; otherwise the URLs are picked up on the
       # next ordinary crawl.
       - 'public/data/blog-content.json'
+      # Buying guides: the generated route table carries each guide's URL and
+      # its provenance-derived lastmod; the compiled body copy catches a
+      # body-only revision made the same day as the last one, which leaves the
+      # route table byte-for-byte unchanged.
+      - 'functions/_guide-routes.generated.js'
+      - 'public/data/guides-content.json'
       # Code that decides which routes are indexable at all.
       - 'functions/sitemap.xml.js'
+      - 'functions/sitemaps/**'
+      - 'functions/_price-guides.js'
+      - 'functions/_onsale-calendar.js'
       - 'functions/_blog.js'
       - 'functions/_route-metadata.js'
       - 'functions/_cities.js'

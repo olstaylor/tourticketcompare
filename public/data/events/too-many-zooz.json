@@ -37,7 +37,7 @@
         "event_id": 7479392,
         "url": "https://www.vividseats.com/too-many-zooz-tickets-brooklyn-brooklyn-bowl---ny-10-30-2026/production/7479392",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -167,7 +167,7 @@
         "event_id": 7594958,
         "url": "https://www.vividseats.com/too-many-zooz-tickets-denver-summit-music-hall-3-19-2027/production/7594958",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -236,7 +236,7 @@
         "event_id": 7594457,
         "url": "https://www.vividseats.com/too-many-zooz-tickets-houston-white-oak-music-hall---downstairs-4-30-2027/production/7594457",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -305,7 +305,7 @@
         "event_id": 7595210,
         "url": "https://www.vividseats.com/too-many-zooz-tickets-tucson-la-rosa-5-6-2027/production/7595210",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -374,7 +374,7 @@
         "event_id": 7595252,
         "url": "https://www.vividseats.com/too-many-zooz-tickets-seattle-the-neptune-theatre-5-14-2027--concerts-alternative/production/7595252",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -404,5 +404,74 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284730",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284730/Too-Many-Zooz-tickets-Fri-May-14-2027-The-Neptune-Theatre"
+  },
+  {
+    "id": "tm-too-many-zooz-2026-buffalo-z7r9jz1aav60y",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz: Live in Canada (Mostly!) Tour",
+    "city": "Buffalo",
+    "country": "United States Of America",
+    "venue": "Asbury Hall at Babeville",
+    "datetime_iso": "2026-11-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv60Y",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv60Y",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv60Y",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv60Y",
+        "discovery_event_id": "Z7r9jZ1AAv60Y",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv60Y",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8236208",
+        "url": "https://www.ticketnetwork.com/en/p/8236208",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8236208",
+        "url": "https://www.ticketliquidator.com/tickets/8236208/Too-Many-Zooz-tickets-Fri-Nov-13-2026-Asbury-Hall-at-Babeville",
+        "verified": true,
+        "last_verified_at": "2026-10-03",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv60Y",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8236208",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8236208/Too-Many-Zooz-tickets-Fri-Nov-13-2026-Asbury-Hall-at-Babeville"
   }
 ]

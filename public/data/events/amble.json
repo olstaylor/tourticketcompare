@@ -223,17 +223,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107277080",
-        "url": "https://www.stubhub.ie/amble-tickets-manchester-o2-apollo-manchester-3-10-2026/event/107277080",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G65bdcGVP",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-manchester-o2-apollo-manchester-3-10-2026/event/107277080"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-amble-2026-nottingham-g5vhz_5y-lcue",
@@ -248,7 +248,7 @@
     "ticketmaster_event_id": "1F0064BC21ACE367",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/amble-nottingham-05-10-2026/event/1F0064BC21ACE367",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/amble-tickets-nottingham-rock-city-10-5-2026--concerts-alternative/production/7105613",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/amble-nottingham-05-10-2026/event/1F0064BC21ACE367",
     "last_verified_at": null,
@@ -270,11 +270,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7105613,
-        "url": "https://www.vividseats.com/amble-tickets-nottingham-rock-city-10-5-2026--concerts-alternative/production/7105613",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -387,7 +387,7 @@
         "event_id": 7105625,
         "url": "https://www.vividseats.com/amble-tickets-london-o2-academy-brixton-10-8-2026--concerts-alternative/production/7105625",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -655,7 +655,7 @@
         "event_id": 6982424,
         "url": "https://www.vividseats.com/amble-tickets-vancouver-orpheum-theatre---vancouver-10-27-2026--concerts-alternative/production/6982424",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -777,7 +777,7 @@
         "event_id": 6982426,
         "url": "https://www.vividseats.com/amble-tickets-toronto-history-toronto-11-2-2026--concerts-alternative/production/6982426",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -883,7 +883,7 @@
         "event_id": 6982394,
         "url": "https://www.vividseats.com/amble-tickets-boston-citizens-house-of-blues-boston-11-6-2026--concerts-alternative/production/6982394",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -952,7 +952,7 @@
         "event_id": 6982398,
         "url": "https://www.vividseats.com/amble-tickets-brooklyn-brooklyn-paramount-11-7-2026--concerts-alternative/production/6982398",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1029,7 +1029,7 @@
         "event_id": 6982400,
         "url": "https://www.vividseats.com/amble-tickets-philadelphia-theatre-of-living-arts-11-10-2026--concerts-alternative/production/6982400",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1220,7 +1220,7 @@
         "event_id": 7165441,
         "url": "https://www.vividseats.com/amble-tickets-nashville-brooklyn-bowl---nashville-11-14-2026/production/7165441",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1289,7 +1289,7 @@
         "event_id": 6982406,
         "url": "https://www.vividseats.com/amble-tickets-new-orleans-house-of-blues-new-orleans-11-16-2026--concerts-alternative/production/6982406",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1411,7 +1411,7 @@
         "event_id": 6982420,
         "url": "https://www.vividseats.com/amble-tickets-dallas-the-echo-lounge-and-music-hall-11-18-2026--concerts-alternative/production/6982420",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1458,7 +1458,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-17-12-2026/event/18006536D0F0F2B9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1493,8 +1493,7 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkfUGkd8H21y",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-09-30T09:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8hl5a",
@@ -1512,7 +1511,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-18-12-2026/event/18006536D0F1F2C5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1547,8 +1546,7 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkfUGkd8HL5A",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-09-30T09:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8hr56",
@@ -1566,7 +1564,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/amble-co-mayo-19-12-2026/event/18006536D0F2F2C7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-03",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1601,8 +1599,7 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkfUGkd8HR56",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-09-30T09:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-amble-2027-madrid-z698xz2qz1kozfaa3",
@@ -2216,6 +2213,112 @@
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_8SFLgkI",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-co-mayo-1abzkfugkd8w25a",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Co. Mayo",
+    "country": "Ireland",
+    "venue": "TF Royal Theatre, Castlebar",
+    "datetime_iso": "2026-12-20T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006536D0F4F2C9",
+    "ticketmaster_url": "https://www.ticketmaster.ie/amble-co-mayo-20-12-2026/event/18006536D0F4F2C9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/amble-co-mayo-20-12-2026/event/18006536D0F4F2C9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006536D0F4F2C9",
+        "discovery_event_id": "1AbZkfUGkd8W25a",
+        "url": "https://www.ticketmaster.ie/amble-co-mayo-20-12-2026/event/18006536D0F4F2C9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkfUGkd8W25a",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-co-mayo-1abzkfugkd8wl5u",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Co. Mayo",
+    "country": "Ireland",
+    "venue": "TF Royal Theatre, Castlebar",
+    "datetime_iso": "2026-12-21T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006536D0F5F2CD",
+    "ticketmaster_url": "https://www.ticketmaster.ie/amble-co-mayo-21-12-2026/event/18006536D0F5F2CD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/amble-co-mayo-21-12-2026/event/18006536D0F5F2CD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006536D0F5F2CD",
+        "discovery_event_id": "1AbZkfUGkd8WL5u",
+        "url": "https://www.ticketmaster.ie/amble-co-mayo-21-12-2026/event/18006536D0F5F2CD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkfUGkd8WL5u",
     "timezone": "Europe/London",
     "status": "on-sale"
   }

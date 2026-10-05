@@ -101,7 +101,7 @@
 
   function loadEventIndex() {
     if (eventIndexPromise) return eventIndexPromise;
-    eventIndexPromise = fetch("/data/events-index.json", { cache: "force-cache" })
+    eventIndexPromise = fetch("/data/events-index.json")
       .then(function (response) { return response.ok ? response.json() : []; })
       .then(function (records) {
         var now = Date.now();
@@ -146,7 +146,12 @@
     loading.className = "muted";
     loading.textContent = "Searching checked artists, shows, and guides…";
     container.appendChild(loading);
-    var matches = (await buildIndex()).filter(function (entry) { return entry.search.includes(term); }).slice(0, 12);
+    // Every word must match somewhere, so "olivia rodrigo chicago" finds the
+    // date even though the tour name sits between artist and city.
+    var words = term.split(/\s+/).filter(Boolean);
+    var matches = (await buildIndex()).filter(function (entry) {
+      return words.every(function (word) { return entry.search.includes(word); });
+    }).slice(0, 12);
     // A later keystroke has already started its own search; drop this one.
     if (seq !== searchSeq) return;
     container.replaceChildren();

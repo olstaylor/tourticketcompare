@@ -1,84 +1,55 @@
 # Documentation maintenance
 
-TourTicketCompare keeps a small, explicit documentation set. The repository and runtime code are authoritative; documentation must be corrected in the same pull request whenever behaviour changes.
+Keep the doc set small. Code is authoritative: when behaviour changes, fix the doc in the same PR.
 
-## Canonical reading order
+## Who owns what
 
-| File | Owns | Update when |
+| File | Owns |
+|---|---|
+| `CLAUDE.md` | Stable rules, protected areas, test commands. The only required read; it links to everything else. |
+| `docs/ARCHITECTURE.md` | Structure, routing, durable contracts |
+| `docs/OPERATIONS.md` | Workflow schedules, secrets/bindings, open incidents (resolved ones as one line) |
+| `PROJECT_STATUS.md` | Current counts and per-artist status, mostly machine-written |
+| `BACKLOG.md` | Open priorities and parking decisions, owner-managed |
+| Topic docs in `docs/`, `.claude/skills/artist-onboarding/SKILL.md`, `migrations/README.md` | Their own topic |
+
+Stable docs describe contracts and procedures, not volatile counts or run numbers; link to `PROJECT_STATUS.md` for those.
+
+## Rules
+
+- Update the owning file; never add a parallel handover, status, audit or narrative document. `AGENTS.md` stays a short pointer to `CLAUDE.md`.
+- When something finishes, delete its narrative. Git history, PRs and issues keep the record. Do not create `docs/archive/` or `HANDOVER.md`.
+- Write plainly and briefly: say what is true and what to do. No changelogs inside docs, no "fact corrected by agent" trails, no restating another doc.
+- Before deleting or moving a file, search scripts, workflows, runtime code and Markdown links for references.
+
+## Generated files
+
+Never hand-edit these; regenerate them.
+
+| Artifact | Regenerate with | Guard |
 |---|---|---|
-| `CLAUDE.md` | Concise, stable contributor rules, protected areas, and working style — non-negotiable rules and key commands only | A durable rule or protected area changes |
-| `docs/ARCHITECTURE.md` | Repository structure, request routing, and durable contracts | Structure, routing, or a durable contract changes |
-| `docs/OPERATIONS.md` | Workflow schedules, secrets/bindings reference, known infrastructure incidents | A workflow schedule, credential, or infrastructure incident changes |
-| `PROJECT_STATUS.md` | Current data counts and per-artist status — largely machine-generated | Data or provider activation changes (mostly self-heals via the writer scripts) |
-| `BACKLOG.md` | Genuinely outstanding priorities and explicit parking decisions | Work opens, closes, changes priority, or is deliberately parked |
+| `public/data/blog-content.json` | `npm run blog:build` | `blog:check` in `test:mvp` |
+| `public/data/guides-content.json`, `functions/_guide-routes.generated.js` | `npm run guides:build` | `guides:check` in `test:mvp` |
+| `data/content-provenance.json` | `npm run content:provenance` | `content:provenance:check` in `test:mvp` |
+| `public/og/*.png`, `functions/_og-cards.generated.js` | `npm run og:build` | `og:check` in `test:mvp` (only fails on a missing committed card); `og:coverage:check` in the generated-freshness sensor |
+| `reports/provider-sync/*` | the provider sync workflows | not scanned by `docs:check` |
 
-If these files disagree with the repository, the repository wins. Recount and correct the documentation; do not copy a stale number forward.
+- `reports/indexable-surface/baseline.json` is committed on purpose: it is the anchor `--check` compares against. Other audit output under `reports/` is gitignored.
+- `data/event-indexing-pilot.json` is hand-frozen experiment metadata. It is never regenerated, and `test:event-indexability` pins it.
+- `public/index.html` (the static fallback) has no staleness check, so regenerate it in the same change as any `public/data/*.json` edit.
 
-## Stable reference documents
+## Checks
 
-- Root: `README.md`, `CONTRIBUTING.md`, `SAFE_PUBLISHING_RULES.md`, `AGENTS.md`.
-- `docs/`: `ARCHITECTURE.md`, `OPERATIONS.md`, `DEPLOYMENT.md`, `CONTENT_RULES.md`, `PROVIDER_DATA_POLICY.md`, `ROUTE_INDEXABILITY_POLICY.md`, `ADDING_PROVIDERS.md`, `PROVIDER_SYNC.md`, `SEATGEEK_DISCOVERY.md`, `COMMERCIAL_FUNNEL.md`, `BACKLINK_CAMPAIGN.md`, `BLOG.md`, and `ARTIST_INGESTION.md` (the runbook for adding artists and reading the health signals).
-- `.claude/skills/artist-onboarding/SKILL.md` owns the gated artist-onboarding workflow (Proposal → Shell → Promote → Events).
-- `migrations/README.md` owns the applied D1 migration ledger.
+`npm run docs:check` runs in `test:mvp`. It fails on:
+- a broken relative link;
+- an `npm run` command missing from `package.json`;
+- a missing required doc;
+- a reintroduced `HANDOVER.md` or `docs/archive/`.
 
-`docs/OPERATIONS.md` owns the live workflow schedule, the secrets/bindings reference, and known infrastructure incidents — content that used to live in `CLAUDE.md` and `PROJECT_STATUS.md`. `docs/ARCHITECTURE.md` owns durable structure and contracts (routing, bindings mechanics, aggregation layers) that used to be partly duplicated in `CLAUDE.md`.
+`npm run status:validate` recounts the `PROJECT_STATUS.md` figures. It only warns, so that the auto-merging sync lanes are never blocked; those lanes self-heal the counts with `--write`.
 
-Stable reference docs should describe contracts and procedures, not volatile counts, workflow run numbers, or point-in-time rollout claims. Link to `PROJECT_STATUS.md` for current values.
+## Refreshing PROJECT_STATUS.md
 
-## Generated operational reports
-
-Provider sync audit output is generated under `reports/provider-sync/`. The scripts and workflows own those files; do not hand-edit them. They are evidence from the latest run, not documentation or current-state authority. Everything under `reports/` is script-generated; the audit evidence the two site-wide audits write is gitignored, because a `generated_at` stamp that changes every run is churn rather than state. `reports/indexable-surface/baseline.json` is the exception and stays committed: it is the anchor `--check` compares against.
-
-`npm run docs:check` deliberately does not scan `reports/`, so generated text cannot rot into validation failures; links **to** those files from canonical documents are still existence-checked.
-
-These artifacts are generated and must never be hand-edited:
-
-| Artifact | Regenerate with | Staleness guard |
-|---|---|---|
-| `public/data/blog-content.json` | `npm run blog:build` after any `content/blog/*.md` change | `blog:check` in `test:mvp` |
-| `public/data/guides-content.json` + `functions/_guide-routes.generated.js` | `npm run guides:build` after any `content/guides/*.md` change | `guides:check` in `test:mvp` |
-| `data/content-provenance.json` | `npm run content:provenance` after editing guide or trust-page copy | `content:provenance:check` in `test:mvp` |
-| `public/og/*.png` + `functions/_og-cards.generated.js` | `npm run og:build` after adding an artist, guide or blog post | `og:check` in `test:mvp` — partial, see below; `og:coverage:check` in the generated-freshness sensor |
-
-`data/event-indexing-pilot.json` is the opposite case: hand-frozen experiment metadata for the event-page indexing pilot, written once when the cohort was chosen. It is never regenerated or "refreshed" — members that drop out stay listed so the original cohort can be reconstructed — and `test:event-indexability` pins `EVENT_INDEXING_PILOT_KEYS` to it. The only expected edit was recording `launch_date` after production verification (done: 2026-09-27); `npm run report:event-indexing-pilot` reads it and never writes it. It is not a status document.
-
-Two caveats worth knowing rather than discovering:
-
-- `og:check` fails only when the manifest references a card that is not committed. It deliberately does **not** fail when an indexable route has no card yet: city, venue and artist-city routes appear and disappear as dates pass, so an exact-match check would fail on any day the calendar moved. Uncovered routes fall back to the shared `/og-image.png` until the next rebuild: the generated-freshness sensor runs `og:coverage:check`, which does fail on them, and the work-queue repair worker then opens a rebuild pull request for review.
-- The `public/index.html` fallback has no `--check` counterpart, so a stale one ships silently. Regenerate it in the same change as any `public/data/*.json` edit.
-
-## Lifecycle policy
-
-- Update an existing canonical or topic document instead of adding a parallel briefing, handover, audit, or status file.
-- Delete superseded or one-off documentation once its durable facts have been merged into the correct current document.
-- Use git history, pull requests, and closed issues for historical context. Do not create or restore `docs/archive/`, and do not add a parallel directory of dated narratives under `reports/` — a concluded review's durable residue belongs in the canonical document that owns it, and the narrative itself belongs in git history.
-- Keep `AGENTS.md` as the short repository-discovery entrypoint. Do not add `HANDOVER.md`; the canonical reading order replaces it.
-- Before deleting or moving a file, search scripts, workflows, runtime code, and Markdown links for references.
-
-## Automated checks
-
-Run:
-
-```bash
-npm run docs:check
-```
-
-The check fails when:
-
-- a relative Markdown link is broken;
-- a documented `npm run` command is missing from `package.json`;
-- a required canonical document is missing; or
-- retired `HANDOVER.md` / `docs/archive/` paths are reintroduced.
-
-`npm run test:mvp` includes this check so documentation drift blocks CI. It also runs `npm run status:validate` (`scripts/validate-status-counts.mjs`), which recounts the deterministic `PROJECT_STATUS.md` figures from source. That check is **warning-only** today — it reports drift without failing CI, because the auto-merging sync lanes must not be blocked — and those lanes self-heal the counts via `--write` in the same commit. Flip it to `--strict` in `test:mvp` once the self-heal path is proven to keep it green.
-
-## Current-state refresh checklist
-
-When updating `PROJECT_STATUS.md`:
-
-1. Run the two writers, then review what they changed rather than recounting by hand. `npm run status:validate:write` (`scripts/validate-status-counts.mjs`) rewrites the deterministic "Current data" figures and the whole per-artist table, `last_verified_at` included, from `public/data/*.json`, `data/provider-identities.json` and `functions/api/out.js`. `npm run status:surface:write` (`scripts/audit-indexable-surface.mjs --write-status`) rewrites the two `<!-- generated:… -->` blocks — the route surface and the empty-board list — from a real render of every route, because only that knows a page's robots meta; never hand-edit inside those markers. Both run daily in `daily-audit.yml`, so the file is normally already current. Project the decay with `npm run roster:forecast`. Anything sourced from `/api/health` or D1 still needs a human.
-2. Confirm workflow schedules from `.github/workflows/`, not from older prose.
-3. Confirm runtime configuration through `/api/health` or the relevant fail-closed endpoint without exposing secret values.
-4. Move completed work to the short completed section in `BACKLOG.md`; keep implementation history in git.
-5. When a risk resolves or a dated review concludes, distill its live residue into `PROJECT_STATUS.md` (data/counts), `docs/OPERATIONS.md` (infrastructure incidents), or `BACKLOG.md` (task tracking) as appropriate, then delete the narrative to git history — `PROJECT_STATUS.md` stays current-state-and-counts only.
-6. Run `npm run docs:check` and the relevant repository validation.
+1. Run `npm run status:validate:write` (counts and the per-artist table) and `npm run status:surface:write` (the `<!-- generated:… -->` blocks). Both run daily in `daily-audit.yml`. Never hand-edit inside the generated markers, and don't reword the phrases `SCALAR_ASSERTIONS` in `scripts/validate-status-counts.mjs` matches.
+2. Take workflow schedules from `.github/workflows/` and runtime config from `/api/health`, never from older prose.
+3. Run `npm run docs:check`.

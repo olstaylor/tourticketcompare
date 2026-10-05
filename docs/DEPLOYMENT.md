@@ -113,7 +113,7 @@ Provider credential families currently used by code include network-level Impact
 
 | Routes | Header |
 |---|---|
-| Content-only: guides (except the provider-pair guide), blog, and the static trust pages | `public, max-age=0, s-maxage=600, stale-while-revalidate=3600` |
+| Content-only: guides (except provider-pair guides, those with `comparison_providers`), blog, and the static trust pages | `public, max-age=0, s-maxage=600, stale-while-revalidate=3600` |
 | Everything event-derived: `/`, `/artists`, `/cities`, `/venues`, and every artist, city, venue, artist-city and comparison-hub page | `no-cache, max-age=0, must-revalidate` |
 
 Both keep `max-age=0`, so a browser always revalidates and a deploy that bumps a versioned asset URL still reaches returning visitors on their next request.
@@ -125,6 +125,10 @@ The `s-maxage` half is **inert without a dashboard Cache Rule**. Pages Functions
 - set *Eligible for cache*, and leave edge TTL on "Use cache-control header if present".
 
 Never widen the match to an event-derived route. Those render approved price snapshots and upcoming-date sets filtered against the current time; a stale shared copy would keep serving a price or a date the freshness gates have already withdrawn, which the provider display rules in [PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md) do not permit. `scripts/smoke-prelaunch.mjs` asserts the split per route, so the repo side fails loudly if the two lists drift apart; the dashboard side has no such guard.
+
+### Price guides: in-function edge cache
+
+`/artists/<artist>/ticket-prices` is the one event-derived route that is edge cached, and it does not use the header path above. `onRequest` in `functions/[[path]].js` keeps each render in the colo's Cache API: fresh for 5 minutes, then served stale for up to an hour while one background render replaces it. A copy is never served past the earliest price-snapshot expiry or show start it rendered, and a render whose price read failed is never stored, so the freshness gates hold. The browser header stays `no-cache, max-age=0, must-revalidate`; `X-TTC-Edge-Cache: HIT|STALE|MISS` shows what happened. No dashboard rule is needed. Tests: `scripts/price-guides.test.mjs` part 5.
 
 ## GitHub Actions configuration
 

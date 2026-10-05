@@ -36,7 +36,14 @@ async function loadJsonAsset(env, pathname) {
 const eventsByEnv = new WeakMap();
 function loadEvents(env) {
   if (!env || typeof env !== "object") return loadJsonAsset(env, "/data/events.json");
-  if (!eventsByEnv.has(env)) eventsByEnv.set(env, loadJsonAsset(env, "/data/events.json").catch(() => null));
+  if (!eventsByEnv.has(env)) {
+    // A failed load is not memoised, so a transient ASSETS error is retried.
+    const load = loadJsonAsset(env, "/data/events.json").catch(() => null).then((value) => {
+      if (value == null) eventsByEnv.delete(env);
+      return value;
+    });
+    eventsByEnv.set(env, load);
+  }
   return eventsByEnv.get(env);
 }
 

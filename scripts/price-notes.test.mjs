@@ -1,6 +1,6 @@
 // Tests for how a show card explains its price, or the lack of one.
 //
-// Covers the 2026-09-24 Phase 1 changes (docs/audits/2026-09-launch-readiness.md §1):
+// Covers the 2026-09-24 Phase 1 changes (launch-readiness audit, PR #1125, §1):
 //   - city pages query the price cache, so their cards print snapshots the way
 //     venue and artist pages already did;
 //   - a card with no price says why: the lanes and time of the last recorded

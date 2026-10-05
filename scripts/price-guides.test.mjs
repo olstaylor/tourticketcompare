@@ -310,7 +310,12 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   const schema = page.html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g) || [];
   const ld = schema.join("");
   assert(ld.includes('"WebPage"') && ld.includes('"BreadcrumbList"'), "the guide emits WebPage and BreadcrumbList");
-  assert(!ld.includes('"MusicEvent"') && !ld.includes('"Offer"') && !ld.includes('"FAQPage"'), "the guide emits no MusicEvent, Offer or FAQPage");
+  assert(!ld.includes('"MusicEvent"') && !ld.includes('"Offer"'), "the guide emits no MusicEvent or Offer");
+  assert(ld.includes('"FAQPage"'), "the guide emits a FAQPage");
+  const faqQuestions = [...ld.matchAll(/"@type":"Question","name":"([^"]+)"/g)].map((m) => m[1]);
+  assert(faqQuestions.length >= 3 && faqQuestions.includes("How much are Oasis tickets?"), "the FAQPage answers how much tickets cost");
+  assert(faqQuestions.every((question) => body.includes(question)), "every FAQPage question is visible on the page");
+  assert(body.includes("There isn't a reliable best moment to buy"), "the timing answer predicts nothing");
   assert(classifyPageType(GUIDE_PATH) === "artist_price_guide", "analytics records the guide as its own page type");
 }
 
@@ -361,7 +366,7 @@ for (const priceRows of [[], PRICE_ROWS.map((row) => ({ ...row, expires_at: "202
 }
 
 {
-  const missing = await render("/artists/metallica/ticket-prices");
+  const missing = await render("/artists/zach-bryan/ticket-prices");
   assert(missing.status === 404, "an artist without an approved guide 404s");
   const unknown = await render("/artists/not-an-artist/ticket-prices");
   assert(unknown.status === 404, "an unknown artist 404s");
@@ -390,6 +395,120 @@ for (const priceRows of [[], PRICE_ROWS.map((row) => ({ ...row, expires_at: "202
   ]);
   assert(candidates.length === 1 && candidates[0].slug === "fixture-launch", "a fresh on-sale run is proposed and a live guide is not");
   assert(candidates[0].launchShowCount === 6 && candidates[0].wouldIndex, "the proposal carries its launch size and gate verdict");
+}
+
+// ─── part 5: the edge cache ─────────────────────────────────────────────────
+// Workers' Cache API, faked: a guide render is stored on a miss, served from
+// the colo cache while fresh, served stale with one background re-render, and
+// nothing else (other routes, failed renders) is ever stored.
+
+{
+  const store = new Map();
+  // The fixture's price rows expire at 2026-08-10T09:00Z.
+  let now = Date.parse("2026-08-09T09:00:00Z");
+  const realNow = Date.now;
+  Date.now = () => now;
+  globalThis.caches = {
+    default: {
+      async match(key) {
+        const hit = store.get(key.url);
+        return hit ? hit.clone() : undefined;
+      },
+      async put(key, response) {
+        store.set(key.url, response);
+      }
+    }
+  };
+  let renders = 0;
+  const storedFor = (pathname) => {
+    const hit = [...store.entries()].find(([url]) => url.startsWith(`${ORIGIN}${pathname}?edge-v=`) && !url.includes("utm_"));
+    return hit ? hit[1] : undefined;
+  };
+  let envOverrides = {};
+  const serve = async (pathname, withDb = true) => {
+    const pending = [];
+    const baseEnv = { ...env({ withDb }), ...envOverrides };
+    const countingEnv = {
+      ...baseEnv,
+      ASSETS: {
+        fetch: (request) => {
+          if (new URL(request.url).pathname === "/") renders += 1;
+          return baseEnv.ASSETS.fetch(request);
+        }
+      }
+    };
+    const response = await middlewareModule.onRequest({
+      request: new Request(`${ORIGIN}${pathname}?utm_source=x`),
+      env: countingEnv,
+      next: () => new Response("static-asset", { status: 200 }),
+      waitUntil: (promise) => pending.push(promise)
+    });
+    const html = await response.text();
+    await Promise.all(pending);
+    return { response, html };
+  };
+  try {
+    const miss = await serve(GUIDE_PATH);
+    assert(miss.response.headers.get("x-ttc-edge-cache") === "MISS" && renders === 1, "a first guide request renders and reports a miss");
+    assert(storedFor(GUIDE_PATH), "the render is stored under the path and config version, without the visitor's query string");
+    assert(miss.response.headers.get("cache-control") === "no-cache, max-age=0, must-revalidate", "the browser header is unchanged");
+    assert(!miss.response.headers.has("x-ttc-edge-valid-until"), "the render's validity bound never reaches the visitor");
+    assert(miss.html.includes("£182"), "the cached render carries live prices");
+
+    now += 60_000;
+    const hit = await serve(GUIDE_PATH);
+    assert(hit.response.headers.get("x-ttc-edge-cache") === "HIT" && renders === 1, "a fresh copy is served without rendering");
+    assert(hit.html === miss.html, "the cached copy is the same page");
+    assert(hit.response.headers.get("cache-control") === "no-cache, max-age=0, must-revalidate", "a cached copy carries the browser header");
+    assert(!hit.response.headers.has("x-ttc-rendered-at"), "the internal timestamp never reaches the visitor");
+
+    now += 600_000;
+    const stale = await serve(GUIDE_PATH);
+    assert(stale.response.headers.get("x-ttc-edge-cache") === "STALE" && renders === 2, "a stale copy is served while one background render replaces it");
+    assert(Number(storedFor(GUIDE_PATH).headers.get("x-ttc-rendered-at")) === now, "the background render refreshes the stored copy");
+
+    now += 600_000;
+    const before = renders;
+    const burst = await Promise.all([serve(GUIDE_PATH), serve(GUIDE_PATH), serve(GUIDE_PATH)]);
+    assert(burst.every((hit) => hit.response.headers.get("x-ttc-edge-cache") === "STALE") && renders === before + 1, "a burst of stale hits shares one background render");
+
+    now += 5 * 3600_000;
+    const rendersBeforeExpiry = renders;
+    const expired = await serve(GUIDE_PATH);
+    assert(expired.response.headers.get("x-ttc-edge-cache") === "MISS" && renders === rendersBeforeExpiry + 1, "past the stale window the visitor waits for a fresh render");
+
+    const artistPage = await serve("/artists/oasis");
+    assert(!artistPage.response.headers.has("x-ttc-edge-cache") && !storedFor("/artists/oasis"), "other routes are never edge cached");
+    const unknown = await serve("/artists/not-an-artist/ticket-prices");
+    assert(unknown.response.status !== 200 && !storedFor("/artists/not-an-artist/ticket-prices"), "a non-200 guide response is never stored");
+
+    // A copy dies with the earliest price snapshot it shows, fresh or stale.
+    store.clear();
+    now = Date.parse("2026-08-10T08:58:00Z");
+    await serve(GUIDE_PATH);
+    assert(Number(storedFor(GUIDE_PATH).headers.get("x-ttc-edge-expires-at")) === Date.parse("2026-08-10T09:00:00Z"), "the stored copy expires with its earliest price snapshot");
+    now = Date.parse("2026-08-10T08:59:00Z");
+    assert((await serve(GUIDE_PATH)).response.headers.get("x-ttc-edge-cache") === "HIT", "before the snapshot expires the copy is served");
+    now = Date.parse("2026-08-10T09:00:30Z");
+    const afterExpiry = await serve(GUIDE_PATH);
+    assert(afterExpiry.response.headers.get("x-ttc-edge-cache") === "MISS" && !afterExpiry.html.includes("£182"), "after it expires the visitor gets a fresh render without the withdrawn price");
+
+    // A kill switch or deploy changes the key, so old HTML is never served.
+    store.clear();
+    await serve(GUIDE_PATH);
+    envOverrides = { VIVIDSEATS_PRICE_DISPLAY_ENABLED: "false" };
+    const switched = await serve(GUIDE_PATH);
+    assert(switched.response.headers.get("x-ttc-edge-cache") === "MISS" && store.size === 2, "flipping a provider flag starts a fresh cache key");
+    envOverrides = {};
+
+    // A render whose price read failed is served but never stored.
+    store.clear();
+    const failed = await serve(GUIDE_PATH, "failing");
+    assert(failed.response.status === 200 && !storedFor(GUIDE_PATH), "a render with a failed price read is never stored");
+  } finally {
+    delete globalThis.caches;
+    Date.now = realNow;
+  }
 }
 
 console.log(`price-guides: ${passed} assertions passed.`);

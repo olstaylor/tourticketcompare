@@ -63,10 +63,10 @@
       "country": "United Kingdom",
       "official_website": "https://www.hstyles.co.uk/",
       "image_alt": "Harry Styles artist ticket information",
-      "factual_summary": "Harry Styles is an English singer, songwriter and actor who first became widely known as a member of One Direction before building a solo career. Madison Square Garden announced his 2026 Together, Together run as 30 consecutive shows at the arena, every Wednesday, Friday and Saturday from 26 August to 31 October — a residency in one building rather than a touring itinerary.",
-      "ticket_buying_notes": "These buttons open the Harry Styles page on each ticket site, not a single night. Because every 2026 date is in the same building, a listing that says only \"Madison Square Garden\" does not tell you which night you are buying: take the date from the card on this page, then confirm that exact date on the ticket site and again on the order summary. Fees, delivery and the final total are set there.",
+      "factual_summary": "Harry Styles is an English singer, songwriter and actor who first became widely known as a member of One Direction before building a solo career. His Together, Together run began with nine Wembley Stadium shows in June and July 2026, followed by a residency that Madison Square Garden announced as 30 shows from 26 August to 31 October 2026, and the dates on this page continue into stadiums in North America, Europe and Australia through August 2027.",
+      "ticket_buying_notes": "These buttons open the Harry Styles page on each ticket site, not a single night. Many venues on this run host more than one date, from Madison Square Garden to multi-night stadium stands, so a listing that names only the venue does not tell you which night you are buying: take the date from the card on this page, then confirm that exact date on the ticket site and again on the order summary. Fees, delivery and the final total are set there.",
       "seo_title": "Harry Styles Tickets & Tour Dates | TourTicketCompare",
-      "meta_description": "Harry Styles Madison Square Garden dates, checked ticket links and available price snapshots. Confirm the exact night, fees and total with the provider.",
+      "meta_description": "Harry Styles dates at Madison Square Garden and stadiums in North America, Europe and Australia, with checked ticket links and available price snapshots.",
       "related_guides": [
         "how-to-read-a-ticket-listing",
         "primary-vs-resale-concert-tickets",
@@ -75,8 +75,8 @@
       ],
       "faq": [
         {
-          "question": "Every Harry Styles date is at the same venue. How do I make sure I am buying the right night?",
-          "answer": "The venue name identifies nothing here, because the whole 2026 run is at Madison Square Garden. Work from the date on the card, open the ticket site through that date's own button, and check the date on the provider's listing and on the order summary before you pay. Listing titles are not a reliable tiebreaker either — the run's Halloween-week dates are titled \"Harryween\" on the official Ticketmaster listing while the rest are not."
+          "question": "Several Harry Styles dates share a venue. How do I make sure I am buying the right night?",
+          "answer": "Madison Square Garden and several of the stadiums host more than one night, so the venue name alone does not identify a show. Work from the date on the card, open the ticket site through that date's own button, and check the date on the provider's listing and on the order summary before you pay. Listing titles are not a reliable tiebreaker either: the residency's Halloween-week dates are titled \"Harryween\" on the official Ticketmaster listing while the rest are not."
         },
         {
           "question": "Who is opening for Harry Styles at Madison Square Garden?",
@@ -84,7 +84,7 @@
         },
         {
           "question": "Is Together, Together playing anywhere other than New York?",
-          "answer": "The venue announced it as a run of consecutive Madison Square Garden shows rather than a tour. Anything not on this page is a date not yet verified from the source — that is not the same as saying no such date exists. Check Harry Styles' official site and the ticket sites for anything beyond what is listed here."
+          "answer": "Yes. Beyond the Madison Square Garden residency, the verified dates on this page include stadium shows in the United States, Canada, Spain, Ireland, the United Kingdom and Australia. Anything not on this page is a date not yet verified from the source, which is not the same as saying no such date exists. Check Harry Styles' official site and the ticket sites for anything beyond what is listed here."
         }
       ]
     },
@@ -806,6 +806,7 @@
     {
       "slug": "coldplay",
       "name": "Coldplay",
+      "schema_type": "MusicGroup",
       "short_description": "British rock band fronted by Chris Martin.",
       "country": "United Kingdom",
       "image_alt": "Coldplay artist ticket information",
@@ -1156,6 +1157,7 @@
     {
       "slug": "foo-fighters",
       "name": "Foo Fighters",
+      "schema_type": "MusicGroup",
       "short_description": "American rock band led by Dave Grohl.",
       "country": "United States",
       "image_alt": "Foo Fighters artist ticket information",
@@ -1191,6 +1193,7 @@
     {
       "slug": "metallica",
       "name": "Metallica",
+      "schema_type": "MusicGroup",
       "short_description": "American heavy metal band.",
       "country": "United States",
       "image_alt": "Metallica artist ticket information",
@@ -1226,6 +1229,7 @@
     {
       "slug": "rush",
       "name": "Rush",
+      "schema_type": "MusicGroup",
       "short_description": "Canadian rock band.",
       "country": "Canada",
       "image_alt": "Rush artist ticket information",
@@ -1261,6 +1265,7 @@
     {
       "slug": "muse",
       "name": "Muse",
+      "schema_type": "MusicGroup",
       "short_description": "English rock band.",
       "country": "United Kingdom",
       "image_alt": "Muse artist ticket information",
@@ -1296,6 +1301,7 @@
     {
       "slug": "my-chemical-romance",
       "name": "My Chemical Romance",
+      "schema_type": "MusicGroup",
       "short_description": "American rock band from New Jersey.",
       "country": "United States",
       "image_alt": "My Chemical Romance artist ticket information",
@@ -1366,6 +1372,7 @@
     {
       "slug": "five-finger-death-punch",
       "name": "Five Finger Death Punch",
+      "schema_type": "MusicGroup",
       "short_description": "American heavy metal band.",
       "country": "United States",
       "image_alt": "Five Finger Death Punch artist ticket information",
@@ -1401,6 +1408,7 @@
     {
       "slug": "system-of-a-down",
       "name": "System Of A Down",
+      "schema_type": "MusicGroup",
       "short_description": "American heavy metal band from California.",
       "country": "United States",
       "image_alt": "System Of A Down artist ticket information",
@@ -1541,6 +1549,7 @@
     {
       "slug": "blue-october",
       "name": "Blue October",
+      "schema_type": "MusicGroup",
       "short_description": "American rock band from Houston, Texas.",
       "country": "United States",
       "image_alt": "Blue October artist ticket information",
@@ -1576,6 +1585,7 @@
     {
       "slug": "pentatonix",
       "name": "Pentatonix",
+      "schema_type": "MusicGroup",
       "short_description": "American a cappella group from Texas.",
       "country": "United States",
       "image_alt": "Pentatonix artist ticket information",
@@ -1646,6 +1656,7 @@
     {
       "slug": "nothing-but-thieves",
       "name": "Nothing But Thieves",
+      "schema_type": "MusicGroup",
       "short_description": "English rock band from Essex.",
       "country": "United Kingdom",
       "image_alt": "Nothing But Thieves artist ticket information",
@@ -1681,6 +1692,7 @@
     {
       "slug": "trivium",
       "name": "Trivium",
+      "schema_type": "MusicGroup",
       "short_description": "American heavy metal band from Florida.",
       "country": "United States",
       "image_alt": "Trivium artist ticket information",
@@ -1716,6 +1728,7 @@
     {
       "slug": "sabaton",
       "name": "Sabaton",
+      "schema_type": "MusicGroup",
       "short_description": "Swedish power metal band from Falun.",
       "country": "Sweden",
       "image_alt": "Sabaton artist ticket information",
@@ -1751,6 +1764,7 @@
     {
       "slug": "in-flames",
       "name": "In Flames",
+      "schema_type": "MusicGroup",
       "short_description": "Swedish melodic death metal band from Gothenburg.",
       "country": "Sweden",
       "image_alt": "In Flames artist ticket information",
@@ -1786,6 +1800,7 @@
     {
       "slug": "beartooth",
       "name": "Beartooth",
+      "schema_type": "MusicGroup",
       "short_description": "American rock and metalcore band from Ohio.",
       "country": "United States",
       "image_alt": "Beartooth artist ticket information",
@@ -1821,6 +1836,7 @@
     {
       "slug": "polyphia",
       "name": "Polyphia",
+      "schema_type": "MusicGroup",
       "short_description": "American instrumental progressive rock band from Plano, Texas.",
       "country": "United States",
       "image_alt": "Polyphia artist ticket information",
@@ -1961,6 +1977,7 @@
     {
       "slug": "the-airborne-toxic-event",
       "name": "The Airborne Toxic Event",
+      "schema_type": "MusicGroup",
       "short_description": "American indie rock band from Los Angeles.",
       "country": "United States",
       "image_alt": "The Airborne Toxic Event artist ticket information",
@@ -2031,6 +2048,7 @@
     {
       "slug": "morat",
       "name": "Morat",
+      "schema_type": "MusicGroup",
       "short_description": "Colombian Latin pop rock band from Bogotá.",
       "country": "Colombia",
       "image_alt": "Morat artist ticket information",
@@ -2066,6 +2084,7 @@
     {
       "slug": "missio",
       "name": "Missio",
+      "schema_type": "MusicGroup",
       "short_description": "American electronic alternative duo from Austin, Texas.",
       "country": "United States",
       "image_alt": "Missio artist ticket information",
@@ -2241,6 +2260,7 @@
     {
       "slug": "sylvan-esso",
       "name": "Sylvan Esso",
+      "schema_type": "MusicGroup",
       "short_description": "American electropop duo from Durham, North Carolina.",
       "country": "United States",
       "image_alt": "Sylvan Esso artist ticket information",
@@ -2311,6 +2331,7 @@
     {
       "slug": "pink-martini",
       "name": "Pink Martini",
+      "schema_type": "MusicGroup",
       "short_description": "American ensemble from Portland, Oregon, led by Thomas Lauderdale.",
       "country": "United States",
       "image_alt": "Pink Martini artist ticket information",
@@ -2346,6 +2367,7 @@
     {
       "slug": "oasis",
       "name": "Oasis",
+      "schema_type": "MusicGroup",
       "short_description": "English rock band from Manchester, led by brothers Liam and Noel Gallagher.",
       "country": "United Kingdom",
       "image_alt": "Oasis artist ticket information",
@@ -2416,6 +2438,7 @@
     {
       "slug": "trans-siberian-orchestra",
       "name": "Trans-Siberian Orchestra",
+      "schema_type": "MusicGroup",
       "short_description": "American rock band founded in 1996, known for its large-scale winter arena productions.",
       "country": "United States",
       "image_alt": "Trans-Siberian Orchestra artist ticket information",
@@ -2486,6 +2509,7 @@
     {
       "slug": "death-cab-for-cutie",
       "name": "Death Cab for Cutie",
+      "schema_type": "MusicGroup",
       "short_description": "American rock band formed in Bellingham, Washington, fronted by Ben Gibbard.",
       "country": "United States",
       "image_alt": "Death Cab for Cutie artist ticket information",
@@ -2556,6 +2580,7 @@
     {
       "slug": "the-psychedelic-furs",
       "name": "The Psychedelic Furs",
+      "schema_type": "MusicGroup",
       "short_description": "English rock band formed in London in 1977, led by brothers Richard and Tim Butler.",
       "country": "United Kingdom",
       "image_alt": "The Psychedelic Furs artist ticket information",
@@ -2626,6 +2651,7 @@
     {
       "slug": "atmosphere",
       "name": "Atmosphere",
+      "schema_type": "MusicGroup",
       "short_description": "American hip-hop duo from Minneapolis, formed by rapper Slug and producer Ant.",
       "country": "United States",
       "image_alt": "Atmosphere artist ticket information",
@@ -2661,6 +2687,7 @@
     {
       "slug": "the-warning",
       "name": "The Warning",
+      "schema_type": "MusicGroup",
       "short_description": "Mexican rock band from Monterrey, made up of three sisters.",
       "country": "Mexico",
       "image_alt": "The Warning artist ticket information",
@@ -3333,6 +3360,136 @@
       "faq": [
         {
           "question": "Where can I find Daughtry tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "greta-van-fleet",
+      "name": "Greta Van Fleet",
+      "short_description": "Rock act listed on Ticketmaster.",
+      "image_alt": "Greta Van Fleet artist ticket information",
+      "factual_summary": "Greta Van Fleet is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Greta Van Fleet page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Greta Van Fleet Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Greta Van Fleet tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Greta Van Fleet tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "fontaines-d-c",
+      "name": "Fontaines D.C.",
+      "short_description": "Alternative act listed on Ticketmaster.",
+      "image_alt": "Fontaines D.C. artist ticket information",
+      "factual_summary": "Fontaines D.C. is listed by Ticketmaster under Alternative. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Fontaines D.C. page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Fontaines D.C. Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Fontaines D.C. tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Fontaines D.C. tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "riley-green",
+      "name": "Riley Green",
+      "short_description": "Country act listed on Ticketmaster.",
+      "image_alt": "Riley Green artist ticket information",
+      "factual_summary": "Riley Green is listed by Ticketmaster under Country. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Riley Green page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Riley Green Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Riley Green tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Riley Green tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "hazlett",
+      "name": "Hazlett",
+      "short_description": "Alternative act listed on Ticketmaster.",
+      "image_alt": "Hazlett artist ticket information",
+      "factual_summary": "Hazlett is listed by Ticketmaster under Alternative. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Hazlett page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Hazlett Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Hazlett tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Hazlett tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "carly-rae-jepsen",
+      "name": "Carly Rae Jepsen",
+      "short_description": "Pop act listed on Ticketmaster.",
+      "image_alt": "Carly Rae Jepsen artist ticket information",
+      "factual_summary": "Carly Rae Jepsen is listed by Ticketmaster under Pop. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Carly Rae Jepsen page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Carly Rae Jepsen Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Carly Rae Jepsen tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Carly Rae Jepsen tour dates?",
           "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
         },
         {
@@ -6347,6 +6504,146 @@
       "last_checked_at": "2026-10-01",
       "disclosure_required": true,
       "url": "https://seatgeek.com/daughtry-tickets"
+    },
+    {
+      "link_id": "tm-artist-greta-van-fleet",
+      "artist_slug": "greta-van-fleet",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-03",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/greta-van-fleet-tickets/artist/1971779"
+    },
+    {
+      "link_id": "sg-artist-greta-van-fleet",
+      "artist_slug": "greta-van-fleet",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-03",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/greta-van-fleet-tickets"
+    },
+    {
+      "link_id": "tm-artist-fontaines-d-c",
+      "artist_slug": "fontaines-d-c",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-03",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/fontaines-dc-tickets/artist/2557986"
+    },
+    {
+      "link_id": "sg-artist-fontaines-d-c",
+      "artist_slug": "fontaines-d-c",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-03",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/fontaines-d-c-tickets"
+    },
+    {
+      "link_id": "tm-artist-riley-green",
+      "artist_slug": "riley-green",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-03",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/riley-green-tickets/artist/2011722"
+    },
+    {
+      "link_id": "sg-artist-riley-green",
+      "artist_slug": "riley-green",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-03",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/riley-green-tickets"
+    },
+    {
+      "link_id": "tm-artist-hazlett",
+      "artist_slug": "hazlett",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-03",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/hazlett-tickets/artist/2625420"
+    },
+    {
+      "link_id": "sg-artist-hazlett",
+      "artist_slug": "hazlett",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-03",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/hazlett-tickets"
+    },
+    {
+      "link_id": "tm-artist-carly-rae-jepsen",
+      "artist_slug": "carly-rae-jepsen",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-03",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/carly-rae-jepsen-tickets/artist/1393390"
+    },
+    {
+      "link_id": "sg-artist-carly-rae-jepsen",
+      "artist_slug": "carly-rae-jepsen",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-03",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/carly-rae-jepsen-tickets"
     }
   ],
   "safety_rules": [

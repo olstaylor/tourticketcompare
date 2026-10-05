@@ -60,6 +60,7 @@
 // An anonymous "from <price>" cannot be built from this return shape.
 
 import { MIN_PLAUSIBLE_LISTED_PRICE } from "./api/shows.js";
+import { keepNonSpikeSql } from "./_price-outliers.js";
 
 // The trailing window. Kept well inside the 90-day retention that
 // scripts/prune-provider-pricing-history.mjs enforces, so the carry-in row for
@@ -233,15 +234,30 @@ export async function fetchEventPriceLowSeries(db, eventIds, lanes, options = {}
     const chunk = ids.slice(offset, offset + 50);
     const idSql = chunk.map(() => "?").join(", ");
 
+    // Both reads run over the same guarded series: every row of the series
+    // (not only the window's) with its neighbours attached, minus the rows
+    // functions/_price-outliers.js calls an isolated spike, and minus rows
+    // under the plausibility floor. Neighbours are taken before the window
+    // filter, so a spike on the window's first day is still judged against
+    // the row before it. MIN()/MAX() stay the only aggregate in each outer
+    // statement, so the bare-column guarantee below still holds.
+    const guardedSeries =
+      `SELECT event_id, provider, currency, low_price, observed_at FROM (
+         SELECT event_id, provider, currency, low_price, observed_at,
+                LAG(low_price) OVER s AS prev_price, LEAD(low_price) OVER s AS next_price
+         FROM provider_pricing_history
+         WHERE event_id IN (${idSql}) AND (${pairSql}) AND low_price >= ${MIN_PLAUSIBLE_LISTED_PRICE}
+         WINDOW s AS (PARTITION BY event_id, provider, source ORDER BY observed_at)
+       ) WHERE ${keepNonSpikeSql("low_price", "prev_price", "next_price")}`;
     const windowMinSql =
       `SELECT event_id, provider, currency, MIN(low_price) AS low_price, observed_at
-       FROM provider_pricing_history
-       WHERE event_id IN (${idSql}) AND (${pairSql}) AND observed_at >= ?
+       FROM (${guardedSeries})
+       WHERE observed_at >= ?
        GROUP BY event_id, provider, currency`;
     const carryInSql =
       `SELECT event_id, provider, currency, low_price, MAX(observed_at) AS observed_at
-       FROM provider_pricing_history
-       WHERE event_id IN (${idSql}) AND (${pairSql}) AND observed_at < ?
+       FROM (${guardedSeries})
+       WHERE observed_at < ?
        GROUP BY event_id, provider, currency`;
 
     const [windowRows, carryRows] = await Promise.all([

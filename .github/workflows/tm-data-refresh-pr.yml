@@ -76,6 +76,8 @@ jobs:
             node scripts/apply-tm-updates.mjs --json .audit/tm-refresh.json
             npm run events:partition
             node scripts/validate-status-counts.mjs --write
+            # Card every page this run's data made indexable (scripts/build-og-cards.mjs).
+            if ! git diff --quiet -- public/data; then npm run og:build; fi
           else
             echo "DRY RUN — previewing changes only, no writes."
             node scripts/backfill-discovery-ids.mjs
@@ -117,7 +119,7 @@ jobs:
           TODAY=$(date -u +%Y-%m-%d)
           BRANCH="automation/data-refresh-${TODAY}"
           git checkout -B "$BRANCH"
-          git add public/data/events.json public/data/events-index.json public/data/events public/index.html PROJECT_STATUS.md
+          git add public/data/events.json public/data/events-index.json public/data/events public/index.html PROJECT_STATUS.md public/og functions/_og-cards.generated.js
           git commit -m "automation: refresh existing TM event data (${TODAY})"
           node scripts/push-automation-branch.mjs "$BRANCH" --force-with-lease
           BRANCH="$BRANCH" \

@@ -9,6 +9,7 @@ import {
   fitTitleToBudget,
   withoutParentheticalQualifier,
   artistPageTitle,
+  artistTourLabel,
   eventLocalYear,
   yearRangeLabel
 } from "./_route-metadata.js";
@@ -27,7 +28,7 @@ import { deriveCityDatePrices } from "./_artist-city-prices.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
 import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, EVENT_LIFECYCLE, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
-import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
+import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import {
   PRICE_GUIDE_SEGMENT,
   derivePriceGuide,
@@ -35,7 +36,15 @@ import {
   priceGuideRegistered,
   priceGuideRouteDecision
 } from "./_price-guides.js";
-import { derivePriceMove, fetchEventPriceMoveSeries, PRICE_MOVE_WINDOW_DAYS } from "./_event-price-moves.js";
+import {
+  derivePriceMove,
+  fetchEventPriceMoveSeries,
+  PRICE_MOVE_WINDOW_DAYS,
+  deriveWeeklyPriceChange,
+  fetchEventWeeklyPriceSeries,
+  withinWeeklyChangeWindow,
+  WEEKLY_CHANGE_DAYS
+} from "./_event-price-moves.js";
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, resolveEventRoute } from "./_event-pages.js";
 import { EVENT_INDEXING_PILOT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
 import {
@@ -184,24 +193,6 @@ const RESERVED_FILES = new Set(["/app.js", "/styles.css", "/favicon.svg", "/robo
 // bindings cannot share data; discard failures so a transient asset problem is
 // retried by the next request.
 const ASSET_JSON_CACHE_BY_BINDING = new WeakMap();
-
-// Keep the highest-value editorial guide routable even if an edge deploy briefly
-// serves stale route metadata. PRICE_GUIDE_FALLBACK mirrors that guide's
-// GUIDE_ROUTES entry and prevents Googlebot/Search Console from seeing a
-// transient 404/noindex response, or a page stripped of its visible
-// Published/Updated line and its Article datePublished/dateModified.
-//
-// It is a separate top-level binding in functions/_guide-routes.generated.js,
-// not a lookup into GUIDE_ROUTES: a missing or malformed entry there still
-// leaves this object intact, which is the case it exists for. (It has never
-// covered the module failing to load outright — GUIDE_ROUTES is imported at
-// module scope, so that takes every HTML route down regardless.)
-//
-// Both are generated from the same Markdown, so they cannot drift:
-// scripts/build-guide-content.mjs refuses to draft, rename or delete that
-// guide, and scripts/route-metadata.test.mjs asserts every field of the
-// fallback equals the GUIDE_ROUTES entry.
-
 
 // _headers applies to static-asset responses only, not to function-generated responses.
 // These headers must be set explicitly on every HTML Response returned by this function.
@@ -434,9 +425,12 @@ async function loadJsonAsset(env, path, isValid, fallback) {
   let pending = cache.get(path);
   if (!pending) {
     pending = (async () => {
+      const startedAt = Date.now();
       const response = await assets.fetch(new Request(`https://assets.local${path}`));
+      const fetchedAt = Date.now();
       if (!response.ok) throw new Error(`Asset request failed: ${path}`);
       const data = await response.json();
+      ASSET_LOAD_TIMINGS.push({ path, fetchMs: fetchedAt - startedAt, bodyMs: Date.now() - fetchedAt });
       if (!isValid(data)) throw new Error(`Asset payload was invalid: ${path}`);
       return data;
     })();
@@ -473,6 +467,9 @@ async function routeForPath(pathname, env) {
   if (OLD_GUIDE_REDIRECTS[path]) return { type: "redirect", location: OLD_GUIDE_REDIRECTS[path] };
   if (path === "/compare-concert-ticket-prices") return { type: "comparison-hub", path, ...TRUST_ROUTES[path] };
   if (path === "/" || PUBLIC_HTML_ROUTES.has(path)) return { type: "static", path, ...TRUST_ROUTES[path] };
+  // PRICE_GUIDE_FALLBACK keeps the highest-value guide routable (not a 404 or
+  // noindex) if an edge deploy briefly serves stale route metadata. It is a
+  // separate generated binding, so a bad GUIDE_ROUTES entry leaves it intact.
   const guide = GUIDE_ROUTES[path] || (path === PRICE_GUIDE_FALLBACK_PATH ? PRICE_GUIDE_FALLBACK : null);
   if (guide) {
     return {
@@ -765,14 +762,14 @@ async function routeForPath(pathname, env) {
     const hasUpcoming = artistHasUpcomingShow(artistEvents, artist.slug);
     // The year(s) in the title are read off the same future shows the board
     // renders, in each card's venue-local calendar.
-    const yearLabel = yearRangeLabel(
-      futureShowsForArtist(artistEvents, artist.slug).map((show) => eventLocalYear(show.dateTimeISO, show.timezone))
-    );
+    const futureShows = futureShowsForArtist(artistEvents, artist.slug);
+    const yearLabel = yearRangeLabel(futureShows.map((show) => eventLocalYear(show.dateTimeISO, show.timezone)));
+    const tourLabel = artistTourLabel(futureShows.map((show) => show.tour_name));
     return {
       type: "artist",
       path,
       indexable: artistPageIndexable(enrichedArtist, artistEvents, artist.slug),
-      title: artistPageTitle(artist, yearLabel),
+      title: artistPageTitle(artist, yearLabel, tourLabel),
       // The authored description promises dates, which is right while the board
       // has them. An empty board gets a description that matches what the page
       // actually says, so a shared or cached snippet never promises dates that
@@ -1023,6 +1020,16 @@ function guideFaqEntries(guideEntry) {
   return entries.filter((entry) => entry.answers.length).map((entry) => [entry.question, entry.answers.join(" ")]);
 }
 
+// The homepage FAQ, rendered in the "How it works" panel and mirrored as
+// FAQPage JSON-LD. Site policy only: no figure, provider claim or date that
+// could go stale.
+const HOME_FAQ = [
+  ["Is TourTicketCompare official?", "No. TourTicketCompare is independent and unofficial, and isn't connected to any artist, venue or promoter."],
+  ["Does TourTicketCompare sell tickets?", "No. You buy on the ticket site itself. The site links to the official sale where it can verify one, and to approved resale sites for the same date."],
+  ["How does the site make money?", "Some ticket links earn a commission if you buy, at no extra cost to you. The affiliate disclosure explains how it works."],
+  ["Are the prices shown final?", "No. Each price is a ticket site's listed price for one date at the time shown. Fees, taxes, delivery and the final total are set at the ticket site's checkout."]
+];
+
 function faqPageSchema(questions) {
   return {
     "@type": "FAQPage",
@@ -1203,11 +1210,13 @@ function venueLocalIso(iso, timezone) {
 // states: the H1's artist and venue, the facts' city and country, the
 // venue-local date and start time, and the Ticketmaster status line.
 // eventPageSchemaDecision (functions/_event-pages.js) decides whether there is
-// a node at all and which eventStatus it carries. There are no `offers` on
-// this node under any flag — SCHEMA_OFFERS_ENABLED covers the parent boards
-// only — and no description, organizer, endDate or previousStartDate: none is
-// a fact the page holds beyond what the other fields already say.
-function eventPageSchema(route, origin, catalog, now = Date.now()) {
+// a node at all and which eventStatus it carries. `offers` follow the same
+// gates as the parent boards (SCHEMA_OFFERS_ENABLED, then
+// musicEventOffersSchema over the copy onRequest priced), so an Offer exists
+// only where the page's own ticket button shows that price. There is no
+// description, organizer, endDate or previousStartDate: none is a fact the
+// page holds beyond what the other fields already say.
+function eventPageSchema(route, origin, catalog, events = [], env = {}, now = Date.now()) {
   const decision = eventPageSchemaDecision(route.event, { now });
   if (!decision.eligible) return [];
   const show = enrichEventAsShow(route.event);
@@ -1221,6 +1230,11 @@ function eventPageSchema(route, origin, catalog, now = Date.now()) {
   const pageUrl = `${origin}${route.path}`;
   const address = { "@type": "PostalAddress", addressLocality: show.city };
   if (show.country) address.addressCountry = schemaCountry(show.country);
+  const eventId = String(route.event.id || "").trim();
+  const priced = events.find((candidate) => String(candidate?.id || "").trim() === eventId);
+  const offers = priced && !eventLifecycleHeld(show) && schemaOffersEnabledForArtist(env, artist.slug)
+    ? musicEventOffersSchema(enrichEventAsShow(priced), origin, env)
+    : [];
   return [
     { "@type": performerTypeForArtist(catalog, artist.slug), "@id": artistId, name: artist.name, url: `${origin}${artistPath}` },
     {
@@ -1237,7 +1251,8 @@ function eventPageSchema(route, origin, catalog, now = Date.now()) {
       performer: { "@id": artistId },
       // The page's own og:image (the shared brand card: event pages have no
       // per-page card), as every MusicEvent.image on the site is.
-      image: ogCardUrl(route, origin)
+      image: ogCardUrl(route, origin),
+      ...(offers.length ? { offers } : {})
     }
   ];
 }
@@ -1450,9 +1465,13 @@ function blogPostingSchema(route, origin) {
 function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}, env = {}) {
   const graph = baseSchema(origin);
   if (route.breadcrumb) graph.push(breadcrumbSchema(route, origin));
-  if (route.type === "event") graph.push(...eventPageSchema(route, origin, catalog));
+  if (route.type === "event") graph.push(...eventPageSchema(route, origin, catalog, events, env));
   // The author page is the one route that carries a Person node.
   if (route.path === AUTHOR_PATH) graph.push(personSchema(origin));
+  // No SearchAction on the WebSite node: Google retired the sitelinks search
+  // box, and the template URL only gave crawlers a query URL to fetch
+  // (scripts/smoke-prelaunch.mjs).
+  if (route.path === "/") graph.push(faqPageSchema(HOME_FAQ));
   if (route.type === "artist") {
     const artistModel = artistBoardModel(route, events, env);
     const rendersSummary =
@@ -1524,9 +1543,10 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
   }
   if (route.type === "price-guide" && route.guide) {
     // A plain WebPage about the artist. No MusicEvent (the artist page owns
-    // those, and duplicating them here would split them across two URLs), no
-    // Offer and no FAQPage: the page's figures are snapshots with their own
-    // capture times, and none of them is repeated in structured data.
+    // those, and duplicating them here would split them across two URLs) and
+    // no Offer: the page's figures are snapshots with their own capture times.
+    // The FAQPage mirrors the visible FAQ word for word, built from the same
+    // view, so it repeats only the one dated example the page's lead prints.
     graph.push({
       "@type": "WebPage",
       "@id": `${origin}${route.path}#webpage`,
@@ -1544,6 +1564,8 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
       },
       relatedLink: [`${origin}/artists/${route.artist.slug}`]
     });
+    const faqEntries = priceGuideFaqEntries(route, derivePriceGuideView(route, events, env));
+    if (faqEntries.length) graph.push(faqPageSchema(faqEntries));
   }
   if (route.type === "onsale-calendar") {
     const calendar = route.calendar || {};
@@ -1931,9 +1953,12 @@ function artistTileMeta(catalog, artist, events, now = Date.now()) {
   const status = artistCardStatus(catalog, artist, events, now);
   if (status.pending) return { status, meta: status.badge };
   if (status.dateless) return { status, meta: "No dates listed yet" };
-  const shows = futureShowsForArtist(events, artist.slug, 500).filter(
-    (show) => show.publishable && safeShowTicketUrl(show.ticketmaster_url)
-  );
+  // Every active upcoming date counts, linked or not, so the tile agrees with
+  // the artist board it opens: a date announced before its on-sale is still
+  // listed there. Counting only linked dates made an artist with 20 dates read
+  // "11 dates" (or a bare "Dates listed" with none linked yet), and could name
+  // a later date as the next one.
+  const shows = futureShowsForArtist(events, artist.slug, 500).filter((show) => !eventLifecycleHeld(show));
   // "Sep 25" this year, "Feb 10, 2027" beyond it: keeps each row to one line.
   const thisYear = `, ${new Date(now).getUTCFullYear()}`;
   const nextFull = shows.length ? formatCardDate(shows[0].dateTimeISO, shows[0].timezone) : null;
@@ -2255,8 +2280,10 @@ function cityForVenue(events, venue) {
   ) || null;
 }
 
+// The country goes through the same alias map as city pages, so a venue whose
+// source records say "Great Britain" reads "United Kingdom" like its city page.
 function venueLocationLabel(venue) {
-  return [venue.city, venue.country].filter((part) => String(part || "").trim()).join(", ");
+  return [venue.city, venue.country ? normalizeCountry(venue.country) : ""].filter((part) => String(part || "").trim()).join(", ");
 }
 
 function venueShowCountLabel(count) {
@@ -2370,10 +2397,13 @@ function renderArtistTourSummariesHtml(tours, artist) {
       const end = formatShowDateServer(tour.endISO, tour.endTimezone);
       const range = start && end && start !== end ? `${start} – ${end}` : start || end || "";
       const showLabel = `${tour.showCount} upcoming ${tour.showCount === 1 ? "date" : "dates"}`;
-      const cityLabel = tour.cityCount
-        ? ` across ${tour.cityCount} ${tour.cityCount === 1 ? "city" : "cities"}`
-        : "";
-      const citiesLine = tour.sampleCities.length
+      const singleCity = tour.cityCount === 1 && tour.sampleCities.length === 1;
+      const cityLabel = singleCity
+        ? ` in ${tour.sampleCities[0]}`
+        : tour.cityCount
+          ? ` across ${tour.cityCount} cities`
+          : "";
+      const citiesLine = !singleCity && tour.sampleCities.length
         ? `<p class="muted">Cities include ${escapeHtml(tour.sampleCities.join(", "))}${
             tour.cityCount > tour.sampleCities.length ? ", and more" : ""
           }.</p>`
@@ -2385,7 +2415,7 @@ function renderArtistTourSummariesHtml(tours, artist) {
     .join("");
   return `<section class="nested-panel"><h2>${escapeHtml(
     artist.name
-  )} tours and dates</h2><p>The runs behind the dates listed above. Pick a date up there to get to the ticket links for it.</p><div class="card-grid">${cards}</div></section>`;
+  )} tours and dates</h2><p>Ticket links are on each date above.</p><div class="card-grid">${cards}</div></section>`;
 }
 
 // The artist page's board + derived content, computed once per request. The
@@ -2448,8 +2478,14 @@ function collapsedGroupHtml(summary, html) {
   return `<details class="page-more"><summary>${escapeHtml(summary)}</summary><div class="page-more__body">${html}</div></details>`;
 }
 
-function renderArtistTicketHelpHtml(help) {
-  const points = help.points.map((point) => `<li>${escapeHtml(point)}</li>`).join("");
+// `withArtistPanel` false drops the point about the "Where to buy" buttons, for
+// pages (artist-city) that render the date board without that panel: the help
+// must not describe furniture the page does not have.
+function renderArtistTicketHelpHtml(help, { withArtistPanel = true } = {}) {
+  const points = help.points
+    .filter((point) => withArtistPanel || !/Where to buy/.test(point))
+    .map((point) => `<li>${escapeHtml(point)}</li>`)
+    .join("");
   return `<section class="nested-panel artist-ticket-help" data-artist-ticket-help><h2>How prices and links work here</h2><p>${escapeHtml(
     help.intro
   )}</p><ul class="check-list">${points}</ul></section>`;
@@ -2507,7 +2543,7 @@ function renderArtistTicketCitiesHtml(events, artist, lowestByShowId = new Map()
   const singles = cities.filter((city) => !city.indexable);
 
   const runsHtml = runs.length
-    ? `<p>Multi-date runs — the dates, venues, and ticket links for each city:</p><ul class="guide-link-list">${runs
+    ? `<p>Cities with more than one date:</p><ul class="guide-link-list">${runs
         .slice(0, 40)
         .map(
           (city) =>
@@ -2542,17 +2578,16 @@ function renderArtistLocationLinksHtml(events, artist, lowestByShowId) {
   const groups = [
     {
       heading: "Dates by city",
-      note: "Straight to one city's dates, venues, and ticket links.",
       html: renderArtistTicketCitiesHtml(events, artist, lowestByShowId)
     },
     {
       heading: "Cities on this run",
-      note: `Who else is playing the cities ${artist.name} is visiting.`,
+      note: `Every tracked concert in each city, not only ${artist.name}'s.`,
       items: renderArtistCitiesHtml(events, artist)
     },
     {
       heading: "Venues on this run",
-      note: `What else is on at the venues ${artist.name} is playing.`,
+      note: `Every tracked concert at each venue, not only ${artist.name}'s.`,
       items: renderArtistVenuesHtml(events, artist)
     }
   ].filter((group) => group.html || group.items);
@@ -2560,9 +2595,9 @@ function renderArtistLocationLinksHtml(events, artist, lowestByShowId) {
   const blocks = groups
     .map(
       (group) =>
-        `<div class="artist-location-group"><h3>${escapeHtml(group.heading)}</h3><p class="muted">${escapeHtml(
-          group.note
-        )}</p>${group.html || `<ul class="guide-link-list">${group.items}</ul>`}</div>`
+        `<div class="artist-location-group"><h3>${escapeHtml(group.heading)}</h3>${
+          group.note ? `<p class="muted">${escapeHtml(group.note)}</p>` : ""
+        }${group.html || `<ul class="guide-link-list">${group.items}</ul>`}</div>`
     )
     .join("");
   return `<section class="nested-panel artist-location-links"><h2>Where these dates are</h2>${blocks}</section>`;
@@ -2709,6 +2744,11 @@ function artistCityIntroSentence(artist, artistCity, { datesTabled = false } = {
 // location-page FAQ — the city and venue templates carry none, because theirs
 // only restated the counts and schedule already visible on the page (see
 // docs/ROUTE_INDEXABILITY_POLICY.md § Shared content rules for location pages).
+function joinVenueList(items) {
+  if (items.length <= 2) return items.join(" and ");
+  return `${items.slice(0, -1).join(", ")} and ${items[items.length - 1]}`;
+}
+
 function artistCityFaqEntries(artist, artistCity) {
   const next = artistCity.shows[0];
   const venues = artistCity.venues || [];
@@ -2718,25 +2758,29 @@ function artistCityFaqEntries(artist, artistCity) {
       `How many ${artist.name} concerts are coming up in ${artistCity.city}?`,
       `TourTicketCompare currently tracks ${cityShowCountLabel(artistCity.showCount)} for ${artist.name} in ${artistCity.city}, ${artistCity.country}${
         range ? ` (${range})` : ""
-      }. Coverage changes automatically as reviewed dates pass or new dates are verified.`
+      }. New dates are added as they are confirmed, and past ones drop off.`
     ],
     [
       `Where does ${artist.name} play in ${artistCity.city}?`,
       venues.length
-        ? `The tracked ${artistCity.city} ${venues.length === 1 ? "date is" : "dates are"} at ${venues.join(", ")}. This is selective reviewed coverage, not a full local calendar.`
+        ? artistCity.showCount === 1
+          ? `The ${artistCity.city} date is at ${venues.join(", ")}.`
+          : venues.length === 1
+            ? `All ${artistCity.showCount} ${artistCity.city} dates are at ${venues[0]}.`
+            : `The ${artistCity.city} dates are at ${joinVenueList(venues)}.`
         : `Venue details appear on each date once verified by the source.`
     ],
     [
       `What is the next ${artist.name} date in ${artistCity.city}?`,
       next
-        ? `The next currently tracked date is ${formatShowDateServer(next.datetime_iso, next.timezone)} at ${next.venue}. Confirm the schedule and ticket details with the provider before travelling, because they can change.`
+        ? `${formatShowDateServer(next.datetime_iso, next.timezone)} at ${next.venue}. Start times can change, so check the ticket site before you travel.`
         : "No upcoming reviewed date is currently available."
     ],
     [
       `How current is this ${artist.name} ${artistCity.city} page?`,
       artistCity.lastmod
-        ? `The most recently checked event record on this page was verified ${formatVerificationDate(artistCity.lastmod)}. Individual dates can have different verification dates, and expired dates are removed automatically.`
-        : "Each date is tied to a reviewed event record, and expired dates are removed automatically."
+        ? `The most recent check on any of these dates was ${formatVerificationDate(artistCity.lastmod)}. Dates can be checked on different days, and past dates come off the page automatically.`
+        : "Past dates come off the page automatically."
     ]
   ];
   return entries;
@@ -2772,6 +2816,17 @@ function priceMoveSentence(move) {
   return `${move.name} ${move.direction} ${delta}: ${from} when recorded ${fromDate}, now ${to}${changed ? ` since ${changed}` : ""}.`;
 }
 
+// One lane's 7-day change for a date close to show day, as a sentence, or "".
+// Shared by the artist-city price answer and the event page. A statement of
+// what this date's listed price did, never of what it will do.
+function weeklyChangeSentence(change) {
+  if (!change) return "";
+  const from = formatServerPrice(change.from, change.currency);
+  const to = formatServerPrice(change.to, change.currency);
+  if (!from || !to || !Number.isFinite(change.percent)) return "";
+  return `Lowest listed price on ${change.name} ${change.direction} ${change.percent}% over the last ${WEEKLY_CHANGE_DAYS} days: ${from} a week ago, ${to} at the latest check.`;
+}
+
 // The page-level answer to the question these pages are actually searched for.
 // One row per tracked date, each carrying that date's own lowest eligible
 // listed-price snapshot, the provider offering it, and when it was captured.
@@ -2792,7 +2847,7 @@ function priceMoveSentence(move) {
 // Indexability is not consulted. A single-date page is noindex because it adds
 // nothing an artist page cannot already rank for, which is a routing judgement,
 // not a reason to withhold the price from the visitor who is standing on it.
-function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId = new Map()) {
+function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId = new Map(), weeklyChangeByShowId = new Map()) {
   const rows = priceAnswer?.rows || [];
   if (!priceAnswer?.pricedRowCount || !rows.length) return "";
 
@@ -2827,9 +2882,12 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
         // "we have recorded it lower" and "this is the lowest we recorded".
         const lowText = priceLowLabel(priceLowByShowId.get(row.showId), row.lowest.price);
         const lowLine = lowText ? `<span class="price-answer-low muted">${escapeHtml(lowText)}</span>` : "";
+        // Close to show day only, and only for the lane on the button.
+        const weekText = weeklyChangeSentence(weeklyChangeByShowId.get(row.showId));
+        const weekLine = weekText ? `<span class="price-answer-low muted">${escapeHtml(weekText)}</span>` : "";
         priceCell = `${button}<span class="price-answer-asof muted">${escapeHtml(
           age ? `${asOf}, ${age}` : asOf
-        )}</span>${lowLine}`;
+        )}</span>${lowLine}${weekLine}`;
       } else if (row.checked) {
         // Checked and nothing eligible came back. Saying so is honest; saying it
         // about a row the server never queried would not be.
@@ -3030,7 +3088,9 @@ function renderPriceGuideMoves(artist, moves, pricedRowCount, guideShowsById) {
   return `<section class="nested-panel" aria-labelledby="priceGuideMovesTitle">${heading}<p>${escapeHtml(summary)}</p><ul>${items}</ul><p class="disclosure-note">Each change compares one ticket site's listed-price snapshots for one date, in one currency. Dates are never compared with each other.</p></section>`;
 }
 
-function renderPriceGuideBody(route, events, env) {
+// Everything the price guide derives from the priced events, shared by the
+// visible page and its FAQPage JSON-LD so the two can never disagree.
+function derivePriceGuideView(route, events, env) {
   const artist = route.artist;
   const guide = route.guide;
   const seatGeekAvailable = isSeatGeekConfigured(env);
@@ -3083,6 +3143,62 @@ function renderPriceGuideBody(route, events, env) {
       ? "No eligible listed resale price is displayed for the checked dates right now. Missing pricing does not mean tickets are unavailable."
       : "Listed-price snapshots could not be checked on this visit. Use each date's ticket links to check prices with the provider.";
 
+  const nextOnsale = guide.nextOnsaleAt ? formatServerSnapshotTime(guide.nextOnsaleAt) : "";
+  return { priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, checkedCount, currentAnswer, guideShowsById, nextOnsale };
+}
+
+// The price guide's FAQ: visible on the page and mirrored as FAQPage JSON-LD.
+// Every answer is built from the same view the page renders, so it carries no
+// figure the page does not already print, and never a tour-wide minimum.
+function priceGuideFaqEntries(route, view) {
+  const artist = route.artist;
+  const guide = route.guide;
+  const name = artist.name;
+  const dates = `${guide.showCount} tracked ${guide.showCount === 1 ? "date" : "dates"}`;
+  const entries = [];
+  entries.push([
+    `How much are ${name} tickets?`,
+    `It depends on the date, city and seat. ${view.currentAnswer} Every figure on this page is one ticket site's resale listed price for one date at its capture time, not face value and not a final checkout total.`
+  ]);
+  const moveSentence = view.moves.length
+    ? (() => {
+        const down = view.moves.filter((move) => move.direction === "down").length;
+        return ` Across the ${name} dates showing a price, ${view.moves.length} have a recorded change in the last ${PRICE_MOVE_WINDOW_DAYS} days: ${down} lower and ${view.moves.length - down} higher.`;
+      })()
+    : "";
+  entries.push([
+    `When is the best time to buy ${name} tickets?`,
+    `There isn't a reliable best moment to buy. Resale prices for each date move up and down independently, and the site doesn't predict where a price is heading.${moveSentence} Buying at the official sale gives the most seat choice; waiting can pay off, but can also mean fewer seats or a higher total.`
+  ]);
+  entries.push([
+    `When do ${name} tickets go on sale?`,
+    guide.onsalePendingCount
+      ? `Ticketmaster lists a public on-sale time for ${guide.onsalePendingCount} of the ${dates}, the next at ${view.nextOnsale}. Until then any listing you see for those dates is resale.`
+      : `None of the ${dates} has an upcoming Ticketmaster public on-sale time on record. Where Ticketmaster sells a date, its link is on the ${name} page.`
+  ]);
+  const linked = [...view.linkCounts.entries()].map(([site, count]) => `${site} (${count} of ${guide.showCount})`);
+  if (linked.length) {
+    entries.push([
+      `Where can I buy ${name} tickets?`,
+      `The site links to these ticket sites for the ${dates}, each matched to the exact event: ${linked.join(", ")}. A link means the date is listed there, not that tickets are available.`
+    ]);
+  }
+  return entries;
+}
+
+function renderPriceGuideFaqHtml(entries) {
+  if (!entries.length) return "";
+  return `<section class="nested-panel" aria-labelledby="priceGuideFaqTitle"><h2 id="priceGuideFaqTitle">FAQ</h2>${entries
+    .map(([question, answer]) => `<h3>${escapeHtml(question)}</h3><p>${escapeHtml(answer)}</p>`)
+    .join("")}</section>`;
+}
+
+function renderPriceGuideBody(route, events, env) {
+  const artist = route.artist;
+  const guide = route.guide;
+  const view = derivePriceGuideView(route, events, env);
+  const { priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, checkedCount, currentAnswer, guideShowsById, nextOnsale } = view;
+
   const leadHtml = `<h1 id="priceGuideTitle">${escapeHtml(artist.name)} ticket prices${
     route.yearLabel ? ` for ${escapeHtml(route.yearLabel)}` : ""
   }</h1><p class="lead">${escapeHtml(
@@ -3093,7 +3209,6 @@ function renderPriceGuideBody(route, events, env) {
     }${range ? ` (${range})` : ""}.`
   )} ${anchor("See prices by date", "#priceGuideDatesTitle", "text-link")} or ${anchor("compare ticket sites for your show", artistHref, "text-link")}.</p>`;
 
-  const nextOnsale = guide.nextOnsaleAt ? formatServerSnapshotTime(guide.nextOnsaleAt) : "";
   const cards = [
     [
       "Tracked dates",
@@ -3175,7 +3290,7 @@ function renderPriceGuideBody(route, events, env) {
 
   return `<main id="mainContent"><section class="content-page price-guide-page" aria-labelledby="priceGuideTitle">${renderBreadcrumbHtml(
     route
-  )}${leadHtml}<p class="disclosure-note">Every figure is a provider-supplied resale listed-price snapshot for one verified date, not Ticketmaster face value, ticket availability or a final checkout total. Confirm fees, taxes and delivery at checkout.</p>${tablesHtml}${movesHtml}${missingPricesHtml}${glanceHtml}${faceValueHtml}${whereHtml}${relatedHtml}</section></main>`;
+  )}${leadHtml}<p class="disclosure-note">Every figure is a provider-supplied resale listed-price snapshot for one verified date, not Ticketmaster face value, ticket availability or a final checkout total. Confirm fees, taxes and delivery at checkout.</p>${tablesHtml}${movesHtml}${missingPricesHtml}${glanceHtml}${faceValueHtml}${whereHtml}${renderPriceGuideFaqHtml(priceGuideFaqEntries(route, view))}${relatedHtml}</section></main>`;
 }
 
 function artistCityShowIdSet(artistCity) {
@@ -3196,12 +3311,13 @@ function artistCityShowIdSet(artistCity) {
 // — so the grid is dropped and that one fact is folded into the short answer
 // rather than left as a lone card in a three-column grid.
 //
-// The heading and the "Short answer:" lead-in are load-bearing in both
-// variants: scripts/audit-internal-links.mjs requires both on every
-// artist-city page, so this compresses the panel and never removes it. (The
+// The heading is load-bearing in both variants: scripts/audit-internal-links.mjs
+// requires it on every artist-city page, so this compresses the panel and never
+// removes it. (The "Short answer:" lead-in it used to require was dropped
+// 2026-10-02 in the page-quality pass: a label announcing an answer is filler.) The
 // audits build their offline env with no DEMAND_DB binding, so they only ever
 // render the unabridged variant; the compressed one is covered by
-// scripts/artist-city-prices.test.mjs.)
+// scripts/artist-city-prices.test.mjs.
 function renderArtistCityAnswerSummary(artist, artistCity, { datesTabled = false } = {}) {
   const checked = formatVerificationDate(artistCity.lastmod);
   const runNote = artistCity.multiNightSameVenue
@@ -3215,19 +3331,19 @@ function renderArtistCityAnswerSummary(artist, artistCity, { datesTabled = false
   // captured. The clarifier is only meaningful beside a price table.
   const recency = checked
     ? datesTabled
-      ? `The most recent event record on this page was checked ${checked} — that is when the event itself was last verified, not when a price was captured; each figure above carries its own capture time.`
-      : `The most recent event record on this page was checked ${checked}.`
-    : `Each date carries its own verification record.`;
+      ? `Latest date check: ${checked}. Each price above shows its own capture time.`
+      : `Latest date check: ${checked}.`
+    : "";
   // One summary, below the dates (2026-09-25, owner request). It replaced a
   // lead paragraph and a disclosure paragraph above the dates plus a deck of
   // "Next tracked date" / "Tracked date range" / "Venues" / "Verification
   // recency" cards, which between them stated the count, venue and range twice
   // and put the first date a screen and a half down on a phone. The first card
   // on the board is the next date; this sentence states the rest once.
-  return `<section class="nested-panel artist-city-summary" aria-labelledby="artistCityAnswerTitle">${heading}<p><strong>Short answer:</strong> ${escapeHtml(
+  return `<section class="nested-panel artist-city-summary" aria-labelledby="artistCityAnswerTitle">${heading}<p class="artist-city-summary__lead">${escapeHtml(
     artistCityIntroSentence(artist, artistCity, { datesTabled })
   )}${escapeHtml(runNote)}</p><p class="disclosure-note">${escapeHtml(
-    `${recency} This is a selective list of reviewed dates, not a complete local calendar.`
+    `${recency ? `${recency} ` : ""}These are selected dates, not a full local concert calendar.`
   )}</p></section>`;
 }
 
@@ -3261,7 +3377,7 @@ function renderArtistCityRelatedLinks(artist, artistCity, otherCities, cityIndex
     parts.push(
       `<section class="nested-panel"><h2>Other cities on the ${escapeHtml(
         artist.name
-      )} run</h2><p>See ${escapeHtml(artist.name)} dates and checked ticket options in other cities:</p><ul class="guide-link-list">${items}</ul></section>`
+      )} run</h2><ul class="guide-link-list">${items}</ul></section>`
     );
   }
   return parts.join("");
@@ -3403,7 +3519,7 @@ export function renderCityPageBody(route, events = [], options = {}) {
       "Tips for buying and more cities",
       `<section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
         city.city
-      )} concert</h2><p>Use the ticket button on the selected date above when available to reach its checked ticket links. Open the artist page for additional date details; any recorded prices apply to that exact show. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
+      )} concert</h2><p>Each date's buttons open that exact show on the ticket site, and the link under each card leads to more dates from that artist. A price shown applies to that one show at the time stated. Check the final total, fees and delivery terms on the ticket site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
         "All cities",
         "/cities",
         "button button-secondary"
@@ -3454,7 +3570,7 @@ export function renderVenuePageBody(route, events = [], options = {}) {
       "Tips for buying and more venues",
       `<section class="nested-panel"><h2>Getting tickets at ${escapeHtml(
         venue.venue
-      )}</h2><p>Use the ticket button on the date you want, or open that show's artist page for the full event view. Check the final total, fees and delivery terms on the provider's site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${
+      )}</h2><p>Each date's buttons open that exact show on the ticket site. A price shown applies to that one show at the time stated. Check the final total, fees and delivery terms on the ticket site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${
         cityPage ? anchor(`More concerts in ${cityPage.city}`, `/cities/${cityPage.slug}`, "button button-secondary") : ""
       }${anchor("All venues", "/venues", "button button-secondary")}</div></section>`
     )}`
@@ -3517,7 +3633,8 @@ const GUIDE_PROVIDER_NAMES = [
   ["seatgeek", "SeatGeek"],
   ["vivid-seats", "Vivid Seats"],
   ["stubhub", "StubHub"],
-  ["ticketnetwork", "TicketNetwork"]
+  ["ticketnetwork", "TicketNetwork"],
+  ["ticket-liquidator", "Ticket Liquidator"]
 ];
 
 function guideProviders(path) {
@@ -3594,21 +3711,55 @@ function renderGuideClusters() {
   return clusterSections + moreSection;
 }
 
-// Keep in sync with renderArtistStatusLegend in public/app.js.
-function renderArtistStatusLegendHtml() {
-  const items = [
-    ["status-badge", "Dates listed", "Upcoming dates and ticket links on the page"],
-    ["status-badge status-badge-muted", "No dates currently listed", "No future dates — artist page and alerts only"],
-    ["status-badge status-badge-muted", "Being checked", "Links appear once they've been checked"]
-  ];
-  return `<div class="artist-status-legend" aria-label="Artist card status legend">${items
-    .map(
-      ([badgeClass, badge, detail]) =>
-        `<span class="artist-status-legend-item"><span class="${badgeClass}">${escapeHtml(
-          badge
-        )}</span><span class="status-chip-detail">${escapeHtml(detail)}</span></span>`
-    )
-    .join("")}</div>`;
+// Homepage "Going on sale soon" (2026-10-02, owner request): the next few
+// artists with a public on-sale ahead, from the same derivation as /on-sale, so
+// an on-sale day is visible where visitors land rather than one link deep.
+const HOMEPAGE_ONSALE_ARTISTS = 4;
+
+function homepageOnsaleWhen(entry) {
+  try {
+    return new Date(entry.onsaleMs).toLocaleString("en-US", {
+      weekday: "short",
+      month: "short",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      timeZone: entry.timezone || "UTC",
+      timeZoneName: "short"
+    });
+  } catch (error) {
+    return `${new Date(entry.onsaleMs).toISOString().slice(0, 16).replace("T", " ")} UTC`;
+  }
+}
+
+function renderHomepageOnsaleStrip(events, now = Date.now()) {
+  const calendar = deriveOnsaleCalendar(events, now);
+  const seen = new Set();
+  const rows = [];
+  for (const day of calendar.upcoming) {
+    for (const artist of day.artists) {
+      if (seen.has(artist.artistSlug) || rows.length >= HOMEPAGE_ONSALE_ARTISTS) continue;
+      seen.add(artist.artistSlug);
+      rows.push(artist);
+    }
+  }
+  if (!rows.length) return "";
+  const items = rows
+    .map((artist) => {
+      const first = artist.shows[0];
+      const count = artist.shows.length;
+      return `<li><a class="home-artist" href="/artists/${escapeAttr(slugify(artist.artistSlug))}"><span class="home-artist__name">${escapeHtml(
+        artist.artistName
+      )}</span><span class="home-artist__meta">${escapeHtml(
+        `${count} ${count === 1 ? "date" : "dates"} · on sale ${homepageOnsaleWhen(first)}`
+      )}</span></a></li>`;
+    })
+    .join("");
+  return `<section class="home-onsale" aria-labelledby="homeOnsaleTitle"><div class="home-section__head"><h3 id="homeOnsaleTitle">Going on sale soon</h3>${anchor(
+    "Full on-sale calendar",
+    "/on-sale",
+    "text-link"
+  )}</div><ul class="home-artist-list">${items}</ul></section>`;
 }
 
 function renderHomepageGuideLinks() {
@@ -4118,7 +4269,7 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
     .map((item) => {
       const provider = slugify(item.provider);
       const displayName = PROVIDER_DISPLAY_NAMES[provider] || item.provider;
-      const label = "Check provider";
+      const label = `All ${artist.name} tickets on ${displayName}`;
       const destination = withCtaLocation(artistProviderHref(artist, item, surface), "artist_provider_panel");
       const verificationNote = providerVerificationNote(item);
       return `<article class="provider-card"><p class="eyebrow">Artist page</p><h3>${escapeHtml(displayName)}</h3>${anchor(
@@ -4168,15 +4319,15 @@ function renderVerificationDisclosure(artist, hasShows = true) {
   // printing it would be a freshness claim attached to nothing.
   const artistVerifiedDate = hasShows ? formatVerificationDate(artist.last_verified_at) : null;
   const checkedLine = artistVerifiedDate
-    ? `<p><strong>Data checked:</strong> artist links ${escapeHtml(
+    ? `<p><strong>Data checked:</strong> artist links last confirmed ${escapeHtml(
         artistVerifiedDate
-      )}. That's the most recent date the automated link checks recorded against this page's records; the checks themselves run daily. This page has no separate human editorial review date, so none is printed.</p>`
+      )}, by an automated check rather than a human review.</p>`
     : "";
   const verificationLines = hasShows
-    ? `<p><strong>What's verified:</strong> that each date comes from a source record with a date, venue and city, and that every button on a date card resolves to that exact event on that provider's site. Where a link fails those checks, the date stays listed with no button. The artist-level buttons under &ldquo;Where to buy&rdquo; are checked too, but they land on the artist's page on a ticket site rather than on one date.</p><p><strong>What isn't verified:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. Those belong to the provider and are settled at their checkout. A price shown here is one site's listed snapshot at the time stamped beside it, not a quote.</p>`
+    ? `<p><strong>What's verified:</strong> every date comes from a source listing with a date, venue and city, and every button on a date card opens that exact event on the ticket site. A date that fails stays listed without a button. The &ldquo;Where to buy&rdquo; buttons are checked too, but open the artist's page rather than one date.</p><p><strong>What isn't verified:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. The ticket site settles those at checkout. A price here is one site's listed price at the time shown, not a quote.</p>`
     : `<p><strong>What's verified:</strong> there are no confirmed upcoming ${escapeHtml(
         artist.name
-      )} dates, so this page lists none. A date goes up only with a date, venue and city from the source, and a ticket button appears only once its link resolves to that exact event.</p>`;
+      )} dates, so none are listed. A date goes up only with a date, venue and city from the source, and a ticket button only once its link opens that exact event.</p>`;
   return `<section class="nested-panel verification-disclosure" data-artist-trust aria-labelledby="artistProvenance"><h2 id="artistProvenance">How this page is checked</h2><p>${siteBylineHtml()}. TourTicketCompare is independent and unofficial, and is not affiliated with ${escapeHtml(
     artist.name
   )}, any promoter, or any ticket site.</p>${checkedLine}${verificationLines}<p class="disclosure-note">Some outbound links earn TourTicketCompare a commission — see the ${anchor(
@@ -4431,8 +4582,13 @@ function showDatePartsServer(iso, timezone) {
 // resale lanes with their own verified exact-event provenance still render:
 // resale marketplaces list before a public on-sale, and /api/out has never
 // gated on it. Keep in sync with public/app.js.
-function publicOnsaleLabel(event) {
+function publicOnsaleLabel(event, now = Date.now()) {
   const at = new Date(String(event?.public_onsale_at || ""));
+  // Ticketmaster marks "to be announced" with far-future placeholders such as
+  // 9999-12-31; the on-sale calendar already ignores those, so the label does too.
+  if (at.getTime() - now > ONSALE_MAX_HORIZON_DAYS * 24 * 60 * 60 * 1000) {
+    return "Public on-sale date not yet announced by Ticketmaster.";
+  }
   let when = at.toISOString().slice(0, 16).replace("T", " ") + " UTC";
   try {
     when = at.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit", timeZone: event?.timezone || "UTC", timeZoneName: "short" });
@@ -4459,6 +4615,36 @@ function onsaleDayHeading(day) {
   return date.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
 }
 
+// A tour announcement can put 20+ dates on one day; listed in full, the page
+// ran to ~23,000px on a phone. Each artist shows its first ONSALE_VISIBLE_SHOWS
+// dates and folds the rest into a closed <details>, which works without JS and
+// keeps every date in the HTML.
+const ONSALE_VISIBLE_SHOWS = 3;
+
+function renderOnsaleShowItems(shows) {
+  return shows
+    .map(
+      (show) =>
+        `<li data-event-id="${escapeAttr(show.id)}"><strong>${escapeHtml(onsaleTimeLabel(show))}</strong> · ${escapeHtml(
+          [show.city, show.venue].filter(Boolean).join(" · ")
+        )}${show.datetimeIso ? escapeHtml(` · show ${formatShowDateServer(show.datetimeIso, show.timezone)}`) : ""}</li>`
+    )
+    .join("");
+}
+
+function renderOnsaleShowList(shows) {
+  // Fold only when it hides at least two dates; a "1 more" toggle saves nothing.
+  if (shows.length <= ONSALE_VISIBLE_SHOWS + 1) {
+    return `<ul class="venue-show-list onsale-shows">${renderOnsaleShowItems(shows)}</ul>`;
+  }
+  const rest = shows.slice(ONSALE_VISIBLE_SHOWS);
+  return `<ul class="venue-show-list onsale-shows">${renderOnsaleShowItems(
+    shows.slice(0, ONSALE_VISIBLE_SHOWS)
+  )}</ul><details class="onsale-more"><summary>${escapeHtml(
+    `Show ${rest.length} more ${rest.length === 1 ? "date" : "dates"}`
+  )}</summary><ul class="venue-show-list onsale-shows">${renderOnsaleShowItems(rest)}</ul></details>`;
+}
+
 function renderOnsaleDayGroups(groups) {
   return groups
     .map(
@@ -4470,14 +4656,7 @@ function renderOnsaleDayGroups(groups) {
             (artist) =>
               `<h4>${anchor(artist.artistName, `/artists/${slugify(artist.artistSlug)}`, "text-link")} <span class="muted">${escapeHtml(
                 `· ${artist.shows.length} ${artist.shows.length === 1 ? "date" : "dates"}`
-              )}</span></h4><ul class="venue-show-list onsale-shows">${artist.shows
-                .map(
-                  (show) =>
-                    `<li data-event-id="${escapeAttr(show.id)}"><strong>${escapeHtml(onsaleTimeLabel(show))}</strong> · ${escapeHtml(
-                      [show.city, show.venue].filter(Boolean).join(" · ")
-                    )}${show.datetimeIso ? escapeHtml(` · show ${formatShowDateServer(show.datetimeIso, show.timezone)}`) : ""}</li>`
-                )
-                .join("")}</ul>`
+              )}</span></h4>${renderOnsaleShowList(artist.shows)}`
           )
           .join("")}</section>`
     )
@@ -5430,19 +5609,38 @@ function safeTicketmasterGuideEventUrl(event) {
   } catch (error) { return null; }
 }
 
-export function guideProviderPairEligibility(events, env = {}) {
-  if (!isVividSeatsConfigured(env)) return [];
+// The lanes a comparison guide may pair. Each gate is the one the lane's own
+// event-card button uses (serverShowCtaSpecs), so a guide never shows a
+// button the event's own page would suppress. Ticketmaster additionally needs
+// a stored URL on an allowlisted Ticketmaster host that carries its event id.
+const GUIDE_PAIR_PROVIDERS = new Set(PROVIDER_DISPLAY_ORDER);
+
+function guidePairLanePublishable(event, provider, env = {}) {
+  if (!GUIDE_PAIR_PROVIDERS.has(provider)) return false;
+  if (provider === "ticketmaster") return Boolean(safeTicketmasterGuideEventUrl(event) && eventLinkPublishable(event));
+  if (provider === "seatgeek") {
+    return Boolean(isSeatGeekConfigured(env) && safeSeatGeekTicketUrl(event?.seatgeek_url) && providerEventPublishable(event, "seatgeek"));
+  }
+  if (provider === "vivid-seats") {
+    return Boolean(isVividSeatsConfigured(env) && safeVividSeatsTicketUrl(event?.vividseats_url) && providerEventPublishable(event, "vivid-seats"));
+  }
+  const marketplace = IMPACT_MARKETPLACE_PROVIDERS.find((candidate) => candidate.slug === provider);
+  return Boolean(
+    marketplace &&
+      isImpactMarketplaceConfigured(env, marketplace) &&
+      providerEventPublishable(event, provider) &&
+      eventTicketHref(event, provider)
+  );
+}
+
+export function guideProviderPairEligibility(events, env = {}, pair = ["ticketmaster", "vivid-seats"]) {
+  if (!Array.isArray(pair) || pair.length !== 2 || pair[0] === pair[1]) return [];
+  if (!pair.every((provider) => GUIDE_PAIR_PROVIDERS.has(provider))) return [];
   return (events || [])
     .filter((event) => {
       const date = Date.parse(String(event?.datetime_iso || event?.dateTimeISO || ""));
       if (!Number.isFinite(date) || date < Date.now()) return false;
-      return Boolean(
-        event?.id &&
-          safeTicketmasterGuideEventUrl(event) &&
-          eventLinkPublishable(event) &&
-          safeVividSeatsTicketUrl(event?.vividseats_url) &&
-          providerEventPublishable(event, "vivid-seats")
-      );
+      return Boolean(event?.id && pair.every((provider) => guidePairLanePublishable(event, provider, env)));
     })
     .sort(
       (a, b) =>
@@ -5457,11 +5655,30 @@ function guideProviderPairHref(event, provider, guideSlug, position) {
   return `${base}&guideSlug=${encodeURIComponent(guideSlug)}&position=${position}`;
 }
 
+// One date per artist, soonest first, so a residency cannot fill every card.
+function guideProviderPairDisplayed(eligible, limit = 8) {
+  const seen = new Set();
+  const displayed = [];
+  for (const event of eligible) {
+    const key = slugify(event.artist_slug) || String(event.id);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    displayed.push(event);
+    if (displayed.length === limit) break;
+  }
+  return displayed;
+}
+
 export function renderGuideProviderPair(route, events, env = {}) {
   const pair = Array.isArray(route?.comparisonProviders) ? route.comparisonProviders : [];
-  if (pair.length !== 2 || pair[0] !== "ticketmaster" || pair[1] !== "vivid-seats") return "";
-  const eligible = guideProviderPairEligibility(events, env);
-  const displayed = eligible.slice(0, 8);
+  if (pair.length !== 2 || pair[0] === pair[1] || !pair.every((provider) => GUIDE_PAIR_PROVIDERS.has(provider))) return "";
+  // Affiliate lanes render before the plain Ticketmaster link, as on every
+  // event card; the first button is the primary one.
+  const ordered = [...pair].sort((a, b) => providerDisplayRank(a) - providerDisplayRank(b));
+  const names = ordered.map((provider) => PROVIDER_DISPLAY_NAMES[provider] || provider);
+  const both = `${names[0]} and ${names[1]}`;
+  const eligible = guideProviderPairEligibility(events, env, ordered);
+  const displayed = guideProviderPairDisplayed(eligible);
   const guideSlug = route.path.split("/").at(-1);
   const calculatedAt = new Date().toISOString();
   const methodology = `<p class="disclosure-note guide-provider-pair-methodology">${escapeHtml(
@@ -5481,25 +5698,28 @@ export function renderGuideProviderPair(route, events, env = {}) {
       const artistName = String(event.artist_name || event.event_name || artistSlug).trim();
       const date = formatShowDateServer(event.datetime_iso || event.dateTimeISO, event.timezone);
       const location = [event.venue, event.city].map((value) => String(value || "").trim()).filter(Boolean).join(" · ");
-      const ticketmasterHref = guideProviderPairHref(event, "ticketmaster", guideSlug, position);
-      const vividSeatsHref = guideProviderPairHref(event, "vivid-seats", guideSlug, position);
-      if (!ticketmasterHref || !vividSeatsHref) return "";
+      const hrefs = ordered.map((provider) => guideProviderPairHref(event, provider, guideSlug, position));
+      if (hrefs.some((href) => !href)) return "";
+      const buttons = ordered
+        .map(
+          (provider, buttonIndex) =>
+            `<a class="button ${buttonIndex === 0 ? "button-primary" : "button-secondary"}" href="${escapeAttr(hrefs[buttonIndex])}" target="_blank" rel="${escapeAttr(
+              outboundCtaRel(hrefs[buttonIndex])
+            )}" data-cta-provider="${escapeAttr(provider)}" data-cta-artist="${escapeAttr(artistSlug)}" data-cta-show-id="${escapeAttr(
+              event.id
+            )}" data-cta-location="guide_provider_pair" data-cta-position="${position}">Check ${escapeHtml(names[buttonIndex])}</a>`
+        )
+        .join("");
       return `<article class="info-card guide-provider-pair-card" data-event-id="${escapeAttr(event.id)}"><h3>${anchor(
         artistName,
         `/artists/${artistSlug}`,
         "guide-card-link"
-      )}</h3><p>${escapeHtml([date, location].filter(Boolean).join(" · "))}</p><div class="guide-provider-pair-actions"><a class="button button-secondary" href="${escapeAttr(
-        ticketmasterHref
-      )}" target="_blank" rel="${escapeAttr(outboundCtaRel(ticketmasterHref))}" data-cta-provider="ticketmaster" data-cta-artist="${escapeAttr(
-        artistSlug
-      )}" data-cta-show-id="${escapeAttr(event.id)}" data-cta-location="guide_provider_pair" data-cta-position="${position}">Check Ticketmaster</a><a class="button button-primary" href="${escapeAttr(
-        vividSeatsHref
-      )}" target="_blank" rel="${escapeAttr(outboundCtaRel(vividSeatsHref))}" data-cta-provider="vivid-seats" data-cta-artist="${escapeAttr(
-        artistSlug
-      )}" data-cta-show-id="${escapeAttr(event.id)}" data-cta-location="guide_provider_pair" data-cta-position="${position}">Check Vivid Seats</a></div></article>`;
+      )}</h3><p>${escapeHtml([date, location].filter(Boolean).join(" · "))}</p><div class="guide-provider-pair-actions">${buttons}</div></article>`;
     })
     .join("");
-  return `<section class="nested-panel guide-provider-pair" aria-labelledby="providerPairTitle"><h2 id="providerPairTitle">Compare the same event on both providers</h2><p>These are the next reviewed dates with a safe, event-specific link for both Ticketmaster and Vivid Seats. Open both and match the ticket details and checkout total yourself.</p><div class="card-grid guide-provider-pair-grid">${rows}</div>${methodology}</section>`;
+  return `<section class="nested-panel guide-provider-pair" aria-labelledby="providerPairTitle"><h2 id="providerPairTitle">Compare the same event on both providers</h2><p>${escapeHtml(
+    `These are upcoming dates, one per artist, with a checked event-specific link on both ${both}. Open both and compare the same seats and the checkout total yourself.`
+  )}</p><div class="card-grid guide-provider-pair-grid">${rows}</div>${methodology}</section>`;
 }
 
 // Title and description for an event page. Composed before any price is
@@ -5620,6 +5840,15 @@ function renderEventPageBody(route, events, env) {
     const move = derivePriceMove(row.lowest, priceMoveSeries.get(`${row.showId}|${row.lowest.provider}`) || []);
     const moveText = move ? priceMoveSentence(move) : "";
     if (moveText) priceItems.push(`Latest recorded change: ${moveText}`);
+    // Close to show day, one line per site whose badge is showing, so a buyer
+    // deciding this week sees what each site's price did this week.
+    const priceWeekSeries = route.priceWeekSeries instanceof Map ? route.priceWeekSeries : new Map();
+    for (const lane of priceWeekSeries.size ? row.lanes : []) {
+      const weekText = weeklyChangeSentence(
+        deriveWeeklyPriceChange(lane, priceWeekSeries.get(`${row.showId}|${lane.provider}`) || [], { showStartsAt: row.datetimeISO })
+      );
+      if (weekText) priceItems.push(`This week: ${weekText}`);
+    }
   }
   const pricesHtml = priceItems.length
     ? `<section class="nested-panel" aria-labelledby="eventPricesTitle"><h2 id="eventPricesTitle">Recorded prices for this date</h2><ul>${priceItems
@@ -5655,13 +5884,47 @@ function renderEventPageBody(route, events, env) {
   ].filter(Boolean);
   const linksHtml = `<section class="nested-panel"><h2>More ${escapeHtml(artist.name)} dates</h2><div class="mini-link-grid">${links.join("")}</div></section>`;
 
+  // "What to know": the page's own facts restated as a buyer's checklist, plus
+  // links to the guides that cover delivery, scams and cancellations. No door
+  // time is stated: the event record doesn't hold one.
+  const whenLine = `${artist.name} plays ${show.venue} in ${show.city} on ${dateLabel}${
+    localTime ? `, with a listed start time of ${localTime} local time` : ""
+  }. Door times aren't in the event record, so check your ticket or the venue before you travel.`;
+  // A held (cancelled, postponed or unconfirmed) date states its status
+  // above; nothing here may read as if the show goes ahead.
+  const knowItems = held ? [] : [escapeHtml(whenLine)];
+  if (!held) {
+    knowItems.push(
+      escapeHtml(
+        publicOnsalePending(show)
+          ? "The official sale hasn't opened yet. When it does, it sells tickets at face value. Resale listings can sit above or below face value, and the total is only final at the ticket site's checkout, after fees, taxes and delivery."
+          : "The official sale sells tickets at face value. Resale listings can sit above or below it, and the total is only final at the ticket site's checkout, after fees, taxes and delivery."
+      )
+    );
+  }
+  knowItems.push(
+    escapeHtml(
+      "Each resale site sets its own buyer guarantee, refund rules and delivery date. Read them before you pay, keep the purchase on that site, and never pay a stranger by bank transfer for tickets."
+    )
+  );
+  const knowGuides = [
+    "/guides/ticket-delivery-and-transfer-timing",
+    "/guides/how-to-avoid-ticket-scams",
+    "/guides/what-to-do-if-a-concert-is-postponed-or-cancelled"
+  ]
+    .filter((guidePath) => GUIDE_ROUTES[guidePath])
+    .map((guidePath) => anchor(GUIDE_ROUTES[guidePath].h1 || GUIDE_ROUTES[guidePath].title, guidePath, "mini-link"));
+  const knowHtml = `<section class="nested-panel" aria-labelledby="eventKnowTitle"><h2 id="eventKnowTitle">What to know before you buy</h2><ul>${knowItems
+    .map((item) => `<li>${item}</li>`)
+    .join("")}</ul>${knowGuides.length ? `<div class="mini-link-grid">${knowGuides.join("")}</div>` : ""}</section>`;
+
   const ticketsHeading = held ? "Ticket status" : "Ticket links for this date";
   const disclosure = ctaSpecs.length ? renderMoneyDisclosureHtml() : "";
   return `<main id="mainContent"><section class="content-page event-page" aria-labelledby="eventTitle" data-page-artist="${escapeAttr(artist.slug)}">${renderBreadcrumbHtml(
     route
   )}<h1 id="eventTitle">${escapeHtml(`${artist.name} at ${show.venue}, ${show.city} — ${dateLabel}`)}</h1><section class="section-grid show-board" aria-labelledby="eventTicketsTitle"><div class="section-intro"><h2 id="eventTicketsTitle">${escapeHtml(
     ticketsHeading
-  )}</h2>${disclosure}</div><div class="card-grid show-card-grid">${cardHtml}</div></section>${pricesHtml}${factsHtml}${linksHtml}</section></main>`;
+  )}</h2>${disclosure}</div><div class="card-grid show-card-grid">${cardHtml}</div></section>${pricesHtml}${factsHtml}${knowHtml}${linksHtml}</section></main>`;
 }
 
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {
@@ -5672,7 +5935,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "Google's privacy policy",
       "https://policies.google.com/privacy",
       "text-link"
-    )}, and the publisher tag of Impact, an affiliate network, which reports a page impression to Impact and may set its own cookies. If you reject, neither loads. You can change your choice at any time with &ldquo;Cookie settings&rdquo; at the bottom of every page. TourTicketCompare sets no cookies of its own. It uses your browser's local storage to remember your cookie choice, session storage to group the pages of one visit, which is cleared when the tab closes, and local storage to remember your last choice in the currency converter. After you click through to a ticket site, that site or its affiliate network may set its own cookies so a purchase can be credited.</p></section><section class="nested-panel"><h2>How the information is used</h2><ul class="check-list"><li>To run the site and its forms, and to email you about the artist you asked about if you joined a date alert.</li><li>To count interest in price-drop emails. No price emails are sent; the count decides whether they are worth building.</li><li>To understand which pages, guides and ticket links are useful, and to measure clicks through affiliate links.</li><li>To investigate broken links, incorrect event details, abuse, and technical problems.</li></ul></section><section class="nested-panel"><h2>Who else handles it</h2><ul class="check-list"><li><strong>Cloudflare</strong> hosts the site. It processes every request, including your IP address, to serve and protect the site, and stores the form and measurement records described above.</li><li><strong>Google</strong> receives analytics data through Google Analytics, if you accept cookies.</li><li><strong>Impact</strong>, an affiliate network, receives a page-impression request from each page you view through its publisher tag, if you accept cookies. Impact also receives the random click ID when you follow a supported affiliate ticket link, independently of whether its publisher tag loads. This is separate from the consent-gated page-impression tag described above. Impact and the ticket site's own privacy notices apply to information they collect after you follow a link.</li><li><strong>Ticket sites</strong> receive your visit when you click a ticket button. TourTicketCompare does not sell tickets or take payments, and never sees your checkout, payment or account details. Each ticket site's own privacy notice and terms apply there.</li></ul></section><section class="nested-panel"><h2>How long it is kept</h2><p>Email signups are kept until you ask for them to be removed. Measurement records are kept for analysing trends over time and are not currently deleted on a fixed schedule.</p></section><section class="nested-panel"><h2>Your choices and rights</h2><p>You don't need to give an email address to use the site. To have your email address removed, or to ask what the site holds about you, email ${anchor(
+    )}, and the publisher tag of Impact, an affiliate network, which reports a page impression to Impact and may set its own cookies. If you reject, neither loads. You can change your choice at any time with &ldquo;Cookie settings&rdquo; at the bottom of every page. TourTicketCompare sets no cookies of its own. It uses your browser's local storage to remember your cookie choice, session storage to group the pages of one visit, which is cleared when the tab closes, and local storage to remember your last choice in the currency converter. After you click through to a ticket site, that site or its affiliate network may set its own cookies so a purchase can be credited.</p></section><section class="nested-panel"><h2>How the information is used</h2><ul class="check-list"><li>To run the site and its forms, and to email you about the artist you asked about if you joined a date alert.</li><li>To count interest in price-drop emails. No price emails are sent; the count decides whether they are worth building.</li><li>To understand which pages, guides and ticket links are useful, and to measure clicks through affiliate links.</li><li>To investigate broken links, incorrect event details, abuse, and technical problems.</li></ul></section><section class="nested-panel"><h2>Who else handles it</h2><ul class="check-list"><li><strong>Cloudflare</strong> hosts the site. It processes every request, including your IP address, to serve and protect the site, and stores the form and measurement records described above.</li><li><strong>Google</strong> receives analytics data through Google Analytics, if you accept cookies.</li><li><strong>Impact</strong>, an affiliate network, receives a page-impression request from each page you view through its publisher tag, if you accept cookies. Impact also receives the random click ID when you follow a supported affiliate ticket link, independently of whether its publisher tag loads. This is separate from the consent-gated page-impression tag described above. Impact and the ticket site's own privacy notices apply to information they collect after you follow a link.</li><li><strong>Resend</strong>, an email delivery service, receives your email address and the content of the alert when the site sends you an artist date-alert email, so that it can deliver it.</li><li><strong>Ticket sites</strong> receive your visit when you click a ticket button. TourTicketCompare does not sell tickets or take payments, and never sees your checkout, payment or account details. Each ticket site's own privacy notice and terms apply there.</li></ul></section><section class="nested-panel"><h2>How long it is kept</h2><p>Email signups are kept until you ask for them to be removed. Measurement records are kept for analysing trends over time and are not currently deleted on a fixed schedule.</p></section><section class="nested-panel"><h2>Your choices and rights</h2><p>You don't need to give an email address to use the site. To have your email address removed, or to ask what the site holds about you, email ${anchor(
       "hello@tourticketcompare.com",
       "mailto:hello@tourticketcompare.com",
       "text-link"
@@ -5967,7 +6230,20 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
         if (low) priceLowByShowId.set(row.showId, low);
       }
     }
-    const priceAnswerHtml = renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId);
+    // The 7-day change for the lane on each row's button, for dates close to
+    // show day. Same single gate: row.lowest is a lane passing it right now.
+    const priceWeekSeries = route.priceWeekSeries instanceof Map ? route.priceWeekSeries : new Map();
+    const weeklyChangeByShowId = new Map();
+    if (priceWeekSeries.size) {
+      for (const row of priceAnswer.rows) {
+        if (!row.lowest) continue;
+        const change = deriveWeeklyPriceChange(row.lowest, priceWeekSeries.get(`${row.showId}|${row.lowest.provider}`) || [], {
+          showStartsAt: row.datetimeISO
+        });
+        if (change) weeklyChangeByShowId.set(row.showId, change);
+      }
+    }
+    const priceAnswerHtml = renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId, weeklyChangeByShowId);
     // What the table states, the lead and the at-a-glance panel stop restating.
     // Both fall back to their full form when the table renders nothing, so a
     // page with no eligible price is unchanged in body copy as well as layout.
@@ -6023,7 +6299,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       eventPageLinker(route.events || events, [artist])
     )}${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
       "How prices and links work, and useful links",
-      `${renderArtistTicketHelpHtml(artistTicketHelp())}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
+      `${renderArtistTicketHelpHtml(artistTicketHelp(), { withArtistPanel: false })}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       `All ${artist.name} tickets and dates`,
       `/artists/${artist.slug}`,
       "mini-link"
@@ -6032,11 +6308,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "/guides/how-to-compare-concert-ticket-prices",
       "mini-link"
     )}${anchor("Concert ticket fees explained", "/guides/concert-ticket-fees-explained", "mini-link")}</div></section>`
-    )}<div class="action-row">${anchor(
-      `All ${artist.name} tickets`,
-      `/artists/${artist.slug}`,
-      "button button-primary"
-    )}${anchor("Compare concert ticket prices", "/compare-concert-ticket-prices", "button button-secondary")}</div>${faqHtml}</section></main>`;
+    )}${faqHtml}</section></main>`;
   }
 
   if (route.type === "guide") {
@@ -6433,7 +6705,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "All artists",
     HOME_PRIMARY_CTA_HREF,
     "text-link"
-  )}</div>${renderHomepageArtistLinks(catalog, events)}<p class="home-browse">Planning around a place? ${anchor(
+  )}</div>${renderHomepageArtistLinks(catalog, events)}${renderHomepageOnsaleStrip(events)}<p class="home-browse">Planning around a place? ${anchor(
     "Browse cities",
     "/cities",
     "text-link"
@@ -6450,11 +6722,23 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   )}</p><details class="home-more home-about" id="how-it-works"><summary>How it works and how the site stays honest</summary><div class="card-grid what-you-can-do"><h2 id="whatYouCanDoTitle" class="sr-only">How it works</h2>${HOME_STEPS.map(
     (step) =>
       `<article class="info-card"><h3>${escapeHtml(step.title)}</h3><p>${escapeHtml(step.body)}</p>${anchor(step.ctaLabel, step.href, "text-link")}</article>`
-  ).join("")}</div><div class="nested-panel trust-section"><h2 id="trustTitle">How the site stays honest</h2><p>TourTicketCompare is independent and unofficial, and doesn't sell tickets. Every link is checked before it goes up, and a link that can't be checked isn't shown.</p><p>Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.</p><p>Learn more: ${anchor("How it works", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div><div class="action-row">${anchor(
+  ).join("")}</div><div class="nested-panel trust-section"><h2 id="trustTitle">How the site stays honest</h2><p>TourTicketCompare is independent and unofficial, and doesn't sell tickets. Every link is checked before it goes up, and a link that can't be checked isn't shown.</p><p>Coverage is strongest in the United States, with selected UK, Europe, and Canada dates.</p><p>Learn more: ${anchor("How it works", "/how-it-works", "text-link")} • ${anchor("Affiliate disclosure", "/affiliate-disclosure", "text-link")}</p></div><div class="nested-panel home-faq"><h2 id="homeFaqTitle">FAQ</h2>${HOME_FAQ.map(
+    ([question, answer]) => `<h3>${escapeHtml(question)}</h3><p>${escapeHtml(answer)}</p>`
+  ).join("")}</div><div class="action-row">${anchor(
     HOME_PRIMARY_CTA_LABEL,
     HOME_PRIMARY_CTA_HREF,
     "button button-secondary"
   )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></details></div></main>`;
+}
+
+// JSON-LD is raw text inside <script>, so a "</script>" in any event, venue or
+// artist name would end the element early and inject markup. Escaping "<" (and
+// the two JS line separators) keeps the JSON identical once parsed.
+function jsonForScriptTag(value) {
+  return JSON.stringify(value)
+    .replace(/</g, "\\u003c")
+    .replace(/\u2028/g, "\\u2028")
+    .replace(/\u2029/g, "\\u2029");
 }
 
 function injectRoute(html, route, origin, catalog, events = [], guideContent = {}, env = {}) {
@@ -6467,26 +6751,26 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   const robots =
     route.indexable && hostIndexable ? "index,follow,max-image-preview:large" : "noindex,follow";
   let next = html;
-  next = next.replace(/<title>[^<]*<\/title>/i, `<title>${escapeAttr(route.title)}</title>`);
+  next = next.replace(/<title>[^<]*<\/title>/i, () => `<title>${escapeAttr(route.title)}</title>`);
   next = next.replace(
     /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="description" content="${escapeAttr(route.description)}" />`
+    () => `<meta name="description" content="${escapeAttr(route.description)}" />`
   );
   next = next.replace(
     /<meta\s+name="robots"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="robots" content="${robots}" />`
+    () => `<meta name="robots" content="${robots}" />`
   );
   next = next.replace(
     /<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:title" content="${escapeAttr(route.title)}" />`
+    () => `<meta property="og:title" content="${escapeAttr(route.title)}" />`
   );
   next = next.replace(
     /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:description" content="${escapeAttr(route.description)}" />`
+    () => `<meta property="og:description" content="${escapeAttr(route.description)}" />`
   );
   next = next.replace(
     /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:url" content="${escapeAttr(canonicalUrl)}" />`
+    () => `<meta property="og:url" content="${escapeAttr(canonicalUrl)}" />`
   );
   // Per-page social card when one has been generated for this route, otherwise
   // the shared brand card. OG_CARDS is a generated manifest of files that exist
@@ -6498,11 +6782,11 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   const ogImageUrl = ogCardUrl(route, origin);
   next = next.replace(
     /<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:image" content="${escapeAttr(ogImageUrl)}" />`
+    () => `<meta property="og:image" content="${escapeAttr(ogImageUrl)}" />`
   );
   next = next.replace(
     /<meta\s+name="twitter:image"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="twitter:image" content="${escapeAttr(ogImageUrl)}" />`
+    () => `<meta name="twitter:image" content="${escapeAttr(ogImageUrl)}" />`
   );
   // The shell's alt text describes the default card, which is wrong once a
   // page-specific one is in use. The alt comes from the manifest rather than
@@ -6514,34 +6798,34 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     const ogImageAlt = /tourticketcompare/i.test(ogCard.alt) ? ogCard.alt : `${ogCard.alt} — TourTicketCompare`;
     next = next.replace(
       /<meta\s+property="og:image:alt"\s+content="[^"]*"\s*\/?>/i,
-      `<meta property="og:image:alt" content="${escapeAttr(ogImageAlt)}" />`
+      () => `<meta property="og:image:alt" content="${escapeAttr(ogImageAlt)}" />`
     );
     next = next.replace(
       /<meta\s+name="twitter:image:alt"\s+content="[^"]*"\s*\/?>/i,
-      `<meta name="twitter:image:alt" content="${escapeAttr(ogImageAlt)}" />`
+      () => `<meta name="twitter:image:alt" content="${escapeAttr(ogImageAlt)}" />`
     );
   }
   next = next.replace(
     /<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="twitter:title" content="${escapeAttr(route.title)}" />`
+    () => `<meta name="twitter:title" content="${escapeAttr(route.title)}" />`
   );
   next = next.replace(
     /<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/?>/i,
-    `<meta name="twitter:description" content="${escapeAttr(route.description)}" />`
+    () => `<meta name="twitter:description" content="${escapeAttr(route.description)}" />`
   );
   next = next.replace(
     /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/i,
-    `<link rel="canonical" href="${escapeAttr(canonicalUrl)}" />`
+    () => `<link rel="canonical" href="${escapeAttr(canonicalUrl)}" />`
   );
   next = next.replace(
     /<meta\s+property="og:type"\s+content="[^"]*"\s*\/?>/i,
-    `<meta property="og:type" content="${route.type === "guide" || route.type === "blog-post" ? "article" : "website"}" />`
+    () => `<meta property="og:type" content="${route.type === "guide" || route.type === "blog-post" ? "article" : "website"}" />`
   );
   next = next.replace(
     /<script\s+type="application\/ld\+json">[\s\S]*?<\/script>/i,
-    `<script type="application/ld+json">${JSON.stringify(routeSchema(route, origin, guideContent, events, catalog, env))}</script>`
+    () => `<script type="application/ld+json">${jsonForScriptTag(routeSchema(route, origin, guideContent, events, catalog, env))}</script>`
   );
-  next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, renderMainContent(route, catalog, events, guideContent, env));
+  next = next.replace(/<main\s+id="mainContent">[\s\S]*?<\/main>/i, () => renderMainContent(route, catalog, events, guideContent, env));
   // Footer copyright year. public/app.js fills #currentYear on load, so every
   // JS visitor saw the right year and nobody noticed that the served HTML ships
   // an empty span — crawlers and no-JS visitors were reading a bare
@@ -6553,7 +6837,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
-    '<script src="/app.js?v=20260926a" defer></script>',
+    '<script src="/app.js?v=20261002a" defer></script>',
     '<script src="/shell.js?v=20260926a" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed
@@ -6575,7 +6859,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     route.type === "venues-index" ||
     route.path === "/artists"
   ) {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20260924c" defer></script></body>');
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20261002m" defer></script></body>');
   }
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.
@@ -6593,11 +6877,11 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20260927a" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20260927a" />'
+      '<link rel="stylesheet" href="/styles.css?v=20261002u" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20261002u" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260924b" /></head>');
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20260924v" defer></script></body>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261002a" defer></script></body>');
   }
   return next;
 }
@@ -6821,9 +7105,195 @@ function renderNotFoundHtml(html, pathname, origin) {
   return next;
 }
 
+// Per-isolate counters for the Server-Timing header below: how many requests
+// this isolate has served and when it started, so a slow response can be told
+// apart as a cold isolate (first request, loading every data file) or a warm
+// one.
+// Workers' clock reads 0 at module scope, so the start is taken on the first
+// request instead.
+let isolateStartedAt = 0;
+let isolateRequestCount = 0;
+// Every data file this isolate has loaded, with how long its fetch and body
+// took. A render reports the loads that finished while it ran.
+const ASSET_LOAD_TIMINGS = [];
+
+// Server-Timing for an HTML render: where the wall-clock time before the first
+// byte went. Workers' clock only advances across I/O, so each stage reads as
+// time spent waiting on asset loads or D1, which is what moves time to first
+// byte. Visible in any browser's network panel, and to curl as a header.
+function renderTimer() {
+  const marks = [];
+  let last = Date.now();
+  if (!isolateStartedAt) isolateStartedAt = last;
+  const firstLoad = ASSET_LOAD_TIMINGS.length;
+  return {
+    mark(name) {
+      const now = Date.now();
+      marks.push(`${name};dur=${now - last}`);
+      last = now;
+    },
+    header() {
+      const loads = ASSET_LOAD_TIMINGS.slice(firstLoad).map(
+        (load) => `asset;desc="${load.path.replace(/[^\w./-]/g, "")}";dur=${load.fetchMs + load.bodyMs}, asset-body;desc="${load.path.replace(/[^\w./-]/g, "")}";dur=${load.bodyMs}`
+      );
+      return [...marks, ...loads, `isolate;desc="req ${isolateRequestCount} age ${Math.round((Date.now() - isolateStartedAt) / 1000)}s"`].join(", ");
+    }
+  };
+}
+
+// Edge cache for artist price guides (/artists/<artist>/ticket-prices).
+//
+// A guide reads three D1 series for every upcoming date, which costs it most of
+// a second before the first byte. Its HTML depends only on the path and the
+// data, so a render is kept in this colo's Cache API and served with
+// stale-while-revalidate semantics: fresh for PRICE_GUIDE_EDGE_FRESH_SECONDS,
+// then served stale for up to PRICE_GUIDE_EDGE_STALE_SECONDS more while one
+// background render replaces it. Response headers alone cannot do this: Pages
+// Functions responses are ruled non-cacheable at request time
+// (`cf-cache-status: DYNAMIC`), and no Cache Rule exists for these routes.
+//
+// What visitors and crawlers see is unchanged apart from age: the browser
+// still gets HTML_CACHE_CONTROL, and every figure keeps its own capture time on
+// the page. A copy is never served past the moment the live render would have
+// changed on its own: the render reports the earliest expiry of any price
+// snapshot it read and the earliest start of any date it listed
+// (EDGE_VALID_UNTIL_HEADER), and the copy dies then, fresh or stale. So a
+// withdrawn price or a started show never outlives its gate (DEPLOYMENT.md,
+// "never widen to an event-derived route" is about header-driven caching,
+// which has no such bound). Only complete 200 renders whose price read
+// succeeded are stored; a 404, redirect, error or failed read never is.
+const PRICE_GUIDE_EDGE_FRESH_SECONDS = 300;
+const PRICE_GUIDE_EDGE_STALE_SECONDS = 3600;
+const PRICE_GUIDE_EDGE_PATH = /^\/artists\/[a-z0-9-]+\/ticket-prices$/;
+const EDGE_RENDERED_AT_HEADER = "X-TTC-Rendered-At";
+const EDGE_EXPIRES_AT_HEADER = "X-TTC-Edge-Expires-At";
+const EDGE_VALID_UNTIL_HEADER = "X-TTC-Edge-Valid-Until";
+
+// The moment a price guide's render stops being what a live render would
+// show: the earliest snapshot expiry, pending public on-sale or show start
+// among the priced shows.
+// null when the price read failed, so that render is never stored.
+function edgeValidUntilFor(shows) {
+  let until = Number.POSITIVE_INFINITY;
+  for (const show of shows) {
+    if (show?.priceQueryFailed) return null;
+    const starts = Date.parse(show?.dateTimeISO || show?.datetime_iso || "");
+    if (Number.isFinite(starts)) until = Math.min(until, starts);
+    // A pending public on-sale is stated on the page until it opens.
+    const onsale = Date.parse(show?.public_onsale_at || "");
+    if (Number.isFinite(onsale) && onsale > Date.now()) until = Math.min(until, onsale);
+    for (const price of Array.isArray(show?.prices) ? show.prices : []) {
+      const expires = Date.parse(price?.expiresAt || "");
+      if (Number.isFinite(expires)) until = Math.min(until, expires);
+    }
+  }
+  return until;
+}
+const EDGE_CACHE_STATUS_HEADER = "X-TTC-Edge-Cache";
+
+// Cache entries outlive deployments, so the key carries a fingerprint of the
+// environment (flags, kill switches and, where Pages sets it, the commit):
+// flipping any *_ENABLED switch or deploying new code starts a fresh key
+// rather than serving HTML rendered under the old configuration.
+function edgeConfigVersion(env) {
+  const entries = Object.entries(env || {})
+    .filter(([, value]) => typeof value === "string")
+    .sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0));
+  let hash = 0x811c9dc5;
+  for (const char of `${EDGE_CACHE_CODE_VERSION}|${JSON.stringify(entries)}`) {
+    hash ^= char.charCodeAt(0);
+    hash = Math.imul(hash, 0x01000193) >>> 0;
+  }
+  return hash.toString(36);
+}
+
+// Bump when the price guide's rendering changes in a way the environment
+// fingerprint would not see (CF_PAGES_COMMIT_SHA covers it where present).
+const EDGE_CACHE_CODE_VERSION = "2026-10-05";
+
+// One background refresh per key per isolate, so a burst of stale hits
+// renders once rather than once per request.
+const EDGE_REFRESHES_IN_FLIGHT = new Map();
+
+function edgeCacheFor(request, url) {
+  if (request.method !== "GET") return null;
+  if (!PRICE_GUIDE_EDGE_PATH.test(url.pathname)) return null;
+  const cache = globalThis.caches?.default;
+  return cache ? cache : null;
+}
+
+async function storeEdgeCopy(cache, key, response) {
+  const now = Date.now();
+  const validUntil = Number(response.headers.get(EDGE_VALID_UNTIL_HEADER));
+  const expiresAt = Math.min(Number.isNaN(validUntil) ? 0 : validUntil, now + (PRICE_GUIDE_EDGE_FRESH_SECONDS + PRICE_GUIDE_EDGE_STALE_SECONDS) * 1000);
+  if (!response.headers.has(EDGE_VALID_UNTIL_HEADER) || !(expiresAt > now)) return;
+  const headers = new Headers(response.headers);
+  headers.set("Cache-Control", `public, max-age=${Math.ceil((expiresAt - now) / 1000)}`);
+  headers.set(EDGE_RENDERED_AT_HEADER, String(now));
+  headers.set(EDGE_EXPIRES_AT_HEADER, String(expiresAt));
+  headers.delete(EDGE_VALID_UNTIL_HEADER);
+  headers.delete("Set-Cookie");
+  await cache.put(key, new Response(response.body, { status: response.status, headers }));
+}
+
+function servedEdgeCopy(cached, status) {
+  const headers = new Headers(cached.headers);
+  headers.set("Cache-Control", HTML_CACHE_CONTROL);
+  headers.set(EDGE_CACHE_STATUS_HEADER, status);
+  headers.delete(EDGE_RENDERED_AT_HEADER);
+  headers.delete(EDGE_EXPIRES_AT_HEADER);
+  return new Response(cached.body, { status: cached.status, headers });
+}
+
+async function renderAndStore(context, cache, key) {
+  const renderUrl = new URL(key.url);
+  renderUrl.search = "";
+  const response = await renderRequest({ ...context, request: new Request(renderUrl) });
+  if (response.status === 200) await storeEdgeCopy(cache, key, response);
+}
+
 export async function onRequest(context) {
+  const url = new URL(context.request.url);
+  const cache = edgeCacheFor(context.request, url);
+  if (!cache) return renderRequest(context);
+  const key = new Request(`${url.origin}${url.pathname}?edge-v=${edgeConfigVersion(context.env)}`, { method: "GET" });
+  const background = (promise) => {
+    const settled = promise.catch(() => {});
+    if (typeof context.waitUntil === "function") context.waitUntil(settled);
+    return settled;
+  };
+  let cached = null;
+  try {
+    cached = await cache.match(key);
+  } catch {
+    cached = null;
+  }
+  if (cached && Date.now() < Number(cached.headers.get(EDGE_EXPIRES_AT_HEADER) || 0)) {
+    const ageSeconds = (Date.now() - Number(cached.headers.get(EDGE_RENDERED_AT_HEADER) || 0)) / 1000;
+    if (ageSeconds >= 0 && ageSeconds < PRICE_GUIDE_EDGE_FRESH_SECONDS) return servedEdgeCopy(cached, "HIT");
+    if (ageSeconds >= 0) {
+      if (!EDGE_REFRESHES_IN_FLIGHT.has(key.url)) {
+        const refresh = renderAndStore(context, cache, key).finally(() => EDGE_REFRESHES_IN_FLIGHT.delete(key.url));
+        EDGE_REFRESHES_IN_FLIGHT.set(key.url, refresh);
+        background(refresh);
+      }
+      return servedEdgeCopy(cached, "STALE");
+    }
+  }
+  const response = await renderRequest(context);
+  if (response.status !== 200) return response;
+  background(storeEdgeCopy(cache, key, response.clone()));
+  const headers = new Headers(response.headers);
+  headers.delete(EDGE_VALID_UNTIL_HEADER);
+  headers.set(EDGE_CACHE_STATUS_HEADER, "MISS");
+  return new Response(response.body, { status: response.status, headers });
+}
+
+async function renderRequest(context) {
   const { request, env, next } = context;
   const url = new URL(request.url);
+  isolateRequestCount += 1;
+  const timer = renderTimer();
 
   // Safety net for www→apex host normalization; if a Cloudflare edge redirect
   // rule exists it fires before this code is reached.
@@ -6844,11 +7314,13 @@ export async function onRequest(context) {
   }
 
   const route = await routeForPath(pathname, env);
+  timer.mark("route");
   if (!route && /\.[a-z0-9]+$/i.test(pathname)) return next();
   const indexResponse = await env.ASSETS.fetch(new Request(new URL("/", request.url), request));
   if (!indexResponse.ok) return next();
 
   const html = await indexResponse.text();
+  timer.mark("shell");
   if (!route) {
     const injected404 = renderNotFoundHtml(html, pathname, url.origin);
     const headers = new Headers(indexResponse.headers);
@@ -6866,8 +7338,11 @@ export async function onRequest(context) {
   const needsGuideEvents = route.type === "guide" && Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2;
   const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || route.path === "/artists" || route.path === "/";
   const events = route.events || (needsEvents ? await loadEvents(env) : []);
+  timer.mark("data");
   let priceLowSeries = new Map();
   let priceMoveSeries = new Map();
+  let edgeValidUntil = null;
+  let priceWeekSeries = new Map();
   let renderEvents = events;
   if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event") && events.length) {
     // Query prices for exactly the cards each route renders, not a fixed prefix
@@ -6904,7 +7379,36 @@ export async function onRequest(context) {
     } else {
       priceCandidates = publishableFutureShows(events, 6);
     }
+    // The recorded low reads provider_pricing_history, which the cache attach
+    // below never touches. Artist-city only — it is the one surface that renders
+    // the figure, and skipping it elsewhere keeps the extra read off every other
+    // route. Two statements per 50 dates, and a failure degrades to no low
+    // rather than to no page.
+    //
+    // The price guide's "how prices have moved" reads the newest change-points
+    // of each series. One statement per 50 dates, price-guide only, and a
+    // failure degrades to no moves rather than to no page.
+    //
+    // Neither depends on the cache attach, so all three D1 reads are issued
+    // together: awaited one after another they stacked a round trip each onto
+    // the page's time to first byte.
+    const candidateIds = priceCandidates.map((show) => String(show?.id || ""));
+    const priceLowPromise = route.type === "artist-city" || route.type === "price-guide" || route.type === "event"
+      ? fetchEventPriceLowSeries(env?.DEMAND_DB || env?.DB, candidateIds, APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
+      : null;
+    const priceMovePromise = route.type === "price-guide" || route.type === "event"
+      ? fetchEventPriceMoveSeries(env?.DEMAND_DB || env?.DB, candidateIds, APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
+      : null;
+    // The 7-day change reads only dates close to show day, on the two surfaces
+    // that render it, so a board with nothing that close issues no extra read.
+    const weeklyIds = route.type === "artist-city" || route.type === "event"
+      ? priceCandidates.filter((show) => withinWeeklyChangeWindow(show?.dateTimeISO)).map((show) => String(show?.id || ""))
+      : [];
+    const priceWeekPromise = weeklyIds.length
+      ? fetchEventWeeklyPriceSeries(env?.DEMAND_DB || env?.DB, weeklyIds, APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
+      : null;
     const pricedShows = await attachApprovedMarketplacePrices(priceCandidates, env);
+    if (route.type === "price-guide") edgeValidUntil = edgeValidUntilFor(pricedShows);
     const pricedById = new Map(pricedShows.map((show) => [String(show?.id || ""), show]));
     renderEvents = events.map((event) => {
       const priced = pricedById.get(String(event?.id || ""));
@@ -6913,29 +7417,11 @@ export async function onRequest(context) {
       if (priced.priceChecks) next.priceChecks = priced.priceChecks;
       return next;
     });
-    // The recorded low reads provider_pricing_history, which the cache attach
-    // above never touches. Artist-city only — it is the one surface that renders
-    // the figure, and skipping it elsewhere keeps the extra read off every other
-    // route. Two statements per 50 dates, and a failure degrades to no low
-    // rather than to no page.
-    if (route.type === "artist-city" || route.type === "price-guide" || route.type === "event") {
-      priceLowSeries = await fetchEventPriceLowSeries(
-        env?.DEMAND_DB || env?.DB,
-        priceCandidates.map((show) => String(show?.id || "")),
-        APPROVED_MARKETPLACE_PRICE_LANES
-      ).catch(() => new Map());
-    }
-    // The price guide's "how prices have moved" reads the newest change-points
-    // of each series. One statement per 50 dates, price-guide only, and a
-    // failure degrades to no moves rather than to no page.
-    if (route.type === "price-guide" || route.type === "event") {
-      priceMoveSeries = await fetchEventPriceMoveSeries(
-        env?.DEMAND_DB || env?.DB,
-        priceCandidates.map((show) => String(show?.id || "")),
-        APPROVED_MARKETPLACE_PRICE_LANES
-      ).catch(() => new Map());
-    }
+    if (priceLowPromise) priceLowSeries = await priceLowPromise;
+    if (priceMovePromise) priceMoveSeries = await priceMovePromise;
+    if (priceWeekPromise) priceWeekSeries = await priceWeekPromise;
   }
+  timer.mark("prices");
   const guideContent = route.type === "guide" ? await loadGuideContent(env) : {};
   // The homepage and the guides index promote /blog only while the blog has
   // something to land on. The gate is the same blogIndexIndexable() that
@@ -6958,6 +7444,7 @@ export async function onRequest(context) {
   // is passed through exactly as before.
   if (priceLowSeries.size) renderRoute = { ...renderRoute, priceLowSeries };
   if (priceMoveSeries.size) renderRoute = { ...renderRoute, priceMoveSeries };
+  if (priceWeekSeries.size) renderRoute = { ...renderRoute, priceWeekSeries };
   // The event-indexing pilot: an event page renders index,follow only as an
   // active pilot member, and a parent board identifies an active pilot
   // performance by that page's url and @id. Every other route, and every
@@ -6969,10 +7456,15 @@ export async function onRequest(context) {
     }
     if (pilot.pathById.size) renderRoute = { ...renderRoute, indexedEventPaths: pilot.pathById };
   }
+  timer.mark("extras");
   const injected = injectRoute(html, renderRoute, url.origin, catalog, renderEvents, guideContent, env);
+  timer.mark("render");
   const headers = new Headers(indexResponse.headers);
   headers.set("Content-Type", "text/html; charset=UTF-8");
   headers.set("Cache-Control", htmlCacheControl(route));
+  headers.set("Server-Timing", timer.header());
+  // Read and stripped by onRequest's edge cache; never reaches a visitor.
+  if (edgeValidUntil !== null) headers.set(EDGE_VALID_UNTIL_HEADER, String(edgeValidUntil));
   applySecurityHeaders(headers);
   return new Response(injected, { status: 200, headers });
 }

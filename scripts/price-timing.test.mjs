@@ -40,7 +40,7 @@ const reconcile = (events = [event], metadataAt = after) => capture([], events, 
 const stats = (data, options = {}) => calculatePriceTimingStats({ ...data, ...cohort, now: after, ...options });
 
 check("migration matches the self-applying schema", () => {
-  assert.ok(fs.readFileSync(new URL("../migrations/0012_event_price_timing.sql", import.meta.url), "utf8").endsWith(PRICE_TIMING_SCHEMA_SQL + "\n"));
+  assert.ok(fs.readFileSync(new URL("../migrations/0014_event_price_timing.sql", import.meta.url), "utf8").endsWith(PRICE_TIMING_SCHEMA_SQL + "\n"));
 });
 check("approved sources match existing provider writers", () => {
   assert.equal(PRICE_TIMING_SOURCES[provider], APPROVED_SOURCE);

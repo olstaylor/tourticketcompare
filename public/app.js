@@ -1477,7 +1477,6 @@ function renderArtistStatusLegend() {
   const legend = document.createElement("div");
   legend.className = "artist-status-legend";
   legend.setAttribute("aria-label", "Artist card status legend");
-  // Keep in sync with renderArtistStatusLegendHtml in functions/[[path]].js.
   const items = [
     ["status-badge", "Dates listed", "Upcoming dates and ticket links on the page"],
     ["status-badge status-badge-muted", "No dates currently listed", "No future dates — artist page and alerts only"],
@@ -1703,8 +1702,15 @@ function publicOnsalePending(event, now = Date.now()) {
   return Number.isFinite(at) && at > now;
 }
 
-function publicOnsaleLabel(event) {
+// Matches ONSALE_MAX_HORIZON_DAYS in functions/_onsale-calendar.js: further
+// out than this is Ticketmaster's "to be announced" placeholder (9999-12-31).
+const ONSALE_MAX_HORIZON_DAYS = 365;
+
+function publicOnsaleLabel(event, now = Date.now()) {
   const at = new Date(String(event.public_onsale_at || ""));
+  if (at.getTime() - now > ONSALE_MAX_HORIZON_DAYS * 24 * 60 * 60 * 1000) {
+    return "Public on-sale date not yet announced by Ticketmaster.";
+  }
   let when = at.toISOString().slice(0, 16).replace("T", " ") + " UTC";
   try {
     when = at.toLocaleString("en-US", { month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit", timeZone: event.timezone || "UTC", timeZoneName: "short" });

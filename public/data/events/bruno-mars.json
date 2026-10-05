@@ -2925,34 +2925,34 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7668643",
-        "url": "https://www.ticketnetwork.com/en/p/7668643",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7668643",
-        "url": "https://www.ticketliquidator.com/tickets/7668643/Bruno-Mars-tickets-Fri-Oct-2-2026-SoFi-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107068177",
-        "url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-2-2026/event/107068177",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZbyQBb4mX",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668643",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668643/Bruno-Mars-tickets-Fri-Oct-2-2026-SoFi-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-2-2026/event/107068177"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1izbyhid9od",
@@ -2966,7 +2966,7 @@
     "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "0A006396E80D747B",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-03-2026/event/0A006396E80D747B",
-    "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-03-7-pm/concert/18004681",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-3-2026/production/6501634",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-03-2026/event/0A006396E80D747B",
@@ -2981,11 +2981,11 @@
         "discovery_event_id": "vvG1IZbyhId9oD"
       },
       "seatgeek": {
-        "event_id": 18004681,
-        "url": "https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-03-7-pm/concert/18004681",
-        "verified": true,
-        "last_verified_at": "2026-10-01",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6501634,
@@ -3002,34 +3002,34 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7668644",
-        "url": "https://www.ticketnetwork.com/en/p/7668644",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7668644",
-        "url": "https://www.ticketliquidator.com/tickets/7668644/Bruno-Mars-tickets-Sat-Oct-3-2026-SoFi-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107071099",
-        "url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-3-2026/event/107071099",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZbyhId9oD",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7668644",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668644/Bruno-Mars-tickets-Sat-Oct-3-2026-SoFi-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-3-2026/event/107071099"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_ehecvin",
@@ -3061,14 +3061,14 @@
         "event_id": 18013259,
         "url": "https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-06-7-pm/concert/18013259",
         "verified": true,
-        "last_verified_at": "2026-10-01",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6526023,
         "url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-6-2026--concerts-pop/production/6526023",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3138,14 +3138,14 @@
         "event_id": 18013882,
         "url": "https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-07-7-pm/concert/18013882",
         "verified": true,
-        "last_verified_at": "2026-10-01",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6526778,
         "url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-7-2026--concerts-pop/production/6526778",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3215,7 +3215,7 @@
         "event_id": 18004682,
         "url": "https://seatgeek.com/bruno-mars-tickets/santa-clara-california-levi-s-stadium-2026-10-10-7-pm/concert/18004682",
         "verified": true,
-        "last_verified_at": "2026-10-01",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3292,7 +3292,7 @@
         "event_id": 18013261,
         "url": "https://seatgeek.com/bruno-mars-tickets/santa-clara-california-levi-s-stadium-2026-10-11-7-pm/concert/18013261",
         "verified": true,
-        "last_verified_at": "2026-10-01",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3369,14 +3369,14 @@
         "event_id": 18004687,
         "url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-14-7-pm/concert/18004687",
         "verified": true,
-        "last_verified_at": "2026-10-01",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6501668,
         "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-14-2026/production/6501668",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3446,14 +3446,14 @@
         "event_id": 18013263,
         "url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-16-7-pm/concert/18013263",
         "verified": true,
-        "last_verified_at": "2026-10-01",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6525829,
         "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-16-2026--concerts-pop/production/6525829",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3523,14 +3523,14 @@
         "event_id": 18013350,
         "url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-17-7-pm/concert/18013350",
         "verified": true,
-        "last_verified_at": "2026-10-01",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6526792,
         "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-17-2026--concerts-pop/production/6526792",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3600,14 +3600,14 @@
         "event_id": 18016784,
         "url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-20-7-pm/concert/18016784",
         "verified": true,
-        "last_verified_at": "2026-10-01",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6536764,
         "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-20-2026--concerts-pop/production/6536764",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3677,14 +3677,14 @@
         "event_id": 18107920,
         "url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-21-7-pm/concert/18107920",
         "verified": true,
-        "last_verified_at": "2026-10-01",
+        "last_verified_at": "2026-10-04",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6750960,
         "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-21-2026/production/6750960",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3733,7 +3733,7 @@
     "country": "Australia",
     "venue": "Optus Stadium",
     "datetime_iso": "2027-02-13T09:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "25006518EA3F49F3",
     "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-13-02-2027/event/25006518EA3F49F3",
     "seatgeek_url": "",
@@ -3802,7 +3802,7 @@
     "country": "Australia",
     "venue": "Optus Stadium",
     "datetime_iso": "2027-02-14T09:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "2500651ADE595D36",
     "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-burswood-14-02-2027/event/2500651ADE595D36",
     "seatgeek_url": "",
@@ -3855,7 +3855,7 @@
     "country": "Australia",
     "venue": "Marvel Stadium",
     "datetime_iso": "2027-02-19T06:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "2500651484041D55",
     "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-19-02-2027/event/2500651484041D55",
     "seatgeek_url": "",
@@ -3893,11 +3893,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aefZ_o37vvZdCkk",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2027-docklands-1aefz_ogknww0xk",
@@ -3908,7 +3916,7 @@
     "country": "Australia",
     "venue": "Marvel Stadium",
     "datetime_iso": "2027-02-20T06:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "2500651ABDF64886",
     "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-20-02-2027/event/2500651ABDF64886",
     "seatgeek_url": "",
@@ -3948,17 +3956,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107666003",
-        "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-20-2-2027/event/107666003",
-        "verified": true,
-        "last_verified_at": "2026-09-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknWW0xk",
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-20-2-2027/event/107666003"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2027-docklands-1aefz_ogknwx7x5",
@@ -3969,7 +3977,7 @@
     "country": "Australia",
     "venue": "Marvel Stadium",
     "datetime_iso": "2027-02-23T06:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "2500651ABDF8488B",
     "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-23-02-2027/event/2500651ABDF8488B",
     "seatgeek_url": "",
@@ -4009,17 +4017,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107666004",
-        "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-23-2-2027/event/107666004",
-        "verified": true,
-        "last_verified_at": "2026-09-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_oGknWX7x5",
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-23-2-2027/event/107666004"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2027-docklands-1aefz_ogknwx0x2",
@@ -4030,7 +4038,7 @@
     "country": "Australia",
     "venue": "Marvel Stadium",
     "datetime_iso": "2027-02-24T06:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "2500651ABDFA488F",
     "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-docklands-24-02-2027/event/2500651ABDFA488F",
     "seatgeek_url": "",
@@ -4083,7 +4091,7 @@
     "country": "Australia",
     "venue": "Suncorp Stadium",
     "datetime_iso": "2027-02-28T07:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "13006512C5B752F4",
     "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-28-02-2027/event/13006512C5B752F4",
     "seatgeek_url": "",
@@ -4136,7 +4144,7 @@
     "country": "Australia",
     "venue": "Suncorp Stadium",
     "datetime_iso": "2027-03-01T07:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "1300651AC9B86F2E",
     "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-milton-01-03-2027/event/1300651AC9B86F2E",
     "seatgeek_url": "",
@@ -4189,7 +4197,7 @@
     "country": "Australia",
     "venue": "Accor Stadium",
     "datetime_iso": "2027-03-04T06:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "2500651482031C06",
     "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-04-03-2027/event/2500651482031C06",
     "seatgeek_url": "",
@@ -4258,7 +4266,7 @@
     "country": "Australia",
     "venue": "Accor Stadium",
     "datetime_iso": "2027-03-05T06:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "2500651A89041AC3",
     "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-05-03-2027/event/2500651A89041AC3",
     "seatgeek_url": "",
@@ -4327,7 +4335,7 @@
     "country": "Australia",
     "venue": "Accor Stadium",
     "datetime_iso": "2027-03-08T06:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "2500651A89881B04",
     "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-08-03-2027/event/2500651A89881B04",
     "seatgeek_url": "",
@@ -4396,7 +4404,7 @@
     "country": "Australia",
     "venue": "Accor Stadium",
     "datetime_iso": "2027-03-09T06:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "2500651A89891B06",
     "ticketmaster_url": "https://www.ticketmaster.com.au/bruno-mars-the-romantic-tour-sydney-olympic-park-09-03-2027/event/2500651A89891B06",
     "seatgeek_url": "",

@@ -979,5 +979,58 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeeA6",
     "timezone": "America/Chicago",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-englewood-z7r9jz1aaevqs",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson - The Dumblond Tour - Ages 16+",
+    "city": "Englewood",
+    "country": "United States Of America",
+    "venue": "Gothic Theatre",
+    "datetime_iso": "2027-05-09T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAevqs",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevqs",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevqs",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAevqs",
+        "discovery_event_id": "Z7r9jZ1AAevqs",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevqs",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAevqs",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

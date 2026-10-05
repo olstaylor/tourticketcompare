@@ -1695,67 +1695,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-london-the-o2-arena-23-1-2027/event/107162584"
   },
   {
-    "id": "tm-five-finger-death-punch-2027-hamburg-z698xzc2z16vad3p4g",
-    "artist_slug": "five-finger-death-punch",
-    "artist_name": "Five Finger Death Punch",
-    "event_name": "Five Finger Death Punch | Box seat in the Ticketmaster Suite",
-    "city": "Hamburg",
-    "country": "Germany",
-    "venue": "Barclays Arena",
-    "datetime_iso": "2027-01-27T18:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "1143496575",
-    "ticketmaster_url": "https://www.ticketmaster.de/event/five-finger-death-punch-%7C-box-seat-in-the-ticketmaster-suite-tickets/1143496575?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.de/event/five-finger-death-punch-%7C-box-seat-in-the-ticketmaster-suite-tickets/1143496575?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "1143496575",
-        "discovery_event_id": "Z698xZC2Z16vAd3p4g",
-        "url": "https://www.ticketmaster.de/event/five-finger-death-punch-%7C-box-seat-in-the-ticketmaster-suite-tickets/1143496575?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub-international": {
-        "event_id": "107164434",
-        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-hamburg-barclays-arena-hamburg-27-1-2027/event/107164434",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZC2Z16vAd3p4g",
-    "timezone": "Europe/Berlin",
-    "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-hamburg-barclays-arena-hamburg-27-1-2027/event/107164434"
-  },
-  {
     "id": "tm-five-finger-death-punch-2027-odz-z698xzqpz1k-o8yj_",
     "artist_slug": "five-finger-death-punch",
     "artist_name": "Five Finger Death Punch",

@@ -631,12 +631,20 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671548",
+        "url": "https://www.stubhub.ie/a-perfect-circle-boston-tickets-4-27-2027/event/107671548",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_Kr_G7Rccc",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295064"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295064",
+    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-boston-tickets-4-27-2027/event/107671548"
   },
   {
     "id": "tm-a-perfect-circle-2027-uncasville-g5vvz_khq_fxg",
@@ -814,12 +822,20 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671549",
+        "url": "https://www.stubhub.ie/a-perfect-circle-newark-tickets-5-1-2027/event/107671549",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfzGkecfWzD",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295067"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295067",
+    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-newark-tickets-5-1-2027/event/107671549"
   },
   {
     "id": "tm-a-perfect-circle-2027-charlotte-g5evz_kj8b4gy",
@@ -1392,12 +1408,20 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671553",
+        "url": "https://www.stubhub.ie/a-perfect-circle-seattle-tickets-5-30-2027/event/107671553",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KfmPpZS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295077"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295077",
+    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-seattle-tickets-5-30-2027/event/107671553"
   },
   {
     "id": "tm-a-perfect-circle-2027-portland-vvg1hz_kbfgxyu",
@@ -1643,13 +1667,21 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671554",
+        "url": "https://www.stubhub.ie/a-perfect-circle-hollywood-tickets-6-6-2027/event/107671554",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_Kj6Yzfl",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295081",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295081/A-Perfect-Circle-tickets-Sun-Jun-6-2027-Hollywood-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295081/A-Perfect-Circle-tickets-Sun-Jun-6-2027-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-hollywood-tickets-6-6-2027/event/107671554"
   },
   {
     "id": "tm-a-perfect-circle-2027-chula-vista-vvg1iz_kl8jvkq",

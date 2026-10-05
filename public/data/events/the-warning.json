@@ -1481,5 +1481,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264193",
     "stubhub_international_url": "https://www.stubhub.ie/the-warning-san-antonio-tickets-4-30-2027/event/107668180"
+  },
+  {
+    "id": "tm-the-warning-2027-london-1adjz_3gknpoval",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "OVO Arena Wembley",
+    "datetime_iso": "2027-04-02T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700652A9683415F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-warning-london-02-04-2027/event/3700652A9683415F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-warning-london-02-04-2027/event/3700652A9683415F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700652A9683415F",
+        "discovery_event_id": "1AdjZ_3GknpOVAL",
+        "url": "https://www.ticketmaster.co.uk/the-warning-london-02-04-2027/event/3700652A9683415F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_3GknpOVAL",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

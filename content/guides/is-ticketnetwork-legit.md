@@ -16,10 +16,6 @@ sources:
     publisher: TicketNetwork
     url: https://www.ticketnetwork.com/policies
     last_checked: 2026-10-02
-  - name: COVID-19 FAQs
-    publisher: TicketNetwork
-    url: https://www.ticketnetwork.com/en/covid-19-faqs
-    last_checked: 2026-10-02
   - name: Attorney General James Announces Settlement With Ticket Resale Companies For Selling Tickets They Never Owned
     publisher: New York State Attorney General
     url: https://ag.ny.gov/press-release/2019/attorney-general-james-announces-settlement-ticket-resale-companies-selling
@@ -30,7 +26,7 @@ sources:
     last_checked: 2026-10-02
 ---
 
-**Short answer:** yes, TicketNetwork is a real, long-running resale marketplace, not a scam site. It was founded in 2002 in South Windsor, Connecticut, and it does not own most of the tickets it lists: independent sellers do. Every order carries its 100% Money-Back Guarantee, which promises the tickets arrive before the event and are valid for entry. Prices are set by sellers and are often above face value, a postponed show is not refunded, and it has settled with regulators in New York and Canada over how it sold and priced tickets.
+**Short answer:** yes, TicketNetwork is a real, long-running resale marketplace, not a scam site. It was founded in 2002 in South Windsor, Connecticut, and it does not own most of the tickets it lists: independent sellers do. Every order carries its 100% Money-Back Guarantee, which promises the tickets arrive before the event and are valid for entry. Prices are set by sellers and are often above face value. Check the order's terms for postponed shows; the published guarantee covers permanent cancellations. TicketNetwork has settled with regulators in New York and Canada over how it sold and priced tickets.
 
 ## What TicketNetwork is
 
@@ -49,12 +45,12 @@ Its company page adds that a permanently cancelled event is refunded. Read that 
 
 ## Cancelled and postponed shows
 
-TicketNetwork's cancellation FAQ, written during the pandemic and still published, sets out two different outcomes:
+TicketNetwork's current guarantee on its company page covers a permanently cancelled event:
 
-- **Cancelled for good:** you choose between a refund of the original order or a credit voucher worth 110% of it. In both cases delivery charges are kept back. The FAQ says refunds can take up to 30 days from the day you ask for one.
-- **Postponed or rescheduled:** your original tickets stay valid for the new date. No refund or voucher is offered.
+- **Cancelled for good:** TicketNetwork coordinates a refund of the ticket order with the selling broker, excluding delivery fees. The seller may require physical tickets to be returned before issuing the refund.
+- **Postponed or rescheduled:** the permanent-cancellation guarantee does not establish a refund right for a moved date. Read the terms attached to your order and contact TicketNetwork to confirm whether the tickets remain valid and what options apply.
 
-The postponed case is where most bad reviews of resale sites come from. If you could not make a moved date, the realistic route is to resell the tickets, not to ask for your money back. See [what to do if a concert is postponed or cancelled](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled).
+Keep the order confirmation and any cancellation or rescheduling notice. Confirm refund instructions with the seller before returning tickets or making other arrangements. See [what to do if a concert is postponed or cancelled](/guides/what-to-do-if-a-concert-is-postponed-or-cancelled).
 
 ## Fees and the total you pay
 
@@ -90,7 +86,7 @@ TicketNetwork's guarantee says tickets will arrive before the event and be valid
 
 **Does TicketNetwork refund postponed concerts?**
 
-No. Its cancellation FAQ says tickets for a postponed or rescheduled show remain valid for the new date and no refund or voucher is offered. Only a permanently cancelled event qualifies for a refund or a 110% credit voucher.
+The current published guarantee promises a refund for permanent cancellations, excluding delivery fees. It does not establish the terms for a postponed concert. Check your order's terms and contact TicketNetwork before assuming a refund is available.
 
 **Why are TicketNetwork prices higher than face value?**
 

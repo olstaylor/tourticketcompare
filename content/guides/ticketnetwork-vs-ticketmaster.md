@@ -8,10 +8,6 @@ comparison_providers:
   - ticketmaster
   - ticketnetwork
 sources:
-  - name: COVID-19 FAQs
-    publisher: TicketNetwork
-    url: https://www.ticketnetwork.com/en/covid-19-faqs
-    last_checked: 2026-10-02
   - name: About Us
     publisher: TicketNetwork
     url: https://www.ticketnetwork.com/about-us
@@ -64,7 +60,7 @@ So "I bought it on Ticketmaster" does not by itself tell you which protections a
 
 TicketNetwork describes itself as connecting buyers to events where "all tickets are listed by professional ticket-selling companies & trusted ticket sellers." It is a marketplace layer: the sellers hold or expect to hold the tickets, and they set their own prices under the marketplace's rules. TicketNetwork's own pages carry the disclaimer that resale ticket prices may be above face value.
 
-What it does put its name to is a guarantee. TicketNetwork publishes a 100% money-back guarantee stating that "your tickets will arrive before the event" and that "all tickets are legitimate tickets, valid for entry." The same guarantee says you will receive the tickets you ordered or comparable alternatives, and that a permanently cancelled event is refunded. Its cancellation FAQ says the refund excludes delivery charges, or you can take a credit voucher worth 110% of the order instead. That is a meaningful promise, and it is a different shape from the primary-ticketing promise: it is not that you paid the organiser's price, it is that the ticket you paid for will work.
+What it does put its name to is a guarantee. TicketNetwork publishes a 100% money-back guarantee stating that "your tickets will arrive before the event" and that "all tickets are legitimate tickets, valid for entry." The same guarantee says you will receive the tickets you ordered or comparable alternatives, and that a permanently cancelled event is refunded. Its company page says the cancellation refund excludes delivery fees and that the selling broker may require physical tickets to be returned first. That is a meaningful promise, and it is a different shape from the primary-ticketing promise: it is not that you paid the organiser's price, it is that the ticket you paid for will work.
 
 Because listings are seller-set, availability and price on TicketNetwork move independently of whatever Ticketmaster is showing. A show that is sold out on the primary can still have listings here, and that is the ordinary case rather than a red flag.
 

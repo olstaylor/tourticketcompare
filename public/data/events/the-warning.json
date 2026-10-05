@@ -1529,10 +1529,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668110",
+        "url": "https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GknpOVAL",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110"
   }
 ]

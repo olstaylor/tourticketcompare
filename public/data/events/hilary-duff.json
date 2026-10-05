@@ -2433,12 +2433,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671556",
+        "url": "https://www.stubhub.ie/hilary-duff-anaheim-tickets-11-21-2027/event/107671556",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_KGkRLZQWI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301234",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301234/Hilary-Duff-tickets-Sun-Nov-21-2027-Honda-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301234/Hilary-Duff-tickets-Sun-Nov-21-2027-Honda-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-anaheim-tickets-11-21-2027/event/107671556"
   }
 ]

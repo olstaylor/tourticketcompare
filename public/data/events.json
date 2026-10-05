@@ -50434,11 +50434,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107185216",
-        "url": "https://www.stubhub.ie/don-omar-miami-tickets-10-4-2026/event/107185216",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_1MbPqce",
@@ -50446,7 +50446,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-miami-tickets-10-4-2026/event/107185216"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-rosemont-vvg18z_1bhcnvf",
@@ -145422,12 +145422,20 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671548",
+        "url": "https://www.stubhub.ie/a-perfect-circle-boston-tickets-4-27-2027/event/107671548",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_Kr_G7Rccc",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295064"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295064",
+    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-boston-tickets-4-27-2027/event/107671548"
   },
   {
     "id": "tm-a-perfect-circle-2027-uncasville-g5vvz_khq_fxg",
@@ -145605,12 +145613,20 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671549",
+        "url": "https://www.stubhub.ie/a-perfect-circle-newark-tickets-5-1-2027/event/107671549",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfzGkecfWzD",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295067"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295067",
+    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-newark-tickets-5-1-2027/event/107671549"
   },
   {
     "id": "tm-a-perfect-circle-2027-charlotte-g5evz_kj8b4gy",
@@ -146183,12 +146199,20 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671553",
+        "url": "https://www.stubhub.ie/a-perfect-circle-seattle-tickets-5-30-2027/event/107671553",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KfmPpZS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295077"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295077",
+    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-seattle-tickets-5-30-2027/event/107671553"
   },
   {
     "id": "tm-a-perfect-circle-2027-portland-vvg1hz_kbfgxyu",
@@ -146434,13 +146458,21 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671554",
+        "url": "https://www.stubhub.ie/a-perfect-circle-hollywood-tickets-6-6-2027/event/107671554",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_Kj6Yzfl",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295081",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295081/A-Perfect-Circle-tickets-Sun-Jun-6-2027-Hollywood-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295081/A-Perfect-Circle-tickets-Sun-Jun-6-2027-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-hollywood-tickets-6-6-2027/event/107671554"
   },
   {
     "id": "tm-a-perfect-circle-2027-chula-vista-vvg1iz_kl8jvkq",
@@ -153780,13 +153812,21 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671556",
+        "url": "https://www.stubhub.ie/hilary-duff-anaheim-tickets-11-21-2027/event/107671556",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_KGkRLZQWI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301234",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301234/Hilary-Duff-tickets-Sun-Nov-21-2027-Honda-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301234/Hilary-Duff-tickets-Sun-Nov-21-2027-Honda-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-anaheim-tickets-11-21-2027/event/107671556"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-torrensville-1akzkfggkepdplf",
@@ -164613,6 +164653,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671547",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-inglewood-tickets-4-22-2027/event/107671547",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_KGkMKrRsM",
@@ -164620,7 +164667,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-08T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300772",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300772/Carly-Rae-Jepsen-tickets-Thu-Apr-22-2027-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300772/Carly-Rae-Jepsen-tickets-Thu-Apr-22-2027-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-inglewood-tickets-4-22-2027/event/107671547"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-san-diego-vvg1iz_kmdzlco",
@@ -165033,6 +165081,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671550",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-houston-tickets-5-8-2027/event/107671550",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KBuZ9jg",
@@ -165040,7 +165095,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-08T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300780",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300780/Carly-Rae-Jepsen-tickets-Sat-May-8-2027-713-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300780/Carly-Rae-Jepsen-tickets-Sat-May-8-2027-713-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-houston-tickets-5-8-2027/event/107671550"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-nashville-g5viz_kdzypqh",
@@ -165383,6 +165439,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671551",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-new-york-tickets-5-15-2027/event/107671551",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_KRvp7Ot",
@@ -165390,7 +165453,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-08T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300785",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300785/Carly-Rae-Jepsen-tickets-Sat-May-15-2027-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300785/Carly-Rae-Jepsen-tickets-Sat-May-15-2027-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-new-york-tickets-5-15-2027/event/107671551"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-philadelphia-vv17fz_kgkmz_nj4",
@@ -165523,6 +165587,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671552",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-boston-tickets-5-19-2027/event/107671552",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_KGklSCrUt",
@@ -165530,7 +165601,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-08T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300787",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300787/Carly-Rae-Jepsen-tickets-Wed-May-19-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300787/Carly-Rae-Jepsen-tickets-Wed-May-19-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-boston-tickets-5-19-2027/event/107671552"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-chicago-vv17jz_kgkbbdisc",
@@ -166141,10 +166213,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668110",
+        "url": "https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GknpOVAL",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110"
   }
 ]

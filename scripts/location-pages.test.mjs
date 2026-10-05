@@ -479,6 +479,26 @@ for (const marker of FILLER_MARKERS) {
 }
 assert(emptyVenueText.split(" ").length < 40, `empty venue page stays brief (was ${emptyVenueText.split(" ").length} words)`);
 
+// ─── same venue name in two cities ──────────────────────────────────────────
+// Each gets its own page, so each H1 names its city; a bare shared name would
+// give two pages the same H1. A name used once keeps the bare H1.
+
+const TWIN_EVENTS = UPCOMING_EVENTS.map((event) =>
+  event.id === "fixture-b2" ? { ...event, venue: MAIN_VENUE, city: "Shelbyville" } : event
+);
+const twinVenues = deriveVenues(TWIN_EVENTS).filter((venue) => venue.venue === MAIN_VENUE);
+assert(twinVenues.length === 2, "one venue name in two cities derives two venue records");
+assert(twinVenues.every((venue) => venue.sharedName), "both records are flagged as sharing their name");
+const twinH1s = twinVenues.map((venue) =>
+  text(renderVenuePageBody({ type: "venue", path: `/venues/${venue.slug}`, venue, breadcrumb: [] }, TWIN_EVENTS).match(/<h1[^>]*>(.*?)<\/h1>/)[1])
+);
+assert(twinH1s.includes(`${MAIN_VENUE}, ${CITY} concerts and upcoming shows`), "a shared-name venue H1 names its city");
+assert(new Set(twinH1s).size === 2, "same-name venues in different cities get distinct H1s");
+assert(
+  deriveVenues(UPCOMING_EVENTS).every((venue) => !venue.sharedName),
+  "a venue name used once is not flagged"
+);
+
 // ─── announced date whose public on-sale is still ahead ─────────────────────
 // Ticketmaster lists it, but nothing is buyable yet: the card keeps its date,
 // drops every ticket button, and states the on-sale time with its source.

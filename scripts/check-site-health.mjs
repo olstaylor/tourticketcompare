@@ -59,12 +59,18 @@ export const SENSOR_LABELS = Object.freeze([
 // automation:health finding into its own work-queue item, so a failed run of
 // this workflow opens "Scheduled lane not completing: Site health", which then
 // failed every later run and kept itself open (2026-09-25..28, #1168). That
-// one item is linked, not gating; every other work-queue item still gates.
+// one item is linked, not gating.
+// Provider URL coverage items are linked, not gating, too. A missing SeatGeek
+// link is a commercial coverage gap, not a site fault, and a batch whose events
+// SeatGeek never lists stays open for good, so gating on it kept this check red
+// from 2026-10-02 with nothing on the site wrong. Every other work-queue item
+// still gates.
 export function workQueueItemGates(issue) {
   const block = /```json\s*([\s\S]*?)```/.exec(String(issue?.body || ""));
   if (!block) return true;
   try {
     const finding = JSON.parse(block[1]);
+    if (finding?.source === "provider-url-coverage") return false;
     return !(finding?.source === "automation-health" && Array.isArray(finding.identity) && finding.identity.includes("site-health.yml"));
   } catch {
     return true;
@@ -426,7 +432,8 @@ async function selfTest() {
   assert.equal(workQueueItemGates(workItem({ source: "automation-health", identity: ["vividseats-cta-sync.yml"] })), true, "another failing lane's work item still gates");
   assert.equal(workQueueItemGates(workItem({ source: "generated-freshness", identity: ["og-cards"] })), true, "a non-health work item still gates");
   assert.equal(workQueueItemGates({ body: "no machine-readable block" }), true, "an unparseable work item gates rather than hiding");
-  return 34;
+  assert.equal(workQueueItemGates(workItem({ source: "provider-url-coverage", identity: ["valley", "seatgeek"] })), false, "a provider URL coverage item is linked, not gating");
+  return 35;
 }
 
 async function main(argv) {

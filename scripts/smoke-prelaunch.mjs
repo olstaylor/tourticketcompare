@@ -1248,7 +1248,7 @@ function extractJsonLd(html) {
 }
 
 const jsonLdRoutes = [
-  { pathname: "/", expectTypes: ["Organization", "WebSite"], noTypes: ["BreadcrumbList", "FAQPage", "Article"] },
+  { pathname: "/", expectTypes: ["Organization", "WebSite", "FAQPage"], noTypes: ["BreadcrumbList", "Article"] },
   { pathname: "/artists", expectTypes: ["Organization", "WebSite", "BreadcrumbList"], noTypes: ["FAQPage", "Article"] },
   { pathname: "/guides", expectTypes: ["Organization", "WebSite", "BreadcrumbList"], noTypes: ["FAQPage", "Article"] },
   // ItemList is nested inside the Blog node's mainEntity, not a top-level

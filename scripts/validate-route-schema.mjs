@@ -818,7 +818,20 @@ function expectedMusicEventCount(artistSlug) {
     const node = nodes[0];
     const canonicalUrl = `${ORIGIN}${pathname}`;
     const problems = [];
-    if (Object.keys(node).sort().join(",") !== EVENT_NODE_KEYS) problems.push(`properties are [${Object.keys(node).sort()}], expected [${EVENT_NODE_KEYS}]`);
+    // `offers` is optional: present only where the page's ticket buttons show
+    // a gated price (the same musicEventOffersSchema the parent boards use).
+    const { offers: nodeOffers, ...nodeCore } = node;
+    if (Object.keys(nodeCore).sort().join(",") !== EVENT_NODE_KEYS) problems.push(`properties are [${Object.keys(node).sort()}], expected [${EVENT_NODE_KEYS}] plus optional offers`);
+    if (nodeOffers !== undefined) {
+      const offerList = Array.isArray(nodeOffers) ? nodeOffers : [];
+      if (!offerList.length) problems.push("offers is present but empty");
+      for (const offer of offerList) {
+        if (Object.keys(offer).sort().join(",") !== "@type,price,priceCurrency,priceValidUntil,url") problems.push(`offer properties are [${Object.keys(offer).sort()}]`);
+        if (offer["@type"] !== "Offer" || !Number.isFinite(offer.price) || !/^[A-Z]{3}$/.test(String(offer.priceCurrency))) problems.push(`offer ${JSON.stringify(offer)} is not a priced Offer`);
+        if (!String(offer.url || "").startsWith(`${ORIGIN}/api/out?`)) problems.push(`offer url ${offer.url} is not the tracked /api/out link`);
+        if (!(Date.parse(offer.priceValidUntil) > Date.now())) problems.push(`offer priceValidUntil ${offer.priceValidUntil} has passed`);
+      }
+    }
     if (node["@id"] !== `${canonicalUrl}#event`) problems.push(`@id ${node["@id"]} is not the canonical URL + #event`);
     if (node.url !== canonicalUrl) problems.push(`url ${node.url} is not the canonical URL`);
     if (node.eventStatus !== expectedStatus) problems.push(`eventStatus ${node.eventStatus}, expected ${expectedStatus}`);
@@ -865,8 +878,9 @@ function expectedMusicEventCount(artistSlug) {
     if (!page.facts.Artist?.includes(`href="/artists/${event.artist_slug}"`)) problems.push("the visible Artist fact does not link the artist page");
 
     if (node.image !== page.ogImage || node.image !== `${ORIGIN}${OG_CARDS[pathname]?.url || "/og-image.png"}`) problems.push(`image ${node.image} is not the page's og:image ${page.ogImage}`);
-    if (/offer|price|availability|inventory/i.test(JSON.stringify(node))) problems.push("carries offer/price/availability data");
-    if (/\/api\/out/.test(JSON.stringify(graph))) problems.push("structured data links /api/out");
+    if (/offer|price|availability|inventory/i.test(JSON.stringify(nodeCore))) problems.push("carries offer/price/availability data outside offers");
+    if (/availability|inventory/i.test(JSON.stringify(nodeOffers || []))) problems.push("offers carry availability data");
+    if (/\/api\/out/.test(JSON.stringify(graph.map((entry) => (entry === node ? nodeCore : entry))))) problems.push("structured data links /api/out outside offers");
     for (const problem of problems) fail(`${label} ${pathname}: MusicEvent ${problem}`);
     return node;
   }
@@ -1058,15 +1072,15 @@ function expectedMusicEventCount(artistSlug) {
     if (scheduled && /Official Platinum/.test(scheduled.name)) fail("event fixture scheduled: the provider listing title leaked into the name");
 
     // The same fresh approved row renders a price on the page and an Offer on
-    // the parent artist board (exception C, unchanged), but never on the event node.
+    // both the parent artist board (exception C) and the event node, identical.
     {
       const html = await (await render(eventPagesModule.eventPath(SCHEDULED), "tourticketcompare.com", fenv)).text();
       const parentGraph = extractGraph(await (await render(`/artists/${artist.slug}`, "tourticketcompare.com", fenv)).text(), `/artists/${artist.slug}`) || [];
       const parentNode = parentGraph.find((node) => node["@type"] === "MusicEvent" && String(node.url).endsWith(`#show-${SCHEDULED.id}`));
       if (!/\$123\.45/.test(html)) fail("event fixture scheduled: the visible price badge is missing, so the no-offer check proves nothing");
       else if (!(parentNode?.offers?.length === 1)) fail("event fixture scheduled: the parent artist board no longer emits its gated Offer for the same row");
-      else if (scheduled && "offers" in scheduled) fail("event fixture scheduled: the event-page node carries offers");
-      else ok("event fixture scheduled: visible price and parent-board Offer present, event-page node carries no offers");
+      else if (!scheduled || JSON.stringify(scheduled.offers) !== JSON.stringify(parentNode.offers)) fail(`event fixture scheduled: the event-page offers ${JSON.stringify(scheduled?.offers)} differ from the parent board's ${JSON.stringify(parentNode.offers)}`);
+      else ok("event fixture scheduled: visible price, and the same gated Offer on the parent board and the event-page node");
       if (parentNode && (parentNode.url !== `${ORIGIN}/artists/${artist.slug}#show-${SCHEDULED.id}` || "@id" in parentNode)) fail("event fixture: the parent node's identity changed");
     }
 

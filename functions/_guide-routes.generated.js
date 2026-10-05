@@ -56,7 +56,7 @@ export const GUIDE_ROUTES = {
     fullContent: true,
     comparisonProviders: ["ticketmaster","ticketnetwork"],
     datePublished: "2026-08-19",
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-05"
   },
   "/guides/how-to-avoid-overpaying-for-concert-tickets": {
     title: "Avoid Overpaying for Concert Tickets | TourTicketCompare",
@@ -222,7 +222,7 @@ export const GUIDE_ROUTES = {
     fullContent: true,
     comparisonProviders: ["ticketmaster","ticketnetwork"],
     datePublished: "2026-10-02",
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-05"
   },
   "/guides/no-tickets-left-on-ticketmaster": {
     title: "No Tickets Left on Ticketmaster? What to Do Next",

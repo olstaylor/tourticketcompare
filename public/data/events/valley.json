@@ -650,7 +650,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvgoz",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvgoz",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/victoria-canada-capital-ballroom-2027-02-23-8-pm/concert/18606164",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-victoria-capital-ballroom---victoria-2-23-2027--concerts-rock/production/7579951",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvgoz",
@@ -666,11 +666,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606164,
+        "url": "https://seatgeek.com/valley-tickets/victoria-canada-capital-ballroom-2027-02-23-8-pm/concert/18606164",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579951,
@@ -1581,7 +1581,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAvzfM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfM",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/new-york-new-york-webster-hall-2027-03-17-8-pm/concert/18643169",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfM",
@@ -1597,11 +1597,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18643169,
+        "url": "https://seatgeek.com/valley-tickets/new-york-new-york-webster-hall-2027-03-17-8-pm/concert/18643169",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

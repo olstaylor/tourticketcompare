@@ -345,7 +345,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeefV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeefV",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yacht-rock-revue-tickets/key-west-florida-coffee-butler-amphitheater-2027-01-20-7-30-pm/concert/18618566",
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-key-west-coffee-butler-amphitheater-1-20-2027/production/7597386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeefV",
@@ -361,11 +361,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18618566,
+        "url": "https://seatgeek.com/yacht-rock-revue-tickets/key-west-florida-coffee-butler-amphitheater-2027-01-20-7-30-pm/concert/18618566",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7597386,

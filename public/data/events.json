@@ -8515,11 +8515,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7921652",
-        "url": "https://www.ticketnetwork.com/en/p/7921652",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7921652",
@@ -8540,7 +8540,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1AvfZ_aGkVqmncZ",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921652",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921652/Olivia-Rodrigo-tickets-Sun-Oct-4-2026-Capital-One-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-washington-tickets-10-4-2026/event/107165389"
   },
@@ -34430,11 +34430,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7457605",
-        "url": "https://www.ticketnetwork.com/en/p/7457605",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7457605",
@@ -34447,7 +34447,7 @@
     "ticketmaster_discovery_event_id": "vv17bZbSGknj3VY9",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457605",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457605/Doja-Cat-tickets-Sun-Oct-4-2026-Target-Center"
   },
   {
@@ -42923,11 +42923,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8113672",
-        "url": "https://www.ticketnetwork.com/en/p/8113672",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8113672",
@@ -42940,7 +42940,7 @@
     "ticketmaster_discovery_event_id": "G5vVZ_uNJqq1q",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113672",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113672/Foo-Fighters-tickets-Sun-Oct-4-2026-Mohegan-Sun-Arena-CT"
   },
   {
@@ -50420,11 +50420,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7976479",
-        "url": "https://www.ticketnetwork.com/en/p/7976479",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7976479",
@@ -50444,7 +50444,7 @@
     "ticketmaster_discovery_event_id": "vvG1VZ_1MbPqce",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976479",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976479/Don-Omar-tickets-Sun-Oct-4-2026-Kaseya-Center",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-miami-tickets-10-4-2026/event/107185216"
   },
@@ -78880,18 +78880,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8135382",
-        "url": "https://www.ticketnetwork.com/en/p/8135382",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_CJE3MsH",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135382/Michelle-Branch-tickets-Sun-Oct-4-2026-The-Sound-At-The-Del-Mar-Fairgrounds",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135382"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-michelle-branch-2026-san-luis-obispo-z7r9jz1a7jfbx",
@@ -118410,11 +118410,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034305",
-        "url": "https://www.ticketnetwork.com/en/p/8034305",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8034305",
@@ -118427,7 +118427,7 @@
     "ticketmaster_discovery_event_id": "vvG1bZ_GCLzIdq",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034305",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034305/Malcolm-Todd-tickets-Sun-Oct-4-2026-Saint-Louis-Music-Park"
   },
   {
@@ -165950,11 +165950,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7831762",
+        "url": "https://www.ticketnetwork.com/en/p/7831762",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vvx0w-E",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831762"
   },
   {
     "id": "tm-latto-2026-petersburg-vvg17z_2r3gq4t",
@@ -166056,11 +166064,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8167507",
+        "url": "https://www.ticketnetwork.com/en/p/8167507",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vpvZ6G3",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167507"
   },
   {
     "id": "tm-the-warning-2027-london-1adjz_3gknpoval",

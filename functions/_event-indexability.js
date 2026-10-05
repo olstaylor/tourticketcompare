@@ -73,8 +73,12 @@ import { citySlug, slugify } from "./_cities.js";
 export const EVENT_MIN_PUBLISHABLE_DESTINATIONS = 2;
 
 // ...and the listed-price snapshot, recorded low and price moves for this date,
-// which only a snapshot-capable lane can ever supply.
-export const EVENT_MIN_SNAPSHOT_READY_LANES = 1;
+// which only a snapshot-capable lane can ever supply. Two since 2026-10-05: an
+// indexed event page must be able to show a same-event price comparison, the
+// rule every aggregation route follows (COMPARISON_MIN_PRICE_PROVIDERS in
+// functions/_route-indexability.js). A pilot member below it drops out of
+// indexing and is never replaced.
+export const EVENT_MIN_SNAPSHOT_READY_LANES = 2;
 
 // Two same-day listings at the same venue whose start times are at least this
 // far apart are two performances (a matinee and an evening show), not one
@@ -100,7 +104,10 @@ export const EVENT_INDEXABILITY_REASONS = Object.freeze({
   // The page may not carry a MusicEvent (pre-on-sale, resale-only, unknown status).
   NO_EVENT_SCHEMA: "no_event_schema",
   BELOW_DESTINATION_THRESHOLD: "below_destination_threshold",
+  // No snapshot-ready lane at all.
   NO_SNAPSHOT_READY_LANE: "no_snapshot_ready_lane",
+  // Some, but fewer than EVENT_MIN_SNAPSHOT_READY_LANES: no same-event comparison.
+  BELOW_SNAPSHOT_LANE_THRESHOLD: "below_snapshot_lane_threshold",
   // TTC cannot tell this row apart from another row for the same performance.
   DUPLICATE_AMBIGUITY: "duplicate_ambiguity"
 });
@@ -389,7 +396,8 @@ export function eventIndexabilityDecision(events, artists, event, options = {}) 
   if (state.nonPerformance.length) reasons.push(R.NON_PERFORMANCE);
   if (!schema.eligible) reasons.push(R.NO_EVENT_SCHEMA);
   if (lanes.length < EVENT_MIN_PUBLISHABLE_DESTINATIONS) reasons.push(R.BELOW_DESTINATION_THRESHOLD);
-  if (snapshotLanes.length < EVENT_MIN_SNAPSHOT_READY_LANES) reasons.push(R.NO_SNAPSHOT_READY_LANE);
+  if (!snapshotLanes.length) reasons.push(R.NO_SNAPSHOT_READY_LANE);
+  else if (snapshotLanes.length < EVENT_MIN_SNAPSHOT_READY_LANES) reasons.push(R.BELOW_SNAPSHOT_LANE_THRESHOLD);
   if (duplicateGroups.length) reasons.push(R.DUPLICATE_AMBIGUITY);
 
   return {

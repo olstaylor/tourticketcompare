@@ -64,8 +64,9 @@ cache row cannot flip a page in or out of the index.
 
 **Not applied to artist pages.** The artist page is the canonical hub that
 every other route defers to (see "keep one canonical" below), and it stays
-indexed between tours by owner decision (2026-09-24). Event pages already
-require a snapshot lane and are governed by the frozen pilot.
+indexed between tours by owner decision (2026-09-24). Event pages apply the
+same two-lane rule through `EVENT_MIN_SNAPSHOT_READY_LANES` (below); a pilot
+member that falls under it drops out of indexing and is never replaced.
 
 **Why now.** Adopted during Google's September 2026 spam update (rollout began
 2026-09-24), when scaled, templated pages are the main risk. The measurement
@@ -268,7 +269,7 @@ each reason it fails):
 | A genuine performance, not an upsell listing | `non_performance` | Premium seats, boxes, packages are not the concert |
 | The page carries a valid `MusicEvent` (`eventPageSchemaDecision`) | `no_event_schema` | An indexed event page should be the canonical, machine-readable description of one performance. This excludes a pre-on-sale date and a resale-only record, exactly as the parent boards' schema does |
 | ≥ 2 publishable ticket destinations (`EVENT_MIN_PUBLISHABLE_DESTINATIONS`) | `below_destination_threshold` | The page's reason to exist beside its artist page is a comparison for exactly this date; one destination (in practice: Ticketmaster alone) is the parent card restated |
-| ≥ 1 snapshot-ready lane (`EVENT_MIN_SNAPSHOT_READY_LANES`) | `no_snapshot_ready_lane` | The event page's other unique content is this date's listed-price snapshot, recorded low and price move, which only a snapshot lane can ever supply |
+| ≥ 2 snapshot-ready lanes (`EVENT_MIN_SNAPSHOT_READY_LANES`, raised from 1 on 2026-10-05) | `no_snapshot_ready_lane` (none), `below_snapshot_lane_threshold` (one) | The event page's other unique content is this date's listed-price snapshot, recorded low and price move, which only a snapshot lane can ever supply; two make it a same-event comparison, the rule every aggregation route follows (Comparison data, above) |
 | No duplicate ambiguity | `duplicate_ambiguity` | TTC must be able to say this row *is* the performance, not one of two rows for it |
 
 Codes are stable: `npm run report:event-routes` and the audit group by them,
@@ -774,7 +775,7 @@ comparison window below has been measured.
 | 2026-09-30 | Sitemap drops `changefreq`/`priority`; longer event meta description; guide answer and linking changes |
 | 2026-10-02 | Tour name in artist titles, bands as `MusicGroup`; filler copy cut on artist, artist-city, city and venue; four buying guides; `llms.txt` artist facts and IndexNow; nine price guides approved |
 | 2026-10-03 | 62 more price guides (72 indexable) |
-| 2026-10-05 | Comparison-data and one-canonical rules above: indexable artist-city 201 → 143, city 117 → 89, venue 231 → 176 (site 776 → 635). "Compare Prices" dropped from artist and artist-city titles and descriptions where no date has two price lanes. `MusicEvent.name` is "<artist> at <venue>" where Ticketmaster's event name does not name the artist. `npm run audit:metadata-accuracy:check` added to CI |
+| 2026-10-05 | Comparison-data and one-canonical rules above: indexable artist-city 201 → 143, city 117 → 89, venue 231 → 176 (site 776 → 635). "Compare Prices" dropped from artist and artist-city titles and descriptions where no date has two price lanes. `MusicEvent.name` is "<artist> at <venue>" where Ticketmaster's event name does not name the artist. `npm run audit:metadata-accuracy:check` added to CI. Event pages need two snapshot lanes (owner-approved): five pilot members with one lane drop out, leaving 25 indexed |
 
 ### Expected decay vs structural regression
 

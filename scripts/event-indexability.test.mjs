@@ -110,6 +110,7 @@ const MULTI_A = fixtureEvent("fixture-multi-a", "2026-09-12T01:00:00Z", { city: 
 const MULTI_B = fixtureEvent("fixture-multi-b", "2026-09-13T01:00:00Z", { city: "Shelbyville", venue: "Shelby Hall" });
 const ONE_LANE = fixtureEvent("fixture-one-lane", "2026-09-14T01:00:00Z", { city: "Ogdenville", venue: "Ogden Hall" }, { lanes: [] });
 const TWO_LANES = fixtureEvent("fixture-two-lanes", "2026-09-15T01:00:00Z", { city: "North Haverbrook", venue: "Haver Hall" }, { lanes: ["vivid-seats"] });
+const TWO_PRICE_LANES = fixtureEvent("fixture-two-price-lanes", "2026-09-15T03:00:00Z", { city: "Ogdenville", venue: "Ogden Hall" }, { lanes: ["vivid-seats", "ticketnetwork"] });
 const NO_SNAPSHOT = fixtureEvent("fixture-no-snapshot", "2026-09-16T01:00:00Z", { city: "Capital City", venue: "Capital Arena" }, { lanes: ["seatgeek"] });
 const CANCELLED = fixtureEvent("fixture-cancelled", "2026-09-17T01:00:00Z", { city: "Brockway", venue: "Brock Hall", ticketmaster_status_code: "cancelled" });
 const POSTPONED = fixtureEvent("fixture-postponed", "2026-09-18T01:00:00Z", { city: "Brockway", venue: "Brock Hall", ticketmaster_status_code: "postponed" });
@@ -122,7 +123,7 @@ const PAST = fixtureEvent("fixture-past", "2026-07-01T01:00:00Z", { city: "Dunki
 const NO_DESTINATION = fixtureEvent("fixture-no-destination", "2026-09-24T01:00:00Z", { city: "Nowhere Junction", venue: "Junction Hall" }, { lanes: [], ticketmaster: false });
 const DATE_ONLY = fixtureEvent("fixture-date-only", "2026-09-25", { city: "Dunkirk", venue: "Dunkirk Hall" });
 const SHELL = fixtureEvent("fixture-shell", "2026-09-26T01:00:00Z", { artist_slug: String(shellRecord.slug), artist_name: String(shellRecord.name || shellRecord.slug) });
-const EVENTS = [STRONG, MULTI_A, MULTI_B, ONE_LANE, TWO_LANES, NO_SNAPSHOT, CANCELLED, POSTPONED, UNKNOWN, RESCHEDULED, PRE_ONSALE, RESALE_ONLY, UPSELL, PAST, NO_DESTINATION, DATE_ONLY, SHELL];
+const EVENTS = [STRONG, MULTI_A, MULTI_B, ONE_LANE, TWO_LANES, TWO_PRICE_LANES, NO_SNAPSHOT, CANCELLED, POSTPONED, UNKNOWN, RESCHEDULED, PRE_ONSALE, RESALE_ONLY, UPSELL, PAST, NO_DESTINATION, DATE_ONLY, SHELL];
 
 // ─── the policy, condition by condition ─────────────────────────────────────
 
@@ -135,15 +136,20 @@ const EVENTS = [STRONG, MULTI_A, MULTI_B, ONE_LANE, TWO_LANES, NO_SNAPSHOT, CANC
   assert("2. a Ticketmaster-only event fails the two-destination threshold", one.inputs.destinationCount === 1 && one.reasons.includes(R.BELOW_DESTINATION_THRESHOLD) && !one.eligible);
 
   const two = decide(EVENTS, TWO_LANES);
-  assert("3. two destinations (one snapshot-capable) pass", two.eligible && two.inputs.destinationCount === 2);
+  assert(
+    "3. two destinations with one snapshot-capable lane fail below_snapshot_lane_threshold (no same-event comparison)",
+    two.inputs.destinationCount === 2 && sameReasons(two, [R.BELOW_SNAPSHOT_LANE_THRESHOLD])
+  );
+  const twoPrice = decide(EVENTS, TWO_PRICE_LANES);
+  assert("   two snapshot-capable lanes pass", twoPrice.eligible && twoPrice.inputs.snapshotReadyLanes.length === 2);
 
   const noSnap = decide(EVENTS, NO_SNAPSHOT);
   assert("4. SeatGeek + Ticketmaster has no snapshot-ready lane and fails on that alone", sameReasons(noSnap, [R.NO_SNAPSHOT_READY_LANE]));
 
   assert("5. a snapshot-capable lane passes with no numeric price anywhere", !("prices" in STRONG) && strong.eligible);
-  const unverifiedVivid = decide(EVENTS, STRONG, { lanes: ["vivid-seats", "ticketmaster"] });
+  const unverifiedVivid = decide(EVENTS, STRONG, { lanes: ["vivid-seats", "ticketnetwork", "ticketmaster"] });
   const vividWithoutProvenance = { ...STRONG, provider_links: { ...STRONG.provider_links, "vivid-seats": { url: STRONG.vividseats_url, verified: false } }, ticketnetwork_url: "", stubhub_international_url: "" };
-  assert("   a snapshot lane counts only with verified provenance for this event", unverifiedVivid.eligible && !decide(EVENTS, vividWithoutProvenance, { lanes: ["vivid-seats", "ticketmaster"] }).eligible);
+  assert("   a snapshot lane counts only with verified provenance for this event", unverifiedVivid.eligible && !decide(EVENTS, vividWithoutProvenance, { lanes: ["vivid-seats", "ticketnetwork", "ticketmaster"] }).eligible);
   assert("   a lane counts only when it publishes (the caller's CTA lanes)", decide(EVENTS, STRONG, { lanes: ["seatgeek", "ticketmaster"] }).reasons.includes(R.NO_SNAPSHOT_READY_LANE));
   assert("   a missing lane list fails closed", eventIndexabilityDecision(EVENTS, artistsMeta, STRONG, { now: NOW }).reasons.includes(R.BELOW_DESTINATION_THRESHOLD));
 }
@@ -274,6 +280,7 @@ const EVENTS = [STRONG, MULTI_A, MULTI_B, ONE_LANE, TWO_LANES, NO_SNAPSHOT, CANC
     NO_EVENT_SCHEMA: "no_event_schema",
     BELOW_DESTINATION_THRESHOLD: "below_destination_threshold",
     NO_SNAPSHOT_READY_LANE: "no_snapshot_ready_lane",
+    BELOW_SNAPSHOT_LANE_THRESHOLD: "below_snapshot_lane_threshold",
     DUPLICATE_AMBIGUITY: "duplicate_ambiguity"
   };
   assert("21. the reason codes are pinned (add a code; never rename one)", JSON.stringify(R) === JSON.stringify(PINNED) && Object.isFrozen(R));
@@ -602,13 +609,13 @@ Date.now = realNow;
 
   // Policy unchanged.
   assert(
-    "integrity: the eligibility thresholds are unchanged (≥2 destinations, ≥1 snapshot lane, 3h matinee gap)",
-    policy.EVENT_MIN_PUBLISHABLE_DESTINATIONS === 2 && policy.EVENT_MIN_SNAPSHOT_READY_LANES === 1 &&
+    "integrity: the eligibility thresholds are unchanged (≥2 destinations, ≥2 snapshot lanes since 2026-10-05, 3h matinee gap)",
+    policy.EVENT_MIN_PUBLISHABLE_DESTINATIONS === 2 && policy.EVENT_MIN_SNAPSHOT_READY_LANES === 2 &&
       policy.EVENT_DISTINCT_PERFORMANCE_MIN_GAP_MS === 3 * 60 * 60 * 1000
   );
   assert(
     "integrity: the eligibility reason vocabulary is unchanged",
-    JSON.stringify(Object.values(R)) === JSON.stringify(["not_addressable", "artist_not_indexable", "not_upcoming", "lifecycle_held", "not_commercially_live", "non_performance", "no_event_schema", "below_destination_threshold", "no_snapshot_ready_lane", "duplicate_ambiguity"])
+    JSON.stringify(Object.values(R)) === JSON.stringify(["not_addressable", "artist_not_indexable", "not_upcoming", "lifecycle_held", "not_commercially_live", "non_performance", "no_event_schema", "below_destination_threshold", "no_snapshot_ready_lane", "below_snapshot_lane_threshold", "duplicate_ambiguity"])
   );
 
   // Wrong-night provider links (Bruno Mars, Sydney).

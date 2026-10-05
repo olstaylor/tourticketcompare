@@ -999,7 +999,13 @@ function runSelfTest() {
     // gates require at least one publishable upcoming show, so the fixture
     // models a real reviewed record rather than a bare date.
     verification_status: "human_verified",
-    provider_links: { ticketmaster: { verified: true } }
+    // Two listed-price lanes: the comparison data every location gate needs
+    // (docs/ROUTE_INDEXABILITY_POLICY.md § Comparison data).
+    provider_links: {
+      ticketmaster: { verified: true },
+      "vivid-seats": { verified: true, url: `https://www.vividseats.com/x/production/${day}` },
+      ticketnetwork: { verified: true, url: `https://www.ticketnetwork.com/tickets/${day}` }
+    }
   });
   // Testville: 5 shows / 2 artists -> city indexable at base. Four of them fall
   // inside 20 days; alpha's day-28 show is the only one left past the horizon,
@@ -1008,7 +1014,8 @@ function runSelfTest() {
     mk("alpha", "Testville", "Test Arena", 10),
     mk("alpha", "Testville", "Test Arena", 11),
     mk("beta", "Testville", "Test Arena", 12),
-    mk("beta", "Testville", "Test Arena", 13),
+    // A second venue, so the city page is not the venue page again.
+    mk("beta", "Testville", "Test Hall", 13),
     mk("alpha", "Testville", "Test Arena", 28)
   ];
 
@@ -1048,10 +1055,11 @@ function runSelfTest() {
   // which is exactly the complementarity the rescue score is measuring.
   const horizon = 20;
   const later = base + horizon * DAY_MS;
+  // The last date is at Test Hall, so the rescued city keeps two venues.
   const candidateEvents = [3, 4, 5].map((offset) => ({
     city: "Testville",
     country: "United States",
-    venue: "Test Arena",
+    venue: offset === 5 ? "Test Hall" : "Test Arena",
     datetime_iso: new Date(later + offset * DAY_MS).toISOString()
   }));
   const scored = scoreCandidates(
@@ -1239,8 +1247,9 @@ function runSelfTest() {
     { slug: "epsilon", name: "Epsilon", events: [mkEvent(3), mkEvent(4)] }
   ];
   // One existing show in the room with a real destination. The venue gate needs
-  // >=3 shows, >=2 artists AND >=1 publishable show; projections satisfy the
-  // first two and only this row satisfies the third.
+  // >=3 shows, >=2 artists, >=1 publishable show AND >=1 show with two
+  // listed-price lanes; projections satisfy the first two and only this row
+  // satisfies the last two.
   const seeded = [
     {
       artist_slug: "incumbent",
@@ -1248,7 +1257,11 @@ function runSelfTest() {
       country: "United States",
       venue: "Test Arena",
       datetime_iso: new Date(batchAt).toISOString(),
-      ticketmaster_url: "https://www.ticketmaster.com/event/TESTSEED"
+      ticketmaster_url: "https://www.ticketmaster.com/event/TESTSEED",
+      provider_links: {
+        "vivid-seats": { verified: true, url: "https://www.vividseats.com/x/production/TESTSEED" },
+        ticketnetwork: { verified: true, url: "https://www.ticketnetwork.com/tickets/TESTSEED" }
+      }
     }
   ];
   const contribution = batchSurfaceContribution(seeded, [], batchPair, base, 180, 2, 10);

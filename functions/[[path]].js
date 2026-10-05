@@ -29,6 +29,7 @@ import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js"
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
 import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, EVENT_LIFECYCLE, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
+import { deriveArtistPresales, deriveUpcomingPresales, presalePath, PRESALE_SEGMENT, PRESALE_LOOKAHEAD_DAYS } from "./_presales.js";
 import {
   PRICE_GUIDE_SEGMENT,
   derivePriceGuide,
@@ -560,7 +561,8 @@ async function routeForPath(pathname, env) {
   // date moves from "going on sale" to "just went on sale" the moment its
   // public on-sale passes, with no rebuild.
   if (path === ONSALE_CALENDAR_PATH) {
-    const calendar = deriveOnsaleCalendar(await loadEvents(env));
+    const onsaleEvents = await loadEvents(env);
+    const calendar = deriveOnsaleCalendar(onsaleEvents);
     return {
       type: "onsale-calendar",
       path,
@@ -569,6 +571,7 @@ async function routeForPath(pathname, env) {
       description:
         "Upcoming public on-sale dates and times from Ticketmaster for tracked concert tours, plus dates that went on sale in the last week.",
       calendar,
+      presales: deriveUpcomingPresales(onsaleEvents),
       breadcrumb: [{ name: "On-sale calendar", path: ONSALE_CALENDAR_PATH }]
     };
   }
@@ -919,6 +922,39 @@ async function routeForPath(pathname, env) {
         { name: "Artists", path: "/artists" },
         { name: artist.name, path: `/artists/${artist.slug}` },
         { name: "Ticket prices", path }
+      ]
+    };
+  }
+
+  // Artist presale page: /artists/<artist>/presale. Matched before the
+  // two-segment tour route below, like the price guide. It lists the named
+  // presale windows and public on-sale times Ticketmaster gives for the
+  // artist's upcoming dates (functions/_presales.js). One durable URL per
+  // artist: indexable only while a presale is open or opens soon
+  // (docs/ROUTE_INDEXABILITY_POLICY.md § Presale page), otherwise it says
+  // nothing is listed and renders noindex,follow until the next tour.
+  const presaleMatch = path.match(new RegExp(`^/artists/([a-z0-9-]+)/${PRESALE_SEGMENT}$`));
+  if (presaleMatch) {
+    const artist = findArtist(catalog, presaleMatch[1]);
+    if (!artist) return null;
+    const artistMetaRecord = artistsMeta.find((m) => slugify(m.slug) === presaleMatch[1]) || {};
+    const artistEvents = await loadArtistEvents(env, artist.slug);
+    const presales = deriveArtistPresales(artistEvents, artist.slug);
+    return {
+      type: "presale",
+      path,
+      // A child page never outranks its parent.
+      indexable: presales.indexable && artistPageIndexable(artistMetaRecord, artistEvents, artist.slug),
+      title: presalePageTitle(artist, presales),
+      description: presalePageDescription(artist, presales),
+      artist: { ...artist, indexing_status: artistMetaRecord.indexing_status || "" },
+      presales,
+      catalog,
+      events: artistEvents,
+      breadcrumb: [
+        { name: "Artists", path: "/artists" },
+        { name: artist.name, path: `/artists/${artist.slug}` },
+        { name: "Presale", path }
       ]
     };
   }
@@ -1594,6 +1630,27 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
     });
     const faqEntries = priceGuideFaqEntries(route, derivePriceGuideView(route, events, env));
     if (faqEntries.length) graph.push(faqPageSchema(faqEntries));
+  }
+  if (route.type === "presale" && route.presales) {
+    // A plain WebPage about the artist, like the price guide. No MusicEvent or
+    // Offer: the artist page owns those, and a presale is not an offer the
+    // site can source.
+    graph.push({
+      "@type": "WebPage",
+      "@id": `${origin}${route.path}#webpage`,
+      url: `${origin}${route.path}`,
+      name: route.title,
+      description: route.description,
+      inLanguage: "en",
+      publisher: { "@id": `${origin}/#organization` },
+      isPartOf: { "@id": `${origin}/#website` },
+      about: {
+        "@type": performerTypeForArtist(catalog, route.artist.slug),
+        name: route.artist.name,
+        url: `${origin}/artists/${route.artist.slug}`
+      },
+      relatedLink: [`${origin}/artists/${route.artist.slug}`, `${origin}${ONSALE_CALENDAR_PATH}`]
+    });
   }
   if (route.type === "onsale-calendar") {
     const calendar = route.calendar || {};
@@ -4702,6 +4759,195 @@ function renderOnsaleDayGroups(groups) {
     .join("");
 }
 
+// ---------------------------------------------------------------------------
+// Presale windows (functions/_presales.js)
+// ---------------------------------------------------------------------------
+
+// One instant in a venue's local time, with its zone named so a window shared
+// by dates in different zones still reads unambiguously.
+function presaleTimeLabel(ms, timezone) {
+  const at = new Date(ms);
+  try {
+    return at.toLocaleString("en-US", { weekday: "short", month: "short", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit", timeZone: timezone || "UTC", timeZoneName: "short" });
+  } catch (error) {
+    return `${at.toISOString().slice(0, 16).replace("T", " ")} UTC`;
+  }
+}
+
+function presaleWindowZone(window) {
+  return window.shows[0]?.timezone || "UTC";
+}
+
+function presaleWindowWhen(window) {
+  const zone = presaleWindowZone(window);
+  return window.open
+    ? `Open now, closes ${presaleTimeLabel(window.endMs, zone)}`
+    : `Opens ${presaleTimeLabel(window.startMs, zone)}, closes ${presaleTimeLabel(window.endMs, zone)}`;
+}
+
+function presalePlural(count, one, many) {
+  return `${count} ${count === 1 ? one : many}`;
+}
+
+function presalePageYear(presales) {
+  const first = presales.windows[0];
+  if (!first) return "";
+  try {
+    return new Intl.DateTimeFormat("en-US", { year: "numeric", timeZone: presaleWindowZone(first) }).format(new Date(first.startMs));
+  } catch (error) {
+    return new Date(first.startMs).toISOString().slice(0, 4);
+  }
+}
+
+function presalePageTitle(artist, presales) {
+  const year = presalePageYear(presales);
+  return presales.windowCount
+    ? `${artist.name} Presale ${year}: Times & Ticket On-Sale Dates | TourTicketCompare`
+    : `${artist.name} Presale & Ticket On-Sale Dates | TourTicketCompare`;
+}
+
+function presalePageDescription(artist, presales) {
+  if (!presales.windowCount) {
+    return fitMetaDescription(
+      `Ticketmaster lists no upcoming presale for ${artist.name}'s tracked dates right now. Named presales and public on-sale times appear here when they are announced.`
+    );
+  }
+  const next = presales.nextWindow;
+  const nextLine = next ? ` Next: ${next.name}, ${presaleTimeLabel(next.startMs, presaleWindowZone(next))}.` : " A presale is open now.";
+  return fitMetaDescription(
+    `${presalePlural(presales.windowCount, "presale", "presales")} listed by Ticketmaster for ${artist.name}'s upcoming dates.${nextLine} Times for every date, plus the public on-sale.`,
+    `${artist.name} presale times from Ticketmaster for every upcoming date, plus the public on-sale.`
+  );
+}
+
+// Long runs fold behind a closed <details>, which works without JS.
+const PRESALE_VISIBLE_SHOWS = 4;
+
+function renderPresaleShowItems(shows, artistSlug) {
+  return shows
+    .map((show) => {
+      const label = [show.city, show.venue].filter(Boolean).join(" · ");
+      const date = show.datetimeIso ? formatShowDateServer(show.datetimeIso, show.timezone) : "";
+      const anchorId = showAnchorId(show);
+      return `<li data-event-id="${escapeAttr(show.id)}">${anchor(label || "Show", `/artists/${slugify(artistSlug)}${anchorId ? `#${anchorId}` : ""}`, "text-link")}${date ? escapeHtml(` · ${date}`) : ""}</li>`;
+    })
+    .join("");
+}
+
+function renderPresaleShowList(shows, artistSlug) {
+  if (shows.length <= PRESALE_VISIBLE_SHOWS + 1) {
+    return `<ul class="venue-show-list">${renderPresaleShowItems(shows, artistSlug)}</ul>`;
+  }
+  const rest = shows.slice(PRESALE_VISIBLE_SHOWS);
+  return `<ul class="venue-show-list">${renderPresaleShowItems(shows.slice(0, PRESALE_VISIBLE_SHOWS), artistSlug)}</ul><details class="onsale-more"><summary>${escapeHtml(
+    `Show ${rest.length} more ${rest.length === 1 ? "date" : "dates"}`
+  )}</summary><ul class="venue-show-list">${renderPresaleShowItems(rest, artistSlug)}</ul></details>`;
+}
+
+function renderPresaleWindowHtml(window, artistSlug) {
+  return `<article class="nested-panel presale-window"><h3>${escapeHtml(window.name)}</h3><p><strong>${escapeHtml(
+    presaleWindowWhen(window)
+  )}</strong></p><p class="muted">${escapeHtml(`For ${presalePlural(window.shows.length, "date", "dates")}:`)}</p>${renderPresaleShowList(window.shows, artistSlug)}</article>`;
+}
+
+function renderArtistPresaleLinkHtml(artist, presales) {
+  if (!presales?.windowCount) return "";
+  const lead = presales.openCount
+    ? `${artist.name} presale open now`
+    : `${artist.name} presale: ${presales.nextWindow.name} opens ${presaleTimeLabel(presales.nextWindow.startMs, presaleWindowZone(presales.nextWindow))}`;
+  return `<p class="price-guide-link presale-link">${anchor(`${lead}. See every presale time`, presalePath(artist.slug), "text-link")}</p>`;
+}
+
+// /on-sale: each artist's windows, the first few shown and the rest folded.
+const ONSALE_VISIBLE_PRESALES = 3;
+
+function renderOnsalePresaleArtistHtml(artist) {
+  const item = (window) =>
+    `<li><strong>${escapeHtml(window.name)}</strong> · ${escapeHtml(presaleWindowWhen(window))} ${escapeHtml(
+      `· ${presalePlural(window.shows.length, "date", "dates")}`
+    )}</li>`;
+  const shown = artist.windows.slice(0, ONSALE_VISIBLE_PRESALES);
+  const rest = artist.windows.slice(ONSALE_VISIBLE_PRESALES);
+  return `<section class="nested-panel onsale-presales" data-presale-artist="${escapeAttr(artist.artistSlug)}"><h3>${anchor(
+    artist.artistName,
+    `/artists/${slugify(artist.artistSlug)}`,
+    "text-link"
+  )} <span class="muted">${escapeHtml(`· ${presalePlural(artist.windows.length, "presale", "presales")}`)}</span></h3><ul class="venue-show-list">${shown
+    .map(item)
+    .join("")}</ul>${
+    rest.length
+      ? `<details class="onsale-more"><summary>${escapeHtml(`Show ${rest.length} more`)}</summary><ul class="venue-show-list">${rest.map(item).join("")}</ul></details>`
+      : ""
+  }<p>${anchor(`Every ${artist.artistName} presale time`, presalePath(slugify(artist.artistSlug)), "text-link")}</p></section>`;
+}
+
+export function renderPresalePageBody(route) {
+  const artist = route.artist;
+  const presales = route.presales;
+  const artistHref = `/artists/${artist.slug}`;
+  const open = presales.windows.filter((window) => window.open);
+  const upcoming = presales.windows.filter((window) => !window.open);
+  let lead;
+  if (!presales.windowCount) {
+    lead = `Ticketmaster lists no upcoming presale for ${artist.name}'s tracked dates right now. When a new tour's presales are announced, their names and times appear here for each date.`;
+  } else {
+    const parts = [`Ticketmaster lists ${presalePlural(presales.windowCount, "presale", "presales")} for ${presalePlural(presales.coveredShowCount, "upcoming date", "upcoming dates")} of ${artist.name}.`];
+    if (open.length) parts.push(open.length === 1 ? "One is open now." : `${open.length} are open now.`);
+    if (presales.nextWindow) parts.push(`The next opens ${presaleTimeLabel(presales.nextWindow.startMs, presaleWindowZone(presales.nextWindow))}.`);
+    lead = parts.join(" ");
+  }
+  const openHtml = open.length
+    ? `<section aria-labelledby="presaleOpenTitle"><h2 id="presaleOpenTitle">Presales open now</h2>${open.map((window) => renderPresaleWindowHtml(window, artist.slug)).join("")}</section>`
+    : "";
+  const upcomingHtml = upcoming.length
+    ? `<section aria-labelledby="presaleUpcomingTitle"><h2 id="presaleUpcomingTitle">Presales coming up</h2>${upcoming.map((window) => renderPresaleWindowHtml(window, artist.slug)).join("")}</section>`
+    : "";
+  const onsales = presales.publicOnsales;
+  const onsaleItems = (list) =>
+    list
+      .map(
+        (entry) =>
+          `<li data-event-id="${escapeAttr(entry.id)}"><strong>${escapeHtml(presaleTimeLabel(entry.onsaleMs, entry.timezone))}</strong> · ${escapeHtml(
+            [entry.city, entry.venue].filter(Boolean).join(" · ")
+          )}${entry.datetimeIso ? escapeHtml(` · show ${formatShowDateServer(entry.datetimeIso, entry.timezone)}`) : ""}</li>`
+      )
+      .join("");
+  const onsaleHtml = onsales.length
+    ? `<section class="nested-panel" aria-labelledby="presalePublicTitle"><h2 id="presalePublicTitle">Public on-sale</h2><p>Anyone can buy from Ticketmaster's public on-sale, with no presale code. Until then, the ${anchor(
+        `${artist.name} page`,
+        artistHref,
+        "text-link"
+      )} shows the time and no Ticketmaster button for that date.</p><ul class="venue-show-list">${onsaleItems(onsales.slice(0, PRESALE_VISIBLE_SHOWS + 1))}</ul>${
+        onsales.length > PRESALE_VISIBLE_SHOWS + 1
+          ? `<details class="onsale-more"><summary>${escapeHtml(`Show ${onsales.length - PRESALE_VISIBLE_SHOWS - 1} more`)}</summary><ul class="venue-show-list">${onsaleItems(
+              onsales.slice(PRESALE_VISIBLE_SHOWS + 1)
+            )}</ul></details>`
+          : ""
+      }</section>`
+    : "";
+  const emptyHtml = presales.windowCount
+    ? ""
+    : `<section class="nested-panel"><p>${
+        presales.showCount
+          ? `${escapeHtml(artist.name)} has ${escapeHtml(presalePlural(presales.showCount, "tracked upcoming date", "tracked upcoming dates"))}, and none carries an open or upcoming presale on Ticketmaster's listing.`
+          : `No upcoming ${escapeHtml(artist.name)} date is tracked right now.`
+      } ${anchor(`See ${artist.name} tickets and dates`, artistHref, "text-link")} or ${anchor("the on-sale calendar", ONSALE_CALENDAR_PATH, "text-link")}.</p></section>`;
+  const howHtml = `<section class="nested-panel" aria-labelledby="presaleHowTitle"><h2 id="presaleHowTitle">How presales work</h2><div class="card-grid"><article class="info-card"><h3>Who gets in</h3><p>Each presale is for a group named in its title, such as an artist fan club, a card issuer or a venue list. The group running it sends any code or sign-up link. This site never shows codes.</p></article><article class="info-card"><h3>Times can move</h3><p>These times are Ticketmaster's listing for each date when it was last checked, once a day. Promoters do move them, so confirm on Ticketmaster and be signed in a few minutes early.</p></article><article class="info-card"><h3>Resale before the sale</h3><p>Resale sites can list tickets before a presale or public on-sale opens. Those listings can sit well above face value.</p></article></div><div class="mini-link-grid">${anchor(
+    "How to prepare for a ticket on-sale",
+    "/guides/how-to-prepare-for-a-ticket-onsale",
+    "mini-link"
+  )}${anchor("Primary vs resale concert tickets", "/guides/primary-vs-resale-concert-tickets", "mini-link")}</div></section>`;
+  return `<main id="mainContent"><section class="content-page presale-page" aria-labelledby="presaleTitle">${renderBreadcrumbHtml(
+    route
+  )}<h1 id="presaleTitle">${escapeHtml(`${artist.name} presale times and ticket on-sale dates`)}</h1><p class="lead">${escapeHtml(
+    lead
+  )}</p><p class="disclosure-note">Presale names and times are Ticketmaster's, for each exact date. Nothing is estimated, and no presale code is shown.</p>${openHtml}${upcomingHtml}${onsaleHtml}${emptyHtml}${howHtml}<div class="action-row">${anchor(
+    `${artist.name} tickets and dates`,
+    artistHref,
+    "button button-primary"
+  )}${anchor("On-sale calendar", ONSALE_CALENDAR_PATH, "button button-secondary")}</div></section></main>`;
+}
+
 export function renderOnsaleCalendarBody(route) {
   const calendar = route.calendar || {};
   const upcoming = calendar.upcoming || [];
@@ -4726,11 +4972,17 @@ export function renderOnsaleCalendarBody(route) {
         recent
       )}</section>`
     : "";
+  const presales = route.presales || { artists: [], windowCount: 0, artistCount: 0 };
+  const presaleHtml = presales.artists.length
+    ? `<section aria-labelledby="onsalePresaleTitle"><h2 id="onsalePresaleTitle">Presales open now or opening soon</h2><p>${escapeHtml(
+        `${plural(presales.windowCount, "presale", "presales")} for ${plural(presales.artistCount, "artist", "artists")}, open now or opening in the next ${PRESALE_LOOKAHEAD_DAYS} days, as Ticketmaster names them. Times are in the first listed venue's local time. Codes are never shown.`
+      )}</p>${presales.artists.map(renderOnsalePresaleArtistHtml).join("")}</section>`
+    : "";
   return `<main id="mainContent"><section class="content-page" aria-labelledby="onsaleTitle">${renderBreadcrumbHtml(
     route
-  )}<h1 id="onsaleTitle">Concert tickets going on sale</h1><p class="lead">${escapeHtml(lead)}</p><section aria-labelledby="onsaleUpcomingTitle"><h2 id="onsaleUpcomingTitle">Going on sale</h2><p>Before its on-sale time, a date's artist page shows the time and no Ticketmaster button. Resale sites can list tickets earlier, and those listings can sit above face value.</p>${upcomingHtml}</section>${recentHtml}${collapsedGroupHtml(
+  )}<h1 id="onsaleTitle">Concert tickets going on sale</h1><p class="lead">${escapeHtml(lead)}</p>${presaleHtml}<section aria-labelledby="onsaleUpcomingTitle"><h2 id="onsaleUpcomingTitle">Going on sale</h2><p>Before its on-sale time, a date's artist page shows the time and no Ticketmaster button. Resale sites can list tickets earlier, and those listings can sit above face value.</p>${upcomingHtml}</section>${recentHtml}${collapsedGroupHtml(
     "About this calendar",
-    `<section class="nested-panel"><h2>Where these times come from</h2><div class="card-grid"><article class="info-card"><h3>Ticketmaster's public on-sale</h3><p>Each time is the public on-sale Ticketmaster lists for that exact date, carried on the same reviewed event record the artist page uses. Nothing is estimated.</p></article><article class="info-card"><h3>Presales aren't listed</h3><p>Fan-club, card and venue presales usually open earlier and aren't tracked here. Check the artist's and venue's own announcements for those.</p></article><article class="info-card"><h3>Times can change</h3><p>Promoters move on-sales. Confirm the time on Ticketmaster before the sale, and be signed in and ready a few minutes early.</p></article></div><div class="mini-link-grid">${anchor(
+    `<section class="nested-panel"><h2>Where these times come from</h2><div class="card-grid"><article class="info-card"><h3>Ticketmaster's public on-sale</h3><p>Each time is the public on-sale Ticketmaster lists for that exact date, carried on the same reviewed event record the artist page uses. Nothing is estimated.</p></article><article class="info-card"><h3>Presales from Ticketmaster</h3><p>Fan-club, card and venue presales are listed where Ticketmaster's record for a date names them, with their start and end times. Codes are never shown: they come from the artist, the card issuer or the venue.</p></article><article class="info-card"><h3>Times can change</h3><p>Promoters move on-sales. Confirm the time on Ticketmaster before the sale, and be signed in and ready a few minutes early.</p></article></div><div class="mini-link-grid">${anchor(
       "How to prepare for a ticket on-sale",
       "/guides/how-to-prepare-for-a-ticket-onsale",
       "mini-link"
@@ -6148,9 +6400,12 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
           "text-link"
         )}</p>`
       : "";
+    // The artist's presale page, linked only while Ticketmaster lists a window
+    // that is open or still ahead for one of these dates.
+    const presaleLinkHtml = shows.length ? renderArtistPresaleLinkHtml(artist, deriveArtistPresales(events, artist.slug)) : "";
     const leadHtml = `<div data-artist-lead><h1 id="artistTitle">${escapeHtml(
       shows.length ? `${artist.name} tickets and tour dates` : `${artist.name} tickets`
-    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${priceGuideLinkHtml}</div>`;
+    )}</h1><p class="lead">${escapeHtml(contentModel.intro)}</p>${priceGuideLinkHtml}${presaleLinkHtml}</div>`;
     const showBoardHtml = renderShowBoardServerHtml(
       shows,
       seatGeekAvailable,
@@ -6469,6 +6724,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   }
 
   if (route.type === "onsale-calendar") return renderOnsaleCalendarBody(route);
+  if (route.type === "presale") return renderPresalePageBody(route);
 
   if (route.type === "cities-index") {
     const cities = Array.isArray(route.cities) ? route.cities : [];

@@ -116,7 +116,7 @@ export async function loadSiteFixture(root) {
   const read = (relativePath) => fs.readFile(path.join(root, relativePath), "utf8");
   const load = async (relativePath) => import(pathToFileURL(path.join(root, relativePath)));
 
-  const [middlewareModule, sitemapModule, routeMetadataModule, venuesModule, citiesModule, artistCitiesModule, artistIndexabilityModule, policyModule, blogModule, priceGuidesModule, eventPagesModule] =
+  const [middlewareModule, sitemapModule, routeMetadataModule, venuesModule, citiesModule, artistCitiesModule, artistIndexabilityModule, policyModule, blogModule, priceGuidesModule, eventPagesModule, presalesModule] =
     await Promise.all([
       load("functions/_middleware.js"),
       load("functions/sitemap.xml.js"),
@@ -128,7 +128,8 @@ export async function loadSiteFixture(root) {
       load("functions/_route-indexability.js"),
       load("functions/_blog.js"),
       load("functions/_price-guides.js"),
-      load("functions/_event-pages.js")
+      load("functions/_event-pages.js"),
+      load("functions/_presales.js")
     ]);
 
   const catalog = JSON.parse(await read("public/data/catalog.json"));
@@ -184,6 +185,12 @@ export async function loadSiteFixture(root) {
   // Every approved price guide that renders, indexable or not.
   const priceGuideEntries = priceGuidesModule.deriveRenderedPriceGuides(events, indexableArtistSlugs);
   const priceGuidePaths = priceGuideEntries.map((entry) => entry.path);
+  // Presale pages render for every artist; only those with a live presale
+  // window say anything, so only those are crawled (the rest are noindex and
+  // linked from nowhere).
+  const presalePaths = [...new Set(events.filter((event) => Array.isArray(event?.presales) && event.presales.length).map((event) => String(event.artist_slug || "").trim()))]
+    .filter((slug) => slug && (catalog.artists || []).some((artist) => artist.slug === slug) && presalesModule.deriveArtistPresales(events, slug).windowCount > 0)
+    .map((slug) => presalesModule.presalePath(slug));
 
   // Every blog route that renders, indexable or not — the audits need to see a
   // thin post and a one-post tag page to confirm they are excluded for the
@@ -193,7 +200,7 @@ export async function loadSiteFixture(root) {
   const blogPaths = [blogModule.BLOG_INDEX_PATH, ...blogPosts.map((post) => post.path), ...blogTags.map((tag) => tag.path)];
 
   const allPaths = [
-    ...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/cities", ...cityPaths, "/venues", "/on-sale", ...venuePaths, ...artistCityPaths, ...priceGuidePaths, ...blogPaths])
+    ...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/cities", ...cityPaths, "/venues", "/on-sale", ...venuePaths, ...artistCityPaths, ...priceGuidePaths, ...presalePaths, ...blogPaths])
   ];
 
   // Every event page the router serves (200, noindex,follow): each upcoming
@@ -224,7 +231,8 @@ export async function loadSiteFixture(root) {
       policyModule,
       blogModule,
       priceGuidesModule,
-      eventPagesModule
+      eventPagesModule,
+      presalesModule
     },
     data: { catalog, artistsMeta, events, guideContent, blogContent },
     indexableArtistSlugs,
@@ -234,7 +242,7 @@ export async function loadSiteFixture(root) {
     blogPosts,
     blogTags,
     priceGuideEntries,
-    paths: { staticPaths, guidePaths, artistPaths, cityPaths, venuePaths, artistCityPaths, priceGuidePaths, blogPaths, allPaths, eventPaths }
+    paths: { staticPaths, guidePaths, artistPaths, cityPaths, venuePaths, artistCityPaths, priceGuidePaths, presalePaths, blogPaths, allPaths, eventPaths }
   };
 }
 

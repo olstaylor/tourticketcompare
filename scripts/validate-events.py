@@ -38,6 +38,8 @@ ALLOWED_VERIFICATION_STATUSES = {"human_verified", "machine_high_confidence", "n
 # scripts/apply-tm-updates.mjs records on an event (ticketmaster_status_code).
 # Absent means a normal sale state. Anything else is rejected here, and the
 # runtime treats an unrecognised stored value as a hold (functions/_route-indexability.js).
+# Mirrors UNSAFE_NAME in functions/_presales.js.
+PRESALE_UNSAFE_NAME = re.compile(r"\b(code|codes|password|passcode|pin)\s*[:=#]|https?:|www\.|@", re.IGNORECASE)
 ALLOWED_TICKETMASTER_STATUS_CODES = {"cancelled", "canceled", "postponed", "rescheduled"}
 PLACEHOLDER_MARKERS = (
     "example.com",
@@ -91,6 +93,15 @@ def parse_iso(dt: str) -> bool:
         return True
     except Exception:
         return False
+
+
+def parse_iso_datetime(value: Any) -> datetime | None:
+    if not isinstance(value, str) or "T" not in value:
+        return None
+    try:
+        return datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
+    except Exception:
+        return None
 
 
 def is_iso_date(value: Any) -> bool:
@@ -789,6 +800,36 @@ def main() -> int:
                 errors.append(f"{prefix}.public_onsale_at: must be an ISO datetime if present")
             elif (status or "").strip() != "announced":
                 errors.append(f"{prefix}.public_onsale_at: only allowed on an 'announced' event")
+
+        # Named Ticketmaster presale windows (nightly field-sync, owner-approved
+        # 2026-10-02): verbatim name/start/end only, never a code or a link.
+        presales = event.get("presales")
+        if presales is not None:
+            if not isinstance(presales, list) or not presales:
+                errors.append(f"{prefix}.presales: must be a non-empty list if present")
+            elif len(presales) > 25:
+                errors.append(f"{prefix}.presales: at most 25 windows")
+            else:
+                for index, window in enumerate(presales):
+                    where = f"{prefix}.presales[{index}]"
+                    if not isinstance(window, dict) or set(window.keys()) != {"name", "start", "end"}:
+                        errors.append(f"{where}: must have exactly name, start and end")
+                        continue
+                    name = window.get("name")
+                    if not isinstance(name, str) or not name.strip() or len(name) > 100:
+                        errors.append(f"{where}.name: must be a non-empty string of at most 100 characters")
+                    elif PRESALE_UNSAFE_NAME.search(name):
+                        errors.append(f"{where}.name: must not carry a code, password or link")
+                    start = window.get("start")
+                    end = window.get("end")
+                    start_dt = parse_iso_datetime(start)
+                    end_dt = parse_iso_datetime(end)
+                    if not start_dt or not end_dt:
+                        errors.append(f"{where}: start and end must be ISO datetimes")
+                    elif start_dt.tzinfo is None or end_dt.tzinfo is None:
+                        errors.append(f"{where}: start and end must carry a timezone")
+                    elif end_dt <= start_dt:
+                        errors.append(f"{where}: end must be after start")
 
         ticketmaster_status_code = event.get("ticketmaster_status_code")
         if ticketmaster_status_code is not None and ticketmaster_status_code not in ALLOWED_TICKETMASTER_STATUS_CODES:

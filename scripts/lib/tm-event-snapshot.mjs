@@ -25,7 +25,12 @@ export function snapshotFields(data) {
       start: { dateTime: raw(data.dates?.start?.dateTime), localDate: raw(data.dates?.start?.localDate), timeZone: raw(data.dates?.start?.timeZone) },
       status: { code: raw(data.dates?.status?.code) }
     },
-    sales: { public: { startDateTime: raw(data.sales?.public?.startDateTime) } },
+    sales: {
+      public: { startDateTime: raw(data.sales?.public?.startDateTime) },
+      // Named presale windows: name and times only. Descriptions and URLs are
+      // never kept (they can carry codes or sign-up links).
+      presales: list(data.sales?.presales, (p) => ({ name: raw(p?.name), startDateTime: raw(p?.startDateTime), endDateTime: raw(p?.endDateTime) }))
+    },
     _embedded: {
       venues: list(data._embedded?.venues, (v) => ({ name: raw(v?.name), timezone: raw(v?.timezone), city: { name: raw(v?.city?.name) }, country: { name: raw(v?.country?.name) } })),
       attractions: list(data._embedded?.attractions, (a) => ({ name: raw(a?.name) }))

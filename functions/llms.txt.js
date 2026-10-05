@@ -6,6 +6,7 @@ import { derivePosts as deriveBlogPosts, postIndexable as blogPostIndexable } fr
 import { artistPageIndexable } from "./_artist-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS } from "./_onsale-calendar.js";
 import { deriveIndexablePriceGuides } from "./_price-guides.js";
+import { deriveIndexablePresalePages } from "./_presales.js";
 import { resolveEventLocalDate } from "./_event-local-date.js";
 import { eventIndexingPilotFor } from "./[[path]].js";
 import { eventLifecycleHeld } from "./_route-indexability.js";
@@ -78,16 +79,17 @@ async function loadIndexableArtists(env) {
 async function loadIndexableLocations(env, indexableArtistSlugs = []) {
   try {
     const events = await loadJsonAsset(env, "/data/events.json");
-    if (!Array.isArray(events)) return { cities: [], venues: [], artistCities: [], priceGuides: [], onsale: null };
+    if (!Array.isArray(events)) return { cities: [], venues: [], artistCities: [], priceGuides: [], presalePages: [], onsale: null };
     return {
       onsale: deriveOnsaleCalendar(events),
       cities: deriveCities(events).filter((city) => city.indexable),
       venues: deriveVenues(events).filter((venue) => venue.indexable),
       artistCities: deriveIndexableArtistCities(events, indexableArtistSlugs),
-      priceGuides: deriveIndexablePriceGuides(events, indexableArtistSlugs)
+      priceGuides: deriveIndexablePriceGuides(events, indexableArtistSlugs),
+      presalePages: deriveIndexablePresalePages(events, indexableArtistSlugs)
     };
   } catch (error) {
-    return { cities: [], venues: [], artistCities: [], priceGuides: [], onsale: null };
+    return { cities: [], venues: [], artistCities: [], priceGuides: [], presalePages: [], onsale: null };
   }
 }
 
@@ -247,6 +249,14 @@ export async function onRequestGet({ request, env }) {
       `Where face value is sold, each date's lowest listed resale snapshot with its capture time, and recent price moves, for ${guide.showCount} upcoming ${guide.showCount === 1 ? "date" : "dates"} in ${guide.cityCount} ${guide.cityCount === 1 ? "city" : "cities"}.`
     )
   );
+  const presaleLines = (locations.presalePages || []).map((page) =>
+    linkLine(
+      origin,
+      page.path,
+      `${artistNameBySlug.get(page.slug) || page.artistName} presale`,
+      `Ticketmaster's named presale windows and public on-sale times for ${page.windowCount} ${page.windowCount === 1 ? "presale" : "presales"} on upcoming dates. Codes are never shown.`
+    )
+  );
   const cityLines = [
     linkLine(origin, "/cities", "Concerts by city", "Browse substantial city pages built from reviewed upcoming tour dates."),
     ...locations.cities.map((city) =>
@@ -321,6 +331,10 @@ ${artistLines.join("\n")}
 ${priceGuideLines.length ? `## Artist ticket prices
 
 ${priceGuideLines.join("\n")}
+
+` : ""}${presaleLines.length ? `## Artist presales
+
+${presaleLines.join("\n")}
 
 ` : ""}## Concerts by city
 

@@ -261,8 +261,12 @@ overall conclusion: on 2026-10-02 a rejected verification-dates push failed the
 run, the sync discarded a usable handoff, and fetching all 2,083 events again
 exhausted the day's Discovery quota. A manual dispatch, branch/fork run, failed
 or cancelled `audit` job, expired artifact or run older than six hours cannot
-supply it. Lookup/download failure simply uses
-the existing direct fetches. The two workflows keep their existing concurrency
+supply it. The lookup prints the reason it passed over each listed run, and
+when it finds nothing (or the lookup errors) it looks once more after 60
+seconds before giving up: on 2026-10-05 a completed, green audit run with an
+unexpired artifact was passed over without explanation, the sync fetched all
+2,260 events directly, exhausted the day's quota and updated nothing. A
+second miss, or download failure, simply uses the existing direct fetches. The two workflows keep their existing concurrency
 group and schedules; no new infrastructure, token scope or publishing lane is
 introduced. If GitHub starts sync first, there may be no usable snapshot and
 that day's saving will be smaller.

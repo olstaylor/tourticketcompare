@@ -438,6 +438,33 @@ for (const type of ["MusicVenue", "CollectionPage", "BreadcrumbList", "MusicEven
 }
 assert(!venuePage.schemaTypes.includes("FAQPage"), "venue page emits no FAQPage without a visible FAQ");
 
+// ─── same-named venues in two cities ────────────────────────────────────────
+// Venue names repeat across cities. Once both are indexable they must not share
+// an H1 (Paramount Theatre Seattle/Denver, 2026-10-04); a lone venue keeps its
+// unqualified heading.
+
+const TWIN_CITY = "Shelbyville";
+const TWIN_EVENTS = [
+  ...UPCOMING_EVENTS,
+  ...["a1", "a2", "b1"].map((suffix) => ({
+    ...UPCOMING_EVENTS.find((event) => event.id === `fixture-${suffix}`),
+    id: `fixture-twin-${suffix}`,
+    city: TWIN_CITY
+  }))
+];
+const twinVenues = deriveVenues(TWIN_EVENTS).filter((venue) => venue.venue === MAIN_VENUE);
+assert(twinVenues.length === 2 && twinVenues.every((venue) => venue.indexable), "fixture derives two indexable same-named venues");
+const twinHeadings = [];
+for (const venue of twinVenues) {
+  const page = await render(`/venues/${venue.slug}`, TWIN_EVENTS);
+  const heading = text((page.main.match(/<h1 id="venueTitle">([\s\S]*?)<\/h1>/) || [])[1] || "");
+  assert(heading === `${MAIN_VENUE}, ${venue.city} concerts and upcoming shows`, `a same-named venue's H1 names its city (got "${heading}")`);
+  twinHeadings.push(heading);
+}
+assert(new Set(twinHeadings).size === 2, "two same-named indexable venues never share an H1");
+const loneHeading = text((venuePage.main.match(/<h1 id="venueTitle">([\s\S]*?)<\/h1>/) || [])[1] || "");
+assert(loneHeading === `${MAIN_VENUE} concerts and upcoming shows`, "a venue with no indexable namesake keeps its unqualified H1");
+
 // ─── venue page, with no upcoming shows ─────────────────────────────────────
 
 assert(deriveVenues(EXPIRED_EVENTS).length === 0, "a venue with only past shows derives no record");

@@ -716,10 +716,27 @@ async function routeForPath(pathname, env) {
       return { type: "redirect", location: liveCity ? `/cities/${liveCity.slug}` : "/venues" };
     }
     const artistsMeta = await loadArtistsMeta(env);
+    // Venue names repeat across cities (Paramount Theatre, Fox Theatre,
+    // Orpheum). Slug, title and meta description already carry the city; the
+    // H1 did not, so two same-named venues emitted one H1 once both cleared
+    // the indexable gate (Seattle and Denver, 2026-10-04). As with city titles
+    // above, only a pair that is BOTH indexable competes, so only that pair is
+    // qualified; the country joins the city when the city name repeats too.
+    const venueTwins = venue.indexable
+      ? deriveVenues(venueEvents).filter(
+          (other) => other && other.indexable && other.slug !== venue.slug && other.venue === venue.venue
+        )
+      : [];
+    const headingQualifier = venueTwins.length
+      ? venueTwins.some((other) => other.city === venue.city) && venue.country
+        ? `${venue.city}, ${venue.country}`
+        : venue.city || venue.country || ""
+      : "";
     return {
       type: "venue",
       path,
       indexable: venue.indexable,
+      headingQualifier,
       title: fitTitleToBudget([
         `${venue.venue} Concerts${venue.city ? ` in ${venue.city}` : ""} | Tickets`,
         `${venue.venue} | Concerts${venue.city ? ` in ${venue.city}` : ""}`,
@@ -3535,7 +3552,9 @@ export function renderVenuePageBody(route, events = [], options = {}) {
   const shell = (body) =>
     `<main id="mainContent"><section class="content-page venue-page" aria-labelledby="venueTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="venueTitle">${escapeHtml(venue.venue)} concerts and upcoming shows</h1>${body}${renderLocationProvenance(
+    )}<h1 id="venueTitle">${escapeHtml(venue.venue)}${
+      route.headingQualifier ? `, ${escapeHtml(route.headingQualifier)}` : ""
+    } concerts and upcoming shows</h1>${body}${renderLocationProvenance(
       "Report an incorrect event",
       venue.lastmod
     )}</section></main>`;

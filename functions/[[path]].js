@@ -27,7 +27,7 @@ import { deriveArtistCities, deriveIndexableArtistCities, findArtistCity, artist
 import { deriveCityDatePrices } from "./_artist-city-prices.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
-import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, EVENT_LIFECYCLE, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
+import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, EVENT_LIFECYCLE, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import {
   PRICE_GUIDE_SEGMENT,
@@ -765,11 +765,17 @@ async function routeForPath(pathname, env) {
     const futureShows = futureShowsForArtist(artistEvents, artist.slug);
     const yearLabel = yearRangeLabel(futureShows.map((show) => eventLocalYear(show.dateTimeISO, show.timezone)));
     const tourLabel = artistTourLabel(futureShows.map((show) => show.tour_name));
+    // "Compare Prices" is promised only when an upcoming date carries two
+    // listed-price lanes (eventPriceComparable).
+    const nowMs = Date.now();
+    const priced = artistEvents.some(
+      (event) => event?.artist_slug === artist.slug && Date.parse(String(event?.datetime_iso || event?.dateTimeISO || "")) >= nowMs && eventPriceComparable(event, nowMs)
+    );
     return {
       type: "artist",
       path,
       indexable: artistPageIndexable(enrichedArtist, artistEvents, artist.slug),
-      title: artistPageTitle(artist, yearLabel, tourLabel),
+      title: artistPageTitle(artist, yearLabel, tourLabel, { priced }),
       // The authored description promises dates, which is right while the board
       // has them. An empty board gets a description that matches what the page
       // actually says, so a shared or cached snippet never promises dates that
@@ -1090,6 +1096,28 @@ function ogCardUrl(route, origin) {
   return `${origin}${OG_CARDS[route?.path]?.url || "/og-image.png"}`;
 }
 
+// A MusicEvent's name must say who performs. Ticketmaster's event_name is used
+// verbatim when it names the artist (a tour or show title such as "Harry
+// Styles: Together, Together"); when it does not ("(16 and Over)", "The Love
+// of Soul Tour") the node is named "<artist> at <venue>", as the event page's
+// own node is.
+function foldName(value) {
+  return String(value || "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/^the /, "")
+    .trim();
+}
+
+function musicEventName(show, artistName) {
+  const eventName = String(show.event_name || "").trim();
+  const artist = foldName(artistName);
+  if (eventName && artist && foldName(eventName).includes(artist)) return eventName;
+  return show.venue ? `${artistName} at ${show.venue}` : `${artistName} — ${show.city}`;
+}
+
 // Shared MusicEvent node builder for the artist, venue, and city @graphs. Every
 // field is composed from already-verified facts (name/venue/city/country/date)
 // plus the page's own social card (ogCardUrl — the same URL its og:image meta
@@ -1109,7 +1137,7 @@ function musicEventNode(show, origin, { displayName, performer, image, offers = 
   return {
     "@type": "MusicEvent",
     ...(id ? { "@id": id } : {}),
-    name: show.event_name || `${name} — ${show.city}`,
+    name: musicEventName(show, name),
     description: `${name} live at ${show.venue} in ${show.city}${displayDate ? ` on ${displayDate}` : ""}.`,
     image: image || `${origin}/og-image.png`,
     startDate: venueLocalIso(show.dateTimeISO, show.timezone),
@@ -2651,16 +2679,21 @@ function artistCityTitle(artist, artistCity) {
   );
   const lead = (where) => `${artist.name} ${where} Tickets${year ? ` ${year}` : ""}`;
   const venue = artistCity.venueCount === 1 ? String((artistCity.venues || [])[0] || "") : "";
+  // "Prices" is promised only where a date in the run carries two listed-price
+  // lanes (comparableCount, the same test the indexability gate reads).
+  // Without one the page offers ticket links and dates, and its title says so.
+  const priced = artistCity.comparableCount > 0;
+  const what = priced ? "Prices" : "Tickets";
   return fitTitleToBudget([
     ...(venue
       ? [
-          `${lead(place)} | Compare Prices at ${venue}`,
-          `${lead(shortPlace)} | Compare Prices at ${venue}`,
-          `${lead(shortPlace)} | Prices at ${venue}`
+          `${lead(place)} | Compare ${what} at ${venue}`,
+          `${lead(shortPlace)} | Compare ${what} at ${venue}`,
+          ...(priced ? [`${lead(shortPlace)} | Prices at ${venue}`] : [`${lead(shortPlace)} | ${venue}`])
         ]
-      : [`${lead(place)} | Compare Prices & Dates`]),
-    `${lead(shortPlace)} | Compare Prices & Dates`,
-    `${lead(shortPlace)} | Compare Prices`,
+      : [`${lead(place)} | Compare ${what} & Dates`]),
+    `${lead(shortPlace)} | Compare ${what} & Dates`,
+    `${lead(shortPlace)} | Compare ${what}`,
     lead(shortPlace),
     `${artist.name} ${shortPlace} Tickets`
   ]);
@@ -2675,7 +2708,11 @@ function artistCityDescription(artist, artistCity) {
   // than a search snippet is refreshed, so a figure here would be wrong in the
   // SERP most of the time — and this string is also the CollectionPage JSON-LD
   // description, where a price would escape every schema-offers control.
-  const lead = `Compare current listed ticket prices for ${artist.name} in ${artistCity.label} across checked ticket sites. View ${count}`;
+  // The price wording is used only where a date carries two listed-price
+  // lanes, as in artistCityTitle.
+  const lead = artistCity.comparableCount > 0
+    ? `Compare current listed ticket prices for ${artist.name} in ${artistCity.label} across checked ticket sites. View ${count}`
+    : `Checked ticket links for ${artist.name} in ${artistCity.label}. View ${count}`;
   const wherePart = venueLabel ? ` at ${venueLabel}` : "";
   const whenPart = range ? ` (${range})` : "";
   const tail = "with the date and venue for each.";

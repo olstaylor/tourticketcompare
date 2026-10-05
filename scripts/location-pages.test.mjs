@@ -114,13 +114,30 @@ function fixtureEvent({ id, artist, venue, iso }) {
   };
 }
 
+function withPriceLanes(event) {
+  return {
+    ...event,
+    provider_links: {
+      ...event.provider_links,
+      "vivid-seats": { verified: true, url: `https://www.vividseats.com/fixture-tickets/production/${event.id}` },
+      ticketnetwork: { verified: true, url: `https://www.ticketnetwork.com/tickets/${event.id}` }
+    }
+  };
+}
+
 // 4 upcoming shows / 2 artists / 2 venues clears the city gate; the 3 shows and
 // 2 artists at Springfield Arena clear the venue gate.
 const UPCOMING_EVENTS = [
-  fixtureEvent({ id: "fixture-a1", artist: artistA, venue: MAIN_VENUE, iso: "2026-09-11T01:00:00Z" }),
+  // Two listed-price lanes on one date: the comparison data every location
+  // gate needs (docs/ROUTE_INDEXABILITY_POLICY.md § Comparison data).
+  withPriceLanes(fixtureEvent({ id: "fixture-a1", artist: artistA, venue: MAIN_VENUE, iso: "2026-09-11T01:00:00Z" })),
   fixtureEvent({ id: "fixture-a2", artist: artistA, venue: MAIN_VENUE, iso: "2026-09-13T01:00:00Z" }),
-  fixtureEvent({ id: "fixture-b1", artist: artistB, venue: MAIN_VENUE, iso: "2026-10-03T01:00:00Z" }),
-  fixtureEvent({ id: "fixture-b2", artist: artistB, venue: SECOND_VENUE, iso: "2026-10-17T01:00:00Z" })
+  withPriceLanes(fixtureEvent({ id: "fixture-b1", artist: artistB, venue: MAIN_VENUE, iso: "2026-10-03T01:00:00Z" })),
+  fixtureEvent({ id: "fixture-b2", artist: artistB, venue: SECOND_VENUE, iso: "2026-10-17T01:00:00Z" }),
+  // Both artists also play a second city, so their Springfield artist-city
+  // pages are not the artist page again (duplicates_artist_page).
+  { ...fixtureEvent({ id: "fixture-a3", artist: artistA, venue: "Shelbyville Hall", iso: "2026-11-01T01:00:00Z" }), city: "Shelbyville" },
+  { ...fixtureEvent({ id: "fixture-b3", artist: artistB, venue: "Shelbyville Hall", iso: "2026-11-02T01:00:00Z" }), city: "Shelbyville" }
 ];
 
 // The same shows, every one of them in the past. This is what the site looks
@@ -219,7 +236,7 @@ const FILLER_MARKERS = [
 
 const cityRecord = findCity(UPCOMING_EVENTS, CITY_SLUG);
 assert(cityRecord?.showCount === 4, "fixture city derives four upcoming shows");
-assert(cityRecord.indexable, "fixture city clears the 4-show / 2-artist / publishable gate");
+assert(cityRecord.indexable, "fixture city clears the 4-show / 2-artist / 2-venue / publishable / comparison gate");
 
 const cityPage = await render(`/cities/${CITY_SLUG}`, UPCOMING_EVENTS);
 assert(cityPage.status === 200, "city page with upcoming shows returns 200");

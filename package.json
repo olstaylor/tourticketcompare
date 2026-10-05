@@ -45,6 +45,8 @@
     "audit:indexable-surface:baseline": "node scripts/audit-indexable-surface.mjs --write-baseline",
     "status:surface:write": "node scripts/audit-indexable-surface.mjs --write-status",
     "audit:indexable-surface:self-test": "node scripts/audit-indexable-surface.mjs --self-test",
+    "audit:metadata-accuracy": "node scripts/audit-metadata-accuracy.mjs",
+    "audit:metadata-accuracy:check": "node scripts/audit-metadata-accuracy.mjs --check",
     "indexnow:ping": "node scripts/indexnow-ping.mjs",
     "indexnow:ping:self-test": "node scripts/indexnow-ping.mjs --self-test",
     "validate:internal-links": "node scripts/audit-internal-links.mjs --check",

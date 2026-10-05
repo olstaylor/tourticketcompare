@@ -36,6 +36,10 @@
 // more than a restatement of one artist page or one venue page.
 export const CITY_MIN_SHOWS = 4;
 export const CITY_MIN_ARTISTS = 2;
+// A city whose every upcoming show is at one venue lists exactly the shows its
+// venue page lists: the same answer at two URLs. The venue page is the precise
+// one, so the city page needs a second venue to be indexable.
+export const CITY_MIN_VENUES = 2;
 
 // A venue page answers "what is on at <venue>". Venues turn over faster than
 // cities and a venue query is narrower, so the bar is a little lower.
@@ -48,6 +52,11 @@ export const VENUE_MIN_ARTISTS = 2;
 // city run. Single-date combinations stay reachable and `noindex,follow` —
 // see docs/ROUTE_INDEXABILITY_POLICY.md § Artist-city.
 export const ARTIST_CITY_MIN_SHOWS = 2;
+// When every upcoming show the artist has is in this one city, the artist-city
+// page lists exactly the dates the artist page lists, and the artist page is
+// the stronger canonical for the same query. It needs the artist to be playing
+// a second city to say anything the artist page does not.
+export const ARTIST_CITY_MIN_ARTIST_CITIES = 2;
 
 // The on-sale calendar (/on-sale) answers "what goes on sale soon". It lists
 // Ticketmaster public on-sale times already carried on reviewed events, so it
@@ -64,6 +73,25 @@ export const ONSALE_CALENDAR_MIN_ARTISTS = 2;
 export const PRICE_GUIDE_MIN_SHOWS = 6;
 export const PRICE_GUIDE_MIN_CITIES = 2;
 export const PRICE_GUIDE_MIN_SNAPSHOT_READY_SHOWS = 3;
+
+// Comparison data. Every aggregation route (city, venue, artist-city, price
+// guide) promises a comparison of ticket options, and a listed-price
+// comparison is only ever same-event (docs/PROVIDER_DATA_POLICY.md). So such a
+// route is indexable only while at least one of its publishable upcoming dates
+// has verified, URL-bearing provenance on COMPARISON_MIN_PRICE_PROVIDERS of the
+// listed-price lanes. Date count does not substitute for it: a run of dates
+// with one price lane, or none, is a templated schedule, not a comparison.
+// Adopted 2026-10-05 during Google's September 2026 spam update — see
+// docs/ROUTE_INDEXABILITY_POLICY.md § Comparison data.
+//
+// The lanes that can carry a numeric listed-price snapshot at all: the ones
+// with owner-confirmed price display rights. Re-exported as
+// PRICE_GUIDE_SNAPSHOT_PROVIDERS by functions/_price-guides.js, and held equal
+// to SCHEMA_OFFERS_APPROVED_PROVIDERS in functions/[[path]].js by
+// scripts/price-guides.test.mjs. SeatGeek has no snapshot lane and
+// Ticketmaster is a link source, so neither counts.
+export const PRICE_SNAPSHOT_PROVIDERS = Object.freeze(["vivid-seats", "ticketnetwork", "stubhub-international"]);
+export const COMPARISON_MIN_PRICE_PROVIDERS = 2;
 
 // ---------------------------------------------------------------------------
 // Event lifecycle (Ticketmaster status)
@@ -196,6 +224,32 @@ export function eventPublishable(event, now = Date.now()) {
 }
 
 /**
+ * The listed-price lanes this event carries verified provenance and a stored
+ * URL on. Static readiness, like the price-guide gate: whether a price is
+ * cached right now is never consulted, so indexability cannot flap with D1.
+ *
+ * @param {any} event Raw events.json record.
+ * @returns {string[]}
+ */
+export function eventPriceSnapshotProviders(event) {
+  const links = event?.provider_links && typeof event.provider_links === "object" ? event.provider_links : {};
+  return PRICE_SNAPSHOT_PROVIDERS.filter((provider) => links[provider]?.verified === true && Boolean(String(links[provider]?.url || "").trim()));
+}
+
+/**
+ * Can this event's page show a same-event price comparison? It must lead
+ * somewhere at all (eventPublishable) and carry COMPARISON_MIN_PRICE_PROVIDERS
+ * snapshot-ready lanes.
+ *
+ * @param {any} event Raw events.json record.
+ * @param {number} [now]
+ * @returns {boolean}
+ */
+export function eventPriceComparable(event, now = Date.now()) {
+  return eventPublishable(event, now) && eventPriceSnapshotProviders(event).length >= COMPARISON_MIN_PRICE_PROVIDERS;
+}
+
+/**
  * Does this event have a Ticketmaster destination suitable for the route's
  * event-level representation? verification_status remains useful provenance,
  * but no longer creates a manual review gate. The outbound redirect performs
@@ -245,7 +299,10 @@ export const EXCLUSION_REASONS = Object.freeze({
   NO_PUBLISHABLE_DESTINATION: "no_publishable_destination",
   ARTIST_NOT_EDITORIALLY_INDEXABLE: "artist_not_editorially_indexable",
   BELOW_CITY_THRESHOLD: "below_city_threshold",
-  BELOW_PRICE_COVERAGE_THRESHOLD: "below_price_coverage_threshold"
+  BELOW_PRICE_COVERAGE_THRESHOLD: "below_price_coverage_threshold",
+  NO_PRICE_COMPARISON: "no_price_comparison",
+  BELOW_VENUE_THRESHOLD: "below_venue_threshold",
+  DUPLICATES_ARTIST_PAGE: "duplicates_artist_page"
 });
 
 /**
@@ -257,7 +314,7 @@ export const EXCLUSION_REASONS = Object.freeze({
 /**
  * City-page gate.
  *
- * @param {{ showCount: number, artistCount: number, publishableCount: number }} city
+ * @param {{ showCount: number, artistCount: number, venueCount: number, publishableCount: number, comparableCount: number }} city
  * @returns {GateDecision}
  */
 export function cityGate(city) {
@@ -265,7 +322,9 @@ export function cityGate(city) {
   if (!city?.showCount) reasons.push(EXCLUSION_REASONS.NO_UPCOMING_SHOWS);
   else if (city.showCount < CITY_MIN_SHOWS) reasons.push(EXCLUSION_REASONS.BELOW_SHOW_THRESHOLD);
   if ((city?.artistCount || 0) < CITY_MIN_ARTISTS) reasons.push(EXCLUSION_REASONS.BELOW_ARTIST_THRESHOLD);
+  if (city?.showCount && (city?.venueCount || 0) < CITY_MIN_VENUES) reasons.push(EXCLUSION_REASONS.BELOW_VENUE_THRESHOLD);
   if (!(city?.publishableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PUBLISHABLE_DESTINATION);
+  else if (!(city?.comparableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PRICE_COMPARISON);
   return { indexable: reasons.length === 0, reasons };
 }
 
@@ -288,7 +347,7 @@ export function onsaleCalendarGate(calendar) {
  * Price-guide gate — the data-derived half. The caller applies the editorial
  * half (registered guide, artist page itself indexable).
  *
- * @param {{ showCount: number, cityCount: number, publishableCount: number, snapshotReadyCount: number }} guide
+ * @param {{ showCount: number, cityCount: number, publishableCount: number, snapshotReadyCount: number, comparableCount: number }} guide
  * @returns {GateDecision}
  */
 export function priceGuideGate(guide) {
@@ -298,13 +357,14 @@ export function priceGuideGate(guide) {
   if ((guide?.cityCount || 0) < PRICE_GUIDE_MIN_CITIES) reasons.push(EXCLUSION_REASONS.BELOW_CITY_THRESHOLD);
   if (!(guide?.publishableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PUBLISHABLE_DESTINATION);
   if ((guide?.snapshotReadyCount || 0) < PRICE_GUIDE_MIN_SNAPSHOT_READY_SHOWS) reasons.push(EXCLUSION_REASONS.BELOW_PRICE_COVERAGE_THRESHOLD);
+  if (guide?.publishableCount > 0 && !(guide?.comparableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PRICE_COMPARISON);
   return { indexable: reasons.length === 0, reasons };
 }
 
 /**
  * Venue-page gate.
  *
- * @param {{ showCount: number, artistCount: number, publishableCount: number }} venue
+ * @param {{ showCount: number, artistCount: number, publishableCount: number, comparableCount: number }} venue
  * @returns {GateDecision}
  */
 export function venueGate(venue) {
@@ -313,6 +373,7 @@ export function venueGate(venue) {
   else if (venue.showCount < VENUE_MIN_SHOWS) reasons.push(EXCLUSION_REASONS.BELOW_SHOW_THRESHOLD);
   if ((venue?.artistCount || 0) < VENUE_MIN_ARTISTS) reasons.push(EXCLUSION_REASONS.BELOW_ARTIST_THRESHOLD);
   if (!(venue?.publishableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PUBLISHABLE_DESTINATION);
+  else if (!(venue?.comparableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PRICE_COMPARISON);
   return { indexable: reasons.length === 0, reasons };
 }
 
@@ -321,7 +382,8 @@ export function venueGate(venue) {
  * editorial half (is the artist itself indexable_with_substantial_content?),
  * exactly as it already does for the artist page.
  *
- * @param {{ showCount: number, publishableCount: number }} artistCity
+ * @param {{ showCount: number, publishableCount: number, comparableCount: number, artistCityCount: number }} artistCity
+ *   `artistCityCount` is how many cities the artist has upcoming shows in.
  * @returns {GateDecision}
  */
 export function artistCityGate(artistCity) {
@@ -330,5 +392,7 @@ export function artistCityGate(artistCity) {
   if (!artistCity?.showCount) reasons.push(EXCLUSION_REASONS.NO_UPCOMING_SHOWS);
   if (publishable < 1) reasons.push(EXCLUSION_REASONS.NO_PUBLISHABLE_DESTINATION);
   else if (publishable < ARTIST_CITY_MIN_SHOWS) reasons.push(EXCLUSION_REASONS.BELOW_SHOW_THRESHOLD);
+  if (publishable >= 1 && !(artistCity?.comparableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PRICE_COMPARISON);
+  if (artistCity?.showCount && (artistCity?.artistCityCount || 0) < ARTIST_CITY_MIN_ARTIST_CITIES) reasons.push(EXCLUSION_REASONS.DUPLICATES_ARTIST_PAGE);
   return { indexable: reasons.length === 0, reasons };
 }

@@ -39,7 +39,7 @@
 //      figure belongs to one date, one provider and one capture time.
 
 import { slugify, normalizeCountry, citySlug } from "./_cities.js";
-import { eventLifecycleHeld, eventPublishable, publicOnsalePending, priceGuideGate } from "./_route-indexability.js";
+import { PRICE_SNAPSHOT_PROVIDERS, eventLifecycleHeld, eventPriceComparable, eventPublishable, publicOnsalePending, priceGuideGate } from "./_route-indexability.js";
 
 // ---------------------------------------------------------------------------
 // Registry
@@ -147,7 +147,9 @@ export function priceGuideRegistered(artistSlug) {
 // a link source, so neither can make a date "priceable". This is a static
 // readiness signal for the indexing gate only — whether a price actually
 // prints is decided at render time by the full display gate, never here.
-export const PRICE_GUIDE_SNAPSHOT_PROVIDERS = Object.freeze(["vivid-seats", "ticketnetwork", "stubhub-international"]);
+// Defined once in functions/_route-indexability.js, which the comparison-data
+// gate on every aggregation route also reads.
+export const PRICE_GUIDE_SNAPSHOT_PROVIDERS = PRICE_SNAPSHOT_PROVIDERS;
 
 // ---------------------------------------------------------------------------
 // Tour-launch detection (proposal only)
@@ -234,7 +236,8 @@ export function derivePriceGuide(events, artistSlug, options = {}) {
       public_onsale_at: String(event.public_onsale_at || "").trim(),
       onsalePending: publicOnsalePending(event, now),
       publishable: eventPublishable(event, now),
-      snapshotReady: PRICE_GUIDE_SNAPSHOT_PROVIDERS.some((provider) => linkVerifiedWithUrl(event, provider))
+      snapshotReady: PRICE_GUIDE_SNAPSHOT_PROVIDERS.some((provider) => linkVerifiedWithUrl(event, provider)),
+      comparable: eventPriceComparable(event, now)
     });
   }
   shows.sort((a, b) => a.ts - b.ts || a.id.localeCompare(b.id));
@@ -282,6 +285,7 @@ export function derivePriceGuide(events, artistSlug, options = {}) {
     cityCount: cities.length,
     publishableCount: shows.filter((show) => show.publishable).length,
     snapshotReadyCount: shows.filter((show) => show.snapshotReady).length,
+    comparableCount: shows.filter((show) => show.comparable).length,
     onsalePendingCount: onsalePending.length,
     nextOnsaleAt: nextOnsale,
     lastmod

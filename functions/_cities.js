@@ -1,5 +1,5 @@
 import { venueSlug } from "./_venues.js";
-import { cityGate, eventLifecycleHeld, eventPublishable, eventStatusPublishable } from "./_route-indexability.js";
+import { cityGate, eventLifecycleHeld, eventPublishable, eventPriceComparable, eventStatusPublishable } from "./_route-indexability.js";
 
 // Shared city derivation used by the HTML router, sitemap, llms.txt, and
 // internal-link audit. City pages aggregate only upcoming records already
@@ -97,6 +97,7 @@ function deriveCitiesUncached(events, options = {}) {
       timezone: String(event.timezone || "").trim(),
       last_verified_at: String(event.last_verified_at || "").trim(),
       publishable: eventPublishable(event, now),
+      comparable: eventPriceComparable(event, now),
       statusPublishable: eventStatusPublishable(event, now),
       held: eventLifecycleHeld(event),
       ts
@@ -112,6 +113,9 @@ function deriveCitiesUncached(events, options = {}) {
     const artistSlugs = [...new Set(liveShows.map((show) => show.artist_slug))];
     const venueSlugs = [...new Set(liveShows.map((show) => show.venue_slug))];
     const publishableCount = shows.filter((show) => show.publishable).length;
+    // Shows whose own page can show a same-event price comparison (two
+    // listed-price lanes) — the comparison-data gate (cityGate/venueGate).
+    const comparableCount = shows.filter((show) => show.comparable).length;
     // Shows that also clear the row-status gate, i.e. the ones that get a
     // MusicEvent node. Distinct from publishableCount by design.
     const schemaEventCount = shows.filter((show) => show.statusPublishable).length;
@@ -124,6 +128,7 @@ function deriveCitiesUncached(events, options = {}) {
       artistCount: artistSlugs.length,
       venueCount: venueSlugs.length,
       publishableCount,
+      comparableCount,
       schemaEventCount,
       hasPublishable: publishableCount >= 1,
       lastmod: latestVerifiedDate(shows)

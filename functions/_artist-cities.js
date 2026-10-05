@@ -27,7 +27,7 @@
 
 import { slugify, normalizeCountry, citySlug } from "./_cities.js";
 import { venueSlug } from "./_venues.js";
-import { artistCityGate, eventPublishable, eventStatusPublishable } from "./_route-indexability.js";
+import { artistCityGate, eventPriceComparable, eventPublishable, eventStatusPublishable } from "./_route-indexability.js";
 
 // Providers, in a stable display order, that carry a verified stored link on an
 // event. Data-backed only: a provider appears when its provider_links entry is
@@ -130,6 +130,7 @@ export function deriveArtistCities(events, artistSlug, options = {}) {
       last_verified_at: String(event.last_verified_at || "").trim(),
       artist_name: String(event.artist_name || "").trim(),
       publishable: eventPublishable(event, now),
+      comparable: eventPriceComparable(event, now),
       statusPublishable: eventStatusPublishable(event, now),
       providers: verifiedProvidersForEvent(event)
     });
@@ -160,6 +161,7 @@ export function deriveArtistCities(events, artistSlug, options = {}) {
       .sort()
       .at(-1) || "";
     const publishableCount = shows.filter((show) => show.publishable).length;
+    const comparableCount = shows.filter((show) => show.comparable).length;
     // The subset that also clears the row-status gate — i.e. exactly the shows
     // that receive a MusicEvent node. Kept distinct from publishableCount so
     // the indexability question and the schema question cannot be conflated
@@ -178,6 +180,10 @@ export function deriveArtistCities(events, artistSlug, options = {}) {
       showCount: shows.length,
       venueCount: venueSlugs.length,
       publishableCount,
+      comparableCount,
+      // Cities this artist has upcoming shows in. One means this page lists the
+      // artist page's dates again (artistCityGate → duplicates_artist_page).
+      artistCityCount: groups.size,
       schemaEventCount,
       hasPublishable: publishableCount >= 1,
       multiNightSameVenue: venueSlugs.length === 1 && shows.length > 1,
@@ -245,7 +251,7 @@ export function artistCityFootprint(events, artistSlug) {
  * @param {any[]} events
  * @param {Iterable<string>} indexableArtistSlugs
  * @param {{ now?: number }} [options]
- * @returns {Array<{ artistSlug: string, slug: string, city: string, country: string, label: string, path: string, lastmod: string, showCount: number, venueCount: number, publishableCount: number, schemaEventCount: number, indexable: boolean, exclusionReasons: string[] }>}
+ * @returns {Array<{ artistSlug: string, slug: string, city: string, country: string, label: string, path: string, lastmod: string, showCount: number, venueCount: number, publishableCount: number, comparableCount: number, artistCityCount: number, schemaEventCount: number, indexable: boolean, exclusionReasons: string[] }>}
  */
 export function deriveRenderedArtistCities(events, indexableArtistSlugs, options = {}) {
   const indexable = new Set([...(indexableArtistSlugs || [])].map((slug) => slugify(slug)).filter(Boolean));
@@ -264,6 +270,8 @@ export function deriveRenderedArtistCities(events, indexableArtistSlugs, options
         showCount: city.showCount,
         venueCount: city.venueCount,
         publishableCount: city.publishableCount,
+        comparableCount: city.comparableCount,
+        artistCityCount: city.artistCityCount,
         schemaEventCount: city.schemaEventCount,
         indexable: city.indexable,
         exclusionReasons: city.exclusionReasons

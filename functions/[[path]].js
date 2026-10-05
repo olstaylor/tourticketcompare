@@ -5890,11 +5890,15 @@ function renderEventPageBody(route, events, env) {
   const whenLine = `${artist.name} plays ${show.venue} in ${show.city} on ${dateLabel}${
     localTime ? `, with a listed start time of ${localTime} local time` : ""
   }. Door times aren't in the event record, so check your ticket or the venue before you travel.`;
-  const knowItems = [escapeHtml(whenLine)];
+  // A held (cancelled, postponed or unconfirmed) date states its status
+  // above; nothing here may read as if the show goes ahead.
+  const knowItems = held ? [] : [escapeHtml(whenLine)];
   if (!held) {
     knowItems.push(
       escapeHtml(
-        "The official sale sells tickets at face value. Resale listings can sit above or below it, and the total is only final at the ticket site's checkout, after fees, taxes and delivery."
+        publicOnsalePending(show)
+          ? "The official sale hasn't opened yet. When it does, it sells tickets at face value. Resale listings can sit above or below face value, and the total is only final at the ticket site's checkout, after fees, taxes and delivery."
+          : "The official sale sells tickets at face value. Resale listings can sit above or below it, and the total is only final at the ticket site's checkout, after fees, taxes and delivery."
       )
     );
   }
@@ -7166,7 +7170,8 @@ const EDGE_EXPIRES_AT_HEADER = "X-TTC-Edge-Expires-At";
 const EDGE_VALID_UNTIL_HEADER = "X-TTC-Edge-Valid-Until";
 
 // The moment a price guide's render stops being what a live render would
-// show: the earliest snapshot expiry or show start among the priced shows.
+// show: the earliest snapshot expiry, pending public on-sale or show start
+// among the priced shows.
 // null when the price read failed, so that render is never stored.
 function edgeValidUntilFor(shows) {
   let until = Number.POSITIVE_INFINITY;
@@ -7174,6 +7179,9 @@ function edgeValidUntilFor(shows) {
     if (show?.priceQueryFailed) return null;
     const starts = Date.parse(show?.dateTimeISO || show?.datetime_iso || "");
     if (Number.isFinite(starts)) until = Math.min(until, starts);
+    // A pending public on-sale is stated on the page until it opens.
+    const onsale = Date.parse(show?.public_onsale_at || "");
+    if (Number.isFinite(onsale) && onsale > Date.now()) until = Math.min(until, onsale);
     for (const price of Array.isArray(show?.prices) ? show.prices : []) {
       const expires = Date.parse(price?.expiresAt || "");
       if (Number.isFinite(expires)) until = Math.min(until, expires);
@@ -7182,6 +7190,30 @@ function edgeValidUntilFor(shows) {
   return until;
 }
 const EDGE_CACHE_STATUS_HEADER = "X-TTC-Edge-Cache";
+
+// Cache entries outlive deployments, so the key carries a fingerprint of the
+// environment (flags, kill switches and, where Pages sets it, the commit):
+// flipping any *_ENABLED switch or deploying new code starts a fresh key
+// rather than serving HTML rendered under the old configuration.
+function edgeConfigVersion(env) {
+  const entries = Object.entries(env || {})
+    .filter(([, value]) => typeof value === "string")
+    .sort(([a], [b]) => (a < b ? -1 : a > b ? 1 : 0));
+  let hash = 0x811c9dc5;
+  for (const char of `${EDGE_CACHE_CODE_VERSION}|${JSON.stringify(entries)}`) {
+    hash ^= char.charCodeAt(0);
+    hash = Math.imul(hash, 0x01000193) >>> 0;
+  }
+  return hash.toString(36);
+}
+
+// Bump when the price guide's rendering changes in a way the environment
+// fingerprint would not see (CF_PAGES_COMMIT_SHA covers it where present).
+const EDGE_CACHE_CODE_VERSION = "2026-10-05";
+
+// One background refresh per key per isolate, so a burst of stale hits
+// renders once rather than once per request.
+const EDGE_REFRESHES_IN_FLIGHT = new Map();
 
 function edgeCacheFor(request, url) {
   if (request.method !== "GET") return null;
@@ -7214,7 +7246,9 @@ function servedEdgeCopy(cached, status) {
 }
 
 async function renderAndStore(context, cache, key) {
-  const response = await renderRequest({ ...context, request: new Request(key.url) });
+  const renderUrl = new URL(key.url);
+  renderUrl.search = "";
+  const response = await renderRequest({ ...context, request: new Request(renderUrl) });
   if (response.status === 200) await storeEdgeCopy(cache, key, response);
 }
 
@@ -7222,7 +7256,7 @@ export async function onRequest(context) {
   const url = new URL(context.request.url);
   const cache = edgeCacheFor(context.request, url);
   if (!cache) return renderRequest(context);
-  const key = new Request(`${url.origin}${url.pathname}`, { method: "GET" });
+  const key = new Request(`${url.origin}${url.pathname}?edge-v=${edgeConfigVersion(context.env)}`, { method: "GET" });
   const background = (promise) => {
     const settled = promise.catch(() => {});
     if (typeof context.waitUntil === "function") context.waitUntil(settled);
@@ -7238,7 +7272,11 @@ export async function onRequest(context) {
     const ageSeconds = (Date.now() - Number(cached.headers.get(EDGE_RENDERED_AT_HEADER) || 0)) / 1000;
     if (ageSeconds >= 0 && ageSeconds < PRICE_GUIDE_EDGE_FRESH_SECONDS) return servedEdgeCopy(cached, "HIT");
     if (ageSeconds >= 0) {
-      background(renderAndStore(context, cache, key));
+      if (!EDGE_REFRESHES_IN_FLIGHT.has(key.url)) {
+        const refresh = renderAndStore(context, cache, key).finally(() => EDGE_REFRESHES_IN_FLIGHT.delete(key.url));
+        EDGE_REFRESHES_IN_FLIGHT.set(key.url, refresh);
+        background(refresh);
+      }
       return servedEdgeCopy(cached, "STALE");
     }
   }

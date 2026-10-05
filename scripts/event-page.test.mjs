@@ -358,6 +358,7 @@ for (const event of HELD) {
   assert(outLinks(page.html, event.id) === 0 && !/\/api\/out/.test(mainOf(page.html)), `${event.id}: no ticket button`);
   assert(!/\$\d/.test(mainOf(page.html)) && !/price-history|eventPricesTitle|How this site makes money/.test(page.html), `${event.id}: no price, price history or buying disclosure`);
   assert(/Ticket status/.test(page.html) && !/ Tickets/.test(title(page.html)), `${event.id}: no ticket-buying framing in the heading or title (got ${title(page.html)})`);
+  assert(!/ plays /.test(mainOf(page.html)) && !/before you travel/.test(mainOf(page.html)), `${event.id}: the buying notes never say the held show goes ahead`);
   // Structured data agrees with the hold: a factual cancelled or postponed
   // node, never an unrecognised status, and never an offer, price or
   // availability, although a fresh approved row exists and the flag is on.

@@ -420,9 +420,14 @@ for (const priceRows of [[], PRICE_ROWS.map((row) => ({ ...row, expires_at: "202
     }
   };
   let renders = 0;
+  const storedFor = (pathname) => {
+    const hit = [...store.entries()].find(([url]) => url.startsWith(`${ORIGIN}${pathname}?edge-v=`) && !url.includes("utm_"));
+    return hit ? hit[1] : undefined;
+  };
+  let envOverrides = {};
   const serve = async (pathname, withDb = true) => {
     const pending = [];
-    const baseEnv = env({ withDb });
+    const baseEnv = { ...env({ withDb }), ...envOverrides };
     const countingEnv = {
       ...baseEnv,
       ASSETS: {
@@ -445,7 +450,7 @@ for (const priceRows of [[], PRICE_ROWS.map((row) => ({ ...row, expires_at: "202
   try {
     const miss = await serve(GUIDE_PATH);
     assert(miss.response.headers.get("x-ttc-edge-cache") === "MISS" && renders === 1, "a first guide request renders and reports a miss");
-    assert(store.has(`${ORIGIN}${GUIDE_PATH}`), "the render is stored under the path, without its query string");
+    assert(storedFor(GUIDE_PATH), "the render is stored under the path and config version, without the visitor's query string");
     assert(miss.response.headers.get("cache-control") === "no-cache, max-age=0, must-revalidate", "the browser header is unchanged");
     assert(!miss.response.headers.has("x-ttc-edge-valid-until"), "the render's validity bound never reaches the visitor");
     assert(miss.html.includes("£182"), "the cached render carries live prices");
@@ -460,32 +465,46 @@ for (const priceRows of [[], PRICE_ROWS.map((row) => ({ ...row, expires_at: "202
     now += 600_000;
     const stale = await serve(GUIDE_PATH);
     assert(stale.response.headers.get("x-ttc-edge-cache") === "STALE" && renders === 2, "a stale copy is served while one background render replaces it");
-    assert(Number(store.get(`${ORIGIN}${GUIDE_PATH}`).headers.get("x-ttc-rendered-at")) === now, "the background render refreshes the stored copy");
+    assert(Number(storedFor(GUIDE_PATH).headers.get("x-ttc-rendered-at")) === now, "the background render refreshes the stored copy");
+
+    now += 600_000;
+    const before = renders;
+    const burst = await Promise.all([serve(GUIDE_PATH), serve(GUIDE_PATH), serve(GUIDE_PATH)]);
+    assert(burst.every((hit) => hit.response.headers.get("x-ttc-edge-cache") === "STALE") && renders === before + 1, "a burst of stale hits shares one background render");
 
     now += 5 * 3600_000;
+    const rendersBeforeExpiry = renders;
     const expired = await serve(GUIDE_PATH);
-    assert(expired.response.headers.get("x-ttc-edge-cache") === "MISS" && renders === 3, "past the stale window the visitor waits for a fresh render");
+    assert(expired.response.headers.get("x-ttc-edge-cache") === "MISS" && renders === rendersBeforeExpiry + 1, "past the stale window the visitor waits for a fresh render");
 
     const artistPage = await serve("/artists/oasis");
-    assert(!artistPage.response.headers.has("x-ttc-edge-cache") && !store.has(`${ORIGIN}/artists/oasis`), "other routes are never edge cached");
+    assert(!artistPage.response.headers.has("x-ttc-edge-cache") && !storedFor("/artists/oasis"), "other routes are never edge cached");
     const unknown = await serve("/artists/not-an-artist/ticket-prices");
-    assert(unknown.response.status !== 200 && !store.has(`${ORIGIN}/artists/not-an-artist/ticket-prices`), "a non-200 guide response is never stored");
+    assert(unknown.response.status !== 200 && !storedFor("/artists/not-an-artist/ticket-prices"), "a non-200 guide response is never stored");
 
     // A copy dies with the earliest price snapshot it shows, fresh or stale.
     store.clear();
     now = Date.parse("2026-08-10T08:58:00Z");
     await serve(GUIDE_PATH);
-    assert(Number(store.get(`${ORIGIN}${GUIDE_PATH}`).headers.get("x-ttc-edge-expires-at")) === Date.parse("2026-08-10T09:00:00Z"), "the stored copy expires with its earliest price snapshot");
+    assert(Number(storedFor(GUIDE_PATH).headers.get("x-ttc-edge-expires-at")) === Date.parse("2026-08-10T09:00:00Z"), "the stored copy expires with its earliest price snapshot");
     now = Date.parse("2026-08-10T08:59:00Z");
     assert((await serve(GUIDE_PATH)).response.headers.get("x-ttc-edge-cache") === "HIT", "before the snapshot expires the copy is served");
     now = Date.parse("2026-08-10T09:00:30Z");
     const afterExpiry = await serve(GUIDE_PATH);
     assert(afterExpiry.response.headers.get("x-ttc-edge-cache") === "MISS" && !afterExpiry.html.includes("£182"), "after it expires the visitor gets a fresh render without the withdrawn price");
 
+    // A kill switch or deploy changes the key, so old HTML is never served.
+    store.clear();
+    await serve(GUIDE_PATH);
+    envOverrides = { VIVIDSEATS_PRICE_DISPLAY_ENABLED: "false" };
+    const switched = await serve(GUIDE_PATH);
+    assert(switched.response.headers.get("x-ttc-edge-cache") === "MISS" && store.size === 2, "flipping a provider flag starts a fresh cache key");
+    envOverrides = {};
+
     // A render whose price read failed is served but never stored.
     store.clear();
     const failed = await serve(GUIDE_PATH, "failing");
-    assert(failed.response.status === 200 && !store.has(`${ORIGIN}${GUIDE_PATH}`), "a render with a failed price read is never stored");
+    assert(failed.response.status === 200 && !storedFor(GUIDE_PATH), "a render with a failed price read is never stored");
   } finally {
     delete globalThis.caches;
     Date.now = realNow;

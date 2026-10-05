@@ -185,7 +185,8 @@
     "automation:health:self-test": "node scripts/check-automation-health.mjs --self-test",
     "docs:check": "node scripts/validate-docs.mjs",
     "test:remediation-review": "node scripts/remediation-review-self-test.mjs",
-    "test:affiliate-attribution": "node scripts/affiliate-attribution.test.mjs"
+    "test:affiliate-attribution": "node scripts/affiliate-attribution.test.mjs",
+    "test:price-timing": "node scripts/price-timing.test.mjs"
   },
   "devDependencies": {
     "sharp": "^0.35.4",

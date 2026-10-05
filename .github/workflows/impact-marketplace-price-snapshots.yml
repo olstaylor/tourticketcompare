@@ -36,8 +36,12 @@ on:
       - '.github/workflows/impact-marketplace-price-snapshots.yml'
       - 'functions/_impact-marketplace-config.js'
       - 'scripts/snapshot-impact-marketplace-prices.mjs'
+      - 'scripts/lib/price-timing-capture.mjs'
+      - 'functions/_price-timing.js'
   schedule:
     - cron: '17 * * * *'
+    # Additional pass only over shows inside 48h; full-roster cadence stays hourly.
+    - cron: '47 * * * *'
   workflow_dispatch:
     inputs:
       provider:
@@ -129,6 +133,7 @@ jobs:
       - run: npm run impact-providers:prices:self-test
       - run: npm run prices:history:prune:self-test
       - run: npm run prices:rollup:daily:self-test
+      - run: npm run test:price-timing
 
       - name: Snapshot exact verified event prices
         run: |
@@ -137,6 +142,7 @@ jobs:
           for PROVIDER in $PROVIDERS_TO_RUN; do
             echo "::group::Snapshot ${PROVIDER}"
             args=(--provider "$PROVIDER" --database "$DATABASE" --json)
+            if [ "${{ github.event.schedule }}" = '47 * * * *' ]; then args+=(--within-hours 48); fi
             if [ -n "$LIMIT" ]; then args+=(--limit "$LIMIT"); fi
             if [ -n "$EVENT_ID" ]; then args+=(--event-id "$EVENT_ID"); fi
             if [ "$APPLY" = "true" ]; then args+=(--apply); fi
@@ -157,7 +163,10 @@ jobs:
           if (!files.length) throw new Error("No snapshot summaries were produced");
           for (const file of files) {
             const summary = JSON.parse(fs.readFileSync(path.join(dir, file), "utf8"));
-            if (summary.usable < 1 || summary.written < 1 || summary.failed > 0) {
+            const targeted = '${{ github.event.schedule }}' === '47 * * * *';
+            // A near-showtime lookup may legitimately supply no price. Its
+            // checkpoint outcome is evidence; it must never force a price.
+            if ((!targeted && (summary.usable < 1 || summary.written < 1)) || summary.failed > 0 || summary.timing_capture_status === 'failed') {
               throw new Error(`Unhealthy ${summary.provider} snapshot: usable=${summary.usable}, written=${summary.written}, failed=${summary.failed}`);
             }
           }

@@ -17,8 +17,15 @@ Numbered SQL files applied to the production D1 database `tourticketcompare-dema
 | `0011_provider_price_history_source_index.sql` | Additive index for the existing recorded-price read path, matching its `event_id`, `provider`, `source` and `observed_at` predicates | **Pending application.** Apply once with `wrangler d1 execute` after merge, then confirm with `PRAGMA index_list(provider_pricing_history)`. Added 2026-10-01. |
 | `0012_provider_pricing_daily_rollup.sql` | Never-pruned `provider_pricing_daily` rollup (one row per event × provider × source × currency × UTC day: min/max/first/last of `low_price`, plus an observation count) and a nullable `event_date` column on `provider_pricing_history` | **Applied 2026-10-02** by agent at the owner's request, through the D1 API: `provider_pricing_daily` and its two indexes exist and `provider_pricing_history` has `event_date`. Backfilled the same day from 2026-07-22 (77,530 rows across the three numeric lanes; observation counts match the raw table). Added 2026-09-14. |
 | `0013_email_alerts.sql` | `email_alert_sends` (one row per date-alert email, with its unsubscribe token) and `email_unsubscribes` (opt-outs from that link) | **Self-applying.** `scripts/send-date-alerts.mjs` (send mode) and `functions/api/unsubscribe.js` run the same `CREATE ... IF NOT EXISTS` statements first, so nothing needs applying by hand. Added 2026-10-02. |
+| `0014_event_price_timing.sql` | Retained event schedule revisions and compact provider checkpoint evidence for internal analysis | **Self-applying after merge.** Created by the snapshot writers' price-check imports; not applied to production during implementation. |
 
 Notes:
+
+- `0014_event_price_timing.sql` adds the internal event metadata/revision and
+  compact provider checkpoint tables. **Self-applying after merge:** price-check
+  imports create them idempotently; no production application was performed
+  during implementation. These tables are independent of 90-day history pruning.
+  See [ARCHITECTURE → Internal historical price timing foundations](../docs/ARCHITECTURE.md#internal-historical-price-timing-foundations).
 
 - `npm run demand:migrate` runs **only** `0001_demand.sql`. Later migrations were applied
   one-off with `wrangler d1 execute tourticketcompare-demand --remote --file migrations/<file>`,

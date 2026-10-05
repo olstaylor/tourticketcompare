@@ -22,6 +22,7 @@ import {
 import { historySupportsEventDate } from "./lib/pricing-schema.mjs";
 
 import { buildPriceChecksSql } from "./lib/price-checks.mjs";
+import { buildPriceTimingSql, timingObservation, prioritizeFinalHours } from "./lib/price-timing-capture.mjs";
 
 const execFileAsync = promisify(execFile);
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -160,12 +161,13 @@ function parseArgs(argv) {
     else if (arg === "--local") options.remote = false;
     else if (arg === "--json") options.json = true;
     else if (arg === "-h" || arg === "--help") options.help = true;
-    else if (["--provider", "--limit", "--event-id", "--freshness-hours", "--database"].includes(arg)) {
+    else if (["--provider", "--limit", "--event-id", "--freshness-hours", "--database", "--within-hours"].includes(arg)) {
       const value = argv[++i];
       if (!value || value.startsWith("--")) throw new Error(`${arg} requires a value`);
       if (arg === "--provider") options.provider = clean(value, 80).toLowerCase();
       if (arg === "--event-id") options.eventId = clean(value, 255);
       if (arg === "--database") options.database = clean(value, 255);
+      if (arg === "--within-hours") { const n = Number(value); if (!Number.isFinite(n) || n <= 0 || n > 48) throw new Error("--within-hours must be > 0 and <= 48"); options.withinHours = n; }
       if (arg === "--limit") { const n = Number(value); if (!Number.isInteger(n) || n < 1) throw new Error("--limit must be positive"); options.limit = n; }
       if (arg === "--freshness-hours") { const n = Number(value); if (!Number.isFinite(n) || n <= 0 || n > 24) throw new Error("--freshness-hours must be > 0 and <= 24"); options.freshnessHours = n; }
     } else throw new Error(`Unknown option: ${arg}`);
@@ -176,7 +178,7 @@ function parseArgs(argv) {
 function selectEligible(events, artists, config, options, now = new Date()) {
   const names = new Map(artists.map((artist) => [clean(artist.slug, 120), clean(artist.name, 200)]));
   const rows = [];
-  for (const event of events) {
+  for (const event of options.withinHours ? prioritizeFinalHours(events, now, options.withinHours) : events) {
     const id = clean(event?.id, 255);
     if (options.eventId && id !== options.eventId) continue;
     const link = event?.provider_links?.[config.linkKey];
@@ -360,10 +362,11 @@ async function writeRows(rows, options, deps = {}) {
 }
 
 // Record every completed lookup in provider_price_checks (scripts/lib/price-checks.mjs).
-// Written in its own execute, after the price rows, and never fatal: a check
-// record is a display nicety, and must not be able to stop prices publishing.
-async function writePriceChecks(checks, checkedAt, options, deps = {}) {
-  const sql = buildPriceChecksSql(checks, checkedAt);
+// Written in its own execute, after the price rows. Check/timing failures cannot
+// stop prices publishing, but the CLI fails the collection run after reporting
+// them so missing analytical evidence is visible to operators.
+async function writePriceChecks(checks, checkedAt, options, deps = {}, timingContext) {
+  const sql = [buildPriceChecksSql(checks, checkedAt), timingContext ? buildPriceTimingSql(timingContext) : ""].join("\n").trim();
   if (!sql) return { recorded: 0 };
   const exec = deps.execFile || execFileAsync;
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), "ttc-impact-price-checks-"));
@@ -395,6 +398,7 @@ async function run(options, deps = {}) {
   const selected = selectEligible(events, artists, config, options, now);
   const rows = [];
   const checks = [];
+  const timingObservations = [];
   const errors = [];
   let fetched = 0;
   let deferred = 0;
@@ -413,23 +417,28 @@ async function run(options, deps = {}) {
     const catalog = deps.fetchArtistCatalog
       ? await deps.fetchArtistCatalog(config, item.externalId)
       : await fetchArtistCatalog(config, item.externalId, deps.env, deps.fetchImpl, deps.sleep);
+    const capturedAt = deps.now || new Date();
     if (!catalog.ok) {
+      timingObservations.push(timingObservation(item.event, config.slug, item.externalId, "failed", capturedAt));
       errors.push({ event_id: item.id, reason: catalog.reason });
       continue;
     }
     fetched += 1;
     const price = exactPrice(catalog.candidates, item.externalId);
-    if (price) rows.push(buildRow(config, item, price, now, options.freshnessHours));
+    timingObservations.push(timingObservation(item.event, config.slug, item.externalId, checkOutcome(catalog.candidates, item.externalId, price), capturedAt, price));
+    if (price) rows.push(buildRow(config, item, price, capturedAt, options.freshnessHours));
     checks.push({ event_id: item.id, provider: config.slug, outcome: checkOutcome(catalog.candidates, item.externalId, price) });
   }
   const written = options.apply ? await (deps.writer ? deps.writer(rows, options) : writeRows(rows, options, deps)) : 0;
+  const timingContext = { events, observations: timingObservations, metadataAt: now.toISOString() };
   const checkResult = options.apply
-    ? await (deps.checksWriter ? deps.checksWriter(checks, now.toISOString(), options) : writePriceChecks(checks, now.toISOString(), options, deps))
+    ? await (deps.checksWriter ? deps.checksWriter(checks, now.toISOString(), options, timingContext) : writePriceChecks(checks, now.toISOString(), options, deps, timingContext))
     : { recorded: 0 };
   return {
     provider: config.slug, mode: options.apply ? "apply" : "dry-run", eligible: selected.length,
     fetched, usable: rows.length, written, skipped: selected.length - rows.length - deferred, deferred, failed: errors.length,
     checks: checks.length, checks_recorded: checkResult.recorded, ...(checkResult.error ? { checks_error: checkResult.error } : {}),
+    timing_attempts: timingObservations.length, timing_capture_status: options.apply ? (checkResult.error ? "failed" : "imported") : "dry-run",
     zero_row_reason: selected.length === 0 ? "no_eligible_verified_events" : rows.length === 0 ? (errors.length ? "provider_fetch_failed" : "no_exact_current_prices") : undefined,
     proposed_rows: rows.map(({ id, ...row }) => row), errors
   };
@@ -460,7 +469,7 @@ async function selfTest() {
   assert.equal(summary.checks, 1, "a completed lookup is counted as a price check");
 
   // Apply mode records every completed lookup, priced or not, and a failing
-  // check write never fails the lane or blocks the price rows.
+  // check write cannot block the price rows; its error is reported afterwards.
   let recordedChecks = null;
   const applied = await run({ provider: "ticket-liquidator", apply: true, eventId: "", limit: null, freshnessHours: 6, database: "x", remote: true }, {
     data: [[...events, { ...events[0], id: "e2", provider_links: { "ticket-liquidator": { verified: true, event_id: "tl-2" } } }], []],
@@ -644,9 +653,9 @@ async function main() {
   if (!options.provider) throw new Error("--provider is required");
   const summary = await run(options);
   console.log(options.json ? JSON.stringify(summary, null, 2) : `${summary.provider} ${summary.mode}: ${summary.eligible} eligible, ${summary.usable} usable, ${summary.written} written, ${summary.failed} failed.`);
-  // Non-fatal by design, but never silent: an Actions warning annotation.
-  if (summary.checks_error) console.log(`::warning::${summary.provider} price-check record not written: ${summary.checks_error.replace(/\s+/g, " ")}`);
-  if (summary.failed) process.exitCode = 1;
+  // Keep warning annotations on stderr so --json stays one JSON document.
+  if (summary.checks_error) console.error(`::warning::${summary.provider} price-check record not written: ${summary.checks_error.replace(/\s+/g, " ")}`);
+  if (summary.failed || summary.timing_capture_status === "failed") process.exitCode = 1;
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(error?.stack || error); process.exitCode = 1; });

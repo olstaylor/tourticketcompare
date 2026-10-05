@@ -179,6 +179,18 @@ Snapshot cadence is bounded on two sides. The cron interval sets how stale a dis
 
 The snapshot writers are append-only against `provider_pricing_history` — both self-tests assert the generated SQL contains no `DELETE`/`UPDATE` for that table. Retention is therefore a separate step, `scripts/prune-provider-pricing-history.mjs`, which is dry-run by default and only ever emits a provider-scoped, cutoff-bounded delete (so it seeks `idx_provider_pricing_history_provider_observed` rather than scanning). Scheduled apply runs prune the lanes they just wrote; preview dispatches never delete.
 
+The same writers also capture internal timing evidence through their price-check
+import. Unlike change-only history, unchanged observations and failed/incomplete
+lookups compete for the six checkpoints. Nearest prices and attempt outcomes are
+retained separately in compact, permanent D1 rows, with showtime and schedule
+revision. The 90-day history prune never touches those tables. The public cache
+is written first; a failed analytical/check import leaves prices published and
+fails the collection CLI so the coverage gap is visible. Extra half-hour ticks
+use `--within-hours 48`; the full roster remains hourly. See
+[ARCHITECTURE → Internal historical price timing foundations](ARCHITECTURE.md#internal-historical-price-timing-foundations)
+for selection, cohort and claim rules, and [OPERATIONS → Price snapshot cadence](OPERATIONS.md#price-snapshot-cadence)
+for rollout and rollback.
+
 ## Derived files and reports
 
 Any event-data write must regenerate:

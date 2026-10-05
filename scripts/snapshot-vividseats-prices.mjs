@@ -9,6 +9,7 @@ import { promisify } from "node:util";
 import { historySupportsEventDate } from "./lib/pricing-schema.mjs";
 
 import { buildPriceChecksSql } from "./lib/price-checks.mjs";
+import { buildPriceTimingSql, timingObservation, prioritizeFinalHours } from "./lib/price-timing-capture.mjs";
 
 const execFileAsync = promisify(execFile);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -80,6 +81,7 @@ Options:
   --self-test             Run offline tests only
   --limit <number>        Max eligible events (default: all event URLs)
   --event-id <id>         Process one local TourTicketCompare event ID
+  --within-hours <n>      Only upcoming events within n hours (targeted extra ticks)
   --freshness-hours <n>   Snapshot expiry, 0 < n <= 24 (default: ${DEFAULT_FRESHNESS_HOURS})
   --database <name>       D1 database in apply mode
   --local                 Use local D1 in apply mode
@@ -100,13 +102,14 @@ function parseArgs(argv) {
     else if (arg === "--self-test") options.selfTest = true;
     else if (arg === "--local") options.remote = false;
     else if (arg === "--json") options.json = true;
-    else if (["--limit", "--event-id", "--freshness-hours", "--database"].includes(arg)) {
+    else if (["--limit", "--event-id", "--freshness-hours", "--database", "--within-hours"].includes(arg)) {
       const value = argv[++i];
       if (!value || value.startsWith("--")) throw new Error(`${arg} requires a value`);
       if (arg === "--limit") { const n = Number.parseInt(value, 10); if (!Number.isInteger(n) || n < 1) throw new Error("--limit must be a positive integer"); options.limit = n; }
       if (arg === "--event-id") options.eventId = clean(value, 255);
       if (arg === "--freshness-hours") { const n = Number(value); if (!Number.isFinite(n) || n <= 0 || n > 24) throw new Error("--freshness-hours must be > 0 and <= 24"); options.freshnessHours = n; }
       if (arg === "--database") options.database = clean(value, 255);
+      if (arg === "--within-hours") { const n = Number(value); if (!Number.isFinite(n) || n <= 0 || n > 48) throw new Error("--within-hours must be > 0 and <= 48"); options.withinHours = n; }
     } else if (arg === "-h" || arg === "--help") return { ...options, help: true };
     else throw new Error(`Unknown option: ${arg}`);
   }
@@ -135,7 +138,7 @@ function isPastEvent(event, now) {
 }
 function selectEligibleEvents(events, artistsBySlug, options, now = new Date()) {
   const selected = [], skipped = [];
-  for (const event of events) {
+  for (const event of options.withinHours ? prioritizeFinalHours(events, now, options.withinHours) : events) {
     const localId = clean(event?.id, 255);
     if (options.eventId && localId !== options.eventId) continue;
     const productionId = vividProductionId(event?.vividseats_url);
@@ -301,10 +304,10 @@ async function writeRowsToD1(rows, options) {
   } finally { await fs.rm(dir, { recursive: true, force: true }); }
 }
 // Record every completed lookup in provider_price_checks (scripts/lib/price-checks.mjs).
-// Its own execute, after the price rows, and never fatal: a check record must
-// not be able to stop prices publishing.
-async function writePriceChecksToD1(checks, checkedAt, options) {
-  const sql = buildPriceChecksSql(checks, checkedAt);
+// Its own execute, after the price rows: check/timing failures cannot prevent
+// prices publishing, but the CLI reports them as a failed collection run.
+async function writePriceChecksToD1(checks, checkedAt, options, timingContext) {
+  const sql = [buildPriceChecksSql(checks, checkedAt), timingContext ? buildPriceTimingSql(timingContext) : ""].join("\n").trim();
   if (!sql) return { recorded: 0 };
   const dir = await fs.mkdtemp(path.join(os.tmpdir(), "vividseats-price-checks-"));
   const sqlPath = path.join(dir, "price-checks.sql");
@@ -330,7 +333,8 @@ function publicRow(row) { const { id, ...publicData } = row; return publicData; 
 async function runIngestion(options, deps = {}) {
   const env = deps.env || process.env;
   const catalog = deps.catalog || await readCatalog();
-  const selection = selectEligibleEvents(catalog.events, catalog.artistsBySlug, options, deps.now || new Date());
+  const metadataAt = (deps.now || new Date()).toISOString();
+  const selection = selectEligibleEvents(catalog.events, catalog.artistsBySlug, options, new Date(metadataAt));
   const summary = {
     mode: options.apply ? "apply" : "dry-run",
     scanned: catalog.events.length,
@@ -352,6 +356,7 @@ async function runIngestion(options, deps = {}) {
   for (const item of selection.selected) { const entries = byArtist.get(item.artistName) || []; entries.push(item); byArtist.set(item.artistName, entries); }
   const rows = [];
   const checks = [];
+  const timingObservations = [];
   for (const [artistName, items] of byArtist) {
     const fetched = deps.fetchArtistCatalog ? await deps.fetchArtistCatalog(artistName, env) : await fetchArtistCatalog(artistName, env, deps.fetchImpl);
     if (!fetched.ok && fetched.incomplete) {
@@ -359,6 +364,7 @@ async function runIngestion(options, deps = {}) {
       // neither a failure nor evidence. No price row, no no_price check.
       summary.incomplete_artists.push(artistName);
       for (const item of items) {
+        timingObservations.push(timingObservation(item.event, PROVIDER, item.productionId, "incomplete", deps.now || new Date()));
         summary.skipped++;
         summary.skip_reasons.catalog_incomplete = (summary.skip_reasons.catalog_incomplete || 0) + 1;
       }
@@ -366,6 +372,7 @@ async function runIngestion(options, deps = {}) {
     }
     if (!fetched.ok) {
       for (const item of items) {
+        timingObservations.push(timingObservation(item.event, PROVIDER, item.productionId, "failed", deps.now || new Date()));
         summary.skipped++;
         summary.failed++;
         summary.errors++;
@@ -377,11 +384,14 @@ async function runIngestion(options, deps = {}) {
     summary.fetched += items.length;
     for (const item of items) {
       const priced = pricesForProduction(fetched.data, item.productionId);
+      const capturedAt = deps.now || new Date();
+      timingObservations.push(timingObservation(item.event, PROVIDER, item.productionId,
+        priced.ok ? "priced" : priced.reason === "no_current_price_for_exact_vivid_production" ? "no_price" : "unusable", capturedAt, priced.ok ? priced.price : null));
       // Only "no price for this exact production" is no_price; conflicting
       // prices are unusable, never quoted as "no listed price".
       if (item.localId) checks.push({ event_id: item.localId, provider: PROVIDER, outcome: priced.ok ? "priced" : priced.reason === "no_current_price_for_exact_vivid_production" ? "no_price" : "unusable" });
       if (!priced.ok) { summary.skipped++; summary.skip_reasons[priced.reason] = (summary.skip_reasons[priced.reason] || 0) + 1; continue; }
-      const built = buildSnapshotRow(item, priced.price, deps.now || new Date(), options.freshnessHours);
+      const built = buildSnapshotRow(item, priced.price, capturedAt, options.freshnessHours);
       if (!built.ok) {
         summary.skipped++;
         summary.failed++;
@@ -398,10 +408,13 @@ async function runIngestion(options, deps = {}) {
   summary.checks = checks.length;
   if (options.apply) {
     const checkedAt = (deps.now || new Date()).toISOString();
-    const checkResult = await (deps.checksWriter ? deps.checksWriter(checks, checkedAt, options) : writePriceChecksToD1(checks, checkedAt, options));
+    const timingContext = { events: catalog.events, observations: timingObservations, metadataAt };
+    const checkResult = await (deps.checksWriter ? deps.checksWriter(checks, checkedAt, options, timingContext) : writePriceChecksToD1(checks, checkedAt, options, timingContext));
     summary.checks_recorded = checkResult.recorded || 0;
     if (checkResult.error) summary.checks_error = checkResult.error;
+    summary.timing_capture_status = checkResult.error ? "failed" : "imported";
   }
+  summary.timing_attempts = timingObservations.length;
   const priceable = summary.eligible - (summary.skip_reasons.catalog_incomplete || 0);
   summary.priceable = priceable;
   if (summary.eligible === 0) summary.zero_row_reason = "no_eligible_verified_events";
@@ -540,7 +553,7 @@ async function main() {
   if (options.selfTest) { const result = await selfTest(); return console.log(`Vivid Seats Impact price snapshot self-test passed (${result.tests} checks).`); }
   const summary = await runIngestion(options);
   writeSummary(summary, options.json);
-  if (summary.failed > 0 || (options.apply && summary.priceable > 0 && summary.usable === 0)) process.exitCode = 1;
+  if (summary.failed > 0 || summary.timing_capture_status === "failed" || (options.apply && !options.withinHours && summary.priceable > 0 && summary.usable === 0)) process.exitCode = 1;
 }
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(redact(error.stack || error.message || error)); process.exitCode = 1; });
 export { APPROVED_SOURCE, buildHistoryInsertSql, buildSnapshotRow, buildUpsertSql, impactCredentials, marketplaceProductsUrl, pricesForProduction, runIngestion, selectEligibleEvents, vividProductionId };

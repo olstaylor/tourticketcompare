@@ -1,6 +1,6 @@
 # SeatGeek CTA auto-add log
 
-Generated: 2026-10-04T11:04:59.233Z
+Generated: 2026-10-05T12:13:54.012Z
 
 ## Run summary
 
@@ -8,16 +8,16 @@ Generated: 2026-10-04T11:04:59.233Z
 - SeatGeek client ID present: true
 - SeatGeek client secret present: false
 - API access with client ID only: HTTP 200
-- Total events in data: 2539
-- Ticketmaster-verified events: 306
-- Events already carrying a valid SeatGeek URL: 436
-- Ticketmaster-verified events already carrying a valid SeatGeek URL: 160
-- Ticketmaster-verified events still missing a valid SeatGeek URL before this run: 146
-- Eligible (upcoming, resolvable local date) after pre-API filtering: 35
-- Skipped before any API call: 111 (past_event: 111)
+- Total events in data: 2531
+- Ticketmaster-verified events: 302
+- Events already carrying a valid SeatGeek URL: 452
+- Ticketmaster-verified events already carrying a valid SeatGeek URL: 157
+- Ticketmaster-verified events still missing a valid SeatGeek URL before this run: 145
+- Eligible (upcoming, resolvable local date) after pre-API filtering: 30
+- Skipped before any API call: 115 (past_event: 115)
 - Events this run can check (window size): 30
-- Rotation: window 1 of 2 (key 20730)
-- Runs needed to check every eligible event once: 2
+- Rotation: window 1 of 1 (key 20731)
+- Runs needed to check every eligible event once: 1
 - Events selected/logged by this run: 30
 - Events checked by this run: 30
 - API calls made: 150
@@ -27,8 +27,8 @@ Generated: 2026-10-04T11:04:59.233Z
 - no_candidates_returned: 29
 - rate_limited_not_checked: 0
 - Stopped early: no
-- Next resume showId: tm-olivia-rodrigo-2027-munich-z698xzc2z16vuw_9j8
-- Next recommended resume command: node scripts/enrich-seatgeek-events.mjs --apply-high-confidence --max-api-calls 150 --resume-from 'tm-olivia-rodrigo-2027-munich-z698xzc2z16vuw_9j8'
+- Next resume showId:
+- Next recommended resume command:
 - Accepted venue mismatches: 0
 - Conflicts found: 0
 
@@ -40,8 +40,8 @@ Generated: 2026-10-04T11:04:59.233Z
 ## Interpretation
 
 - `URLs added: 0` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.
-- 436 event(s) already carried valid SeatGeek URLs before this run, including 160 Ticketmaster-verified event(s).
-- This run queried only the 146 Ticketmaster-verified event(s) that were still missing a valid `seatgeek_url`.
+- 452 event(s) already carried valid SeatGeek URLs before this run, including 157 Ticketmaster-verified event(s).
+- This run queried only the 145 Ticketmaster-verified event(s) that were still missing a valid `seatgeek_url`.
 - SeatGeek returned no API candidates for those remaining event/date/city searches, so no additional event-level URLs were safe to apply automatically.
 
 ## URLs added
@@ -60,13 +60,8 @@ Skipped rows are only the Ticketmaster-verified events that were still missing a
 | tm-shakira-2026-madrid-z698xz2qz16vfpafo8 | Shakira | 2026-10-11 | Madrid | no_candidates_returned | - |
 | tm-niall-horan-2026-krakow-z698xzqpz1kq7zp-- | Niall Horan | 2026-11-03 | Krakow | no_candidates_returned | - |
 | tm-niall-horan-2026-merksem-antwerpen-z698xzg2z1k1kb9e_ | Niall Horan | 2026-11-05 | Merksem (Antwerpen) | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vqafzjg | Olivia Rodrigo | 2027-03-23 | Amsterdam | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vgjp_pe | Olivia Rodrigo | 2027-03-24 | Amsterdam | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v-bo4pa | Olivia Rodrigo | 2027-03-27 | Amsterdam | no_candidates_returned | - |
-| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kpn0tog | Olivia Rodrigo | 2027-03-28 | Amsterdam | no_candidates_returned | - |
 | tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k_p3f_b | Gracie Abrams | 2027-04-15 | Merksem (Antwerpen) | no_candidates_returned | - |
 | tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k4vofa4 | Gracie Abrams | 2027-04-16 | Merksem (Antwerpen) | no_candidates_returned | - |
-| tm-shakira-2026-madrid-z698xz2qz16v4mzjas | Shakira | 2026-10-03 | Madrid | no_candidates_returned | - |
 | tm-shakira-2026-madrid-z698xz2qz16v73axp9 | Shakira | 2026-10-04 | Madrid | no_candidates_returned | - |
 | tm-shakira-2026-madrid-z698xz2qz1koecouy | Shakira | 2026-10-10 | Madrid | no_candidates_returned | - |
 | tm-zach-bryan-2026-auburn-university-z7r9jz1a7r4ev | Zach Bryan | 2026-10-10 | Auburn University | city_or_metro_match_failed | https://seatgeek.com/zach-bryan-tickets/auburn-alabama-jordan-hare-stadium-2026-10-10-7-pm/concert/17930442 |
@@ -86,6 +81,11 @@ Skipped rows are only the Ticketmaster-verified events that were still missing a
 | tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v1zf-za | Olivia Rodrigo | 2027-03-27 | Amsterdam | no_candidates_returned | - |
 | tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v_8bagm | Olivia Rodrigo | 2027-03-28 | Amsterdam | no_candidates_returned | - |
 | tm-olivia-rodrigo-2027-munich-z698xzc2z1kfyg9ao | Olivia Rodrigo | 2027-04-01 | Munich | no_candidates_returned | - |
+| tm-olivia-rodrigo-2027-munich-z698xzc2z16vuw_9j8 | Olivia Rodrigo | 2027-04-02 | Munich | no_candidates_returned | - |
+| tm-olivia-rodrigo-2027-barcelona-z698xz2qz1kf4gb0b | Olivia Rodrigo | 2027-05-01 | Barcelona | no_candidates_returned | - |
+| tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8uzwj6 | Olivia Rodrigo | 2027-05-02 | Barcelona | no_candidates_returned | - |
+| tm-olivia-rodrigo-2027-barcelona-z698xz2qz16ezxvpe7 | Olivia Rodrigo | 2027-05-05 | Barcelona | no_candidates_returned | - |
+| tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8ffjf_ | Olivia Rodrigo | 2027-05-06 | Barcelona | no_candidates_returned | - |
 
 ## Accepted venue mismatches
 
@@ -118,6 +118,7 @@ Ticketmaster-verified events missing a SeatGeek URL that this run deliberately d
 | tm-harry-styles-2026-new-york-3b00643504d78209 | harry-styles | 2026-09-13T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-harry-styles-2026-new-york-3b00643505018228 | harry-styles | 2026-09-19T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-harry-styles-2026-new-york-3b00643505768283 | harry-styles | 2026-10-01T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-harry-styles-2026-new-york-3b006435059882a6 | harry-styles | 2026-10-04T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bts-2026-foxborough-0100642cc24ebb04 | bts | 2026-08-07T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bts-2026-chicago-0400642acc7e5d9b | bts | 2026-08-29T01:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bts-2026-inglewood-0a006429b353645f | bts | 2026-09-07T03:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -168,6 +169,7 @@ Ticketmaster-verified events missing a SeatGeek URL that this run deliberately d
 | tm-bad-bunny-2026-brussels-1117180915 | bad-bunny | 2026-07-22T00:00:00 | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-jay-z-2026-bronx-1d006473d78cfdb8 | jay-z | 2026-07-10T20:00:00 | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-olivia-rodrigo-2026-pittsburgh-1avbz_agkm9wrr7 | olivia-rodrigo | 2026-09-30T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-olivia-rodrigo-2026-washington-1ka8v0pdgacx387 | olivia-rodrigo | 2026-10-03T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bruno-mars-2026-columbus-vv1aazkcfgkdl2qzg | bruno-mars | 2026-05-20T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bruno-mars-2026-toronto-1a8zkc8gkev_6oa | bruno-mars | 2026-05-23T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bruno-mars-2026-toronto-1a8zkc8gkevq6og | bruno-mars | 2026-05-24T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -201,6 +203,7 @@ Ticketmaster-verified events missing a SeatGeek URL that this run deliberately d
 | tm-bruno-mars-2026-tampa-vvg1vz_e944pwc | bruno-mars | 2026-09-12T23:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bruno-mars-2026-colorado-springs-z7r9jz1a7ox8i | bruno-mars | 2026-09-27T19:00:00-06:00 | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bruno-mars-2026-inglewood-vvg1iz_a6pmg6f | bruno-mars | 2026-10-01T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-bruno-mars-2026-inglewood-vvg1izbyhid9od | bruno-mars | 2026-10-04T02:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-shakira-2026-madrid-z698xz2qz1k7eo4av | shakira | 2026-09-18T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-shakira-2026-madrid-z698xz2qz16vas39ay | shakira | 2026-09-19T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-shakira-2026-madrid-z698xz2qz16vrkvz38 | shakira | 2026-09-20T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
@@ -208,6 +211,7 @@ Ticketmaster-verified events missing a SeatGeek URL that this run deliberately d
 | tm-shakira-2026-madrid-z698xz2qz16vowff-f | shakira | 2026-09-26T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-shakira-2026-madrid-z698xz2qz1konkpax | shakira | 2026-09-27T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-shakira-2026-madrid-z698xz2qz1kbi4uav | shakira | 2026-10-02T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
+| tm-shakira-2026-madrid-z698xz2qz16v4mzjas | shakira | 2026-10-03T18:30:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bts-2026-munich-z698xzc2z1konbaqf | bts | 2026-07-11T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bts-2026-munich-z698xzc2z1kfj7mgy | bts | 2026-07-12T18:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |
 | tm-bts-2026-toronto-1avzz_egkiiidcu | bts | 2026-08-23T00:00:00Z | past_event | event is in the past — SeatGeek delists finished shows; no API call spent |

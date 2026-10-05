@@ -333,7 +333,7 @@
     "ticketmaster_event_id": "060064C39FE280DD",
     "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-maryland-heights-missouri-10-04-2026/event/060064C39FE280DD",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-maryland-heights-saint-louis-music-park-10-4-2026/production/7132384",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-maryland-heights-missouri-10-04-2026/event/060064C39FE280DD",
     "last_verified_at": null,
@@ -355,11 +355,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7132384,
-        "url": "https://www.vividseats.com/malcolm-todd-tickets-maryland-heights-saint-louis-music-park-10-4-2026/production/7132384",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -533,7 +533,7 @@
         "event_id": 7132394,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-minneapolis-armory---minneapolis-10-9-2026/production/7132394",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -595,14 +595,14 @@
         "event_id": 18292579,
         "url": "https://seatgeek.com/malcolm-todd-tickets/denver-colorado-mission-ballroom-2026-10-11-7-pm/concert/18292579",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7132798,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-denver-mission-ballroom-10-11-2026--concerts-pop/production/7132798",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -664,14 +664,14 @@
         "event_id": 18296767,
         "url": "https://seatgeek.com/malcolm-todd-tickets/denver-colorado-mission-ballroom-2026-10-12-7-pm/concert/18296767",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7139415,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-denver-mission-ballroom-10-12-2026--concerts-pop/production/7139415",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -715,7 +715,7 @@
     "ticketmaster_event_id": "1E0064C3D426F256",
     "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-salt-lake-city-utah-10-13-2026/event/1E0064C3D426F256",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-salt-lake-city-the-union-event-center---salt-lake-city-10-13-2026/production/7132419",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-salt-lake-city-utah-10-13-2026/event/1E0064C3D426F256",
     "last_verified_at": null,
@@ -737,11 +737,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7132419,
-        "url": "https://www.vividseats.com/malcolm-todd-tickets-salt-lake-city-the-union-event-center---salt-lake-city-10-13-2026/production/7132419",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -809,7 +809,7 @@
         "event_id": 7132642,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-seattle-paramount-theatre-seattle-10-15-2026/production/7132642",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -878,7 +878,7 @@
         "event_id": 7139906,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-seattle-paramount-theatre-seattle-10-16-2026--concerts-pop/production/7139906",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -940,7 +940,7 @@
         "event_id": 18292574,
         "url": "https://seatgeek.com/malcolm-todd-tickets/vancouver-canada-pne-forum-vancouver-2026-10-18-8-pm/concert/18292574",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1009,14 +1009,14 @@
         "event_id": 18292564,
         "url": "https://seatgeek.com/malcolm-todd-tickets/portland-oregon-arlene-schnitzer-concert-hall-2026-10-19-8-pm/concert/18292564",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7132380,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-portland-arlene-schnitzer-concert-hall-10-19-2026/production/7132380",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1085,7 +1085,7 @@
         "event_id": 7132398,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-oakland-fox-theater-oakland-10-21-2026/production/7132398",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1162,7 +1162,7 @@
         "event_id": 7139910,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-oakland-fox-theater-oakland-10-22-2026--concerts-pop/production/7139910",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1239,7 +1239,7 @@
         "event_id": 7132417,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-san-diego-petco-park-10-24-2026/production/7132417",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1316,7 +1316,7 @@
         "event_id": 7132709,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-phoenix-arizona-financial-theatre-10-25-2026/production/7132709",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1385,7 +1385,7 @@
         "event_id": 7132602,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-los-angeles-greek-theatre---los-angeles-10-28-2026/production/7132602",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1462,7 +1462,7 @@
         "event_id": 7139097,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-los-angeles-greek-theatre---los-angeles-10-29-2026--concerts-pop/production/7139097",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1539,7 +1539,7 @@
         "event_id": 7139912,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-los-angeles-greek-theatre---los-angeles-10-30-2026--concerts-pop/production/7139912",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1828,7 +1828,7 @@
         "event_id": 7558510,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-birmingham-o2-academy---birmingham-2-27-2027/production/7558510",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1905,7 +1905,7 @@
         "event_id": 7557335,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-manchester-o2-apollo-manchester-2-28-2027/production/7557335",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1966,7 +1966,7 @@
         "event_id": 7557325,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-london-o2-academy-brixton-3-2-2027/production/7557325",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2027,7 +2027,7 @@
         "event_id": 7569304,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-london-o2-academy-brixton-3-3-2027/production/7569304",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2088,7 +2088,7 @@
         "event_id": 7573613,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-london-o2-academy-brixton-3-4-2027--concerts-pop/production/7573613",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -236,7 +236,7 @@
         "event_id": 7560890,
         "url": "https://www.vividseats.com/the-warning-tickets-glasgow-o2-academy-glasgow-3-30-2027--concerts-pop/production/7560890",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -329,67 +329,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-the-warning-2027-london-1adjz_3gkbnrnkt",
-    "artist_slug": "the-warning",
-    "artist_name": "The Warning",
-    "event_name": "The Warning - Venue Premium Tickets",
-    "city": "London",
-    "country": "Great Britain",
-    "venue": "OVO Arena Wembley",
-    "datetime_iso": "2027-04-02T17:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "3700652EAA7A31A9",
-    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-warning-venue-premium-tickets-london-02-04-2027/event/3700652EAA7A31A9",
-    "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-london-ovo-arena-wembley-4-2-2027--concerts-pop/production/7560894",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.co.uk/the-warning-venue-premium-tickets-london-02-04-2027/event/3700652EAA7A31A9",
-    "last_verified_at": null,
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "3700652EAA7A31A9",
-        "discovery_event_id": "1AdjZ_3GkBnrNkt",
-        "url": "https://www.ticketmaster.co.uk/the-warning-venue-premium-tickets-london-02-04-2027/event/3700652EAA7A31A9",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": 7560894,
-        "url": "https://www.vividseats.com/the-warning-tickets-london-ovo-arena-wembley-4-2-2027--concerts-pop/production/7560894",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub-international": {
-        "event_id": "107668110",
-        "url": "https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110",
-        "verified": true,
-        "last_verified_at": "2026-09-23",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "1AdjZ_3GkBnrNkt",
-    "timezone": "Europe/London",
-    "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110"
-  },
-  {
     "id": "tm-the-warning-2027-phoenix-1av0z_3gkl3jytk",
     "artist_slug": "the-warning",
     "artist_name": "The Warning",
@@ -427,7 +366,7 @@
         "event_id": 7553211,
         "url": "https://www.vividseats.com/the-warning-tickets-phoenix-the-van-buren-4-18-2027/production/7553211",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -489,14 +428,14 @@
         "event_id": 18593338,
         "url": "https://seatgeek.com/the-warning-tickets/san-francisco-california-the-warfield-2027-04-20-8-pm/concert/18593338",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7552822,
         "url": "https://www.vividseats.com/the-warning-tickets-san-francisco-warfield-4-20-2027/production/7552822",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -550,14 +489,14 @@
         "event_id": 18593342,
         "url": "https://seatgeek.com/the-warning-tickets/portland-oregon-roseland-theater-2027-04-22-8-pm/concert/18593342",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7555363,
         "url": "https://www.vividseats.com/the-warning-tickets-portland-roseland-theater-4-22-2027/production/7555363",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -618,7 +557,7 @@
         "event_id": 7553067,
         "url": "https://www.vividseats.com/the-warning-tickets-seattle-moore-theatre-4-23-2027/production/7553067",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -680,7 +619,7 @@
         "event_id": 18590212,
         "url": "https://seatgeek.com/the-warning-tickets/vancouver-canada-vogue-theatre-bc-1-2027-04-25-7-pm/concert/18590212",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -748,7 +687,7 @@
         "event_id": 7553189,
         "url": "https://www.vividseats.com/the-warning-tickets-denver-fillmore-auditorium-denver-4-28-2027/production/7553189",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -862,7 +801,7 @@
         "event_id": 7553247,
         "url": "https://www.vividseats.com/the-warning-tickets-houston-bayou-music-center-5-2-2027/production/7553247",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -924,14 +863,14 @@
         "event_id": 18593340,
         "url": "https://seatgeek.com/the-warning-tickets/atlanta-georgia-the-eastern-atlanta-2027-05-04-8-pm/concert/18593340",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7552902,
         "url": "https://www.vividseats.com/the-warning-tickets-atlanta-the-eastern-5-4-2027/production/7552902",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -992,7 +931,7 @@
         "event_id": 7553223,
         "url": "https://www.vividseats.com/the-warning-tickets-detroit-the-fillmore-detroit-5-6-2027/production/7553223",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1069,7 +1008,7 @@
         "event_id": 7553145,
         "url": "https://www.vividseats.com/the-warning-tickets-ottawa-history-ottawa-5-8-2027/production/7553145",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1183,7 +1122,7 @@
         "event_id": 7553111,
         "url": "https://www.vividseats.com/the-warning-tickets-toronto-history-toronto-5-11-2027/production/7553111",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1236,7 +1175,7 @@
         "event_id": 7553269,
         "url": "https://www.vividseats.com/the-warning-tickets-pittsburgh-citizens-live-at-the-wylie-5-15-2027/production/7553269",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1297,7 +1236,7 @@
         "event_id": 7553227,
         "url": "https://www.vividseats.com/the-warning-tickets-brooklyn-brooklyn-paramount-5-18-2027/production/7553227",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1374,7 +1313,7 @@
         "event_id": 7552850,
         "url": "https://www.vividseats.com/the-warning-tickets-boston-mgm-music-hall-at-fenway-5-23-2027--concerts-pop/production/7552850",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1436,14 +1375,14 @@
         "event_id": 18590177,
         "url": "https://seatgeek.com/the-warning-tickets/las-vegas-nevada-pearl-concert-theater-at-palms-casino-resort-2027-04-17-8-pm/concert/18590177",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7552891,
         "url": "https://www.vividseats.com/the-warning-tickets-las-vegas-pearl-concert-theater-at-palms-casino-resort-4-17-2027/production/7552891",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1505,14 +1444,14 @@
         "event_id": 18591754,
         "url": "https://seatgeek.com/the-warning-tickets/san-antonio-texas-boeing-center-at-tech-port-2027-04-30-8-pm/concert/18591754",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553319,
         "url": "https://www.vividseats.com/the-warning-tickets-san-antonio-boeing-center-at-tech-port-4-30-2027/production/7553319",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1542,5 +1481,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264193",
     "stubhub_international_url": "https://www.stubhub.ie/the-warning-san-antonio-tickets-4-30-2027/event/107668180"
+  },
+  {
+    "id": "tm-the-warning-2027-london-1adjz_3gknpoval",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "OVO Arena Wembley",
+    "datetime_iso": "2027-04-02T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700652A9683415F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/the-warning-london-02-04-2027/event/3700652A9683415F",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-warning-tickets-london-ovo-arena-wembley-4-2-2027--concerts-pop/production/7560894",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/the-warning-london-02-04-2027/event/3700652A9683415F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700652A9683415F",
+        "discovery_event_id": "1AdjZ_3GknpOVAL",
+        "url": "https://www.ticketmaster.co.uk/the-warning-london-02-04-2027/event/3700652A9683415F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7560894,
+        "url": "https://www.vividseats.com/the-warning-tickets-london-ovo-arena-wembley-4-2-2027--concerts-pop/production/7560894",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_3GknpOVAL",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

@@ -342,7 +342,7 @@
         "event_id": 6789538,
         "url": "https://www.vividseats.com/sabaton-tickets-pittsburgh-citizens-live-at-the-wylie-12-3-2026--concerts-hard-rock/production/6789538",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -411,7 +411,7 @@
         "event_id": 6789881,
         "url": "https://www.vividseats.com/sabaton-tickets-nashville-the-truth-12-9-2026/production/6789881",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -480,7 +480,7 @@
         "event_id": 6752109,
         "url": "https://www.vividseats.com/sabaton-tickets-orlando-hard-rock-live---orlando-12-11-2026/production/6752109",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -550,7 +550,7 @@
         "event_id": 17726761,
         "url": "https://seatgeek.com/sabaton-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-12-12-7-pm/concert/17726761",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -610,7 +610,7 @@
         "event_id": 7137164,
         "url": "https://www.vividseats.com/sabaton-tickets-glasgow-ovo-hydro-4-9-2027/production/7137164",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -687,7 +687,7 @@
         "event_id": 7137162,
         "url": "https://www.vividseats.com/sabaton-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-4-10-2027/production/7137162",
         "verified": true,
-        "last_verified_at": "2026-10-02",
+        "last_verified_at": "2026-10-05",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -778,67 +778,6 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k_N08Z3",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale"
-  },
-  {
-    "id": "tm-sabaton-2027-hamburg-z698xzc2z16vakvyjp",
-    "artist_slug": "sabaton",
-    "artist_name": "Sabaton",
-    "event_name": "SABATON: The Legendary Tour Part 2 | Logen-Seat",
-    "city": "Hamburg",
-    "country": "Germany",
-    "venue": "Barclays Arena",
-    "datetime_iso": "2027-04-28T17:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "1146079996",
-    "ticketmaster_url": "https://www.ticketmaster.de/event/sabaton-the-legendary-tour-part-2-%7C-logen-seat-tickets/1146079996?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/sabaton-tickets-hamburg-barclays-arena---hamburg-4-28-2027/production/7143889",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.de/event/sabaton-the-legendary-tour-part-2-%7C-logen-seat-tickets/1146079996?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "1146079996",
-        "discovery_event_id": "Z698xZC2Z16vAkvyJp",
-        "url": "https://www.ticketmaster.de/event/sabaton-the-legendary-tour-part-2-%7C-logen-seat-tickets/1146079996?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": 7143889,
-        "url": "https://www.vividseats.com/sabaton-tickets-hamburg-barclays-arena---hamburg-4-28-2027/production/7143889",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub-international": {
-        "event_id": "107370082",
-        "url": "https://www.stubhub.ie/sabaton-tickets-hamburg-barclays-arena-hamburg-28-4-2027/event/107370082",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZC2Z16vAkvyJp",
-    "timezone": "Europe/Berlin",
-    "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/sabaton-tickets-hamburg-barclays-arena-hamburg-28-4-2027/event/107370082"
   },
   {
     "id": "tm-sabaton-2027-dublin-17kzv0g6g1kowuo",

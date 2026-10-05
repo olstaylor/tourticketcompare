@@ -48,6 +48,8 @@ Options:
   --max-api-calls <n>     Stop safely after n catalog requests
   --delay-ms <n>          Delay between Impact calls (default: ${DEFAULT_DELAY_MS})
   --apply                 Write public/data/events.json
+                          (every completed run, dry or applied, rewrites
+                          reports/provider-sync/<provider>-event-sync.md)
   --json                  Emit JSON summary
   --self-test             Run offline tests
 `;
@@ -185,6 +187,64 @@ function decideOutcome({ storedUrl, storedVerified, storedCandidate, passing, ca
   if (!catalogComplete) return { action: "none", candidate: null };
   if (storedUrl) return { action: storedVerified ? "unverify" : "clear", candidate: null };
   return { action: "none", candidate: null };
+}
+
+// The per-event note written to the audit log. Its wording is the contract
+// with `outcomeToCause` in scripts/report-link-coverage.mjs, which reads it
+// back as a coverage cause: "not checked" = unprocessed, "no qualifying" =
+// not listed, "ambiguous:" = ambiguous. A "-" note is not a cause.
+function outcomeNote(action, { ambiguousListing = false, storedListed = false, catalogComplete = false, stopReason = "" } = {}) {
+  if (ambiguousListing) return "ambiguous: one listing passes for performances on different nights";
+  if (action === "conflict") return "ambiguous: several qualifying listings for this event";
+  if (["verify", "add", "correct"].includes(action)) return "-";
+  if (["clear", "unverify"].includes(action)) return "no qualifying listing (the complete catalog no longer lists the stored link)";
+  if (storedListed) return "-";
+  if (!catalogComplete) return `not checked: catalog incomplete (${stopReason || "unknown"})`;
+  return "no qualifying listing (complete catalog checked)";
+}
+
+function markdownCell(value) {
+  return String(value ?? "").replace(/\s+/g, " ").replace(/\|/g, "\\|").trim() || "-";
+}
+
+function renderLog(summary, generatedAt = new Date().toISOString()) {
+  const config = providerConfig(summary.provider);
+  const lines = [
+    `# ${config.name} event sync log`,
+    "",
+    `Generated: ${generatedAt}`,
+    "",
+    "Written by `scripts/sync-impact-marketplace-events.mjs`. One Impact catalog",
+    "fetch per registry-verified artist; a link is written only for one",
+    "unambiguous listing whose artist, venue, city and venue-local date all agree.",
+    "`scripts/report-link-coverage.mjs` reads the notes column as coverage evidence.",
+    "",
+    "## Run summary",
+    "",
+    `- Mode: ${summary.mode}`,
+    `- Events selected: ${summary.selected}`,
+    `- API calls made: ${summary.api_calls}`,
+    `- Verified provenance written: ${summary.verified}`,
+    `- URLs added: ${summary.added}`,
+    `- URLs corrected: ${summary.corrected}`,
+    `- URLs cleared: ${summary.cleared}`,
+    `- Provenance un-verified: ${summary.unverified}`,
+    `- Conflicts (ambiguous, untouched): ${summary.conflicts}`,
+    `- No qualifying listing (complete catalog): ${summary.results.filter((row) => row.note.startsWith("no qualifying")).length}`,
+    `- Not checked (catalog incomplete): ${summary.results.filter((row) => row.note.startsWith("not checked")).length}`,
+    "",
+    "## Outcomes",
+    "",
+    `| showId | artist | action | ${config.name} id | url | notes |`,
+    "| --- | --- | --- | --- | --- | --- |",
+    ...summary.results.map((row) => `| ${markdownCell(row.event_id)} | ${markdownCell(row.artist)} | ${markdownCell(row.action + (row.applied ? " (applied)" : ""))} | ${markdownCell(row.external_id)} | ${markdownCell(row.url)} | ${markdownCell(row.note)} |`),
+    ""
+  ];
+  return `${lines.join("\n").trimEnd()}\n`;
+}
+
+function logPathFor(provider) {
+  return path.join(ROOT, "reports", "provider-sync", `${provider}-event-sync.md`);
 }
 
 function applyOutcome(event, config, outcome, today) {
@@ -347,7 +407,8 @@ async function run(options, deps = {}) {
       const ambiguousListing = Boolean(outcome.candidate && ambiguous.has(outcome.candidate.externalId) && ["verify", "add", "correct"].includes(outcome.action));
       if (ambiguousListing) outcome = { action: "conflict", candidate: null };
       const applied = options.apply && applyOutcome(event, config, outcome, (deps.now || new Date()).toISOString().slice(0, 10));
-      results.push({ event_id: event.id, artist: artistName, action: outcome.action, applied, url: outcome.candidate?.url || storedUrl || "", external_id: outcome.candidate?.externalId || storedId || "", catalog_complete: catalog.complete, stop_reason: catalog.stopReason || "", ...(ambiguousListing ? { ambiguous_listing: true } : {}) });
+      const note = outcomeNote(outcome.action, { ambiguousListing, storedListed: Boolean(storedCandidate?.ok), catalogComplete: catalog.complete, stopReason: catalog.stopReason });
+      results.push({ event_id: event.id, artist: artistName, action: outcome.action, applied, url: outcome.candidate?.url || storedUrl || "", external_id: outcome.candidate?.externalId || storedId || "", catalog_complete: catalog.complete, stop_reason: catalog.stopReason || "", note, ...(ambiguousListing ? { ambiguous_listing: true } : {}) });
     }
   }
   if (authFailure) {
@@ -535,7 +596,25 @@ async function selfTest() {
     { ...night("n5", 5, { "ticket-liquidator": tlHeld }), ticketliquidator_url: tl.normalizedUrl }
   ], [tl]);
   assert.deepEqual(actions(wrongStored), { n4: "unverify", n5: "none" });
-  return 54;
+  // 10. Every result carries the audit-log note the coverage report reads back.
+  const notes = (summary) => Object.fromEntries(summary.results.map((row) => [row.event_id, row.note]));
+  assert.equal(fresh.results.every((row) => row.note.startsWith("ambiguous:")), true);
+  assert.deepEqual(notes(corrected), { n4: "ambiguous: one listing passes for performances on different nights", n5: "-" });
+  assert.equal(notes(wrongStored).n4, "no qualifying listing (the complete catalog no longer lists the stored link)");
+  const unlisted = await runWith("ticketnetwork", [night("n5", 5)], []);
+  assert.deepEqual(notes(unlisted), { n5: "no qualifying listing (complete catalog checked)" });
+  const capped = await run({ provider: "ticketnetwork", artist: "", limit: null, maxApiCalls: null, delayMs: 0, apply: false, json: false }, {
+    now: new Date("2026-09-27T00:00:00Z"), data: nightData([night("n5", 5)]),
+    async fetchCatalog() { return { candidates: [], complete: false, stopReason: "api_call_limit" }; }
+  });
+  assert.deepEqual(notes(capped), { n5: "not checked: catalog incomplete (api_call_limit)" });
+  // 11. The log renders one outcome-table row per result, cells escaped.
+  const log = renderLog({ ...unlisted, results: [{ ...unlisted.results[0], artist: "A | B" }] }, "2026-09-27T00:00:00.000Z");
+  assert.match(log, /^# TicketNetwork event sync log$/m);
+  assert.match(log, /^\| showId \| artist \| action \| TicketNetwork id \| url \| notes \|$/m);
+  assert.match(log, /^\| n5 \| A \\\| B \| none \| - \| - \| no qualifying listing \(complete catalog checked\) \|$/m);
+  assert.match(log, /^- Not checked \(catalog incomplete\): 0$/m);
+  return 63;
 }
 
 async function main() {
@@ -544,9 +623,12 @@ async function main() {
   if (options.selfTest) return console.log(`Impact catalog provider sync self-test passed (${await selfTest()} checks).`);
   if (!options.provider) throw new Error("--provider is required");
   const summary = await run(options);
+  const logPath = logPathFor(summary.provider);
+  await fs.writeFile(logPath, renderLog(summary));
+  if (!options.json) console.log(`Audit log: ${path.relative(ROOT, logPath)}`);
   console.log(options.json ? JSON.stringify(summary, null, 2) : `${summary.provider} ${summary.mode}: ${summary.selected} selected, ${summary.changed} changed, ${summary.added} added, ${summary.verified} verified, ${summary.corrected} corrected, ${summary.cleared} cleared, ${summary.unverified} unverified, ${summary.conflicts} conflicts.`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(error?.stack || error); process.exitCode = 1; });
 
-export { applyOutcome, dateMatches, decideOutcome, enrichTicketLiquidatorCandidates, evaluateCandidate, eventLocalDate, listingsMatchingSeveralDates, parseArgs, run, selectEvents, urlDateConflicts, urlStatedDates };
+export { applyOutcome, dateMatches, decideOutcome, outcomeNote, renderLog, enrichTicketLiquidatorCandidates, evaluateCandidate, eventLocalDate, listingsMatchingSeveralDates, parseArgs, run, selectEvents, urlDateConflicts, urlStatedDates };

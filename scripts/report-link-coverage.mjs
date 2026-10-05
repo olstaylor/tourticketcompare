@@ -46,6 +46,7 @@ import {
 } from "./lib/event-link-coverage.mjs";
 import { resolveEventLocalDate, localDateSkipReason } from "./lib/event-local-date.mjs";
 import { eventLifecycleHeld, publicOnsalePending } from "../functions/_route-indexability.js";
+import { outcomeNote as marketplaceOutcomeNote } from "./sync-impact-marketplace-events.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
@@ -86,7 +87,11 @@ export const CAUSE_LABELS = Object.freeze({
 const LOG_SOURCES = Object.freeze([
   { file: "seatgeek-cta-verify.md", provider: "seatgeek", kind: "outcome-table" },
   { file: "vividseats-cta-sync.md", provider: "vivid-seats", kind: "outcome-table" },
-  { file: "seatgeek-cta-auto-add.md", provider: "seatgeek", kind: "enrichment-log" }
+  { file: "seatgeek-cta-auto-add.md", provider: "seatgeek", kind: "enrichment-log" },
+  // scripts/sync-impact-marketplace-events.mjs, one log per marketplace lane.
+  { file: "ticketnetwork-event-sync.md", provider: "ticketnetwork", kind: "outcome-table" },
+  { file: "ticket-liquidator-event-sync.md", provider: "ticket-liquidator", kind: "outcome-table" },
+  { file: "stubhub-international-event-sync.md", provider: "stubhub-international", kind: "outcome-table" }
 ]);
 
 /**
@@ -412,6 +417,18 @@ function selfTest() {
   assert("a missing-registry skip is not provider evidence", outcomeToCause("artist has no verified provider-identity registry entry") === "");
   assert("a real ambiguity note is still recognised", outcomeToCause("ambiguous: 2 qualifying SeatGeek events in the window") === CAUSES.AMBIGUOUS);
   assert("a conflict action is still recognised", outcomeToCause("conflict") === CAUSES.AMBIGUOUS);
+  // The marketplace sync's notes are written for this parser: pin the contract
+  // against the writer's own function, so a reworded note cannot go silent.
+  assert("a marketplace not-checked note is unprocessed",
+    outcomeToCause(`none ${marketplaceOutcomeNote("none", { catalogComplete: false, stopReason: "api_call_limit" })}`) === CAUSES.UNPROCESSED);
+  assert("a marketplace complete-catalog miss is no listing",
+    outcomeToCause(`none ${marketplaceOutcomeNote("none", { catalogComplete: true })}`) === CAUSES.NO_LISTING);
+  assert("a marketplace ambiguous listing is ambiguous",
+    outcomeToCause(`conflict ${marketplaceOutcomeNote("conflict", { ambiguousListing: true })}`) === CAUSES.AMBIGUOUS);
+  assert("a marketplace already-listed row contributes no cause",
+    outcomeToCause(`none ${marketplaceOutcomeNote("none", { storedListed: true, catalogComplete: false, stopReason: "pagination_cap" })}`) === "");
+  assert("a marketplace add contributes no cause",
+    outcomeToCause(`add (applied) ${marketplaceOutcomeNote("add", { catalogComplete: true })}`) === "");
   assert(
     "a stale pre-API skip leaves the lane reported as unprocessed, from live data",
     (() => {

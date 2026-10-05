@@ -2772,58 +2772,5 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071970",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071970/Don-Omar-tickets-Sun-Mar-14-2027-Kia-Center",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-orlando-tickets-3-14-2027/event/107447682"
-  },
-  {
-    "id": "tm-don-omar-2027-berlin-z698xzc2z16v4ogoca",
-    "artist_slug": "don-omar",
-    "artist_name": "Don Omar",
-    "event_name": "Don Omar - The Last King World To | Box seat in the Ticketmaster Suite",
-    "city": "Berlin",
-    "country": "Germany",
-    "venue": "Uber Arena",
-    "datetime_iso": "2027-06-28T18:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "1551311385",
-    "ticketmaster_url": "https://www.ticketmaster.de/event/don-omar-the-last-king-world-to-%7C-box-seat-in-the-ticketmaster-suite-tickets/1551311385?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/don-omar-tickets-berlin-uber-arena-6-28-2027/production/7428682",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.de/event/don-omar-the-last-king-world-to-%7C-box-seat-in-the-ticketmaster-suite-tickets/1551311385?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "1551311385",
-        "discovery_event_id": "Z698xZC2Z16v4oGoCA",
-        "url": "https://www.ticketmaster.de/event/don-omar-the-last-king-world-to-%7C-box-seat-in-the-ticketmaster-suite-tickets/1551311385?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": 7428682,
-        "url": "https://www.vividseats.com/don-omar-tickets-berlin-uber-arena-6-28-2027/production/7428682",
-        "verified": true,
-        "last_verified_at": "2026-10-02",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZC2Z16v4oGoCA",
-    "timezone": "Europe/Berlin",
-    "status": "on-sale"
   }
 ]

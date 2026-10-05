@@ -61,7 +61,7 @@ Open items:
 - **Blank tour labels:** 1,042 events on indexable artists have an empty `tour_name` (2026-09-24), mostly from Ticketmaster ingestion. Backfill only with verified tour names; never infer them from URLs or `event_name`.
 - **`events-index.json`:** `validate-partitions.mjs` enforces it. Fix any failure with `npm run events:partition`, never by hand.
 - **Tombstones:** when deleting an `events.json` row that Ticketmaster still lists, add it to `data/deleted-events.json` in the same change (`docs/PROVIDER_SYNC.md`).
-- **Open owner decision:** three Hamburg box-seat rows ("| Logen-Seat" for niall-horan and sabaton, "| Box-Seat" for teddy-swims) render as non-performance pages. Either tombstone them by Ticketmaster id so the real concert listing can be ingested, or leave them.
+- **Non-performance rows (resolved 2026-10-05):** the owner approved removing 14 upgrade, premium-package and box-seat rows (including the three Hamburg box-seat rows previously listed here). 13 are removed and tombstoned by Ticketmaster id only, so the real concert listing at the same venue and night can still be ingested. The 14th, charli-xcx Glasgow 2027-02-15 "Venue Premium" (`tm-charli-xcx-2027-glasgow-1auzkftgkez7jxt`), is a frozen event-indexing pilot member, so removing it needs an owner decision on the pilot guard; it stays published until then.
 - Review the rolling `automation:*` dashboards and withheld rows from the new-show PRs.
 
 ### 5. Switch on artist date-alert emails (added 2026-10-02 at the owner's request)

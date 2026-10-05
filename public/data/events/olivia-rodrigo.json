@@ -4556,59 +4556,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-23-3-2027/event/107164337"
   },
   {
-    "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vqafzjg",
-    "artist_slug": "olivia-rodrigo",
-    "artist_name": "Olivia Rodrigo",
-    "event_name": "Olivia Rodrigo | Venue Premium Packages",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "venue": "Ziggo Dome Club",
-    "datetime_iso": "2027-03-23T19:01:00Z",
-    "tour_name": "The Unraveled Tour",
-    "ticketmaster_event_id": "1685500735",
-    "ticketmaster_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1685500735?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1685500735?language=en-us",
-    "last_verified_at": "2026-07-07",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "1685500735",
-        "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1685500735?language=en-us",
-        "verified": true,
-        "last_verified_at": "2026-07-07",
-        "availability_status": "not_checked",
-        "discovery_event_id": "Z698xZbpZ16eeK73Fx"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "timezone": "Europe/Amsterdam",
-    "status": "on-sale",
-    "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z698xZbpZ16eeK73Fx"
-  },
-  {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kk7ajpa",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
@@ -4684,59 +4631,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921731",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921731/Olivia-Rodrigo-tickets-Wed-Mar-24-2027-Ziggo-Dome",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-24-3-2027/event/107164338"
-  },
-  {
-    "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vgjp_pe",
-    "artist_slug": "olivia-rodrigo",
-    "artist_name": "Olivia Rodrigo",
-    "event_name": "Olivia Rodrigo | Venue Premium Packages",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "venue": "Ziggo Dome Club",
-    "datetime_iso": "2027-03-24T19:01:00Z",
-    "tour_name": "The Unraveled Tour",
-    "ticketmaster_event_id": "1326599942",
-    "ticketmaster_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1326599942?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1326599942?language=en-us",
-    "last_verified_at": "2026-07-07",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "1326599942",
-        "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1326599942?language=en-us",
-        "verified": true,
-        "last_verified_at": "2026-07-07",
-        "availability_status": "not_checked",
-        "discovery_event_id": "Z698xZbpZ16vAOfwGx"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "timezone": "Europe/Amsterdam",
-    "status": "on-sale",
-    "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z698xZbpZ16vAOfwGx"
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v1zf-za",
@@ -4816,59 +4710,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-27-3-2027/event/107164440"
   },
   {
-    "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v-bo4pa",
-    "artist_slug": "olivia-rodrigo",
-    "artist_name": "Olivia Rodrigo",
-    "event_name": "Olivia Rodrigo | Venue Premium Packages",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "venue": "Ziggo Dome Club",
-    "datetime_iso": "2027-03-27T19:01:00Z",
-    "tour_name": "The Unraveled Tour",
-    "ticketmaster_event_id": "1858815589",
-    "ticketmaster_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1858815589?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1858815589?language=en-us",
-    "last_verified_at": "2026-07-07",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "1858815589",
-        "url": "https://www.ticketmaster.nl/event/olivia-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/1858815589?language=en-us",
-        "verified": true,
-        "last_verified_at": "2026-07-07",
-        "availability_status": "not_checked",
-        "discovery_event_id": "Z698xZbpZ1krKo_rd"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "timezone": "Europe/Amsterdam",
-    "status": "on-sale",
-    "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z698xZbpZ1krKo_rd"
-  },
-  {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v_8bagm",
     "artist_slug": "olivia-rodrigo",
     "artist_name": "Olivia Rodrigo",
@@ -4944,59 +4785,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7938169",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7938169/Olivia-Rodrigo-tickets-Sun-Mar-28-2027-Ziggo-Dome",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-28-3-2027/event/107164441"
-  },
-  {
-    "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kpn0tog",
-    "artist_slug": "olivia-rodrigo",
-    "artist_name": "Olivia Rodrigo",
-    "event_name": "Olivia Rodrigo | Venue Premium Packages",
-    "city": "Amsterdam",
-    "country": "Netherlands",
-    "venue": "Ziggo Dome Club",
-    "datetime_iso": "2027-03-28T18:01:00Z",
-    "tour_name": "The Unraveled Tour",
-    "ticketmaster_event_id": "963929835",
-    "ticketmaster_url": "https://www.ticketmaster.nl/event/oliva-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/963929835?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.nl/event/oliva-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/963929835?language=en-us",
-    "last_verified_at": "2026-07-07",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "963929835",
-        "url": "https://www.ticketmaster.nl/event/oliva-rodrigo-%7C-vinyl-room-upgrade-event-ticket-not-included--tickets/963929835?language=en-us",
-        "verified": true,
-        "last_verified_at": "2026-07-07",
-        "availability_status": "not_checked",
-        "discovery_event_id": "Z698xZbpZ16vb_GPZo"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "timezone": "Europe/Amsterdam",
-    "status": "on-sale",
-    "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "Z698xZbpZ16vb_GPZo"
   },
   {
     "id": "tm-olivia-rodrigo-2027-munich-z698xzc2z1kfyg9ao",

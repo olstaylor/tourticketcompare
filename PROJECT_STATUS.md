@@ -12,16 +12,16 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 
 - `public/data/artists.json`: **105 records — 98 `indexable_with_substantial_content` + 7 `review_required` shells** — the 7 held from earlier batches (sabrina-carpenter, lady-gaga, coldplay, rush, muse, system-of-a-down, laura-pausini), with the 15 created by the 2026-09-09 roster batch and the 10 created by the 2026-09-22 batch (oasis, hans-zimmer, trans-siberian-orchestra, kenny-chesney, death-cab-for-cutie, alan-walker, the-psychedelic-furs, eros-ramazzotti, atmosphere, the-warning) all now promoted after owner confirmation of their API-captured destinations, plus the 5 auto-promoted on 2026-09-24 by the first `auto-promote.yml` run (#1117: hilary-duff, josiah-queen, ha-ash, lukas-graham, passenger — each ingested its dates in the same job). The 73 indexable artists carry `verified_providers: ["ticketmaster","seatgeek"]`; the 7 shells carry `verified_providers: []` and render no CTA. 4 of the 73 indexable carry 0 events — beyonce, raye, tate-mcrae, the-weeknd (fact corrected 2026-09-24 by agent: oasis, hans-zimmer, kenny-chesney and atmosphere, eventless after the 2026-09-22 promote because their Ticketmaster dates were withheld, landed dates through the automated Ticketmaster lane in #1110; event ingestion remains a separate phase after promotion is merged and deployed; the 2026-09-10 Ticketmaster run landed dates for 14 of the 15 artists promoted on 2026-09-09, and yuridia's 17 have since landed as well, so all fifteen now carry dates — fact corrected 2026-09-13). A promoted artist with 0 events renders the empty-state watchlist board with its artist-level ticket button (fact corrected 2026-09-23 by agent: since #1092 the empty board carries exactly one artist-level `/api/out` link; event buttons still appear only once dates land). Separately, **14 of the 68 carry 0 _upcoming_ events** — those eight plus ariana-grande, bad-bunny, morgan-wallen, rosalia, post-malone, jelly-roll, whose tours have ended (fact corrected 2026-09-22, twice in one day: it read 10 of 58 before the promote batch, then 20 of 68 while all ten promoted artists were still eventless, and now 14 of 68 after the same day's Ticketmaster ingestion landed 116 dates across six of them; the generated empty-boards block below is the authority and agrees); that is the indexable-surface decay BACKLOG item 3 tracks. (The zero-event figure **is** machine-pinned — `SCALAR_ASSERTIONS` matches "N of the 68 indexable carry 0 events", so `status:validate` fails if it drifts — but the slug list beside it is not. The zero-_upcoming_ figure is pinned by nothing, so recount it from `public/data/` whenever the calendar or an ingestion run moves it; the generated empty-boards block below is its authority and is rewritten by `status:surface:write`.)
 - `public/data/catalog.json`: 105 artist records; 0 tour records; **203 ticket_links rows** (105 ticketmaster + 98 seatgeek artist pages; 196 `verified` + `public_enabled`, plus 7 unverified/hidden shell ticketmaster rows for the 7 `review_required` artists); the `seatgeek` provider entry has `public_enabled: true`.
-- `public/data/events.json`: **2539 events** — 289 `human_verified`, 1740 `machine_high_confidence`, 510 `needs_recheck`. Verified event-level provider provenance is pinned one provider per line below, each separated by a blank line. Keep both properties: git needs an unchanged line between two edits to merge them as separate hunks, so without the blank lines two lanes editing adjacent providers still conflict. This makes any two provider lanes merge cleanly, except on the shared no-resale figure at the end of the list.
+- `public/data/events.json`: **2526 events** — 285 `human_verified`, 1737 `machine_high_confidence`, 504 `needs_recheck`. Verified event-level provider provenance is pinned one provider per line below, each separated by a blank line. Keep both properties: git needs an unchanged line between two edits to merge them as separate hunks, so without the blank lines two lanes editing adjacent providers still conflict. This makes any two provider lanes merge cleanly, except on the shared no-resale figure at the end of the list.
   - SeatGeek 380 (432 rows carry a stored `seatgeek_url`); 230 `needs_recheck` rows retain a standalone SeatGeek CTA.
 
-  - Vivid Seats 1690; 283 `needs_recheck` rows retain a standalone Vivid Seats CTA.
+  - Vivid Seats 1685; 279 `needs_recheck` rows retain a standalone Vivid Seats CTA.
 
-  - TicketNetwork 1567.
+  - TicketNetwork 1565.
 
-  - Ticket Liquidator 1241.
+  - Ticket Liquidator 1239.
 
-  - StubHub International 778.
+  - StubHub International 772.
 
   - Across all lanes, 88 `needs_recheck` rows have no independently verified resale provider. Every lane recomputes this, so two lanes running the same night still conflict here and no layout can fix that — the two values genuinely disagree. It is now the only such line; regenerate it with `npm run status:validate:write` instead of hand-merging.
 
@@ -50,7 +50,7 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 | bad-bunny | 2026-10-04 | 28 | 0 | 0 | **4** | DeBÍ TiRAR MáS FOToS World Tour | No SeatGeek URLs (EU legs not listed on SeatGeek). Recheck rows: Marseille 7/1 and the re-added Brussels `.com` row — both CTA-suppressed. |
 | morgan-wallen | 2026-10-04 | 18 | 14 | 4 | 0 | Still the Problem Tour | — |
 | jay-z | 2026-04-30 | 7 | 3 | 3 | 0 | JAY-Z Yankee Stadium 2026 | Inglewood/London rows have blank `tour_name`, owner-accepted. |
-| olivia-rodrigo | 2026-05-27 | 84 | 55 | 55 | **6** | The Unraveled Tour | All 6 recheck rows retain a standalone SeatGeek CTA via verified provenance. |
+| olivia-rodrigo | 2026-05-27 | 80 | 55 | 55 | **6** | The Unraveled Tour | All 6 recheck rows retain a standalone SeatGeek CTA via verified provenance. |
 | bruno-mars | 2026-05-28 | 68 | 22 | 22 | 0 | The Romantic Tour | Four Mexico City events intentionally excluded (`ticketmaster.com.mx` not in the allowlist). |
 | ed-sheeran | 2026-06-12 | 27 | 24 | 19 | **2** | The Loop Tour | Recheck rows: Nashville (no-link), Arlington (standalone SeatGeek CTA). |
 | shakira | 2026-06-10 | 30 | 16 | 5 | 0 | Las Mujeres Ya No Lloran | No recheck rows: the re-added "Shakira Stadium" Madrid duplicate of 2026-10-03 was removed and tombstoned on 2026-09-27 (pre-pilot event integrity cleanup). |
@@ -73,24 +73,24 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 | rush | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
 | muse | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
 | my-chemical-romance | 2026-08-22 | 11 | 0 | 0 | **1** | — | Promoted 2026-08-21. |
-| teddy-swims | 2026-08-22 | 51 | 5 | 5 | **16** | — | Promoted 2026-08-21. |
-| five-finger-death-punch | 2026-08-22 | 33 | 1 | 1 | **4** | — | Promoted 2026-08-21. |
+| teddy-swims | 2026-08-22 | 50 | 5 | 5 | **15** | — | Promoted 2026-08-21. |
+| five-finger-death-punch | 2026-08-22 | 32 | 1 | 1 | **3** | — | Promoted 2026-08-21. |
 | system-of-a-down | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
 | laura-pausini | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
 | gracie-abrams | 2026-07-30 | 57 | 0 | 0 | **7** | The Look at My Life Tour | Both Antwerp dates restored on official TM links. |
-| niall-horan | 2026-07-30 | 47 | 3 | 3 | **9** | Dinner Party Live On Tour | Kraków and Antwerp restored on official TM links. |
+| niall-horan | 2026-07-30 | 45 | 3 | 3 | **7** | Dinner Party Live On Tour | Kraków and Antwerp restored on official TM links. |
 | doja-cat | 2026-07-30 | 31 | 2 | 2 | **2** | Tour Ma Vie World Tour | Recheck row retains independent verified SeatGeek coverage. |
 | sombr | 2026-07-30 | 51 | 6 | 6 | **12** | You Are The Reason Tour | All 6 recheck rows retain independent verified SeatGeek coverage. |
-| latto | 2026-08-07 | 3 | 0 | 0 | 0 | — | Promoted 2026-07-29. |
+| latto | 2026-08-07 | 1 | 0 | 0 | 0 | — | Promoted 2026-07-29. |
 | john-summit | 2026-07-30 | 26 | 1 | 1 | **4** | CTRL ESCAPE ARENA TOUR | Separate Lollapalooza aftershow stays blank and fully CTA-suppressed. |
-| don-omar | 2026-08-28 | 39 | 3 | 3 | **6** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
+| don-omar | 2026-08-28 | 38 | 3 | 3 | **5** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
 | luke-combs | 2026-08-28 | 12 | 2 | 2 | **2** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
 | blue-october | 2026-08-28 | 68 | 19 | 19 | **26** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
 | pentatonix | 2026-08-28 | 28 | 3 | 3 | **3** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
 | tyla | 2026-08-28 | 27 | 0 | 0 | **3** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
 | nothing-but-thieves | 2026-08-28 | 27 | 2 | 2 | **5** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
 | trivium | 2026-08-28 | 37 | 13 | 13 | **13** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
-| sabaton | 2026-08-28 | 15 | 1 | 1 | **5** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
+| sabaton | 2026-08-28 | 14 | 1 | 1 | **4** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
 | in-flames | 2026-09-02 | 1 | 0 | 0 | 0 | — | Promoted 2026-08-26; owner browser-checked both destinations. |
 | beartooth | 2026-08-28 | 32 | 6 | 6 | **11** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
 | polyphia | 2026-09-09 | 22 | 1 | 1 | **6** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
@@ -117,7 +117,7 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 | the-psychedelic-furs | 2026-09-23 | 18 | 5 | 5 | **6** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 14 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
 | eros-ramazzotti | 2026-09-23 | 1 | 0 | 0 | 0 | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 1 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
 | atmosphere | 2026-09-24 | 18 | 6 | 6 | **7** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Dates withheld as `status_not_onsale` at promotion have since landed through the automated Ticketmaster lane (#1110). |
-| the-warning | 2026-09-23 | 24 | 6 | 6 | **9** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 22 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
+| the-warning | 2026-09-23 | 23 | 6 | 6 | **9** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 22 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
 | hilary-duff | 2026-09-24 | 34 | 0 | 0 | **6** | — | Auto-promoted 2026-09-24 (#1117); dates ingested in the same job. |
 | josiah-queen | 2026-09-24 | 16 | 0 | 0 | 0 | — | Auto-promoted 2026-09-24 (#1117); dates ingested in the same job. |
 | ha-ash | 2026-09-24 | 17 | 2 | 2 | **2** | — | Auto-promoted 2026-09-24 (#1117); dates ingested in the same job. |

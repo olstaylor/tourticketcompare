@@ -3624,10 +3624,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8167507",
+        "url": "https://www.ticketnetwork.com/en/p/8167507",
+        "verified": true,
+        "last_verified_at": "2026-10-05",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vpvZ6G3",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167507"
   }
 ]

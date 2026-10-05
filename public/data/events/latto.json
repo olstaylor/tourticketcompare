@@ -67,5 +67,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286255",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286255/Latto-tickets-Sat-Oct-31-2026-On-The-Record-at-Park-MGM"
+  },
+  {
+    "id": "tm-latto-2026-petersburg-vvg17z_2r3gq4t",
+    "artist_slug": "latto",
+    "artist_name": "Latto",
+    "event_name": "VSU Homecoming Concert 2026",
+    "city": "Petersburg",
+    "country": "United States Of America",
+    "venue": "VSU Multi-Purpose Center",
+    "datetime_iso": "2026-10-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064FBD2D5D569",
+    "ticketmaster_url": "https://www.ticketmaster.com/vsu-homecoming-concert-2026-petersburg-virginia-10-07-2026/event/010064FBD2D5D569",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/vsu-homecoming-concert-2026-petersburg-virginia-10-07-2026/event/010064FBD2D5D569",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064FBD2D5D569",
+        "discovery_event_id": "vvG17Z_2R3gq4t",
+        "url": "https://www.ticketmaster.com/vsu-homecoming-concert-2026-petersburg-virginia-10-07-2026/event/010064FBD2D5D569",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_2R3gq4t",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

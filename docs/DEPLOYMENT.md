@@ -126,6 +126,10 @@ The `s-maxage` half is **inert without a dashboard Cache Rule**. Pages Functions
 
 Never widen the match to an event-derived route. Those render approved price snapshots and upcoming-date sets filtered against the current time; a stale shared copy would keep serving a price or a date the freshness gates have already withdrawn, which the provider display rules in [PROVIDER_DATA_POLICY.md](PROVIDER_DATA_POLICY.md) do not permit. `scripts/smoke-prelaunch.mjs` asserts the split per route, so the repo side fails loudly if the two lists drift apart; the dashboard side has no such guard.
 
+### Price guides: in-function edge cache
+
+`/artists/<artist>/ticket-prices` is the one event-derived route that is edge cached, and it does not use the header path above. `onRequest` in `functions/[[path]].js` keeps each render in the colo's Cache API: fresh for 5 minutes, then served stale for up to an hour while one background render replaces it. A copy is never served past the earliest price-snapshot expiry or show start it rendered, and a render whose price read failed is never stored, so the freshness gates hold. The browser header stays `no-cache, max-age=0, must-revalidate`; `X-TTC-Edge-Cache: HIT|STALE|MISS` shows what happened. No dashboard rule is needed. Tests: `scripts/price-guides.test.mjs` part 5.
+
 ## GitHub Actions configuration
 
 Automation may require:

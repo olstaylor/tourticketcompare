@@ -376,18 +376,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034305",
-        "url": "https://www.ticketliquidator.com/tickets/8034305/Malcolm-Todd-tickets-Sun-Oct-4-2026-Saint-Louis-Music-Park",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_GCLzIdq",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034305/Malcolm-Todd-tickets-Sun-Oct-4-2026-Saint-Louis-Music-Park"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-malcolm-todd-2026-chicago-vvg18z_gkurbfe",

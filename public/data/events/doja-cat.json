@@ -209,18 +209,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7457605",
-        "url": "https://www.ticketliquidator.com/tickets/7457605/Doja-Cat-tickets-Sun-Oct-4-2026-Target-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZbSGknj3VY9",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457605/Doja-Cat-tickets-Sun-Oct-4-2026-Target-Center"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-doja-cat-2026-kansas-city-vv17bzbsgkwntdvb",

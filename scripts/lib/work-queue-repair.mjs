@@ -384,6 +384,22 @@ export async function openPullRequestWithRetry({
  *
  * `comparison` is the GitHub compare API response for main...branch.
  */
+// The compare API lists at most this many changed files and truncates silently.
+export const COMPARE_FILE_LIMIT = 300;
+
+/**
+ * A provider repair's commit carries the verifier's summary after its
+ * `Refs #N.` line (verified/unresolved counts and every unresolved event with
+ * its reason), the only record of it once the run that made it has ended.
+ */
+export function providerSummaryFromCommit(message, plan) {
+  const marker = `\nRefs #${plan.issueNumber}.\n`;
+  const at = String(message || "").indexOf(marker);
+  if (at < 0) return null;
+  const summary = String(message).slice(at + marker.length).trim();
+  return /^\d+\/\d+ event URLs verified\. \d+ unresolved\./.test(summary) ? summary : null;
+}
+
 export function resumableBranchDecision({ plan, pullRequestsFromBranch = [], comparison }) {
   const keep = (reason) => ({ resume: false, reason });
   const earlier = pullRequestsFromBranch[0];
@@ -394,11 +410,30 @@ export function resumableBranchDecision({ plan, pullRequestsFromBranch = [], com
   if (comparison?.ahead_by !== 1 || commits.length !== 1) {
     return keep(`it is ${comparison?.ahead_by ?? "an unknown number of"} commit(s) ahead of main, not this worker's single repair commit`);
   }
-  const subject = String(commits[0]?.commit?.message || "").split("\n")[0];
+  const message = String(commits[0]?.commit?.message || "");
+  const subject = message.split("\n")[0];
   if (subject !== pullRequestTitleFor(plan)) return keep(`its commit "${subject}" is not this repair's commit`);
-  const diff = classifyDiff((comparison.files || []).map((file) => file.filename), plan);
+  // A full file list is the only way to prove the boundary, so a list the API
+  // may have cut short (an OG rebuild can touch hundreds of cards) fails closed.
+  const files = comparison.files || [];
+  if (files.length >= COMPARE_FILE_LIMIT) {
+    return keep(`its diff lists ${files.length} files, and the compare API truncates at ${COMPARE_FILE_LIMIT}, so the boundary cannot be checked in full`);
+  }
+  const diff = classifyDiff(files.map((file) => file.filename), plan);
   if (!diff.ok) return keep(`its diff leaves the declared paths (${[...diff.unexpected, ...diff.protectedHits].join(", ") || "no changes"})`);
-  return { resume: true, reason: "this worker pushed its validated commit to it, but the pull request was never opened", changed: diff.changed };
+  // A provider batch's pull request must list every unresolved event, and only
+  // the commit still holds that list.
+  let providerSummary = null;
+  if (plan.type === PROVIDER_URL_TYPE) {
+    providerSummary = providerSummaryFromCommit(message, plan);
+    if (!providerSummary) return keep("its commit does not carry the verifier's summary, so the unresolved events cannot be listed");
+  }
+  return {
+    resume: true,
+    reason: "this worker pushed its validated commit to it, but the pull request was never opened",
+    changed: diff.changed,
+    providerSummary
+  };
 }
 
 /** Is a changed path inside one of the artefacts the entry declares? */

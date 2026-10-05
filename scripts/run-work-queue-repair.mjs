@@ -55,7 +55,9 @@ import {
   isTransientApiError,
   openPullRequestWithRetry,
   parseMachineBlock,
+  COMPARE_FILE_LIMIT,
   prMarkerFor,
+  providerSummaryFromCommit,
   pullRequestTitleFor,
   repairVerdict,
   resumableBranchDecision,
@@ -506,6 +508,37 @@ if (SELF_TEST) {
     assert.equal(decision.resume, false, `must not resume: ${decision.reason}`);
     assert.match(decision.reason, reason);
   }
+  // The compare API truncates its file list at 300, so a list that long cannot
+  // prove the boundary even when every listed path is inside it.
+  const manyCards = Array.from({ length: COMPARE_FILE_LIMIT }, () => ({ filename: "data/content-provenance.json" }));
+  const truncated = resumableBranchDecision({ plan, comparison: ownPush({ files: manyCards }) });
+  assert.equal(truncated.resume, false, "a possibly truncated file list fails closed");
+  assert.match(truncated.reason, /truncates at 300/);
+
+  // A resumed provider batch recovers the verifier's summary, unresolved events
+  // included, from its own commit; without it the run does not resume.
+  const providerPlan = {
+    type: PROVIDER_URL_TYPE,
+    artistSlug: "fixture-artist",
+    issueNumber: 1293,
+    expectedPaths: ["public/data/events.json", "public/data/events/fixture-artist.json", "PROJECT_STATUS.md"]
+  };
+  const providerSummary = "19/20 event URLs verified. 1 unresolved.\ntm-fixture-1: no_match (no exact event)";
+  const providerPush = (message) => ({
+    ahead_by: 1,
+    commits: [{ commit: { message } }],
+    files: providerPlan.expectedPaths.map((filename) => ({ filename }))
+  });
+  const providerTitle = pullRequestTitleFor(providerPlan);
+  assert.equal(providerSummaryFromCommit(`${providerTitle}\n\nRefs #1293.\n${providerSummary}`, providerPlan), providerSummary);
+  const providerResumed = resumableBranchDecision({ plan: providerPlan, comparison: providerPush(`${providerTitle}\n\nRefs #1293.\n${providerSummary}`) });
+  assert.equal(providerResumed.resume, true);
+  assert.equal(providerResumed.providerSummary, providerSummary, "the resumed PR lists every unresolved event");
+  for (const message of [providerTitle, `${providerTitle}\n\nRefs #1293.\n`, `${providerTitle}\n\nRefs #999.\n${providerSummary}`]) {
+    const decision = resumableBranchDecision({ plan: providerPlan, comparison: providerPush(message) });
+    assert.equal(decision.resume, false, "a provider commit without its summary is not resumed");
+    assert.match(decision.reason, /verifier's summary/);
+  }
 
   // --- the writer cannot write in a dry run -----------------------------------
   const { readFile } = await import("node:fs/promises");
@@ -735,11 +768,13 @@ async function main() {
     if (DRY_RUN) {
       finish({ outcome: OUTCOMES.FIXED, reason: "dry run — would open the pull request for the branch an earlier run pushed.", plan });
     }
+    if (decision.providerSummary) plan.providerSummary = decision.providerSummary;
     const { title, body } = buildPullRequest({ plan, diff: { changed: decision.changed } });
+    const resumedNote = "An earlier run validated and pushed this repair but could not open its pull request; this run opened it and Prelaunch Validation passed on that exact head. One PR is open for human review.";
     await publishPullRequest({
       title,
       body: `${body}\n\nResumed by a later run: an earlier run validated and pushed this branch but could not open its pull request.`,
-      fixedReason: "An earlier run validated and pushed this repair but could not open its pull request; this run opened it and Prelaunch Validation passed on that exact head. One PR is open for human review."
+      fixedReason: plan.providerSummary ? `${plan.providerSummary}\n${resumedNote}` : resumedNote
     });
   }
 

@@ -309,7 +309,7 @@ export const TRUST_ROUTES = {
       "Browse major artist pages with verified ticket links where available and practical buying guidance on what to check before checkout.",
     indexable: true,
     breadcrumb: [{ name: "Artists", path: "/artists" }],
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-06"
   },
   "/guides": {
     title: "Concert Ticket Buying Guides | TourTicketCompare",

@@ -1,3 +1,4 @@
+import { isUpcomingShow } from "./_upcoming.js";
 import { venueGate, eventLifecycleHeld, eventPublishable, eventPriceComparable, eventStatusPublishable } from "./_route-indexability.js";
 
 // Shared venue derivation used by the HTML router ([[path]].js) and the sitemap
@@ -111,7 +112,7 @@ function deriveVenuesUncached(events, options = {}) {
     const iso = String(event.dateTimeISO || event.datetime_iso || "").trim();
     const artistSlug = slugify(event.artist_slug);
     const ts = Date.parse(iso);
-    if (!venue || !city || !artistSlug || !Number.isFinite(ts) || ts < now) continue;
+    if (!venue || !city || !artistSlug || !isUpcomingShow({ dateTimeISO: iso }, now)) continue;
 
     const slug = venueSlug(venue, city);
     if (!slug) continue;

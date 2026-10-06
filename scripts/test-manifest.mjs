@@ -76,6 +76,7 @@ export const STEPS = [
   { id: "test:artist-city-prices",                lane: "quick",  run: "npm run test:artist-city-prices" },
   { id: "test:price-notes",                       lane: "quick",  run: "npm run test:price-notes" },
   { id: "test:price-wording",                     lane: "quick",  run: "npm run test:price-wording" },
+  { id: "test:upcoming-shows",                    lane: "quick",  run: "npm run test:upcoming-shows" },
   { id: "artists:requests:check",                 lane: "quick",  run: "npm run artists:requests:check" },
   { id: "test:event-price-low",                   lane: "units",  run: "npm run test:event-price-low" },
   { id: "test:price-outliers",                    lane: "units",  run: "npm run test:price-outliers" },

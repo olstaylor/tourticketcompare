@@ -46,6 +46,7 @@ import {
   withinWeeklyChangeWindow,
   WEEKLY_CHANGE_DAYS
 } from "./_event-price-moves.js";
+import { isUpcomingShow, showStartMs } from "./_upcoming.js";
 import { NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, lowestPriceLabel, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, resolveEventRoute } from "./_event-pages.js";
 import { EVENT_INDEXING_PILOT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
@@ -842,7 +843,7 @@ async function resolveRoute(pathname, env) {
     // listed-price lanes (eventPriceComparable).
     const nowMs = Date.now();
     const priced = artistEvents.some(
-      (event) => event?.artist_slug === artist.slug && Date.parse(String(event?.datetime_iso || event?.dateTimeISO || "")) >= nowMs && eventPriceComparable(event, nowMs)
+      (event) => event?.artist_slug === artist.slug && isUpcomingShow(event, nowMs) && eventPriceComparable(event, nowMs)
     );
     return {
       type: "artist",
@@ -3975,7 +3976,8 @@ function renderHomepageGuideLinks() {
 // other non-location route prices from it, each a full pass over events.json.
 // Callers get a fresh slice; the shared, frozen full list is never handed out.
 const PUBLISHABLE_FUTURE_SHOWS_MEMO = new WeakMap();
-function publishableFutureShows(events, limit = 500) {
+export function publishableFutureShows(events, limit = 500, now = null) {
+  if (Number.isFinite(now)) return publishableFutureShowsUncached(events, now).slice(0, limit);
   if (!Array.isArray(events)) return publishableFutureShowsUncached(events).slice(0, limit);
   const minute = Math.floor(Date.now() / 60000);
   let hit = PUBLISHABLE_FUTURE_SHOWS_MEMO.get(events);
@@ -3986,7 +3988,7 @@ function publishableFutureShows(events, limit = 500) {
   return hit.result.slice(0, limit);
 }
 
-function publishableFutureShowsUncached(events) {
+function publishableFutureShowsUncached(events, now = Date.now()) {
   return (events || [])
     .map((ev) => ({
       ...ev,
@@ -4013,8 +4015,7 @@ function publishableFutureShowsUncached(events) {
         IMPACT_MARKETPLACE_PROVIDERS.some((provider) => providerEventPublishable(ev, provider.slug) && safeImpactMarketplaceTicketUrl(ev?.[provider.urlField], provider))
       )
     }))
-    .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
-    .filter((show) => Date.parse(show.dateTimeISO) >= Date.now())
+    .filter((show) => show.id && isUpcomingShow(show, now))
     .filter((show) => show.publishable)
     .sort((a, b) => Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO));
 }
@@ -4051,8 +4052,8 @@ function renderComparisonHubCityLinks(events = []) {
   );
 }
 
-function renderComparisonHubEventCards(events = [], env = {}) {
-  const shows = publishableFutureShows(events, 6);
+export function renderComparisonHubEventCards(events = [], env = {}, now = null) {
+  const shows = publishableFutureShows(events, 6, now);
   if (!shows.length) return "";
   const seatGeekAvailable = isSeatGeekConfigured(env);
   const vividSeatsAvailable = isVividSeatsConfigured(env);
@@ -4070,7 +4071,7 @@ function renderComparisonHubEventCards(events = [], env = {}) {
   // report, 2026-10-06). `data-nosnippet` keeps it out of search snippets and
   // AI summaries, and the heading carries the date the list was built, so a
   // cached copy reads as dated rather than wrong.
-  const asOf = formatVerificationDate(new Date().toISOString().slice(0, 10));
+  const asOf = formatVerificationDate(new Date(Number.isFinite(now) ? now : Date.now()).toISOString().slice(0, 10));
   return `<section id="current-events" class="nested-panel" data-nosnippet><h2>Prices on upcoming shows${
     asOf ? `, as of ${escapeHtml(asOf)}` : ""
   }</h2><p>The next shows with checked ticket links.</p>${renderMoneyDisclosureHtml()}<div class="card-grid show-card-grid">${shows
@@ -4608,8 +4609,7 @@ function futureShowsForArtist(events, artistSlug, limit = Infinity) {
   const slug = slugify(artistSlug);
   return eventsForArtist(events, slug)
     .map(enrichEventAsShow)
-    .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
-    .filter((show) => Date.parse(show.dateTimeISO) >= now)
+    .filter((show) => show.id && isUpcomingShow(show, now))
     .sort((a, b) => Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO))
     .slice(0, limit);
 }
@@ -4626,8 +4626,8 @@ function recentPastShowsForArtist(events, artistSlug, limit = 3) {
   return events
     .filter((ev) => ev && typeof ev === "object" && slugify(ev.artist_slug) === slug)
     .map(enrichEventAsShow)
-    .filter((show) => show.id && show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
-    .filter((show) => Date.parse(show.dateTimeISO) < now && show.publishable && show.venue && show.city)
+    .filter((show) => show.id && Number.isFinite(showStartMs(show)) && !isUpcomingShow(show, now))
+    .filter((show) => show.publishable && show.venue && show.city)
     .sort((a, b) => Date.parse(b.dateTimeISO) - Date.parse(a.dateTimeISO))
     .slice(0, limit);
 }

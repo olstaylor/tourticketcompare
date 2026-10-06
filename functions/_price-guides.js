@@ -124,7 +124,13 @@ export const PRICE_GUIDE_ARTISTS = Object.freeze([
   "blondshell",
   "the-lemonheads",
   "too-many-zooz",
-  "my-chemical-romance"
+  "my-chemical-romance",
+  // 2026-10-06: the four indexable artists that newly cleared the guide gate
+  // (three have Ticketmaster public on-sales 2026-10-08 to 2026-10-15).
+  "greta-van-fleet",
+  "fontaines-d-c",
+  "carly-rae-jepsen",
+  "riley-green"
 ]);
 
 export const PRICE_GUIDE_SEGMENT = "ticket-prices";

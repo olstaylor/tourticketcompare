@@ -5427,13 +5427,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-24-2026/event/0100631ACA626435",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-10-06",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0100631ACA626435",
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-boston-massachusetts-07-24-2026/event/0100631ACA626435",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-10-06",
         "availability_status": "on_sale",
         "discovery_event_id": "vv177ZbsGkl1bJ8g"
       },
@@ -5484,7 +5484,8 @@
     "ticketmaster_discovery_event_id": "vv177ZbsGkl1bJ8g",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7373450",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7373450/Ariana-Grande-tickets-Sun-Jul-26-2026-TD-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-boston-tickets-7-26-2026/event/106916441"
+    "stubhub_international_url": "https://www.stubhub.ie/ariana-grande-boston-tickets-7-26-2026/event/106916441",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-ariana-grande-2026-boston-010063289ef611c4",
@@ -151528,7 +151529,7 @@
     "city": "Napa",
     "country": "United States Of America",
     "venue": "Uptown Theatre Napa",
-    "datetime_iso": "2026-11-09T03:00:00Z",
+    "datetime_iso": "2026-11-09T04:00:00Z",
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "1C0064CAA6523297",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-napa-california-11-08-2026/event/1C0064CAA6523297",
@@ -151536,7 +151537,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-napa-uptown-theatre-napa-11-8-2026--concerts-rock/production/7170026",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-napa-california-11-08-2026/event/1C0064CAA6523297",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

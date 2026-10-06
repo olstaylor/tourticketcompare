@@ -131,7 +131,7 @@ for (const entry of fixture.artistCityEntries) {
 }
 for (const pathname of fixture.paths.artistPaths) {
   const slug = pathname.split("/")[2];
-  add(pathname, { type: "artist", events: events.filter((event) => event.artist_slug === slug), allowPastYears: true });
+  add(pathname, { type: "artist", events: events.filter((event) => event.artist_slug === slug) });
 }
 for (const entry of fixture.priceGuideEntries) {
   add(entry.path, { type: "price-guide", events: events.filter((event) => event.artist_slug === entry.artistSlug) });
@@ -145,13 +145,14 @@ for (const pathname of fixture.paths.eventPaths) {
 // Checks
 // ---------------------------------------------------------------------------
 
-function jsonLdNodes(html) {
+function jsonLdNodes(pathname, html) {
   const nodes = [];
   for (const match of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
     let parsed;
     try {
       parsed = JSON.parse(match[1]);
-    } catch {
+    } catch (error) {
+      fail(pathname, "json-ld:malformed", `an application/ld+json block does not parse: ${error.message}`);
       continue;
     }
     const stack = [parsed];
@@ -189,7 +190,8 @@ function checkMusicEvent(page, node, context) {
   if (!upcoming(event)) fail(page, "music-event:past", `${label} describes a past date (${event.datetime_iso})`);
 
   const artist = artistNames.get(event.artist_slug) || event.artist_name || "";
-  if (artist && !fold(node.name).includes(fold(artist))) {
+  // Whole words, as the renderer matches them ("Rush" is not "Rushmore").
+  if (artist && !` ${fold(node.name)} `.includes(` ${fold(artist)} `)) {
     fail(page, "music-event:name", `${label} name "${node.name}" does not name the artist "${artist}"`);
   }
 
@@ -226,8 +228,11 @@ const PRICE_CLAIM = /\bcompare (?:current )?(?:listed )?(?:ticket )?prices\b|\| 
 
 function checkText(page, field, text, context) {
   if (!text) return fail(page, `${field}:missing`, `no ${field}`);
+  // Authored static, guide and blog copy: presence only. Their years and
+  // comparison wording describe the topic, not a tracked schedule.
+  if (context.untracked) return;
 
-  const years = context.events.filter((event) => context.allowPastYears || upcoming(event)).map(localYear).filter(Boolean);
+  const years = context.events.filter(upcoming).map(localYear).filter(Boolean);
   for (const match of text.matchAll(/\b(20\d\d)\b/g)) {
     const year = Number(match[1]);
     if (!years.includes(year)) fail(page, `${field}:year`, `${field} names ${year}; the page's dates fall in ${[...new Set(years)].sort().join(", ") || "no year"}`);
@@ -255,7 +260,7 @@ const paths = [...new Set([...fixture.paths.allPaths, ...fixture.paths.eventPath
 const jsonLd = new Map();
 const pages = await crawlRoutes(paths, async (pathname) => {
   const rendered = await fixture.renderRoute(pathname);
-  if (rendered.status === 200) jsonLd.set(pathname, jsonLdNodes(rendered.html));
+  if (rendered.status === 200) jsonLd.set(pathname, jsonLdNodes(pathname, rendered.html));
   return rendered;
 });
 
@@ -264,11 +269,11 @@ const audited = [...pages.values()].filter((page) => page.status === 200 && (pag
 
 let musicEvents = 0;
 for (const page of audited) {
+  // Static, guide and blog routes have no event context: they still need a
+  // title and a description, and any year they name is not checked.
   const context = contexts.get(page.path);
-  if (context) {
-    checkText(page.path, "title", page.title, context);
-    checkText(page.path, "description", page.description, context);
-  }
+  checkText(page.path, "title", page.title, context || { type: "other", events: [], untracked: true });
+  checkText(page.path, "description", page.description, context || { type: "other", events: [], untracked: true });
   for (const node of jsonLd.get(page.path) || []) {
     if (node["@type"] !== "MusicEvent") continue;
     musicEvents += 1;

@@ -8,7 +8,7 @@
     "country": "Canada",
     "venue": "Grizzly Fuzz",
     "datetime_iso": "2027-02-05T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvzfI",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzfI",
     "seatgeek_url": "",
@@ -61,7 +61,7 @@
     "country": "Canada",
     "venue": "Le Studio TD",
     "datetime_iso": "2027-02-06T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "3100652EAB806F3B",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-montreal-quebec-02-05-2027/event/3100652EAB806F3B",
     "seatgeek_url": "",
@@ -106,12 +106,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8274453",
+        "url": "https://www.ticketliquidator.com/tickets/8274453/Valley-Band-tickets-Fri-Feb-5-2027-Le-Studio-TD",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GkBlOkHD",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8274453"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8274453",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8274453/Valley-Band-tickets-Fri-Feb-5-2027-Le-Studio-TD"
   },
   {
     "id": "tm-valley-2027-ottawa-1ad7z_3gkv11nuz",
@@ -122,7 +130,7 @@
     "country": "Canada",
     "venue": "The Bronson",
     "datetime_iso": "2027-02-07T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "3100652D0A2AA378",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-ottawa-ontario-02-06-2027/event/3100652D0A2AA378",
     "seatgeek_url": "",
@@ -175,7 +183,7 @@
     "country": "Canada",
     "venue": "Maxwell's Concerts and Events",
     "datetime_iso": "2027-02-10T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvzft",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzft",
     "seatgeek_url": "",
@@ -228,7 +236,7 @@
     "country": "Canada",
     "venue": "LONDON MUSIC HALL",
     "datetime_iso": "2027-02-11T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1000652FD632ADB4",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-london-ontario-02-10-2027/event/1000652FD632ADB4",
     "seatgeek_url": "",
@@ -281,7 +289,7 @@
     "country": "United States Of America",
     "venue": "Park West",
     "datetime_iso": "2027-02-13T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvzfY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfY",
     "seatgeek_url": "",
@@ -326,12 +334,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272760",
+        "url": "https://www.ticketliquidator.com/tickets/8272760/Valley-Band-tickets-Fri-Feb-12-2027-Park-West",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfY",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272760"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272760",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272760/Valley-Band-tickets-Fri-Feb-12-2027-Park-West"
   },
   {
     "id": "tm-valley-2027-minneapolis-z7r9jz1aavzfs",
@@ -342,7 +358,7 @@
     "country": "United States Of America",
     "venue": "Fine Line Music Cafe",
     "datetime_iso": "2027-02-14T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvzfs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfs",
     "seatgeek_url": "",
@@ -387,12 +403,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272761",
+        "url": "https://www.ticketliquidator.com/tickets/8272761/Valley-Band-tickets-Sat-Feb-13-2027-Fine-Line-Music-Cafe",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfs",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272761"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272761",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272761/Valley-Band-tickets-Sat-Feb-13-2027-Fine-Line-Music-Cafe"
   },
   {
     "id": "tm-valley-2027-winnipeg-1av7z_3gkbokkjd",
@@ -403,7 +427,7 @@
     "country": "Canada",
     "venue": "PARK THEATRE",
     "datetime_iso": "2027-02-17T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1100652E91186703",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-winnipeg-manitoba-02-16-2027/event/1100652E91186703",
     "seatgeek_url": "",
@@ -472,7 +496,7 @@
     "country": "Canada",
     "venue": "Casino Regina",
     "datetime_iso": "2027-02-19T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvzfw",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzfw",
     "seatgeek_url": "",
@@ -541,7 +565,7 @@
     "country": "Canada",
     "venue": "Midway Music Hall",
     "datetime_iso": "2027-02-20T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1100652EA2AE8DDE",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-edmonton-alberta-02-19-2027/event/1100652EA2AE8DDE",
     "seatgeek_url": "",
@@ -594,7 +618,7 @@
     "country": "Canada",
     "venue": "The Palace Theatre",
     "datetime_iso": "2027-02-21T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1100652E92396947",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-calgary-alberta-02-20-2027/event/1100652E92396947",
     "seatgeek_url": "",
@@ -647,7 +671,7 @@
     "country": "Canada",
     "venue": "Capital Ballroom",
     "datetime_iso": "2027-02-24T04:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvgoz",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvgoz",
     "seatgeek_url": "https://seatgeek.com/valley-tickets/victoria-canada-capital-ballroom-2027-02-23-8-pm/concert/18606164",
@@ -692,12 +716,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272766",
+        "url": "https://www.ticketliquidator.com/tickets/8272766/Valley-Band-tickets-Tue-Feb-23-2027-Capital-Ballroom-BC",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvgoz",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272766"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272766",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272766/Valley-Band-tickets-Tue-Feb-23-2027-Capital-Ballroom-BC"
   },
   {
     "id": "tm-valley-2027-vancouver-1av7z_3gkb3hpv9",
@@ -708,7 +740,7 @@
     "country": "Canada",
     "venue": "Commodore Ballroom",
     "datetime_iso": "2027-02-25T03:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1100652E92F16D17",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-vancouver-british-columbia-02-24-2027/event/1100652E92F16D17",
     "seatgeek_url": "",
@@ -753,12 +785,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272767",
+        "url": "https://www.ticketliquidator.com/tickets/8272767/Valley-Band-tickets-Wed-Feb-24-2027-Commodore-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkB3HpV9",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272767"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272767",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272767/Valley-Band-tickets-Wed-Feb-24-2027-Commodore-Ballroom"
   },
   {
     "id": "tm-valley-2027-seattle-vvg1hz_3nsltnp",
@@ -769,7 +809,7 @@
     "country": "United States Of America",
     "venue": "Neptune Theatre",
     "datetime_iso": "2027-02-27T04:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "0F00652AB1AE98D6",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-seattle-washington-02-26-2027/event/0F00652AB1AE98D6",
     "seatgeek_url": "",
@@ -814,12 +854,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272768",
+        "url": "https://www.ticketliquidator.com/tickets/8272768/Valley-Band-tickets-Fri-Feb-26-2027-The-Neptune-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3nsltNp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272768"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272768",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272768/Valley-Band-tickets-Fri-Feb-26-2027-The-Neptune-Theatre"
   },
   {
     "id": "tm-valley-2027-portland-z7r9jz1aavzfs",
@@ -830,7 +878,7 @@
     "country": "United States Of America",
     "venue": "Wonder Ballroom",
     "datetime_iso": "2027-02-28T04:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvzfS",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfS",
     "seatgeek_url": "",
@@ -875,12 +923,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272769",
+        "url": "https://www.ticketliquidator.com/tickets/8272769/Valley-Band-tickets-Sat-Feb-27-2027-Wonder-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272769"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272769",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272769/Valley-Band-tickets-Sat-Feb-27-2027-Wonder-Ballroom"
   },
   {
     "id": "tm-valley-2027-san-francisco-z7r9jz1aavzfv",
@@ -891,7 +947,7 @@
     "country": "United States Of America",
     "venue": "The Independent",
     "datetime_iso": "2027-03-02T04:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvzfV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfV",
     "seatgeek_url": "",
@@ -936,12 +992,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272715",
+        "url": "https://www.ticketliquidator.com/tickets/8272715/Valley-Band-tickets-Mon-Mar-1-2027-The-Independent",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfV",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272715"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272715",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272715/Valley-Band-tickets-Mon-Mar-1-2027-The-Independent"
   },
   {
     "id": "tm-valley-2027-los-angeles-vv1aazkf-gkdqrhdg",
@@ -952,7 +1016,7 @@
     "country": "United States Of America",
     "venue": "The Bellwether",
     "datetime_iso": "2027-03-03T04:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "09006521DDBFCEF5",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-los-angeles-california-03-02-2027/event/09006521DDBFCEF5",
     "seatgeek_url": "",
@@ -997,12 +1061,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272770",
+        "url": "https://www.ticketliquidator.com/tickets/8272770/Valley-Band-tickets-Tue-Mar-2-2027-The-Bellwether",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkf-GkdqRHDg",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272770"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272770",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272770/Valley-Band-tickets-Tue-Mar-2-2027-The-Bellwether"
   },
   {
     "id": "tm-valley-2027-phoenix-z7r9jz1aavzfg",
@@ -1013,7 +1085,7 @@
     "country": "United States Of America",
     "venue": "The Crescent Ballroom",
     "datetime_iso": "2027-03-04T03:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvzfg",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfg",
     "seatgeek_url": "",
@@ -1082,7 +1154,7 @@
     "country": "United States Of America",
     "venue": "The Depot",
     "datetime_iso": "2027-03-06T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1E00652EA3D363D8",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-salt-lake-city-utah-03-05-2027/event/1E00652EA3D363D8",
     "seatgeek_url": "",
@@ -1151,7 +1223,7 @@
     "country": "United States Of America",
     "venue": "Bluebird Theatre",
     "datetime_iso": "2027-03-07T04:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvzfU",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfU",
     "seatgeek_url": "",
@@ -1204,7 +1276,7 @@
     "country": "United States Of America",
     "venue": "Delmar Hall",
     "datetime_iso": "2027-03-10T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "06006528946B8E73",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-saint-louis-missouri-03-09-2027/event/06006528946B8E73",
     "seatgeek_url": "",
@@ -1257,7 +1329,7 @@
     "country": "United States Of America",
     "venue": "Brooklyn Bowl Nashville",
     "datetime_iso": "2027-03-11T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1B00652BDE776355",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-nashville-tennessee-03-10-2027/event/1B00652BDE776355",
     "seatgeek_url": "",
@@ -1326,7 +1398,7 @@
     "country": "United States Of America",
     "venue": "The Masquerade - Hell",
     "datetime_iso": "2027-03-13T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "0E006523C519F7E8",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-atlanta-georgia-03-12-2027/event/0E006523C519F7E8",
     "seatgeek_url": "",
@@ -1379,10 +1451,10 @@
     "country": "United States Of America",
     "venue": "The Underground",
     "datetime_iso": "2027-03-14T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "2D00652A9E8EDFA6",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-charlotte-north-carolina-03-13-2027/event/2D00652A9E8EDFA6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/charlotte-north-carolina-the-underground-at-the-fillmore-charlotte-2027-03-13-8-pm/concert/18606490",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-charlotte-the-underground-at-the-fillmore-charlotte-3-13-2027--concerts-rock/production/7579404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-charlotte-north-carolina-03-13-2027/event/2D00652A9E8EDFA6",
@@ -1448,7 +1520,7 @@
     "country": "United States Of America",
     "venue": "9:30 CLUB",
     "datetime_iso": "2027-03-14T23:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1500652492B86FDF",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-washington-district-of-columbia-03-14-2027/event/1500652492B86FDF",
     "seatgeek_url": "",
@@ -1493,12 +1565,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272777",
+        "url": "https://www.ticketliquidator.com/tickets/8272777/Valley-Band-tickets-Sun-Mar-14-2027-930-Club",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vfZ_333G7mkTL",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272777"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272777",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272777/Valley-Band-tickets-Sun-Mar-14-2027-930-Club"
   },
   {
     "id": "tm-valley-2027-philadelphia-vv1aezkfygkdw6utw",
@@ -1509,10 +1589,10 @@
     "country": "United States Of America",
     "venue": "Brooklyn Bowl Philadelphia",
     "datetime_iso": "2027-03-17T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "02006530F21CDFF2",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-philadelphia-pennsylvania-03-16-2027/event/02006530F21CDFF2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/philadelphia-pennsylvania-brooklyn-bowl-philadelphia-2027-03-16-8-pm/concert/18606537",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-philadelphia-brooklyn-bowl-philadelphia-3-16-2027--concerts-rock/production/7579418",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-philadelphia-pennsylvania-03-16-2027/event/02006530F21CDFF2",
@@ -1578,11 +1658,11 @@
     "country": "United States Of America",
     "venue": "Webster Hall",
     "datetime_iso": "2027-03-18T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvzfM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfM",
     "seatgeek_url": "https://seatgeek.com/valley-tickets/new-york-new-york-webster-hall-2027-03-17-8-pm/concert/18643169",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-new-york-webster-hall-3-17-2027/production/7600243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfM",
     "last_verified_at": null,
@@ -1604,11 +1684,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7600243,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-new-york-webster-hall-3-17-2027/production/7600243",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1623,12 +1703,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272779",
+        "url": "https://www.ticketliquidator.com/tickets/8272779/Valley-Band-tickets-Wed-Mar-17-2027-Webster-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272779"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272779",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272779/Valley-Band-tickets-Wed-Mar-17-2027-Webster-Hall"
   },
   {
     "id": "tm-valley-2027-boston-vv177z_3gkmvpndn",
@@ -1639,7 +1727,7 @@
     "country": "United States Of America",
     "venue": "Paradise Rock Club presented by Citizens",
     "datetime_iso": "2027-03-18T23:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "0100652BB45A30E3",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-dyntbe-the-tour-boston-massachusetts-03-18-2027/event/0100652BB45A30E3",
     "seatgeek_url": "",
@@ -1684,12 +1772,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272780",
+        "url": "https://www.ticketliquidator.com/tickets/8272780/Valley-Band-tickets-Thu-Mar-18-2027-Paradise-Rock-Club-Presented-by-Citizens",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GkmVpNdN",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272780"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272780",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272780/Valley-Band-tickets-Thu-Mar-18-2027-Paradise-Rock-Club-Presented-by-Citizens"
   },
   {
     "id": "tm-valley-2027-toronto-1avzz_3gkdexa9o",
@@ -1700,7 +1796,7 @@
     "country": "Canada",
     "venue": "Massey Hall",
     "datetime_iso": "2027-03-21T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1000652EE7F895D1",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-toronto-ontario-03-20-2027/event/1000652EE7F895D1",
     "seatgeek_url": "",
@@ -1753,7 +1849,7 @@
     "country": "Netherlands",
     "venue": "Melkweg",
     "datetime_iso": "2027-05-08T17:30:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "340716011",
     "ticketmaster_url": "https://www.ticketmaster.nl/event/valley-tickets/340716011?language=en-us",
     "seatgeek_url": "",
@@ -1806,7 +1902,7 @@
     "country": "Great Britain",
     "venue": "Thekla",
     "datetime_iso": "2027-05-10T18:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1F00652E06E8551D",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-bristol-10-05-2027/event/1F00652E06E8551D",
     "seatgeek_url": "",
@@ -1859,7 +1955,7 @@
     "country": "Great Britain",
     "venue": "O2 Institute2 Birmingham",
     "datetime_iso": "2027-05-11T18:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "3E006521D1CE53DD",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-birmingham-11-05-2027/event/3E006521D1CE53DD",
     "seatgeek_url": "",
@@ -1912,7 +2008,7 @@
     "country": "Great Britain",
     "venue": "Manchester Club Academy",
     "datetime_iso": "2027-05-12T18:30:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1F00651F3B884120",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-manchester-12-05-2027/event/1F00651F3B884120",
     "seatgeek_url": "",
@@ -1965,7 +2061,7 @@
     "country": "Great Britain",
     "venue": "O2 Forum Kentish Town",
     "datetime_iso": "2027-05-14T18:00:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "3E00652D16C664B8",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-london-14-05-2027/event/3E00652D16C664B8",
     "seatgeek_url": "",
@@ -2018,7 +2114,7 @@
     "country": "Great Britain",
     "venue": "Brudenell Social Club",
     "datetime_iso": "2027-05-16T18:30:00Z",
-    "tour_name": "",
+    "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "3500652A3CBC0988",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/valley-do-you-need-to-be-leeds-16-05-2027/event/3500652A3CBC0988",
     "seatgeek_url": "",

@@ -131,7 +131,10 @@ jobs:
           ARTIST: ${{ steps.config.outputs.artist }}
         run: |
           set -euo pipefail
-          args=(--provider "$PROVIDER" --max-api-calls 400 --delay-ms 1000)
+          # The runtime limit keeps the sync inside the 59-minute job, leaving room for
+          # the validation steps; the artist order rotates daily, so a run cut short
+          # by it does not leave the same artists unchecked every night.
+          args=(--provider "$PROVIDER" --max-api-calls 1200 --max-runtime-minutes 35 --delay-ms 1000)
           if [ -n "$ARTIST" ]; then args+=(--artist "$ARTIST"); fi
           if [ "$MODE" = "apply" ]; then
             node scripts/sync-impact-marketplace-events.mjs --apply "${args[@]}"
@@ -152,16 +155,32 @@ jobs:
 
       - name: Detect event changes
         id: diff
+        env:
+          PROVIDER: ${{ steps.config.outputs.provider }}
         run: |
           if git diff --quiet -- public/data/events.json public/data/events public/data/events-index.json public/index.html; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+          # The audit log is coverage evidence even on a night that changes no
+          # links, so it publishes when its outcome rows differ from the
+          # committed log. Timestamps and run counters alone never open a PR.
+          LOG="reports/provider-sync/${PROVIDER}-event-sync.md"
+          outcome_rows() { grep '^| ' || true; }
+          if [ ! -f "$LOG" ]; then
+            echo "log_changed=false" >> "$GITHUB_OUTPUT"
+          elif ! git cat-file -e "HEAD:$LOG" 2>/dev/null; then
+            echo "log_changed=true" >> "$GITHUB_OUTPUT"
+          elif [ "$(git show "HEAD:$LOG" | outcome_rows)" != "$(outcome_rows < "$LOG")" ]; then
+            echo "log_changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "log_changed=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Prepare publishing identity
         id: publishing-identity
-        if: steps.config.outputs.mode == 'apply' && steps.diff.outputs.changed == 'true'
+        if: steps.config.outputs.mode == 'apply' && (steps.diff.outputs.changed == 'true' || steps.diff.outputs.log_changed == 'true')
         uses: ./.github/actions/automation-identity
         with:
           enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
@@ -170,7 +189,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Open validated provider PR
-        if: steps.config.outputs.mode == 'apply' && steps.diff.outputs.changed == 'true'
+        if: steps.config.outputs.mode == 'apply' && (steps.diff.outputs.changed == 'true' || steps.diff.outputs.log_changed == 'true')
         env:
           PROVIDER: ${{ steps.config.outputs.provider }}
           PR_AUTO_MERGE: ${{ steps.config.outputs.auto_merge }}
@@ -190,5 +209,5 @@ jobs:
           PR_TITLE="${PROVIDER} Impact catalog sync (${TODAY})" \
           PR_LABEL="automation:provider-sync" \
           PR_AUTO_MERGE="$PR_AUTO_MERGE" \
-          PR_BODY="Adds or corrects only unambiguous exact-event links from the owner-confirmed Impact catalog. No guessing, scraping, prices, or availability claims. Incomplete catalogs preserve existing links. Scheduled auto-merge occurs only after the full in-job validation suite passes; manual apply runs remain review-only." \
+          PR_BODY="Adds or corrects only unambiguous exact-event links from the owner-confirmed Impact catalog. No guessing, scraping, prices, or availability claims. Incomplete catalogs preserve existing links. A run that changes no links publishes only its refreshed per-event audit log (reports/provider-sync), when its outcomes changed. Scheduled auto-merge occurs only after the full in-job validation suite passes; manual apply runs remain review-only." \
           node scripts/open-automation-pr.mjs

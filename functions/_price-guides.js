@@ -38,7 +38,7 @@
 //      no "tickets from <price>", no tour-wide range and no lowest-date claim: every
 //      figure belongs to one date, one provider and one capture time.
 
-import { slugify, normalizeCountry, citySlug } from "./_cities.js";
+import { slugify, normalizeCountry, citySlug, metroCity } from "./_cities.js";
 import { PRICE_SNAPSHOT_PROVIDERS, eventLifecycleHeld, eventPriceComparable, eventPublishable, publicOnsalePending, priceGuideGate } from "./_route-indexability.js";
 
 // ---------------------------------------------------------------------------
@@ -251,7 +251,8 @@ export function derivePriceGuide(events, artistSlug, options = {}) {
     if (!show.citySlug) continue;
     let group = citiesBySlug.get(show.citySlug);
     if (!group) {
-      group = { slug: show.citySlug, city: show.city, country: show.country, label: show.city, shows: [], venues: [] };
+      const city = metroCity(show.city, show.country);
+      group = { slug: show.citySlug, city, country: show.country, label: city, shows: [], venues: [] };
       citiesBySlug.set(show.citySlug, group);
     }
     group.shows.push(show);

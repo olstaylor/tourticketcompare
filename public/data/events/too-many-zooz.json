@@ -141,7 +141,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E006531942A5AAF",
     "ticketmaster_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-denver-colorado-03-19-2027/event/1E006531942A5AAF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/too-many-zooz-tickets/denver-colorado-summit-music-hall-denver-2027-03-19-7-pm/concert/18612771",
     "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-denver-summit-music-hall-3-19-2027/production/7594958",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-denver-colorado-03-19-2027/event/1E006531942A5AAF",
@@ -210,7 +210,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006532158EC7B6",
     "ticketmaster_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-houston-texas-04-30-2027/event/3A006532158EC7B6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/too-many-zooz-tickets/houston-texas-white-oak-music-hall-downstairs-2027-04-30-7-pm/concert/18613113",
     "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-houston-white-oak-music-hall---downstairs-4-30-2027/production/7594457",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-houston-texas-04-30-2027/event/3A006532158EC7B6",
@@ -418,7 +418,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv60Y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv60Y",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-buffalo-asbury-hall-at-babeville-buffalo-11-13-2026/production/7485227",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv60Y",
     "last_verified_at": null,
@@ -440,11 +440,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7485227,
+        "url": "https://www.vividseats.com/too-many-zooz-tickets-buffalo-asbury-hall-at-babeville-buffalo-11-13-2026/production/7485227",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -29,9 +29,14 @@ const EVENTS_PATH = path.join(ROOT, "public", "data", "events.json");
 const ARTISTS_PATH = path.join(ROOT, "public", "data", "artists.json");
 const REGISTRY_PATH = path.join(ROOT, "data", "provider-identities.json");
 const PAGE_SIZE = 100;
-const MAX_PAGES = 5;
+// 20 pages × 100 items: the largest artist catalogs exceed 500 items, and a
+// truncated catalog can neither add nor clear a link (it reports "not checked").
+const MAX_PAGES = 20;
 const DEFAULT_DELAY_MS = 1000;
-const REQUEST_TIMEOUT_MS = 30000;
+// Large catalog queries routinely took longer than 30 s through the proxy; a
+// page that still times out is retried once before the catalog is incomplete.
+const REQUEST_TIMEOUT_MS = 60000;
+const RETRY_DELAY_MS = 5000;
 const PAST_GRACE_MS = 24 * 60 * 60 * 1000;
 
 function usage() {
@@ -47,6 +52,11 @@ Options:
   --limit <n>             Limit selected events
   --max-api-calls <n>     Stop safely after n catalog requests
   --delay-ms <n>          Delay between Impact calls (default: ${DEFAULT_DELAY_MS})
+  --max-runtime-minutes <n>
+                          Stop safely once the run has lasted n minutes; the
+                          remaining catalogs are logged as not checked
+  --rotation-key <n>      Which artist the run starts from (default: UTC day
+                          number), so a capped run reaches every artist in turn
   --apply                 Write public/data/events.json
                           (every completed run, dry or applied, rewrites
                           reports/provider-sync/<provider>-event-sync.md)
@@ -56,24 +66,26 @@ Options:
 }
 
 function parseArgs(argv) {
-  const options = { provider: "", artist: "", limit: null, maxApiCalls: null, delayMs: DEFAULT_DELAY_MS, apply: false, json: false, selfTest: false };
+  const options = { provider: "", artist: "", limit: null, maxApiCalls: null, delayMs: DEFAULT_DELAY_MS, retryDelayMs: RETRY_DELAY_MS, deadline: null, rotationKey: null, apply: false, json: false, selfTest: false };
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
     if (arg === "--apply") options.apply = true;
     else if (arg === "--json") options.json = true;
     else if (arg === "--self-test") options.selfTest = true;
     else if (arg === "-h" || arg === "--help") options.help = true;
-    else if (["--provider", "--artist", "--limit", "--max-api-calls", "--delay-ms"].includes(arg)) {
+    else if (["--provider", "--artist", "--limit", "--max-api-calls", "--delay-ms", "--max-runtime-minutes", "--rotation-key"].includes(arg)) {
       const value = argv[++i];
       if (value == null || value.startsWith("--")) throw new Error(`${arg} requires a value`);
       if (arg === "--provider") options.provider = clean(value, 80).toLowerCase();
       else if (arg === "--artist") options.artist = clean(value, 120).toLowerCase();
       else {
         const number = Number.parseInt(value, 10);
-        if (!Number.isInteger(number) || number < (arg === "--delay-ms" ? 0 : 1)) throw new Error(`${arg} has an invalid value`);
+        if (!Number.isInteger(number) || number < (["--delay-ms", "--rotation-key"].includes(arg) ? 0 : 1)) throw new Error(`${arg} has an invalid value`);
         if (arg === "--limit") options.limit = number;
         if (arg === "--max-api-calls") options.maxApiCalls = number;
         if (arg === "--delay-ms") options.delayMs = number;
+        if (arg === "--max-runtime-minutes") options.deadline = Date.now() + number * 60 * 1000;
+        if (arg === "--rotation-key") options.rotationKey = number;
       }
     } else throw new Error(`Unknown option: ${arg}`);
   }
@@ -182,9 +194,11 @@ function evaluateCandidate(event, artistName, candidate) {
 
 function decideOutcome({ storedUrl, storedVerified, storedCandidate, passing, catalogComplete }) {
   if (storedCandidate?.ok) return { action: storedVerified ? "none" : "verify", candidate: storedCandidate };
-  if (passing.length === 1) return { action: storedUrl ? "correct" : "add", candidate: passing[0] };
   if (passing.length > 1) return { action: "conflict", candidate: null };
+  // One passing listing in a partial catalog is not proof it is the only one:
+  // an unfetched page could hold a second (a conflict), so nothing is added.
   if (!catalogComplete) return { action: "none", candidate: null };
+  if (passing.length === 1) return { action: storedUrl ? "correct" : "add", candidate: passing[0] };
   if (storedUrl) return { action: storedVerified ? "unverify" : "clear", candidate: null };
   return { action: "none", candidate: null };
 }
@@ -207,8 +221,39 @@ function markdownCell(value) {
   return String(value ?? "").replace(/\s+/g, " ").replace(/\|/g, "\\|").trim() || "-";
 }
 
-function renderLog(summary, generatedAt = new Date().toISOString()) {
+// Merge a filtered run (--artist / --limit) into the previous log. A filtered
+// run checks a subset, so it must not erase the rest of the provider's
+// evidence. Its rows replace their previous rows in place (so an unchanged
+// outcome leaves the table byte-identical), new rows are appended, and for an
+// --artist run every previous row of that artist's events this run did not
+// produce is dropped: those events were not checked, so they fall back to "no
+// recorded check" instead of keeping a stale outcome. The artist's events are
+// identified by id (events.json artist_slug), so a display-name change cannot
+// keep a stale row alive.
+function mergeOutcomeRows(previousLog, newRows, scopeShowIds = new Set()) {
+  const pending = new Map(newRows.map((row) => [row.id, row.line]));
+  const section = String(previousLog || "").split(/^## Outcomes$/m)[1] || "";
+  const rows = [];
+  let carried = 0;
+  for (const line of section.split("\n")) {
+    if (!line.startsWith("| ") || line.startsWith("| showId ") || line.startsWith("| ---")) continue;
+    const showId = line.slice(2).split(" | ")[0].trim();
+    if (!showId) continue;
+    if (pending.has(showId)) { rows.push(pending.get(showId)); pending.delete(showId); }
+    else if (scopeShowIds.has(showId)) continue;
+    else { rows.push(line); carried += 1; }
+  }
+  rows.push(...pending.values());
+  return { rows, carried };
+}
+
+function renderLog(summary, generatedAt = new Date().toISOString(), { previousLog = null, filter = "", scopeShowIds = new Set() } = {}) {
   const config = providerConfig(summary.provider);
+  const newRows = summary.results.map((row) => ({
+    id: String(row.event_id),
+    line: `| ${markdownCell(row.event_id)} | ${markdownCell(row.artist)} | ${markdownCell(row.action + (row.applied ? " (applied)" : ""))} | ${markdownCell(row.external_id)} | ${markdownCell(row.url)} | ${markdownCell(row.note)} |`
+  }));
+  const merged = previousLog == null ? { rows: newRows.map((row) => row.line), carried: 0 } : mergeOutcomeRows(previousLog, newRows, scopeShowIds);
   const lines = [
     `# ${config.name} event sync log`,
     "",
@@ -222,6 +267,7 @@ function renderLog(summary, generatedAt = new Date().toISOString()) {
     "## Run summary",
     "",
     `- Mode: ${summary.mode}`,
+    ...(filter ? [`- Filtered run (${filter}): its rows replace their previous rows; ${merged.carried} row(s) carried over from the previous log`] : []),
     `- Events selected: ${summary.selected}`,
     `- API calls made: ${summary.api_calls}`,
     `- Verified provenance written: ${summary.verified}`,
@@ -237,7 +283,7 @@ function renderLog(summary, generatedAt = new Date().toISOString()) {
     "",
     `| showId | artist | action | ${config.name} id | url | notes |`,
     "| --- | --- | --- | --- | --- | --- |",
-    ...summary.results.map((row) => `| ${markdownCell(row.event_id)} | ${markdownCell(row.artist)} | ${markdownCell(row.action + (row.applied ? " (applied)" : ""))} | ${markdownCell(row.external_id)} | ${markdownCell(row.url)} | ${markdownCell(row.note)} |`),
+    ...merged.rows,
     ""
   ];
   return `${lines.join("\n").trimEnd()}\n`;
@@ -272,25 +318,40 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
     ? `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`
     : "";
   const candidates = [];
+  const now = () => (options.now ? options.now() : Date.now());
   for (let page = 1; page <= MAX_PAGES; page += 1) {
-    if (options.maxApiCalls != null && state.apiCalls >= options.maxApiCalls) return { candidates, complete: false, stopReason: "api_call_limit" };
-    if (options.delayMs) await new Promise((resolve) => setTimeout(resolve, options.delayMs));
-    state.apiCalls += 1;
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
     let response;
-    try {
-      response = await fetchImpl(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), {
-        headers: {
-          Accept: "application/json",
-          ...(authorization ? { Authorization: authorization } : {}),
-          ...catalogProxyHeaders(env)
-        },
-        signal: controller.signal
-      });
-    } catch (error) {
-      return { candidates, complete: false, stopReason: `request_failed:${clean(error?.message, 120)}` };
-    } finally { clearTimeout(timeout); }
+    let payload;
+    // One retry for a timed-out/failed request (including a stalled or cut-off
+    // body) or a transient 429/5xx; a refusal (401/403/proxy 404) is never retried.
+    for (let attempt = 1; attempt <= 2; attempt += 1) {
+      if (options.maxApiCalls != null && state.apiCalls >= options.maxApiCalls) return { candidates, complete: false, stopReason: "api_call_limit" };
+      if (options.deadline != null && now() >= options.deadline) return { candidates, complete: false, stopReason: "runtime_limit" };
+      const wait = attempt === 1 ? options.delayMs : (options.retryDelayMs ?? RETRY_DELAY_MS);
+      if (wait) await new Promise((resolve) => setTimeout(resolve, wait));
+      state.apiCalls += 1;
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), options.requestTimeoutMs ?? REQUEST_TIMEOUT_MS);
+      let failure = "";
+      response = undefined;
+      try {
+        response = await fetchImpl(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), {
+          headers: {
+            Accept: "application/json",
+            ...(authorization ? { Authorization: authorization } : {}),
+            ...catalogProxyHeaders(env)
+          },
+          signal: controller.signal
+        });
+        // The body is read under the same timeout.
+        if (response.ok) payload = await response.json();
+      } catch (error) {
+        failure = response?.ok && !controller.signal.aborted ? "invalid_json" : `request_failed:${clean(error?.message, 120)}`;
+      } finally { clearTimeout(timeout); }
+      const transient = failure || response.status === 429 || response.status >= 500;
+      if (!transient) break;
+      if (attempt === 2) return { candidates, complete: false, stopReason: failure || `http_${response.status}` };
+    }
     // An incomplete catalog is a normal, silent, exit-0 outcome that preserves
     // existing links, so anything meaning "we were refused" has to be an
     // authFailure instead — otherwise a refused run looks identical to a run
@@ -299,8 +360,6 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
       return { candidates, complete: false, authFailure: true, stopReason: `http_${response.status}` };
     }
     if (!response.ok) return { candidates, complete: false, stopReason: `http_${response.status}` };
-    let payload;
-    try { payload = await response.json(); } catch { return { candidates, complete: false, stopReason: "invalid_json" }; }
     const items = catalogItems(payload);
     if (!items) return { candidates, complete: false, stopReason: "missing_items" };
     for (const item of items) candidates.push(...productCandidates(config, item, programId));
@@ -371,7 +430,13 @@ async function run(options, deps = {}) {
   }
   let authFailure = false;
   let authFailureReason = "";
-  for (const [artistName, artistEvents] of byArtist) {
+  // Start from a different artist each day: when a run stops early (call
+  // budget or runtime limit) the same artists are not the ones left unchecked.
+  const artistQueue = [...byArtist];
+  const rotationKey = options.rotationKey ?? Math.floor((deps.now || new Date()).getTime() / 86400000);
+  const start = artistQueue.length ? rotationKey % artistQueue.length : 0;
+  const rotated = [...artistQueue.slice(start), ...artistQueue.slice(0, start)];
+  for (const [artistName, artistEvents] of rotated) {
     let catalog = deps.fetchCatalog ? await deps.fetchCatalog(config, artistName, options, state) : await fetchCatalog(config, artistName, options, state, deps.env, deps.fetchImpl);
     if (catalog.authFailure) { authFailure = true; authFailureReason = catalog.stopReason || ""; break; }
     if (config.slug === "ticket-liquidator" && catalog.complete) {
@@ -418,6 +483,10 @@ async function run(options, deps = {}) {
     throw new Error(`${config.name} Impact catalog fetch was refused (${authFailureReason || "auth_failure"}); no writes were made${hint}`);
   }
   if (options.apply && results.some((row) => row.applied)) await fs.writeFile(EVENTS_PATH, `${JSON.stringify(events, null, 2)}\n`);
+  // Report in selection order, not the day's rotation order, so the audit log
+  // changes only when an outcome does.
+  const position = new Map(selected.map((item, index) => [item.event.id, index]));
+  results.sort((a, b) => position.get(a.event_id) - position.get(b.event_id));
   return {
     provider: config.slug, mode: options.apply ? "apply" : "dry-run", selected: selected.length, api_calls: state.apiCalls,
     changed: results.filter((row) => row.applied).length,
@@ -489,6 +558,52 @@ async function selfTest() {
   assert.equal(gateRejected.authFailure, true);
   assert.equal(gateRejected.stopReason, "http_404");
   assert.equal(gateRejected.complete, false);
+  // A timed-out page is retried once, then the catalog continues.
+  const tnEnv = { ...proxyEnv, IMPACT_TICKETNETWORK_CAMPAIGN_ID: "2322", IMPACT_TICKETNETWORK_CATALOG_ID: "896" };
+  const pageOf = (n, total) => new Response(JSON.stringify({ Items: Array.from({ length: n }, (_, i) => ({ ...catalogItem, CampaignId: "2322", CatalogItemId: `x${i}` })), "@total": total }), { status: 200 });
+  let calls = 0;
+  const retried = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => {
+    calls += 1;
+    if (calls === 1) throw new Error("This operation was aborted");
+    return pageOf(3, 3);
+  });
+  assert.equal(retried.complete, true);
+  assert.equal(calls, 2);
+  // Two failures in a row leave the catalog incomplete, with the reason kept.
+  const twice = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => { throw new Error("This operation was aborted"); });
+  assert.deepEqual([twice.complete, twice.stopReason], [false, "request_failed:This operation was aborted"]);
+  // A transient 503 is retried; a refusal is not.
+  let calls503 = 0;
+  const after503 = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => (++calls503 === 1 ? new Response("", { status: 503 }) : pageOf(1, 1)));
+  assert.equal(after503.complete, true);
+  let calls401 = 0;
+  await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => { calls401 += 1; return new Response("", { status: 401 }); });
+  assert.equal(calls401, 1);
+  // A body that stalls past the timeout, or arrives cut off, is retried too.
+  let stallCalls = 0;
+  const stalled = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0, requestTimeoutMs: 20 }, { apiCalls: 0 }, tnEnv, async (_url, init) => {
+    stallCalls += 1;
+    if (stallCalls > 1) return pageOf(1, 1);
+    // Without the request timeout the body fails late, after 500 ms, instead.
+    return { ok: true, status: 200, json: () => new Promise((_resolve, reject) => {
+      init.signal.addEventListener("abort", () => reject(new Error("This operation was aborted")));
+      setTimeout(() => reject(new SyntaxError("stalled body")), 500);
+    }) };
+  });
+  assert.deepEqual([stalled.complete, stallCalls], [true, 2]);
+  let cutCalls = 0;
+  const cut = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => (++cutCalls === 1 ? new Response('{"Items": [', { status: 200 }) : pageOf(1, 1)));
+  assert.deepEqual([cut.complete, cutCalls], [true, 2]);
+  const cutTwice = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => new Response('{"Items": [', { status: 200 }));
+  assert.deepEqual([cutTwice.complete, cutTwice.stopReason], [false, "invalid_json"]);
+  // Catalogs past the old 5-page cap now complete (7 pages of 100).
+  let page = 0;
+  const big = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => { page += 1; return pageOf(page < 7 ? 100 : 40, 640); });
+  assert.deepEqual([big.complete, page], [true, 7]);
+  // The runtime limit stops cleanly and says why.
+  const late = await fetchCatalog(config, "RAYE", { delayMs: 0, deadline: 1000, now: () => 2000 }, { apiCalls: 0 }, tnEnv, async () => pageOf(1, 1));
+  assert.deepEqual([late.complete, late.stopReason], [false, "runtime_limit"]);
+  assert.equal(outcomeNote("none", { catalogComplete: false, stopReason: "runtime_limit" }), "not checked: catalog incomplete (runtime_limit)");
   // The same 404 without the proxy stays an ordinary incomplete catalog.
   const directNotFound = await fetchCatalog(
     config, "RAYE", { delayMs: 0 }, { apiCalls: 0 },
@@ -608,13 +723,57 @@ async function selfTest() {
     async fetchCatalog() { return { candidates: [], complete: false, stopReason: "api_call_limit" }; }
   });
   assert.deepEqual(notes(capped), { n5: "not checked: catalog incomplete (api_call_limit)" });
+  // One passing listing in a partial catalog is not added: a later page could
+  // hold a second one.
+  assert.equal(decideOutcome({ storedUrl: "", storedVerified: false, storedCandidate: null, passing: [candidate], catalogComplete: false }).action, "none");
+  const partial = await run({ provider: "ticketnetwork", artist: "", limit: null, maxApiCalls: null, delayMs: 0, apply: false, json: false }, {
+    now: new Date("2026-09-27T00:00:00Z"), data: nightData([night("n5", 5)]),
+    async fetchCatalog() { return { candidates: [{ ...tn, searchableText: "Stadium Act Accor Stadium Sydney Olympic Park 2027-03-05T17:00:00" }], complete: false, stopReason: "runtime_limit" }; }
+  });
+  assert.deepEqual([actions(partial), notes(partial)], [{ n5: "none" }, { n5: "not checked: catalog incomplete (runtime_limit)" }]);
   // 11. The log renders one outcome-table row per result, cells escaped.
   const log = renderLog({ ...unlisted, results: [{ ...unlisted.results[0], artist: "A | B" }] }, "2026-09-27T00:00:00.000Z");
   assert.match(log, /^# TicketNetwork event sync log$/m);
   assert.match(log, /^\| showId \| artist \| action \| TicketNetwork id \| url \| notes \|$/m);
   assert.match(log, /^\| n5 \| A \\\| B \| none \| - \| - \| no qualifying listing \(complete catalog checked\) \|$/m);
   assert.match(log, /^- Not checked \(catalog incomplete\): 0$/m);
-  return 63;
+  // 12. A filtered run keeps the other events' evidence: its own rows replace
+  // theirs in place, others carry over, and an --artist run drops its artist's
+  // rows it did not produce.
+  const row = (id, artist, note) => ({ ...unlisted.results[0], event_id: id, artist, note });
+  const previous = renderLog({ ...unlisted, results: [row("o1", "Other Act", "-"), row("n5", "Stadium Act", "no qualifying listing (complete catalog checked)"), row("gone", "Stadium Act", "ambiguous: several qualifying listings for this event"), row("o2", "Other Act", "-")] });
+  const same = renderLog({ ...unlisted, results: [row("n5", "Stadium Act", "no qualifying listing (complete catalog checked)")] }, undefined, { previousLog: previous, filter: "artist stadium-act", scopeShowIds: new Set(["n5", "gone"]) });
+  const table = (text) => text.split("\n").filter((line) => line.startsWith("| ")).join("\n");
+  assert.equal(table(same), table(previous).split("\n").filter((line) => !line.startsWith("| gone ")).join("\n"));
+  assert.match(same, /^- Filtered run \(artist stadium-act\): .*2 row\(s\) carried over/m);
+  const limited = renderLog({ ...unlisted, results: [row("n5", "Stadium Act", "not checked: catalog incomplete (api_call_limit)"), row("new", "Stadium Act", "-")] }, undefined, { previousLog: previous, filter: "limit 2" });
+  assert.deepEqual(table(limited).split("\n").slice(2).map((line) => line.slice(2).split(" | ")[0]), ["o1", "n5", "gone", "o2", "new"]);
+  assert.match(limited, /^\| n5 \| .*api_call_limit\) \|$/m);
+  assert.equal(mergeOutcomeRows("", [{ id: "a", line: "| a |" }]).rows.length, 1);
+  // The artist order rotates with the key, so a capped run reaches everyone.
+  const twoArtists = [[night("a1", 4), { ...night("b1", 5), artist_slug: "other-act" }], [{ slug: "stadium-act", name: "Stadium Act" }, { slug: "other-act", name: "Other Act" }], [{ slug: "stadium-act", review_status: "verified" }, { slug: "other-act", review_status: "verified" }]];
+  const order = async (key) => {
+    const seen = [];
+    await run({ provider: "ticketnetwork", artist: "", limit: null, maxApiCalls: null, delayMs: 0, rotationKey: key, apply: false, json: false }, {
+      now: new Date("2026-09-27T00:00:00Z"), data: twoArtists,
+      async fetchCatalog(_c, name) { seen.push(name); return { candidates: [], complete: true, stopReason: "" }; }
+    });
+    return seen;
+  };
+  assert.deepEqual(await order(0), ["Stadium Act", "Other Act"]);
+  assert.deepEqual(await order(1), ["Other Act", "Stadium Act"]);
+  // Results (and so the log) keep selection order whatever the rotation, so
+  // a rotated night with unchanged outcomes renders the same table.
+  const resultOrder = async (key) => (await run({ provider: "ticketnetwork", artist: "", limit: null, maxApiCalls: null, delayMs: 0, rotationKey: key, apply: false, json: false }, {
+    now: new Date("2026-09-27T00:00:00Z"), data: twoArtists,
+    async fetchCatalog() { return { candidates: [], complete: true, stopReason: "" }; }
+  })).results.map((row) => row.event_id);
+  assert.deepEqual(await resultOrder(1), ["a1", "b1"]);
+  assert.deepEqual(await resultOrder(1), await resultOrder(0));
+  // A row logged under an old display name is still the artist's, by id.
+  const renamed = renderLog({ ...unlisted, results: [row("old", "Old Stage Name", "no qualifying listing (complete catalog checked)"), row("o1", "Other Act", "-")] });
+  assert.deepEqual(mergeOutcomeRows(renamed, [], new Set(["old"])).rows.map((line) => line.slice(2).split(" | ")[0]), ["o1"]);
+  return 86;
 }
 
 async function main() {
@@ -624,11 +783,19 @@ async function main() {
   if (!options.provider) throw new Error("--provider is required");
   const summary = await run(options);
   const logPath = logPathFor(summary.provider);
-  await fs.writeFile(logPath, renderLog(summary));
+  const filter = [options.artist ? `artist ${options.artist}` : "", options.limit != null ? `limit ${options.limit}` : ""].filter(Boolean).join(", ");
+  const previousLog = filter ? await fs.readFile(logPath, "utf8").catch(() => "") : null;
+  // An --artist run owns every row of that artist's events, keyed by id.
+  const scopeShowIds = new Set();
+  if (options.artist) {
+    const events = JSON.parse(await fs.readFile(EVENTS_PATH, "utf8"));
+    for (const event of events) if (clean(event?.artist_slug, 120) === options.artist) scopeShowIds.add(String(event.id));
+  }
+  await fs.writeFile(logPath, renderLog(summary, undefined, { previousLog, filter, scopeShowIds }));
   if (!options.json) console.log(`Audit log: ${path.relative(ROOT, logPath)}`);
   console.log(options.json ? JSON.stringify(summary, null, 2) : `${summary.provider} ${summary.mode}: ${summary.selected} selected, ${summary.changed} changed, ${summary.added} added, ${summary.verified} verified, ${summary.corrected} corrected, ${summary.cleared} cleared, ${summary.unverified} unverified, ${summary.conflicts} conflicts.`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(error?.stack || error); process.exitCode = 1; });
 
-export { applyOutcome, dateMatches, decideOutcome, outcomeNote, renderLog, enrichTicketLiquidatorCandidates, evaluateCandidate, eventLocalDate, listingsMatchingSeveralDates, parseArgs, run, selectEvents, urlDateConflicts, urlStatedDates };
+export { applyOutcome, mergeOutcomeRows, dateMatches, decideOutcome, outcomeNote, renderLog, enrichTicketLiquidatorCandidates, evaluateCandidate, eventLocalDate, listingsMatchingSeveralDates, parseArgs, run, selectEvents, urlDateConflicts, urlStatedDates };

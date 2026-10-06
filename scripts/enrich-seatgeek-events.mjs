@@ -2,9 +2,12 @@
 //
 // enrich-seatgeek-events.mjs
 //
-// Adds event-level SeatGeek URLs to Ticketmaster-verified events that are
+// Adds event-level SeatGeek URLs to Ticketmaster-anchored events that are
 // missing one, on high-confidence matches only (see SAFE_PUBLISHING_RULES.md
 // "SeatGeek event CTAs"). Zero, weak, or ambiguous candidates never write.
+// Eligible: Ticketmaster-verified rows, and machine_high_confidence rows that
+// carry the same Ticketmaster identity (source, event id, https storefront
+// URL). needs_recheck rows (broken Ticketmaster storefront) stay excluded.
 //
 // Scheduling contract (this is what stops the run starving events):
 //
@@ -264,12 +267,23 @@ function isValidSeatGeekEventUrl(value) {
   return { ok: true, reason: "valid event-level SeatGeek URL" };
 }
 
-function eventIsTicketmasterVerified(event) {
+function eventHasTicketmasterAnchor(event) {
   const source = clean(event.source_type).toLowerCase();
   const tmId = clean(event.ticketmaster_event_id);
   const tmUrl = clean(event.ticketmaster_url, 2048);
-  const provider = event.provider_links?.ticketmaster;
-  return source === "ticketmaster" && Boolean(tmId) && /^https:\/\//i.test(tmUrl) && provider?.verified === true;
+  return source === "ticketmaster" && Boolean(tmId) && /^https:\/\//i.test(tmUrl);
+}
+
+function eventIsTicketmasterVerified(event) {
+  return eventHasTicketmasterAnchor(event) && event.provider_links?.ticketmaster?.verified === true;
+}
+
+// The set enrichment may search and write. The matcher's own gates (exact
+// venue-local date, city/metro, score threshold, no conflicting candidate)
+// are unchanged; only which rows are offered to it widened.
+function eventIsEnrichmentEligible(event) {
+  if (eventIsTicketmasterVerified(event)) return true;
+  return eventHasTicketmasterAnchor(event) && clean(event.verification_status).toLowerCase() === "machine_high_confidence";
 }
 
 async function resumeShowIdFromLog(logPath) {
@@ -300,14 +314,14 @@ function sortableInstant(event) {
   return Number.isFinite(parsed) ? parsed : null;
 }
 
-// Which Ticketmaster-verified events are worth spending SeatGeek API budget on,
+// Which enrichment-eligible events are worth spending SeatGeek API budget on,
 // and in what order. Past events and events whose venue-local date cannot be
 // resolved are reported with a reason and cost zero API calls.
 function eligibleEvents(events, options, now = Date.now(), ctaCountFor = () => 0) {
   const eligible = [];
   const skipped = [];
   for (const event of events) {
-    if (!eventIsTicketmasterVerified(event)) continue;
+    if (!eventIsEnrichmentEligible(event)) continue;
     if (!options.refresh && isValidSeatGeekEventUrl(event.seatgeek_url).ok) continue;
     if (!eventMatchesArtistFilter(event, options.artist)) continue;
 
@@ -912,9 +926,9 @@ function buildResumeCommand(options, nextResumeShowId) {
 
 function summarize(results, options, apiEnvironment, runState, events, scheduling = {}) {
   const skipped = results.filter((result) => result.decision === "skipped");
-  const ticketmasterVerifiedEvents = events.filter(eventIsTicketmasterVerified);
+  const eligiblePoolEvents = events.filter(eventIsEnrichmentEligible);
   const eventsWithValidSeatGeekUrl = events.filter((event) => isValidSeatGeekEventUrl(event.seatgeek_url).ok);
-  const ticketmasterVerifiedWithSeatGeekUrl = ticketmasterVerifiedEvents.filter((event) => isValidSeatGeekEventUrl(event.seatgeek_url).ok);
+  const eligiblePoolWithSeatGeekUrl = eligiblePoolEvents.filter((event) => isValidSeatGeekEventUrl(event.seatgeek_url).ok);
   const notCheckedReasons = new Set(["rate_limited_not_checked", "api_call_limit_not_checked"]);
   const checkedResults = results.filter((result) => !notCheckedReasons.has(result.skipped_reason));
   const skippedReasons = {};
@@ -924,10 +938,10 @@ function summarize(results, options, apiEnvironment, runState, events, schedulin
   return {
     mode: options.applyHighConfidence ? "apply-high-confidence" : "dry-run",
     total_events: events.length,
-    ticketmaster_verified_events: ticketmasterVerifiedEvents.length,
+    enrichment_eligible_events: eligiblePoolEvents.length,
     events_with_valid_seatgeek_url: eventsWithValidSeatGeekUrl.length,
-    ticketmaster_verified_with_valid_seatgeek_url: ticketmasterVerifiedWithSeatGeekUrl.length,
-    ticketmaster_verified_missing_valid_seatgeek_url: ticketmasterVerifiedEvents.length - ticketmasterVerifiedWithSeatGeekUrl.length,
+    enrichment_eligible_with_valid_seatgeek_url: eligiblePoolWithSeatGeekUrl.length,
+    enrichment_eligible_missing_valid_seatgeek_url: eligiblePoolEvents.length - eligiblePoolWithSeatGeekUrl.length,
     eligible_upcoming: scheduling.eligible ?? results.length,
     pre_api_skipped: scheduling.preSkippedCount ?? 0,
     pre_api_skipped_reasons: scheduling.preSkippedReasons ?? {},
@@ -1062,10 +1076,10 @@ function renderLog(results, summary, preSkipped = []) {
     `- SeatGeek client secret present: ${summary.api_environment.seatgeek_client_secret_present}`,
     `- API access with client ID only: ${summary.api_environment.client_id_only_http_status === 200 ? "HTTP 200" : `not confirmed (${summary.api_environment.client_id_only_http_status || "no status"})`}`,
     `- Total events in data: ${summary.total_events}`,
-    `- Ticketmaster-verified events: ${summary.ticketmaster_verified_events}`,
+    `- Enrichment-eligible events (Ticketmaster-verified, or machine_high_confidence with a Ticketmaster identity): ${summary.enrichment_eligible_events}`,
     `- Events already carrying a valid SeatGeek URL: ${summary.events_with_valid_seatgeek_url}`,
-    `- Ticketmaster-verified events already carrying a valid SeatGeek URL: ${summary.ticketmaster_verified_with_valid_seatgeek_url}`,
-    `- Ticketmaster-verified events still missing a valid SeatGeek URL before this run: ${summary.ticketmaster_verified_missing_valid_seatgeek_url}`,
+    `- Enrichment-eligible events already carrying a valid SeatGeek URL: ${summary.enrichment_eligible_with_valid_seatgeek_url}`,
+    `- Enrichment-eligible events still missing a valid SeatGeek URL before this run: ${summary.enrichment_eligible_missing_valid_seatgeek_url}`,
     `- Eligible (upcoming, resolvable local date) after pre-API filtering: ${summary.eligible_upcoming}`,
     `- Skipped before any API call: ${summary.pre_api_skipped} (${Object.entries(summary.pre_api_skipped_reasons).map(([reason, count]) => `${reason}: ${count}`).join(", ") || "none"})`,
     `- Events this run can check (window size): ${summary.events_per_run ?? "all eligible"}`,
@@ -1094,8 +1108,8 @@ function renderLog(results, summary, preSkipped = []) {
     "## Interpretation",
     "",
     `- \`URLs added: ${summary.added}\` refers only to new links added by this run; it does not mean the data set has no SeatGeek links.`,
-    `- ${summary.events_with_valid_seatgeek_url} event(s) already carried valid SeatGeek URLs before this run, including ${summary.ticketmaster_verified_with_valid_seatgeek_url} Ticketmaster-verified event(s).`,
-    `- This run queried only the ${summary.ticketmaster_verified_missing_valid_seatgeek_url} Ticketmaster-verified event(s) that were still missing a valid \`seatgeek_url\`.`,
+    `- ${summary.events_with_valid_seatgeek_url} event(s) already carried valid SeatGeek URLs before this run, including ${summary.enrichment_eligible_with_valid_seatgeek_url} enrichment-eligible event(s).`,
+    `- This run queried only the ${summary.enrichment_eligible_missing_valid_seatgeek_url} enrichment-eligible event(s) that were still missing a valid \`seatgeek_url\`.`,
     `- SeatGeek returned no API candidates for those remaining event/date/city searches, so no additional event-level URLs were safe to apply automatically.`,
     ""
   ];
@@ -1113,7 +1127,7 @@ function renderLog(results, summary, preSkipped = []) {
   lines.push("");
 
   lines.push("## Events skipped", "");
-  lines.push("Skipped rows are only the Ticketmaster-verified events that were still missing a valid `seatgeek_url` when this run started.");
+  lines.push("Skipped rows are only the enrichment-eligible events that were still missing a valid `seatgeek_url` when this run started.");
   lines.push("");
   lines.push(skipped.length ? markdownTable(skipped, [
     { label: "showId", value: (row) => row.showId },
@@ -1160,7 +1174,7 @@ function renderLog(results, summary, preSkipped = []) {
   lines.push("");
 
   lines.push("## Skipped before any API call", "");
-  lines.push("Ticketmaster-verified events missing a SeatGeek URL that this run deliberately did not query. Past events can never gain a useful CTA; an unresolvable venue-local date would make the SeatGeek date filter search the wrong night, so it is never guessed.");
+  lines.push("Enrichment-eligible events missing a SeatGeek URL that this run deliberately did not query. Past events can never gain a useful CTA; an unresolvable venue-local date would make the SeatGeek date filter search the wrong night, so it is never guessed.");
   lines.push("");
   lines.push(preSkipped.length ? markdownTable(preSkipped, [
     { label: "showId", value: (row) => row.event?.id },
@@ -1211,6 +1225,17 @@ function selfTest() {
   const pastRun = eligibleEvents(withPast, baseOptions, now);
   assert("past events are excluded from the eligible set", pastRun.eligible.map((row) => row.event.id).join(",") === "future-1");
   assert("past events are reported with a reason", pastRun.skipped.filter((row) => row.reason === "past_event").length === 2);
+
+  // Eligibility: Ticketmaster-verified rows, plus machine_high_confidence rows
+  // that carry the Ticketmaster identity. needs_recheck and unanchored rows stay out.
+  const pool = eligibleEvents([
+    tmVerified("verified"),
+    tmVerified("machine", { verification_status: "machine_high_confidence", provider_links: {} }),
+    tmVerified("recheck", { verification_status: "needs_recheck", provider_links: {} }),
+    tmVerified("no-anchor", { verification_status: "machine_high_confidence", provider_links: {}, ticketmaster_url: "" }),
+    tmVerified("other-source", { verification_status: "machine_high_confidence", provider_links: {}, source_type: "manual" })
+  ], baseOptions, now).eligible.map((row) => row.event.id).sort().join(",");
+  assert("machine_high_confidence rows with a Ticketmaster identity are eligible; needs_recheck and unanchored rows are not", pool === "machine,verified");
   assert(
     "no attempt is ever built for a skipped past event",
     // The run loop only ever calls buildAttempts on eligible rows, so proving

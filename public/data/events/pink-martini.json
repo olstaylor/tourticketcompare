@@ -945,7 +945,7 @@
         "event_id": 18396258,
         "url": "https://seatgeek.com/pink-martini-tickets/chicago-illinois-chicago-symphony-center-2027-02-12-8-pm/concert/18396258",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1258,7 +1258,7 @@
         "event_id": 18500192,
         "url": "https://seatgeek.com/pink-martini-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-06-7-30-pm/concert/18500192",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1361,7 +1361,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "310064AB3CF10CF5",
     "ticketmaster_url": "https://www.ticketmaster.ca/pink-martini-quebec-quebec-03-18-2027/event/310064AB3CF10CF5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/quebec-city-canada-theatre-capitole-2027-03-18-8-30-pm/concert/18238944",
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-quebec-city-capitole-theatre-3-18-2027/production/7023392",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/pink-martini-quebec-quebec-03-18-2027/event/310064AB3CF10CF5",
@@ -1377,11 +1377,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18238944,
+        "url": "https://seatgeek.com/pink-martini-tickets/quebec-city-canada-theatre-capitole-2027-03-18-8-30-pm/concert/18238944",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7023392,
@@ -1430,7 +1430,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A00650DAD3C99A3",
     "ticketmaster_url": "https://www.ticketmaster.com/pink-martini-allstars-houston-texas-03-25-2027/event/3A00650DAD3C99A3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/houston-texas-sarofim-hall-at-the-hobby-center-2027-03-25-7-30-pm/concert/18515284",
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-houston-sarofim-hall---hobby-center-3-25-2027/production/7457827",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-allstars-houston-texas-03-25-2027/event/3A00650DAD3C99A3",
@@ -1446,11 +1446,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18515284,
+        "url": "https://seatgeek.com/pink-martini-tickets/houston-texas-sarofim-hall-at-the-hobby-center-2027-03-25-7-30-pm/concert/18515284",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7457827,
@@ -1539,5 +1539,113 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv-ZJ",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-pink-martini-2027-liverpool-g5vhz_fpr6w_w",
+    "artist_slug": "pink-martini",
+    "artist_name": "Pink Martini",
+    "event_name": "Pink Martini",
+    "city": "Liverpool",
+    "country": "Great Britain",
+    "venue": "Liverpool Philharmonic Hall",
+    "datetime_iso": "2027-07-03T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0065459E1F267D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/pink-martini-liverpool-03-07-2027/event/1F0065459E1F267D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/pink-martini-liverpool-03-07-2027/event/1F0065459E1F267D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0065459E1F267D",
+        "discovery_event_id": "G5vHZ_fpr6w_W",
+        "url": "https://www.ticketmaster.co.uk/pink-martini-liverpool-03-07-2027/event/1F0065459E1F267D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_fpr6w_W",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T08:00:00Z"
+  },
+  {
+    "id": "tm-pink-martini-2027-edinburgh-1auzk4agkdmo6dj",
+    "artist_slug": "pink-martini",
+    "artist_name": "Pink Martini",
+    "event_name": "Pink Martini",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Usher Hall",
+    "datetime_iso": "2027-07-04T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006545EE447EE6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/pink-martini-edinburgh-04-07-2027/event/36006545EE447EE6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/pink-martini-edinburgh-04-07-2027/event/36006545EE447EE6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006545EE447EE6",
+        "discovery_event_id": "1AUZk4AGkdmo6DJ",
+        "url": "https://www.ticketmaster.co.uk/pink-martini-edinburgh-04-07-2027/event/36006545EE447EE6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZk4AGkdmo6DJ",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T08:00:00Z"
   }
 ]

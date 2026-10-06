@@ -335,7 +335,7 @@
         "event_id": 18570387,
         "url": "https://seatgeek.com/yuridia-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-02-17-8-pm/concert/18570387",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -985,7 +985,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006522071FB6E3",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-laredo-texas-03-18-2027/event/3A006522071FB6E3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/laredo-texas-sames-auto-arena-2027-03-18-8-pm/concert/18570409",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-laredo-sames-auto-arena-3-18-2027/production/7531062",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-laredo-texas-03-18-2027/event/3A006522071FB6E3",
@@ -1001,11 +1001,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570409,
+        "url": "https://seatgeek.com/yuridia-tickets/laredo-texas-sames-auto-arena-2027-03-18-8-pm/concert/18570409",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531062,
@@ -1054,7 +1054,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "04006524AAE6CC21",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-25-2027/event/04006524AAE6CC21",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/rosemont-illinois-rosemont-theatre-2027-03-25-8-pm/concert/18570495",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-rosemont-rosemont-theatre-3-25-2027/production/7531765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-25-2027/event/04006524AAE6CC21",
@@ -1070,11 +1070,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570495,
+        "url": "https://seatgeek.com/yuridia-tickets/rosemont-illinois-rosemont-theatre-2027-03-25-8-pm/concert/18570495",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531765,
@@ -1123,7 +1123,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "15006522ABA282F4",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-national-harbor-maryland-03-28-2027/event/15006522ABA282F4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2027-03-28-8-pm/concert/18570413",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-oxon-hill-the-theater-at-mgm-national-harbor-3-28-2027/production/7531066",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-national-harbor-maryland-03-28-2027/event/15006522ABA282F4",
@@ -1139,11 +1139,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570413,
+        "url": "https://seatgeek.com/yuridia-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2027-03-28-8-pm/concert/18570413",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531066,
@@ -1192,7 +1192,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "04006524B34EE662",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-24-2027/event/04006524B34EE662",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/rosemont-illinois-rosemont-theatre-2027-03-24-8-pm/concert/18609778",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-rosemont-rosemont-theatre-3-24-2027--concerts-latin-music/production/7589034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-24-2027/event/04006524B34EE662",
@@ -1208,11 +1208,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18609778,
+        "url": "https://seatgeek.com/yuridia-tickets/rosemont-illinois-rosemont-theatre-2027-03-24-8-pm/concert/18609778",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7589034,

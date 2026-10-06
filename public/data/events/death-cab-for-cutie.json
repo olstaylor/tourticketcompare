@@ -305,7 +305,7 @@
     "country": "United States Of America",
     "venue": "Neal S Blaisdell Arena",
     "datetime_iso": "2027-01-20T06:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "0A00652EDABD9903",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-honolulu-hawaii-01-19-2027/event/0A00652EDABD9903",
     "seatgeek_url": "",
@@ -358,7 +358,7 @@
     "country": "United States Of America",
     "venue": "The Truth",
     "datetime_iso": "2027-03-12T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "1B00652EB4D5A845",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-nashville-tennessee-03-11-2027/event/1B00652EB4D5A845",
     "seatgeek_url": "",
@@ -403,12 +403,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271386",
+        "url": "https://www.ticketliquidator.com/tickets/8271386/Death-Cab-for-Cutie-tickets-Thu-Mar-11-2027-The-Truth",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3BVgQ-A",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271386"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271386",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271386/Death-Cab-for-Cutie-tickets-Thu-Mar-11-2027-The-Truth"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-knoxville-g5viz_3xoa9li",
@@ -419,10 +427,10 @@
     "country": "United States Of America",
     "venue": "Tennessee Theatre",
     "datetime_iso": "2027-03-13T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "1B00652F911577EC",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-knoxville-tennessee-03-12-2027/event/1B00652F911577EC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/knoxville-tennessee-tennessee-theatre-2027-03-12-8-pm/concert/18603808",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-knoxville-tennessee-theatre-3-12-2027--concerts-alternative/production/7571339",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-knoxville-tennessee-03-12-2027/event/1B00652F911577EC",
@@ -438,11 +446,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603808,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/knoxville-tennessee-tennessee-theatre-2027-03-12-8-pm/concert/18603808",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571339,
@@ -471,13 +479,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271387",
+        "url": "https://www.ticketliquidator.com/tickets/8271387/Death-Cab-for-Cutie-tickets-Fri-Mar-12-2027-Tennessee-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3XoA9Li",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271387",
-    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-knoxville-tickets-3-12-2027/event/107669558"
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-knoxville-tickets-3-12-2027/event/107669558",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271387/Death-Cab-for-Cutie-tickets-Fri-Mar-12-2027-Tennessee-Theatre"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-miami-beach-vvg1vz_3ltyqny",
@@ -488,10 +504,10 @@
     "country": "United States Of America",
     "venue": "The Fillmore Miami Beach at Jackie Gleason Theater",
     "datetime_iso": "2027-03-19T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "0D00652AFFE5DAB9",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-miami-beach-florida-03-18-2027/event/0D00652AFFE5DAB9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2027-03-18-8-pm/concert/18603788",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-3-18-2027--concerts-alternative/production/7571335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-miami-beach-florida-03-18-2027/event/0D00652AFFE5DAB9",
@@ -507,11 +523,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603788,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2027-03-18-8-pm/concert/18603788",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571335,
@@ -557,7 +573,7 @@
     "country": "United States Of America",
     "venue": "Hard Rock Live Orlando",
     "datetime_iso": "2027-03-21T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "2200652BCA1E5202",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-orlando-florida-03-20-2027/event/2200652BCA1E5202",
     "seatgeek_url": "",
@@ -634,10 +650,10 @@
     "country": "United States Of America",
     "venue": "713 Music Hall",
     "datetime_iso": "2027-03-23T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "3A00652ED132F517",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-houston-texas-03-22-2027/event/3A00652ED132F517",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/houston-texas-713-music-hall-2027-03-22-8-pm/concert/18604033",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-houston-713-music-hall-3-22-2027--concerts-alternative/production/7571325",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-houston-texas-03-22-2027/event/3A00652ED132F517",
@@ -653,11 +669,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18604033,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/houston-texas-713-music-hall-2027-03-22-8-pm/concert/18604033",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571325,
@@ -686,13 +702,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271390",
+        "url": "https://www.ticketliquidator.com/tickets/8271390/Death-Cab-for-Cutie-tickets-Mon-Mar-22-2027-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3DoGRf9",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271390",
-    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-houston-tickets-3-22-2027/event/107669472"
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-houston-tickets-3-22-2027/event/107669472",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271390/Death-Cab-for-Cutie-tickets-Mon-Mar-22-2027-713-Music-Hall"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-pittsburgh-1apzkfygkd_ubdt",
@@ -703,7 +727,7 @@
     "country": "United States Of America",
     "venue": "Citizens Live at The Wylie",
     "datetime_iso": "2027-03-31T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "16006530D9DBA0FF",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-pittsburgh-pennsylvania-03-30-2027/event/16006530D9DBA0FF",
     "seatgeek_url": "",
@@ -748,12 +772,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271391",
+        "url": "https://www.ticketliquidator.com/tickets/8271391/Death-Cab-for-Cutie-tickets-Tue-Mar-30-2027-Citizens-Live-at-The-Wylie",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfYGkd_UBdT",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271391"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271391",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271391/Death-Cab-for-Cutie-tickets-Tue-Mar-30-2027-Citizens-Live-at-The-Wylie"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-niagara-falls-1avzz_3gkxslrqs",
@@ -764,7 +796,7 @@
     "country": "Canada",
     "venue": "OLG Stage at Fallsview Casino",
     "datetime_iso": "2027-04-04T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "1000652FB1ADE6B1",
     "ticketmaster_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-niagara-falls-ontario-04-03-2027/event/1000652FB1ADE6B1",
     "seatgeek_url": "",
@@ -817,7 +849,7 @@
     "country": "Canada",
     "venue": "History Ottawa",
     "datetime_iso": "2027-04-04T23:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "3100652F229DCFB2",
     "ticketmaster_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-ottawa-ontario-04-04-2027/event/3100652F229DCFB2",
     "seatgeek_url": "",
@@ -870,10 +902,10 @@
     "country": "Canada",
     "venue": "MTELUS",
     "datetime_iso": "2027-04-06T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "3100652BD6ACC86A",
     "ticketmaster_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-montreal-quebec-04-05-2027/event/3100652BD6ACC86A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/montreal-canada-mtelus-2027-04-05-8-pm/concert/18603817",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027--concerts-alternative/production/7571278",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-montreal-quebec-04-05-2027/event/3100652BD6ACC86A",
@@ -889,11 +921,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603817,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/montreal-canada-mtelus-2027-04-05-8-pm/concert/18603817",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571278,
@@ -922,13 +954,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271400",
+        "url": "https://www.ticketliquidator.com/tickets/8271400/Death-Cab-for-Cutie-tickets-Mon-Apr-5-2027-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GkRplG-n",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271400",
-    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027/event/107668756"
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027/event/107668756",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271400/Death-Cab-for-Cutie-tickets-Mon-Apr-5-2027-MTelus"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-boston-vv177z_3gklgkjcy",
@@ -939,10 +979,10 @@
     "country": "United States Of America",
     "venue": "MGM Music Hall at Fenway",
     "datetime_iso": "2027-04-08T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "0100652AF54DC3B9",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-07-2027/event/0100652AF54DC3B9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-04-07-8-pm/concert/18604107",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-boston-mgm-music-hall-at-fenway-4-7-2027--concerts-alternative/production/7571320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-07-2027/event/0100652AF54DC3B9",
@@ -958,11 +998,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18604107,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-04-07-8-pm/concert/18604107",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571320,
@@ -991,13 +1031,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271392",
+        "url": "https://www.ticketliquidator.com/tickets/8271392/Death-Cab-for-Cutie-tickets-Wed-Apr-7-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GklgKjCy",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271392",
-    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-7-2027/event/107668654"
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-7-2027/event/107668654",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271392/Death-Cab-for-Cutie-tickets-Wed-Apr-7-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-boston-vv177z_3gklgfg2c",
@@ -1008,10 +1056,10 @@
     "country": "United States Of America",
     "venue": "MGM Music Hall at Fenway",
     "datetime_iso": "2027-04-09T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "0100652AF550C3CE",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-08-2027/event/0100652AF550C3CE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-04-08-8-pm/concert/18604106",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-boston-mgm-music-hall-at-fenway-4-8-2027--concerts-alternative/production/7571318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-08-2027/event/0100652AF550C3CE",
@@ -1027,11 +1075,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18604106,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-04-08-8-pm/concert/18604106",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571318,
@@ -1060,13 +1108,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271393",
+        "url": "https://www.ticketliquidator.com/tickets/8271393/Death-Cab-for-Cutie-tickets-Thu-Apr-8-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GklgfG2C",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271393",
-    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-8-2027/event/107668655"
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-8-2027/event/107668655",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271393/Death-Cab-for-Cutie-tickets-Thu-Apr-8-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-uncasville-g5vvz_3vqdtrt",
@@ -1077,7 +1133,7 @@
     "country": "United States Of America",
     "venue": "Mohegan Sun Arena",
     "datetime_iso": "2027-04-10T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "1D00652D1AEFFBFF",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-uncasville-connecticut-04-09-2027/event/1D00652D1AEFFBFF",
     "seatgeek_url": "",
@@ -1122,12 +1178,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271394",
+        "url": "https://www.ticketliquidator.com/tickets/8271394/Death-Cab-for-Cutie-tickets-Fri-Apr-9-2027-Mohegan-Sun-Arena-CT",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_3VQDTRT",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271394"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271394",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271394/Death-Cab-for-Cutie-tickets-Fri-Apr-9-2027-Mohegan-Sun-Arena-CT"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-portland-vv1k7z_ke_g7zcjz",
@@ -1138,7 +1202,7 @@
     "country": "United States Of America",
     "venue": "State Theatre",
     "datetime_iso": "2027-04-12T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "0100653099E0E738",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-portland-maine-04-11-2027/event/0100653099E0E738",
     "seatgeek_url": "",
@@ -1183,12 +1247,20 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271395",
+        "url": "https://www.ticketliquidator.com/tickets/8271395/Death-Cab-for-Cutie-tickets-Sun-Apr-11-2027-State-Theatre-ME",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_Ke_G7zCjz",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271395"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271395",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271395/Death-Cab-for-Cutie-tickets-Sun-Apr-11-2027-State-Theatre-ME"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-new-york-g5dyz_kedn3qx",
@@ -1199,10 +1271,10 @@
     "country": "United States Of America",
     "venue": "Radio City Music Hall",
     "datetime_iso": "2027-04-14T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "3C006530BB8D26A2",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-new-york-new-york-04-13-2027/event/3C006530BB8D26A2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/new-york-new-york-radio-city-music-hall-2027-04-13-8-pm/concert/18603805",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-new-york-radio-city-music-hall-4-13-2027--concerts-alternative/production/7571294",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-new-york-new-york-04-13-2027/event/3C006530BB8D26A2",
@@ -1218,11 +1290,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603805,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/new-york-new-york-radio-city-music-hall-2027-04-13-8-pm/concert/18603805",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571294,
@@ -1251,13 +1323,21 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271396",
+        "url": "https://www.ticketliquidator.com/tickets/8271396/Death-Cab-for-Cutie-tickets-Tue-Apr-13-2027-Radio-City-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dYZ_KeDN3Qx",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271396",
-    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-new-york-tickets-4-13-2027/event/107668766"
+    "stubhub_international_url": "https://www.stubhub.ie/death-cab-for-cutie-new-york-tickets-4-13-2027/event/107668766",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271396/Death-Cab-for-Cutie-tickets-Tue-Apr-13-2027-Radio-City-Music-Hall"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-asheville-g5evz_3io8wkm",
@@ -1268,7 +1348,7 @@
     "country": "United States Of America",
     "venue": "Harrah's Cherokee Center - Asheville",
     "datetime_iso": "2027-04-17T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "2D00652B2043D4EE",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-asheville-north-carolina-04-16-2027/event/2D00652B2043D4EE",
     "seatgeek_url": "",
@@ -1321,7 +1401,7 @@
     "country": "United States Of America",
     "venue": "The Eastern-GA",
     "datetime_iso": "2027-03-15T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvUFx",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUFx",
     "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/atlanta-georgia-the-eastern-atlanta-2027-03-14-8-pm/concert/18604670",
@@ -1366,12 +1446,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271401",
+        "url": "https://www.ticketliquidator.com/tickets/8271401/Death-Cab-for-Cutie-tickets-Sun-Mar-14-2027-The-Eastern-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvUFx",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271401"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271401",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271401/Death-Cab-for-Cutie-tickets-Sun-Mar-14-2027-The-Eastern-GA"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-atlanta-z7r9jz1aavuf-",
@@ -1382,7 +1470,7 @@
     "country": "United States Of America",
     "venue": "The Eastern-GA",
     "datetime_iso": "2027-03-16T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvUF-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUF-",
     "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/atlanta-georgia-the-eastern-atlanta-2027-03-15-8-pm/concert/18604671",
@@ -1427,12 +1515,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271402",
+        "url": "https://www.ticketliquidator.com/tickets/8271402/Death-Cab-for-Cutie-tickets-Mon-Mar-15-2027-The-Eastern-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvUF-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271402"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271402",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271402/Death-Cab-for-Cutie-tickets-Mon-Mar-15-2027-The-Eastern-GA"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-saint-augustine-z7r9jz1aavgpy",
@@ -1443,7 +1539,7 @@
     "country": "United States Of America",
     "venue": "St Augustine Amphitheatre",
     "datetime_iso": "2027-03-18T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvgPy",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvgPy",
     "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-03-17-7-pm/concert/18604673",
@@ -1496,7 +1592,7 @@
     "country": "United States Of America",
     "venue": "Saenger Theatre-New Orleans",
     "datetime_iso": "2027-03-27T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvUv8",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvUv8",
     "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/new-orleans-louisiana-saenger-theatre-new-orleans-2027-03-26-7-30-pm/concert/18604674",
@@ -1565,7 +1661,7 @@
     "country": "United States Of America",
     "venue": "Masonic Temple - Detroit",
     "datetime_iso": "2027-04-01T22:00:00Z",
-    "tour_name": "",
+    "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeefP",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeefP",
     "seatgeek_url": "",

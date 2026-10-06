@@ -21,8 +21,8 @@ import { OG_CARDS } from "./_og-cards.generated.js";
 import { attachApprovedMarketplacePrices, APPROVED_MARKETPLACE_PRICE_LANES } from "./api/shows.js";
 import { deriveEventPriceLow, fetchEventPriceLowSeries, PRICE_LOW_WINDOW_DAYS } from "./_event-price-low.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
-import { deriveVenues, findVenue } from "./_venues.js";
-import { citySlug, deriveCities, findCity, normalizeCountry } from "./_cities.js";
+import { canonicalLocationPath, deriveVenues, findVenue, venueSlug } from "./_venues.js";
+import { citySlug, deriveCities, findCity, metroSlugRedirect, normalizeCountry, rawCitySlug } from "./_cities.js";
 import { deriveArtistCities, deriveIndexableArtistCities, findArtistCity, artistCityFootprint } from "./_artist-cities.js";
 import { deriveCityDatePrices } from "./_artist-city-prices.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
@@ -507,7 +507,23 @@ function findTour(catalog, artistSlug, tourSlug) {
   return (catalog.tours || []).find((row) => slugify(row.artist_slug) === artistSlug && slugify(row.slug) === tourSlug);
 }
 
+// A city, venue or artist-city URL written with an aliased city spelling
+// (CITY_ALIASES in _venues.js) 301s to wherever its canonical spelling resolves.
+// Only a path that would otherwise 404 is tried, so a real page whose slug
+// merely contains the alias ("saint-petersburg-beach") is never rewritten, and
+// the redirect goes straight to the canonical route's own terminal answer: the
+// page itself, its lifecycle redirect, or a plain 404, never a chain.
 async function routeForPath(pathname, env) {
+  const route = await resolveRoute(pathname, env);
+  if (route) return route;
+  const canonicalPath = canonicalLocationPath(normalizePath(pathname));
+  if (!canonicalPath) return null;
+  const canonicalRoute = await resolveRoute(canonicalPath, env);
+  if (!canonicalRoute) return null;
+  return { type: "redirect", location: canonicalRoute.type === "redirect" ? canonicalRoute.location : canonicalPath };
+}
+
+async function resolveRoute(pathname, env) {
   const path = normalizePath(pathname);
   if (OLD_GUIDE_REDIRECTS[path]) return { type: "redirect", location: OLD_GUIDE_REDIRECTS[path] };
   if (path === "/compare-concert-ticket-prices") return { type: "comparison-hub", path, ...TRUST_ROUTES[path] };
@@ -653,6 +669,14 @@ async function routeForPath(pathname, env) {
     }
     const cityMatch = path.match(/^\/cities\/([a-z0-9-]+)$/);
     if (!cityMatch) return null;
+    // A suburb Ticketmaster used as the city (Docklands, Burswood) now folds
+    // into its metro page; its old URL 301s there (metroCity in _cities.js).
+    // When the metro has nothing upcoming either, go straight to /cities so the
+    // old URL stays one hop.
+    const metroSlug = metroSlugRedirect(cityMatch[1]);
+    if (metroSlug) {
+      return { type: "redirect", location: findCity(cityEvents, metroSlug) ? `/cities/${metroSlug}` : "/cities" };
+    }
     const city = findCity(cityEvents, cityMatch[1]);
     if (!city) {
       // A city we have tracked before but with nothing upcoming now: a
@@ -868,10 +892,21 @@ async function routeForPath(pathname, env) {
     const artist = findArtist(catalog, artistCityMatch[1]);
     if (!artist) return null;
     const cityEvents = await loadEvents(env);
+    // An old suburb slug (…/tickets/docklands-australia) resolves as its metro
+    // (metroCity in _cities.js), but only when the artist really played that
+    // suburb; any other suburb slug 404s like an unknown city. A page that
+    // would render 301s to the metro URL; every other outcome below is already
+    // a single hop.
+    const metroSlug = metroSlugRedirect(artistCityMatch[2]);
+    if (metroSlug && !cityEvents.some((event) =>
+      slugify(event?.artist_slug) === artist.slug && rawCitySlug(event?.city, event?.country) === slugify(artistCityMatch[2])
+    )) return null;
+    const requestedCitySlug = metroSlug || artistCityMatch[2];
     const artistMetaRecord = artistsMeta.find((m) => slugify(m.slug) === artistCityMatch[1]) || {};
     const artistIndexable = artistMetaRecord.indexing_status === "indexable_with_substantial_content";
-    const artistCity = findArtistCity(cityEvents, artist.slug, artistCityMatch[2]);
+    const artistCity = findArtistCity(cityEvents, artist.slug, requestedCitySlug);
     if (artistIndexable && artistCity && artistCity.hasPublishable) {
+      if (metroSlug) return { type: "redirect", location: `/artists/${artist.slug}/tickets/${metroSlug}` };
       const enrichedArtist = { ...artist, indexing_status: artistMetaRecord.indexing_status || "" };
       const indexableVenueSlugs = deriveVenues(cityEvents)
         .filter((venue) => venue.indexable)
@@ -908,7 +943,7 @@ async function routeForPath(pathname, env) {
     // Expired / under-review / non-qualifying but genuine footprint: redirect to
     // the artist hub. Unknown city slugs fall through to a real 404.
     const footprint = artistCityFootprint(cityEvents, artist.slug);
-    if (footprint.has(slugify(artistCityMatch[2]))) {
+    if (footprint.has(slugify(requestedCitySlug))) {
       return { type: "redirect", location: `/artists/${artist.slug}` };
     }
     return null;
@@ -1169,7 +1204,8 @@ function foldName(value) {
 function musicEventName(show, artistName) {
   const eventName = String(show.event_name || "").trim();
   const artist = foldName(artistName);
-  if (eventName && artist && foldName(eventName).includes(artist)) return eventName;
+  // Whole words only: "Rush" must not match "Rushmore", nor "Muse" "Museum".
+  if (eventName && artist && ` ${foldName(eventName)} `.includes(` ${artist} `)) return eventName;
   return show.venue ? `${artistName} at ${show.venue}` : `${artistName} — ${show.city}`;
 }
 
@@ -2349,7 +2385,7 @@ function indexableArtistCityPaths(events, targetCitySlug, linkableArtistSlugs, p
 
 function cityForVenue(events, venue) {
   return deriveCities(events).find(
-    (city) => city.indexable && city.city === venue.city && city.venueSlugs.includes(venue.slug)
+    (city) => city.indexable && city.slug === citySlug(venue.city, venue.country) && city.venueSlugs.includes(venue.slug)
   ) || null;
 }
 
@@ -5843,7 +5879,7 @@ function eventPageRoute(decision, artist, catalog, events) {
   const shortDate = formatShortDateServer(event.datetime_iso, event.timezone);
   const locationSlug = citySlug(city, country);
   const artistCity = findArtistCity(events, artist.slug, locationSlug);
-  const venueSlugValue = slugify(`${venue} ${city}`);
+  const venueSlugValue = venueSlug(venue, city);
   return {
     type: "event",
     path: decision.canonicalPath,

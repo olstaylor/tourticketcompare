@@ -88,8 +88,10 @@ match is only applied (`high_confidence`) when **all** mandatory checks pass:
 - no conflicting same-date/city candidates.
 
 Anything short of that is skipped (proposal: `needs_review` / `reject`) and left
-for human verification. The apply path only touches events that are
-Ticketmaster-verified and currently lack a valid `seatgeek_url`.
+for human verification. The apply path only touches events that currently lack
+a valid `seatgeek_url` and are either Ticketmaster-verified or
+`machine_high_confidence` with a Ticketmaster identity (source, event id, https
+storefront URL); `needs_recheck` rows are excluded (owner-approved 2026-10-06).
 
 ## Verification & standalone SeatGeek CTAs (`verify-seatgeek-events.mjs`)
 

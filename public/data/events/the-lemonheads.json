@@ -714,5 +714,58 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvwOb",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-englewood-z7r9jz1aavvvk",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads - The Love Chant Tour - Ages 16+",
+    "city": "Englewood",
+    "country": "United States Of America",
+    "venue": "Gothic Theatre",
+    "datetime_iso": "2027-03-15T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvVvK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVvK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVvK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvVvK",
+        "discovery_event_id": "Z7r9jZ1AAvVvK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVvK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVvK",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

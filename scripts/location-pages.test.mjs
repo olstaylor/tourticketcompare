@@ -540,4 +540,36 @@ const pastOnsalePage = await render(
 );
 assert(pastOnsalePage.main.includes("showId=fixture-a1"), "an on-sale time already passed no longer suppresses the CTA");
 
+// ─── aliased city spelling (CITY_ALIASES): one hop, never a chain ───────────
+
+{
+  const stPete = (overrides) => ({
+    ...fixtureEvent({ venue: "Jannus Live", ...overrides }),
+    city: overrides.city || "St Petersburg"
+  });
+  // Upcoming: the alias URL lands on the merged page.
+  const live = [
+    stPete({ id: "alias-1", artist: artistA, iso: "2026-09-11T01:00:00Z" }),
+    stPete({ id: "alias-2", artist: artistB, iso: "2026-09-12T01:00:00Z", city: "Saint Petersburg" })
+  ];
+  const liveVenue = await render("/venues/jannus-live-saint-petersburg", live);
+  assert(liveVenue.status === 301 && liveVenue.location.endsWith("/venues/jannus-live-st-petersburg"), "an alias venue URL 301s to the merged venue page");
+  // Expired: straight to where the canonical page itself redirects, not via it.
+  const past = live.map((event) => ({ ...event, datetime_iso: "2026-07-01T01:00:00Z" }));
+  const canonicalPast = await render("/venues/jannus-live-st-petersburg", past);
+  const aliasPast = await render("/venues/jannus-live-saint-petersburg", past);
+  assert(canonicalPast.status === 301, "the expired canonical venue page redirects");
+  assert(aliasPast.status === 301 && aliasPast.location === canonicalPast.location, "the expired alias URL goes straight to the same destination in one hop");
+  // An artist who never played there: a direct 404, not a 301 to a 404.
+  const unplayed = await render("/artists/no-such-run/tickets/saint-petersburg-united-states", live);
+  assert(unplayed.status === 404, "an alias URL that resolves to nothing is a plain 404");
+  // A real city whose name merely contains the alias text is left alone.
+  const beach = [
+    stPete({ id: "beach-1", artist: artistA, iso: "2026-09-11T01:00:00Z", city: "Saint Petersburg Beach" }),
+    stPete({ id: "beach-2", artist: artistB, iso: "2026-09-12T01:00:00Z", city: "Saint Petersburg Beach" })
+  ];
+  const beachVenue = await render("/venues/jannus-live-saint-petersburg-beach", beach);
+  assert(beachVenue.status === 200, "a real page whose slug contains the alias text renders, not redirects");
+}
+
 console.log(`location-pages: ${passed} assertions passed`);

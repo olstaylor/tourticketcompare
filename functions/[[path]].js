@@ -1620,7 +1620,8 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
   if (route.type === "artist") {
     const artistModel = artistBoardModel(route, events, env);
     const rendersSummary =
-      artistModel.shows.length > 0 || route.artist.indexing_status === "indexable_with_substantial_content";
+      !isShellArtistSummary(route.artist.factual_summary) &&
+      (artistModel.shows.length > 0 || route.artist.indexing_status === "indexable_with_substantial_content");
     graph.push(artistSchema(route, origin, rendersSummary));
     if (artistModel.shows.length) {
       graph.push(faqPageSchema(artistModel.content.faq));
@@ -2644,6 +2645,16 @@ function collapsedGroupHtml(summary, html) {
   return `<details class="page-more"><summary>${escapeHtml(summary)}</summary><div class="page-more__body">${html}</div></details>`;
 }
 
+// Template copy that scripts/auto-promote.mjs writes into a new artist's
+// catalog record. It states only that Ticketmaster lists the act, or repeats
+// what the "Where to buy" panel already says, so pages don't print it.
+function isShellArtistSummary(text) {
+  return /\bis listed by Ticketmaster\b[^.]*\. The dates on this page come from Ticketmaster and are checked daily\.$/.test(String(text || "").trim());
+}
+function isShellTicketBuyingNote(text) {
+  return /^These links go to the .+ page on each ticket provider\. Prices, fees and availability are set by the provider/.test(String(text || "").trim());
+}
+
 // `withArtistPanel` false drops the point about the "Where to buy" buttons, for
 // pages (artist-city) that render the date board without that panel: the help
 // must not describe furniture the page does not have.
@@ -3313,10 +3324,10 @@ function derivePriceGuideView(route, events, env) {
   // One chronological example, never a minimum across dates. Use the same
   // attributed, timestamped lane as its table row and tracked button.
   const currentAnswer = firstPricedRow && firstPricedShow
-    ? `${firstPricedShow.city}, ${firstPricedShow.venue}, ${formatShowDateServer(firstPricedRow.datetimeISO, firstPricedRow.timezone)}: ${formatServerPrice(firstPricedRow.lowest.price, firstPricedRow.lowest.currency)} listed on ${firstPricedRow.lowest.name}, checked ${formatServerSnapshotTime(firstPricedRow.lowest.fetchedAt)}. ${priceAnswer.pricedRowCount} of ${guide.showCount} dates show a listed resale price right now.`
+    ? `${priceAnswer.pricedRowCount} of ${guide.showCount} dates show a listed resale price right now. The soonest: ${formatShowDateServer(firstPricedRow.datetimeISO, firstPricedRow.timezone)} in ${firstPricedShow.city} (${firstPricedShow.venue}), ${formatServerPrice(firstPricedRow.lowest.price, firstPricedRow.lowest.currency)} on ${firstPricedRow.lowest.name}, checked ${formatServerSnapshotTime(firstPricedRow.lowest.fetchedAt)}.`
     : checkedCount
-      ? "No eligible listed resale price is displayed for the checked dates right now. Missing pricing does not mean tickets are unavailable."
-      : "Listed-price snapshots could not be checked on this visit. Use each date's ticket links to check prices with the provider.";
+      ? "No listed resale price is showing for these dates right now. That doesn't mean tickets are gone: check each date's ticket links."
+      : "Prices couldn't be loaded just now. Each date's ticket links still open the ticket sites.";
 
   const nextOnsale = guide.nextOnsaleAt ? formatServerSnapshotTime(guide.nextOnsaleAt) : "";
   return { priceAnswer, rowById, lowByShowId, moves, linkCounts, range, artistHref, checkedCount, currentAnswer, guideShowsById, nextOnsale };
@@ -3379,10 +3390,14 @@ function renderPriceGuideBody(route, events, env) {
   }</h1><p class="lead">${escapeHtml(
     currentAnswer
   )}</p><p>${escapeHtml(
-    `Listed prices by date and provider for ${guide.showCount} upcoming ${artist.name} ${guide.showCount === 1 ? "date" : "dates"} in ${guide.cityCount} ${
-      guide.cityCount === 1 ? "city" : "cities"
-    }${range ? ` (${range})` : ""}.`
-  )} ${anchor("See prices by date", "#priceGuideDatesTitle", "text-link")} or ${anchor("compare ticket sites for your show", artistHref, "text-link")}.</p>`;
+    `${guide.showCount} upcoming ${guide.showCount === 1 ? "date" : "dates"} in ${guide.cityCount} ${guide.cityCount === 1 ? "city" : "cities"}${
+      range ? ` (${range})` : ""
+    }. These are resale listings, not face value, and fees are added at checkout.`
+  )}</p><div class="action-row">${anchor(`Compare ${artist.name} tickets`, artistHref, "button button-primary")}${anchor(
+    "See prices by date",
+    "#priceGuideDatesTitle",
+    "button button-secondary"
+  )}</div>`;
 
   const cards = [
     [
@@ -3424,11 +3439,11 @@ function renderPriceGuideBody(route, events, env) {
   const tablesHtml = `<section class="nested-panel artist-city-price-answer" aria-labelledby="priceGuideDatesTitle"><h2 id="priceGuideDatesTitle">${escapeHtml(
     artist.name
   )} resale prices by date</h2><p>${escapeHtml(
-    `The lowest listed price currently on record for each tracked date, and the ticket site offering it, grouped by city. "Sites compared" counts the ticket sites with an eligible listed-price snapshot for that exact date. Dates are in calendar order and are not ranked against each other.`
-  )}</p>${renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, route.indexableCitySlugs || new Set())}<p class="disclosure-note">Each figure is a provider-supplied listed-price snapshot for that exact date, captured at the time shown — not live inventory, not availability, and not a final checkout total. Fees, taxes, delivery and the final total are settled at the provider's checkout.</p></section>`;
+    `The lowest listed price on record for each date and the site offering it, in date order. "Sites compared" is how many ticket sites had a price for that date.`
+  )}</p>${renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, route.indexableCitySlugs || new Set())}<p class="disclosure-note">Each figure is one site's listed-price snapshot for that date at the time shown, not live stock or a final checkout total.</p></section>`;
 
   const movesHtml = renderPriceGuideMoves(artist, moves, priceAnswer.pricedRowCount, guideShowsById);
-  const missingPricesHtml = `<section class="nested-panel" aria-labelledby="priceGuideMissingTitle"><h2 id="priceGuideMissingTitle">Why a date may have no displayed price</h2><p>A ticket link can be shown without a price. A listed-price snapshot needs an approved provider source, a verified match to that exact show, and a valid currency and check time. Expired snapshots are hidden; a missing price can also mean no usable snapshot was supplied or the latest check could not be completed.</p><p>Ticketmaster is an official ticket-link source here, not a displayed price source. No Ticketmaster price on this page does not mean no tickets. SeatGeek supplies ticket links but no numeric snapshots; Ticket Liquidator's feed currently supplies no usable numeric prices. Use “Compare this show” to open the exact date's ticket options and confirm seats, fees and the final total with the provider.</p></section>`;
+  const missingPricesHtml = `<section class="nested-panel" aria-labelledby="priceGuideMissingTitle"><h2 id="priceGuideMissingTitle">Why a date may have no displayed price</h2><p>Only some ticket sites share prices with this site. Ticketmaster, SeatGeek and Ticket Liquidator links carry no price here, and a price too old to trust is hidden, so a date with no price can still have tickets. Use “Compare this show” to check that date on each site.</p></section>`;
 
   const linkItems = [...linkCounts.entries()]
     .map(([name, count]) => `<li>${escapeHtml(`${name}: linked for ${count} of ${guide.showCount} ${guide.showCount === 1 ? "date" : "dates"}`)}</li>`)
@@ -3465,7 +3480,7 @@ function renderPriceGuideBody(route, events, env) {
 
   return `<main id="mainContent"><section class="content-page price-guide-page" aria-labelledby="priceGuideTitle">${renderBreadcrumbHtml(
     route
-  )}${leadHtml}<p class="disclosure-note">Every figure is a provider-supplied resale listed-price snapshot for one verified date, not Ticketmaster face value, ticket availability or a final checkout total. Confirm fees, taxes and delivery at checkout.</p>${tablesHtml}${movesHtml}${missingPricesHtml}${glanceHtml}${faceValueHtml}${whereHtml}${renderPriceGuideFaqHtml(priceGuideFaqEntries(route, view))}${relatedHtml}</section></main>`;
+  )}${leadHtml}${tablesHtml}${movesHtml}${missingPricesHtml}${glanceHtml}${faceValueHtml}${whereHtml}${renderPriceGuideFaqHtml(priceGuideFaqEntries(route, view))}${relatedHtml}</section></main>`;
 }
 
 function artistCityShowIdSet(artistCity) {
@@ -4051,7 +4066,17 @@ function renderComparisonHubEventCards(events = [], env = {}) {
   // section's older card had no date badge, so the shared two-column card grid
   // squeezed its title into the badge column. CTA clicks keep their
   // comparison_hub location.
-  return `<section id="current-events" class="nested-panel"><h2>Prices on upcoming shows</h2><p>Each show below displays approved current listed-price snapshots where available. Where a snapshot appears, that's a listed price, not your final total: fees, tax, delivery, seat details, and availability are settled at the provider's checkout.</p>${renderMoneyDisclosureHtml()}<div class="card-grid show-card-grid">${shows
+  //
+  // This section is the soonest few shows, so it changes every day and any
+  // copy a search engine keeps of it goes out of date within hours: Google's
+  // indexed copy showed 25 Sept dates under "upcoming" in October (owner
+  // report, 2026-10-06). `data-nosnippet` keeps it out of search snippets and
+  // AI summaries, and the heading carries the date the list was built, so a
+  // cached copy reads as dated rather than wrong.
+  const asOf = formatVerificationDate(new Date().toISOString().slice(0, 10));
+  return `<section id="current-events" class="nested-panel" data-nosnippet><h2>Prices on upcoming shows${
+    asOf ? `, as of ${escapeHtml(asOf)}` : ""
+  }</h2><p>The next shows with checked ticket links. A price is one site's listed price, not your final total: fees and delivery are added at checkout.</p>${renderMoneyDisclosureHtml()}<div class="card-grid show-card-grid">${shows
     .map((show) =>
       renderShowCardServerHtml(
         show,
@@ -5415,8 +5440,7 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
 // a description of the card. No link is emitted here — the provider buttons
 // above stay the card's only outbound links.
 // Keep in sync with PRICE_UNAVAILABLE_NOTE in public/app.js.
-const PRICE_UNAVAILABLE_NOTE =
-  "No listed-price snapshot is available for this date. Check current prices using the provider buttons above.";
+const PRICE_UNAVAILABLE_NOTE = "No listed price right now.";
 
 // A price check older than this is not quoted: "no listed price at our last
 // check" is only useful while that check is recent enough to still describe
@@ -5429,6 +5453,7 @@ const PRICE_CHECK_QUOTE_MAX_HOURS = 36;
 // display flag on (wrangler.toml [vars]) and a scheduled writer. Ticket
 // Liquidator links but does not price; SeatGeek and Ticketmaster never price.
 // Update with the display flags if a lane is added or withdrawn.
+// Keep in sync with LISTED_PRICE_PROVIDER_SLUGS in public/app.js.
 const LISTED_PRICE_PROVIDERS = Object.freeze([
   Object.freeze({ slug: "vivid-seats", name: "Vivid Seats" }),
   Object.freeze({ slug: "ticketnetwork", name: "TicketNetwork" }),
@@ -5446,22 +5471,13 @@ function joinProviderNames(names) {
 //   1. It has a button on a price-comparison lane and that lane recorded a
 //      recent check: name the lanes and the check time.
 //   2. It has such a button but no recorded check: the undated note.
-//   3. Its record is not verified on any lane that supplies prices
-//      (Ticketmaster or SeatGeek only): say so, so the missing price reads as
-//      coverage rather than as a fault.
+//   3. None of its buttons is on a lane that supplies prices (Ticketmaster,
+//      SeatGeek or Ticket Liquidator only): no note. Nothing on the card
+//      claims a price, so explaining the absence of one on every card (it used
+//      to repeat on each date of a tour) only pushed the next date down.
 function priceUnavailableNote(ctaSpecs, show, now = Date.now()) {
-  const buttonWord = ctaSpecs.length === 1 ? "the button above" : "the provider buttons above";
   const priceLaneSpecs = ctaSpecs.filter((spec) => LISTED_PRICE_PROVIDERS.some((lane) => lane.slug === spec.provider));
-  // "Not matched" is a statement about the event record, not about which
-  // buttons rendered: a lane can be verified yet hidden by runtime config, and
-  // that date is matched. Only a record with no verified price-lane mapping at
-  // all gets the unmatched wording.
-  const mappedOnPriceLane = LISTED_PRICE_PROVIDERS.some((lane) => show?.provider_links?.[lane.slug]?.verified === true);
-  if (!priceLaneSpecs.length && mappedOnPriceLane) return PRICE_UNAVAILABLE_NOTE;
-  if (!priceLaneSpecs.length) {
-    const sources = joinProviderNames(LISTED_PRICE_PROVIDERS.map((lane) => lane.name));
-    return `No listed-price snapshot for this date: it isn't matched yet on the sites prices are collected from (${sources}). Check current prices using ${buttonWord}.`;
-  }
+  if (!priceLaneSpecs.length) return "";
   const checks = show?.priceChecks && typeof show.priceChecks === "object" ? show.priceChecks : {};
   const recent = priceLaneSpecs
     .map((spec) => ({ name: spec.name, at: Date.parse(String(checks[spec.provider] || "")) }))
@@ -5471,7 +5487,7 @@ function priceUnavailableNote(ctaSpecs, show, now = Date.now()) {
   const when = formatServerSnapshotTime(latest);
   if (!when) return PRICE_UNAVAILABLE_NOTE;
   const checkedLanes = joinProviderNames(recent.map((entry) => entry.name));
-  return `No listed price at the last check of ${checkedLanes} (${when}). Check current prices using ${buttonWord}.`;
+  return `No listed price on ${checkedLanes} at the last check (${when}).`;
 }
 
 // Did this card's price lanes actually get queried? attachApprovedMarketplacePrices
@@ -5498,21 +5514,29 @@ function pricesWereChecked(show) {
 function renderServerPriceNotes(ctaSpecs, pricesChecked = false, show = null) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) {
-    return pricesChecked && ctaSpecs.length
-      ? `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(priceUnavailableNote(ctaSpecs, show))}</p></div>`
-      : "";
+    const note = pricesChecked && ctaSpecs.length ? priceUnavailableNote(ctaSpecs, show) : "";
+    return note ? `<div class="provider-cta-notes"><p class="disclosure-note">${escapeHtml(note)}</p></div>` : "";
   }
   // P2 (owner-approved 2026-09-24): relative age answers "when" at a glance.
   // The absolute UTC capture time stays on every figure, in the <time>
   // element's datetime and title, so the provenance is still on the page.
-  const checked = priced.map((spec) => {
+  // When every priced lane reads the same age (the usual case: the writers
+  // run together) the age is said once, from the oldest lane, instead of
+  // once per site.
+  const timeHtml = (spec) => {
     const fetchedAt = String(spec.lane?.fetchedAt || "");
-    return `<time datetime="${escapeAttr(fetchedAt)}" title="${escapeAttr(spec.priceAsOf)}">${escapeHtml(
-      relativeCheckAge(fetchedAt)
-    )}</time> (${escapeHtml(spec.name)})`;
-  });
-  const checkedText = checked.length > 1 ? `${checked.slice(0, -1).join(", ")} and ${checked[checked.length - 1]}` : checked[0];
-  return `<div class="provider-cta-notes"><p class="disclosure-note">Checked ${checkedText}. Listed prices, not your final total: the site adds fees at checkout.</p></div>`;
+    return `<time datetime="${escapeAttr(fetchedAt)}" title="${escapeAttr(spec.priceAsOf)}">${escapeHtml(relativeCheckAge(fetchedAt))}</time>`;
+  };
+  const ages = new Set(priced.map((spec) => relativeCheckAge(spec.lane?.fetchedAt)));
+  let checkedText;
+  if (ages.size === 1) {
+    const oldest = priced.reduce((a, b) => (Date.parse(String(b.lane?.fetchedAt || "")) < Date.parse(String(a.lane?.fetchedAt || "")) ? b : a));
+    checkedText = timeHtml(oldest);
+  } else {
+    const checked = priced.map((spec) => `${timeHtml(spec)} (${escapeHtml(spec.name)})`);
+    checkedText = `${checked.slice(0, -1).join(", ")} and ${checked[checked.length - 1]}`;
+  }
+  return `<div class="provider-cta-notes"><p class="disclosure-note">Listed prices, not final totals. Checked ${checkedText}.</p></div>`;
 }
 
 // "5 hours ago" for a capture time. Always shown (P2), where the older rule
@@ -5622,13 +5646,13 @@ export function eventPublishableLaneSlugs(event, env = {}) {
 // site for this date") was dropped on 2026-09-25 (owner request): the buttons
 // directly under it are that count, and on the common one-button card the line
 // said nothing else. It never uses comparison wording. `priced` is how many of
-// the buttons show a price. "On each" only when all of them do: SeatGeek and
-// Ticketmaster never carry one, so on a mixed card it reads "where shown".
+// the buttons show a price. It never says "on each": SeatGeek and Ticketmaster
+// never carry a price, so most cards are mixed (the old "where shown" variant
+// read as a riddle, 2026-10-06).
 // Keep in sync with showCtaCountLabel in public/app.js.
 function ctaCountLabel(count, priced = 0) {
   if (count < 1 || !priced) return "";
-  if (count === 1) return "Lowest listed price";
-  return priced >= count ? "Lowest listed price on each" : "Lowest listed price where shown";
+  return priced === 1 ? "Lowest listed price" : "Lowest listed prices";
 }
 
 const ctaCountLineHtml = (ctaSpecs) => {
@@ -5825,7 +5849,7 @@ function renderRecentShowsHtml(safeName, pastShows) {
       return `<li><time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(label)}</time>${place ? ` — ${place}` : ""}</li>`;
     })
     .join("");
-  return `<div class="recent-shows"><h4>Recent ${safeName} shows</h4><p class="muted">These dates have already been and gone — they're here for reference while any newly announced run is checked.</p><ul class="recent-shows-list">${items}</ul></div>`;
+  return `<div class="recent-shows"><h4>Recent ${safeName} shows</h4><p class="muted">Already played, listed for reference.</p><ul class="recent-shows-list">${items}</ul></div>`;
 }
 
 // An empty board is a state the site deliberately publishes rather than hides,
@@ -5847,8 +5871,8 @@ function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, arti
   const safeName = escapeHtml(String(artistName || "").trim() || "artist");
   const copy = emptyCopy || {
     heading: "No upcoming dates listed",
-    body: `There are no upcoming ${String(artistName || "").trim() || "artist"} dates on file, and no way to say yet whether any are coming.`,
-    next: "When the source lists a date, it appears here, with a ticket button once its link has passed the site's checks."
+    body: `No ${String(artistName || "").trim() || "artist"} dates are listed yet.`,
+    next: "New dates show up here with ticket buttons as soon as they're listed."
   };
   // The artist-level provider page is the only outbound option here: there are
   // no verified dates, so there is nothing event-level to link to.
@@ -5861,9 +5885,7 @@ function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, arti
     ? `<form class="watchlist-signup" method="post" action="/api/signup" data-watchlist-shell="${escapeAttr(artistSlug)}"><h4>Get told when ${safeName} dates land</h4><p class="muted">Leave your email to hear when confirmed ${safeName} dates are listed. Nothing else.</p><input type="hidden" name="artistSlug" value="${escapeAttr(artistSlug)}" /><input type="hidden" name="sourcePath" value="/artists/${escapeAttr(artistSlug)}" /><div class="watchlist-signup-row"><label class="sr-only" for="watchlist-email-${escapeAttr(artistSlug)}">Email address</label><input type="email" id="watchlist-email-${escapeAttr(artistSlug)}" name="email" required placeholder="Your email address" autocomplete="email" /><input class="hp-field" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" /><button class="button button-primary" type="submit">Notify me</button></div><p class="disclosure-note" data-signup-status aria-live="polite"></p></form>`
     : "";
   const nextHtml = copy.next ? `<p class="muted">${escapeHtml(copy.next)}</p>` : "";
-  const explainerHtml = copy.compact
-    ? `<p class="muted">An empty page is normal between tours — ${anchor("here's why", EMPTY_BOARD_EXPLAINER_PATH)}.</p>`
-    : `<p class="muted">An empty board is normal between tours, not a sign something is broken. ${anchor("Here's why", EMPTY_BOARD_EXPLAINER_PATH)}.</p>`;
+  const explainerHtml = `<p class="muted">An empty page is normal between tours — ${anchor("here's why", EMPTY_BOARD_EXPLAINER_PATH)}.</p>`;
   return `<div class="empty-state"><h3>${escapeHtml(copy.heading)}</h3><p>${escapeHtml(copy.body)}</p>${nextHtml}${explainerHtml}${recentHtml}${signupHtml}<div class="action-row">${primaryCta}${anchor(
     "Browse artists",
     "/artists",
@@ -5960,11 +5982,9 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
   // Populated boards (2026-09-25, owner request): no intro line. A card that
   // shows a price labels it ("lowest listed price") and notes it is not the
   // final total, so a board-wide sentence saying the same was repetition.
-  const boardIntro = shows.length
-    ? ""
-    : emptyCopy?.compact
-      ? ""
-      : `<p>Dates appear here once the source confirms them.</p>`;
+  // Empty boards (2026-10-06): no intro either. The empty box directly under
+  // it already says there are no dates, and the line repeated the page lead.
+  const boardIntro = "";
   return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Upcoming dates</h2>${boardIntro}${renderMoneyDisclosureHtml()}</div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
@@ -6529,19 +6549,20 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // "About these links" and generic buying support describe a populated
     // ticket board. Empty pages keep only their honest empty state, plus the
     // factual artist summary when that editorial record has been promoted.
-    const linksNoteHtml = isIndexableArtist && shows.length
-      ? `<div><h2>About these links</h2><p>${escapeHtml(artist.ticket_buying_notes)}</p></div>`
+    // Shell copy written by scripts/auto-promote.mjs is skipped (2026-10-06):
+    // its summary ("<name> is listed by Ticketmaster under Rock…") and links
+    // note restate the "Where to buy" panel and say nothing about the artist.
+    const aboutText = isShellArtistSummary(artist.factual_summary) ? "" : String(artist.factual_summary || "").trim();
+    const linksNote = isShellTicketBuyingNote(artist.ticket_buying_notes) ? "" : String(artist.ticket_buying_notes || "").trim();
+    const aboutDiv = aboutText ? `<div><h2>About ${escapeHtml(artist.name)}</h2><p>${escapeHtml(aboutText)}</p></div>` : "";
+    const linksNoteHtml = isIndexableArtist && shows.length && linksNote
+      ? `<div><h2>About these links</h2><p>${escapeHtml(linksNote)}</p></div>`
       : "";
+    const splitHtml = (inner, single) => (inner ? `<section class="split-section${single ? " split-section-single" : ""}">${inner}</section>` : "");
     const supportingHtml = shows.length
-      ? `<section class="split-section${
-          isIndexableArtist ? "" : " split-section-single"
-        }"><div><h2>About ${escapeHtml(artist.name)}</h2><p>${escapeHtml(
-          artist.factual_summary
-        )}</p></div>${linksNoteHtml}</section>${artistExtraContentHtml}${relatedGuidesHtml}`
+      ? `${splitHtml(`${aboutDiv}${linksNoteHtml}`, !(aboutDiv && linksNoteHtml))}${artistExtraContentHtml}${relatedGuidesHtml}`
       : isIndexableArtist
-        ? `<section class="split-section split-section-single"><div><h2>About ${escapeHtml(
-            artist.name
-          )}</h2><p>${escapeHtml(artist.factual_summary)}</p></div></section>`
+        ? splitHtml(aboutDiv, true)
         : "";
     const usefulLinksHtml = shows.length
       ? `<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
@@ -6566,7 +6587,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       ? `<section class="nested-panel"><h2>${escapeHtml(artist.name)} on the blog</h2>${renderBlogPostCards(artistBlogPosts)}</section>`
       : "";
     const moreHtml = shows.length
-      ? collapsedGroupHtml(`About ${artist.name}, dates by city, and guides`, `${supportingHtml}${artistBlogHtml}${usefulLinksHtml}`)
+      ? collapsedGroupHtml(aboutDiv ? `About ${artist.name}, dates by city, and guides` : "Dates by city and guides", `${supportingHtml}${artistBlogHtml}${usefulLinksHtml}`)
       : `${supportingHtml}${artistBlogHtml}${usefulLinksHtml}`;
     return `<main id="mainContent"><section class="content-page artist-page" aria-labelledby="artistTitle">${renderBreadcrumbHtml(
       route
@@ -7217,7 +7238,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
-    '<script src="/app.js?v=20261002a" defer></script>',
+    '<script src="/app.js?v=20261006a" defer></script>',
     '<script src="/shell.js?v=20260926a" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed

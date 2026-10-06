@@ -276,7 +276,9 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(text(page.title).includes("by Date & Provider"), "the title describes the price answer rather than a generic tour board");
   assert(page.description.includes("date and provider") && !page.description.includes("face value"), "metadata describes the sourced listed prices");
   const lead = text(page.main.match(/<p class="lead">([\s\S]*?)<\/p>/)?.[1]);
-  assert(lead.includes("Manchester, Heaton Park, Fri, Sep 11, 2026") && lead.includes("£182 listed on Vivid Seats") && lead.includes("9 Aug 2026"), "the first answer ties one chronological example to its venue, date, provider and check time");
+  assert(lead.includes("Fri, Sep 11, 2026 in Manchester (Heaton Park)") && lead.includes("£182 on Vivid Seats") && lead.includes("9 Aug 2026"), "the first answer ties one chronological example to its venue, date, provider and check time");
+  assert(lead.startsWith("2 of 6 dates show a listed resale price right now."), "the lead opens with the answer: how many dates have a price");
+  assert(/<div class="action-row"><a[^>]+href="\/artists\/oasis"[^>]*class="button button-primary"|<div class="action-row"><a[^>]+class="button button-primary"[^>]*href="\/artists\/oasis"/.test(page.main), "the lead's one primary action is comparing tickets on the artist page");
   assert(page.main.indexOf('id="priceGuideDatesTitle"') < page.main.indexOf('id="priceGuideGlanceTitle"') && page.main.indexOf('id="priceGuideDatesTitle"') < page.main.indexOf('id="priceGuideFaceTitle"'), "date prices precede supporting explanation");
   assert((page.main.match(/>Compare this show<\/a>/g) || []).length === 6, "every date, including a priced date, links to all its exact-show ticket options");
   assert(page.main.includes('href="/artists/oasis#show-pg-man-1"'), "exact-show comparison goes to the artist card anchor");
@@ -284,8 +286,8 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   const body = text(page.main);
   assert(body.includes("Face value: the official ticket price"), "the page answers the face-value question");
   assert(body.includes("has no approved source for face-value prices"), "and says plainly that it prints no face value");
-  assert(body.includes("No Ticketmaster price on this page does not mean no tickets"), "missing Ticketmaster pricing is distinguished from ticket availability");
-  assert(body.includes("Expired snapshots are hidden") && body.includes("latest check could not be completed"), "missing prices explain freshness and unsuccessful reads without claiming inventory");
+  assert(body.includes("a date with no price can still have tickets"), "missing Ticketmaster pricing is distinguished from ticket availability");
+  assert(body.includes("a price too old to trust is hidden"), "missing prices explain freshness without claiming inventory");
   assert(body.includes("£182") && body.includes("£395"), "each date keeps its own lowest listed price");
   assert(!body.includes("£210") && !body.includes("£420"), "only the same-event lowest lane is printed as the answer");
   assert(!/\bfrom £\d/i.test(body) && !/cheapest date/i.test(body) && !/price range/i.test(body), "no cross-date minimum, range or cheapest date");
@@ -331,20 +333,20 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(!body.includes("No listed-price snapshot right now"), "a failed read never reports a snapshot as absent");
   assert(!body.includes("show a listed resale price right now"), "with no price read, the page claims nothing about prices");
   assert(!body.includes("How Oasis resale prices have moved"), "and renders no move section");
-  assert(body.includes("Listed-price snapshots could not be checked on this visit"), "failed reads are explained near the top without implying zero coverage");
+  assert(body.includes("Prices couldn't be loaded just now"), "failed reads are explained near the top without implying zero coverage");
 }
 
 for (const dbOptions of [{ historyRows: [] }, { historyFails: true }]) {
   const page = await render(GUIDE_PATH, { withDb: true, dbOptions });
   const body = text(page.main);
   assert(body.includes("No recent price move can be shown") && !body.includes("No recorded change in the last"), "absent or failed history never asserts unchanged prices");
-  assert(body.includes("£182 listed on Vivid Seats"), "a history failure does not hide an eligible current price");
+  assert(body.includes("£182 on Vivid Seats"), "a history failure does not hide an eligible current price");
 }
 
 for (const priceRows of [[], PRICE_ROWS.map((row) => ({ ...row, expires_at: "2026-08-08T09:00:00Z" }))]) {
   const page = await render(GUIDE_PATH, { withDb: true, dbOptions: { priceRows } });
   const body = text(page.main);
-  assert(body.includes("No eligible listed resale price is displayed for the checked dates") && !body.includes("£182"), "empty and expired cache rows give an honest price-free answer");
+  assert(body.includes("No listed resale price is showing for these dates right now") && !body.includes("£182"), "empty and expired cache rows give an honest price-free answer");
   assert(!body.includes("How Oasis resale prices have moved"), "withheld current prices cannot publish historical moves");
 }
 

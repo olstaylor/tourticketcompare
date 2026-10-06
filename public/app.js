@@ -2036,8 +2036,12 @@ function renderProviderCtaButton(name, href, amount, analytics = {}) {
 // a description of the card. No link is emitted here — the provider buttons
 // above stay the card's only outbound links.
 // Keep in sync with PRICE_UNAVAILABLE_NOTE in functions/[[path]].js.
-const PRICE_UNAVAILABLE_NOTE =
-  "No listed-price snapshot is available for this date. Check current prices using the provider buttons above.";
+const PRICE_UNAVAILABLE_NOTE = "No listed price right now.";
+
+// The lanes that supply listed-price snapshots. A card with no button on one
+// of them gets no "no price" note: nothing on it claims a price.
+// Keep in sync with LISTED_PRICE_PROVIDERS in functions/[[path]].js.
+const LISTED_PRICE_PROVIDER_SLUGS = new Set(["vivid-seats", "ticketnetwork", "stubhub-international"]);
 
 // Did this card's price lanes actually get queried? A priced response carries
 // one entry per approved lane (including the unavailable ones), while a board
@@ -2060,7 +2064,7 @@ function pricesWereChecked(show) {
 function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) {
-    if (!pricesChecked || !ctaSpecs.length) return null;
+    if (!pricesChecked || !ctaSpecs.some((spec) => LISTED_PRICE_PROVIDER_SLUGS.has(spec.provider))) return null;
     const emptyWrap = document.createElement("div");
     emptyWrap.className = "provider-cta-notes";
     text(emptyWrap, "p", PRICE_UNAVAILABLE_NOTE, "disclosure-note");
@@ -2068,19 +2072,29 @@ function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false) {
   }
   const wrap = document.createElement("div");
   wrap.className = "provider-cta-notes";
-  // Keep in sync with renderServerPriceNotes in functions/[[path]].js.
+  // Keep in sync with renderServerPriceNotes in functions/[[path]].js: one age
+  // when every priced lane reads the same, else one per site.
   const note = document.createElement("p");
   note.className = "disclosure-note";
-  note.append("Checked ");
-  priced.forEach((spec, index) => {
-    if (index) note.append(index === priced.length - 1 ? " and " : ", ");
+  const timeFor = (spec) => {
     const time = document.createElement("time");
     time.dateTime = String(spec.lane?.fetchedAt || "");
     time.title = spec.priceAsOf;
     time.textContent = relativeCheckAge(spec.lane?.fetchedAt);
-    note.append(time, ` (${spec.name})`);
-  });
-  note.append(". Listed prices, not your final total: the site adds fees at checkout.");
+    return time;
+  };
+  note.append("Listed prices, not final totals. Checked ");
+  const ages = new Set(priced.map((spec) => relativeCheckAge(spec.lane?.fetchedAt)));
+  if (ages.size === 1) {
+    const oldest = priced.reduce((a, b) => (Date.parse(String(b.lane?.fetchedAt || "")) < Date.parse(String(a.lane?.fetchedAt || "")) ? b : a));
+    note.append(timeFor(oldest));
+  } else {
+    priced.forEach((spec, index) => {
+      if (index) note.append(index === priced.length - 1 ? " and " : ", ");
+      note.append(timeFor(spec), ` (${spec.name})`);
+    });
+  }
+  note.append(".");
   wrap.append(note);
   return wrap;
 }
@@ -2270,13 +2284,10 @@ function renderPriceHistoryContent(panel, wrap, data) {
 // One compact line above a card's provider buttons, only when at least one
 // button shows a price, saying what that number is. No site count: the buttons
 // are the count. Keep in sync with ctaCountLabel in functions/[[path]].js.
-// `priced` is how many of the buttons show a price. "On each" only when all
-// of them do: SeatGeek and Ticketmaster never carry one, so on a mixed card it
-// reads "where shown".
+// `priced` is how many of the buttons show a price.
 function showCtaCountLabel(count, priced = 0) {
   if (count < 1 || !priced) return "";
-  if (count === 1) return "Lowest listed price";
-  return priced >= count ? "Lowest listed price on each" : "Lowest listed price where shown";
+  return priced === 1 ? "Lowest listed price" : "Lowest listed prices";
 }
 
 function renderShowCard(show, options = {}) {
@@ -2465,7 +2476,7 @@ function renderRecentShowsList(name, pastShows) {
   text(
     block,
     "p",
-    `These ${name} dates have already taken place. They are shown as a reference while any newly announced run is verified.`,
+    "Already played, listed for reference.",
     "muted"
   );
   const list = document.createElement("ul");
@@ -2500,23 +2511,18 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
     wrap,
     "p",
     Array.isArray(pastShows) && pastShows.length
-      ? `There are no upcoming ${name} dates on file. The tracked dates have already taken place, and there's no way to say yet whether more are coming.`
-      : `There are no upcoming ${name} dates on file, and no way to say yet whether any are coming.`
+      ? `${name}'s recent dates have passed and no new ones are listed yet.`
+      : `No ${name} dates are listed yet.`
   );
-  text(
-    wrap,
-    "p",
-    `When the source lists a ${name} date, it appears here, with a ticket button once its link has passed the site's checks.`,
-    "muted"
-  );
+  text(wrap, "p", "New dates show up here with ticket buttons as soon as they're listed.", "muted");
   // Keep in sync with renderShowBoardEmptyStateHtml in functions/[[path]].js.
   const explainer = document.createElement("p");
   explainer.className = "muted";
-  explainer.append("An empty board is normal between tours, not a sign something is broken. ");
+  explainer.append("An empty page is normal between tours — ");
   const explainerLink = document.createElement("a");
   explainerLink.className = "text-link";
   explainerLink.href = EMPTY_BOARD_EXPLAINER_PATH;
-  explainerLink.textContent = "Here's why";
+  explainerLink.textContent = "here's why";
   explainer.append(explainerLink, ".");
   wrap.append(explainer);
   const recent = renderRecentShowsList(name, pastShows);

@@ -209,7 +209,7 @@ export function artistSearchIntro(artist, status, options = {}) {
     // so once. An ended tour keeps the fuller sentence; its board lists the
     // recent dates below it.
     return Number(options.pastShowCount) > 0
-      ? `No upcoming ${name} dates are listed right now. Dates appear here once the source lists them, and ticket buttons once their links pass the site's checks.`
+      ? `No upcoming ${name} dates are listed right now.`
       : `No ${name} dates yet.`;
   }
 
@@ -321,15 +321,13 @@ export function deriveTourSummaries(shows) {
  */
 export function artistTicketHelp() {
   return {
-    intro:
-      "TourTicketCompare doesn't sell tickets. You buy on the ticket site the button opens.",
+    intro: "TourTicketCompare doesn't sell tickets. Each button opens a ticket site, and you buy there.",
     points: [
-      "A button on a date card opens that exact date on the ticket site.",
+      "A button on a date card opens that exact date.",
       "The buttons under \"Where to buy\" open the artist's page on each ticket site, not a specific date.",
-      "A price is one site's listed price for that date, captured at the time shown beside it: a snapshot, not live stock and not your final total.",
-      "When several sites have a snapshot for the same date, the lower listed figure is marked. That compares one date only: never across different dates, and never a claim that a site is cheaper overall.",
-      "Fees, delivery and tax are added at the provider's checkout, so compare the total there.",
-      "A date can be listed without a button, for example before it goes on sale or while its link is still being matched to that exact event."
+      "A price is a snapshot of one site's listed price when it was last checked, not your final total. Fees, delivery and tax are added at checkout.",
+      "When two sites price the same date, the lower listed figure is marked. That is per date, never across different dates, and never a claim that a site is cheaper overall.",
+      "A date without a button usually isn't on sale yet, or its link is still being matched."
     ]
   };
 }
@@ -361,9 +359,9 @@ export function artistEmptyBoardCopy(artist, options = {}) {
   return {
     heading: "No upcoming dates listed",
     body: pastShowCount
-      ? `There are no upcoming ${name} dates on file. The tracked dates have already taken place, and there's no way to say yet whether more are coming.`
-      : `There are no upcoming ${name} dates on file, and no way to say yet whether any are coming.`,
-    next: `When the source lists a ${name} date, it appears here, with a ticket button once its link has passed the site's checks.`
+      ? `${name}'s recent dates have passed and no new ones are listed yet.`
+      : `No ${name} dates are listed yet.`,
+    next: `New dates show up here with ticket buttons as soon as they're listed.`
   };
 }
 
@@ -408,7 +406,7 @@ export function artistFaqEntries(artist, status, options = {}) {
   } else {
     entries.push([
       `Are there upcoming ${name} dates?`,
-      `Not right now. A date is listed only once the source confirms it, and a ticket button is added only once its link passes the site's checks.`
+      `Not right now. New dates show up on this page as soon as they're listed.`
     ]);
   }
 

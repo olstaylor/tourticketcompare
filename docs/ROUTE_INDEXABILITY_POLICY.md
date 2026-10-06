@@ -746,7 +746,7 @@ indexing — so they need no re-anchor.
 | `npm run audit:indexable-surface:check` | CI mode — no writes, exit 1 on a problem |
 | `npm run audit:indexable-surface:baseline` | Re-anchor `reports/indexable-surface/baseline.json` |
 | `npm run audit:indexable-surface:self-test` | Offline unit tests for its pure functions |
-| `npm run audit:metadata-accuracy:check` | Every indexable page and served event page: `MusicEvent` name, date, venue, city and status against `events.json`; title and description years, counts and price claims; duplicate titles and descriptions. Exit 1 on any finding |
+| `npm run audit:metadata-accuracy:check` | Every indexable page and served event page: `MusicEvent` name, date, venue, city and status against `events.json`; malformed JSON-LD; title and description presence, and on event-derived routes their years (upcoming dates only), counts and price claims; duplicate titles and descriptions. Exit 1 on any finding. Runs in `test:units` and `test:mvp`, not `test:quick` (~100s) |
 
 ### Google September 2026 spam update
 
@@ -776,6 +776,7 @@ comparison window below has been measured.
 | 2026-10-02 | Tour name in artist titles, bands as `MusicGroup`; filler copy cut on artist, artist-city, city and venue; four buying guides; `llms.txt` artist facts and IndexNow; nine price guides approved |
 | 2026-10-03 | 62 more price guides (72 indexable) |
 | 2026-10-05 | Comparison-data and one-canonical rules above: indexable artist-city 201 → 143, city 117 → 89, venue 231 → 176 (site 776 → 635). "Compare Prices" dropped from artist and artist-city titles and descriptions where no date has two price lanes. `MusicEvent.name` is "<artist> at <venue>" where Ticketmaster's event name does not name the artist. `npm run audit:metadata-accuracy:check` added to CI. Event pages need two snapshot lanes (owner-approved): five pilot members with one lane drop out, leaving 25 indexed |
+| 2026-10-05 | Jannus Live's two city spellings ("St Petersburg", "Saint Petersburg") merge into one venue, city and artist-city page; the `saint-petersburg` URLs 301 to the `st-petersburg` ones. `MusicEvent.name` keeps Ticketmaster's title only when it names the artist as whole words |
 
 ### Expected decay vs structural regression
 

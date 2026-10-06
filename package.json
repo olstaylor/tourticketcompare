@@ -16,6 +16,7 @@
     "test:artist-presentation": "node scripts/artist-presentation.test.mjs",
     "test:artist-cities": "node scripts/artist-cities.test.mjs",
     "test:price-notes": "node scripts/price-notes.test.mjs",
+    "test:price-wording": "node scripts/price-wording.test.mjs",
     "site:health": "node scripts/check-site-health.mjs",
     "site:health:self-test": "node scripts/check-site-health.mjs --self-test",
     "artists:requests:check": "node scripts/artist-requests.mjs --check",

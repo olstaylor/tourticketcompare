@@ -291,9 +291,9 @@ export const TRUST_ROUTES = {
   "/": {
     title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
     description:
-      "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where available, then check the total.",
+      "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.",
     indexable: true,
-    lastmod: "2026-10-05"
+    lastmod: "2026-10-06"
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices by Site | TourTicketCompare",
@@ -326,7 +326,7 @@ export const TRUST_ROUTES = {
     indexable: true,
     faq: true,
     breadcrumb: [{ name: "How it works", path: "/how-it-works" }],
-    lastmod: "2026-09-24"
+    lastmod: "2026-10-06"
   },
   "/currency-converter": {
     title: "Currency Converter for Concert Tickets | TourTicketCompare",
@@ -334,7 +334,7 @@ export const TRUST_ROUTES = {
       "Convert a ticket budget between currencies using European Central Bank reference rates, then confirm the checkout currency and card fees with the provider.",
     indexable: true,
     breadcrumb: [{ name: "Currency converter", path: "/currency-converter" }],
-    lastmod: "2026-09-24"
+    lastmod: "2026-10-06"
   },
   "/about": {
     title: "About TourTicketCompare",

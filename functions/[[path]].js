@@ -46,6 +46,7 @@ import {
   withinWeeklyChangeWindow,
   WEEKLY_CHANGE_DAYS
 } from "./_event-price-moves.js";
+import { NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, lowestPriceLabel, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, resolveEventRoute } from "./_event-pages.js";
 import { EVENT_INDEXING_PILOT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
 import {
@@ -148,7 +149,7 @@ function siteBylineHtml() {
 // >>> homepage-proposition >>>
 const HOME_HEADLINE = "Compare ticket prices for the show you want.";
 const HOME_SUBCOPY =
-  "Choose an artist and date, see recent listed prices from ticket sites where available, then check the final total on the ticket site.";
+  "Choose an artist and date, see each ticket site's listed price where available, then check the final total on the ticket site.";
 const HOME_PRIMARY_CTA_LABEL = "Find a show";
 const HOME_PRIMARY_CTA_HREF = "/artists";
 const HOME_STEPS = [
@@ -160,7 +161,7 @@ const HOME_STEPS = [
   },
   {
     title: "2. Compare ticket prices",
-    body: "See the current listed prices from ticket sites for that same date.",
+    body: "See each ticket site's listed price for that same date.",
     ctaLabel: "Compare ticket prices",
     href: "/compare-concert-ticket-prices"
   },
@@ -181,7 +182,7 @@ const HOME_STEPS = [
 const ARTISTS_INDEX_LEAD = "Choose an artist, then pick the date you want to compare ticket prices for.";
 const ARTISTS_INDEX_NOTE = "Coverage varies by artist and region.";
 const HOW_IT_WORKS_LEAD =
-  "Compare ticket prices for the show you want: choose an artist and date, see recent listed prices from ticket sites where available, then check the final total on the ticket site. TourTicketCompare is independent and doesn't sell tickets.";
+  "Compare ticket prices for the show you want: choose an artist and date, see each ticket site's listed price where available, then check the final total on the ticket site. TourTicketCompare is independent and doesn't sell tickets.";
 // <<< site-proposition <<<
 
 const RESERVED_PREFIXES = ["/api/", "/data/", "/admin/"];
@@ -1085,7 +1086,7 @@ function baseSchema(origin) {
       name: "TourTicketCompare",
       alternateName: "Tour Ticket Compare",
       url: `${origin}/`,
-      description: "Independent ticket research for major live music tours with verified links and approved, timestamped provider price snapshots where available.",
+      description: "Independent ticket research for major live music tours with verified links and timestamped listed prices where available.",
       email: "hello@tourticketcompare.com",
       publishingPrinciples: `${origin}/editorial-policy`,
       contactPoint: {
@@ -2703,7 +2704,7 @@ function artistCityNextDatePriceLabel(city, lowestByShowId) {
   const date = formatShowDateServer(next.datetime_iso, next.timezone);
   const asOf = formatServerSnapshotTime(lane.fetchedAt);
   if (!amount || !date || !asOf) return "";
-  return ` · ${date}: ${amount}, ${lane.name} (snapshot ${asOf})`;
+  return ` · ${date}: ${amount}, ${lane.name} (checked ${asOf})`;
 }
 
 function renderArtistTicketCitiesHtml(events, artist, lowestByShowId = new Map()) {
@@ -2885,7 +2886,7 @@ function artistCityDescription(artist, artistCity) {
   // The price wording is used only where a date carries two listed-price
   // lanes, as in artistCityTitle.
   const lead = artistCity.comparableCount > 0
-    ? `Compare current listed ticket prices for ${artist.name} in ${artistCity.label} across checked ticket sites. View ${count}`
+    ? `Compare listed ticket prices for ${artist.name} in ${artistCity.label} across checked ticket sites. View ${count}`
     : `Checked ticket links for ${artist.name} in ${artistCity.label}. View ${count}`;
   const wherePart = venueLabel ? ` at ${venueLabel}` : "";
   const whenPart = range ? ` (${range})` : "";
@@ -3052,7 +3053,6 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
       if (row.lowest) {
         const amount = formatServerPrice(row.lowest.price, row.lowest.currency);
         const asOf = formatServerSnapshotTime(row.lowest.fetchedAt);
-        const age = snapshotAgeLabel(row.lowest.fetchedAt);
         // The figure is the button: the same tracked /api/out destination, the
         // same analytics attributes, a distinct cta_location so this surface's
         // contribution is measurable on its own.
@@ -3071,13 +3071,11 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
         // Close to show day only, and only for the lane on the button.
         const weekText = weeklyChangeSentence(weeklyChangeByShowId.get(row.showId));
         const weekLine = weekText ? `<span class="price-answer-low muted">${escapeHtml(weekText)}</span>` : "";
-        priceCell = `${button}<span class="price-answer-asof muted">${escapeHtml(
-          age ? `${asOf}, ${age}` : asOf
-        )}</span>${lowLine}${weekLine}`;
+        priceCell = `${button}<span class="price-answer-asof muted">${checkedTimeHtml(row.lowest.fetchedAt, asOf)}</span>${lowLine}${weekLine}`;
       } else if (row.checked) {
         // Checked and nothing eligible came back. Saying so is honest; saying it
         // about a row the server never queried would not be.
-        priceCell = `<span class="muted">No listed-price snapshot right now.</span>${
+        priceCell = `<span class="muted">${escapeHtml(NO_PRICE_NOTE)}</span>${
           cardAnchor ? ` ${anchor("See ticket options", `#${cardAnchor}`, "text-link")}` : ""
         }`;
       } else {
@@ -3104,15 +3102,15 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
     artist.name
   )} tickets in ${escapeHtml(
     artistCity.city
-  )}?</h2><p>The lowest listed price currently on record for each tracked date${escapeHtml(
+  )}?</h2><p>The lowest listed price on record for each date${escapeHtml(
     singleVenue ? `, all at ${singleVenue}` : ""
-  )}, and the ticket site offering it. "Sites compared" counts the ticket sites with an eligible listed-price snapshot for that exact date.</p><div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">Lowest current listed price by date for ${escapeHtml(
+  )}, and the site offering it, in date order. "Sites compared" is how many ticket sites had a price for that date.</p><div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">Lowest listed price by date for ${escapeHtml(
     artist.name
   )} in ${escapeHtml(
     artistCity.city
   )}</caption><thead><tr><th scope="col">Date</th>${
     singleVenue ? "" : '<th scope="col">Venue</th>'
-  }<th scope="col">Lowest listed price</th><th scope="col">Sites compared</th></tr></thead><tbody>${body}</tbody></table></div><p class="disclosure-note">Each figure is a provider-supplied listed-price snapshot for that exact date, captured at the time shown — not live inventory, not availability, and not a final checkout total. Fees, taxes, delivery and the final total are settled at the provider's checkout. Dates are listed in calendar order and are not ranked against each other.</p></section>`;
+  }<th scope="col">Lowest listed price</th><th scope="col">Sites compared</th></tr></thead><tbody>${body}</tbody></table></div></section>`;
 }
 
 // ---------------------------------------------------------------------------
@@ -3176,7 +3174,6 @@ function priceGuidePriceCell(artist, row, low) {
   if (row.lowest) {
     const amount = formatServerPrice(row.lowest.price, row.lowest.currency);
     const asOf = formatServerSnapshotTime(row.lowest.fetchedAt);
-    const age = snapshotAgeLabel(row.lowest.fetchedAt);
     const button = renderProviderCtaButtonHtml(row.lowest.name, row.lowest.href, amount, {
       provider: row.lowest.provider,
       artistSlug: artist.slug,
@@ -3195,10 +3192,10 @@ function priceGuidePriceCell(artist, row, low) {
         lowLine = `<span class="price-answer-low muted">${escapeHtml(`Lowest recorded in ${PRICE_LOW_WINDOW_DAYS} days`)}</span>`;
       }
     }
-    return `${button}<span class="price-answer-asof muted">${escapeHtml(age ? `${asOf}, ${age}` : asOf)}</span>${lowLine}`;
+    return `${button}<span class="price-answer-asof muted">${checkedTimeHtml(row.lowest.fetchedAt, asOf)}</span>${lowLine}`;
   }
   if (row.checked) {
-    return `<span class="muted">No listed-price snapshot right now.</span> ${anchor("See ticket options", cardHref, "text-link")}`;
+    return `<span class="muted">${escapeHtml(NO_PRICE_NOTE)}</span> ${anchor("See ticket options", cardHref, "text-link")}`;
   }
   return anchor("See ticket options", cardHref, "text-link");
 }
@@ -3235,7 +3232,7 @@ function renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, indexab
         : "";
       return `<h3>${escapeHtml(city.label)}${singleVenue ? ` · ${escapeHtml(singleVenue)}` : ""}</h3>${
         cityLink ? `<p>${cityLink}</p>` : ""
-      }<div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">Lowest current listed price by date for ${escapeHtml(
+      }<div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">Lowest listed price by date for ${escapeHtml(
         artist.name
       )} in ${escapeHtml(city.label)}</caption><thead><tr><th scope="col">Date</th>${
         singleVenue ? "" : '<th scope="col">Venue</th>'
@@ -3271,7 +3268,7 @@ function renderPriceGuideMoves(artist, moves, pricedRowCount, guideShowsById) {
     })
     .filter(Boolean)
     .join("");
-  return `<section class="nested-panel" aria-labelledby="priceGuideMovesTitle">${heading}<p>${escapeHtml(summary)}</p><ul>${items}</ul><p class="disclosure-note">Each change compares one ticket site's listed-price snapshots for one date, in one currency. Dates are never compared with each other.</p></section>`;
+  return `<section class="nested-panel" aria-labelledby="priceGuideMovesTitle">${heading}<p>${escapeHtml(summary)}</p><ul>${items}</ul><p class="disclosure-note">Each change compares one ticket site's listed prices for one date. Dates are never compared with each other.</p></section>`;
 }
 
 // Everything the price guide derives from the priced events, shared by the
@@ -3344,7 +3341,7 @@ function priceGuideFaqEntries(route, view) {
   const entries = [];
   entries.push([
     `How much are ${name} tickets?`,
-    `It depends on the date, city and seat. ${view.currentAnswer} Every figure on this page is one ticket site's resale listed price for one date at its capture time, not face value and not a final checkout total.`
+    `It depends on the date, city and seat. ${view.currentAnswer} Every figure on this page is one ticket site's resale listed price for one date when it was checked, not face value and not a final checkout total.`
   ]);
   const moveSentence = view.moves.length
     ? (() => {
@@ -3392,12 +3389,12 @@ function renderPriceGuideBody(route, events, env) {
   )}</p><p>${escapeHtml(
     `${guide.showCount} upcoming ${guide.showCount === 1 ? "date" : "dates"} in ${guide.cityCount} ${guide.cityCount === 1 ? "city" : "cities"}${
       range ? ` (${range})` : ""
-    }. These are resale listings, not face value, and fees are added at checkout.`
+    }. These are resale listings, not face value.`
   )}</p><div class="action-row">${anchor(`Compare ${artist.name} tickets`, artistHref, "button button-primary")}${anchor(
     "See prices by date",
     "#priceGuideDatesTitle",
     "button button-secondary"
-  )}</div>`;
+  )}</div>${renderMoneyDisclosureHtml()}`;
 
   const cards = [
     [
@@ -3407,7 +3404,7 @@ function renderPriceGuideBody(route, events, env) {
       }.`
     ],
     [
-      "Listed-price snapshots",
+      "Dates with a listed price",
       checkedCount
         ? `${priceAnswer.pricedRowCount} of ${guide.showCount} dates show a listed resale price right now.`
         : "Shown for each date below where a ticket site supplies one."
@@ -3440,7 +3437,7 @@ function renderPriceGuideBody(route, events, env) {
     artist.name
   )} resale prices by date</h2><p>${escapeHtml(
     `The lowest listed price on record for each date and the site offering it, in date order. "Sites compared" is how many ticket sites had a price for that date.`
-  )}</p>${renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, route.indexableCitySlugs || new Set())}<p class="disclosure-note">Each figure is one site's listed-price snapshot for that date at the time shown, not live stock or a final checkout total.</p></section>`;
+  )}</p>${renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, route.indexableCitySlugs || new Set())}</section>`;
 
   const movesHtml = renderPriceGuideMoves(artist, moves, priceAnswer.pricedRowCount, guideShowsById);
   const missingPricesHtml = `<section class="nested-panel" aria-labelledby="priceGuideMissingTitle"><h2 id="priceGuideMissingTitle">Why a date may have no displayed price</h2><p>Only some ticket sites share prices with this site. Ticketmaster, SeatGeek and Ticket Liquidator links carry no price here, and a price too old to trust is hidden, so a date with no price can still have tickets. Use “Compare this show” to check that date on each site.</p></section>`;
@@ -3457,7 +3454,7 @@ function renderPriceGuideBody(route, events, env) {
         `Compare ${artist.name} tickets by date`,
         artistHref,
         "button button-primary"
-      )}</div>${renderMoneyDisclosureHtml()}</section>`
+      )}</div></section>`
     : "";
 
   const cityLinks = guide.cities
@@ -3709,7 +3706,7 @@ export function renderCityPageBody(route, events = [], options = {}) {
       "Tips for buying and more cities",
       `<section class="nested-panel"><h2>Compare tickets for a ${escapeHtml(
         city.city
-      )} concert</h2><p>Each date's buttons open that exact show on the ticket site, and the link under each card leads to more dates from that artist. A price shown applies to that one show at the time stated. Check the final total, fees and delivery terms on the ticket site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
+      )} concert</h2><p>Each date's buttons open that exact show on the ticket site, and the link under each card leads to more dates from that artist.</p><div class="action-row">${renderLocationGuideLinks()}${anchor(
         "All cities",
         "/cities",
         "button button-secondary"
@@ -3762,7 +3759,7 @@ export function renderVenuePageBody(route, events = [], options = {}) {
       "Tips for buying and more venues",
       `<section class="nested-panel"><h2>Getting tickets at ${escapeHtml(
         venue.venue
-      )}</h2><p>Each date's buttons open that exact show on the ticket site. A price shown applies to that one show at the time stated. Check the final total, fees and delivery terms on the ticket site before you pay.</p><div class="action-row">${renderLocationGuideLinks()}${
+      )}</h2><p>Each date's buttons open that exact show on the ticket site.</p><div class="action-row">${renderLocationGuideLinks()}${
         cityPage ? anchor(`More concerts in ${cityPage.city}`, `/cities/${cityPage.slug}`, "button button-secondary") : ""
       }${anchor("All venues", "/venues", "button button-secondary")}</div></section>`
     )}`
@@ -4076,7 +4073,7 @@ function renderComparisonHubEventCards(events = [], env = {}) {
   const asOf = formatVerificationDate(new Date().toISOString().slice(0, 10));
   return `<section id="current-events" class="nested-panel" data-nosnippet><h2>Prices on upcoming shows${
     asOf ? `, as of ${escapeHtml(asOf)}` : ""
-  }</h2><p>The next shows with checked ticket links. A price is one site's listed price, not your final total: fees and delivery are added at checkout.</p>${renderMoneyDisclosureHtml()}<div class="card-grid show-card-grid">${shows
+  }</h2><p>The next shows with checked ticket links.</p>${renderMoneyDisclosureHtml()}<div class="card-grid show-card-grid">${shows
     .map((show) =>
       renderShowCardServerHtml(
         show,
@@ -5367,34 +5364,9 @@ function formatServerSnapshotTime(value) {
   }
 }
 
-// A snapshot older than this is still shown, but is labelled with its age.
-//
-// The display window (DEFAULT_FRESHNESS_HOURS in the snapshot writers) is 24h
-// so that a day of missed snapshot runs leaves the last known price on the card
-// instead of blanking the board. That resilience is only honest if a visitor
-// can tell a day-old price from a fresh one, which is what this threshold marks.
-// It is deliberately well inside the 24h window: the label should appear while
-// the price is still useful, not at the moment it is about to vanish.
-// Keep in sync with PRICE_STALE_AFTER_HOURS in public/app.js.
-const PRICE_STALE_AFTER_HOURS = 12;
+// Every price shows its age ("Checked 14 hours ago"), so no separate stale
+// threshold is needed: see relativeCheckAge in _price-wording.js.
 
-// "last checked 14 hours ago", or "" while the snapshot is still recent.
-// Relative age is what a reader can actually judge — an absolute timestamp
-// alone makes them do the arithmetic — so it supplements, never replaces, the
-// capture time already printed beside every price.
-// Keep in sync with snapshotAgeLabel in public/app.js.
-function snapshotAgeLabel(fetchedAt, now = Date.now()) {
-  const captured = Date.parse(String(fetchedAt || ""));
-  if (!Number.isFinite(captured)) return "";
-  const hours = (now - captured) / 3600000;
-  if (!(hours >= PRICE_STALE_AFTER_HOURS)) return "";
-  if (hours < 48) {
-    const whole = Math.round(hours);
-    return `last checked ${whole} hour${whole === 1 ? "" : "s"} ago`;
-  }
-  const days = Math.round(hours / 24);
-  return `last checked ${days} day${days === 1 ? "" : "s"} ago`;
-}
 
 // One CTA button per provider: provider name on the left, the approved fresh
 // listed-price snapshot on the right when one exists (the price is the button),
@@ -5440,7 +5412,7 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
 // a description of the card. No link is emitted here — the provider buttons
 // above stay the card's only outbound links.
 // Keep in sync with PRICE_UNAVAILABLE_NOTE in public/app.js.
-const PRICE_UNAVAILABLE_NOTE = "No listed price right now.";
+const PRICE_UNAVAILABLE_NOTE = NO_PRICE_NOTE;
 
 // A price check older than this is not quoted: "no listed price at our last
 // check" is only useful while that check is recent enough to still describe
@@ -5487,7 +5459,7 @@ function priceUnavailableNote(ctaSpecs, show, now = Date.now()) {
   const when = formatServerSnapshotTime(latest);
   if (!when) return PRICE_UNAVAILABLE_NOTE;
   const checkedLanes = joinProviderNames(recent.map((entry) => entry.name));
-  return `No listed price on ${checkedLanes} at the last check (${when}).`;
+  return noPriceAtLastCheck(checkedLanes, when);
 }
 
 // Did this card's price lanes actually get queried? attachApprovedMarketplacePrices
@@ -5511,6 +5483,15 @@ function pricesWereChecked(show) {
 // server never established, so an unchecked card renders no note at all and
 // client hydration fills it in.
 // Keep in sync with renderShowCardPriceNotes in public/app.js.
+// "Checked 5 hours ago", with the absolute capture time in the <time>
+// element: the one freshness phrase for tables and answer rows, matching the
+// card note (see _price-wording.js).
+function checkedTimeHtml(fetchedAt, asOf = "") {
+  const at = String(fetchedAt || "");
+  const title = asOf || formatServerSnapshotTime(at);
+  return `<time datetime="${escapeAttr(at)}"${title ? ` title="${escapeAttr(title)}"` : ""}>Checked ${escapeHtml(relativeCheckAge(at))}</time>`;
+}
+
 function renderServerPriceNotes(ctaSpecs, pricesChecked = false, show = null) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) {
@@ -5536,22 +5517,11 @@ function renderServerPriceNotes(ctaSpecs, pricesChecked = false, show = null) {
     const checked = priced.map((spec) => `${timeHtml(spec)} (${escapeHtml(spec.name)})`);
     checkedText = `${checked.slice(0, -1).join(", ")} and ${checked[checked.length - 1]}`;
   }
-  return `<div class="provider-cta-notes"><p class="disclosure-note">Listed prices, not final totals. Checked ${checkedText}.</p></div>`;
+  return `<div class="provider-cta-notes"><p class="disclosure-note">Checked ${checkedText}.</p></div>`;
 }
 
-// "5 hours ago" for a capture time. Always shown (P2), where the older rule
-// added an age only past PRICE_STALE_AFTER_HOURS. Keep in sync with
-// relativeCheckAge in public/app.js.
-function relativeCheckAge(fetchedAt, now = Date.now()) {
-  const captured = Date.parse(String(fetchedAt || ""));
-  if (!Number.isFinite(captured)) return "recently";
-  const minutes = Math.max(0, Math.round((now - captured) / 60000));
-  if (minutes < 60) return "under an hour ago";
-  const hours = Math.round(minutes / 60);
-  if (hours < 48) return `${hours} hour${hours === 1 ? "" : "s"} ago`;
-  const days = Math.round(hours / 24);
-  return `${days} day${days === 1 ? "" : "s"} ago`;
-}
+// relativeCheckAge ("5 hours ago") lives in _price-wording.js. Always shown
+// (P2). Keep in sync with relativeCheckAge in public/app.js.
 
 // Multi-night runs: shows sharing a venue and city on an artist board get a
 // "Show X of Y at this venue" line so multi-night stands are distinguishable.
@@ -5651,8 +5621,8 @@ export function eventPublishableLaneSlugs(event, env = {}) {
 // read as a riddle, 2026-10-06).
 // Keep in sync with showCtaCountLabel in public/app.js.
 function ctaCountLabel(count, priced = 0) {
-  if (count < 1 || !priced) return "";
-  return priced === 1 ? "Lowest listed price" : "Lowest listed prices";
+  if (count < 1) return "";
+  return lowestPriceLabel(priced);
 }
 
 const ctaCountLineHtml = (ctaSpecs) => {
@@ -5672,7 +5642,7 @@ function renderPriceHistoryPanelHtml(artistSlug, showId) {
   // (PRICE_ALERT_INTEREST_TEMPLATE). It cannot open without JavaScript.
   return `<div class="price-history" data-price-history="${safeShowId}" data-price-history-artist="${safeArtist}"><button type="button" class="price-history-toggle" data-price-history-toggle aria-expanded="false" aria-controls="${escapeAttr(
     panelId
-  )}">Show price snapshot history</button><div class="price-history-panel" id="${escapeAttr(panelId)}" data-price-history-panel hidden></div></div>`;
+  )}">${escapeHtml(PRICE_HISTORY_LABEL)}</button><div class="price-history-panel" id="${escapeAttr(panelId)}" data-price-history-panel hidden></div></div>`;
 }
 
 // One copy of the price-drop interest form per page, cloned into a card's
@@ -5941,8 +5911,11 @@ function renderShowBoardJumpHtml(shows) {
 // with MONEY_DISCLOSURE_TEXT in public/app.js.
 const MONEY_DISCLOSURE_TEXT =
   "sites listed first pay TourTicketCompare a commission when you buy through them; Ticketmaster doesn't. No fee is added.";
-function renderMoneyDisclosureHtml() {
-  return `<p class="disclosure-note money-disclosure"><strong>How this site makes money:</strong> ${escapeHtml(MONEY_DISCLOSURE_TEXT)} ${anchor(
+// The page's one price caveat (PRICE_DISCLOSURE, 2026-10-06) leads the same
+// line, so a board says "listed price, not your final total" once rather than
+// under every card. `prices` false drops it where the page shows no prices.
+function renderMoneyDisclosureHtml({ prices = true } = {}) {
+  return `<p class="disclosure-note money-disclosure">${prices ? `${escapeHtml(PRICE_DISCLOSURE)} ` : ""}<strong>How this site makes money:</strong> ${escapeHtml(MONEY_DISCLOSURE_TEXT)} ${anchor(
     "Affiliate disclosure",
     "/affiliate-disclosure",
     "text-link"
@@ -5985,7 +5958,7 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
   // Empty boards (2026-10-06): no intro either. The empty box directly under
   // it already says there are no dates, and the line repeated the page lead.
   const boardIntro = "";
-  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Upcoming dates</h2>${boardIntro}${renderMoneyDisclosureHtml()}</div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
+  return `<section class="section-grid show-board" aria-labelledby="artistShowBoard"><div class="section-intro"><h2 id="artistShowBoard">Upcoming dates</h2>${boardIntro}${renderMoneyDisclosureHtml({ prices: shows.length > 0 })}</div>${filterIntro}<div class="card-grid show-card-grid" data-show-grid="true">${gridContent}</div></section>`;
 }
 
 function safeTicketmasterGuideEventUrl(event) {
@@ -6140,8 +6113,8 @@ function eventPageDescription(artistName, venue, city, dateLabel, state) {
   if (state.held) return fitMetaDescription(`${what}. This date's Ticketmaster status is being checked, so no ticket links are shown.`);
   if (!state.commerciallyLive) return fitMetaDescription(`${what}: when Ticketmaster's public on-sale opens, and ticket links once the date is on sale.`);
   return fitMetaDescription(
-    `Checked ticket links for ${what}, with each ticket site's listed-price snapshot where one is available.`,
-    `Checked ticket links for ${what}. Listed prices are snapshots, not checkout totals.`,
+    `Checked ticket links for ${what}, with each ticket site's listed price where one is available.`,
+    `Checked ticket links for ${what}. Listed prices aren't checkout totals.`,
     `Checked ticket links for ${what}.`
   );
 }
@@ -6229,8 +6202,7 @@ function renderEventPageBody(route, events, env) {
       // Stated with its capture time, as every other snapshot surface does: a
       // cached figure is never presented as "now".
       const asOf = formatServerSnapshotTime(row.lowest.fetchedAt);
-      const age = snapshotAgeLabel(row.lowest.fetchedAt);
-      const when = asOf ? `, as of ${asOf}${age ? ` (${age})` : ""}` : "";
+      const when = asOf ? `, checked ${asOf}` : "";
       priceItems.push(`Lowest listed price: ${amount} on ${row.lowest.name}${when}${lowText ? ` · ${lowText}` : ""}`);
     }
     const move = derivePriceMove(row.lowest, priceMoveSeries.get(`${row.showId}|${row.lowest.provider}`) || []);
@@ -6249,7 +6221,7 @@ function renderEventPageBody(route, events, env) {
   const pricesHtml = priceItems.length
     ? `<section class="nested-panel" aria-labelledby="eventPricesTitle"><h2 id="eventPricesTitle">Recorded prices for this date</h2><ul>${priceItems
         .map((item) => `<li>${escapeHtml(item)}</li>`)
-        .join("")}</ul><p class="disclosure-note">Each figure is one ticket site's listed-price snapshot for this date, captured at the time shown — not live inventory, not availability, and not a final checkout total.</p></section>`
+        .join("")}</ul></section>`
     : "";
 
   const dateLabel = formatShowDateServer(show.dateTimeISO, show.timezone);
@@ -6391,14 +6363,14 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       .join("");
     return `<main id="mainContent"><section class="content-page comparison-hub" aria-labelledby="compareTitle">${renderBreadcrumbHtml(
       route
-    )}<section class="nested-panel"><h1 id="compareTitle">Compare concert ticket prices by site</h1><p class="lead">Start with the show you actually want to see, not a generic "site A vs site B" argument. Where eligible provider listed-price snapshots exist for that exact show, use them to narrow things down — then open the providers and compare the real listing, fees, and delivery terms.</p><div class="action-row">${anchor(
+    )}<section class="nested-panel"><h1 id="compareTitle">Compare concert ticket prices by site</h1><p class="lead">Start with the show you actually want to see, not a generic "site A vs site B" argument. Where ticket sites list a price for that exact show, use it to narrow things down — then open the providers and compare the real listing, fees, and delivery terms.</p><div class="action-row">${anchor(
       "Browse checked events",
       "#current-events",
       "button button-primary"
     )}${anchor("Browse artists", "#compare-by-artist", "button button-secondary")}</div><p class="disclosure-note">Prices are only compared when captured for the same event, each with the time it was taken. Treat them as a starting point rather than a seat-for-seat match or a final quote — the provider sets the price, fees, availability and delivery terms.</p></section><section id="compare-by-artist" class="nested-panel"><h2>Start with an artist</h2><p>Open an artist to find the date you mean. Compare at the level of a single show — that's the only comparison that tells you anything.</p>${renderComparisonHubArtistCards(
       catalog,
       events
-    )}</section><section id="compare-by-city" class="nested-panel"><h2>Find a concert by city or venue</h2><p>Choose a city below or ${anchor("browse venues", "/venues", "text-link")} to find the show and date you want. Open that date to compare its checked ticket links and any listed-price snapshots. Different venues are different purchases: include travel and accommodation when choosing between them.</p>${renderComparisonHubCityLinks(
+    )}</section><section id="compare-by-city" class="nested-panel"><h2>Find a concert by city or venue</h2><p>Choose a city below or ${anchor("browse venues", "/venues", "text-link")} to find the show and date you want. Open that date to compare its checked ticket links and any listed prices. Different venues are different purchases: include travel and accommodation when choosing between them.</p>${renderComparisonHubCityLinks(
       events
     )}</section>${renderComparisonHubEventCards(
       events,
@@ -6842,7 +6814,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}${leadingCity ? ` The widest coverage is ${anchor(leadingCity.city, `/cities/${leadingCity.slug}`)} with ${escapeHtml(cityShowCountLabel(leadingCity.showCount))}.` : ""}</p><section class="section-grid"><div class="section-intro"><h2>Cities with upcoming concerts</h2></div>${renderTileFilterHtml(
       "Filter cities by name or country",
       "Find a city"
-    )}${renderCityTiles(cities)}</section>${collapsedGroupHtml("About city pages and buying tips", `<section class="nested-panel"><h2>What makes a city page useful?</h2><div class="card-grid"><article class="info-card"><h3>Enough distinct coverage</h3><p>A city must have at least four upcoming reviewed shows across at least two artists before it can be indexed.</p></article><article class="info-card"><h3>Event-level facts</h3><p>Every listed date comes from the same reviewed event records used on artist and venue pages; city or venue facts are never invented to fill a page.</p></article><article class="info-card"><h3>A route to the exact show</h3><p>Each city schedule links to the relevant artist event card, where checked provider destinations and eligible price snapshots appear.</p></article></div></section><section class="nested-panel"><h2>Before choosing a concert ticket</h2><p>A city and date narrow the search, but they do not make two tickets equivalent. Match the ticket type, quantity, section or standing area, view notes, delivery method, and final checkout total before deciding.</p><div class="mini-link-grid">${anchor(
+    )}${renderCityTiles(cities)}</section>${collapsedGroupHtml("About city pages and buying tips", `<section class="nested-panel"><h2>What makes a city page useful?</h2><div class="card-grid"><article class="info-card"><h3>Enough distinct coverage</h3><p>A city must have at least four upcoming reviewed shows across at least two artists before it can be indexed.</p></article><article class="info-card"><h3>Event-level facts</h3><p>Every listed date comes from the same reviewed event records used on artist and venue pages; city or venue facts are never invented to fill a page.</p></article><article class="info-card"><h3>A route to the exact show</h3><p>Each city schedule links to the relevant artist event card, where its checked ticket links and any listed prices appear.</p></article></div></section><section class="nested-panel"><h2>Before choosing a concert ticket</h2><p>A city and date narrow the search, but they do not make two tickets equivalent. Match the ticket type, quantity, section or standing area, view notes, delivery method, and final checkout total before deciding.</p><div class="mini-link-grid">${anchor(
       "How to compare concert ticket prices",
       "/guides/how-to-compare-concert-ticket-prices",
       "mini-link"
@@ -6967,7 +6939,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // fail-closed) — no rates are ever rendered or invented server-side.
     return `<main id="mainContent"><section class="content-page currency-converter-page" aria-labelledby="converterTitle">${renderBreadcrumbHtml(
       route
-    )}<h1 id="converterTitle">Currency converter</h1><p class="lead">Convert a ticket budget between currencies before you buy. Ticket prices and price snapshots are shown in the provider's own currency, so a quick conversion helps you compare a listing against your real budget.</p><section class="nested-panel currency-converter-panel"><h2>Convert an amount</h2><form class="currency-converter-form" data-currency-converter novalidate><div class="currency-converter-grid"><div class="currency-converter-field"><label for="converterAmount">Amount</label><input type="text" id="converterAmount" inputmode="decimal" autocomplete="off" spellcheck="false" value="100" data-converter-amount /></div><div class="currency-converter-field"><label for="converterFrom">From</label><select id="converterFrom" data-converter-from disabled><option>Loading&#8230;</option></select></div><button class="currency-converter-swap" type="button" data-converter-swap aria-label="Swap the from and to currencies" disabled>&#8645;</button><div class="currency-converter-field"><label for="converterTo">To</label><select id="converterTo" data-converter-to disabled><option>Loading&#8230;</option></select></div></div><p class="currency-converter-result" data-converter-result aria-live="polite">Enable JavaScript to load current reference rates.</p><p class="disclosure-note" data-converter-meta>Rates are European Central Bank daily reference rates, updated each working day. They are indicative mid-market rates — not a live FX quote and not the rate your card issuer or the ticket provider applies.</p></form><noscript><p class="disclosure-note">The converter needs JavaScript to load current reference rates. Without it, check the current rate with your bank or card issuer before comparing a listing in another currency.</p></noscript></section><section class="nested-panel"><h2>Why ticket prices appear in different currencies</h2><p>Providers price each event in the currency of the event's market: United States shows in US dollars, United Kingdom shows in pounds, most European shows in euros, and Canadian shows in Canadian dollars. Price snapshots on this site keep the provider's own currency for that reason — a provider's price is never converted or restated.</p></section><section class="nested-panel"><h2>Before you pay in another currency</h2><ul class="check-list"><li>Check which currency the provider charges at checkout — it may differ from the currency shown while browsing.</li><li>If checkout offers to charge you in your home currency instead (dynamic currency conversion), compare carefully: that convenience rate is often worse than your card issuer's rate.</li><li>Ask your bank or card issuer about foreign-transaction fees; they apply on top of any exchange rate.</li><li>Treat converted amounts as a guide only — the exact rate applied is set by your card issuer or payment provider on the day the charge settles.</li></ul></section><div class="action-row">${anchor(
+    )}<h1 id="converterTitle">Currency converter</h1><p class="lead">Convert a ticket budget between currencies before you buy. Ticket prices are shown in the provider's own currency, so a quick conversion helps you compare a listing against your real budget.</p><section class="nested-panel currency-converter-panel"><h2>Convert an amount</h2><form class="currency-converter-form" data-currency-converter novalidate><div class="currency-converter-grid"><div class="currency-converter-field"><label for="converterAmount">Amount</label><input type="text" id="converterAmount" inputmode="decimal" autocomplete="off" spellcheck="false" value="100" data-converter-amount /></div><div class="currency-converter-field"><label for="converterFrom">From</label><select id="converterFrom" data-converter-from disabled><option>Loading&#8230;</option></select></div><button class="currency-converter-swap" type="button" data-converter-swap aria-label="Swap the from and to currencies" disabled>&#8645;</button><div class="currency-converter-field"><label for="converterTo">To</label><select id="converterTo" data-converter-to disabled><option>Loading&#8230;</option></select></div></div><p class="currency-converter-result" data-converter-result aria-live="polite">Enable JavaScript to load current reference rates.</p><p class="disclosure-note" data-converter-meta>Rates are European Central Bank daily reference rates, updated each working day. They are indicative mid-market rates — not a live FX quote and not the rate your card issuer or the ticket provider applies.</p></form><noscript><p class="disclosure-note">The converter needs JavaScript to load current reference rates. Without it, check the current rate with your bank or card issuer before comparing a listing in another currency.</p></noscript></section><section class="nested-panel"><h2>Why ticket prices appear in different currencies</h2><p>Providers price each event in the currency of the event's market: United States shows in US dollars, United Kingdom shows in pounds, most European shows in euros, and Canadian shows in Canadian dollars. Listed prices on this site keep the provider's own currency for that reason — a provider's price is never converted or restated.</p></section><section class="nested-panel"><h2>Before you pay in another currency</h2><ul class="check-list"><li>Check which currency the provider charges at checkout — it may differ from the currency shown while browsing.</li><li>If checkout offers to charge you in your home currency instead (dynamic currency conversion), compare carefully: that convenience rate is often worse than your card issuer's rate.</li><li>Ask your bank or card issuer about foreign-transaction fees; they apply on top of any exchange rate.</li><li>Treat converted amounts as a guide only — the exact rate applied is set by your card issuer or payment provider on the day the charge settles.</li></ul></section><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
@@ -7282,7 +7254,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
       '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20261002u" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260924b" /></head>');
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261002a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261006a" defer></script></body>');
   }
   return next;
 }

@@ -65,10 +65,10 @@ const expectedTitle = new Map([
   ["/privacy", "Privacy Policy | TourTicketCompare"],
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
-const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where available, then check the total.";
+const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.";
 const APP_ASSET_VERSION = "20261006a";
 const TTC_HOME_ASSET_VERSION = "20260924b";
-const TTC_HOME_JS_ASSET_VERSION = "20261002a";
+const TTC_HOME_JS_ASSET_VERSION = "20261006a";
 const TTC_SHELL_ASSET_VERSION = "20260925a";
 const SHELL_SCRIPT_ASSET_VERSION = "20260926a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-4/p1dKV8DVVc+KAFU6w/f5XPSPD2Po0Wx8aWhKVLdjI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
@@ -1628,7 +1628,7 @@ assert(appJs.includes("sites listed first pay TourTicketCompare a commission whe
 assert(!appJs.includes("Event last checked:"), "hydration should rely on the consolidated verification panel instead of repeating check dates on every show card");
 assert(!appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every SeatGeek card");
 assert(!appJs.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every Vivid Seats card");
-assert(appJs.includes('"Listed prices, not final totals. Checked "'), "hydration should include the unified listed-price disclosure (P2)");
+assert(appJs.includes('note.append("Checked ");') && appJs.includes("const PRICE_DISCLOSURE ="), "hydration should include the per-card check age and the page-level price disclosure (P2)");
 assert(appJs.includes('const PRICE_UNAVAILABLE_NOTE = "No listed price right now.";'), "hydration should state the price-unavailable case");
 assert(appJs.includes("renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show))"), "hydration must only claim a snapshot is unavailable for a card whose lanes were actually queried");
 assert(appJs.includes("Array.isArray(show?.prices) && show.prices.length > 0"), "the hydrated priced-lane check must treat an empty lane array as unchecked, not as a confirmed absence");
@@ -2229,7 +2229,7 @@ const pricedRouteEnv = envWithEventsJson(vividSeatsPriceEventsJson, {
 });
 const pricedArtistRoute = await routeResponse("/artists/morgan-wallen", pricedRouteEnv);
 assert(pricedArtistRoute.text.includes(`data-price-history="${CONTROLLED_SEATGEEK_SHOW_ID}"`), "a priced artist event should server-render its price snapshot history control");
-assert(pricedArtistRoute.text.includes("Show price snapshot history"), "the restored artist price tracker should be visible as a collapsed control");
+assert(pricedArtistRoute.text.includes(">Show price history<"), "the restored artist price tracker should be visible as a collapsed control");
 assert(pricedArtistRoute.text.includes("data-price-alert-interest"), "the price tracker should retain the price-drop demand instrument");
 const pricedComparisonHub = await routeResponse("/compare-concert-ticket-prices", pricedRouteEnv);
 assert(pricedComparisonHub.text.includes('data-cta-location="comparison_hub"'), "the comparison hub should server-render tracked exact-event provider CTAs");
@@ -2333,7 +2333,7 @@ const serverPricedMorgan = await routeResponse("/artists/morgan-wallen", envWith
   IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL,
   IMPACT_VIVIDSEATS_BASE_TRACKING_URL: "https://example.test/vivid?u="
 }));
-assert(serverPricedMorgan.text.includes("provider-cta-price") && serverPricedMorgan.text.includes("Listed prices, not final totals. Checked <time") && /Checked <time datetime="[^"]+" title="[^"]+">[^<]+<\/time>/.test(serverPricedMorgan.text) && /Lowest listed prices?</.test(serverPricedMorgan.text), "server-rendered artist cards should show eligible provider snapshots with one unified note before client hydration");
+assert(serverPricedMorgan.text.includes("provider-cta-price") && serverPricedMorgan.text.includes('<p class="disclosure-note">Checked <time') && /Checked <time datetime="[^"]+" title="[^"]+">[^<]+<\/time>/.test(serverPricedMorgan.text) && /Lowest listed prices?</.test(serverPricedMorgan.text), "server-rendered artist cards should show eligible provider snapshots with one unified note before client hydration");
 assert(!serverPricedMorgan.text.includes("SeatGeek price snapshot as of"), "SeatGeek must remain CTA-only in server-rendered cards");
 // SeatGeek and Ticketmaster never carry a price, so a card mixing them with a
 // priced lane must never claim a price "on each" button.
@@ -2342,7 +2342,7 @@ for (const card of serverPricedMorgan.text.split('<article class="info-card show
     assert(!card.includes("Lowest listed price on each"), "a card with an unpriced button must never say 'lowest listed price on each'");
   }
 }
-assert(serverPricedMorgan.text.includes("Listed prices, not final totals."), "server-rendered snapshots should keep the not-final-total disclaimer");
+assert(serverPricedMorgan.text.includes("listed price when last checked, not your final total."), "server-rendered price boards should keep the not-final-total disclaimer, once in the page disclosure");
 
 const bulkFlagsOffResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen&includePrices=true&priceProviders=approved-marketplaces"),
@@ -3657,8 +3657,8 @@ assert(
   "client-rendered cards should carry the same price-line wording as the server"
 );
 assert(
-  pathSource.includes('"Lowest listed price"') && pathSource.includes('"Lowest listed prices"') && !pathSource.includes('"Lowest listed price on each"'),
-  "server-rendered cards should carry the price-line wording"
+  (await read("functions/_price-wording.js")).includes('"Lowest listed prices"') && pathSource.includes("lowestPriceLabel(priced)") && !pathSource.includes('"Lowest listed price on each"'),
+  "server-rendered cards should carry the price-line wording (from functions/_price-wording.js)"
 );
 assert(
   appJs.includes('"provider-cta-count muted"') && pathSource.includes('"provider-cta-count muted"'),

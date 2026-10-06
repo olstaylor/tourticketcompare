@@ -1,6 +1,6 @@
 # TourTicketCompare Project Status
 
-Last updated: 2026-09-24 (hand-written facts); the generated figures below are refreshed daily by `daily-audit.yml`. Prose condensed 2026-10-02.
+Last updated: 2026-10-06 (hand-written facts); the generated figures below are refreshed daily by `daily-audit.yml`. Prose condensed 2026-10-02.
 
 Current-state snapshot: data counts, per-artist status and the generated route surface. Mostly machine-written (see "How to update this file"). If it disagrees with the repo, the repo wins.
 
@@ -34,17 +34,17 @@ Current-state snapshot: data counts, per-artist status and the generated route s
   <!-- generated:route-surface -->
   Generated 2026-10-06: **3237 rendered / 652 indexable**. By type (rendered/indexable): home 1/1 · index 6/6 · static 10/10 · guide 28/28 · blog-post 13/13 · blog-tag 4/4 · artist 110/98 · city 345/93 · venue 827/184 · artist-city 1821/143 · price-guide 72/72 · presale 0/0.
   <!-- /generated:route-surface -->
-- `functions/api/out.js` `VERIFIED_TICKET_LINKS`: **206 artist-level entries** — one plain `<slug>:ticketmaster` and one Impact-wrapped `<slug>:seatgeek` per indexable artist (98 artists). There are no artist-level Vivid Seats entries; live event-level Vivid redirects resolve from verified event data.
+- `functions/api/out.js` `VERIFIED_TICKET_LINKS`: **206 artist-level entries** — one plain `<slug>:ticketmaster` and one Impact-wrapped `<slug>:seatgeek` per indexable artist (103 artists). There are no artist-level Vivid Seats entries; live event-level Vivid redirects resolve from verified event data.
 - `data/provider-identities.json`: all **103 entries** verified with `ticketmaster_attraction_id`, `ticketmaster_artist_url`, `seatgeek_performer_id`, and `seatgeek_artist_url` (the 7 remaining `review_required` shells have no registry entry yet — added at Promote). The onboarding manifest lives in gitignored `artifacts/` and does not survive environment recycling; regenerate it with `npm run artists:onboard:propose -- --names <names> --allow-existing-shells`.
 
 ## Per-artist status
 
-98 of the 105 artists are `indexable_with_substantial_content` with `verified_providers: ["ticketmaster","seatgeek"]` and both `<slug>:ticketmaster` and `<slug>:seatgeek` entries in `VERIFIED_TICKET_LINKS`; the remaining 7 are `review_required` shells with no CTA. "SG verified" = events carrying `provider_links.seatgeek.verified === true`.
+103 of the 110 artists are `indexable_with_substantial_content` with `verified_providers: ["ticketmaster","seatgeek"]` and both `<slug>:ticketmaster` and `<slug>:seatgeek` entries in `VERIFIED_TICKET_LINKS`; the remaining 7 are `review_required` shells with no CTA. "SG verified" = events carrying `provider_links.seatgeek.verified === true`.
 
 | Slug | `last_verified_at` | Events | With `seatgeek_url` | SG verified | `needs_recheck` | Tour name | Notes |
 |---|---|---|---|---|---|---|---|
 | beyonce | 2026-10-05 | 0 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
-| harry-styles | 2026-04-30 | 76 | 31 | 31 | **10** | Together, Together | 21 dates added 2026-09-10 from the newly announced run (6 on-sale Australian, 15 pre-on-sale `announced`). All 21 carry blank `tour_name` pending human confirmation from the event pages. The 2 recheck rows are the Madrid short-form `ticketmaster.es` URLs. |
+| harry-styles | 2026-04-30 | 76 | 31 | 31 | **10** | Together, Together | 21 dates added 2026-09-10 from the newly announced run (6 on-sale Australian, 15 pre-on-sale `announced`). All 21 now carry the verified `tour_name` (backfilled 2026-10-06). The 2 recheck rows are the Madrid short-form `ticketmaster.es` URLs. |
 | bts | 2026-09-09 | 30 | 15 | 8 | **4** | BTS WORLD TOUR 'ARIRANG' | Recheck rows: Madrid 6/26 & 6/27 (no-link), Arlington 8/16 & 8/17 (standalone SeatGeek CTA). |
 | ariana-grande | 2026-10-05 | 41 | 17 | 5 | 0 | The Eternal Sunshine Tour | 3 Sunrise rows are owner-verified "page loads, not on sale via TM" and render plain "Check Ticketmaster" links. |
 | bad-bunny | 2026-10-05 | 28 | 0 | 0 | **4** | DeBÍ TiRAR MáS FOToS World Tour | No SeatGeek URLs (EU legs not listed on SeatGeek). Recheck rows: Marseille 7/1 and the re-added Brussels `.com` row — both CTA-suppressed. |
@@ -67,14 +67,14 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 | lady-gaga | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. Held pending live dates. |
 | the-weeknd | 2026-10-05 | 0 | 0 | 0 | 0 | — | Promoted 2026-09-08 after verified provider checks. No event records yet: the empty board carries its artist-level ticket button, and the page is `noindex,follow` until a first date lands. |
 | coldplay | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry. |
-| karol-g | 2026-08-22 | 26 | 1 | 1 | **12** | — | Promoted 2026-08-21. |
+| karol-g | 2026-08-22 | 26 | 1 | 1 | **12** | Viajando Por El Mundo Tropitour | Promoted 2026-08-21. |
 | foo-fighters | 2026-10-05 | 6 | 0 | 0 | 0 | — | Promoted 2026-08-21. |
-| metallica | 2026-08-22 | 38 | 2 | 2 | **2** | — | Promoted 2026-08-21. |
+| metallica | 2026-08-22 | 38 | 2 | 2 | **2** | Life Burns Faster | Promoted 2026-08-21. |
 | rush | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
 | muse | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
-| my-chemical-romance | 2026-08-22 | 11 | 0 | 0 | **1** | — | Promoted 2026-08-21. |
-| teddy-swims | 2026-08-22 | 51 | 5 | 5 | **16** | — | Promoted 2026-08-21. |
-| five-finger-death-punch | 2026-08-22 | 32 | 1 | 1 | **3** | — | Promoted 2026-08-21. |
+| my-chemical-romance | 2026-08-22 | 11 | 0 | 0 | **1** | The Black Parade 2026 | Promoted 2026-08-21. |
+| teddy-swims | 2026-08-22 | 51 | 5 | 5 | **16** | The Ugly Tour | Promoted 2026-08-21. |
+| five-finger-death-punch | 2026-08-22 | 32 | 1 | 1 | **3** | 20th Anniversary World Tour | Promoted 2026-08-21. |
 | system-of-a-down | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
 | laura-pausini | null | 0 | 0 | 0 | 0 | — | `review_required` shell: noindex, no CTA, no registry entry; owner browser-checked the TM identity. |
 | gracie-abrams | 2026-07-30 | 57 | 0 | 0 | **7** | The Look at My Life Tour | Both Antwerp dates restored on official TM links. |
@@ -83,71 +83,71 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 | sombr | 2026-07-30 | 51 | 6 | 6 | **12** | You Are The Reason Tour | All 6 recheck rows retain independent verified SeatGeek coverage. |
 | latto | 2026-08-07 | 2 | 0 | 0 | 0 | — | Promoted 2026-07-29. |
 | john-summit | 2026-07-30 | 26 | 1 | 1 | **4** | CTRL ESCAPE ARENA TOUR | Separate Lollapalooza aftershow stays blank and fully CTA-suppressed. |
-| don-omar | 2026-08-28 | 38 | 3 | 3 | **5** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
-| luke-combs | 2026-08-28 | 12 | 2 | 2 | **2** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
-| blue-october | 2026-08-28 | 68 | 20 | 20 | **26** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
-| pentatonix | 2026-08-28 | 28 | 3 | 3 | **3** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
-| tyla | 2026-08-28 | 27 | 0 | 0 | **3** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
-| nothing-but-thieves | 2026-08-28 | 27 | 4 | 4 | **5** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
-| trivium | 2026-08-28 | 37 | 13 | 13 | **13** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
-| sabaton | 2026-08-28 | 14 | 1 | 1 | **4** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
+| don-omar | 2026-08-28 | 38 | 3 | 3 | **5** | The Last King World Tour | Promoted 2026-08-26; owner browser-checked both destinations. |
+| luke-combs | 2026-08-28 | 12 | 2 | 2 | **2** | My Kinda Saturday Night Tour | Promoted 2026-08-26; owner browser-checked both destinations. |
+| blue-october | 2026-08-28 | 68 | 20 | 20 | **26** | The Foiled 20th Anniversary World Tour | Promoted 2026-08-26; owner browser-checked both destinations. |
+| pentatonix | 2026-08-28 | 28 | 3 | 3 | **3** | Christmas in the City Tour | Promoted 2026-08-26; owner browser-checked both destinations. |
+| tyla | 2026-08-28 | 27 | 0 | 0 | **3** | The A*POP World Tour | Promoted 2026-08-26; owner browser-checked both destinations. |
+| nothing-but-thieves | 2026-08-28 | 27 | 4 | 4 | **5** | The Stray Dogs World Tour | Promoted 2026-08-26; owner browser-checked both destinations. |
+| trivium | 2026-08-28 | 37 | 13 | 13 | **13** | Crown In The Grave World Tour | Promoted 2026-08-26; owner browser-checked both destinations. |
+| sabaton | 2026-08-28 | 14 | 1 | 1 | **4** | Legends On Tour | Promoted 2026-08-26; owner browser-checked both destinations. |
 | in-flames | 2026-09-02 | 1 | 0 | 0 | 0 | — | Promoted 2026-08-26; owner browser-checked both destinations. |
-| beartooth | 2026-08-28 | 32 | 6 | 6 | **11** | — | Promoted 2026-08-26; owner browser-checked both destinations. |
-| polyphia | 2026-09-09 | 22 | 1 | 1 | **6** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
-| stella-lefty | 2026-09-09 | 39 | 10 | 10 | **11** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
-| tobymac | 2026-09-09 | 35 | 10 | 10 | **6** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
-| saint-levant | 2026-09-09 | 16 | 2 | 2 | **3** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
+| beartooth | 2026-08-28 | 32 | 6 | 6 | **11** | Pure Ecstasy World Tour | Promoted 2026-08-26; owner browser-checked both destinations. |
+| polyphia | 2026-09-09 | 22 | 1 | 1 | **6** | BE NOT AFRAID World Tour | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
+| stella-lefty | 2026-09-09 | 39 | 10 | 10 | **11** | Long Way Home Tour | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
+| tobymac | 2026-09-09 | 35 | 10 | 10 | **6** | Hits Deep Tour | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
+| saint-levant | 2026-09-09 | 16 | 2 | 2 | **3** | AFANDI World Tour | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
 | the-airborne-toxic-event | 2026-09-09 | 5 | 1 | 1 | **5** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
 | andrea-bocelli | 2026-09-09 | 30 | 1 | 1 | **4** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
-| morat | 2026-09-09 | 13 | 3 | 3 | **2** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
+| morat | 2026-09-09 | 13 | 3 | 3 | **2** | YEM: Ya Es Mañana World Tour 2027 | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
 | missio | 2026-09-09 | 28 | 3 | 3 | **20** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
 | vnv-nation | 2026-09-09 | 6 | 1 | 1 | **6** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
-| michelle-branch | 2026-09-09 | 35 | 18 | 18 | **16** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
+| michelle-branch | 2026-09-09 | 35 | 18 | 18 | **16** | Everywhere and Back Again Tour | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
 | yuridia | 2026-09-09 | 21 | 8 | 8 | **4** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
-| fkj | 2026-09-09 | 21 | 7 | 7 | **6** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
+| fkj | 2026-09-09 | 21 | 7 | 7 | **6** | Tyber Tour | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
 | sylvan-esso | 2026-09-09 | 31 | 12 | 12 | **13** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
 | blondshell | 2026-09-09 | 11 | 0 | 0 | **2** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
 | pink-martini | 2026-09-09 | 27 | 4 | 4 | **14** | — | Promoted 2026-09-09 after owner confirmation of both API-captured provider destinations (workflow run 34371114685). Verified registry and artist links; dates landed through the Ticketmaster discovery lane. |
-| oasis | 2026-09-24 | 37 | 0 | 0 | **7** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. **Ticketmaster showed 0 upcoming events at capture** (SeatGeek 6); owner confirmed the TM artist page resolves and chose to publish both lanes. The TM link is plain and unmonetized. Ticketmaster dates have since landed through the automated lane (#1110). |
-| hans-zimmer | 2026-09-24 | 30 | 5 | 5 | **5** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Dates withheld as `status_not_onsale` at promotion have since landed through the automated Ticketmaster lane (#1110). |
-| trans-siberian-orchestra | 2026-09-23 | 52 | 28 | 28 | **8** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 50 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
-| kenny-chesney | 2026-09-24 | 20 | 2 | 2 | **3** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Dates withheld as `status_not_onsale` at promotion have since landed through the automated Ticketmaster lane (#1110). |
-| death-cab-for-cutie | 2026-09-23 | 26 | 11 | 11 | **6** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 5 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
-| alan-walker | 2026-09-23 | 23 | 8 | 8 | **8** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 23 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
+| oasis | 2026-09-24 | 37 | 0 | 0 | **7** | Oasis Live '27 | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. **Ticketmaster showed 0 upcoming events at capture** (SeatGeek 6); owner confirmed the TM artist page resolves and chose to publish both lanes. The TM link is plain and unmonetized. Ticketmaster dates have since landed through the automated lane (#1110). |
+| hans-zimmer | 2026-09-24 | 30 | 5 | 5 | **5** | Hans Zimmer Live – The Next Level | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Dates withheld as `status_not_onsale` at promotion have since landed through the automated Ticketmaster lane (#1110). |
+| trans-siberian-orchestra | 2026-09-23 | 52 | 28 | 28 | **8** | The Ghosts of Christmas Eve – 30th Anniversary Winter Tour | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 50 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
+| kenny-chesney | 2026-09-24 | 20 | 2 | 2 | **3** | The Original Vibe Room Tour | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Dates withheld as `status_not_onsale` at promotion have since landed through the automated Ticketmaster lane (#1110). |
+| death-cab-for-cutie | 2026-09-23 | 26 | 11 | 11 | **6** | I Built You A Tower World Tour | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 5 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
+| alan-walker | 2026-09-23 | 23 | 8 | 8 | **8** | Legend of Atlantis Tour | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 23 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
 | the-psychedelic-furs | 2026-09-23 | 18 | 5 | 5 | **6** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 14 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
-| eros-ramazzotti | 2026-09-23 | 1 | 0 | 0 | 0 | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 1 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
-| atmosphere | 2026-09-24 | 18 | 6 | 6 | **7** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Dates withheld as `status_not_onsale` at promotion have since landed through the automated Ticketmaster lane (#1110). |
-| the-warning | 2026-09-23 | 24 | 8 | 8 | **9** | — | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 22 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
-| hilary-duff | 2026-09-24 | 34 | 0 | 0 | **6** | — | Auto-promoted 2026-09-24 (#1117); dates ingested in the same job. |
+| eros-ramazzotti | 2026-09-23 | 1 | 0 | 0 | 0 | Una Storia Importante World Tour | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 1 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
+| atmosphere | 2026-09-24 | 18 | 6 | 6 | **7** | The Winter Carnival Tour 2027 | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Dates withheld as `status_not_onsale` at promotion have since landed through the automated Ticketmaster lane (#1110). |
+| the-warning | 2026-09-23 | 24 | 8 | 8 | **9** | Everything's Falling World Tour | Promoted 2026-09-22 after owner confirmation of both API-captured provider destinations. Verified registry entry and both artist-level links. Ticketmaster 22 dates ingested the same day via the sanctioned discovery lane; provider links land `verified:false` until a human checks them. |
+| hilary-duff | 2026-09-24 | 34 | 0 | 0 | **6** | the lucky me tour | Auto-promoted 2026-09-24 (#1117); dates ingested in the same job. |
 | josiah-queen | 2026-09-24 | 16 | 4 | 4 | 0 | — | Auto-promoted 2026-09-24 (#1117); dates ingested in the same job. |
-| ha-ash | 2026-09-24 | 17 | 3 | 3 | **2** | — | Auto-promoted 2026-09-24 (#1117); dates ingested in the same job. |
+| ha-ash | 2026-09-24 | 17 | 3 | 3 | **2** | No Me Hablen de Amor Tour | Auto-promoted 2026-09-24 (#1117); dates ingested in the same job. |
 | lukas-graham | 2026-09-24 | 13 | 1 | 1 | 0 | — | Auto-promoted 2026-09-24 (#1117); dates ingested in the same job. |
-| passenger | 2026-09-24 | 15 | 0 | 0 | **1** | — | Auto-promoted 2026-09-24 (#1117); dates ingested in the same job. |
-| sienna-spiro | 2026-09-25 | 31 | 8 | 8 | **12** | — |  |
-| malcolm-todd | 2026-09-25 | 37 | 4 | 4 | **6** | — |  |
-| lizzy-mcalpine | 2026-09-25 | 39 | 0 | 0 | **8** | — |  |
+| passenger | 2026-09-24 | 15 | 0 | 0 | **1** | Wild Love Tour | Auto-promoted 2026-09-24 (#1117); dates ingested in the same job. |
+| sienna-spiro | 2026-09-25 | 31 | 8 | 8 | **12** | My House Tour |  |
+| malcolm-todd | 2026-09-25 | 37 | 4 | 4 | **6** | Do That Again Tour |  |
+| lizzy-mcalpine | 2026-09-25 | 39 | 0 | 0 | **8** | The Over Country Tour |  |
 | the-interrupters | 2026-09-25 | 22 | 8 | 8 | 0 | — |  |
 | dinosaur-jr | 2026-09-25 | 29 | 12 | 12 | **14** | — |  |
-| needtobreathe | 2026-09-26 | 22 | 5 | 0 | **2** | — |  |
-| foy-vance | 2026-09-26 | 24 | 9 | 7 | **9** | — |  |
-| the-lemonheads | 2026-09-26 | 13 | 1 | 0 | **2** | — |  |
-| tommy-emmanuel | 2026-09-26 | 32 | 7 | 7 | **19** | — |  |
-| haiden-henderson | 2026-09-26 | 18 | 9 | 9 | **4** | — |  |
-| dylan-scott | 2026-09-27 | 21 | 6 | 6 | **6** | — |  |
-| valley | 2026-09-27 | 35 | 4 | 2 | **12** | — |  |
+| needtobreathe | 2026-09-26 | 22 | 5 | 0 | **2** | The Long Surrender Tour |  |
+| foy-vance | 2026-09-26 | 24 | 9 | 7 | **9** | The Wake World Tour |  |
+| the-lemonheads | 2026-09-26 | 13 | 1 | 0 | **2** | The Love Chant Tour |  |
+| tommy-emmanuel | 2026-09-26 | 32 | 7 | 7 | **19** | Living In The Light Tour |  |
+| haiden-henderson | 2026-09-26 | 18 | 9 | 9 | **4** | The dumblond Tour |  |
+| dylan-scott | 2026-09-27 | 21 | 6 | 6 | **6** | Dear Big City Tour |  |
+| valley | 2026-09-27 | 35 | 4 | 2 | **12** | Do You Need To Be Entertained? The Tour |  |
 | yacht-rock-revue | 2026-09-27 | 17 | 1 | 1 | **5** | — |  |
 | too-many-zooz | 2026-09-27 | 7 | 2 | 0 | **3** | — |  |
 | amble | 2026-09-27 | 39 | 0 | 0 | **7** | — |  |
-| fantasia | 2026-10-01 | 23 | 4 | 0 | **1** | — |  |
+| fantasia | 2026-10-01 | 23 | 4 | 0 | **1** | The Love of Soul Tour |  |
 | a-perfect-circle | 2026-10-01 | 34 | 2 | 0 | **2** | — |  |
-| chelsea-cutler | 2026-10-01 | 15 | 0 | 0 | 0 | — |  |
-| the-red-clay-strays | 2026-10-01 | 44 | 0 | 0 | **5** | — |  |
-| daughtry | 2026-10-01 | 49 | 0 | 0 | **14** | — |  |
-| greta-van-fleet | 2026-10-03 | 53 | 0 | 0 | **5** | — |  |
-| fontaines-d-c | 2026-10-03 | 33 | 0 | 0 | **3** | — |  |
-| riley-green | 2026-10-03 | 37 | 1 | 0 | **5** | — |  |
+| chelsea-cutler | 2026-10-01 | 15 | 0 | 0 | 0 | IS THIS THE END? Tour |  |
+| the-red-clay-strays | 2026-10-01 | 44 | 0 | 0 | **5** | Grateful Tour |  |
+| daughtry | 2026-10-01 | 49 | 0 | 0 | **14** | 20 Years Unplugged Tour |  |
+| greta-van-fleet | 2026-10-03 | 53 | 0 | 0 | **5** | Into The Beginning Tour |  |
+| fontaines-d-c | 2026-10-03 | 33 | 0 | 0 | **3** | D.C. EU & UK Tour 2026 |  |
+| riley-green | 2026-10-03 | 37 | 1 | 0 | **5** | That's Just Me Tour |  |
 | hazlett | 2026-10-03 | 2 | 0 | 0 | **1** | — |  |
-| carly-rae-jepsen | 2026-10-03 | 23 | 1 | 0 | 0 | — |  |
+| carly-rae-jepsen | 2026-10-03 | 23 | 1 | 0 | 0 | Day and Night Tour |  |
 | the-neighbourhood | 2026-10-06 | 15 | 10 | 0 | 0 | — |  |
 | staind | 2026-10-06 | 32 | 8 | 0 | 0 | — |  |
 | dylan-gossett | 2026-10-06 | 35 | 7 | 0 | **8** | — |  |

@@ -152,6 +152,7 @@ robots meta.
 | Distinct venues | ≥ 2 | A single-venue city page *is* the venue page (`below_venue_threshold`, 2026-10-05) |
 | Shows with a publishable ticket destination | ≥ 1 | A page titled "concerts in X" that can lead nowhere cannot serve its own purpose |
 | Shows with ≥ 2 listed-price lanes | ≥ 1 | Comparison data, above (`no_price_comparison`, 2026-10-05) |
+| Shows with ≥ 2 listed-price lanes | ≥ 5 | A run of comparable dates, not one priced date in a schedule (`CITY_MIN_COMPARABLE_SHOWS`, `below_price_coverage_threshold`, owner-approved 2026-10-06) |
 
 The destination requirement is the part this policy added. "Can lead somewhere"
 means what the renderer means by it: a row whose own verification status is
@@ -172,8 +173,18 @@ concert calendar. That disclosure is visible on the page, not only in the FAQ.
 ### Venue — `/venues/<venue-city>`
 
 **Indexable when** all of these hold: ≥ 3 upcoming tracked shows, ≥ 2 distinct
-artists, ≥ 1 show with a publishable ticket destination, and ≥ 1 show with
-≥ 2 listed-price lanes (comparison data, above).
+artists, ≥ 1 show with a publishable ticket destination, and ≥ 4 shows with
+≥ 2 listed-price lanes (comparison data, above; `VENUE_MIN_COMPARABLE_SHOWS`,
+`below_price_coverage_threshold` when there are 1 to 3).
+
+**Comparable-date minimum (2026-10-06, owner-approved).** Search Console (3
+months to 2026-09-29) put city pages at average position 41 with one click, and
+gave impressions to only 28 of 184 indexed venue pages; venue pages had 4
+search visits in the following 30 days. Most low performers carried one to
+three comparable dates among a schedule, which is a templated calendar rather
+than price data. City and venue pages below the minimum render `noindex,follow`,
+leave the sitemap and stay linked; they return automatically as price lanes
+are verified on more of their dates.
 
 The bar is one show lower than a city's because venue intent is narrower and
 venue inventory turns over faster. The destination requirement is identical and

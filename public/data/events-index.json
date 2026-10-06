@@ -30414,5 +30414,29 @@
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-pink-martini-2027-liverpool-g5vhz_fpr6w_w",
+    "artist_slug": "pink-martini",
+    "artist_name": "Pink Martini",
+    "country": "Great Britain",
+    "city": "Liverpool",
+    "venue": "Liverpool Philharmonic Hall",
+    "datetime_iso": "2027-07-03T18:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-pink-martini-2027-edinburgh-1auzk4agkdmo6dj",
+    "artist_slug": "pink-martini",
+    "artist_name": "Pink Martini",
+    "country": "Great Britain",
+    "city": "Edinburgh",
+    "venue": "Usher Hall",
+    "datetime_iso": "2027-07-04T18:30:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

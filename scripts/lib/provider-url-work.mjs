@@ -142,9 +142,12 @@ export function verifyProviderUrlChanges(before, after, plan, results) {
   return { ok: true, reason: null, changedIds };
 }
 
+export const EVENT_SHARD_PATH = "public/data/events/_shards";
+
 export function providerUrlPaths(artistSlug) {
   if (!slugPattern.test(artistSlug)) throw new Error("Invalid artist slug");
-  return ["public/data/events.json", `public/data/events/${artistSlug}.json`, "PROJECT_STATUS.md"];
+  // The verifier also rewrites events.json's shards (scripts/lib/event-shards.mjs).
+  return ["public/data/events.json", `public/data/events/${artistSlug}.json`, EVENT_SHARD_PATH, "PROJECT_STATUS.md"];
 }
 
 export function verifierArgs(plan, eventIds) {

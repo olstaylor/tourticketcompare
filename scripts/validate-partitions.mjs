@@ -44,6 +44,8 @@ import { readFileSync, readdirSync, existsSync } from "fs";
 import { resolve, dirname, join } from "path";
 import { fileURLToPath } from "url";
 import { INDEX_FIELDS, indexRowFor } from "./lib/events-index.mjs";
+import { isDeepStrictEqual } from "node:util";
+import { buildEventShardManifest, EVENT_SHARD_DIR, EVENT_SHARD_MANIFEST } from "./lib/event-shards.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
@@ -52,6 +54,7 @@ const EVENTS_PATH = join(ROOT, "public/data/events.json");
 const ARTISTS_PATH = join(ROOT, "public/data/artists.json");
 const PARTITIONS_DIR = join(ROOT, "public/data/events");
 const INDEX_PATH = join(ROOT, "public/data/events-index.json");
+const SHARDS_PATH = join(ROOT, EVENT_SHARD_DIR);
 
 // ── The index contract ────────────────────────────────────────────────────────
 //
@@ -173,6 +176,41 @@ export function compareEventsIndex(events, index) {
   return { failures, warnings };
 }
 
+/**
+ * Compare the events.json shards (scripts/lib/event-shards.mjs) against
+ * events.json. The router serves every all-events route from these, so a stale
+ * shard would show visitors an out-of-date record.
+ *
+ * Pure for the self-test: `manifest` is the parsed manifest (or undefined when
+ * missing), `files` maps each shard file name on disk to its parsed contents.
+ *
+ * @param {unknown[]} events
+ * @param {unknown} manifest
+ * @param {Map<string, unknown>} files
+ * @returns {string[]} failures
+ */
+export function compareEventShards(events, manifest, files) {
+  const failures = [];
+  const expected = buildEventShardManifest(events);
+  if (manifest === undefined) return ["manifest.json is missing"];
+  if (!isDeepStrictEqual(manifest, expected)) {
+    failures.push(`manifest.json does not match events.json (expected ${expected.shards.length} shard(s) for ${expected.count} events)`);
+  }
+  const expectedNames = new Set(expected.shards.map((shard) => shard.path.split("/").pop()));
+  for (const name of files.keys()) {
+    if (!expectedNames.has(name)) failures.push(`${name} is not part of the expected shard set`);
+  }
+  let start = 0;
+  for (const shard of expected.shards) {
+    const name = shard.path.split("/").pop();
+    const rows = files.get(name);
+    if (rows === undefined) failures.push(`${name} is missing`);
+    else if (!isDeepStrictEqual(rows, events.slice(start, start + shard.count))) failures.push(`${name} does not match events.json`);
+    start += shard.count;
+  }
+  return failures;
+}
+
 // ── Self-test ─────────────────────────────────────────────────────────────────
 //
 // Runs before any repository data is read, so it exercises the comparison on
@@ -246,6 +284,29 @@ function selfTest() {
 
   const reordered = compareEventsIndex(events, [cleanIndex[1], cleanIndex[0]]);
   check("a reordered index fails", reordered.failures.some((f) => f.includes("different order")));
+
+  const shardEvents = Array.from({ length: 450 }, (_, i) => event(`evt-${i}`));
+  const shardManifest = buildEventShardManifest(shardEvents);
+  const shardFiles = () => new Map([
+    ["000.json", shardEvents.slice(0, 200)],
+    ["001.json", shardEvents.slice(200, 400)],
+    ["002.json", shardEvents.slice(400)],
+  ]);
+  check("matching shards pass", compareEventShards(shardEvents, shardManifest, shardFiles()).length === 0);
+  check("a missing manifest fails", compareEventShards(shardEvents, undefined, shardFiles()).length === 1);
+  const staleShard = shardFiles();
+  staleShard.set("001.json", [{ ...shardEvents[200], venue: "Old Venue" }, ...shardEvents.slice(201, 400)]);
+  check("a stale shard record fails", compareEventShards(shardEvents, shardManifest, staleShard).some((f) => f.includes("001.json")));
+  const missingShard = shardFiles();
+  missingShard.delete("002.json");
+  check("a missing shard fails", compareEventShards(shardEvents, shardManifest, missingShard).some((f) => f.includes("002.json is missing")));
+  const extraShard = shardFiles();
+  extraShard.set("003.json", []);
+  check("a leftover shard fails", compareEventShards(shardEvents, shardManifest, extraShard).some((f) => f.includes("003.json")));
+  check(
+    "a manifest from an older events.json fails",
+    compareEventShards([...shardEvents, event("evt-new")], shardManifest, shardFiles()).some((f) => f.includes("manifest.json")),
+  );
 
   if (failures.length) {
     console.error(`[validate-partitions] self-test: ${failures.length} failure(s)`);
@@ -424,6 +485,27 @@ if (!existsSync(INDEX_PATH)) {
 }
 
 failures.push(...indexFailures.map((f) => `events-index.json — ${f}`));
+
+// ── Validate the events.json shards ───────────────────────────────────────────
+
+const shardFailures = [];
+{
+  const files = new Map();
+  let manifest;
+  if (existsSync(SHARDS_PATH)) {
+    for (const name of readdirSync(SHARDS_PATH).filter((f) => f.endsWith(".json")).sort()) {
+      try {
+        const parsed = JSON.parse(readFileSync(join(SHARDS_PATH, name), "utf8"));
+        if (name === EVENT_SHARD_MANIFEST) manifest = parsed;
+        else files.set(name, parsed);
+      } catch (err) {
+        shardFailures.push(`${name} — invalid JSON — ${err.message}`);
+      }
+    }
+  }
+  if (!shardFailures.length) shardFailures.push(...compareEventShards(events, manifest, files));
+}
+failures.push(...shardFailures.map((f) => `events/_shards — ${f}`));
 warnings.push(...indexWarnings);
 
 // ── Render output ──────────────────────────────────────────────────────────────
@@ -471,6 +553,14 @@ if (indexFailures.length === 0 && indexWarnings.length === 0) {
   if (indexFailures.length > 0) {
     console.log("\n  Regenerate rather than editing the file: npm run events:partition");
   }
+}
+
+console.log("\n=== Events Shard Validation ===\n");
+if (shardFailures.length === 0) {
+  console.log(`  ${label(PASS)} events/_shards  (concatenate back to events.json)`);
+} else {
+  for (const f of shardFailures) console.log(`  ${label(FAIL)} ${f}`);
+  console.log("\n  Regenerate rather than editing the files: npm run events:partition");
 }
 
 if (failures.length > 0 || warnings.length > 0) {

@@ -1,0 +1,57 @@
+{
+  "count": 2531,
+  "shards": [
+    {
+      "path": "/data/events/_shards/000.json",
+      "count": 200
+    },
+    {
+      "path": "/data/events/_shards/001.json",
+      "count": 200
+    },
+    {
+      "path": "/data/events/_shards/002.json",
+      "count": 200
+    },
+    {
+      "path": "/data/events/_shards/003.json",
+      "count": 200
+    },
+    {
+      "path": "/data/events/_shards/004.json",
+      "count": 200
+    },
+    {
+      "path": "/data/events/_shards/005.json",
+      "count": 200
+    },
+    {
+      "path": "/data/events/_shards/006.json",
+      "count": 200
+    },
+    {
+      "path": "/data/events/_shards/007.json",
+      "count": 200
+    },
+    {
+      "path": "/data/events/_shards/008.json",
+      "count": 200
+    },
+    {
+      "path": "/data/events/_shards/009.json",
+      "count": 200
+    },
+    {
+      "path": "/data/events/_shards/010.json",
+      "count": 200
+    },
+    {
+      "path": "/data/events/_shards/011.json",
+      "count": 200
+    },
+    {
+      "path": "/data/events/_shards/012.json",
+      "count": 131
+    }
+  ]
+}

@@ -338,8 +338,53 @@ async function loadCatalog(env) {
   return loadJsonAsset(env, "/data/catalog.json", (data) => data && typeof data === "object", { artists: [], tours: [] });
 }
 
+// The full events list, read from the contiguous shards that
+// scripts/partition-events.py writes beside events.json
+// (scripts/lib/event-shards.mjs). One multi-megabyte
+// env.ASSETS.fetch("/data/events.json") intermittently stalled for exactly 10s
+// on live isolates, while files of a few hundred KB never did. The shards
+// concatenate back to events.json exactly (validate-partitions.mjs checks it),
+// so every route sees the same records in the same order. A missing manifest,
+// a failed shard or a count mismatch falls back to events.json itself. The
+// assembled array is kept per asset binding, like loadJsonAsset's own cache,
+// so the per-array memos (deriveVenues, deriveCities) still hit across requests.
+const SHARDED_EVENTS_BY_BINDING = new WeakMap();
+
 async function loadEvents(env) {
+  const assets = env?.ASSETS;
+  if (assets && typeof assets.fetch === "function") {
+    let pending = SHARDED_EVENTS_BY_BINDING.get(assets);
+    if (!pending) {
+      pending = loadShardedEvents(env);
+      SHARDED_EVENTS_BY_BINDING.set(assets, pending);
+      pending.then((events) => {
+        if (events === null && SHARDED_EVENTS_BY_BINDING.get(assets) === pending) SHARDED_EVENTS_BY_BINDING.delete(assets);
+      });
+    }
+    const events = await pending;
+    if (events !== null) return events;
+  }
   return loadJsonAsset(env, "/data/events.json", Array.isArray, []);
+}
+
+async function loadShardedEvents(env) {
+  const manifest = await loadJsonAsset(env, "/data/events/_shards/manifest.json", isEventShardManifest, null);
+  if (manifest === null) return null;
+  const shards = await Promise.all(manifest.shards.map((shard) => loadJsonAsset(env, shard.path, Array.isArray, null)));
+  if (shards.some((shard, index) => shard === null || shard.length !== manifest.shards[index].count)) return null;
+  const events = [];
+  for (const shard of shards) events.push(...shard);
+  return events.length === manifest.count ? events : null;
+}
+
+function isEventShardManifest(data) {
+  return (
+    Boolean(data) &&
+    Number.isInteger(data.count) &&
+    Array.isArray(data.shards) &&
+    data.shards.length > 0 &&
+    data.shards.every((shard) => /^\/data\/events\/_shards\/\d+\.json$/.test(String(shard?.path)) && Number.isInteger(shard?.count))
+  );
 }
 
 // Artist partitions are generated from the same reviewed event source as the

@@ -2626,7 +2626,7 @@
         "event_id": 7625464,
         "url": "https://www.vividseats.com/daughtry-tickets-melbourne-king-center-for-the-performing-arts-1-25-2027--concerts-rock/production/7625464",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2695,7 +2695,7 @@
         "event_id": 7624134,
         "url": "https://www.vividseats.com/daughtry-tickets-clearwater-ruth-eckerd-hall-1-28-2027/production/7624134",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2764,7 +2764,7 @@
         "event_id": 7623701,
         "url": "https://www.vividseats.com/daughtry-tickets-austin-austin-city-limits-live-at-the-moody-theater-2-3-2027/production/7623701",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2906,7 +2906,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe83k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-eau-claire-rcu-theatre---pablo-center-at-the-confluence-2-18-2027/production/7627197",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
     "last_verified_at": null,
@@ -2928,11 +2928,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7627197,
-        "url": "https://www.vividseats.com/daughtry-tickets-eau-claire-rcu-theatre---pablo-center-at-the-confluence-2-18-2027/production/7627197",
-        "verified": true,
-        "last_verified_at": "2026-10-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -3069,7 +3069,7 @@
         "event_id": 7624065,
         "url": "https://www.vividseats.com/daughtry-tickets-charlottesville-paramount-theater-charlottesville-3-3-2027/production/7624065",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {

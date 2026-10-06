@@ -418,7 +418,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv60Y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv60Y",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-buffalo-asbury-hall-at-babeville-buffalo-11-13-2026/production/7485227",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv60Y",
     "last_verified_at": null,
@@ -440,11 +440,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7485227,
+        "url": "https://www.vividseats.com/too-many-zooz-tickets-buffalo-asbury-hall-at-babeville-buffalo-11-13-2026/production/7485227",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -136,7 +136,7 @@
     "ticketmaster_event_id": "1100653AC64BB4F2",
     "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-vancouver-british-columbia-04-18-2027/event/1100653AC64BB4F2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-vancouver-orpheum-theatre---vancouver-4-18-2027--concerts-pop/production/7636675",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-vancouver-british-columbia-04-18-2027/event/1100653AC64BB4F2",
     "last_verified_at": null,
@@ -158,11 +158,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636675,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-vancouver-orpheum-theatre---vancouver-4-18-2027--concerts-pop/production/7636675",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1428,7 +1428,7 @@
     "ticketmaster_event_id": "1000653A09F7D88D",
     "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-25-2027/event/1000653A09F7D88D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-toronto-history-toronto-5-25-2027--concerts-pop/production/7636677",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-25-2027/event/1000653A09F7D88D",
     "last_verified_at": null,
@@ -1450,11 +1450,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636677,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-toronto-history-toronto-5-25-2027--concerts-pop/production/7636677",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1482,7 +1482,7 @@
     "ticketmaster_event_id": "3100653A1E1309BA",
     "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-ottawa-ontario-05-28-2027/event/3100653A1E1309BA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-ottawa-history-ottawa-5-28-2027--concerts-pop/production/7636679",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-ottawa-ontario-05-28-2027/event/3100653A1E1309BA",
     "last_verified_at": null,
@@ -1504,11 +1504,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636679,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-ottawa-history-ottawa-5-28-2027--concerts-pop/production/7636679",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

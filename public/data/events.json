@@ -67077,17 +67077,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107169083",
-        "url": "https://www.stubhub.ie/beartooth-tickets-leeds-o2-academy-leeds-5-10-2026/event/107169083",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_1wg9Kbb",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/beartooth-tickets-leeds-o2-academy-leeds-5-10-2026/event/107169083"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-beartooth-2026-glasgow-17uov0g61l4m0bs",
@@ -142075,17 +142075,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107258196",
-        "url": "https://www.stubhub.ie/amble-tickets-nottingham-rock-city-5-10-2026/event/107258196",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_5Y-lCuE",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-nottingham-rock-city-5-10-2026/event/107258196"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-amble-2026-cardiff-g5vhz_5sqgbqz",
@@ -148042,6 +148042,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671540",
+        "url": "https://www.stubhub.ie/chelsea-cutler-brooklyn-tickets-2-12-2027/event/107671540",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_Kze_VGC",
@@ -148049,7 +148056,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301004",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301004/Chelsea-Cutler-tickets-Fri-Feb-12-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301004/Chelsea-Cutler-tickets-Fri-Feb-12-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/chelsea-cutler-brooklyn-tickets-2-12-2027/event/107671540"
   },
   {
     "id": "tm-chelsea-cutler-2027-toronto-1avzz_kgkstt7dw",
@@ -167058,11 +167066,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107148173",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-hamburg-barclays-arena-hamburg-7-10-2026/event/107148173",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1ka-fJkp",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-hamburg-barclays-arena-hamburg-7-10-2026/event/107148173"
   },
   {
     "id": "tm-niall-horan-2026-berlin-z698xzc2z16vvx0w-e",
@@ -167125,13 +167141,21 @@
         "verified": true,
         "last_verified_at": "2026-10-05",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107148175",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-berlin-uber-arena-8-10-2026/event/107148175",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vvx0w-E",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831762",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831762/Niall-Horan-tickets-Thu-Oct-8-2026-Uber-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831762/Niall-Horan-tickets-Thu-Oct-8-2026-Uber-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-berlin-uber-arena-8-10-2026/event/107148175"
   },
   {
     "id": "tm-latto-2026-petersburg-vvg17z_2r3gq4t",
@@ -167247,13 +167271,21 @@
         "verified": true,
         "last_verified_at": "2026-10-05",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107458276",
+        "url": "https://www.stubhub.ie/teddy-swims-tickets-hamburg-barclays-arena-hamburg-10-3-2027/event/107458276",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vpvZ6G3",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167507",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167507/Teddy-Swims-tickets-Wed-Mar-10-2027-Barclays-Arena-Hamburg"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167507/Teddy-Swims-tickets-Wed-Mar-10-2027-Barclays-Arena-Hamburg",
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-hamburg-barclays-arena-hamburg-10-3-2027/event/107458276"
   },
   {
     "id": "tm-the-warning-2027-london-1adjz_3gknpoval",

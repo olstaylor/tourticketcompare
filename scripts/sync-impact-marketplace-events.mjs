@@ -223,33 +223,35 @@ function markdownCell(value) {
 // run checks a subset, so it must not erase the rest of the provider's
 // evidence. Its rows replace their previous rows in place (so an unchanged
 // outcome leaves the table byte-identical), new rows are appended, and for an
-// --artist run every previous row of that artist this run did not produce is
-// dropped: those events were not checked, so they fall back to "no recorded
-// check" instead of keeping a stale outcome.
-function mergeOutcomeRows(previousLog, newRows, scopeArtist = "") {
+// --artist run every previous row of that artist's events this run did not
+// produce is dropped: those events were not checked, so they fall back to "no
+// recorded check" instead of keeping a stale outcome. The artist's events are
+// identified by id (events.json artist_slug), so a display-name change cannot
+// keep a stale row alive.
+function mergeOutcomeRows(previousLog, newRows, scopeShowIds = new Set()) {
   const pending = new Map(newRows.map((row) => [row.id, row.line]));
   const section = String(previousLog || "").split(/^## Outcomes$/m)[1] || "";
   const rows = [];
   let carried = 0;
   for (const line of section.split("\n")) {
     if (!line.startsWith("| ") || line.startsWith("| showId ") || line.startsWith("| ---")) continue;
-    const [showId = "", artist = ""] = line.slice(2).split(" | ").map((cell) => cell.trim());
+    const showId = line.slice(2).split(" | ")[0].trim();
     if (!showId) continue;
     if (pending.has(showId)) { rows.push(pending.get(showId)); pending.delete(showId); }
-    else if (scopeArtist && artist === markdownCell(scopeArtist)) continue;
+    else if (scopeShowIds.has(showId)) continue;
     else { rows.push(line); carried += 1; }
   }
   rows.push(...pending.values());
   return { rows, carried };
 }
 
-function renderLog(summary, generatedAt = new Date().toISOString(), { previousLog = null, filter = "", scopeArtist = "" } = {}) {
+function renderLog(summary, generatedAt = new Date().toISOString(), { previousLog = null, filter = "", scopeShowIds = new Set() } = {}) {
   const config = providerConfig(summary.provider);
   const newRows = summary.results.map((row) => ({
     id: String(row.event_id),
     line: `| ${markdownCell(row.event_id)} | ${markdownCell(row.artist)} | ${markdownCell(row.action + (row.applied ? " (applied)" : ""))} | ${markdownCell(row.external_id)} | ${markdownCell(row.url)} | ${markdownCell(row.note)} |`
   }));
-  const merged = previousLog == null ? { rows: newRows.map((row) => row.line), carried: 0 } : mergeOutcomeRows(previousLog, newRows, scopeArtist);
+  const merged = previousLog == null ? { rows: newRows.map((row) => row.line), carried: 0 } : mergeOutcomeRows(previousLog, newRows, scopeShowIds);
   const lines = [
     `# ${config.name} event sync log`,
     "",
@@ -707,7 +709,7 @@ async function selfTest() {
   // rows it did not produce.
   const row = (id, artist, note) => ({ ...unlisted.results[0], event_id: id, artist, note });
   const previous = renderLog({ ...unlisted, results: [row("o1", "Other Act", "-"), row("n5", "Stadium Act", "no qualifying listing (complete catalog checked)"), row("gone", "Stadium Act", "ambiguous: several qualifying listings for this event"), row("o2", "Other Act", "-")] });
-  const same = renderLog({ ...unlisted, results: [row("n5", "Stadium Act", "no qualifying listing (complete catalog checked)")] }, undefined, { previousLog: previous, filter: "artist stadium-act", scopeArtist: "Stadium Act" });
+  const same = renderLog({ ...unlisted, results: [row("n5", "Stadium Act", "no qualifying listing (complete catalog checked)")] }, undefined, { previousLog: previous, filter: "artist stadium-act", scopeShowIds: new Set(["n5", "gone"]) });
   const table = (text) => text.split("\n").filter((line) => line.startsWith("| ")).join("\n");
   assert.equal(table(same), table(previous).split("\n").filter((line) => !line.startsWith("| gone ")).join("\n"));
   assert.match(same, /^- Filtered run \(artist stadium-act\): .*2 row\(s\) carried over/m);
@@ -727,7 +729,10 @@ async function selfTest() {
   };
   assert.deepEqual(await order(0), ["Stadium Act", "Other Act"]);
   assert.deepEqual(await order(1), ["Other Act", "Stadium Act"]);
-  return 78;
+  // A row logged under an old display name is still the artist's, by id.
+  const renamed = renderLog({ ...unlisted, results: [row("old", "Old Stage Name", "no qualifying listing (complete catalog checked)"), row("o1", "Other Act", "-")] });
+  assert.deepEqual(mergeOutcomeRows(renamed, [], new Set(["old"])).rows.map((line) => line.slice(2).split(" | ")[0]), ["o1"]);
+  return 79;
 }
 
 async function main() {
@@ -739,13 +744,13 @@ async function main() {
   const logPath = logPathFor(summary.provider);
   const filter = [options.artist ? `artist ${options.artist}` : "", options.limit != null ? `limit ${options.limit}` : ""].filter(Boolean).join(", ");
   const previousLog = filter ? await fs.readFile(logPath, "utf8").catch(() => "") : null;
-  let scopeArtist = "";
+  // An --artist run owns every row of that artist's events, keyed by id.
+  const scopeShowIds = new Set();
   if (options.artist) {
-    const artistsPayload = JSON.parse(await fs.readFile(ARTISTS_PATH, "utf8"));
-    const artists = Array.isArray(artistsPayload) ? artistsPayload : artistsPayload?.artists || [];
-    scopeArtist = clean(artists.find((row) => clean(row?.slug, 120) === options.artist)?.name, 200);
+    const events = JSON.parse(await fs.readFile(EVENTS_PATH, "utf8"));
+    for (const event of events) if (clean(event?.artist_slug, 120) === options.artist) scopeShowIds.add(String(event.id));
   }
-  await fs.writeFile(logPath, renderLog(summary, undefined, { previousLog, filter, scopeArtist }));
+  await fs.writeFile(logPath, renderLog(summary, undefined, { previousLog, filter, scopeShowIds }));
   if (!options.json) console.log(`Audit log: ${path.relative(ROOT, logPath)}`);
   console.log(options.json ? JSON.stringify(summary, null, 2) : `${summary.provider} ${summary.mode}: ${summary.selected} selected, ${summary.changed} changed, ${summary.added} added, ${summary.verified} verified, ${summary.corrected} corrected, ${summary.cleared} cleared, ${summary.unverified} unverified, ${summary.conflicts} conflicts.`);
 }

@@ -2,8 +2,9 @@
 title: "Oasis Live '27: what a code-only ticket sale changes"
 seo_title: "Oasis Live '27 tickets: the code sale"
 description: Oasis Live '27 tickets go only to registered fans with a unique code. What that means for codes offered online, resale listings and choosing a night.
-summary: Oasis Live '27 is not sold the usual way. Registration has closed, selected fans receive a unique code for an assigned sale window, and there is no general sale. That changes how to read almost every ticket offer you will see for these dates.
+summary: Oasis Live '27 was not sold the usual way. Registration closed, selected fans received a unique code for an assigned sale window from 25 September 2026, and there was no general sale reported. That changes how to read almost every ticket offer you will see for these dates.
 date: 2026-09-25
+updated: 2026-10-05
 status: published
 tags:
   - tour-buying
@@ -24,11 +25,13 @@ sources:
     url: https://www.legislation.gov.uk/ukpga/2015/15/section/90
 ---
 
-The official Oasis site says registration for Oasis Live '27 tickets is closed, and that selected registrants receive a unique code, with full details of how to buy, by email between 24 and 27 September 2026. Consequence reported that each code is non-transferable and tied to an assigned on-sale window, that sales begin on Friday 25 September at times that vary by city, and that there will be no general on-sale or other public pre-sale. Those few sentences change how nearly every ticket offer for these dates should be read.
+**Update, 5 October 2026:** the code sale windows described here began on 25 September 2026. If you did not buy in your window, any ticket you are offered now is a resale ticket, so start with "If you did not get a code" below.
+
+The official Oasis site said registration for Oasis Live '27 tickets had closed, and that selected registrants would receive a unique code, with full details of how to buy, by email between 24 and 27 September 2026. Consequence reported that each code is non-transferable and tied to an assigned on-sale window, that sales would begin on Friday 25 September at times varying by city, and that there would be no general on-sale or other public pre-sale. Those few sentences change how nearly every ticket offer for these dates should be read.
 
 ## If you registered: trust the email, not the feed
 
-The code and the buying instructions arrive by email from the official process. Read that email for three things before your window opens: the city and date it covers, the start time, and the time zone that start time is written in. The tour runs from Glasgow to Manchester, mainland Europe, the United States, Slane and Knebworth, so an on-sale time quoted without a zone can easily be an hour, or many hours, away from your own.
+The code and the buying instructions came by email from the official process. If you still hold an unused code, read that email for three things: the city and date it covers, the start time of its window, and the time zone that start time is written in. The tour runs from Glasgow to Manchester, mainland Europe, the United States, Slane and Knebworth, so an on-sale time quoted without a zone can easily be an hour, or many hours, away from your own.
 
 Because reports describe the codes as non-transferable, anyone offering to sell or "share" an Oasis code is offering something the process says cannot be passed on. Treat that as a warning sign, not a shortcut. The same goes for messages asking you to "confirm" a code through a link that did not come from the official email. The [guide to avoiding ticket scams](/guides/how-to-avoid-ticket-scams) covers the payment and contact patterns worth refusing outright.
 

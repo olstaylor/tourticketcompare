@@ -1,16 +1,17 @@
 ---
-title: "Hilary Duff's lucky me tour: when the 2027 dates go on sale"
-seo_title: "Hilary Duff 2027 tour on-sale times"
-description: Hilary Duff's new 2027 lucky me tour dates go on public sale October 2 at 10:00 local time, which is a different moment in every time zone.
-summary: Twenty new dates on Hilary Duff's lucky me tour, four in Europe and sixteen in the US, all go on public sale on Friday, October 2. Each opens at 10:00 in its own venue's time, so the sales are staggered by up to nine hours, and one Brussels hospitality listing opens a day earlier.
+title: "Hilary Duff's lucky me tour: how the 2027 dates went on sale"
+seo_title: "Hilary Duff 2027 tour on-sale recap"
+description: Hilary Duff's 2027 lucky me tour dates went on public sale on October 2, 2026, at 10:00 local time. What that means for buying now.
+summary: Twenty new dates on Hilary Duff's lucky me tour, four in Europe and sixteen in the US, went on public sale on Friday, October 2, 2026, each at 10:00 in its own venue's time. The public on-sale has now passed, so what matters is checking each date's listing before you buy.
 date: 2026-09-25
+updated: 2026-10-05
 status: published
 tags:
   - tour-buying
 related_artists:
   - hilary-duff
 related_guides:
-  - how-to-prepare-for-a-ticket-onsale
+  - ticket-delivery-and-transfer-timing
   - how-to-read-a-ticket-listing
   - primary-vs-resale-concert-tickets
 sources:
@@ -22,9 +23,11 @@ sources:
     url: https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-anaheim-california-11-20-2027/event/090065369896635
 ---
 
-Ticketmaster lists twenty new dates on Hilary Duff's lucky me tour with a public on-sale of Friday, October 2, 2026. Four are in Europe in May 2027 and sixteen are in the United States in October and November 2027. Every one opens at 10:00 in the venue's local time. Written down, that looks like a single sale. In practice it is a rolling sale that starts in Europe and finishes in California nine hours later.
+**Update, October 5, 2026:** the public on-sale described below took place on Friday, October 2. The table is kept as a record of how the sale ran. If you are buying now, start with the "Buying after the on-sale" section below.
 
-## The on-sale times, by time zone
+Ticketmaster listed twenty new dates on Hilary Duff's lucky me tour with a public on-sale of Friday, October 2, 2026. Four are in Europe in May 2027 and sixteen are in the United States in October and November 2027. Every one opened at 10:00 in the venue's local time. Written down, that looked like a single sale. In practice it was a rolling sale that started in Europe and finished in California nine hours later.
+
+## How the on-sale ran, by time zone
 
 | Dates | Public on-sale (venue time) | Same moment in New York |
 |---|---|---|
@@ -34,33 +37,26 @@ Ticketmaster lists twenty new dates on Hilary Duff's lucky me tour with a public
 | Denver (Nov 17) | 10:00 AM MDT, Oct 2 | 12:00 PM EDT |
 | Anaheim (Nov 20) | 10:00 AM PDT, Oct 2 | 1:00 PM EDT |
 
-These are the public on-sale times Ticketmaster lists for each date. Presales, if any, are not tracked on this site and may open earlier, so check the artist's and venue's own announcements for those.
+These were the public on-sale times Ticketmaster listed for each date. Presales, if any, were not tracked on this site.
 
-The ten Canadian dates, Vancouver on January 22 through Halifax on February 7, are already on sale and aren't part of the October 2 sale.
+The ten Canadian dates, Vancouver on January 22 through Halifax on February 7, were already on sale and weren't part of the October 2 sale.
 
-## Why the stagger matters
+## Buying after the on-sale
 
-If you want one specific night, the time that matters is the one for that venue, converted to where you'll be sitting. A fan in Los Angeles aiming for the Orlando show needs to be ready at 7:00 AM Pacific, not 10:00.
+With the public on-sale over, two things change.
 
-The stagger also means one city's sale can be over before another's starts. Resale listings for an early-opening date can appear while a later date hasn't gone on sale yet. A resale listing for a date that isn't on sale yet is a seller's promise to deliver a ticket they don't hold yet. Read its delivery date before paying. The [primary versus resale guide](/guides/primary-vs-resale-concert-tickets) explains the difference.
+First, the official sale and the resale market now sit side by side. Ticketmaster may still have tickets for some dates and not others, and resale listings can appear for every date. A resale price can sit above or below the original price, so compare the full total, including fees, for the exact date you want. The [primary versus resale guide](/guides/primary-vs-resale-concert-tickets) explains the difference.
 
-## The Brussels listing that opens a day early
+Second, these shows are a long way off: the European dates are in May 2027 and the US dates run through November 2027. Many resale tickets for shows that far ahead are not delivered straight away. Read the listing's delivery date before paying, and the [delivery and transfer guide](/guides/ticket-delivery-and-transfer-timing) for what that means.
 
-Brussels has a second listing alongside the standard Forest National date: "be•at Premium Bistronomy Experience", at the venue's Legacy Lounge. Its public on-sale is a day earlier, 10:00 CEST on Thursday, October 1.
+## The Brussels hospitality listing
+
+Brussels has a second listing alongside the standard Forest National date: "be•at Premium Bistronomy Experience", at the venue's Legacy Lounge. Its public on-sale was a day earlier, on Thursday, October 1.
 
 That is a hospitality package, not the standard concert ticket, and the two aren't interchangeable. Before buying either, read what the listing includes, which entrance and area it covers, and whether a concert ticket is part of it. The [guide to reading a ticket listing](/guides/how-to-read-a-ticket-listing) covers what to check.
 
-## Getting ready
-
-The [on-sale preparation guide](/guides/how-to-prepare-for-a-ticket-onsale) has the full routine. For this sale, the essentials are:
-
-- Convert your date's 10:00 local time to your own time zone, and set the alarm for a few minutes before.
-- Sign in to Ticketmaster in advance, with payment details up to date.
-- Open the event page from the artist's or venue's official link, not a search advert.
-- Know your fallback date, in case your first choice goes quickly.
-
 ## What the Hilary Duff page shows
 
-The [Hilary Duff page](/artists/hilary-duff) lists every tracked date. Before a date's public on-sale, its card shows the on-sale time and no Ticketmaster button. Resale sites with a checked link for that exact date may still appear, and their listings can sit above face value. After the on-sale, the Ticketmaster link appears. TourTicketCompare doesn't sell tickets or run presales.
+The [Hilary Duff page](/artists/hilary-duff) lists every tracked date, including dates added since this post was first written, with the ticket sites that have a checked link for each one. Where a price appears, it is one provider's listed price at the time shown beside it, not a final checkout total. TourTicketCompare doesn't sell tickets or run presales.
 
-The [on-sale calendar](/on-sale) lists these dates, and other tours with a public on-sale coming up, by day in each venue's local time.
+For other tours with a public on-sale still to come, the [on-sale calendar](/on-sale) lists them by day in each venue's local time.

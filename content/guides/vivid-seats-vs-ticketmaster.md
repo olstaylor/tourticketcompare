@@ -83,7 +83,7 @@ Before comparing totals, identify what each side offers. Primary, premium, offic
 
 ## All-in pricing, fees, taxes and optional charges
 
-Since May 12, 2025, the US Federal Trade Commission's Rule on Unfair or Deceptive Fees has required live-event ticket sellers, including resellers and third-party platforms, to display the total price including mandatory fees whenever a price is shown. The FTC's guidance also explains that taxes, shipping, and optional goods or services can be excluded from that upfront figure when the rule's conditions are met. This makes the first displayed number more useful, but it does not remove the need to read the final order summary.
+In the US, both must display a total price that includes mandatory fees, though taxes, shipping and optional extras can be left out of that upfront figure (the [fees guide](/guides/concert-ticket-fees-explained) covers the rule). This makes the first displayed number more useful, but it does not remove the need to read the final order summary.
 
 Ticketmaster says ticket prices and fees are determined by event organisers, with mandatory fees included in the upfront price. Its help material distinguishes the face value from service fees, a venue-set facility charge that Ticketmaster says it keeps no part of, taxes, and a delivery fee charged only if you choose a method such as mail or courier.
 

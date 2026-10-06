@@ -326,7 +326,7 @@ export const OG_CARDS = {
   "/blog/buying-tickets-for-a-concert-in-another-country": {"url":"/og/blog-buying-tickets-for-a-concert-in-another-country.png","alt":"Blog: Buying tickets for a concert in another country"},
   "/blog/choosing-a-harry-styles-madison-square-garden-night": {"url":"/og/blog-choosing-a-harry-styles-madison-square-garden-night.png","alt":"Blog: Choosing a Harry Styles night at Madison Square Garden"},
   "/blog/floor-or-seats-at-a-stadium-concert": {"url":"/og/blog-floor-or-seats-at-a-stadium-concert.png","alt":"Blog: Floor or seats at a stadium concert: how to choose"},
-  "/blog/hilary-duff-lucky-me-tour-2027-on-sale": {"url":"/og/blog-hilary-duff-lucky-me-tour-2027-on-sale.png","alt":"Blog: Hilary Duff's lucky me tour: when the 2027 dates go on sale"},
+  "/blog/hilary-duff-lucky-me-tour-2027-on-sale": {"url":"/og/blog-hilary-duff-lucky-me-tour-2027-on-sale.png","alt":"Blog: Hilary Duff's lucky me tour: how the 2027 dates went on sale"},
   "/blog/how-a-ticket-link-gets-published": {"url":"/og/blog-how-a-ticket-link-gets-published.png","alt":"Blog: How a ticket link gets published on TourTicketCompare"},
   "/blog/metallica-m72-2027-stadium-dates-on-sale": {"url":"/og/blog-metallica-m72-2027-stadium-dates-on-sale.png","alt":"Blog: Metallica's 2027 M72 stadium dates: resale listed first"},
   "/blog/oasis-live-27-code-only-ticket-sale": {"url":"/og/blog-oasis-live-27-code-only-ticket-sale.png","alt":"Blog: Oasis Live '27: what a code-only ticket sale changes"},

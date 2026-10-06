@@ -70,7 +70,7 @@ Not reliably, and not in a way you can settle before checkout. A resale listing 
 
 On TourTicketCompare, a TicketNetwork button on a date shows TicketNetwork's lowest listed price for that date when its feed supplies one, with how long ago it was checked. The Ticketmaster button is a plain link with no price. That tells you where to look, not which order will cost less.
 
-The number that decides it is the complete current total, and neither site's headline figure is that number until you reach the payment step. Under the US Federal Trade Commission's rule on unfair or deceptive fees, businesses must show the total price for live-event tickets up front, including every charge or fee they know about and can calculate. Taxes and government charges, shipping charges and optional add-ons may be excluded from that figure, but anything excluded must be disclosed before you're asked to pay, at least as prominently as the total.
+The number that decides it is the complete current total, and neither site's headline figure is that number until you reach the payment step. In the US, both must show mandatory fees in the upfront total, and disclose any taxes, shipping or optional add-ons before you're asked to pay; the [fees guide](/guides/concert-ticket-fees-explained) explains the rule.
 
 In practice that means the honest comparison happens late, on two checkout pages, for two seats you have actually matched.
 

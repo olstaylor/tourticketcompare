@@ -36,9 +36,10 @@ const CITY_SLUG_ALIASES = [...CITY_ALIASES].map(([alias, canonical]) => [slugify
 
 /**
  * The canonical path for a city, venue or artist-city URL written with an
- * aliased city spelling, or "" when the path is already canonical. The router
- * 301s an alias URL here, so a page indexed or linked under the other spelling
- * lands on the merged page instead of a 404.
+ * aliased city spelling, or "" when there is nothing to rewrite. A candidate
+ * only: the router tries it for a path that would otherwise 404, and redirects
+ * only when the candidate itself resolves (routeForPath in [[path]].js), so a
+ * slug that merely contains the alias text is never sent anywhere.
  *
  * @param {string} path
  * @returns {string}

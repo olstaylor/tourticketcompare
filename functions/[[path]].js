@@ -462,13 +462,25 @@ function findTour(catalog, artistSlug, tourSlug) {
   return (catalog.tours || []).find((row) => slugify(row.artist_slug) === artistSlug && slugify(row.slug) === tourSlug);
 }
 
+// A city, venue or artist-city URL written with an aliased city spelling
+// (CITY_ALIASES in _venues.js) 301s to wherever its canonical spelling resolves.
+// Only a path that would otherwise 404 is tried, so a real page whose slug
+// merely contains the alias ("saint-petersburg-beach") is never rewritten, and
+// the redirect goes straight to the canonical route's own terminal answer: the
+// page itself, its lifecycle redirect, or a plain 404, never a chain.
 async function routeForPath(pathname, env) {
+  const route = await resolveRoute(pathname, env);
+  if (route) return route;
+  const canonicalPath = canonicalLocationPath(normalizePath(pathname));
+  if (!canonicalPath) return null;
+  const canonicalRoute = await resolveRoute(canonicalPath, env);
+  if (!canonicalRoute) return null;
+  return { type: "redirect", location: canonicalRoute.type === "redirect" ? canonicalRoute.location : canonicalPath };
+}
+
+async function resolveRoute(pathname, env) {
   const path = normalizePath(pathname);
   if (OLD_GUIDE_REDIRECTS[path]) return { type: "redirect", location: OLD_GUIDE_REDIRECTS[path] };
-  // A city, venue or artist-city URL written with an aliased city spelling
-  // (CITY_ALIASES in _venues.js) 301s to the merged canonical page.
-  const canonicalLocation = canonicalLocationPath(path);
-  if (canonicalLocation) return { type: "redirect", location: canonicalLocation };
   if (path === "/compare-concert-ticket-prices") return { type: "comparison-hub", path, ...TRUST_ROUTES[path] };
   if (path === "/" || PUBLIC_HTML_ROUTES.has(path)) return { type: "static", path, ...TRUST_ROUTES[path] };
   // PRICE_GUIDE_FALLBACK keeps the highest-value guide routable (not a 404 or

@@ -1034,11 +1034,19 @@
         "verified": true,
         "last_verified_at": "2026-10-06",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284336",
+        "url": "https://www.ticketliquidator.com/tickets/8284336/Haiden-Henderson-tickets-Sat-May-8-2027-Gothic-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAevqs",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284336"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284336",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284336/Haiden-Henderson-tickets-Sat-May-8-2027-Gothic-Theatre"
   }
 ]

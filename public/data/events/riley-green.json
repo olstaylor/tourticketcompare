@@ -297,12 +297,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293121",
+        "url": "https://www.ticketliquidator.com/tickets/8293121/Riley-Green-tickets-Thu-Apr-1-2027-Numerica-Veterans-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZrp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293121"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293121",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293121/Riley-Green-tickets-Thu-Apr-1-2027-Numerica-Veterans-Arena"
   },
   {
     "id": "tm-riley-green-2027-seattle-vvg1hz_keoq4yp",
@@ -365,13 +373,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293123",
+        "url": "https://www.ticketliquidator.com/tickets/8293123/Riley-Green-tickets-Fri-Apr-2-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KeoQ4YP",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293123",
-    "stubhub_international_url": "https://www.stubhub.ie/riley-green-seattle-tickets-4-2-2027/event/107671388"
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-seattle-tickets-4-2-2027/event/107671388",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293123/Riley-Green-tickets-Fri-Apr-2-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-riley-green-2027-eugene-vvg1hz_3divdk0",
@@ -427,12 +443,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293124",
+        "url": "https://www.ticketliquidator.com/tickets/8293124/Riley-Green-tickets-Sat-Apr-3-2027-Matthew-Knight-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3DivDK0",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293124"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293124",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293124/Riley-Green-tickets-Sat-Apr-3-2027-Matthew-Knight-Arena"
   },
   {
     "id": "tm-riley-green-2027-edmonton-1av7z_3gkwgn0bp",
@@ -488,12 +512,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293148",
+        "url": "https://www.ticketliquidator.com/tickets/8293148/Riley-Green-tickets-Thu-Apr-8-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkWgN0bP",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293148"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293148",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293148/Riley-Green-tickets-Thu-Apr-8-2027-Rogers-Place"
   },
   {
     "id": "tm-riley-green-2027-calgary-1aozkfygkderjem",
@@ -549,12 +581,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293149",
+        "url": "https://www.ticketliquidator.com/tickets/8293149/Riley-Green-tickets-Fri-Apr-9-2027-Scotiabank-Saddledome",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfYGkderjEM",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293149"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293149",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293149/Riley-Green-tickets-Fri-Apr-9-2027-Scotiabank-Saddledome"
   },
   {
     "id": "tm-riley-green-2027-saskatoon-1av7z_3gkdixvhi",
@@ -610,12 +650,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293150",
+        "url": "https://www.ticketliquidator.com/tickets/8293150/Riley-Green-tickets-Sat-Apr-10-2027-SaskTel-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkDiXvHI",
     "timezone": "America/Swift_Current",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293150"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293150",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293150/Riley-Green-tickets-Sat-Apr-10-2027-SaskTel-Centre"
   },
   {
     "id": "tm-riley-green-2027-raleigh-g5evz_ke-2cfw",
@@ -671,12 +719,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293125",
+        "url": "https://www.ticketliquidator.com/tickets/8293125/Riley-Green-tickets-Thu-Apr-29-2027-Coastal-Credit-Union-Music-Park-at-Walnut-Creek",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Ke-2cfW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293125"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293125",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293125/Riley-Green-tickets-Thu-Apr-29-2027-Coastal-Credit-Union-Music-Park-at-Walnut-Creek"
   },
   {
     "id": "tm-riley-green-2027-knoxville-g5viz_3wie3-p",
@@ -732,12 +788,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293127",
+        "url": "https://www.ticketliquidator.com/tickets/8293127/Riley-Green-tickets-Fri-Apr-30-2027-Thompson-Boling-Arena-at-Food-City-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_3WIe3-P",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293127"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293127",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293127/Riley-Green-tickets-Fri-Apr-30-2027-Thompson-Boling-Arena-at-Food-City-Center"
   },
   {
     "id": "tm-riley-green-2027-greenville-g5evz_k14klik",
@@ -793,12 +857,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293128",
+        "url": "https://www.ticketliquidator.com/tickets/8293128/Riley-Green-tickets-Sat-May-1-2027-Bon-Secours-Wellness-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_K14Klik",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293128"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293128",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293128/Riley-Green-tickets-Sat-May-1-2027-Bon-Secours-Wellness-Arena"
   },
   {
     "id": "tm-riley-green-2027-fort-worth-vvg1yz_kepbp4s",
@@ -861,13 +933,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293130",
+        "url": "https://www.ticketliquidator.com/tickets/8293130/Riley-Green-tickets-Thu-May-6-2027-Dickies-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_Kepbp4s",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293130",
-    "stubhub_international_url": "https://www.stubhub.ie/riley-green-fort-worth-tickets-5-6-2027/event/107671387"
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-fort-worth-tickets-5-6-2027/event/107671387",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293130/Riley-Green-tickets-Thu-May-6-2027-Dickies-Arena"
   },
   {
     "id": "tm-riley-green-2027-wichita-vv1akzkfwgkdilqfv",
@@ -923,12 +1003,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293131",
+        "url": "https://www.ticketliquidator.com/tickets/8293131/Riley-Green-tickets-Fri-May-7-2027-INTRUST-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfwGkdIlqfV",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293131"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293131",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293131/Riley-Green-tickets-Fri-May-7-2027-INTRUST-Bank-Arena"
   },
   {
     "id": "tm-riley-green-2027-rogers-g5viz_k5ft6hv",
@@ -984,12 +1072,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293132",
+        "url": "https://www.ticketliquidator.com/tickets/8293132/Riley-Green-tickets-Sat-May-8-2027-Walmart-AMP",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_K5ft6hv",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293132"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293132",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293132/Riley-Green-tickets-Sat-May-8-2027-Walmart-AMP"
   },
   {
     "id": "tm-riley-green-2027-tulsa-1aozkfsgkexhv7n",
@@ -1045,12 +1141,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293133",
+        "url": "https://www.ticketliquidator.com/tickets/8293133/Riley-Green-tickets-Thu-May-20-2027-BOK-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfsGkexhV7N",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293133"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293133",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293133/Riley-Green-tickets-Thu-May-20-2027-BOK-Center"
   },
   {
     "id": "tm-riley-green-2027-dallas-vvg1yz_k1h0ipi",
@@ -1106,12 +1210,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293134",
+        "url": "https://www.ticketliquidator.com/tickets/8293134/Riley-Green-tickets-Fri-May-21-2027-Dos-Equis-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_K1h0IPI",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293134"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293134",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293134/Riley-Green-tickets-Fri-May-21-2027-Dos-Equis-Pavilion"
   },
   {
     "id": "tm-riley-green-2027-lafayette-g5viz_3r9l7s7",
@@ -1395,12 +1507,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294259",
+        "url": "https://www.ticketliquidator.com/tickets/8294259/Riley-Green-tickets-Thu-Jun-10-2027-Outdoors-At-Soaring-Eagle-Casino-Resort",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeF_Z",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294259"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294259",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294259/Riley-Green-tickets-Thu-Jun-10-2027-Outdoors-At-Soaring-Eagle-Casino-Resort"
   },
   {
     "id": "tm-riley-green-2027-toronto-1a8zkfwgkd5hci5",
@@ -1668,12 +1788,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293140",
+        "url": "https://www.ticketliquidator.com/tickets/8293140/Riley-Green-tickets-Fri-Jun-25-2027-Pine-Knob-Music-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfwGkdw_jCp",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293140"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293140",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293140/Riley-Green-tickets-Fri-Jun-25-2027-Pine-Knob-Music-Theatre"
   },
   {
     "id": "tm-riley-green-2027-clarkston-vv1afzkfygkenvgq1",
@@ -1729,12 +1857,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300342",
+        "url": "https://www.ticketliquidator.com/tickets/8300342/Riley-Green-tickets-Sat-Jun-26-2027-Pine-Knob-Music-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfyGkeNVgq1",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300342"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300342",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300342/Riley-Green-tickets-Sat-Jun-26-2027-Pine-Knob-Music-Theatre"
   },
   {
     "id": "tm-riley-green-2027-syracuse-k7vgf_k1rwxjy",
@@ -1790,12 +1926,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294264",
+        "url": "https://www.ticketliquidator.com/tickets/8294264/Riley-Green-tickets-Thu-Jul-15-2027-Empower-Federal-Credit-Union-Amphitheater-at-Lakeview",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_K1rWXJY",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294264"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294264",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294264/Riley-Green-tickets-Thu-Jul-15-2027-Empower-Federal-Credit-Union-Amphitheater-at-Lakeview"
   },
   {
     "id": "tm-riley-green-2027-allentown-1adzz_3gkdwsja0",
@@ -1851,12 +1995,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293141",
+        "url": "https://www.ticketliquidator.com/tickets/8293141/Riley-Green-tickets-Fri-Jul-16-2027-PPL-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_3GkDWsjA0",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293141"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293141",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293141/Riley-Green-tickets-Fri-Jul-16-2027-PPL-Center"
   },
   {
     "id": "tm-riley-green-2027-columbia-1a4zkfwgkdajcik",
@@ -1912,12 +2064,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293142",
+        "url": "https://www.ticketliquidator.com/tickets/8293142/Riley-Green-tickets-Thu-Jul-22-2027-Merriweather-Post-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfwGkdaJCIk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293142"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293142",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293142/Riley-Green-tickets-Thu-Jul-22-2027-Merriweather-Post-Pavilion"
   },
   {
     "id": "tm-riley-green-2027-bethel-k7vgf_kkxvsto",
@@ -2049,13 +2209,21 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293144",
+        "url": "https://www.ticketliquidator.com/tickets/8293144/Riley-Green-tickets-Sat-Jul-24-2027-Xfinity-Center-MA",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfwGke0hYNm",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293144",
-    "stubhub_international_url": "https://www.stubhub.ie/riley-green-mansfield-tickets-7-24-2027/event/107671436"
+    "stubhub_international_url": "https://www.stubhub.ie/riley-green-mansfield-tickets-7-24-2027/event/107671436",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293144/Riley-Green-tickets-Sat-Jul-24-2027-Xfinity-Center-MA"
   },
   {
     "id": "tm-riley-green-2027-evansville-vv16azkfwxpza8acgv",
@@ -2111,12 +2279,20 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293145",
+        "url": "https://www.ticketliquidator.com/tickets/8293145/Riley-Green-tickets-Thu-Jul-29-2027-Ford-Center-IN",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16AZkfwxpZA8ACGv",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293145"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293145",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293145/Riley-Green-tickets-Thu-Jul-29-2027-Ford-Center-IN"
   },
   {
     "id": "tm-riley-green-2027-maryland-heights-vv1fvovpgtqtz755aa",

@@ -106,12 +106,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8274453",
+        "url": "https://www.ticketliquidator.com/tickets/8274453/Valley-Band-tickets-Fri-Feb-5-2027-Le-Studio-TD",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GkBlOkHD",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8274453"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8274453",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8274453/Valley-Band-tickets-Fri-Feb-5-2027-Le-Studio-TD"
   },
   {
     "id": "tm-valley-2027-ottawa-1ad7z_3gkv11nuz",
@@ -326,12 +334,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272760",
+        "url": "https://www.ticketliquidator.com/tickets/8272760/Valley-Band-tickets-Fri-Feb-12-2027-Park-West",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfY",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272760"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272760",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272760/Valley-Band-tickets-Fri-Feb-12-2027-Park-West"
   },
   {
     "id": "tm-valley-2027-minneapolis-z7r9jz1aavzfs",
@@ -387,12 +403,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272761",
+        "url": "https://www.ticketliquidator.com/tickets/8272761/Valley-Band-tickets-Sat-Feb-13-2027-Fine-Line-Music-Cafe",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfs",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272761"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272761",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272761/Valley-Band-tickets-Sat-Feb-13-2027-Fine-Line-Music-Cafe"
   },
   {
     "id": "tm-valley-2027-winnipeg-1av7z_3gkbokkjd",
@@ -692,12 +716,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272766",
+        "url": "https://www.ticketliquidator.com/tickets/8272766/Valley-Band-tickets-Tue-Feb-23-2027-Capital-Ballroom-BC",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvgoz",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272766"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272766",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272766/Valley-Band-tickets-Tue-Feb-23-2027-Capital-Ballroom-BC"
   },
   {
     "id": "tm-valley-2027-vancouver-1av7z_3gkb3hpv9",
@@ -753,12 +785,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272767",
+        "url": "https://www.ticketliquidator.com/tickets/8272767/Valley-Band-tickets-Wed-Feb-24-2027-Commodore-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkB3HpV9",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272767"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272767",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272767/Valley-Band-tickets-Wed-Feb-24-2027-Commodore-Ballroom"
   },
   {
     "id": "tm-valley-2027-seattle-vvg1hz_3nsltnp",
@@ -814,12 +854,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272768",
+        "url": "https://www.ticketliquidator.com/tickets/8272768/Valley-Band-tickets-Fri-Feb-26-2027-The-Neptune-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3nsltNp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272768"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272768",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272768/Valley-Band-tickets-Fri-Feb-26-2027-The-Neptune-Theatre"
   },
   {
     "id": "tm-valley-2027-portland-z7r9jz1aavzfs",
@@ -875,12 +923,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272769",
+        "url": "https://www.ticketliquidator.com/tickets/8272769/Valley-Band-tickets-Sat-Feb-27-2027-Wonder-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272769"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272769",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272769/Valley-Band-tickets-Sat-Feb-27-2027-Wonder-Ballroom"
   },
   {
     "id": "tm-valley-2027-san-francisco-z7r9jz1aavzfv",
@@ -936,12 +992,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272715",
+        "url": "https://www.ticketliquidator.com/tickets/8272715/Valley-Band-tickets-Mon-Mar-1-2027-The-Independent",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfV",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272715"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272715",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272715/Valley-Band-tickets-Mon-Mar-1-2027-The-Independent"
   },
   {
     "id": "tm-valley-2027-los-angeles-vv1aazkf-gkdqrhdg",
@@ -997,12 +1061,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272770",
+        "url": "https://www.ticketliquidator.com/tickets/8272770/Valley-Band-tickets-Tue-Mar-2-2027-The-Bellwether",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkf-GkdqRHDg",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272770"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272770",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272770/Valley-Band-tickets-Tue-Mar-2-2027-The-Bellwether"
   },
   {
     "id": "tm-valley-2027-phoenix-z7r9jz1aavzfg",
@@ -1493,12 +1565,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272777",
+        "url": "https://www.ticketliquidator.com/tickets/8272777/Valley-Band-tickets-Sun-Mar-14-2027-930-Club",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vfZ_333G7mkTL",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272777"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272777",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272777/Valley-Band-tickets-Sun-Mar-14-2027-930-Club"
   },
   {
     "id": "tm-valley-2027-philadelphia-vv1aezkfygkdw6utw",
@@ -1623,12 +1703,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272779",
+        "url": "https://www.ticketliquidator.com/tickets/8272779/Valley-Band-tickets-Wed-Mar-17-2027-Webster-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272779"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272779",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272779/Valley-Band-tickets-Wed-Mar-17-2027-Webster-Hall"
   },
   {
     "id": "tm-valley-2027-boston-vv177z_3gkmvpndn",
@@ -1684,12 +1772,20 @@
         "verified": true,
         "last_verified_at": "2026-09-28",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272780",
+        "url": "https://www.ticketliquidator.com/tickets/8272780/Valley-Band-tickets-Thu-Mar-18-2027-Paradise-Rock-Club-Presented-by-Citizens",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GkmVpNdN",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272780"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272780",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272780/Valley-Band-tickets-Thu-Mar-18-2027-Paradise-Rock-Club-Presented-by-Citizens"
   },
   {
     "id": "tm-valley-2027-toronto-1avzz_3gkdexa9o",

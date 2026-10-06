@@ -130,12 +130,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8099081",
+        "url": "https://www.ticketliquidator.com/tickets/8099081/Dinosaur-Jr-tickets-Sat-Oct-10-2026-Marquee-Theatre-AZ",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G6uJK40ss",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8099081"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8099081",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8099081/Dinosaur-Jr-tickets-Sat-Oct-10-2026-Marquee-Theatre-AZ"
   },
   {
     "id": "tm-dinosaur-jr-2026-solana-beach-z7r9jz1a7puxp",
@@ -191,12 +199,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8105617",
+        "url": "https://www.ticketliquidator.com/tickets/8105617/Dinosaur-Jr-tickets-Sun-Oct-11-2026-Belly-Up-Tavern",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PUxp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8105617"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8105617",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8105617/Dinosaur-Jr-tickets-Sun-Oct-11-2026-Belly-Up-Tavern"
   },
   {
     "id": "tm-dinosaur-jr-2026-anaheim-vvg10z_uu7ndiz",
@@ -321,12 +337,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8098317",
+        "url": "https://www.ticketliquidator.com/tickets/8098317/Dinosaur-Jr-tickets-Fri-Oct-16-2026-The-Bellwether",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_uEYxKa-",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098317"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8098317",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8098317/Dinosaur-Jr-tickets-Fri-Oct-16-2026-The-Bellwether"
   },
   {
     "id": "tm-dinosaur-jr-2026-san-francisco-g5vyz_ullh3se",
@@ -488,12 +512,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8099103",
+        "url": "https://www.ticketliquidator.com/tickets/8099103/Dinosaur-Jr-tickets-Tue-Oct-20-2026-Ace-of-Spades",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_u0dqoo1",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8099103"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8099103",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8099103/Dinosaur-Jr-tickets-Tue-Oct-20-2026-Ace-of-Spades"
   },
   {
     "id": "tm-dinosaur-jr-2026-portland-z7r9jz1a7pu-m",
@@ -671,12 +703,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8103953",
+        "url": "https://www.ticketliquidator.com/tickets/8103953/Dinosaur-Jr-tickets-Sat-Oct-24-2026-The-Neptune-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_ul9nqcx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8103953"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8103953",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8103953/Dinosaur-Jr-tickets-Sat-Oct-24-2026-The-Neptune-Theatre"
   },
   {
     "id": "tm-dinosaur-jr-2026-salt-lake-city-z7r9jz1a7pmzv",
@@ -785,12 +825,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8099079",
+        "url": "https://www.ticketliquidator.com/tickets/8099079/Dinosaur-Jr-tickets-Thu-Oct-29-2026-Ogden-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PU0P",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8099079"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8099079",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8099079/Dinosaur-Jr-tickets-Thu-Oct-29-2026-Ogden-Theatre"
   },
   {
     "id": "tm-dinosaur-jr-2026-houston-g5diz_uj-6tws",
@@ -968,12 +1016,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8097391",
+        "url": "https://www.ticketliquidator.com/tickets/8097391/Dinosaur-Jr-tickets-Fri-Nov-6-2026-Paper-Tiger",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7J7J_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8097391"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8097391",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8097391/Dinosaur-Jr-tickets-Fri-Nov-6-2026-Paper-Tiger"
   },
   {
     "id": "tm-dinosaur-jr-2026-new-orleans-z7r9jz1a7pu-o",
@@ -1029,12 +1085,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8105622",
+        "url": "https://www.ticketliquidator.com/tickets/8105622/Dinosaur-Jr-tickets-Sat-Nov-7-2026-Tipitinas",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PU-o",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8105622"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8105622",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8105622/Dinosaur-Jr-tickets-Sat-Nov-7-2026-Tipitinas"
   },
   {
     "id": "tm-dinosaur-jr-2027-brooklyn-z7r9jz1aavk1a",
@@ -1546,12 +1610,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8245942",
+        "url": "https://www.ticketliquidator.com/tickets/8245942/Dinosaur-Jr-tickets-Fri-Mar-5-2027-Vic-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAedOv",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245942"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245942",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245942/Dinosaur-Jr-tickets-Fri-Mar-5-2027-Vic-Theatre"
   },
   {
     "id": "tm-dinosaur-jr-2027-toronto-1a8zkf4gkdtrlfj",

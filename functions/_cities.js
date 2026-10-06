@@ -1,4 +1,4 @@
-import { venueSlug } from "./_venues.js";
+import { canonicalCity, venueSlug } from "./_venues.js";
 import { cityGate, eventLifecycleHeld, eventPublishable, eventPriceComparable, eventStatusPublishable } from "./_route-indexability.js";
 
 // Shared city derivation used by the HTML router, sitemap, llms.txt, and
@@ -50,7 +50,7 @@ const METRO_CITY_ALIASES = new Map([
 ]);
 
 export function metroCity(city, country) {
-  const raw = String(city || "").trim();
+  const raw = canonicalCity(city);
   return METRO_CITY_ALIASES.get(`${raw.toLowerCase()}|${normalizeCountry(country).toLowerCase()}`) || raw;
 }
 
@@ -58,6 +58,8 @@ export function metroCity(city, country) {
 // place Ticketmaster named (did this artist play Docklands? which city do we
 // query?), never for routes.
 export function rawCitySlug(city, country) {
+  // Raw spelling too (no CITY_ALIASES): the roster forecast queries
+  // Ticketmaster once per spelling it actually uses.
   return slugify(`${String(city || "").trim()} ${normalizeCountry(country)}`);
 }
 
@@ -114,7 +116,7 @@ function deriveCitiesUncached(events, options = {}) {
 
   for (const event of Array.isArray(events) ? events : []) {
     if (!event || typeof event !== "object") continue;
-    const rawCity = String(event.city || "").trim();
+    const rawCity = canonicalCity(event.city);
     const country = normalizeCountry(event.country);
     const city = metroCity(rawCity, country);
     const venue = String(event.venue || "").trim();

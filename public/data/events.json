@@ -48479,17 +48479,17 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7676507",
-        "url": "https://www.ticketnetwork.com/en/p/7676507",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_exc4n-g",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676507"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-franklin-g5viz_eqoip4h",
@@ -81906,18 +81906,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8042785",
-        "url": "https://www.ticketnetwork.com/en/p/8042785",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6G2LZMGt",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042785/Sylvan-Esso-tickets-Mon-Oct-5-2026-930-Club",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042785"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-sylvan-esso-2026-washington-17a8v0g6gi4rjo9",
@@ -166382,11 +166382,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284336",
+        "url": "https://www.ticketnetwork.com/en/p/8284336",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAevqs",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284336"
   },
   {
     "id": "tm-the-red-clay-strays-2027-lubbock-z7r9jz1aaef4t",

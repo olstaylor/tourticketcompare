@@ -219,21 +219,37 @@ function markdownCell(value) {
   return String(value ?? "").replace(/\s+/g, " ").replace(/\|/g, "\\|").trim() || "-";
 }
 
-// Outcome rows of a previous log for events this run did not check. A filtered
-// run (--artist / --limit) checks a subset, so it must not erase the rest of the
-// provider's evidence: its rows replace theirs and every other row carries over.
-function carriedOutcomeRows(previousLog, results) {
-  const checked = new Set(results.map((row) => String(row.event_id)));
+// Merge a filtered run (--artist / --limit) into the previous log. A filtered
+// run checks a subset, so it must not erase the rest of the provider's
+// evidence. Its rows replace their previous rows in place (so an unchanged
+// outcome leaves the table byte-identical), new rows are appended, and for an
+// --artist run every previous row of that artist this run did not produce is
+// dropped: those events were not checked, so they fall back to "no recorded
+// check" instead of keeping a stale outcome.
+function mergeOutcomeRows(previousLog, newRows, scopeArtist = "") {
+  const pending = new Map(newRows.map((row) => [row.id, row.line]));
   const section = String(previousLog || "").split(/^## Outcomes$/m)[1] || "";
-  return section.split("\n").filter((line) => {
-    if (!line.startsWith("| ") || line.startsWith("| showId ") || line.startsWith("| ---")) return false;
-    const showId = line.slice(2).split(" | ")[0].trim();
-    return Boolean(showId) && !checked.has(showId);
-  });
+  const rows = [];
+  let carried = 0;
+  for (const line of section.split("\n")) {
+    if (!line.startsWith("| ") || line.startsWith("| showId ") || line.startsWith("| ---")) continue;
+    const [showId = "", artist = ""] = line.slice(2).split(" | ").map((cell) => cell.trim());
+    if (!showId) continue;
+    if (pending.has(showId)) { rows.push(pending.get(showId)); pending.delete(showId); }
+    else if (scopeArtist && artist === markdownCell(scopeArtist)) continue;
+    else { rows.push(line); carried += 1; }
+  }
+  rows.push(...pending.values());
+  return { rows, carried };
 }
 
-function renderLog(summary, generatedAt = new Date().toISOString(), { carriedRows = [], filter = "" } = {}) {
+function renderLog(summary, generatedAt = new Date().toISOString(), { previousLog = null, filter = "", scopeArtist = "" } = {}) {
   const config = providerConfig(summary.provider);
+  const newRows = summary.results.map((row) => ({
+    id: String(row.event_id),
+    line: `| ${markdownCell(row.event_id)} | ${markdownCell(row.artist)} | ${markdownCell(row.action + (row.applied ? " (applied)" : ""))} | ${markdownCell(row.external_id)} | ${markdownCell(row.url)} | ${markdownCell(row.note)} |`
+  }));
+  const merged = previousLog == null ? { rows: newRows.map((row) => row.line), carried: 0 } : mergeOutcomeRows(previousLog, newRows, scopeArtist);
   const lines = [
     `# ${config.name} event sync log`,
     "",
@@ -247,7 +263,7 @@ function renderLog(summary, generatedAt = new Date().toISOString(), { carriedRow
     "## Run summary",
     "",
     `- Mode: ${summary.mode}`,
-    ...(filter ? [`- Filtered run (${filter}): its rows replace their previous rows; ${carriedRows.length} row(s) carried over from the previous log`] : []),
+    ...(filter ? [`- Filtered run (${filter}): its rows replace their previous rows; ${merged.carried} row(s) carried over from the previous log`] : []),
     `- Events selected: ${summary.selected}`,
     `- API calls made: ${summary.api_calls}`,
     `- Verified provenance written: ${summary.verified}`,
@@ -263,8 +279,7 @@ function renderLog(summary, generatedAt = new Date().toISOString(), { carriedRow
     "",
     `| showId | artist | action | ${config.name} id | url | notes |`,
     "| --- | --- | --- | --- | --- | --- |",
-    ...summary.results.map((row) => `| ${markdownCell(row.event_id)} | ${markdownCell(row.artist)} | ${markdownCell(row.action + (row.applied ? " (applied)" : ""))} | ${markdownCell(row.external_id)} | ${markdownCell(row.url)} | ${markdownCell(row.note)} |`),
-    ...carriedRows,
+    ...merged.rows,
     ""
   ];
   return `${lines.join("\n").trimEnd()}\n`;
@@ -688,15 +703,18 @@ async function selfTest() {
   assert.match(log, /^\| n5 \| A \\\| B \| none \| - \| - \| no qualifying listing \(complete catalog checked\) \|$/m);
   assert.match(log, /^- Not checked \(catalog incomplete\): 0$/m);
   // 12. A filtered run keeps the other events' evidence: its own rows replace
-  // theirs, every other row of the previous log carries over.
-  const previous = renderLog({ ...unlisted, results: [{ ...unlisted.results[0], event_id: "other" }, { ...unlisted.results[0], note: "not checked: catalog incomplete (api_call_limit)" }] });
-  const carried = carriedOutcomeRows(previous, unlisted.results);
-  assert.equal(carried.length, 1);
-  assert.match(carried[0], /^\| other \| /);
-  const merged = renderLog(unlisted, "2026-09-27T00:00:00.000Z", { carriedRows: carried, filter: "artist stadium-act" });
-  assert.match(merged, /^- Filtered run \(artist stadium-act\): .*1 row\(s\) carried over/m);
-  assert.equal((merged.match(/^\| (n5|other) \| /gm) || []).length, 2);
-  assert.equal(carriedOutcomeRows("", unlisted.results).length, 0);
+  // theirs in place, others carry over, and an --artist run drops its artist's
+  // rows it did not produce.
+  const row = (id, artist, note) => ({ ...unlisted.results[0], event_id: id, artist, note });
+  const previous = renderLog({ ...unlisted, results: [row("o1", "Other Act", "-"), row("n5", "Stadium Act", "no qualifying listing (complete catalog checked)"), row("gone", "Stadium Act", "ambiguous: several qualifying listings for this event"), row("o2", "Other Act", "-")] });
+  const same = renderLog({ ...unlisted, results: [row("n5", "Stadium Act", "no qualifying listing (complete catalog checked)")] }, undefined, { previousLog: previous, filter: "artist stadium-act", scopeArtist: "Stadium Act" });
+  const table = (text) => text.split("\n").filter((line) => line.startsWith("| ")).join("\n");
+  assert.equal(table(same), table(previous).split("\n").filter((line) => !line.startsWith("| gone ")).join("\n"));
+  assert.match(same, /^- Filtered run \(artist stadium-act\): .*2 row\(s\) carried over/m);
+  const limited = renderLog({ ...unlisted, results: [row("n5", "Stadium Act", "not checked: catalog incomplete (api_call_limit)"), row("new", "Stadium Act", "-")] }, undefined, { previousLog: previous, filter: "limit 2" });
+  assert.deepEqual(table(limited).split("\n").slice(2).map((line) => line.slice(2).split(" | ")[0]), ["o1", "n5", "gone", "o2", "new"]);
+  assert.match(limited, /^\| n5 \| .*api_call_limit\) \|$/m);
+  assert.equal(mergeOutcomeRows("", [{ id: "a", line: "| a |" }]).rows.length, 1);
   // The artist order rotates with the key, so a capped run reaches everyone.
   const twoArtists = [[night("a1", 4), { ...night("b1", 5), artist_slug: "other-act" }], [{ slug: "stadium-act", name: "Stadium Act" }, { slug: "other-act", name: "Other Act" }], [{ slug: "stadium-act", review_status: "verified" }, { slug: "other-act", review_status: "verified" }]];
   const order = async (key) => {
@@ -720,12 +738,18 @@ async function main() {
   const summary = await run(options);
   const logPath = logPathFor(summary.provider);
   const filter = [options.artist ? `artist ${options.artist}` : "", options.limit != null ? `limit ${options.limit}` : ""].filter(Boolean).join(", ");
-  const previousLog = filter ? await fs.readFile(logPath, "utf8").catch(() => "") : "";
-  await fs.writeFile(logPath, renderLog(summary, undefined, { carriedRows: carriedOutcomeRows(previousLog, summary.results), filter }));
+  const previousLog = filter ? await fs.readFile(logPath, "utf8").catch(() => "") : null;
+  let scopeArtist = "";
+  if (options.artist) {
+    const artistsPayload = JSON.parse(await fs.readFile(ARTISTS_PATH, "utf8"));
+    const artists = Array.isArray(artistsPayload) ? artistsPayload : artistsPayload?.artists || [];
+    scopeArtist = clean(artists.find((row) => clean(row?.slug, 120) === options.artist)?.name, 200);
+  }
+  await fs.writeFile(logPath, renderLog(summary, undefined, { previousLog, filter, scopeArtist }));
   if (!options.json) console.log(`Audit log: ${path.relative(ROOT, logPath)}`);
   console.log(options.json ? JSON.stringify(summary, null, 2) : `${summary.provider} ${summary.mode}: ${summary.selected} selected, ${summary.changed} changed, ${summary.added} added, ${summary.verified} verified, ${summary.corrected} corrected, ${summary.cleared} cleared, ${summary.unverified} unverified, ${summary.conflicts} conflicts.`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(error?.stack || error); process.exitCode = 1; });
 
-export { applyOutcome, carriedOutcomeRows, dateMatches, decideOutcome, outcomeNote, renderLog, enrichTicketLiquidatorCandidates, evaluateCandidate, eventLocalDate, listingsMatchingSeveralDates, parseArgs, run, selectEvents, urlDateConflicts, urlStatedDates };
+export { applyOutcome, mergeOutcomeRows, dateMatches, decideOutcome, outcomeNote, renderLog, enrichTicketLiquidatorCandidates, evaluateCandidate, eventLocalDate, listingsMatchingSeveralDates, parseArgs, run, selectEvents, urlDateConflicts, urlStatedDates };

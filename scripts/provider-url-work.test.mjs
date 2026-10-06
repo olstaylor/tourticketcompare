@@ -106,9 +106,13 @@ for (const bad of [
   [{ ...after[0], provider_links: { seatgeek: { ...after[0].provider_links.seatgeek, extra: true } } }, after[1]]
 ]) assert.equal(verifyProviderUrlChanges(before, bad, plan, [result("e00")]).ok, false);
 assert.equal(verifyProviderUrlChanges(before, after, plan, []).ok, false);
-assert.equal(classifyDiff(plan.expectedPaths, plan).ok, true);
-for (const forbidden of ["functions/api/out.js", "public/data/artists.json", "public/data/events/another-artist.json", ".github/workflows/x.yml"]) {
-  assert.equal(classifyDiff([...plan.expectedPaths, forbidden], plan).ok, false);
+// git reports files, so the declared shard directory shows up as its files.
+const changedFiles = [...plan.expectedPaths.filter((file) => !file.endsWith("_shards")),
+  "public/data/events/_shards/000.json", "public/data/events/_shards/manifest.json"];
+assert.equal(classifyDiff(changedFiles, plan).ok, true);
+for (const forbidden of ["functions/api/out.js", "public/data/artists.json", "public/data/events/another-artist.json", ".github/workflows/x.yml",
+  "public/data/events/_shards/notes.json", "public/data/events/_shards/nested/000.json"]) {
+  assert.equal(classifyDiff([...changedFiles, forbidden], plan).ok, false);
 }
 assert.equal(classifyDiff(["public/data/events.json"], { ...plan, type: "generated_artifact_stale" }).ok, false);
 assert.equal(buildPullRequest({ plan, diff: {} }).body.includes("human"), true);

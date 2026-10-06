@@ -28,6 +28,7 @@ public/
     guides-content.json      Guide content keyed by route
     events.json              Reviewed event records
     events/                  Generated per-artist partitions
+      _shards/               Generated contiguous slices of events.json (router reads these)
     events-index.json        Generated partition index
   og/                        Generated per-page Open Graph cards (1200x630 PNG)
   og-image.png               Shared Open Graph card, used where no per-page card exists
@@ -243,11 +244,11 @@ The browser editor is served from a **separate origin**, `admin.tourticketcompar
 ## Data and rendering flow
 
 1. Source records live in `public/data/artists.json`, `catalog.json`, and `events.json` (hand-reviewed, or machine-matched by the gated Ticketmaster lane).
-2. `npm run events:partition` creates per-artist event files and `events-index.json`.
+2. `npm run events:partition` creates per-artist event files, `events-index.json` and the `events/_shards/` slices.
 3. Server rendering and `/api/shows` read the reviewed data and apply the same provider publishability rules.
 4. `public/app.js` progressively enhances the server-rendered page; it must not loosen server-side URL, provenance, or price gates.
 
-`npm run events:validate:partitions` prevents the per-artist partitions and `events.json` from drifting, and since 2026-09-14 also holds `public/data/events-index.json` — the flat search index — to the same source, by ID multiset and by indexed field value. It runs in `test:mvp`.
+`npm run events:validate:partitions` prevents the per-artist partitions and `events.json` from drifting, and since 2026-09-14 also holds `public/data/events-index.json` — the flat search index — to the same source, by ID multiset and by indexed field value. It runs in `test:mvp`. It also checks `public/data/events/_shards/`: 200-record slices of `events.json` plus a manifest, which must concatenate back to it exactly. Routes that need every event (`/on-sale`, `/artists`, city, venue and event pages) read the shards through `loadEvents` in `functions/[[path]].js` instead of the 6.6MB file, because one large `env.ASSETS.fetch` intermittently stalled for exactly 10s on live isolates (2026-10-02). A missing, failed or disagreeing shard falls back to `events.json`. Writers that patch partitions in place (`verify-seatgeek-events.mjs`, `enrich-seatgeek-events.mjs`, `sync-vividseats-events.mjs`, `backfill-event-timezones.mjs`) rewrite the shards with `scripts/lib/event-shards.mjs`.
 
 ## Provider and redirect contract
 

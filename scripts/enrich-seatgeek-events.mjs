@@ -36,6 +36,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { eventInstantMs, eventLocalDateIso, localDateSkipReason, resolveEventLocalDate, shiftLocalDateIso } from "./lib/event-local-date.mjs";
 import { eventMatchesArtistFilter } from "./lib/artist-filter.mjs";
+import { writeEventShards } from "./lib/event-shards.mjs";
 import { providerConfiguredTest, publishableCtaCount } from "./lib/event-link-coverage.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -1525,6 +1526,9 @@ async function main() {
     }
     await fs.writeFile(EVENTS_PATH, `${JSON.stringify(events, null, 2)}\n`);
     await syncPartitionedEventFiles(events, additions);
+    // events.json's third generated view: the shards the router reads
+    // (scripts/lib/event-shards.mjs). Rewritten in full, as events:partition would.
+    await writeEventShards(REPO_ROOT, events);
   }
 
   const summary = summarize(results, options, apiEnvironment, runState, events, scheduling);

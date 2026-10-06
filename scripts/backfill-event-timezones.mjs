@@ -38,6 +38,7 @@
 //   node scripts/backfill-event-timezones.mjs --self-test     (offline tests)
 // Options: --limit N, --delay-ms N, --json
 
+import { writeEventShards } from "./lib/event-shards.mjs";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -502,6 +503,9 @@ async function main() {
   if (options.apply && changedIds.size > 0) {
     await fs.writeFile(EVENTS_PATH, `${JSON.stringify(events, null, 2)}\n`);
     partitionFiles = await syncPartitions(events, changedIds);
+    // events.json's third generated view: the shards the router reads
+    // (scripts/lib/event-shards.mjs). Rewritten in full, as events:partition would.
+    await writeEventShards(REPO_ROOT, events);
     // events.json has two generated views, not one. Writing the partitions but
     // not the flat search index leaves `timezone` stale in the index — which
     // validate-partitions.mjs now fails on, and which the homepage would show.

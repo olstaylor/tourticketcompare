@@ -468,13 +468,20 @@ export const touchesProtectedPath = (changed) => PROTECTED_PATHS.some((pattern) 
  * regeneration is expected to change, because the allowlist entry declares
  * them; anything else ends the run rather than being reviewed away later.
  */
+// The provider batch's exempt event paths: events.json, the declared artist
+// partition, and the declared shard directory's generated files.
+function isProviderEventPath(file, expectedPaths) {
+  if (expectedPaths.includes(file)) return /^public\/data\/events(?:\.json|\/[^/]+\.json)$/.test(file);
+  return withinDeclaredPaths(file, expectedPaths) && /^public\/data\/events\/_shards\/(?:\d{3}|manifest)\.json$/.test(file);
+}
+
 export function classifyDiff(changedPaths, { expectedPaths, type }) {
   const changed = [...(changedPaths || [])].filter(Boolean).sort();
   const unexpected = changed.filter((path) => !withinDeclaredPaths(path, expectedPaths));
   // Provider batches additionally pass a field-level guard in the runner.
   // Only these exact event paths are exempt; all other protected paths remain.
   const protectedHits = changed.filter((file) => touchesProtectedPath(file)
-    && !(type === PROVIDER_URL_TYPE && expectedPaths.includes(file) && /^public\/data\/events(?:\.json|\/[^/]+\.json)$/.test(file)));
+    && !(type === PROVIDER_URL_TYPE && isProviderEventPath(file, expectedPaths)));
   return { changed, unexpected, protectedHits, ok: changed.length > 0 && unexpected.length === 0 && protectedHits.length === 0 };
 }
 

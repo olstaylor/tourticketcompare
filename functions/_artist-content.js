@@ -351,7 +351,7 @@ export function artistEmptyBoardCopy(artist, options = {}) {
   if (!pastShowCount) {
     return {
       heading: "No dates yet",
-      body: `When Ticketmaster lists a ${name} date it appears here, with its ticket links.`,
+      body: `When Ticketmaster lists a ${name} date it appears here, and its ticket links follow once they are checked.`,
       next: "",
       compact: true
     };
@@ -361,7 +361,7 @@ export function artistEmptyBoardCopy(artist, options = {}) {
     body: pastShowCount
       ? `${name}'s recent dates have passed and no new ones are listed yet.`
       : `No ${name} dates are listed yet.`,
-    next: `New dates show up here with ticket buttons as soon as they're listed.`
+    next: `New dates show up here once they're listed, and ticket buttons once their links are checked.`
   };
 }
 

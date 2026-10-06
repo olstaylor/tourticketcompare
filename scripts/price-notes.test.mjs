@@ -247,6 +247,7 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
   const priced = card(html, PRICED.id);
   assert(/provider-cta-priced/.test(priced), `${pathname}: the priced date shows its snapshot on the button`);
   assert(/\$182/.test(priced), `${pathname}: the Vivid Seats figure is the cached one`);
+  assert(/<time datetime="[^"]+"[^>]*>[^<]+<\/time> \(Vivid Seats\)/.test(priced), `${pathname}: each priced lane keeps its own capture time and provider name`);
 
   const checked = text(card(html, CHECKED.id));
   assert(

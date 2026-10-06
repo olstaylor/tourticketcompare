@@ -2063,8 +2063,8 @@ function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false) {
   }
   const wrap = document.createElement("div");
   wrap.className = "provider-cta-notes";
-  // Keep in sync with renderServerPriceNotes in functions/[[path]].js: one age
-  // when every priced lane reads the same, else one per site.
+  // Keep in sync with renderServerPriceNotes in functions/[[path]].js: one
+  // <time> and provider name per priced lane.
   const note = document.createElement("p");
   note.className = "disclosure-note";
   const timeFor = (spec) => {
@@ -2075,16 +2075,10 @@ function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false) {
     return time;
   };
   note.append("Checked ");
-  const ages = new Set(priced.map((spec) => relativeCheckAge(spec.lane?.fetchedAt)));
-  if (ages.size === 1) {
-    const oldest = priced.reduce((a, b) => (Date.parse(String(b.lane?.fetchedAt || "")) < Date.parse(String(a.lane?.fetchedAt || "")) ? b : a));
-    note.append(timeFor(oldest));
-  } else {
-    priced.forEach((spec, index) => {
-      if (index) note.append(index === priced.length - 1 ? " and " : ", ");
-      note.append(timeFor(spec), ` (${spec.name})`);
-    });
-  }
+  priced.forEach((spec, index) => {
+    if (index) note.append(index === priced.length - 1 ? " and " : ", ");
+    note.append(timeFor(spec), ` (${spec.name})`);
+  });
   note.append(` · ${CARD_PRICE_TAIL}`);
   wrap.append(note);
   return wrap;
@@ -2506,7 +2500,7 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
       ? `${name}'s recent dates have passed and no new ones are listed yet.`
       : `No ${name} dates are listed yet.`
   );
-  text(wrap, "p", "New dates show up here with ticket buttons as soon as they're listed.", "muted");
+  text(wrap, "p", "New dates show up here once they're listed, and ticket buttons once their links are checked.", "muted");
   // Keep in sync with renderShowBoardEmptyStateHtml in functions/[[path]].js.
   const explainer = document.createElement("p");
   explainer.className = "muted";

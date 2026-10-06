@@ -1622,7 +1622,7 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
   if (route.type === "artist") {
     const artistModel = artistBoardModel(route, events, env);
     const rendersSummary =
-      !isShellArtistSummary(route.artist.factual_summary) &&
+      !isShellArtistSummary(route.artist.factual_summary, route.artist.name) &&
       (artistModel.shows.length > 0 || route.artist.indexing_status === "indexable_with_substantial_content");
     graph.push(artistSchema(route, origin, rendersSummary));
     if (artistModel.shows.length) {
@@ -2650,11 +2650,20 @@ function collapsedGroupHtml(summary, html) {
 // Template copy that scripts/auto-promote.mjs writes into a new artist's
 // catalog record. It states only that Ticketmaster lists the act, or repeats
 // what the "Where to buy" panel already says, so pages don't print it.
-function isShellArtistSummary(text) {
-  return /\bis listed by Ticketmaster\b[^.]*\. The dates on this page come from Ticketmaster and are checked daily\.$/.test(String(text || "").trim());
+function escapeRegExp(value) {
+  return String(value || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
-function isShellTicketBuyingNote(text) {
-  return /^These links go to the .+ page on each ticket provider\. Prices, fees and availability are set by the provider/.test(String(text || "").trim());
+// Whole-string matches against the exact auto-promote templates, so a field an
+// editor has extended (not just replaced) is still printed.
+function isShellArtistSummary(text, name) {
+  const n = escapeRegExp(String(name || "").trim());
+  if (!n) return false;
+  return new RegExp(`^${n} is listed by Ticketmaster(?: under [^.]+)?\\. The dates on this page come from Ticketmaster and are checked daily\\.$`).test(String(text || "").trim());
+}
+function isShellTicketBuyingNote(text, name) {
+  const n = String(name || "").trim();
+  if (!n) return false;
+  return String(text || "").trim() === `These links go to the ${n} page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.`;
 }
 
 // `withArtistPanel` false drops the point about the "Where to buy" buttons, for
@@ -5511,22 +5520,15 @@ function renderServerPriceNotes(ctaSpecs, pricesChecked = false, show = null) {
   // P2 (owner-approved 2026-09-24): relative age answers "when" at a glance.
   // The absolute UTC capture time stays on every figure, in the <time>
   // element's datetime and title, so the provenance is still on the page.
-  // When every priced lane reads the same age (the usual case: the writers
-  // run together) the age is said once, from the oldest lane, instead of
-  // once per site.
+  // Every priced lane keeps its own <time> and provider name, even when the
+  // ages read the same: each figure is attributed to its own capture time
+  // (docs/PROVIDER_DATA_POLICY.md).
   const timeHtml = (spec) => {
     const fetchedAt = String(spec.lane?.fetchedAt || "");
     return `<time datetime="${escapeAttr(fetchedAt)}" title="${escapeAttr(spec.priceAsOf)}">${escapeHtml(relativeCheckAge(fetchedAt))}</time>`;
   };
-  const ages = new Set(priced.map((spec) => relativeCheckAge(spec.lane?.fetchedAt)));
-  let checkedText;
-  if (ages.size === 1) {
-    const oldest = priced.reduce((a, b) => (Date.parse(String(b.lane?.fetchedAt || "")) < Date.parse(String(a.lane?.fetchedAt || "")) ? b : a));
-    checkedText = timeHtml(oldest);
-  } else {
-    const checked = priced.map((spec) => `${timeHtml(spec)} (${escapeHtml(spec.name)})`);
-    checkedText = `${checked.slice(0, -1).join(", ")} and ${checked[checked.length - 1]}`;
-  }
+  const checked = priced.map((spec) => `${timeHtml(spec)} (${escapeHtml(spec.name)})`);
+  const checkedText = checked.length > 1 ? `${checked.slice(0, -1).join(", ")} and ${checked[checked.length - 1]}` : checked[0];
   return `<div class="provider-cta-notes"><p class="disclosure-note">Checked ${checkedText} · ${escapeHtml(CARD_PRICE_TAIL)}</p></div>`;
 }
 
@@ -5854,7 +5856,7 @@ function renderShowBoardEmptyStateHtml(artistName = "", providerCta = null, arti
   const copy = emptyCopy || {
     heading: "No upcoming dates listed",
     body: `No ${String(artistName || "").trim() || "artist"} dates are listed yet.`,
-    next: "New dates show up here with ticket buttons as soon as they're listed."
+    next: "New dates show up here once they're listed, and ticket buttons once their links are checked."
   };
   // The artist-level provider page is the only outbound option here: there are
   // no verified dates, so there is nothing event-level to link to.
@@ -6537,8 +6539,8 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // Shell copy written by scripts/auto-promote.mjs is skipped (2026-10-06):
     // its summary ("<name> is listed by Ticketmaster under Rock…") and links
     // note restate the "Where to buy" panel and say nothing about the artist.
-    const aboutText = isShellArtistSummary(artist.factual_summary) ? "" : String(artist.factual_summary || "").trim();
-    const linksNote = isShellTicketBuyingNote(artist.ticket_buying_notes) ? "" : String(artist.ticket_buying_notes || "").trim();
+    const aboutText = isShellArtistSummary(artist.factual_summary, artist.name) ? "" : String(artist.factual_summary || "").trim();
+    const linksNote = isShellTicketBuyingNote(artist.ticket_buying_notes, artist.name) ? "" : String(artist.ticket_buying_notes || "").trim();
     const aboutDiv = aboutText ? `<div><h2>About ${escapeHtml(artist.name)}</h2><p>${escapeHtml(aboutText)}</p></div>` : "";
     const linksNoteHtml = isIndexableArtist && shows.length && linksNote
       ? `<div><h2>About these links</h2><p>${escapeHtml(linksNote)}</p></div>`
@@ -7223,7 +7225,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
-    '<script src="/app.js?v=20261006a" defer></script>',
+    '<script src="/app.js?v=20261006b" defer></script>',
     '<script src="/shell.js?v=20260926a" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed

@@ -284,17 +284,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107258196",
-        "url": "https://www.stubhub.ie/amble-tickets-nottingham-rock-city-5-10-2026/event/107258196",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_5Y-lCuE",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-nottingham-rock-city-5-10-2026/event/107258196"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-amble-2026-cardiff-g5vhz_5sqgbqz",

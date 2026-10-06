@@ -394,6 +394,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671540",
+        "url": "https://www.stubhub.ie/chelsea-cutler-brooklyn-tickets-2-12-2027/event/107671540",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_Kze_VGC",
@@ -401,7 +408,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301004",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301004/Chelsea-Cutler-tickets-Fri-Feb-12-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301004/Chelsea-Cutler-tickets-Fri-Feb-12-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/chelsea-cutler-brooklyn-tickets-2-12-2027/event/107671540"
   },
   {
     "id": "tm-chelsea-cutler-2027-toronto-1avzz_kgkstt7dw",

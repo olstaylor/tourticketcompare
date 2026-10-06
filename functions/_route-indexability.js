@@ -40,11 +40,22 @@ export const CITY_MIN_ARTISTS = 2;
 // venue page lists: the same answer at two URLs. The venue page is the precise
 // one, so the city page needs a second venue to be indexable.
 export const CITY_MIN_VENUES = 2;
+// A city page earns its place in search through price data a schedule cannot
+// give: dates where two listed-price lanes can be compared. One or two such
+// dates among a long schedule is a templated calendar with a price on it, so
+// the city needs a run of comparable dates (owner-approved 2026-10-06, after
+// Search Console showed city pages at average position 41 with one click in
+// three months).
+export const CITY_MIN_COMPARABLE_SHOWS = 5;
 
 // A venue page answers "what is on at <venue>". Venues turn over faster than
 // cities and a venue query is narrower, so the bar is a little lower.
 export const VENUE_MIN_SHOWS = 3;
 export const VENUE_MIN_ARTISTS = 2;
+// Same reasoning as CITY_MIN_COMPARABLE_SHOWS, one date lower (owner-approved
+// 2026-10-06: 28 of 184 indexed venue pages earned any impression and venue
+// pages had 4 search visits in 30 days).
+export const VENUE_MIN_COMPARABLE_SHOWS = 4;
 
 // An artist-city page answers "<artist> tickets in <city>". With a single date
 // it is the artist page filtered to one show card and holds no fact the artist
@@ -336,6 +347,7 @@ export function cityGate(city) {
   if (city?.showCount && (city?.venueCount || 0) < CITY_MIN_VENUES) reasons.push(EXCLUSION_REASONS.BELOW_VENUE_THRESHOLD);
   if (!(city?.publishableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PUBLISHABLE_DESTINATION);
   else if (!(city?.comparableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PRICE_COMPARISON);
+  else if (city.comparableCount < CITY_MIN_COMPARABLE_SHOWS) reasons.push(EXCLUSION_REASONS.BELOW_PRICE_COVERAGE_THRESHOLD);
   return { indexable: reasons.length === 0, reasons };
 }
 
@@ -399,6 +411,7 @@ export function venueGate(venue) {
   if ((venue?.artistCount || 0) < VENUE_MIN_ARTISTS) reasons.push(EXCLUSION_REASONS.BELOW_ARTIST_THRESHOLD);
   if (!(venue?.publishableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PUBLISHABLE_DESTINATION);
   else if (!(venue?.comparableCount > 0)) reasons.push(EXCLUSION_REASONS.NO_PRICE_COMPARISON);
+  else if (venue.comparableCount < VENUE_MIN_COMPARABLE_SHOWS) reasons.push(EXCLUSION_REASONS.BELOW_PRICE_COVERAGE_THRESHOLD);
   return { indexable: reasons.length === 0, reasons };
 }
 

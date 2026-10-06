@@ -874,7 +874,7 @@
         "event_id": 18266341,
         "url": "https://seatgeek.com/nothing-but-thieves-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-04-01-8-pm/concert/18266341",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1078,7 +1078,7 @@
     "tour_name": "The Stray Dogs World Tour",
     "ticketmaster_event_id": "190064B5C9A084A3",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-phoenix-arizona-04-07-2027/event/190064B5C9A084A3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/phoenix-arizona-the-van-buren-2027-04-07-8-pm/concert/18266349",
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-phoenix-the-van-buren-4-7-2027/production/7078824",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-phoenix-arizona-04-07-2027/event/190064B5C9A084A3",
@@ -1094,11 +1094,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266349,
+        "url": "https://seatgeek.com/nothing-but-thieves-tickets/phoenix-arizona-the-van-buren-2027-04-07-8-pm/concert/18266349",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7078824,
@@ -1166,7 +1166,7 @@
         "event_id": 18266350,
         "url": "https://seatgeek.com/nothing-but-thieves-tickets/denver-colorado-mission-ballroom-2027-04-09-8-pm/concert/18266350",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1476,7 +1476,7 @@
     "tour_name": "The Stray Dogs World Tour",
     "ticketmaster_event_id": "020064B694BB806C",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-philadelphia-pennsylvania-04-16-2027/event/020064B694BB806C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2027-04-16-8-pm/concert/18266361",
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-philadelphia-the-fillmore-philadelphia-4-16-2027/production/7078845",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-philadelphia-pennsylvania-04-16-2027/event/020064B694BB806C",
@@ -1492,11 +1492,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266361,
+        "url": "https://seatgeek.com/nothing-but-thieves-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2027-04-16-8-pm/concert/18266361",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7078845,

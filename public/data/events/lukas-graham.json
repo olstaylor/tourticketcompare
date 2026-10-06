@@ -677,7 +677,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "050065341D764CEA",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-indianapolis-indiana-04-08-2027/event/050065341D764CEA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lukas-graham-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-04-08-7-30-pm/concert/18618400",
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-4-8-2027--concerts-pop/production/7600581",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-indianapolis-indiana-04-08-2027/event/050065341D764CEA",
@@ -693,11 +693,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18618400,
+        "url": "https://seatgeek.com/lukas-graham-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-04-08-7-30-pm/concert/18618400",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7600581,

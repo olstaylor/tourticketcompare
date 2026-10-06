@@ -340,7 +340,7 @@
     "tour_name": "Everything's Falling World Tour",
     "ticketmaster_event_id": "1900652AD29B9FD3",
     "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-phoenix-arizona-04-18-2027/event/1900652AD29B9FD3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-warning-tickets/phoenix-arizona-the-van-buren-2027-04-18-8-pm/concert/18591375",
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-phoenix-the-van-buren-4-18-2027/production/7553211",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-phoenix-arizona-04-18-2027/event/1900652AD29B9FD3",
@@ -356,11 +356,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18591375,
+        "url": "https://seatgeek.com/the-warning-tickets/phoenix-arizona-the-van-buren-2027-04-18-8-pm/concert/18591375",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553211,
@@ -428,7 +428,7 @@
         "event_id": 18593338,
         "url": "https://seatgeek.com/the-warning-tickets/san-francisco-california-the-warfield-2027-04-20-8-pm/concert/18593338",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -489,7 +489,7 @@
         "event_id": 18593342,
         "url": "https://seatgeek.com/the-warning-tickets/portland-oregon-roseland-theater-2027-04-22-8-pm/concert/18593342",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -531,7 +531,7 @@
     "tour_name": "Everything's Falling World Tour",
     "ticketmaster_event_id": "0F00652BDDA8EC99",
     "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-seattle-washington-04-23-2027/event/0F00652BDDA8EC99",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-warning-tickets/seattle-washington-moore-theatre-seattle-2027-04-23-8-pm/concert/18590298",
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-seattle-moore-theatre-4-23-2027/production/7553067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-seattle-washington-04-23-2027/event/0F00652BDDA8EC99",
@@ -547,11 +547,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590298,
+        "url": "https://seatgeek.com/the-warning-tickets/seattle-washington-moore-theatre-seattle-2027-04-23-8-pm/concert/18590298",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553067,
@@ -619,7 +619,7 @@
         "event_id": 18590212,
         "url": "https://seatgeek.com/the-warning-tickets/vancouver-canada-vogue-theatre-bc-1-2027-04-25-7-pm/concert/18590212",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -863,7 +863,7 @@
         "event_id": 18593340,
         "url": "https://seatgeek.com/the-warning-tickets/atlanta-georgia-the-eastern-atlanta-2027-05-04-8-pm/concert/18593340",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {

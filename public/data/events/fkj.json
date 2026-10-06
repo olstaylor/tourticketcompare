@@ -136,7 +136,7 @@
         "event_id": 18282296,
         "url": "https://seatgeek.com/fkj-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-04-20-8-pm/concert/18282296",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -205,7 +205,7 @@
         "event_id": 18282297,
         "url": "https://seatgeek.com/fkj-tickets/seattle-washington-showbox-sodo-2027-04-23-8-pm/concert/18282297",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -332,7 +332,7 @@
     "tour_name": "Tyber Tour",
     "ticketmaster_event_id": "110064C57CF24EAC",
     "ticketmaster_url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-26-2027/event/110064C57CF24EAC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fkj-tickets/vancouver-canada-commodore-ballroom-2027-04-26-7-pm/concert/18290231",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-26-2027/event/110064C57CF24EAC",
@@ -348,11 +348,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18290231,
+        "url": "https://seatgeek.com/fkj-tickets/vancouver-canada-commodore-ballroom-2027-04-26-7-pm/concert/18290231",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -428,7 +428,7 @@
         "event_id": 18282299,
         "url": "https://seatgeek.com/fkj-tickets/denver-colorado-mission-ballroom-2027-04-29-8-pm/concert/18282299",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1110,7 +1110,7 @@
         "event_id": 18282301,
         "url": "https://seatgeek.com/fkj-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-06-12-8-pm/concert/18282301",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1301,7 +1301,7 @@
         "event_id": 18282298,
         "url": "https://seatgeek.com/fkj-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-04-28-8-pm/concert/18282298",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1354,7 +1354,7 @@
         "event_id": 18282300,
         "url": "https://seatgeek.com/fkj-tickets/new-orleans-louisiana-saenger-theatre-new-orleans-2027-06-10-8-30-pm/concert/18282300",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {

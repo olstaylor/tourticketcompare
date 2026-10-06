@@ -9974,7 +9974,7 @@
         "event_id": 18208621,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-19-7-pm/concert/18208621",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -10051,7 +10051,7 @@
         "event_id": 18208620,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-20-7-pm/concert/18208620",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -10898,7 +10898,7 @@
         "event_id": 18211722,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-19-7-pm/concert/18211722",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -10975,7 +10975,7 @@
         "event_id": 18211723,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -21009,7 +21009,7 @@
         "event_id": 17729039,
         "url": "https://seatgeek.com/ed-sheeran-tickets/arlington-texas-at-t-stadium-2026-10-24-5-30-pm/concert/17729039",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -32462,7 +32462,7 @@
         "event_id": 18235523,
         "url": "https://seatgeek.com/niall-horan-tickets/saint-paul-minnesota-grand-casino-arena-2027-03-17-7-30-pm/concert/18235523",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -32589,7 +32589,7 @@
     "tour_name": "Dinner Party Live On Tour",
     "ticketmaster_event_id": "050064A897A0C11D",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-columbus-ohio-03-20-2027/event/050064A897A0C11D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/columbus-ohio-nationwide-arena-2027-03-20-7-30-pm/concert/18235520",
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-columbus-nationwide-arena-3-20-2027/production/7017191",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-columbus-ohio-03-20-2027/event/050064A897A0C11D",
@@ -32605,11 +32605,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18235520,
+        "url": "https://seatgeek.com/niall-horan-tickets/columbus-ohio-nationwide-arena-2027-03-20-7-30-pm/concert/18235520",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7017191,
@@ -32735,7 +32735,7 @@
     "tour_name": "Dinner Party Live On Tour",
     "ticketmaster_event_id": "050064A6E98F9E81",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-indianapolis-indiana-03-26-2027/event/050064A6E98F9E81",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/indianapolis-indiana-gainbridge-fieldhouse-2027-03-26-7-30-pm/concert/18235521",
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-indianapolis-gainbridge-fieldhouse-3-26-2027/production/7017203",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-indianapolis-indiana-03-26-2027/event/050064A6E98F9E81",
@@ -32751,11 +32751,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18235521,
+        "url": "https://seatgeek.com/niall-horan-tickets/indianapolis-indiana-gainbridge-fieldhouse-2027-03-26-7-30-pm/concert/18235521",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7017203,
@@ -32910,7 +32910,7 @@
     "tour_name": "Dinner Party Live On Tour",
     "ticketmaster_event_id": "310064A7A90C7934",
     "ticketmaster_url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-montreal-quebec-04-02-2027/event/310064A7A90C7934",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/montreal-canada-centre-bell-2027-04-02-7-30-pm/concert/18235567",
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-montreal-bell-centre-4-2-2027--concerts-pop/production/7017243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-montreal-quebec-04-02-2027/event/310064A7A90C7934",
@@ -32926,11 +32926,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18235567,
+        "url": "https://seatgeek.com/niall-horan-tickets/montreal-canada-centre-bell-2027-04-02-7-30-pm/concert/18235567",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7017243,
@@ -33056,7 +33056,7 @@
     "tour_name": "Dinner Party Live On Tour",
     "ticketmaster_event_id": "150064A7C83AECF4",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-baltimore-maryland-04-08-2027/event/150064A7C83AECF4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/baltimore-maryland-cfg-bank-arena-2027-04-08-7-30-pm/concert/18235529",
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-baltimore-cfg-bank-arena-4-8-2027/production/7017207",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-baltimore-maryland-04-08-2027/event/150064A7C83AECF4",
@@ -33072,11 +33072,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18235529,
+        "url": "https://seatgeek.com/niall-horan-tickets/baltimore-maryland-cfg-bank-arena-2027-04-08-7-30-pm/concert/18235529",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7017207,
@@ -33202,7 +33202,7 @@
     "tour_name": "Dinner Party Live On Tour",
     "ticketmaster_event_id": "2D0064A79090FAC5",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-raleigh-north-carolina-04-15-2027/event/2D0064A79090FAC5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/raleigh-north-carolina-lenovo-center-2027-04-15-7-30-pm/concert/18235538",
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-raleigh-lenovo-center-4-15-2027--concerts-pop/production/7017239",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-raleigh-north-carolina-04-15-2027/event/2D0064A79090FAC5",
@@ -33218,11 +33218,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18235538,
+        "url": "https://seatgeek.com/niall-horan-tickets/raleigh-north-carolina-lenovo-center-2027-04-15-7-30-pm/concert/18235538",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7017239,
@@ -33521,7 +33521,7 @@
         "event_id": 18235544,
         "url": "https://seatgeek.com/niall-horan-tickets/houston-texas-toyota-center-2027-05-01-7-30-pm/concert/18235544",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -35512,7 +35512,7 @@
         "event_id": 17769336,
         "url": "https://seatgeek.com/doja-cat-tickets/houston-texas-toyota-center-2026-11-07-7-30-pm/concert/17769336",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -36980,7 +36980,7 @@
         "event_id": 18175618,
         "url": "https://seatgeek.com/sombr-tickets/san-diego-california-pechanga-arena-san-diego-2026-10-13-7-pm/concert/18175618",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -37049,7 +37049,7 @@
         "event_id": 18175621,
         "url": "https://seatgeek.com/sombr-tickets/glendale-arizona-desert-diamond-arena-2026-10-14-7-pm/concert/18175621",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -37126,7 +37126,7 @@
         "event_id": 18175623,
         "url": "https://seatgeek.com/sombr-tickets/oklahoma-city-oklahoma-paycom-center-2026-10-16-7-pm/concert/18175623",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -37195,7 +37195,7 @@
         "event_id": 18175625,
         "url": "https://seatgeek.com/sombr-tickets/houston-texas-toyota-center-2026-10-17-7-pm/concert/18175625",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -37495,7 +37495,7 @@
         "event_id": 18164919,
         "url": "https://seatgeek.com/sombr-tickets/sunrise-florida-amerant-bank-arena-2026-10-24-7-pm/concert/18164919",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -38485,7 +38485,7 @@
         "event_id": 18157641,
         "url": "https://seatgeek.com/sombr-tickets/cleveland-ohio-rocket-arena-2026-11-13-7-30-pm/concert/18157641",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -39557,7 +39557,7 @@
         "event_id": 18257241,
         "url": "https://seatgeek.com/john-summit-tickets/houston-texas-toyota-center-2026-11-05-7-pm/concert/18257241",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -41752,7 +41752,7 @@
         "event_id": 18166850,
         "url": "https://seatgeek.com/karol-g-tickets/arlington-texas-at-t-stadium-2026-10-15-7-pm/concert/18166850",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -45624,7 +45624,7 @@
         "event_id": 18175691,
         "url": "https://seatgeek.com/teddy-swims-tickets/sunrise-florida-amerant-bank-arena-2026-10-23-7-pm/concert/18175691",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -45778,7 +45778,7 @@
         "event_id": 18185160,
         "url": "https://seatgeek.com/teddy-swims-tickets/houston-texas-toyota-center-2026-10-27-7-pm/concert/18185160",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -46078,7 +46078,7 @@
         "event_id": 18143695,
         "url": "https://seatgeek.com/teddy-swims-tickets/salt-lake-city-utah-delta-center-1-2026-11-03-7-pm/concert/18143695",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -46540,7 +46540,7 @@
         "event_id": 18185177,
         "url": "https://seatgeek.com/teddy-swims-tickets/san-diego-california-pechanga-arena-san-diego-2026-11-13-7-pm/concert/18185177",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -46609,7 +46609,7 @@
         "event_id": 18185180,
         "url": "https://seatgeek.com/teddy-swims-tickets/las-vegas-nevada-t-mobile-arena-2026-11-14-7-pm/concert/18185180",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -51019,7 +51019,7 @@
         "event_id": 18257187,
         "url": "https://seatgeek.com/don-omar-tickets/houston-texas-toyota-center-2026-10-23-8-pm/concert/18257187",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -51242,7 +51242,7 @@
         "event_id": 18250878,
         "url": "https://seatgeek.com/don-omar-tickets/las-vegas-nevada-michelob-ultra-arena-at-mandalay-bay-resort-casino-2026-10-30-8-pm/concert/18250878",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -51818,7 +51818,7 @@
         "event_id": 18333383,
         "url": "https://seatgeek.com/don-omar-tickets/san-diego-california-pechanga-arena-san-diego-2027-02-10-8-pm/concert/18333383",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -52824,7 +52824,7 @@
         "event_id": 18379496,
         "url": "https://seatgeek.com/luke-combs-tickets/arlington-texas-at-t-stadium-2027-04-03-5-20-pm/concert/18379496",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -53631,7 +53631,7 @@
         "event_id": 18147861,
         "url": "https://seatgeek.com/blue-october-tickets/abilene-texas-paramount-theatre-abilene-2026-10-22-7-pm/concert/18147861",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -53700,7 +53700,7 @@
         "event_id": 18147862,
         "url": "https://seatgeek.com/blue-october-tickets/lubbock-texas-the-buddy-holly-hall-helen-devitt-jones-theater-2026-10-23-7-pm/concert/18147862",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -53761,7 +53761,7 @@
         "event_id": 18147863,
         "url": "https://seatgeek.com/blue-october-tickets/tulsa-oklahoma-tulsa-theater-2026-10-24-7-pm/concert/18147863",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -53830,7 +53830,7 @@
         "event_id": 18147864,
         "url": "https://seatgeek.com/blue-october-tickets/wichita-kansas-orpheum-theatre-wichita-2026-10-25-7-pm/concert/18147864",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -53883,7 +53883,7 @@
         "event_id": 18147865,
         "url": "https://seatgeek.com/blue-october-tickets/milwaukee-wisconsin-pabst-theater-2026-10-28-7-pm/concert/18147865",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -54310,7 +54310,7 @@
         "event_id": 18147866,
         "url": "https://seatgeek.com/blue-october-tickets/albany-new-york-hart-theatre-at-the-egg-2026-11-06-7-pm/concert/18147866",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -54371,7 +54371,7 @@
         "event_id": 18147873,
         "url": "https://seatgeek.com/blue-october-tickets/cleveland-ohio-agora-theatre-2026-11-07-7-pm/concert/18147873",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -54493,7 +54493,7 @@
         "event_id": 18147874,
         "url": "https://seatgeek.com/blue-october-tickets/north-tonawanda-new-york-riviera-theatre-north-tonawanda-2026-11-11-7-pm/concert/18147874",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -54883,7 +54883,7 @@
         "event_id": 18147875,
         "url": "https://seatgeek.com/blue-october-tickets/jacksonville-florida-five-jacksonville-2026-11-19-7-pm/concert/18147875",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -54944,7 +54944,7 @@
         "event_id": 18147876,
         "url": "https://seatgeek.com/blue-october-tickets/clearwater-florida-ruth-eckerd-hall-2026-11-20-7-pm/concert/18147876",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -55326,7 +55326,7 @@
         "event_id": 18147878,
         "url": "https://seatgeek.com/blue-october-tickets/kansas-city-missouri-the-midland-theatre-mo-2026-12-03-7-pm/concert/18147878",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -55623,7 +55623,7 @@
         "event_id": 18147885,
         "url": "https://seatgeek.com/blue-october-tickets/austin-texas-bass-concert-hall-2026-12-11-7-pm/concert/18147885",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -56013,7 +56013,7 @@
         "event_id": 18354266,
         "url": "https://seatgeek.com/blue-october-tickets/midland-texas-wagner-noel-performing-arts-center-2027-01-29-8-pm/concert/18354266",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -56440,7 +56440,7 @@
         "event_id": 18245801,
         "url": "https://seatgeek.com/blue-october-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2027-02-10-8-pm/concert/18245801",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -57363,7 +57363,7 @@
         "event_id": 18262264,
         "url": "https://seatgeek.com/blue-october-tickets/denver-colorado-mission-ballroom-2027-03-06-8-pm/concert/18262264",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -57424,7 +57424,7 @@
         "event_id": 18306113,
         "url": "https://seatgeek.com/blue-october-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-07-8-pm/concert/18306113",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -57485,7 +57485,7 @@
         "event_id": 18343763,
         "url": "https://seatgeek.com/blue-october-tickets/chicago-illinois-riviera-theatre-chicago-2027-03-11-8-pm/concert/18343763",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -57588,7 +57588,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "210064ABAA2132CC",
     "ticketmaster_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-rockford-illinois-03-14-2027/event/210064ABAA2132CC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/rockford-illinois-hard-rock-live-rockford-2027-03-14-6-pm/concert/18239397",
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-rockford-hard-rock-live---rockford-3-14-2027/production/7022376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-rockford-illinois-03-14-2027/event/210064ABAA2132CC",
@@ -57604,11 +57604,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18239397,
+        "url": "https://seatgeek.com/blue-october-tickets/rockford-illinois-hard-rock-live-rockford-2027-03-14-6-pm/concert/18239397",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7022376,
@@ -57822,7 +57822,7 @@
         "event_id": 18506093,
         "url": "https://seatgeek.com/pentatonix-tickets/bozeman-montana-brick-breeden-fieldhouse-2026-11-09-7-pm/concert/18506093",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -58329,7 +58329,7 @@
         "event_id": 18385717,
         "url": "https://seatgeek.com/pentatonix-tickets/cleveland-ohio-rocket-arena-2026-11-19-7-pm/concert/18385717",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -59404,7 +59404,7 @@
         "event_id": 18427242,
         "url": "https://seatgeek.com/pentatonix-tickets/lubbock-texas-united-supermarkets-arena-2026-12-17-7-pm/concert/18427242",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -62515,7 +62515,7 @@
         "event_id": 18266341,
         "url": "https://seatgeek.com/nothing-but-thieves-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-04-01-8-pm/concert/18266341",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -62719,7 +62719,7 @@
     "tour_name": "The Stray Dogs World Tour",
     "ticketmaster_event_id": "190064B5C9A084A3",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-phoenix-arizona-04-07-2027/event/190064B5C9A084A3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/phoenix-arizona-the-van-buren-2027-04-07-8-pm/concert/18266349",
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-phoenix-the-van-buren-4-7-2027/production/7078824",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-phoenix-arizona-04-07-2027/event/190064B5C9A084A3",
@@ -62735,11 +62735,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266349,
+        "url": "https://seatgeek.com/nothing-but-thieves-tickets/phoenix-arizona-the-van-buren-2027-04-07-8-pm/concert/18266349",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7078824,
@@ -62807,7 +62807,7 @@
         "event_id": 18266350,
         "url": "https://seatgeek.com/nothing-but-thieves-tickets/denver-colorado-mission-ballroom-2027-04-09-8-pm/concert/18266350",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -63117,7 +63117,7 @@
     "tour_name": "The Stray Dogs World Tour",
     "ticketmaster_event_id": "020064B694BB806C",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-philadelphia-pennsylvania-04-16-2027/event/020064B694BB806C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2027-04-16-8-pm/concert/18266361",
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-philadelphia-the-fillmore-philadelphia-4-16-2027/production/7078845",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-philadelphia-pennsylvania-04-16-2027/event/020064B694BB806C",
@@ -63133,11 +63133,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266361,
+        "url": "https://seatgeek.com/nothing-but-thieves-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2027-04-16-8-pm/concert/18266361",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7078845,
@@ -63558,7 +63558,7 @@
         "event_id": 18391931,
         "url": "https://seatgeek.com/trivium-tickets/atlanta-georgia-the-eastern-atlanta-2026-11-06-6-30-pm/concert/18391931",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -63627,7 +63627,7 @@
         "event_id": 18391935,
         "url": "https://seatgeek.com/trivium-tickets/louisville-kentucky-old-forester-s-paristown-hall-2026-11-07-6-35-pm/concert/18391935",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -63826,7 +63826,7 @@
         "event_id": 18391936,
         "url": "https://seatgeek.com/trivium-tickets/new-haven-connecticut-college-street-music-hall-2026-11-11-6-35-pm/concert/18391936",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -63895,7 +63895,7 @@
         "event_id": 18391943,
         "url": "https://seatgeek.com/trivium-tickets/new-york-new-york-terminal-5-2026-11-12-6-35-pm/concert/18391943",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -63964,7 +63964,7 @@
         "event_id": 18391945,
         "url": "https://seatgeek.com/trivium-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-11-14-6-35-pm/concert/18391945",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -64033,7 +64033,7 @@
         "event_id": 18391947,
         "url": "https://seatgeek.com/trivium-tickets/worcester-massachusetts-the-palladium-2026-11-15-6-35-pm/concert/18391947",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -64208,7 +64208,7 @@
         "event_id": 18391950,
         "url": "https://seatgeek.com/trivium-tickets/royal-oak-michigan-royal-oak-music-theatre-2026-11-20-6-35-pm/concert/18391950",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -64415,7 +64415,7 @@
         "event_id": 18391959,
         "url": "https://seatgeek.com/trivium-tickets/nashville-tennessee-the-pinnacle-nashville-2026-11-24-6-35-pm/concert/18391959",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -64874,7 +64874,7 @@
         "event_id": 18391977,
         "url": "https://seatgeek.com/trivium-tickets/penticton-canada-penticton-trade-convention-centre-2026-12-07-6-35-pm/concert/18391977",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -65134,7 +65134,7 @@
         "event_id": 18391983,
         "url": "https://seatgeek.com/trivium-tickets/denver-colorado-mission-ballroom-2026-12-13-6-35-pm/concert/18391983",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -65203,7 +65203,7 @@
         "event_id": 18391987,
         "url": "https://seatgeek.com/trivium-tickets/tulsa-oklahoma-tulsa-theater-2026-12-15-6-35-pm/concert/18391987",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -66259,7 +66259,7 @@
         "event_id": 17726761,
         "url": "https://seatgeek.com/sabaton-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-12-12-7-pm/concert/17726761",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -66999,7 +66999,7 @@
         "event_id": 18253089,
         "url": "https://seatgeek.com/beartooth-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-11-13-6-pm/concert/18253089",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -67137,7 +67137,7 @@
         "event_id": 18253081,
         "url": "https://seatgeek.com/beartooth-tickets/pittsburgh-pennsylvania-stage-ae-2026-11-18-6-pm/concert/18253081",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -67612,7 +67612,7 @@
         "event_id": 18253061,
         "url": "https://seatgeek.com/beartooth-tickets/saint-augustine-florida-st-augustine-amphitheatre-2026-12-04-6-pm/concert/18253061",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -67665,7 +67665,7 @@
         "event_id": 18235668,
         "url": "https://seatgeek.com/beartooth-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-12-05-6-30-pm/concert/18235668",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -68201,7 +68201,7 @@
         "event_id": 18493422,
         "url": "https://seatgeek.com/luke-combs-tickets/minneapolis-minnesota-u-s-bank-stadium-2027-04-10-5-45-pm/concert/18493422",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -70063,7 +70063,7 @@
         "event_id": 18536015,
         "url": "https://seatgeek.com/polyphia-tickets/san-diego-california-soma-san-diego-2027-02-10-7-30-pm/concert/18536015",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -70636,7 +70636,7 @@
         "event_id": 18253661,
         "url": "https://seatgeek.com/stella-lefty-tickets/san-francisco-california-bimbos-365-club-2026-10-30-8-pm/concert/18253661",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -70689,7 +70689,7 @@
         "event_id": 18253662,
         "url": "https://seatgeek.com/stella-lefty-tickets/west-hollywood-california-troubadour-2026-11-01-7-pm/concert/18253662",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -70758,7 +70758,7 @@
         "event_id": 18291327,
         "url": "https://seatgeek.com/stella-lefty-tickets/los-angeles-california-the-fonda-theatre-2026-11-02-8-pm/concert/18291327",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -70827,7 +70827,7 @@
         "event_id": 18253664,
         "url": "https://seatgeek.com/stella-lefty-tickets/phoenix-arizona-crescent-ballroom-2026-11-03-8-pm/concert/18253664",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -71140,7 +71140,7 @@
         "event_id": 18269141,
         "url": "https://seatgeek.com/stella-lefty-tickets/new-york-new-york-webster-hall-2026-11-15-8-pm/concert/18269141",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -71278,7 +71278,7 @@
         "event_id": 18253466,
         "url": "https://seatgeek.com/stella-lefty-tickets/boston-massachusetts-royale-boston-2026-11-17-8-pm/concert/18253466",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -71485,7 +71485,7 @@
         "event_id": 18527907,
         "url": "https://seatgeek.com/stella-lefty-tickets/columbus-ohio-kemba-live-2027-01-10-8-pm/concert/18527907",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -73612,7 +73612,7 @@
     "tour_name": "AFANDI World Tour",
     "ticketmaster_event_id": "0800651970AE21B2",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-detroit-michigan-04-07-2027/event/0800651970AE21B2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/detroit-michigan-the-fillmore-detroit-2027-04-07-7-pm/concert/18550843",
     "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-detroit-the-fillmore-detroit-4-7-2027--concerts-pop/production/7505714",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-detroit-michigan-04-07-2027/event/0800651970AE21B2",
@@ -73628,11 +73628,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18550843,
+        "url": "https://seatgeek.com/saint-levant-tickets/detroit-michigan-the-fillmore-detroit-2027-04-07-7-pm/concert/18550843",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7505714,
@@ -73681,7 +73681,7 @@
     "tour_name": "AFANDI World Tour",
     "ticketmaster_event_id": "150065198CC13178",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-silver-spring-maryland-04-10-2027/event/150065198CC13178",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/silver-spring-maryland-the-fillmore-silver-spring-2027-04-10-8-pm/concert/18550858",
     "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-silver-spring-the-fillmore-silver-spring-4-10-2027--concerts-pop/production/7505732",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-silver-spring-maryland-04-10-2027/event/150065198CC13178",
@@ -73697,11 +73697,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18550858,
+        "url": "https://seatgeek.com/saint-levant-tickets/silver-spring-maryland-the-fillmore-silver-spring-2027-04-10-8-pm/concert/18550858",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7505732,
@@ -74212,7 +74212,7 @@
         "event_id": 18415996,
         "url": "https://seatgeek.com/the-airborne-toxic-event-tickets/englewood-colorado-gothic-theatre-2027-06-08-8-pm/concert/18415996",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -75826,7 +75826,7 @@
         "event_id": 18259792,
         "url": "https://seatgeek.com/morat-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-03-12-8-pm/concert/18259792",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -75895,7 +75895,7 @@
         "event_id": 18259793,
         "url": "https://seatgeek.com/morat-tickets/sugar-land-texas-smart-financial-centre-2027-03-13-8-pm/concert/18259793",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -76375,7 +76375,7 @@
     "tour_name": "YEM: Ya Es Mañana World Tour 2027",
     "ticketmaster_event_id": "150064AEA017692F",
     "ticketmaster_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-fairfax-virginia-04-03-2027/event/150064AEA017692F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morat-tickets/fairfax-virginia-eaglebank-arena-2027-04-03-8-pm/concert/18251698",
     "vividseats_url": "https://www.vividseats.com/morat-tickets-fairfax-eaglebank-arena-4-3-2027/production/7047151",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-fairfax-virginia-04-03-2027/event/150064AEA017692F",
@@ -76391,11 +76391,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18251698,
+        "url": "https://seatgeek.com/morat-tickets/fairfax-virginia-eaglebank-arena-2027-04-03-8-pm/concert/18251698",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047151,
@@ -77089,7 +77089,7 @@
         "event_id": 18646946,
         "url": "https://seatgeek.com/missio-tickets/vancouver-canada-the-pearl-bc-2026-12-12-6-pm/concert/18646946",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -77503,7 +77503,7 @@
         "event_id": 18492738,
         "url": "https://seatgeek.com/missio-tickets/cleveland-ohio-cambridge-room-at-house-of-blues-cleveland-1-2027-01-17-7-pm/concert/18492738",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -78299,7 +78299,7 @@
         "event_id": 17912521,
         "url": "https://seatgeek.com/vnv-nation-tickets/atlanta-georgia-variety-playhouse-2027-03-14-8-pm/concert/17912521",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -78925,7 +78925,7 @@
         "event_id": 18373486,
         "url": "https://seatgeek.com/michelle-branch-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2026-10-06-8-pm/concert/18373486",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -78994,7 +78994,7 @@
         "event_id": 18373495,
         "url": "https://seatgeek.com/michelle-branch-tickets/aspen-colorado-belly-up-aspen-2026-10-10-8-pm/concert/18373495",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -79063,7 +79063,7 @@
         "event_id": 18373496,
         "url": "https://seatgeek.com/michelle-branch-tickets/boulder-colorado-boulder-theater-2026-10-11-8-pm/concert/18373496",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -79132,7 +79132,7 @@
         "event_id": 18373497,
         "url": "https://seatgeek.com/michelle-branch-tickets/boston-massachusetts-roadrunner-boston-2026-11-04-8-pm/concert/18373497",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -79384,7 +79384,7 @@
         "event_id": 18373510,
         "url": "https://seatgeek.com/michelle-branch-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-11-11-7-30-pm/concert/18373510",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -79453,7 +79453,7 @@
         "event_id": 18373511,
         "url": "https://seatgeek.com/michelle-branch-tickets/milwaukee-wisconsin-pabst-theater-2026-11-12-8-pm/concert/18373511",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -79893,7 +79893,7 @@
     "tour_name": "Everywhere and Back Again Tour",
     "ticketmaster_event_id": "09006507E2F8FAF0",
     "ticketmaster_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-anaheim-california-03-12-2027/event/09006507E2F8FAF0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/anaheim-california-house-of-blues-anaheim-2027-03-12-7-pm/concert/18508836",
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-anaheim-house-of-blues-anaheim-3-12-2027/production/7453109",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-anaheim-california-03-12-2027/event/09006507E2F8FAF0",
@@ -79909,11 +79909,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18508836,
+        "url": "https://seatgeek.com/michelle-branch-tickets/anaheim-california-house-of-blues-anaheim-2027-03-12-7-pm/concert/18508836",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453109,
@@ -79962,7 +79962,7 @@
     "tour_name": "Everywhere and Back Again Tour",
     "ticketmaster_event_id": "0900650CE6791399",
     "ticketmaster_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-los-angeles-california-03-13-2027/event/0900650CE6791399",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/los-angeles-california-the-wiltern-2027-03-13-7-pm/concert/18508837",
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-los-angeles-the-wiltern-3-13-2027/production/7453115",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-los-angeles-california-03-13-2027/event/0900650CE6791399",
@@ -79978,11 +79978,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18508837,
+        "url": "https://seatgeek.com/michelle-branch-tickets/los-angeles-california-the-wiltern-2027-03-13-7-pm/concert/18508837",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453115,
@@ -80031,7 +80031,7 @@
     "tour_name": "Everywhere and Back Again Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvkbw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvkbw",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/denver-colorado-mission-ballroom-2027-03-17-8-pm/concert/18650112",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvkbw",
@@ -80047,11 +80047,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18650112,
+        "url": "https://seatgeek.com/michelle-branch-tickets/denver-colorado-mission-ballroom-2027-03-17-8-pm/concert/18650112",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -80172,7 +80172,7 @@
         "event_id": 18508844,
         "url": "https://seatgeek.com/michelle-branch-tickets/columbus-ohio-kemba-live-2027-03-20-8-pm/concert/18508844",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -80241,7 +80241,7 @@
         "event_id": 18508847,
         "url": "https://seatgeek.com/michelle-branch-tickets/royal-oak-michigan-royal-oak-music-theatre-2027-03-21-7-pm/concert/18508847",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -80291,7 +80291,7 @@
     "tour_name": "Everywhere and Back Again Tour",
     "ticketmaster_event_id": "0100650DE1EECB4A",
     "ticketmaster_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-portland-maine-03-23-2027/event/0100650DE1EECB4A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/portland-maine-state-theatre-portland-me-2027-03-23-8-pm/concert/18508848",
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-portland-state-theatre-portland-3-23-2027/production/7453907",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-portland-maine-03-23-2027/event/0100650DE1EECB4A",
@@ -80307,11 +80307,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18508848,
+        "url": "https://seatgeek.com/michelle-branch-tickets/portland-maine-state-theatre-portland-me-2027-03-23-8-pm/concert/18508848",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453907,
@@ -80437,7 +80437,7 @@
     "tour_name": "Everywhere and Back Again Tour",
     "ticketmaster_event_id": "1500650917ABF1D1",
     "ticketmaster_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-silver-spring-maryland-03-26-2027/event/1500650917ABF1D1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/silver-spring-maryland-the-fillmore-silver-spring-2027-03-26-8-pm/concert/18508850",
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-silver-spring-the-fillmore-silver-spring-3-26-2027/production/7453672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-silver-spring-maryland-03-26-2027/event/1500650917ABF1D1",
@@ -80453,11 +80453,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18508850,
+        "url": "https://seatgeek.com/michelle-branch-tickets/silver-spring-maryland-the-fillmore-silver-spring-2027-03-26-8-pm/concert/18508850",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453672,
@@ -80525,7 +80525,7 @@
         "event_id": 18508855,
         "url": "https://seatgeek.com/michelle-branch-tickets/philadelphia-pennsylvania-franklin-music-hall-2027-03-27-8-30-pm/concert/18508855",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -80700,7 +80700,7 @@
         "event_id": 18282296,
         "url": "https://seatgeek.com/fkj-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-04-20-8-pm/concert/18282296",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -80769,7 +80769,7 @@
         "event_id": 18282297,
         "url": "https://seatgeek.com/fkj-tickets/seattle-washington-showbox-sodo-2027-04-23-8-pm/concert/18282297",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -80896,7 +80896,7 @@
     "tour_name": "Tyber Tour",
     "ticketmaster_event_id": "110064C57CF24EAC",
     "ticketmaster_url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-26-2027/event/110064C57CF24EAC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fkj-tickets/vancouver-canada-commodore-ballroom-2027-04-26-7-pm/concert/18290231",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fkj-tyber-tour-vancouver-british-columbia-04-26-2027/event/110064C57CF24EAC",
@@ -80912,11 +80912,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18290231,
+        "url": "https://seatgeek.com/fkj-tickets/vancouver-canada-commodore-ballroom-2027-04-26-7-pm/concert/18290231",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -80992,7 +80992,7 @@
         "event_id": 18282299,
         "url": "https://seatgeek.com/fkj-tickets/denver-colorado-mission-ballroom-2027-04-29-8-pm/concert/18282299",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -81674,7 +81674,7 @@
         "event_id": 18282301,
         "url": "https://seatgeek.com/fkj-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-06-12-8-pm/concert/18282301",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -82125,7 +82125,7 @@
         "event_id": 18299136,
         "url": "https://seatgeek.com/sylvan-esso-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-10-12-8-pm/concert/18299136",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -82470,7 +82470,7 @@
         "event_id": 18299151,
         "url": "https://seatgeek.com/sylvan-esso-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2026-10-21-8-pm/concert/18299151",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -82592,7 +82592,7 @@
         "event_id": 18299152,
         "url": "https://seatgeek.com/sylvan-esso-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-10-23-8-30-pm/concert/18299152",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -82730,7 +82730,7 @@
         "event_id": 18299162,
         "url": "https://seatgeek.com/sylvan-esso-tickets/vancouver-canada-vogue-theatre-bc-1-2027-02-20-8-pm/concert/18299162",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -82799,7 +82799,7 @@
         "event_id": 18299165,
         "url": "https://seatgeek.com/sylvan-esso-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-02-22-8-30-pm/concert/18299165",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -82868,7 +82868,7 @@
         "event_id": 18299164,
         "url": "https://seatgeek.com/sylvan-esso-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-02-23-8-30-pm/concert/18299164",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -83282,7 +83282,7 @@
         "event_id": 18299177,
         "url": "https://seatgeek.com/sylvan-esso-tickets/denver-colorado-ogden-theatre-2027-03-05-9-pm/concert/18299177",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -83420,7 +83420,7 @@
         "event_id": 18299178,
         "url": "https://seatgeek.com/sylvan-esso-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-03-08-8-pm/concert/18299178",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -83531,7 +83531,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "200064C5A01323E6",
     "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-birmingham-alabama-03-12-2027/event/200064C5A01323E6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/birmingham-alabama-iron-city-2027-03-12-8-pm/concert/18299185",
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-birmingham-iron-city-birmingham-3-12-2027--concerts-dance-electronica/production/7144150",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-birmingham-alabama-03-12-2027/event/200064C5A01323E6",
@@ -83547,11 +83547,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18299185,
+        "url": "https://seatgeek.com/sylvan-esso-tickets/birmingham-alabama-iron-city-2027-03-12-8-pm/concert/18299185",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7144150,
@@ -83600,7 +83600,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B0064C4B440F267",
     "ticketmaster_url": "https://www.ticketmaster.com/sylvan-esso-nashville-tennessee-03-13-2027/event/1B0064C4B440F267",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/nashville-tennessee-brooklyn-bowl-nashville-2027-03-13-7-pm/concert/18299188",
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-nashville-brooklyn-bowl---nashville-3-13-2027--concerts-dance-electronica/production/7144326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-nashville-tennessee-03-13-2027/event/1B0064C4B440F267",
@@ -83616,11 +83616,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18299188,
+        "url": "https://seatgeek.com/sylvan-esso-tickets/nashville-tennessee-brooklyn-bowl-nashville-2027-03-13-7-pm/concert/18299188",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7144326,
@@ -84892,7 +84892,7 @@
         "event_id": 18396258,
         "url": "https://seatgeek.com/pink-martini-tickets/chicago-illinois-chicago-symphony-center-2027-02-12-8-pm/concert/18396258",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -85205,7 +85205,7 @@
         "event_id": 18500192,
         "url": "https://seatgeek.com/pink-martini-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-06-7-30-pm/concert/18500192",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -85308,7 +85308,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "310064AB3CF10CF5",
     "ticketmaster_url": "https://www.ticketmaster.ca/pink-martini-quebec-quebec-03-18-2027/event/310064AB3CF10CF5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/quebec-city-canada-theatre-capitole-2027-03-18-8-30-pm/concert/18238944",
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-quebec-city-capitole-theatre-3-18-2027/production/7023392",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/pink-martini-quebec-quebec-03-18-2027/event/310064AB3CF10CF5",
@@ -85324,11 +85324,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18238944,
+        "url": "https://seatgeek.com/pink-martini-tickets/quebec-city-canada-theatre-capitole-2027-03-18-8-30-pm/concert/18238944",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7023392,
@@ -85377,7 +85377,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A00650DAD3C99A3",
     "ticketmaster_url": "https://www.ticketmaster.com/pink-martini-allstars-houston-texas-03-25-2027/event/3A00650DAD3C99A3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/houston-texas-sarofim-hall-at-the-hobby-center-2027-03-25-7-30-pm/concert/18515284",
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-houston-sarofim-hall---hobby-center-3-25-2027/production/7457827",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-allstars-houston-texas-03-25-2027/event/3A00650DAD3C99A3",
@@ -85393,11 +85393,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18515284,
+        "url": "https://seatgeek.com/pink-martini-tickets/houston-texas-sarofim-hall-at-the-hobby-center-2027-03-25-7-30-pm/concert/18515284",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7457827,
@@ -89056,7 +89056,7 @@
         "event_id": 18527954,
         "url": "https://seatgeek.com/tobymac-tickets/sunrise-florida-amerant-bank-arena-2027-02-05-7-pm/concert/18527954",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -89356,7 +89356,7 @@
         "event_id": 18548802,
         "url": "https://seatgeek.com/tobymac-tickets/sugar-land-texas-smart-financial-centre-2027-02-12-7-pm/concert/18548802",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -89409,7 +89409,7 @@
         "event_id": 18548804,
         "url": "https://seatgeek.com/tobymac-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-02-13-7-pm/concert/18548804",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -89547,7 +89547,7 @@
         "event_id": 18548806,
         "url": "https://seatgeek.com/tobymac-tickets/norfolk-virginia-chartway-arena-2027-02-21-6-30-pm/concert/18548806",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -90030,7 +90030,7 @@
         "event_id": 18548872,
         "url": "https://seatgeek.com/tobymac-tickets/cape-girardeau-missouri-show-me-center-2027-03-06-7-pm/concert/18548872",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -90245,7 +90245,7 @@
         "event_id": 18548874,
         "url": "https://seatgeek.com/tobymac-tickets/lubbock-texas-united-supermarkets-arena-2027-03-13-7-pm/concert/18548874",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -90295,7 +90295,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "04006516FFA13A5D",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-rockford-illinois-03-19-2027/event/04006516FFA13A5D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/rockford-illinois-bmo-center-2027-03-19-7-pm/concert/18542858",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-rockford-bmo-center-3-19-2027/production/7491873",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-rockford-illinois-03-19-2027/event/04006516FFA13A5D",
@@ -90311,11 +90311,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542858,
+        "url": "https://seatgeek.com/tobymac-tickets/rockford-illinois-bmo-center-2027-03-19-7-pm/concert/18542858",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491873,
@@ -90595,7 +90595,7 @@
         "event_id": 18373493,
         "url": "https://seatgeek.com/michelle-branch-tickets/salt-lake-city-utah-the-grand-at-the-complex-2026-10-08-8-pm/concert/18373493",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -90648,7 +90648,7 @@
         "event_id": 18508824,
         "url": "https://seatgeek.com/michelle-branch-tickets/nashville-tennessee-ryman-auditorium-2027-02-27-8-pm/concert/18508824",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -90717,7 +90717,7 @@
         "event_id": 18517279,
         "url": "https://seatgeek.com/michelle-branch-tickets/nashville-tennessee-ryman-auditorium-2027-02-28-8-pm/concert/18517279",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -91091,7 +91091,7 @@
         "event_id": 18570387,
         "url": "https://seatgeek.com/yuridia-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-02-17-8-pm/concert/18570387",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -91741,7 +91741,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006522071FB6E3",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-laredo-texas-03-18-2027/event/3A006522071FB6E3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/laredo-texas-sames-auto-arena-2027-03-18-8-pm/concert/18570409",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-laredo-sames-auto-arena-3-18-2027/production/7531062",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-laredo-texas-03-18-2027/event/3A006522071FB6E3",
@@ -91757,11 +91757,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570409,
+        "url": "https://seatgeek.com/yuridia-tickets/laredo-texas-sames-auto-arena-2027-03-18-8-pm/concert/18570409",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531062,
@@ -91810,7 +91810,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "04006524AAE6CC21",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-25-2027/event/04006524AAE6CC21",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/rosemont-illinois-rosemont-theatre-2027-03-25-8-pm/concert/18570495",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-rosemont-rosemont-theatre-3-25-2027/production/7531765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-25-2027/event/04006524AAE6CC21",
@@ -91826,11 +91826,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570495,
+        "url": "https://seatgeek.com/yuridia-tickets/rosemont-illinois-rosemont-theatre-2027-03-25-8-pm/concert/18570495",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531765,
@@ -91879,7 +91879,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "15006522ABA282F4",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-national-harbor-maryland-03-28-2027/event/15006522ABA282F4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2027-03-28-8-pm/concert/18570413",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-oxon-hill-the-theater-at-mgm-national-harbor-3-28-2027/production/7531066",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-national-harbor-maryland-03-28-2027/event/15006522ABA282F4",
@@ -91895,11 +91895,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18570413,
+        "url": "https://seatgeek.com/yuridia-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2027-03-28-8-pm/concert/18570413",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7531066,
@@ -91967,7 +91967,7 @@
         "event_id": 18282298,
         "url": "https://seatgeek.com/fkj-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-04-28-8-pm/concert/18282298",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -92020,7 +92020,7 @@
         "event_id": 18299176,
         "url": "https://seatgeek.com/sylvan-esso-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-04-8-pm/concert/18299176",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -92126,7 +92126,7 @@
         "event_id": 18516103,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-09-7-45-pm/concert/18516103",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -92195,7 +92195,7 @@
         "event_id": 18577780,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-10-7-45-pm/concert/18577780",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -92264,7 +92264,7 @@
         "event_id": 18584157,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-16-7-45-pm/concert/18584157",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -92784,7 +92784,7 @@
         "event_id": 18584154,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-14-7-45-pm/concert/18584154",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -92853,7 +92853,7 @@
         "event_id": 18584160,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-17-7-45-pm/concert/18584160",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -93888,7 +93888,7 @@
         "event_id": 18581453,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/houston-texas-toyota-center-2027-02-07-8-pm/concert/18581453",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -94307,7 +94307,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "3A00651AC841CBE8",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-san-antonio-texas-03-12-2027/event/3A00651AC841CBE8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/san-antonio-texas-freeman-coliseum-2027-03-12-7-pm/concert/18542854",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-san-antonio-freeman-coliseum-3-12-2027/production/7491869",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-san-antonio-texas-03-12-2027/event/3A00651AC841CBE8",
@@ -94323,11 +94323,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542854,
+        "url": "https://seatgeek.com/tobymac-tickets/san-antonio-texas-freeman-coliseum-2027-03-12-7-pm/concert/18542854",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491869,
@@ -94376,7 +94376,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "06006519D0D39821",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fargo-north-dakota-03-17-2027/event/06006519D0D39821",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/fargo-north-dakota-fargodome-2027-03-17-7-pm/concert/18542853",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-fargo-fargodome-3-17-2027/production/7491806",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fargo-north-dakota-03-17-2027/event/06006519D0D39821",
@@ -94392,11 +94392,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542853,
+        "url": "https://seatgeek.com/tobymac-tickets/fargo-north-dakota-fargodome-2027-03-17-7-pm/concert/18542853",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491806,
@@ -94445,7 +94445,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "20006519E3843F3F",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tulsa-oklahoma-03-21-2027/event/20006519E3843F3F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/tulsa-oklahoma-bok-center-2027-03-21-6-30-pm/concert/18542855",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-tulsa-bok-center-3-21-2027/production/7491758",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tulsa-oklahoma-03-21-2027/event/20006519E3843F3F",
@@ -94461,11 +94461,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542855,
+        "url": "https://seatgeek.com/tobymac-tickets/tulsa-oklahoma-bok-center-2027-03-21-6-30-pm/concert/18542855",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491758,
@@ -94533,7 +94533,7 @@
         "event_id": 18282300,
         "url": "https://seatgeek.com/fkj-tickets/new-orleans-louisiana-saenger-theatre-new-orleans-2027-06-10-8-30-pm/concert/18282300",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -94602,7 +94602,7 @@
         "event_id": 18573353,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/green-bay-wisconsin-resch-center-2026-11-19-2-30-pm/concert/18573353",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -94875,7 +94875,7 @@
         "event_id": 18499779,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/salt-lake-city-utah-delta-center-1-2026-11-24-3-pm/concert/18499779",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -94989,7 +94989,7 @@
         "event_id": 18573376,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/manchester-new-hampshire-snhu-arena-2026-11-27-2-30-pm/concert/18573376",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -95148,7 +95148,7 @@
         "event_id": 18573385,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/portland-oregon-moda-center-2026-11-28-3-30-pm/concert/18573385",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -95201,7 +95201,7 @@
         "event_id": 18573390,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/uncasville-connecticut-mohegan-sun-arena-2026-11-29-3-pm/concert/18573390",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -95254,7 +95254,7 @@
         "event_id": 18573391,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/seattle-washington-climate-pledge-arena-2026-11-29-3-pm/concert/18573391",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -95307,7 +95307,7 @@
         "event_id": 18573399,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/sacramento-california-golden-1-center-2026-12-02-3-pm/concert/18573399",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -95360,7 +95360,7 @@
         "event_id": 18573401,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/nashville-tennessee-bridgestone-arena-2026-12-02-7-30-pm/concert/18573401",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -95551,7 +95551,7 @@
         "event_id": 18573409,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/toledo-ohio-huntington-center-2026-12-04-3-pm/concert/18573409",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -95657,7 +95657,7 @@
         "event_id": 18573414,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/ontario-california-toyota-arena-ontario-2026-12-05-3-pm/concert/18573414",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -95763,7 +95763,7 @@
         "event_id": 18573424,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/phoenix-arizona-mortgage-matchup-center-2026-12-06-3-pm/concert/18573424",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -95946,7 +95946,7 @@
         "event_id": 18573435,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/raleigh-north-carolina-lenovo-center-2026-12-10-7-30-pm/concert/18573435",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -96129,7 +96129,7 @@
         "event_id": 18573440,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/houston-texas-toyota-center-2026-12-11-3-pm/concert/18573440",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -96235,7 +96235,7 @@
         "event_id": 18573448,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/san-antonio-texas-frost-bank-center-2026-12-12-3-pm/concert/18573448",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -96524,7 +96524,7 @@
         "event_id": 18573467,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2026-12-17-7-pm/concert/18573467",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -96699,7 +96699,7 @@
         "event_id": 18410573,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/sunrise-florida-amerant-bank-arena-2026-12-18-7-pm/concert/18410573",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -96768,7 +96768,7 @@
         "event_id": 18573474,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/orlando-florida-kia-center-2026-12-19-2-30-pm/concert/18573474",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -96821,7 +96821,7 @@
         "event_id": 18573477,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-12-19-2-30-pm/concert/18573477",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -96874,7 +96874,7 @@
         "event_id": 18573484,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-12-20-3-pm/concert/18573484",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -96927,7 +96927,7 @@
         "event_id": 18573485,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/tampa-florida-benchmark-international-arena-2026-12-20-3-pm/concert/18573485",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -96980,7 +96980,7 @@
         "event_id": 18368862,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/cleveland-ohio-rocket-arena-2026-12-22-3-pm/concert/18368862",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -97033,7 +97033,7 @@
         "event_id": 18573492,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/indianapolis-indiana-gainbridge-fieldhouse-2026-12-22-3-pm/concert/18573492",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -97139,7 +97139,7 @@
         "event_id": 18573496,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/rosemont-illinois-allstate-arena-2026-12-23-2-45-pm/concert/18573496",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -97192,7 +97192,7 @@
         "event_id": 18573503,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/newark-new-jersey-prudential-center-2026-12-26-3-pm/concert/18573503",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -97245,7 +97245,7 @@
         "event_id": 18573505,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/milwaukee-wisconsin-fiserv-forum-2026-12-26-3-pm/concert/18573505",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -97351,7 +97351,7 @@
         "event_id": 18573514,
         "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/minneapolis-minnesota-target-center-2026-12-27-3-pm/concert/18573514",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -97701,7 +97701,7 @@
         "event_id": 18595131,
         "url": "https://seatgeek.com/alan-walker-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-01-21-7-pm/concert/18595131",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -97969,7 +97969,7 @@
         "event_id": 18621798,
         "url": "https://seatgeek.com/alan-walker-tickets/nashville-tennessee-the-pinnacle-nashville-2027-01-28-8-pm/concert/18621798",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -98367,7 +98367,7 @@
         "event_id": 18595137,
         "url": "https://seatgeek.com/alan-walker-tickets/new-york-new-york-terminal-5-2027-02-11-9-pm/concert/18595137",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -98436,7 +98436,7 @@
         "event_id": 18595135,
         "url": "https://seatgeek.com/alan-walker-tickets/new-york-new-york-terminal-5-2027-02-12-9-pm/concert/18595135",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -98741,7 +98741,7 @@
         "event_id": 18595139,
         "url": "https://seatgeek.com/alan-walker-tickets/pittsburgh-pennsylvania-stage-ae-2027-02-23-8-pm/concert/18595139",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -98810,7 +98810,7 @@
         "event_id": 18595141,
         "url": "https://seatgeek.com/alan-walker-tickets/columbus-ohio-kemba-live-2027-02-24-8-pm/concert/18595141",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -99025,7 +99025,7 @@
         "event_id": 18595143,
         "url": "https://seatgeek.com/alan-walker-tickets/seattle-washington-showbox-sodo-2027-03-03-8-pm/concert/18595143",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -99094,7 +99094,7 @@
         "event_id": 18595145,
         "url": "https://seatgeek.com/alan-walker-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-03-04-8-pm/concert/18595145",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -99277,7 +99277,7 @@
         "event_id": 18592690,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-03-25-8-pm/concert/18592690",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -99444,7 +99444,7 @@
         "event_id": 18592691,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/tallahassee-florida-the-moon-2027-04-07-7-30-pm/concert/18592691",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -99497,7 +99497,7 @@
         "event_id": 18592671,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/saint-petersburg-florida-jannus-live-2027-04-08-8-pm/concert/18592671",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -99656,7 +99656,7 @@
         "event_id": 18592697,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/norfolk-virginia-the-norva-norfolk-2027-04-20-7-30-pm/concert/18592697",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -100393,7 +100393,7 @@
     "tour_name": "Everything's Falling World Tour",
     "ticketmaster_event_id": "1900652AD29B9FD3",
     "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-phoenix-arizona-04-18-2027/event/1900652AD29B9FD3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-warning-tickets/phoenix-arizona-the-van-buren-2027-04-18-8-pm/concert/18591375",
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-phoenix-the-van-buren-4-18-2027/production/7553211",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-phoenix-arizona-04-18-2027/event/1900652AD29B9FD3",
@@ -100409,11 +100409,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18591375,
+        "url": "https://seatgeek.com/the-warning-tickets/phoenix-arizona-the-van-buren-2027-04-18-8-pm/concert/18591375",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553211,
@@ -100481,7 +100481,7 @@
         "event_id": 18593338,
         "url": "https://seatgeek.com/the-warning-tickets/san-francisco-california-the-warfield-2027-04-20-8-pm/concert/18593338",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -100542,7 +100542,7 @@
         "event_id": 18593342,
         "url": "https://seatgeek.com/the-warning-tickets/portland-oregon-roseland-theater-2027-04-22-8-pm/concert/18593342",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -100584,7 +100584,7 @@
     "tour_name": "Everything's Falling World Tour",
     "ticketmaster_event_id": "0F00652BDDA8EC99",
     "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-seattle-washington-04-23-2027/event/0F00652BDDA8EC99",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-warning-tickets/seattle-washington-moore-theatre-seattle-2027-04-23-8-pm/concert/18590298",
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-seattle-moore-theatre-4-23-2027/production/7553067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-seattle-washington-04-23-2027/event/0F00652BDDA8EC99",
@@ -100600,11 +100600,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590298,
+        "url": "https://seatgeek.com/the-warning-tickets/seattle-washington-moore-theatre-seattle-2027-04-23-8-pm/concert/18590298",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553067,
@@ -100672,7 +100672,7 @@
         "event_id": 18590212,
         "url": "https://seatgeek.com/the-warning-tickets/vancouver-canada-vogue-theatre-bc-1-2027-04-25-7-pm/concert/18590212",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -100916,7 +100916,7 @@
         "event_id": 18593340,
         "url": "https://seatgeek.com/the-warning-tickets/atlanta-georgia-the-eastern-atlanta-2027-05-04-8-pm/concert/18593340",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -102373,7 +102373,7 @@
         "event_id": 18508826,
         "url": "https://seatgeek.com/michelle-branch-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-03-05-7-30-pm/concert/18508826",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -102408,7 +102408,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "04006524B34EE662",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-24-2027/event/04006524B34EE662",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/rosemont-illinois-rosemont-theatre-2027-03-24-8-pm/concert/18609778",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-rosemont-rosemont-theatre-3-24-2027--concerts-latin-music/production/7589034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-las-cartas-sobre-la-mesa-rosemont-illinois-03-24-2027/event/04006524B34EE662",
@@ -102424,11 +102424,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18609778,
+        "url": "https://seatgeek.com/yuridia-tickets/rosemont-illinois-rosemont-theatre-2027-03-24-8-pm/concert/18609778",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7589034,
@@ -104657,7 +104657,7 @@
         "event_id": 18570962,
         "url": "https://seatgeek.com/kenny-chesney-tickets/greenville-north-carolina-dowdy-ficklen-stadium-2027-05-01-4-30-pm/concert/18570962",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -104726,7 +104726,7 @@
         "event_id": 18414534,
         "url": "https://seatgeek.com/kenny-chesney-tickets/arlington-texas-at-t-stadium-2027-05-08-4-30-pm/concert/18414534",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -106063,7 +106063,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "1B00652F911577EC",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-knoxville-tennessee-03-12-2027/event/1B00652F911577EC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/knoxville-tennessee-tennessee-theatre-2027-03-12-8-pm/concert/18603808",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-knoxville-tennessee-theatre-3-12-2027--concerts-alternative/production/7571339",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-knoxville-tennessee-03-12-2027/event/1B00652F911577EC",
@@ -106079,11 +106079,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603808,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/knoxville-tennessee-tennessee-theatre-2027-03-12-8-pm/concert/18603808",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571339,
@@ -106132,7 +106132,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "0D00652AFFE5DAB9",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-miami-beach-florida-03-18-2027/event/0D00652AFFE5DAB9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2027-03-18-8-pm/concert/18603788",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-3-18-2027--concerts-alternative/production/7571335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-miami-beach-florida-03-18-2027/event/0D00652AFFE5DAB9",
@@ -106148,11 +106148,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603788,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2027-03-18-8-pm/concert/18603788",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571335,
@@ -106278,7 +106278,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "3A00652ED132F517",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-houston-texas-03-22-2027/event/3A00652ED132F517",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/houston-texas-713-music-hall-2027-03-22-8-pm/concert/18604033",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-houston-713-music-hall-3-22-2027--concerts-alternative/production/7571325",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-houston-texas-03-22-2027/event/3A00652ED132F517",
@@ -106294,11 +106294,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18604033,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/houston-texas-713-music-hall-2027-03-22-8-pm/concert/18604033",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571325,
@@ -106514,7 +106514,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "3100652BD6ACC86A",
     "ticketmaster_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-montreal-quebec-04-05-2027/event/3100652BD6ACC86A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/montreal-canada-mtelus-2027-04-05-8-pm/concert/18603817",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027--concerts-alternative/production/7571278",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-montreal-quebec-04-05-2027/event/3100652BD6ACC86A",
@@ -106530,11 +106530,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603817,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/montreal-canada-mtelus-2027-04-05-8-pm/concert/18603817",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571278,
@@ -106583,7 +106583,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "0100652AF54DC3B9",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-07-2027/event/0100652AF54DC3B9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-04-07-8-pm/concert/18604107",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-boston-mgm-music-hall-at-fenway-4-7-2027--concerts-alternative/production/7571320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-07-2027/event/0100652AF54DC3B9",
@@ -106599,11 +106599,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18604107,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-04-07-8-pm/concert/18604107",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571320,
@@ -106652,7 +106652,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "0100652AF550C3CE",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-08-2027/event/0100652AF550C3CE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-04-08-8-pm/concert/18604106",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-boston-mgm-music-hall-at-fenway-4-8-2027--concerts-alternative/production/7571318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-08-2027/event/0100652AF550C3CE",
@@ -106668,11 +106668,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18604106,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-04-08-8-pm/concert/18604106",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571318,
@@ -106843,7 +106843,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "3C006530BB8D26A2",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-new-york-new-york-04-13-2027/event/3C006530BB8D26A2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/new-york-new-york-radio-city-music-hall-2027-04-13-8-pm/concert/18603805",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-new-york-radio-city-music-hall-4-13-2027--concerts-alternative/production/7571294",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-new-york-new-york-04-13-2027/event/3C006530BB8D26A2",
@@ -106859,11 +106859,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603805,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/new-york-new-york-radio-city-music-hall-2027-04-13-8-pm/concert/18603805",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571294,
@@ -107472,7 +107472,7 @@
         "event_id": 18609088,
         "url": "https://seatgeek.com/atmosphere-tickets/eugene-oregon-mcdonald-theatre-2027-01-28-8-pm/concert/18609088",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -109969,7 +109969,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "20006524B41B42EE",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-tulsa-oklahoma-04-08-2027/event/20006524B41B42EE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/josiah-queen-tickets/tulsa-oklahoma-bok-center-2027-04-08-7-pm/concert/18574499",
     "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-tulsa-bok-center-4-8-2027/production/7536901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-tulsa-oklahoma-04-08-2027/event/20006524B41B42EE",
@@ -109985,11 +109985,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18574499,
+        "url": "https://seatgeek.com/josiah-queen-tickets/tulsa-oklahoma-bok-center-2027-04-08-7-pm/concert/18574499",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536901,
@@ -110091,7 +110091,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0500652896585CE6",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-indianapolis-indiana-04-10-2027/event/0500652896585CE6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/josiah-queen-tickets/indianapolis-indiana-gainbridge-fieldhouse-2027-04-10-7-pm/concert/18574501",
     "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-indianapolis-gainbridge-fieldhouse-4-10-2027/production/7536895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-indianapolis-indiana-04-10-2027/event/0500652896585CE6",
@@ -110107,11 +110107,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18574501,
+        "url": "https://seatgeek.com/josiah-queen-tickets/indianapolis-indiana-gainbridge-fieldhouse-2027-04-10-7-pm/concert/18574501",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536895,
@@ -110396,7 +110396,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D0065278F8E59F7",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-charlotte-north-carolina-04-17-2027/event/2D0065278F8E59F7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/josiah-queen-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-04-17-7-pm/concert/18574511",
     "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-charlotte-spectrum-center-4-17-2027/production/7536954",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-charlotte-north-carolina-04-17-2027/event/2D0065278F8E59F7",
@@ -110412,11 +110412,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18574511,
+        "url": "https://seatgeek.com/josiah-queen-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-04-17-7-pm/concert/18574511",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536954,
@@ -110587,7 +110587,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "09006524914A5FA8",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-anaheim-california-04-29-2027/event/09006524914A5FA8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/josiah-queen-tickets/anaheim-california-honda-center-2027-04-29-7-pm/concert/18574521",
     "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-anaheim-honda-center-4-29-2027/production/7536975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-anaheim-california-04-29-2027/event/09006524914A5FA8",
@@ -110603,11 +110603,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18574521,
+        "url": "https://seatgeek.com/josiah-queen-tickets/anaheim-california-honda-center-2027-04-29-7-pm/concert/18574521",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536975,
@@ -111038,7 +111038,7 @@
     "tour_name": "No Me Hablen de Amor Tour",
     "ticketmaster_event_id": "050065312AD7D413",
     "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-indianapolis-indiana-04-22-2027/event/050065312AD7D413",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/ha-ash-tickets/indianapolis-indiana-murat-theatre-at-old-national-centre-2027-04-22-8-pm/concert/18608840",
     "vividseats_url": "https://www.vividseats.com/haash-tickets-indianapolis-murat-theatre-at-old-national-centre-4-22-2027/production/7588032",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-indianapolis-indiana-04-22-2027/event/050065312AD7D413",
@@ -111054,11 +111054,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608840,
+        "url": "https://seatgeek.com/ha-ash-tickets/indianapolis-indiana-murat-theatre-at-old-national-centre-2027-04-22-8-pm/concert/18608840",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7588032,
@@ -112758,7 +112758,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "050065341D764CEA",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-indianapolis-indiana-04-08-2027/event/050065341D764CEA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lukas-graham-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-04-08-7-30-pm/concert/18618400",
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-4-8-2027--concerts-pop/production/7600581",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-indianapolis-indiana-04-08-2027/event/050065341D764CEA",
@@ -112774,11 +112774,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18618400,
+        "url": "https://seatgeek.com/lukas-graham-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-04-08-7-30-pm/concert/18618400",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7600581,
@@ -116005,7 +116005,7 @@
         "event_id": 18297277,
         "url": "https://seatgeek.com/sienna-spiro-tickets/nashville-tennessee-ryman-auditorium-2026-10-13-8-pm/concert/18297277",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -116541,7 +116541,7 @@
         "event_id": 18297291,
         "url": "https://seatgeek.com/sienna-spiro-tickets/chicago-illinois-riviera-theatre-chicago-2026-10-27-7-30-pm/concert/18297291",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -116610,7 +116610,7 @@
         "event_id": 18297292,
         "url": "https://seatgeek.com/sienna-spiro-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-10-28-7-30-pm/concert/18297292",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -116679,7 +116679,7 @@
         "event_id": 18297295,
         "url": "https://seatgeek.com/sienna-spiro-tickets/englewood-colorado-gothic-theatre-2026-10-30-8-pm/concert/18297295",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -116748,7 +116748,7 @@
         "event_id": 18297301,
         "url": "https://seatgeek.com/sienna-spiro-tickets/seattle-washington-the-showbox-2026-11-02-8-pm/concert/18297301",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -116817,7 +116817,7 @@
         "event_id": 18297302,
         "url": "https://seatgeek.com/sienna-spiro-tickets/vancouver-canada-vogue-theatre-bc-1-2026-11-04-8-pm/concert/18297302",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -116886,7 +116886,7 @@
         "event_id": 18297303,
         "url": "https://seatgeek.com/sienna-spiro-tickets/vancouver-canada-vogue-theatre-bc-1-2026-11-05-8-pm/concert/18297303",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -116955,7 +116955,7 @@
         "event_id": 18318283,
         "url": "https://seatgeek.com/sienna-spiro-tickets/portland-oregon-mcmenamins-crystal-ballroom-2026-11-07-8-pm/concert/18318283",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -118637,7 +118637,7 @@
         "event_id": 18292579,
         "url": "https://seatgeek.com/malcolm-todd-tickets/denver-colorado-mission-ballroom-2026-10-11-7-pm/concert/18292579",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -118706,7 +118706,7 @@
         "event_id": 18296767,
         "url": "https://seatgeek.com/malcolm-todd-tickets/denver-colorado-mission-ballroom-2026-10-12-7-pm/concert/18296767",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -118982,7 +118982,7 @@
         "event_id": 18292574,
         "url": "https://seatgeek.com/malcolm-todd-tickets/vancouver-canada-pne-forum-vancouver-2026-10-18-8-pm/concert/18292574",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -119051,7 +119051,7 @@
         "event_id": 18292564,
         "url": "https://seatgeek.com/malcolm-todd-tickets/portland-oregon-arlene-schnitzer-concert-hall-2026-10-19-8-pm/concert/18292564",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -122099,7 +122099,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C006531D750EE0C",
     "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-dallas-texas-03-23-2027/event/0C006531D750EE0C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/dallas-texas-house-of-blues-dallas-2027-03-23-6-pm/concert/18612572",
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-dallas-house-of-blues-dallas-3-23-2027--concerts-rock/production/7592424",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-dallas-texas-03-23-2027/event/0C006531D750EE0C",
@@ -122115,11 +122115,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612572,
+        "url": "https://seatgeek.com/the-interrupters-tickets/dallas-texas-house-of-blues-dallas-2027-03-23-6-pm/concert/18612572",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592424,
@@ -122168,7 +122168,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006527A1986F3B",
     "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-houston-texas-03-24-2027/event/3A006527A1986F3B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/houston-texas-house-of-blues-houston-2027-03-24-6-pm/concert/18612693",
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-houston-house-of-blues-houston-3-24-2027--concerts-rock/production/7592426",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-houston-texas-03-24-2027/event/3A006527A1986F3B",
@@ -122184,11 +122184,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612693,
+        "url": "https://seatgeek.com/the-interrupters-tickets/houston-texas-house-of-blues-houston-2027-03-24-6-pm/concert/18612693",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592426,
@@ -122351,7 +122351,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2200652EFDEC62C5",
     "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-orlando-florida-03-28-2027/event/2200652EFDEC62C5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/orlando-florida-house-of-blues-orlando-2027-03-28-6-pm/concert/18612830",
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-lake-buena-vista-house-of-blues-orlando-3-28-2027--concerts-rock/production/7592432",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-orlando-florida-03-28-2027/event/2200652EFDEC62C5",
@@ -122367,11 +122367,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612830,
+        "url": "https://seatgeek.com/the-interrupters-tickets/orlando-florida-house-of-blues-orlando-2027-03-28-6-pm/concert/18612830",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592432,
@@ -122473,7 +122473,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1500652EB1CC7FEF",
     "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-silver-spring-maryland-04-02-2027/event/1500652EB1CC7FEF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/silver-spring-maryland-the-fillmore-silver-spring-2027-04-02-7-pm/concert/18612960",
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-silver-spring-the-fillmore-silver-spring-4-2-2027--concerts-rock/production/7592436",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-silver-spring-maryland-04-02-2027/event/1500652EB1CC7FEF",
@@ -122489,11 +122489,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612960,
+        "url": "https://seatgeek.com/the-interrupters-tickets/silver-spring-maryland-the-fillmore-silver-spring-2027-04-02-7-pm/concert/18612960",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592436,
@@ -122619,7 +122619,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006529A2E2E7A9",
     "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-boston-massachusetts-04-07-2027/event/01006529A2E2E7A9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-04-07-6-pm/concert/18612664",
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-boston-citizens-house-of-blues-boston-4-7-2027--concerts-rock/production/7592440",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-boston-massachusetts-04-07-2027/event/01006529A2E2E7A9",
@@ -122635,11 +122635,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612664,
+        "url": "https://seatgeek.com/the-interrupters-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-04-07-6-pm/concert/18612664",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592440,
@@ -122855,7 +122855,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0500652ACD4EE459",
     "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-cleveland-ohio-04-13-2027/event/0500652ACD4EE459",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/cleveland-ohio-house-of-blues-cleveland-2027-04-13-6-pm/concert/18612605",
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-cleveland-house-of-blues-cleveland-4-13-2027--concerts-rock/production/7592444",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-cleveland-ohio-04-13-2027/event/0500652ACD4EE459",
@@ -122871,11 +122871,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612605,
+        "url": "https://seatgeek.com/the-interrupters-tickets/cleveland-ohio-house-of-blues-cleveland-2027-04-13-6-pm/concert/18612605",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592444,
@@ -122977,7 +122977,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "08006522B3224EF2",
     "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-detroit-michigan-04-16-2027/event/08006522B3224EF2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/detroit-michigan-the-fillmore-detroit-2027-04-16-6-pm/concert/18612691",
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-detroit-the-fillmore-detroit-4-16-2027--concerts-rock/production/7592450",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-detroit-michigan-04-16-2027/event/08006522B3224EF2",
@@ -122993,11 +122993,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612691,
+        "url": "https://seatgeek.com/the-interrupters-tickets/detroit-michigan-the-fillmore-detroit-2027-04-16-6-pm/concert/18612691",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592450,
@@ -123046,7 +123046,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0400651DC0E4B500",
     "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-chicago-illinois-04-17-2027/event/0400651DC0E4B500",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/chicago-illinois-house-of-blues-chicago-2027-04-17-5-30-pm/concert/18612762",
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-chicago-house-of-blues-chicago-4-17-2027--concerts-rock/production/7592456",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-chicago-illinois-04-17-2027/event/0400651DC0E4B500",
@@ -123062,11 +123062,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612762,
+        "url": "https://seatgeek.com/the-interrupters-tickets/chicago-illinois-house-of-blues-chicago-2027-04-17-5-30-pm/concert/18612762",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592456,
@@ -123585,7 +123585,7 @@
         "event_id": 18345740,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/solana-beach-california-belly-up-tavern-2026-10-11-7-30-pm/concert/18345740",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -123829,7 +123829,7 @@
         "event_id": 18540429,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/menlo-park-california-the-guild-theatre-menlo-park-2026-10-19-8-pm/concert/18540429",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -123943,7 +123943,7 @@
         "event_id": 18345753,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/portland-oregon-revolution-hall-portland-2026-10-22-8-pm/concert/18345753",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -124126,7 +124126,7 @@
         "event_id": 18345754,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/salt-lake-city-utah-rockwell-at-the-complex-2026-10-26-8-pm/concert/18345754",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -124179,7 +124179,7 @@
         "event_id": 18345755,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/denver-colorado-ogden-theatre-2026-10-29-8-pm/concert/18345755",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -124362,7 +124362,7 @@
         "event_id": 18345772,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/san-antonio-texas-paper-tiger-san-antonio-2026-11-06-8-pm/concert/18345772",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -124484,7 +124484,7 @@
         "event_id": 18540431,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/brooklyn-new-york-brooklyn-steel-2027-02-11-8-pm/concert/18540431",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -124537,7 +124537,7 @@
         "event_id": 18540433,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/brooklyn-new-york-brooklyn-steel-2027-02-12-8-pm/concert/18540433",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -124659,7 +124659,7 @@
         "event_id": 18540443,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/orlando-florida-the-plaza-live-2027-02-23-7-30-pm/concert/18540443",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -124712,7 +124712,7 @@
         "event_id": 18540444,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/athens-georgia-georgia-theatre-2027-02-25-7-pm/concert/18540444",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -124887,7 +124887,7 @@
         "event_id": 18540453,
         "url": "https://seatgeek.com/dinosaur-jr-tickets/minneapolis-minnesota-first-avenue-minneapolis-2027-03-04-8-pm/concert/18540453",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -125035,7 +125035,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006515074ADA57",
     "ticketmaster_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-boston-massachusetts-03-13-2027/event/01006515074ADA57",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-03-13-7-pm/concert/18540462",
     "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-boston-citizens-house-of-blues-boston-3-13-2027/production/7491258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-spring-tour-2027-boston-massachusetts-03-13-2027/event/01006515074ADA57",
@@ -125051,11 +125051,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18540462,
+        "url": "https://seatgeek.com/dinosaur-jr-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-03-13-7-pm/concert/18540462",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491258,
@@ -125585,7 +125585,7 @@
         "event_id": 18570444,
         "url": "https://seatgeek.com/harry-styles-tickets/glendale-arizona-state-farm-stadium-2027-04-02-7-45-pm/concert/18570444",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -125654,7 +125654,7 @@
         "event_id": 18577793,
         "url": "https://seatgeek.com/harry-styles-tickets/glendale-arizona-state-farm-stadium-2027-04-03-7-45-pm/concert/18577793",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -125723,7 +125723,7 @@
         "event_id": 18292529,
         "url": "https://seatgeek.com/charli-xcx-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-10-23-8-pm/concert/18292529",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -126060,7 +126060,7 @@
         "event_id": 18235537,
         "url": "https://seatgeek.com/niall-horan-tickets/hartford-connecticut-peoplesbank-arena-2027-04-13-7-30-pm/concert/18235537",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -126129,7 +126129,7 @@
         "event_id": 17769328,
         "url": "https://seatgeek.com/doja-cat-tickets/las-vegas-nevada-t-mobile-arena-2026-10-31-7-30-pm/concert/17769328",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -127246,7 +127246,7 @@
         "event_id": 18595092,
         "url": "https://seatgeek.com/metallica-tickets/raleigh-north-carolina-carter-finley-stadium-2027-06-02-6-pm/concert/18595092",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -127323,7 +127323,7 @@
         "event_id": 18595101,
         "url": "https://seatgeek.com/metallica-tickets/madison-wisconsin-camp-randall-stadium-2027-06-12-6-pm/concert/18595101",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -127400,7 +127400,7 @@
         "event_id": 18010589,
         "url": "https://seatgeek.com/five-finger-death-punch-tickets/huntsville-alabama-orion-amphitheater-2026-10-07-6-45-pm/concert/18010589",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -127530,7 +127530,7 @@
         "event_id": 18142024,
         "url": "https://seatgeek.com/blue-october-tickets/san-antonio-texas-boeing-center-at-tech-port-2026-12-12-8-pm/concert/18142024",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -127591,7 +127591,7 @@
         "event_id": 18239716,
         "url": "https://seatgeek.com/blue-october-tickets/albuquerque-new-mexico-revel-entertainment-center-2027-02-04-8-pm/concert/18239716",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -127652,7 +127652,7 @@
         "event_id": 18391961,
         "url": "https://seatgeek.com/trivium-tickets/san-antonio-texas-boeing-center-at-tech-port-2026-11-27-6-35-pm/concert/18391961",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -127721,7 +127721,7 @@
         "event_id": 18391971,
         "url": "https://seatgeek.com/trivium-tickets/las-vegas-nevada-pearl-concert-theater-at-palms-casino-resort-2026-12-03-6-30-pm/concert/18391971",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -127843,7 +127843,7 @@
         "event_id": 18253063,
         "url": "https://seatgeek.com/beartooth-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2026-12-09-6-30-pm/concert/18253063",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -127904,7 +127904,7 @@
         "event_id": 18253073,
         "url": "https://seatgeek.com/beartooth-tickets/albuquerque-new-mexico-revel-entertainment-center-2026-12-15-6-30-pm/concert/18253073",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -128042,7 +128042,7 @@
         "event_id": 18527893,
         "url": "https://seatgeek.com/stella-lefty-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-01-31-8-pm/concert/18527893",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -128103,7 +128103,7 @@
         "event_id": 18527898,
         "url": "https://seatgeek.com/stella-lefty-tickets/nashville-tennessee-ryman-auditorium-2027-02-17-8-pm/concert/18527898",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -128172,7 +128172,7 @@
         "event_id": 18539564,
         "url": "https://seatgeek.com/stella-lefty-tickets/nashville-tennessee-ryman-auditorium-2027-02-18-8-pm/concert/18539564",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -128241,7 +128241,7 @@
         "event_id": 18492778,
         "url": "https://seatgeek.com/missio-tickets/san-francisco-california-brick-and-mortar-music-hall-2026-11-03-8-30-pm/concert/18492778",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -130968,7 +130968,7 @@
     "tour_name": "The Long Surrender Tour",
     "ticketmaster_event_id": "2D006531B6956999",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-columbia-south-carolina-03-13-2027/event/2D006531B6956999",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/needtobreathe-tickets/columbia-south-carolina-township-auditorium-2027-03-13-8-pm/concert/18621554",
     "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-columbia-township-auditorium-3-13-2027/production/7611518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-columbia-south-carolina-03-13-2027/event/2D006531B6956999",
@@ -131037,7 +131037,7 @@
     "tour_name": "The Long Surrender Tour",
     "ticketmaster_event_id": "22006535EE8A753E",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-orlando-florida-03-14-2027/event/22006535EE8A753E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/needtobreathe-tickets/orlando-florida-hard-rock-live-orlando-2027-03-14-7-pm/concert/18621555",
     "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-orlando-hard-rock-live---orlando-3-14-2027/production/7611553",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-orlando-florida-03-14-2027/event/22006535EE8A753E",
@@ -131106,7 +131106,7 @@
     "tour_name": "The Long Surrender Tour",
     "ticketmaster_event_id": "1B006532A956D773",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-17-2027/event/1B006532A956D773",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/needtobreathe-tickets/memphis-tennessee-satellite-music-hall-2027-03-17-6-pm/concert/18621556",
     "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-memphis-satellite-music-hall-3-17-2027/production/7611514",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-17-2027/event/1B006532A956D773",
@@ -131175,7 +131175,7 @@
     "tour_name": "The Long Surrender Tour",
     "ticketmaster_event_id": "1B006532A95BD788",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-18-2027/event/1B006532A95BD788",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/needtobreathe-tickets/memphis-tennessee-satellite-music-hall-2027-03-18-6-pm/concert/18621561",
     "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-memphis-satellite-music-hall-3-18-2027/production/7611516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-memphis-tennessee-03-18-2027/event/1B006532A95BD788",
@@ -131244,7 +131244,7 @@
     "tour_name": "The Long Surrender Tour",
     "ticketmaster_event_id": "1B006513BE14F26C",
     "ticketmaster_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-new-orleans-louisiana-03-19-2027/event/1B006513BE14F26C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/needtobreathe-tickets/new-orleans-louisiana-fillmore-new-orleans-2027-03-19-6-pm/concert/18621562",
     "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-new-orleans-fillmore-new-orleans-3-19-2027/production/7611578",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-the-long-surrender-tour-new-orleans-louisiana-03-19-2027/event/1B006513BE14F26C",
@@ -132321,7 +132321,7 @@
     "tour_name": "The Wake World Tour",
     "ticketmaster_event_id": "2000644C9D3B3801",
     "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-20262027-birmingham-alabama-04-07-2027/event/2000644C9D3B3801",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/birmingham-alabama-iron-city-2027-04-07-7-pm/concert/18084515",
     "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-birmingham-iron-city-birmingham-4-7-2027--concerts-alternative/production/6682776",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-20262027-birmingham-alabama-04-07-2027/event/2000644C9D3B3801",
@@ -132459,7 +132459,7 @@
     "tour_name": "The Wake World Tour",
     "ticketmaster_event_id": "1B00644CA16DCDB6",
     "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-knoxville-tennessee-04-10-2027/event/1B00644CA16DCDB6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/knoxville-tennessee-bijou-theatre-knoxville-2027-04-10-7-pm/concert/18084058",
     "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-knoxville-bijou-theatre---knoxville-4-10-2027--concerts-alternative/production/6682783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-knoxville-tennessee-04-10-2027/event/1B00644CA16DCDB6",
@@ -133313,7 +133313,7 @@
     "tour_name": "The Love Chant Tour",
     "ticketmaster_event_id": "0700652E94881BE6",
     "ticketmaster_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-madison-wisconsin-03-19-2027/event/0700652E94881BE6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-lemonheads-tickets/madison-wisconsin-majestic-theatre-wi-2027-03-19-8-pm/concert/18593821",
     "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-madison-majestic-theatre---madison-3-19-2027/production/7558847",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-lemonheads-the-love-chant-tour-madison-wisconsin-03-19-2027/event/0700652E94881BE6",
@@ -138872,7 +138872,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "2D00652A9E8EDFA6",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-charlotte-north-carolina-03-13-2027/event/2D00652A9E8EDFA6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/charlotte-north-carolina-the-underground-at-the-fillmore-charlotte-2027-03-13-8-pm/concert/18606490",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-charlotte-the-underground-at-the-fillmore-charlotte-3-13-2027--concerts-rock/production/7579404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-charlotte-north-carolina-03-13-2027/event/2D00652A9E8EDFA6",
@@ -139002,7 +139002,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "02006530F21CDFF2",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-philadelphia-pennsylvania-03-16-2027/event/02006530F21CDFF2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/philadelphia-pennsylvania-brooklyn-bowl-philadelphia-2027-03-16-8-pm/concert/18606537",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-philadelphia-brooklyn-bowl-philadelphia-3-16-2027--concerts-rock/production/7579418",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-philadelphia-pennsylvania-03-16-2027/event/02006530F21CDFF2",
@@ -140614,7 +140614,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E006531942A5AAF",
     "ticketmaster_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-denver-colorado-03-19-2027/event/1E006531942A5AAF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/too-many-zooz-tickets/denver-colorado-summit-music-hall-denver-2027-03-19-7-pm/concert/18612771",
     "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-denver-summit-music-hall-3-19-2027/production/7594958",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-denver-colorado-03-19-2027/event/1E006531942A5AAF",
@@ -140683,7 +140683,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006532158EC7B6",
     "ticketmaster_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-houston-texas-04-30-2027/event/3A006532158EC7B6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/too-many-zooz-tickets/houston-texas-white-oak-music-hall-downstairs-2027-04-30-7-pm/concert/18613113",
     "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-houston-white-oak-music-hall---downstairs-4-30-2027/production/7594457",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-houston-texas-04-30-2027/event/3A006532158EC7B6",
@@ -143951,7 +143951,7 @@
     "tour_name": "The Love of Soul Tour",
     "ticketmaster_event_id": "2200652FA1844811",
     "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-orlando-florida-03-27-2027/event/2200652FA1844811",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fantasia-tickets/orlando-florida-addition-financial-arena-2027-03-27-8-pm/concert/18629529",
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-orlando-addition-financial-arena-3-27-2027--concerts-rb/production/7621390",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-orlando-florida-03-27-2027/event/2200652FA1844811",
@@ -144073,7 +144073,7 @@
     "tour_name": "The Love of Soul Tour",
     "ticketmaster_event_id": "1B0065379812A35A",
     "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-southaven-mississippi-04-10-2027/event/1B0065379812A35A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fantasia-tickets/southaven-mississippi-landers-center-2027-04-10-8-pm/concert/18629435",
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-southaven-landers-center-4-10-2027/production/7620711",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-southaven-mississippi-04-10-2027/event/1B0065379812A35A",
@@ -144142,7 +144142,7 @@
     "tour_name": "The Love of Soul Tour",
     "ticketmaster_event_id": "22006532B98E51F8",
     "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-jacksonville-florida-04-16-2027/event/22006532B98E51F8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fantasia-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2027-04-16-8-pm/concert/18629294",
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-jacksonville-vystar-veterans-memorial-arena-4-16-2027--concerts-rb/production/7621400",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-jacksonville-florida-04-16-2027/event/22006532B98E51F8",
@@ -144288,7 +144288,7 @@
     "tour_name": "The Love of Soul Tour",
     "ticketmaster_event_id": "19006537A46B50A3",
     "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-phoenix-arizona-04-23-2027/event/19006537A46B50A3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fantasia-tickets/phoenix-arizona-mortgage-matchup-center-2027-04-23-8-pm/concert/18629227",
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-phoenix-mortgage-matchup-center-4-23-2027--concerts-rb/production/7621404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-phoenix-arizona-04-23-2027/event/19006537A46B50A3",
@@ -145312,7 +145312,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "08006537152DFC58",
     "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-detroit-michigan-04-25-2027/event/08006537152DFC58",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/a-perfect-circle-tickets/detroit-michigan-fox-theatre-detroit-2027-04-25-7-30-pm/concert/18632516",
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-detroit-fox-theatre-detroit-4-25-2027/production/7623527",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-detroit-michigan-04-25-2027/event/08006537152DFC58",
@@ -145381,7 +145381,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0100653799BEDB6D",
     "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-boston-massachusetts-04-27-2027/event/0100653799BEDB6D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/a-perfect-circle-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-04-27-8-pm/concert/18632517",
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-boston-mgm-music-hall-at-fenway-4-27-2027/production/7623545",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-boston-massachusetts-04-27-2027/event/0100653799BEDB6D",
@@ -162299,7 +162299,7 @@
     "tour_name": "That's Just Me Tour",
     "ticketmaster_event_id": "0F00653091695C25",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-seattle-washington-04-02-2027/event/0F00653091695C25",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/riley-green-tickets/seattle-washington-climate-pledge-arena-2027-04-02-7-pm/concert/18626514",
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-seattle-climate-pledge-arena-4-2-2027/production/7618128",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-seattle-washington-04-02-2027/event/0F00653091695C25",
@@ -164605,7 +164605,7 @@
     "tour_name": "Day and Night Tour",
     "ticketmaster_event_id": "0900653DD37AFC77",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-inglewood-california-04-22-2027/event/0900653DD37AFC77",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/carly-rae-jepsen-tickets/inglewood-california-kia-forum-2027-04-22-7-30-pm/concert/18639016",
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-inglewood-kia-forum-4-22-2027--concerts-pop/production/7636619",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-inglewood-california-04-22-2027/event/0900653DD37AFC77",

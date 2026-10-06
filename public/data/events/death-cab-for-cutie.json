@@ -422,7 +422,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "1B00652F911577EC",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-knoxville-tennessee-03-12-2027/event/1B00652F911577EC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/knoxville-tennessee-tennessee-theatre-2027-03-12-8-pm/concert/18603808",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-knoxville-tennessee-theatre-3-12-2027--concerts-alternative/production/7571339",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-knoxville-tennessee-03-12-2027/event/1B00652F911577EC",
@@ -438,11 +438,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603808,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/knoxville-tennessee-tennessee-theatre-2027-03-12-8-pm/concert/18603808",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571339,
@@ -491,7 +491,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "0D00652AFFE5DAB9",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-miami-beach-florida-03-18-2027/event/0D00652AFFE5DAB9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2027-03-18-8-pm/concert/18603788",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-miami-beach-fillmore-miami-beach-at-jackie-gleason-theater-3-18-2027--concerts-alternative/production/7571335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-miami-beach-florida-03-18-2027/event/0D00652AFFE5DAB9",
@@ -507,11 +507,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603788,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2027-03-18-8-pm/concert/18603788",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571335,
@@ -637,7 +637,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "3A00652ED132F517",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-houston-texas-03-22-2027/event/3A00652ED132F517",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/houston-texas-713-music-hall-2027-03-22-8-pm/concert/18604033",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-houston-713-music-hall-3-22-2027--concerts-alternative/production/7571325",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-houston-texas-03-22-2027/event/3A00652ED132F517",
@@ -653,11 +653,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18604033,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/houston-texas-713-music-hall-2027-03-22-8-pm/concert/18604033",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571325,
@@ -873,7 +873,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "3100652BD6ACC86A",
     "ticketmaster_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-montreal-quebec-04-05-2027/event/3100652BD6ACC86A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/montreal-canada-mtelus-2027-04-05-8-pm/concert/18603817",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027--concerts-alternative/production/7571278",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/death-cab-for-cutie-i-built-montreal-quebec-04-05-2027/event/3100652BD6ACC86A",
@@ -889,11 +889,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603817,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/montreal-canada-mtelus-2027-04-05-8-pm/concert/18603817",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571278,
@@ -942,7 +942,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "0100652AF54DC3B9",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-07-2027/event/0100652AF54DC3B9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-04-07-8-pm/concert/18604107",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-boston-mgm-music-hall-at-fenway-4-7-2027--concerts-alternative/production/7571320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-07-2027/event/0100652AF54DC3B9",
@@ -958,11 +958,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18604107,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-04-07-8-pm/concert/18604107",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571320,
@@ -1011,7 +1011,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "0100652AF550C3CE",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-08-2027/event/0100652AF550C3CE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-04-08-8-pm/concert/18604106",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-boston-mgm-music-hall-at-fenway-4-8-2027--concerts-alternative/production/7571318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-boston-massachusetts-04-08-2027/event/0100652AF550C3CE",
@@ -1027,11 +1027,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18604106,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-04-08-8-pm/concert/18604106",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571318,
@@ -1202,7 +1202,7 @@
     "tour_name": "I Built You A Tower World Tour",
     "ticketmaster_event_id": "3C006530BB8D26A2",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-new-york-new-york-04-13-2027/event/3C006530BB8D26A2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/new-york-new-york-radio-city-music-hall-2027-04-13-8-pm/concert/18603805",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-new-york-radio-city-music-hall-4-13-2027--concerts-alternative/production/7571294",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-new-york-new-york-04-13-2027/event/3C006530BB8D26A2",
@@ -1218,11 +1218,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18603805,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/new-york-new-york-radio-city-music-hall-2027-04-13-8-pm/concert/18603805",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7571294,

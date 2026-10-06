@@ -4,6 +4,7 @@ seo_title: "Stadium concert: floor or seats?"
 description: A floor ticket and a seat at the same stadium show are different products. How to choose between them, and what to check on a listing before paying.
 summary: At a stadium show, the choice between the floor and a seat decides more than the view. It sets when you need to arrive, how long you stand, what an early-entry add-on is worth and how to read a resale listing. Here is how to weigh it before you compare prices.
 date: 2026-09-25
+updated: 2026-10-05
 status: published
 tags:
   - tour-buying
@@ -39,7 +40,7 @@ If a listing just says "floor" without a section, a row or the words "general ad
 
 A general admission floor ticket is paid for partly in time. A spot near the stage usually means arriving early and standing for the support act as well as the headliner. Packages that sell early entry exist precisely because floor position is decided by arrival order, which tells you how much the queue matters.
 
-The floor can also come with its own entry process. At Falcon Stadium, the Air Force Academy's floor-seating guidance for the Bruno Mars shows sends floor ticketholders through a specific gate, with wristbands collected inside. That is typical of stadium shows: the floor is often managed separately from the bowl, so read the venue's instructions for your ticket type rather than a friend's.
+The floor can also come with its own entry process. At Falcon Stadium, the Air Force Academy's floor-seating guidance for the September 2026 Bruno Mars shows sent floor ticketholders through a specific gate, with wristbands collected inside. That is typical of stadium shows: the floor is often managed separately from the bowl, so read the venue's instructions for your ticket type rather than a friend's.
 
 Accessibility is a separate question again. If you need step-free access, somewhere to sit, or space for a companion, check the venue's accessible seating arrangements directly; a standing floor ticket may not meet those needs.
 

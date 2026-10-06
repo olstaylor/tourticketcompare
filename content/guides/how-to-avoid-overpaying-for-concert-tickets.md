@@ -41,7 +41,7 @@ A primary ticket isn't automatically cheaper than resale once fees are added. Ge
 
 To compare two options fairly, you need the same number from each: the total after the site has added every fee, tax, delivery charge and currency conversion.
 
-In the United States, the Federal Trade Commission's fee rule has required live-event ticket sellers, including resellers, to show a total price with all mandatory fees since May 12, 2025. Taxes, government charges, shipping and optional extras can still be left out of that figure, as long as they are disclosed, with the final amount, before you are asked to pay. Other countries have their own rules, and in some the price grows as you go through checkout, so you won't know what's included until you reach the order screen.
+In the United States, mandatory fees now have to be in the advertised total, but taxes, shipping and optional extras can still be added before you pay; the [fees guide](/guides/concert-ticket-fees-explained) explains what the rule covers. In other countries the price can grow as you go through checkout, so you won't know what's included until you reach the order screen.
 
 To avoid a surprise at checkout:
 
@@ -138,7 +138,7 @@ No. Dynamic or demand-based pricing is a disclosed feature some sites use for so
 
 **Why is my final total higher than the price I first saw?**
 
-Fees, taxes, delivery and currency conversion are often added at checkout rather than shown at the start. In the United States, the FTC's fee rule has required mandatory fees to be in the advertised total since May 12, 2025, but taxes, shipping and optional extras can still be added later; other countries have their own rules. Go to the final order screen before comparing.
+Fees, taxes, delivery and currency conversion are often added at checkout rather than shown at the start, and the rules differ by country. Go to the final order screen before comparing.
 
 **Is a primary ticket always cheaper than resale?**
 

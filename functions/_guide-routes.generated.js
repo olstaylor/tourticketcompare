@@ -20,7 +20,7 @@ export const GUIDE_ROUTES = {
     description: "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final total and terms.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-05"
   },
   "/guides/vivid-seats-vs-ticketmaster": {
     title: "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety",
@@ -29,7 +29,7 @@ export const GUIDE_ROUTES = {
     fullContent: true,
     comparisonProviders: ["ticketmaster","vivid-seats"],
     datePublished: "2026-08-20",
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-05"
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
     title: "Ticketmaster, SeatGeek & Vivid Seats: How to Compare Tickets",
@@ -38,7 +38,7 @@ export const GUIDE_ROUTES = {
     fullContent: true,
     comparisonProviders: ["seatgeek","vivid-seats"],
     datePublished: "2026-06-11",
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-05"
   },
   "/guides/seatgeek-vs-ticketmaster": {
     title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
@@ -47,7 +47,7 @@ export const GUIDE_ROUTES = {
     fullContent: true,
     comparisonProviders: ["ticketmaster","seatgeek"],
     datePublished: "2026-07-13",
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-05"
   },
   "/guides/ticketnetwork-vs-ticketmaster": {
     title: "TicketNetwork vs Ticketmaster: Which Should You Use?",
@@ -64,7 +64,7 @@ export const GUIDE_ROUTES = {
     description: "Use practical checks to avoid overpaying for concert tickets by reviewing final fees, seat location, seller terms, delivery timing, and misleading urgency.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-05"
   },
   "/guides/when-is-the-best-time-to-buy-concert-tickets": {
     title: "When to Buy Concert Tickets | TourTicketCompare",
@@ -72,7 +72,7 @@ export const GUIDE_ROUTES = {
     description: "Learn how to choose when to buy concert tickets by weighing certainty, seat choice, group seating, budget, delivery timing, provider terms, and risk tolerance.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-05"
   },
   "/guides/primary-vs-resale-concert-tickets": {
     title: "Primary vs Resale Concert Tickets | TourTicketCompare",
@@ -96,7 +96,7 @@ export const GUIDE_ROUTES = {
     description: "Learn why concert ticket totals can change because of onsale demand, provider pricing methods, resale seller decisions, fees, seat details, delivery, and terms.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-05"
   },
   "/guides/ticketmaster-vs-stubhub": {
     title: "Ticketmaster vs StubHub: Compare Safely | TourTicketCompare",
@@ -104,7 +104,7 @@ export const GUIDE_ROUTES = {
     description: "Compare Ticketmaster and StubHub by checking event source, ticket type, final totals, delivery timing, and provider terms before checkout.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-05"
   },
   "/guides/seatgeek-promo-code-guide": {
     title: "SeatGeek Promo Code Guide: Verify Safely | TourTicketCompare",
@@ -169,7 +169,7 @@ export const GUIDE_ROUTES = {
     description: "SeatGeek vs StubHub compared on who sells the ticket, all-in fees, buyer protection, cancellations, postponements and delivery timing.",
     fullContent: true,
     datePublished: "2026-09-25",
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-05"
   },
   "/guides/vivid-seats-vs-seatgeek": {
     title: "Vivid Seats vs SeatGeek: Fees, Guarantees, Delivery",
@@ -186,7 +186,7 @@ export const GUIDE_ROUTES = {
     description: "Vivid Seats vs StubHub compared on seller pricing, upfront fees, buyer protection, cancelled and postponed shows, delivery and which site you're on.",
     fullContent: true,
     datePublished: "2026-09-25",
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-05"
   },
   "/guides/is-vivid-seats-legit": {
     title: "Is Vivid Seats Legit? What the Guarantee Covers",
@@ -271,5 +271,5 @@ export const PRICE_GUIDE_FALLBACK = {
   description: "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final total and terms.",
   fullContent: true,
   datePublished: "2026-06-11",
-  lastmod: "2026-10-02"
+  lastmod: "2026-10-05"
 };

@@ -66,7 +66,7 @@ You may well see similar seats on both at different prices. That gap is a differ
 
 There is no consistent answer. Each listing is priced by its own seller, and the order can flip between listings and over a single day.
 
-Fee display is more comparable than it used to be. In the US, the FTC's fee rule has required live-event ticket prices to include all mandatory fees upfront since 12 May 2025; taxes, shipping and optional extras can still be shown separately if they are disclosed before payment. Vivid Seats says it uses all-in pricing once you start shopping.
+Fee display is more comparable than it used to be. In the US, both must include mandatory fees in the upfront price (the [fees guide](/guides/concert-ticket-fees-explained) covers the rule). Vivid Seats says it uses all-in pricing once you start shopping.
 
 A like-for-like check:
 

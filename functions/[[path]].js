@@ -4801,9 +4801,13 @@ function presalePageYear(presales) {
 
 function presalePageTitle(artist, presales) {
   const year = presalePageYear(presales);
-  return presales.windowCount
-    ? `${artist.name} Presale ${year}: Times & Ticket On-Sale Dates | TourTicketCompare`
-    : `${artist.name} Presale & Ticket On-Sale Dates | TourTicketCompare`;
+  const lead = presales.windowCount ? `${artist.name} Presale ${year}` : `${artist.name} Presale`;
+  return fitTitleToBudget([
+    `${lead}: Times & On-Sale Dates | TourTicketCompare`,
+    `${lead} Times | TourTicketCompare`,
+    `${lead} | TourTicketCompare`,
+    lead
+  ]);
 }
 
 function presalePageDescription(artist, presales) {

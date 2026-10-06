@@ -57,6 +57,12 @@ const { normalizePresaleWindows, deriveArtistPresales, deriveUpcomingPresales, d
   assert(windows[0].name === "Card Presale" && windows[1].name === "Artist Presale", "windows sort by start and names are tidied");
   assert(windows.every((window) => Object.keys(window).join() === "name,start,end"), "only name, start and end are kept");
   assert(!JSON.stringify(windows).match(/LOVE|example\.com/), "no code, description or link survives");
+  for (const name of ["Fan Presale code LOVE24", "use code LOVE24", "Password LOVE24", "Presale PIN 1234", "tickets.example.com/presale", "Sign up at Example.co"]) {
+    assert(!presalesModule.presaleNameSafe(name), `an unpunctuated code or bare link is refused: ${name}`);
+  }
+  for (const name of ["Citi Cardmember Presale", "Verified Fan Presale", "Live Nation Presale", "Spotify Fans First"]) {
+    assert(presalesModule.presaleNameSafe(name), `an ordinary presale name is kept: ${name}`);
+  }
   assert(normalizePresaleWindows(null).length === 0 && normalizePresaleWindows("x").length === 0, "non-lists give no windows");
   assert(presalePath("oasis") === "/artists/oasis/presale", "one URL per artist");
 }
@@ -188,6 +194,7 @@ const text = (html) =>
   const page = await render("/artists/oasis/presale");
   assert(page.status === 200, "the presale page renders");
   assert(page.title.startsWith("Oasis Presale 2026"), "the title names the presale and its year");
+  assert(page.title.length <= 60, "the title fits the 60-character budget");
   assert(page.robots.startsWith("index,follow"), "a near presale under an indexable artist page is indexable");
   const body = text(page.main);
   assert(body.includes("Presales open now") && body.includes("Card Presale"), "open windows are listed");
@@ -232,6 +239,17 @@ const text = (html) =>
   assert(xml.includes("/artists/oasis/presale"), "the sitemap lists an indexable presale page");
   const quiet = JSON.stringify(await sitemapModule.buildSitemapSegments(env(EVENTS.filter((event) => !event.presales)), ["artists"], ORIGIN));
   assert(!quiet.includes("/presale"), "the sitemap drops it when nothing is near");
+}
+
+{
+  const { classifyPageType, PAGE_TYPES } = await load("functions/_funnel.js");
+  assert(classifyPageType("/artists/oasis/presale") === "artist_presale" && PAGE_TYPES.includes("artist_presale"), "analytics records the presale page as its own page type");
+  const snapshot = await load("scripts/lib/tm-event-snapshot.mjs");
+  const projected = snapshot.snapshotFields({ id: "X", sales: { presales: [
+    { name: "Fan Presale code: SECRET", startDateTime: "2027-01-01T00:00:00Z", endDateTime: "2027-01-02T00:00:00Z", description: "x" },
+    { name: "Card Presale", startDateTime: "2027-01-01T00:00:00Z", endDateTime: "2027-01-02T00:00:00Z", url: "https://example.com" }
+  ] } });
+  assert(JSON.stringify(projected.sales.presales) === JSON.stringify([{ name: "Card Presale", startDateTime: "2027-01-01T00:00:00Z", endDateTime: "2027-01-02T00:00:00Z" }]), "the shared snapshot never holds a code, description or link");
 }
 
 console.log(`presales: ${passed} assertions passed.`);

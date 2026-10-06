@@ -36,8 +36,23 @@ export const PRESALE_MAX_HORIZON_DAYS = 365;
 export const PRESALE_MAX_WINDOWS_PER_EVENT = 25;
 export const PRESALE_NAME_MAX_LENGTH = 100;
 
-// A name that reads like it carries a code, a password or a link is dropped.
-const UNSAFE_NAME = /\b(code|codes|password|passcode|pin)\s*[:=#]|https?:|www\.|@/i;
+// A name that mentions a code, password, passcode or PIN at all, or carries
+// anything link-like (a scheme, "www.", an "@", or a dotted domain), is
+// dropped whole: punctuation is not required, so "use code LOVE24" and
+// "tickets.example.com/presale" are both refused. Over-dropping a genuine
+// window is the safe direction. Mirrored in scripts/validate-events.py.
+const UNSAFE_NAME = /\b(codes?|passwords?|passcodes?|pins?)\b|https?:|www\.|@|\b[a-z0-9-]+\.[a-z]{2,}\b/i;
+
+/**
+ * Whether a presale window name is fit to store or show.
+ *
+ * @param {unknown} name
+ * @returns {boolean}
+ */
+export function presaleNameSafe(name) {
+  const text = cleanName(name);
+  return Boolean(text) && text.length <= PRESALE_NAME_MAX_LENGTH && !UNSAFE_NAME.test(text);
+}
 
 export function presalePath(slug) {
   return `/artists/${slug}/${PRESALE_SEGMENT}`;
@@ -71,7 +86,7 @@ export function normalizePresaleWindows(list, now = Date.now()) {
     const name = cleanName(item.name);
     const start = trimmed(item.start ?? item.startDateTime);
     const end = trimmed(item.end ?? item.endDateTime);
-    if (!name || name.length > PRESALE_NAME_MAX_LENGTH || UNSAFE_NAME.test(name)) continue;
+    if (!presaleNameSafe(name)) continue;
     const startMs = Date.parse(start);
     const endMs = Date.parse(end);
     if (!Number.isFinite(startMs) || !Number.isFinite(endMs) || endMs <= startMs) continue;

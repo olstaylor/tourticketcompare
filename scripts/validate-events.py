@@ -39,7 +39,7 @@ ALLOWED_VERIFICATION_STATUSES = {"human_verified", "machine_high_confidence", "n
 # Absent means a normal sale state. Anything else is rejected here, and the
 # runtime treats an unrecognised stored value as a hold (functions/_route-indexability.js).
 # Mirrors UNSAFE_NAME in functions/_presales.js.
-PRESALE_UNSAFE_NAME = re.compile(r"\b(code|codes|password|passcode|pin)\s*[:=#]|https?:|www\.|@", re.IGNORECASE)
+PRESALE_UNSAFE_NAME = re.compile(r"\b(codes?|passwords?|passcodes?|pins?)\b|https?:|www\.|@|\b[a-z0-9-]+\.[a-z]{2,}\b", re.IGNORECASE)
 ALLOWED_TICKETMASTER_STATUS_CODES = {"cancelled", "canceled", "postponed", "rescheduled"}
 PLACEHOLDER_MARKERS = (
     "example.com",

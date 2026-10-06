@@ -280,6 +280,7 @@ async function collectCards() {
   const { deriveIndexableBlogEntries } = await import(pathToFileURL(path.join(root, "functions/_blog.js")));
   const { GUIDE_ROUTES } = await import(pathToFileURL(path.join(root, "functions/_guide-routes.generated.js")));
   const { deriveIndexablePriceGuides } = await import(pathToFileURL(path.join(root, "functions/_price-guides.js")));
+  const { deriveIndexablePresalePages } = await import(pathToFileURL(path.join(root, "functions/_presales.js")));
 
   const indexableMeta = new Map(
     artistsMeta
@@ -340,6 +341,17 @@ async function collectCards() {
       eyebrow: "Ticket prices",
       headline: nameBySlug.get(guide.artistSlug) || guide.artistSlug,
       sub: "Resale prices by date and recent price moves"
+    });
+  }
+
+  // Artist presale pages, while indexable. Like price guides, the card names
+  // the artist and the page's job only, never a time that moves.
+  for (const page of deriveIndexablePresalePages(events, [...indexableMeta.keys()])) {
+    cards.push({
+      path: page.path,
+      eyebrow: "Presale",
+      headline: nameBySlug.get(page.slug) || page.artistName,
+      sub: "Presale times and ticket on-sale dates"
     });
   }
 

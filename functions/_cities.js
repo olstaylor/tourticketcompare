@@ -58,7 +58,9 @@ export function metroCity(city, country) {
 // place Ticketmaster named (did this artist play Docklands? which city do we
 // query?), never for routes.
 export function rawCitySlug(city, country) {
-  return slugify(`${canonicalCity(city)} ${normalizeCountry(country)}`);
+  // Raw spelling too (no CITY_ALIASES): the roster forecast queries
+  // Ticketmaster once per spelling it actually uses.
+  return slugify(`${String(city || "").trim()} ${normalizeCountry(country)}`);
 }
 
 export function citySlug(city, country) {

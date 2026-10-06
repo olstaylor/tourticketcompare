@@ -547,6 +547,10 @@ const priced = {
   assert(metroSlugRedirect("docklands-australia") === "melbourne-australia", "old suburb slug maps to the metro slug");
   assert(metroSlugRedirect("melbourne-australia") === "", "a metro slug is not redirected");
   assert(rawCitySlug("Docklands", "Australia") === "docklands-australia", "raw slug keeps the suburb");
+  assert(
+    rawCitySlug("Saint Petersburg", "United States") === "saint-petersburg-united-states",
+    "raw slug keeps Ticketmaster's own spelling (CITY_ALIASES is route-facing only)"
+  );
   const aus = [
     ev({ id: "aus-1", city: "Docklands", country: "Australia", venue: "Marvel Stadium", datetime_iso: futureA }),
     ev({ id: "aus-2", city: "West Melbourne", country: "Australia", venue: "Festival Hall Melbourne", datetime_iso: futureB })

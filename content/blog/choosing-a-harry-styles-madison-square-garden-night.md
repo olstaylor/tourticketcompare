@@ -4,6 +4,7 @@ seo_title: Choosing a Harry Styles MSG night
 description: Harry Styles’ 2026 MSG residency repeats the same venue across 30 nights. Check the exact date, ticket details and delivery terms before buying.
 summary: A residency breaks the habit most ticket buyers rely on. When the artist, the tour and the venue are identical across every listing, the date is the only thing distinguishing what you are about to buy — and it is the field people skim.
 date: 2026-09-25
+updated: 2026-10-05
 status: published
 tags:
   - tour-buying
@@ -23,6 +24,8 @@ sources:
 ---
 
 Most ticket buying leans on a shortcut nobody articulates: you recognise the city, you recognise the venue, and you assume that between them they have identified the show. A residency quietly removes that shortcut. Madison Square Garden announced Harry Styles' Together, Together run as 30 consecutive shows at the arena, every Wednesday, Friday and Saturday from 26 August to 31 October 2026. Every listing therefore carries the same artist, the same tour name and the same building. The date is doing all the work of telling one from another, and the date is the field people skim.
+
+As of 5 October 2026, the run is past its halfway point. Twelve nights remain on that schedule, from Wednesday 7 October to Saturday 31 October. A listing for a night that has already happened is worthless, and with eighteen past nights in the same building, it is an easy mistake to make.
 
 ## The venue name is not an identifier here
 

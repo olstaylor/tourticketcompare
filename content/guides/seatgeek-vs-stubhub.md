@@ -58,7 +58,7 @@ That distinction matters more than the brand. A primary ticket and a resale tick
 
 There is no general answer. Resale prices are set by sellers and move with demand, and SeatGeek's own help centre says secondary-market prices can fall below face value or rise well above it. Two sellers listing similar seats on two marketplaces can land either way round, and the gap can flip within a day.
 
-In the US, the FTC's fee rule has required the total price of live-event tickets, including mandatory fees, to be shown upfront since 12 May 2025. Taxes, shipping and optional add-ons can still be shown separately, as long as they are disclosed before payment. SeatGeek says its displayed price already includes all mandatory fees, with taxes, shipping and optional services added at checkout where they apply.
+In the US, both sites must show mandatory fees in the upfront price (the [fees guide](/guides/concert-ticket-fees-explained) covers the rule). SeatGeek says its displayed price already includes all mandatory fees, with taxes, shipping and optional services added at checkout where they apply.
 
 So compare order summaries, not headline numbers:
 

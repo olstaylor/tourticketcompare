@@ -31,6 +31,7 @@
     "test:renderer-assets": "node scripts/renderer-asset-cache.test.mjs",
     "test:location-pages": "node scripts/location-pages.test.mjs",
     "test:onsale-calendar": "node scripts/onsale-calendar.test.mjs",
+    "test:presales": "node scripts/presales.test.mjs",
     "test:price-guides": "node scripts/price-guides.test.mjs",
     "price-guides:propose": "node scripts/propose-price-guides.mjs",
     "test:event-local-date": "node scripts/event-local-date.test.mjs",

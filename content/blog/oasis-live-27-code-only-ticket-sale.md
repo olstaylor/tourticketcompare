@@ -2,8 +2,9 @@
 title: "Oasis Live '27: what a code-only ticket sale changes"
 seo_title: "Oasis Live '27 tickets: the code sale"
 description: Oasis Live '27 tickets go only to registered fans with a unique code. What that means for codes offered online, resale listings and choosing a night.
-summary: Oasis Live '27 is not sold the usual way. Registration has closed, selected fans receive a unique code for an assigned sale window, and there is no general sale. That changes how to read almost every ticket offer you will see for these dates.
+summary: Oasis Live '27 was sold only to registered fans with codes, and the band announced on 27 September 2026 that every Oasis Live '27 ticket has been sold. Official resale opens nearer the shows, at the original price, through Ticketmaster and Twickets only. That changes how to read almost every ticket offer you will see for these dates.
 date: 2026-09-25
+updated: 2026-10-05
 status: published
 tags:
   - tour-buying
@@ -16,6 +17,8 @@ related_guides:
 sources:
   - label: Oasis official site — Oasis Live '27 ticket information
     url: https://oasisinet.com/
+  - label: Oasis official site — Oasis Live '27 sale complete and resale notice (27 September 2026)
+    url: https://oasisinet.com/news/oasis-live-27/
   - label: Consequence — Oasis announce 2027 tour dates and ticket registration
     url: https://consequence.net/2026/09/oasis-2027-tour-dates/
   - label: NBC News — Oasis announce 38-date tour in 2027
@@ -24,21 +27,23 @@ sources:
     url: https://www.legislation.gov.uk/ukpga/2015/15/section/90
 ---
 
-The official Oasis site says registration for Oasis Live '27 tickets is closed, and that selected registrants receive a unique code, with full details of how to buy, by email between 24 and 27 September 2026. Consequence reported that each code is non-transferable and tied to an assigned on-sale window, that sales begin on Friday 25 September at times that vary by city, and that there will be no general on-sale or other public pre-sale. Those few sentences change how nearly every ticket offer for these dates should be read.
+**Update, 5 October 2026:** on 27 September 2026 the official Oasis site announced that every Oasis Live '27 ticket has been sold. It says resale tickets will not be available until nearer the events, and then only at the price originally paid, through Ticketmaster and Twickets. Any ticket offered for these dates anywhere else, or before that resale opens, is outside the official process. Wait for those official channels rather than buying it.
+
+The official Oasis site said registration for Oasis Live '27 tickets had closed, and that selected registrants would receive a unique code, with full details of how to buy, by email between 24 and 27 September 2026. Consequence reported that each code is non-transferable and tied to an assigned on-sale window, that sales would begin on Friday 25 September at times varying by city, and that there would be no general on-sale or other public pre-sale. Those few sentences change how nearly every ticket offer for these dates should be read.
 
 ## If you registered: trust the email, not the feed
 
-The code and the buying instructions arrive by email from the official process. Read that email for three things before your window opens: the city and date it covers, the start time, and the time zone that start time is written in. The tour runs from Glasgow to Manchester, mainland Europe, the United States, Slane and Knebworth, so an on-sale time quoted without a zone can easily be an hour, or many hours, away from your own.
+The code and the buying instructions came by email from the official process. If you still hold an unused code, read that email for three things: the city and date it covers, the start time of its window, and the time zone that start time is written in. The tour runs from Glasgow to Manchester, mainland Europe, the United States, Slane and Knebworth, so an on-sale time quoted without a zone can easily be an hour, or many hours, away from your own.
 
 Because reports describe the codes as non-transferable, anyone offering to sell or "share" an Oasis code is offering something the process says cannot be passed on. Treat that as a warning sign, not a shortcut. The same goes for messages asking you to "confirm" a code through a link that did not come from the official email. The [guide to avoiding ticket scams](/guides/how-to-avoid-ticket-scams) covers the payment and contact patterns worth refusing outright.
 
 ## If you did not get a code
 
-With no general sale reported, a fan without a code has no second official queue to join. Any ticket you are offered after that is a resale ticket, whatever the listing calls it. That is not automatically bad, but it is a different purchase from the one registered fans are making, and it is worth being deliberate about.
+With no general sale, a fan without a code has no second official queue to join. The official route left is resale, and the Oasis site says that opens nearer the events, at the price originally paid, through Ticketmaster and Twickets only. Until then, any ticket you are offered sits outside that process, whatever the listing calls it.
 
-Two checks carry most of the weight. First, timing: a resale listing that appears before its seller could plausibly have bought a ticket deserves a direct question about what is actually being sold and when it will be delivered. Second, terms: the organiser's own ticket terms decide whether a resold ticket will scan, so read them before paying for one. The [official versus resale guide](/guides/primary-vs-resale-concert-tickets) sets out the general differences.
+Two checks carry most of the weight. First, the channel and timing: an offer on any other site, or before official resale opens, deserves a direct question about what is actually being sold and whether it will ever be delivered. Second, terms: the organiser's own ticket terms decide whether a resold ticket will scan, so read them before paying for one. The [official versus resale guide](/guides/primary-vs-resale-concert-tickets) sets out the general differences.
 
-For the UK dates there is a helpful legal floor. Section 90 of the Consumer Rights Act 2015 requires that a ticket resold through a secondary ticketing platform for a UK event comes with the information needed to identify the seat or standing area, any restriction on who may use the ticket, and the face value, meaning the price stated on the ticket. NBC News reported that promoters said standard ticket prices for this tour are fixed. Together, those mean a UK resale listing should let you see how far its asking price sits above what the ticket originally cost.
+For the UK dates there is a helpful legal floor. Section 90 of the Consumer Rights Act 2015 requires that a ticket resold through a secondary ticketing platform for a UK event comes with the information needed to identify the seat or standing area, any restriction on who may use the ticket, and the face value, meaning the price stated on the ticket. NBC News reported that promoters said standard ticket prices for this tour are fixed. Together with the face-value-only official resale, those mean a UK listing asking more than the ticket originally cost is not part of the official process.
 
 ## Pick the night before the price
 

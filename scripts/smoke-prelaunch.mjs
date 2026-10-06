@@ -90,7 +90,7 @@ Date.now = () => SMOKE_TEST_NOW_MS;
 const routeMarkers = new Map([
   ["/artists", "Choose an artist, then pick the date you want to compare ticket prices for."],
   ["/cities", "at least four upcoming reviewed shows across at least two artists"],
-  ["/on-sale", "Presales aren't listed"],
+  ["/on-sale", "Presales from Ticketmaster"],
   ["/guides", "Compare the total at checkout for that exact ticket"],
   ["/guides/vivid-seats-vs-ticketmaster", "A like-for-like purchase checklist"],
   ["/blog", "what a price snapshot does and does not claim"],

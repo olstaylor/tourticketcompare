@@ -115,6 +115,7 @@ export function routeType(pathname) {
   if (pathname === "/") return "home";
   if (/^\/artists\/[^/]+\/tickets\/[^/]+$/.test(pathname)) return "artist-city";
   if (/^\/artists\/[^/]+\/ticket-prices$/.test(pathname)) return "price-guide";
+  if (/^\/artists\/[^/]+\/presale$/.test(pathname)) return "presale";
   if (/^\/artists\/[^/]+$/.test(pathname)) return "artist";
   if (pathname === "/cities" || pathname === "/venues" || pathname === "/artists" || pathname === "/guides" || pathname === "/blog" || pathname === "/on-sale") return "index";
   if (pathname.startsWith("/cities/")) return "city";
@@ -125,7 +126,7 @@ export function routeType(pathname) {
   return "static";
 }
 
-export const ROUTE_TYPE_ORDER = ["home", "index", "static", "guide", "blog-post", "blog-tag", "artist", "city", "venue", "artist-city", "price-guide"];
+export const ROUTE_TYPE_ORDER = ["home", "index", "static", "guide", "blog-post", "blog-tag", "artist", "city", "venue", "artist-city", "price-guide", "presale"];
 
 /**
  * Normalise a title into the template it was generated from, so two pages that
@@ -448,7 +449,7 @@ async function readJsonIfPresent(absolutePath) {
 const site = await loadSiteFixture(root);
 const {
   renderRoute,
-  modules: { citiesModule, venuesModule, artistCitiesModule, artistIndexabilityModule, policyModule, priceGuidesModule },
+  modules: { citiesModule, venuesModule, artistCitiesModule, artistIndexabilityModule, policyModule, priceGuidesModule, presalesModule },
   data: { catalog, artistsMeta, events },
   indexableArtistSlugs: editoriallyIndexableSlugs,
   cities,
@@ -471,7 +472,7 @@ const now = Date.now();
  */
 function gateSurfaceAt(ts) {
   const indexable = new Set();
-  const rendered = { artist: 0, city: 0, venue: 0, "artist-city": 0, "price-guide": 0 };
+  const rendered = { artist: 0, city: 0, venue: 0, "artist-city": 0, "price-guide": 0, presale: 0 };
 
   for (const artist of catalog.artists || []) {
     const slug = String(artist?.slug || "").trim();
@@ -499,6 +500,16 @@ function gateSurfaceAt(ts) {
     rendered["price-guide"] += 1;
     const meta = artistsMeta.find((record) => String(record?.slug || "").trim() === guide.artistSlug) || {};
     if (guide.indexable && artistIndexabilityModule.artistPageIndexable(meta, events, guide.artistSlug, ts)) indexable.add(guide.path);
+  }
+  // Presale pages: counted where a live window gives them content, indexable
+  // only under an indexable artist page (as the sitemap lists them).
+  for (const slug of new Set(events.filter((event) => Array.isArray(event?.presales) && event.presales.length).map((event) => String(event.artist_slug || "").trim()))) {
+    if (!slug || !(catalog.artists || []).some((artist) => artist.slug === slug)) continue;
+    const view = presalesModule.deriveArtistPresales(events, slug, ts);
+    if (!view.windowCount) continue;
+    rendered.presale += 1;
+    const meta = artistsMeta.find((record) => String(record?.slug || "").trim() === slug) || {};
+    if (view.indexable && artistIndexabilityModule.artistPageIndexable(meta, events, slug, ts)) indexable.add(presalesModule.presalePath(slug));
   }
   return { indexable, rendered };
 }

@@ -78,6 +78,7 @@
     if (parts[0] === "artists") {
       if (parts.length === 1) return "artists_index";
       if (parts[2] === "tickets") return "artist_city";
+      if (parts[2] === "presale") return "artist_presale";
       return parts[2] === "ticket-prices" ? "artist_price_guide" : "artist";
     }
     if (parts[0] === "cities") return parts.length === 1 ? "cities_index" : "city";

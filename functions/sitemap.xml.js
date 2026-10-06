@@ -6,6 +6,7 @@ import { deriveIndexableBlogEntries } from "./_blog.js";
 import { artistPageIndexable } from "./_artist-indexability.js";
 import { deriveOnsaleCalendar } from "./_onsale-calendar.js";
 import { deriveIndexablePriceGuides } from "./_price-guides.js";
+import { deriveIndexablePresalePages } from "./_presales.js";
 import { eventIndexingPilotFor } from "./[[path]].js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
@@ -256,6 +257,14 @@ async function buildSegments(env, only = SITEMAP_SEGMENTS, origin = "") {
         path: guide.path,
         lastmod: newestDate(lastmodOf(guide.lastmod), artistLastmod.get(guide.artistSlug))
       });
+    }
+    // Presale pages, the same way: only while a presale is near
+    // (functions/_presales.js), and only under an indexable artist page.
+    const presalePages = Array.isArray(events)
+      ? deriveIndexablePresalePages(events, indexableArtists.map((artist) => artist.slug))
+      : [];
+    for (const page of presalePages) {
+      artistEntries.push({ path: page.path, lastmod: artistLastmod.get(page.slug) });
     }
   }
   // Artist-city landing pages, gated on the same derivation the router uses so

@@ -74,6 +74,16 @@ export const PRICE_GUIDE_MIN_SHOWS = 6;
 export const PRICE_GUIDE_MIN_CITIES = 2;
 export const PRICE_GUIDE_MIN_SNAPSHOT_READY_SHOWS = 3;
 
+// An artist presale page (/artists/<artist>/presale) answers "<artist>
+// presale" and "when do <artist> tickets go on sale". It only says something
+// the artist page and /on-sale do not while Ticketmaster lists at least one
+// named presale window for an upcoming date that is open now or opens within
+// PRESALE_PAGE_INDEX_DAYS. Outside that it renders noindex,follow until the
+// next tour's presales are listed — see docs/ROUTE_INDEXABILITY_POLICY.md
+// § Presale page.
+export const PRESALE_PAGE_INDEX_DAYS = 30;
+export const PRESALE_PAGE_MIN_WINDOWS = 1;
+
 // Comparison data. Every aggregation route (city, venue, artist-city, price
 // guide) promises a comparison of ticket options, and a listed-price
 // comparison is only ever same-event (docs/PROVIDER_DATA_POLICY.md). So such a
@@ -302,7 +312,8 @@ export const EXCLUSION_REASONS = Object.freeze({
   BELOW_PRICE_COVERAGE_THRESHOLD: "below_price_coverage_threshold",
   NO_PRICE_COMPARISON: "no_price_comparison",
   BELOW_VENUE_THRESHOLD: "below_venue_threshold",
-  DUPLICATES_ARTIST_PAGE: "duplicates_artist_page"
+  DUPLICATES_ARTIST_PAGE: "duplicates_artist_page",
+  NO_PRESALE_WINDOW: "no_presale_window"
 });
 
 /**
@@ -340,6 +351,20 @@ export function onsaleCalendarGate(calendar) {
   if (!calendar?.showCount) reasons.push(EXCLUSION_REASONS.NO_UPCOMING_SHOWS);
   else if (calendar.showCount < ONSALE_CALENDAR_MIN_SHOWS) reasons.push(EXCLUSION_REASONS.BELOW_SHOW_THRESHOLD);
   if ((calendar?.artistCount || 0) < ONSALE_CALENDAR_MIN_ARTISTS) reasons.push(EXCLUSION_REASONS.BELOW_ARTIST_THRESHOLD);
+  return { indexable: reasons.length === 0, reasons };
+}
+
+/**
+ * Presale-page gate — the data-derived half. The caller applies the editorial
+ * half (the artist page itself indexable).
+ *
+ * @param {{ showCount: number, indexWindowCount: number }} view
+ * @returns {GateDecision}
+ */
+export function presalePageGate(view) {
+  const reasons = [];
+  if (!view?.showCount) reasons.push(EXCLUSION_REASONS.NO_UPCOMING_SHOWS);
+  if ((view?.indexWindowCount || 0) < PRESALE_PAGE_MIN_WINDOWS) reasons.push(EXCLUSION_REASONS.NO_PRESALE_WINDOW);
   return { indexable: reasons.length === 0, reasons };
 }
 

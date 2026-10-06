@@ -494,6 +494,29 @@ or lowest-date claim: a minimum across different events is not covered by any
 provider grant (`docs/PROVIDER_DATA_POLICY.md`). It carries no FAQ and emits no
 `MusicEvent`, `Offer` or `FAQPage` — the artist page owns the event nodes.
 
+### Artist presale page — `/artists/<artist>/presale`
+
+Answers "<artist> presale" and "when do <artist> tickets go on sale": the named
+presale windows Ticketmaster lists for each upcoming date (`presales`, written
+by the nightly field-sync; SAFE_PUBLISHING_RULES.md § presale windows), grouped
+where name, start and end are identical, plus the dates' public on-sale times.
+One URL per artist, never one per tour, so it carries from one tour to the
+next (`functions/_presales.js`).
+
+**Renders** for every catalog artist. With no open or upcoming window it says
+Ticketmaster lists none right now; the artist page and `/on-sale` link it only
+while a window is live, so the empty state is reached only by a direct visit.
+
+**Indexable when** the artist has ≥ 1 upcoming date and ≥ 1 presale window
+that is open now or opens within 30 days (`PRESALE_PAGE_INDEX_DAYS`,
+`PRESALE_PAGE_MIN_WINDOWS`, `presalePageGate`) — **and** the artist page itself
+is indexable. Outside that it renders `noindex,follow` and leaves the sitemap
+and `llms.txt` until the next tour's presales are listed. New exclusion code:
+`no_presale_window`.
+
+It prints no presale code and links to no ticket site. It emits a `WebPage`
+about the artist and no `MusicEvent`, `Offer` or `FAQPage`.
+
 ### Blog — `/blog`, `/blog/<slug>`, `/blog/tags/<tag>`
 
 Blog posts are authored editorial rather than derived from event data, so the

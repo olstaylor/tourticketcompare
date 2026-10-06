@@ -54,6 +54,13 @@ export function metroCity(city, country) {
   return METRO_CITY_ALIASES.get(`${raw.toLowerCase()}|${normalizeCountry(country).toLowerCase()}`) || raw;
 }
 
+// The slug a city had before suburb folding. Only for questions about the
+// place Ticketmaster named (did this artist play Docklands? which city do we
+// query?), never for routes.
+export function rawCitySlug(city, country) {
+  return slugify(`${String(city || "").trim()} ${normalizeCountry(country)}`);
+}
+
 export function citySlug(city, country) {
   return slugify(`${metroCity(city, country)} ${normalizeCountry(country)}`);
 }

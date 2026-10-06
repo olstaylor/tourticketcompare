@@ -31,7 +31,7 @@ import {
   venueGate,
   artistCityGate
 } from "../functions/_route-indexability.js";
-import { citySlug, deriveCities, metroCity, metroSlugRedirect } from "../functions/_cities.js";
+import { citySlug, deriveCities, metroCity, metroSlugRedirect, rawCitySlug } from "../functions/_cities.js";
 import { deriveArtistCities } from "../functions/_artist-cities.js";
 import { deriveVenues } from "../functions/_venues.js";
 
@@ -494,11 +494,25 @@ const priced = {
     suburbCity.status === 301 && suburbCity.location.endsWith("/cities/melbourne-australia"),
     "/cities/docklands-australia should 301 to /cities/melbourne-australia"
   );
-  const suburbArtistCity = await request(`/artists/${indexableSlugs[0]}/tickets/sydney-olympic-park-australia`);
-  assert(
-    suburbArtistCity.status === 301 && suburbArtistCity.location.endsWith(`/artists/${indexableSlugs[0]}/tickets/sydney-australia`),
-    "a suburb artist-city URL should 301 to the metro artist-city URL"
-  );
+  // An artist who played the suburb gets exactly one hop: to the metro page
+  // when it renders, otherwise to the artist hub (never metro -> hub).
+  const suburbPlayer = events.find((event) => event.city === "Sydney Olympic Park" && indexableSlugs.includes(event.artist_slug));
+  if (suburbPlayer) {
+    const hop = await request(`/artists/${suburbPlayer.artist_slug}/tickets/sydney-olympic-park-australia`);
+    assert(hop.status === 301, "a suburb artist-city URL the artist played should 301");
+    const target = new URL(hop.location).pathname;
+    assert(
+      target === `/artists/${suburbPlayer.artist_slug}/tickets/sydney-australia` || target === `/artists/${suburbPlayer.artist_slug}`,
+      "a suburb artist-city URL should 301 to the metro page or the artist hub"
+    );
+    const landed = await request(target);
+    assert(landed.status === 200, "the suburb redirect should land on a rendering page in one hop");
+  }
+  // An artist who never played the suburb gets a 404, not a redirect to a
+  // metro page they have no dates for.
+  const nonPlayer = indexableSlugs.find((slug) => !events.some((event) => event.artist_slug === slug && event.city === "Sydney Olympic Park"));
+  const strayAlias = await request(`/artists/${nonPlayer}/tickets/sydney-olympic-park-australia`);
+  assert(strayAlias.status === 404, "a suburb slug the artist never played should 404");
 }
 
 {
@@ -510,6 +524,7 @@ const priced = {
   assert(citySlug("Sydney Olympic Park", "Australia") === "sydney-australia", "suburb slug is the metro slug");
   assert(metroSlugRedirect("docklands-australia") === "melbourne-australia", "old suburb slug maps to the metro slug");
   assert(metroSlugRedirect("melbourne-australia") === "", "a metro slug is not redirected");
+  assert(rawCitySlug("Docklands", "Australia") === "docklands-australia", "raw slug keeps the suburb");
   const aus = [
     ev({ id: "aus-1", city: "Docklands", country: "Australia", venue: "Marvel Stadium", datetime_iso: futureA }),
     ev({ id: "aus-2", city: "West Melbourne", country: "Australia", venue: "Festival Hall Melbourne", datetime_iso: futureB })

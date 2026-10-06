@@ -194,9 +194,11 @@ function evaluateCandidate(event, artistName, candidate) {
 
 function decideOutcome({ storedUrl, storedVerified, storedCandidate, passing, catalogComplete }) {
   if (storedCandidate?.ok) return { action: storedVerified ? "none" : "verify", candidate: storedCandidate };
-  if (passing.length === 1) return { action: storedUrl ? "correct" : "add", candidate: passing[0] };
   if (passing.length > 1) return { action: "conflict", candidate: null };
+  // One passing listing in a partial catalog is not proof it is the only one:
+  // an unfetched page could hold a second (a conflict), so nothing is added.
   if (!catalogComplete) return { action: "none", candidate: null };
+  if (passing.length === 1) return { action: storedUrl ? "correct" : "add", candidate: passing[0] };
   if (storedUrl) return { action: storedVerified ? "unverify" : "clear", candidate: null };
   return { action: "none", candidate: null };
 }
@@ -319,8 +321,9 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
   const now = () => (options.now ? options.now() : Date.now());
   for (let page = 1; page <= MAX_PAGES; page += 1) {
     let response;
-    // One retry for a timed-out/failed request or a transient 429/5xx; a
-    // refusal (401/403/proxy 404) is never retried.
+    let payload;
+    // One retry for a timed-out/failed request (including a stalled or cut-off
+    // body) or a transient 429/5xx; a refusal (401/403/proxy 404) is never retried.
     for (let attempt = 1; attempt <= 2; attempt += 1) {
       if (options.maxApiCalls != null && state.apiCalls >= options.maxApiCalls) return { candidates, complete: false, stopReason: "api_call_limit" };
       if (options.deadline != null && now() >= options.deadline) return { candidates, complete: false, stopReason: "runtime_limit" };
@@ -328,8 +331,9 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
       if (wait) await new Promise((resolve) => setTimeout(resolve, wait));
       state.apiCalls += 1;
       const controller = new AbortController();
-      const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+      const timeout = setTimeout(() => controller.abort(), options.requestTimeoutMs ?? REQUEST_TIMEOUT_MS);
       let failure = "";
+      response = undefined;
       try {
         response = await fetchImpl(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), {
           headers: {
@@ -339,8 +343,10 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
           },
           signal: controller.signal
         });
+        // The body is read under the same timeout.
+        if (response.ok) payload = await response.json();
       } catch (error) {
-        failure = `request_failed:${clean(error?.message, 120)}`;
+        failure = response?.ok && !controller.signal.aborted ? "invalid_json" : `request_failed:${clean(error?.message, 120)}`;
       } finally { clearTimeout(timeout); }
       const transient = failure || response.status === 429 || response.status >= 500;
       if (!transient) break;
@@ -354,8 +360,6 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
       return { candidates, complete: false, authFailure: true, stopReason: `http_${response.status}` };
     }
     if (!response.ok) return { candidates, complete: false, stopReason: `http_${response.status}` };
-    let payload;
-    try { payload = await response.json(); } catch { return { candidates, complete: false, stopReason: "invalid_json" }; }
     const items = catalogItems(payload);
     if (!items) return { candidates, complete: false, stopReason: "missing_items" };
     for (const item of items) candidates.push(...productCandidates(config, item, programId));
@@ -575,6 +579,23 @@ async function selfTest() {
   let calls401 = 0;
   await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => { calls401 += 1; return new Response("", { status: 401 }); });
   assert.equal(calls401, 1);
+  // A body that stalls past the timeout, or arrives cut off, is retried too.
+  let stallCalls = 0;
+  const stalled = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0, requestTimeoutMs: 20 }, { apiCalls: 0 }, tnEnv, async (_url, init) => {
+    stallCalls += 1;
+    if (stallCalls > 1) return pageOf(1, 1);
+    // Without the request timeout the body fails late, after 500 ms, instead.
+    return { ok: true, status: 200, json: () => new Promise((_resolve, reject) => {
+      init.signal.addEventListener("abort", () => reject(new Error("This operation was aborted")));
+      setTimeout(() => reject(new SyntaxError("stalled body")), 500);
+    }) };
+  });
+  assert.deepEqual([stalled.complete, stallCalls], [true, 2]);
+  let cutCalls = 0;
+  const cut = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => (++cutCalls === 1 ? new Response('{"Items": [', { status: 200 }) : pageOf(1, 1)));
+  assert.deepEqual([cut.complete, cutCalls], [true, 2]);
+  const cutTwice = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => new Response('{"Items": [', { status: 200 }));
+  assert.deepEqual([cutTwice.complete, cutTwice.stopReason], [false, "invalid_json"]);
   // Catalogs past the old 5-page cap now complete (7 pages of 100).
   let page = 0;
   const big = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => { page += 1; return pageOf(page < 7 ? 100 : 40, 640); });
@@ -702,6 +723,14 @@ async function selfTest() {
     async fetchCatalog() { return { candidates: [], complete: false, stopReason: "api_call_limit" }; }
   });
   assert.deepEqual(notes(capped), { n5: "not checked: catalog incomplete (api_call_limit)" });
+  // One passing listing in a partial catalog is not added: a later page could
+  // hold a second one.
+  assert.equal(decideOutcome({ storedUrl: "", storedVerified: false, storedCandidate: null, passing: [candidate], catalogComplete: false }).action, "none");
+  const partial = await run({ provider: "ticketnetwork", artist: "", limit: null, maxApiCalls: null, delayMs: 0, apply: false, json: false }, {
+    now: new Date("2026-09-27T00:00:00Z"), data: nightData([night("n5", 5)]),
+    async fetchCatalog() { return { candidates: [{ ...tn, searchableText: "Stadium Act Accor Stadium Sydney Olympic Park 2027-03-05T17:00:00" }], complete: false, stopReason: "runtime_limit" }; }
+  });
+  assert.deepEqual([actions(partial), notes(partial)], [{ n5: "none" }, { n5: "not checked: catalog incomplete (runtime_limit)" }]);
   // 11. The log renders one outcome-table row per result, cells escaped.
   const log = renderLog({ ...unlisted, results: [{ ...unlisted.results[0], artist: "A | B" }] }, "2026-09-27T00:00:00.000Z");
   assert.match(log, /^# TicketNetwork event sync log$/m);
@@ -744,7 +773,7 @@ async function selfTest() {
   // A row logged under an old display name is still the artist's, by id.
   const renamed = renderLog({ ...unlisted, results: [row("old", "Old Stage Name", "no qualifying listing (complete catalog checked)"), row("o1", "Other Act", "-")] });
   assert.deepEqual(mergeOutcomeRows(renamed, [], new Set(["old"])).rows.map((line) => line.slice(2).split(" | ")[0]), ["o1"]);
-  return 81;
+  return 86;
 }
 
 async function main() {

@@ -634,5 +634,58 @@
     "ticketmaster_discovery_event_id": "G5vYZ_K6lHlxQ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-flans-2027-grand-prairie-z7r9jz1aaeaoe",
+    "artist_slug": "flans",
+    "artist_name": "Flans",
+    "event_name": "Flans",
+    "city": "Grand Prairie",
+    "country": "United States Of America",
+    "venue": "Texas Trust CU Theatre",
+    "datetime_iso": "2027-05-29T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeaoe",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaoe",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaoe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeaoe",
+        "discovery_event_id": "Z7r9jZ1AAeaoe",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaoe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeaoe",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

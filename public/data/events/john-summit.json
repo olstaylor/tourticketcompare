@@ -1832,5 +1832,221 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8292934",
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-brooklyn-tickets-11-29-2026/event/107670646",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8292934/John-Summit-tickets-Sun-Nov-29-2026-Barclays-Center"
+  },
+  {
+    "id": "tm-john-summit-2027-warsaw-z698xzqpz16eva44jn",
+    "artist_slug": "john-summit",
+    "artist_name": "John Summit",
+    "event_name": "JOHN SUMMIT – EUROPE CTRL ESCAPE ARENA TOUR",
+    "city": "Warsaw",
+    "country": "Poland",
+    "venue": "COS Torwar",
+    "datetime_iso": "2027-02-11T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2045555723",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/john-summit--europe-ctrl-escape-arena-tour-tickets/2045555723?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/john-summit--europe-ctrl-escape-arena-tour-tickets/2045555723?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2045555723",
+        "discovery_event_id": "Z698xZQpZ16evA44jN",
+        "url": "https://www.ticketmaster.pl/event/john-summit--europe-ctrl-escape-arena-tour-tickets/2045555723?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ16evA44jN",
+    "timezone": "Europe/Warsaw",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T10:00:00Z"
+  },
+  {
+    "id": "tm-john-summit-2027-forest-brussels-z698xzg2z1kfkv_0g",
+    "artist_slug": "john-summit",
+    "artist_name": "John Summit",
+    "event_name": "JOHN SUMMIT – EUROPE CTRL ESCAPE ARENA TOUR",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2027-02-12T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "206059935",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/john-summit--europe-ctrl-escape-arena-tour-tickets/206059935",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/john-summit--europe-ctrl-escape-arena-tour-tickets/206059935",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "206059935",
+        "discovery_event_id": "Z698xZG2Z1kFkv_0g",
+        "url": "https://www.ticketmaster.be/event/john-summit--europe-ctrl-escape-arena-tour-tickets/206059935",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1kFkv_0g",
+    "timezone": "Europe/Brussels",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T10:00:00Z"
+  },
+  {
+    "id": "tm-john-summit-2027-amsterdam-z698xzbpz16vu0fx-w",
+    "artist_slug": "john-summit",
+    "artist_name": "John Summit",
+    "event_name": "JOHN SUMMIT – EUROPE CTRL ESCAPE ARENA TOUR",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-02-13T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1364222872",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/john-summit--europe-ctrl-escape-arena-tour-tickets/1364222872?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/john-summit--europe-ctrl-escape-arena-tour-tickets/1364222872?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1364222872",
+        "discovery_event_id": "Z698xZbpZ16vu0Fx-w",
+        "url": "https://www.ticketmaster.nl/event/john-summit--europe-ctrl-escape-arena-tour-tickets/1364222872?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vu0Fx-w",
+    "timezone": "Europe/Amsterdam",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T10:00:00Z"
+  },
+  {
+    "id": "tm-john-summit-2027-london-1agzk4egkdwrmjf",
+    "artist_slug": "john-summit",
+    "artist_name": "John Summit",
+    "event_name": "JOHN SUMMIT - EUROPE CTRL ESCAPE ARENA TOUR",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-02-27T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006542F27AE994",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/john-summit-europe-ctrl-escape-arena-london-27-02-2027/event/35006542F27AE994",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/john-summit-europe-ctrl-escape-arena-london-27-02-2027/event/35006542F27AE994",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006542F27AE994",
+        "discovery_event_id": "1AgZk4eGkdwrmJf",
+        "url": "https://www.ticketmaster.co.uk/john-summit-europe-ctrl-escape-arena-london-27-02-2027/event/35006542F27AE994",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk4eGkdwrmJf",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T11:00:00Z"
   }
 ]

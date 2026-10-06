@@ -1647,5 +1647,59 @@
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-09T08:00:00Z"
+  },
+  {
+    "id": "tm-pink-martini-2027-london-g5vhz_fqbbwez",
+    "artist_slug": "pink-martini",
+    "artist_name": "Pink Martini",
+    "event_name": "Pink Martini",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Royal Albert Hall",
+    "datetime_iso": "2027-07-02T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00654698EB20B8",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/pink-martini-london-02-07-2027/event/1F00654698EB20B8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/pink-martini-london-02-07-2027/event/1F00654698EB20B8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00654698EB20B8",
+        "discovery_event_id": "G5vHZ_fQbBwez",
+        "url": "https://www.ticketmaster.co.uk/pink-martini-london-02-07-2027/event/1F00654698EB20B8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_fQbBwez",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T08:00:00Z"
   }
 ]

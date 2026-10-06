@@ -22,7 +22,7 @@ import { attachApprovedMarketplacePrices, APPROVED_MARKETPLACE_PRICE_LANES } fro
 import { deriveEventPriceLow, fetchEventPriceLowSeries, PRICE_LOW_WINDOW_DAYS } from "./_event-price-low.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
 import { deriveVenues, findVenue } from "./_venues.js";
-import { citySlug, deriveCities, findCity, normalizeCountry } from "./_cities.js";
+import { citySlug, deriveCities, findCity, metroSlugRedirect, normalizeCountry } from "./_cities.js";
 import { deriveArtistCities, deriveIndexableArtistCities, findArtistCity, artistCityFootprint } from "./_artist-cities.js";
 import { deriveCityDatePrices } from "./_artist-city-prices.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
@@ -608,6 +608,10 @@ async function routeForPath(pathname, env) {
     }
     const cityMatch = path.match(/^\/cities\/([a-z0-9-]+)$/);
     if (!cityMatch) return null;
+    // A suburb Ticketmaster used as the city (Docklands, Burswood) now folds
+    // into its metro page; its old URL 301s there (metroCity in _cities.js).
+    const metroSlug = metroSlugRedirect(cityMatch[1]);
+    if (metroSlug) return { type: "redirect", location: `/cities/${metroSlug}` };
     const city = findCity(cityEvents, cityMatch[1]);
     if (!city) {
       // A city we have tracked before but with nothing upcoming now: a
@@ -822,6 +826,8 @@ async function routeForPath(pathname, env) {
   if (artistCityMatch) {
     const artist = findArtist(catalog, artistCityMatch[1]);
     if (!artist) return null;
+    const metroSlug = metroSlugRedirect(artistCityMatch[2]);
+    if (metroSlug) return { type: "redirect", location: `/artists/${artist.slug}/tickets/${metroSlug}` };
     const cityEvents = await loadEvents(env);
     const artistMetaRecord = artistsMeta.find((m) => slugify(m.slug) === artistCityMatch[1]) || {};
     const artistIndexable = artistMetaRecord.indexing_status === "indexable_with_substantial_content";

@@ -25,7 +25,7 @@
 //     renders, stays linked, and is noindex,follow — it is the artist page
 //     filtered to one show card, so it earns navigation but not a listing.
 
-import { slugify, normalizeCountry, citySlug } from "./_cities.js";
+import { slugify, normalizeCountry, citySlug, metroCity } from "./_cities.js";
 import { venueSlug } from "./_venues.js";
 import { artistCityGate, eventPriceComparable, eventPublishable, eventStatusPublishable } from "./_route-indexability.js";
 
@@ -108,8 +108,9 @@ export function deriveArtistCities(events, artistSlug, options = {}) {
   for (const event of Array.isArray(events) ? events : []) {
     if (!event || typeof event !== "object") continue;
     if (slugify(event.artist_slug) !== target) continue;
-    const city = String(event.city || "").trim();
+    const rawCity = String(event.city || "").trim();
     const country = normalizeCountry(event.country);
+    const city = metroCity(rawCity, country);
     const venue = String(event.venue || "").trim();
     const iso = String(event.dateTimeISO || event.datetime_iso || "").trim();
     const ts = Date.parse(iso);
@@ -121,7 +122,7 @@ export function deriveArtistCities(events, artistSlug, options = {}) {
     groups.get(slug).shows.push({
       id: String(event.id || "").trim(),
       venue,
-      venue_slug: venueSlug(venue, city),
+      venue_slug: venueSlug(venue, rawCity),
       datetime_iso: iso,
       timezone: String(event.timezone || "").trim(),
       ts,

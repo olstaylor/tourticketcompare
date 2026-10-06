@@ -31,7 +31,8 @@ import {
   venueGate,
   artistCityGate
 } from "../functions/_route-indexability.js";
-import { deriveCities } from "../functions/_cities.js";
+import { citySlug, deriveCities, metroCity, metroSlugRedirect } from "../functions/_cities.js";
+import { deriveArtistCities } from "../functions/_artist-cities.js";
 import { deriveVenues } from "../functions/_venues.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -485,6 +486,39 @@ const priced = {
   // speculative redirect for arbitrary slugs.
   const unknown = await request(`/artists/${indexableSlugs[0]}/tickets/no-such-city-anywhere-xyz`);
   assert(unknown.status === 404, "an unknown artist-city slug must 404 rather than redirect");
+
+  // A Ticketmaster suburb city (Docklands) folds into its metro: the old city
+  // and artist-city URLs 301 to the metro slug.
+  const suburbCity = await request("/cities/docklands-australia");
+  assert(
+    suburbCity.status === 301 && suburbCity.location.endsWith("/cities/melbourne-australia"),
+    "/cities/docklands-australia should 301 to /cities/melbourne-australia"
+  );
+  const suburbArtistCity = await request(`/artists/${indexableSlugs[0]}/tickets/sydney-olympic-park-australia`);
+  assert(
+    suburbArtistCity.status === 301 && suburbArtistCity.location.endsWith(`/artists/${indexableSlugs[0]}/tickets/sydney-australia`),
+    "a suburb artist-city URL should 301 to the metro artist-city URL"
+  );
+}
+
+{
+  // Suburb-to-metro folding is grouping only: the venue slug keeps the city
+  // Ticketmaster gave, and an unlisted city or another country is untouched.
+  assert(metroCity("Docklands", "Australia") === "Melbourne", "Docklands folds into Melbourne");
+  assert(metroCity("Burswood", "Australia") === "Perth", "Burswood folds into Perth");
+  assert(metroCity("Milton", "United States") === "Milton", "a same-named suburb abroad is not folded");
+  assert(citySlug("Sydney Olympic Park", "Australia") === "sydney-australia", "suburb slug is the metro slug");
+  assert(metroSlugRedirect("docklands-australia") === "melbourne-australia", "old suburb slug maps to the metro slug");
+  assert(metroSlugRedirect("melbourne-australia") === "", "a metro slug is not redirected");
+  const aus = [
+    ev({ id: "aus-1", city: "Docklands", country: "Australia", venue: "Marvel Stadium", datetime_iso: futureA }),
+    ev({ id: "aus-2", city: "West Melbourne", country: "Australia", venue: "Festival Hall Melbourne", datetime_iso: futureB })
+  ];
+  const melbourne = deriveCities(aus, opts).find((city) => city.slug === "melbourne-australia");
+  assert(melbourne && melbourne.city === "Melbourne" && melbourne.showCount === 2, "suburb shows group under the metro city page");
+  assert(melbourne.venueSlugs.length === 2, "venue slugs stay distinct per venue");
+  const artistMelbourne = deriveArtistCities(aus, "artist-one", opts);
+  assert(artistMelbourne.length === 1 && artistMelbourne[0].slug === "melbourne-australia" && artistMelbourne[0].label === "Melbourne", "artist-city groups suburbs under the metro");
 }
 
 console.log(`route-indexability: ${passed} assertions passed`);

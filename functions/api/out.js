@@ -1456,6 +1456,76 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-carly-rae-jepsen",
     redirectUrl: "https://seatgeek.com/carly-rae-jepsen-tickets",
     verified: true
+  },
+  "the-neighbourhood:ticketmaster": {
+    artistSlug: "the-neighbourhood",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-neighbourhood",
+    redirectUrl: "https://www.ticketmaster.com/the-neighbourhood-tickets/artist/2164718",
+    verified: true
+  },
+  "the-neighbourhood:seatgeek": {
+    artistSlug: "the-neighbourhood",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-neighbourhood",
+    redirectUrl: "https://seatgeek.com/the-neighbourhood-tickets",
+    verified: true
+  },
+  "staind:ticketmaster": {
+    artistSlug: "staind",
+    provider: "ticketmaster",
+    linkId: "tm-artist-staind",
+    redirectUrl: "https://www.ticketmaster.com/staind-tickets/artist/717721",
+    verified: true
+  },
+  "staind:seatgeek": {
+    artistSlug: "staind",
+    provider: "seatgeek",
+    linkId: "sg-artist-staind",
+    redirectUrl: "https://seatgeek.com/staind-tickets",
+    verified: true
+  },
+  "dylan-gossett:ticketmaster": {
+    artistSlug: "dylan-gossett",
+    provider: "ticketmaster",
+    linkId: "tm-artist-dylan-gossett",
+    redirectUrl: "https://www.ticketmaster.com/dylan-gossett-tickets/artist/3086445",
+    verified: true
+  },
+  "dylan-gossett:seatgeek": {
+    artistSlug: "dylan-gossett",
+    provider: "seatgeek",
+    linkId: "sg-artist-dylan-gossett",
+    redirectUrl: "https://seatgeek.com/dylan-gossett-tickets",
+    verified: true
+  },
+  "flans:ticketmaster": {
+    artistSlug: "flans",
+    provider: "ticketmaster",
+    linkId: "tm-artist-flans",
+    redirectUrl: "https://www.ticketmaster.com/flans-tickets/artist/2046401",
+    verified: true
+  },
+  "flans:seatgeek": {
+    artistSlug: "flans",
+    provider: "seatgeek",
+    linkId: "sg-artist-flans",
+    redirectUrl: "https://seatgeek.com/flans-tickets",
+    verified: true
+  },
+  "warren-zeiders:ticketmaster": {
+    artistSlug: "warren-zeiders",
+    provider: "ticketmaster",
+    linkId: "tm-artist-warren-zeiders",
+    redirectUrl: "https://www.ticketmaster.com/warren-zeiders-tickets/artist/2869566",
+    verified: true
+  },
+  "warren-zeiders:seatgeek": {
+    artistSlug: "warren-zeiders",
+    provider: "seatgeek",
+    linkId: "sg-artist-warren-zeiders",
+    redirectUrl: "https://seatgeek.com/warren-zeiders-tickets",
+    verified: true
   }
 };
 

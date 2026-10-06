@@ -1297,5 +1297,75 @@
     "last_verified_at": "2026-10-03",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-03"
+  },
+  {
+    "slug": "the-neighbourhood",
+    "name": "The Neighbourhood",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-06",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-06"
+  },
+  {
+    "slug": "staind",
+    "name": "Staind",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-06",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-06"
+  },
+  {
+    "slug": "dylan-gossett",
+    "name": "Dylan Gossett",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-06",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-06"
+  },
+  {
+    "slug": "flans",
+    "name": "Flans",
+    "short_description": "Ballads/Romantic act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-06",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-06"
+  },
+  {
+    "slug": "warren-zeiders",
+    "name": "Warren Zeiders",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-06",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-06"
   }
 ]

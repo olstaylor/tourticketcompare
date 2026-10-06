@@ -1,0 +1,638 @@
+[
+  {
+    "id": "tm-flans-2027-el-paso-vvg1yz_kdaklj7",
+    "artist_slug": "flans",
+    "artist_name": "Flans",
+    "event_name": "FLANS 40 - Sin Control Tour",
+    "city": "El Paso",
+    "country": "United States Of America",
+    "venue": "The Plaza Theatre Performing Arts Center",
+    "datetime_iso": "2027-02-13T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006530C54EB984",
+    "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-el-paso-texas-02-12-2027/event/0C006530C54EB984",
+    "seatgeek_url": "https://seatgeek.com/flans-tickets/el-paso-texas-the-plaza-theatre-performing-arts-center-2027-02-12-8-pm/concert/18612856",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-el-paso-texas-02-12-2027/event/0C006530C54EB984",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006530C54EB984",
+        "discovery_event_id": "vvG1YZ_KdAKlJ7",
+        "url": "https://www.ticketmaster.com/flans-40-sin-control-tour-el-paso-texas-02-12-2027/event/0C006530C54EB984",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_KdAKlJ7",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-flans-2027-tucson-1av0z_3gkbvrkjg",
+    "artist_slug": "flans",
+    "artist_name": "Flans",
+    "event_name": "FLANS 40 - Sin Control Tour",
+    "city": "Tucson",
+    "country": "United States Of America",
+    "venue": "Linda Ronstadt Music Hall",
+    "datetime_iso": "2027-02-14T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900652E81BD370C",
+    "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-tucson-arizona-02-13-2027/event/1900652E81BD370C",
+    "seatgeek_url": "https://seatgeek.com/flans-tickets/tucson-arizona-linda-ronstadt-music-hall-2027-02-13-8-pm/concert/18612650",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-tucson-arizona-02-13-2027/event/1900652E81BD370C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900652E81BD370C",
+        "discovery_event_id": "1Av0Z_3GkBvRKjG",
+        "url": "https://www.ticketmaster.com/flans-40-sin-control-tour-tucson-arizona-02-13-2027/event/1900652E81BD370C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_3GkBvRKjG",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-flans-2027-atlanta-vvg1zz_k5zjmuk",
+    "artist_slug": "flans",
+    "artist_name": "Flans",
+    "event_name": "FLANS 40 - Sin Control Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Cobb Energy Performing Arts Centre",
+    "datetime_iso": "2027-02-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006532C09AE346",
+    "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-atlanta-georgia-02-25-2027/event/0E006532C09AE346",
+    "seatgeek_url": "https://seatgeek.com/flans-tickets/atlanta-georgia-cobb-energy-performing-arts-centre-2027-02-25-8-pm/concert/18612632",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-atlanta-georgia-02-25-2027/event/0E006532C09AE346",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006532C09AE346",
+        "discovery_event_id": "vvG1zZ_K5ZJmuk",
+        "url": "https://www.ticketmaster.com/flans-40-sin-control-tour-atlanta-georgia-02-25-2027/event/0E006532C09AE346",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_K5ZJmuk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-flans-2027-charlotte-g5evz_3xf-_ej",
+    "artist_slug": "flans",
+    "artist_name": "Flans",
+    "event_name": "FLANS 40 - Sin Control Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Ovens Auditorium",
+    "datetime_iso": "2027-02-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00652F948599DC",
+    "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-charlotte-north-carolina-02-26-2027/event/2D00652F948599DC",
+    "seatgeek_url": "https://seatgeek.com/flans-tickets/charlotte-north-carolina-ovens-auditorium-2027-02-26-8-pm/concert/18612827",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-charlotte-north-carolina-02-26-2027/event/2D00652F948599DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00652F948599DC",
+        "discovery_event_id": "G5eVZ_3Xf-_Ej",
+        "url": "https://www.ticketmaster.com/flans-40-sin-control-tour-charlotte-north-carolina-02-26-2027/event/2D00652F948599DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_3Xf-_Ej",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-flans-2027-raleigh-g5evz_k_sqdn_",
+    "artist_slug": "flans",
+    "artist_name": "Flans",
+    "event_name": "FLANS 40 - Sin Control Tour",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Martin Marietta Center for the Performing Arts",
+    "datetime_iso": "2027-02-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006536736838D9",
+    "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-raleigh-north-carolina-02-27-2027/event/2D006536736838D9",
+    "seatgeek_url": "https://seatgeek.com/flans-tickets/raleigh-north-carolina-martin-marietta-center-for-the-performing-arts-memorial-auditorium-2027-02-27-8-pm/concert/18618099",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-raleigh-north-carolina-02-27-2027/event/2D006536736838D9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006536736838D9",
+        "discovery_event_id": "G5eVZ_K_SQdN_",
+        "url": "https://www.ticketmaster.com/flans-40-sin-control-tour-raleigh-north-carolina-02-27-2027/event/2D006536736838D9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_K_SQdN_",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-flans-2027-denver-g5vzz_kk90pao",
+    "artist_slug": "flans",
+    "artist_name": "Flans",
+    "event_name": "FLANS40 - Sin Control Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2027-03-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00653197916251",
+    "ticketmaster_url": "https://www.ticketmaster.com/flans40-sin-control-tour-denver-colorado-03-04-2027/event/1E00653197916251",
+    "seatgeek_url": "https://seatgeek.com/flans-tickets/denver-colorado-paramount-theatre-co-2027-03-04-8-pm/concert/18612819",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/flans40-sin-control-tour-denver-colorado-03-04-2027/event/1E00653197916251",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00653197916251",
+        "discovery_event_id": "G5vzZ_Kk90pao",
+        "url": "https://www.ticketmaster.com/flans40-sin-control-tour-denver-colorado-03-04-2027/event/1E00653197916251",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_Kk90pao",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-flans-2027-kansas-city-z7r9jz1aaevrv",
+    "artist_slug": "flans",
+    "artist_name": "Flans",
+    "event_name": "Flans",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "The Midland Theatre - MO",
+    "datetime_iso": "2027-03-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAevrv",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevrv",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevrv",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAevrv",
+        "discovery_event_id": "Z7r9jZ1AAevrv",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevrv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAevrv",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-flans-2027-san-diego-vvg1iz_3rf4hkp",
+    "artist_slug": "flans",
+    "artist_name": "Flans",
+    "event_name": "FLANS 40 - Sin Control Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "San Diego Civic Theatre",
+    "datetime_iso": "2027-03-13T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00652BC857C1A5",
+    "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-san-diego-california-03-12-2027/event/0A00652BC857C1A5",
+    "seatgeek_url": "https://seatgeek.com/flans-tickets/san-diego-california-san-diego-civic-theatre-2027-03-12-8-pm/concert/18612871",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-san-diego-california-03-12-2027/event/0A00652BC857C1A5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00652BC857C1A5",
+        "discovery_event_id": "vvG1IZ_3RF4HkP",
+        "url": "https://www.ticketmaster.com/flans-40-sin-control-tour-san-diego-california-03-12-2027/event/0A00652BC857C1A5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_3RF4HkP",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-flans-2027-los-angeles-vv1aazkfsgkdiitze",
+    "artist_slug": "flans",
+    "artist_name": "Flans",
+    "event_name": "FLANS 40 - Sin Control Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Orpheum Theatre",
+    "datetime_iso": "2027-03-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006533ECB3F002",
+    "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-los-angeles-california-03-14-2027/event/09006533ECB3F002",
+    "seatgeek_url": "https://seatgeek.com/flans-tickets/los-angeles-california-orpheum-theatre-los-angeles-2027-03-14-8-pm/concert/18612688",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-los-angeles-california-03-14-2027/event/09006533ECB3F002",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006533ECB3F002",
+        "discovery_event_id": "vv1AaZkfSGkdiiTZe",
+        "url": "https://www.ticketmaster.com/flans-40-sin-control-tour-los-angeles-california-03-14-2027/event/09006533ECB3F002",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZkfSGkdiiTZe",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-flans-2027-houston-g5diz_k6-kevr",
+    "artist_slug": "flans",
+    "artist_name": "Flans",
+    "event_name": "FLANS 40 - Sin Control Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Arena Theatre",
+    "datetime_iso": "2027-05-30T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006531E11A7D2F",
+    "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-houston-texas-05-29-2027/event/3A006531E11A7D2F",
+    "seatgeek_url": "https://seatgeek.com/flans-tickets/houston-texas-arena-theatre-houston-2027-05-29-8-pm/concert/18612653",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-houston-texas-05-29-2027/event/3A006531E11A7D2F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006531E11A7D2F",
+        "discovery_event_id": "G5dIZ_K6-kEVR",
+        "url": "https://www.ticketmaster.com/flans-40-sin-control-tour-houston-texas-05-29-2027/event/3A006531E11A7D2F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_K6-kEVR",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-flans-2027-mcallen-g5diz_3wgxkbw",
+    "artist_slug": "flans",
+    "artist_name": "Flans",
+    "event_name": "FLANS 40 - Sin Control Tour",
+    "city": "McAllen",
+    "country": "United States Of America",
+    "venue": "McAllen Performing Arts Center",
+    "datetime_iso": "2027-05-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00652F75893EB2",
+    "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-mcallen-texas-05-30-2027/event/3A00652F75893EB2",
+    "seatgeek_url": "https://seatgeek.com/flans-tickets/mcallen-texas-mcallen-performing-arts-center-2027-05-30-8-pm/concert/18613121",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-mcallen-texas-05-30-2027/event/3A00652F75893EB2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00652F75893EB2",
+        "discovery_event_id": "G5dIZ_3WgxKBw",
+        "url": "https://www.ticketmaster.com/flans-40-sin-control-tour-mcallen-texas-05-30-2027/event/3A00652F75893EB2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_3WgxKBw",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-flans-2027-san-jose-g5vyz_k6lhlxq",
+    "artist_slug": "flans",
+    "artist_name": "Flans",
+    "event_name": "Flans - Sin Control Tour 2027",
+    "city": "San Jose",
+    "country": "United States Of America",
+    "venue": "San Jose Civic",
+    "datetime_iso": "2027-06-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006531EBF2B89A",
+    "ticketmaster_url": "https://www.ticketmaster.com/flans-sin-control-tour-2027-san-jose-california-06-03-2027/event/1C006531EBF2B89A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/flans-sin-control-tour-2027-san-jose-california-06-03-2027/event/1C006531EBF2B89A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006531EBF2B89A",
+        "discovery_event_id": "G5vYZ_K6lHlxQ",
+        "url": "https://www.ticketmaster.com/flans-sin-control-tour-2027-san-jose-california-06-03-2027/event/1C006531EBF2B89A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_K6lHlxQ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

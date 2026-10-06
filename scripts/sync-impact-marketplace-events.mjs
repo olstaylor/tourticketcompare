@@ -479,6 +479,10 @@ async function run(options, deps = {}) {
     throw new Error(`${config.name} Impact catalog fetch was refused (${authFailureReason || "auth_failure"}); no writes were made${hint}`);
   }
   if (options.apply && results.some((row) => row.applied)) await fs.writeFile(EVENTS_PATH, `${JSON.stringify(events, null, 2)}\n`);
+  // Report in selection order, not the day's rotation order, so the audit log
+  // changes only when an outcome does.
+  const position = new Map(selected.map((item, index) => [item.event.id, index]));
+  results.sort((a, b) => position.get(a.event_id) - position.get(b.event_id));
   return {
     provider: config.slug, mode: options.apply ? "apply" : "dry-run", selected: selected.length, api_calls: state.apiCalls,
     changed: results.filter((row) => row.applied).length,
@@ -729,10 +733,18 @@ async function selfTest() {
   };
   assert.deepEqual(await order(0), ["Stadium Act", "Other Act"]);
   assert.deepEqual(await order(1), ["Other Act", "Stadium Act"]);
+  // Results (and so the log) keep selection order whatever the rotation, so
+  // a rotated night with unchanged outcomes renders the same table.
+  const resultOrder = async (key) => (await run({ provider: "ticketnetwork", artist: "", limit: null, maxApiCalls: null, delayMs: 0, rotationKey: key, apply: false, json: false }, {
+    now: new Date("2026-09-27T00:00:00Z"), data: twoArtists,
+    async fetchCatalog() { return { candidates: [], complete: true, stopReason: "" }; }
+  })).results.map((row) => row.event_id);
+  assert.deepEqual(await resultOrder(1), ["a1", "b1"]);
+  assert.deepEqual(await resultOrder(1), await resultOrder(0));
   // A row logged under an old display name is still the artist's, by id.
   const renamed = renderLog({ ...unlisted, results: [row("old", "Old Stage Name", "no qualifying listing (complete catalog checked)"), row("o1", "Other Act", "-")] });
   assert.deepEqual(mergeOutcomeRows(renamed, [], new Set(["old"])).rows.map((line) => line.slice(2).split(" | ")[0]), ["o1"]);
-  return 79;
+  return 81;
 }
 
 async function main() {

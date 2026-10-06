@@ -9,8 +9,8 @@
   // >>> homepage-proposition >>>
   const HOME_HEADLINE = "Compare ticket prices for the show you want.";
   const HOME_SUBCOPY =
-    "Choose an artist and date, see recent listed prices from ticket sites where available, then check the final total on the ticket site.";
-  const HOME_PRIMARY_CTA_LABEL = "Find a show";
+    "Choose an artist and date, see each ticket site's listed price where available, then check the final total on the ticket site.";
+  const HOME_PRIMARY_CTA_LABEL = "Compare a show";
   const HOME_PRIMARY_CTA_HREF = "/artists";
   const HOME_STEPS = [
     {
@@ -21,7 +21,7 @@
     },
     {
       title: "2. Compare ticket prices",
-      body: "See the current listed prices from ticket sites for that same date.",
+      body: "See each ticket site's listed price for that same date.",
       ctaLabel: "Compare ticket prices",
       href: "/compare-concert-ticket-prices"
     },

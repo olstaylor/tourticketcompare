@@ -10,8 +10,8 @@ let fallbackCatalog = { artists: [], tours: [], providers: [], ticket_links: [] 
 // >>> homepage-proposition >>>
 const HOME_HEADLINE = "Compare ticket prices for the show you want.";
 const HOME_SUBCOPY =
-  "Choose an artist and date, see recent listed prices from ticket sites where available, then check the final total on the ticket site.";
-const HOME_PRIMARY_CTA_LABEL = "Find a show";
+  "Choose an artist and date, see each ticket site's listed price where available, then check the final total on the ticket site.";
+const HOME_PRIMARY_CTA_LABEL = "Compare a show";
 const HOME_PRIMARY_CTA_HREF = "/artists";
 const HOME_STEPS = [
   {
@@ -22,7 +22,7 @@ const HOME_STEPS = [
   },
   {
     title: "2. Compare ticket prices",
-    body: "See the current listed prices from ticket sites for that same date.",
+    body: "See each ticket site's listed price for that same date.",
     ctaLabel: "Compare ticket prices",
     href: "/compare-concert-ticket-prices"
   },
@@ -43,7 +43,7 @@ const HOME_STEPS = [
 const ARTISTS_INDEX_LEAD = "Choose an artist, then pick the date you want to compare ticket prices for.";
 const ARTISTS_INDEX_NOTE = "Coverage varies by artist and region.";
 const HOW_IT_WORKS_LEAD =
-  "Compare ticket prices for the show you want: choose an artist and date, see recent listed prices from ticket sites where available, then check the final total on the ticket site. TourTicketCompare is independent and doesn't sell tickets.";
+  "Compare ticket prices for the show you want: choose an artist and date, see each ticket site's listed price where available, then check the final total on the ticket site. TourTicketCompare is independent and doesn't sell tickets.";
 // <<< site-proposition <<<
 
 const providerCopy = {
@@ -245,7 +245,7 @@ const routeMeta = {
   "/": {
     title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
     description:
-      "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where available, then check the total."
+      "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total."
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices by Site | TourTicketCompare",
@@ -1678,7 +1678,7 @@ function renderShowCardMeta(show) {
   }
   const localTime = showLocalTime(show.dateTimeISO, show.timezone);
   if (localTime) parts.push(document.createTextNode(`${localTime} local`));
-  const country = String(show.country || "").trim();
+  const country = displayCountry(show.country);
   if (country) parts.push(document.createTextNode(country));
   if (!parts.length) return null;
   const line = document.createElement("p");
@@ -1915,35 +1915,6 @@ function formatSnapshotTime(value) {
   }
 }
 
-// A snapshot older than this is still shown, but is labelled with its age.
-//
-// The display window (DEFAULT_FRESHNESS_HOURS in the snapshot writers) is 24h
-// so that a day of missed snapshot runs leaves the last known price on the card
-// instead of blanking the board. That resilience is only honest if a visitor
-// can tell a day-old price from a fresh one, which is what this threshold marks.
-// It is deliberately well inside the 24h window: the label should appear while
-// the price is still useful, not at the moment it is about to vanish.
-// Keep in sync with PRICE_STALE_AFTER_HOURS in functions/[[path]].js.
-const PRICE_STALE_AFTER_HOURS = 12;
-
-// "last checked 14 hours ago", or "" while the snapshot is still recent.
-// Relative age is what a reader can actually judge — an absolute timestamp
-// alone makes them do the arithmetic — so it supplements, never replaces, the
-// capture time already printed beside every price.
-// Keep in sync with snapshotAgeLabel in functions/[[path]].js.
-function snapshotAgeLabel(fetchedAt, now = Date.now()) {
-  const captured = Date.parse(String(fetchedAt || ""));
-  if (!Number.isFinite(captured)) return "";
-  const hours = (now - captured) / 3600000;
-  if (!(hours >= PRICE_STALE_AFTER_HOURS)) return "";
-  if (hours < 48) {
-    const whole = Math.round(hours);
-    return `last checked ${whole} hour${whole === 1 ? "" : "s"} ago`;
-  }
-  const days = Math.round(hours / 24);
-  return `last checked ${days} day${days === 1 ? "" : "s"} ago`;
-}
-
 function isValidIsoDateTime(value) {
   const input = String(value || "").trim();
   if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2})$/.test(input)) return false;
@@ -2035,9 +2006,33 @@ function renderProviderCtaButton(name, href, amount, analytics = {}) {
 // first, so naming a subset of them would read as a recommendation rather than
 // a description of the card. No link is emitted here — the provider buttons
 // above stay the card's only outbound links.
-// Keep in sync with PRICE_UNAVAILABLE_NOTE in functions/[[path]].js.
-const PRICE_UNAVAILABLE_NOTE =
-  "No listed-price snapshot is available for this date. Check current prices using the provider buttons above.";
+// Display name for a country. Keep in sync with COUNTRY_ALIASES /
+// normalizeCountry in functions/_cities.js; event records keep their source
+// spelling.
+const COUNTRY_DISPLAY_ALIASES = new Map([
+  ["us", "United States"],
+  ["usa", "United States"],
+  ["united states of america", "United States"],
+  ["uk", "United Kingdom"],
+  ["great britain", "United Kingdom"]
+]);
+function displayCountry(value) {
+  const raw = String(value || "").trim();
+  return COUNTRY_DISPLAY_ALIASES.get(raw.toLowerCase()) || raw;
+}
+
+// Price vocabulary: mirrors functions/_price-wording.js (this classic script
+// cannot import it). scripts/price-wording.test.mjs fails if they drift.
+const PRICE_DISCLOSURE =
+  "Prices are listed-price snapshots from each ticket site, checked at the time shown. They can change, and they aren't your final total: fees are added at checkout.";
+const CARD_PRICE_TAIL = "not the final total";
+const PRICE_UNAVAILABLE_NOTE = "No listed-price snapshot yet.";
+const PRICE_HISTORY_LABEL = "Show price history";
+
+// The lanes that supply listed-price snapshots. A card with no button on one
+// of them gets no "no price" note: nothing on it claims a price.
+// Keep in sync with LISTED_PRICE_PROVIDERS in functions/[[path]].js.
+const LISTED_PRICE_PROVIDER_SLUGS = new Set(["vivid-seats", "ticketnetwork", "stubhub-international"]);
 
 // Did this card's price lanes actually get queried? A priced response carries
 // one entry per approved lane (including the unavailable ones), while a board
@@ -2060,7 +2055,7 @@ function pricesWereChecked(show) {
 function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) {
-    if (!pricesChecked || !ctaSpecs.length) return null;
+    if (!pricesChecked || !ctaSpecs.some((spec) => LISTED_PRICE_PROVIDER_SLUGS.has(spec.provider))) return null;
     const emptyWrap = document.createElement("div");
     emptyWrap.className = "provider-cta-notes";
     text(emptyWrap, "p", PRICE_UNAVAILABLE_NOTE, "disclosure-note");
@@ -2068,19 +2063,23 @@ function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false) {
   }
   const wrap = document.createElement("div");
   wrap.className = "provider-cta-notes";
-  // Keep in sync with renderServerPriceNotes in functions/[[path]].js.
+  // Keep in sync with renderServerPriceNotes in functions/[[path]].js: one
+  // <time> and provider name per priced lane.
   const note = document.createElement("p");
   note.className = "disclosure-note";
-  note.append("Checked ");
-  priced.forEach((spec, index) => {
-    if (index) note.append(index === priced.length - 1 ? " and " : ", ");
+  const timeFor = (spec) => {
     const time = document.createElement("time");
     time.dateTime = String(spec.lane?.fetchedAt || "");
     time.title = spec.priceAsOf;
     time.textContent = relativeCheckAge(spec.lane?.fetchedAt);
-    note.append(time, ` (${spec.name})`);
+    return time;
+  };
+  note.append("Checked ");
+  priced.forEach((spec, index) => {
+    if (index) note.append(index === priced.length - 1 ? " and " : ", ");
+    note.append(timeFor(spec), ` (${spec.name})`);
   });
-  note.append(". Listed prices, not your final total: the site adds fees at checkout.");
+  note.append(` · ${CARD_PRICE_TAIL}`);
   wrap.append(note);
   return wrap;
 }
@@ -2100,10 +2099,11 @@ function relativeCheckAge(fetchedAt, now = Date.now()) {
 // Keep in sync with MONEY_DISCLOSURE_TEXT / renderMoneyDisclosureHtml in
 // functions/[[path]].js.
 const MONEY_DISCLOSURE_TEXT =
-  "sites listed first pay TourTicketCompare a commission when you buy through them; Ticketmaster doesn't. No fee is added.";
+  "Affiliate partners are listed before Ticketmaster. If you buy through an affiliate link, TourTicketCompare may earn a commission at no extra cost to you.";
 function renderMoneyDisclosure() {
   const note = document.createElement("p");
   note.className = "disclosure-note money-disclosure";
+  note.append(`${PRICE_DISCLOSURE} `);
   text(note, "strong", "How this site makes money:");
   note.append(` ${MONEY_DISCLOSURE_TEXT} `);
   const link = text(note, "a", "Affiliate disclosure", "text-link");
@@ -2219,7 +2219,7 @@ function renderPriceHistoryPanel(show, options = {}) {
   toggle.dataset.priceHistoryToggle = "";
   toggle.setAttribute("aria-expanded", "false");
   toggle.setAttribute("aria-controls", panelId);
-  toggle.textContent = "Show price snapshot history";
+  toggle.textContent = PRICE_HISTORY_LABEL;
   const panel = document.createElement("div");
   panel.className = "price-history-panel";
   panel.id = panelId;
@@ -2270,13 +2270,10 @@ function renderPriceHistoryContent(panel, wrap, data) {
 // One compact line above a card's provider buttons, only when at least one
 // button shows a price, saying what that number is. No site count: the buttons
 // are the count. Keep in sync with ctaCountLabel in functions/[[path]].js.
-// `priced` is how many of the buttons show a price. "On each" only when all
-// of them do: SeatGeek and Ticketmaster never carry one, so on a mixed card it
-// reads "where shown".
+// `priced` is how many of the buttons show a price.
 function showCtaCountLabel(count, priced = 0) {
   if (count < 1 || !priced) return "";
-  if (count === 1) return "Lowest listed price";
-  return priced >= count ? "Lowest listed price on each" : "Lowest listed price where shown";
+  return priced === 1 ? "Lowest listed price" : "Lowest listed prices";
 }
 
 function renderShowCard(show, options = {}) {
@@ -2465,7 +2462,7 @@ function renderRecentShowsList(name, pastShows) {
   text(
     block,
     "p",
-    `These ${name} dates have already taken place. They are shown as a reference while any newly announced run is verified.`,
+    "Already played, listed for reference.",
     "muted"
   );
   const list = document.createElement("ul");
@@ -2500,23 +2497,18 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
     wrap,
     "p",
     Array.isArray(pastShows) && pastShows.length
-      ? `There are no upcoming ${name} dates on file. The tracked dates have already taken place, and there's no way to say yet whether more are coming.`
-      : `There are no upcoming ${name} dates on file, and no way to say yet whether any are coming.`
+      ? `${name}'s recent dates have passed and no new ones are listed yet.`
+      : `No ${name} dates are listed yet.`
   );
-  text(
-    wrap,
-    "p",
-    `When the source lists a ${name} date, it appears here, with a ticket button once its link has passed the site's checks.`,
-    "muted"
-  );
+  text(wrap, "p", "New dates show up here once they're listed, and ticket buttons once their links are checked.", "muted");
   // Keep in sync with renderShowBoardEmptyStateHtml in functions/[[path]].js.
   const explainer = document.createElement("p");
   explainer.className = "muted";
-  explainer.append("An empty board is normal between tours, not a sign something is broken. ");
+  explainer.append("An empty page is normal between tours — ");
   const explainerLink = document.createElement("a");
   explainerLink.className = "text-link";
   explainerLink.href = EMPTY_BOARD_EXPLAINER_PATH;
-  explainerLink.textContent = "Here's why";
+  explainerLink.textContent = "here's why";
   explainer.append(explainerLink, ".");
   wrap.append(explainer);
   const recent = renderRecentShowsList(name, pastShows);
@@ -4530,12 +4522,12 @@ document.addEventListener("click", async (event) => {
   if (expanded) {
     toggle.setAttribute("aria-expanded", "false");
     panel.hidden = true;
-    toggle.textContent = "Show price snapshot history";
+    toggle.textContent = PRICE_HISTORY_LABEL;
     return;
   }
   toggle.setAttribute("aria-expanded", "true");
   panel.hidden = false;
-  toggle.textContent = "Hide price snapshot history";
+  toggle.textContent = "Hide price history";
   // Event expansion: the only in-card disclosure on the board, so this is the
   // "did the user open a date's detail" signal. Reported once per open.
   sendAnalytics("event_expand", {

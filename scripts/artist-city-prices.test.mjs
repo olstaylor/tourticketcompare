@@ -367,7 +367,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(body.includes("$182"), "the first date's own lowest listed price is shown");
   assert(body.includes("$240"), "the second date's own lowest listed price is shown");
   assert(body.includes("Vivid Seats") && body.includes("TicketNetwork"), "each figure names the provider offering it");
-  assert(/captured|UTC/.test(body), "each figure carries its capture time");
+  assert(/<time datetime="[^"]+" title="[^"]*UTC">Checked [^<]+<\/time>/.test(page.main), "each figure carries its capture time (relative, with the UTC time on the element)");
 
   assert(
     !/\bfrom \$\d/i.test(body) && !/cheapest date/i.test(body) && !/lowest in [A-Z]/.test(body),
@@ -462,7 +462,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     !/[$£€]\s?\d/.test(page.description),
     "no live figure appears in the meta description, which is also the CollectionPage JSON-LD description"
   );
-  assert(/current listed ticket prices/i.test(page.description), "the description says what the page compares");
+  assert(/listed ticket prices/i.test(page.description), "the description says what the page compares");
   assert(page.description.length <= 160, `the description stays within budget (was ${page.description.length})`);
 
   // Schema is untouched by this feature.
@@ -555,7 +555,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   // currency AND capture time; the event date is not the capture time, so a
   // row showing "Nov 4, 2026: $310" and nothing else would be unattributed.
   assert(
-    /: \$182, Vivid Seats \(snapshot 9 Aug 2026, 09:00 UTC\)/.test(body),
+    /: \$182, Vivid Seats \(checked 9 Aug 2026, 09:00 UTC\)/.test(body),
     "a city row carries the snapshot capture time beside the price, not just the event date"
   );
   // Counted rather than pattern-matched per row: what must hold is that the
@@ -563,7 +563,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   // the assertion.
   const cityList = body.slice(body.indexOf("Dates by city"), body.indexOf("Related guides"));
   const priced = [...cityList.matchAll(/: \$[\d.,]+, /g)].length;
-  const stamped = [...cityList.matchAll(/\(snapshot [^)]*UTC\)/g)].length;
+  const stamped = [...cityList.matchAll(/\(checked [^)]*UTC\)/g)].length;
   assert(priced >= 2, `more than one city row carries a price (was ${priced})`);
   assert(priced === stamped, `every priced city row carries a capture time (${priced} priced, ${stamped} stamped)`);
 }

@@ -137,7 +137,7 @@ assert(!/ourselves|we've followed/i.test(emptyCopy.next), "the next-step copy mu
 assertCopySafe(emptyCopy.body, "empty body");
 assertCopySafe(emptyCopy.next, "empty next-step");
 assert(
-  artistEmptyBoardCopy({ name: "Post Malone" }, { pastShowCount: 3 }).body.includes("already taken place"),
+  artistEmptyBoardCopy({ name: "Post Malone" }, { pastShowCount: 3 }).body.includes("recent dates have passed"),
   "an empty board with past dates should acknowledge them"
 );
 

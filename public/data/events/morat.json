@@ -943,5 +943,58 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977748/Morat-tickets-Sat-Apr-3-2027-EagleBank-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977748"
+  },
+  {
+    "id": "tm-morat-2026-pamplona-iruna-z698xz2qz16voojza6",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "event_name": "Morat",
+    "city": "Pamplona/Iruña",
+    "country": "Spain",
+    "venue": "Navarra Arena",
+    "datetime_iso": "2026-10-21T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1811980147",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/morat-tickets/1811980147?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/morat-tickets/1811980147?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1811980147",
+        "discovery_event_id": "Z698xZ2qZ16vOoJZA6",
+        "url": "https://www.ticketmaster.es/event/morat-tickets/1811980147?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vOoJZA6",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
   }
 ]

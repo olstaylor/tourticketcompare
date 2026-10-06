@@ -2737,5 +2737,59 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAef4t",
     "timezone": "America/Chicago",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-the-red-clay-strays-2027-los-angeles-z7r9jz1aaek0t",
+    "artist_slug": "the-red-clay-strays",
+    "artist_name": "The Red Clay Strays",
+    "event_name": "The Red Clay Strays w/ St. Paul and the Broken Bones",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Greek Theatre-Los Angeles",
+    "datetime_iso": "2027-08-18T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeK0t",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeK0t",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeK0t",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeK0t",
+        "discovery_event_id": "Z7r9jZ1AAeK0t",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeK0t",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeK0t",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T17:00:00Z"
   }
 ]

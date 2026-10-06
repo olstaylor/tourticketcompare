@@ -1592,5 +1592,59 @@
     "public_onsale_at": "2026-10-08T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300795",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300795/Carly-Rae-Jepsen-tickets-Sat-May-29-2027-MTelus"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-toronto-1a8zk47gkd65fpy",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-05-26T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006544C72C8970",
+    "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-26-2027/event/10006544C72C8970",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-26-2027/event/10006544C72C8970",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006544C72C8970",
+        "discovery_event_id": "1A8Zk47Gkd65FPY",
+        "url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-26-2027/event/10006544C72C8970",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk47Gkd65FPY",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-08T14:00:00Z"
   }
 ]

@@ -1582,7 +1582,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvzfM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfM",
     "seatgeek_url": "https://seatgeek.com/valley-tickets/new-york-new-york-webster-hall-2027-03-17-8-pm/concert/18643169",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-new-york-webster-hall-3-17-2027/production/7600243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfM",
     "last_verified_at": null,
@@ -1604,11 +1604,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7600243,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-new-york-webster-hall-3-17-2027/production/7600243",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

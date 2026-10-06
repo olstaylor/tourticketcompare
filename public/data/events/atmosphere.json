@@ -715,7 +715,7 @@
     "ticketmaster_event_id": "1E006537CF070C9C",
     "ticketmaster_url": "https://www.ticketmaster.com/rise-up-select-presents-atmosphere-the-salt-lake-city-utah-01-30-2027/event/1E006537CF070C9C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/reggae-rise-up-tickets-salt-lake-city-the-depot---ut-1-30-2027/production/7604697",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rise-up-select-presents-atmosphere-the-salt-lake-city-utah-01-30-2027/event/1E006537CF070C9C",
     "last_verified_at": "2026-10-03",
@@ -737,11 +737,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7604697,
+        "url": "https://www.vividseats.com/reggae-rise-up-tickets-salt-lake-city-the-depot---ut-1-30-2027/production/7604697",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

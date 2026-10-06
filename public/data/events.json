@@ -101114,7 +101114,7 @@
         "event_id": 7555333,
         "url": "https://www.vividseats.com/the-warning-tickets-montreal-mtelus-5-9-2027/production/7555333",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -115680,7 +115680,7 @@
     "ticketmaster_event_id": "1E006537CF070C9C",
     "ticketmaster_url": "https://www.ticketmaster.com/rise-up-select-presents-atmosphere-the-salt-lake-city-utah-01-30-2027/event/1E006537CF070C9C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/reggae-rise-up-tickets-salt-lake-city-the-depot---ut-1-30-2027/production/7604697",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rise-up-select-presents-atmosphere-the-salt-lake-city-utah-01-30-2027/event/1E006537CF070C9C",
     "last_verified_at": "2026-10-03",
@@ -115702,11 +115702,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7604697,
+        "url": "https://www.vividseats.com/reggae-rise-up-tickets-salt-lake-city-the-depot---ut-1-30-2027/production/7604697",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118757,7 +118757,7 @@
     "ticketmaster_event_id": "1E0064C3D426F256",
     "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-salt-lake-city-utah-10-13-2026/event/1E0064C3D426F256",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-salt-lake-city-the-union-event-center---salt-lake-city-10-13-2026/production/7132419",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-salt-lake-city-utah-10-13-2026/event/1E0064C3D426F256",
     "last_verified_at": null,
@@ -118779,11 +118779,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7132419,
+        "url": "https://www.vividseats.com/malcolm-todd-tickets-salt-lake-city-the-union-event-center---salt-lake-city-10-13-2026/production/7132419",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -123889,7 +123889,7 @@
         "event_id": 7234800,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-sacramento-ace-of-spades-10-20-2026--concerts-rock/production/7234800",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -139072,7 +139072,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvzfM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfM",
     "seatgeek_url": "https://seatgeek.com/valley-tickets/new-york-new-york-webster-hall-2027-03-17-8-pm/concert/18643169",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-new-york-webster-hall-3-17-2027/production/7600243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfM",
     "last_verified_at": null,
@@ -139094,11 +139094,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7600243,
+        "url": "https://www.vividseats.com/valley-the-band-tickets-new-york-webster-hall-3-17-2027/production/7600243",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -150094,7 +150094,7 @@
     "ticketmaster_event_id": "0F00653CB447A3DC",
     "ticketmaster_url": "https://www.ticketmaster.com/the-red-clay-strays-bend-oregon-08-21-2027/event/0F00653CB447A3DC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-bend-hayden-homes-amphitheater-8-21-2027/production/7637082",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-bend-oregon-08-21-2027/event/0F00653CB447A3DC",
     "last_verified_at": null,
@@ -150116,11 +150116,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7637082,
+        "url": "https://www.vividseats.com/the-red-clay-strays-tickets-bend-hayden-homes-amphitheater-8-21-2027/production/7637082",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -153071,7 +153071,7 @@
         "event_id": 7622416,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-london-the-o2---london-10-1-2027--theater-opera/production/7622416",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -153132,7 +153132,7 @@
         "event_id": 7620595,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-manchester-co-op-live-10-5-2027--theater-opera/production/7620595",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -153278,7 +153278,7 @@
         "event_id": 7625132,
         "url": "https://www.vividseats.com/blondshell-tickets-asbury-park-stone-pony-3-23-2027/production/7625132",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -153331,7 +153331,7 @@
         "event_id": 7626132,
         "url": "https://www.vividseats.com/blondshell-tickets-madison-majestic-theatre---madison-5-15-2027/production/7626132",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -153559,7 +153559,7 @@
         "event_id": 7599601,
         "url": "https://www.vividseats.com/hilary-duff-tickets-sunrise-amerant-bank-arena-10-1-2027--concerts-pop/production/7599601",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -153790,7 +153790,7 @@
         "event_id": 7628085,
         "url": "https://www.vividseats.com/hilary-duff-tickets-anaheim-honda-center-11-21-2027/production/7628085",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -153920,7 +153920,7 @@
         "event_id": 7606823,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-3-31-2027--concerts-alternative/production/7606823",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -153997,7 +153997,7 @@
         "event_id": 7628968,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-4-1-2027/production/7628968",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -154074,7 +154074,7 @@
         "event_id": 7636984,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-4-2-2027/production/7636984",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -154281,7 +154281,7 @@
         "event_id": 7606724,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-dallas-the-bomb-factory-4-30-2027--concerts-alternative/production/7606724",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -154350,7 +154350,7 @@
         "event_id": 7606728,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-atlanta-fox-theatre---atlanta-5-3-2027--concerts-alternative/production/7606728",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -154419,7 +154419,7 @@
         "event_id": 7606732,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbus-palace-theatre-columbus-5-6-2027--concerts-alternative/production/7606732",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -154488,7 +154488,7 @@
         "event_id": 7606750,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-milwaukee-riverside-theater---wi-5-10-2027--concerts-alternative/production/7606750",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -154557,7 +154557,7 @@
         "event_id": 7631653,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-13-2027/production/7631653",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -154626,7 +154626,7 @@
         "event_id": 7606754,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-kansas-city-the-midland-theatre-5-17-2027--concerts-alternative/production/7606754",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -154748,7 +154748,7 @@
         "event_id": 7631927,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-21-2027--concerts-alternative/production/7631927",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -154817,7 +154817,7 @@
         "event_id": 7606811,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-morrison-red-rocks-amphitheatre-7-6-2027--concerts-alternative/production/7606811",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -154869,7 +154869,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvK18",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK18",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-philadelphia-union-transfer-2-13-2027--concerts-rock/production/7492605",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK18",
     "last_verified_at": null,
@@ -154891,11 +154891,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7492605,
-        "url": "https://www.vividseats.com/dinosaur-jr-tickets-philadelphia-union-transfer-2-13-2027--concerts-rock/production/7492605",
-        "verified": true,
-        "last_verified_at": "2026-10-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -154947,7 +154947,7 @@
         "event_id": 7612033,
         "url": "https://www.vividseats.com/needtobreathe-tickets-kansas-city-the-midland-theatre-2-23-2027/production/7612033",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -155016,7 +155016,7 @@
         "event_id": 7611938,
         "url": "https://www.vividseats.com/needtobreathe-tickets-lancaster-american-music-theatre-3-1-2027/production/7611938",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -155085,7 +155085,7 @@
         "event_id": 6687145,
         "url": "https://www.vividseats.com/foy-vance-tickets-san-francisco-great-american-music-hall-11-8-2026/production/6687145",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -155154,7 +155154,7 @@
         "event_id": 7559489,
         "url": "https://www.vividseats.com/the-lemonheads-tickets-tampa-orpheum-theatre---tampa-2-18-2027/production/7559489",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -155260,7 +155260,7 @@
         "event_id": 7626969,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-calgary-southern-alberta-jubilee-auditorium-3-14-2027/production/7626969",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -155472,7 +155472,7 @@
         "event_id": 7597884,
         "url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-jacksonville-florida-theatre-jacksonville-1-29-2027/production/7597884",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -155516,7 +155516,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv60Y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv60Y",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-buffalo-asbury-hall-at-babeville-buffalo-11-13-2026/production/7485227",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv60Y",
     "last_verified_at": null,
@@ -155538,11 +155538,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7485227,
+        "url": "https://www.vividseats.com/too-many-zooz-tickets-buffalo-asbury-hall-at-babeville-buffalo-11-13-2026/production/7485227",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -155785,7 +155785,7 @@
         "event_id": 7623577,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-5-8-2027--concerts-alternative/production/7623577",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -155854,7 +155854,7 @@
         "event_id": 7623517,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-morrison-red-rocks-amphitheatre-5-27-2027--concerts-alternative/production/7623517",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -155915,7 +155915,7 @@
         "event_id": 7625464,
         "url": "https://www.vividseats.com/daughtry-tickets-melbourne-king-center-for-the-performing-arts-1-25-2027--concerts-rock/production/7625464",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -155984,7 +155984,7 @@
         "event_id": 7624134,
         "url": "https://www.vividseats.com/daughtry-tickets-clearwater-ruth-eckerd-hall-1-28-2027/production/7624134",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -156053,7 +156053,7 @@
         "event_id": 7623701,
         "url": "https://www.vividseats.com/daughtry-tickets-austin-austin-city-limits-live-at-the-moody-theater-2-3-2027/production/7623701",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -156195,7 +156195,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe83k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-eau-claire-rcu-theatre---pablo-center-at-the-confluence-2-18-2027/production/7627197",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
     "last_verified_at": null,
@@ -156217,11 +156217,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7627197,
-        "url": "https://www.vividseats.com/daughtry-tickets-eau-claire-rcu-theatre---pablo-center-at-the-confluence-2-18-2027/production/7627197",
-        "verified": true,
-        "last_verified_at": "2026-10-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -156358,7 +156358,7 @@
         "event_id": 7624065,
         "url": "https://www.vividseats.com/daughtry-tickets-charlottesville-paramount-theater-charlottesville-3-3-2027/production/7624065",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-10-06",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -164466,7 +164466,7 @@
     "ticketmaster_event_id": "1100653AC64BB4F2",
     "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-vancouver-british-columbia-04-18-2027/event/1100653AC64BB4F2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-vancouver-orpheum-theatre---vancouver-4-18-2027--concerts-pop/production/7636675",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-vancouver-british-columbia-04-18-2027/event/1100653AC64BB4F2",
     "last_verified_at": null,
@@ -164488,11 +164488,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636675,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-vancouver-orpheum-theatre---vancouver-4-18-2027--concerts-pop/production/7636675",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -165758,7 +165758,7 @@
     "ticketmaster_event_id": "1000653A09F7D88D",
     "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-25-2027/event/1000653A09F7D88D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-toronto-history-toronto-5-25-2027--concerts-pop/production/7636677",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-25-2027/event/1000653A09F7D88D",
     "last_verified_at": null,
@@ -165780,11 +165780,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636677,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-toronto-history-toronto-5-25-2027--concerts-pop/production/7636677",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -165812,7 +165812,7 @@
     "ticketmaster_event_id": "3100653A1E1309BA",
     "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-ottawa-ontario-05-28-2027/event/3100653A1E1309BA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-ottawa-history-ottawa-5-28-2027--concerts-pop/production/7636679",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-ottawa-ontario-05-28-2027/event/3100653A1E1309BA",
     "last_verified_at": null,
@@ -165834,11 +165834,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7636679,
+        "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-ottawa-history-ottawa-5-28-2027--concerts-pop/production/7636679",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -166295,7 +166295,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvVvK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVvK",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-englewood-gothic-theatre-3-14-2027/production/7559507",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvVvK",
     "last_verified_at": null,
@@ -166317,11 +166317,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7559507,
+        "url": "https://www.vividseats.com/the-lemonheads-tickets-englewood-gothic-theatre-3-14-2027/production/7559507",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -166348,7 +166348,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAevqs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevqs",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-englewood-gothic-theatre-5-8-2027--concerts-pop/production/7593502",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevqs",
     "last_verified_at": null,
@@ -166370,11 +166370,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593502,
+        "url": "https://www.vividseats.com/haiden-henderson-tickets-englewood-gothic-theatre-5-8-2027--concerts-pop/production/7593502",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

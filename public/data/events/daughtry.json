@@ -1137,7 +1137,7 @@
     "city": "Napa",
     "country": "United States Of America",
     "venue": "Uptown Theatre Napa",
-    "datetime_iso": "2026-11-09T03:00:00Z",
+    "datetime_iso": "2026-11-09T04:00:00Z",
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "1C0064CAA6523297",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-napa-california-11-08-2026/event/1C0064CAA6523297",
@@ -1145,7 +1145,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-napa-uptown-theatre-napa-11-8-2026--concerts-rock/production/7170026",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-napa-california-11-08-2026/event/1C0064CAA6523297",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-06",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

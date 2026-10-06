@@ -3,6 +3,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
+import { presaleNameSafe } from '../../functions/_presales.js';
 
 export const SNAPSHOT_VERSION = 1;
 export const SNAPSHOT_MAX_AGE_MS = 6 * 60 * 60 * 1000;
@@ -25,7 +26,17 @@ export function snapshotFields(data) {
       start: { dateTime: raw(data.dates?.start?.dateTime), localDate: raw(data.dates?.start?.localDate), timeZone: raw(data.dates?.start?.timeZone) },
       status: { code: raw(data.dates?.status?.code) }
     },
-    sales: { public: { startDateTime: raw(data.sales?.public?.startDateTime) } },
+    sales: {
+      public: { startDateTime: raw(data.sales?.public?.startDateTime) },
+      // Named presale windows: name and times only. Descriptions and URLs are
+      // never kept, and a window whose name looks like it carries a code or a
+      // link is left out here, so the shared artifact never holds one either.
+      presales: Array.isArray(data.sales?.presales)
+        ? data.sales.presales
+          .filter((p) => presaleNameSafe(p?.name))
+          .map((p) => ({ name: raw(p?.name), startDateTime: raw(p?.startDateTime), endDateTime: raw(p?.endDateTime) }))
+        : null
+    },
     _embedded: {
       venues: list(data._embedded?.venues, (v) => ({ name: raw(v?.name), timezone: raw(v?.timezone), city: { name: raw(v?.city?.name) }, country: { name: raw(v?.country?.name) } })),
       attractions: list(data._embedded?.attractions, (a) => ({ name: raw(a?.name) }))

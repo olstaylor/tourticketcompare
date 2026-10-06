@@ -24,6 +24,7 @@ export const PAGE_TYPES = Object.freeze([
   "artist_city",
   "artist_tour",
   "artist_price_guide",
+  "artist_presale",
   "event",
   "cities_index",
   "city",
@@ -71,6 +72,8 @@ export function classifyPageType(pathname) {
     if (parts.length === 4 && parts[2] === "tickets") return "artist_city";
     // /artists/<artist>/ticket-prices is the artist price guide.
     if (parts.length === 3 && parts[2] === "ticket-prices") return "artist_price_guide";
+    // /artists/<artist>/presale is the artist presale page.
+    if (parts.length === 3 && parts[2] === "presale") return "artist_presale";
     if (parts.length === 3) return "artist_tour";
     return "other";
   }

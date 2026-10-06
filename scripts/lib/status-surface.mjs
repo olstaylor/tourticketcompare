@@ -26,7 +26,8 @@ export const SURFACE_TYPES = [
   "city",
   "venue",
   "artist-city",
-  "price-guide"
+  "price-guide",
+  "presale"
 ];
 
 const iso = (date) => new Date(date).toISOString().slice(0, 10);

@@ -54,6 +54,7 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { createSnapshotSweep, loadSnapshot, quotaHeaders, safeFetchError, reportSnapshotStats } from './lib/tm-event-snapshot.mjs';
 import { includePastFromEnv, skipInSweep, PAST_RECHECK_DAYS } from './lib/tm-sweep-window.mjs';
+import { normalizePresaleWindows } from '../functions/_presales.js';
 
 const DEFAULT_BASE = 'https://app.ticketmaster.com/discovery/v2';
 const DEFAULT_EVENTS_PATH = new URL('../public/data/events.json', import.meta.url);
@@ -431,7 +432,7 @@ function discoveryVenueTimezone(data) {
   return '';
 }
 
-function computeIntendedUpdates(event, remote) {
+function computeIntendedUpdates(event, remote, now = Date.now()) {
   const changes = [];
   const data = remote?.data;
   if (!data) return changes;
@@ -492,6 +493,27 @@ function computeIntendedUpdates(event, remote) {
       changes.push({ field: 'public_onsale_at', from: clean(event.public_onsale_at), to: null });
     } else if (code === 'offsale' && remoteOnsale && remoteOnsale !== clean(event.public_onsale_at)) {
       changes.push({ field: 'public_onsale_at', from: clean(event.public_onsale_at), to: remoteOnsale });
+    }
+  }
+
+  // --- named presale windows ---------------------------------------------------
+  // Verbatim `sales.presales[]` name/start/end for this exact event id (owner-
+  // approved 2026-10-02, SAFE_PUBLISHING_RULES.md). Never a code, description
+  // or link; windows that have ended are dropped, so the field only exists
+  // while a presale is still ahead or open. A record with no presales list at
+  // all leaves the stored field alone, rather than reading absence as "none".
+  if (Array.isArray(data?.sales?.presales)) {
+    const remotePresales = normalizePresaleWindows(data.sales.presales, now);
+    const localPresales = Array.isArray(event.presales) ? event.presales : [];
+    if (JSON.stringify(remotePresales) !== JSON.stringify(localPresales)) {
+      changes.push({ field: 'presales', from: localPresales.length ? localPresales : null, to: remotePresales.length ? remotePresales : null });
+    }
+  } else if (Array.isArray(event.presales) && event.presales.length) {
+    // Absence is not evidence, but a stored window that has since ended is no
+    // longer true; drop only those.
+    const stillLive = normalizePresaleWindows(event.presales, now);
+    if (JSON.stringify(stillLive) !== JSON.stringify(event.presales)) {
+      changes.push({ field: 'presales', from: event.presales, to: stillLive.length ? stillLive : null });
     }
   }
 
@@ -796,6 +818,32 @@ async function runSelfTest() {
     fieldsOf(ev({ event_name: 'Old Title' }), remote({ name: 'New Title' })).includes('event_name'));
   assert('computeIntendedUpdates never emits tour_name',
     !fieldsOf(ev({ event_name: '' }), remote({ name: 'Anything' })).includes('tour_name'));
+
+  // presales: verbatim name/start/end only; ended windows, codes and links dropped.
+  const presaleNow = Date.parse('2027-01-01T00:00:00Z');
+  const presalesOf = (e, r) => computeIntendedUpdates(e, r, presaleNow).find((c) => c.field === 'presales');
+  const tmPresales = [
+    { name: 'Artist Presale', startDateTime: '2027-01-05T15:00:00Z', endDateTime: '2027-01-06T03:00:00Z', description: 'Use code SECRET', url: 'https://example.com/signup' },
+    { name: 'Old Presale', startDateTime: '2026-12-01T15:00:00Z', endDateTime: '2026-12-02T03:00:00Z' },
+    { name: 'Fan Club Presale code: LOVE24', startDateTime: '2027-01-05T15:00:00Z', endDateTime: '2027-01-06T03:00:00Z' },
+    { name: 'Card Presale', startDateTime: '2027-01-04T15:00:00Z', endDateTime: '2027-01-05T03:00:00Z' }
+  ];
+  const presaleChange = presalesOf(ev({}), remote({ sales: { presales: tmPresales } }));
+  assert('presales are carried as name/start/end, sorted by start',
+    JSON.stringify(presaleChange?.to) === JSON.stringify([
+      { name: 'Card Presale', start: '2027-01-04T15:00:00Z', end: '2027-01-05T03:00:00Z' },
+      { name: 'Artist Presale', start: '2027-01-05T15:00:00Z', end: '2027-01-06T03:00:00Z' }
+    ]));
+  assert('presale descriptions, URLs and codes are never stored',
+    !JSON.stringify(presaleChange?.to).includes('SECRET') && !JSON.stringify(presaleChange?.to).includes('LOVE24') && !JSON.stringify(presaleChange?.to).includes('example.com'));
+  assert('unchanged presales are not a change',
+    !presalesOf(ev({ presales: presaleChange.to }), remote({ sales: { presales: tmPresales } })));
+  assert('a record with no presales list leaves live stored windows alone',
+    !presalesOf(ev({ presales: presaleChange.to }), remote({})));
+  assert('stored windows that have ended are removed',
+    presalesOf(ev({ presales: [{ name: 'Old Presale', start: '2026-12-01T15:00:00Z', end: '2026-12-02T03:00:00Z' }] }), remote({}))?.to === null);
+  assert('an empty Discovery presales list clears the field',
+    presalesOf(ev({ presales: presaleChange.to }), remote({ sales: { presales: [] } }))?.to === null);
 
   // timezone: only filled when missing, never rewritten.
   assert('present timezone is not rewritten',

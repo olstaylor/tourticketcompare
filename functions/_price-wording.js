@@ -6,24 +6,33 @@
 // price" interchangeably, and restated the same caveats on every card
 // (owner report, 2026-10-06). The rules now:
 //
-//   - The visible noun is "listed price". "Snapshot", "current" and "recent"
-//     are not used for prices in page copy (code and docs may still say
-//     snapshot; it is the data model's word).
+//   - The data is a "listed-price snapshot"; the figure on a button is a
+//     "listed price". "Current" and "recent" are not used for prices: the
+//     ticket site can move a price seconds after it was checked (owner
+//     review, 2026-10-06).
 //   - Freshness is "Checked <age>" on boards and buttons, with the absolute
 //     capture time in the <time> element's datetime/title. Text that search
 //     engines may quote (leads, FAQ answers) uses the absolute time instead,
 //     because a relative age goes stale in a cached copy.
-//   - The caveat (a listed price is not the final total) is said once per page,
-//     in PRICE_DISCLOSURE beside the money disclosure, not on every card.
+//   - The full caveat is said once per page, in PRICE_DISCLOSURE at the top of
+//     the board; each card carries only "Checked <age> · not the final total".
 //
 // public/app.js is a classic script and cannot import this module, so it
 // mirrors these strings; scripts/price-wording.test.mjs fails if they drift.
 
 /** The one per-page caveat, rendered in the money disclosure line. */
-export const PRICE_DISCLOSURE = "Prices are each site's listed price when last checked, not your final total.";
+export const PRICE_DISCLOSURE =
+  "Prices are listed-price snapshots from each ticket site, checked at the time shown. They can change, and they aren't your final total: fees are added at checkout.";
+
+/** The short tail on each priced card, after "Checked <age>". */
+export const CARD_PRICE_TAIL = "not the final total";
+
+/** How this site makes money, stated the same way wherever ticket buttons show. */
+export const MONEY_DISCLOSURE =
+  "Affiliate partners are listed before Ticketmaster. If you buy through an affiliate link, TourTicketCompare may earn a commission at no extra cost to you.";
 
 /** A card or row whose price lanes were checked and none had a price. */
-export const NO_PRICE_NOTE = "No listed price right now.";
+export const NO_PRICE_NOTE = "No listed-price snapshot yet.";
 
 /** The toggle that opens a card's recorded price history. */
 export const PRICE_HISTORY_LABEL = "Show price history";
@@ -48,5 +57,5 @@ export function relativeCheckAge(fetchedAt, now = Date.now()) {
 
 /** A checked card with no price, naming the lanes checked and when. */
 export function noPriceAtLastCheck(laneNames, when) {
-  return `No listed price on ${laneNames} at the last check (${when}).`;
+  return `No listed-price snapshot from ${laneNames} at the last check (${when}).`;
 }

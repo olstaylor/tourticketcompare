@@ -20,7 +20,7 @@ export const GUIDE_ROUTES = {
     description: "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final total and terms.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-10-05"
+    lastmod: "2026-10-06"
   },
   "/guides/vivid-seats-vs-ticketmaster": {
     title: "Vivid Seats vs Ticketmaster: Key Differences, Fees & Safety",
@@ -271,5 +271,5 @@ export const PRICE_GUIDE_FALLBACK = {
   description: "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final total and terms.",
   fullContent: true,
   datePublished: "2026-06-11",
-  lastmod: "2026-10-05"
+  lastmod: "2026-10-06"
 };

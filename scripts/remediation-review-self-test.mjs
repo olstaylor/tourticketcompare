@@ -54,7 +54,7 @@ assert.doesNotMatch(client, /More providers — no current price snapshot/);
 // never a live-comparison claim.
 assert.match(server, /<section id="current-events" class="nested-panel" data-nosnippet><h2>Prices on upcoming shows/);
 assert.match(server, /<p>The next shows with checked ticket links\.<\/p>\$\{renderMoneyDisclosureHtml\(\)\}/);
-assert.match(await readFile(new URL("../functions/_price-wording.js", import.meta.url), "utf8"), /listed price when last checked, not your final total/);
+assert.match(await readFile(new URL("../functions/_price-wording.js", import.meta.url), "utf8"), /listed-price snapshots from each ticket site, checked at the time shown\. They can change, and they aren.t your final total/);
 assert.doesNotMatch(server, /Current provider price comparisons/);
 assert.doesNotMatch(server, /data-watchlist-signup="\$\{escapeAttr\(artistSlug\)\}"/);
 

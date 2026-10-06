@@ -124,7 +124,9 @@ assert(
     "Choose an artist and date, see each ticket site's listed price where available, then check the final total on the ticket site.",
   "the homepage supporting copy is the agreed proposition"
 );
-assert(primaryCtaLabel === "Find a show", "the homepage primary action is 'Find a show'");
+// "Compare", not "Find" (owner review, 2026-10-06): the product is comparison,
+// not an events directory.
+assert(primaryCtaLabel === "Compare a show", "the homepage primary action is 'Compare a show'");
 assert(primaryCtaHref === "/artists", "the primary action goes to the artists index, where a show is chosen");
 
 // Three steps, each with a body and its own destination.
@@ -134,7 +136,7 @@ const stepHrefs = [...serverBlock.matchAll(/href: "(\/[^"]*)"/g)].map((match) =>
 assert(stepTitles.length === 3, "the how-it-works strip has exactly three steps");
 assert(stepBodies.length === 3 && stepBodies.every(Boolean), "every step has supporting copy");
 assert(new Set(stepHrefs).size === stepHrefs.length, "each step links somewhere different");
-assert(stepTitles[0] === "1. Find a show", "step one repeats the primary action, so the page says one thing");
+assert(stepTitles[0] === "1. Find a show" && stepTitles[1] === "2. Compare ticket prices", "step one picks the show and step two compares it, the primary action's promise");
 
 // ─── Claims we must not make ────────────────────────────────────────────────
 

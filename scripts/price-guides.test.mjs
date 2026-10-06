@@ -279,7 +279,10 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(lead.includes("Fri, Sep 11, 2026 in Manchester (Heaton Park)") && lead.includes("£182 on Vivid Seats") && lead.includes("9 Aug 2026"), "the first answer ties one chronological example to its venue, date, provider and check time");
   assert(lead.startsWith("2 of 6 dates show a listed resale price right now."), "the lead opens with the answer: how many dates have a price");
   assert(/<div class="action-row"><a[^>]+href="\/artists\/oasis"[^>]*class="button button-primary"|<div class="action-row"><a[^>]+class="button button-primary"[^>]*href="\/artists\/oasis"/.test(page.main), "the lead's one primary action is comparing tickets on the artist page");
-  assert(page.main.indexOf('id="priceGuideDatesTitle"') < page.main.indexOf('id="priceGuideGlanceTitle"') && page.main.indexOf('id="priceGuideDatesTitle"') < page.main.indexOf('id="priceGuideFaceTitle"'), "date prices precede supporting explanation");
+  // Owner review 2026-10-06: the summary comes straight after the lead, then
+  // the per-date tables, then the supporting explanation.
+  assert(page.main.indexOf('id="priceGuideGlanceTitle"') < page.main.indexOf('id="priceGuideDatesTitle"') && page.main.indexOf('id="priceGuideDatesTitle"') < page.main.indexOf('id="priceGuideFaceTitle"'), "the summary precedes the date tables, which precede supporting explanation");
+  assert(/Ticket sites covered/.test(page.main) && /Recent movement/.test(page.main), "the summary covers sites and recent movement");
   assert((page.main.match(/>Compare this show<\/a>/g) || []).length === 6, "every date, including a priced date, links to all its exact-show ticket options");
   assert(page.main.includes('href="/artists/oasis#show-pg-man-1"'), "exact-show comparison goes to the artist card anchor");
 

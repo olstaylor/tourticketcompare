@@ -11,7 +11,7 @@ let fallbackCatalog = { artists: [], tours: [], providers: [], ticket_links: [] 
 const HOME_HEADLINE = "Compare ticket prices for the show you want.";
 const HOME_SUBCOPY =
   "Choose an artist and date, see each ticket site's listed price where available, then check the final total on the ticket site.";
-const HOME_PRIMARY_CTA_LABEL = "Find a show";
+const HOME_PRIMARY_CTA_LABEL = "Compare a show";
 const HOME_PRIMARY_CTA_HREF = "/artists";
 const HOME_STEPS = [
   {
@@ -1678,7 +1678,7 @@ function renderShowCardMeta(show) {
   }
   const localTime = showLocalTime(show.dateTimeISO, show.timezone);
   if (localTime) parts.push(document.createTextNode(`${localTime} local`));
-  const country = String(show.country || "").trim();
+  const country = displayCountry(show.country);
   if (country) parts.push(document.createTextNode(country));
   if (!parts.length) return null;
   const line = document.createElement("p");
@@ -2006,10 +2006,27 @@ function renderProviderCtaButton(name, href, amount, analytics = {}) {
 // first, so naming a subset of them would read as a recommendation rather than
 // a description of the card. No link is emitted here — the provider buttons
 // above stay the card's only outbound links.
+// Display name for a country. Keep in sync with COUNTRY_ALIASES /
+// normalizeCountry in functions/_cities.js; event records keep their source
+// spelling.
+const COUNTRY_DISPLAY_ALIASES = new Map([
+  ["us", "United States"],
+  ["usa", "United States"],
+  ["united states of america", "United States"],
+  ["uk", "United Kingdom"],
+  ["great britain", "United Kingdom"]
+]);
+function displayCountry(value) {
+  const raw = String(value || "").trim();
+  return COUNTRY_DISPLAY_ALIASES.get(raw.toLowerCase()) || raw;
+}
+
 // Price vocabulary: mirrors functions/_price-wording.js (this classic script
 // cannot import it). scripts/price-wording.test.mjs fails if they drift.
-const PRICE_DISCLOSURE = "Prices are each site's listed price when last checked, not your final total.";
-const PRICE_UNAVAILABLE_NOTE = "No listed price right now.";
+const PRICE_DISCLOSURE =
+  "Prices are listed-price snapshots from each ticket site, checked at the time shown. They can change, and they aren't your final total: fees are added at checkout.";
+const CARD_PRICE_TAIL = "not the final total";
+const PRICE_UNAVAILABLE_NOTE = "No listed-price snapshot yet.";
 const PRICE_HISTORY_LABEL = "Show price history";
 
 // The lanes that supply listed-price snapshots. A card with no button on one
@@ -2068,7 +2085,7 @@ function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false) {
       note.append(timeFor(spec), ` (${spec.name})`);
     });
   }
-  note.append(".");
+  note.append(` · ${CARD_PRICE_TAIL}`);
   wrap.append(note);
   return wrap;
 }
@@ -2088,7 +2105,7 @@ function relativeCheckAge(fetchedAt, now = Date.now()) {
 // Keep in sync with MONEY_DISCLOSURE_TEXT / renderMoneyDisclosureHtml in
 // functions/[[path]].js.
 const MONEY_DISCLOSURE_TEXT =
-  "sites listed first pay TourTicketCompare a commission when you buy through them; Ticketmaster doesn't. No fee is added.";
+  "Affiliate partners are listed before Ticketmaster. If you buy through an affiliate link, TourTicketCompare may earn a commission at no extra cost to you.";
 function renderMoneyDisclosure() {
   const note = document.createElement("p");
   note.className = "disclosure-note money-disclosure";

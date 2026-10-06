@@ -10,7 +10,7 @@
   const HOME_HEADLINE = "Compare ticket prices for the show you want.";
   const HOME_SUBCOPY =
     "Choose an artist and date, see each ticket site's listed price where available, then check the final total on the ticket site.";
-  const HOME_PRIMARY_CTA_LABEL = "Find a show";
+  const HOME_PRIMARY_CTA_LABEL = "Compare a show";
   const HOME_PRIMARY_CTA_HREF = "/artists";
   const HOME_STEPS = [
     {

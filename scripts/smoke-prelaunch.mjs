@@ -94,7 +94,7 @@ const routeMarkers = new Map([
   ["/guides", "Compare the total at checkout for that exact ticket"],
   ["/guides/vivid-seats-vs-ticketmaster", "A like-for-like purchase checklist"],
   ["/blog", "what a price snapshot does and does not claim"],
-  ["/compare-concert-ticket-prices", "Prices are only compared when captured for the same event, each with the time it was taken"],
+  ["/compare-concert-ticket-prices", "open the ones that look good, then check the seats and the final total before you pay"],
   ["/how-it-works", "A button only goes up when its destination can be confirmed"],
   ["/currency-converter", "European Central Bank daily reference rates"],
   ["/editorial-policy", "the link has to pass the site's outbound safety checks"],
@@ -1509,7 +1509,7 @@ const renderedMorganSeatGeekCtas = (serverMorganWithSeatGeek.text.match(/provide
 assert(renderedMorganSeatGeekCtas > 0 && renderedMorganSeatGeekCtas <= expectedMorganSeatGeekCtas, "server-rendered Morgan Wallen page should show SeatGeek CTAs only for rendered shows with event-level SeatGeek URLs when configured");
 assert(serverMorganWithSeatGeek.text.includes(RENDERED_SG_EVENT_OUT_HREF), "server-rendered SeatGeek CTA should route the controlled show through /api/out");
 assert(!serverMorganWithSeatGeek.text.includes(CONTROLLED_SEATGEEK_URL), "server-rendered SeatGeek CTA must not expose the raw affiliate URL; it routes through /api/out");
-assert(serverMorganWithSeatGeek.text.includes("<strong>How this site makes money:</strong> sites listed first pay TourTicketCompare a commission") && !serverMorganWithSeatGeek.text.includes("never affects your price"), "server-rendered show board should include the one How-we-make-money disclosure (P4) and no unverifiable no-effect claim");
+assert(serverMorganWithSeatGeek.text.includes("<strong>How this site makes money:</strong> Affiliate partners are listed before Ticketmaster. If you buy through an affiliate link, TourTicketCompare may earn a commission at no extra cost to you.") && !serverMorganWithSeatGeek.text.includes("never affects your price"), "server-rendered show board should include the one How-we-make-money disclosure (P4) and no unverifiable no-effect claim");
 assert(!serverMorganWithSeatGeek.text.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "server-rendered cards should not repeat provider caution copy per SeatGeek link");
 // CTA order: SeatGeek (primary affiliate) renders first, before the plain
 // (unmonetized) Ticketmaster link, inside the same provider-cta-group.
@@ -1624,12 +1624,12 @@ assert(seatGeekGateFunction[0].includes('if (!providerEventPublishable(show, "se
 assert(seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true && hasValidSeatGeekEventUrl;"), "SeatGeek CTA gate should require both the provider flag and a valid stored SeatGeek event URL");
 assert(!seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true;"), "SeatGeek CTA gate should not trust the provider flag on its own");
 assert(appJs.includes('name: "SeatGeek"'), "hydration should preserve the SeatGeek CTA for the controlled event when configured");
-assert(appJs.includes("sites listed first pay TourTicketCompare a commission when you buy through them; Ticketmaster doesn't. No fee is added.") && appJs.includes("renderMoneyDisclosure()"), "hydration should preserve the how-this-site-makes-money show-board disclosure (P4)");
+assert(appJs.includes("Affiliate partners are listed before Ticketmaster. If you buy through an affiliate link, TourTicketCompare may earn a commission at no extra cost to you.") && appJs.includes("renderMoneyDisclosure()"), "hydration should preserve the how-this-site-makes-money show-board disclosure (P4)");
 assert(!appJs.includes("Event last checked:"), "hydration should rely on the consolidated verification panel instead of repeating check dates on every show card");
 assert(!appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every SeatGeek card");
 assert(!appJs.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every Vivid Seats card");
 assert(appJs.includes('note.append("Checked ");') && appJs.includes("const PRICE_DISCLOSURE ="), "hydration should include the per-card check age and the page-level price disclosure (P2)");
-assert(appJs.includes('const PRICE_UNAVAILABLE_NOTE = "No listed price right now.";'), "hydration should state the price-unavailable case");
+assert(appJs.includes('const PRICE_UNAVAILABLE_NOTE = "No listed-price snapshot yet.";'), "hydration should state the price-unavailable case");
 assert(appJs.includes("renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show))"), "hydration must only claim a snapshot is unavailable for a card whose lanes were actually queried");
 assert(appJs.includes("Array.isArray(show?.prices) && show.prices.length > 0"), "the hydrated priced-lane check must treat an empty lane array as unchecked, not as a confirmed absence");
 assert(appJs.includes("show?.provider_links?.seatgeek?.verified !== true"), "hydrated SeatGeek price snapshots should require explicit provider verification");
@@ -2342,7 +2342,7 @@ for (const card of serverPricedMorgan.text.split('<article class="info-card show
     assert(!card.includes("Lowest listed price on each"), "a card with an unpriced button must never say 'lowest listed price on each'");
   }
 }
-assert(serverPricedMorgan.text.includes("listed price when last checked, not your final total."), "server-rendered price boards should keep the not-final-total disclaimer, once in the page disclosure");
+assert(serverPricedMorgan.text.includes("aren&#39;t your final total") || serverPricedMorgan.text.includes("aren't your final total"), "server-rendered price boards should keep the not-final-total disclaimer, once in the page disclosure");
 
 const bulkFlagsOffResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen&includePrices=true&priceProviders=approved-marketplaces"),
@@ -3336,7 +3336,7 @@ assert(serverMorganWithoutSeatGeek.text.includes("provider-cta-check\">See ticke
 // Ticketmaster) gets no price note (2026-10-06): nothing on it claims a price,
 // and the note used to repeat on every date of a tour.
 assert(
-  !/No listed price|No listed-price snapshot/.test(serverMorganWithoutSeatGeek.text),
+  !/No listed-price snapshot/.test(serverMorganWithoutSeatGeek.text),
   "a card with no price-supplying button must not carry a price-unavailable note"
 );
 
@@ -3359,7 +3359,7 @@ if (fullyPricedBoard.response.status === 200) {
   const silentCards = cardsWithButtons.filter(
     (card) =>
       /provider=(vivid-seats|ticketnetwork|stubhub-international)/.test(card) &&
-      !/No listed price (right now|on )/.test(card) &&
+      !/No listed-price snapshot (yet|from )/.test(card) &&
       !card.includes("provider-cta-price")
   );
   assert(cardsWithButtons.length > 6, "the coverage check needs a board longer than the old six-show slice to be meaningful");
@@ -3376,7 +3376,7 @@ const pricedMorganCards = serverPricedMorgan.text
   .filter((card) => card.includes("provider-cta-price"));
 assert(pricedMorganCards.length > 0, "the priced Morgan Wallen board should render at least one card with a snapshot");
 assert(
-  pricedMorganCards.every((card) => !/No listed price (right now|on )/.test(card)),
+  pricedMorganCards.every((card) => !/No listed-price snapshot (yet|from )/.test(card)),
   "a card carrying an eligible snapshot must keep the snapshot disclosure, not the unavailable note"
 );
 assert(serverMorganWithoutSeatGeek.text.includes(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&amp;provider=ticketmaster`), "server-rendered verified Ticketmaster event CTA should use its existing safe redirect");

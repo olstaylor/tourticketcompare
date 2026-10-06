@@ -11,7 +11,7 @@ function assert(condition, message) {
 }
 
 const appJs = await readFile(new URL("../public/app.js", import.meta.url), "utf8");
-for (const name of ["PRICE_DISCLOSURE", "NO_PRICE_NOTE", "PRICE_HISTORY_LABEL"]) {
+for (const name of ["PRICE_DISCLOSURE", "NO_PRICE_NOTE", "PRICE_HISTORY_LABEL", "CARD_PRICE_TAIL", "MONEY_DISCLOSURE"]) {
   assert(appJs.includes(JSON.stringify(wording[name])), `public/app.js mirrors ${name} (${JSON.stringify(wording[name])})`);
 }
 assert(appJs.includes('"Lowest listed price"') && appJs.includes('"Lowest listed prices"'), "public/app.js mirrors lowestPriceLabel");
@@ -22,14 +22,15 @@ assert(wording.relativeCheckAge("2026-10-06T07:00:00Z", now) === "5 hours ago", 
 assert(wording.relativeCheckAge("2026-10-03T12:00:00Z", now) === "3 days ago", "age in days");
 assert(wording.relativeCheckAge("", now) === "recently", "unparseable age");
 
-// Retired words in the page templates' visible strings. Comments and the blog
-// (whose posts explain the data model) may still say "snapshot".
+// Retired wording in the page templates' visible strings: "current"/"recent"
+// prices (a ticket site can move a price seconds after the check) and the
+// old per-card caveat.
 const pathSource = await readFile(new URL("../functions/[[path]].js", import.meta.url), "utf8");
 const visible = pathSource
   .split("\n")
   .filter((line) => !/^\s*(\/\/|\*)/.test(line))
   .join("\n");
-for (const phrase of ["Listed prices, not final totals", "Show price snapshot history", "No listed-price snapshot", "Lowest current listed price", "currently on record", "recent listed prices", "current listed prices"]) {
+for (const phrase of ["Listed prices, not final totals", "Listed prices, not your final total", "Show price snapshot history", "isn't matched yet", "Lowest current listed price", "currently on record", "recent listed prices", "current listed prices", "current listed-price", "eligible provider listed-price"]) {
   assert(!visible.includes(phrase), `functions/[[path]].js no longer prints "${phrase}"`);
 }
 assert(!appJs.includes("Show price snapshot history") && !appJs.includes("Listed prices, not final totals"), "public/app.js no longer prints retired price wording");

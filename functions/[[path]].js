@@ -47,7 +47,7 @@ import {
   WEEKLY_CHANGE_DAYS
 } from "./_event-price-moves.js";
 import { isUpcomingShow, showStartMs } from "./_upcoming.js";
-import { NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, lowestPriceLabel, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
+import { CARD_PRICE_TAIL, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, lowestPriceLabel, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, resolveEventRoute } from "./_event-pages.js";
 import { EVENT_INDEXING_PILOT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
 import {
@@ -151,7 +151,7 @@ function siteBylineHtml() {
 const HOME_HEADLINE = "Compare ticket prices for the show you want.";
 const HOME_SUBCOPY =
   "Choose an artist and date, see each ticket site's listed price where available, then check the final total on the ticket site.";
-const HOME_PRIMARY_CTA_LABEL = "Find a show";
+const HOME_PRIMARY_CTA_LABEL = "Compare a show";
 const HOME_PRIMARY_CTA_HREF = "/artists";
 const HOME_STEPS = [
   {
@@ -3411,14 +3411,24 @@ function renderPriceGuideBody(route, events, env) {
         : "Shown for each date below where a ticket site supplies one."
     ],
     [
-      "Official sale",
-      guide.onsalePendingCount
-        ? `Ticketmaster's public on-sale for ${guide.onsalePendingCount} ${
-            guide.onsalePendingCount === 1 ? "date" : "dates"
-          } opens ${nextOnsale}.`
-        : "Each date's Ticketmaster link is on the artist page."
+      "Ticket sites covered",
+      linkCounts.size
+        ? `${linkCounts.size} ${linkCounts.size === 1 ? "site" : "sites"}: ${[...linkCounts.keys()].join(", ")}.`
+        : "Each date's ticket links are on the artist page."
+    ],
+    [
+      "Recent movement",
+      moves.length
+        ? (() => {
+            const down = moves.filter((move) => move.direction === "down").length;
+            return `${moves.length} ${moves.length === 1 ? "date has" : "dates have"} a recorded change in ${PRICE_MOVE_WINDOW_DAYS} days: ${down} lower, ${moves.length - down} higher.`;
+          })()
+        : "No price change to show from the recorded history."
     ]
   ];
+  // The summary sits straight after the lead (owner review, 2026-10-06): a
+  // guide with dozens of dates used to make readers scroll every city table
+  // before reaching it. No-price dates stay in the tables below.
   const glanceHtml = `<section class="nested-panel" aria-labelledby="priceGuideGlanceTitle"><h2 id="priceGuideGlanceTitle">At a glance</h2><div class="card-grid">${cards
     .map(([title, body]) => `<article class="info-card"><h3>${escapeHtml(title)}</h3><p>${escapeHtml(body)}</p></article>`)
     .join("")}</div></section>`;
@@ -3478,7 +3488,7 @@ function renderPriceGuideBody(route, events, env) {
 
   return `<main id="mainContent"><section class="content-page price-guide-page" aria-labelledby="priceGuideTitle">${renderBreadcrumbHtml(
     route
-  )}${leadHtml}${tablesHtml}${movesHtml}${missingPricesHtml}${glanceHtml}${faceValueHtml}${whereHtml}${renderPriceGuideFaqHtml(priceGuideFaqEntries(route, view))}${relatedHtml}</section></main>`;
+  )}${leadHtml}${glanceHtml}${tablesHtml}${movesHtml}${missingPricesHtml}${faceValueHtml}${whereHtml}${renderPriceGuideFaqHtml(priceGuideFaqEntries(route, view))}${relatedHtml}</section></main>`;
 }
 
 function artistCityShowIdSet(artistCity) {
@@ -4114,12 +4124,12 @@ function renderProviderChecklistSection() {
 
 function renderComparisonTrustPanel(events = []) {
   const lastChecked = latestHubVerificationDate(events);
-  return `<section class="nested-panel verification-disclosure"><h2>What actually gets checked</h2><ul class="check-list"><li>Every date and link on the site comes from a record someone has reviewed.</li><li>Prices, venues, dates, availability, and relationships with providers are never made up.</li><li>If a link's destination can't be confirmed, the button is hidden rather than guessed.</li><li>Final prices, fees, seat details, availability and delivery are the provider's call, not this site's.</li></ul>${lastChecked ? `<p class="disclosure-note">Most recent link check in the current data: ${escapeHtml(lastChecked)}.</p>` : ""}</section>`;
+  return `<section class="nested-panel verification-disclosure"><h2>What actually gets checked</h2><ul class="check-list"><li>Every date comes from a source listing with a date, venue and city, and every ticket link is checked against that exact event.</li><li>Prices, venues, dates, availability, and relationships with providers are never made up.</li><li>If a link's destination can't be confirmed, the button is hidden rather than guessed.</li><li>Final prices, fees, seat details, availability and delivery are the provider's call, not this site's.</li></ul>${lastChecked ? `<p class="disclosure-note">Most recent link check in the current data: ${escapeHtml(lastChecked)}.</p>` : ""}</section>`;
 }
 
 function comparisonHubFaqEntries() {
   return [
-    ["What is a ticket comparison site?", "It is a place to see your options for one show before you commit to any of them. TourTicketCompare collects ticket links for major tours, checks where each one lands before publishing it, and shows a listed price with the time it was captured where a provider supplies one. You still buy on the ticket site, and it sets the seats, fees, availability and final total."],
+    ["What is a ticket comparison site?", "It is a place to see your options for one show before you commit to any of them. TourTicketCompare collects ticket links for major tours, checks where each one lands before publishing it, and shows each ticket site's listed-price snapshot, with when it was checked, where the site supplies one. You still buy on the ticket site, and it sets the seats, fees, availability and final total."],
     ["What is the best way to compare concert ticket prices?", "Pin down the exact show first: artist, city, venue and date. Comparing anything looser than one date tells you nothing. Then open your options side by side and take each one to the order screen, because that is where the fees land. Check the seat, the ticket type, the delivery timing and any restrictions before you judge the total."],
     ["Why are concert ticket prices different on each site?", "Usually because you are not looking at the same product. One may be a primary ticket from the box office and the other a resale listing priced by whoever is holding it. Seat location, how close the show is, how much stock is left, and where each site adds its fees all move the number too."],
     ["Do resale ticket prices include fees?", "It varies by site and sometimes by event. Some show an all-in price up front, others add service, delivery, tax and handling later in checkout. That is why a headline price is a poor comparison: take both options to the final order screen and compare there."],
@@ -5517,7 +5527,7 @@ function renderServerPriceNotes(ctaSpecs, pricesChecked = false, show = null) {
     const checked = priced.map((spec) => `${timeHtml(spec)} (${escapeHtml(spec.name)})`);
     checkedText = `${checked.slice(0, -1).join(", ")} and ${checked[checked.length - 1]}`;
   }
-  return `<div class="provider-cta-notes"><p class="disclosure-note">Checked ${checkedText}.</p></div>`;
+  return `<div class="provider-cta-notes"><p class="disclosure-note">Checked ${checkedText} · ${escapeHtml(CARD_PRICE_TAIL)}</p></div>`;
 }
 
 // relativeCheckAge ("5 hours ago") lives in _price-wording.js. Always shown
@@ -5784,7 +5794,9 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
         ? `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(localTime)} local</time>`
         : `${escapeHtml(localTime)} local`
       : "",
-    show.country && !titleArtist ? escapeHtml(show.country) : ""
+    // Display name only ("United States Of America" -> "United States"); the
+    // event record keeps whatever its source sent.
+    show.country && !titleArtist ? escapeHtml(normalizeCountry(show.country)) : ""
   ].filter(Boolean);
   const metaHtml = metaParts.length ? `<p class="show-card-meta">${metaParts.join(" · ")}</p>` : "";
   // Multi-night stands: the date badge and meta line above already show this
@@ -5907,10 +5919,11 @@ function renderShowBoardJumpHtml(shows) {
 // the button order (serverShowCtaSpecs: affiliate lanes first, the unpaid
 // Ticketmaster link last) and makes no claim the site cannot check. Cut to one
 // line on 2026-09-25 (owner request) so it can sit directly above the dates
-// without pushing them down; the linked page carries the detail. Keep in sync
-// with MONEY_DISCLOSURE_TEXT in public/app.js.
-const MONEY_DISCLOSURE_TEXT =
-  "sites listed first pay TourTicketCompare a commission when you buy through them; Ticketmaster doesn't. No fee is added.";
+// without pushing them down; the linked page carries the detail. Reworded
+// 2026-10-06 (owner review) to read as a disclosure, not ranking logic; the
+// text lives in _price-wording.js. Keep in sync with MONEY_DISCLOSURE_TEXT in
+// public/app.js.
+const MONEY_DISCLOSURE_TEXT = MONEY_DISCLOSURE;
 // The page's one price caveat (PRICE_DISCLOSURE, 2026-10-06) leads the same
 // line, so a board says "listed price, not your final total" once rather than
 // under every card. `prices` false drops it where the page shows no prices.
@@ -6234,7 +6247,7 @@ function renderEventPageBody(route, events, env) {
     eventName && eventName.toLowerCase() !== artist.name.toLowerCase() ? ["Listing", escapeHtml(eventName)] : null,
     show.tour_name ? ["Tour", escapeHtml(show.tour_name)] : null,
     ["Venue", escapeHtml(show.venue)],
-    ["City", escapeHtml([show.city, show.country].filter(Boolean).join(", "))],
+    ["City", escapeHtml([show.city, show.country ? normalizeCountry(show.country) : ""].filter(Boolean).join(", "))],
     ["Date", `<time datetime="${escapeAttr(show.dateTimeISO)}">${escapeHtml(dateLabel)}</time>`],
     localTime ? ["Start time", `${escapeHtml(localTime)} local time`] : null,
     status ? ["Status", escapeHtml(status)] : null,
@@ -6363,14 +6376,14 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       .join("");
     return `<main id="mainContent"><section class="content-page comparison-hub" aria-labelledby="compareTitle">${renderBreadcrumbHtml(
       route
-    )}<section class="nested-panel"><h1 id="compareTitle">Compare concert ticket prices by site</h1><p class="lead">Start with the show you actually want to see, not a generic "site A vs site B" argument. Where ticket sites list a price for that exact show, use it to narrow things down — then open the providers and compare the real listing, fees, and delivery terms.</p><div class="action-row">${anchor(
-      "Browse checked events",
+    )}<section class="nested-panel"><h1 id="compareTitle">Compare concert ticket prices by site</h1><p class="lead">Pick the show you want, compare each ticket site's listed price for that same date, open the ones that look good, then check the seats and the final total before you pay.</p><div class="action-row">${anchor(
+      "See upcoming shows",
       "#current-events",
       "button button-primary"
-    )}${anchor("Browse artists", "#compare-by-artist", "button button-secondary")}</div><p class="disclosure-note">Prices are only compared when captured for the same event, each with the time it was taken. Treat them as a starting point rather than a seat-for-seat match or a final quote — the provider sets the price, fees, availability and delivery terms.</p></section><section id="compare-by-artist" class="nested-panel"><h2>Start with an artist</h2><p>Open an artist to find the date you mean. Compare at the level of a single show — that's the only comparison that tells you anything.</p>${renderComparisonHubArtistCards(
+    )}${anchor("Browse artists", "#compare-by-artist", "button button-secondary")}</div></section><section id="compare-by-artist" class="nested-panel"><h2>Start with an artist</h2><p>Open an artist, then pick your date.</p>${renderComparisonHubArtistCards(
       catalog,
       events
-    )}</section><section id="compare-by-city" class="nested-panel"><h2>Find a concert by city or venue</h2><p>Choose a city below or ${anchor("browse venues", "/venues", "text-link")} to find the show and date you want. Open that date to compare its checked ticket links and any listed prices. Different venues are different purchases: include travel and accommodation when choosing between them.</p>${renderComparisonHubCityLinks(
+    )}</section><section id="compare-by-city" class="nested-panel"><h2>Find a concert by city or venue</h2><p>Pick a city below or ${anchor("browse venues", "/venues", "text-link")} to find your date.</p>${renderComparisonHubCityLinks(
       events
     )}</section>${renderComparisonHubEventCards(
       events,

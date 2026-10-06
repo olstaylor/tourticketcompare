@@ -64,7 +64,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "0600650BC4BCB866",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-council-bluffs-iowa-11-19-2026/event/0600650BC4BCB866",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/council-bluffs-iowa-mid-america-center-2026-11-19-7-pm/concert/18573355",
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-council-bluffs-mid-america-center-11-19-2026/production/7536253",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-council-bluffs-iowa-11-19-2026/event/0600650BC4BCB866",
@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573355,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/council-bluffs-iowa-mid-america-center-2026-11-19-7-pm/concert/18573355",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536253,
@@ -125,7 +125,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "16006514CCD7E77F",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-cincinnati-ohio-11-21-2026/event/16006514CCD7E77F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/cincinnati-ohio-heritage-bank-center-2026-11-21-3-pm/concert/18573352",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-cincinnati-ohio-11-21-2026/event/16006514CCD7E77F",
@@ -141,11 +141,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573352,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/cincinnati-ohio-heritage-bank-center-2026-11-21-3-pm/concert/18573352",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -178,7 +178,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "1E006511C7C2B996",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-denver-colorado-11-21-2026/event/1E006511C7C2B996",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/denver-colorado-ball-arena-2026-11-21-3-pm/concert/18573356",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-denver-colorado-11-21-2026/event/1E006511C7C2B996",
@@ -194,11 +194,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573356,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/denver-colorado-ball-arena-2026-11-21-3-pm/concert/18573356",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -451,7 +451,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "1E006507D287756D",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-boise-idaho-11-27-2026/event/1E006507D287756D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/boise-idaho-extramile-arena-2026-11-27-2-pm/concert/18573377",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-boise-idaho-11-27-2026/event/1E006507D287756D",
@@ -467,11 +467,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573377,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/boise-idaho-extramile-arena-2026-11-27-2-pm/concert/18573377",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -830,7 +830,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "1600650CA03760B5",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charleston-west-virginia-12-03-2026/event/1600650CA03760B5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/charleston-west-virginia-charleston-coliseum-convention-center-2026-12-03-7-30-pm/concert/18573402",
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-charleston-charleston-coliseum-and-convention-center-12-3-2026/production/7536609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charleston-west-virginia-12-03-2026/event/1600650CA03760B5",
@@ -846,11 +846,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573402,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/charleston-west-virginia-charleston-coliseum-convention-center-2026-12-03-7-30-pm/concert/18573402",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536609,
@@ -899,7 +899,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "1C006512EF98DC6F",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-fresno-california-12-03-2026/event/1C006512EF98DC6F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/fresno-california-save-mart-center-2026-12-03-7-pm/concert/18573408",
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-fresno-save-mart-center-12-3-2026/production/7536621",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-fresno-california-12-03-2026/event/1C006512EF98DC6F",
@@ -915,11 +915,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573408,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/fresno-california-save-mart-center-2026-12-03-7-pm/concert/18573408",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536621,
@@ -1013,7 +1013,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "0500650DA86C688D",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-columbus-ohio-12-05-2026/event/0500650DA86C688D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/columbus-ohio-nationwide-arena-2026-12-05-3-pm/concert/18573412",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-columbus-ohio-12-05-2026/event/0500650DA86C688D",
@@ -1029,11 +1029,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573412,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/columbus-ohio-nationwide-arena-2026-12-05-3-pm/concert/18573412",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1119,7 +1119,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "0800650CD46A85A3",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-grand-rapids-michigan-12-06-2026/event/0800650CD46A85A3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/grand-rapids-michigan-van-andel-arena-2026-12-06-3-pm/concert/18573423",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-grand-rapids-michigan-12-06-2026/event/0800650CD46A85A3",
@@ -1135,11 +1135,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573423,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/grand-rapids-michigan-van-andel-arena-2026-12-06-3-pm/concert/18573423",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1225,7 +1225,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "300064FEC14271F1",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-allentown-pennsylvania-12-09-2026/event/300064FEC14271F1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/allentown-pennsylvania-ppl-center-2026-12-09-7-30-pm/concert/18573432",
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-allentown-ppl-center-12-9-2026/production/7536797",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-allentown-pennsylvania-12-09-2026/event/300064FEC14271F1",
@@ -1241,11 +1241,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573432,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/allentown-pennsylvania-ppl-center-2026-12-09-7-30-pm/concert/18573432",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536797,
@@ -1286,7 +1286,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "3A006510C43173A4",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-austin-texas-12-09-2026/event/3A006510C43173A4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/austin-texas-moody-center-atx-2026-12-09-7-pm/concert/18573433",
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-austin-moody-center-atx-12-9-2026/production/7536643",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-austin-texas-12-09-2026/event/3A006510C43173A4",
@@ -1302,11 +1302,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573433,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/austin-texas-moody-center-atx-2026-12-09-7-pm/concert/18573433",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536643,
@@ -1424,7 +1424,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "1B00650EA46CEDD6",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-bossier-city-louisiana-12-10-2026/event/1B00650EA46CEDD6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/bossier-city-louisiana-brookshire-grocery-arena-2026-12-10-7-pm/concert/18573436",
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-bossier-city-brookshire-grocery-arena-12-10-2026--concerts-world-music/production/7536807",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-bossier-city-louisiana-12-10-2026/event/1B00650EA46CEDD6",
@@ -1440,11 +1440,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573436,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/bossier-city-louisiana-brookshire-grocery-arena-2026-12-10-7-pm/concert/18573436",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536807,
@@ -1485,7 +1485,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "2D006513F33FA1B5",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-greenville-south-carolina-12-11-2026/event/2D006513F33FA1B5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-12-11-3-pm/concert/18573437",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-greenville-south-carolina-12-11-2026/event/2D006513F33FA1B5",
@@ -1501,11 +1501,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573437,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-12-11-3-pm/concert/18573437",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1591,7 +1591,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "2D006511DF4864ED",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlotte-north-carolina-12-12-2026/event/2D006511DF4864ED",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-12-12-3-pm/concert/18573447",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlotte-north-carolina-12-12-2026/event/2D006511DF4864ED",
@@ -1607,11 +1607,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573447,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/charlotte-north-carolina-spectrum-center-charlotte-2026-12-12-3-pm/concert/18573447",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1697,7 +1697,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "0E00650786114C1D",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-duluth-georgia-12-13-2026/event/0E00650786114C1D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/duluth-georgia-gas-south-arena-2026-12-13-3-pm/concert/18573455",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-duluth-georgia-12-13-2026/event/0E00650786114C1D",
@@ -1713,11 +1713,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573455,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/duluth-georgia-gas-south-arena-2026-12-13-3-pm/concert/18573455",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1750,7 +1750,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "0C00650E8C60591D",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-dallas-texas-12-13-2026/event/0C00650E8C60591D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/dallas-texas-american-airlines-center-2026-12-13-3-pm/concert/18573458",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-dallas-texas-12-13-2026/event/0C00650E8C60591D",
@@ -1766,11 +1766,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573458,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/dallas-texas-american-airlines-center-2026-12-13-3-pm/concert/18573458",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1803,7 +1803,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "0100651CDD7E5A42",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlottesville-virginia-12-16-2026/event/0100651CDD7E5A42",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/charlottesville-virginia-john-paul-jones-arena-2026-12-16-7-30-pm/concert/18573461",
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-charlottesville-john-paul-jones-arena-12-16-2026--concerts-world-music/production/7536731",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlottesville-virginia-12-16-2026/event/0100651CDD7E5A42",
@@ -1819,11 +1819,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573461,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/charlottesville-virginia-john-paul-jones-arena-2026-12-16-7-30-pm/concert/18573461",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536731,
@@ -1864,7 +1864,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "2000651393381D8C",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-birmingham-alabama-12-16-2026/event/2000651393381D8C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2026-12-16-7-pm/concert/18573466",
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-birmingham-legacy-arena-at-the-bjcc-12-16-2026/production/7536607",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-birmingham-alabama-12-16-2026/event/2000651393381D8C",
@@ -1880,11 +1880,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573466,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2026-12-16-7-pm/concert/18573466",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536607,
@@ -1994,7 +1994,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "0000650D9ACEC58C",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-albany-new-york-12-17-2026/event/0000650D9ACEC58C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/albany-new-york-mvp-arena-2026-12-17-7-30-pm/concert/18573470",
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-albany-mvp-arena-12-17-2026--concerts-world-music/production/7536715",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-albany-new-york-12-17-2026/event/0000650D9ACEC58C",
@@ -2010,11 +2010,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573470,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/albany-new-york-mvp-arena-2026-12-17-7-30-pm/concert/18573470",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536715,
@@ -2055,7 +2055,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "020065188D2D8218",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-hershey-pennsylvania-12-18-2026/event/020065188D2D8218",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/hershey-pennsylvania-giant-center-2026-12-18-3-pm/concert/18573472",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-hershey-pennsylvania-12-18-2026/event/020065188D2D8218",
@@ -2071,11 +2071,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573472,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/hershey-pennsylvania-giant-center-2026-12-18-3-pm/concert/18573472",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2495,7 +2495,7 @@
     "tour_name": "The Ghosts of Christmas Eve – 30th Anniversary Winter Tour",
     "ticketmaster_event_id": "0800650C01D5B80D",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-detroit-michigan-12-23-2026/event/0800650C01D5B80D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/trans-siberian-orchestra-tickets/detroit-michigan-little-caesars-arena-2026-12-23-3-pm/concert/18573495",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-detroit-michigan-12-23-2026/event/0800650C01D5B80D",
@@ -2511,11 +2511,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18573495,
+        "url": "https://seatgeek.com/trans-siberian-orchestra-tickets/detroit-michigan-little-caesars-arena-2026-12-23-3-pm/concert/18573495",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

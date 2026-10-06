@@ -117,11 +117,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8042785",
-        "url": "https://www.ticketliquidator.com/tickets/8042785/Sylvan-Esso-tickets-Mon-Oct-5-2026-930-Club",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -134,7 +134,7 @@
     "ticketmaster_discovery_event_id": "17A8v0G6G2LZMGt",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042785/Sylvan-Esso-tickets-Mon-Oct-5-2026-930-Club",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": ""
   },
   {

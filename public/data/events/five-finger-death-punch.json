@@ -923,12 +923,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676513",
+        "url": "https://www.ticketliquidator.com/tickets/7676513/Five-Finger-Death-Punch-tickets-Thu-Oct-8-2026-FirstBank-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_eQoip4h",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676513"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676513",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676513/Five-Finger-Death-Punch-tickets-Thu-Oct-8-2026-FirstBank-Amphitheater"
   },
   {
     "id": "tm-five-finger-death-punch-2026-tampa-vvg1vz_eqhp7qi",
@@ -1052,13 +1060,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676515",
+        "url": "https://www.ticketliquidator.com/tickets/7676515/Five-Finger-Death-Punch-tickets-Sun-Oct-11-2026-iTHINK-Financial-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_eQW6ABN",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676515",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-west-palm-beach-tickets-10-11-2026/event/107076164"
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-west-palm-beach-tickets-10-11-2026/event/107076164",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676515/Five-Finger-Death-Punch-tickets-Sun-Oct-11-2026-iTHINK-Financial-Amphitheatre"
   },
   {
     "id": "tm-five-finger-death-punch-2026-alpharetta-vvg1zz_eq2kn-d",
@@ -1114,12 +1130,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676519",
+        "url": "https://www.ticketliquidator.com/tickets/7676519/Five-Finger-Death-Punch-tickets-Tue-Oct-13-2026-Ameris-Bank-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_eQ2KN-d",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676519"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676519",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676519/Five-Finger-Death-Punch-tickets-Tue-Oct-13-2026-Ameris-Bank-Amphitheatre"
   },
   {
     "id": "tm-five-finger-death-punch-2026-raleigh-g5evz_ejp-tdn",
@@ -1175,12 +1199,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676524",
+        "url": "https://www.ticketliquidator.com/tickets/7676524/Five-Finger-Death-Punch-tickets-Wed-Oct-14-2026-Coastal-Credit-Union-Music-Park-at-Walnut-Creek",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_eJP-tDn",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676524"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676524",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676524/Five-Finger-Death-Punch-tickets-Wed-Oct-14-2026-Coastal-Credit-Union-Music-Park-at-Walnut-Creek"
   },
   {
     "id": "tm-five-finger-death-punch-2026-charlotte-g5evz_eqi_eoi",
@@ -1236,12 +1268,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676530",
+        "url": "https://www.ticketliquidator.com/tickets/7676530/Five-Finger-Death-Punch-tickets-Fri-Oct-16-2026-Truliant-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_eQI_EOI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676530"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676530",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676530/Five-Finger-Death-Punch-tickets-Fri-Oct-16-2026-Truliant-Amphitheater"
   },
   {
     "id": "tm-five-finger-death-punch-2026-virginia-beach-vv1k7z_eqfg7mvxk",
@@ -1358,12 +1398,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676541",
+        "url": "https://www.ticketliquidator.com/tickets/7676541/Five-Finger-Death-Punch-tickets-Mon-Oct-19-2026-Bon-Secours-Wellness-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_excRBbP",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676541"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676541",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676541/Five-Finger-Death-Punch-tickets-Mon-Oct-19-2026-Bon-Secours-Wellness-Arena"
   },
   {
     "id": "tm-five-finger-death-punch-2026-columbus-vv1aazk8egkdlofxu",
@@ -1426,13 +1474,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676549",
+        "url": "https://www.ticketliquidator.com/tickets/7676549/Five-Finger-Death-Punch-tickets-Wed-Oct-21-2026-Nationwide-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk8EGkdloFXu",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676549",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-columbus-tickets-10-21-2026/event/107164508"
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-columbus-tickets-10-21-2026/event/107164508",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676549/Five-Finger-Death-Punch-tickets-Wed-Oct-21-2026-Nationwide-Arena"
   },
   {
     "id": "tm-five-finger-death-punch-2026-bristow-1avfz_egki4tnxq",
@@ -1488,12 +1544,20 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676550",
+        "url": "https://www.ticketliquidator.com/tickets/7676550/Five-Finger-Death-Punch-tickets-Fri-Oct-23-2026-Jiffy-Lube-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_eGki4tnxQ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676550"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676550",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676550/Five-Finger-Death-Punch-tickets-Fri-Oct-23-2026-Jiffy-Lube-Live"
   },
   {
     "id": "tm-five-finger-death-punch-2027-manchester-g5vhz_gnh6q4f",
@@ -1556,13 +1620,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7987816",
+        "url": "https://www.ticketliquidator.com/tickets/7987816/Five-Finger-Death-Punch-tickets-Sat-Jan-16-2027-AO-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_GnH6Q4f",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7987816",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-manchester-manchester-ao-arena-16-1-2027/event/107164485"
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-manchester-manchester-ao-arena-16-1-2027/event/107164485",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7987816/Five-Finger-Death-Punch-tickets-Sat-Jan-16-2027-AO-Arena"
   },
   {
     "id": "tm-five-finger-death-punch-2027-birmingham-1anzk3bgkev6s0s",
@@ -1625,13 +1697,21 @@
         "verified": true,
         "last_verified_at": "2026-08-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090419",
+        "url": "https://www.ticketliquidator.com/tickets/8090419/Five-Finger-Death-Punch-tickets-Fri-Jan-22-2027-bp-pulse-LIVE",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ANZk3bGkeV6s0S",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090419",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-birmingham-bp-pulse-live-22-1-2027/event/107164486"
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-birmingham-bp-pulse-live-22-1-2027/event/107164486",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090419/Five-Finger-Death-Punch-tickets-Fri-Jan-22-2027-bp-pulse-LIVE"
   },
   {
     "id": "tm-five-finger-death-punch-2027-london-1agzk3bgkdreu6-",
@@ -1915,12 +1995,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7676437",
+        "url": "https://www.ticketliquidator.com/tickets/7676437/Five-Finger-Death-Punch-tickets-Wed-Oct-7-2026-The-Orion-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOob",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676437"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676437",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676437/Five-Finger-Death-Punch-tickets-Wed-Oct-7-2026-The-Orion-Amphitheater"
   },
   {
     "id": "tm-five-finger-death-punch-2027-glasgow-1adbz_agkuc9oes",
@@ -1983,12 +2071,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090424",
+        "url": "https://www.ticketliquidator.com/tickets/8090424/Five-Finger-Death-Punch-tickets-Sun-Jan-17-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-06",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_aGkUC9oEs",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090424",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-glasgow-ovo-hydro-arena-glasgow-17-1-2027/event/107165490"
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-glasgow-ovo-hydro-arena-glasgow-17-1-2027/event/107165490",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090424/Five-Finger-Death-Punch-tickets-Sun-Jan-17-2027-OVO-Hydro"
   }
 ]

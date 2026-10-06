@@ -21,7 +21,7 @@ import { OG_CARDS } from "./_og-cards.generated.js";
 import { attachApprovedMarketplacePrices, APPROVED_MARKETPLACE_PRICE_LANES } from "./api/shows.js";
 import { deriveEventPriceLow, fetchEventPriceLowSeries, PRICE_LOW_WINDOW_DAYS } from "./_event-price-low.js";
 import { impactMarketplaceRuntimeConfig } from "./_impact-marketplace-config.js";
-import { deriveVenues, findVenue } from "./_venues.js";
+import { canonicalLocationPath, deriveVenues, findVenue, venueSlug } from "./_venues.js";
 import { citySlug, deriveCities, findCity, metroSlugRedirect, normalizeCountry, rawCitySlug } from "./_cities.js";
 import { deriveArtistCities, deriveIndexableArtistCities, findArtistCity, artistCityFootprint } from "./_artist-cities.js";
 import { deriveCityDatePrices } from "./_artist-city-prices.js";
@@ -462,7 +462,23 @@ function findTour(catalog, artistSlug, tourSlug) {
   return (catalog.tours || []).find((row) => slugify(row.artist_slug) === artistSlug && slugify(row.slug) === tourSlug);
 }
 
+// A city, venue or artist-city URL written with an aliased city spelling
+// (CITY_ALIASES in _venues.js) 301s to wherever its canonical spelling resolves.
+// Only a path that would otherwise 404 is tried, so a real page whose slug
+// merely contains the alias ("saint-petersburg-beach") is never rewritten, and
+// the redirect goes straight to the canonical route's own terminal answer: the
+// page itself, its lifecycle redirect, or a plain 404, never a chain.
 async function routeForPath(pathname, env) {
+  const route = await resolveRoute(pathname, env);
+  if (route) return route;
+  const canonicalPath = canonicalLocationPath(normalizePath(pathname));
+  if (!canonicalPath) return null;
+  const canonicalRoute = await resolveRoute(canonicalPath, env);
+  if (!canonicalRoute) return null;
+  return { type: "redirect", location: canonicalRoute.type === "redirect" ? canonicalRoute.location : canonicalPath };
+}
+
+async function resolveRoute(pathname, env) {
   const path = normalizePath(pathname);
   if (OLD_GUIDE_REDIRECTS[path]) return { type: "redirect", location: OLD_GUIDE_REDIRECTS[path] };
   if (path === "/compare-concert-ticket-prices") return { type: "comparison-hub", path, ...TRUST_ROUTES[path] };
@@ -1143,7 +1159,8 @@ function foldName(value) {
 function musicEventName(show, artistName) {
   const eventName = String(show.event_name || "").trim();
   const artist = foldName(artistName);
-  if (eventName && artist && foldName(eventName).includes(artist)) return eventName;
+  // Whole words only: "Rush" must not match "Rushmore", nor "Muse" "Museum".
+  if (eventName && artist && ` ${foldName(eventName)} `.includes(` ${artist} `)) return eventName;
   return show.venue ? `${artistName} at ${show.venue}` : `${artistName} — ${show.city}`;
 }
 
@@ -5817,7 +5834,7 @@ function eventPageRoute(decision, artist, catalog, events) {
   const shortDate = formatShortDateServer(event.datetime_iso, event.timezone);
   const locationSlug = citySlug(city, country);
   const artistCity = findArtistCity(events, artist.slug, locationSlug);
-  const venueSlugValue = slugify(`${venue} ${city}`);
+  const venueSlugValue = venueSlug(venue, city);
   return {
     type: "event",
     path: decision.canonicalPath,

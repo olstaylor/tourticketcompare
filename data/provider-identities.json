@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-03",
+  "updated_at": "2026-10-06",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -1085,6 +1085,61 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-03 (sanctioned path D): SeatGeek performer 16295 and Ticketmaster attraction K8vZ9172pOV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "the-neighbourhood",
+      "ticketmaster_attraction_id": "K8vZ917Kzef",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/the-neighbourhood-tickets/artist/2164718",
+      "seatgeek_performer_id": 17505,
+      "seatgeek_artist_url": "https://seatgeek.com/the-neighbourhood-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-06 (sanctioned path D): SeatGeek performer 17505 and Ticketmaster attraction K8vZ917Kzef captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "staind",
+      "ticketmaster_attraction_id": "K8vZ9171ORf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/staind-tickets/artist/717721",
+      "seatgeek_performer_id": 1675,
+      "seatgeek_artist_url": "https://seatgeek.com/staind-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-06 (sanctioned path D): SeatGeek performer 1675 and Ticketmaster attraction K8vZ9171ORf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "dylan-gossett",
+      "ticketmaster_attraction_id": "K8vZ917j68V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/dylan-gossett-tickets/artist/3086445",
+      "seatgeek_performer_id": 807490,
+      "seatgeek_artist_url": "https://seatgeek.com/dylan-gossett-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-06 (sanctioned path D): SeatGeek performer 807490 and Ticketmaster attraction K8vZ917j68V captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "flans",
+      "ticketmaster_attraction_id": "K8vZ9173z77",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/flans-tickets/artist/2046401",
+      "seatgeek_performer_id": 237955,
+      "seatgeek_artist_url": "https://seatgeek.com/flans-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-06 (sanctioned path D): SeatGeek performer 237955 and Ticketmaster attraction K8vZ9173z77 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "warren-zeiders",
+      "ticketmaster_attraction_id": "K8vZ917QK3f",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/warren-zeiders-tickets/artist/2869566",
+      "seatgeek_performer_id": 797196,
+      "seatgeek_artist_url": "https://seatgeek.com/warren-zeiders-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-06 (sanctioned path D): SeatGeek performer 797196 and Ticketmaster attraction K8vZ917QK3f captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

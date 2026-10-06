@@ -1,0 +1,797 @@
+[
+  {
+    "id": "tm-the-neighbourhood-2026-san-francisco-g5vyzbgd1f1iu",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood: THE WOURLD TOUR",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2026-10-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00635ECA50AA36",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-san-francisco-california-10-07-2026/event/1C00635ECA50AA36",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-10-07-7-30-pm/concert/17878569",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-san-francisco-california-10-07-2026/event/1C00635ECA50AA36",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00635ECA50AA36",
+        "discovery_event_id": "G5vYZbgD1f1IU",
+        "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-san-francisco-california-10-07-2026/event/1C00635ECA50AA36",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZbgD1f1IU",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-neighbourhood-2026-inglewood-vv170zbggkzetq9z",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood: THE WOURLD TOUR",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2026-10-10T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900635E02A5A5C0",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-10-09-2026/event/0900635E02A5A5C0",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/inglewood-california-kia-forum-2026-10-09-7-pm/concert/17878570",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-10-09-2026/event/0900635E02A5A5C0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900635E02A5A5C0",
+        "discovery_event_id": "vv170ZbgGkzetQ9Z",
+        "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-10-09-2026/event/0900635E02A5A5C0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170ZbgGkzetQ9Z",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-neighbourhood-2026-atlanta-vvg1zz_73eik7i",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood: THE WOURLD TOUR",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2026-11-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006444A7A0612C",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-atlanta-georgia-11-10-2026/event/0E006444A7A0612C",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/atlanta-georgia-state-farm-arena-1-2026-11-10-7-30-pm/concert/18085136",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-atlanta-georgia-11-10-2026/event/0E006444A7A0612C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006444A7A0612C",
+        "discovery_event_id": "vvG1zZ_73EIk7i",
+        "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-atlanta-georgia-11-10-2026/event/0E006444A7A0612C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_73EIk7i",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-neighbourhood-2026-orlando-1axzkoogkembvjl",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood: THE WOURLD TOUR",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2026-11-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006451B763471F",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-orlando-florida-11-11-2026/event/22006451B763471F",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/orlando-florida-kia-center-2026-11-11-7-30-pm/concert/18085138",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-orlando-florida-11-11-2026/event/22006451B763471F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006451B763471F",
+        "discovery_event_id": "1AxZkooGkeMbVjL",
+        "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-orlando-florida-11-11-2026/event/22006451B763471F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZkooGkeMbVjL",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-neighbourhood-2026-miami-vvg1vz_7e0samz",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood: THE WOURLD TOUR",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Kaseya Center",
+    "datetime_iso": "2026-11-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006449E4C49B80",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-miami-florida-11-12-2026/event/0D006449E4C49B80",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/miami-florida-kaseya-center-2026-11-12-7-30-pm/concert/18085137",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-miami-florida-11-12-2026/event/0D006449E4C49B80",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006449E4C49B80",
+        "discovery_event_id": "vvG1VZ_7E0samZ",
+        "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-miami-florida-11-12-2026/event/0D006449E4C49B80",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_7E0samZ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-neighbourhood-2026-nashville-g5viz_kmzyt_i",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood: THE WOURLD TOUR",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-11-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00646BB8E7F668",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-nashville-tennessee-11-14-2026/event/1B00646BB8E7F668",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/nashville-tennessee-the-truth-nashville-2026-11-14-7-30-pm/concert/18126039",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-nashville-tennessee-11-14-2026/event/1B00646BB8E7F668",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00646BB8E7F668",
+        "discovery_event_id": "G5viZ_kmzyT_I",
+        "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-nashville-tennessee-11-14-2026/event/1B00646BB8E7F668",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_kmzyT_I",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-neighbourhood-2026-kansas-city-vv17bz_7gkr3ru0p",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood THE WORLD TOUR",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2026-11-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600644BD278D916",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-world-tour-kansas-city-missouri-11-16-2026/event/0600644BD278D916",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/kansas-city-missouri-t-mobile-center-2026-11-16-7-30-pm/concert/18085139",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-world-tour-kansas-city-missouri-11-16-2026/event/0600644BD278D916",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600644BD278D916",
+        "discovery_event_id": "vv17bZ_7GkR3ru0p",
+        "url": "https://www.ticketmaster.com/the-neighbourhood-the-world-tour-kansas-city-missouri-11-16-2026/event/0600644BD278D916",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_7GkR3ru0p",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-neighbourhood-2026-chicago-vv1a7zkoagkdxvkbx",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood: THE WOURLD TOUR",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2026-11-19T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006449E2046622",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-chicago-illinois-11-18-2026/event/04006449E2046622",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/chicago-illinois-united-center-2026-11-18-7-30-pm/concert/18140881",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-chicago-illinois-11-18-2026/event/04006449E2046622",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006449E2046622",
+        "discovery_event_id": "vv1A7ZkoaGkdxvkbx",
+        "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-chicago-illinois-11-18-2026/event/04006449E2046622",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkoaGkdxvkbx",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-neighbourhood-2026-detroit-vv17oz_7gkwiaino",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood: THE WOURLD TOUR",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2026-11-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800644CAC2688E0",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-detroit-michigan-11-19-2026/event/0800644CAC2688E0",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/detroit-michigan-little-caesars-arena-2026-11-19-7-30-pm/concert/18085141",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-detroit-michigan-11-19-2026/event/0800644CAC2688E0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800644CAC2688E0",
+        "discovery_event_id": "vv17OZ_7GkwiaINO",
+        "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-detroit-michigan-11-19-2026/event/0800644CAC2688E0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_7GkwiaINO",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-neighbourhood-2026-brooklyn-1ayzkoagkdftezg",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood: THE WOURLD TOUR",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2026-11-22T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "30006449D4A6700C",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-21-2026/event/30006449D4A6700C",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/brooklyn-new-york-barclays-center-2026-11-21-7-pm/concert/18085142",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-21-2026/event/30006449D4A6700C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006449D4A6700C",
+        "discovery_event_id": "1AYZkoaGkdftEZG",
+        "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-21-2026/event/30006449D4A6700C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AYZkoaGkdftEZG",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-neighbourhood-2026-brooklyn-15dzz_aozvwft",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood: THE WOURLD TOUR",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2026-11-22T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000645478072229",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-22-2026/event/3000645478072229",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-22-2026/event/3000645478072229",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000645478072229",
+        "discovery_event_id": "15dZZ_AozvwFt",
+        "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-22-2026/event/3000645478072229",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "15dZZ_AozvwFt",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-neighbourhood-2026-phoenix-16v0z_ac6g7w4dv",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood: THE WOURLD TOUR",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2026-12-01T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900645387C950F4",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-phoenix-arizona-11-30-2026/event/1900645387C950F4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-phoenix-arizona-11-30-2026/event/1900645387C950F4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900645387C950F4",
+        "discovery_event_id": "16v0Z_AC6G7w4dV",
+        "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-phoenix-arizona-11-30-2026/event/1900645387C950F4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16v0Z_AC6G7w4dV",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-neighbourhood-2026-san-francisco-g5vyz_a2kv6-_",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood: THE WOURLD TOUR",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2026-12-03T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006453D3D07859",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-san-francisco-california-12-02-2026/event/1C006453D3D07859",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-san-francisco-california-12-02-2026/event/1C006453D3D07859",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006453D3D07859",
+        "discovery_event_id": "G5vYZ_A2KV6-_",
+        "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-san-francisco-california-12-02-2026/event/1C006453D3D07859",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_A2KV6-_",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-neighbourhood-2026-inglewood-vv1aazkodgkdu9feo",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood: THE WOURLD TOUR",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2026-12-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006443CD5C89D1",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-04-2026/event/09006443CD5C89D1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-04-2026/event/09006443CD5C89D1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006443CD5C89D1",
+        "discovery_event_id": "vv1AaZkodGkdu9FEo",
+        "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-04-2026/event/09006443CD5C89D1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZkodGkdu9FEo",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-neighbourhood-2026-inglewood-vv1k0z_a8dg7vtxb",
+    "artist_slug": "the-neighbourhood",
+    "artist_name": "The Neighbourhood",
+    "event_name": "The Neighbourhood: THE WOURLD TOUR",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2026-12-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900645403D3F8BA",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-05-2026/event/0900645403D3F8BA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-05-2026/event/0900645403D3F8BA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900645403D3F8BA",
+        "discovery_event_id": "vv1k0Z_A8dG7VTxB",
+        "url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-05-2026/event/0900645403D3F8BA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1k0Z_A8dG7VTxB",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

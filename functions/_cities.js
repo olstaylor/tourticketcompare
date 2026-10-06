@@ -30,8 +30,53 @@ export function normalizeCountry(value) {
   return COUNTRY_ALIASES.get(raw.toLowerCase()) || raw;
 }
 
-export function citySlug(city, country) {
+// Ticketmaster files some stadiums and theatres under their suburb rather than
+// the city people search for (Marvel Stadium is "Docklands", Optus Stadium is
+// "Burswood"). Left alone, each suburb became its own thin city page and
+// artist-city page, split away from the metro it belongs to. These suburbs are
+// folded into their metro for city grouping, slugs and labels only; event
+// records keep the city Ticketmaster gave, so venue pages and event cards are
+// unchanged. Keyed by lower-cased "city|normalised country". Add a suburb here
+// only when it sits inside that metro's own urban area.
+const METRO_CITY_ALIASES = new Map([
+  ["docklands|australia", "Melbourne"],
+  ["west melbourne|australia", "Melbourne"],
+  ["st kilda|australia", "Melbourne"],
+  ["sydney olympic park|australia", "Sydney"],
+  ["burswood|australia", "Perth"],
+  ["mt claremont|australia", "Perth"],
+  ["milton|australia", "Brisbane"],
+  ["torrensville|australia", "Adelaide"]
+]);
+
+export function metroCity(city, country) {
+  const raw = canonicalCity(city);
+  return METRO_CITY_ALIASES.get(`${raw.toLowerCase()}|${normalizeCountry(country).toLowerCase()}`) || raw;
+}
+
+// The slug a city had before suburb folding. Only for questions about the
+// place Ticketmaster named (did this artist play Docklands? which city do we
+// query?), never for routes.
+export function rawCitySlug(city, country) {
   return slugify(`${canonicalCity(city)} ${normalizeCountry(country)}`);
+}
+
+export function citySlug(city, country) {
+  return slugify(`${metroCity(city, country)} ${normalizeCountry(country)}`);
+}
+
+// Slugs the suburb names used to have (/cities/docklands-australia), mapped to
+// the metro slug that now carries their shows. The router 301s the old city and
+// artist-city URLs here so links and search results keep landing.
+const METRO_SLUG_REDIRECTS = new Map(
+  [...METRO_CITY_ALIASES].map(([key, metro]) => {
+    const [suburb, country] = key.split("|");
+    return [slugify(`${suburb} ${country}`), slugify(`${metro} ${country}`)];
+  })
+);
+
+export function metroSlugRedirect(slug) {
+  return METRO_SLUG_REDIRECTS.get(slugify(slug)) || "";
 }
 
 function latestVerifiedDate(shows) {
@@ -69,8 +114,9 @@ function deriveCitiesUncached(events, options = {}) {
 
   for (const event of Array.isArray(events) ? events : []) {
     if (!event || typeof event !== "object") continue;
-    const city = canonicalCity(event.city);
+    const rawCity = canonicalCity(event.city);
     const country = normalizeCountry(event.country);
+    const city = metroCity(rawCity, country);
     const venue = String(event.venue || "").trim();
     const artistSlug = slugify(event.artist_slug);
     const iso = String(event.dateTimeISO || event.datetime_iso || "").trim();
@@ -87,7 +133,7 @@ function deriveCitiesUncached(events, options = {}) {
       event_name: String(event.event_name || "").trim(),
       tour_name: String(event.tour_name || "").trim(),
       venue,
-      venue_slug: venueSlug(venue, city),
+      venue_slug: venueSlug(venue, rawCity),
       datetime_iso: iso,
       // Carried so the page can label a show with the date it happens locally.
       // Without it the renderer falls back to UTC, which prints the wrong

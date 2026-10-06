@@ -101,7 +101,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { deriveCities, citySlug, normalizeCountry, slugify } from "../functions/_cities.js";
+import { deriveCities, citySlug, normalizeCountry, rawCitySlug, slugify } from "../functions/_cities.js";
 import { deriveVenues, venueSlug } from "../functions/_venues.js";
 import { deriveIndexableArtistCities } from "../functions/_artist-cities.js";
 import { artistPageIndexable, INDEXABLE_ARTIST_STATUS } from "../functions/_artist-indexability.js";
@@ -461,7 +461,9 @@ export function trackedMarkets(events, baseNow) {
     const city = clean(event.city);
     const country = normalizeCountry(event.country);
     if (!city || !country) continue;
-    const slug = citySlug(city, country);
+    // Keyed by the city Ticketmaster names, not the folded route slug, so
+    // Docklands and Melbourne stay separate Discovery queries.
+    const slug = rawCitySlug(city, country);
     if (!slug || out.has(slug)) continue;
     const code = COUNTRY_CODES.get(country.toLowerCase()) || null;
     out.set(slug, { slug, city, country, countryCode: code });

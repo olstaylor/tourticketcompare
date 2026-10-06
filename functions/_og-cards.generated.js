@@ -388,6 +388,7 @@ export const OG_CARDS = {
   "/cities/las-vegas-united-states": {"url":"/og/cities-las-vegas-united-states.png","alt":"Concerts in: Las Vegas"},
   "/cities/london-united-kingdom": {"url":"/og/cities-london-united-kingdom.png","alt":"Concerts in: London"},
   "/cities/los-angeles-united-states": {"url":"/og/cities-los-angeles-united-states.png","alt":"Concerts in: Los Angeles"},
+  "/cities/lubbock-united-states": {"url":"/og/cities-lubbock-united-states.png","alt":"Concerts in: Lubbock"},
   "/cities/madison-united-states": {"url":"/og/cities-madison-united-states.png","alt":"Concerts in: Madison"},
   "/cities/madrid-spain": {"url":"/og/cities-madrid-spain.png","alt":"Concerts in: Madrid"},
   "/cities/manchester-united-kingdom": {"url":"/og/cities-manchester-united-kingdom.png","alt":"Concerts in: Manchester"},

@@ -38,8 +38,7 @@
 //      no "tickets from <price>", no tour-wide range and no lowest-date claim: every
 //      figure belongs to one date, one provider and one capture time.
 
-import { slugify, normalizeCountry, citySlug } from "./_cities.js";
-import { canonicalCity } from "./_venues.js";
+import { slugify, normalizeCountry, citySlug, metroCity } from "./_cities.js";
 import { PRICE_SNAPSHOT_PROVIDERS, eventLifecycleHeld, eventPriceComparable, eventPublishable, publicOnsalePending, priceGuideGate } from "./_route-indexability.js";
 
 // ---------------------------------------------------------------------------
@@ -218,7 +217,7 @@ export function derivePriceGuide(events, artistSlug, options = {}) {
     if (!event || typeof event !== "object" || slugify(event.artist_slug) !== target) continue;
     const iso = String(event.datetime_iso || event.dateTimeISO || "").trim();
     const ts = Date.parse(iso);
-    const city = canonicalCity(event.city);
+    const city = String(event.city || "").trim();
     const country = normalizeCountry(event.country);
     const id = String(event.id || "").trim();
     if (!id || !city || !Number.isFinite(ts) || ts < now) continue;
@@ -252,7 +251,8 @@ export function derivePriceGuide(events, artistSlug, options = {}) {
     if (!show.citySlug) continue;
     let group = citiesBySlug.get(show.citySlug);
     if (!group) {
-      group = { slug: show.citySlug, city: show.city, country: show.country, label: show.city, shows: [], venues: [] };
+      const city = metroCity(show.city, show.country);
+      group = { slug: show.citySlug, city, country: show.country, label: city, shows: [], venues: [] };
       citiesBySlug.set(show.citySlug, group);
     }
     group.shows.push(show);

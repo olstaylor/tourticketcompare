@@ -30366,5 +30366,53 @@
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-shakira-2026-madrid-z698xz2qz16evp_eqp",
+    "artist_slug": "shakira",
+    "artist_name": "Shakira",
+    "country": "Spain",
+    "city": "Madrid",
+    "venue": "ESTADIO SHAKIRA(Iberdrola Music)",
+    "datetime_iso": "2026-10-12T18:30:00Z",
+    "timezone": "Europe/Madrid",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-englewood-z7r9jz1aavvvk",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "country": "United States Of America",
+    "city": "Englewood",
+    "venue": "Gothic Theatre",
+    "datetime_iso": "2027-03-15T02:30:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-englewood-z7r9jz1aaevqs",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "country": "United States Of America",
+    "city": "Englewood",
+    "venue": "Gothic Theatre",
+    "datetime_iso": "2027-05-09T02:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-red-clay-strays-2027-lubbock-z7r9jz1aaef4t",
+    "artist_slug": "the-red-clay-strays",
+    "artist_name": "The Red Clay Strays",
+    "country": "United States Of America",
+    "city": "Lubbock",
+    "venue": "Cook's Garage",
+    "datetime_iso": "2027-04-29T23:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

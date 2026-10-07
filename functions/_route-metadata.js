@@ -224,13 +224,16 @@ export function artistTourLabel(tourNames) {
  * "<artist> tickets <year>", and comparing checked ticket sites per date is
  * the page's job. The tail is shed before the year or the name is.
  *
- * When the upcoming dates carry one verified tour name (see artistTourLabel),
- * the tail names that tour instead — "<Artist> Tickets <year> | <Tour> Dates"
- * — so the page also answers "<artist> tour <year>" and "<tour> tickets".
- * Search Console (2026-10) showed the big-artist pages ranking only for the
- * bare "<artist> tickets" query, where the sellers own page one. The tour
- * name is printed exactly as the event records carry it; "Tour" is appended
- * only when the name does not already contain the word.
+ * When the upcoming dates carry one verified tour name (see artistTourLabel)
+ * and the board is not priced, the tail names that tour instead —
+ * "<Artist> Tickets <year> | <Tour> Dates" — so the page also answers
+ * "<artist> tour <year>" and "<tour> tickets". A priced board keeps
+ * "Compare Prices" first: during the Lizzy McAlpine tour launch (Sep 2026)
+ * that title ranked on page one for "<artist> ticket prices" and "how much
+ * are <artist> tickets", while tour-name queries were under 1% of the
+ * artist's impressions. The tour titles stay as the over-budget fallback.
+ * The tour name is printed exactly as the event records carry it; "Tour" is
+ * appended only when the name does not already contain the word.
  *
  * "Compare Prices" is promised only when `options.priced` is true: an upcoming
  * date carries two listed-price lanes, so the page can show a same-event
@@ -259,20 +262,21 @@ export function artistPageTitle(artist, yearLabel, tourLabel = "", { priced = tr
   if (!name || !yearLabel || !houseTemplates.includes(authored)) return authored;
   const tour = String(tourLabel ?? "").trim();
   const tourPhrase = tour ? (/\btour\b/i.test(tour) ? tour : `${tour} Tour`) : "";
+  const tourTitles = tourPhrase
+    ? [
+        `${name} Tickets ${yearLabel} | ${tourPhrase} Dates`,
+        `${name} ${tourPhrase.replace(/^the\s+/i, "")} Tickets ${yearLabel}`
+      ]
+    : [];
   return fitTitleToBudget([
-    ...(tourPhrase
-      ? [
-          `${name} Tickets ${yearLabel} | ${tourPhrase} Dates`,
-          `${name} ${tourPhrase.replace(/^the\s+/i, "")} Tickets ${yearLabel}`
-        ]
-      : []),
     ...(priced
       ? [
           `${name} Tickets ${yearLabel} | Compare Prices & Tour Dates`,
           `${name} Tickets ${yearLabel} | Compare Prices & Dates`,
-          `${name} Tickets ${yearLabel} | Compare Prices`
+          `${name} Tickets ${yearLabel} | Compare Prices`,
+          ...tourTitles
         ]
-      : [`${name} Tickets ${yearLabel} | Tour Dates & Ticket Links`, `${name} Tickets ${yearLabel} | Tour Dates`]),
+      : [...tourTitles, `${name} Tickets ${yearLabel} | Tour Dates & Ticket Links`, `${name} Tickets ${yearLabel} | Tour Dates`]),
     `${name} Tickets ${yearLabel}`,
     authored
   ]);
@@ -291,9 +295,9 @@ export const TRUST_ROUTES = {
   "/": {
     title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
     description:
-      "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where available, then check the total.",
+      "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.",
     indexable: true,
-    lastmod: "2026-10-05"
+    lastmod: "2026-10-06"
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices by Site | TourTicketCompare",
@@ -301,7 +305,7 @@ export const TRUST_ROUTES = {
       "Compare prices for the same checked concert across ticket sites where listed-price snapshots are eligible, then confirm fees and the total with the provider.",
     indexable: true,
     breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }],
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-06"
   },
   "/artists": {
     title: "Artists | TourTicketCompare",
@@ -309,7 +313,7 @@ export const TRUST_ROUTES = {
       "Browse major artist pages with verified ticket links where available and practical buying guidance on what to check before checkout.",
     indexable: true,
     breadcrumb: [{ name: "Artists", path: "/artists" }],
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-06"
   },
   "/guides": {
     title: "Concert Ticket Buying Guides | TourTicketCompare",
@@ -326,7 +330,7 @@ export const TRUST_ROUTES = {
     indexable: true,
     faq: true,
     breadcrumb: [{ name: "How it works", path: "/how-it-works" }],
-    lastmod: "2026-09-24"
+    lastmod: "2026-10-06"
   },
   "/currency-converter": {
     title: "Currency Converter for Concert Tickets | TourTicketCompare",
@@ -334,7 +338,7 @@ export const TRUST_ROUTES = {
       "Convert a ticket budget between currencies using European Central Bank reference rates, then confirm the checkout currency and card fees with the provider.",
     indexable: true,
     breadcrumb: [{ name: "Currency converter", path: "/currency-converter" }],
-    lastmod: "2026-09-24"
+    lastmod: "2026-10-06"
   },
   "/about": {
     title: "About TourTicketCompare",

@@ -530,7 +530,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-wheatland-california-11-12-2026/event/1C0064F6966E883D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -581,7 +581,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164815",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164815/Tyla-tickets-Thu-Nov-12-2026-Hard-Rock-Live-Sacramento"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164815/Tyla-tickets-Thu-Nov-12-2026-Hard-Rock-Live-Sacramento",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T17:00:00Z",
+        "end": "2026-11-06T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-san-francisco-g5vyz_2fimqin",
@@ -599,7 +606,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-san-francisco-bill-graham-civic-auditorium-11-13-2026--concerts-pop/production/7347435",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-san-francisco-california-11-13-2026/event/1C0064F528DDDB2A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -658,7 +665,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164817",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164817/Tyla-tickets-Fri-Nov-13-2026-Bill-Graham-Civic-Auditorium",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-san-francisco-tickets-11-13-2026/event/107460123"
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-san-francisco-tickets-11-13-2026/event/107460123",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-31T17:00:00Z",
+        "end": "2026-11-07T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-vancouver-1778v0g62hxtorg",
@@ -676,7 +690,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-11-15-2026--concerts-pop/production/7347496",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-vancouver-british-columbia-11-15-2026/event/110064F6FEA517B5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -727,7 +741,19 @@
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164819",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164819/Tyla-tickets-Sun-Nov-15-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164819/Tyla-tickets-Sun-Nov-15-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-07-31T17:00:00Z",
+        "end": "2026-11-02T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-31T17:00:00Z",
+        "end": "2026-11-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-seattle-vvg1hz_2qgz489",
@@ -745,7 +771,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-seattle-wamu-theater---seattle-11-17-2026--concerts-pop/production/7347437",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-seattle-washington-11-17-2026/event/0F0064F74C015417",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -804,7 +830,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164824",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164824/Tyla-tickets-Tue-Nov-17-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-seattle-tickets-11-17-2026/event/107462080"
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-seattle-tickets-11-17-2026/event/107462080",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T17:00:00Z",
+        "end": "2026-11-11T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-denver-g5vzz_2qdtig-",
@@ -818,11 +851,11 @@
     "tour_name": "The A*POP World Tour",
     "ticketmaster_event_id": "1E0064F6BBFECD61",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-denver-colorado-11-20-2026/event/1E0064F6BBFECD61",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tyla-tickets/denver-colorado-fillmore-auditorium-denver-2026-11-20-6-30-pm/concert/18404274",
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-denver-fillmore-auditorium-denver-11-20-2026--concerts-pop/production/7347439",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-denver-colorado-11-20-2026/event/1E0064F6BBFECD61",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -834,11 +867,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18404274,
+        "url": "https://seatgeek.com/tyla-tickets/denver-colorado-fillmore-auditorium-denver-2026-11-20-6-30-pm/concert/18404274",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7347439,
@@ -857,7 +890,14 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_2QDTig-",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-31T16:00:00Z",
+        "end": "2026-11-14T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-chicago-vvg18z_2o77qju",
@@ -875,7 +915,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-chicago-aragon-ballroom-11-22-2026--concerts-pop/production/7347441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-chicago-illinois-11-22-2026/event/040064F44411D736",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -934,7 +974,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164826",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164826/Tyla-tickets-Sun-Nov-22-2026-Byline-Bank-Aragon-Ballroom",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-chicago-tickets-11-22-2026/event/107460124"
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-chicago-tickets-11-22-2026/event/107460124",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T15:00:00Z",
+        "end": "2026-11-16T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-boston-vvg17z_2pblciw",
@@ -952,7 +999,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-boston-mgm-music-hall-at-fenway-11-25-2026--concerts-pop/production/7347443",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-boston-massachusetts-11-25-2026/event/010064F598ACEA3D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1011,7 +1058,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164827",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164827/Tyla-tickets-Wed-Nov-25-2026-MGM-Music-Hall-at-Fenway-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-boston-tickets-11-25-2026/event/107460125"
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-boston-tickets-11-25-2026/event/107460125",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T14:00:00Z",
+        "end": "2026-11-19T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-toronto-177zv0g6294fsr8",
@@ -1025,11 +1079,11 @@
     "tour_name": "The A*POP World Tour",
     "ticketmaster_event_id": "100064F5D5533790",
     "ticketmaster_url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-toronto-ontario-11-26-2026/event/100064F5D5533790",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tyla-tickets/toronto-canada-coca-cola-coliseum-2026-11-26-8-pm/concert/18404308",
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-toronto-coca-cola-coliseum-11-26-2026--concerts-pop/production/7347498",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-toronto-ontario-11-26-2026/event/100064F5D5533790",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1041,11 +1095,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18404308,
+        "url": "https://seatgeek.com/tyla-tickets/toronto-canada-coca-cola-coliseum-2026-11-26-8-pm/concert/18404308",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7347498,
@@ -1064,7 +1118,14 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G6294fSr8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-31T14:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-brooklyn-k7vgf_2xiqkw5",
@@ -1082,7 +1143,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-brooklyn-brooklyn-paramount-11-28-2026--concerts-pop/production/7347445",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-28-2026/event/000064F8AC686C8B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1141,7 +1202,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164811",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164811/Tyla-tickets-Sat-Nov-28-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-brooklyn-tickets-11-28-2026/event/107460126"
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-brooklyn-tickets-11-28-2026/event/107460126",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T14:00:00Z",
+        "end": "2026-11-22T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-brooklyn-k7vgf_2xiquwo",
@@ -1159,7 +1227,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-brooklyn-brooklyn-paramount-11-29-2026--concerts-pop/production/7367910",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-29-2026/event/000064F8AC6B6CA0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1218,7 +1286,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8228565",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8228565/Tyla-tickets-Sun-Nov-29-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-brooklyn-tickets-11-29-2026/event/107524086"
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-brooklyn-tickets-11-29-2026/event/107524086",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T16:30:00Z",
+        "end": "2026-11-23T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-washington-17a8v0g6267w7kc",
@@ -1236,7 +1311,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-washington-dc-the-anthem-12-2-2026--concerts-pop/production/7347447",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-washington-district-of-columbia-12-02-2026/event/150064F1C4C841AD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1295,7 +1370,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164835",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164835/Tyla-tickets-Wed-Dec-2-2026-The-Anthem-DC",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-washington-tickets-12-2-2026/event/107460129"
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-washington-tickets-12-2-2026/event/107460129",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T14:00:00Z",
+        "end": "2026-11-26T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-tampa-vvg1vz_2xeqp5j",
@@ -1313,7 +1395,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-tampa-yuengling-center-12-5-2026--concerts-pop/production/7347449",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-tampa-florida-12-05-2026/event/0D0064F8A77562E6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1372,7 +1454,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164840",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164840/Tyla-tickets-Sat-Dec-5-2026-The-Yuengling-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-tampa-tickets-12-5-2026/event/107460130"
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-tampa-tickets-12-5-2026/event/107460130",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T14:00:00Z",
+        "end": "2026-11-29T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-atlanta-vvg1zz_2xnv9ge",
@@ -1390,7 +1479,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-atlanta-coca-cola-roxy-theatre-12-6-2026--concerts-pop/production/7347451",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-atlanta-georgia-12-06-2026/event/0E0064F8A3057D42",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1449,7 +1538,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164845",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164845/Tyla-tickets-Sun-Dec-6-2026-Coca-Cola-Roxy",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-atlanta-tickets-12-6-2026/event/107460138"
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-atlanta-tickets-12-6-2026/event/107460138",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T14:00:00Z",
+        "end": "2026-11-30T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-irving-vvg1yz_2hhoqxx",
@@ -1467,7 +1563,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-irving-pavilion-at-toyota-music-factory-12-9-2026--concerts-pop/production/7347453",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-irving-texas-12-09-2026/event/0C0064F6DB45AFBE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1526,7 +1622,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164850",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164850/Tyla-tickets-Wed-Dec-9-2026-The-Pavilion-at-Toyota-Music-Factory",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-irving-tickets-12-9-2026/event/107460139"
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-irving-tickets-12-9-2026/event/107460139",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T15:00:00Z",
+        "end": "2026-12-03T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-houston-g5diz_2qrewdk",
@@ -1544,7 +1647,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-houston-713-music-hall-12-10-2026--concerts-pop/production/7347456",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-houston-texas-12-10-2026/event/3A0064F6AF9FD0D3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1603,7 +1706,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164851",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164851/Tyla-tickets-Thu-Dec-10-2026-713-Music-Hall",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-houston-tickets-12-10-2026/event/107463078"
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-houston-tickets-12-10-2026/event/107463078",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T15:00:00Z",
+        "end": "2026-12-04T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-austin-g5diz_2xjh2vb",
@@ -1621,7 +1731,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-austin-moody-center-atx-12-11-2026--concerts-pop/production/7347458",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-austin-texas-12-11-2026/event/3A0064F8A6F0F07A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1680,7 +1790,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164672",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164672/Tyla-tickets-Fri-Dec-11-2026-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-austin-tickets-12-11-2026/event/107460140"
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-austin-tickets-12-11-2026/event/107460140",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T15:00:00Z",
+        "end": "2026-12-05T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-phoenix-17k8v0g62ljff-n",
@@ -1698,7 +1815,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-phoenix-arizona-financial-theatre-12-14-2026--concerts-pop/production/7347462",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-phoenix-arizona-12-14-2026/event/190064F7DC208863",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1757,7 +1874,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164852",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164852/Tyla-tickets-Mon-Dec-14-2026-Arizona-Financial-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-phoenix-tickets-12-14-2026/event/107463079"
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-phoenix-tickets-12-14-2026/event/107463079",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T17:00:00Z",
+        "end": "2026-12-08T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-san-diego-vvg1iz_cilyeb0",
@@ -1775,7 +1899,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-san-diego-california-12-15-2026/event/0A0064EB1FC27EA4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1826,7 +1950,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164857",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164857/Tyla-tickets-Tue-Dec-15-2026-Viejas-Arena-At-Aztec-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164857/Tyla-tickets-Tue-Dec-15-2026-Viejas-Arena-At-Aztec-Bowl",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T17:00:00Z",
+        "end": "2026-12-09T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-inglewood-vvg1iz_cjqejmf",
@@ -1844,7 +1975,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-inglewood-youtube-theater-12-16-2026--concerts-pop/production/7347466",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-inglewood-california-12-16-2026/event/0A0064E99D9E6DC8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1903,7 +2034,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164858",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164858/Tyla-tickets-Wed-Dec-16-2026-YouTube-Theater-at-Hollywood-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-inglewood-tickets-12-16-2026/event/107460141"
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-inglewood-tickets-12-16-2026/event/107460141",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T17:00:00Z",
+        "end": "2026-12-10T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tyla-2026-las-vegas-17ayv0g629nf-rw",
@@ -1921,7 +2059,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-las-vegas-fontainebleau-las-vegas-12-19-2026--concerts-pop/production/7347468",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-las-vegas-nevada-12-19-2026/event/170064F5EA2217B2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1972,6 +2110,13 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164859",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164859/Tyla-tickets-Sat-Dec-19-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164859/Tyla-tickets-Sat-Dec-19-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-31T17:00:00Z",
+        "end": "2026-12-13T06:00:00Z"
+      }
+    ]
   }
 ]

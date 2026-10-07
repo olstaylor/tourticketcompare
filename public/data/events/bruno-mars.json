@@ -3043,7 +3043,7 @@
     "tour_name": "The Romantic Tour",
     "ticketmaster_event_id": "0A006426C23B4B2A",
     "ticketmaster_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-06-2026/event/0A006426C23B4B2A",
-    "seatgeek_url": "https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-06-7-pm/concert/18013259",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/bruno-mars-tickets-inglewood-sofi-stadium-10-6-2026--concerts-pop/production/6526023",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bruno-mars-the-romantic-tour-inglewood-california-10-06-2026/event/0A006426C23B4B2A",
@@ -3058,11 +3058,11 @@
         "discovery_event_id": "vvG1IZ_eheCVin"
       },
       "seatgeek": {
-        "event_id": 18013259,
-        "url": "https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-06-7-pm/concert/18013259",
-        "verified": true,
-        "last_verified_at": "2026-10-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6526023,
@@ -3079,34 +3079,34 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7679806",
-        "url": "https://www.ticketnetwork.com/en/p/7679806",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7679806",
-        "url": "https://www.ticketliquidator.com/tickets/7679806/Bruno-Mars-tickets-Tue-Oct-6-2026-SoFi-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107073304",
-        "url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-6-2026/event/107073304",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_eheCVin",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7679806",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7679806/Bruno-Mars-tickets-Tue-Oct-6-2026-SoFi-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-6-2026/event/107073304"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_eheo7is",
@@ -3138,7 +3138,7 @@
         "event_id": 18013882,
         "url": "https://seatgeek.com/bruno-mars-tickets/inglewood-california-sofi-stadium-2026-10-07-7-pm/concert/18013882",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3215,7 +3215,7 @@
         "event_id": 18004682,
         "url": "https://seatgeek.com/bruno-mars-tickets/santa-clara-california-levi-s-stadium-2026-10-10-7-pm/concert/18004682",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3292,7 +3292,7 @@
         "event_id": 18013261,
         "url": "https://seatgeek.com/bruno-mars-tickets/santa-clara-california-levi-s-stadium-2026-10-11-7-pm/concert/18013261",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3369,7 +3369,7 @@
         "event_id": 18004687,
         "url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-14-7-pm/concert/18004687",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3446,7 +3446,7 @@
         "event_id": 18013263,
         "url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-16-7-pm/concert/18013263",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3523,7 +3523,7 @@
         "event_id": 18013350,
         "url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-17-7-pm/concert/18013350",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3600,7 +3600,7 @@
         "event_id": 18016784,
         "url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-20-7-pm/concert/18016784",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3677,7 +3677,7 @@
         "event_id": 18107920,
         "url": "https://seatgeek.com/bruno-mars-tickets/vancouver-canada-bc-place-stadium-2026-10-21-7-pm/concert/18107920",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {

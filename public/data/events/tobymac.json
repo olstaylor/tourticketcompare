@@ -137,7 +137,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-evansville-ford-center-evansville-11-6-2026--concerts-adult-contemporary/production/7024067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-evansville-indiana-11-06-2026/event/050064AA2551F782",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -188,7 +188,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957526/TobyMac-tickets-Fri-Nov-6-2026-Ford-Center-IN",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957526"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957526",
+    "presales": [
+      {
+        "name": "Friends & Family",
+        "start": "2026-10-05T15:00:00Z",
+        "end": "2026-10-13T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2026-cleveland-vvg1fz_1raogqa",
@@ -202,7 +209,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "050064ABC980C685",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-cleveland-ohio-11-07-2026/event/050064ABC980C685",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/cleveland-ohio-wolstein-center-2026-11-07-7-pm/concert/18238371",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-cleveland-wolstein-center-at-csu-11-7-2026/production/7024282",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-third-day-chris-tomlin-cleveland-ohio-11-07-2026/event/050064ABC980C685",
@@ -218,11 +225,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18238371,
+        "url": "https://seatgeek.com/tobymac-tickets/cleveland-ohio-wolstein-center-2026-11-07-7-pm/concert/18238371",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7024282,
@@ -397,7 +404,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-lexington-rupp-arena-1-29-2027/production/7491831",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lexington-kentucky-01-29-2027/event/16006518AF849566",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448,7 +455,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239059",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239059/TobyMac-tickets-Fri-Jan-29-2027-Rupp-Arena-At-Central-Bank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239059/TobyMac-tickets-Fri-Jan-29-2027-Rupp-Arena-At-Central-Bank-Center",
+    "presales": [
+      {
+        "name": "General Onsale",
+        "start": "2026-09-21T04:01:00Z",
+        "end": "2027-01-30T02:00:00Z"
+      },
+      {
+        "name": "Friends & Family Discount",
+        "start": "2026-10-05T04:01:00Z",
+        "end": "2026-10-13T03:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2027-huntsville-1aozkfbgkdezfqd",
@@ -462,7 +481,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "20006518E7E1477B",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-huntsville-alabama-01-30-2027/event/20006518E7E1477B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/huntsville-alabama-propst-arena-at-the-von-braun-center-2027-01-30-7-pm/concert/18542844",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-huntsville-propst-arena-at-the-von-braun-center-1-30-2027/production/7491903",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-huntsville-alabama-01-30-2027/event/20006518E7E1477B",
@@ -478,11 +497,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18542844,
+        "url": "https://seatgeek.com/tobymac-tickets/huntsville-alabama-propst-arena-at-the-von-braun-center-2027-01-30-7-pm/concert/18542844",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7491903,
@@ -519,7 +538,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lafayette-louisiana-01-31-2027/event/1B0064FE94017915",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -554,7 +573,14 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_2BfZ904",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Friends & Family Discount",
+        "start": "2026-10-05T05:01:00Z",
+        "end": "2026-10-13T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2027-tampa-vvg1vz_oe_5n5h",
@@ -572,7 +598,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-tampa-benchmark-international-arena-2-4-2027/production/7491804",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tampa-florida-02-04-2027/event/0D006519D92EA2FC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -631,7 +657,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239062",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239062/TobyMac-tickets-Thu-Feb-4-2027-Benchmark-International-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/tobymac-tampa-tickets-2-4-2027/event/107666769"
+    "stubhub_international_url": "https://www.stubhub.ie/tobymac-tampa-tickets-2-4-2027/event/107666769",
+    "presales": [
+      {
+        "name": "Friends & Family",
+        "start": "2026-10-05T04:01:00Z",
+        "end": "2026-10-13T03:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2027-sunrise-z7r9jz1aav8xe",
@@ -664,7 +697,7 @@
         "event_id": 18527954,
         "url": "https://seatgeek.com/tobymac-tickets/sunrise-florida-amerant-bank-arena-2027-02-05-7-pm/concert/18527954",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -964,7 +997,7 @@
         "event_id": 18548802,
         "url": "https://seatgeek.com/tobymac-tickets/sugar-land-texas-smart-financial-centre-2027-02-12-7-pm/concert/18548802",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1017,7 +1050,7 @@
         "event_id": 18548804,
         "url": "https://seatgeek.com/tobymac-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-02-13-7-pm/concert/18548804",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1071,7 +1104,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-columbus-nationwide-arena-2-18-2027/production/7491821",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-columbus-ohio-02-18-2027/event/05006518DC7A1551",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1122,7 +1155,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239088",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239088/TobyMac-tickets-Thu-Feb-18-2027-Nationwide-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239088/TobyMac-tickets-Thu-Feb-18-2027-Nationwide-Arena",
+    "presales": [
+      {
+        "name": "Friends & Family Offer",
+        "start": "2026-10-05T04:01:00Z",
+        "end": "2026-10-13T03:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2027-norfolk-z7r9jz1aav8r3",
@@ -1155,7 +1195,7 @@
         "event_id": 18548806,
         "url": "https://seatgeek.com/tobymac-tickets/norfolk-virginia-chartway-arena-2027-02-21-6-30-pm/concert/18548806",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1209,7 +1249,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-jacksonville-vystar-veterans-memorial-arena-2-25-2027/production/7491823",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-jacksonville-florida-02-25-2027/event/22006519E9C55984",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1260,7 +1300,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239091",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239091/TobyMac-tickets-Thu-Feb-25-2027-VyStar-Veterans-Memorial-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239091/TobyMac-tickets-Thu-Feb-25-2027-VyStar-Veterans-Memorial-Arena",
+    "presales": [
+      {
+        "name": "Friends & Family Discount",
+        "start": "2026-10-05T04:01:00Z",
+        "end": "2026-10-13T03:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2027-nashville-g5viz_oeqedtw",
@@ -1416,7 +1463,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-knoxville-thompson-boling-arena-at-food-city-center-2-28-2027--concerts-adult-contemporary/production/7492562",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-knoxville-tennessee-02-28-2027/event/1B006519D1C0177D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1467,7 +1514,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239094",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239094/TobyMac-tickets-Sun-Feb-28-2027-Thompson-Boling-Arena-at-Food-City-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239094/TobyMac-tickets-Sun-Feb-28-2027-Thompson-Boling-Arena-at-Food-City-Center",
+    "presales": [
+      {
+        "name": "Groups",
+        "start": "2026-09-10T16:00:00Z",
+        "end": "2027-02-28T04:59:00Z"
+      },
+      {
+        "name": "Friends & Family",
+        "start": "2026-10-05T04:00:00Z",
+        "end": "2026-10-13T03:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2027-toledo-vv1afzkf_gkeg66aj",
@@ -1554,7 +1613,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-fishers-fishers-event-center-3-5-2027--concerts-adult-contemporary/production/7492523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fishers-indiana-03-05-2027/event/05006515C676EDEE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1605,7 +1664,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239099",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239099/TobyMac-tickets-Fri-Mar-5-2027-Fishers-Event-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239099/TobyMac-tickets-Fri-Mar-5-2027-Fishers-Event-Center",
+    "presales": [
+      {
+        "name": "Friends & Family Offer",
+        "start": "2026-10-05T04:01:00Z",
+        "end": "2026-10-13T03:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2027-cape-girardeau-z7r9jz1aav8-f",
@@ -1638,7 +1704,7 @@
         "event_id": 18548872,
         "url": "https://seatgeek.com/tobymac-tickets/cape-girardeau-missouri-show-me-center-2027-03-06-7-pm/concert/18548872",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1761,7 +1827,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-austin-moody-center-atx-3-11-2027/production/7491794",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-austin-texas-03-11-2027/event/3A006519DF89EF83",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1820,7 +1886,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239102",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239102/TobyMac-tickets-Thu-Mar-11-2027-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/tobymac-austin-tickets-3-11-2027/event/107666374"
+    "stubhub_international_url": "https://www.stubhub.ie/tobymac-austin-tickets-3-11-2027/event/107666374",
+    "presales": [
+      {
+        "name": "Group Offer",
+        "start": "2026-09-21T05:01:00Z",
+        "end": "2027-03-12T01:00:00Z"
+      },
+      {
+        "name": "Friends & Family Offer",
+        "start": "2026-10-05T05:01:00Z",
+        "end": "2026-10-13T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2027-lubbock-z7r9jz1aav8o_",
@@ -1853,7 +1931,7 @@
         "event_id": 18548874,
         "url": "https://seatgeek.com/tobymac-tickets/lubbock-texas-united-supermarkets-arena-2027-03-13-7-pm/concert/18548874",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1976,7 +2054,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-saint-louis-missouri-03-20-2027/event/06006519CD409316",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2011,7 +2089,14 @@
     },
     "ticketmaster_discovery_event_id": "vv1AkZkf_Gkdu8aGp",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Friends & Family",
+        "start": "2026-10-05T05:01:00Z",
+        "end": "2026-10-13T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2027-fairfax-1a4zkf_gkd7dmjf",

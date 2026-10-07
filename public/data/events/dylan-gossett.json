@@ -46,11 +46,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8111328",
+        "url": "https://www.ticketnetwork.com/en/p/8111328",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8111328",
+        "url": "https://www.ticketliquidator.com/tickets/8111328/Dylan-Gossett-tickets-Sat-Oct-24-2026-Magnolia-Market-At-The-Silos",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JdAk",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8111328",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8111328/Dylan-Gossett-tickets-Sat-Oct-24-2026-Magnolia-Market-At-The-Silos"
   },
   {
     "id": "tm-dylan-gossett-2026-chicago-vvg18z_u5xbtr6",
@@ -152,11 +168,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8073983",
+        "url": "https://www.ticketnetwork.com/en/p/8073983",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8073983",
+        "url": "https://www.ticketliquidator.com/tickets/8073983/Dylan-Gossett-tickets-Fri-Oct-30-2026-Citizens-Live-at-The-Wylie",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G6u5IJrxE",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8073983",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8073983/Dylan-Gossett-tickets-Fri-Oct-30-2026-Citizens-Live-at-The-Wylie"
   },
   {
     "id": "tm-dylan-gossett-2026-apopka-z7r9jz1a7ps7y",
@@ -205,11 +237,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8073985",
+        "url": "https://www.ticketnetwork.com/en/p/8073985",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8073985",
+        "url": "https://www.ticketliquidator.com/tickets/8073985/Dylan-Gossett-tickets-Sat-Nov-21-2026-Apopka-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ps7y",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8073985",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8073985/Dylan-Gossett-tickets-Sat-Nov-21-2026-Apopka-Amphitheater"
   },
   {
     "id": "tm-dylan-gossett-2026-brisbane-177yv0g61tezlg8",
@@ -417,11 +465,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107469555",
+        "url": "https://www.stubhub.ie/dylan-gossett-tickets-london-o2-academy-brixton-18-2-2027/event/107469555",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_8Kn_3tz",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-london-o2-academy-brixton-18-2-2027/event/107469555"
   },
   {
     "id": "tm-dylan-gossett-2027-manchester-g5dzz_8hqwevt",
@@ -523,11 +579,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265884",
+        "url": "https://www.ticketnetwork.com/en/p/8265884",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265884",
+        "url": "https://www.ticketliquidator.com/tickets/8265884/Dylan-Gossett-tickets-Sun-Feb-21-2027-O2-Academy-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107476097",
+        "url": "https://www.stubhub.ie/dylan-gossett-tickets-birmingham-o2-academy-birmingham-21-2-2027/event/107476097",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_83l8ohZ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265884",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265884/Dylan-Gossett-tickets-Sun-Feb-21-2027-O2-Academy-Birmingham",
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-birmingham-o2-academy-birmingham-21-2-2027/event/107476097"
   },
   {
     "id": "tm-dylan-gossett-2027-glasgow-g5dzz_8pg5sb3",
@@ -576,11 +656,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107482715",
+        "url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-23-2-2027/event/107482715",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_8pg5sb3",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-23-2-2027/event/107482715"
   },
   {
     "id": "tm-dylan-gossett-2027-glasgow-g5dzz_8qwdoqp",
@@ -629,11 +717,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107469557",
+        "url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-24-2-2027/event/107469557",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_8QwdoqP",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-24-2-2027/event/107469557"
   },
   {
     "id": "tm-dylan-gossett-2027-dublin-17kzv0g62wo552g",
@@ -704,7 +800,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charleston-south-carolina-03-25-2027/event/2D00653EE555C1C0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -739,7 +835,14 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KDP4j6Z",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-03-04T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-north-myrtle-beach-g5evz_kuxkrl8",
@@ -757,7 +860,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-north-myrtle-beach-south-carolina-03-26-2027/event/2D00653DBE4DEAD0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -788,11 +891,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303652",
+        "url": "https://www.ticketnetwork.com/en/p/8303652",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303652",
+        "url": "https://www.ticketliquidator.com/tickets/8303652/Dylan-Gossett-tickets-Fri-Mar-26-2027-House-Of-Blues-Myrtle-Beach",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KUXKrl8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-03-06T04:59:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303652",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303652/Dylan-Gossett-tickets-Fri-Mar-26-2027-House-Of-Blues-Myrtle-Beach"
   },
   {
     "id": "tm-dylan-gossett-2027-charlotte-g5evz_kb2iepf",
@@ -810,7 +936,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charlotte-north-carolina-03-27-2027/event/2D00653E8FB27954",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -841,11 +967,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303653",
+        "url": "https://www.ticketnetwork.com/en/p/8303653",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303653",
+        "url": "https://www.ticketliquidator.com/tickets/8303653/Dylan-Gossett-tickets-Sat-Mar-27-2027-The-Fillmore-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KB2iEPf",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-03-02T04:59:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303653",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303653/Dylan-Gossett-tickets-Sat-Mar-27-2027-The-Fillmore-Charlotte"
   },
   {
     "id": "tm-dylan-gossett-2027-chattanooga-z7r9jz1aae4bi",
@@ -894,11 +1043,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307109",
+        "url": "https://www.ticketnetwork.com/en/p/8307109",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307109",
+        "url": "https://www.ticketliquidator.com/tickets/8307109/Dylan-Gossett-tickets-Tue-Mar-30-2027-The-Signal-TN",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4bI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307109",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307109/Dylan-Gossett-tickets-Tue-Mar-30-2027-The-Signal-TN"
   },
   {
     "id": "tm-dylan-gossett-2027-saint-louis-1ae7z_kgkyeggq8",
@@ -916,7 +1081,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-saint-louis-missouri-03-31-2027/event/2100653E42D4C750",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -951,7 +1116,14 @@
     },
     "ticketmaster_discovery_event_id": "1Ae7Z_KGkyegGq8",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2027-03-11T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-fayetteville-z7r9jz1aae4bt",
@@ -1000,11 +1172,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8304295",
+        "url": "https://www.ticketnetwork.com/en/p/8304295",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8304295",
+        "url": "https://www.ticketliquidator.com/tickets/8304295/Dylan-Gossett-tickets-Fri-Apr-2-2027-Ozark-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4bt",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8304295",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8304295/Dylan-Gossett-tickets-Fri-Apr-2-2027-Ozark-Music-Hall"
   },
   {
     "id": "tm-dylan-gossett-2027-memphis-g5viz_f659_2b",
@@ -1022,7 +1210,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-memphis-tennessee-04-03-2027/event/1B006541CB5D93D8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1053,11 +1241,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303655",
+        "url": "https://www.ticketnetwork.com/en/p/8303655",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303655",
+        "url": "https://www.ticketliquidator.com/tickets/8303655/Dylan-Gossett-tickets-Sat-Apr-3-2027-Satellite-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f659_2b",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2027-03-14T05:59:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303655",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303655/Dylan-Gossett-tickets-Sat-Apr-3-2027-Satellite-Music-Hall"
   },
   {
     "id": "tm-dylan-gossett-2027-birmingham-1aezz_kgkbdr7ks",
@@ -1075,7 +1286,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-birmingham-alabama-04-04-2027/event/2000653EBBBC44F3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1110,7 +1321,14 @@
     },
     "ticketmaster_discovery_event_id": "1AeZZ_KGkBDR7KS",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2027-03-08T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-philadelphia-vv17fz_kgkmvqdsy",
@@ -1128,7 +1346,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-philadelphia-pennsylvania-04-06-2027/event/0200653DC1683C79",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1159,11 +1377,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303657",
+        "url": "https://www.ticketnetwork.com/en/p/8303657",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303657",
+        "url": "https://www.ticketliquidator.com/tickets/8303657/Dylan-Gossett-tickets-Tue-Apr-6-2027-The-Met-Presented-by-Highmark",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkMvQdsy",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-03-17T03:59:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303657",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303657/Dylan-Gossett-tickets-Tue-Apr-6-2027-The-Met-Presented-by-Highmark"
   },
   {
     "id": "tm-dylan-gossett-2027-baltimore-1avfz_kgkbht6mj",
@@ -1181,7 +1422,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-baltimore-maryland-04-07-2027/event/1500653E9BFC7BA6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1212,11 +1453,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303658",
+        "url": "https://www.ticketnetwork.com/en/p/8303658",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303658",
+        "url": "https://www.ticketliquidator.com/tickets/8303658/Dylan-Gossett-tickets-Wed-Apr-7-2027-The-Paramount-Baltimore",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_KGkBhT6mJ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-03-18T03:59:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303658",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303658/Dylan-Gossett-tickets-Wed-Apr-7-2027-The-Paramount-Baltimore"
   },
   {
     "id": "tm-dylan-gossett-2027-columbus-z7r9jz1aae4by",
@@ -1265,11 +1529,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307089",
+        "url": "https://www.ticketnetwork.com/en/p/8307089",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307089",
+        "url": "https://www.ticketliquidator.com/tickets/8307089/Dylan-Gossett-tickets-Thu-Apr-8-2027-KEMBA-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4bY",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307089",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307089/Dylan-Gossett-tickets-Thu-Apr-8-2027-KEMBA-Live"
   },
   {
     "id": "tm-dylan-gossett-2027-detroit-vv17oz_kgkub0uhh",
@@ -1287,7 +1567,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-detroit-michigan-04-10-2027/event/0800653DBA936F3C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1318,11 +1598,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303659",
+        "url": "https://www.ticketnetwork.com/en/p/8303659",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303659",
+        "url": "https://www.ticketliquidator.com/tickets/8303659/Dylan-Gossett-tickets-Sat-Apr-10-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkUB0UHH",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-03-14T03:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303659",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303659/Dylan-Gossett-tickets-Sat-Apr-10-2027-The-Fillmore-Detroit"
   },
   {
     "id": "tm-dylan-gossett-2027-grand-rapids-vv17oz_kgkubfkdd",
@@ -1340,7 +1643,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-grand-rapids-michigan-04-11-2027/event/0800653DBA206EC3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1371,11 +1674,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303660",
+        "url": "https://www.ticketnetwork.com/en/p/8303660",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303660",
+        "url": "https://www.ticketliquidator.com/tickets/8303660/Dylan-Gossett-tickets-Sun-Apr-11-2027-GLC-Live-at-20-Monroe",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkUBFkDd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-03-15T03:59:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303660",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303660/Dylan-Gossett-tickets-Sun-Apr-11-2027-GLC-Live-at-20-Monroe"
   },
   {
     "id": "tm-dylan-gossett-2027-indianapolis-vv17fz_kgkd3hmfo",
@@ -1393,7 +1719,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-indianapolis-indiana-05-04-2027/event/0500653ED2F2E211",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1424,11 +1750,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303661",
+        "url": "https://www.ticketnetwork.com/en/p/8303661",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303661",
+        "url": "https://www.ticketliquidator.com/tickets/8303661/Dylan-Gossett-tickets-Tue-May-4-2027-Egyptian-Room-At-Old-National-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_KGkD3HmFo",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-04-13T07:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303661",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303661/Dylan-Gossett-tickets-Tue-May-4-2027-Egyptian-Room-At-Old-National-Centre"
   },
   {
     "id": "tm-dylan-gossett-2027-madison-vv17jz_kgkmgwnt1",
@@ -1446,7 +1795,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-madison-wisconsin-05-06-2027/event/0700653DF5F6AFCA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1477,11 +1826,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303662",
+        "url": "https://www.ticketnetwork.com/en/p/8303662",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303662",
+        "url": "https://www.ticketliquidator.com/tickets/8303662/Dylan-Gossett-tickets-Thu-May-6-2027-The-Sylvee-WI",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_KGkMgWnT1",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2027-04-06T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303662",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303662/Dylan-Gossett-tickets-Thu-May-6-2027-The-Sylvee-WI"
   },
   {
     "id": "tm-dylan-gossett-2027-kansas-city-vv17bz_kgkwikfde",
@@ -1499,7 +1871,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-kansas-city-missouri-05-07-2027/event/0600653CAC1880E7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1530,11 +1902,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303663",
+        "url": "https://www.ticketnetwork.com/en/p/8303663",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303663",
+        "url": "https://www.ticketliquidator.com/tickets/8303663/Dylan-Gossett-tickets-Fri-May-7-2027-Uptown-Theater-KC",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkwikFdE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2027-04-17T04:59:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303663",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303663/Dylan-Gossett-tickets-Fri-May-7-2027-Uptown-Theater-KC"
   },
   {
     "id": "tm-dylan-gossett-2027-la-vista-1aezz_kgkwpxe_0",
@@ -1605,7 +2000,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-austin-texas-05-13-2027/event/3A006541BB741D0D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1636,11 +2031,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303665",
+        "url": "https://www.ticketnetwork.com/en/p/8303665",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303665",
+        "url": "https://www.ticketliquidator.com/tickets/8303665/Dylan-Gossett-tickets-Thu-May-13-2027-Moody-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fkDqvVu",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2027-04-27T03:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303665",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303665/Dylan-Gossett-tickets-Thu-May-13-2027-Moody-Amphitheater"
   },
   {
     "id": "tm-dylan-gossett-2027-houston-g5diz_kmyuwxg",
@@ -1658,7 +2076,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-houston-texas-05-14-2027/event/3A00653DF0372FB5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1689,11 +2107,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303666",
+        "url": "https://www.ticketnetwork.com/en/p/8303666",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303666",
+        "url": "https://www.ticketliquidator.com/tickets/8303666/Dylan-Gossett-tickets-Fri-May-14-2027-Bayou-Music-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KMYuwXg",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2027-05-14T15:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303666",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303666/Dylan-Gossett-tickets-Fri-May-14-2027-Bayou-Music-Center"
   },
   {
     "id": "tm-dylan-gossett-2027-fort-worth-z7r9jz1aae4bs",

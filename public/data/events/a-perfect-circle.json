@@ -117,11 +117,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A0064A6ACBFC607",
     "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-plus-special-guest-honolulu-hawaii-12-19-2026/event/0A0064A6ACBFC607",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/a-perfect-circle-tickets/honolulu-hawaii-neal-s-blaisdell-arena-2026-12-19-8-pm/concert/18246867",
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-honolulu-neal-s-blaisdell-arena-12-19-2026--concerts-alternative/production/7033875",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-plus-special-guest-honolulu-hawaii-12-19-2026/event/0A0064A6ACBFC607",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +156,14 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_1QiRHb6",
     "timezone": "Pacific/Honolulu",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-22T20:00:00Z",
+        "end": "2026-12-13T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-vancouver-1k78vpcbgau8awz",
@@ -174,7 +181,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-4-13-2027--concerts-alternative/production/7623551",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-perfect-circle-vancouver-british-columbia-04-13-2027/event/110065398D405F40",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -217,7 +224,19 @@
     "ticketmaster_discovery_event_id": "1k78vPCbGAu8AWZ",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295085"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295085",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-03-31T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-04-07T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-calgary-1av7z_kgkn55gda",
@@ -235,7 +254,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-calgary-scotiabank-saddledome-4-15-2027--concerts-alternative/production/7623555",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-perfect-circle-calgary-alberta-04-15-2027/event/1100653A8B2F50C9",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278,7 +297,19 @@
     "ticketmaster_discovery_event_id": "1Av7Z_KGkn55gda",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295086"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295086",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-10-02T16:00:00Z",
+        "end": "2027-04-02T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T16:00:00Z",
+        "end": "2027-04-09T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-edmonton-1aozkfygkey3iuu",
@@ -296,7 +327,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-edmonton-rogers-place-4-17-2027--concerts-alternative/production/7623557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-perfect-circle-edmonton-alberta-04-17-2027/event/11006539B94ACDB6",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -339,7 +370,14 @@
     "ticketmaster_discovery_event_id": "1AoZkfyGkey3iUU",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295087"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295087",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T16:00:00Z",
+        "end": "2027-04-11T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-winnipeg-16v7z_kjkg7bgkj",
@@ -357,7 +395,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-winnipeg-canada-life-centre-4-19-2027--concerts-alternative/production/7623561",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-perfect-circle-winnipeg-manitoba-04-19-2027/event/1100653986EB54E6",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -400,7 +438,14 @@
     "ticketmaster_discovery_event_id": "16v7Z_KJkG7BgKJ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295088"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295088",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-04-13T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-niagara-falls-1a8zkfmgkemh_mw",
@@ -418,7 +463,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-22-2027--concerts-alternative/production/7623563",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-22-2027/event/10006537B76D9DFD",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453,7 +498,14 @@
     },
     "ticketmaster_discovery_event_id": "1A8ZkfMGkeMh_MW",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-niagara-falls-1a8zkfmgkemjazz",
@@ -471,7 +523,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-23-2027--concerts-alternative/production/7623565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-perfect-circle-niagara-falls-ontario-04-23-2027/event/10006537B7709E00",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -506,7 +558,14 @@
     },
     "ticketmaster_discovery_event_id": "1A8ZkfMGkeMjazZ",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-17T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-detroit-vv16fzkfma3zac8uka",
@@ -524,7 +583,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-detroit-fox-theatre-detroit-4-25-2027/production/7623527",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-detroit-michigan-04-25-2027/event/08006537152DFC58",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -575,7 +634,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295063",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295063/A-Perfect-Circle-tickets-Sun-Apr-25-2027-Fox-Theatre-Detroit"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295063/A-Perfect-Circle-tickets-Sun-Apr-25-2027-Fox-Theatre-Detroit",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-19T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-boston-vv1k7z_kr_g7rccc",
@@ -593,7 +659,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-boston-mgm-music-hall-at-fenway-4-27-2027/production/7623545",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-boston-massachusetts-04-27-2027/event/0100653799BEDB6D",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -644,7 +710,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295064",
-    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-boston-tickets-4-27-2027/event/107671548"
+    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-boston-tickets-4-27-2027/event/107671548",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-21T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-uncasville-g5vvz_khq_fxg",
@@ -662,7 +735,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-uncasville-mohegan-sun-arena-ct-4-28-2027/production/7623547",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-uncasville-connecticut-04-28-2027/event/1D006536DA648FB5",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -705,7 +778,14 @@
     "ticketmaster_discovery_event_id": "G5vVZ_KhQ_FXg",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295065"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295065",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-22T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-camden-vv1aezkfzgkdun44v",
@@ -723,7 +803,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-camden-freedom-mortgage-pavilion-4-30-2027/production/7623549",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-camden-new-jersey-04-30-2027/event/02006538CD8D5574",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -766,7 +846,14 @@
     "ticketmaster_discovery_event_id": "vv1AeZkfzGkduN44V",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295066"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295066",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-24T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-newark-vv1aezkfzgkecfwzd",
@@ -784,7 +871,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-newark-prudential-center-5-1-2027/production/7623553",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-newark-new-jersey-05-01-2027/event/02006538AD53DE3B",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -835,7 +922,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295067",
-    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-newark-tickets-5-1-2027/event/107671549"
+    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-newark-tickets-5-1-2027/event/107671549",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-24T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-charlotte-g5evz_kj8b4gy",
@@ -853,7 +947,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-charlotte-truliant-amphitheater-5-4-2027/production/7623559",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-charlotte-north-carolina-05-04-2027/event/2D00653710615D70",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -896,7 +990,14 @@
     "ticketmaster_discovery_event_id": "G5eVZ_Kj8b4gY",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295068"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295068",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-28T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-duluth-vvg1zz_kxwhwhz",
@@ -914,7 +1015,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-duluth-gas-south-arena-5-5-2027/production/7623567",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-duluth-georgia-05-05-2027/event/0E006538BD6F2F38",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -957,7 +1058,14 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_KxWhwHz",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295069"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295069",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-29T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-the-woodlands-g5diz_kjdvhi6",
@@ -975,7 +1083,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-the-woodlands-cynthia-woods-mitchell-pavilion-5-7-2027/production/7623571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-the-woodlands-texas-05-07-2027/event/3A006539BBD3CB07",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1010,7 +1118,19 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KJDVHi6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-04-10T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-nashville-g5viz_knjkaln",
@@ -1028,7 +1148,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-nashville-bridgestone-arena-5-15-2027--concerts-alternative/production/7623581",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-nashville-tennessee-05-15-2027/event/1B006538DC1897E3",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1071,7 +1191,14 @@
     "ticketmaster_discovery_event_id": "G5viZ_KNjkaLN",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295071"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295071",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-09T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-saint-louis-vv1akzkfugkdepcmi",
@@ -1089,7 +1216,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-saint-louis-missouri-05-17-2027/event/06006536C258EDE8",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1124,7 +1251,14 @@
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfUGkdepCMI",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-11T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-cuyahoga-falls-vv1aazkfzgkeutduj",
@@ -1142,7 +1276,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-cuyahoga-falls-blossom-music-center-5-20-2027--concerts-alternative/production/7623587",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-cuyahoga-falls-ohio-05-20-2027/event/05006538B6FFBDA6",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1185,7 +1319,24 @@
     "ticketmaster_discovery_event_id": "vv1AAZkfzGkeUTDUJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295073"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295073",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-23T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-05-14T02:00:00Z"
+      },
+      {
+        "name": "T-Mobile® Concert Perks + Fast Lane",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-05-18T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-chicago-vv1kjz_kf7g7lms3",
@@ -1203,7 +1354,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-chicago-wintrust-arena-5-22-2027--concerts-alternative/production/7623589",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-chicago-illinois-05-22-2027/event/0700653504AF7CD2",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1246,7 +1397,14 @@
     "ticketmaster_discovery_event_id": "vv1kjZ_Kf7G7lMS3",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295074"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295074",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-shakopee-1a-zkfygkehcamo",
@@ -1264,7 +1422,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-shakopee-mystic-lake-amphitheater---shakopee-5-23-2027--concerts-alternative/production/7623591",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-shakopee-minnesota-05-23-2027/event/21006539BCB49DE0",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1299,7 +1457,19 @@
     },
     "ticketmaster_discovery_event_id": "1A-ZkfyGkeHcaMO",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-04-26T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-17T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-west-valley-city-g5vzz_kk2w7ui",
@@ -1317,7 +1487,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-west-valley-city-utah-05-28-2027/event/1E0065318FC84DAC",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1352,7 +1522,14 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_Kk2w7Ui",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T16:00:00Z",
+        "end": "2027-05-22T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-seattle-vvg1hz_kfmppzs",
@@ -1370,7 +1547,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-seattle-climate-pledge-arena-5-30-2027--concerts-alternative/production/7623599",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-seattle-washington-05-30-2027/event/0F0065352E956033",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1421,7 +1598,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295077",
-    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-seattle-tickets-5-30-2027/event/107671553"
+    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-seattle-tickets-5-30-2027/event/107671553",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-05-24T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-portland-vvg1hz_kbfgxyu",
@@ -1439,7 +1623,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-portland-veterans-memorial-coliseum---portland-6-1-2027--concerts-alternative/production/7623601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-portland-oregon-06-01-2027/event/0F00653608322C36",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1490,7 +1674,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295078",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295078/A-Perfect-Circle-tickets-Tue-Jun-1-2027-Portland-Veterans-Memorial-Coliseum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295078/A-Perfect-Circle-tickets-Tue-Jun-1-2027-Portland-Veterans-Memorial-Coliseum",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-05-26T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-reno-1a9zkfygkembtoj",
@@ -1508,7 +1699,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-reno-nevada-06-03-2027/event/17006539AEEBF45C",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1543,7 +1734,14 @@
     },
     "ticketmaster_discovery_event_id": "1A9ZkfyGkemBToj",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-05-28T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-daly-city-g5vyz_kwfsetp",
@@ -1561,7 +1759,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-daly-city-cow-palace-6-4-2027--concerts-alternative/production/7623603",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-daly-city-california-06-04-2027/event/1C00653C88C67FD6",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1604,7 +1802,14 @@
     "ticketmaster_discovery_event_id": "G5vYZ_KwFsETp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295079"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295079",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-05-29T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-hollywood-vvg1iz_kj6yzfl",
@@ -1622,7 +1827,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-los-angeles-hollywood-bowl-6-6-2027--concerts-alternative/production/7623605",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-hollywood-california-06-06-2027/event/0B00653707C3852B",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1681,7 +1886,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295081",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295081/A-Perfect-Circle-tickets-Sun-Jun-6-2027-Hollywood-Bowl",
-    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-hollywood-tickets-6-6-2027/event/107671554"
+    "stubhub_international_url": "https://www.stubhub.ie/a-perfect-circle-hollywood-tickets-6-6-2027/event/107671554",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-05-31T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-chula-vista-vvg1iz_kl8jvkq",
@@ -1699,7 +1911,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-chula-vista-north-island-credit-union-amphitheatre-6-8-2027--concerts-alternative/production/7623607",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-chula-vista-california-06-08-2027/event/0A006537D09814DD",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1742,7 +1954,19 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_KL8JvKq",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295080"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295080",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-05-09T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-06-02T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-las-vegas-1a9zkfmgkd8myho",
@@ -1760,7 +1984,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-las-vegas-fontainebleau-las-vegas-6-10-2027--concerts-alternative/production/7623609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-las-vegas-nevada-06-10-2027/event/17006537D0DF0F11",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1811,7 +2035,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295083",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295083/A-Perfect-Circle-tickets-Thu-Jun-10-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295083/A-Perfect-Circle-tickets-Thu-Jun-10-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-06-04T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-las-vegas-1a9zkfmgkd8y8h4",
@@ -1829,7 +2060,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-las-vegas-fontainebleau-las-vegas-6-11-2027--concerts-alternative/production/7623611",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-las-vegas-nevada-06-11-2027/event/17006537D0E50F15",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1880,7 +2111,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295084",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295084/A-Perfect-Circle-tickets-Fri-Jun-11-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295084/A-Perfect-Circle-tickets-Fri-Jun-11-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-06-05T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-phoenix-1a_zkfsgkd23t56",
@@ -1898,7 +2136,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-phoenix-talking-stick-resort-amphitheatre-6-13-2027--concerts-alternative/production/7623613",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-phoenix-arizona-06-13-2027/event/19006531CF4A92C7",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1941,7 +2179,14 @@
     "ticketmaster_discovery_event_id": "1A_ZkfsGkd23t56",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295082"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295082",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-06-07T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-perfect-circle-2027-grand-prairie-z7r9jz1aae8a6",

@@ -202,7 +202,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006522B954953D",
     "ticketmaster_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-08-2027/event/00006522B954953D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yacht-rock-revue-tickets/huntington-new-york-the-paramount-huntington-2027-01-08-8-pm/concert/18612961",
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-huntington-the-paramount-in-concert-with-northwell-1-8-2027/production/7593536",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-08-2027/event/00006522B954953D",
@@ -255,7 +255,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006522B94F951D",
     "ticketmaster_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-09-2027/event/00006522B94F951D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yacht-rock-revue-tickets/huntington-new-york-the-paramount-huntington-2027-01-09-8-pm/concert/18612966",
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-huntington-the-paramount-in-concert-with-northwell-1-9-2027/production/7593532",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-09-2027/event/00006522B94F951D",
@@ -308,7 +308,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006522B94A94E9",
     "ticketmaster_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-10-2027/event/00006522B94A94E9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yacht-rock-revue-tickets/huntington-new-york-the-paramount-huntington-2027-01-10-7-pm/concert/18612962",
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-huntington-the-paramount-in-concert-with-northwell-1-10-2027/production/7593540",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-huntington-new-york-01-10-2027/event/00006522B94A94E9",
@@ -877,7 +877,7 @@
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-nashville-the-truth-3-13-2027/production/7593554",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-nashville-tennessee-03-13-2027/event/1B006533C7012158",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -928,7 +928,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284489",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284489/Yacht-Rock-Revue-tickets-Sat-Mar-13-2027-The-Truth"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284489/Yacht-Rock-Revue-tickets-Sat-Mar-13-2027-The-Truth",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-02-14T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yacht-rock-revue-2027-chicago-vv178z_3gkmzl562",

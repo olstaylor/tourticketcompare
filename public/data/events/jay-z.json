@@ -174,7 +174,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-23-2026--concerts-rap-hip-hop/production/7137531",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-23-2026/event/0A0064C8CED8B734",
-    "last_verified_at": "2026-07-06",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -182,14 +182,14 @@
         "discovery_event_id": "vvG1IZ_GNCU5jV",
         "url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-23-2026/event/0A0064C8CED8B734",
         "verified": true,
-        "last_verified_at": "2026-07-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked"
       },
       "seatgeek": {
         "event_id": 18296599,
         "url": "https://seatgeek.com/jay-z-tickets/inglewood-california-sofi-stadium-2026-10-23-8-pm/concert/18296599",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -233,7 +233,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8038358",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8038358/Jay-Z-tickets-Fri-Oct-23-2026-SoFi-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-23-2026/event/107327078"
+    "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-23-2026/event/107327078",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-12T17:00:00Z",
+        "end": "2026-10-19T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jay-z-2026-london-17u8v0g6cksbad4",
@@ -373,7 +380,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-z-shawn-carter-tickets-inglewood-sofi-stadium-10-24-2026--concerts-rap-hip-hop/production/7348557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jayz30-inglewood-california-10-24-2026/event/0A0064C8E971D777",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -432,6 +439,13 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164947",
     "stubhub_international_url": "https://www.stubhub.ie/jay-z-inglewood-tickets-10-24-2026/event/107460143",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164947/Jay-Z-tickets-Sat-Oct-24-2026-SoFi-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164947/Jay-Z-tickets-Sat-Oct-24-2026-SoFi-Stadium",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-30T17:00:00Z",
+        "end": "2026-10-20T19:00:00Z"
+      }
+    ]
   }
 ]

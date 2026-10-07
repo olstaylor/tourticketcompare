@@ -99,11 +99,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7718199",
+        "url": "https://www.ticketnetwork.com/en/p/7718199",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7718199",
+        "url": "https://www.ticketliquidator.com/tickets/7718199/Staind-tickets-Fri-Oct-9-2026-Toyota-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107098206",
+        "url": "https://www.stubhub.ie/staind-wheatland-tickets-10-9-2026/event/107098206",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_dwgiJMI",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718199",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718199/Staind-tickets-Fri-Oct-9-2026-Toyota-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/staind-wheatland-tickets-10-9-2026/event/107098206"
   },
   {
     "id": "tm-staind-2026-ontario-vv170z_dgkwr0_z6",
@@ -152,11 +176,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7718202",
+        "url": "https://www.ticketnetwork.com/en/p/7718202",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7718202",
+        "url": "https://www.ticketliquidator.com/tickets/7718202/Staind-tickets-Sat-Oct-10-2026-Toyota-Arena-Ontario",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107098205",
+        "url": "https://www.stubhub.ie/staind-ontario-tickets-10-10-2026/event/107098205",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_dGkwr0_Z6",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718202",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718202/Staind-tickets-Sat-Oct-10-2026-Toyota-Arena-Ontario",
+    "stubhub_international_url": "https://www.stubhub.ie/staind-ontario-tickets-10-10-2026/event/107098205"
   },
   {
     "id": "tm-staind-2026-phoenix-1av0z_dgku63v-5",
@@ -174,7 +222,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-phoenix-arizona-10-13-2026/event/1900643D874B484B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -205,11 +253,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7718203",
+        "url": "https://www.ticketnetwork.com/en/p/7718203",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7718203",
+        "url": "https://www.ticketliquidator.com/tickets/7718203/Staind-tickets-Tue-Oct-13-2026-Talking-Stick-Resort-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_dGkU63V-5",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "T-Mobile® Concert Perks+Fast Lane",
+        "start": "2026-02-06T17:00:00Z",
+        "end": "2026-10-11T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718203",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718203/Staind-tickets-Tue-Oct-13-2026-Talking-Stick-Resort-Amphitheatre"
   },
   {
     "id": "tm-staind-2026-albuquerque-g5vzz_dsirnej",
@@ -227,7 +298,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-albuquerque-new-mexico-10-14-2026/event/1E00643CEC7AA9DC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -258,11 +329,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7718205",
+        "url": "https://www.ticketnetwork.com/en/p/7718205",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7718205",
+        "url": "https://www.ticketliquidator.com/tickets/7718205/Staind-tickets-Wed-Oct-14-2026-First-Financial-Credit-Union-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_dSirnEj",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-02-06T17:00:00Z",
+        "end": "2026-10-08T05:59:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718205",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718205/Staind-tickets-Wed-Oct-14-2026-First-Financial-Credit-Union-Amphitheater"
   },
   {
     "id": "tm-staind-2026-tulsa-1aezz_dgkvarp7d",
@@ -280,7 +374,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-tulsa-oklahoma-10-16-2026/event/2000643D05BE513B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -311,11 +405,42 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7718208",
+        "url": "https://www.ticketnetwork.com/en/p/7718208",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7718208",
+        "url": "https://www.ticketliquidator.com/tickets/7718208/Staind-tickets-Fri-Oct-16-2026-BOK-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107098204",
+        "url": "https://www.stubhub.ie/staind-tulsa-tickets-10-16-2026/event/107098204",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_dGkVARP7D",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-02-06T16:00:00Z",
+        "end": "2026-10-10T04:59:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718208",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718208/Staind-tickets-Fri-Oct-16-2026-BOK-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/staind-tulsa-tickets-10-16-2026/event/107098204"
   },
   {
     "id": "tm-staind-2026-the-woodlands-g5diz_dbvgqfi",
@@ -333,7 +458,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-the-woodlands-texas-10-17-2026/event/3A00643EB4D5D528",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -368,7 +493,14 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_dBVgqfI",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-02-06T16:00:00Z",
+        "end": "2026-10-11T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-staind-2026-austin-g5diz_dykgajg",
@@ -386,7 +518,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-austin-texas-10-19-2026/event/3A00643C063099B5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417,11 +549,42 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7718212",
+        "url": "https://www.ticketnetwork.com/en/p/7718212",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7718212",
+        "url": "https://www.ticketliquidator.com/tickets/7718212/Staind-tickets-Mon-Oct-19-2026-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107098202",
+        "url": "https://www.stubhub.ie/staind-austin-tickets-10-19-2026/event/107098202",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_dYkGaJg",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-02-06T16:00:00Z",
+        "end": "2026-10-13T04:59:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718212",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718212/Staind-tickets-Mon-Oct-19-2026-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/staind-austin-tickets-10-19-2026/event/107098202"
   },
   {
     "id": "tm-staind-2027-manchester-vv177z_kgkbyj0rc",
@@ -439,7 +602,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-manchester-new-hampshire-03-04-2027/event/0100653EB072478E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -470,12 +633,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308766",
+        "url": "https://www.ticketnetwork.com/en/p/8308766",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308766",
+        "url": "https://www.ticketliquidator.com/tickets/8308766/Staind-tickets-Thu-Mar-4-2027-SNHU-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_KGkBYj0rC",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-02-05T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-02-28T03:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308766",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308766/Staind-tickets-Thu-Mar-4-2027-SNHU-Arena"
   },
   {
     "id": "tm-staind-2027-baltimore-11a8vpokayf8vu",
@@ -493,7 +719,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-baltimore-maryland-03-06-2027/event/150065453170510C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -524,12 +750,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308767",
+        "url": "https://www.ticketnetwork.com/en/p/8308767",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308767",
+        "url": "https://www.ticketliquidator.com/tickets/8308767/Staind-tickets-Sat-Mar-6-2027-CFG-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "11A8vPoKAYf8vu",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Seether Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Staind Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-02-07T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-03-01T15:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308767",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308767/Staind-tickets-Sat-Mar-6-2027-CFG-Bank-Arena"
   },
   {
     "id": "tm-staind-2027-pittsburgh-1avbz_kgkdoccp7",
@@ -547,7 +836,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-pittsburgh-pennsylvania-03-08-2027/event/1600653EE0B6D584",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -578,12 +867,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308768",
+        "url": "https://www.ticketnetwork.com/en/p/8308768",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308768",
+        "url": "https://www.ticketliquidator.com/tickets/8308768/Staind-tickets-Mon-Mar-8-2027-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_KGkDOccp7",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Seether Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Staind Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-02-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-03-04T03:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308768",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308768/Staind-tickets-Mon-Mar-8-2027-PPG-Paints-Arena"
   },
   {
     "id": "tm-staind-2027-reading-vv1aezk4vgkeshnyh",
@@ -601,7 +953,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-reading-pennsylvania-03-09-2027/event/02006541B36EAC1B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -637,7 +989,54 @@
     "ticketmaster_discovery_event_id": "vv1AeZk4vGkeShnYh",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-02-10T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-03-05T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-staind-2027-huntington-1kaovp8iga2ivff",
@@ -655,7 +1054,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-huntington-west-virginia-03-10-2027/event/160065428FA34508",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -691,7 +1090,49 @@
     "ticketmaster_discovery_event_id": "1kAOvP8IGA2IVfF",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-02-11T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-03-04T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-staind-2027-tampa-vvg1vz_f6ermdd",
@@ -709,7 +1150,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-tampa-florida-03-12-2027/event/0D006541E77B70C3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -740,12 +1181,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308771",
+        "url": "https://www.ticketnetwork.com/en/p/8308771",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308771",
+        "url": "https://www.ticketliquidator.com/tickets/8308771/Staind-tickets-Fri-Mar-12-2027-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_f6ErMdd",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-02-13T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-03-08T03:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308771",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308771/Staind-tickets-Fri-Mar-12-2027-Benchmark-International-Arena"
   },
   {
     "id": "tm-staind-2027-west-palm-beach-vvg1vz_kdb8l2e",
@@ -763,7 +1267,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-west-palm-beach-florida-03-13-2027/event/0D00653ED841F3E7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -794,12 +1298,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308772",
+        "url": "https://www.ticketnetwork.com/en/p/8308772",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308772",
+        "url": "https://www.ticketliquidator.com/tickets/8308772/Staind-tickets-Sat-Mar-13-2027-iTHINK-Financial-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_KDb8L2E",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "iTHINK Financial Member Presale",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-02-21T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-03-09T03:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308772",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308772/Staind-tickets-Sat-Mar-13-2027-iTHINK-Financial-Amphitheatre"
   },
   {
     "id": "tm-staind-2027-birmingham-1aozk4vgkdpep6o",
@@ -817,7 +1384,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-birmingham-alabama-03-16-2027/event/20006541D60961E0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -848,12 +1415,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308773",
+        "url": "https://www.ticketnetwork.com/en/p/8308773",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308773",
+        "url": "https://www.ticketliquidator.com/tickets/8308773/Staind-tickets-Tue-Mar-16-2027-Legacy-Arena-at-The-BJCC",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4vGkdpep6O",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-08T14:45:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Local/Venue Presale",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-02-17T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-03-12T04:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308773",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308773/Staind-tickets-Tue-Mar-16-2027-Legacy-Arena-at-The-BJCC"
   },
   {
     "id": "tm-staind-2027-oklahoma-city-vvg1yz_kb9ngdb",
@@ -871,7 +1501,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-oklahoma-city-oklahoma-03-18-2027/event/0C00653E978F5ED8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -902,12 +1532,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308774",
+        "url": "https://www.ticketnetwork.com/en/p/8308774",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308774",
+        "url": "https://www.ticketliquidator.com/tickets/8308774/Staind-tickets-Thu-Mar-18-2027-Paycom-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KB9NgDb",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-02-19T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-03-14T04:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308774",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308774/Staind-tickets-Thu-Mar-18-2027-Paycom-Center"
   },
   {
     "id": "tm-staind-2027-dallas-vvg1yz_ffb7hxs",
@@ -925,7 +1618,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/971-the-eagle-presents-staind-break-dallas-texas-03-19-2027/event/0C0065423A11B8B1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -956,12 +1649,70 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308775",
+        "url": "https://www.ticketnetwork.com/en/p/8308775",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308775",
+        "url": "https://www.ticketliquidator.com/tickets/8308775/Staind-tickets-Fri-Mar-19-2027-Dos-Equis-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_fFB7hxs",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-02-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-03-15T03:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308775",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308775/Staind-tickets-Fri-Mar-19-2027-Dos-Equis-Pavilion"
   },
   {
     "id": "tm-staind-2027-san-antonio-g5diz_fkhzhba",
@@ -979,7 +1730,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-san-antonio-texas-03-20-2027/event/3A0065419BE1B609",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1010,12 +1761,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308776",
+        "url": "https://www.ticketnetwork.com/en/p/8308776",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308776",
+        "url": "https://www.ticketliquidator.com/tickets/8308776/Staind-tickets-Sat-Mar-20-2027-Frost-Bank-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fkhzhba",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Frost Bank Center Presale",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-02-21T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-03-16T03:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308776",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308776/Staind-tickets-Sat-Mar-20-2027-Frost-Bank-Center"
   },
   {
     "id": "tm-staind-2027-denver-g5vzz_f7kx5yq",
@@ -1033,7 +1847,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-denver-colorado-03-22-2027/event/1E00654113F8BE5A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1064,12 +1878,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308777",
+        "url": "https://www.ticketnetwork.com/en/p/8308777",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308777",
+        "url": "https://www.ticketliquidator.com/tickets/8308777/Staind-tickets-Mon-Mar-22-2027-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_f7KX5yQ",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T16:00:00Z"
+    "public_onsale_at": "2026-10-09T16:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T16:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Local/Venue/Radio Presale",
+        "start": "2026-10-08T16:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T16:00:00Z",
+        "end": "2027-02-23T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T16:00:00Z",
+        "end": "2027-03-18T04:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308777",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308777/Staind-tickets-Mon-Mar-22-2027-Ball-Arena"
   },
   {
     "id": "tm-staind-2027-boise-g5vzz_kb7mfuo",
@@ -1087,7 +1964,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-boise-idaho-03-24-2027/event/1E00653E84B94351",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1118,12 +1995,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308778",
+        "url": "https://www.ticketnetwork.com/en/p/8308778",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308778",
+        "url": "https://www.ticketliquidator.com/tickets/8308778/Staind-tickets-Wed-Mar-24-2027-ExtraMile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KB7mfuo",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T16:00:00Z"
+    "public_onsale_at": "2026-10-09T16:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T16:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Local Presales",
+        "start": "2026-10-08T16:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T16:00:00Z",
+        "end": "2027-02-25T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T16:00:00Z",
+        "end": "2027-03-20T04:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308778",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308778/Staind-tickets-Wed-Mar-24-2027-ExtraMile-Arena"
   },
   {
     "id": "tm-staind-2027-seattle-vvg1hz_km9huyk",
@@ -1141,7 +2081,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-seattle-washington-03-27-2027/event/0F00653DD76CDC06",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1172,12 +2112,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308781",
+        "url": "https://www.ticketnetwork.com/en/p/8308781",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308781",
+        "url": "https://www.ticketliquidator.com/tickets/8308781/Staind-tickets-Sat-Mar-27-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KM9huYk",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "Local Presales",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2027-02-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2027-03-23T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308781",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308781/Staind-tickets-Sat-Mar-27-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-staind-2027-vancouver-1aozk4egkdceqzp",
@@ -1195,7 +2198,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-vancouver-british-columbia-03-29-2027/event/11006542CE9DD016",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1226,12 +2229,70 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308793",
+        "url": "https://www.ticketnetwork.com/en/p/8308793",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308793",
+        "url": "https://www.ticketliquidator.com/tickets/8308793/Staind-tickets-Mon-Mar-29-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4eGkdCEqZp",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2027-03-25T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308793",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308793/Staind-tickets-Mon-Mar-29-2027-Rogers-Arena"
   },
   {
     "id": "tm-staind-2027-calgary-1av7z_kgkm-emew",
@@ -1249,7 +2310,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-calgary-alberta-03-31-2027/event/1100653DE10AE9F2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1280,12 +2341,70 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308794",
+        "url": "https://www.ticketnetwork.com/en/p/8308794",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308794",
+        "url": "https://www.ticketliquidator.com/tickets/8308794/Staind-tickets-Wed-Mar-31-2027-Scotiabank-Saddledome",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkM-emEw",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T16:00:00Z"
+    "public_onsale_at": "2026-10-09T16:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Seether Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Staind Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-08T16:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T16:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-10-09T16:00:00Z",
+        "end": "2027-03-18T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T16:00:00Z",
+        "end": "2027-03-27T04:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308794",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308794/Staind-tickets-Wed-Mar-31-2027-Scotiabank-Saddledome"
   },
   {
     "id": "tm-staind-2027-edmonton-1av7z_kgkz_xe9-",
@@ -1303,7 +2422,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-edmonton-alberta-04-01-2027/event/1100653E198825E1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1334,12 +2453,70 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308795",
+        "url": "https://www.ticketnetwork.com/en/p/8308795",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308795",
+        "url": "https://www.ticketliquidator.com/tickets/8308795/Staind-tickets-Thu-Apr-1-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkz_xe9-",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T16:00:00Z"
+    "public_onsale_at": "2026-10-09T16:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-08T16:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T16:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-08T16:00:00Z",
+        "end": "2026-10-09T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T16:00:00Z",
+        "end": "2027-03-28T04:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308795",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308795/Staind-tickets-Thu-Apr-1-2027-Rogers-Place"
   },
   {
     "id": "tm-staind-2027-sioux-falls-vv1akzk4vgkd8j7ov",
@@ -1357,7 +2534,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-sioux-falls-south-dakota-04-06-2027/event/06006541D0984441",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1388,12 +2565,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308785",
+        "url": "https://www.ticketnetwork.com/en/p/8308785",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308785",
+        "url": "https://www.ticketliquidator.com/tickets/8308785/Staind-tickets-Tue-Apr-6-2027-Denny-Sanford-Premier-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4vGkd8J7ov",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-03-10T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-04-02T03:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308785",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308785/Staind-tickets-Tue-Apr-6-2027-Denny-Sanford-Premier-Center"
   },
   {
     "id": "tm-staind-2027-fargo-vv17bz_kgkuwy5mz",
@@ -1411,7 +2651,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-fargo-north-dakota-04-07-2027/event/0600653DBDE4BB80",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1442,12 +2682,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308786",
+        "url": "https://www.ticketnetwork.com/en/p/8308786",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308786",
+        "url": "https://www.ticketliquidator.com/tickets/8308786/Staind-tickets-Wed-Apr-7-2027-Fargodome",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkUWy5mZ",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "FARGODOME Presale",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-03-11T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-04-03T03:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308786",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308786/Staind-tickets-Wed-Apr-7-2027-Fargodome"
   },
   {
     "id": "tm-staind-2027-omaha-vv1kvovp8tga5iapt",
@@ -1465,7 +2768,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-omaha-nebraska-04-09-2027/event/060065429BA0997F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1496,12 +2799,70 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308787",
+        "url": "https://www.ticketnetwork.com/en/p/8308787",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308787",
+        "url": "https://www.ticketliquidator.com/tickets/8308787/Staind-tickets-Fri-Apr-9-2027-CHI-Health-Center-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvP8tGA5IaPT",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-03-13T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-04-05T03:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308787",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308787/Staind-tickets-Fri-Apr-9-2027-CHI-Health-Center-Omaha"
   },
   {
     "id": "tm-staind-2027-kansas-city-vv1akzk4vgkegdrbt",
@@ -1519,7 +2880,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-kansas-city-missouri-04-10-2027/event/06006541B5EEF63F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1550,12 +2911,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308788",
+        "url": "https://www.ticketnetwork.com/en/p/8308788",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308788",
+        "url": "https://www.ticketliquidator.com/tickets/8308788/Staind-tickets-Sat-Apr-10-2027-T-Mobile-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4vGkegDRbT",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-03-14T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-04-06T03:00:00Z"
+      },
+      {
+        "name": "AISLE Preferred Seating",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-04-11T00:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308788",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308788/Staind-tickets-Sat-Apr-10-2027-T-Mobile-Center"
   },
   {
     "id": "tm-staind-2027-moline-vv1fbz_fkec7zdga1",
@@ -1573,7 +2997,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-moline-illinois-04-11-2027/event/0600654182384B89",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1604,12 +3028,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308789",
+        "url": "https://www.ticketnetwork.com/en/p/8308789",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308789",
+        "url": "https://www.ticketliquidator.com/tickets/8308789/Staind-tickets-Sun-Apr-11-2027-Vibrant-Arena-at-The-MARK",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FbZ_fkeC7ZdGa1",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Vibrant Arena Presale",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-03-15T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-04-02T03:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308789",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308789/Staind-tickets-Sun-Apr-11-2027-Vibrant-Arena-at-The-MARK"
   },
   {
     "id": "tm-staind-2027-grand-rapids-vv17oz_kgkmqeain",
@@ -1627,7 +3114,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-grand-rapids-michigan-04-13-2027/event/0800653DDD089A23",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1658,12 +3145,75 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308790",
+        "url": "https://www.ticketnetwork.com/en/p/8308790",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308790",
+        "url": "https://www.ticketliquidator.com/tickets/8308790/Staind-tickets-Tue-Apr-13-2027-Van-Andel-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkMqeaIN",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-03-17T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2027-04-09T02:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308790",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308790/Staind-tickets-Tue-Apr-13-2027-Van-Andel-Arena"
   },
   {
     "id": "tm-staind-2027-evansville-vv17fz_kgkd3hr7l",
@@ -1681,7 +3231,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-evansville-indiana-04-14-2027/event/0500653ED26DE11F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1712,11 +3262,79 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308791",
+        "url": "https://www.ticketnetwork.com/en/p/8308791",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308791",
+        "url": "https://www.ticketliquidator.com/tickets/8308791/Staind-tickets-Wed-Apr-14-2027-Ford-Center-IN",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_KGkD3hr7L",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "presales": [
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Seether Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Staind Artist Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-03-18T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2027-04-10T03:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308791",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308791/Staind-tickets-Wed-Apr-14-2027-Ford-Center-IN"
   }
 ]

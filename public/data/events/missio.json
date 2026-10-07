@@ -84,7 +84,7 @@
     "vividseats_url": "https://www.vividseats.com/missio-tickets-san-diego-voodoo-room-at-the-house-of-blues-san-diego-10-30-2026/production/7424701",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-san-diego-california-10-30-2026/event/0A00650B8F9579D4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +135,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200525/Missio-tickets-Fri-Oct-30-2026-Voodoo-Room-at-House-of-Blues-San-Diego",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200525"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200525",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-14T16:00:00Z",
+        "end": "2026-10-24T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-missio-2026-los-angeles-vv170z_8gkie-eov",
@@ -153,7 +160,7 @@
     "vividseats_url": "https://www.vividseats.com/missio-tickets-los-angeles-teragram-ballroom-11-1-2026/production/7425741",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sean-healy-presents-missio-love-heartbreak-los-angeles-california-11-01-2026/event/0900650B02842801",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,7 +211,19 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200526/Missio-tickets-Sun-Nov-1-2026-Teragram-Ballroom",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200526"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200526",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-14T16:00:00Z",
+        "end": "2026-10-26T05:00:00Z"
+      },
+      {
+        "name": "Priority Entry DOS GA",
+        "start": "2026-11-01T11:00:00Z",
+        "end": "2026-11-02T03:15:00Z"
+      }
+    ]
   },
   {
     "id": "tm-missio-2026-salt-lake-city-z7r9jz1aazivp",
@@ -275,7 +294,7 @@
     "vividseats_url": "https://www.vividseats.com/missio-tickets-denver-marquis-theater---co-11-11-2026/production/7424526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-denver-colorado-11-11-2026/event/1E00650AE1043A95",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -326,7 +345,19 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200529/Missio-tickets-Wed-Nov-11-2026-Marquis-Theater-CO",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200529"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200529",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-14T15:00:00Z",
+        "end": "2026-10-15T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-08-14T15:00:00Z",
+        "end": "2026-11-05T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-missio-2026-detroit-z7r9jz1aaziv8",
@@ -397,7 +428,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/missio-toronto-ontario-11-20-2026/event/1000650AF4CE612B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -432,7 +463,14 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_8GklVSJ7l",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-08-14T13:00:00Z",
+        "end": "2026-11-14T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-missio-2026-boston-vv177z_8gklypyp_",
@@ -450,7 +488,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-18-boston-massachusetts-11-22-2026/event/0100650AF0979959",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -485,7 +523,14 @@
     },
     "ticketmaster_discovery_event_id": "vv177Z_8GklYPyP_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-14T13:00:00Z",
+        "end": "2026-11-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-missio-2026-portland-z7r9jz1aazivo",
@@ -656,7 +701,7 @@
         "event_id": 18646946,
         "url": "https://seatgeek.com/missio-tickets/vancouver-canada-the-pearl-bc-2026-12-12-6-pm/concert/18646946",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1055,7 +1100,7 @@
     "vividseats_url": "https://www.vividseats.com/missio-tickets-cleveland-cambridge-room-at-house-of-blues-cleveland-1-17-2027/production/7424860",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-cleveland-ohio-01-17-2027/event/0500650AC74ADF45",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1106,7 +1151,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200550/Missio-tickets-Sun-Jan-17-2027-Cambridge-Room-At-The-House-Of-Blues-Cleveland",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200550"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200550",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-14T13:00:00Z",
+        "end": "2026-12-21T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-14T13:00:00Z",
+        "end": "2027-01-11T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-missio-2027-washington-z7r9jz1aaziv-",
@@ -1262,7 +1319,7 @@
     "vividseats_url": "https://www.vividseats.com/missio-tickets-philadelphia-the-foundry-philadelphia-2-13-2027/production/7424474",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-philadelphia-pennsylvania-02-13-2027/event/0200650A90496D32",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1313,7 +1370,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200555/Missio-tickets-Sat-Feb-13-2027-The-Foundry-Philadelphia",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200555"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200555",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-14T13:00:00Z",
+        "end": "2027-02-07T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-14T13:00:00Z",
+        "end": "2027-02-07T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-missio-2027-carrboro-z7r9jz1aazivn",
@@ -1400,7 +1469,7 @@
     "vividseats_url": "https://www.vividseats.com/missio-tickets-atlanta-the-loft-at-center-stage-3-11-2027/production/7424852",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-atlanta-georgia-03-11-2027/event/0E00650BBAA6C51D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1451,7 +1520,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200559/Missio-tickets-Thu-Mar-11-2027-The-Loft-Atlanta",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200559"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200559",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-14T13:00:00Z",
+        "end": "2027-03-05T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-missio-2027-birmingham-z7r9jz1aazivp",

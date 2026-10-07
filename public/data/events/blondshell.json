@@ -357,7 +357,7 @@
     "vividseats_url": "https://www.vividseats.com/blondshell-tickets-vancouver-commodore-ballroom-3-6-2027/production/7625188",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -408,7 +408,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295784",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295784/Blondshell-tickets-Sat-Mar-6-2027-Commodore-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295784/Blondshell-tickets-Sat-Mar-6-2027-Commodore-Ballroom",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-02-28T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-blondshell-2027-asbury-park-k7vgf_knjlgim",
@@ -426,7 +433,7 @@
     "vividseats_url": "https://www.vividseats.com/blondshell-tickets-asbury-park-stone-pony-3-23-2027/production/7625132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-asbury-park-new-jersey-03-23-2027/event/00006538E67CCB2E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -461,7 +468,14 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_KNJLGim",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-03-17T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-blondshell-2027-madison-vv1kvyvpc_ga55f1w",
@@ -479,7 +493,7 @@
     "vividseats_url": "https://www.vividseats.com/blondshell-tickets-madison-majestic-theatre---madison-5-15-2027/production/7626132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-madison-wisconsin-05-15-2027/event/070065399B2D42BD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -530,7 +544,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295778",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295778/Blondshell-tickets-Sat-May-15-2027-Majestic-Theatre-Madison"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295778/Blondshell-tickets-Sat-May-15-2027-Majestic-Theatre-Madison",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-09T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-blondshell-2027-detroit-vv1afzkfmgkdgjzny",
@@ -548,7 +569,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-detroit-michigan-05-17-2027/event/08006537CC738AB0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -583,7 +604,19 @@
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfMGkdGjznY",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-05-11T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-05-15T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-blondshell-2027-saint-louis-vv1kbz_kjdg7cpvx",
@@ -601,7 +634,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-saint-louis-missouri-05-22-2027/event/0600653983B56D3E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -636,6 +669,13 @@
     },
     "ticketmaster_discovery_event_id": "vv1kbZ_KJdG7cpVX",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-16T03:00:00Z"
+      }
+    ]
   }
 ]

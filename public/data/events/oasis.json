@@ -2127,7 +2127,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-foxborough-gillette-stadium-8-10-2027--concerts-alternative/production/7553369",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-10-2027/event/01006529BCAA6867",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2186,7 +2186,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264685",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264685/Oasis-tickets-Tue-Aug-10-2027-Gillette-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-10-2027/event/107666285"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-10-2027/event/107666285",
+    "presales": [
+      {
+        "name": "Friday 5:00 PM Onsale",
+        "start": "2026-09-25T21:00:00Z",
+        "end": "2027-08-11T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-oasis-2027-foxborough-vv1avzkfggke0ghpz",
@@ -2204,7 +2211,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-foxborough-gillette-stadium-8-13-2027--concerts-alternative/production/7553367",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-13-2027/event/01006535A431B940",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2263,7 +2270,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264686",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264686/Oasis-tickets-Fri-Aug-13-2027-Gillette-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-13-2027/event/107666286"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-13-2027/event/107666286",
+    "presales": [
+      {
+        "name": "Friday 5:00 PM Onsale",
+        "start": "2026-09-25T21:00:00Z",
+        "end": "2027-08-14T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-oasis-2027-foxborough-vv1avzkfggke08hpi",
@@ -2281,7 +2295,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-foxborough-gillette-stadium-8-14-2027--concerts-alternative/production/7553365",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-foxborough-massachusetts-08-14-2027/event/01006535A441B96C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2340,7 +2354,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264687",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264687/Oasis-tickets-Sat-Aug-14-2027-Gillette-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-14-2027/event/107666287"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-foxborough-tickets-8-14-2027/event/107666287",
+    "presales": [
+      {
+        "name": "Friday 5:00 PM Onsale",
+        "start": "2026-09-25T21:00:00Z",
+        "end": "2027-08-15T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-oasis-2027-las-vegas-1kayvp7_ga25ajz",
@@ -2358,7 +2379,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-las-vegas-allegiant-stadium-8-20-2027--concerts-alternative/production/7553373",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-20-2027/event/170065119F2C9700",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2417,7 +2438,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264688",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264688/Oasis-tickets-Fri-Aug-20-2027-Allegiant-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-20-2027/event/107666288"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-20-2027/event/107666288",
+    "presales": [
+      {
+        "name": "Friday 5:00 PM Onsale",
+        "start": "2026-09-26T00:00:00Z",
+        "end": "2027-08-21T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-oasis-2027-las-vegas-1kayvp7_ga2gaje",
@@ -2435,7 +2463,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-las-vegas-allegiant-stadium-8-21-2027--concerts-alternative/production/7553375",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-21-2027/event/170065119F309702",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2494,7 +2522,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264689",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264689/Oasis-tickets-Sat-Aug-21-2027-Allegiant-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-21-2027/event/107666289"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-21-2027/event/107666289",
+    "presales": [
+      {
+        "name": "Friday 5:00 PM Onsale",
+        "start": "2026-09-26T00:00:00Z",
+        "end": "2027-08-22T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-oasis-2027-las-vegas-1kayvp7_ga2u_jk",
@@ -2512,7 +2547,7 @@
     "vividseats_url": "https://www.vividseats.com/oasis-tickets-las-vegas-allegiant-stadium-8-24-2027--concerts-alternative/production/7553379",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/oasis-live-27-las-vegas-nevada-08-24-2027/event/170065119F359706",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2571,6 +2606,13 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264691",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264691/Oasis-tickets-Tue-Aug-24-2027-Allegiant-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-24-2027/event/107666290"
+    "stubhub_international_url": "https://www.stubhub.ie/oasis-las-vegas-tickets-8-24-2027/event/107666290",
+    "presales": [
+      {
+        "name": "Friday 5:00 PM Onsale",
+        "start": "2026-09-26T00:00:00Z",
+        "end": "2027-08-25T06:00:00Z"
+      }
+    ]
   }
 ]

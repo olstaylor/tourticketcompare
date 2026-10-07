@@ -255,11 +255,11 @@
     "tour_name": "Living In The Light Tour",
     "ticketmaster_event_id": "2D00649EA0C22797",
     "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-charleston-south-carolina-12-03-2026/event/2D00649EA0C22797",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/charleston-south-carolina-charleston-music-hall-2026-12-03-8-pm/concert/18225241",
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-charleston-charleston-music-hall-12-3-2026/production/6999445",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-charleston-south-carolina-12-03-2026/event/2D00649EA0C22797",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294,7 +294,14 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_aBOYxr9",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-08T14:00:00Z",
+        "end": "2026-11-27T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tommy-emmanuel-2026-newberry-z7r9jz1aavs4z",
@@ -377,11 +384,11 @@
     "tour_name": "Living In The Light Tour",
     "ticketmaster_event_id": "1B00649D92C7D01E",
     "ticketmaster_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-chattanooga-tennessee-12-05-2026/event/1B00649D92C7D01E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/chattanooga-tennessee-the-walker-theatre-chattanooga-2026-12-05-7-30-pm/concert/18225539",
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-chattanooga-walker-theatre---tn-12-5-2026/production/6996770",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-chattanooga-tennessee-12-05-2026/event/1B00649D92C7D01E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416,7 +423,14 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_aU3sWZr",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-08T14:00:00Z",
+        "end": "2026-11-29T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tommy-emmanuel-2026-durham-z7r9jz1a70f-w",
@@ -922,7 +936,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-des-moines-hoyt-sherman-place-1-23-2027/production/7562573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-des-moines-iowa-01-23-2027/event/0600652981F44312",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -973,7 +987,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267993",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267993/Tommy-Emmanuel-tickets-Sat-Jan-23-2027-Hoyt-Sherman-Place-Theater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267993/Tommy-Emmanuel-tickets-Sat-Jan-23-2027-Hoyt-Sherman-Place-Theater",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2027-01-17T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tommy-emmanuel-2027-madison-vv17jz_ogks7bgcu",
@@ -991,7 +1012,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-madison-wisconsin-01-24-2027/event/0700651CC4EB538D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1042,7 +1063,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267996",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267996/Tommy-Emmanuel-tickets-Sun-Jan-24-2027-Barrymore-Theatre-Madison"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267996/Tommy-Emmanuel-tickets-Sun-Jan-24-2027-Barrymore-Theatre-Madison",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2027-01-18T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tommy-emmanuel-2027-skokie-vv1a6zkfpgkegwg7a",
@@ -1060,7 +1088,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-skokie-illinois-01-25-2027/event/07006525B5CB5105",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1111,7 +1139,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268004",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268004/Tommy-Emmanuel-tickets-Mon-Jan-25-2027-George-Van-Dusen-Theatre-At-North-Shore-Center-For-The-Performing-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268004/Tommy-Emmanuel-tickets-Mon-Jan-25-2027-George-Van-Dusen-Theatre-At-North-Shore-Center-For-The-Performing-Arts",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2027-01-19T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tommy-emmanuel-2027-champaign-z7r9jz1aavspv",
@@ -1198,7 +1233,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-mckees-rocks-pennsylvania-01-28-2027/event/16006523CB4B9813",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1233,7 +1268,14 @@
     },
     "ticketmaster_discovery_event_id": "1ApZkfNGkd53yOK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-01-22T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tommy-emmanuel-2027-grand-rapids-z7r9jz1aavspe",
@@ -1670,7 +1712,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-vancouver-queen-elizabeth-theatre---vancouver-3-12-2027/production/7627291",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-vancouver-british-columbia-03-12-2027/event/11006536C1B2A704",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1705,7 +1747,14 @@
     },
     "ticketmaster_discovery_event_id": "1AoZkfUGkdvinj7",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T18:00:00Z",
+        "end": "2027-03-06T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tommy-emmanuel-2027-calgary-1k78vpuega13dcp",
@@ -1723,7 +1772,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-calgary-southern-alberta-jubilee-auditorium-3-14-2027/production/7626969",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-calgary-alberta-03-14-2027/event/110065367A483B65",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1758,7 +1807,14 @@
     },
     "ticketmaster_discovery_event_id": "1k78vPuEGA13dcP",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-03-08T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tommy-emmanuel-2027-winnipeg-1k78vpupga1vvti",
@@ -1776,7 +1832,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-winnipeg-burton-cummings-theatre-3-17-2027/production/7648393",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-winnipeg-manitoba-03-17-2027/event/110065356A041A68",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1811,7 +1867,14 @@
     },
     "ticketmaster_discovery_event_id": "1k78vPupGA1vvtI",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T16:00:00Z",
+        "end": "2027-03-11T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tommy-emmanuel-2027-ottawa-1aszkfgjd0vzecc",
@@ -1829,7 +1892,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-ottawa-national-arts-centre-3-20-2027/production/7648498",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tommy-emmanuel-cgp-w-very-special-ottawa-ontario-03-20-2027/event/31006535983934DD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1864,7 +1927,14 @@
     },
     "ticketmaster_discovery_event_id": "1asZkfgJd0VZeCC",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-03-14T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tommy-emmanuel-2027-toronto-z7r9jz1aaeox3",

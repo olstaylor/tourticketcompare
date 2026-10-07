@@ -609,7 +609,7 @@
     "vividseats_url": "https://www.vividseats.com/polyphia-tickets-phoenix-arizona-financial-theatre-2-5-2027/production/7484783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-phoenix-arizona-02-05-2027/event/19006519814B337C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -660,7 +660,19 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235923/Polyphia-tickets-Fri-Feb-5-2027-Arizona-Financial-Theatre",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235923"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235923",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-01-06T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-01-30T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-polyphia-2027-las-vegas-169zkfppazau15va",
@@ -678,7 +690,7 @@
     "vividseats_url": "https://www.vividseats.com/polyphia-tickets-las-vegas-house-of-blues-las-vegas-2-6-2027/production/7483184",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-las-vegas-nevada-02-06-2027/event/17006516949C9A04",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -729,7 +741,19 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235924/Polyphia-tickets-Sat-Feb-6-2027-House-Of-Blues-Las-Vegas",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235924"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235924",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-01-07T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-01-31T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-polyphia-2027-san-diego-z7r9jz1aav67j",
@@ -762,7 +786,7 @@
         "event_id": 18536015,
         "url": "https://seatgeek.com/polyphia-tickets/san-diego-california-soma-san-diego-2027-02-10-7-30-pm/concert/18536015",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -816,7 +840,7 @@
     "vividseats_url": "https://www.vividseats.com/polyphia-tickets-seattle-paramount-theatre-seattle-2-17-2027/production/7484847",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-seattle-washington-02-17-2027/event/0F006518AED0AB62",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -867,7 +891,19 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235936/Polyphia-tickets-Wed-Feb-17-2027-Paramount-Theatre-Seattle",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235936"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235936",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-01-19T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-02-11T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-polyphia-2027-salt-lake-city-g5vzz_ojsblfw",
@@ -885,7 +921,7 @@
     "vividseats_url": "https://www.vividseats.com/polyphia-tickets-salt-lake-city-the-depot---ut-2-19-2027--concerts-hard-rock/production/7485681",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-salt-lake-city-utah-02-19-2027/event/1E006519B3EAB532",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -936,7 +972,19 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056767/Polyphia-tickets-Fri-Feb-19-2027-The-Depot-Salt-Lake-City",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056767"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056767",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-02-13T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T16:00:00Z",
+        "end": "2027-01-23T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-polyphia-2027-denver-g5vzz_oe6fcei",
@@ -954,7 +1002,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-denver-colorado-02-20-2027/event/1E006519C720E0A8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -989,7 +1037,19 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_oE6FCeI",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-01-24T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-02-14T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-polyphia-2027-minneapolis-vv16kzkfbfazacg5v8",
@@ -1003,11 +1063,11 @@
     "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "06006518505DBA0F",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-minneapolis-minnesota-02-23-2027/event/06006518505DBA0F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/polyphia-tickets/minneapolis-minnesota-uptown-theater-minneapolis-2027-02-23-7-30-pm/concert/18312324",
     "vividseats_url": "https://www.vividseats.com/polyphia-tickets-minneapolis-uptown-theater-minneapolis-2-23-2027/production/7484734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-minneapolis-minnesota-02-23-2027/event/06006518505DBA0F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1019,11 +1079,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18312324,
+        "url": "https://seatgeek.com/polyphia-tickets/minneapolis-minnesota-uptown-theater-minneapolis-2027-02-23-7-30-pm/concert/18312324",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7484734,
@@ -1042,7 +1102,19 @@
     },
     "ticketmaster_discovery_event_id": "vv16kZkfbfAZACG5v8",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-01-13T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-02-17T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-polyphia-2027-indianapolis-vv1aazkfbgkd_h8yq",
@@ -1060,7 +1132,7 @@
     "vividseats_url": "https://www.vividseats.com/polyphia-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-2-26-2027/production/7485007",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-indianapolis-indiana-02-26-2027/event/05006518D96D0E5D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1111,7 +1183,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235950/Polyphia-tickets-Fri-Feb-26-2027-Egyptian-Room-At-Old-National-Centre",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235950"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235950",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-01-29T08:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-02-20T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-polyphia-2027-charlotte-g5evz_ojpf6hx",
@@ -1129,7 +1213,7 @@
     "vividseats_url": "https://www.vividseats.com/polyphia-tickets-charlotte-the-fillmore-charlotte-3-12-2027/production/7484736",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-charlotte-north-carolina-03-12-2027/event/2D006519965076E2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1180,7 +1264,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235961/Polyphia-tickets-Fri-Mar-12-2027-The-Fillmore-Charlotte",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235961"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235961",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-02-12T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-03-06T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-polyphia-2027-st-petersburg-vvg1vz_oesihnv",
@@ -1198,7 +1294,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-st-petersburg-florida-03-14-2027/event/0D006519F3B3CA81",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1249,7 +1345,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235963/Polyphia-tickets-Sun-Mar-14-2027-Jannus-Live",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235963"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235963",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-02-15T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-03-08T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-polyphia-2027-birmingham-1aozkfbgkdtjfo5",
@@ -1267,7 +1375,7 @@
     "vividseats_url": "https://www.vividseats.com/polyphia-tickets-birmingham-avondale-brewing-company-3-17-2027/production/7484740",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-birmingham-alabama-03-17-2027/event/20006518E971480B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1302,7 +1410,19 @@
     },
     "ticketmaster_discovery_event_id": "1AOZkfbGkdtjfO5",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-02-18T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-03-11T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-polyphia-2027-raleigh-g5evz_oemqprp",
@@ -1320,7 +1440,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-raleigh-north-carolina-03-10-2027/event/2D006519F7756BD6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1371,6 +1491,18 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056818",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056818/Polyphia-tickets-Wed-Mar-10-2027-The-Ritz-Raleigh"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056818/Polyphia-tickets-Wed-Mar-10-2027-The-Ritz-Raleigh",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-02-11T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-08-28T13:00:00Z",
+        "end": "2027-03-04T03:00:00Z"
+      }
+    ]
   }
 ]

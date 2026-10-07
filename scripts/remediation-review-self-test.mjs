@@ -52,8 +52,9 @@ assert.doesNotMatch(server, /More providers — no current price snapshot/);
 assert.doesNotMatch(client, /More providers — no current price snapshot/);
 // The hub's price section must keep snapshot framing (a captured listed price),
 // never a live-comparison claim.
-assert.match(server, /<h2>Prices on upcoming shows<\/h2>/);
-assert.match(server, /that's a listed price, not your final total/);
+assert.match(server, /<section id="current-events" class="nested-panel" data-nosnippet><h2>Prices on upcoming shows/);
+assert.match(server, /<p>The next shows with checked ticket links\.<\/p>\$\{renderMoneyDisclosureHtml\(\)\}/);
+assert.match(await readFile(new URL("../functions/_price-wording.js", import.meta.url), "utf8"), /listed-price snapshots from each ticket site, checked at the time shown\. They can change, and they aren.t your final total/);
 assert.doesNotMatch(server, /Current provider price comparisons/);
 assert.doesNotMatch(server, /data-watchlist-signup="\$\{escapeAttr\(artistSlug\)\}"/);
 
@@ -62,7 +63,7 @@ const smokeVersion = smoke.match(/const APP_ASSET_VERSION = "([0-9a-z]+)"/)?.[1]
 assert.equal(appVersion, smokeVersion);
 assert.equal(shell.match(/\/ttc-shell\.css\?v=([0-9a-z]+)/)?.[1], "20260925a");
 assert.equal(route.match(/\/ttc-home\.css\?v=([0-9a-z]+)/)?.[1], "20260924b");
-assert.equal(route.match(/\/ttc-home\.js\?v=([0-9a-z]+)/)?.[1], "20261002a");
+assert.equal(route.match(/\/ttc-home\.js\?v=([0-9a-z]+)/)?.[1], "20261006a");
 assert.match(route, /\/artist-board\.js\?v=20261002m/);
 assert.match(route, /\/currency-converter\.js\?v=20260821a/);
 

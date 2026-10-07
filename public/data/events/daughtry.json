@@ -206,7 +206,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-uncasville-mohegan-sun-arena-ct-10-15-2026/production/7169606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-uncasville-connecticut-10-15-2026/event/1D0064CAFB49D234",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -257,7 +257,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056796",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056796/Daughtry-tickets-Thu-Oct-15-2026-Mohegan-Sun-Arena-CT"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056796/Daughtry-tickets-Thu-Oct-15-2026-Mohegan-Sun-Arena-CT",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-19T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2026-waterloo-k7vgf_gm6sksu",
@@ -275,7 +282,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-waterloo-the-vine-at-del-lago-resort-and-casino-10-16-2026/production/7176958",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-ages-waterloo-new-york-10-16-2026/event/000064CB87CC6C4D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -310,7 +317,14 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_Gm6Sksu",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-19T14:00:00Z",
+        "end": "2026-10-10T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2026-atlantic-city-vvg1fz_gskknq7",
@@ -328,7 +342,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-atlantic-city-ovation-hall-at-ocean-casino-resort-10-17-2026--concerts-rock/production/7169989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-atlantic-city-new-jersey-10-17-2026/event/020064CCD34EA744",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -379,7 +393,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056798",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056798/Daughtry-tickets-Sat-Oct-17-2026-Ovation-Hall-at-Ocean-Resort-Casino"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056798/Daughtry-tickets-Sat-Oct-17-2026-Ovation-Hall-at-Ocean-Resort-Casino",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-19T14:00:00Z",
+        "end": "2026-10-11T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2026-huntington-k7vgf_geicgms",
@@ -389,7 +410,7 @@
     "city": "Huntington",
     "country": "United States Of America",
     "venue": "The Paramount in concert with Northwell",
-    "datetime_iso": "2026-10-21T00:00:00Z",
+    "datetime_iso": "2026-10-20T23:00:00Z",
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "000064C9EC38CDF1",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-huntington-new-york-10-20-2026/event/000064C9EC38CDF1",
@@ -397,7 +418,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-huntington-the-paramount-in-concert-with-northwell-10-20-2026--concerts-rock/production/7169991",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-huntington-new-york-10-20-2026/event/000064C9EC38CDF1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -432,7 +453,19 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_GEiCGMs",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-19T14:00:00Z",
+        "end": "2026-10-14T02:00:00Z"
+      },
+      {
+        "name": "$20 Ticket Discount",
+        "start": "2026-10-07T14:00:00Z",
+        "end": "2026-10-20T23:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2026-englewood-k7vgf_uejshyg",
@@ -450,7 +483,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-englewood-bergen-performing-arts-center-10-21-2026--concerts-rock/production/7170074",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-englewood-new-jersey-10-21-2026/event/000064D09CC5BC0C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -501,7 +534,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8057258",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8057258/Daughtry-tickets-Wed-Oct-21-2026-Bergen-Performing-Arts-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8057258/Daughtry-tickets-Wed-Oct-21-2026-Bergen-Performing-Arts-Center",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-19T14:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2026-danville-vvg17z_gy_imrz",
@@ -519,7 +559,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-danville-the-pantheon-at-caesars-virginia-10-23-2026--concerts-rock/production/7170003",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-danville-virginia-10-23-2026/event/010064CC19A2E7B8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -570,7 +610,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056801",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056801/Daughtry-tickets-Fri-Oct-23-2026-The-Pantheon-at-Caesars-Virginia"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056801/Daughtry-tickets-Fri-Oct-23-2026-The-Pantheon-at-Caesars-Virginia",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-19T14:00:00Z",
+        "end": "2026-10-17T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2026-florence-17aov0g6gj3vrxt",
@@ -588,7 +635,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-florence-turfway-park-10-24-2026--concerts-rock/production/7170009",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-ages-florence-kentucky-10-24-2026/event/160064C99205E8A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -639,7 +686,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8044153",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8044153/Daughtry-tickets-Sat-Oct-24-2026-Turfway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8044153/Daughtry-tickets-Sat-Oct-24-2026-Turfway-Park",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-19T14:00:00Z",
+        "end": "2026-10-18T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2026-greensburg-z7r9jz1aazman",
@@ -763,7 +817,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-nashville-brown-county-music-center-10-29-2026--concerts-rock/production/7170011",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-nashville-indiana-10-29-2026/event/050064CBB080B530",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -814,7 +868,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056802",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056802/Daughtry-tickets-Thu-Oct-29-2026-Brown-County-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056802/Daughtry-tickets-Thu-Oct-29-2026-Brown-County-Music-Center",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-19T14:00:00Z",
+        "end": "2026-10-23T02:00:00Z"
+      },
+      {
+        "name": "Standard Seating",
+        "start": "2026-09-15T14:00:00Z",
+        "end": "2026-10-30T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2026-la-vista-17fzv0g6gnabvqc",
@@ -832,7 +898,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-la-vista-nebraska-10-31-2026/event/200064CA896016AD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -867,7 +933,19 @@
     },
     "ticketmaster_discovery_event_id": "17FZv0G6GnabvQc",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-19T15:00:00Z",
+        "end": "2026-10-25T03:00:00Z"
+      },
+      {
+        "name": "$20 Ticket Offer",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-31T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2026-des-moines-vvg1bz_gwkrfot",
@@ -885,7 +963,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-des-moines-hoyt-sherman-place-11-1-2026--concerts-rock/production/7170017",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-des-moines-iowa-11-01-2026/event/060064CC86788469",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -936,7 +1014,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056805",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056805/Daughtry-tickets-Sun-Nov-1-2026-Hoyt-Sherman-Place-Theater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056805/Daughtry-tickets-Sun-Nov-1-2026-Hoyt-Sherman-Place-Theater",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-19T15:00:00Z",
+        "end": "2026-10-26T03:00:00Z"
+      },
+      {
+        "name": "Special Offer",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-11-02T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2026-kansas-city-vvg1bz_gsftuwt",
@@ -954,7 +1044,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-kansas-city-uptown-theater-kansas-city-11-3-2026--concerts-rock/production/7170019",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-kansas-city-missouri-11-03-2026/event/060064CCC8FF6CBF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1005,7 +1095,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056806",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056806/Daughtry-tickets-Tue-Nov-3-2026-Uptown-Theater-KC"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056806/Daughtry-tickets-Tue-Nov-3-2026-Uptown-Theater-KC",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-19T15:00:00Z",
+        "end": "2026-10-28T03:00:00Z"
+      },
+      {
+        "name": "$20 Ticket Offer",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-27T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2026-oklahoma-city-z7r9jz1a7px8p",
@@ -1145,7 +1247,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-napa-uptown-theatre-napa-11-8-2026--concerts-rock/production/7170026",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-napa-california-11-08-2026/event/1C0064CAA6523297",
-    "last_verified_at": "2026-10-06",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1196,7 +1298,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056807",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056807/Daughtry-tickets-Sun-Nov-8-2026-Uptown-Theatre-Napa"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056807/Daughtry-tickets-Sun-Nov-8-2026-Uptown-Theatre-Napa",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-19T17:00:00Z",
+        "end": "2026-11-02T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2026-anaheim-vvg10z_grix-n9",
@@ -1214,7 +1323,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-anaheim-grove-of-anaheim-11-10-2026--concerts-rock/production/7170028",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-anaheim-california-11-10-2026/event/090064CBEC8A18D7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1265,7 +1374,19 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056808",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056808/Daughtry-tickets-Tue-Nov-10-2026-DigAlert-Grove-of-Anaheim"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056808/Daughtry-tickets-Tue-Nov-10-2026-DigAlert-Grove-of-Anaheim",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-19T17:00:00Z",
+        "end": "2026-11-04T06:00:00Z"
+      },
+      {
+        "name": "$20 tix",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-11-11T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2026-tucson-z7r9jz1a7pxk_",
@@ -1336,7 +1457,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-san-antonio-texas-11-13-2026/event/3A0064CCF65A6281",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1387,7 +1508,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056809",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056809/Daughtry-tickets-Fri-Nov-13-2026-The-Aztec-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056809/Daughtry-tickets-Fri-Nov-13-2026-The-Aztec-Theatre",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-19T15:00:00Z",
+        "end": "2026-11-07T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2026-dallas-vvg1yz_gea3drr",
@@ -1405,7 +1533,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-dallas-majestic-theatre-dallas-11-14-2026--concerts-rock/production/7170034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-dallas-texas-11-14-2026/event/0C0064C9C54BBBEF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1456,7 +1584,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056810",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056810/Daughtry-tickets-Sat-Nov-14-2026-Majestic-Theatre-Dallas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056810/Daughtry-tickets-Sat-Nov-14-2026-Majestic-Theatre-Dallas",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-19T15:00:00Z",
+        "end": "2026-11-08T04:00:00Z"
+      },
+      {
+        "name": "$20 All-In Ticket Offer",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-11-14T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-pine-bluff-g5viz_kyugjqo",
@@ -1474,7 +1614,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-pine-bluff-saracen-casino-resort-1-23-2027/production/7624290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-pine-bluff-arkansas-01-23-2027/event/1B00653C36D66691",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1525,7 +1665,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295475",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295475/Daughtry-tickets-Sat-Jan-23-2027-Saracen-Casino-Resort"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295475/Daughtry-tickets-Sat-Jan-23-2027-Saracen-Casino-Resort",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-01-17T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-orlando-1kfovpgdga2huxq",
@@ -1543,7 +1690,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-orlando-hard-rock-live---orlando-1-27-2027/production/7624201",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-orlando-florida-01-27-2027/event/220065303F6CD89A",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1594,7 +1741,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295476",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295476/Daughtry-tickets-Wed-Jan-27-2027-Hard-Rock-Live-Orlando"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295476/Daughtry-tickets-Wed-Jan-27-2027-Hard-Rock-Live-Orlando",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-01-21T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-biloxi-g5viz_ksbnt-6",
@@ -1608,11 +1762,11 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "1B00653CFAAA9847",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-biloxi-mississippi-01-30-2027/event/1B00653CFAAA9847",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/biloxi-mississippi-hard-rock-hotel-casino-biloxi-2027-01-30-7-pm/concert/18632898",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-biloxi-hard-rock-live---biloxi-1-30-2027/production/7625172",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-biloxi-mississippi-01-30-2027/event/1B00653CFAAA9847",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1647,7 +1801,14 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_KSBnt-6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-01-17T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-houston-g5diz_kxwqqcm",
@@ -1665,7 +1826,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-houston-bayou-music-center-1-31-2027/production/7623888",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-houston-texas-01-31-2027/event/3A006538BD75D3AE",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1716,7 +1877,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295478",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295478/Daughtry-tickets-Sun-Jan-31-2027-Bayou-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295478/Daughtry-tickets-Sun-Jan-31-2027-Bayou-Music-Center",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-01-25T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-corpus-christi-g5diz_kxutltw",
@@ -1734,7 +1902,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-corpus-christi-selena-auditorium-at-hilliard-center-2-2-2027/production/7623892",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-corpus-christi-texas-02-02-2027/event/3A006538B6FEBA72",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1785,7 +1953,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295479",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295479/Daughtry-tickets-Tue-Feb-2-2027-Selena-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295479/Daughtry-tickets-Tue-Feb-2-2027-Selena-Auditorium",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-01-27T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-sacramento-g5vyz_k60xnfe",
@@ -1803,7 +1978,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-sacramento-channel-24-2-8-2027/production/7624331",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-sacramento-california-02-08-2027/event/1C006531E4FAA502",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1854,7 +2029,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295481",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295481/Daughtry-tickets-Mon-Feb-8-2027-Channel-24"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295481/Daughtry-tickets-Mon-Feb-8-2027-Channel-24",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-02-02T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-denver-g5vzz_knzyqbr",
@@ -1872,7 +2054,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-denver-paramount-theatre-denver-2-10-2027/production/7623890",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-denver-colorado-02-10-2027/event/1E006538C0C1DE9E",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1923,7 +2105,14 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295482",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295482/Daughtry-tickets-Wed-Feb-10-2027-Paramount-Theatre-Denver"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295482/Daughtry-tickets-Wed-Feb-10-2027-Paramount-Theatre-Denver",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T16:00:00Z",
+        "end": "2027-02-04T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-durant-vvg1yz_kgp_ixc",
@@ -1937,11 +2126,11 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "0C0065332566C8AD",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-durant-oklahoma-02-12-2027/event/0C0065332566C8AD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/durant-oklahoma-choctaw-grand-theater-2027-02-12-7-pm/concert/18632912",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-durant-choctaw-grand-theater-2-12-2027/production/7625170",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-durant-oklahoma-02-12-2027/event/0C0065332566C8AD",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1976,7 +2165,14 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KGP_ixc",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-02-06T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-saint-louis-vv1fvovpgtjkz75857",
@@ -1994,7 +2190,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-saint-louis-missouri-02-13-2027/event/060065329993AFA3",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2029,7 +2225,14 @@
     },
     "ticketmaster_discovery_event_id": "vv1FvOvPGtJKZ75857",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-02-07T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-duluth-vv1akzkfmgkdcbe8w",
@@ -2043,11 +2246,11 @@
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "06006537EDEA7432",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-duluth-minnesota-02-16-2027/event/06006537EDEA7432",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/daughtry-tickets/duluth-minnesota-decc-symphony-hall-2027-02-16-7-pm/concert/18632920",
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-duluth-decc-symphony-hall-2-16-2027/production/7623810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-duluth-minnesota-02-16-2027/event/06006537EDEA7432",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2082,7 +2285,14 @@
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfMGkdcBE8w",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-02-10T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-rockford-16e7z_kkfg7v38v",
@@ -2100,7 +2310,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-rockford-hard-rock-live---rockford-2-20-2027/production/7624357",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-rockford-illinois-02-20-2027/event/2100653194D12434",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2151,7 +2361,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295486",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295486/Daughtry-tickets-Sat-Feb-20-2027-Hard-Rock-Live-Rockford"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295486/Daughtry-tickets-Sat-Feb-20-2027-Hard-Rock-Live-Rockford",
+    "presales": [
+      {
+        "name": "VIP Package Onsale / 21+ ONLY",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-02-14T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-gary-vv1aazkfygkesuefr",
@@ -2169,7 +2386,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-gary-hard-rock-casino-northern-indiana-2-21-2027/production/7623806",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-gary-indiana-02-21-2027/event/05006539B334221E",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2220,7 +2437,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295487",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295487/Daughtry-tickets-Sun-Feb-21-2027-Hard-Rock-Live-Northern-Indiana"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295487/Daughtry-tickets-Sun-Feb-21-2027-Hard-Rock-Live-Northern-Indiana",
+    "presales": [
+      {
+        "name": "Aisle Seating / 21+ ONLY",
+        "start": "2026-09-30T15:00:00Z",
+        "end": "2027-02-22T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-02-15T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-detroit-vv1kezvpg_ga5zp8l",
@@ -2238,7 +2467,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-detroit-the-fillmore-detroit-2-23-2027/production/7623759",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wrif-presents-daughtry-20-years-unplugged-detroit-michigan-02-23-2027/event/080065319B02541F",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2289,7 +2518,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295488",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295488/Daughtry-tickets-Tue-Feb-23-2027-The-Fillmore-Detroit"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295488/Daughtry-tickets-Tue-Feb-23-2027-The-Fillmore-Detroit",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-01-27T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-02-17T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-hershey-vv1aezkfmgkdtwgls",
@@ -2307,7 +2548,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-hershey-hershey-theatre-2-26-2027/production/7623761",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-hershey-pennsylvania-02-26-2027/event/02006537E9CB5AF3",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2358,7 +2599,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295489",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295489/Daughtry-tickets-Fri-Feb-26-2027-Hershey-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295489/Daughtry-tickets-Fri-Feb-26-2027-Hershey-Theatre",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-02-20T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-bethlehem-vv1aovpg_ga5ljzy",
@@ -2376,7 +2624,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-bethlehem-wind-creek-event-center-2-27-2027/production/7623765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-bethlehem-pennsylvania-02-27-2027/event/020065319B7DC030",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2411,7 +2659,14 @@
     },
     "ticketmaster_discovery_event_id": "vv1AOvPG_GA5LjZY",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-02-21T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-charleston-g5evz_keoc7ae",
@@ -2429,7 +2684,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-charleston-charleston-music-hall-3-5-2027/production/7624419",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-charleston-south-carolina-03-05-2027/event/2D006539D1384242",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2464,7 +2719,14 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KEoC7ae",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-02-27T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-nashville-g5viz_khosea-",
@@ -2482,7 +2744,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-nashville-the-truth-3-6-2027/production/7624399",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-nashville-tennessee-03-06-2027/event/1B006536E0C67161",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2533,7 +2795,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295492",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295492/Daughtry-tickets-Sat-Mar-6-2027-The-Truth"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295492/Daughtry-tickets-Sat-Mar-6-2027-The-Truth",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-02-07T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-02-28T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-atlanta-vvg1zz_klwyfxu",
@@ -2551,7 +2825,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-atlanta-georgia-03-07-2027/event/0E006537FDE48FB6",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2586,7 +2860,19 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KLWyFXU",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-02-08T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-03-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-daughtry-2027-melbourne-z7r9jz1aae83v",

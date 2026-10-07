@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-st-petersburg-florida-11-05-2026/event/0D0064EE9B1C73B2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151244",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151244/Trivium-tickets-Thu-Nov-5-2026-Jannus-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151244/Trivium-tickets-Thu-Nov-5-2026-Jannus-Live",
+    "presales": [
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-10-30T03:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-10-30T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-atlanta-z7r9jz1aazdby",
@@ -99,7 +111,7 @@
         "event_id": 18391931,
         "url": "https://seatgeek.com/trivium-tickets/atlanta-georgia-the-eastern-atlanta-2026-11-06-6-30-pm/concert/18391931",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -168,7 +180,7 @@
         "event_id": 18391935,
         "url": "https://seatgeek.com/trivium-tickets/louisville-kentucky-old-forester-s-paristown-hall-2026-11-07-6-35-pm/concert/18391935",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -214,7 +226,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-grand-rapids-michigan-11-08-2026/event/080064E8ECCDBF7C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -265,7 +277,24 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151245",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151245/Trivium-tickets-Sun-Nov-8-2026-GLC-Live-at-20-Monroe"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151245/Trivium-tickets-Sun-Nov-8-2026-GLC-Live-at-20-Monroe",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-10-12T02:00:00Z"
+      },
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-11-02T04:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-11-02T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-silver-spring-17a8v0g6cngp9y6",
@@ -283,7 +312,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-silver-spring-the-fillmore-silver-spring-11-10-2026--concerts-rock/production/7325330",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-silver-spring-maryland-11-10-2026/event/150064EAB5597C07",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -334,7 +363,24 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151248",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151248/Trivium-tickets-Tue-Nov-10-2026-The-Fillmore-Silver-Spring"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151248/Trivium-tickets-Tue-Nov-10-2026-The-Fillmore-Silver-Spring",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-11-04T04:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-11-04T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-new-haven-z7r9jz1aazdbw",
@@ -367,7 +413,7 @@
         "event_id": 18391936,
         "url": "https://seatgeek.com/trivium-tickets/new-haven-connecticut-college-street-music-hall-2026-11-11-6-35-pm/concert/18391936",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -436,7 +482,7 @@
         "event_id": 18391943,
         "url": "https://seatgeek.com/trivium-tickets/new-york-new-york-terminal-5-2026-11-12-6-35-pm/concert/18391943",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -505,7 +551,7 @@
         "event_id": 18391945,
         "url": "https://seatgeek.com/trivium-tickets/philadelphia-pennsylvania-franklin-music-hall-2026-11-14-6-35-pm/concert/18391945",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -574,7 +620,7 @@
         "event_id": 18391947,
         "url": "https://seatgeek.com/trivium-tickets/worcester-massachusetts-the-palladium-2026-11-15-6-35-pm/concert/18391947",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -612,7 +658,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-laval-place-bell-11-17-2026--concerts-rock/production/7325404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-laval-quebec-11-17-2026/event/310064ED98CF36FA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -663,7 +709,24 @@
     "timezone": "America/Toronto",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151271",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151271/Trivium-tickets-Tue-Nov-17-2026-Place-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151271/Trivium-tickets-Tue-Nov-17-2026-Place-Bell",
+    "presales": [
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-11-11T04:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-11-11T04:55:00Z"
+      },
+      {
+        "name": "Offre 2 pour 1 - BOGO Offer",
+        "start": "2026-10-07T14:00:00Z",
+        "end": "2026-10-12T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-toronto-177zv0g62er1iat",
@@ -681,7 +744,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-toronto-ontario-11-18-2026/event/100064F09E2A8269",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -716,7 +779,14 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G62er1Iat",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-11-12T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-royal-oak-z7r9jz1aazdbu",
@@ -749,7 +819,7 @@
         "event_id": 18391950,
         "url": "https://seatgeek.com/trivium-tickets/royal-oak-michigan-royal-oak-music-theatre-2026-11-20-6-35-pm/concert/18391950",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -803,7 +873,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-chicago-aragon-ballroom-11-21-2026--concerts-rock/production/7325332",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-chicago-illinois-11-21-2026/event/040064E8F7D59A10",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -854,7 +924,24 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151249",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151249/Trivium-tickets-Sat-Nov-21-2026-Byline-Bank-Aragon-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151249/Trivium-tickets-Sat-Nov-21-2026-Byline-Bank-Aragon-Ballroom",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2026-10-25T03:00:00Z"
+      },
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2026-11-15T05:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2026-11-15T05:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-madison-vvg1jz_cbaz-zj",
@@ -872,7 +959,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-madison-the-sylvee-11-22-2026--concerts-rock/production/7325334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-madison-wisconsin-11-22-2026/event/070064EE89E21E1C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -923,7 +1010,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151250",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151250/Trivium-tickets-Sun-Nov-22-2026-The-Sylvee-WI"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151250/Trivium-tickets-Sun-Nov-22-2026-The-Sylvee-WI",
+    "presales": [
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2026-11-16T05:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2026-11-16T05:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-nashville-z7r9jz1aazdbm",
@@ -956,7 +1055,7 @@
         "event_id": 18391959,
         "url": "https://seatgeek.com/trivium-tickets/nashville-tennessee-the-pinnacle-nashville-2026-11-24-6-35-pm/concert/18391959",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -994,7 +1093,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-saint-louis-missouri-11-25-2026/event/210064EE501D2E87",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1029,7 +1128,19 @@
     },
     "ticketmaster_discovery_event_id": "17F8v0G6Cy863B6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2026-11-19T05:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2026-11-19T05:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-houston-g5diz_cdfyhi_",
@@ -1047,7 +1158,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-houston-bayou-music-center-11-28-2026--concerts-rock/production/7325340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-houston-texas-11-28-2026/event/3A0064EEC8C1BA19",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1098,7 +1209,24 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151254",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151254/Trivium-tickets-Sat-Nov-28-2026-Bayou-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151254/Trivium-tickets-Sat-Nov-28-2026-Bayou-Music-Center",
+    "presales": [
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2026-11-22T05:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2026-11-22T05:55:00Z"
+      },
+      {
+        "name": "2-Pack",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-11-28T23:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-dallas-vvg1yz_cdoxznj",
@@ -1116,7 +1244,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-dallas-south-side-ballroom-11-29-2026--concerts-rock/production/7325342",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-dallas-texas-11-29-2026/event/0C0064EED1FB8AA6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1167,7 +1295,24 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151256",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151256/Trivium-tickets-Sun-Nov-29-2026-South-Side-Ballroom-at-Gilleys"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151256/Trivium-tickets-Sun-Nov-29-2026-South-Side-Ballroom-at-Gilleys",
+    "presales": [
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2026-11-23T04:00:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2026-11-23T04:00:00Z"
+      },
+      {
+        "name": "2 Pack Offer",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-11-29T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-phoenix-17k8v0g62douihb",
@@ -1185,7 +1330,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-phoenix-arizona-financial-theatre-12-2-2026--concerts-rock/production/7325306",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-phoenix-arizona-12-02-2026/event/190064F0E0368F3A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1236,7 +1381,24 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151257",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151257/Trivium-tickets-Wed-Dec-2-2026-Arizona-Financial-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151257/Trivium-tickets-Wed-Dec-2-2026-Arizona-Financial-Theatre",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2026-11-05T05:00:00Z"
+      },
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2026-11-26T06:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2026-11-26T06:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-inglewood-vvg1iz_ceqwhij",
@@ -1254,7 +1416,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-inglewood-youtube-theater-12-4-2026--concerts-rock/production/7325352",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-inglewood-california-12-04-2026/event/0A0064E9DDF7CB1C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1313,7 +1475,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151261",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151261/Trivium-tickets-Fri-Dec-4-2026-YouTube-Theater-at-Hollywood-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/trivium-inglewood-tickets-12-4-2026/event/107482741"
+    "stubhub_international_url": "https://www.stubhub.ie/trivium-inglewood-tickets-12-4-2026/event/107482741",
+    "presales": [
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2026-11-28T07:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2026-11-28T07:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-san-francisco-g5vyz_2ejmndl",
@@ -1331,7 +1505,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-san-francisco-california-12-05-2026/event/1C0064F09CBAA0EB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1382,7 +1556,24 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151262",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151262/Trivium-tickets-Sat-Dec-5-2026-The-Masonic-San-Francisco"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151262/Trivium-tickets-Sat-Dec-5-2026-The-Masonic-San-Francisco",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2026-11-06T06:00:00Z"
+      },
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2026-11-29T07:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2026-11-29T07:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-penticton-z7r9jz1aazdbz",
@@ -1415,7 +1606,7 @@
         "event_id": 18391977,
         "url": "https://seatgeek.com/trivium-tickets/penticton-canada-penticton-trade-convention-centre-2026-12-07-6-35-pm/concert/18391977",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1469,7 +1660,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-12-8-2026--concerts-rock/production/7325476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-vancouver-british-columbia-12-08-2026/event/110064F1C6BDA98A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1520,7 +1711,19 @@
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151273",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151273/Trivium-tickets-Tue-Dec-8-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151273/Trivium-tickets-Tue-Dec-8-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+    "presales": [
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2026-12-02T06:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2026-12-02T06:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-seattle-vvg1hz_2dp1x5t",
@@ -1538,7 +1741,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-seattle-paramount-theatre-seattle-12-9-2026--concerts-rock/production/7325366",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-seattle-washington-12-09-2026/event/0F0064F0E52BE2E9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1589,7 +1792,19 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151265",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151265/Trivium-tickets-Wed-Dec-9-2026-Paramount-Theatre-Seattle"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151265/Trivium-tickets-Wed-Dec-9-2026-Paramount-Theatre-Seattle",
+    "presales": [
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2026-12-03T07:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2026-12-03T07:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-reno-17ayv0g6cnaivry",
@@ -1607,7 +1822,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-reno-nevada-12-11-2026/event/170064E8C9A01BF9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1642,7 +1857,19 @@
     },
     "ticketmaster_discovery_event_id": "17AYv0G6CNaIvRy",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2026-12-05T07:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2026-12-05T07:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-denver-z7r9jz1aazdby",
@@ -1675,7 +1902,7 @@
         "event_id": 18391983,
         "url": "https://seatgeek.com/trivium-tickets/denver-colorado-mission-ballroom-2026-12-13-6-35-pm/concert/18391983",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1744,7 +1971,7 @@
         "event_id": 18391987,
         "url": "https://seatgeek.com/trivium-tickets/tulsa-oklahoma-tulsa-theater-2026-12-15-6-35-pm/concert/18391987",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1798,7 +2025,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-omaha-nebraska-12-16-2026/event/200064EFBE5A30EF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1849,7 +2076,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151268",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151268/Trivium-tickets-Wed-Dec-16-2026-Steelhouse-Omaha"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151268/Trivium-tickets-Wed-Dec-16-2026-Steelhouse-Omaha",
+    "presales": [
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2026-12-10T05:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2026-12-10T05:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-pittsburgh-17aov0g6cymqerk",
@@ -1867,7 +2106,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-pittsburgh-citizens-live-at-the-wylie-12-18-2026--concerts-rock/production/7325398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-pittsburgh-pennsylvania-12-18-2026/event/160064EE77742BD3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1918,7 +2157,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151269",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151269/Trivium-tickets-Fri-Dec-18-2026-Citizens-Live-at-The-Wylie"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151269/Trivium-tickets-Fri-Dec-18-2026-Citizens-Live-at-The-Wylie",
+    "presales": [
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-12-12T04:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-12-12T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2026-charlotte-g5evz_cufmier",
@@ -1936,7 +2187,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-charlotte-the-fillmore-charlotte-12-19-2026--concerts-rock/production/7325402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-charlotte-north-carolina-12-19-2026/event/2D0064ED94BA89EF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1987,7 +2238,24 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151270",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151270/Trivium-tickets-Sat-Dec-19-2026-The-Fillmore-Charlotte"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151270/Trivium-tickets-Sat-Dec-19-2026-The-Fillmore-Charlotte",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "In Flames VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-12-13T04:55:00Z"
+      },
+      {
+        "name": "Trivium VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2026-12-13T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-trivium-2027-glasgow-1auzkfpgken_hpc",

@@ -121,7 +121,7 @@
 .ttc-btn { display: inline-flex; align-items: center; gap: 7px; font-weight: 700; font-size: 14px; border-radius: 9px; padding: 8px 14px; transition: .14s; white-space: nowrap; }
 .ttc-btn--ghost { color: var(--ttc-ink); border: 1px solid var(--ttc-border-strong); background: var(--ttc-surface); }
 .ttc-btn--ghost:hover { border-color: var(--ttc-muted); }
-/* Primary action ("Find a show"): the hero's one committed next step. */
+/* Primary action ("Compare a show"): the hero's one committed next step. */
 .ttc-btn--primary { background: var(--ttc-accent); color: #fff; font-size: 15px; padding: 11px 20px; }
 .ttc-btn--primary:hover { background: var(--ttc-accent-hover); }
 .ttc-hamb { display: none; align-items: center; justify-content: center; min-height: 44px; padding: 0 14px; border: 1px solid var(--ttc-border-strong); border-radius: 9px; background: var(--ttc-surface); color: var(--ttc-ink); font-weight: 700; font-size: 14px; }

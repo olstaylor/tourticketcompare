@@ -449,7 +449,7 @@
     "tour_name": "Music, Fashion, Film Tour",
     "ticketmaster_event_id": "0E0064C5D7863203",
     "ticketmaster_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-atlanta-georgia-10-06-2026/event/0E0064C5D7863203",
-    "seatgeek_url": "https://seatgeek.com/charli-xcx-tickets/atlanta-georgia-state-farm-arena-1-2026-10-06-8-pm/concert/18292513",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-atlanta-state-farm-arena-10-6-2026--concerts-pop/production/7132059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-atlanta-georgia-10-06-2026/event/0E0064C5D7863203",
@@ -465,11 +465,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18292513,
-        "url": "https://seatgeek.com/charli-xcx-tickets/atlanta-georgia-state-farm-arena-1-2026-10-06-8-pm/concert/18292513",
-        "verified": true,
-        "last_verified_at": "2026-10-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7132059,
@@ -486,33 +486,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034402",
-        "url": "https://www.ticketnetwork.com/en/p/8034402",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034402",
-        "url": "https://www.ticketliquidator.com/tickets/8034402/Charli-XCX-tickets-Tue-Oct-6-2026-State-Farm-Arena-GA",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107325082",
-        "url": "https://www.stubhub.ie/charli-xcx-atlanta-tickets-10-6-2026/event/107325082",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_G99-NFd",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034402",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034402/Charli-XCX-tickets-Tue-Oct-6-2026-State-Farm-Arena-GA",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-atlanta-tickets-10-6-2026/event/107325082"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-charli-xcx-2026-san-diego-vvg1iz_gpnxmrx",
@@ -530,7 +530,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-san-diego-california-10-14-2026/event/0A0064C5A3FB77BE",
-    "last_verified_at": "2026-07-06",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -538,14 +538,14 @@
         "discovery_event_id": "vvG1IZ_GpNXMrX",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-san-diego-california-10-14-2026/event/0A0064C5A3FB77BE",
         "verified": true,
-        "last_verified_at": "2026-07-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked"
       },
       "seatgeek": {
         "event_id": 18292521,
         "url": "https://seatgeek.com/charli-xcx-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-10-14-8-pm/concert/18292521",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -581,7 +581,19 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034403",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034403/Charli-XCX-tickets-Wed-Oct-14-2026-Viejas-Arena-At-Aztec-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034403/Charli-XCX-tickets-Wed-Oct-14-2026-Viejas-Arena-At-Aztec-Bowl",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-12T20:00:00Z",
+        "end": "2026-10-10T19:00:00Z"
+      },
+      {
+        "name": "Charity Tickets Onsale",
+        "start": "2026-06-12T20:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-charli-xcx-2026-inglewood-vvg10z_g9r7nph",
@@ -599,7 +611,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-17-2026--concerts-pop/production/7132070",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-17-2026/event/090064C5EF12A97C",
-    "last_verified_at": "2026-07-06",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -607,14 +619,14 @@
         "discovery_event_id": "vvG10Z_G9R7nPH",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-17-2026/event/090064C5EF12A97C",
         "verified": true,
-        "last_verified_at": "2026-07-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked"
       },
       "seatgeek": {
         "event_id": 18292522,
         "url": "https://seatgeek.com/charli-xcx-tickets/inglewood-california-kia-forum-2026-10-17-8-pm/concert/18292522",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -658,7 +670,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034404",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034404/Charli-XCX-tickets-Sat-Oct-17-2026-The-Kia-Forum",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-inglewood-tickets-10-17-2026/event/107325084"
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-inglewood-tickets-10-17-2026/event/107325084",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-12T20:00:00Z",
+        "end": "2026-10-13T19:00:00Z"
+      },
+      {
+        "name": "Charity Tickets Onsale",
+        "start": "2026-06-12T20:00:00Z",
+        "end": "2026-10-18T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-charli-xcx-2026-inglewood-vvg10z_g9gehi7",
@@ -676,7 +700,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-inglewood-kia-forum-10-18-2026--concerts-pop/production/7132072",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-18-2026/event/090064C5F509BA04",
-    "last_verified_at": "2026-07-06",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -684,14 +708,14 @@
         "discovery_event_id": "vvG10Z_G9gehI7",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-inglewood-california-10-18-2026/event/090064C5F509BA04",
         "verified": true,
-        "last_verified_at": "2026-07-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked"
       },
       "seatgeek": {
         "event_id": 18292523,
         "url": "https://seatgeek.com/charli-xcx-tickets/inglewood-california-kia-forum-2026-10-18-8-pm/concert/18292523",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -735,7 +759,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034405",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034405/Charli-XCX-tickets-Sun-Oct-18-2026-The-Kia-Forum",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-inglewood-tickets-10-18-2026/event/107258883"
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-inglewood-tickets-10-18-2026/event/107258883",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-12T20:00:00Z",
+        "end": "2026-10-14T19:00:00Z"
+      },
+      {
+        "name": "Charity Tickets Onsale",
+        "start": "2026-06-12T20:00:00Z",
+        "end": "2026-10-19T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-charli-xcx-2026-glendale-17k8v0g6g9pu_yt",
@@ -753,7 +789,7 @@
     "vividseats_url": "https://www.vividseats.com/charli-xcx-tickets-glendale-desert-diamond-arena-10-21-2026--concerts-pop/production/7132074",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
-    "last_verified_at": "2026-07-06",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -761,14 +797,14 @@
         "discovery_event_id": "17k8v0G6G9pu_YT",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-glendale-arizona-10-21-2026/event/190064C5D6359C3F",
         "verified": true,
-        "last_verified_at": "2026-07-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked"
       },
       "seatgeek": {
         "event_id": 18292524,
         "url": "https://seatgeek.com/charli-xcx-tickets/glendale-arizona-desert-diamond-arena-2026-10-21-8-pm/concert/18292524",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -812,7 +848,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034406",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034406/Charli-XCX-tickets-Wed-Oct-21-2026-Desert-Diamond-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-glendale-tickets-10-21-2026/event/107325085"
+    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-glendale-tickets-10-21-2026/event/107325085",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-12T20:00:00Z",
+        "end": "2026-10-17T19:00:00Z"
+      },
+      {
+        "name": "Charity Tickets Onsale",
+        "start": "2026-06-12T20:00:00Z",
+        "end": "2026-10-22T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-charli-xcx-2027-dublin-16voz_3jvg7sk3f",

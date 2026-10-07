@@ -1273,7 +1273,7 @@
         "event_id": 18027125,
         "url": "https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-07-8-pm/concert/18027125",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1350,7 +1350,7 @@
         "event_id": 18027126,
         "url": "https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-09-8-pm/concert/18027126",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1427,7 +1427,7 @@
         "event_id": 18027129,
         "url": "https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-10-8-pm/concert/18027129",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1490,13 +1490,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-14-2026--concerts-pop/production/6564686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-14-2026/event/3B00643505DD82E6",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643505DD82E6",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-14-2026/event/3B00643505DD82E6",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfAMb5J"
       },
@@ -1504,7 +1504,7 @@
         "event_id": 18027130,
         "url": "https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-14-8-pm/concert/18027130",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1547,7 +1547,14 @@
     "ticketmaster_discovery_event_id": "G5diZ_dfAMb5J",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695886",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-14-2026/event/107085164",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695886/Harry-Styles-tickets-Wed-Oct-14-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695886/Harry-Styles-tickets-Wed-Oct-14-2026-Madison-Square-Garden",
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-02-04T16:00:00Z",
+        "end": "2026-10-10T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505ee82f4",
@@ -1567,13 +1574,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-16-2026--concerts-pop/production/6564688",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-16-2026/event/3B00643505EE82F4",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643505EE82F4",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-16-2026/event/3B00643505EE82F4",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfADI5V"
       },
@@ -1581,7 +1588,7 @@
         "event_id": 18027131,
         "url": "https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-16-8-pm/concert/18027131",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1624,7 +1631,14 @@
     "ticketmaster_discovery_event_id": "G5diZ_dfADI5V",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695888",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-16-2026/event/107083222",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695888/Harry-Styles-tickets-Fri-Oct-16-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695888/Harry-Styles-tickets-Fri-Oct-16-2026-Madison-Square-Garden",
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-02-04T16:00:00Z",
+        "end": "2026-10-12T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506808378",
@@ -1644,13 +1658,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-17-2026--concerts-pop/production/6564691",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-17-2026/event/3B00643506808378",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643506808378",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-17-2026/event/3B00643506808378",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfkOFuz"
       },
@@ -1658,7 +1672,7 @@
         "event_id": 18027135,
         "url": "https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-17-8-pm/concert/18027135",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1701,7 +1715,14 @@
     "ticketmaster_discovery_event_id": "G5diZ_dfkOFuz",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695889",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-17-2026/event/107082340",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695889/Harry-Styles-tickets-Sat-Oct-17-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695889/Harry-Styles-tickets-Sat-Oct-17-2026-Madison-Square-Garden",
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-02-04T16:00:00Z",
+        "end": "2026-10-13T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b0064350690838a",
@@ -1721,13 +1742,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-21-2026--concerts-pop/production/6564694",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-21-2026/event/3B0064350690838A",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B0064350690838A",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-21-2026/event/3B0064350690838A",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfk0FC1"
       },
@@ -1735,7 +1756,7 @@
         "event_id": 18027137,
         "url": "https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-21-8-pm/concert/18027137",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1778,7 +1799,14 @@
     "ticketmaster_discovery_event_id": "G5diZ_dfk0FC1",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695890",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-21-2026/event/107083223",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695890/Harry-Styles-tickets-Wed-Oct-21-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695890/Harry-Styles-tickets-Wed-Oct-21-2026-Madison-Square-Garden",
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-02-04T16:00:00Z",
+        "end": "2026-10-17T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b006435069e8398",
@@ -1798,13 +1826,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-23-2026--concerts-pop/production/6564699",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-23-2026/event/3B006435069E8398",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B006435069E8398",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-23-2026/event/3B006435069E8398",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfkEICb"
       },
@@ -1812,7 +1840,7 @@
         "event_id": 18027138,
         "url": "https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-23-8-pm/concert/18027138",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1855,7 +1883,14 @@
     "ticketmaster_discovery_event_id": "G5diZ_dfkEICb",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695891",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-23-2026/event/107085165",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695891/Harry-Styles-tickets-Fri-Oct-23-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695891/Harry-Styles-tickets-Fri-Oct-23-2026-Madison-Square-Garden",
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-02-04T16:00:00Z",
+        "end": "2026-10-19T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506ae83a2",
@@ -1875,13 +1910,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-24-2026--concerts-pop/production/6564701",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-24-2026/event/3B00643506AE83A2",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643506AE83A2",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-24-2026/event/3B00643506AE83A2",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfklICx"
       },
@@ -1889,7 +1924,7 @@
         "event_id": 18027141,
         "url": "https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-24-8-pm/concert/18027141",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1932,7 +1967,14 @@
     "ticketmaster_discovery_event_id": "G5diZ_dfklICx",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695892",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-24-2026/event/107082341",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695892/Harry-Styles-tickets-Sat-Oct-24-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695892/Harry-Styles-tickets-Sat-Oct-24-2026-Madison-Square-Garden",
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-02-04T16:00:00Z",
+        "end": "2026-10-20T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506bf83b6",
@@ -1952,13 +1994,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-28-2026--concerts-pop/production/6564706",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-28-2026/event/3B00643506BF83B6",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643506BF83B6",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-new-york-new-york-10-28-2026/event/3B00643506BF83B6",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfkRzCU"
       },
@@ -1966,7 +2008,7 @@
         "event_id": 18027142,
         "url": "https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-28-8-pm/concert/18027142",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2009,7 +2051,14 @@
     "ticketmaster_discovery_event_id": "G5diZ_dfkRzCU",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695893",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-28-2026/event/107083224",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695893/Harry-Styles-tickets-Wed-Oct-28-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695893/Harry-Styles-tickets-Wed-Oct-28-2026-Madison-Square-Garden",
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-02-04T16:00:00Z",
+        "end": "2026-10-24T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506cf83cb",
@@ -2029,13 +2078,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-30-2026--concerts-pop/production/6564711",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-30-2026/event/3B00643506CF83CB",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643506CF83CB",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-30-2026/event/3B00643506CF83CB",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfkSz25"
       },
@@ -2043,7 +2092,7 @@
         "event_id": 18027143,
         "url": "https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-30-8-pm/concert/18027143",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2086,7 +2135,14 @@
     "ticketmaster_discovery_event_id": "G5diZ_dfkSz25",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695894",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-30-2026/event/107083225",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695894/Harry-Styles-tickets-Fri-Oct-30-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695894/Harry-Styles-tickets-Fri-Oct-30-2026-Madison-Square-Garden",
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-02-04T16:00:00Z",
+        "end": "2026-10-26T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643506da83de",
@@ -2106,13 +2162,13 @@
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-new-york-madison-square-garden-10-31-2026--concerts-pop/production/6564719",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-31-2026/event/3B00643506DA83DE",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3B00643506DA83DE",
         "url": "https://www.ticketmaster.com/harry-styles-together-together-harryween-new-york-new-york-10-31-2026/event/3B00643506DA83DE",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "on_sale",
         "discovery_event_id": "G5diZ_dfkUI2r"
       },
@@ -2120,7 +2176,7 @@
         "event_id": 18027147,
         "url": "https://seatgeek.com/harry-styles-tickets/new-york-new-york-madison-square-garden-2026-10-31-8-pm/concert/18027147",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2163,7 +2219,14 @@
     "ticketmaster_discovery_event_id": "G5diZ_dfkUI2r",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695895",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-31-2026/event/107082342",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695895/Harry-Styles-tickets-Sat-Oct-31-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695895/Harry-Styles-tickets-Sat-Oct-31-2026-Madison-Square-Garden",
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-02-04T16:00:00Z",
+        "end": "2026-10-27T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-harry-styles-2026-london-1aegz_egkuqz8x-",
@@ -4103,7 +4166,7 @@
         "event_id": 18516103,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-09-7-45-pm/concert/18516103",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4180,7 +4243,7 @@
         "event_id": 18577780,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-10-7-45-pm/concert/18577780",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4257,7 +4320,7 @@
         "event_id": 18584157,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-16-7-45-pm/concert/18584157",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4801,7 +4864,7 @@
         "event_id": 18584154,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-14-7-45-pm/concert/18584154",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4878,7 +4941,7 @@
         "event_id": 18584160,
         "url": "https://seatgeek.com/harry-styles-tickets/arlington-texas-at-t-stadium-2027-04-17-7-45-pm/concert/18584160",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {

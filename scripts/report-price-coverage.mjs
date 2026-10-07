@@ -49,7 +49,8 @@ export const PRICE_LANES = Object.freeze([
   Object.freeze({ slug: "stubhub-international", name: "StubHub International" })
 ]);
 const PRICE_LANE_NAMES = new Set(PRICE_LANES.map((lane) => lane.name));
-// Same value as PRICE_STALE_AFTER_HOURS in functions/[[path]].js and public/app.js.
+// A monitoring threshold only: pages show every price's age ("Checked 14 hours
+// ago", functions/_price-wording.js), so no page uses a stale cut-off.
 export const PRICE_STALE_AFTER_HOURS = 12;
 export const DEFAULT_MIN_SHARE = 0.9;
 export const DEFAULT_MAX_STALE_SHARE = 0.25;

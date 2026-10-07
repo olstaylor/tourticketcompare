@@ -288,7 +288,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-houston-713-music-hall-5-1-2027/production/7606570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-houston-texas-05-01-2027/event/3A006531911D6E0F",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -347,7 +347,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287503",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287503/Lizzy-McAlpine-tickets-Sat-May-1-2027-713-Music-Hall",
-    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-houston-tickets-5-1-2027/event/107670451"
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-houston-tickets-5-1-2027/event/107670451",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-04-25T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-durham-g5evz_klljeql",
@@ -365,7 +372,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-durham-north-carolina-05-04-2027/event/2D006537DF9A769F",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -400,7 +407,24 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KLLJEQL",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Artist Presale Wave 1",
+        "start": "2026-09-30T14:00:00Z",
+        "end": "2026-10-30T17:30:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-21T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-28T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-detroit-vv1afzkfmgkdd0jd5",
@@ -418,7 +442,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-detroit-fox-theatre-detroit-5-7-2027/production/7606574",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-detroit-michigan-05-07-2027/event/08006537FB91CECB",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -469,7 +493,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287505",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287505/Lizzy-McAlpine-tickets-Fri-May-7-2027-Fox-Theatre-Detroit"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287505/Lizzy-McAlpine-tickets-Fri-May-7-2027-Fox-Theatre-Detroit",
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets®",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-24T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-05-01T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-indianapolis-vv1aazkfggkeu7rbe",
@@ -487,7 +523,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-indianapolis-clowes-memorial-hall-5-9-2027/production/7606576",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-indianapolis-indiana-05-09-2027/event/05006535B611EE82",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -538,7 +574,19 @@
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287506",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287506/Lizzy-McAlpine-tickets-Sun-May-9-2027-Clowes-Memorial-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287506/Lizzy-McAlpine-tickets-Sun-May-9-2027-Clowes-Memorial-Hall",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-26T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-05-03T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-minneapolis-vv1akzkfsgkdlvc7g",
@@ -556,7 +604,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-12-2027/production/7606578",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-12-2027/event/06006531EBD2D135",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -607,7 +655,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287507",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287507/Lizzy-McAlpine-tickets-Wed-May-12-2027-State-Theatre-MN"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287507/Lizzy-McAlpine-tickets-Wed-May-12-2027-State-Theatre-MN",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-04-29T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-06T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-saint-louis-vv1kvovpu_ga2r6bf",
@@ -625,7 +685,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-saint-louis-missouri-05-15-2027/event/060065359F787E88",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -660,7 +720,19 @@
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPu_GA2r6BF",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-02T00:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-09T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-nashville-g5viz_kqsm0og",
@@ -678,7 +750,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-nashville-bridgestone-arena-6-16-2027/production/7606584",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-nashville-tennessee-06-16-2027/event/1B00653773DE4835",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -737,7 +809,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287510",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287510/Lizzy-McAlpine-tickets-Wed-Jun-16-2027-Bridgestone-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-nashville-tickets-6-16-2027/event/107670480"
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-nashville-tickets-6-16-2027/event/107670480",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-06-03T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-06-10T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-philadelphia-1ayzkfsgkdubyxp",
@@ -755,7 +839,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-philadelphia-xfinity-mobile-arena-6-18-2027/production/7606586",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wxpn-welcomes-lizzy-mcalpine-the-over-philadelphia-pennsylvania-06-18-2027/event/30006531F6639F96",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -814,7 +898,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287512",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287512/Lizzy-McAlpine-tickets-Fri-Jun-18-2027-Xfinity-Mobile-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-philadelphia-tickets-6-18-2027/event/107670455"
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-philadelphia-tickets-6-18-2027/event/107670455",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-05T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-12T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-boston-vv1a8vpuzga1bapr",
@@ -832,7 +928,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-20-2027/production/7606590",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-20-2027/event/010065378A60995E",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -883,7 +979,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287513",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287513/Lizzy-McAlpine-tickets-Sun-Jun-20-2027-Agganis-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287513/Lizzy-McAlpine-tickets-Sun-Jun-20-2027-Agganis-Arena",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-06T23:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-14T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-new-york-g5diz_kr8e3se",
@@ -901,7 +1009,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-new-york-madison-square-garden-6-24-2027/production/7606580",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-new-york-new-york-06-24-2027/event/3B006537909D2CC2",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -960,7 +1068,29 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287514",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287514/Lizzy-McAlpine-tickets-Thu-Jun-24-2027-Madison-Square-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-new-york-tickets-6-24-2027/event/107670456"
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-new-york-tickets-6-24-2027/event/107670456",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2026-10-19T14:00:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-11T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-18T02:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-25T00:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-columbia-1a4zkfmgkejxp8r",
@@ -978,7 +1108,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbia-merriweather-post-pavilion-6-25-2027--concerts-alternative/production/7606598",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-columbia-maryland-06-25-2027/event/15006537A689641E",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1029,7 +1159,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287516",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287516/Lizzy-McAlpine-tickets-Fri-Jun-25-2027-Merriweather-Post-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287516/Lizzy-McAlpine-tickets-Fri-Jun-25-2027-Merriweather-Post-Pavilion",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-12T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-19T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-toronto-1a8zkfwgke-nzw8",
@@ -1047,7 +1189,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-toronto-scotiabank-arena-6-27-2027--concerts-alternative/production/7606716",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/lizzy-mcalpine-the-over-country-tour-toronto-ontario-06-27-2027/event/10006532A18F8C90",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1082,7 +1224,14 @@
     },
     "ticketmaster_discovery_event_id": "1A8ZkfwGke-Nzw8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-21T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-chicago-vv1a7zkfggkenm_sz",
@@ -1100,7 +1249,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-chicago-united-center-6-29-2027--concerts-alternative/production/7606600",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-chicago-illinois-06-29-2027/event/04006535AADD9CC0",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1159,7 +1308,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287517",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287517/Lizzy-McAlpine-tickets-Tue-Jun-29-2027-United-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-chicago-tickets-6-29-2027/event/107669203"
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-chicago-tickets-6-29-2027/event/107669203",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-02-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-06-23T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-austin-g5diz_k1qabc1",
@@ -1177,7 +1338,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-austin-moody-center-atx-7-2-2027--concerts-alternative/production/7606604",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-austin-texas-07-02-2027/event/3A0065329D25838A",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1236,7 +1397,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287518",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287518/Lizzy-McAlpine-tickets-Fri-Jul-2-2027-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-austin-tickets-7-2-2027/event/107670457"
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-austin-tickets-7-2-2027/event/107670457",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-06-19T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-06-26T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-san-diego-vvg1iz_k_8qjmi",
@@ -1254,7 +1427,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-san-diego-the-rady-shell-at-jacobs-park-7-9-2027--concerts-alternative/production/7606606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-san-diego-california-07-09-2027/event/0A0065365069CDEC",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1305,7 +1478,19 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287519",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287519/Lizzy-McAlpine-tickets-Fri-Jul-9-2027-The-Rady-Shell-at-Jacobs-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287519/Lizzy-McAlpine-tickets-Fri-Jul-9-2027-The-Rady-Shell-at-Jacobs-Park",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-06-26T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-07-03T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-inglewood-vv1aazkfugkdnwr6l",
@@ -1323,7 +1508,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-inglewood-kia-forum-7-10-2027/production/7606614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-inglewood-california-07-10-2027/event/09006536E3C9E1DF",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1382,7 +1567,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287520",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287520/Lizzy-McAlpine-tickets-Sat-Jul-10-2027-The-Kia-Forum",
-    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-inglewood-tickets-7-10-2027/event/107670458"
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-inglewood-tickets-7-10-2027/event/107670458",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-06-27T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-07-04T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-san-francisco-g5vyz_k6tphz4",
@@ -1400,7 +1597,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-san-francisco-chase-center-7-13-2027/production/7606620",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-san-francisco-california-07-13-2027/event/1C006531E959B015",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1459,7 +1656,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287521",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287521/Lizzy-McAlpine-tickets-Tue-Jul-13-2027-Chase-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-san-francisco-tickets-7-13-2027/event/107670459"
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-san-francisco-tickets-7-13-2027/event/107670459",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-06-30T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-07-07T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-portland-vvg1hz_kpe4n79",
@@ -1477,7 +1686,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-portland-moda-center-7-15-2027/production/7606624",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-portland-oregon-07-15-2027/event/0F00653582563117",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1528,7 +1737,19 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287522",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287522/Lizzy-McAlpine-tickets-Thu-Jul-15-2027-Moda-Center-at-the-Rose-Quarter"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287522/Lizzy-McAlpine-tickets-Thu-Jul-15-2027-Moda-Center-at-the-Rose-Quarter",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-07-02T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-07-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-seattle-vvg1hz_kf6i_hn",
@@ -1546,7 +1767,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-seattle-climate-pledge-arena-7-17-2027/production/7606630",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-seattle-washington-07-17-2027/event/0F00653207A196E3",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1605,7 +1826,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287523",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287523/Lizzy-McAlpine-tickets-Sat-Jul-17-2027-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-seattle-tickets-7-17-2027/event/107670460"
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-seattle-tickets-7-17-2027/event/107670460",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-07-04T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-07-11T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-torrensville-1akzkfggkepdplf",
@@ -2013,13 +2246,21 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671893",
+        "url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-10-4-2027/event/107671893",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KwTJArB",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299949",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8299949/Lizzy-McAlpine-tickets-Sat-Apr-10-2027-O2-Academy-Glasgow"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8299949/Lizzy-McAlpine-tickets-Sat-Apr-10-2027-O2-Academy-Glasgow",
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-10-4-2027/event/107671893"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-dallas-z7r9jz1aaekq3",
@@ -2313,7 +2554,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-13-2027/production/7631653",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-13-2027/event/06006531EBD5D13F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2364,7 +2605,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300364",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300364/Lizzy-McAlpine-tickets-Thu-May-13-2027-State-Theatre-MN"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300364/Lizzy-McAlpine-tickets-Thu-May-13-2027-State-Theatre-MN",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-04-29T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-07T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-kansas-city-z7r9jz1aaekqk",
@@ -2504,7 +2757,7 @@
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-21-2027--concerts-alternative/production/7631927",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-21-2027/event/010065378A639968",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2555,7 +2808,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8298345",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8298345/Lizzy-McAlpine-tickets-Mon-Jun-21-2027-Agganis-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8298345/Lizzy-McAlpine-tickets-Mon-Jun-21-2027-Agganis-Arena",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-06T23:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-14T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lizzy-mcalpine-2027-morrison-z7r9jz1aaeax6",

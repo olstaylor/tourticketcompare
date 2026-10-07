@@ -739,7 +739,7 @@
     "city": "Brooklyn",
     "country": "United States",
     "venue": "Barclays Center",
-    "datetime_iso": "2026-07-12T20:00:00",
+    "datetime_iso": "2026-07-15T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "announced",
@@ -749,13 +749,13 @@
     "vividseats_url": "https://www.vividseats.com/ariana-grande-tickets-brooklyn-barclays-center-7-12-2026--concerts-pop/production/5973675",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-12-2026/event/30006319F0E94AA7",
-    "last_verified_at": "2026-05-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "30006319F0E94AA7",
         "url": "https://www.ticketmaster.com/ariana-grande-the-eternal-sunshine-tour-brooklyn-new-york-07-12-2026/event/30006319F0E94AA7",
         "verified": true,
-        "last_verified_at": "2026-05-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "on_sale",
         "discovery_event_id": "1AYZkG_GkdYBfnE"
       },
@@ -782,7 +782,8 @@
       }
     },
     "verification_status": "human_verified",
-    "ticketmaster_discovery_event_id": "1AYZkG_GkdYBfnE"
+    "ticketmaster_discovery_event_id": "1AYZkG_GkdYBfnE",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-ariana-grande-2026-brooklyn-30006319f34a4abb",

@@ -393,7 +393,7 @@
     "tour_name": "Everywhere and Back Again Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7Jfbx",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jfbx",
-    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2026-10-06-8-pm/concert/18373486",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-san-luis-obispo-fremont-theater-10-6-2026/production/7291700",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jfbx",
@@ -409,11 +409,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18373486,
-        "url": "https://seatgeek.com/michelle-branch-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2026-10-06-8-pm/concert/18373486",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7291700,
@@ -430,25 +430,25 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8135394",
-        "url": "https://www.ticketliquidator.com/tickets/8135394/Michelle-Branch-tickets-Tue-Oct-6-2026-Fremont-Theater-CA",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8135394",
-        "url": "https://www.ticketnetwork.com/en/p/8135394",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Jfbx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135394/Michelle-Branch-tickets-Tue-Oct-6-2026-Fremont-Theater-CA",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135394"
+    "ticketliquidator_url": "",
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-michelle-branch-2026-aspen-z7r9jz1a7jfoj",
@@ -481,7 +481,7 @@
         "event_id": 18373495,
         "url": "https://seatgeek.com/michelle-branch-tickets/aspen-colorado-belly-up-aspen-2026-10-10-8-pm/concert/18373495",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -550,7 +550,7 @@
         "event_id": 18373496,
         "url": "https://seatgeek.com/michelle-branch-tickets/boulder-colorado-boulder-theater-2026-10-11-8-pm/concert/18373496",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -619,7 +619,7 @@
         "event_id": 18373497,
         "url": "https://seatgeek.com/michelle-branch-tickets/boston-massachusetts-roadrunner-boston-2026-11-04-8-pm/concert/18373497",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -657,7 +657,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-new-york-beacon-theatre-11-5-2026/production/7291708",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-new-york-new-york-11-05-2026/event/3B0064DDAF19395C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -716,7 +716,19 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135353/Michelle-Branch-tickets-Thu-Nov-5-2026-Beacon-Theatre-NY",
     "stubhub_international_url": "https://www.stubhub.ie/michelle-branch-new-york-tickets-11-5-2026/event/107667194",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135353"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135353",
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-07-17T14:00:00Z",
+        "end": "2026-10-27T00:00:00Z"
+      },
+      {
+        "name": "City National Bank Cardholder Preferred",
+        "start": "2026-07-17T14:00:00Z",
+        "end": "2026-11-06T01:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-michelle-branch-2026-asbury-park-k7vgf_c7zp9vt",
@@ -730,11 +742,11 @@
     "tour_name": "Everywhere and Back Again Tour",
     "ticketmaster_event_id": "000064E100957069",
     "ticketmaster_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-asbury-park-new-jersey-11-06-2026/event/000064E100957069",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/asbury-park-new-jersey-the-stone-pony-2-2026-11-06-7-pm/concert/18373504",
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-asbury-park-stone-pony-11-6-2026/production/7291723",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-asbury-park-new-jersey-11-06-2026/event/000064E100957069",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -746,11 +758,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18373504,
+        "url": "https://seatgeek.com/michelle-branch-tickets/asbury-park-new-jersey-the-stone-pony-2-2026-11-06-7-pm/concert/18373504",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7291723,
@@ -769,7 +781,14 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_C7ZP9vt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-17T04:00:00Z",
+        "end": "2026-10-30T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-michelle-branch-2026-chicago-vvg18z_c6jmind",
@@ -787,7 +806,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-chicago-house-of-blues-chicago-11-10-2026/production/7292219",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-chicago-illinois-11-10-2026/event/040064E1E6DECA83",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -838,7 +857,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135378/Michelle-Branch-tickets-Tue-Nov-10-2026-House-Of-Blues-Chicago",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135378"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135378",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-17T15:00:00Z",
+        "end": "2026-10-13T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-17T15:00:00Z",
+        "end": "2026-11-03T05:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-michelle-branch-2026-minneapolis-z7r9jz1a7j3xd",
@@ -871,7 +902,7 @@
         "event_id": 18373510,
         "url": "https://seatgeek.com/michelle-branch-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-11-11-7-30-pm/concert/18373510",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -940,7 +971,7 @@
         "event_id": 18373511,
         "url": "https://seatgeek.com/michelle-branch-tickets/milwaukee-wisconsin-pabst-theater-2026-11-12-8-pm/concert/18373511",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -994,7 +1025,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-lexington-manchester-music-hall-11-13-2026/production/7291696",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-lexington-kentucky-11-13-2026/event/160064EED101A73B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1045,7 +1076,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135386/Michelle-Branch-tickets-Fri-Nov-13-2026-Manchester-Music-Hall",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135386"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135386",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-17T14:00:00Z",
+        "end": "2026-11-06T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-michelle-branch-2027-charleston-g5evz_8w8tpxk",
@@ -1059,11 +1097,11 @@
     "tour_name": "Everywhere and Back Again Tour",
     "ticketmaster_event_id": "2D00650C90A56F93",
     "ticketmaster_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-charleston-south-carolina-02-25-2027/event/2D00650C90A56F93",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/charleston-south-carolina-charleston-music-hall-2027-02-25-8-pm/concert/18508823",
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-charleston-charleston-music-hall-2-25-2027/production/7453909",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-charleston-south-carolina-02-25-2027/event/2D00650C90A56F93",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1075,11 +1113,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18508823,
+        "url": "https://seatgeek.com/michelle-branch-tickets/charleston-south-carolina-charleston-music-hall-2027-02-25-8-pm/concert/18508823",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453909,
@@ -1098,7 +1136,14 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_8w8tpXK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-21T14:00:00Z",
+        "end": "2027-02-18T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-michelle-branch-2027-atlanta-vvg1zz_8qvo7-q",
@@ -1116,7 +1161,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-atlanta-georgia-02-26-2027/event/0E0065068144485A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1151,7 +1196,19 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_8Qvo7-Q",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-21T14:00:00Z",
+        "end": "2027-01-30T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-21T14:00:00Z",
+        "end": "2027-02-19T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-michelle-branch-2027-dallas-vvg1yz_8by9itm",
@@ -1169,7 +1226,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-dallas-house-of-blues-dallas-3-6-2027/production/7453092",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-dallas-texas-03-06-2027/event/0C00650EB95ECA6E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1220,7 +1277,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217761/Michelle-Branch-tickets-Sat-Mar-6-2027-House-Of-Blues-Dallas",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217761"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217761",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-21T15:00:00Z",
+        "end": "2027-02-07T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-21T15:00:00Z",
+        "end": "2027-02-27T05:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-michelle-branch-2027-houston-g5diz_8jaig6j",
@@ -1238,7 +1307,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-houston-house-of-blues-houston-3-7-2027/production/7453098",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-houston-texas-03-07-2027/event/3A00650705A0C1DC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1297,7 +1366,19 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217762/Michelle-Branch-tickets-Sun-Mar-7-2027-House-Of-Blues-Houston",
     "stubhub_international_url": "https://www.stubhub.ie/michelle-branch-houston-tickets-3-7-2027/event/107667195",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217762"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217762",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-21T15:00:00Z",
+        "end": "2027-02-08T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-21T15:00:00Z",
+        "end": "2027-02-28T05:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-michelle-branch-2027-tempe-1av0z_8gkntcuaa",
@@ -1315,7 +1396,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-tempe-marquee-theatre-3-11-2027/production/7453207",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-tempe-arizona-03-11-2027/event/1900650AA9B76149",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1366,7 +1447,14 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217763/Michelle-Branch-tickets-Thu-Mar-11-2027-Marquee-Theatre-AZ",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217763"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217763",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-21T17:00:00Z",
+        "end": "2027-03-04T06:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-michelle-branch-2027-anaheim-vv1aazkf6gkdxx2ly",
@@ -1384,7 +1472,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-anaheim-house-of-blues-anaheim-3-12-2027/production/7453109",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-anaheim-california-03-12-2027/event/09006507E2F8FAF0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1435,7 +1523,19 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217764/Michelle-Branch-tickets-Fri-Mar-12-2027-House-Of-Blues-Anaheim",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217764"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217764",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-21T17:00:00Z",
+        "end": "2027-02-13T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-21T17:00:00Z",
+        "end": "2027-03-05T07:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-michelle-branch-2027-los-angeles-vv170z_8gksjroc_",
@@ -1453,7 +1553,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-los-angeles-the-wiltern-3-13-2027/production/7453115",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-los-angeles-california-03-13-2027/event/0900650CE6791399",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1504,7 +1604,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217765/Michelle-Branch-tickets-Sat-Mar-13-2027-The-Wiltern",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217765"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217765",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-21T17:00:00Z",
+        "end": "2027-03-06T07:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-michelle-branch-2027-denver-z7r9jz1aavkbw",
@@ -1537,7 +1644,7 @@
         "event_id": 18650112,
         "url": "https://seatgeek.com/michelle-branch-tickets/denver-colorado-mission-ballroom-2027-03-17-8-pm/concert/18650112",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1591,7 +1698,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-saint-louis-missouri-03-19-2027/event/0600650AB2659010",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1626,7 +1733,14 @@
     },
     "ticketmaster_discovery_event_id": "vv17bZ_8Gknw__Z8",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-21T15:00:00Z",
+        "end": "2027-03-12T05:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-michelle-branch-2027-columbus-z7r9jz1aazmzz",
@@ -1659,7 +1773,7 @@
         "event_id": 18508844,
         "url": "https://seatgeek.com/michelle-branch-tickets/columbus-ohio-kemba-live-2027-03-20-8-pm/concert/18508844",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1728,7 +1842,7 @@
         "event_id": 18508847,
         "url": "https://seatgeek.com/michelle-branch-tickets/royal-oak-michigan-royal-oak-music-theatre-2027-03-21-7-pm/concert/18508847",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1782,7 +1896,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-portland-state-theatre-portland-3-23-2027/production/7453907",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-portland-maine-03-23-2027/event/0100650DE1EECB4A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1833,7 +1947,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217768/Michelle-Branch-tickets-Tue-Mar-23-2027-State-Theatre-ME",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217768"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217768",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-21T14:00:00Z",
+        "end": "2027-03-16T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-michelle-branch-2027-new-york-g5diz_8xxfdpf",
@@ -1851,7 +1972,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-new-york-beacon-theatre-3-25-2027/production/7453131",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-new-york-new-york-03-25-2027/event/3B006508BE503954",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1910,7 +2031,19 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217769/Michelle-Branch-tickets-Thu-Mar-25-2027-Beacon-Theatre-NY",
     "stubhub_international_url": "https://www.stubhub.ie/michelle-branch-new-york-tickets-3-25-2027/event/107667196",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217769"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217769",
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-08-21T14:00:00Z",
+        "end": "2027-03-16T02:00:00Z"
+      },
+      {
+        "name": "City National Bank Cardholder Preferred",
+        "start": "2026-08-21T14:00:00Z",
+        "end": "2027-03-26T00:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-michelle-branch-2027-silver-spring-16vfz_809g7nt6o",
@@ -1928,7 +2061,7 @@
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-silver-spring-the-fillmore-silver-spring-3-26-2027/production/7453672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-silver-spring-maryland-03-26-2027/event/1500650917ABF1D1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1979,7 +2112,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8217770/Michelle-Branch-tickets-Fri-Mar-26-2027-The-Fillmore-Silver-Spring",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217770"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8217770",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-21T14:00:00Z",
+        "end": "2027-02-28T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-08-21T14:00:00Z",
+        "end": "2027-03-19T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-michelle-branch-2027-philadelphia-z7r9jz1aazyqb",
@@ -2012,7 +2157,7 @@
         "event_id": 18508855,
         "url": "https://seatgeek.com/michelle-branch-tickets/philadelphia-pennsylvania-franklin-music-hall-2027-03-27-8-30-pm/concert/18508855",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2081,7 +2226,7 @@
         "event_id": 18373493,
         "url": "https://seatgeek.com/michelle-branch-tickets/salt-lake-city-utah-the-grand-at-the-complex-2026-10-08-8-pm/concert/18373493",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2134,7 +2279,7 @@
         "event_id": 18508824,
         "url": "https://seatgeek.com/michelle-branch-tickets/nashville-tennessee-ryman-auditorium-2027-02-27-8-pm/concert/18508824",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2203,7 +2348,7 @@
         "event_id": 18517279,
         "url": "https://seatgeek.com/michelle-branch-tickets/nashville-tennessee-ryman-auditorium-2027-02-28-8-pm/concert/18517279",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2272,7 +2417,7 @@
         "event_id": 18508826,
         "url": "https://seatgeek.com/michelle-branch-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-03-05-7-30-pm/concert/18508826",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {

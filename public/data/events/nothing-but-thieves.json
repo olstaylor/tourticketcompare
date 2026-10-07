@@ -874,7 +874,7 @@
         "event_id": 18266341,
         "url": "https://seatgeek.com/nothing-but-thieves-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-04-01-8-pm/concert/18266341",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1005,7 +1005,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-los-angeles-hollywood-palladium-4-4-2027/production/7078830",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-hollywood-california-04-04-2027/event/090064B61FAB46C9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1064,7 +1064,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996243",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996243/Nothing-But-Thieves-tickets-Sun-Apr-4-2027-Hollywood-Palladium",
-    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-hollywood-tickets-4-4-2027/event/107198560"
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-hollywood-tickets-4-4-2027/event/107198560",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-06-05T17:00:00Z",
+        "end": "2027-03-15T06:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-phoenix-17k8v0g659aif3n",
@@ -1082,7 +1089,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-phoenix-the-van-buren-4-7-2027/production/7078824",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-phoenix-arizona-04-07-2027/event/190064B5C9A084A3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1133,7 +1140,14 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996244",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996244/Nothing-But-Thieves-tickets-Wed-Apr-7-2027-The-Van-Buren"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996244/Nothing-But-Thieves-tickets-Wed-Apr-7-2027-The-Van-Buren",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-06-05T17:00:00Z",
+        "end": "2027-03-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-denver-z7r9jz1a70g46",
@@ -1166,7 +1180,7 @@
         "event_id": 18266350,
         "url": "https://seatgeek.com/nothing-but-thieves-tickets/denver-colorado-mission-ballroom-2027-04-09-8-pm/concert/18266350",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1228,7 +1242,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-minneapolis-minnesota-04-11-2027/event/060064B511729383",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1279,7 +1293,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996245",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996245/Nothing-But-Thieves-tickets-Sun-Apr-11-2027-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996245/Nothing-But-Thieves-tickets-Sun-Apr-11-2027-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-06-05T15:00:00Z",
+        "end": "2027-03-15T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-chicago-vvg18z_5oubqpe",
@@ -1350,7 +1371,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-detroit-the-fillmore-detroit-4-13-2027/production/7078820",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wdzh-presents-nothing-but-thieves-the-detroit-michigan-04-13-2027/event/080064B6B7087DE8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1409,7 +1430,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996247",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996247/Nothing-But-Thieves-tickets-Tue-Apr-13-2027-The-Fillmore-Detroit",
-    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-detroit-tickets-4-13-2027/event/107198563"
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-detroit-tickets-4-13-2027/event/107198563",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-06-05T14:00:00Z",
+        "end": "2027-03-24T03:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-mckees-rocks-17aov0g65qrt_qd",
@@ -1480,7 +1508,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-philadelphia-the-fillmore-philadelphia-4-16-2027/production/7078845",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-philadelphia-pennsylvania-04-16-2027/event/020064B694BB806C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1531,7 +1559,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996249",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996249/Nothing-But-Thieves-tickets-Fri-Apr-16-2027-The-Fillmore-Philadelphia"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996249/Nothing-But-Thieves-tickets-Fri-Apr-16-2027-The-Fillmore-Philadelphia",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-06-05T14:00:00Z",
+        "end": "2027-03-27T03:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-brooklyn-k7vgf_5qzhcl7",
@@ -1549,7 +1584,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-brooklyn-brooklyn-paramount-4-17-2027/production/7078849",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-brooklyn-new-york-04-17-2027/event/000064B6B86ED7C4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1608,7 +1643,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996250",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996250/Nothing-But-Thieves-tickets-Sat-Apr-17-2027-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-brooklyn-tickets-4-17-2027/event/107257085"
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-brooklyn-tickets-4-17-2027/event/107257085",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-06-05T14:00:00Z",
+        "end": "2027-03-28T03:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-boston-vvg17z_5qrro-j",
@@ -1703,7 +1745,7 @@
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-montreal-mtelus-4-20-2027/production/7078855",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-montreal-quebec-04-20-2027/event/310064B6991A5982",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1762,7 +1804,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7996253",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7996253/Nothing-But-Thieves-tickets-Tue-Apr-20-2027-MTelus",
-    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-montreal-mtelus-4-20-2027/event/107257083"
+    "stubhub_international_url": "https://www.stubhub.ie/nothing-but-thieves-tickets-montreal-mtelus-4-20-2027/event/107257083",
+    "presales": [
+      {
+        "name": "Offre Bord d'Allée - Aisle Seat Offer",
+        "start": "2026-06-05T14:00:00Z",
+        "end": "2027-04-21T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-nothing-but-thieves-2027-toronto-177zv0g65qu93gl",

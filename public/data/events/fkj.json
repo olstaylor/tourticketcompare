@@ -136,7 +136,7 @@
         "event_id": 18282296,
         "url": "https://seatgeek.com/fkj-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-04-20-8-pm/concert/18282296",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -205,7 +205,7 @@
         "event_id": 18282297,
         "url": "https://seatgeek.com/fkj-tickets/seattle-washington-showbox-sodo-2027-04-23-8-pm/concert/18282297",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -428,7 +428,7 @@
         "event_id": 18282299,
         "url": "https://seatgeek.com/fkj-tickets/denver-colorado-mission-ballroom-2027-04-29-8-pm/concert/18282299",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -742,7 +742,7 @@
     "vividseats_url": "https://www.vividseats.com/fkj-tickets-philadelphia-the-fillmore-philadelphia-6-3-2027/production/7105319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-philadelphia-pennsylvania-06-03-2027/event/020064BBEF472F34",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -793,7 +793,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012959/FKJ-tickets-Thu-Jun-3-2027-The-Fillmore-Philadelphia",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012959"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012959",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-06-05T14:00:00Z",
+        "end": "2027-05-07T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fkj-2027-brooklyn-k7vgf_5rij1fj",
@@ -811,7 +818,7 @@
     "vividseats_url": "https://www.vividseats.com/fkj-tickets-brooklyn-brooklyn-paramount-6-4-2027/production/7105323",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-brooklyn-new-york-06-04-2027/event/000064BBEC98A526",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -870,7 +877,14 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012960/FKJ-tickets-Fri-Jun-4-2027-Brooklyn-Paramount",
     "stubhub_international_url": "https://www.stubhub.ie/fkj-brooklyn-tickets-6-4-2027/event/107417665",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012960"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012960",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-06-05T14:00:00Z",
+        "end": "2027-05-15T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fkj-2027-washington-17a8v0g65nnmzs3",
@@ -965,7 +979,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fkj-tyber-tour-atlanta-georgia-06-09-2027/event/0E0064B5F658B622",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1000,7 +1014,14 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_59Up5bx",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "T-Mobile® Concert Perks + Fast Lane",
+        "start": "2026-06-05T14:00:00Z",
+        "end": "2027-06-07T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fkj-2027-houston-g5diz_5msvufk",
@@ -1110,7 +1131,7 @@
         "event_id": 18282301,
         "url": "https://seatgeek.com/fkj-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-06-12-8-pm/concert/18282301",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1301,7 +1322,7 @@
         "event_id": 18282298,
         "url": "https://seatgeek.com/fkj-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-04-28-8-pm/concert/18282298",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1354,7 +1375,7 @@
         "event_id": 18282300,
         "url": "https://seatgeek.com/fkj-tickets/new-orleans-louisiana-saenger-theatre-new-orleans-2027-06-10-8-30-pm/concert/18282300",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-inglewood-intuit-dome-2-26-2027/production/7047204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-inglewood-california-02-26-2027/event/090064AFF1A0DF67",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -74,7 +74,14 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977736/Morat-tickets-Fri-Feb-26-2027-Intuit-Dome",
     "stubhub_international_url": "https://www.stubhub.ie/morat-inglewood-tickets-2-26-2027/event/107258452",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977736"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977736",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-28T17:00:00Z",
+        "end": "2027-02-20T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-morat-2027-el-paso-vvg1yz_1xncffn",
@@ -92,7 +99,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-el-paso-don-haskins-center-2-28-2027/production/7047161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-el-paso-texas-02-28-2027/event/0C0064AFA338822A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -151,7 +158,14 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977738/Morat-tickets-Sun-Feb-28-2027-Don-Haskins-Center",
     "stubhub_international_url": "https://www.stubhub.ie/morat-el-paso-tickets-2-28-2027/event/107202168",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977738"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977738",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-28T16:00:00Z",
+        "end": "2027-02-22T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-morat-2027-rosemont-vvg18z_1rgckw0",
@@ -169,7 +183,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-rosemont-illinois-03-05-2027/event/040064A78C386CA4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -228,7 +242,14 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977739/Morat-tickets-Fri-Mar-5-2027-Rosemont-Theatre",
     "stubhub_international_url": "https://www.stubhub.ie/morat-rosemont-tickets-3-5-2027/event/107258453",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977739"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977739",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-28T15:00:00Z",
+        "end": "2027-02-26T23:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-morat-2027-boston-vvg17z_1b5nnhl",
@@ -246,7 +267,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-boston-agganis-arena-3-7-2027/production/7047171",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-boston-massachusetts-03-07-2027/event/010064AE8B8EA6EB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -305,7 +326,14 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977740/Morat-tickets-Sun-Mar-7-2027-Agganis-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/morat-boston-tickets-3-7-2027/event/107202169",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977740"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977740",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-28T14:00:00Z",
+        "end": "2027-02-28T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-morat-2027-grand-prairie-z7r9jz1a70iu_",
@@ -338,7 +366,7 @@
         "event_id": 18259792,
         "url": "https://seatgeek.com/morat-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-03-12-8-pm/concert/18259792",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -407,7 +435,7 @@
         "event_id": 18259793,
         "url": "https://seatgeek.com/morat-tickets/sugar-land-texas-smart-financial-centre-2027-03-13-8-pm/concert/18259793",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -453,7 +481,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-hidalgo-payne-arena-3-14-2027/production/7047159",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-hidalgo-texas-03-14-2027/event/3A0064AE96BE7CBC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -512,7 +540,14 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977523/Morat-tickets-Sun-Mar-14-2027-Payne-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/morat-hidalgo-tickets-3-14-2027/event/107202170",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977523"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977523",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-28T15:00:00Z",
+        "end": "2027-03-07T23:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-morat-2027-orlando-17fov0g61xg_prh",
@@ -530,7 +565,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-orlando-kia-center-3-18-2027/production/7047153",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-orlando-florida-03-18-2027/event/220064AF8C665BDB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -589,7 +624,14 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977742/Morat-tickets-Thu-Mar-18-2027-Kia-Center",
     "stubhub_international_url": "https://www.stubhub.ie/morat-orlando-tickets-3-18-2027/event/107202171",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977742"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977742",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-28T14:00:00Z",
+        "end": "2027-03-11T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-morat-2027-miami-vvg1vz_1toy-p6",
@@ -607,7 +649,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-miami-kaseya-center-3-20-2027/production/7047163",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-miami-florida-03-20-2027/event/0D0064AFE0C21947",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -666,7 +708,14 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977745/Morat-tickets-Sat-Mar-20-2027-Kaseya-Center",
     "stubhub_international_url": "https://www.stubhub.ie/morat-miami-tickets-3-20-2027/event/107198193",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977745"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977745",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-28T14:00:00Z",
+        "end": "2027-03-13T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-morat-2027-toronto-177zv0g65ag8wpj",
@@ -814,7 +863,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-brooklyn-barclays-center-4-1-2027/production/7047077",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-brooklyn-new-york-04-01-2027/event/300064AF9E103501",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -873,7 +922,14 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977746/Morat-tickets-Thu-Apr-1-2027-Barclays-Center",
     "stubhub_international_url": "https://www.stubhub.ie/morat-brooklyn-tickets-4-1-2027/event/107198194",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977746"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977746",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-28T14:00:00Z",
+        "end": "2027-03-25T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-morat-2027-fairfax-17a8v0g61boau0r",
@@ -891,7 +947,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-fairfax-eaglebank-arena-4-3-2027/production/7047151",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-fairfax-virginia-04-03-2027/event/150064AEA017692F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -942,7 +998,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977748/Morat-tickets-Sat-Apr-3-2027-EagleBank-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977748"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977748",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-28T14:00:00Z",
+        "end": "2027-03-27T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-morat-2026-pamplona-iruna-z698xz2qz16voojza6",

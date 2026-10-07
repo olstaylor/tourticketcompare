@@ -885,7 +885,7 @@
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-franklin-firstbank-amphitheater-10-8-2026--concerts-hard-rock/production/6517276",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-franklin-tennessee-10-08-2026/event/1B00642691B1655B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -936,7 +936,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676513",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676513/Five-Finger-Death-Punch-tickets-Thu-Oct-8-2026-FirstBank-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676513/Five-Finger-Death-Punch-tickets-Thu-Oct-8-2026-FirstBank-Amphitheater",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-01-16T16:00:00Z",
+        "end": "2026-10-08T03:00:00Z"
+      },
+      {
+        "name": "All Access: Discount Offer",
+        "start": "2026-03-27T17:00:00Z",
+        "end": "2026-10-08T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-five-finger-death-punch-2026-tampa-vvg1vz_eqhp7qi",
@@ -1161,7 +1173,7 @@
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-10-14-2026/production/6517205",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-raleigh-north-carolina-10-14-2026/event/2D006429A5869EEA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1212,7 +1224,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676524",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676524/Five-Finger-Death-Punch-tickets-Wed-Oct-14-2026-Coastal-Credit-Union-Music-Park-at-Walnut-Creek"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676524/Five-Finger-Death-Punch-tickets-Wed-Oct-14-2026-Coastal-Credit-Union-Music-Park-at-Walnut-Creek",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-01-16T15:00:00Z",
+        "end": "2026-10-08T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-five-finger-death-punch-2026-charlotte-g5evz_eqi_eoi",
@@ -1230,7 +1249,7 @@
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-charlotte-truliant-amphitheater-10-16-2026/production/6517299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-charlotte-north-carolina-10-16-2026/event/2D006426A8667828",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1281,7 +1300,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676530",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676530/Five-Finger-Death-Punch-tickets-Fri-Oct-16-2026-Truliant-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676530/Five-Finger-Death-Punch-tickets-Fri-Oct-16-2026-Truliant-Amphitheater",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-01-16T15:00:00Z",
+        "end": "2026-10-10T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-five-finger-death-punch-2026-virginia-beach-vv1k7z_eqfg7mvxk",
@@ -1299,7 +1325,7 @@
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-virginia-beach-veterans-united-home-loans-amphitheater-at-virginia-beach-10-17-2026/production/6517305",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-virginia-beach-virginia-10-17-2026/event/0100642694BB4886",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1342,7 +1368,14 @@
     "ticketmaster_discovery_event_id": "vv1k7Z_eQfG7mVxk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676535"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676535",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-01-16T15:00:00Z",
+        "end": "2026-10-11T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-five-finger-death-punch-2026-greenville-g5evz_excrbbp",
@@ -1360,7 +1393,7 @@
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-greenville-bon-secours-wellness-arena-10-19-2026/production/6517203",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-greenville-south-carolina-10-19-2026/event/2D006428ADBFA625",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1411,7 +1444,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676541",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676541/Five-Finger-Death-Punch-tickets-Mon-Oct-19-2026-Bon-Secours-Wellness-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676541/Five-Finger-Death-Punch-tickets-Mon-Oct-19-2026-Bon-Secours-Wellness-Arena",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-01-16T15:00:00Z",
+        "end": "2026-10-12T14:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-five-finger-death-punch-2026-columbus-vv1aazk8egkdlofxu",
@@ -1429,7 +1469,7 @@
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-columbus-nationwide-arena-10-21-2026/production/6517215",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-columbus-ohio-10-21-2026/event/05006427EB448F8D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1488,7 +1528,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676549",
     "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-columbus-tickets-10-21-2026/event/107164508",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676549/Five-Finger-Death-Punch-tickets-Wed-Oct-21-2026-Nationwide-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676549/Five-Finger-Death-Punch-tickets-Wed-Oct-21-2026-Nationwide-Arena",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-01-16T15:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-five-finger-death-punch-2026-bristow-1avfz_egki4tnxq",
@@ -1506,7 +1553,7 @@
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-bristow-jiffy-lube-live-10-23-2026/production/6517189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-bristow-virginia-10-23-2026/event/1500642B15A6A89A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1557,7 +1604,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676550",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676550/Five-Finger-Death-Punch-tickets-Fri-Oct-23-2026-Jiffy-Lube-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676550/Five-Finger-Death-Punch-tickets-Fri-Oct-23-2026-Jiffy-Lube-Live",
+    "presales": [
+      {
+        "name": "VIP Package On-sale",
+        "start": "2026-01-16T15:00:00Z",
+        "end": "2026-10-17T02:00:00Z"
+      },
+      {
+        "name": "Preferred Seating",
+        "start": "2026-01-16T15:00:00Z",
+        "end": "2026-10-24T00:45:00Z"
+      }
+    ]
   },
   {
     "id": "tm-five-finger-death-punch-2027-manchester-g5vhz_gnh6q4f",

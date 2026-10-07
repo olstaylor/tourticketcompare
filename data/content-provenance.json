@@ -3,8 +3,8 @@
   "note": "Content fingerprints for static routes. content_updated_at advances only when content_hash changes, so a published \"Updated\" date never moves without the copy moving. Do not hand-edit; run `npm run content:provenance`.",
   "routes": {
     "/guides/how-to-compare-concert-ticket-prices": {
-      "content_hash": "fd85ed5478e9b106",
-      "content_updated_at": "2026-10-05"
+      "content_hash": "c7088064da370c2b",
+      "content_updated_at": "2026-10-06"
     },
     "/guides/vivid-seats-vs-ticketmaster": {
       "content_hash": "8c49ce394faf3915",
@@ -115,28 +115,28 @@
       "content_updated_at": "2026-10-02"
     },
     "/": {
-      "content_hash": "7d32668dded8aeba",
-      "content_updated_at": "2026-10-05"
+      "content_hash": "eb2a09a9ab5c9e4c",
+      "content_updated_at": "2026-10-06"
     },
     "/compare-concert-ticket-prices": {
-      "content_hash": "7dc98ca9db882f8c",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "d68bda21ce28adcd",
+      "content_updated_at": "2026-10-06"
     },
     "/artists": {
-      "content_hash": "3c99a49550876586",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "5a48a211255d9f84",
+      "content_updated_at": "2026-10-06"
     },
     "/guides": {
       "content_hash": "4163fe6532779195",
       "content_updated_at": "2026-09-24"
     },
     "/how-it-works": {
-      "content_hash": "b70d945cf97219ef",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "f0ddec9da1a1ee13",
+      "content_updated_at": "2026-10-06"
     },
     "/currency-converter": {
-      "content_hash": "d74a545dd103b4c9",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "ff786a47a04a1a8e",
+      "content_updated_at": "2026-10-06"
     },
     "/about": {
       "content_hash": "c4852bba4bc0af50",

@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-denver-ball-arena-12-2-2026--concerts-alternative/production/7091509",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-02-2026/event/1E0064B2E736C3FD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -74,7 +74,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002235",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-denver-tickets-12-2-2026/event/107198457",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002235/Gracie-Abrams-tickets-Wed-Dec-2-2026-Ball-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002235/Gracie-Abrams-tickets-Wed-Dec-2-2026-Ball-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T15:00:00Z",
+        "end": "2026-11-28T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2026-denver-g5vzz_5lhxedg",
@@ -92,7 +99,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-denver-ball-arena-12-3-2026--concerts-alternative/production/7091517",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-denver-colorado-12-03-2026/event/1E0064BAFCFA70CC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -151,7 +158,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002236",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-denver-tickets-12-3-2026/event/107198458",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002236/Gracie-Abrams-tickets-Thu-Dec-3-2026-Ball-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002236/Gracie-Abrams-tickets-Thu-Dec-3-2026-Ball-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T15:00:00Z",
+        "end": "2026-11-29T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2026-oakland-g5vyz_1udxfhx",
@@ -169,7 +183,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-oakland-oakland-arena-12-6-2026--concerts-alternative/production/7091523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-06-2026/event/1C0064ADBB8886FE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -228,7 +242,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002237",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-oakland-tickets-12-6-2026/event/107198459",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002237/Gracie-Abrams-tickets-Sun-Dec-6-2026-Oakland-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002237/Gracie-Abrams-tickets-Sun-Dec-6-2026-Oakland-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T16:00:00Z",
+        "end": "2026-12-02T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2026-oakland-g5vyz_5mq0w7n",
@@ -246,7 +267,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-oakland-oakland-arena-12-7-2026--concerts-alternative/production/7091527",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-oakland-california-12-07-2026/event/1C0064BB9D932123",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -305,7 +326,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002238",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-oakland-tickets-12-7-2026/event/107198460",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002238/Gracie-Abrams-tickets-Mon-Dec-7-2026-Oakland-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002238/Gracie-Abrams-tickets-Mon-Dec-7-2026-Oakland-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T16:00:00Z",
+        "end": "2026-12-03T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2026-glendale-17k8v0g652smnjw",
@@ -323,7 +351,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-glendale-desert-diamond-arena-12-9-2026--concerts-alternative/production/7091529",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-09-2026/event/190064B3F3DEA73D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -382,7 +410,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002239",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-glendale-tickets-12-9-2026/event/107198461",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002239/Gracie-Abrams-tickets-Wed-Dec-9-2026-Desert-Diamond-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002239/Gracie-Abrams-tickets-Wed-Dec-9-2026-Desert-Diamond-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T16:00:00Z",
+        "end": "2026-12-05T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2026-glendale-17k8v0g65839wds",
@@ -400,7 +435,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-glendale-desert-diamond-arena-12-10-2026--concerts-alternative/production/7091531",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-glendale-arizona-12-10-2026/event/190064B4125FDEF3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -459,7 +494,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002240",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-glendale-tickets-12-10-2026/event/107198462",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002240/Gracie-Abrams-tickets-Thu-Dec-10-2026-Desert-Diamond-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002240/Gracie-Abrams-tickets-Thu-Dec-10-2026-Desert-Diamond-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T16:00:00Z",
+        "end": "2026-12-06T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_53kkqpx",
@@ -477,7 +519,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-14-2026--concerts-alternative/production/7091533",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-14-2026/event/090064B49319A5BE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -536,7 +578,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002241",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-14-2026/event/107248077",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002241/Gracie-Abrams-tickets-Mon-Dec-14-2026-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002241/Gracie-Abrams-tickets-Mon-Dec-14-2026-The-Kia-Forum",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T16:00:00Z",
+        "end": "2026-12-10T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_5r0-czu",
@@ -554,7 +603,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-18-2026--concerts-alternative/production/7091535",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-18-2026/event/090064BBE484EE0D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -613,7 +662,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002242",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-18-2026/event/107198463",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002242/Gracie-Abrams-tickets-Fri-Dec-18-2026-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002242/Gracie-Abrams-tickets-Fri-Dec-18-2026-The-Kia-Forum",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T16:00:00Z",
+        "end": "2026-12-14T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_5r0nxzp",
@@ -631,7 +687,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-19-2026--concerts-alternative/production/7091539",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-19-2026/event/090064BBE48FEE25",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -690,7 +746,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002243",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-19-2026/event/107198464",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002243/Gracie-Abrams-tickets-Sat-Dec-19-2026-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002243/Gracie-Abrams-tickets-Sat-Dec-19-2026-The-Kia-Forum",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T16:00:00Z",
+        "end": "2026-12-15T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2026-inglewood-vvg10z_5r0eryu",
@@ -708,7 +771,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-inglewood-kia-forum-12-20-2026--concerts-alternative/production/7091543",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-inglewood-california-12-20-2026/event/090064BBE49DEE4D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -767,7 +830,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002244",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-20-2026/event/107198465",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002244/Gracie-Abrams-tickets-Sun-Dec-20-2026-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002244/Gracie-Abrams-tickets-Sun-Dec-20-2026-The-Kia-Forum",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T16:00:00Z",
+        "end": "2026-12-16T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-seattle-vvg1hz_1bnjn8f",
@@ -785,7 +855,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-26-2027--concerts-alternative/production/7091546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-26-2027/event/0F0064AEAA9AA408",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -844,7 +914,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002270",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-26-2027/event/107198466",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002270/Gracie-Abrams-tickets-Tue-Jan-26-2027-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002270/Gracie-Abrams-tickets-Tue-Jan-26-2027-Climate-Pledge-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T16:00:00Z",
+        "end": "2027-01-22T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-seattle-vvg1hz_5rykvjn",
@@ -862,7 +939,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-27-2027--concerts-alternative/production/7091550",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-27-2027/event/0F0064BBF94F49AA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -921,7 +998,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002271",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-27-2027/event/107198467",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002271/Gracie-Abrams-tickets-Wed-Jan-27-2027-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002271/Gracie-Abrams-tickets-Wed-Jan-27-2027-Climate-Pledge-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T16:00:00Z",
+        "end": "2027-01-23T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-seattle-vvg1hz_5ry97ef",
@@ -939,7 +1023,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-seattle-climate-pledge-arena-1-29-2027--concerts-alternative/production/7091554",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-seattle-washington-01-29-2027/event/0F0064BBF95C49C8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -998,7 +1082,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002272",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-29-2027/event/107198468",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002272/Gracie-Abrams-tickets-Fri-Jan-29-2027-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002272/Gracie-Abrams-tickets-Fri-Jan-29-2027-Climate-Pledge-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T16:00:00Z",
+        "end": "2027-01-25T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-portland-vvg1hz_1byq5cg",
@@ -1016,7 +1107,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-portland-moda-center-1-31-2027--concerts-alternative/production/7091557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-01-31-2027/event/0F0064AEB974BB75",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1075,7 +1166,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002273",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-portland-tickets-1-31-2027/event/107248078",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002273/Gracie-Abrams-tickets-Sun-Jan-31-2027-Moda-Center-at-the-Rose-Quarter"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002273/Gracie-Abrams-tickets-Sun-Jan-31-2027-Moda-Center-at-the-Rose-Quarter",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-05T16:00:00Z",
+        "end": "2027-01-27T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-portland-vvg1hz_1byqdcd",
@@ -1093,7 +1191,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-portland-moda-center-2-1-2027--concerts-alternative/production/7091559",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-portland-oregon-02-01-2027/event/0F0064AEB977BB7B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1152,7 +1250,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002274",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-portland-tickets-2-1-2027/event/107248079",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002274/Gracie-Abrams-tickets-Mon-Feb-1-2027-Moda-Center-at-the-Rose-Quarter"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002274/Gracie-Abrams-tickets-Mon-Feb-1-2027-Moda-Center-at-the-Rose-Quarter",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-05T16:00:00Z",
+        "end": "2027-01-28T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-chicago-vv1fvzv0pycdz72ag6",
@@ -1170,7 +1275,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-chicago-united-center-2-11-2027--concerts-alternative/production/7091486",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-11-2027/event/040064970383E8B6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1229,7 +1334,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002275",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-chicago-tickets-2-11-2027/event/107248080",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002275/Gracie-Abrams-tickets-Thu-Feb-11-2027-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002275/Gracie-Abrams-tickets-Thu-Feb-11-2027-United-Center",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T14:00:00Z",
+        "end": "2027-02-07T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-chicago-vvg18z_5rd-dah",
@@ -1247,7 +1359,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-chicago-united-center-2-12-2027--concerts-alternative/production/7091483",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-chicago-illinois-02-12-2027/event/040064BBFB87B15B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1306,7 +1418,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002276",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-chicago-tickets-2-12-2027/event/107248081",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002276/Gracie-Abrams-tickets-Fri-Feb-12-2027-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002276/Gracie-Abrams-tickets-Fri-Feb-12-2027-United-Center",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T14:00:00Z",
+        "end": "2027-02-08T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-nashville-g5viz_51oey1w",
@@ -1324,7 +1443,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-nashville-bridgestone-arena-2-14-2027--concerts-alternative/production/7091489",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-14-2027/event/1B0064B2A09F92BD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1383,7 +1502,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002277",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-nashville-tickets-2-14-2027/event/107198471",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002277/Gracie-Abrams-tickets-Sun-Feb-14-2027-Bridgestone-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002277/Gracie-Abrams-tickets-Sun-Feb-14-2027-Bridgestone-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T14:00:00Z",
+        "end": "2027-02-10T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-nashville-g5viz_5rgv7ra",
@@ -1401,7 +1527,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-nashville-bridgestone-arena-2-15-2027--concerts-alternative/production/7091493",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-nashville-tennessee-02-15-2027/event/1B0064BBCCD04785",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1460,7 +1586,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002278",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-nashville-tickets-2-15-2027/event/107198472",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002278/Gracie-Abrams-tickets-Mon-Feb-15-2027-Bridgestone-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002278/Gracie-Abrams-tickets-Mon-Feb-15-2027-Bridgestone-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T14:00:00Z",
+        "end": "2027-02-11T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-toronto-177zv0g61sqb4k8",
@@ -1474,11 +1607,11 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "100064ACDD6154D0",
     "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-18-2027/event/100064ACDD6154D0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/toronto-canada-scotiabank-arena-2027-02-18-8-pm/concert/18270548",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-toronto-scotiabank-arena-2-18-2027--concerts-alternative/production/7091562",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-18-2027/event/100064ACDD6154D0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1490,11 +1623,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270548,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/toronto-canada-scotiabank-arena-2027-02-18-8-pm/concert/18270548",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091562,
@@ -1513,7 +1646,14 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G61Sqb4K8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-02-14T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-toronto-177zv0g65ic_clu",
@@ -1527,11 +1667,11 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "100064BB0E66D7F6",
     "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-19-2027/event/100064BB0E66D7F6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/toronto-canada-scotiabank-arena-2027-02-19-8-pm/concert/18270552",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-toronto-scotiabank-arena-2-19-2027--concerts-alternative/production/7091567",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-19-2027/event/100064BB0E66D7F6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1543,11 +1683,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270552,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/toronto-canada-scotiabank-arena-2027-02-19-8-pm/concert/18270552",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091567,
@@ -1566,7 +1706,14 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G65iC_cLU",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-02-15T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-atlanta-vvg1zz_5nqeia0",
@@ -1584,7 +1731,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-atlanta-state-farm-arena-2-23-2027--concerts-alternative/production/7091569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-23-2027/event/0E0064BA9D9E8164",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1643,7 +1790,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002281",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-atlanta-tickets-2-23-2027/event/107198473",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002281/Gracie-Abrams-tickets-Tue-Feb-23-2027-State-Farm-Arena-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002281/Gracie-Abrams-tickets-Tue-Feb-23-2027-State-Farm-Arena-GA",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-02-19T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-atlanta-vvg1zz_5nqiiai",
@@ -1661,7 +1815,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-atlanta-state-farm-arena-2-24-2027--concerts-alternative/production/7091571",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-atlanta-georgia-02-24-2027/event/0E0064BA9DA2816C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1720,7 +1874,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002282",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-atlanta-tickets-2-24-2027/event/107198474",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002282/Gracie-Abrams-tickets-Wed-Feb-24-2027-State-Farm-Arena-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002282/Gracie-Abrams-tickets-Wed-Feb-24-2027-State-Farm-Arena-GA",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-02-20T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-charlotte-g5evz_am0wlwu",
@@ -1738,7 +1899,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-charlotte-spectrum-center-2-26-2027--concerts-alternative/production/7091573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-26-2027/event/2D00649BA4C9FC8D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1797,7 +1958,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002283",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-charlotte-tickets-2-26-2027/event/107249077",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002283/Gracie-Abrams-tickets-Fri-Feb-26-2027-Spectrum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002283/Gracie-Abrams-tickets-Fri-Feb-26-2027-Spectrum-Center",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-02-23T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-charlotte-g5evz_5ryzbyv",
@@ -1815,7 +1983,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-charlotte-spectrum-center-2-27-2027--concerts-alternative/production/7091579",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-charlotte-north-carolina-02-27-2027/event/2D0064BBF9018C34",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1874,7 +2042,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002284",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-charlotte-tickets-2-27-2027/event/107198477",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002284/Gracie-Abrams-tickets-Sat-Feb-27-2027-Spectrum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002284/Gracie-Abrams-tickets-Sat-Feb-27-2027-Spectrum-Center",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-02-23T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-boston-vv177z_agkwp_mnl",
@@ -1892,7 +2067,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-boston-td-garden-3-1-2027--concerts-alternative/production/7091585",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-01-2027/event/0100649CA566E8DF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1951,7 +2126,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002285",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-boston-tickets-3-1-2027/event/107198480",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002285/Gracie-Abrams-tickets-Mon-Mar-1-2027-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002285/Gracie-Abrams-tickets-Mon-Mar-1-2027-TD-Garden",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-02-25T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-boston-vvg17z_5rug2cb",
@@ -1969,7 +2151,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-boston-td-garden-3-2-2027--concerts-alternative/production/7091587",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-boston-massachusetts-03-02-2027/event/010064BBCD30F3BA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2028,7 +2210,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002286",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-boston-tickets-3-2-2027/event/107198481",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002286/Gracie-Abrams-tickets-Tue-Mar-2-2027-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002286/Gracie-Abrams-tickets-Tue-Mar-2-2027-TD-Garden",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-02-26T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-washington-1avfz_agksfejeq",
@@ -2046,7 +2235,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-washington-capital-one-arena-3-4-2027--concerts-alternative/production/7091591",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-04-2027/event/1500649CD409C9DA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2105,7 +2294,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002287",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-washington-tickets-3-4-2027/event/107198483",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002287/Gracie-Abrams-tickets-Thu-Mar-4-2027-Capital-One-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002287/Gracie-Abrams-tickets-Thu-Mar-4-2027-Capital-One-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-02-28T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-washington-17a8v0g65r4j5jx",
@@ -2123,7 +2319,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-washington-capital-one-arena-3-5-2027--concerts-alternative/production/7091593",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-washington-district-of-columbia-03-05-2027/event/150064BBD570B9A2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2182,7 +2378,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002288",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-washington-tickets-3-5-2027/event/107198484",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002288/Gracie-Abrams-tickets-Fri-Mar-5-2027-Capital-One-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002288/Gracie-Abrams-tickets-Fri-Mar-5-2027-Capital-One-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-03-01T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-montreal-17g8v0g65th0d1g",
@@ -2200,7 +2403,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-montreal-bell-centre-3-8-2027--concerts-alternative/production/7091595",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-08-2027/event/310064BA7C90328C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2251,7 +2454,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002289",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002289/Gracie-Abrams-tickets-Mon-Mar-8-2027-Centre-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002289/Gracie-Abrams-tickets-Mon-Mar-8-2027-Centre-Bell",
+    "presales": [
+      {
+        "name": "Forfait VIP en vente",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-03-05T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-montreal-17g8v0g65thpd1k",
@@ -2269,7 +2479,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-montreal-bell-centre-3-9-2027--concerts-alternative/production/7091597",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-montreal-quebec-03-09-2027/event/310064BA7C943293",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2320,7 +2530,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002290",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002290/Gracie-Abrams-tickets-Tue-Mar-9-2027-Centre-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002290/Gracie-Abrams-tickets-Tue-Mar-9-2027-Centre-Bell",
+    "presales": [
+      {
+        "name": "Forfait VIP en vente",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-03-04T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-philadelphia-17gzv0g65pru4zd",
@@ -2338,7 +2555,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-philadelphia-xfinity-mobile-arena-3-12-2027--concerts-alternative/production/7091601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-12-2027/event/300064B5AF355E3B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2397,7 +2614,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002291",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-philadelphia-tickets-3-12-2027/event/107198482",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002291/Gracie-Abrams-tickets-Fri-Mar-12-2027-Xfinity-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002291/Gracie-Abrams-tickets-Fri-Mar-12-2027-Xfinity-Mobile-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-03-08T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-philadelphia-17gzv0g65prugzw",
@@ -2415,7 +2639,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-philadelphia-xfinity-mobile-arena-3-13-2027--concerts-alternative/production/7091603",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-philadelphia-pennsylvania-03-13-2027/event/300064B5AF375E3D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2474,7 +2698,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002292",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-philadelphia-tickets-3-13-2027/event/107198479",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002292/Gracie-Abrams-tickets-Sat-Mar-13-2027-Xfinity-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002292/Gracie-Abrams-tickets-Sat-Mar-13-2027-Xfinity-Mobile-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-03-09T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g61s0b9dq",
@@ -2492,7 +2723,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-16-2027--concerts-alternative/production/7091609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-16-2027/event/300064ACE4E97EDD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2551,7 +2782,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002293",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-16-2027/event/107249078",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002293/Gracie-Abrams-tickets-Tue-Mar-16-2027-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002293/Gracie-Abrams-tickets-Tue-Mar-16-2027-Barclays-Center",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-03-12T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g65ie2coz",
@@ -2569,7 +2807,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-17-2027--concerts-alternative/production/7091611",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-17-2027/event/300064BB023ED800",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2628,7 +2866,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002294",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-17-2027/event/107198478",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002294/Gracie-Abrams-tickets-Wed-Mar-17-2027-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002294/Gracie-Abrams-tickets-Wed-Mar-17-2027-Barclays-Center",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-03-13T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g65iekqou",
@@ -2646,7 +2891,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-19-2027--concerts-alternative/production/7091613",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-19-2027/event/300064BB024DD80D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2705,7 +2950,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002295",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-19-2027/event/107198476",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002295/Gracie-Abrams-tickets-Fri-Mar-19-2027-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002295/Gracie-Abrams-tickets-Fri-Mar-19-2027-Barclays-Center",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-03-15T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-brooklyn-17gzv0g65iebqor",
@@ -2723,7 +2975,7 @@
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-brooklyn-barclays-center-3-20-2027--concerts-alternative/production/7091615",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/gracie-abrams-the-look-at-my-brooklyn-new-york-03-20-2027/event/300064BB0261D81E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2782,7 +3034,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8002296",
     "stubhub_international_url": "https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-20-2027/event/107198475",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002296/Gracie-Abrams-tickets-Sat-Mar-20-2027-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8002296/Gracie-Abrams-tickets-Sat-Mar-20-2027-Barclays-Center",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-06-05T13:00:00Z",
+        "end": "2027-03-16T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k_p3f_b",

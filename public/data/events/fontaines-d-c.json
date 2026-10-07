@@ -641,7 +641,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-boston-massachusetts-04-23-2027/event/01006535BB8316A8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -686,6 +686,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671881",
+        "url": "https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-23-2027/event/107671881",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGkeDOsQI",
@@ -693,7 +700,25 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303807",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303807/Fontaines-DC-tickets-Fri-Apr-23-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303807/Fontaines-DC-tickets-Fri-Apr-23-2027-MGM-Music-Hall-at-Fenway-Park",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citizens Bank Presale",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      }
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-23-2027/event/107671881"
   },
   {
     "id": "tm-fontaines-d-c-2027-philadelphia-vv17fz_kgks-xsxp",
@@ -711,7 +736,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-philadelphia-pennsylvania-04-24-2027/event/0200653CE1FB18A5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -747,7 +772,24 @@
     "ticketmaster_discovery_event_id": "vv17FZ_KGkS-XsxP",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "TD Bank Presale",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fontaines-d-c-2027-detroit-vv17oz_kgksew9wu",
@@ -765,7 +807,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wdzh-presents-fontaines-dc-detroit-michigan-04-27-2027/event/0800653CE7F57F4D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -817,7 +859,24 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303810",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303810/Fontaines-DC-tickets-Tue-Apr-27-2027-Fox-Theatre-Detroit"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303810/Fontaines-DC-tickets-Tue-Apr-27-2027-Fox-Theatre-Detroit",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "313 Presents Presale",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fontaines-d-c-2027-chicago-vv1k8z_fkfg7zjno",
@@ -835,7 +894,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-chicago-illinois-04-28-2027/event/0400654194E26A91",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -871,7 +930,19 @@
     "ticketmaster_discovery_event_id": "vv1k8Z_fkfG7zJno",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Salt Shed Online Presale",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fontaines-d-c-2027-milwaukee-vv17jz_kgkloizcl",
@@ -889,7 +960,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-milwaukee-wisconsin-04-30-2027/event/0700653AD1B3839F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -941,7 +1012,19 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303812",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303812/Fontaines-DC-tickets-Fri-Apr-30-2027-Landmark-Credit-Union-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303812/Fontaines-DC-tickets-Fri-Apr-30-2027-Landmark-Credit-Union-Live",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fontaines-d-c-2027-minneapolis-vv17bz_kgkijqu5x",
@@ -959,7 +1042,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-minneapolis-minnesota-05-01-2027/event/0600653B1C7762FE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1011,7 +1094,29 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303813",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303813/Fontaines-DC-tickets-Sat-May-1-2027-The-Armory-Minneapolis"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303813/Fontaines-DC-tickets-Sat-May-1-2027-The-Armory-Minneapolis",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "The Current Presale",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fontaines-d-c-2027-vancouver-1av7z_kgkupzetr",
@@ -1029,7 +1134,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fontaines-dc-vancouver-british-columbia-05-05-2027/event/1100653DA5E27FDE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1081,7 +1186,24 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303822",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303822/Fontaines-DC-tickets-Wed-May-5-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303822/Fontaines-DC-tickets-Wed-May-5-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-06T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fontaines-d-c-2027-seattle-vvg1hz_kbr3b0c",
@@ -1099,7 +1221,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-seattle-washington-05-08-2027/event/0F00653EAF4BA90E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1151,7 +1273,24 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303814",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303814/Fontaines-DC-tickets-Sat-May-8-2027-Wamu-Theater-At-Lumen-Field-Event-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303814/Fontaines-DC-tickets-Sat-May-8-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-06T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "AEG Presale",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fontaines-d-c-2027-sacramento-g5vyz_kmgztid",
@@ -1169,7 +1308,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-sacramento-california-05-11-2027/event/1C00653DCCE3FB3B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1221,7 +1360,19 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303815",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303815/Fontaines-DC-tickets-Tue-May-11-2027-Channel-24"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303815/Fontaines-DC-tickets-Tue-May-11-2027-Channel-24",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-06T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "APE Presale",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fontaines-d-c-2027-san-francisco-g5vyz_k9cdguj",
@@ -1239,7 +1390,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-san-francisco-california-05-12-2027/event/1C006535CE0F535C",
-    "last_verified_at": "2026-10-04",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1291,7 +1442,29 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303816",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303816/Fontaines-DC-tickets-Wed-May-12-2027-Bill-Graham-Civic-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303816/Fontaines-DC-tickets-Wed-May-12-2027-Bill-Graham-Civic-Auditorium",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-06T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "APE Presale",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2027-04-15T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fontaines-d-c-2027-milano-zg9rmiynyzd1ve",
@@ -1858,7 +2031,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fontaines-dc-toronto-ontario-09-26-2027/event/1000653DFBFA0976",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1894,7 +2067,29 @@
     "ticketmaster_discovery_event_id": "1AvZZ_KGkMDXOPU",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Live INSIDER Presale",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fontaines-d-c-2027-columbia-16vfz_fkag7mpc7",
@@ -1912,7 +2107,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-columbia-maryland-09-30-2027/event/1500654189DE5384",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1964,7 +2159,29 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303818",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303818/Fontaines-DC-tickets-Thu-Sep-30-2027-Merriweather-Post-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303818/Fontaines-DC-tickets-Thu-Sep-30-2027-Merriweather-Post-Pavilion",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Discord Presale",
+        "start": "2026-10-07T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Friends with Benefits Presale",
+        "start": "2026-10-07T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "I.M.P. Email Presale",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fontaines-d-c-2027-atlanta-vvg1zz_keib7ia",
@@ -1982,7 +2199,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-atlanta-georgia-10-08-2027/event/0E006539E8604B09",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2034,7 +2251,19 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303820",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303820/Fontaines-DC-tickets-Fri-Oct-8-2027-Synovus-Bank-Amphitheater-at-Chastain-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303820/Fontaines-DC-tickets-Fri-Oct-8-2027-Synovus-Bank-Amphitheater-at-Chastain-Park",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-10T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fontaines-d-c-2027-inglewood-vv1ke8vpuyga5p1et",
@@ -2052,7 +2281,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-inglewood-california-10-15-2027/event/090065370B94A9E9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2104,6 +2333,23 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303821",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303821/Fontaines-DC-tickets-Fri-Oct-15-2027-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303821/Fontaines-DC-tickets-Fri-Oct-15-2027-The-Kia-Forum",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-06T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      }
+    ]
   }
 ]

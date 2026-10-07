@@ -193,18 +193,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8219117",
-        "url": "https://www.ticketnetwork.com/en/p/8219117",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6Gi4rjO9",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8219117/Sylvan-Esso-tickets-Tue-Oct-6-2026-930-Club",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8219117"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-sylvan-esso-2026-durham-g5evz_1dgn5_o",

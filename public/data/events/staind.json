@@ -113,13 +113,21 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107098206",
+        "url": "https://www.stubhub.ie/staind-wheatland-tickets-10-9-2026/event/107098206",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_dwgiJMI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718199",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718199/Staind-tickets-Fri-Oct-9-2026-Toyota-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718199/Staind-tickets-Fri-Oct-9-2026-Toyota-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/staind-wheatland-tickets-10-9-2026/event/107098206"
   },
   {
     "id": "tm-staind-2026-ontario-vv170z_dgkwr0_z6",
@@ -182,13 +190,21 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107098205",
+        "url": "https://www.stubhub.ie/staind-ontario-tickets-10-10-2026/event/107098205",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_dGkwr0_Z6",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718202",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718202/Staind-tickets-Sat-Oct-10-2026-Toyota-Arena-Ontario"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718202/Staind-tickets-Sat-Oct-10-2026-Toyota-Arena-Ontario",
+    "stubhub_international_url": "https://www.stubhub.ie/staind-ontario-tickets-10-10-2026/event/107098205"
   },
   {
     "id": "tm-staind-2026-phoenix-1av0z_dgku63v-5",
@@ -403,6 +419,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107098204",
+        "url": "https://www.stubhub.ie/staind-tulsa-tickets-10-16-2026/event/107098204",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_dGkVARP7D",
@@ -416,7 +439,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718208",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718208/Staind-tickets-Fri-Oct-16-2026-BOK-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718208/Staind-tickets-Fri-Oct-16-2026-BOK-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/staind-tulsa-tickets-10-16-2026/event/107098204"
   },
   {
     "id": "tm-staind-2026-the-woodlands-g5diz_dbvgqfi",
@@ -539,6 +563,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107098202",
+        "url": "https://www.stubhub.ie/staind-austin-tickets-10-19-2026/event/107098202",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_dYkGaJg",
@@ -552,7 +583,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718212",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718212/Staind-tickets-Mon-Oct-19-2026-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718212/Staind-tickets-Mon-Oct-19-2026-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/staind-austin-tickets-10-19-2026/event/107098202"
   },
   {
     "id": "tm-staind-2027-manchester-vv177z_kgkbyj0rc",

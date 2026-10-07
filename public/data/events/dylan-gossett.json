@@ -465,11 +465,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107469555",
+        "url": "https://www.stubhub.ie/dylan-gossett-tickets-london-o2-academy-brixton-18-2-2027/event/107469555",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_8Kn_3tz",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-london-o2-academy-brixton-18-2-2027/event/107469555"
   },
   {
     "id": "tm-dylan-gossett-2027-manchester-g5dzz_8hqwevt",
@@ -585,13 +593,21 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107476097",
+        "url": "https://www.stubhub.ie/dylan-gossett-tickets-birmingham-o2-academy-birmingham-21-2-2027/event/107476097",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_83l8ohZ",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265884",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265884/Dylan-Gossett-tickets-Sun-Feb-21-2027-O2-Academy-Birmingham"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265884/Dylan-Gossett-tickets-Sun-Feb-21-2027-O2-Academy-Birmingham",
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-birmingham-o2-academy-birmingham-21-2-2027/event/107476097"
   },
   {
     "id": "tm-dylan-gossett-2027-glasgow-g5dzz_8pg5sb3",
@@ -640,11 +656,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107482715",
+        "url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-23-2-2027/event/107482715",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_8pg5sb3",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-23-2-2027/event/107482715"
   },
   {
     "id": "tm-dylan-gossett-2027-glasgow-g5dzz_8qwdoqp",
@@ -693,11 +717,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107469557",
+        "url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-24-2-2027/event/107469557",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_8QwdoqP",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-24-2-2027/event/107469557"
   },
   {
     "id": "tm-dylan-gossett-2027-dublin-17kzv0g62wo552g",

@@ -1214,6 +1214,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668126",
+        "url": "https://www.stubhub.ie/kenny-chesney-east-rutherford-tickets-7-7-2027/event/107668126",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3Cwtd0z",
@@ -1227,7 +1234,8 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-07-17T21:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-east-rutherford-tickets-7-7-2027/event/107668126"
   },
   {
     "id": "tm-kenny-chesney-2027-detroit-vv17oz_8gkmnwpji",

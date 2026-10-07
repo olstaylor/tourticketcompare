@@ -500,11 +500,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107325082",
-        "url": "https://www.stubhub.ie/charli-xcx-atlanta-tickets-10-6-2026/event/107325082",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_G99-NFd",
@@ -512,7 +512,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-atlanta-tickets-10-6-2026/event/107325082"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-charli-xcx-2026-san-diego-vvg1iz_gpnxmrx",

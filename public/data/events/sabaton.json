@@ -243,7 +243,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-hollywood-california-11-12-2026/event/09006455C0F6592F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -302,7 +302,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410008",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410008/Sabaton-tickets-Thu-Nov-12-2026-Hollywood-Palladium",
-    "stubhub_international_url": "https://www.stubhub.ie/sabaton-hollywood-tickets-11-12-2026/event/107455670"
+    "stubhub_international_url": "https://www.stubhub.ie/sabaton-hollywood-tickets-11-12-2026/event/107455670",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-05T16:00:00Z",
+        "end": "2026-11-06T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-pittsburgh-1avbz_kgkwfjp1j",
@@ -320,7 +327,7 @@
     "vividseats_url": "https://www.vividseats.com/sabaton-tickets-pittsburgh-citizens-live-at-the-wylie-12-3-2026--concerts-hard-rock/production/6789538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-pittsburgh-pennsylvania-12-03-2026/event/1600646C889A529C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -371,7 +378,24 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808973",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808973/Sabaton-tickets-Thu-Dec-3-2026-Citizens-Live-at-The-Wylie"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808973/Sabaton-tickets-Thu-Dec-3-2026-Citizens-Live-at-The-Wylie",
+    "presales": [
+      {
+        "name": "Verizon Access Select Seats",
+        "start": "2026-03-20T14:00:00Z",
+        "end": "2026-11-06T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-20T14:00:00Z",
+        "end": "2026-11-27T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-20T14:00:00Z",
+        "end": "2026-11-27T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-nashville-g5viz_kmyac0s",
@@ -389,7 +413,7 @@
     "vividseats_url": "https://www.vividseats.com/sabaton-tickets-nashville-the-truth-12-9-2026/production/6789881",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-nashville-tennessee-12-09-2026/event/1B00646BB024E931",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440,7 +464,24 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808860",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808860/Sabaton-tickets-Wed-Dec-9-2026-The-Truth"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808860/Sabaton-tickets-Wed-Dec-9-2026-The-Truth",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-20T15:00:00Z",
+        "end": "2026-11-10T04:00:00Z"
+      },
+      {
+        "name": "Verizon Access Select Seats",
+        "start": "2026-03-20T15:00:00Z",
+        "end": "2026-11-10T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-20T15:00:00Z",
+        "end": "2026-12-03T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-orlando-16efz_afzg7dbn1",
@@ -458,7 +499,7 @@
     "vividseats_url": "https://www.vividseats.com/sabaton-tickets-orlando-hard-rock-live---orlando-12-11-2026/production/6752109",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-orlando-florida-12-11-2026/event/2200645500EFAA8A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -517,7 +558,24 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7784220",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7784220/Sabaton-tickets-Fri-Dec-11-2026-Hard-Rock-Live-Orlando",
-    "stubhub_international_url": "https://www.stubhub.ie/sabaton-orlando-tickets-12-11-2026/event/107142116"
+    "stubhub_international_url": "https://www.stubhub.ie/sabaton-orlando-tickets-12-11-2026/event/107142116",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-05T16:00:00Z",
+        "end": "2026-11-12T03:00:00Z"
+      },
+      {
+        "name": "Verizon Access Select Seats",
+        "start": "2026-03-05T16:00:00Z",
+        "end": "2026-11-12T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-05T16:00:00Z",
+        "end": "2026-12-05T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-fort-lauderdale-z7r9jz1a7-oqe",

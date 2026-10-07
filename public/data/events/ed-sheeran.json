@@ -1657,7 +1657,7 @@
     "vividseats_url": "https://www.vividseats.com/ed-sheeran-tickets-hollywood-hard-rock-live---hollywood-10-29-2026--concerts-pop/production/6049741",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-hollywood-florida-10-29-2026/event/0D006331A7D91AFF",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0D006331A7D91AFF",
@@ -1716,7 +1716,14 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418599",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418599/Ed-Sheeran-tickets-Thu-Oct-29-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-hollywood-tickets-10-29-2026/event/106957104"
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-hollywood-tickets-10-29-2026/event/106957104",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2025-09-26T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-ed-sheeran-2026-hollywood-0d006331f45e4089",
@@ -1734,7 +1741,7 @@
     "vividseats_url": "https://www.vividseats.com/ed-sheeran-tickets-hollywood-hard-rock-live---hollywood-10-30-2026--concerts-pop/production/6049743",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-hollywood-florida-10-30-2026/event/0D006331F45E4089",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0D006331F45E4089",
@@ -1793,7 +1800,14 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418600",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418600/Ed-Sheeran-tickets-Fri-Oct-30-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-hollywood-tickets-10-30-2026/event/106957105"
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-hollywood-tickets-10-30-2026/event/106957105",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2025-09-26T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-ed-sheeran-2026-tampa-0d006331d60a3a7a",
@@ -1811,7 +1825,7 @@
     "vividseats_url": "https://www.vividseats.com/ed-sheeran-tickets-tampa-raymond-james-stadium-11-7-2026--concerts-pop/production/6049744",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-tampa-florida-11-07-2026/event/0D006331D60A3A7A",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0D006331D60A3A7A",
@@ -1870,6 +1884,13 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7418601",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7418601/Ed-Sheeran-tickets-Sat-Nov-7-2026-Raymond-James-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-tampa-tickets-11-7-2026/event/106957108"
+    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-tampa-tickets-11-7-2026/event/106957108",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2025-09-26T14:00:00Z",
+        "end": "2026-10-25T02:00:00Z"
+      }
+    ]
   }
 ]

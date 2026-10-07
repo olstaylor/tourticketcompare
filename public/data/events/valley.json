@@ -68,7 +68,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-montreal-le-studio-td-2-5-2027--concerts-rock/production/7579939",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-montreal-quebec-02-05-2027/event/3100652EAB806F3B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -119,7 +119,14 @@
     "timezone": "America/Toronto",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8274453",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8274453/Valley-Band-tickets-Fri-Feb-5-2027-Le-Studio-TD"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8274453/Valley-Band-tickets-Fri-Feb-5-2027-Le-Studio-TD",
+    "presales": [
+      {
+        "name": "Forfaits VIP Packages",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-01-29T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-ottawa-1ad7z_3gkv11nuz",
@@ -137,7 +144,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-ottawa-ontario-02-06-2027/event/3100652D0A2AA378",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -172,7 +179,14 @@
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GkV11nuz",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-01-29T16:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-waterloo-z7r9jz1aavzft",
@@ -243,7 +257,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-london-ontario-02-10-2027/event/1000652FD632ADB4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -278,7 +292,14 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_3GkTpGnUV",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-02-03T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-chicago-z7r9jz1aavzfy",
@@ -426,7 +447,7 @@
     "city": "Winnipeg",
     "country": "Canada",
     "venue": "PARK THEATRE",
-    "datetime_iso": "2027-02-17T01:00:00Z",
+    "datetime_iso": "2027-02-17T00:00:00Z",
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1100652E91186703",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-winnipeg-manitoba-02-16-2027/event/1100652E91186703",
@@ -434,7 +455,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-winnipeg-park-theatre---mb-2-16-2027--concerts-rock/production/7579430",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-winnipeg-manitoba-02-16-2027/event/1100652E91186703",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -485,7 +506,14 @@
     "timezone": "America/Winnipeg",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272762",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272762/Valley-Band-tickets-Tue-Feb-16-2027-Park-Theatre-Winnipeg"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272762/Valley-Band-tickets-Tue-Feb-16-2027-Park-Theatre-Winnipeg",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-02-09T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-regina-z7r9jz1aavzfw",
@@ -572,7 +600,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-edmonton-alberta-02-19-2027/event/1100652EA2AE8DDE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -607,7 +635,14 @@
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkBxlIMr",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-02-11T17:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-calgary-1av7z_3gkb3cpp6",
@@ -625,7 +660,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-calgary-the-palace-theatre-calgary-2-20-2027--concerts-rock/production/7579440",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-calgary-alberta-02-20-2027/event/1100652E92396947",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -660,7 +695,14 @@
     },
     "ticketmaster_discovery_event_id": "1Av7Z_3GkB3CpP6",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-02-12T17:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-victoria-z7r9jz1aavgoz",
@@ -747,7 +789,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-vancouver-commodore-ballroom-2-24-2027--concerts-rock/production/7579442",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-vancouver-british-columbia-02-24-2027/event/1100652E92F16D17",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -798,7 +840,29 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272767",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272767/Valley-Band-tickets-Wed-Feb-24-2027-Commodore-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272767/Valley-Band-tickets-Wed-Feb-24-2027-Commodore-Ballroom",
+    "presales": [
+      {
+        "name": "Front of the Line Reserved Amex Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-02-11T06:00:00Z"
+      },
+      {
+        "name": "RBCx Preferred Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-02-11T06:00:00Z"
+      },
+      {
+        "name": "Rogers Customer Exclusive Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-02-11T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-02-17T07:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-seattle-vvg1hz_3nsltnp",
@@ -816,7 +880,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-seattle-the-neptune-theatre-2-26-2027--concerts-rock/production/7579376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-seattle-washington-02-26-2027/event/0F00652AB1AE98D6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -867,7 +931,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272768",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272768/Valley-Band-tickets-Fri-Feb-26-2027-The-Neptune-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272768/Valley-Band-tickets-Fri-Feb-26-2027-The-Neptune-Theatre",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-02-19T07:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-portland-z7r9jz1aavzfs",
@@ -1023,7 +1094,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-los-angeles-the-bellwether-3-2-2027/production/7580204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-los-angeles-california-03-02-2027/event/09006521DDBFCEF5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1074,7 +1145,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272770",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272770/Valley-Band-tickets-Tue-Mar-2-2027-The-Bellwether"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272770/Valley-Band-tickets-Tue-Mar-2-2027-The-Bellwether",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-02-23T07:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-phoenix-z7r9jz1aavzfg",
@@ -1161,7 +1239,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-salt-lake-city-the-depot---ut-3-5-2027--concerts-rock/production/7579390",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-salt-lake-city-utah-03-05-2027/event/1E00652EA3D363D8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1212,7 +1290,19 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272771",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272771/Valley-Band-tickets-Fri-Mar-5-2027-The-Depot-Salt-Lake-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272771/Valley-Band-tickets-Fri-Mar-5-2027-The-Depot-Salt-Lake-City",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-02-06T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-02-26T06:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-denver-z7r9jz1aavzfu",
@@ -1283,7 +1373,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-saint-louis-missouri-03-09-2027/event/06006528946B8E73",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1318,7 +1408,14 @@
     },
     "ticketmaster_discovery_event_id": "vv16kZkfIPkZAGa2F7",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-03-02T05:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-nashville-g5viz_3rrquu4",
@@ -1336,7 +1433,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-nashville-brooklyn-bowl---nashville-3-10-2027--concerts-rock/production/7579396",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-nashville-tennessee-03-10-2027/event/1B00652BDE776355",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1387,7 +1484,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272774",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272774/Valley-Band-tickets-Wed-Mar-10-2027-Brooklyn-Bowl-Nashville"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272774/Valley-Band-tickets-Wed-Mar-10-2027-Brooklyn-Bowl-Nashville",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-03-03T05:55:00Z"
+      },
+      {
+        "name": "T-Mobile® Concert Perks",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-03-08T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-atlanta-vvg1zz_32aklli",
@@ -1405,7 +1514,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-atlanta-the-masquerade---hell-3-12-2027--concerts-rock/production/7579398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-atlanta-georgia-03-12-2027/event/0E006523C519F7E8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1440,7 +1549,14 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_32AkLLI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-05T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-charlotte-g5evz_3nrncxj",
@@ -1458,7 +1574,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-charlotte-the-underground-at-the-fillmore-charlotte-3-13-2027--concerts-rock/production/7579404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-charlotte-north-carolina-03-13-2027/event/2D00652A9E8EDFA6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1509,7 +1625,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272776",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272776/Valley-Band-tickets-Sat-Mar-13-2027-The-Underground-Charlotte"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272776/Valley-Band-tickets-Sat-Mar-13-2027-The-Underground-Charlotte",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-06T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-washington-16vfz_333g7mktl",
@@ -1527,7 +1650,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-washington-district-of-columbia-03-14-2027/event/1500652492B86FDF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1578,7 +1701,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272777",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272777/Valley-Band-tickets-Sun-Mar-14-2027-930-Club"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272777/Valley-Band-tickets-Sun-Mar-14-2027-930-Club",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-07T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-philadelphia-vv1aezkfygkdw6utw",
@@ -1596,7 +1726,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-philadelphia-brooklyn-bowl-philadelphia-3-16-2027--concerts-rock/production/7579418",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-philadelphia-pennsylvania-03-16-2027/event/02006530F21CDFF2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1647,7 +1777,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272778",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272778/Valley-Band-tickets-Tue-Mar-16-2027-Brooklyn-Bowl-Philadelphia"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272778/Valley-Band-tickets-Tue-Mar-16-2027-Brooklyn-Bowl-Philadelphia",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-09T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-new-york-z7r9jz1aavzfm",
@@ -1734,7 +1871,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-boston-paradise-rock-club-3-18-2027--concerts-rock/production/7579422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-dyntbe-the-tour-boston-massachusetts-03-18-2027/event/0100652BB45A30E3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1785,7 +1922,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272780",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272780/Valley-Band-tickets-Thu-Mar-18-2027-Paradise-Rock-Club-Presented-by-Citizens"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272780/Valley-Band-tickets-Thu-Mar-18-2027-Paradise-Rock-Club-Presented-by-Citizens",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-11T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-toronto-1avzz_3gkdexa9o",
@@ -1803,7 +1947,7 @@
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-toronto-massey-hall---allied-music-centre-3-20-2027--concerts-rock/production/7579953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-toronto-ontario-03-20-2027/event/1000652EE7F895D1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1838,7 +1982,14 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_3GkDEXa9o",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-13T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-valley-2027-amsterdam-z698xzbpz1kuzjpzo",

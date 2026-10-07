@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-tempe-marquee-theatre-3-19-2027--concerts-rock/production/7592422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-tempe-arizona-03-19-2027/event/1900652992F7671A",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -58,7 +58,14 @@
     "ticketmaster_discovery_event_id": "16v0Z_3J3G7WUjQ",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284358"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284358",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-03-13T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-dallas-vvg1yz_k69fczg",
@@ -76,7 +83,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-dallas-house-of-blues-dallas-3-23-2027--concerts-rock/production/7592424",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-dallas-texas-03-23-2027/event/0C006531D750EE0C",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -127,7 +134,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284360",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284360/The-Interrupters-tickets-Tue-Mar-23-2027-House-Of-Blues-Dallas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284360/The-Interrupters-tickets-Tue-Mar-23-2027-House-Of-Blues-Dallas",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-02-24T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-03-17T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-houston-g5diz_3r-jkhd",
@@ -145,7 +164,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-houston-house-of-blues-houston-3-24-2027--concerts-rock/production/7592426",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-houston-texas-03-24-2027/event/3A006527A1986F3B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -196,7 +215,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284361",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284361/The-Interrupters-tickets-Wed-Mar-24-2027-House-Of-Blues-Houston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284361/The-Interrupters-tickets-Wed-Mar-24-2027-House-Of-Blues-Houston",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-02-25T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-03-18T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-st-petersburg-vvg1vz_3xxt6_9",
@@ -214,7 +245,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-st-petersburg-florida-03-26-2027/event/0D00652FA2A47657",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -257,7 +288,14 @@
     "ticketmaster_discovery_event_id": "vvG1VZ_3Xxt6_9",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284362"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284362",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-20T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-ft-lauderdale-vvg1vz_3bjcjr0",
@@ -275,7 +313,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-ft-lauderdale-florida-03-27-2027/event/0D00652EA63A6BE4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -310,7 +348,14 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3BJCJR0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-21T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-orlando-1aefz_3gkdwdk5a",
@@ -328,7 +373,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-lake-buena-vista-house-of-blues-orlando-3-28-2027--concerts-rock/production/7592432",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-orlando-florida-03-28-2027/event/2200652EFDEC62C5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -379,7 +424,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284364",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284364/The-Interrupters-tickets-Sun-Mar-28-2027-House-Of-Blues-Orlando"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284364/The-Interrupters-tickets-Sun-Mar-28-2027-House-Of-Blues-Orlando",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-22T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-atlanta-vvg1zz_3dh5hjb",
@@ -397,7 +449,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-atlanta-the-masquerade---heaven-3-30-2027--concerts-rock/production/7592434",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-atlanta-georgia-03-30-2027/event/0E00652EDB2FC73A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -432,7 +484,14 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3Dh5HjB",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-24T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-silver-spring-1avfz_3gkbss6tr",
@@ -450,7 +509,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-silver-spring-the-fillmore-silver-spring-4-2-2027--concerts-rock/production/7592436",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-silver-spring-maryland-04-02-2027/event/1500652EB1CC7FEF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -501,7 +560,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284367",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284367/The-Interrupters-tickets-Fri-Apr-2-2027-The-Fillmore-Silver-Spring"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284367/The-Interrupters-tickets-Fri-Apr-2-2027-The-Fillmore-Silver-Spring",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-27T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-brooklyn-k7vgf_k6y5uwc",
@@ -519,7 +585,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-brooklyn-brooklyn-paramount-4-4-2027--concerts-rock/production/7592438",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-brooklyn-new-york-04-04-2027/event/00006531F02CDF6D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -578,7 +644,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284355",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284355/The-Interrupters-tickets-Sun-Apr-4-2027-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/the-interrupters-brooklyn-tickets-4-4-2027/event/107669193"
+    "stubhub_international_url": "https://www.stubhub.ie/the-interrupters-brooklyn-tickets-4-4-2027/event/107669193",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-08T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-29T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-boston-vv1avzkftgkexzmrt",
@@ -596,7 +674,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-boston-citizens-house-of-blues-boston-4-7-2027--concerts-rock/production/7592440",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-boston-massachusetts-04-07-2027/event/01006529A2E2E7A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -647,7 +725,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284368",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284368/The-Interrupters-tickets-Wed-Apr-7-2027-Citizens-House-Of-Blues-Boston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284368/The-Interrupters-tickets-Wed-Apr-7-2027-Citizens-House-Of-Blues-Boston",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-04-01T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-montreal-1ad7z_3gkmrxjga",
@@ -665,7 +750,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-montreal-mtelus-4-9-2027--concerts-rock/production/7592482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-interrupters-montreal-quebec-04-09-2027/event/3100652B9E8A6D49",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -708,7 +793,14 @@
     "ticketmaster_discovery_event_id": "1Ad7Z_3GkmrxJga",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284369"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284369",
+    "presales": [
+      {
+        "name": "Forfait VIP Package",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-04-03T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-toronto-1a8zkfsgkdrk_-b",
@@ -726,7 +818,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-interrupters-toronto-ontario-04-10-2027/event/10006531EF199858",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -761,7 +853,14 @@
     },
     "ticketmaster_discovery_event_id": "1A8ZkfsGkdRk_-b",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-04-04T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-london-1avzz_3gkmfyun4",
@@ -779,7 +878,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-interrupters-london-ontario-04-11-2027/event/1000652B88C368D5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -814,7 +913,14 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_3GkmFYUN4",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-04-05T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-cleveland-vv17fz_3gklukmo_",
@@ -832,7 +938,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-cleveland-house-of-blues-cleveland-4-13-2027--concerts-rock/production/7592444",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-cleveland-ohio-04-13-2027/event/0500652ACD4EE459",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -883,7 +989,24 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284372",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284372/The-Interrupters-tickets-Tue-Apr-13-2027-House-Of-Blues-Cleveland"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284372/The-Interrupters-tickets-Tue-Apr-13-2027-House-Of-Blues-Cleveland",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-17T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-04-07T02:00:00Z"
+      },
+      {
+        "name": "T-Mobile® Concert Perks + Fast Lane",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-04-11T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-mckees-rocks-1avbz_3gktimcny",
@@ -901,7 +1024,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-mckees-rocks-pennsylvania-04-14-2027/event/1600652FE8DCE8F9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -936,7 +1059,14 @@
     },
     "ticketmaster_discovery_event_id": "1AvbZ_3GkTIMCNy",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-04-08T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-detroit-vv1afzkfxgkesf0dw",
@@ -954,7 +1084,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-detroit-the-fillmore-detroit-4-16-2027--concerts-rock/production/7592450",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-detroit-michigan-04-16-2027/event/08006522B3224EF2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1005,7 +1135,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284374",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284374/The-Interrupters-tickets-Fri-Apr-16-2027-The-Fillmore-Detroit"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284374/The-Interrupters-tickets-Fri-Apr-16-2027-The-Fillmore-Detroit",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-20T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-04-10T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-chicago-vv178z_ogkmzy5fz",
@@ -1023,7 +1165,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-chicago-house-of-blues-chicago-4-17-2027--concerts-rock/production/7592456",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-chicago-illinois-04-17-2027/event/0400651DC0E4B500",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1074,7 +1216,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284376",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284376/The-Interrupters-tickets-Sat-Apr-17-2027-House-Of-Blues-Chicago"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284376/The-Interrupters-tickets-Sat-Apr-17-2027-House-Of-Blues-Chicago",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-03-21T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-04-11T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-saint-louis-vv17bz_3gkdzh1rc",
@@ -1092,7 +1246,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-saint-louis-missouri-04-18-2027/event/0600652EC06CABCE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1127,7 +1281,14 @@
     },
     "ticketmaster_discovery_event_id": "vv17bZ_3GkDZh1RC",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-04-12T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-minneapolis-vv17bz_3gkbzsymo",
@@ -1145,7 +1306,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-minneapolis-minnesota-04-21-2027/event/0600652EB8CF9BA0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1196,7 +1357,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284379",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284379/The-Interrupters-tickets-Wed-Apr-21-2027-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284379/The-Interrupters-tickets-Wed-Apr-21-2027-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-03-25T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-04-15T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-salt-lake-city-g5vzz_3nsybuv",
@@ -1214,7 +1387,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-salt-lake-city-the-union-event-center---salt-lake-city-4-24-2027--concerts-rock/production/7592476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-salt-lake-city-utah-04-24-2027/event/1E00652AB1E58D81",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1257,7 +1430,14 @@
     "ticketmaster_discovery_event_id": "G5vzZ_3nsybUv",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284381"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284381",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-04-18T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-los-angeles-vv1ke8vpgbgautgrg",
@@ -1275,7 +1455,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-los-angeles-the-wiltern-4-30-2027--concerts-rock/production/7592478",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-los-angeles-california-04-30-2027/event/090065318DFF5BCC",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1318,7 +1498,14 @@
     "ticketmaster_discovery_event_id": "vv1ke8vPGbGAuTgRG",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284386"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284386",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-04-24T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-interrupters-2027-anaheim-vv1fe8vpg33pz72fk7",
@@ -1336,7 +1523,7 @@
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-anaheim-house-of-blues-anaheim-5-2-2027--concerts-rock/production/7592480",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-anaheim-california-05-02-2027/event/090065312496E753",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1387,6 +1574,18 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284387",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284387/The-Interrupters-tickets-Sun-May-2-2027-House-Of-Blues-Anaheim"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284387/The-Interrupters-tickets-Sun-May-2-2027-House-Of-Blues-Anaheim",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-04-03T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-04-26T05:00:00Z"
+      }
+    ]
   }
 ]

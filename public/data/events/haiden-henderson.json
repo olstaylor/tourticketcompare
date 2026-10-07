@@ -386,7 +386,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-santa-ana-constellation-room-at-the-observatory-4-5-2027--concerts-pop/production/7593759",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-santa-ana-california-04-05-2027/event/09006532EA482297",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -437,7 +437,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284317",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284317/Haiden-Henderson-tickets-Mon-Apr-5-2027-Constellation-Room-at-The-Observatory-Santa-Ana"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284317/Haiden-Henderson-tickets-Mon-Apr-5-2027-Constellation-Room-at-The-Observatory-Santa-Ana",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-03-29T10:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-houston-g5diz_kdeuth4",
@@ -455,7 +462,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-houston-the-bronze-peacock-at-house-of-blues-houston-4-9-2027--concerts-pop/production/7593669",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-houston-texas-04-09-2027/event/3A006530C237F6D5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -506,7 +513,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284319",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284319/Haiden-Henderson-tickets-Fri-Apr-9-2027-Bronze-Peacock-At-The-House-Of-Blues-Houston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284319/Haiden-Henderson-tickets-Fri-Apr-9-2027-Bronze-Peacock-At-The-House-Of-Blues-Houston",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-03-13T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-atlanta-vvg1zz_k5fswrb",
@@ -577,7 +591,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-charlotte-the-underground-at-the-fillmore-charlotte-4-18-2027--concerts-pop/production/7593518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-charlotte-north-carolina-04-18-2027/event/2D0065310645DC7B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -628,7 +642,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284324",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284324/Haiden-Henderson-tickets-Sun-Apr-18-2027-The-Underground-Charlotte"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284324/Haiden-Henderson-tickets-Sun-Apr-18-2027-The-Underground-Charlotte",
+    "presales": [
+      {
+        "name": "VIP",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-04-12T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-washington-16vfz_kzng7lczd",
@@ -646,7 +667,7 @@
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-washington-the-atlantis-4-20-2027--concerts-pop/production/7593687",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-the-dumblond-tour-washington-district-of-columbia-04-20-2027/event/1500653023AED03B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -697,7 +718,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284325",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284325/Haiden-Henderson-tickets-Tue-Apr-20-2027-The-Atlantis"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284325/Haiden-Henderson-tickets-Tue-Apr-20-2027-The-Atlantis",
+    "presales": [
+      {
+        "name": "VIP Package",
+        "start": "2026-09-23T14:00:00Z",
+        "end": "2027-04-14T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-philadelphia-vv16ovpgt4oz75ua7",
@@ -715,7 +743,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-philadelphia-pennsylvania-04-22-2027/event/020065329551AC83",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -750,7 +778,14 @@
     },
     "ticketmaster_discovery_event_id": "vv16OvPGt4oZ75ua7",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-04-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-new-york-k7vgf_k9pms1b",
@@ -768,7 +803,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haiden-henderson-new-york-new-york-04-23-2027/event/00006535E5BB12BA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -803,7 +838,14 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_K9Pms1B",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-27T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-boston-vv1avzkfygkegtmcp",
@@ -890,7 +932,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/haiden-henderson-toronto-ontario-04-26-2027/event/10006535CF7255FB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -925,7 +967,14 @@
     },
     "ticketmaster_discovery_event_id": "1A8ZkfgGkd2jP9D",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-04-20T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-haiden-henderson-2027-milwaukee-z7r9jz1aaeea6",

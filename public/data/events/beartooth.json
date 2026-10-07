@@ -365,7 +365,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-boston-mgm-music-hall-at-fenway-11-11-2026/production/7052686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-boston-massachusetts-11-11-2026/event/010064A8E6A0202F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424,7 +424,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980209",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980209/Beartooth-tickets-Wed-Nov-11-2026-MGM-Music-Hall-at-Fenway-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/beartooth-boston-tickets-11-11-2026/event/107446289"
+    "stubhub_international_url": "https://www.stubhub.ie/beartooth-boston-tickets-11-11-2026/event/107446289",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T14:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Spooky Season 2-Pack for $80 All-In",
+        "start": "2026-10-07T14:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beartooth-2026-new-york-k7vgf_1s1uowe",
@@ -442,7 +454,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-new-york-manhattan-center-hammerstein-ballroom-11-12-2026--concerts-hard-rock/production/7052732",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-york-new-york-11-12-2026/event/000064ACCA360CA7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -477,7 +489,19 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_1S1uOwE",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Spooky Season 2-Pack for $80 All-In",
+        "start": "2026-10-07T14:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beartooth-2026-philadelphia-z7r9jz1a70tke",
@@ -564,7 +588,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-oxon-hill-the-theater-at-mgm-national-harbor-11-15-2026--concerts-hard-rock/production/7052736",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-national-harbor-maryland-11-15-2026/event/150064AD26B42212",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -615,7 +639,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980212",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980212/Beartooth-tickets-Sun-Nov-15-2026-The-Theater-at-MGM-National-Harbor"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980212/Beartooth-tickets-Sun-Nov-15-2026-The-Theater-at-MGM-National-Harbor",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T14:00:00Z",
+        "end": "2026-10-19T02:00:00Z"
+      },
+      {
+        "name": "Spooky Season 2-Pack for $80 All-In",
+        "start": "2026-10-07T14:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beartooth-2026-pittsburgh-z7r9jz1a70t36",
@@ -702,7 +738,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-chicago-aragon-ballroom-11-20-2026--concerts-hard-rock/production/7052738",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-chicago-illinois-11-20-2026/event/040064A8E6905D55",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -761,7 +797,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980215",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980215/Beartooth-tickets-Fri-Nov-20-2026-Byline-Bank-Aragon-Ballroom",
-    "stubhub_international_url": "https://www.stubhub.ie/beartooth-chicago-tickets-11-20-2026/event/107417483"
+    "stubhub_international_url": "https://www.stubhub.ie/beartooth-chicago-tickets-11-20-2026/event/107417483",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T15:00:00Z",
+        "end": "2026-10-24T03:00:00Z"
+      },
+      {
+        "name": "Spooky Season 2-Pack for $80 All-In",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beartooth-2026-maplewood-z7r9jz1aava89",
@@ -832,7 +880,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-omaha-nebraska-11-22-2026/event/200064ACDD1C59CE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -883,7 +931,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980217",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980217/Beartooth-tickets-Sun-Nov-22-2026-Steelhouse-Omaha"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980217/Beartooth-tickets-Sun-Nov-22-2026-Steelhouse-Omaha",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T15:00:00Z",
+        "end": "2026-10-26T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beartooth-2026-nashville-g5viz_1sjbpcf",
@@ -901,7 +956,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-nashville-the-truth-11-28-2026--concerts-hard-rock/production/7052753",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-nashville-tennessee-11-28-2026/event/1B0064ACE6625B54",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -952,7 +1007,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980219",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980219/Beartooth-tickets-Sat-Nov-28-2026-The-Truth"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980219/Beartooth-tickets-Sat-Nov-28-2026-The-Truth",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T15:00:00Z",
+        "end": "2026-10-29T03:00:00Z"
+      },
+      {
+        "name": "Spooky Season 2-Pack for $80 All-In",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beartooth-2026-atlanta-vvg1zz_1br-um-",
@@ -970,7 +1037,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-atlanta-coca-cola-roxy-theatre-11-29-2026--concerts-hard-rock/production/7052761",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-atlanta-georgia-11-29-2026/event/0E0064AEAF84DDE1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1021,7 +1088,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980221",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980221/Beartooth-tickets-Sun-Nov-29-2026-Coca-Cola-Roxy"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980221/Beartooth-tickets-Sun-Nov-29-2026-Coca-Cola-Roxy",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T14:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      },
+      {
+        "name": "Spooky Season 2-Pack",
+        "start": "2026-10-07T14:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beartooth-2026-charlotte-g5evz_1mwgsx1",
@@ -1039,7 +1118,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-charlotte-the-fillmore-charlotte-12-1-2026--concerts-hard-rock/production/7052767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-charlotte-north-carolina-12-01-2026/event/2D0064ABB2D71F8A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1090,7 +1169,24 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980223",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980223/Beartooth-tickets-Tue-Dec-1-2026-The-Fillmore-Charlotte"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980223/Beartooth-tickets-Tue-Dec-1-2026-The-Fillmore-Charlotte",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T14:00:00Z",
+        "end": "2026-11-04T03:00:00Z"
+      },
+      {
+        "name": "T-Mobile® Concert Perks",
+        "start": "2026-05-22T14:00:00Z",
+        "end": "2026-11-29T03:00:00Z"
+      },
+      {
+        "name": "Spooky Season 2-Pack",
+        "start": "2026-10-07T14:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beartooth-2026-saint-augustine-z7r9jz1a70igm",
@@ -1214,7 +1310,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-new-orleans-fillmore-new-orleans-12-7-2026--concerts-hard-rock/production/7052872",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1265,7 +1361,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980229",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980229/Beartooth-tickets-Mon-Dec-7-2026-The-Fillmore-New-Orleans"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980229/Beartooth-tickets-Mon-Dec-7-2026-The-Fillmore-New-Orleans",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T15:00:00Z",
+        "end": "2026-11-10T04:00:00Z"
+      },
+      {
+        "name": "Spooky Season 2 Pack Offer",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beartooth-2026-dallas-vvg1yz_1mmkrmi",
@@ -1283,7 +1391,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-dallas-south-side-ballroom-12-10-2026--concerts-hard-rock/production/7052880",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-dallas-texas-12-10-2026/event/0C0064ADF719EBA8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1342,7 +1450,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980234",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980234/Beartooth-tickets-Thu-Dec-10-2026-South-Side-Ballroom-at-Gilleys",
-    "stubhub_international_url": "https://www.stubhub.ie/beartooth-dallas-tickets-12-10-2026/event/107417485"
+    "stubhub_international_url": "https://www.stubhub.ie/beartooth-dallas-tickets-12-10-2026/event/107417485",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T15:00:00Z",
+        "end": "2026-11-13T04:00:00Z"
+      },
+      {
+        "name": "Spooky Season 2 Pack Offer",
+        "start": "2026-10-07T15:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beartooth-2026-denver-g5vzz_1sigr2s",
@@ -1360,7 +1480,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-denver-fillmore-auditorium-denver-12-12-2026--concerts-hard-rock/production/7052882",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-denver-colorado-12-12-2026/event/1E0064ACE8D5E3F3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1395,7 +1515,14 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1SIgr2S",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T16:00:00Z",
+        "end": "2026-11-15T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beartooth-2026-salt-lake-city-g5vzz_1w63kam",
@@ -1413,7 +1540,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-salt-lake-city-the-union-event-center---salt-lake-city-12-13-2026--concerts-hard-rock/production/7052886",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-salt-lake-city-utah-12-13-2026/event/1E0064AC8748616E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1464,7 +1591,19 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980237",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980237/Beartooth-tickets-Sun-Dec-13-2026-The-Union-Event-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980237/Beartooth-tickets-Sun-Dec-13-2026-The-Union-Event-Center",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T16:00:00Z",
+        "end": "2026-11-16T05:00:00Z"
+      },
+      {
+        "name": "Spooky Season 2-Pack for $80 All-In",
+        "start": "2026-10-07T16:00:00Z",
+        "end": "2026-10-15T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beartooth-2026-phoenix-17k8v0g61i5gitx",
@@ -1482,7 +1621,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-phoenix-arizona-financial-theatre-12-16-2026/production/7052703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-phoenix-arizona-12-16-2026/event/190064AB0B328FE2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1533,7 +1672,19 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980239",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980239/Beartooth-tickets-Wed-Dec-16-2026-Arizona-Financial-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980239/Beartooth-tickets-Wed-Dec-16-2026-Arizona-Financial-Theatre",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T17:00:00Z",
+        "end": "2026-11-19T05:00:00Z"
+      },
+      {
+        "name": "Spooky Season 2-Pack",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-15T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beartooth-2026-hollywood-vvg10z_1ikgdyb",
@@ -1551,7 +1702,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-los-angeles-hollywood-palladium-12-18-2026--concerts-hard-rock/production/7052895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-hollywood-california-12-18-2026/event/090064AB1333BE7A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1610,7 +1761,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980240",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980240/Beartooth-tickets-Fri-Dec-18-2026-Hollywood-Palladium",
-    "stubhub_international_url": "https://www.stubhub.ie/beartooth-hollywood-tickets-12-18-2026/event/107417486"
+    "stubhub_international_url": "https://www.stubhub.ie/beartooth-hollywood-tickets-12-18-2026/event/107417486",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T17:00:00Z",
+        "end": "2026-11-21T06:00:00Z"
+      },
+      {
+        "name": "Spooky Season 2-Pack for $80 All-In",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-10-15T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beartooth-2026-wheatland-g5vyz_1xgdb2f",
@@ -1628,7 +1791,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-wheatland-california-12-19-2026/event/1C0064A8B5ED83D4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1679,7 +1842,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980241",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980241/Beartooth-tickets-Sat-Dec-19-2026-Hard-Rock-Live-Sacramento"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980241/Beartooth-tickets-Sat-Dec-19-2026-Hard-Rock-Live-Sacramento",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T17:00:00Z",
+        "end": "2026-11-22T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-beartooth-2026-oberhausen-z698xzc2z16voyj3up",

@@ -76,7 +76,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-irving-pavilion-at-toyota-music-factory-1-22-2027--concerts-dance-electronica/production/7554678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-irving-texas-01-22-2027/event/0C006528D83FB866",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +135,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265222",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265222/Alan-Walker-tickets-Fri-Jan-22-2027-The-Pavilion-at-Toyota-Music-Factory",
-    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-irving-tickets-1-22-2027/event/107668184"
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-irving-tickets-1-22-2027/event/107668184",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2027-01-18T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-houston-g5diz_3no4w3_",
@@ -153,7 +160,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-houston-713-music-hall-1-23-2027--concerts-dance-electronica/production/7554680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-houston-texas-01-23-2027/event/3A006528D157D499",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -212,7 +219,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265214",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265214/Alan-Walker-tickets-Sat-Jan-23-2027-713-Music-Hall",
-    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-houston-tickets-1-23-2027/event/107668029"
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-houston-tickets-1-23-2027/event/107668029",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2027-01-19T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-saint-louis-1a-zkf0gkdapg7j",
@@ -230,7 +244,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-saint-louis-missouri-01-26-2027/event/21006524C55B511C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -265,7 +279,14 @@
     },
     "ticketmaster_discovery_event_id": "1A-Zkf0GkdApg7j",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2027-01-22T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-nashville-z7r9jz1aavt47",
@@ -336,7 +357,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-raleigh-the-ritz---raleigh-1-30-2027--concerts-dance-electronica/production/7554686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-raleigh-north-carolina-01-30-2027/event/2D006522A38DA8CD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387,7 +408,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265275",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265275/Alan-Walker-tickets-Sat-Jan-30-2027-The-Ritz-Raleigh"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265275/Alan-Walker-tickets-Sat-Jan-30-2027-The-Ritz-Raleigh",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-01-26T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-charleston-g5evz_3nuc_ky",
@@ -405,7 +433,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-charleston-charleston-music-hall-1-31-2027--concerts-dance-electronica/production/7554693",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-charleston-south-carolina-01-31-2027/event/2D00652A8DB594F9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440,7 +468,14 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3nuc_Ky",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-01-27T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-washington-1a4zkftgkdat1lk",
@@ -458,7 +493,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-washington-dc-the-anthem-2-6-2027--concerts-dance-electronica/production/7554676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-washington-district-of-columbia-02-06-2027/event/15006529C9FCAAD3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -517,7 +552,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265284",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265284/Alan-Walker-tickets-Sat-Feb-6-2027-The-Anthem-DC",
-    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-washington-tickets-2-6-2027/event/107668183"
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-washington-tickets-2-6-2027/event/107668183",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-02T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-philadelphia-vv1aezkfxgkdmhfsx",
@@ -535,7 +577,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-philadelphia-the-fillmore-philadelphia-2-9-2027/production/7553129",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-philadelphia-pennsylvania-02-09-2027/event/02006522EEF08C7E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -586,7 +628,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265283",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265283/Alan-Walker-tickets-Tue-Feb-9-2027-The-Fillmore-Philadelphia"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265283/Alan-Walker-tickets-Tue-Feb-9-2027-The-Fillmore-Philadelphia",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-03T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-05T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-boston-vv1a8vpfzgauaajv",
@@ -604,7 +658,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-boston-mgm-music-hall-at-fenway-2-10-2027--concerts-dance-electronica/production/7554695",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-boston-massachusetts-02-10-2027/event/010065238D249734",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -663,7 +717,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265260",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265260/Alan-Walker-tickets-Wed-Feb-10-2027-MGM-Music-Hall-at-Fenway-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-boston-tickets-2-10-2027/event/107668152"
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-boston-tickets-2-10-2027/event/107668152",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-06T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-new-york-z7r9jz1aavt4a",
@@ -819,7 +880,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-montreal-mtelus-2-16-2027--concerts-dance-electronica/production/7554703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-montreal-quebec-02-16-2027/event/31006523ABBD7874",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -878,7 +939,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8269075",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8269075/Alan-Walker-tickets-Tue-Feb-16-2027-MTelus",
-    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-tickets-montreal-mtelus-2-16-2027/event/107668165"
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-tickets-montreal-mtelus-2-16-2027/event/107668165",
+    "presales": [
+      {
+        "name": "Forfaits VIP Packages",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-12T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-toronto-1avzz_3gkilb6g_",
@@ -896,7 +964,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-toronto-history-toronto-2-18-2027--concerts-dance-electronica/production/7554707",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-toronto-ontario-02-18-2027/event/1000652A2B607319",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -931,7 +999,14 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_3GkIlb6G_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-14T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-toronto-1avzz_3gkilbmgn",
@@ -949,7 +1024,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-toronto-history-toronto-2-19-2027--concerts-dance-electronica/production/7554711",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-toronto-ontario-02-19-2027/event/1000652A2B637323",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -984,7 +1059,14 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_3GkIlbMGN",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-15T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-ottawa-16d7z_3qeg7dn9t",
@@ -1002,7 +1084,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-ottawa-history-ottawa-2-21-2027--concerts-dance-electronica/production/7554715",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alan-walker-ottawa-ontario-02-21-2027/event/3100652742EEA5E9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1037,7 +1119,14 @@
     },
     "ticketmaster_discovery_event_id": "16d7Z_3qeG7Dn9t",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-17T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-pittsburgh-z7r9jz1aavt46",
@@ -1193,7 +1282,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-2-25-2027--concerts-dance-electronica/production/7554697",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-indianapolis-indiana-02-25-2027/event/05006527BDFF7AE3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1244,7 +1333,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265273",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265273/Alan-Walker-tickets-Thu-Feb-25-2027-Egyptian-Room-At-Old-National-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265273/Alan-Walker-tickets-Thu-Feb-25-2027-Egyptian-Room-At-Old-National-Centre",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-21T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-chicago-vv1k8z_3gyg7zohx",
@@ -1262,7 +1358,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-chicago-aragon-ballroom-2-26-2027--concerts-dance-electronica/production/7554699",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-chicago-illinois-02-26-2027/event/0400652330E20F3E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1321,7 +1417,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265271",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265271/Alan-Walker-tickets-Fri-Feb-26-2027-Byline-Bank-Aragon-Ballroom",
-    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-chicago-tickets-2-26-2027/event/107668175"
+    "stubhub_international_url": "https://www.stubhub.ie/alan-walker-chicago-tickets-2-26-2027/event/107668175",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2027-02-12T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2027-02-22T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-seattle-z7r9jz1aavt4a",
@@ -1477,7 +1585,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-los-angeles-the-torch-at-la-coliseum-3-6-2027--concerts-dance-electronica/production/7554701",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/insomniac-presents-alan-walker-legend-of-los-angeles-california-03-06-2027/event/0A00652AA478707C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1512,6 +1620,13 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3n0r6vH",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T17:00:00Z",
+        "end": "2027-03-02T20:00:00Z"
+      }
+    ]
   }
 ]

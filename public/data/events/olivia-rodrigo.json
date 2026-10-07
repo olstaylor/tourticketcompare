@@ -1016,13 +1016,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-21-2026/event/3100649B98C15057",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3100649B98C15057",
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-21-2026/event/3100649B98C15057",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1Ad7Z_aGkmbY4v9"
       },
@@ -1067,7 +1067,14 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1Ad7Z_aGkmbY4v9",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921687",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921687/Olivia-Rodrigo-tickets-Wed-Oct-21-2026-Centre-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921687/Olivia-Rodrigo-tickets-Wed-Oct-21-2026-Centre-Bell",
+    "presales": [
+      {
+        "name": "Forfait VIP Package",
+        "start": "2026-05-07T16:00:00Z",
+        "end": "2026-10-17T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2026-montreal-1ad7z_agkmbsav_",
@@ -1085,13 +1092,13 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-22-2026/event/3100649B98C45059",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3100649B98C45059",
         "url": "https://www.ticketmaster.ca/olivia-rodrigo-the-unraveled-tour-montreal-quebec-10-22-2026/event/3100649B98C45059",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1Ad7Z_aGkmbsAv_"
       },
@@ -1136,7 +1143,14 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "1Ad7Z_aGkmbsAv_",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921688",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921688/Olivia-Rodrigo-tickets-Thu-Oct-22-2026-Centre-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921688/Olivia-Rodrigo-tickets-Thu-Oct-22-2026-Centre-Bell",
+    "presales": [
+      {
+        "name": "Forfait VIP Package",
+        "start": "2026-05-07T16:00:00Z",
+        "end": "2026-10-18T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2026-toronto-1avzz_agkmwmykb",
@@ -1260,13 +1274,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-columbus-value-city-arena-at-schottenstein-center-10-29-2026--concerts-pop/production/6969263",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-29-2026/event/0500649DFF8CFA1C",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0500649DFF8CFA1C",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-29-2026/event/0500649DFF8CFA1C",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv17fZ_aGkMTN2Ij"
       },
@@ -1319,7 +1333,14 @@
     "ticketmaster_discovery_event_id": "vv17fZ_aGkMTN2Ij",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921659",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921659/Olivia-Rodrigo-tickets-Thu-Oct-29-2026-Value-City-Arena-at-The-Schottenstein-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-columbus-tickets-10-29-2026/event/107165568"
+    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-columbus-tickets-10-29-2026/event/107165568",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-07T16:00:00Z",
+        "end": "2026-10-25T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2026-columbus-vv17fz_agkmtnri-",
@@ -1337,13 +1358,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-columbus-value-city-arena-at-schottenstein-center-10-30-2026--concerts-pop/production/6969265",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-30-2026/event/0500649DFF8EFA21",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0500649DFF8EFA21",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-columbus-ohio-10-30-2026/event/0500649DFF8EFA21",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv17fZ_aGkMTNRI-"
       },
@@ -1396,7 +1417,14 @@
     "ticketmaster_discovery_event_id": "vv17fZ_aGkMTNRI-",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921660",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921660/Olivia-Rodrigo-tickets-Fri-Oct-30-2026-Value-City-Arena-at-The-Schottenstein-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-columbus-tickets-10-30-2026/event/107164685"
+    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-columbus-tickets-10-30-2026/event/107164685",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-07T16:00:00Z",
+        "end": "2026-10-26T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2026-philadelphia-1adzz_agkmzlmmg",
@@ -2954,13 +2982,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-12-2027--concerts-pop/production/6969312",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-12-2027/event/0900649DE7C663B2",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0900649DE7C663B2",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-12-2027/event/0900649DE7C663B2",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv170Z_aGkMEsJCw"
       },
@@ -3013,7 +3041,14 @@
     "ticketmaster_discovery_event_id": "vv170Z_aGkMEsJCw",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921679",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921679/Olivia-Rodrigo-tickets-Tue-Jan-12-2027-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-12-2027/event/107165394"
+    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-12-2027/event/107165394",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-07T19:00:00Z",
+        "end": "2027-01-08T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmetj8b",
@@ -3031,13 +3066,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-13-2027--concerts-pop/production/6969314",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-13-2027/event/0900649DE7FE6418",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0900649DE7FE6418",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-13-2027/event/0900649DE7FE6418",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv170Z_aGkMETJ8b"
       },
@@ -3090,7 +3125,14 @@
     "ticketmaster_discovery_event_id": "vv170Z_aGkMETJ8b",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921680",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921680/Olivia-Rodrigo-tickets-Wed-Jan-13-2027-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-13-2027/event/107162475"
+    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-13-2027/event/107162475",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-07T19:00:00Z",
+        "end": "2027-01-09T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmikkku",
@@ -3108,13 +3150,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-16-2027--concerts-pop/production/6969316",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-16-2027/event/0900649DE84C64CD",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0900649DE84C64CD",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-16-2027/event/0900649DE84C64CD",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv170Z_aGkMIKkKu"
       },
@@ -3167,7 +3209,14 @@
     "ticketmaster_discovery_event_id": "vv170Z_aGkMIKkKu",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921681",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921681/Olivia-Rodrigo-tickets-Sat-Jan-16-2027-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-16-2027/event/107165395"
+    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-16-2027/event/107165395",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-07T19:00:00Z",
+        "end": "2027-01-12T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmijp45",
@@ -3185,13 +3234,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-17-2027--concerts-pop/production/6969318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-17-2027/event/0900649DE899654B",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "0900649DE899654B",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-17-2027/event/0900649DE899654B",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vv170Z_aGkMIJp45"
       },
@@ -3244,7 +3293,14 @@
     "ticketmaster_discovery_event_id": "vv170Z_aGkMIJp45",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921682",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921682/Olivia-Rodrigo-tickets-Sun-Jan-17-2027-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-17-2027/event/107164280"
+    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-17-2027/event/107164280",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-07T19:00:00Z",
+        "end": "2027-01-13T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mjrpr",
@@ -3262,13 +3318,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-20-2027/production/6998734",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-20-2027/event/090064A4B79AF95E",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B79AF95E",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-20-2027/event/090064A4B79AF95E",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MJRPr"
       },
@@ -3321,7 +3377,14 @@
     "ticketmaster_discovery_event_id": "vvG10Z_13MJRPr",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7939456",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7939456/Olivia-Rodrigo-tickets-Wed-Jan-20-2027-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-20-2027/event/107164682"
+    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-20-2027/event/107164682",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-07T19:00:00Z",
+        "end": "2027-01-16T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mtrph",
@@ -3339,13 +3402,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-21-2027/production/6999304",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-21-2027/event/090064A4B7A6F97C",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B7A6F97C",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-21-2027/event/090064A4B7A6F97C",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MtRPH"
       },
@@ -3398,7 +3461,14 @@
     "ticketmaster_discovery_event_id": "vvG10Z_13MtRPH",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7940735",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7940735/Olivia-Rodrigo-tickets-Thu-Jan-21-2027-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-21-2027/event/107162642"
+    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-21-2027/event/107162642",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-07T19:00:00Z",
+        "end": "2027-01-16T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mirjo",
@@ -3416,13 +3486,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-24-2027/production/7000059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-24-2027/event/090064A4B7B2F9A0",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B7B2F9A0",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-24-2027/event/090064A4B7B2F9A0",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MiRJO"
       },
@@ -3475,7 +3545,14 @@
     "ticketmaster_discovery_event_id": "vvG10Z_13MiRJO",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7940980",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7940980/Olivia-Rodrigo-tickets-Sun-Jan-24-2027-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-24-2027/event/107162643"
+    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-24-2027/event/107162643",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-07T19:00:00Z",
+        "end": "2027-01-20T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mrtjd",
@@ -3493,13 +3570,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-25-2027/production/7003825",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-25-2027/event/090064A4B7BFF9BB",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B7BFF9BB",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-25-2027/event/090064A4B7BFF9BB",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MRTJD"
       },
@@ -3552,7 +3629,14 @@
     "ticketmaster_discovery_event_id": "vvG10Z_13MRTJD",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7943084",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7943084/Olivia-Rodrigo-tickets-Mon-Jan-25-2027-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-25-2027/event/107162644"
+    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-25-2027/event/107162644",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-07T19:00:00Z",
+        "end": "2027-01-21T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mwte-",
@@ -3570,13 +3654,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-28-2027--concerts-pop/production/7004868",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-28-2027/event/090064A4B7CBF9E1",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B7CBF9E1",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-28-2027/event/090064A4B7CBF9E1",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MwTE-"
       },
@@ -3629,7 +3713,19 @@
     "ticketmaster_discovery_event_id": "vvG10Z_13MwTE-",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7946756",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7946756/Olivia-Rodrigo-tickets-Thu-Jan-28-2027-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-28-2027/event/107162645"
+    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-28-2027/event/107162645",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-07T19:00:00Z",
+        "end": "2027-01-24T20:00:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-05-07T19:00:00Z",
+        "end": "2027-01-29T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2027-inglewood-vvg10z_13mzliq",
@@ -3647,13 +3743,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-29-2027/production/7008068",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-29-2027/event/090064A4B7E1FA1A",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "090064A4B7E1FA1A",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-inglewood-california-01-29-2027/event/090064A4B7E1FA1A",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "vvG10Z_13MzLIQ"
       },
@@ -3706,7 +3802,19 @@
     "ticketmaster_discovery_event_id": "vvG10Z_13MzLIQ",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7946757",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7946757/Olivia-Rodrigo-tickets-Fri-Jan-29-2027-Intuit-Dome",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-29-2027/event/107165566"
+    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-29-2027/event/107165566",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-05-07T20:00:00Z",
+        "end": "2027-01-30T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-07T20:00:00Z",
+        "end": "2027-01-30T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1ayzk39gkdwvwfq",
@@ -4340,13 +4448,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-brooklyn-barclays-center-2-27-2027/production/7004406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-27-2027/event/3000649D322BD975",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D322BD975",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-27-2027/event/3000649D322BD975",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkVw1WPg"
       },
@@ -4399,7 +4507,14 @@
     "ticketmaster_discovery_event_id": "1AdZZ_aGkVw1WPg",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7944931",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7944931/Olivia-Rodrigo-tickets-Sat-Feb-27-2027-Barclays-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-27-2027/event/107165567"
+    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-27-2027/event/107165567",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-05-07T16:00:00Z",
+        "end": "2027-02-28T00:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwuqpx",
@@ -4417,13 +4532,13 @@
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-brooklyn-barclays-center-2-28-2027/production/7007371",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-28-2027/event/3000649D3235D97E",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "provider_links": {
       "ticketmaster": {
         "event_id": "3000649D3235D97E",
         "url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-brooklyn-new-york-02-28-2027/event/3000649D3235D97E",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked",
         "discovery_event_id": "1AdZZ_aGkVwuqPX"
       },
@@ -4476,7 +4591,14 @@
     "ticketmaster_discovery_event_id": "1AdZZ_aGkVwuqPX",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7945595",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7945595/Olivia-Rodrigo-tickets-Sun-Feb-28-2027-Barclays-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-28-2027/event/107162648"
+    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-28-2027/event/107162648",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-05-07T17:00:00Z",
+        "end": "2027-03-01T00:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vawas-e",

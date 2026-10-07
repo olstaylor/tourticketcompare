@@ -397,7 +397,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-brooklyn-brooklyn-paramount-10-14-2026--concerts-dance-electronica/production/7144060",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-brooklyn-new-york-10-14-2026/event/000064C5B8594A98",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456,7 +456,14 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042269/Sylvan-Esso-tickets-Wed-Oct-14-2026-Brooklyn-Paramount",
     "stubhub_international_url": "https://www.stubhub.ie/sylvan-esso-brooklyn-tickets-10-14-2026/event/107452575",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042269"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042269",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-10-08T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sylvan-esso-2026-portland-vvg17z_gkbpmvl",
@@ -474,7 +481,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-portland-state-theatre-portland-10-16-2026--concerts-dance-electronica/production/7144100",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-portland-maine-10-16-2026/event/010064C4D897706B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -525,7 +532,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043105/Sylvan-Esso-tickets-Fri-Oct-16-2026-State-Theatre-ME",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043105"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043105",
+    "presales": [
+      {
+        "name": "VIP Package",
+        "start": "2026-06-11T14:00:00Z",
+        "end": "2026-10-09T07:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sylvan-esso-2026-boston-vvg17z_g2bjele",
@@ -543,7 +557,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-boston-citizens-house-of-blues-boston-10-17-2026--concerts-dance-electronica/production/7144106",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-boston-massachusetts-10-17-2026/event/010064C3D87277C2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -602,7 +616,14 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042786/Sylvan-Esso-tickets-Sat-Oct-17-2026-Citizens-House-Of-Blues-Boston",
     "stubhub_international_url": "https://www.stubhub.ie/sylvan-esso-boston-tickets-10-17-2026/event/107452020",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042786"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042786",
+    "presales": [
+      {
+        "name": "VIP",
+        "start": "2026-06-11T14:00:00Z",
+        "end": "2026-10-11T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sylvan-esso-2026-toronto-177zv0g6gkzh0vc",
@@ -620,7 +641,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-toronto-history-toronto-10-19-2026--concerts-dance-electronica/production/7144154",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sylvan-esso-toronto-ontario-10-19-2026/event/100064C4C06E4D0E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -655,7 +676,14 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G6GKZh0VC",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-12T14:00:00Z",
+        "end": "2026-10-13T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sylvan-esso-2026-milwaukee-z7r9jz1a7pfos",
@@ -864,7 +892,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-seattle-paramount-theatre-seattle-2-19-2027--concerts-dance-electronica/production/7144222",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-seattle-washington-02-19-2027/event/0F0064C5CFEE0AA4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -915,7 +943,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043891/Sylvan-Esso-tickets-Fri-Feb-19-2027-Paramount-Theatre-Seattle",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043891"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043891",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-12T17:00:00Z",
+        "end": "2027-02-13T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sylvan-esso-2027-vancouver-z7r9jz1a7pffp",
@@ -1140,7 +1175,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-oakland-fox-theater-oakland-2-25-2027--concerts-dance-electronica/production/7144122",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-sylvan-esso-oakland-california-02-25-2027/event/1C0064C5240B8474",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1191,7 +1226,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042272/Sylvan-Esso-tickets-Thu-Feb-25-2027-Fox-Theater-Oakland",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042272"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042272",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-12T17:00:00Z",
+        "end": "2027-02-19T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sylvan-esso-2027-los-angeles-vvg10z_gjuyprv",
@@ -1209,7 +1251,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-los-angeles-the-wiltern-2-26-2027--concerts-dance-electronica/production/7144130",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-los-angeles-california-02-26-2027/event/090064C98DE65781",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1260,7 +1302,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042270/Sylvan-Esso-tickets-Fri-Feb-26-2027-The-Wiltern",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042270"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042270",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-06-12T17:00:00Z",
+        "end": "2027-01-26T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sylvan-esso-2027-santa-ana-vvg10z_26gjjny",
@@ -1278,7 +1327,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-santa-ana-the-observatory-santa-ana-2-27-2027/production/7327236",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-santa-ana-california-02-27-2027/event/090064F1F57268F9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1329,7 +1378,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8152338/Sylvan-Esso-tickets-Sat-Feb-27-2027-The-Observatory-Santa-Ana",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8152338"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8152338",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2027-02-20T11:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sylvan-esso-2027-del-mar-vvg1iz_g9535-x",
@@ -1416,7 +1472,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-phoenix-the-van-buren-3-2-2027--concerts-dance-electronica/production/7144134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-phoenix-arizona-03-02-2027/event/190064C4B9FA7DCC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1467,7 +1523,14 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042806/Sylvan-Esso-tickets-Tue-Mar-2-2027-The-Van-Buren",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042806"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042806",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-06-12T17:00:00Z",
+        "end": "2027-02-02T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sylvan-esso-2027-denver-z7r9jz1a7pf46",
@@ -1684,7 +1747,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-dallas-house-of-blues-dallas-3-9-2027--concerts-dance-electronica/production/7144136",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kxt-presents-sylvan-esso-dallas-texas-03-09-2027/event/0C0064C43A0D4C02",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1735,7 +1798,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042813/Sylvan-Esso-tickets-Tue-Mar-9-2027-House-Of-Blues-Dallas",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042813"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042813",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-06-12T15:00:00Z",
+        "end": "2027-02-10T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sylvan-esso-2027-birmingham-17fzv0g6gpo7w2j",
@@ -1822,7 +1892,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-nashville-brooklyn-bowl---nashville-3-13-2027--concerts-dance-electronica/production/7144326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-nashville-tennessee-03-13-2027/event/1B0064C4B440F267",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1873,7 +1943,24 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042832/Sylvan-Esso-tickets-Sat-Mar-13-2027-Brooklyn-Bowl-Nashville",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042832"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042832",
+    "presales": [
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-06-12T15:00:00Z",
+        "end": "2027-02-14T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-06-12T15:00:00Z",
+        "end": "2027-03-06T18:00:00Z"
+      },
+      {
+        "name": "T-Mobile® Concert Perks",
+        "start": "2026-06-12T15:00:00Z",
+        "end": "2027-03-11T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sylvan-esso-2027-salt-lake-city-z7r9jz1a7pxjk",

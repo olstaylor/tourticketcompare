@@ -530,7 +530,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-boston-td-garden-12-10-2026--theater-opera/production/6594344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-boston-massachusetts-12-10-2026/event/0100643007C2EBA1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -589,7 +589,19 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711521/Andrea-Bocelli-tickets-Thu-Dec-10-2026-TD-Garden",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-boston-tickets-12-10-2026/event/107083032",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711521"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711521",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-11-28T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-11-30T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2026-buffalo-k7vgf_dlhwxlk",
@@ -607,7 +619,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-buffalo-keybank-center-12-11-2026--theater-opera/production/6594348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-buffalo-new-york-12-11-2026/event/00006437FCF7EAC6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -666,7 +678,19 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711522/Andrea-Bocelli-tickets-Fri-Dec-11-2026-KeyBank-Center",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-buffalo-tickets-12-11-2026/event/107189125",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711522"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711522",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-11-28T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-12-01T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2026-montreal-1ad7z_dgkclbvf3",
@@ -753,7 +777,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-new-york-madison-square-garden-12-16-2026--theater-opera/production/6594354",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-new-york-new-york-12-16-2026/event/3B00643BDECD9556",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -812,7 +836,24 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711523/Andrea-Bocelli-tickets-Wed-Dec-16-2026-Madison-Square-Garden",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-new-york-tickets-12-16-2026/event/107083033",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711523"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711523",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-12-04T22:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-12-17T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2026-new-york-g5diz_drrgy4q",
@@ -830,7 +871,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-new-york-madison-square-garden-12-17-2026/production/6594488",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-new-york-new-york-12-17-2026/event/3B00643BDED7955D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -889,7 +930,24 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711524/Andrea-Bocelli-tickets-Thu-Dec-17-2026-Madison-Square-Garden",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-new-york-tickets-12-17-2026/event/107092096",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711524"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711524",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-12-07T22:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-12-18T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2026-hamilton-1a8zk8vgkel0c3m",
@@ -907,7 +965,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-hamilton-td-coliseum-12-19-2026--theater-opera/production/6594386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/andrea-bocelli-romanza-30th-anniversary-world-hamilton-ontario-12-19-2026/event/10006434AB92D4B7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -942,7 +1000,19 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zk8VGkel0c3M",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-12-06T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-12-09T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2026-pittsburgh-1apzk8vgkdk8zer",
@@ -960,7 +1030,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-pittsburgh-ppg-paints-arena-12-21-2026--theater-opera/production/6594362",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-pittsburgh-pennsylvania-12-21-2026/event/16006434C643809E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1019,7 +1089,19 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711525/Andrea-Bocelli-tickets-Mon-Dec-21-2026-PPG-Paints-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-pittsburgh-tickets-12-21-2026/event/107083034",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711525"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711525",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-12-07T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-12-11T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2026-philadelphia-1ayzk8ygkdwg9ej",
@@ -1037,7 +1119,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-philadelphia-xfinity-mobile-arena-12-22-2026--theater-opera/production/6594366",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-philadelphia-pennsylvania-12-22-2026/event/30006439F2D5709C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1096,7 +1178,19 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7711526/Andrea-Bocelli-tickets-Tue-Dec-22-2026-Xfinity-Mobile-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-philadelphia-tickets-12-22-2026/event/107083035",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711526"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711526",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-12-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-02-06T15:00:00Z",
+        "end": "2026-12-11T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2027-cardiff-1agzkfkgkejnxkj",
@@ -1191,7 +1285,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-charlotte-spectrum-center-1-29-2027/production/7540260",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-charlotte-north-carolina-01-29-2027/event/2D00650B8DFF6C11",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1250,7 +1344,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258124",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258124/Andrea-Bocelli-tickets-Fri-Jan-29-2027-Spectrum-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-charlotte-tickets-1-29-2027/event/107670725"
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-charlotte-tickets-1-29-2027/event/107670725",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-01-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-01-19T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2027-baltimore-1a4zkffgkepsf12",
@@ -1268,7 +1374,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-baltimore-cfg-bank-arena-1-31-2027/production/7536247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-baltimore-maryland-01-31-2027/event/15006514A5CC828F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1327,7 +1433,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258125",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258125/Andrea-Bocelli-tickets-Sun-Jan-31-2027-CFG-Bank-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-baltimore-tickets-1-31-2027/event/107670724"
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-baltimore-tickets-1-31-2027/event/107670724",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-01-21T22:00:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2027-atlanta-vvg1zz_36bbobm",
@@ -1345,7 +1463,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-atlanta-state-farm-arena-2-2-2027/production/7540264",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-atlanta-georgia-02-02-2027/event/0E006521D8611637",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1404,7 +1522,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258126",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258126/Andrea-Bocelli-tickets-Tue-Feb-2-2027-State-Farm-Arena-GA",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-atlanta-tickets-2-2-2027/event/107671371"
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-atlanta-tickets-2-2-2027/event/107671371",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-01-19T15:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-01-23T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2027-austin-g5diz_3kpl_-e",
@@ -1422,7 +1552,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-austin-moody-center-atx-2-4-2027/production/7540254",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-austin-texas-02-04-2027/event/3A006521A5AD9867",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1481,7 +1611,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258127",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258127/Andrea-Bocelli-tickets-Thu-Feb-4-2027-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-austin-tickets-2-4-2027/event/107667778"
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-austin-tickets-2-4-2027/event/107667778",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2010-09-18T15:00:00Z",
+        "end": "2027-01-25T23:00:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2027-01-22T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2027-dallas-vvg1yz_33_tj3c",
@@ -1499,7 +1641,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-dallas-american-airlines-center---tx-2-5-2027/production/7540262",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-dallas-texas-02-05-2027/event/0C00652499FE648E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1558,7 +1700,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258128",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258128/Andrea-Bocelli-tickets-Fri-Feb-5-2027-American-Airlines-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-dallas-tickets-2-5-2027/event/107669463"
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-dallas-tickets-2-5-2027/event/107669463",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets®",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2027-01-23T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2027-01-26T23:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2027-houston-z7r9jz1aavs_v",
@@ -1645,7 +1799,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-orlando-kia-center-2-10-2027/production/7540258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-orlando-florida-02-10-2027/event/22006528DECF597D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1704,7 +1858,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258129",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258129/Andrea-Bocelli-tickets-Wed-Feb-10-2027-Kia-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-orlando-tickets-2-10-2027/event/107667788"
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-orlando-tickets-2-10-2027/event/107667788",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-01-28T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-01-31T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2027-hollywood-vvg1vz_3nv0vjm",
@@ -1722,7 +1888,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-12-2027/production/7540266",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-hollywood-florida-02-12-2027/event/0D006528F490172E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1781,7 +1947,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258130",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258130/Andrea-Bocelli-tickets-Fri-Feb-12-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-2-12-2027/event/107668031"
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-2-12-2027/event/107668031",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-01-30T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-02T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2027-hollywood-vvg1vz_3ervkx7",
@@ -1799,7 +1977,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-13-2027/production/7540248",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-hollywood-florida-02-13-2027/event/0D006529EF053884",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1858,7 +2036,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258131",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258131/Andrea-Bocelli-tickets-Sat-Feb-13-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
-    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-2-13-2027/event/107668032"
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-2-13-2027/event/107668032",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-01-30T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-02-03T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-andrea-bocelli-2027-birmingham-1aegz_kgkwagold",

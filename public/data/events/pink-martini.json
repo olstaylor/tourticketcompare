@@ -259,7 +259,7 @@
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-brooklyn-brooklyn-paramount-12-13-2026/production/7210428",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-allstars-present-a-season-brooklyn-new-york-12-13-2026/event/000064D2D26E1C3C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -318,7 +318,14 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072032/Pink-Martini-All-Stars-tickets-Sun-Dec-13-2026-Brooklyn-Paramount",
     "stubhub_international_url": "https://www.stubhub.ie/pink-martini-brooklyn-tickets-12-13-2026/event/107478247",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072032"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072032",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-06-26T14:00:00Z",
+        "end": "2026-11-23T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-pink-martini-2026-philadelphia-z7r9jz1a70ppv",
@@ -1556,7 +1563,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/pink-martini-liverpool-03-07-2027/event/1F0065459E1F267D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1592,7 +1599,14 @@
     "ticketmaster_discovery_event_id": "G5vHZ_fpr6w_W",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T08:00:00Z"
+    "public_onsale_at": "2026-10-09T08:00:00Z",
+    "presales": [
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-08T08:00:00Z",
+        "end": "2026-10-09T07:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-pink-martini-2027-edinburgh-1auzk4agkdmo6dj",
@@ -1610,7 +1624,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/pink-martini-edinburgh-04-07-2027/event/36006545EE447EE6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1646,7 +1660,14 @@
     "ticketmaster_discovery_event_id": "1AUZk4AGkdmo6DJ",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T08:00:00Z"
+    "public_onsale_at": "2026-10-09T08:00:00Z",
+    "presales": [
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-08T08:00:00Z",
+        "end": "2026-10-09T07:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-pink-martini-2027-london-g5vhz_fqbbwez",
@@ -1664,7 +1685,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/pink-martini-london-02-07-2027/event/1F00654698EB20B8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1700,6 +1721,13 @@
     "ticketmaster_discovery_event_id": "G5vHZ_fQbBwez",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T08:00:00Z"
+    "public_onsale_at": "2026-10-09T08:00:00Z",
+    "presales": [
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-08T08:00:00Z",
+        "end": "2026-10-09T07:00:00Z"
+      }
+    ]
   }
 ]

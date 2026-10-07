@@ -683,7 +683,7 @@
     "vividseats_url": "https://www.vividseats.com/summer-walker-tickets-chicago-credit-union-1-arena-at-uic-10-16-2026/production/7208420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/summer-walker-chicago-illinois-10-16-2026/event/040064D7A0B27B7F",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -691,7 +691,7 @@
         "discovery_event_id": "vvG18Z_urOiEcT",
         "url": "https://www.ticketmaster.com/summer-walker-chicago-illinois-10-16-2026/event/040064D7A0B27B7F",
         "verified": true,
-        "last_verified_at": "2026-07-07",
+        "last_verified_at": "2026-10-07",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -718,6 +718,13 @@
     },
     "ticketmaster_discovery_event_id": "vvG18Z_urOiEcT",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Creators",
+        "start": "2026-08-27T17:00:00Z",
+        "end": "2026-10-17T02:00:00Z"
+      }
+    ]
   }
 ]

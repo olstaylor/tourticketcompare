@@ -3086,7 +3086,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe837",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe837",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-ventura-the-majestic-ventura-theater-2-6-2027--concerts-rock/production/7625242",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe837",
     "last_verified_at": null,
@@ -3108,11 +3108,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7625242,
-        "url": "https://www.vividseats.com/daughtry-tickets-ventura-the-majestic-ventura-theater-2-6-2027--concerts-rock/production/7625242",
-        "verified": true,
-        "last_verified_at": "2026-10-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -3192,7 +3192,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe83k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-eau-claire-rcu-theatre---pablo-center-at-the-confluence-2-18-2027/production/7657481",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
     "last_verified_at": null,
@@ -3214,11 +3214,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7657481,
+        "url": "https://www.vividseats.com/daughtry-tickets-eau-claire-rcu-theatre---pablo-center-at-the-confluence-2-18-2027/production/7657481",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

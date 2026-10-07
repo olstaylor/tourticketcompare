@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "0C006530C54EB984",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-el-paso-texas-02-12-2027/event/0C006530C54EB984",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/el-paso-texas-the-plaza-theatre-performing-arts-center-2027-02-12-8-pm/concert/18612856",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-el-paso-the-plaza-theatre-performing-arts-center-2-12-2027--concerts-world-music/production/7593302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-el-paso-texas-02-12-2027/event/0C006530C54EB984",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593302,
+        "url": "https://www.vividseats.com/flans-tickets-el-paso-the-plaza-theatre-performing-arts-center-2-12-2027--concerts-world-music/production/7593302",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "1900652E81BD370C",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-tucson-arizona-02-13-2027/event/1900652E81BD370C",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/tucson-arizona-linda-ronstadt-music-hall-2027-02-13-8-pm/concert/18612650",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-tucson-linda-ronstadt-music-hall-2-13-2027--concerts-world-music/production/7593512",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-tucson-arizona-02-13-2027/event/1900652E81BD370C",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593512,
+        "url": "https://www.vividseats.com/flans-tickets-tucson-linda-ronstadt-music-hall-2-13-2027--concerts-world-music/production/7593512",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "0E006532C09AE346",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-atlanta-georgia-02-25-2027/event/0E006532C09AE346",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/atlanta-georgia-cobb-energy-performing-arts-centre-2027-02-25-8-pm/concert/18612632",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-atlanta-cobb-energy-performing-arts-centre-2-25-2027--concerts-world-music/production/7593526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-atlanta-georgia-02-25-2027/event/0E006532C09AE346",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593526,
+        "url": "https://www.vividseats.com/flans-tickets-atlanta-cobb-energy-performing-arts-centre-2-25-2027--concerts-world-music/production/7593526",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "2D00652F948599DC",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-charlotte-north-carolina-02-26-2027/event/2D00652F948599DC",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/charlotte-north-carolina-ovens-auditorium-2027-02-26-8-pm/concert/18612827",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-charlotte-ovens-auditorium-2-26-2027--concerts-world-music/production/7593534",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-charlotte-north-carolina-02-26-2027/event/2D00652F948599DC",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593534,
+        "url": "https://www.vividseats.com/flans-tickets-charlotte-ovens-auditorium-2-26-2027--concerts-world-music/production/7593534",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "2D006536736838D9",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-raleigh-north-carolina-02-27-2027/event/2D006536736838D9",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/raleigh-north-carolina-martin-marietta-center-for-the-performing-arts-memorial-auditorium-2027-02-27-8-pm/concert/18618099",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-raleigh-martin-marietta-center-for-the-performing-arts---memorial-auditorium-2-27-2027--concerts-world-music/production/7613601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-raleigh-north-carolina-02-27-2027/event/2D006536736838D9",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7613601,
+        "url": "https://www.vividseats.com/flans-tickets-raleigh-martin-marietta-center-for-the-performing-arts---memorial-auditorium-2-27-2027--concerts-world-music/production/7613601",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "1E00653197916251",
     "ticketmaster_url": "https://www.ticketmaster.com/flans40-sin-control-tour-denver-colorado-03-04-2027/event/1E00653197916251",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/denver-colorado-paramount-theatre-co-2027-03-04-8-pm/concert/18612819",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-denver-paramount-theatre-denver-3-4-2027--concerts-world-music/production/7593546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans40-sin-control-tour-denver-colorado-03-04-2027/event/1E00653197916251",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593546,
+        "url": "https://www.vividseats.com/flans-tickets-denver-paramount-theatre-denver-3-4-2027--concerts-world-music/production/7593546",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAevrv",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevrv",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-kansas-city-the-midland-theatre-3-5-2027--concerts-world-music/production/7592580",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevrv",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7592580,
+        "url": "https://www.vividseats.com/flans-tickets-kansas-city-the-midland-theatre-3-5-2027--concerts-world-music/production/7592580",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "0A00652BC857C1A5",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-san-diego-california-03-12-2027/event/0A00652BC857C1A5",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/san-diego-california-san-diego-civic-theatre-2027-03-12-8-pm/concert/18612871",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-san-diego-san-diego-civic-theatre-3-12-2027--concerts-world-music/production/7593616",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-san-diego-california-03-12-2027/event/0A00652BC857C1A5",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593616,
+        "url": "https://www.vividseats.com/flans-tickets-san-diego-san-diego-civic-theatre-3-12-2027--concerts-world-music/production/7593616",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "09006533ECB3F002",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-los-angeles-california-03-14-2027/event/09006533ECB3F002",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/los-angeles-california-orpheum-theatre-los-angeles-2027-03-14-8-pm/concert/18612688",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-los-angeles-orpheum-theatre---los-angeles-3-14-2027--concerts-world-music/production/7593618",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-los-angeles-california-03-14-2027/event/09006533ECB3F002",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593618,
+        "url": "https://www.vividseats.com/flans-tickets-los-angeles-orpheum-theatre---los-angeles-3-14-2027--concerts-world-music/production/7593618",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "3A006531E11A7D2F",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-houston-texas-05-29-2027/event/3A006531E11A7D2F",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/houston-texas-arena-theatre-houston-2027-05-29-8-pm/concert/18612653",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-houston-houston-arena-theatre-5-29-2027/production/7593883",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-houston-texas-05-29-2027/event/3A006531E11A7D2F",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593883,
+        "url": "https://www.vividseats.com/flans-tickets-houston-houston-arena-theatre-5-29-2027/production/7593883",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "3A00652F75893EB2",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-mcallen-texas-05-30-2027/event/3A00652F75893EB2",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/mcallen-texas-mcallen-performing-arts-center-2027-05-30-8-pm/concert/18613121",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-mcallen-mcallen-performing-arts-center-5-30-2027--concerts-world-music/production/7593630",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-mcallen-texas-05-30-2027/event/3A00652F75893EB2",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593630,
+        "url": "https://www.vividseats.com/flans-tickets-mcallen-mcallen-performing-arts-center-5-30-2027--concerts-world-music/production/7593630",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "1C006531EBF2B89A",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-sin-control-tour-2027-san-jose-california-06-03-2027/event/1C006531EBF2B89A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-san-jose-san-jose-civic-6-3-2027--concerts-world-music/production/7593636",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-sin-control-tour-2027-san-jose-california-06-03-2027/event/1C006531EBF2B89A",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593636,
+        "url": "https://www.vividseats.com/flans-tickets-san-jose-san-jose-civic-6-3-2027--concerts-world-music/production/7593636",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeaoe",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaoe",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-5-28-2027/production/7602085",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaoe",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7602085,
+        "url": "https://www.vividseats.com/flans-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-5-28-2027/production/7602085",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -89,7 +89,7 @@
     "ticketmaster_event_id": "150064C5BC88DB6E",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-washington-district-of-columbia-10-16-2026/event/150064C5BC88DB6E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-washington-dc-lincoln-theatre-dc-10-16-2026--concerts-pop/production/7139270",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-washington-district-of-columbia-10-16-2026/event/150064C5BC88DB6E",
     "last_verified_at": null,
@@ -111,11 +111,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7139270,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-washington-dc-lincoln-theatre-dc-10-16-2026--concerts-pop/production/7139270",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

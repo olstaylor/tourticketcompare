@@ -75914,7 +75914,7 @@
         "event_id": 7538473,
         "url": "https://www.vividseats.com/stella-lefty-tickets-birmingham-o2-institute-birmingham-3-22-2027/production/7538473",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -87047,7 +87047,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7PJ-S",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ-S",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-denver-ogden-theatre-3-6-2027--concerts-dance-electronica/production/7190302",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ-S",
     "last_verified_at": null,
@@ -87069,11 +87069,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7190302,
-        "url": "https://www.vividseats.com/sylvan-esso-tickets-denver-ogden-theatre-3-6-2027--concerts-dance-electronica/production/7190302",
-        "verified": true,
-        "last_verified_at": "2026-10-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -122463,7 +122463,7 @@
     "ticketmaster_event_id": "150064C5BC88DB6E",
     "ticketmaster_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-washington-district-of-columbia-10-16-2026/event/150064C5BC88DB6E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-washington-dc-lincoln-theatre-dc-10-16-2026--concerts-pop/production/7139270",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-washington-district-of-columbia-10-16-2026/event/150064C5BC88DB6E",
     "last_verified_at": null,
@@ -122485,11 +122485,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7139270,
+        "url": "https://www.vividseats.com/sienna-spiro-tickets-washington-dc-lincoln-theatre-dc-10-16-2026--concerts-pop/production/7139270",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -128018,7 +128018,7 @@
         "event_id": 7606598,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbia-merriweather-post-pavilion-6-25-2027--concerts-alternative/production/7606598",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -131134,7 +131134,7 @@
         "event_id": 7234825,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-denver-ogden-theatre-10-29-2026--concerts-rock/production/7234825",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -132016,7 +132016,7 @@
         "event_id": 7492671,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-toronto-the-danforth-music-hall-3-7-2027--concerts-rock/production/7492671",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -151106,7 +151106,7 @@
         "event_id": 7622420,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-birmingham-utilita-arena-birmingham-9-29-2027--theater-opera/production/7622420",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -151159,7 +151159,7 @@
         "event_id": 7622414,
         "url": "https://www.vividseats.com/andrea-bocelli-tickets-glasgow-ovo-hydro-10-9-2027--theater-opera/production/7622414",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -153257,7 +153257,7 @@
         "event_id": 7623563,
         "url": "https://www.vividseats.com/a-perfect-circle-tickets-niagara-falls-olg-stage-at-fallsview-casino-4-22-2027--concerts-alternative/production/7623563",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -155537,7 +155537,7 @@
     "ticketmaster_event_id": "1000653CFFA44EFD",
     "ticketmaster_url": "https://www.ticketmaster.ca/chelsea-cutler-is-this-the-end-toronto-ontario-02-16-2027/event/1000653CFFA44EFD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-toronto-history-toronto-2-16-2027/production/7637114",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/chelsea-cutler-is-this-the-end-toronto-ontario-02-16-2027/event/1000653CFFA44EFD",
     "last_verified_at": "2026-10-07",
@@ -155559,11 +155559,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7637114,
+        "url": "https://www.vividseats.com/chelsea-cutler-tickets-toronto-history-toronto-2-16-2027/production/7637114",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -163480,7 +163480,7 @@
         "event_id": 7625188,
         "url": "https://www.vividseats.com/blondshell-tickets-vancouver-commodore-ballroom-3-6-2027/production/7625188",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -165559,7 +165559,7 @@
         "event_id": 7627291,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-vancouver-queen-elizabeth-theatre---vancouver-3-12-2027/production/7627291",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -165679,7 +165679,7 @@
         "event_id": 7648393,
         "url": "https://www.vividseats.com/tommy-emmanuel-tickets-winnipeg-burton-cummings-theatre-3-17-2027/production/7648393",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -166469,7 +166469,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe837",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe837",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-ventura-the-majestic-ventura-theater-2-6-2027--concerts-rock/production/7625242",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe837",
     "last_verified_at": null,
@@ -166491,11 +166491,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7625242,
-        "url": "https://www.vividseats.com/daughtry-tickets-ventura-the-majestic-ventura-theater-2-6-2027--concerts-rock/production/7625242",
-        "verified": true,
-        "last_verified_at": "2026-10-04",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -166575,7 +166575,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe83k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/daughtry-tickets-eau-claire-rcu-theatre---pablo-center-at-the-confluence-2-18-2027/production/7657481",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe83k",
     "last_verified_at": null,
@@ -166597,11 +166597,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7657481,
+        "url": "https://www.vividseats.com/daughtry-tickets-eau-claire-rcu-theatre---pablo-center-at-the-confluence-2-18-2027/production/7657481",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -166791,7 +166791,7 @@
         "event_id": 7642178,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-savannah-enmarket-arena-2-3-2027/production/7642178",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -166898,7 +166898,7 @@
         "event_id": 7642170,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-tampa-benchmark-international-arena-2-5-2027/production/7642170",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -167005,7 +167005,7 @@
         "event_id": 7642110,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-jacksonville-vystar-veterans-memorial-arena-2-6-2027/production/7642110",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -167097,7 +167097,7 @@
         "event_id": 7642152,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-atlanta-state-farm-arena-2-9-2027/production/7642152",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -167199,7 +167199,7 @@
         "event_id": 7642172,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-nashville-bridgestone-arena-2-10-2027/production/7642172",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -167291,7 +167291,7 @@
         "event_id": 7642180,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-rosemont-allstate-arena-2-12-2027/production/7642180",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -167393,7 +167393,7 @@
         "event_id": 7642102,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-omaha-chi-health-center-omaha-2-13-2027/production/7642102",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -167490,7 +167490,7 @@
         "event_id": 7642158,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-minneapolis-target-center-2-15-2027/production/7642158",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -167597,7 +167597,7 @@
         "event_id": 7642122,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-louisville-kfc-yum-center-2-19-2027/production/7642122",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -167704,7 +167704,7 @@
         "event_id": 7642136,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-pittsburgh-ppg-paints-arena-2-20-2027/production/7642136",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -167811,7 +167811,7 @@
         "event_id": 7642148,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-detroit-little-caesars-arena-3-2-2027/production/7642148",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -167913,7 +167913,7 @@
         "event_id": 7642108,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-boston-td-garden-3-5-2027/production/7642108",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -168015,7 +168015,7 @@
         "event_id": 7642140,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-albany-mvp-arena-3-6-2027/production/7642140",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -168117,7 +168117,7 @@
         "event_id": 7642146,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-brooklyn-barclays-center-3-8-2027/production/7642146",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -168224,7 +168224,7 @@
         "event_id": 7642134,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-philadelphia-xfinity-mobile-arena-3-10-2027/production/7642134",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -168326,7 +168326,7 @@
         "event_id": 7642096,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-charlotte-spectrum-center-3-12-2027/production/7642096",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -168428,7 +168428,7 @@
         "event_id": 7642114,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-knoxville-thompson-boling-arena-at-food-city-center-3-13-2027/production/7642114",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -168545,7 +168545,7 @@
         "event_id": 7642182,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-fort-worth-dickies-arena-3-15-2027/production/7642182",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -168632,7 +168632,7 @@
         "event_id": 7642162,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-tulsa-bok-center-3-16-2027/production/7642162",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -168724,7 +168724,7 @@
         "event_id": 7642130,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-anaheim-honda-center-3-19-2027/production/7642130",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -168831,7 +168831,7 @@
         "event_id": 7642092,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-phoenix-mortgage-matchup-center-3-20-2027/production/7642092",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -168938,7 +168938,7 @@
         "event_id": 7642168,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-reno-reno-events-center-3-22-2027/production/7642168",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -169040,7 +169040,7 @@
         "event_id": 7642094,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-seattle-climate-pledge-arena-3-24-2027/production/7642094",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -169147,7 +169147,7 @@
         "event_id": 7642126,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-portland-moda-center-3-25-2027/production/7642126",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -169254,7 +169254,7 @@
         "event_id": 7642160,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-boise-extramile-arena-3-27-2027/production/7642160",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -169356,7 +169356,7 @@
         "event_id": 7642098,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-denver-ball-arena-3-30-2027/production/7642098",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -169573,7 +169573,7 @@
     "ticketmaster_event_id": "412982144",
     "ticketmaster_url": "https://www.ticketmaster.de/event/greta-van-fleet-into-the-beginning-tickets/412982144?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-hamburg-barclays-arena---hamburg-5-18-2027--concerts-rock/production/7643045",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/greta-van-fleet-into-the-beginning-tickets/412982144?language=en-us",
     "last_verified_at": "2026-10-07",
@@ -169595,11 +169595,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7643045,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-hamburg-barclays-arena---hamburg-5-18-2027--concerts-rock/production/7643045",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -169654,7 +169654,7 @@
     "ticketmaster_event_id": "501900073",
     "ticketmaster_url": "https://www.ticketmaster.de/event/greta-van-fleet-into-the-beginning-tickets/501900073?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-berlin-uber-arena-5-21-2027--concerts-rock/production/7643051",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/greta-van-fleet-into-the-beginning-tickets/501900073?language=en-us",
     "last_verified_at": "2026-10-07",
@@ -169676,11 +169676,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7643051,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-berlin-uber-arena-5-21-2027--concerts-rock/production/7643051",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -169892,7 +169892,7 @@
     "ticketmaster_event_id": "3500653DF69FF2F5",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-london-28-05-2027/event/3500653DF69FF2F5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-london-the-o2---london-5-28-2027--concerts-rock/production/7643061",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-london-28-05-2027/event/3500653DF69FF2F5",
     "last_verified_at": "2026-10-07",
@@ -169914,11 +169914,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7643061,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-london-the-o2---london-5-28-2027--concerts-rock/production/7643061",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -170029,7 +170029,7 @@
     "ticketmaster_event_id": "3700653EB0D83124",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-manchester-01-06-2027/event/3700653EB0D83124",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-manchester-co-op-live-6-1-2027--concerts-rock/production/7643065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-manchester-01-06-2027/event/3700653EB0D83124",
     "last_verified_at": "2026-10-07",
@@ -170051,11 +170051,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7643065,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-manchester-co-op-live-6-1-2027--concerts-rock/production/7643065",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -170126,7 +170126,7 @@
     "ticketmaster_event_id": "36006541A3095872",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/venue-premium-greta-van-fleet-into-glasgow-02-06-2027/event/36006541A3095872",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-glasgow-ovo-hydro-6-2-2027--concerts-rock/production/7643067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/venue-premium-greta-van-fleet-into-glasgow-02-06-2027/event/36006541A3095872",
     "last_verified_at": null,
@@ -170148,11 +170148,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7643067,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-glasgow-ovo-hydro-6-2-2027--concerts-rock/production/7643067",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -170388,7 +170388,7 @@
         "event_id": 7642106,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-edmonton-rogers-place-7-7-2027/production/7642106",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -170495,7 +170495,7 @@
         "event_id": 7642090,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-calgary-scotiabank-saddledome-7-8-2027/production/7642090",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -170602,7 +170602,7 @@
         "event_id": 7642164,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-winnipeg-canada-life-centre-7-10-2027/production/7642164",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -170704,7 +170704,7 @@
         "event_id": 7642120,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-kansas-city-t-mobile-center-7-13-2027/production/7642120",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -170872,7 +170872,7 @@
         "event_id": 7642116,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-columbus-nationwide-arena-7-16-2027/production/7642116",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -170974,7 +170974,7 @@
         "event_id": 7642100,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-noblesville-ruoff-music-center-7-17-2027/production/7642100",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -171086,7 +171086,7 @@
         "event_id": 7642150,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-raleigh-lenovo-center-7-20-2027/production/7642150",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -171188,7 +171188,7 @@
         "event_id": 7642117,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-columbia-merriweather-post-pavilion-7-21-2027/production/7642117",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -171285,7 +171285,7 @@
         "event_id": 7642132,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-hershey-giant-center-7-23-2027/production/7642132",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -171392,7 +171392,7 @@
         "event_id": 7642174,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-uncasville-mohegan-sun-arena-ct-7-24-2027/production/7642174",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -171494,7 +171494,7 @@
         "event_id": 7642112,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-gilford-banknh-pavilion-7-26-2027/production/7642112",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -171585,7 +171585,7 @@
         "event_id": 7642144,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-laval-place-bell-7-28-2027/production/7642144",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -171773,7 +171773,7 @@
         "event_id": 7642128,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-grand-rapids-acrisure-amphitheater-7-31-2027/production/7642128",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -174454,7 +174454,7 @@
         "event_id": 7618130,
         "url": "https://www.vividseats.com/riley-green-tickets-spokane-numerica-veterans-arena-4-1-2027/production/7618130",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -174523,7 +174523,7 @@
         "event_id": 7618128,
         "url": "https://www.vividseats.com/riley-green-tickets-seattle-climate-pledge-arena-4-2-2027/production/7618128",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -174612,7 +174612,7 @@
         "event_id": 7618132,
         "url": "https://www.vividseats.com/riley-green-tickets-eugene-matthew-knight-arena-4-3-2027/production/7618132",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -174703,7 +174703,7 @@
         "event_id": 7618682,
         "url": "https://www.vividseats.com/riley-green-tickets-edmonton-rogers-place-4-8-2027--concerts-country-and-folk/production/7618682",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -174779,7 +174779,7 @@
         "event_id": 7618664,
         "url": "https://www.vividseats.com/riley-green-tickets-calgary-scotiabank-saddledome-4-9-2027/production/7618664",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -174855,7 +174855,7 @@
         "event_id": 7618680,
         "url": "https://www.vividseats.com/riley-green-tickets-saskatoon-sasktel-centre-4-10-2027/production/7618680",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -174931,7 +174931,7 @@
         "event_id": 7618134,
         "url": "https://www.vividseats.com/riley-green-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-4-29-2027/production/7618134",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -175012,7 +175012,7 @@
         "event_id": 7618136,
         "url": "https://www.vividseats.com/riley-green-tickets-knoxville-thompson-boling-arena-at-food-city-center-4-30-2027/production/7618136",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -175103,7 +175103,7 @@
         "event_id": 7618144,
         "url": "https://www.vividseats.com/riley-green-tickets-greenville-bon-secours-wellness-arena-5-1-2027/production/7618144",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -175184,7 +175184,7 @@
         "event_id": 7618146,
         "url": "https://www.vividseats.com/riley-green-tickets-fort-worth-dickies-arena-5-6-2027/production/7618146",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -175273,7 +175273,7 @@
         "event_id": 7618142,
         "url": "https://www.vividseats.com/riley-green-tickets-wichita-intrust-bank-arena-5-7-2027/production/7618142",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -175354,7 +175354,7 @@
         "event_id": 7618170,
         "url": "https://www.vividseats.com/riley-green-tickets-rogers-walmart-amp-5-8-2027/production/7618170",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -175435,7 +175435,7 @@
         "event_id": 7618172,
         "url": "https://www.vividseats.com/riley-green-tickets-tulsa-bok-center-5-20-2027/production/7618172",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -175516,7 +175516,7 @@
         "event_id": 7618204,
         "url": "https://www.vividseats.com/riley-green-tickets-dallas-dos-equis-pavilion-5-21-2027/production/7618204",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -175667,7 +175667,7 @@
         "event_id": 7618192,
         "url": "https://www.vividseats.com/riley-green-tickets-brandon-brandon-amphitheater-6-3-2027/production/7618192",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -175748,7 +175748,7 @@
         "event_id": 7618180,
         "url": "https://www.vividseats.com/riley-green-tickets-orange-beach-amphitheater-at-the-wharf-6-4-2027/production/7618180",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -175813,7 +175813,7 @@
         "event_id": 7636580,
         "url": "https://www.vividseats.com/riley-green-tickets-orange-beach-amphitheater-at-the-wharf-6-5-2027--concerts-country-and-folk/production/7636580",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -175878,7 +175878,7 @@
         "event_id": 7618638,
         "url": "https://www.vividseats.com/riley-green-tickets-mount-pleasant-soaring-eagle-casino-and-resort-6-10-2027/production/7618638",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -175947,7 +175947,7 @@
         "event_id": 7618686,
         "url": "https://www.vividseats.com/riley-green-tickets-toronto-rbc-amphitheatre-6-11-2027/production/7618686",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -176007,7 +176007,7 @@
         "event_id": 7636602,
         "url": "https://www.vividseats.com/riley-green-tickets-toronto-rbc-amphitheatre-6-12-2027--concerts-country-and-folk/production/7636602",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -176067,7 +176067,7 @@
         "event_id": 7618196,
         "url": "https://www.vividseats.com/riley-green-tickets-gilford-banknh-pavilion-6-18-2027/production/7618196",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -176137,7 +176137,7 @@
         "event_id": 7636582,
         "url": "https://www.vividseats.com/riley-green-tickets-gilford-banknh-pavilion-6-19-2027--concerts-country-and-folk/production/7636582",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -176202,7 +176202,7 @@
         "event_id": 7618228,
         "url": "https://www.vividseats.com/riley-green-tickets-clarkston-pine-knob-music-theatre-6-25-2027/production/7618228",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -176283,7 +176283,7 @@
         "event_id": 7637034,
         "url": "https://www.vividseats.com/riley-green-tickets-clarkston-pine-knob-music-theatre-6-26-2027--concerts-country-and-folk/production/7637034",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -176364,7 +176364,7 @@
         "event_id": 7618652,
         "url": "https://www.vividseats.com/riley-green-tickets-syracuse-empower-federal-credit-union-amphitheater-at-lakeview-7-15-2027/production/7618652",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -176445,7 +176445,7 @@
         "event_id": 7618240,
         "url": "https://www.vividseats.com/riley-green-tickets-allentown-ppl-center-7-16-2027/production/7618240",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -176531,7 +176531,7 @@
         "event_id": 7618186,
         "url": "https://www.vividseats.com/riley-green-tickets-columbia-merriweather-post-pavilion-7-22-2027/production/7618186",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -176612,7 +176612,7 @@
         "event_id": 7618250,
         "url": "https://www.vividseats.com/riley-green-tickets-bethel-bethel-woods-center-for-the-arts-7-23-2027/production/7618250",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -176693,7 +176693,7 @@
         "event_id": 7618226,
         "url": "https://www.vividseats.com/riley-green-tickets-mansfield-xfinity-center---ma-7-24-2027/production/7618226",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -176782,7 +176782,7 @@
         "event_id": 7618220,
         "url": "https://www.vividseats.com/riley-green-tickets-evansville-ford-center-evansville-7-29-2027/production/7618220",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -176933,7 +176933,7 @@
         "event_id": 7618510,
         "url": "https://www.vividseats.com/riley-green-tickets-milwaukee-henry-maier-festival-park---american-family-insurance-amphitheater-7-31-2027/production/7618510",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -176998,7 +176998,7 @@
         "event_id": 7626942,
         "url": "https://www.vividseats.com/hazlett-tickets-eugene-wow-hall-5-29-2027/production/7626942",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -177120,7 +177120,7 @@
         "event_id": 7636669,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-edmonton-northern-alberta-jubilee-auditorium-4-15-2027/production/7636669",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -177380,7 +177380,7 @@
         "event_id": 7636617,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-san-francisco-bill-graham-civic-auditorium-4-21-2027--concerts-pop/production/7636617",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -177487,7 +177487,7 @@
         "event_id": 7636619,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-inglewood-kia-forum-4-22-2027--concerts-pop/production/7636619",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -177592,7 +177592,7 @@
         "event_id": 7636621,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-san-diego-gallagher-square-at-petco-park-4-23-2027--concerts-pop/production/7636621",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -177694,7 +177694,7 @@
         "event_id": 7636633,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-las-vegas-cosmopolitan-of-las-vegas-4-30-2027--concerts-pop/production/7636633",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -177791,7 +177791,7 @@
         "event_id": 7636635,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-phoenix-arizona-financial-theatre-5-1-2027--concerts-pop/production/7636635",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -177888,7 +177888,7 @@
         "event_id": 7636637,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-irving-pavilion-at-toyota-music-factory-5-5-2027--concerts-pop/production/7636637",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -177985,7 +177985,7 @@
         "event_id": 7636639,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-austin-moody-amphitheater-5-7-2027--concerts-pop/production/7636639",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -178082,7 +178082,7 @@
         "event_id": 7636641,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-houston-713-music-hall-5-8-2027--concerts-pop/production/7636641",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -178187,7 +178187,7 @@
         "event_id": 7636643,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-nashville-the-truth-5-10-2027--concerts-pop/production/7636643",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -178289,7 +178289,7 @@
         "event_id": 7636653,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-atlanta-coca-cola-roxy-theatre-5-11-2027--concerts-pop/production/7636653",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -178381,7 +178381,7 @@
         "event_id": 7636657,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-charlotte-skyla-credit-union-amphitheatre-5-12-2027--concerts-pop/production/7636657",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -178478,7 +178478,7 @@
         "event_id": 7636659,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-washington-dc-the-anthem-5-14-2027--concerts-pop/production/7636659",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -178570,7 +178570,7 @@
         "event_id": 7636661,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-new-york-madison-square-garden-5-15-2027--concerts-pop/production/7636661",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -178787,7 +178787,7 @@
         "event_id": 7636665,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-boston-mgm-music-hall-at-fenway-5-19-2027--concerts-pop/production/7636665",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -179004,7 +179004,7 @@
         "event_id": 7636671,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-detroit-fox-theatre-detroit-5-22-2027--concerts-pop/production/7636671",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -179253,7 +179253,7 @@
         "event_id": 7636681,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-montreal-mtelus-5-29-2027--concerts-pop/production/7636681",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -179999,7 +179999,7 @@
     "ticketmaster_event_id": "1C00635ECA50AA36",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-san-francisco-california-10-07-2026/event/1C00635ECA50AA36",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-10-07-7-30-pm/concert/17878569",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-san-francisco-bill-graham-civic-auditorium-10-7-2026--concerts-rock/production/6246352",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-san-francisco-california-10-07-2026/event/1C00635ECA50AA36",
     "last_verified_at": null,
@@ -180021,11 +180021,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6246352,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-san-francisco-bill-graham-civic-auditorium-10-7-2026--concerts-rock/production/6246352",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180052,7 +180052,7 @@
     "ticketmaster_event_id": "0900635E02A5A5C0",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-10-09-2026/event/0900635E02A5A5C0",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/inglewood-california-kia-forum-2026-10-09-7-pm/concert/17878570",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-10-9-2026--concerts-rock/production/6246338",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-10-09-2026/event/0900635E02A5A5C0",
     "last_verified_at": null,
@@ -180074,11 +180074,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6246338,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-10-9-2026--concerts-rock/production/6246338",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180105,7 +180105,7 @@
     "ticketmaster_event_id": "0E006444A7A0612C",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-atlanta-georgia-11-10-2026/event/0E006444A7A0612C",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/atlanta-georgia-state-farm-arena-1-2026-11-10-7-30-pm/concert/18085136",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-atlanta-state-farm-arena-11-10-2026/production/6690298",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-atlanta-georgia-11-10-2026/event/0E006444A7A0612C",
     "last_verified_at": "2026-10-07",
@@ -180127,11 +180127,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690298,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-atlanta-state-farm-arena-11-10-2026/production/6690298",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180165,7 +180165,7 @@
     "ticketmaster_event_id": "22006451B763471F",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-orlando-florida-11-11-2026/event/22006451B763471F",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/orlando-florida-kia-center-2026-11-11-7-30-pm/concert/18085138",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-orlando-kia-center-11-11-2026--concerts-rock/production/6690352",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-orlando-florida-11-11-2026/event/22006451B763471F",
     "last_verified_at": "2026-10-07",
@@ -180187,11 +180187,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690352,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-orlando-kia-center-11-11-2026--concerts-rock/production/6690352",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180225,7 +180225,7 @@
     "ticketmaster_event_id": "0D006449E4C49B80",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-miami-florida-11-12-2026/event/0D006449E4C49B80",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/miami-florida-kaseya-center-2026-11-12-7-30-pm/concert/18085137",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-miami-kaseya-center-11-12-2026--concerts-rock/production/6690355",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-miami-florida-11-12-2026/event/0D006449E4C49B80",
     "last_verified_at": "2026-10-07",
@@ -180247,11 +180247,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690355,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-miami-kaseya-center-11-12-2026--concerts-rock/production/6690355",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180285,7 +180285,7 @@
     "ticketmaster_event_id": "1B00646BB8E7F668",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-nashville-tennessee-11-14-2026/event/1B00646BB8E7F668",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/nashville-tennessee-the-truth-nashville-2026-11-14-7-30-pm/concert/18126039",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-nashville-the-truth-11-14-2026--concerts-rock/production/6789957",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-nashville-tennessee-11-14-2026/event/1B00646BB8E7F668",
     "last_verified_at": "2026-10-07",
@@ -180307,11 +180307,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6789957,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-nashville-the-truth-11-14-2026--concerts-rock/production/6789957",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180345,7 +180345,7 @@
     "ticketmaster_event_id": "0600644BD278D916",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-world-tour-kansas-city-missouri-11-16-2026/event/0600644BD278D916",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/kansas-city-missouri-t-mobile-center-2026-11-16-7-30-pm/concert/18085139",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-kansas-city-t-mobile-center-11-16-2026--concerts-rock/production/6690358",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-world-tour-kansas-city-missouri-11-16-2026/event/0600644BD278D916",
     "last_verified_at": "2026-10-07",
@@ -180367,11 +180367,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690358,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-kansas-city-t-mobile-center-11-16-2026--concerts-rock/production/6690358",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180405,7 +180405,7 @@
     "ticketmaster_event_id": "04006449E2046622",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-chicago-illinois-11-18-2026/event/04006449E2046622",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/chicago-illinois-united-center-2026-11-18-7-30-pm/concert/18140881",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-chicago-united-center-11-18-2026/production/6822533",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-chicago-illinois-11-18-2026/event/04006449E2046622",
     "last_verified_at": null,
@@ -180427,11 +180427,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6822533,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-chicago-united-center-11-18-2026/production/6822533",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180458,7 +180458,7 @@
     "ticketmaster_event_id": "0800644CAC2688E0",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-detroit-michigan-11-19-2026/event/0800644CAC2688E0",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/detroit-michigan-little-caesars-arena-2026-11-19-7-30-pm/concert/18085141",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-detroit-little-caesars-arena-11-19-2026--concerts-rock/production/6690365",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-detroit-michigan-11-19-2026/event/0800644CAC2688E0",
     "last_verified_at": "2026-10-07",
@@ -180480,11 +180480,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690365,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-detroit-little-caesars-arena-11-19-2026--concerts-rock/production/6690365",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180518,7 +180518,7 @@
     "ticketmaster_event_id": "30006449D4A6700C",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-21-2026/event/30006449D4A6700C",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/brooklyn-new-york-barclays-center-2026-11-21-7-pm/concert/18085142",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-brooklyn-barclays-center-11-21-2026--concerts-rock/production/6690367",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-21-2026/event/30006449D4A6700C",
     "last_verified_at": "2026-10-07",
@@ -180540,11 +180540,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690367,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-brooklyn-barclays-center-11-21-2026--concerts-rock/production/6690367",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180578,7 +180578,7 @@
     "ticketmaster_event_id": "3000645478072229",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-22-2026/event/3000645478072229",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-brooklyn-barclays-center-11-22-2026--concerts-rock/production/6932838",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-22-2026/event/3000645478072229",
     "last_verified_at": null,
@@ -180600,11 +180600,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6932838,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-brooklyn-barclays-center-11-22-2026--concerts-rock/production/6932838",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180631,7 +180631,7 @@
     "ticketmaster_event_id": "1900645387C950F4",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-phoenix-arizona-11-30-2026/event/1900645387C950F4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-phoenix-mortgage-matchup-center-11-30-2026--concerts-rock/production/6690369",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-phoenix-arizona-11-30-2026/event/1900645387C950F4",
     "last_verified_at": "2026-10-07",
@@ -180653,11 +180653,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690369,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-phoenix-mortgage-matchup-center-11-30-2026--concerts-rock/production/6690369",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180691,7 +180691,7 @@
     "ticketmaster_event_id": "1C006453D3D07859",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-san-francisco-california-12-02-2026/event/1C006453D3D07859",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-san-francisco-bill-graham-civic-auditorium-12-2-2026--concerts-rock/production/6690371",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-san-francisco-california-12-02-2026/event/1C006453D3D07859",
     "last_verified_at": "2026-10-07",
@@ -180713,11 +180713,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690371,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-san-francisco-bill-graham-civic-auditorium-12-2-2026--concerts-rock/production/6690371",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180751,7 +180751,7 @@
     "ticketmaster_event_id": "09006443CD5C89D1",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-04-2026/event/09006443CD5C89D1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-4-2026--concerts-rock/production/6690373",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-04-2026/event/09006443CD5C89D1",
     "last_verified_at": "2026-10-07",
@@ -180773,11 +180773,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690373,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-4-2026--concerts-rock/production/6690373",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180811,7 +180811,7 @@
     "ticketmaster_event_id": "0900645403D3F8BA",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-05-2026/event/0900645403D3F8BA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-5-2026/production/6707944",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-05-2026/event/0900645403D3F8BA",
     "last_verified_at": null,
@@ -180833,11 +180833,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6707944,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-5-2026/production/6707944",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180917,7 +180917,7 @@
     "ticketmaster_event_id": "1C00643CB5B26DE8",
     "ticketmaster_url": "https://www.ticketmaster.com/98-rock-presents-staind-break-the-wheatland-california-10-09-2026/event/1C00643CB5B26DE8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-wheatland-toyota-amphitheatre-10-9-2026--concerts-rock/production/6614450",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/98-rock-presents-staind-break-the-wheatland-california-10-09-2026/event/1C00643CB5B26DE8",
     "last_verified_at": null,
@@ -180939,11 +180939,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6614450,
+        "url": "https://www.vividseats.com/staind-tickets-wheatland-toyota-amphitheatre-10-9-2026--concerts-rock/production/6614450",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -180970,7 +180970,7 @@
     "ticketmaster_event_id": "0900643C9E919007",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-ontario-california-10-10-2026/event/0900643C9E919007",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-ontario-toyota-arena---ca-10-10-2026--concerts-rock/production/6614452",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-ontario-california-10-10-2026/event/0900643C9E919007",
     "last_verified_at": null,
@@ -180992,11 +180992,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6614452,
+        "url": "https://www.vividseats.com/staind-tickets-ontario-toyota-arena---ca-10-10-2026--concerts-rock/production/6614452",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -181023,7 +181023,7 @@
     "ticketmaster_event_id": "1900643D874B484B",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-phoenix-arizona-10-13-2026/event/1900643D874B484B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-phoenix-talking-stick-resort-amphitheatre-10-13-2026/production/6614441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-phoenix-arizona-10-13-2026/event/1900643D874B484B",
     "last_verified_at": "2026-10-07",
@@ -181045,11 +181045,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6614441,
+        "url": "https://www.vividseats.com/staind-tickets-phoenix-talking-stick-resort-amphitheatre-10-13-2026/production/6614441",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -181143,7 +181143,7 @@
     "ticketmaster_event_id": "2000643D05BE513B",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-tulsa-oklahoma-10-16-2026/event/2000643D05BE513B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-tulsa-bok-center-10-16-2026--concerts-rock/production/6614461",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-tulsa-oklahoma-10-16-2026/event/2000643D05BE513B",
     "last_verified_at": "2026-10-07",
@@ -181165,11 +181165,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6614461,
+        "url": "https://www.vividseats.com/staind-tickets-tulsa-bok-center-10-16-2026--concerts-rock/production/6614461",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -181203,7 +181203,7 @@
     "ticketmaster_event_id": "3A00643EB4D5D528",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-the-woodlands-texas-10-17-2026/event/3A00643EB4D5D528",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-the-woodlands-cynthia-woods-mitchell-pavilion-10-17-2026/production/6614454",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-the-woodlands-texas-10-17-2026/event/3A00643EB4D5D528",
     "last_verified_at": "2026-10-07",
@@ -181225,11 +181225,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6614454,
+        "url": "https://www.vividseats.com/staind-tickets-the-woodlands-cynthia-woods-mitchell-pavilion-10-17-2026/production/6614454",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -181263,7 +181263,7 @@
     "ticketmaster_event_id": "3A00643C063099B5",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-austin-texas-10-19-2026/event/3A00643C063099B5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-austin-moody-center-atx-10-19-2026--concerts-rock/production/6614465",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-austin-texas-10-19-2026/event/3A00643C063099B5",
     "last_verified_at": "2026-10-07",
@@ -181285,11 +181285,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6614465,
+        "url": "https://www.vividseats.com/staind-tickets-austin-moody-center-atx-10-19-2026--concerts-rock/production/6614465",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -181323,7 +181323,7 @@
     "ticketmaster_event_id": "0100653EB072478E",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-manchester-new-hampshire-03-04-2027/event/0100653EB072478E",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/manchester-new-hampshire-snhu-arena-2027-03-04-6-pm/concert/18654539",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-manchester-snhu-arena-3-4-2027/production/7658793",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-manchester-new-hampshire-03-04-2027/event/0100653EB072478E",
     "last_verified_at": "2026-10-07",
@@ -181345,11 +181345,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658793,
+        "url": "https://www.vividseats.com/staind-tickets-manchester-snhu-arena-3-4-2027/production/7658793",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -181424,7 +181424,7 @@
     "ticketmaster_event_id": "150065453170510C",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-baltimore-maryland-03-06-2027/event/150065453170510C",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/baltimore-maryland-cfg-bank-arena-2027-03-06-6-pm/concert/18654540",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-baltimore-cfg-bank-arena-3-6-2027/production/7658799",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-baltimore-maryland-03-06-2027/event/150065453170510C",
     "last_verified_at": "2026-10-07",
@@ -181446,11 +181446,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658799,
+        "url": "https://www.vividseats.com/staind-tickets-baltimore-cfg-bank-arena-3-6-2027/production/7658799",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -181525,7 +181525,7 @@
     "ticketmaster_event_id": "1600653EE0B6D584",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-pittsburgh-pennsylvania-03-08-2027/event/1600653EE0B6D584",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-pittsburgh-ppg-paints-arena-3-8-2027/production/7658795",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-pittsburgh-pennsylvania-03-08-2027/event/1600653EE0B6D584",
     "last_verified_at": "2026-10-07",
@@ -181547,11 +181547,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658795,
+        "url": "https://www.vividseats.com/staind-tickets-pittsburgh-ppg-paints-arena-3-8-2027/production/7658795",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -181626,7 +181626,7 @@
     "ticketmaster_event_id": "02006541B36EAC1B",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-reading-pennsylvania-03-09-2027/event/02006541B36EAC1B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-reading-santander-arena-3-9-2027/production/7658819",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-reading-pennsylvania-03-09-2027/event/02006541B36EAC1B",
     "last_verified_at": "2026-10-07",
@@ -181648,11 +181648,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658819,
+        "url": "https://www.vividseats.com/staind-tickets-reading-santander-arena-3-9-2027/production/7658819",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -181727,7 +181727,7 @@
     "ticketmaster_event_id": "160065428FA34508",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-huntington-west-virginia-03-10-2027/event/160065428FA34508",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/huntington-west-virginia-marshall-health-network-arena-2027-03-10-6-pm/concert/18654510",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-huntington-marshall-health-network-arena-3-10-2027--concerts-rock/production/7658997",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-huntington-west-virginia-03-10-2027/event/160065428FA34508",
     "last_verified_at": "2026-10-07",
@@ -181749,11 +181749,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658997,
+        "url": "https://www.vividseats.com/staind-tickets-huntington-marshall-health-network-arena-3-10-2027--concerts-rock/production/7658997",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -181823,7 +181823,7 @@
     "ticketmaster_event_id": "0D006541E77B70C3",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-tampa-florida-03-12-2027/event/0D006541E77B70C3",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/tampa-florida-benchmark-international-arena-2027-03-12-6-pm/concert/18654500",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-tampa-benchmark-international-arena-3-12-2027/production/7658917",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-tampa-florida-03-12-2027/event/0D006541E77B70C3",
     "last_verified_at": "2026-10-07",
@@ -181845,11 +181845,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658917,
+        "url": "https://www.vividseats.com/staind-tickets-tampa-benchmark-international-arena-3-12-2027/production/7658917",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -181924,7 +181924,7 @@
     "ticketmaster_event_id": "0D00653ED841F3E7",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-west-palm-beach-florida-03-13-2027/event/0D00653ED841F3E7",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/west-palm-beach-florida-ithink-financial-amphitheatre-2027-03-13-6-pm/concert/18654501",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-west-palm-beach-ithink-financial-amphitheatre-3-13-2027/production/7658871",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-west-palm-beach-florida-03-13-2027/event/0D00653ED841F3E7",
     "last_verified_at": "2026-10-07",
@@ -181946,11 +181946,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658871,
+        "url": "https://www.vividseats.com/staind-tickets-west-palm-beach-ithink-financial-amphitheatre-3-13-2027/production/7658871",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -182025,7 +182025,7 @@
     "ticketmaster_event_id": "20006541D60961E0",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-birmingham-alabama-03-16-2027/event/20006541D60961E0",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2027-03-16-6-pm/concert/18654502",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-birmingham-legacy-arena-at-the-bjcc-3-16-2027/production/7658907",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-birmingham-alabama-03-16-2027/event/20006541D60961E0",
     "last_verified_at": "2026-10-07",
@@ -182047,11 +182047,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658907,
+        "url": "https://www.vividseats.com/staind-tickets-birmingham-legacy-arena-at-the-bjcc-3-16-2027/production/7658907",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -182126,7 +182126,7 @@
     "ticketmaster_event_id": "0C00653E978F5ED8",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-oklahoma-city-oklahoma-03-18-2027/event/0C00653E978F5ED8",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/oklahoma-city-oklahoma-paycom-center-2027-03-18-6-pm/concert/18654504",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-oklahoma-city-paycom-center-3-18-2027/production/7658925",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-oklahoma-city-oklahoma-03-18-2027/event/0C00653E978F5ED8",
     "last_verified_at": "2026-10-07",
@@ -182148,11 +182148,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658925,
+        "url": "https://www.vividseats.com/staind-tickets-oklahoma-city-paycom-center-3-18-2027/production/7658925",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -182227,7 +182227,7 @@
     "ticketmaster_event_id": "0C0065423A11B8B1",
     "ticketmaster_url": "https://www.ticketmaster.com/971-the-eagle-presents-staind-break-dallas-texas-03-19-2027/event/0C0065423A11B8B1",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/dallas-texas-dos-equis-pavilion-2027-03-19-6-pm/concert/18654503",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-dallas-dos-equis-pavilion-3-19-2027--concerts-rock/production/7659012",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/971-the-eagle-presents-staind-break-dallas-texas-03-19-2027/event/0C0065423A11B8B1",
     "last_verified_at": "2026-10-07",
@@ -182249,11 +182249,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7659012,
+        "url": "https://www.vividseats.com/staind-tickets-dallas-dos-equis-pavilion-3-19-2027--concerts-rock/production/7659012",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -182323,7 +182323,7 @@
     "ticketmaster_event_id": "3A0065419BE1B609",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-san-antonio-texas-03-20-2027/event/3A0065419BE1B609",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-san-antonio-frost-bank-center-3-20-2027--concerts-rock/production/7659014",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-san-antonio-texas-03-20-2027/event/3A0065419BE1B609",
     "last_verified_at": "2026-10-07",
@@ -182345,11 +182345,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7659014,
+        "url": "https://www.vividseats.com/staind-tickets-san-antonio-frost-bank-center-3-20-2027--concerts-rock/production/7659014",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -182424,7 +182424,7 @@
     "ticketmaster_event_id": "1E00654113F8BE5A",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-denver-colorado-03-22-2027/event/1E00654113F8BE5A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-denver-ball-arena-3-22-2027/production/7658985",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-denver-colorado-03-22-2027/event/1E00654113F8BE5A",
     "last_verified_at": "2026-10-07",
@@ -182446,11 +182446,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658985,
+        "url": "https://www.vividseats.com/staind-tickets-denver-ball-arena-3-22-2027/production/7658985",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -182525,7 +182525,7 @@
     "ticketmaster_event_id": "1E00653E84B94351",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-boise-idaho-03-24-2027/event/1E00653E84B94351",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-boise-extramile-arena-3-24-2027/production/7658945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-boise-idaho-03-24-2027/event/1E00653E84B94351",
     "last_verified_at": "2026-10-07",
@@ -182547,11 +182547,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658945,
+        "url": "https://www.vividseats.com/staind-tickets-boise-extramile-arena-3-24-2027/production/7658945",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -182626,7 +182626,7 @@
     "ticketmaster_event_id": "0F00653DD76CDC06",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-seattle-washington-03-27-2027/event/0F00653DD76CDC06",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-seattle-climate-pledge-arena-3-27-2027--concerts-rock/production/7659018",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-seattle-washington-03-27-2027/event/0F00653DD76CDC06",
     "last_verified_at": "2026-10-07",
@@ -182648,11 +182648,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7659018,
+        "url": "https://www.vividseats.com/staind-tickets-seattle-climate-pledge-arena-3-27-2027--concerts-rock/production/7659018",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -182727,7 +182727,7 @@
     "ticketmaster_event_id": "11006542CE9DD016",
     "ticketmaster_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-vancouver-british-columbia-03-29-2027/event/11006542CE9DD016",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-vancouver-rogers-arena-3-29-2027--concerts-rock/production/7659028",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-vancouver-british-columbia-03-29-2027/event/11006542CE9DD016",
     "last_verified_at": "2026-10-07",
@@ -182749,11 +182749,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7659028,
+        "url": "https://www.vividseats.com/staind-tickets-vancouver-rogers-arena-3-29-2027--concerts-rock/production/7659028",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -182823,7 +182823,7 @@
     "ticketmaster_event_id": "1100653DE10AE9F2",
     "ticketmaster_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-calgary-alberta-03-31-2027/event/1100653DE10AE9F2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-calgary-scotiabank-saddledome-3-31-2027/production/7659022",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-calgary-alberta-03-31-2027/event/1100653DE10AE9F2",
     "last_verified_at": "2026-10-07",
@@ -182845,11 +182845,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7659022,
+        "url": "https://www.vividseats.com/staind-tickets-calgary-scotiabank-saddledome-3-31-2027/production/7659022",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -182919,7 +182919,7 @@
     "ticketmaster_event_id": "1100653E198825E1",
     "ticketmaster_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-edmonton-alberta-04-01-2027/event/1100653E198825E1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-edmonton-rogers-place-4-1-2027/production/7659026",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-edmonton-alberta-04-01-2027/event/1100653E198825E1",
     "last_verified_at": "2026-10-07",
@@ -182941,11 +182941,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7659026,
+        "url": "https://www.vividseats.com/staind-tickets-edmonton-rogers-place-4-1-2027/production/7659026",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -183015,7 +183015,7 @@
     "ticketmaster_event_id": "06006541D0984441",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-sioux-falls-south-dakota-04-06-2027/event/06006541D0984441",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-sioux-falls-denny-sanford-premier-center-4-6-2027/production/7658947",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-sioux-falls-south-dakota-04-06-2027/event/06006541D0984441",
     "last_verified_at": "2026-10-07",
@@ -183037,11 +183037,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658947,
+        "url": "https://www.vividseats.com/staind-tickets-sioux-falls-denny-sanford-premier-center-4-6-2027/production/7658947",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -183116,7 +183116,7 @@
     "ticketmaster_event_id": "0600653DBDE4BB80",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-fargo-north-dakota-04-07-2027/event/0600653DBDE4BB80",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-fargo-fargodome-4-7-2027/production/7658969",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-fargo-north-dakota-04-07-2027/event/0600653DBDE4BB80",
     "last_verified_at": "2026-10-07",
@@ -183138,11 +183138,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658969,
+        "url": "https://www.vividseats.com/staind-tickets-fargo-fargodome-4-7-2027/production/7658969",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -183217,7 +183217,7 @@
     "ticketmaster_event_id": "060065429BA0997F",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-omaha-nebraska-04-09-2027/event/060065429BA0997F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-omaha-chi-health-center-omaha-4-9-2027/production/7658975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-omaha-nebraska-04-09-2027/event/060065429BA0997F",
     "last_verified_at": "2026-10-07",
@@ -183239,11 +183239,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658975,
+        "url": "https://www.vividseats.com/staind-tickets-omaha-chi-health-center-omaha-4-9-2027/production/7658975",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -183313,7 +183313,7 @@
     "ticketmaster_event_id": "06006541B5EEF63F",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-kansas-city-missouri-04-10-2027/event/06006541B5EEF63F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-kansas-city-t-mobile-center-4-10-2027/production/7658897",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-kansas-city-missouri-04-10-2027/event/06006541B5EEF63F",
     "last_verified_at": "2026-10-07",
@@ -183335,11 +183335,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658897,
+        "url": "https://www.vividseats.com/staind-tickets-kansas-city-t-mobile-center-4-10-2027/production/7658897",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -183414,7 +183414,7 @@
     "ticketmaster_event_id": "0600654182384B89",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-moline-illinois-04-11-2027/event/0600654182384B89",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-moline-vibrant-arena-at-the-mark-4-11-2027/production/7658963",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-moline-illinois-04-11-2027/event/0600654182384B89",
     "last_verified_at": "2026-10-07",
@@ -183436,11 +183436,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658963,
+        "url": "https://www.vividseats.com/staind-tickets-moline-vibrant-arena-at-the-mark-4-11-2027/production/7658963",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -183515,7 +183515,7 @@
     "ticketmaster_event_id": "0800653DDD089A23",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-grand-rapids-michigan-04-13-2027/event/0800653DDD089A23",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-grand-rapids-van-andel-arena-4-13-2027/production/7658869",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-grand-rapids-michigan-04-13-2027/event/0800653DDD089A23",
     "last_verified_at": "2026-10-07",
@@ -183537,11 +183537,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658869,
+        "url": "https://www.vividseats.com/staind-tickets-grand-rapids-van-andel-arena-4-13-2027/production/7658869",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -183616,7 +183616,7 @@
     "ticketmaster_event_id": "0500653ED26DE11F",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-evansville-indiana-04-14-2027/event/0500653ED26DE11F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-evansville-ford-center-evansville-4-14-2027/production/7658929",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-evansville-indiana-04-14-2027/event/0500653ED26DE11F",
     "last_verified_at": "2026-10-07",
@@ -183638,11 +183638,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658929,
+        "url": "https://www.vividseats.com/staind-tickets-evansville-ford-center-evansville-4-14-2027/production/7658929",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -183828,7 +183828,7 @@
     "ticketmaster_event_id": "160064D2E899E8A7",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-charles-wesley-godwin-pittsburgh-pennsylvania-10-30-2026/event/160064D2E899E8A7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-pittsburgh-citizens-live-at-the-wylie-10-30-2026--concerts-country-and-folk/production/7199155",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-charles-wesley-godwin-pittsburgh-pennsylvania-10-30-2026/event/160064D2E899E8A7",
     "last_verified_at": null,
@@ -183850,11 +183850,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7199155,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-pittsburgh-citizens-live-at-the-wylie-10-30-2026--concerts-country-and-folk/production/7199155",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -184093,7 +184093,7 @@
     "ticketmaster_event_id": "3E006504EA652A78",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-london-18-02-2027/event/3E006504EA652A78",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-london-o2-academy-brixton-2-18-2027/production/7428684",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-london-18-02-2027/event/3E006504EA652A78",
     "last_verified_at": null,
@@ -184115,11 +184115,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7428684,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-london-o2-academy-brixton-2-18-2027/production/7428684",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -184199,7 +184199,7 @@
     "ticketmaster_event_id": "3E006504AB4116C0",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-birmingham-21-02-2027/event/3E006504AB4116C0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-birmingham-o2-academy---birmingham-2-21-2027/production/7428688",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-birmingham-21-02-2027/event/3E006504AB4116C0",
     "last_verified_at": null,
@@ -184221,11 +184221,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7428688,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-birmingham-o2-academy---birmingham-2-21-2027/production/7428688",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -184252,7 +184252,7 @@
     "ticketmaster_event_id": "3E006505B52F1612",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-23-02-2027/event/3E006505B52F1612",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-23-2027/production/7455097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-23-02-2027/event/3E006505B52F1612",
     "last_verified_at": null,
@@ -184274,11 +184274,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7455097,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-23-2027/production/7455097",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -184305,7 +184305,7 @@
     "ticketmaster_event_id": "3E006506B20D1765",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-24-02-2027/event/3E006506B20D1765",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-24-2027/production/7428676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-24-02-2027/event/3E006506B20D1765",
     "last_verified_at": null,
@@ -184327,11 +184327,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7428676,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-24-2027/production/7428676",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -184411,7 +184411,7 @@
     "ticketmaster_event_id": "2D00653EE555C1C0",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charleston-south-carolina-03-25-2027/event/2D00653EE555C1C0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-charleston-charleston-music-hall-3-25-2027/production/7644164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charleston-south-carolina-03-25-2027/event/2D00653EE555C1C0",
     "last_verified_at": "2026-10-07",
@@ -184433,11 +184433,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644164,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-charleston-charleston-music-hall-3-25-2027/production/7644164",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -184471,7 +184471,7 @@
     "ticketmaster_event_id": "2D00653DBE4DEAD0",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-north-myrtle-beach-south-carolina-03-26-2027/event/2D00653DBE4DEAD0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-north-myrtle-beach-house-of-blues-myrtle-beach-3-26-2027/production/7644189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-north-myrtle-beach-south-carolina-03-26-2027/event/2D00653DBE4DEAD0",
     "last_verified_at": "2026-10-07",
@@ -184493,11 +184493,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644189,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-north-myrtle-beach-house-of-blues-myrtle-beach-3-26-2027/production/7644189",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -184531,7 +184531,7 @@
     "ticketmaster_event_id": "2D00653E8FB27954",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charlotte-north-carolina-03-27-2027/event/2D00653E8FB27954",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-charlotte-the-fillmore-charlotte-3-27-2027/production/7643781",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charlotte-north-carolina-03-27-2027/event/2D00653E8FB27954",
     "last_verified_at": "2026-10-07",
@@ -184553,11 +184553,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7643781,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-charlotte-the-fillmore-charlotte-3-27-2027/production/7643781",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -184591,7 +184591,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe4bI",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bI",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-chattanooga-the-signal-3-30-2027/production/7645645",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bI",
     "last_verified_at": null,
@@ -184613,11 +184613,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7645645,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-chattanooga-the-signal-3-30-2027/production/7645645",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -184704,7 +184704,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe4bt",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bt",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-fayetteville-ozark-music-hall-4-2-2027/production/7645605",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bt",
     "last_verified_at": null,
@@ -184726,11 +184726,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7645605,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-fayetteville-ozark-music-hall-4-2-2027/production/7645605",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -184757,7 +184757,7 @@
     "ticketmaster_event_id": "1B006541CB5D93D8",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-memphis-tennessee-04-03-2027/event/1B006541CB5D93D8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-memphis-satellite-music-hall-4-3-2027/production/7644194",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-memphis-tennessee-04-03-2027/event/1B006541CB5D93D8",
     "last_verified_at": "2026-10-07",
@@ -184779,11 +184779,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644194,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-memphis-satellite-music-hall-4-3-2027/production/7644194",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -184817,7 +184817,7 @@
     "ticketmaster_event_id": "2000653EBBBC44F3",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-birmingham-alabama-04-04-2027/event/2000653EBBBC44F3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-birmingham-avondale-brewing-company-4-4-2027/production/7644156",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-birmingham-alabama-04-04-2027/event/2000653EBBBC44F3",
     "last_verified_at": "2026-10-07",
@@ -184839,11 +184839,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644156,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-birmingham-avondale-brewing-company-4-4-2027/production/7644156",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -184937,7 +184937,7 @@
     "ticketmaster_event_id": "1500653E9BFC7BA6",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-baltimore-maryland-04-07-2027/event/1500653E9BFC7BA6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-baltimore-the-paramount-baltimore-4-7-2027/production/7644204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-baltimore-maryland-04-07-2027/event/1500653E9BFC7BA6",
     "last_verified_at": "2026-10-07",
@@ -184959,11 +184959,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644204,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-baltimore-the-paramount-baltimore-4-7-2027/production/7644204",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -184997,7 +184997,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe4bY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bY",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-columbus-kemba-live-4-8-2027/production/7644647",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bY",
     "last_verified_at": null,
@@ -185019,11 +185019,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644647,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-columbus-kemba-live-4-8-2027/production/7644647",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -185050,7 +185050,7 @@
     "ticketmaster_event_id": "0800653DBA936F3C",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-detroit-michigan-04-10-2027/event/0800653DBA936F3C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-detroit-the-fillmore-detroit-4-10-2027/production/7644126",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-detroit-michigan-04-10-2027/event/0800653DBA936F3C",
     "last_verified_at": "2026-10-07",
@@ -185072,11 +185072,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644126,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-detroit-the-fillmore-detroit-4-10-2027/production/7644126",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -185110,7 +185110,7 @@
     "ticketmaster_event_id": "0800653DBA206EC3",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-grand-rapids-michigan-04-11-2027/event/0800653DBA206EC3",
     "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2027-04-11-7-pm/concert/18642102",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-grand-rapids-glc-live-at-20-monroe-4-11-2027/production/7644661",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-grand-rapids-michigan-04-11-2027/event/0800653DBA206EC3",
     "last_verified_at": "2026-10-07",
@@ -185132,11 +185132,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644661,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-grand-rapids-glc-live-at-20-monroe-4-11-2027/production/7644661",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -185170,7 +185170,7 @@
     "ticketmaster_event_id": "0500653ED2F2E211",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-indianapolis-indiana-05-04-2027/event/0500653ED2F2E211",
     "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-05-04-7-pm/concert/18642104",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-5-4-2027--concerts-country-and-folk/production/7644411",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-indianapolis-indiana-05-04-2027/event/0500653ED2F2E211",
     "last_verified_at": "2026-10-07",
@@ -185192,11 +185192,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644411,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-5-4-2027--concerts-country-and-folk/production/7644411",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -185230,7 +185230,7 @@
     "ticketmaster_event_id": "0700653DF5F6AFCA",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-madison-wisconsin-05-06-2027/event/0700653DF5F6AFCA",
     "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/madison-wisconsin-the-sylvee-2027-05-06-7-pm/concert/18642105",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-madison-the-sylvee-5-6-2027/production/7644178",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-madison-wisconsin-05-06-2027/event/0700653DF5F6AFCA",
     "last_verified_at": "2026-10-07",
@@ -185252,11 +185252,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644178,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-madison-the-sylvee-5-6-2027/production/7644178",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -185290,7 +185290,7 @@
     "ticketmaster_event_id": "0600653CAC1880E7",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-kansas-city-missouri-05-07-2027/event/0600653CAC1880E7",
     "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/kansas-city-missouri-uptown-theater-kc-2027-05-07-7-pm/concert/18642106",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-kansas-city-uptown-theater-kansas-city-5-7-2027--concerts-country-and-folk/production/7644413",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-kansas-city-missouri-05-07-2027/event/0600653CAC1880E7",
     "last_verified_at": "2026-10-07",
@@ -185312,11 +185312,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644413,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-kansas-city-uptown-theater-kansas-city-5-7-2027--concerts-country-and-folk/production/7644413",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -185350,7 +185350,7 @@
     "ticketmaster_event_id": "2000653C96F82664",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-la-vista-nebraska-05-08-2027/event/2000653C96F82664",
     "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/la-vista-nebraska-the-astro-theater-la-vista-2027-05-08-7-pm/concert/18642110",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-la-vista-astro-theater-5-8-2027/production/7644180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-la-vista-nebraska-05-08-2027/event/2000653C96F82664",
     "last_verified_at": null,
@@ -185372,11 +185372,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644180,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-la-vista-astro-theater-5-8-2027/production/7644180",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -185403,7 +185403,7 @@
     "ticketmaster_event_id": "3A006541BB741D0D",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-austin-texas-05-13-2027/event/3A006541BB741D0D",
     "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/austin-texas-moody-amphitheater-2027-05-13-7-pm/concert/18642112",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-austin-moody-amphitheater-5-13-2027/production/7644187",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-austin-texas-05-13-2027/event/3A006541BB741D0D",
     "last_verified_at": "2026-10-07",
@@ -185425,11 +185425,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644187,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-austin-moody-amphitheater-5-13-2027/production/7644187",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -185463,7 +185463,7 @@
     "ticketmaster_event_id": "3A00653DF0372FB5",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-houston-texas-05-14-2027/event/3A00653DF0372FB5",
     "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/houston-texas-bayou-music-center-2027-05-14-7-pm/concert/18642115",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-houston-bayou-music-center-5-14-2027/production/7644161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-houston-texas-05-14-2027/event/3A00653DF0372FB5",
     "last_verified_at": "2026-10-07",
@@ -185485,11 +185485,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644161,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-houston-bayou-music-center-5-14-2027/production/7644161",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -185682,7 +185682,7 @@
     "ticketmaster_event_id": "0C006530C54EB984",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-el-paso-texas-02-12-2027/event/0C006530C54EB984",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/el-paso-texas-the-plaza-theatre-performing-arts-center-2027-02-12-8-pm/concert/18612856",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-el-paso-the-plaza-theatre-performing-arts-center-2-12-2027--concerts-world-music/production/7593302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-el-paso-texas-02-12-2027/event/0C006530C54EB984",
     "last_verified_at": null,
@@ -185704,11 +185704,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593302,
+        "url": "https://www.vividseats.com/flans-tickets-el-paso-the-plaza-theatre-performing-arts-center-2-12-2027--concerts-world-music/production/7593302",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -185735,7 +185735,7 @@
     "ticketmaster_event_id": "1900652E81BD370C",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-tucson-arizona-02-13-2027/event/1900652E81BD370C",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/tucson-arizona-linda-ronstadt-music-hall-2027-02-13-8-pm/concert/18612650",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-tucson-linda-ronstadt-music-hall-2-13-2027--concerts-world-music/production/7593512",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-tucson-arizona-02-13-2027/event/1900652E81BD370C",
     "last_verified_at": null,
@@ -185757,11 +185757,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593512,
+        "url": "https://www.vividseats.com/flans-tickets-tucson-linda-ronstadt-music-hall-2-13-2027--concerts-world-music/production/7593512",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -185788,7 +185788,7 @@
     "ticketmaster_event_id": "0E006532C09AE346",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-atlanta-georgia-02-25-2027/event/0E006532C09AE346",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/atlanta-georgia-cobb-energy-performing-arts-centre-2027-02-25-8-pm/concert/18612632",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-atlanta-cobb-energy-performing-arts-centre-2-25-2027--concerts-world-music/production/7593526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-atlanta-georgia-02-25-2027/event/0E006532C09AE346",
     "last_verified_at": null,
@@ -185810,11 +185810,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593526,
+        "url": "https://www.vividseats.com/flans-tickets-atlanta-cobb-energy-performing-arts-centre-2-25-2027--concerts-world-music/production/7593526",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -185841,7 +185841,7 @@
     "ticketmaster_event_id": "2D00652F948599DC",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-charlotte-north-carolina-02-26-2027/event/2D00652F948599DC",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/charlotte-north-carolina-ovens-auditorium-2027-02-26-8-pm/concert/18612827",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-charlotte-ovens-auditorium-2-26-2027--concerts-world-music/production/7593534",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-charlotte-north-carolina-02-26-2027/event/2D00652F948599DC",
     "last_verified_at": null,
@@ -185863,11 +185863,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593534,
+        "url": "https://www.vividseats.com/flans-tickets-charlotte-ovens-auditorium-2-26-2027--concerts-world-music/production/7593534",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -185894,7 +185894,7 @@
     "ticketmaster_event_id": "2D006536736838D9",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-raleigh-north-carolina-02-27-2027/event/2D006536736838D9",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/raleigh-north-carolina-martin-marietta-center-for-the-performing-arts-memorial-auditorium-2027-02-27-8-pm/concert/18618099",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-raleigh-martin-marietta-center-for-the-performing-arts---memorial-auditorium-2-27-2027--concerts-world-music/production/7613601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-raleigh-north-carolina-02-27-2027/event/2D006536736838D9",
     "last_verified_at": null,
@@ -185916,11 +185916,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7613601,
+        "url": "https://www.vividseats.com/flans-tickets-raleigh-martin-marietta-center-for-the-performing-arts---memorial-auditorium-2-27-2027--concerts-world-music/production/7613601",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -185947,7 +185947,7 @@
     "ticketmaster_event_id": "1E00653197916251",
     "ticketmaster_url": "https://www.ticketmaster.com/flans40-sin-control-tour-denver-colorado-03-04-2027/event/1E00653197916251",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/denver-colorado-paramount-theatre-co-2027-03-04-8-pm/concert/18612819",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-denver-paramount-theatre-denver-3-4-2027--concerts-world-music/production/7593546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans40-sin-control-tour-denver-colorado-03-04-2027/event/1E00653197916251",
     "last_verified_at": null,
@@ -185969,11 +185969,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593546,
+        "url": "https://www.vividseats.com/flans-tickets-denver-paramount-theatre-denver-3-4-2027--concerts-world-music/production/7593546",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -186000,7 +186000,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAevrv",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevrv",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-kansas-city-the-midland-theatre-3-5-2027--concerts-world-music/production/7592580",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevrv",
     "last_verified_at": null,
@@ -186022,11 +186022,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7592580,
+        "url": "https://www.vividseats.com/flans-tickets-kansas-city-the-midland-theatre-3-5-2027--concerts-world-music/production/7592580",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -186053,7 +186053,7 @@
     "ticketmaster_event_id": "0A00652BC857C1A5",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-san-diego-california-03-12-2027/event/0A00652BC857C1A5",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/san-diego-california-san-diego-civic-theatre-2027-03-12-8-pm/concert/18612871",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-san-diego-san-diego-civic-theatre-3-12-2027--concerts-world-music/production/7593616",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-san-diego-california-03-12-2027/event/0A00652BC857C1A5",
     "last_verified_at": null,
@@ -186075,11 +186075,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593616,
+        "url": "https://www.vividseats.com/flans-tickets-san-diego-san-diego-civic-theatre-3-12-2027--concerts-world-music/production/7593616",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -186106,7 +186106,7 @@
     "ticketmaster_event_id": "09006533ECB3F002",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-los-angeles-california-03-14-2027/event/09006533ECB3F002",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/los-angeles-california-orpheum-theatre-los-angeles-2027-03-14-8-pm/concert/18612688",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-los-angeles-orpheum-theatre---los-angeles-3-14-2027--concerts-world-music/production/7593618",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-los-angeles-california-03-14-2027/event/09006533ECB3F002",
     "last_verified_at": null,
@@ -186128,11 +186128,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593618,
+        "url": "https://www.vividseats.com/flans-tickets-los-angeles-orpheum-theatre---los-angeles-3-14-2027--concerts-world-music/production/7593618",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -186159,7 +186159,7 @@
     "ticketmaster_event_id": "3A006531E11A7D2F",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-houston-texas-05-29-2027/event/3A006531E11A7D2F",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/houston-texas-arena-theatre-houston-2027-05-29-8-pm/concert/18612653",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-houston-houston-arena-theatre-5-29-2027/production/7593883",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-houston-texas-05-29-2027/event/3A006531E11A7D2F",
     "last_verified_at": null,
@@ -186181,11 +186181,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593883,
+        "url": "https://www.vividseats.com/flans-tickets-houston-houston-arena-theatre-5-29-2027/production/7593883",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -186212,7 +186212,7 @@
     "ticketmaster_event_id": "3A00652F75893EB2",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-mcallen-texas-05-30-2027/event/3A00652F75893EB2",
     "seatgeek_url": "https://seatgeek.com/flans-tickets/mcallen-texas-mcallen-performing-arts-center-2027-05-30-8-pm/concert/18613121",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-mcallen-mcallen-performing-arts-center-5-30-2027--concerts-world-music/production/7593630",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-mcallen-texas-05-30-2027/event/3A00652F75893EB2",
     "last_verified_at": null,
@@ -186234,11 +186234,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593630,
+        "url": "https://www.vividseats.com/flans-tickets-mcallen-mcallen-performing-arts-center-5-30-2027--concerts-world-music/production/7593630",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -186265,7 +186265,7 @@
     "ticketmaster_event_id": "1C006531EBF2B89A",
     "ticketmaster_url": "https://www.ticketmaster.com/flans-sin-control-tour-2027-san-jose-california-06-03-2027/event/1C006531EBF2B89A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-san-jose-san-jose-civic-6-3-2027--concerts-world-music/production/7593636",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-sin-control-tour-2027-san-jose-california-06-03-2027/event/1C006531EBF2B89A",
     "last_verified_at": null,
@@ -186287,11 +186287,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593636,
+        "url": "https://www.vividseats.com/flans-tickets-san-jose-san-jose-civic-6-3-2027--concerts-world-music/production/7593636",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -186318,7 +186318,7 @@
     "ticketmaster_event_id": "3E00636A91763685",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/warren-zeiders-glasgow-11-10-2026/event/3E00636A91763685",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-glasgow-o2-academy-glasgow-10-11-2026--concerts-country-and-folk/production/6277275",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/warren-zeiders-glasgow-11-10-2026/event/3E00636A91763685",
     "last_verified_at": null,
@@ -186340,11 +186340,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6277275,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-glasgow-o2-academy-glasgow-10-11-2026--concerts-country-and-folk/production/6277275",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -186371,7 +186371,7 @@
     "ticketmaster_event_id": "3E0063663072FDB1",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/warren-zeiders-leeds-12-10-2026/event/3E0063663072FDB1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-leeds-o2-academy---leeds-10-12-2026--concerts-country-and-folk/production/6420846",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/warren-zeiders-leeds-12-10-2026/event/3E0063663072FDB1",
     "last_verified_at": "2026-10-07",
@@ -186393,11 +186393,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6420846,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-leeds-o2-academy---leeds-10-12-2026--concerts-country-and-folk/production/6420846",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -186431,7 +186431,7 @@
     "ticketmaster_event_id": "1F00635FDE00908E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/warren-zeiders-manchester-14-10-2026/event/1F00635FDE00908E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-manchester-manchester-academy-10-14-2026--concerts-country-and-folk/production/6277273",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/warren-zeiders-manchester-14-10-2026/event/1F00635FDE00908E",
     "last_verified_at": null,
@@ -186453,11 +186453,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6277273,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-manchester-manchester-academy-10-14-2026--concerts-country-and-folk/production/6277273",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -186537,7 +186537,7 @@
     "ticketmaster_event_id": "3E006363CFF9713E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/warren-zeiders-world-tour-2026-birmingham-16-10-2026/event/3E006363CFF9713E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-birmingham-o2-academy---birmingham-10-16-2026--concerts-country-and-folk/production/6277263",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/warren-zeiders-world-tour-2026-birmingham-16-10-2026/event/3E006363CFF9713E",
     "last_verified_at": null,
@@ -186559,11 +186559,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6277263,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-birmingham-o2-academy---birmingham-10-16-2026--concerts-country-and-folk/production/6277263",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -186643,7 +186643,7 @@
     "ticketmaster_event_id": "22006541AA89370E",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-presented-orlando-florida-03-25-2027/event/22006541AA89370E",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/orlando-florida-house-of-blues-orlando-2027-03-25-7-pm/concert/18649742",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-lake-buena-vista-house-of-blues-orlando-3-25-2027/production/7653877",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-presented-orlando-florida-03-25-2027/event/22006541AA89370E",
     "last_verified_at": "2026-10-07",
@@ -186665,11 +186665,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653877,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-lake-buena-vista-house-of-blues-orlando-3-25-2027/production/7653877",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -186734,7 +186734,7 @@
     "ticketmaster_event_id": "0D0065418958601A",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-hollywood-florida-03-26-2027/event/0D0065418958601A",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/hollywood-florida-daer-nightclub-at-the-seminole-hard-rock-hotel-casino-2027-03-26-7-pm/concert/18649740",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-3-26-2027/production/7653928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-hollywood-florida-03-26-2027/event/0D0065418958601A",
     "last_verified_at": "2026-10-07",
@@ -186756,11 +186756,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653928,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-3-26-2027/production/7653928",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -186825,7 +186825,7 @@
     "ticketmaster_event_id": "2100653EC6D6514B",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-waukee-iowa-04-02-2027/event/2100653EC6D6514B",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/waukee-iowa-vibrant-music-hall-2027-04-02-7-pm/concert/18649743",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-waukee-vibrant-music-hall-4-2-2027/production/7653930",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-waukee-iowa-04-02-2027/event/2100653EC6D6514B",
     "last_verified_at": "2026-10-07",
@@ -186847,11 +186847,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653930,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-waukee-vibrant-music-hall-4-2-2027/production/7653930",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -186916,7 +186916,7 @@
     "ticketmaster_event_id": "08006541B02463F9",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-grand-rapids-michigan-04-15-2027/event/08006541B02463F9",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2027-04-15-7-pm/concert/18649754",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-grand-rapids-glc-live-at-20-monroe-4-15-2027/production/7654266",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-grand-rapids-michigan-04-15-2027/event/08006541B02463F9",
     "last_verified_at": "2026-10-07",
@@ -186938,11 +186938,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654266,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-grand-rapids-glc-live-at-20-monroe-4-15-2027/production/7654266",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -187179,7 +187179,7 @@
     "ticketmaster_event_id": "16006541C47A9A6E",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-pittsburgh-pennsylvania-04-23-2027/event/16006541C47A9A6E",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2027-04-23-7-pm/concert/18649761",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-pittsburgh-citizens-live-at-the-wylie-4-23-2027/production/7653452",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-pittsburgh-pennsylvania-04-23-2027/event/16006541C47A9A6E",
     "last_verified_at": "2026-10-07",
@@ -187201,11 +187201,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653452,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-pittsburgh-citizens-live-at-the-wylie-4-23-2027/production/7653452",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -187275,7 +187275,7 @@
     "ticketmaster_event_id": "1600653EB00E81D9",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-cincinnati-ohio-04-24-2027/event/1600653EB00E81D9",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/cincinnati-ohio-andrew-j-brady-music-center-2027-04-24-7-pm/concert/18649764",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-cincinnati-andrew-j-brady-music-center-4-24-2027/production/7653990",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-cincinnati-ohio-04-24-2027/event/1600653EB00E81D9",
     "last_verified_at": "2026-10-07",
@@ -187297,11 +187297,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653990,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-cincinnati-andrew-j-brady-music-center-4-24-2027/production/7653990",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -187366,7 +187366,7 @@
     "ticketmaster_event_id": "2D00653EB7C32F38",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-columbia-south-carolina-04-29-2027/event/2D00653EB7C32F38",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/columbia-south-carolina-township-auditorium-2027-04-29-7-pm/concert/18649765",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-columbia-township-auditorium-4-29-2027/production/7653998",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-columbia-south-carolina-04-29-2027/event/2D00653EB7C32F38",
     "last_verified_at": "2026-10-07",
@@ -187388,11 +187388,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653998,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-columbia-township-auditorium-4-29-2027/production/7653998",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -187447,7 +187447,7 @@
     "ticketmaster_event_id": "0E006541C3E15265",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-atlanta-georgia-04-30-2027/event/0E006541C3E15265",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-04-30-7-pm/concert/18649766",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-atlanta-coca-cola-roxy-theatre-4-30-2027/production/7654298",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-atlanta-georgia-04-30-2027/event/0E006541C3E15265",
     "last_verified_at": "2026-10-07",
@@ -187469,11 +187469,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654298,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-atlanta-coca-cola-roxy-theatre-4-30-2027/production/7654298",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -188009,7 +188009,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeK0t",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeK0t",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-los-angeles-greek-theatre---los-angeles-8-17-2027/production/7637420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeK0t",
     "last_verified_at": null,
@@ -188031,11 +188031,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7637420,
+        "url": "https://www.vividseats.com/the-red-clay-strays-tickets-los-angeles-greek-theatre---los-angeles-8-17-2027/production/7637420",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -188134,7 +188134,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeaoe",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaoe",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/flans-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-5-28-2027/production/7602085",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaoe",
     "last_verified_at": null,
@@ -188156,11 +188156,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7602085,
+        "url": "https://www.vividseats.com/flans-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-5-28-2027/production/7602085",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

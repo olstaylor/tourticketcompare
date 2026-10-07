@@ -293,11 +293,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7874849",
-        "url": "https://www.ticketliquidator.com/tickets/7874849/sombr-tickets-Tue-Oct-6-2026-Golden-1-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_FLi21bJ",
@@ -305,7 +305,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-sacramento-tickets-10-6-2026/event/107158169",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874849/sombr-tickets-Tue-Oct-6-2026-Golden-1-Center"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-sombr-2026-san-jose-g5vyz_fljzy-y",

@@ -278,18 +278,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7457607",
-        "url": "https://www.ticketliquidator.com/tickets/7457607/Doja-Cat-tickets-Tue-Oct-6-2026-T-Mobile-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZbSGkwNTdvB",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457607/Doja-Cat-tickets-Tue-Oct-6-2026-T-Mobile-Center"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-doja-cat-2026-denver-g5vzzbsefo0an",

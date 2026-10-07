@@ -17372,11 +17372,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7679806",
-        "url": "https://www.ticketliquidator.com/tickets/7679806/Bruno-Mars-tickets-Tue-Oct-6-2026-SoFi-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107073304",
@@ -17391,7 +17391,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_eheCVin",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7679806/Bruno-Mars-tickets-Tue-Oct-6-2026-SoFi-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-6-2026/event/107073304"
   },
   {
@@ -23906,11 +23906,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034402",
-        "url": "https://www.ticketliquidator.com/tickets/8034402/Charli-XCX-tickets-Tue-Oct-6-2026-State-Farm-Arena-GA",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107325082",
@@ -23924,7 +23924,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034402/Charli-XCX-tickets-Tue-Oct-6-2026-State-Farm-Arena-GA",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-atlanta-tickets-10-6-2026/event/107325082"
   },
   {
@@ -35395,18 +35395,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7457607",
-        "url": "https://www.ticketliquidator.com/tickets/7457607/Doja-Cat-tickets-Tue-Oct-6-2026-T-Mobile-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZbSGkwNTdvB",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457607/Doja-Cat-tickets-Tue-Oct-6-2026-T-Mobile-Center"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-doja-cat-2026-denver-g5vzzbsefo0an",
@@ -37775,11 +37775,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7874849",
-        "url": "https://www.ticketliquidator.com/tickets/7874849/sombr-tickets-Tue-Oct-6-2026-Golden-1-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_FLi21bJ",
@@ -37787,7 +37787,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-sacramento-tickets-10-6-2026/event/107158169",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874849/sombr-tickets-Tue-Oct-6-2026-Golden-1-Center"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-sombr-2026-san-jose-g5vyz_fljzy-y",
@@ -82428,11 +82428,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8135394",
-        "url": "https://www.ticketliquidator.com/tickets/8135394/Michelle-Branch-tickets-Tue-Oct-6-2026-Fremont-Theater-CA",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -82445,7 +82445,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Jfbx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135394/Michelle-Branch-tickets-Tue-Oct-6-2026-Fremont-Theater-CA",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": ""
   },
   {
@@ -85619,11 +85619,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8219117",
-        "url": "https://www.ticketliquidator.com/tickets/8219117/Sylvan-Esso-tickets-Tue-Oct-6-2026-930-Club",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -85636,7 +85636,7 @@
     "ticketmaster_discovery_event_id": "17A8v0G6Gi4rjO9",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8219117/Sylvan-Esso-tickets-Tue-Oct-6-2026-930-Club",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": ""
   },
   {
@@ -180958,12 +180958,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7718199",
+        "url": "https://www.ticketliquidator.com/tickets/7718199/Staind-tickets-Fri-Oct-9-2026-Toyota-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_dwgiJMI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718199"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718199",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718199/Staind-tickets-Fri-Oct-9-2026-Toyota-Amphitheatre"
   },
   {
     "id": "tm-staind-2026-ontario-vv170z_dgkwr0_z6",
@@ -181019,12 +181027,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7718202",
+        "url": "https://www.ticketliquidator.com/tickets/7718202/Staind-tickets-Sat-Oct-10-2026-Toyota-Arena-Ontario",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_dGkwr0_Z6",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718202"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718202",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718202/Staind-tickets-Sat-Oct-10-2026-Toyota-Arena-Ontario"
   },
   {
     "id": "tm-staind-2026-phoenix-1av0z_dgku63v-5",
@@ -181080,6 +181096,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7718203",
+        "url": "https://www.ticketliquidator.com/tickets/7718203/Staind-tickets-Tue-Oct-13-2026-Talking-Stick-Resort-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_dGkU63V-5",
@@ -181092,7 +181115,8 @@
         "end": "2026-10-11T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718203"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718203",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718203/Staind-tickets-Tue-Oct-13-2026-Talking-Stick-Resort-Amphitheatre"
   },
   {
     "id": "tm-staind-2026-albuquerque-g5vzz_dsirnej",
@@ -181148,6 +181172,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7718205",
+        "url": "https://www.ticketliquidator.com/tickets/7718205/Staind-tickets-Wed-Oct-14-2026-First-Financial-Credit-Union-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_dSirnEj",
@@ -181160,7 +181191,8 @@
         "end": "2026-10-08T05:59:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718205"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718205",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718205/Staind-tickets-Wed-Oct-14-2026-First-Financial-Credit-Union-Amphitheater"
   },
   {
     "id": "tm-staind-2026-tulsa-1aezz_dgkvarp7d",
@@ -181216,6 +181248,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7718208",
+        "url": "https://www.ticketliquidator.com/tickets/7718208/Staind-tickets-Fri-Oct-16-2026-BOK-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_dGkVARP7D",
@@ -181228,7 +181267,8 @@
         "end": "2026-10-10T04:59:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718208"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718208",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718208/Staind-tickets-Fri-Oct-16-2026-BOK-Center"
   },
   {
     "id": "tm-staind-2026-the-woodlands-g5diz_dbvgqfi",
@@ -181344,6 +181384,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7718212",
+        "url": "https://www.ticketliquidator.com/tickets/7718212/Staind-tickets-Mon-Oct-19-2026-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_dYkGaJg",
@@ -181356,7 +181403,8 @@
         "end": "2026-10-13T04:59:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718212"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718212",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718212/Staind-tickets-Mon-Oct-19-2026-Moody-Center-ATX"
   },
   {
     "id": "tm-staind-2027-manchester-vv177z_kgkbyj0rc",
@@ -181409,6 +181457,13 @@
       "ticketnetwork": {
         "event_id": "8308766",
         "url": "https://www.ticketnetwork.com/en/p/8308766",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308766",
+        "url": "https://www.ticketliquidator.com/tickets/8308766/Staind-tickets-Thu-Mar-4-2027-SNHU-Arena",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -181465,7 +181520,8 @@
         "end": "2027-02-28T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308766"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308766",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308766/Staind-tickets-Thu-Mar-4-2027-SNHU-Arena"
   },
   {
     "id": "tm-staind-2027-baltimore-11a8vpokayf8vu",
@@ -181518,6 +181574,13 @@
       "ticketnetwork": {
         "event_id": "8308767",
         "url": "https://www.ticketnetwork.com/en/p/8308767",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308767",
+        "url": "https://www.ticketliquidator.com/tickets/8308767/Staind-tickets-Sat-Mar-6-2027-CFG-Bank-Arena",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -181574,7 +181637,8 @@
         "end": "2027-03-01T15:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308767"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308767",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308767/Staind-tickets-Sat-Mar-6-2027-CFG-Bank-Arena"
   },
   {
     "id": "tm-staind-2027-pittsburgh-1avbz_kgkdoccp7",
@@ -181627,6 +181691,13 @@
       "ticketnetwork": {
         "event_id": "8308768",
         "url": "https://www.ticketnetwork.com/en/p/8308768",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308768",
+        "url": "https://www.ticketliquidator.com/tickets/8308768/Staind-tickets-Mon-Mar-8-2027-PPG-Paints-Arena",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -181683,7 +181754,8 @@
         "end": "2027-03-04T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308768"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308768",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308768/Staind-tickets-Mon-Mar-8-2027-PPG-Paints-Arena"
   },
   {
     "id": "tm-staind-2027-reading-vv1aezk4vgkeshnyh",
@@ -181936,6 +182008,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308771",
+        "url": "https://www.ticketliquidator.com/tickets/8308771/Staind-tickets-Fri-Mar-12-2027-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_f6ErMdd",
@@ -181989,7 +182068,8 @@
         "end": "2027-03-08T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308771"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308771",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308771/Staind-tickets-Fri-Mar-12-2027-Benchmark-International-Arena"
   },
   {
     "id": "tm-staind-2027-west-palm-beach-vvg1vz_kdb8l2e",
@@ -182042,6 +182122,13 @@
       "ticketnetwork": {
         "event_id": "8308772",
         "url": "https://www.ticketnetwork.com/en/p/8308772",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308772",
+        "url": "https://www.ticketliquidator.com/tickets/8308772/Staind-tickets-Sat-Mar-13-2027-iTHINK-Financial-Amphitheatre",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -182098,7 +182185,8 @@
         "end": "2027-03-09T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308772"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308772",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308772/Staind-tickets-Sat-Mar-13-2027-iTHINK-Financial-Amphitheatre"
   },
   {
     "id": "tm-staind-2027-birmingham-1aozk4vgkdpep6o",
@@ -182151,6 +182239,13 @@
       "ticketnetwork": {
         "event_id": "8308773",
         "url": "https://www.ticketnetwork.com/en/p/8308773",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308773",
+        "url": "https://www.ticketliquidator.com/tickets/8308773/Staind-tickets-Tue-Mar-16-2027-Legacy-Arena-at-The-BJCC",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -182207,7 +182302,8 @@
         "end": "2027-03-12T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308773"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308773",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308773/Staind-tickets-Tue-Mar-16-2027-Legacy-Arena-at-The-BJCC"
   },
   {
     "id": "tm-staind-2027-oklahoma-city-vvg1yz_kb9ngdb",
@@ -182260,6 +182356,13 @@
       "ticketnetwork": {
         "event_id": "8308774",
         "url": "https://www.ticketnetwork.com/en/p/8308774",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308774",
+        "url": "https://www.ticketliquidator.com/tickets/8308774/Staind-tickets-Thu-Mar-18-2027-Paycom-Center",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -182316,7 +182419,8 @@
         "end": "2027-03-14T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308774"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308774",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308774/Staind-tickets-Thu-Mar-18-2027-Paycom-Center"
   },
   {
     "id": "tm-staind-2027-dallas-vvg1yz_ffb7hxs",
@@ -182372,6 +182476,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308775",
+        "url": "https://www.ticketliquidator.com/tickets/8308775/Staind-tickets-Fri-Mar-19-2027-Dos-Equis-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_fFB7hxs",
@@ -182420,7 +182531,8 @@
         "end": "2027-03-15T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308775"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308775",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308775/Staind-tickets-Fri-Mar-19-2027-Dos-Equis-Pavilion"
   },
   {
     "id": "tm-staind-2027-san-antonio-g5diz_fkhzhba",
@@ -182473,6 +182585,13 @@
       "ticketnetwork": {
         "event_id": "8308776",
         "url": "https://www.ticketnetwork.com/en/p/8308776",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308776",
+        "url": "https://www.ticketliquidator.com/tickets/8308776/Staind-tickets-Sat-Mar-20-2027-Frost-Bank-Center",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -182529,7 +182648,8 @@
         "end": "2027-03-16T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308776"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308776",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308776/Staind-tickets-Sat-Mar-20-2027-Frost-Bank-Center"
   },
   {
     "id": "tm-staind-2027-denver-g5vzz_f7kx5yq",
@@ -182582,6 +182702,13 @@
       "ticketnetwork": {
         "event_id": "8308777",
         "url": "https://www.ticketnetwork.com/en/p/8308777",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308777",
+        "url": "https://www.ticketliquidator.com/tickets/8308777/Staind-tickets-Mon-Mar-22-2027-Ball-Arena",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -182638,7 +182765,8 @@
         "end": "2027-03-18T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308777"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308777",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308777/Staind-tickets-Mon-Mar-22-2027-Ball-Arena"
   },
   {
     "id": "tm-staind-2027-boise-g5vzz_kb7mfuo",
@@ -182691,6 +182819,13 @@
       "ticketnetwork": {
         "event_id": "8308778",
         "url": "https://www.ticketnetwork.com/en/p/8308778",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308778",
+        "url": "https://www.ticketliquidator.com/tickets/8308778/Staind-tickets-Wed-Mar-24-2027-ExtraMile-Arena",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -182747,7 +182882,8 @@
         "end": "2027-03-20T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308778"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308778",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308778/Staind-tickets-Wed-Mar-24-2027-ExtraMile-Arena"
   },
   {
     "id": "tm-staind-2027-seattle-vvg1hz_km9huyk",
@@ -182800,6 +182936,13 @@
       "ticketnetwork": {
         "event_id": "8308781",
         "url": "https://www.ticketnetwork.com/en/p/8308781",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308781",
+        "url": "https://www.ticketliquidator.com/tickets/8308781/Staind-tickets-Sat-Mar-27-2027-Climate-Pledge-Arena",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -182856,7 +182999,8 @@
         "end": "2027-03-23T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308781"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308781",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308781/Staind-tickets-Sat-Mar-27-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-staind-2027-vancouver-1aozk4egkdceqzp",
@@ -182912,6 +183056,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308793",
+        "url": "https://www.ticketliquidator.com/tickets/8308793/Staind-tickets-Mon-Mar-29-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4eGkdCEqZp",
@@ -182960,7 +183111,8 @@
         "end": "2027-03-25T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308793"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308793",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308793/Staind-tickets-Mon-Mar-29-2027-Rogers-Arena"
   },
   {
     "id": "tm-staind-2027-calgary-1av7z_kgkm-emew",
@@ -183016,6 +183168,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308794",
+        "url": "https://www.ticketliquidator.com/tickets/8308794/Staind-tickets-Wed-Mar-31-2027-Scotiabank-Saddledome",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkM-emEw",
@@ -183064,7 +183223,8 @@
         "end": "2027-03-27T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308794"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308794",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308794/Staind-tickets-Wed-Mar-31-2027-Scotiabank-Saddledome"
   },
   {
     "id": "tm-staind-2027-edmonton-1av7z_kgkz_xe9-",
@@ -183120,6 +183280,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308795",
+        "url": "https://www.ticketliquidator.com/tickets/8308795/Staind-tickets-Thu-Apr-1-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkz_xe9-",
@@ -183168,7 +183335,8 @@
         "end": "2027-03-28T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308795"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308795",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308795/Staind-tickets-Thu-Apr-1-2027-Rogers-Place"
   },
   {
     "id": "tm-staind-2027-sioux-falls-vv1akzk4vgkd8j7ov",
@@ -183221,6 +183389,13 @@
       "ticketnetwork": {
         "event_id": "8308785",
         "url": "https://www.ticketnetwork.com/en/p/8308785",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308785",
+        "url": "https://www.ticketliquidator.com/tickets/8308785/Staind-tickets-Tue-Apr-6-2027-Denny-Sanford-Premier-Center",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -183277,7 +183452,8 @@
         "end": "2027-04-02T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308785"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308785",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308785/Staind-tickets-Tue-Apr-6-2027-Denny-Sanford-Premier-Center"
   },
   {
     "id": "tm-staind-2027-fargo-vv17bz_kgkuwy5mz",
@@ -183330,6 +183506,13 @@
       "ticketnetwork": {
         "event_id": "8308786",
         "url": "https://www.ticketnetwork.com/en/p/8308786",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308786",
+        "url": "https://www.ticketliquidator.com/tickets/8308786/Staind-tickets-Wed-Apr-7-2027-Fargodome",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -183386,7 +183569,8 @@
         "end": "2027-04-03T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308786"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308786",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308786/Staind-tickets-Wed-Apr-7-2027-Fargodome"
   },
   {
     "id": "tm-staind-2027-omaha-vv1kvovp8tga5iapt",
@@ -183442,6 +183626,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308787",
+        "url": "https://www.ticketliquidator.com/tickets/8308787/Staind-tickets-Fri-Apr-9-2027-CHI-Health-Center-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvP8tGA5IaPT",
@@ -183490,7 +183681,8 @@
         "end": "2027-04-05T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308787"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308787",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308787/Staind-tickets-Fri-Apr-9-2027-CHI-Health-Center-Omaha"
   },
   {
     "id": "tm-staind-2027-kansas-city-vv1akzk4vgkegdrbt",
@@ -183543,6 +183735,13 @@
       "ticketnetwork": {
         "event_id": "8308788",
         "url": "https://www.ticketnetwork.com/en/p/8308788",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308788",
+        "url": "https://www.ticketliquidator.com/tickets/8308788/Staind-tickets-Sat-Apr-10-2027-T-Mobile-Center",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -183599,7 +183798,8 @@
         "end": "2027-04-11T00:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308788"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308788",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308788/Staind-tickets-Sat-Apr-10-2027-T-Mobile-Center"
   },
   {
     "id": "tm-staind-2027-moline-vv1fbz_fkec7zdga1",
@@ -183652,6 +183852,13 @@
       "ticketnetwork": {
         "event_id": "8308789",
         "url": "https://www.ticketnetwork.com/en/p/8308789",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308789",
+        "url": "https://www.ticketliquidator.com/tickets/8308789/Staind-tickets-Sun-Apr-11-2027-Vibrant-Arena-at-The-MARK",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -183708,7 +183915,8 @@
         "end": "2027-04-02T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308789"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308789",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308789/Staind-tickets-Sun-Apr-11-2027-Vibrant-Arena-at-The-MARK"
   },
   {
     "id": "tm-staind-2027-grand-rapids-vv17oz_kgkmqeain",
@@ -183761,6 +183969,13 @@
       "ticketnetwork": {
         "event_id": "8308790",
         "url": "https://www.ticketnetwork.com/en/p/8308790",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308790",
+        "url": "https://www.ticketliquidator.com/tickets/8308790/Staind-tickets-Tue-Apr-13-2027-Van-Andel-Arena",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -183817,7 +184032,8 @@
         "end": "2027-04-09T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308790"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308790",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308790/Staind-tickets-Tue-Apr-13-2027-Van-Andel-Arena"
   },
   {
     "id": "tm-staind-2027-evansville-vv17fz_kgkd3hr7l",
@@ -183870,6 +184086,13 @@
       "ticketnetwork": {
         "event_id": "8308791",
         "url": "https://www.ticketnetwork.com/en/p/8308791",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308791",
+        "url": "https://www.ticketliquidator.com/tickets/8308791/Staind-tickets-Wed-Apr-14-2027-Ford-Center-IN",
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
@@ -183931,7 +184154,8 @@
         "end": "2027-04-10T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308791"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308791",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308791/Staind-tickets-Wed-Apr-14-2027-Ford-Center-IN"
   },
   {
     "id": "tm-dylan-gossett-2026-waco-z7r9jz1a7jdak",
@@ -183987,12 +184211,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8111328",
+        "url": "https://www.ticketliquidator.com/tickets/8111328/Dylan-Gossett-tickets-Sat-Oct-24-2026-Magnolia-Market-At-The-Silos",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JdAk",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8111328"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8111328",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8111328/Dylan-Gossett-tickets-Sat-Oct-24-2026-Magnolia-Market-At-The-Silos"
   },
   {
     "id": "tm-dylan-gossett-2026-chicago-vvg18z_u5xbtr6",
@@ -184101,12 +184333,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8073983",
+        "url": "https://www.ticketliquidator.com/tickets/8073983/Dylan-Gossett-tickets-Fri-Oct-30-2026-Citizens-Live-at-The-Wylie",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G6u5IJrxE",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8073983"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8073983",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8073983/Dylan-Gossett-tickets-Fri-Oct-30-2026-Citizens-Live-at-The-Wylie"
   },
   {
     "id": "tm-dylan-gossett-2026-apopka-z7r9jz1a7ps7y",
@@ -184162,12 +184402,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8073985",
+        "url": "https://www.ticketliquidator.com/tickets/8073985/Dylan-Gossett-tickets-Sat-Nov-21-2026-Apopka-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ps7y",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8073985"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8073985",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8073985/Dylan-Gossett-tickets-Sat-Nov-21-2026-Apopka-Amphitheater"
   },
   {
     "id": "tm-dylan-gossett-2026-brisbane-177yv0g61tezlg8",
@@ -184488,12 +184736,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265884",
+        "url": "https://www.ticketliquidator.com/tickets/8265884/Dylan-Gossett-tickets-Sun-Feb-21-2027-O2-Academy-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_83l8ohZ",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265884"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265884",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265884/Dylan-Gossett-tickets-Sun-Feb-21-2027-O2-Academy-Birmingham"
   },
   {
     "id": "tm-dylan-gossett-2027-glasgow-g5dzz_8pg5sb3",
@@ -184768,6 +185024,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303652",
+        "url": "https://www.ticketliquidator.com/tickets/8303652/Dylan-Gossett-tickets-Fri-Mar-26-2027-House-Of-Blues-Myrtle-Beach",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KUXKrl8",
@@ -184780,7 +185043,8 @@
         "end": "2027-03-06T04:59:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303652"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303652",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303652/Dylan-Gossett-tickets-Fri-Mar-26-2027-House-Of-Blues-Myrtle-Beach"
   },
   {
     "id": "tm-dylan-gossett-2027-charlotte-g5evz_kb2iepf",
@@ -184836,6 +185100,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303653",
+        "url": "https://www.ticketliquidator.com/tickets/8303653/Dylan-Gossett-tickets-Sat-Mar-27-2027-The-Fillmore-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KB2iEPf",
@@ -184848,7 +185119,8 @@
         "end": "2027-03-02T04:59:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303653"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303653",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303653/Dylan-Gossett-tickets-Sat-Mar-27-2027-The-Fillmore-Charlotte"
   },
   {
     "id": "tm-dylan-gossett-2027-chattanooga-z7r9jz1aae4bi",
@@ -184904,12 +185176,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307109",
+        "url": "https://www.ticketliquidator.com/tickets/8307109/Dylan-Gossett-tickets-Tue-Mar-30-2027-The-Signal-TN",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4bI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307109"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307109",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307109/Dylan-Gossett-tickets-Tue-Mar-30-2027-The-Signal-TN"
   },
   {
     "id": "tm-dylan-gossett-2027-saint-louis-1ae7z_kgkyeggq8",
@@ -185025,12 +185305,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8304295",
+        "url": "https://www.ticketliquidator.com/tickets/8304295/Dylan-Gossett-tickets-Fri-Apr-2-2027-Ozark-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4bt",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8304295"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8304295",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8304295/Dylan-Gossett-tickets-Fri-Apr-2-2027-Ozark-Music-Hall"
   },
   {
     "id": "tm-dylan-gossett-2027-memphis-g5viz_f659_2b",
@@ -185086,6 +185374,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303655",
+        "url": "https://www.ticketliquidator.com/tickets/8303655/Dylan-Gossett-tickets-Sat-Apr-3-2027-Satellite-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f659_2b",
@@ -185098,7 +185393,8 @@
         "end": "2027-03-14T05:59:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303655"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303655",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303655/Dylan-Gossett-tickets-Sat-Apr-3-2027-Satellite-Music-Hall"
   },
   {
     "id": "tm-dylan-gossett-2027-birmingham-1aezz_kgkbdr7ks",
@@ -185214,6 +185510,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303657",
+        "url": "https://www.ticketliquidator.com/tickets/8303657/Dylan-Gossett-tickets-Tue-Apr-6-2027-The-Met-Presented-by-Highmark",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkMvQdsy",
@@ -185226,7 +185529,8 @@
         "end": "2027-03-17T03:59:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303657"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303657",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303657/Dylan-Gossett-tickets-Tue-Apr-6-2027-The-Met-Presented-by-Highmark"
   },
   {
     "id": "tm-dylan-gossett-2027-baltimore-1avfz_kgkbht6mj",
@@ -185282,6 +185586,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303658",
+        "url": "https://www.ticketliquidator.com/tickets/8303658/Dylan-Gossett-tickets-Wed-Apr-7-2027-The-Paramount-Baltimore",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_KGkBhT6mJ",
@@ -185294,7 +185605,8 @@
         "end": "2027-03-18T03:59:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303658"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303658",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303658/Dylan-Gossett-tickets-Wed-Apr-7-2027-The-Paramount-Baltimore"
   },
   {
     "id": "tm-dylan-gossett-2027-columbus-z7r9jz1aae4by",
@@ -185350,12 +185662,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307089",
+        "url": "https://www.ticketliquidator.com/tickets/8307089/Dylan-Gossett-tickets-Thu-Apr-8-2027-KEMBA-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4bY",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307089"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307089",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307089/Dylan-Gossett-tickets-Thu-Apr-8-2027-KEMBA-Live"
   },
   {
     "id": "tm-dylan-gossett-2027-detroit-vv17oz_kgkub0uhh",
@@ -185411,6 +185731,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303659",
+        "url": "https://www.ticketliquidator.com/tickets/8303659/Dylan-Gossett-tickets-Sat-Apr-10-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkUB0UHH",
@@ -185423,7 +185750,8 @@
         "end": "2027-03-14T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303659"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303659",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303659/Dylan-Gossett-tickets-Sat-Apr-10-2027-The-Fillmore-Detroit"
   },
   {
     "id": "tm-dylan-gossett-2027-grand-rapids-vv17oz_kgkubfkdd",
@@ -185479,6 +185807,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303660",
+        "url": "https://www.ticketliquidator.com/tickets/8303660/Dylan-Gossett-tickets-Sun-Apr-11-2027-GLC-Live-at-20-Monroe",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkUBFkDd",
@@ -185491,7 +185826,8 @@
         "end": "2027-03-15T03:59:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303660"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303660",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303660/Dylan-Gossett-tickets-Sun-Apr-11-2027-GLC-Live-at-20-Monroe"
   },
   {
     "id": "tm-dylan-gossett-2027-indianapolis-vv17fz_kgkd3hmfo",
@@ -185547,6 +185883,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303661",
+        "url": "https://www.ticketliquidator.com/tickets/8303661/Dylan-Gossett-tickets-Tue-May-4-2027-Egyptian-Room-At-Old-National-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_KGkD3HmFo",
@@ -185559,7 +185902,8 @@
         "end": "2027-04-13T07:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303661"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303661",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303661/Dylan-Gossett-tickets-Tue-May-4-2027-Egyptian-Room-At-Old-National-Centre"
   },
   {
     "id": "tm-dylan-gossett-2027-madison-vv17jz_kgkmgwnt1",
@@ -185615,6 +185959,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303662",
+        "url": "https://www.ticketliquidator.com/tickets/8303662/Dylan-Gossett-tickets-Thu-May-6-2027-The-Sylvee-WI",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_KGkMgWnT1",
@@ -185627,7 +185978,8 @@
         "end": "2027-04-06T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303662"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303662",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303662/Dylan-Gossett-tickets-Thu-May-6-2027-The-Sylvee-WI"
   },
   {
     "id": "tm-dylan-gossett-2027-kansas-city-vv17bz_kgkwikfde",
@@ -185683,6 +186035,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303663",
+        "url": "https://www.ticketliquidator.com/tickets/8303663/Dylan-Gossett-tickets-Fri-May-7-2027-Uptown-Theater-KC",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkwikFdE",
@@ -185695,7 +186054,8 @@
         "end": "2027-04-17T04:59:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303663"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303663",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303663/Dylan-Gossett-tickets-Fri-May-7-2027-Uptown-Theater-KC"
   },
   {
     "id": "tm-dylan-gossett-2027-la-vista-1aezz_kgkwpxe_0",
@@ -185804,6 +186164,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303665",
+        "url": "https://www.ticketliquidator.com/tickets/8303665/Dylan-Gossett-tickets-Thu-May-13-2027-Moody-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fkDqvVu",
@@ -185816,7 +186183,8 @@
         "end": "2027-04-27T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303665"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303665",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303665/Dylan-Gossett-tickets-Thu-May-13-2027-Moody-Amphitheater"
   },
   {
     "id": "tm-dylan-gossett-2027-houston-g5diz_kmyuwxg",
@@ -185872,6 +186240,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303666",
+        "url": "https://www.ticketliquidator.com/tickets/8303666/Dylan-Gossett-tickets-Fri-May-14-2027-Bayou-Music-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KMYuwXg",
@@ -185884,7 +186259,8 @@
         "end": "2027-05-14T15:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303666"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303666",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303666/Dylan-Gossett-tickets-Fri-May-14-2027-Bayou-Music-Center"
   },
   {
     "id": "tm-dylan-gossett-2027-fort-worth-z7r9jz1aae4bs",
@@ -186152,12 +186528,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8289130",
+        "url": "https://www.ticketliquidator.com/tickets/8289130/Flans-tickets-Sat-Feb-13-2027-The-Linda-Ronstadt-Music-Hall-At-Tucson-Convention-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3GkBvRKjG",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289130"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289130",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289130/Flans-tickets-Sat-Feb-13-2027-The-Linda-Ronstadt-Music-Hall-At-Tucson-Convention-Center"
   },
   {
     "id": "tm-flans-2027-atlanta-vvg1zz_k5zjmuk",
@@ -186213,12 +186597,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8289131",
+        "url": "https://www.ticketliquidator.com/tickets/8289131/Flans-tickets-Thu-Feb-25-2027-Cobb-Energy-Performing-Arts-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_K5ZJmuk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289131"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289131",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289131/Flans-tickets-Thu-Feb-25-2027-Cobb-Energy-Performing-Arts-Centre"
   },
   {
     "id": "tm-flans-2027-charlotte-g5evz_3xf-_ej",
@@ -186274,12 +186666,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8289132",
+        "url": "https://www.ticketliquidator.com/tickets/8289132/Flans-tickets-Fri-Feb-26-2027-Ovens-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_3Xf-_Ej",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289132"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289132",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289132/Flans-tickets-Fri-Feb-26-2027-Ovens-Auditorium"
   },
   {
     "id": "tm-flans-2027-raleigh-g5evz_k_sqdn_",
@@ -186335,12 +186735,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8289133",
+        "url": "https://www.ticketliquidator.com/tickets/8289133/Flans-tickets-Sat-Feb-27-2027-Raleigh-Memorial-Auditorium-At-Martin-Marietta-Center-for-the-Performing-Arts",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_K_SQdN_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289133"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289133",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289133/Flans-tickets-Sat-Feb-27-2027-Raleigh-Memorial-Auditorium-At-Martin-Marietta-Center-for-the-Performing-Arts"
   },
   {
     "id": "tm-flans-2027-denver-g5vzz_kk90pao",
@@ -186396,12 +186804,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8289134",
+        "url": "https://www.ticketliquidator.com/tickets/8289134/Flans-tickets-Thu-Mar-4-2027-Paramount-Theatre-Denver",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_Kk90pao",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289134"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289134",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289134/Flans-tickets-Thu-Mar-4-2027-Paramount-Theatre-Denver"
   },
   {
     "id": "tm-flans-2027-kansas-city-z7r9jz1aaevrv",
@@ -186457,12 +186873,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8288706",
+        "url": "https://www.ticketliquidator.com/tickets/8288706/Flans-tickets-Fri-Mar-5-2027-The-Midland-Theatre-MO",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAevrv",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8288706"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8288706",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8288706/Flans-tickets-Fri-Mar-5-2027-The-Midland-Theatre-MO"
   },
   {
     "id": "tm-flans-2027-san-diego-vvg1iz_3rf4hkp",
@@ -186518,12 +186942,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8289135",
+        "url": "https://www.ticketliquidator.com/tickets/8289135/Flans-tickets-Fri-Mar-12-2027-San-Diego-Civic-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3RF4HkP",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289135"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289135",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289135/Flans-tickets-Fri-Mar-12-2027-San-Diego-Civic-Theatre"
   },
   {
     "id": "tm-flans-2027-los-angeles-vv1aazkfsgkdiitze",
@@ -186579,12 +187011,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8289136",
+        "url": "https://www.ticketliquidator.com/tickets/8289136/Flans-tickets-Sun-Mar-14-2027-Orpheum-Theatre-Los-Angeles",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkfSGkdiiTZe",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289136"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289136",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289136/Flans-tickets-Sun-Mar-14-2027-Orpheum-Theatre-Los-Angeles"
   },
   {
     "id": "tm-flans-2027-houston-g5diz_k6-kevr",
@@ -186640,12 +187080,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8289137",
+        "url": "https://www.ticketliquidator.com/tickets/8289137/Flans-tickets-Sat-May-29-2027-Houston-Arena-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_K6-kEVR",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289137"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289137",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289137/Flans-tickets-Sat-May-29-2027-Houston-Arena-Theatre"
   },
   {
     "id": "tm-flans-2027-mcallen-g5diz_3wgxkbw",
@@ -186701,12 +187149,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8289138",
+        "url": "https://www.ticketliquidator.com/tickets/8289138/Flans-tickets-Sun-May-30-2027-McAllen-Performing-Arts-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3WgxKBw",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289138"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289138",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289138/Flans-tickets-Sun-May-30-2027-McAllen-Performing-Arts-Center"
   },
   {
     "id": "tm-flans-2027-san-jose-g5vyz_k6lhlxq",
@@ -186762,12 +187218,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8289139",
+        "url": "https://www.ticketliquidator.com/tickets/8289139/Flans-tickets-Thu-Jun-3-2027-San-Jose-Civic",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K6lHlxQ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289139"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289139",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289139/Flans-tickets-Thu-Jun-3-2027-San-Jose-Civic"
   },
   {
     "id": "tm-warren-zeiders-2026-glasgow-g5dzzbunoqnqa",
@@ -186823,12 +187287,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7796640",
+        "url": "https://www.ticketliquidator.com/tickets/7796640/Warren-Zeiders-tickets-Sun-Oct-11-2026-O2-Academy-Glasgow",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbUnoqNQA",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7796640"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7796640",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7796640/Warren-Zeiders-tickets-Sun-Oct-11-2026-O2-Academy-Glasgow"
   },
   {
     "id": "tm-warren-zeiders-2026-leeds-g5dzzbubyjrus",
@@ -186884,6 +187356,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8086310",
+        "url": "https://www.ticketliquidator.com/tickets/8086310/Warren-Zeiders-tickets-Mon-Oct-12-2026-O2-Academy-Leeds",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbUbYjRUs",
@@ -186896,7 +187375,8 @@
         "end": "2026-10-12T18:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8086310"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8086310",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8086310/Warren-Zeiders-tickets-Mon-Oct-12-2026-O2-Academy-Leeds"
   },
   {
     "id": "tm-warren-zeiders-2026-manchester-g5vhzbgtrzaec",
@@ -186952,12 +187432,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7856049",
+        "url": "https://www.ticketliquidator.com/tickets/7856049/Warren-Zeiders-tickets-Wed-Oct-14-2026-Manchester-Academy-1",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZbgTrZaeC",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856049"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856049",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856049/Warren-Zeiders-tickets-Wed-Oct-14-2026-Manchester-Academy-1"
   },
   {
     "id": "tm-warren-zeiders-2026-bristol-g5dzzbgxgfjht",
@@ -187013,12 +187501,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7856051",
+        "url": "https://www.ticketliquidator.com/tickets/7856051/Warren-Zeiders-tickets-Thu-Oct-15-2026-O2-Academy-Bristol",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbgXgFJhT",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856051"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856051",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856051/Warren-Zeiders-tickets-Thu-Oct-15-2026-O2-Academy-Bristol"
   },
   {
     "id": "tm-warren-zeiders-2026-birmingham-g5dzzbu22x97x",
@@ -187074,12 +187570,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7856053",
+        "url": "https://www.ticketliquidator.com/tickets/7856053/Warren-Zeiders-tickets-Fri-Oct-16-2026-O2-Academy-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbU22X97X",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856053"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856053",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856053/Warren-Zeiders-tickets-Fri-Oct-16-2026-O2-Academy-Birmingham"
   },
   {
     "id": "tm-warren-zeiders-2026-london-g5vhzbgx4c4_f",
@@ -187135,12 +187639,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7823372",
+        "url": "https://www.ticketliquidator.com/tickets/7823372/Warren-Zeiders-tickets-Sun-Oct-18-2026-Roundhouse-London",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZbgX4C4_f",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7823372"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7823372",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7823372/Warren-Zeiders-tickets-Sun-Oct-18-2026-Roundhouse-London"
   },
   {
     "id": "tm-warren-zeiders-2027-orlando-1axzk4vgkenxkjc",
@@ -187196,6 +187708,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307486",
+        "url": "https://www.ticketliquidator.com/tickets/8307486/Warren-Zeiders-tickets-Thu-Mar-25-2027-House-Of-Blues-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4vGkenxKjC",
@@ -187239,7 +187758,8 @@
         "end": "2027-03-19T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307486"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307486",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307486/Warren-Zeiders-tickets-Thu-Mar-25-2027-House-Of-Blues-Orlando"
   },
   {
     "id": "tm-warren-zeiders-2027-hollywood-vvg1vz_fkapkzq",
@@ -187295,6 +187815,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307487",
+        "url": "https://www.ticketliquidator.com/tickets/8307487/Warren-Zeiders-tickets-Fri-Mar-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fkapkZQ",
@@ -187338,7 +187865,8 @@
         "end": "2027-03-20T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307487"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307487",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307487/Warren-Zeiders-tickets-Fri-Mar-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
   },
   {
     "id": "tm-warren-zeiders-2027-waukee-1ae7z_kgkdkgpa5",
@@ -187394,6 +187922,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307488",
+        "url": "https://www.ticketliquidator.com/tickets/8307488/Warren-Zeiders-tickets-Fri-Apr-2-2027-Vibrant-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae7Z_KGkDkgPA5",
@@ -187437,7 +187972,8 @@
         "end": "2027-03-27T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307488"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307488",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307488/Warren-Zeiders-tickets-Fri-Apr-2-2027-Vibrant-Music-Hall"
   },
   {
     "id": "tm-warren-zeiders-2027-grand-rapids-vv1afzk4vgkeyak2y",
@@ -187493,6 +188029,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307489",
+        "url": "https://www.ticketliquidator.com/tickets/8307489/Warren-Zeiders-tickets-Thu-Apr-15-2027-GLC-Live-at-20-Monroe",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4vGkeYak2y",
@@ -187536,7 +188079,8 @@
         "end": "2027-04-09T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307489"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307489",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307489/Warren-Zeiders-tickets-Thu-Apr-15-2027-GLC-Live-at-20-Monroe"
   },
   {
     "id": "tm-warren-zeiders-2027-chicago-vv1k8z_f1pg7v9f6",
@@ -187673,6 +188217,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307492",
+        "url": "https://www.ticketliquidator.com/tickets/8307492/Warren-Zeiders-tickets-Thu-Apr-22-2027-The-Met-Presented-by-Highmark",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkMdo0Cj",
@@ -187716,7 +188267,8 @@
         "end": "2027-04-16T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307492"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307492",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307492/Warren-Zeiders-tickets-Thu-Apr-22-2027-The-Met-Presented-by-Highmark"
   },
   {
     "id": "tm-warren-zeiders-2027-pittsburgh-1apzk4vgkd7rttm",
@@ -187772,6 +188324,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307493",
+        "url": "https://www.ticketliquidator.com/tickets/8307493/Warren-Zeiders-tickets-Fri-Apr-23-2027-Citizens-Live-at-The-Wylie",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZk4vGkd7rttm",
@@ -187820,7 +188379,8 @@
         "end": "2027-04-17T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307493"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307493",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307493/Warren-Zeiders-tickets-Fri-Apr-23-2027-Citizens-Live-at-The-Wylie"
   },
   {
     "id": "tm-warren-zeiders-2027-cincinnati-1avbz_kgkbydi6_",
@@ -187975,6 +188535,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307495",
+        "url": "https://www.ticketliquidator.com/tickets/8307495/Warren-Zeiders-tickets-Thu-Apr-29-2027-Township-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KBMYwHz",
@@ -188008,7 +188575,8 @@
         "end": "2027-04-23T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307495"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307495",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307495/Warren-Zeiders-tickets-Thu-Apr-29-2027-Township-Auditorium"
   },
   {
     "id": "tm-warren-zeiders-2027-atlanta-vvg1zz_f6dz4ap",
@@ -188064,6 +188632,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307496",
+        "url": "https://www.ticketliquidator.com/tickets/8307496/Warren-Zeiders-tickets-Fri-Apr-30-2027-Coca-Cola-Roxy",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_f6dz4aP",
@@ -188107,7 +188682,8 @@
         "end": "2027-04-24T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307496"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307496",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307496/Warren-Zeiders-tickets-Fri-Apr-30-2027-Coca-Cola-Roxy"
   },
   {
     "id": "tm-john-summit-2027-warsaw-z698xzqpz16eva44jn",
@@ -188759,11 +189335,19 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8294749",
+        "url": "https://www.ticketliquidator.com/tickets/8294749/Flans-tickets-Fri-May-28-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeaoe",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294749"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294749",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294749/Flans-tickets-Fri-May-28-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie"
   }
 ]

@@ -57,6 +57,7 @@ export const OG_CARDS = {
   "/artists/charli-xcx": {"url":"/og/artists-charli-xcx.png","alt":"Tickets & tour dates: Charli xcx"},
   "/artists/charli-xcx/presale": {"url":"/og/artists-charli-xcx-presale.png","alt":"Presale: Charli xcx"},
   "/artists/charli-xcx/ticket-prices": {"url":"/og/artists-charli-xcx-ticket-prices.png","alt":"Ticket prices: Charli xcx"},
+  "/artists/charli-xcx/tickets/amsterdam-netherlands": {"url":"/og/artists-charli-xcx-tickets-amsterdam-netherlands.png","alt":"Tickets: Charli xcx in Amsterdam"},
   "/artists/charli-xcx/tickets/inglewood-united-states": {"url":"/og/artists-charli-xcx-tickets-inglewood-united-states.png","alt":"Tickets: Charli xcx in Inglewood"},
   "/artists/charli-xcx/tickets/london-united-kingdom": {"url":"/og/artists-charli-xcx-tickets-london-united-kingdom.png","alt":"Tickets: Charli xcx in London"},
   "/artists/chelsea-cutler": {"url":"/og/artists-chelsea-cutler.png","alt":"Tickets & tour dates: Chelsea Cutler"},

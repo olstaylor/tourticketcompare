@@ -30,7 +30,7 @@
         "event_id": 18253661,
         "url": "https://seatgeek.com/stella-lefty-tickets/san-francisco-california-bimbos-365-club-2026-10-30-8-pm/concert/18253661",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -83,7 +83,7 @@
         "event_id": 18253662,
         "url": "https://seatgeek.com/stella-lefty-tickets/west-hollywood-california-troubadour-2026-11-01-7-pm/concert/18253662",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -152,7 +152,7 @@
         "event_id": 18291327,
         "url": "https://seatgeek.com/stella-lefty-tickets/los-angeles-california-the-fonda-theatre-2026-11-02-8-pm/concert/18291327",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -221,7 +221,7 @@
         "event_id": 18253664,
         "url": "https://seatgeek.com/stella-lefty-tickets/phoenix-arizona-crescent-ballroom-2026-11-03-8-pm/concert/18253664",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -416,7 +416,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E0064AEB015DEE1",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-atlanta-georgia-11-10-2026/event/0E0064AEB015DEE1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/atlanta-georgia-the-masquerade-hell-2026-11-10-7-pm/concert/18251775",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-atlanta-the-masquerade---hell-11-10-2026/production/7047371",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-atlanta-georgia-11-10-2026/event/0E0064AEB015DEE1",
@@ -432,11 +432,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18251775,
+        "url": "https://seatgeek.com/stella-lefty-tickets/atlanta-georgia-the-masquerade-hell-2026-11-10-7-pm/concert/18251775",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047371,
@@ -469,7 +469,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "100064ADC6E7F9A0",
     "ticketmaster_url": "https://www.ticketmaster.ca/stella-lefty-lefty-live-toronto-ontario-11-12-2026/event/100064ADC6E7F9A0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/toronto-canada-the-opera-house-toronto-2026-11-12-7-pm/concert/18252162",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-toronto-the-opera-house-toronto-11-12-2026/production/7047503",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/stella-lefty-lefty-live-toronto-ontario-11-12-2026/event/100064ADC6E7F9A0",
@@ -485,11 +485,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18252162,
+        "url": "https://seatgeek.com/stella-lefty-tickets/toronto-canada-the-opera-house-toronto-2026-11-12-7-pm/concert/18252162",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047503,
@@ -541,7 +541,7 @@
         "event_id": 18269141,
         "url": "https://seatgeek.com/stella-lefty-tickets/new-york-new-york-webster-hall-2026-11-15-8-pm/concert/18269141",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -679,7 +679,7 @@
         "event_id": 18253466,
         "url": "https://seatgeek.com/stella-lefty-tickets/boston-massachusetts-royale-boston-2026-11-17-8-pm/concert/18253466",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -900,7 +900,7 @@
         "event_id": 18527907,
         "url": "https://seatgeek.com/stella-lefty-tickets/columbus-ohio-kemba-live-2027-01-10-8-pm/concert/18527907",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -950,7 +950,7 @@
     "tour_name": "Long Way Home Tour",
     "ticketmaster_event_id": "10006515C378AACF",
     "ticketmaster_url": "https://www.ticketmaster.ca/stella-lefty-long-way-home-tour-toronto-ontario-01-12-2027/event/10006515C378AACF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/toronto-canada-history-2027-01-12-7-pm/concert/18527909",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-toronto-history-toronto-1-12-2027--concerts-pop/production/7473891",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/stella-lefty-long-way-home-tour-toronto-ontario-01-12-2027/event/10006515C378AACF",
@@ -966,11 +966,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18527909,
+        "url": "https://seatgeek.com/stella-lefty-tickets/toronto-canada-history-2027-01-12-7-pm/concert/18527909",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473891,
@@ -1010,7 +1010,7 @@
     "tour_name": "Long Way Home Tour",
     "ticketmaster_event_id": "1000651AD6095EB8",
     "ticketmaster_url": "https://www.ticketmaster.ca/stella-lefty-long-way-home-tour-toronto-ontario-01-13-2027/event/1000651AD6095EB8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/toronto-canada-history-2027-01-13-7-pm/concert/18539735",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-toronto-history-toronto-1-13-2027--concerts-pop/production/7488547",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/stella-lefty-long-way-home-tour-toronto-ontario-01-13-2027/event/1000651AD6095EB8",
@@ -1026,11 +1026,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18539735,
+        "url": "https://seatgeek.com/stella-lefty-tickets/toronto-canada-history-2027-01-13-7-pm/concert/18539735",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7488547,
@@ -1995,7 +1995,7 @@
     "tour_name": "Long Way Home Tour",
     "ticketmaster_event_id": "1E006514ACD1BFBC",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-denver-colorado-02-13-2027/event/1E006514ACD1BFBC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/denver-colorado-fillmore-auditorium-denver-2027-02-13-7-pm/concert/18527897",
     "vividseats_url": "https://www.vividseats.com/stella-lefty-tickets-denver-fillmore-auditorium-denver-2-13-2027--concerts-pop/production/7473869",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-denver-colorado-02-13-2027/event/1E006514ACD1BFBC",
@@ -2011,11 +2011,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18527897,
+        "url": "https://seatgeek.com/stella-lefty-tickets/denver-colorado-fillmore-auditorium-denver-2027-02-13-7-pm/concert/18527897",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473869,

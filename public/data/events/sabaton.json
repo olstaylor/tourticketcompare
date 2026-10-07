@@ -608,7 +608,7 @@
         "event_id": 17726761,
         "url": "https://seatgeek.com/sabaton-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-12-12-7-pm/concert/17726761",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -796,7 +796,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "663910012",
     "ticketmaster_url": "https://www.ticketmaster.nl/event/sabaton-the-legendary-tour-2027-tickets/663910012?language=en-us",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sabaton-tickets/rotterdam-netherlands-rotterdam-ahoy-2027-04-24-6-pm/concert/18653680",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/sabaton-the-legendary-tour-2027-tickets/663910012?language=en-us",
@@ -812,11 +812,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18653680,
+        "url": "https://seatgeek.com/sabaton-tickets/rotterdam-netherlands-rotterdam-ahoy-2027-04-24-6-pm/concert/18653680",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

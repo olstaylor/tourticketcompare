@@ -11,7 +11,7 @@
     "tour_name": "Hans Zimmer Live – The Next Level",
     "ticketmaster_event_id": "3000652BAF076032",
     "ticketmaster_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-belmont-park-new-york-02-19-2027/event/3000652BAF076032",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hans-zimmer-tickets/elmont-new-york-ubs-arena-2027-02-19-7-30-pm/concert/18601921",
     "vividseats_url": "https://www.vividseats.com/hans-zimmer-tickets-elmont-ubs-arena-2-19-2027--concerts-classical/production/7569925",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hans-zimmer-live-the-next-level-belmont-park-new-york-02-19-2027/event/3000652BAF076032",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18601921,
+        "url": "https://seatgeek.com/hans-zimmer-tickets/elmont-new-york-ubs-arena-2027-02-19-7-30-pm/concert/18601921",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7569925,

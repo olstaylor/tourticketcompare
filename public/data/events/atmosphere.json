@@ -359,7 +359,7 @@
         "event_id": 18609088,
         "url": "https://seatgeek.com/atmosphere-tickets/eugene-oregon-mcdonald-theatre-2027-01-28-8-pm/concert/18609088",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -409,7 +409,7 @@
     "tour_name": "The Winter Carnival Tour 2027",
     "ticketmaster_event_id": "17006532C3EA6B88",
     "ticketmaster_url": "https://www.ticketmaster.com/atmospherethe-winter-carnival-tour-2027-reno-nevada-01-29-2027/event/17006532C3EA6B88",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/atmosphere-tickets/reno-nevada-grand-sierra-resort-2027-01-29-7-pm/concert/18609092",
     "vividseats_url": "https://www.vividseats.com/atmosphere-tickets-reno-grand-theatre-at-grand-sierra-resort-1-29-2027/production/7589656",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/atmospherethe-winter-carnival-tour-2027-reno-nevada-01-29-2027/event/17006532C3EA6B88",
@@ -425,11 +425,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18609092,
+        "url": "https://seatgeek.com/atmosphere-tickets/reno-nevada-grand-sierra-resort-2027-01-29-7-pm/concert/18609092",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7589656,

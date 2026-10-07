@@ -1607,7 +1607,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "100064ACDD6154D0",
     "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-18-2027/event/100064ACDD6154D0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/toronto-canada-scotiabank-arena-2027-02-18-8-pm/concert/18270548",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-toronto-scotiabank-arena-2-18-2027--concerts-alternative/production/7091562",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-18-2027/event/100064ACDD6154D0",
@@ -1623,11 +1623,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270548,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/toronto-canada-scotiabank-arena-2027-02-18-8-pm/concert/18270548",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091562,
@@ -1667,7 +1667,7 @@
     "tour_name": "The Look at My Life Tour",
     "ticketmaster_event_id": "100064BB0E66D7F6",
     "ticketmaster_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-19-2027/event/100064BB0E66D7F6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/gracie-abrams-tickets/toronto-canada-scotiabank-arena-2027-02-19-8-pm/concert/18270552",
     "vividseats_url": "https://www.vividseats.com/gracie-abrams-tickets-toronto-scotiabank-arena-2-19-2027--concerts-alternative/production/7091567",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/gracie-abrams-the-look-at-my-toronto-ontario-02-19-2027/event/100064BB0E66D7F6",
@@ -1683,11 +1683,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18270552,
+        "url": "https://seatgeek.com/gracie-abrams-tickets/toronto-canada-scotiabank-arena-2027-02-19-8-pm/concert/18270552",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7091567,

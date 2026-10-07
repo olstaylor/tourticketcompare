@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "170064B2BA93A0B9",
     "ticketmaster_url": "https://www.ticketmaster.com/pink-martini-reno-nevada-12-03-2026/event/170064B2BA93A0B9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/reno-nevada-grand-sierra-resort-2026-12-03-7-30-pm/concert/18267277",
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-reno-grand-theatre-at-grand-sierra-resort-12-3-2026/production/7080936",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-reno-nevada-12-03-2026/event/170064B2BA93A0B9",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18267277,
+        "url": "https://seatgeek.com/pink-martini-tickets/reno-nevada-grand-sierra-resort-2026-12-03-7-30-pm/concert/18267277",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7080936,
@@ -952,7 +952,7 @@
         "event_id": 18396258,
         "url": "https://seatgeek.com/pink-martini-tickets/chicago-illinois-chicago-symphony-center-2027-02-12-8-pm/concert/18396258",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1265,7 +1265,7 @@
         "event_id": 18500192,
         "url": "https://seatgeek.com/pink-martini-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-06-7-30-pm/concert/18500192",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {

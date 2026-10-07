@@ -393,7 +393,7 @@
     "tour_name": "Everywhere and Back Again Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7Jfbx",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jfbx",
-    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2026-10-06-8-pm/concert/18373486",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-san-luis-obispo-fremont-theater-10-6-2026/production/7291700",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jfbx",
@@ -409,11 +409,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18373486,
-        "url": "https://seatgeek.com/michelle-branch-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2026-10-06-8-pm/concert/18373486",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7291700,
@@ -481,7 +481,7 @@
         "event_id": 18373495,
         "url": "https://seatgeek.com/michelle-branch-tickets/aspen-colorado-belly-up-aspen-2026-10-10-8-pm/concert/18373495",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -550,7 +550,7 @@
         "event_id": 18373496,
         "url": "https://seatgeek.com/michelle-branch-tickets/boulder-colorado-boulder-theater-2026-10-11-8-pm/concert/18373496",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -619,7 +619,7 @@
         "event_id": 18373497,
         "url": "https://seatgeek.com/michelle-branch-tickets/boston-massachusetts-roadrunner-boston-2026-11-04-8-pm/concert/18373497",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -742,7 +742,7 @@
     "tour_name": "Everywhere and Back Again Tour",
     "ticketmaster_event_id": "000064E100957069",
     "ticketmaster_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-asbury-park-new-jersey-11-06-2026/event/000064E100957069",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/asbury-park-new-jersey-the-stone-pony-2-2026-11-06-7-pm/concert/18373504",
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-asbury-park-stone-pony-11-6-2026/production/7291723",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-asbury-park-new-jersey-11-06-2026/event/000064E100957069",
@@ -758,11 +758,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18373504,
+        "url": "https://seatgeek.com/michelle-branch-tickets/asbury-park-new-jersey-the-stone-pony-2-2026-11-06-7-pm/concert/18373504",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7291723,
@@ -902,7 +902,7 @@
         "event_id": 18373510,
         "url": "https://seatgeek.com/michelle-branch-tickets/minneapolis-minnesota-first-avenue-minneapolis-2026-11-11-7-30-pm/concert/18373510",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -971,7 +971,7 @@
         "event_id": 18373511,
         "url": "https://seatgeek.com/michelle-branch-tickets/milwaukee-wisconsin-pabst-theater-2026-11-12-8-pm/concert/18373511",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1097,7 +1097,7 @@
     "tour_name": "Everywhere and Back Again Tour",
     "ticketmaster_event_id": "2D00650C90A56F93",
     "ticketmaster_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-charleston-south-carolina-02-25-2027/event/2D00650C90A56F93",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/charleston-south-carolina-charleston-music-hall-2027-02-25-8-pm/concert/18508823",
     "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-charleston-charleston-music-hall-2-25-2027/production/7453909",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/michelle-branch-everywhere-and-back-again-charleston-south-carolina-02-25-2027/event/2D00650C90A56F93",
@@ -1113,11 +1113,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18508823,
+        "url": "https://seatgeek.com/michelle-branch-tickets/charleston-south-carolina-charleston-music-hall-2027-02-25-8-pm/concert/18508823",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7453909,
@@ -1644,7 +1644,7 @@
         "event_id": 18650112,
         "url": "https://seatgeek.com/michelle-branch-tickets/denver-colorado-mission-ballroom-2027-03-17-8-pm/concert/18650112",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1773,7 +1773,7 @@
         "event_id": 18508844,
         "url": "https://seatgeek.com/michelle-branch-tickets/columbus-ohio-kemba-live-2027-03-20-8-pm/concert/18508844",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1842,7 +1842,7 @@
         "event_id": 18508847,
         "url": "https://seatgeek.com/michelle-branch-tickets/royal-oak-michigan-royal-oak-music-theatre-2027-03-21-7-pm/concert/18508847",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2157,7 +2157,7 @@
         "event_id": 18508855,
         "url": "https://seatgeek.com/michelle-branch-tickets/philadelphia-pennsylvania-franklin-music-hall-2027-03-27-8-30-pm/concert/18508855",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2226,7 +2226,7 @@
         "event_id": 18373493,
         "url": "https://seatgeek.com/michelle-branch-tickets/salt-lake-city-utah-the-grand-at-the-complex-2026-10-08-8-pm/concert/18373493",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2279,7 +2279,7 @@
         "event_id": 18508824,
         "url": "https://seatgeek.com/michelle-branch-tickets/nashville-tennessee-ryman-auditorium-2027-02-27-8-pm/concert/18508824",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2348,7 +2348,7 @@
         "event_id": 18517279,
         "url": "https://seatgeek.com/michelle-branch-tickets/nashville-tennessee-ryman-auditorium-2027-02-28-8-pm/concert/18517279",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2417,7 +2417,7 @@
         "event_id": 18508826,
         "url": "https://seatgeek.com/michelle-branch-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-03-05-7-30-pm/concert/18508826",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {

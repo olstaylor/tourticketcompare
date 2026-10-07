@@ -499,7 +499,7 @@
     "tour_name": "the lucky me tour",
     "ticketmaster_event_id": "1000644BCF79E2D8",
     "ticketmaster_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-hamilton-ontario-02-02-2027/event/1000644BCF79E2D8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hilary-duff-tickets/hamilton-canada-td-coliseum-2027-02-02-7-30-pm/concert/18070282",
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-hamilton-td-coliseum-2-2-2027--concerts-pop/production/6652474",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hilary-duff-the-lucky-me-tour-hamilton-ontario-02-02-2027/event/1000644BCF79E2D8",
@@ -515,11 +515,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18070282,
+        "url": "https://seatgeek.com/hilary-duff-tickets/hamilton-canada-td-coliseum-2027-02-02-7-30-pm/concert/18070282",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6652474,

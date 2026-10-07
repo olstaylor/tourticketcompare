@@ -961,7 +961,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "10006434AB92D4B7",
     "ticketmaster_url": "https://www.ticketmaster.ca/andrea-bocelli-romanza-30th-anniversary-world-hamilton-ontario-12-19-2026/event/10006434AB92D4B7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/andrea-bocelli-tickets/hamilton-canada-td-coliseum-2026-12-19-8-pm/concert/18039190",
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-hamilton-td-coliseum-12-19-2026--theater-opera/production/6594386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/andrea-bocelli-romanza-30th-anniversary-world-hamilton-ontario-12-19-2026/event/10006434AB92D4B7",
@@ -977,11 +977,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18039190,
+        "url": "https://seatgeek.com/andrea-bocelli-tickets/hamilton-canada-td-coliseum-2026-12-19-8-pm/concert/18039190",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6594386,
@@ -1745,7 +1745,7 @@
         "event_id": 18581453,
         "url": "https://seatgeek.com/andrea-bocelli-tickets/houston-texas-toyota-center-2027-02-07-8-pm/concert/18581453",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-07",
         "availability_status": "listed"
       },
       "vivid-seats": {

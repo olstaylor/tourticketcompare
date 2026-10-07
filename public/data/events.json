@@ -17379,11 +17379,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107073304",
-        "url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-6-2026/event/107073304",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
@@ -17392,7 +17392,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_eheCVin",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-6-2026/event/107073304"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-inglewood-vvg1iz_eheo7is",
@@ -23913,11 +23913,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107325082",
-        "url": "https://www.stubhub.ie/charli-xcx-atlanta-tickets-10-6-2026/event/107325082",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_G99-NFd",
@@ -23925,7 +23925,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-atlanta-tickets-10-6-2026/event/107325082"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-charli-xcx-2026-san-diego-vvg1iz_gpnxmrx",
@@ -37768,11 +37768,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107158169",
-        "url": "https://www.stubhub.ie/sombr-sacramento-tickets-10-6-2026/event/107158169",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -37786,7 +37786,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-sacramento-tickets-10-6-2026/event/107158169",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -111287,6 +111287,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668126",
+        "url": "https://www.stubhub.ie/kenny-chesney-east-rutherford-tickets-7-7-2027/event/107668126",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_3Cwtd0z",
@@ -111300,7 +111307,8 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-07-17T21:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-east-rutherford-tickets-7-7-2027/event/107668126"
   },
   {
     "id": "tm-kenny-chesney-2027-detroit-vv17oz_8gkmnwpji",
@@ -164563,13 +164571,21 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671893",
+        "url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-10-4-2027/event/107671893",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_KwTJArB",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8299949",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8299949/Lizzy-McAlpine-tickets-Sat-Apr-10-2027-O2-Academy-Glasgow"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8299949/Lizzy-McAlpine-tickets-Sat-Apr-10-2027-O2-Academy-Glasgow",
+    "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-10-4-2027/event/107671893"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-dallas-z7r9jz1aaekq3",
@@ -166921,6 +166937,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670988",
+        "url": "https://www.stubhub.ie/greta-van-fleet-tampa-tickets-2-5-2027/event/107670988",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_KMcwTIl",
@@ -166965,7 +166988,8 @@
         "start": "2026-10-15T14:00:00Z",
         "end": "2027-01-29T04:55:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tampa-tickets-2-5-2027/event/107670988"
   },
   {
     "id": "tm-greta-van-fleet-2027-jacksonville-1aefz_kgkdyuafx",
@@ -167028,6 +167052,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670989",
+        "url": "https://www.stubhub.ie/greta-van-fleet-jacksonville-tickets-2-6-2027/event/107670989",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_KGkDYUafX",
@@ -167057,7 +167088,8 @@
         "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-jacksonville-tickets-2-6-2027/event/107670989"
   },
   {
     "id": "tm-greta-van-fleet-2027-atlanta-vvg1zz_kmneaip",
@@ -167120,6 +167152,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671897",
+        "url": "https://www.stubhub.ie/greta-van-fleet-atlanta-tickets-2-9-2027/event/107671897",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KMneaIP",
@@ -167159,7 +167198,8 @@
         "start": "2026-10-15T14:00:00Z",
         "end": "2027-02-02T04:55:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-atlanta-tickets-2-9-2027/event/107671897"
   },
   {
     "id": "tm-greta-van-fleet-2027-nashville-g5viz_kzhjzwy",
@@ -167222,6 +167262,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671898",
+        "url": "https://www.stubhub.ie/greta-van-fleet-nashville-tickets-2-10-2027/event/107671898",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KzHJZWY",
@@ -167251,7 +167298,8 @@
         "start": "2026-10-14T15:00:00Z",
         "end": "2026-10-15T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-nashville-tickets-2-10-2027/event/107671898"
   },
   {
     "id": "tm-greta-van-fleet-2027-rosemont-vv178z_kgkmrjctr",
@@ -167314,6 +167362,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671861",
+        "url": "https://www.stubhub.ie/greta-van-fleet-rosemont-tickets-2-12-2027/event/107671861",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_KGkMrJCtr",
@@ -167353,7 +167408,8 @@
         "start": "2026-10-15T15:00:00Z",
         "end": "2027-02-05T05:55:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-rosemont-tickets-2-12-2027/event/107671861"
   },
   {
     "id": "tm-greta-van-fleet-2027-omaha-vv17bz_kgkmgzcnp",
@@ -167513,6 +167569,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671899",
+        "url": "https://www.stubhub.ie/greta-van-fleet-minneapolis-tickets-2-15-2027/event/107671899",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkU0OFZs",
@@ -167557,7 +167620,8 @@
         "start": "2026-10-15T05:00:00Z",
         "end": "2027-02-08T05:55:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-minneapolis-tickets-2-15-2027/event/107671899"
   },
   {
     "id": "tm-greta-van-fleet-2027-louisville-1avbz_kgkbymb5h",
@@ -167936,6 +168000,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671865",
+        "url": "https://www.stubhub.ie/greta-van-fleet-boston-tickets-3-5-2027/event/107671865",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_KGknM09Yr",
@@ -167975,7 +168046,8 @@
         "start": "2026-10-15T14:00:00Z",
         "end": "2027-02-26T04:55:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-boston-tickets-3-5-2027/event/107671865"
   },
   {
     "id": "tm-greta-van-fleet-2027-albany-k7vgf_kbmaa9o",
@@ -168140,6 +168212,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671868",
+        "url": "https://www.stubhub.ie/greta-van-fleet-brooklyn-tickets-3-8-2027/event/107671868",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_KGklJMams",
@@ -168184,7 +168263,8 @@
         "start": "2026-10-15T14:00:00Z",
         "end": "2027-03-01T04:55:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-brooklyn-tickets-3-8-2027/event/107671868"
   },
   {
     "id": "tm-greta-van-fleet-2027-philadelphia-1adzz_kgkv_zy6y",
@@ -168247,6 +168327,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671869",
+        "url": "https://www.stubhub.ie/greta-van-fleet-philadelphia-tickets-3-10-2027/event/107671869",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_KGkV_Zy6Y",
@@ -168286,7 +168373,8 @@
         "start": "2026-10-15T14:00:00Z",
         "end": "2027-03-03T04:55:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-philadelphia-tickets-3-10-2027/event/107671869"
   },
   {
     "id": "tm-greta-van-fleet-2027-charlotte-g5evz_kd5pkxs",
@@ -168568,6 +168656,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671871",
+        "url": "https://www.stubhub.ie/greta-van-fleet-fort-worth-tickets-3-15-2027/event/107671871",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f6vci7r",
@@ -168592,7 +168687,8 @@
         "start": "2026-10-14T15:00:00Z",
         "end": "2026-10-15T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-fort-worth-tickets-3-15-2027/event/107671871"
   },
   {
     "id": "tm-greta-van-fleet-2027-tulsa-1aezz_kgkdnv4sg",
@@ -168747,6 +168843,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671872",
+        "url": "https://www.stubhub.ie/greta-van-fleet-anaheim-tickets-3-19-2027/event/107671872",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_KGkM7Preh",
@@ -168791,7 +168894,8 @@
         "start": "2026-10-15T17:00:00Z",
         "end": "2027-03-12T07:55:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-anaheim-tickets-3-19-2027/event/107671872"
   },
   {
     "id": "tm-greta-van-fleet-2027-phoenix-1av0z_kgkbck9ok",
@@ -169063,6 +169167,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671873",
+        "url": "https://www.stubhub.ie/greta-van-fleet-seattle-tickets-3-24-2027/event/107671873",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KM-zRdh",
@@ -169107,7 +169218,8 @@
         "start": "2026-10-15T17:00:00Z",
         "end": "2027-03-17T06:55:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-seattle-tickets-3-24-2027/event/107671873"
   },
   {
     "id": "tm-greta-van-fleet-2027-portland-vvg1hz_kle7js7",
@@ -169379,6 +169491,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670990",
+        "url": "https://www.stubhub.ie/greta-van-fleet-denver-tickets-3-30-2027/event/107670990",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KBJtIoY",
@@ -169423,7 +169542,8 @@
         "start": "2026-10-15T16:00:00Z",
         "end": "2027-03-23T05:55:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-denver-tickets-3-30-2027/event/107670990"
   },
   {
     "id": "tm-greta-van-fleet-2027-munich-z698xzc2z16v70efz3",
@@ -169472,6 +169592,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670991",
+        "url": "https://www.stubhub.ie/greta-van-fleet-tickets-munich-olympiahalle-munich-15-5-2027/event/107670991",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v70efZ3",
@@ -169504,7 +169631,8 @@
         "start": "2026-10-08T08:00:00Z",
         "end": "2026-10-09T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-munich-olympiahalle-munich-15-5-2027/event/107670991"
   },
   {
     "id": "tm-greta-van-fleet-2027-assago-zg9rmiynyz7k7a",
@@ -169769,6 +169897,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670944",
+        "url": "https://www.stubhub.ie/greta-van-fleet-tickets-amsterdam-ziggo-dome-24-5-2027/event/107670944",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kPzobGo",
@@ -169796,7 +169931,8 @@
         "start": "2026-10-08T08:00:00Z",
         "end": "2026-10-09T07:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-amsterdam-ziggo-dome-24-5-2027/event/107670944"
   },
   {
     "id": "tm-greta-van-fleet-2027-forest-brussels-z698xzg2z16ez30gvn",
@@ -169926,6 +170062,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671665",
+        "url": "https://www.stubhub.ie/greta-van-fleet-tickets-london-the-o2-arena-28-5-2027/event/107671665",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_KGkMUET5g",
@@ -169948,7 +170091,8 @@
         "start": "2026-10-08T09:00:00Z",
         "end": "2026-10-09T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-london-the-o2-arena-28-5-2027/event/107671665"
   },
   {
     "id": "tm-greta-van-fleet-2027-birmingham-1aegz_kgkmz0sov",
@@ -169997,6 +170141,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671666",
+        "url": "https://www.stubhub.ie/greta-van-fleet-tickets-birmingham-utilita-arena-birmingham-30-5-2027/event/107671666",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeGZ_KGkMz0sov",
@@ -170014,7 +170165,8 @@
         "start": "2026-10-07T09:00:00Z",
         "end": "2026-10-09T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-birmingham-utilita-arena-birmingham-30-5-2027/event/107671666"
   },
   {
     "id": "tm-greta-van-fleet-2027-manchester-1adjz_kgkbyud70",
@@ -170077,6 +170229,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671667",
+        "url": "https://www.stubhub.ie/greta-van-fleet-tickets-manchester-co-op-live-1-6-2027/event/107671667",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_KGkBYUd70",
@@ -170111,7 +170270,8 @@
         "start": "2026-10-08T09:00:00Z",
         "end": "2026-10-09T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-manchester-co-op-live-1-6-2027/event/107671667"
   },
   {
     "id": "tm-greta-van-fleet-2027-glasgow-1auzk4vgkene4-w",
@@ -170160,12 +170320,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671668",
+        "url": "https://www.stubhub.ie/greta-van-fleet-tickets-glasgow-ovo-hydro-arena-glasgow-2-6-2027/event/107671668",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZk4vGkeNe4-w",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T09:00:00Z"
+    "public_onsale_at": "2026-10-09T09:00:00Z",
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-glasgow-ovo-hydro-arena-glasgow-2-6-2027/event/107671668"
   },
   {
     "id": "tm-greta-van-fleet-2027-dublin-1abzkfmgkes3wyd",
@@ -172514,6 +172682,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671881",
+        "url": "https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-23-2027/event/107671881",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGkeDOsQI",
@@ -172538,7 +172713,8 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2026-10-09T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-23-2027/event/107671881"
   },
   {
     "id": "tm-fontaines-d-c-2027-philadelphia-vv17fz_kgks-xsxp",
@@ -177143,6 +177319,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671807",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-tickets-edmonton-northern-alberta-jubilee-auditorium-4-15-2027/event/107671807",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGklArlu8",
@@ -177172,7 +177355,8 @@
         "start": "2026-10-08T16:00:00Z",
         "end": "2027-04-11T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-tickets-edmonton-northern-alberta-jubilee-auditorium-4-15-2027/event/107671807"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-calgary-1av7z_kgkulm9f3",
@@ -177311,6 +177495,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670983",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-tickets-vancouver-orpheum-theatre-vancouver-4-18-2027/event/107670983",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGklk3DKw",
@@ -177340,7 +177531,8 @@
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-14T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-tickets-vancouver-orpheum-theatre-vancouver-4-18-2027/event/107670983"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-san-francisco-g5vyz_kdn9abg",
@@ -177403,6 +177595,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671822",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-san-francisco-tickets-4-21-2027/event/107671822",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KDN9Abg",
@@ -177447,7 +177646,8 @@
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-17T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-san-francisco-tickets-4-21-2027/event/107671822"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-inglewood-vv170z_kgkmkrrsm",
@@ -177615,6 +177815,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671798",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-san-diego-tickets-4-23-2027/event/107671798",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_KMDzlCo",
@@ -177654,7 +177861,8 @@
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-19T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-san-diego-tickets-4-23-2027/event/107671798"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-las-vegas-1avjz_kgksxz4qo",
@@ -177717,6 +177925,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671811",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-las-vegas-tickets-4-30-2027/event/107671811",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGksXZ4qO",
@@ -177751,7 +177966,8 @@
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-26T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-las-vegas-tickets-4-30-2027/event/107671811"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-phoenix-1kk8vpc_gacbk4n",
@@ -177814,6 +178030,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671825",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-phoenix-tickets-5-1-2027/event/107671825",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8vPC_GACbk4N",
@@ -177848,7 +178071,8 @@
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-27T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-phoenix-tickets-5-1-2027/event/107671825"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-irving-vvg1yz_kwbaerl",
@@ -177911,6 +178135,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671805",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-irving-tickets-5-5-2027/event/107671805",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KwBAERL",
@@ -177945,7 +178176,8 @@
         "start": "2026-10-08T15:00:00Z",
         "end": "2027-05-01T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-irving-tickets-5-5-2027/event/107671805"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-austin-g5diz_kbdqtji",
@@ -178008,6 +178240,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671818",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-austin-tickets-5-7-2027/event/107671818",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KBDqTJi",
@@ -178042,7 +178281,8 @@
         "start": "2026-10-08T15:00:00Z",
         "end": "2027-05-06T15:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-austin-tickets-5-7-2027/event/107671818"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-houston-g5diz_kbuz9jg",
@@ -178312,6 +178552,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671834",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-atlanta-tickets-5-11-2027/event/107671834",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KMrBzZs",
@@ -178341,7 +178588,8 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-05-07T16:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-atlanta-tickets-5-11-2027/event/107671834"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-charlotte-g5evz_ksv1qq1",
@@ -178404,6 +178652,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671821",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-charlotte-tickets-5-12-2027/event/107671821",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KSv1qq1",
@@ -178438,7 +178693,8 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-05-08T16:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-charlotte-tickets-5-12-2027/event/107671821"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-washington-1avfz_kgkz-xcfn",
@@ -178501,6 +178757,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671883",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-washington-tickets-5-14-2027/event/107671883",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_KGkz-XCFn",
@@ -178530,7 +178793,8 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-04-17T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-washington-tickets-5-14-2027/event/107671883"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-new-york-g5diz_krvp7ot",
@@ -179027,6 +179291,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671817",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-detroit-tickets-5-22-2027/event/107671817",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkDnNiGP",
@@ -179061,7 +179332,8 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-05-18T16:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-detroit-tickets-5-22-2027/event/107671817"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-toronto-1avzz_kgkiawwxu",
@@ -179276,6 +179548,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671816",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-tickets-montreal-mtelus-5-29-2027/event/107671816",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_KGkUMFJ2G",
@@ -179305,7 +179584,8 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-05-25T16:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-tickets-montreal-mtelus-5-29-2027/event/107671816"
   },
   {
     "id": "tm-niall-horan-2026-hamburg-z698xzc2z1ka-fjkp",
@@ -180965,13 +181245,21 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107098206",
+        "url": "https://www.stubhub.ie/staind-wheatland-tickets-10-9-2026/event/107098206",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_dwgiJMI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718199",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718199/Staind-tickets-Fri-Oct-9-2026-Toyota-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718199/Staind-tickets-Fri-Oct-9-2026-Toyota-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/staind-wheatland-tickets-10-9-2026/event/107098206"
   },
   {
     "id": "tm-staind-2026-ontario-vv170z_dgkwr0_z6",
@@ -181034,13 +181322,21 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107098205",
+        "url": "https://www.stubhub.ie/staind-ontario-tickets-10-10-2026/event/107098205",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_dGkwr0_Z6",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718202",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718202/Staind-tickets-Sat-Oct-10-2026-Toyota-Arena-Ontario"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718202/Staind-tickets-Sat-Oct-10-2026-Toyota-Arena-Ontario",
+    "stubhub_international_url": "https://www.stubhub.ie/staind-ontario-tickets-10-10-2026/event/107098205"
   },
   {
     "id": "tm-staind-2026-phoenix-1av0z_dgku63v-5",
@@ -181255,6 +181551,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107098204",
+        "url": "https://www.stubhub.ie/staind-tulsa-tickets-10-16-2026/event/107098204",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_dGkVARP7D",
@@ -181268,7 +181571,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718208",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718208/Staind-tickets-Fri-Oct-16-2026-BOK-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718208/Staind-tickets-Fri-Oct-16-2026-BOK-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/staind-tulsa-tickets-10-16-2026/event/107098204"
   },
   {
     "id": "tm-staind-2026-the-woodlands-g5diz_dbvgqfi",
@@ -181391,6 +181695,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107098202",
+        "url": "https://www.stubhub.ie/staind-austin-tickets-10-19-2026/event/107098202",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_dYkGaJg",
@@ -181404,7 +181715,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718212",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718212/Staind-tickets-Mon-Oct-19-2026-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718212/Staind-tickets-Mon-Oct-19-2026-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/staind-austin-tickets-10-19-2026/event/107098202"
   },
   {
     "id": "tm-staind-2027-manchester-vv177z_kgkbyj0rc",
@@ -184623,11 +184935,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107469555",
+        "url": "https://www.stubhub.ie/dylan-gossett-tickets-london-o2-academy-brixton-18-2-2027/event/107469555",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_8Kn_3tz",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-london-o2-academy-brixton-18-2-2027/event/107469555"
   },
   {
     "id": "tm-dylan-gossett-2027-manchester-g5dzz_8hqwevt",
@@ -184743,13 +185063,21 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107476097",
+        "url": "https://www.stubhub.ie/dylan-gossett-tickets-birmingham-o2-academy-birmingham-21-2-2027/event/107476097",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_83l8ohZ",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265884",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265884/Dylan-Gossett-tickets-Sun-Feb-21-2027-O2-Academy-Birmingham"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265884/Dylan-Gossett-tickets-Sun-Feb-21-2027-O2-Academy-Birmingham",
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-birmingham-o2-academy-birmingham-21-2-2027/event/107476097"
   },
   {
     "id": "tm-dylan-gossett-2027-glasgow-g5dzz_8pg5sb3",
@@ -184798,11 +185126,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107482715",
+        "url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-23-2-2027/event/107482715",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_8pg5sb3",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-23-2-2027/event/107482715"
   },
   {
     "id": "tm-dylan-gossett-2027-glasgow-g5dzz_8qwdoqp",
@@ -184851,11 +185187,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107469557",
+        "url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-24-2-2027/event/107469557",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_8QwdoqP",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-24-2-2027/event/107469557"
   },
   {
     "id": "tm-dylan-gossett-2027-dublin-17kzv0g62wo552g",
@@ -187294,13 +187638,21 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107018106",
+        "url": "https://www.stubhub.ie/warren-zeiders-tickets-glasgow-o2-academy-glasgow-11-10-2026/event/107018106",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbUnoqNQA",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7796640",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7796640/Warren-Zeiders-tickets-Sun-Oct-11-2026-O2-Academy-Glasgow"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7796640/Warren-Zeiders-tickets-Sun-Oct-11-2026-O2-Academy-Glasgow",
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-glasgow-o2-academy-glasgow-11-10-2026/event/107018106"
   },
   {
     "id": "tm-warren-zeiders-2026-leeds-g5dzzbubyjrus",
@@ -187439,13 +187791,21 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107018107",
+        "url": "https://www.stubhub.ie/warren-zeiders-tickets-manchester-manchester-academy-14-10-2026/event/107018107",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZbgTrZaeC",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856049",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856049/Warren-Zeiders-tickets-Wed-Oct-14-2026-Manchester-Academy-1"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856049/Warren-Zeiders-tickets-Wed-Oct-14-2026-Manchester-Academy-1",
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-manchester-manchester-academy-14-10-2026/event/107018107"
   },
   {
     "id": "tm-warren-zeiders-2026-bristol-g5dzzbgxgfjht",
@@ -187508,13 +187868,21 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107016159",
+        "url": "https://www.stubhub.ie/warren-zeiders-tickets-bristol-o2-academy-bristol-15-10-2026/event/107016159",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbgXgFJhT",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856051",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856051/Warren-Zeiders-tickets-Thu-Oct-15-2026-O2-Academy-Bristol"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856051/Warren-Zeiders-tickets-Thu-Oct-15-2026-O2-Academy-Bristol",
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-bristol-o2-academy-bristol-15-10-2026/event/107016159"
   },
   {
     "id": "tm-warren-zeiders-2026-birmingham-g5dzzbu22x97x",
@@ -187577,13 +187945,21 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107016160",
+        "url": "https://www.stubhub.ie/warren-zeiders-tickets-birmingham-o2-academy-birmingham-16-10-2026/event/107016160",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbU22X97X",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856053",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856053/Warren-Zeiders-tickets-Fri-Oct-16-2026-O2-Academy-Birmingham"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856053/Warren-Zeiders-tickets-Fri-Oct-16-2026-O2-Academy-Birmingham",
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-birmingham-o2-academy-birmingham-16-10-2026/event/107016160"
   },
   {
     "id": "tm-warren-zeiders-2026-london-g5vhzbgx4c4_f",
@@ -187646,13 +188022,21 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107014145",
+        "url": "https://www.stubhub.ie/warren-zeiders-tickets-london-the-roundhouse-18-10-2026/event/107014145",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZbgX4C4_f",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7823372",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7823372/Warren-Zeiders-tickets-Sun-Oct-18-2026-Roundhouse-London"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7823372/Warren-Zeiders-tickets-Sun-Oct-18-2026-Roundhouse-London",
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-london-the-roundhouse-18-10-2026/event/107014145"
   },
   {
     "id": "tm-warren-zeiders-2027-orlando-1axzk4vgkenxkjc",
@@ -188889,6 +189273,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671906",
+        "url": "https://www.stubhub.ie/john-summit-tickets-amsterdam-ziggo-dome-13-2-2027/event/107671906",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vu0Fx-w",
@@ -188916,7 +189307,8 @@
         "start": "2026-10-08T10:00:00Z",
         "end": "2026-10-09T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-amsterdam-ziggo-dome-13-2-2027/event/107671906"
   },
   {
     "id": "tm-john-summit-2027-london-1agzk4egkdwrmjf",
@@ -188965,6 +189357,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671913",
+        "url": "https://www.stubhub.ie/john-summit-tickets-london-the-o2-arena-27-2-2027/event/107671913",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4eGkdwrmJf",
@@ -188987,7 +189386,8 @@
         "start": "2026-10-08T11:00:00Z",
         "end": "2026-10-09T09:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-london-the-o2-arena-27-2-2027/event/107671913"
   },
   {
     "id": "tm-morat-2026-pamplona-iruna-z698xz2qz16voojza6",

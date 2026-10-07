@@ -60,6 +60,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671807",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-tickets-edmonton-northern-alberta-jubilee-auditorium-4-15-2027/event/107671807",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGklArlu8",
@@ -89,7 +96,8 @@
         "start": "2026-10-08T16:00:00Z",
         "end": "2027-04-11T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-tickets-edmonton-northern-alberta-jubilee-auditorium-4-15-2027/event/107671807"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-calgary-1av7z_kgkulm9f3",
@@ -228,6 +236,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670983",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-tickets-vancouver-orpheum-theatre-vancouver-4-18-2027/event/107670983",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGklk3DKw",
@@ -257,7 +272,8 @@
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-14T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-tickets-vancouver-orpheum-theatre-vancouver-4-18-2027/event/107670983"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-san-francisco-g5vyz_kdn9abg",
@@ -320,6 +336,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671822",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-san-francisco-tickets-4-21-2027/event/107671822",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KDN9Abg",
@@ -364,7 +387,8 @@
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-17T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-san-francisco-tickets-4-21-2027/event/107671822"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-inglewood-vv170z_kgkmkrrsm",
@@ -532,6 +556,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671798",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-san-diego-tickets-4-23-2027/event/107671798",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_KMDzlCo",
@@ -571,7 +602,8 @@
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-19T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-san-diego-tickets-4-23-2027/event/107671798"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-las-vegas-1avjz_kgksxz4qo",
@@ -634,6 +666,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671811",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-las-vegas-tickets-4-30-2027/event/107671811",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGksXZ4qO",
@@ -668,7 +707,8 @@
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-26T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-las-vegas-tickets-4-30-2027/event/107671811"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-phoenix-1kk8vpc_gacbk4n",
@@ -731,6 +771,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671825",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-phoenix-tickets-5-1-2027/event/107671825",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8vPC_GACbk4N",
@@ -765,7 +812,8 @@
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-27T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-phoenix-tickets-5-1-2027/event/107671825"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-irving-vvg1yz_kwbaerl",
@@ -828,6 +876,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671805",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-irving-tickets-5-5-2027/event/107671805",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KwBAERL",
@@ -862,7 +917,8 @@
         "start": "2026-10-08T15:00:00Z",
         "end": "2027-05-01T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-irving-tickets-5-5-2027/event/107671805"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-austin-g5diz_kbdqtji",
@@ -925,6 +981,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671818",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-austin-tickets-5-7-2027/event/107671818",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KBDqTJi",
@@ -959,7 +1022,8 @@
         "start": "2026-10-08T15:00:00Z",
         "end": "2027-05-06T15:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-austin-tickets-5-7-2027/event/107671818"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-houston-g5diz_kbuz9jg",
@@ -1229,6 +1293,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671834",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-atlanta-tickets-5-11-2027/event/107671834",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KMrBzZs",
@@ -1258,7 +1329,8 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-05-07T16:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-atlanta-tickets-5-11-2027/event/107671834"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-charlotte-g5evz_ksv1qq1",
@@ -1321,6 +1393,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671821",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-charlotte-tickets-5-12-2027/event/107671821",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KSv1qq1",
@@ -1355,7 +1434,8 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-05-08T16:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-charlotte-tickets-5-12-2027/event/107671821"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-washington-1avfz_kgkz-xcfn",
@@ -1418,6 +1498,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671883",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-washington-tickets-5-14-2027/event/107671883",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_KGkz-XCFn",
@@ -1447,7 +1534,8 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-04-17T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-washington-tickets-5-14-2027/event/107671883"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-new-york-g5diz_krvp7ot",
@@ -1944,6 +2032,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671817",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-detroit-tickets-5-22-2027/event/107671817",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkDnNiGP",
@@ -1978,7 +2073,8 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-05-18T16:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-detroit-tickets-5-22-2027/event/107671817"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-toronto-1avzz_kgkiawwxu",
@@ -2193,6 +2289,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671816",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-tickets-montreal-mtelus-5-29-2027/event/107671816",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_KGkUMFJ2G",
@@ -2222,7 +2325,8 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-05-25T16:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-tickets-montreal-mtelus-5-29-2027/event/107671816"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-toronto-1a8zk47gkd65fpy",

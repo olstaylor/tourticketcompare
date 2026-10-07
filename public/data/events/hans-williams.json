@@ -1,0 +1,914 @@
+[
+  {
+    "id": "tm-hans-williams-2026-boulder-z7r9jz1a70pqk",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams",
+    "city": "Boulder",
+    "country": "United States Of America",
+    "venue": "Fox Theatre & Cafe",
+    "datetime_iso": "2026-10-09T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70PQK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70PQK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70PQK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70PQK",
+        "discovery_event_id": "Z7r9jZ1A70PQK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70PQK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70PQK",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hans-williams-2026-denver-z7r9jz1a70tuk",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams (16 and Over)",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Bluebird Theatre",
+    "datetime_iso": "2026-10-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70tuK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70tuK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70tuK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70tuK",
+        "discovery_event_id": "Z7r9jZ1A70tuK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70tuK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70tuK",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hans-williams-2026-colorado-springs-z7r9jz1a70ou8",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams w/ Cece Coakley",
+    "city": "Colorado Springs",
+    "country": "United States Of America",
+    "venue": "Black Sheep",
+    "datetime_iso": "2026-10-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70Ou8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ou8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ou8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70Ou8",
+        "discovery_event_id": "Z7r9jZ1A70Ou8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ou8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70Ou8",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hans-williams-2026-dublin-1abzkf-gke0kxsy",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Academy 2",
+    "datetime_iso": "2026-12-01T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006521A44FEC70",
+    "ticketmaster_url": "https://www.ticketmaster.ie/hans-williams-dublin-01-12-2026/event/18006521A44FEC70",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/hans-williams-dublin-01-12-2026/event/18006521A44FEC70",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006521A44FEC70",
+        "discovery_event_id": "1AbZkf-Gke0KXsY",
+        "url": "https://www.ticketmaster.ie/hans-williams-dublin-01-12-2026/event/18006521A44FEC70",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkf-Gke0KXsY",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hans-williams-2026-manchester-g5vhz_3hm6fzc",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Manchester The Deaf Institute.",
+    "datetime_iso": "2026-12-02T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006526EE1C800E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hans-williams-manchester-02-12-2026/event/1F006526EE1C800E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hans-williams-manchester-02-12-2026/event/1F006526EE1C800E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006526EE1C800E",
+        "discovery_event_id": "G5vHZ_3hm6FZC",
+        "url": "https://www.ticketmaster.co.uk/hans-williams-manchester-02-12-2026/event/1F006526EE1C800E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_3hm6FZC",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hans-williams-2026-london-1agzkfigkdpfnww",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "London Oslo",
+    "datetime_iso": "2026-12-03T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006528D6523F72",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hans-williams-london-03-12-2026/event/35006528D6523F72",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hans-williams-london-03-12-2026/event/35006528D6523F72",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006528D6523F72",
+        "discovery_event_id": "1AgZkfIGkdpfNWw",
+        "url": "https://www.ticketmaster.co.uk/hans-williams-london-03-12-2026/event/35006528D6523F72",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfIGkdpfNWw",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hans-williams-2027-washington-1a4zk4egkeypr7b",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Atlantis",
+    "datetime_iso": "2027-01-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006542B059E13A",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-williams-washington-district-of-columbia-01-24-2027/event/15006542B059E13A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-williams-washington-district-of-columbia-01-24-2027/event/15006542B059E13A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006542B059E13A",
+        "discovery_event_id": "1A4Zk4eGkeYpr7B",
+        "url": "https://www.ticketmaster.com/hans-williams-washington-district-of-columbia-01-24-2027/event/15006542B059E13A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4Zk4eGkeYpr7B",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T16:00:00Z"
+  },
+  {
+    "id": "tm-hans-williams-2027-philadelphia-vv16ovp8xusz7ceaa",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Foundry",
+    "datetime_iso": "2027-01-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020065422371D184",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-williams-philadelphia-pennsylvania-01-26-2027/event/020065422371D184",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-williams-philadelphia-pennsylvania-01-26-2027/event/020065422371D184",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020065422371D184",
+        "discovery_event_id": "vv16OvP8xusZ7CeaA",
+        "url": "https://www.ticketmaster.com/hans-williams-philadelphia-pennsylvania-01-26-2027/event/020065422371D184",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16OvP8xusZ7CeaA",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T16:00:00Z"
+  },
+  {
+    "id": "tm-hans-williams-2027-new-york-k7vgf_fpw8jad",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Bowery Ballroom",
+    "datetime_iso": "2027-01-29T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006545B2426143",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-williams-new-york-new-york-01-28-2027/event/00006545B2426143",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-williams-new-york-new-york-01-28-2027/event/00006545B2426143",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006545B2426143",
+        "discovery_event_id": "k7vGF_fpw8JAd",
+        "url": "https://www.ticketmaster.com/hans-williams-new-york-new-york-01-28-2027/event/00006545B2426143",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_fpw8JAd",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T16:00:00Z"
+  },
+  {
+    "id": "tm-hans-williams-2027-boston-vv1avzk4egkdguwso",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Paradise Rock Club presented by Citizens",
+    "datetime_iso": "2027-01-31T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006542CC372CD1",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-williams-boston-massachusetts-01-30-2027/event/01006542CC372CD1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-williams-boston-massachusetts-01-30-2027/event/01006542CC372CD1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006542CC372CD1",
+        "discovery_event_id": "vv1AvZk4eGkdGuwSo",
+        "url": "https://www.ticketmaster.com/hans-williams-boston-massachusetts-01-30-2027/event/01006542CC372CD1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4eGkdGuwSo",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T16:00:00Z"
+  },
+  {
+    "id": "tm-hans-williams-2027-montreal-1aszk4vgkdi4_rs",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Le Studio TD",
+    "datetime_iso": "2027-02-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006541EC559BF3",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hans-williams-montreal-quebec-02-04-2027/event/31006541EC559BF3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hans-williams-montreal-quebec-02-04-2027/event/31006541EC559BF3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006541EC559BF3",
+        "discovery_event_id": "1AsZk4vGkdi4_RS",
+        "url": "https://www.ticketmaster.ca/hans-williams-montreal-quebec-02-04-2027/event/31006541EC559BF3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4vGkdi4_RS",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T16:00:00Z"
+  },
+  {
+    "id": "tm-hans-williams-2027-toronto-1a8zk4egkegbioh",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Horseshoe Tavern",
+    "datetime_iso": "2027-02-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006542B562C45B",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hans-williams-toronto-ontario-02-05-2027/event/10006542B562C45B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hans-williams-toronto-ontario-02-05-2027/event/10006542B562C45B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006542B562C45B",
+        "discovery_event_id": "1A8Zk4eGkegbioh",
+        "url": "https://www.ticketmaster.ca/hans-williams-toronto-ontario-02-05-2027/event/10006542B562C45B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk4eGkegbioh",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T16:00:00Z"
+  },
+  {
+    "id": "tm-hans-williams-2027-madison-vv1a6zk4agkdakg6p",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "High Noon Saloon",
+    "datetime_iso": "2027-02-14T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006545C51B51E5",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-williams-madison-wisconsin-02-13-2027/event/07006545C51B51E5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-williams-madison-wisconsin-02-13-2027/event/07006545C51B51E5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006545C51B51E5",
+        "discovery_event_id": "vv1A6Zk4AGkdAkg6P",
+        "url": "https://www.ticketmaster.com/hans-williams-madison-wisconsin-02-13-2027/event/07006545C51B51E5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6Zk4AGkdAkg6P",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T16:00:00Z"
+  },
+  {
+    "id": "tm-hans-williams-2027-memphis-g5viz_f9xccej",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams",
+    "city": "Memphis",
+    "country": "United States Of America",
+    "venue": "1884 Lounge",
+    "datetime_iso": "2027-02-20T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006545FE38E09C",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-williams-memphis-tennessee-02-19-2027/event/1B006545FE38E09C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-williams-memphis-tennessee-02-19-2027/event/1B006545FE38E09C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006545FE38E09C",
+        "discovery_event_id": "G5viZ_f9XCCej",
+        "url": "https://www.ticketmaster.com/hans-williams-memphis-tennessee-02-19-2027/event/1B006545FE38E09C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_f9XCCej",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T16:00:00Z"
+  },
+  {
+    "id": "tm-hans-williams-2027-kansas-city-vv1akzk4agkesl_pr",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "recordBar",
+    "datetime_iso": "2027-03-11T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006545B1AD995E",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-williams-kansas-city-missouri-03-10-2027/event/06006545B1AD995E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-williams-kansas-city-missouri-03-10-2027/event/06006545B1AD995E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006545B1AD995E",
+        "discovery_event_id": "vv1AkZk4AGkesl_Pr",
+        "url": "https://www.ticketmaster.com/hans-williams-kansas-city-missouri-03-10-2027/event/06006545B1AD995E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk4AGkesl_Pr",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T16:00:00Z"
+  },
+  {
+    "id": "tm-hans-williams-2027-san-diego-vvg1iz_f7zd4jj",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "SOMA",
+    "datetime_iso": "2027-03-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00654138ED571C",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-williams-san-diego-california-03-28-2027/event/0A00654138ED571C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-williams-san-diego-california-03-28-2027/event/0A00654138ED571C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00654138ED571C",
+        "discovery_event_id": "vvG1IZ_f7zD4jj",
+        "url": "https://www.ticketmaster.com/hans-williams-san-diego-california-03-28-2027/event/0A00654138ED571C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_f7zD4jj",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T16:00:00Z"
+  },
+  {
+    "id": "tm-hans-williams-2027-austin-g5diz_f2t_y5l",
+    "artist_slug": "hans-williams",
+    "artist_name": "Hans Williams",
+    "event_name": "Hans Williams",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Antone's Nightclub",
+    "datetime_iso": "2027-04-03T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006543E96792DF",
+    "ticketmaster_url": "https://www.ticketmaster.com/hans-williams-austin-texas-04-02-2027/event/3A006543E96792DF",
+    "seatgeek_url": "https://seatgeek.com/hans-williams-tickets/austin-texas-antone-s-nightclub-2027-04-02-8-pm/concert/18655715",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hans-williams-austin-texas-04-02-2027/event/3A006543E96792DF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006543E96792DF",
+        "discovery_event_id": "G5dIZ_f2t_y5L",
+        "url": "https://www.ticketmaster.com/hans-williams-austin-texas-04-02-2027/event/3A006543E96792DF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_f2t_y5L",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T16:00:00Z"
+  }
+]

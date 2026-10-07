@@ -1,0 +1,1433 @@
+[
+  {
+    "id": "tm-sammy-rae-the-friends-2026-san-francisco-g5vyz_6dqsct_",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends with special guest Melt",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Castro Theatre",
+    "datetime_iso": "2026-10-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006470DAC4EA59",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-with-special-san-francisco-california-10-07-2026/event/1C006470DAC4EA59",
+    "seatgeek_url": "https://seatgeek.com/sammy-rae-the-friends-tickets/san-francisco-california-castro-theatre-2026-10-07-8-pm/concert/18141156",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-with-special-san-francisco-california-10-07-2026/event/1C006470DAC4EA59",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006470DAC4EA59",
+        "discovery_event_id": "G5vYZ_6dQsCt_",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-with-special-san-francisco-california-10-07-2026/event/1C006470DAC4EA59",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_6dQsCt_",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2026-vancouver-1aozkoygkemx9hb",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Commodore Ballroom",
+    "datetime_iso": "2026-10-14T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006470AE897F3A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/sammy-rae-the-friends-the-get-vancouver-british-columbia-10-13-2026/event/11006470AE897F3A",
+    "seatgeek_url": "https://seatgeek.com/sammy-rae-the-friends-tickets/vancouver-canada-commodore-ballroom-2026-10-13-7-pm/concert/18141429",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/sammy-rae-the-friends-the-get-vancouver-british-columbia-10-13-2026/event/11006470AE897F3A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006470AE897F3A",
+        "discovery_event_id": "1AoZkoYGkemx9HB",
+        "url": "https://www.ticketmaster.ca/sammy-rae-the-friends-the-get-vancouver-british-columbia-10-13-2026/event/11006470AE897F3A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkoYGkemx9HB",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2026-salt-lake-city-g5vzz_kvp8pev",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Depot",
+    "datetime_iso": "2026-10-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00646D164169F4",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-salt-lake-city-utah-10-16-2026/event/1E00646D164169F4",
+    "seatgeek_url": "https://seatgeek.com/sammy-rae-the-friends-tickets/salt-lake-city-utah-the-depot-salt-lake-city-2026-10-16-7-pm/concert/18141376",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-salt-lake-city-utah-10-16-2026/event/1E00646D164169F4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00646D164169F4",
+        "discovery_event_id": "G5vzZ_kVp8pEV",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-salt-lake-city-utah-10-16-2026/event/1E00646D164169F4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_kVp8pEV",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2026-chicago-vv1a7zkomgkeb3pbb",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Salt Shed Indoors (Shed)",
+    "datetime_iso": "2026-10-24T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006477BA496E98",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-chicago-illinois-10-23-2026/event/04006477BA496E98",
+    "seatgeek_url": "https://seatgeek.com/sammy-rae-the-friends-tickets/chicago-illinois-the-salt-shed-indoors-2026-10-23-8-pm/concert/18142026",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-chicago-illinois-10-23-2026/event/04006477BA496E98",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006477BA496E98",
+        "discovery_event_id": "vv1A7ZkoMGkeB3pBb",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-chicago-illinois-10-23-2026/event/04006477BA496E98",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkoMGkeB3pBb",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2026-madison-vv1a6zkosgkdqdeax",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "The Sylvee",
+    "datetime_iso": "2026-10-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006471DA0E717E",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-madison-wisconsin-10-24-2026/event/07006471DA0E717E",
+    "seatgeek_url": "https://seatgeek.com/sammy-rae-the-friends-tickets/madison-wisconsin-the-sylvee-2026-10-24-8-pm/concert/18141929",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-madison-wisconsin-10-24-2026/event/07006471DA0E717E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006471DA0E717E",
+        "discovery_event_id": "vv1A6ZkosGkdQdEAX",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-madison-wisconsin-10-24-2026/event/07006471DA0E717E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6ZkosGkdQdEAX",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2026-saint-louis-vv1akzkoygkeocdew",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Pageant",
+    "datetime_iso": "2026-10-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006470A0B7B9F2",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-saint-louis-missouri-10-26-2026/event/06006470A0B7B9F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-saint-louis-missouri-10-26-2026/event/06006470A0B7B9F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006470A0B7B9F2",
+        "discovery_event_id": "vv1AkZkoYGkeOcDEw",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-saint-louis-missouri-10-26-2026/event/06006470A0B7B9F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkoYGkeOcDEw",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2026-cincinnati-1avbz_kgkvpi4s9",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends with special guest Melt",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "Bogart's",
+    "datetime_iso": "2026-10-27T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600646D25A15C57",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-with-special-cincinnati-ohio-10-27-2026/event/1600646D25A15C57",
+    "seatgeek_url": "https://seatgeek.com/sammy-rae-the-friends-tickets/cincinnati-ohio-bogarts-cincinnati-2026-10-27-7-pm/concert/18141178",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-with-special-cincinnati-ohio-10-27-2026/event/1600646D25A15C57",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600646D25A15C57",
+        "discovery_event_id": "1AvbZ_kGkVPI4s9",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-with-special-cincinnati-ohio-10-27-2026/event/1600646D25A15C57",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_kGkVPI4s9",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2026-charlotte-g5evz_6kzntos",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends with special guest Melt",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Fillmore Charlotte",
+    "datetime_iso": "2026-11-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006471B8ABF473",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-with-special-charlotte-north-carolina-10-31-2026/event/2D006471B8ABF473",
+    "seatgeek_url": "https://seatgeek.com/sammy-rae-the-friends-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-10-31-8-pm/concert/18141166",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-with-special-charlotte-north-carolina-10-31-2026/event/2D006471B8ABF473",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006471B8ABF473",
+        "discovery_event_id": "G5eVZ_6kznToS",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-with-special-charlotte-north-carolina-10-31-2026/event/2D006471B8ABF473",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_6kznToS",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2026-raleigh-g5evz_62qei-x",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "The Ritz",
+    "datetime_iso": "2026-11-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006473DD0AC87E",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-raleigh-north-carolina-11-01-2026/event/2D006473DD0AC87E",
+    "seatgeek_url": "https://seatgeek.com/sammy-rae-the-friends-tickets/raleigh-north-carolina-the-ritz-raleigh-2026-11-01-7-pm/concert/18141347",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-raleigh-north-carolina-11-01-2026/event/2D006473DD0AC87E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006473DD0AC87E",
+        "discovery_event_id": "G5eVZ_62qei-X",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-raleigh-north-carolina-11-01-2026/event/2D006473DD0AC87E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_62qei-X",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2026-brooklyn-k7v17_djzg7it1g",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2026-11-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000643700A3F2B5",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-brooklyn-new-york-11-05-2026/event/0000643700A3F2B5",
+    "seatgeek_url": "https://seatgeek.com/sammy-rae-the-friends-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-05-7-pm/concert/18036258",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-brooklyn-new-york-11-05-2026/event/0000643700A3F2B5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000643700A3F2B5",
+        "discovery_event_id": "k7v17_djZG7IT1g",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-brooklyn-new-york-11-05-2026/event/0000643700A3F2B5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7v17_djZG7IT1g",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2026-brooklyn-k7v17_djzg7tt5d",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2026-11-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000643700A7F2C3",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-brooklyn-new-york-11-06-2026/event/0000643700A7F2C3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-brooklyn-new-york-11-06-2026/event/0000643700A7F2C3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000643700A7F2C3",
+        "discovery_event_id": "k7v17_djZG7tT5d",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-brooklyn-new-york-11-06-2026/event/0000643700A7F2C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7v17_djZG7tT5d",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2026-boston-vv1k7z_dr3g7thxs",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2026-11-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100643792A5BFB1",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-boston-massachusetts-11-07-2026/event/0100643792A5BFB1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-boston-massachusetts-11-07-2026/event/0100643792A5BFB1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100643792A5BFB1",
+        "discovery_event_id": "vv1k7Z_dr3G7thXs",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-boston-massachusetts-11-07-2026/event/0100643792A5BFB1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1k7Z_dr3G7thXs",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2026-washington-1a4zkoygkeo1ke7",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "9:30 CLUB",
+    "datetime_iso": "2026-11-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006470A02869C4",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-washington-district-of-columbia-11-12-2026/event/15006470A02869C4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-washington-district-of-columbia-11-12-2026/event/15006470A02869C4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006470A02869C4",
+        "discovery_event_id": "1A4ZkoYGkeO1kE7",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-washington-district-of-columbia-11-12-2026/event/15006470A02869C4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkoYGkeO1kE7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2026-washington-1a4zkosgkdvotgl",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "9:30 CLUB",
+    "datetime_iso": "2026-11-13T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006471C182931F",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-washington-district-of-columbia-11-13-2026/event/15006471C182931F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-washington-district-of-columbia-11-13-2026/event/15006471C182931F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006471C182931F",
+        "discovery_event_id": "1A4ZkosGkdvOtGL",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-washington-district-of-columbia-11-13-2026/event/15006471C182931F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkosGkdvOtGL",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2026-washington-17a8v0g61mbwhsc",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "9:30 CLUB",
+    "datetime_iso": "2026-11-14T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064ADD8F5BC4E",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-washington-district-of-columbia-11-14-2026/event/150064ADD8F5BC4E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-washington-district-of-columbia-11-14-2026/event/150064ADD8F5BC4E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064ADD8F5BC4E",
+        "discovery_event_id": "17A8v0G61MbWhsC",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-washington-district-of-columbia-11-14-2026/event/150064ADD8F5BC4E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G61MbWhsC",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2027-philadelphia-vv1aezkfygkeybs_y",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "WXPN Welcomes Sammy Rae & The Friends - the GET DOWN!",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Fillmore Philadelphia",
+    "datetime_iso": "2027-02-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006530B9EB1679",
+    "ticketmaster_url": "https://www.ticketmaster.com/wxpn-welcomes-sammy-rae-the-friends-philadelphia-pennsylvania-02-17-2027/event/02006530B9EB1679",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/wxpn-welcomes-sammy-rae-the-friends-philadelphia-pennsylvania-02-17-2027/event/02006530B9EB1679",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006530B9EB1679",
+        "discovery_event_id": "vv1AeZkfYGkeyBs_y",
+        "url": "https://www.ticketmaster.com/wxpn-welcomes-sammy-rae-the-friends-philadelphia-pennsylvania-02-17-2027/event/02006530B9EB1679",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfYGkeyBs_y",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2027-indianapolis-vv1aazkfygkdwqafw",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Old National Centre",
+    "datetime_iso": "2027-03-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006530F2689232",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-indianapolis-indiana-03-06-2027/event/05006530F2689232",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-indianapolis-indiana-03-06-2027/event/05006530F2689232",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006530F2689232",
+        "discovery_event_id": "vv1AAZkfYGkdwQaFw",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-indianapolis-indiana-03-06-2027/event/05006530F2689232",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZkfYGkdwQaFw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2027-memphis-g5viz_k1-mj7z",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "Memphis",
+    "country": "United States Of America",
+    "venue": "Satellite Music Hall",
+    "datetime_iso": "2027-03-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006532A1DDC138",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-memphis-tennessee-03-09-2027/event/1B006532A1DDC138",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-memphis-tennessee-03-09-2027/event/1B006532A1DDC138",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006532A1DDC138",
+        "discovery_event_id": "G5viZ_K1-Mj7z",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-memphis-tennessee-03-09-2027/event/1B006532A1DDC138",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_K1-Mj7z",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2027-birmingham-1aozkfwgkevbkhs",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends: the GET DOWN!",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Iron City",
+    "datetime_iso": "2027-03-14T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006532B4613F31",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-birmingham-alabama-03-13-2027/event/20006532B4613F31",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-birmingham-alabama-03-13-2027/event/20006532B4613F31",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006532B4613F31",
+        "discovery_event_id": "1AOZkfwGkeVbKHs",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-birmingham-alabama-03-13-2027/event/20006532B4613F31",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZkfwGkeVbKHs",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2027-new-orleans-g5viz_kd9uilu",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "House of Blues New Orleans",
+    "datetime_iso": "2027-03-15T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006530D7DA87F6",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-new-orleans-louisiana-03-14-2027/event/1B006530D7DA87F6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-new-orleans-louisiana-03-14-2027/event/1B006530D7DA87F6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006530D7DA87F6",
+        "discovery_event_id": "G5viZ_Kd9UILU",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-new-orleans-louisiana-03-14-2027/event/1B006530D7DA87F6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_Kd9UILU",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2027-la-vista-1aezz_3gkbwena6",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends - the GET DOWN!",
+    "city": "La Vista",
+    "country": "United States Of America",
+    "venue": "The Astro Theater",
+    "datetime_iso": "2027-03-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000652EB20A3247",
+    "ticketmaster_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-la-vista-nebraska-03-18-2027/event/2000652EB20A3247",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-la-vista-nebraska-03-18-2027/event/2000652EB20A3247",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000652EB20A3247",
+        "discovery_event_id": "1AeZZ_3GkBweNa6",
+        "url": "https://www.ticketmaster.com/sammy-rae-the-friends-the-get-la-vista-nebraska-03-18-2027/event/2000652EB20A3247",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_3GkBweNa6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2027-glasgow-1auzkfugkdp8bkz",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Barrowland Ballroom",
+    "datetime_iso": "2027-04-23T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006536D64181B8",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-glasgow-23-04-2027/event/36006536D64181B8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-glasgow-23-04-2027/event/36006536D64181B8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006536D64181B8",
+        "discovery_event_id": "1AUZkfUGkdp8bkz",
+        "url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-glasgow-23-04-2027/event/36006536D64181B8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkfUGkdp8bkz",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2027-newcastle-g5vhz_k66gnkv",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & the Friends + Special Guests",
+    "city": "Newcastle",
+    "country": "Great Britain",
+    "venue": "Northumbria Students Union",
+    "datetime_iso": "2027-04-24T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006531C73234C1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-special-guests-newcastle-24-04-2027/event/1F006531C73234C1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-special-guests-newcastle-24-04-2027/event/1F006531C73234C1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006531C73234C1",
+        "discovery_event_id": "G5vHZ_K66GNKv",
+        "url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-special-guests-newcastle-24-04-2027/event/1F006531C73234C1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_K66GNKv",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2027-manchester-g5vhz_k66rsk9",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & the Friends + Special Guests",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Albert Hall",
+    "datetime_iso": "2027-04-25T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006531C77B34D7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-special-guests-manchester-25-04-2027/event/1F006531C77B34D7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-special-guests-manchester-25-04-2027/event/1F006531C77B34D7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006531C77B34D7",
+        "discovery_event_id": "G5vHZ_K66rSK9",
+        "url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-special-guests-manchester-25-04-2027/event/1F006531C77B34D7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_K66rSK9",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2027-bristol-1amzkfsgkd6rv_b",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends",
+    "city": "Bristol",
+    "country": "Great Britain",
+    "venue": "Bristol Beacon",
+    "datetime_iso": "2027-04-28T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006531C7BF4658",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-bristol-28-04-2027/event/37006531C7BF4658",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-bristol-28-04-2027/event/37006531C7BF4658",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006531C7BF4658",
+        "discovery_event_id": "1AMZkfsGkd6RV_b",
+        "url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-bristol-28-04-2027/event/37006531C7BF4658",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkfsGkd6RV_b",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2027-london-g5dzz_kkuzxaw",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Forum Kentish Town",
+    "datetime_iso": "2027-04-29T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E0065318D02217D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-london-29-04-2027/event/3E0065318D02217D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-london-29-04-2027/event/3E0065318D02217D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0065318D02217D",
+        "discovery_event_id": "G5dzZ_KkuZxAW",
+        "url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-london-29-04-2027/event/3E0065318D02217D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KkuZxAW",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sammy-rae-the-friends-2027-london-g5dzz_kf9sdpg",
+    "artist_slug": "sammy-rae-the-friends",
+    "artist_name": "Sammy Rae & The Friends",
+    "event_name": "Sammy Rae & The Friends",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Forum Kentish Town",
+    "datetime_iso": "2027-04-30T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00653217CFB975",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-london-30-04-2027/event/3E00653217CFB975",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-london-30-04-2027/event/3E00653217CFB975",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00653217CFB975",
+        "discovery_event_id": "G5dzZ_KF9SDPg",
+        "url": "https://www.ticketmaster.co.uk/sammy-rae-the-friends-london-30-04-2027/event/3E00653217CFB975",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_KF9SDPg",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

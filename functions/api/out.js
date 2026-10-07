@@ -1526,6 +1526,76 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-warren-zeiders",
     redirectUrl: "https://seatgeek.com/warren-zeiders-tickets",
     verified: true
+  },
+  "dancing-with-the-stars:ticketmaster": {
+    artistSlug: "dancing-with-the-stars",
+    provider: "ticketmaster",
+    linkId: "tm-artist-dancing-with-the-stars",
+    redirectUrl: "https://www.ticketmaster.com/dancing-with-the-stars-tickets/artist/1086116",
+    verified: true
+  },
+  "dancing-with-the-stars:seatgeek": {
+    artistSlug: "dancing-with-the-stars",
+    provider: "seatgeek",
+    linkId: "sg-artist-dancing-with-the-stars",
+    redirectUrl: "https://seatgeek.com/dancing-with-the-stars-1-tickets",
+    verified: true
+  },
+  "jay-wheeler:ticketmaster": {
+    artistSlug: "jay-wheeler",
+    provider: "ticketmaster",
+    linkId: "tm-artist-jay-wheeler",
+    redirectUrl: "https://www.ticketmaster.com/jay-wheeler-tickets/artist/2795427",
+    verified: true
+  },
+  "jay-wheeler:seatgeek": {
+    artistSlug: "jay-wheeler",
+    provider: "seatgeek",
+    linkId: "sg-artist-jay-wheeler",
+    redirectUrl: "https://seatgeek.com/jay-wheeler-tickets",
+    verified: true
+  },
+  "rod-stewart:ticketmaster": {
+    artistSlug: "rod-stewart",
+    provider: "ticketmaster",
+    linkId: "tm-artist-rod-stewart",
+    redirectUrl: "https://www.ticketmaster.com/rod-stewart-tickets/artist/736200",
+    verified: true
+  },
+  "rod-stewart:seatgeek": {
+    artistSlug: "rod-stewart",
+    provider: "seatgeek",
+    linkId: "sg-artist-rod-stewart",
+    redirectUrl: "https://seatgeek.com/rod-stewart-tickets",
+    verified: true
+  },
+  "sammy-rae-the-friends:ticketmaster": {
+    artistSlug: "sammy-rae-the-friends",
+    provider: "ticketmaster",
+    linkId: "tm-artist-sammy-rae-the-friends",
+    redirectUrl: "https://www.ticketmaster.com/sammy-rae-the-friends-tickets/artist/2791075",
+    verified: true
+  },
+  "sammy-rae-the-friends:seatgeek": {
+    artistSlug: "sammy-rae-the-friends",
+    provider: "seatgeek",
+    linkId: "sg-artist-sammy-rae-the-friends",
+    redirectUrl: "https://seatgeek.com/sammy-rae-the-friends-tickets",
+    verified: true
+  },
+  "hans-williams:ticketmaster": {
+    artistSlug: "hans-williams",
+    provider: "ticketmaster",
+    linkId: "tm-artist-hans-williams",
+    redirectUrl: "https://www.ticketmaster.com/hans-williams-tickets/artist/2839368",
+    verified: true
+  },
+  "hans-williams:seatgeek": {
+    artistSlug: "hans-williams",
+    provider: "seatgeek",
+    linkId: "sg-artist-hans-williams",
+    redirectUrl: "https://seatgeek.com/hans-williams-tickets",
+    verified: true
   }
 };
 

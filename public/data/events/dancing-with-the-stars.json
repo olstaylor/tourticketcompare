@@ -1,0 +1,2810 @@
+[
+  {
+    "id": "tm-dancing-with-the-stars-2027-manchester-vv1avzkfzgkexi5cw",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Manchester",
+    "country": "United States Of America",
+    "venue": "SNHU Arena",
+    "datetime_iso": "2027-01-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006538BEB0BB7D",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-manchester-new-hampshire-01-21-2027/event/01006538BEB0BB7D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-manchester-new-hampshire-01-21-2027/event/01006538BEB0BB7D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006538BEB0BB7D",
+        "discovery_event_id": "vv1AvZkfzGkeXi5cW",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-manchester-new-hampshire-01-21-2027/event/01006538BEB0BB7D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfzGkeXi5cW",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-buffalo-k7v16k4vppotze82",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Buffalo",
+    "country": "United States Of America",
+    "venue": "KeyBank Center",
+    "datetime_iso": "2027-01-23T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006541965469FE",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-buffalo-new-york-01-22-2027/event/00006541965469FE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-buffalo-new-york-01-22-2027/event/00006541965469FE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006541965469FE",
+        "discovery_event_id": "k7v16k4vPPotZe82",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-buffalo-new-york-01-22-2027/event/00006541965469FE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7v16k4vPPotZe82",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-cincinnati-1apzkfygkeolgly",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "Heritage Bank Center",
+    "datetime_iso": "2027-01-24T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006539A07F5AF9",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-cincinnati-ohio-01-23-2027/event/16006539A07F5AF9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-cincinnati-ohio-01-23-2027/event/16006539A07F5AF9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006539A07F5AF9",
+        "discovery_event_id": "1ApZkfyGkeOLgly",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-cincinnati-ohio-01-23-2027/event/16006539A07F5AF9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkfyGkeOLgly",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-toronto-1avzz_kgks022ry",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2027-01-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000653CE43CF7B0",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dancing-with-the-stars-live-2027-toronto-ontario-01-24-2027/event/1000653CE43CF7B0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dancing-with-the-stars-live-2027-toronto-ontario-01-24-2027/event/1000653CE43CF7B0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000653CE43CF7B0",
+        "discovery_event_id": "1AvZZ_KGkS022rY",
+        "url": "https://www.ticketmaster.ca/dancing-with-the-stars-live-2027-toronto-ontario-01-24-2027/event/1000653CE43CF7B0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_KGkS022rY",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-grand-rapids-vv1afzkfygkddhcfb",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "Van Andel Arena",
+    "datetime_iso": "2027-01-28T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006539FBF2D53A",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-grand-rapids-michigan-01-27-2027/event/08006539FBF2D53A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-grand-rapids-michigan-01-27-2027/event/08006539FBF2D53A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006539FBF2D53A",
+        "discovery_event_id": "vv1AFZkfyGkdDHcfB",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-grand-rapids-michigan-01-27-2027/event/08006539FBF2D53A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkfyGkdDHcfB",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-detroit-vv1afzk4egkdpidi9",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2027-01-29T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006542E5B3BA17",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-detroit-michigan-01-28-2027/event/08006542E5B3BA17",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-detroit-michigan-01-28-2027/event/08006542E5B3BA17",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006542E5B3BA17",
+        "discovery_event_id": "vv1AFZk4eGkdPiDI9",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-detroit-michigan-01-28-2027/event/08006542E5B3BA17",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZk4eGkdPiDI9",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-indianapolis-vv17fz_kgkmo2l7h",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Gainbridge Fieldhouse",
+    "datetime_iso": "2027-01-30T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500653DE03DF13C",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-indianapolis-indiana-01-29-2027/event/0500653DE03DF13C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-indianapolis-indiana-01-29-2027/event/0500653DE03DF13C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500653DE03DF13C",
+        "discovery_event_id": "vv17fZ_KGkMO2L7H",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-indianapolis-indiana-01-29-2027/event/0500653DE03DF13C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_KGkMO2L7H",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-minneapolis-vv1akzkfzgkdjnlsm",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Target Center",
+    "datetime_iso": "2027-01-31T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006538E6A9FCF7",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-minneapolis-minnesota-01-30-2027/event/06006538E6A9FCF7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-minneapolis-minnesota-01-30-2027/event/06006538E6A9FCF7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006538E6A9FCF7",
+        "discovery_event_id": "vv1AkZkfzGkdJnLSM",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-minneapolis-minnesota-01-30-2027/event/06006538E6A9FCF7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfzGkdJnLSM",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-milwaukee-vv1a6zkfzgkemf4pv",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Fiserv Forum",
+    "datetime_iso": "2027-02-01T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006538B7515581",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-milwaukee-wisconsin-01-31-2027/event/07006538B7515581",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-milwaukee-wisconsin-01-31-2027/event/07006538B7515581",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006538B7515581",
+        "discovery_event_id": "vv1A6ZkfzGkeMf4pv",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-milwaukee-wisconsin-01-31-2027/event/07006538B7515581",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6ZkfzGkeMf4pv",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-allentown-1kgzvp8fgagolc1",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Allentown",
+    "country": "United States Of America",
+    "venue": "PPL Center",
+    "datetime_iso": "2027-02-04T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300065414C81F38A",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-allentown-pennsylvania-02-03-2027/event/300065414C81F38A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-allentown-pennsylvania-02-03-2027/event/300065414C81F38A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300065414C81F38A",
+        "discovery_event_id": "1kGZvP8fGAGOLC1",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-allentown-pennsylvania-02-03-2027/event/300065414C81F38A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kGZvP8fGAGOLC1",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-philadelphia-1ayzk4vgkepepvt",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Xfinity Mobile Arena",
+    "datetime_iso": "2027-02-05T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "30006541A59E5D3F",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-philadelphia-pennsylvania-02-04-2027/event/30006541A59E5D3F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-philadelphia-pennsylvania-02-04-2027/event/30006541A59E5D3F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006541A59E5D3F",
+        "discovery_event_id": "1AYZk4vGkePEPVT",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-philadelphia-pennsylvania-02-04-2027/event/30006541A59E5D3F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AYZk4vGkePEPVT",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-new-york-g5diz_f1zup-t",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Madison Square Garden",
+    "datetime_iso": "2027-02-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B006542B8356869",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-new-york-new-york-02-05-2027/event/3B006542B8356869",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-new-york-new-york-02-05-2027/event/3B006542B8356869",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B006542B8356869",
+        "discovery_event_id": "G5diZ_f1zup-t",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-new-york-new-york-02-05-2027/event/3B006542B8356869",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_f1zup-t",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-washington-1a4zkfsgkew-uk5",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Capital One Arena",
+    "datetime_iso": "2027-02-08T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006531BD84D18B",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-washington-district-of-columbia-02-07-2027/event/15006531BD84D18B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-washington-district-of-columbia-02-07-2027/event/15006531BD84D18B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006531BD84D18B",
+        "discovery_event_id": "1A4ZkfsGkeW-uk5",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-washington-district-of-columbia-02-07-2027/event/15006531BD84D18B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkfsGkeW-uk5",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-baltimore-1a4zk4vgkewzdyv",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "CFG Bank Arena",
+    "datetime_iso": "2027-02-10T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006541BDE3BE41",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-baltimore-maryland-02-09-2027/event/15006541BDE3BE41",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-baltimore-maryland-02-09-2027/event/15006541BDE3BE41",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006541BDE3BE41",
+        "discovery_event_id": "1A4Zk4vGkeWzDyv",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-baltimore-maryland-02-09-2027/event/15006541BDE3BE41",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4Zk4vGkeWzDyv",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-pittsburgh-1apzkfygkdqrluc",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! 2027 Tour",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "PPG Paints Arena",
+    "datetime_iso": "2027-02-11T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006539DABEB34E",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-pittsburgh-pennsylvania-02-10-2027/event/16006539DABEB34E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-pittsburgh-pennsylvania-02-10-2027/event/16006539DABEB34E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006539DABEB34E",
+        "discovery_event_id": "1ApZkfyGkdQRluC",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-pittsburgh-pennsylvania-02-10-2027/event/16006539DABEB34E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZkfyGkdQRluC",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-boston-vv177z_kgks9d4wi",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2027-02-12T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100653CD70D5CA8",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-boston-massachusetts-02-11-2027/event/0100653CD70D5CA8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-boston-massachusetts-02-11-2027/event/0100653CD70D5CA8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100653CD70D5CA8",
+        "discovery_event_id": "vv177Z_KGkS9d4wI",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-boston-massachusetts-02-11-2027/event/0100653CD70D5CA8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_KGkS9d4wI",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-albany-k7vgf_km48smn",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Albany",
+    "country": "United States Of America",
+    "venue": "MVP Arena",
+    "datetime_iso": "2027-02-13T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000653DD5431BAA",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-albany-new-york-02-12-2027/event/0000653DD5431BAA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-albany-new-york-02-12-2027/event/0000653DD5431BAA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000653DD5431BAA",
+        "discovery_event_id": "k7vGF_KM48smn",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-albany-new-york-02-12-2027/event/0000653DD5431BAA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_KM48smn",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-newark-vv17fz_kgkbxwhxi",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2027-02-14T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200653EBECBC8A8",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-newark-new-jersey-02-13-2027/event/0200653EBECBC8A8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-newark-new-jersey-02-13-2027/event/0200653EBECBC8A8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200653EBECBC8A8",
+        "discovery_event_id": "vv17FZ_KGkBXwHxI",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-newark-new-jersey-02-13-2027/event/0200653EBECBC8A8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_KGkBXwHxI",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-hershey-vv1aezk4egkd_54wn",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Hershey",
+    "country": "United States Of America",
+    "venue": "GIANT Center",
+    "datetime_iso": "2027-02-18T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006542D92D5CA3",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-hershey-pennsylvania-02-17-2027/event/02006542D92D5CA3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-hershey-pennsylvania-02-17-2027/event/02006542D92D5CA3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006542D92D5CA3",
+        "discovery_event_id": "vv1AeZk4eGkd_54wN",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-hershey-pennsylvania-02-17-2027/event/02006542D92D5CA3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk4eGkd_54wN",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-columbus-vv1kv8vp83gacza6r",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Schottenstein Center",
+    "datetime_iso": "2027-02-19T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050065412E0091DE",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-columbus-ohio-02-18-2027/event/050065412E0091DE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-columbus-ohio-02-18-2027/event/050065412E0091DE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050065412E0091DE",
+        "discovery_event_id": "vv1kv8vP83GACZa6r",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-columbus-ohio-02-18-2027/event/050065412E0091DE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kv8vP83GACZa6r",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-rosemont-vv178z_kgku4hpsc",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Rosemont",
+    "country": "United States Of America",
+    "venue": "Allstate Arena",
+    "datetime_iso": "2027-02-20T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400653D95F16C6D",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-rosemont-illinois-02-19-2027/event/0400653D95F16C6D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-rosemont-illinois-02-19-2027/event/0400653D95F16C6D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400653D95F16C6D",
+        "discovery_event_id": "vv178Z_KGkU4Hpsc",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-rosemont-illinois-02-19-2027/event/0400653D95F16C6D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_KGkU4Hpsc",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-moline-vv17bz_kgkbyihs4",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! 2027 Tour",
+    "city": "Moline",
+    "country": "United States Of America",
+    "venue": "Vibrant Arena at the Mark",
+    "datetime_iso": "2027-02-21T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600653EB9A3CCD5",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-moline-illinois-02-20-2027/event/0600653EB9A3CCD5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-moline-illinois-02-20-2027/event/0600653EB9A3CCD5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600653EB9A3CCD5",
+        "discovery_event_id": "vv17bZ_KGkByIHS4",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-moline-illinois-02-20-2027/event/0600653EB9A3CCD5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_KGkByIHS4",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-omaha-vv1akzk4egkdjg6nb",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Omaha",
+    "country": "United States Of America",
+    "venue": "CHI Health Center Omaha",
+    "datetime_iso": "2027-02-24T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006542DC3078FA",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-omaha-nebraska-02-23-2027/event/06006542DC3078FA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-omaha-nebraska-02-23-2027/event/06006542DC3078FA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006542DC3078FA",
+        "discovery_event_id": "vv1AkZk4eGkdjG6NB",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-omaha-nebraska-02-23-2027/event/06006542DC3078FA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk4eGkdjG6NB",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-kansas-city-vv1kbz_fk9g7ylk6",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2027-02-25T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600654197E6B4C7",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-kansas-city-missouri-02-24-2027/event/0600654197E6B4C7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-kansas-city-missouri-02-24-2027/event/0600654197E6B4C7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600654197E6B4C7",
+        "discovery_event_id": "vv1kbZ_fk9G7ylK6",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-kansas-city-missouri-02-24-2027/event/0600654197E6B4C7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kbZ_fk9G7ylK6",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-north-little-rock-g5viz_kxiccfs",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "North Little Rock",
+    "country": "United States Of America",
+    "venue": "Simmons Bank Arena",
+    "datetime_iso": "2027-02-26T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006538ACB4E533",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-north-little-rock-arkansas-02-25-2027/event/1B006538ACB4E533",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-north-little-rock-arkansas-02-25-2027/event/1B006538ACB4E533",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006538ACB4E533",
+        "discovery_event_id": "G5viZ_KxicCfS",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-north-little-rock-arkansas-02-25-2027/event/1B006538ACB4E533",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KxicCfS",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-saint-louis-vv1akzkfsgkdkbgr5",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Enterprise Center",
+    "datetime_iso": "2027-02-27T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006531C6EB578B",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-saint-louis-missouri-02-26-2027/event/06006531C6EB578B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-saint-louis-missouri-02-26-2027/event/06006531C6EB578B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006531C6EB578B",
+        "discovery_event_id": "vv1AkZkfsGkdkBgr5",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-saint-louis-missouri-02-26-2027/event/06006531C6EB578B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfsGkdkBgr5",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-knoxville-g5viz_kwuvui0",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Knoxville",
+    "country": "United States Of America",
+    "venue": "Food City Center",
+    "datetime_iso": "2027-02-28T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00653C8D076A24",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-knoxville-tennessee-02-27-2027/event/1B00653C8D076A24",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-knoxville-tennessee-02-27-2027/event/1B00653C8D076A24",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00653C8D076A24",
+        "discovery_event_id": "G5viZ_KwuvUI0",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-knoxville-tennessee-02-27-2027/event/1B00653C8D076A24",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KwuvUI0",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-nashville-g5viz_kb4-h48",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2027-03-01T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00653E9585B550",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-nashville-tennessee-02-28-2027/event/1B00653E9585B550",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-nashville-tennessee-02-28-2027/event/1B00653E9585B550",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00653E9585B550",
+        "discovery_event_id": "G5viZ_KB4-h48",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-nashville-tennessee-02-28-2027/event/1B00653E9585B550",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KB4-h48",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-charlottesville-vv16vzk4vjsza2k7u6",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Charlottesville",
+    "country": "United States Of America",
+    "venue": "John Paul Jones Arena",
+    "datetime_iso": "2027-03-03T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006541731E53C6",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-charlottesville-virginia-03-02-2027/event/01006541731E53C6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-charlottesville-virginia-03-02-2027/event/01006541731E53C6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006541731E53C6",
+        "discovery_event_id": "vv16vZk4vjsZA2k7u6",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-charlottesville-virginia-03-02-2027/event/01006541731E53C6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16vZk4vjsZA2k7u6",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-orlando-1axzkfggkescv4v",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Addition Financial Arena",
+    "datetime_iso": "2027-03-07T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006535B33B4541",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-orlando-florida-03-06-2027/event/22006535B33B4541",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-orlando-florida-03-06-2027/event/22006535B33B4541",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006535B33B4541",
+        "discovery_event_id": "1AxZkfgGkeSCV4v",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-orlando-florida-03-06-2027/event/22006535B33B4541",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZkfgGkeSCV4v",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-tampa-vvg1vz_kbbl4rs",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Benchmark International Arena",
+    "datetime_iso": "2027-03-10T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00653E98AD5BF3",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-tampa-florida-03-09-2027/event/0D00653E98AD5BF3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-tampa-florida-03-09-2027/event/0D00653E98AD5BF3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00653E98AD5BF3",
+        "discovery_event_id": "vvG1VZ_KBbl4RS",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-tampa-florida-03-09-2027/event/0D00653E98AD5BF3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_KBbl4RS",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-birmingham-1aezz_kgkwr4ecx",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Legacy Arena at the BJCC",
+    "datetime_iso": "2027-03-11T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000653C9E542B62",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-birmingham-alabama-03-10-2027/event/2000653C9E542B62",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-birmingham-alabama-03-10-2027/event/2000653C9E542B62",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000653C9E542B62",
+        "discovery_event_id": "1AeZZ_KGkwr4ecx",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-birmingham-alabama-03-10-2027/event/2000653C9E542B62",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_KGkwr4ecx",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-new-orleans-g5viz_kxwz34h",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "Smoothie King Center",
+    "datetime_iso": "2027-03-12T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006538BD01255B",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-new-orleans-louisiana-03-11-2027/event/1B006538BD01255B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-new-orleans-louisiana-03-11-2027/event/1B006538BD01255B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006538BD01255B",
+        "discovery_event_id": "G5viZ_KxWZ34h",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-new-orleans-louisiana-03-11-2027/event/1B006538BD01255B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KxWZ34h",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-austin-g5diz_knamopo",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2027-03-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006538C5B915A0",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-austin-texas-03-12-2027/event/3A006538C5B915A0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-austin-texas-03-12-2027/event/3A006538C5B915A0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006538C5B915A0",
+        "discovery_event_id": "G5dIZ_KNAmopO",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-austin-texas-03-12-2027/event/3A006538C5B915A0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_KNAmopO",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-san-antonio-g5diz_kdu_auv",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Frost Bank Center",
+    "datetime_iso": "2027-03-14T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00653ECD645374",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-san-antonio-texas-03-13-2027/event/3A00653ECD645374",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-san-antonio-texas-03-13-2027/event/3A00653ECD645374",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00653ECD645374",
+        "discovery_event_id": "G5dIZ_KDu_AuV",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-san-antonio-texas-03-13-2027/event/3A00653ECD645374",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_KDu_AuV",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-dallas-vvg1yz_ke4gsnj",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "American Airlines Center",
+    "datetime_iso": "2027-03-17T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006539D5D718DC",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-dallas-texas-03-16-2027/event/0C006539D5D718DC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-dallas-texas-03-16-2027/event/0C006539D5D718DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006539D5D718DC",
+        "discovery_event_id": "vvG1YZ_KE4gsNj",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-dallas-texas-03-16-2027/event/0C006539D5D718DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_KE4gsNj",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-tulsa-1aezz_kgkslhpir",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "BOK Center",
+    "datetime_iso": "2027-03-18T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000653CEBF25A1E",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-tulsa-oklahoma-03-17-2027/event/2000653CEBF25A1E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-tulsa-oklahoma-03-17-2027/event/2000653CEBF25A1E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000653CEBF25A1E",
+        "discovery_event_id": "1AeZZ_KGkSlHPIr",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-tulsa-oklahoma-03-17-2027/event/2000653CEBF25A1E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_KGkSlHPIr",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-denver-g5vzz_kbv0118",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2027-03-20T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00653EB490A290",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-denver-colorado-03-19-2027/event/1E00653EB490A290",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-denver-colorado-03-19-2027/event/1E00653EB490A290",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00653EB490A290",
+        "discovery_event_id": "G5vzZ_KBV0118",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-denver-colorado-03-19-2027/event/1E00653EB490A290",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_KBV0118",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T16:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-seattle-vvg1hz_f63jugd",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-03-23T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006541D298D33B",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-seattle-washington-03-22-2027/event/0F006541D298D33B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-seattle-washington-03-22-2027/event/0F006541D298D33B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006541D298D33B",
+        "discovery_event_id": "vvG1HZ_f63JuGD",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-seattle-washington-03-22-2027/event/0F006541D298D33B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_f63JuGD",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T17:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-abbotsford-1aozkfygkejjqyp",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Abbotsford",
+    "country": "Canada",
+    "venue": "Rogers Forum",
+    "datetime_iso": "2027-03-24T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006539A671AC25",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dancing-with-the-stars-live-2027-abbotsford-british-columbia-03-23-2027/event/11006539A671AC25",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dancing-with-the-stars-live-2027-abbotsford-british-columbia-03-23-2027/event/11006539A671AC25",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006539A671AC25",
+        "discovery_event_id": "1AoZkfyGkeJjQYP",
+        "url": "https://www.ticketmaster.ca/dancing-with-the-stars-live-2027-abbotsford-british-columbia-03-23-2027/event/11006539A671AC25",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkfyGkeJjQYP",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T17:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-portland-vvg1hz_kxomi0l",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2027-03-25T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006538A0DE891F",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-portland-oregon-03-24-2027/event/0F006538A0DE891F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-portland-oregon-03-24-2027/event/0F006538A0DE891F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006538A0DE891F",
+        "discovery_event_id": "vvG1HZ_KxOMI0L",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-portland-oregon-03-24-2027/event/0F006538A0DE891F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_KxOMI0L",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T17:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-sacramento-g5vyz_kzd-r6s",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2027-03-27T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00653E3B86F1F1",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-sacramento-california-03-26-2027/event/1C00653E3B86F1F1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-sacramento-california-03-26-2027/event/1C00653E3B86F1F1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00653E3B86F1F1",
+        "discovery_event_id": "G5vYZ_KzD-R6s",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-sacramento-california-03-26-2027/event/1C00653E3B86F1F1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_KzD-R6s",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T17:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-san-jose-g5vyz_kxgynut",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "San Jose",
+    "country": "United States Of America",
+    "venue": "SAP Center at San Jose",
+    "datetime_iso": "2027-03-28T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006538B5E63DA9",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-san-jose-california-03-27-2027/event/1C006538B5E63DA9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-san-jose-california-03-27-2027/event/1C006538B5E63DA9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006538B5E63DA9",
+        "discovery_event_id": "G5vYZ_KxgyNUt",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-san-jose-california-03-27-2027/event/1C006538B5E63DA9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_KxgyNUt",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T17:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-san-diego-vvg1iz_kxrbyxe",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Viejas Arena at Aztec Bowl San Diego State University",
+    "datetime_iso": "2027-04-01T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0065389EEB9F82",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-san-diego-california-03-31-2027/event/0A0065389EEB9F82",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-san-diego-california-03-31-2027/event/0A0065389EEB9F82",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0065389EEB9F82",
+        "discovery_event_id": "vvG1IZ_KxrByXe",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-san-diego-california-03-31-2027/event/0A0065389EEB9F82",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_KxrByXe",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T17:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-anaheim-vv170z_kgkbh3n6-",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2027-04-02T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900653E9B4AA1E1",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-anaheim-california-04-01-2027/event/0900653E9B4AA1E1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-anaheim-california-04-01-2027/event/0900653E9B4AA1E1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900653E9B4AA1E1",
+        "discovery_event_id": "vv170Z_KGkBh3n6-",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-anaheim-california-04-01-2027/event/0900653E9B4AA1E1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_KGkBh3n6-",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T17:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-los-angeles-g5eyz_fk9yzip",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2027-04-03T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2C00654197E40B25",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-los-angeles-california-04-02-2027/event/2C00654197E40B25",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-los-angeles-california-04-02-2027/event/2C00654197E40B25",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2C00654197E40B25",
+        "discovery_event_id": "G5eYZ_fk9yZiP",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-los-angeles-california-04-02-2027/event/2C00654197E40B25",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eYZ_fk9yZiP",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T17:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-phoenix-1av0z_kgkb3yfyn",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2027-04-05T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900653E92C14C23",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-phoenix-arizona-04-04-2027/event/1900653E92C14C23",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-phoenix-arizona-04-04-2027/event/1900653E92C14C23",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900653E92C14C23",
+        "discovery_event_id": "1Av0Z_KGkB3YfYN",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-phoenix-arizona-04-04-2027/event/1900653E92C14C23",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_KGkB3YfYN",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T17:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-mobile-g5viz_f1cm1bo",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Mobile",
+    "country": "United States Of America",
+    "venue": "Regions Arena",
+    "datetime_iso": "2027-04-08T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0065428EB8AEA0",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-mobile-alabama-04-07-2027/event/1B0065428EB8AEA0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-mobile-alabama-04-07-2027/event/1B0065428EB8AEA0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0065428EB8AEA0",
+        "discovery_event_id": "G5viZ_f1Cm1BO",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-mobile-alabama-04-07-2027/event/1B0065428EB8AEA0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_f1Cm1BO",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T15:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-greenville-g5evz_kdpl_8w",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Greenville",
+    "country": "United States Of America",
+    "venue": "Bon Secours Wellness Arena",
+    "datetime_iso": "2027-04-08T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00653ED67D943D",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-greenville-south-carolina-04-08-2027/event/2D00653ED67D943D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-greenville-south-carolina-04-08-2027/event/2D00653ED67D943D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00653ED67D943D",
+        "discovery_event_id": "G5eVZ_KDpL_8W",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-greenville-south-carolina-04-08-2027/event/2D00653ED67D943D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_KDpL_8W",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-raleigh-g5evz_f60r-5g",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Lenovo Center",
+    "datetime_iso": "2027-04-09T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006541E4BE12CC",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-raleigh-north-carolina-04-09-2027/event/2D006541E4BE12CC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-raleigh-north-carolina-04-09-2027/event/2D006541E4BE12CC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006541E4BE12CC",
+        "discovery_event_id": "G5eVZ_f60R-5G",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-raleigh-north-carolina-04-09-2027/event/2D006541E4BE12CC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_f60R-5G",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-charlotte-g5evz_kj22ebd",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2027-04-10T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0065398F3E763B",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-charlotte-north-carolina-04-10-2027/event/2D0065398F3E763B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-charlotte-north-carolina-04-10-2027/event/2D0065398F3E763B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0065398F3E763B",
+        "discovery_event_id": "G5eVZ_KJ22EbD",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-charlotte-north-carolina-04-10-2027/event/2D0065398F3E763B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_KJ22EbD",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  },
+  {
+    "id": "tm-dancing-with-the-stars-2027-duluth-vvg1zz_km06fsr",
+    "artist_slug": "dancing-with-the-stars",
+    "artist_name": "Dancing With The Stars",
+    "event_name": "Dancing with the Stars: Live! - 2027 Tour",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "Gas South Arena",
+    "datetime_iso": "2027-04-11T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00653DE41C8C5E",
+    "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-duluth-georgia-04-11-2027/event/0E00653DE41C8C5E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-duluth-georgia-04-11-2027/event/0E00653DE41C8C5E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00653DE41C8C5E",
+        "discovery_event_id": "vvG1zZ_KM06Fsr",
+        "url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-duluth-georgia-04-11-2027/event/0E00653DE41C8C5E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_KM06Fsr",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T14:00:00Z"
+  }
+]

@@ -437,18 +437,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8135394",
-        "url": "https://www.ticketnetwork.com/en/p/8135394",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Jfbx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135394/Michelle-Branch-tickets-Tue-Oct-6-2026-Fremont-Theater-CA",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8135394"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-michelle-branch-2026-aspen-z7r9jz1a7jfoj",

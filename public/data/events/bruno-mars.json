@@ -3086,11 +3086,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7679806",
-        "url": "https://www.ticketliquidator.com/tickets/7679806/Bruno-Mars-tickets-Tue-Oct-6-2026-SoFi-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107073304",
@@ -3105,7 +3105,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_eheCVin",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7679806/Bruno-Mars-tickets-Tue-Oct-6-2026-SoFi-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-6-2026/event/107073304"
   },
   {

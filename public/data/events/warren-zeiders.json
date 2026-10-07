@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7796640",
+        "url": "https://www.ticketliquidator.com/tickets/7796640/Warren-Zeiders-tickets-Sun-Oct-11-2026-O2-Academy-Glasgow",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbUnoqNQA",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7796640"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7796640",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7796640/Warren-Zeiders-tickets-Sun-Oct-11-2026-O2-Academy-Glasgow"
   },
   {
     "id": "tm-warren-zeiders-2026-leeds-g5dzzbubyjrus",
@@ -114,6 +122,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8086310",
+        "url": "https://www.ticketliquidator.com/tickets/8086310/Warren-Zeiders-tickets-Mon-Oct-12-2026-O2-Academy-Leeds",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbUbYjRUs",
@@ -126,7 +141,8 @@
         "end": "2026-10-12T18:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8086310"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8086310",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8086310/Warren-Zeiders-tickets-Mon-Oct-12-2026-O2-Academy-Leeds"
   },
   {
     "id": "tm-warren-zeiders-2026-manchester-g5vhzbgtrzaec",
@@ -182,12 +198,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7856049",
+        "url": "https://www.ticketliquidator.com/tickets/7856049/Warren-Zeiders-tickets-Wed-Oct-14-2026-Manchester-Academy-1",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZbgTrZaeC",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856049"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856049",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856049/Warren-Zeiders-tickets-Wed-Oct-14-2026-Manchester-Academy-1"
   },
   {
     "id": "tm-warren-zeiders-2026-bristol-g5dzzbgxgfjht",
@@ -243,12 +267,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7856051",
+        "url": "https://www.ticketliquidator.com/tickets/7856051/Warren-Zeiders-tickets-Thu-Oct-15-2026-O2-Academy-Bristol",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbgXgFJhT",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856051"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856051",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856051/Warren-Zeiders-tickets-Thu-Oct-15-2026-O2-Academy-Bristol"
   },
   {
     "id": "tm-warren-zeiders-2026-birmingham-g5dzzbu22x97x",
@@ -304,12 +336,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7856053",
+        "url": "https://www.ticketliquidator.com/tickets/7856053/Warren-Zeiders-tickets-Fri-Oct-16-2026-O2-Academy-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbU22X97X",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856053"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7856053",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7856053/Warren-Zeiders-tickets-Fri-Oct-16-2026-O2-Academy-Birmingham"
   },
   {
     "id": "tm-warren-zeiders-2026-london-g5vhzbgx4c4_f",
@@ -365,12 +405,20 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7823372",
+        "url": "https://www.ticketliquidator.com/tickets/7823372/Warren-Zeiders-tickets-Sun-Oct-18-2026-Roundhouse-London",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZbgX4C4_f",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7823372"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7823372",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7823372/Warren-Zeiders-tickets-Sun-Oct-18-2026-Roundhouse-London"
   },
   {
     "id": "tm-warren-zeiders-2027-orlando-1axzk4vgkenxkjc",
@@ -426,6 +474,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307486",
+        "url": "https://www.ticketliquidator.com/tickets/8307486/Warren-Zeiders-tickets-Thu-Mar-25-2027-House-Of-Blues-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4vGkenxKjC",
@@ -469,7 +524,8 @@
         "end": "2027-03-19T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307486"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307486",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307486/Warren-Zeiders-tickets-Thu-Mar-25-2027-House-Of-Blues-Orlando"
   },
   {
     "id": "tm-warren-zeiders-2027-hollywood-vvg1vz_fkapkzq",
@@ -525,6 +581,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307487",
+        "url": "https://www.ticketliquidator.com/tickets/8307487/Warren-Zeiders-tickets-Fri-Mar-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fkapkZQ",
@@ -568,7 +631,8 @@
         "end": "2027-03-20T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307487"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307487",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307487/Warren-Zeiders-tickets-Fri-Mar-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
   },
   {
     "id": "tm-warren-zeiders-2027-waukee-1ae7z_kgkdkgpa5",
@@ -624,6 +688,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307488",
+        "url": "https://www.ticketliquidator.com/tickets/8307488/Warren-Zeiders-tickets-Fri-Apr-2-2027-Vibrant-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae7Z_KGkDkgPA5",
@@ -667,7 +738,8 @@
         "end": "2027-03-27T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307488"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307488",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307488/Warren-Zeiders-tickets-Fri-Apr-2-2027-Vibrant-Music-Hall"
   },
   {
     "id": "tm-warren-zeiders-2027-grand-rapids-vv1afzk4vgkeyak2y",
@@ -723,6 +795,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307489",
+        "url": "https://www.ticketliquidator.com/tickets/8307489/Warren-Zeiders-tickets-Thu-Apr-15-2027-GLC-Live-at-20-Monroe",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4vGkeYak2y",
@@ -766,7 +845,8 @@
         "end": "2027-04-09T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307489"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307489",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307489/Warren-Zeiders-tickets-Thu-Apr-15-2027-GLC-Live-at-20-Monroe"
   },
   {
     "id": "tm-warren-zeiders-2027-chicago-vv1k8z_f1pg7v9f6",
@@ -903,6 +983,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307492",
+        "url": "https://www.ticketliquidator.com/tickets/8307492/Warren-Zeiders-tickets-Thu-Apr-22-2027-The-Met-Presented-by-Highmark",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkMdo0Cj",
@@ -946,7 +1033,8 @@
         "end": "2027-04-16T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307492"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307492",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307492/Warren-Zeiders-tickets-Thu-Apr-22-2027-The-Met-Presented-by-Highmark"
   },
   {
     "id": "tm-warren-zeiders-2027-pittsburgh-1apzk4vgkd7rttm",
@@ -1002,6 +1090,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307493",
+        "url": "https://www.ticketliquidator.com/tickets/8307493/Warren-Zeiders-tickets-Fri-Apr-23-2027-Citizens-Live-at-The-Wylie",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZk4vGkd7rttm",
@@ -1050,7 +1145,8 @@
         "end": "2027-04-17T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307493"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307493",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307493/Warren-Zeiders-tickets-Fri-Apr-23-2027-Citizens-Live-at-The-Wylie"
   },
   {
     "id": "tm-warren-zeiders-2027-cincinnati-1avbz_kgkbydi6_",
@@ -1205,6 +1301,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307495",
+        "url": "https://www.ticketliquidator.com/tickets/8307495/Warren-Zeiders-tickets-Thu-Apr-29-2027-Township-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KBMYwHz",
@@ -1238,7 +1341,8 @@
         "end": "2027-04-23T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307495"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307495",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307495/Warren-Zeiders-tickets-Thu-Apr-29-2027-Township-Auditorium"
   },
   {
     "id": "tm-warren-zeiders-2027-atlanta-vvg1zz_f6dz4ap",
@@ -1294,6 +1398,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307496",
+        "url": "https://www.ticketliquidator.com/tickets/8307496/Warren-Zeiders-tickets-Fri-Apr-30-2027-Coca-Cola-Roxy",
+        "verified": true,
+        "last_verified_at": "2026-10-07",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_f6dz4aP",
@@ -1337,6 +1448,7 @@
         "end": "2027-04-24T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307496"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307496",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307496/Warren-Zeiders-tickets-Fri-Apr-30-2027-Coca-Cola-Roxy"
   }
 ]

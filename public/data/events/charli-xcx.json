@@ -493,11 +493,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034402",
-        "url": "https://www.ticketliquidator.com/tickets/8034402/Charli-XCX-tickets-Tue-Oct-6-2026-State-Farm-Arena-GA",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107325082",
@@ -511,7 +511,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034402/Charli-XCX-tickets-Tue-Oct-6-2026-State-Farm-Arena-GA",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-atlanta-tickets-10-6-2026/event/107325082"
   },
   {

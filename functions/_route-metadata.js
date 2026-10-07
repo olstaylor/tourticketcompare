@@ -224,13 +224,16 @@ export function artistTourLabel(tourNames) {
  * "<artist> tickets <year>", and comparing checked ticket sites per date is
  * the page's job. The tail is shed before the year or the name is.
  *
- * When the upcoming dates carry one verified tour name (see artistTourLabel),
- * the tail names that tour instead — "<Artist> Tickets <year> | <Tour> Dates"
- * — so the page also answers "<artist> tour <year>" and "<tour> tickets".
- * Search Console (2026-10) showed the big-artist pages ranking only for the
- * bare "<artist> tickets" query, where the sellers own page one. The tour
- * name is printed exactly as the event records carry it; "Tour" is appended
- * only when the name does not already contain the word.
+ * When the upcoming dates carry one verified tour name (see artistTourLabel)
+ * and the board is not priced, the tail names that tour instead —
+ * "<Artist> Tickets <year> | <Tour> Dates" — so the page also answers
+ * "<artist> tour <year>" and "<tour> tickets". A priced board keeps
+ * "Compare Prices" first: during the Lizzy McAlpine tour launch (Sep 2026)
+ * that title ranked on page one for "<artist> ticket prices" and "how much
+ * are <artist> tickets", while tour-name queries were under 1% of the
+ * artist's impressions. The tour titles stay as the over-budget fallback.
+ * The tour name is printed exactly as the event records carry it; "Tour" is
+ * appended only when the name does not already contain the word.
  *
  * "Compare Prices" is promised only when `options.priced` is true: an upcoming
  * date carries two listed-price lanes, so the page can show a same-event
@@ -259,20 +262,21 @@ export function artistPageTitle(artist, yearLabel, tourLabel = "", { priced = tr
   if (!name || !yearLabel || !houseTemplates.includes(authored)) return authored;
   const tour = String(tourLabel ?? "").trim();
   const tourPhrase = tour ? (/\btour\b/i.test(tour) ? tour : `${tour} Tour`) : "";
+  const tourTitles = tourPhrase
+    ? [
+        `${name} Tickets ${yearLabel} | ${tourPhrase} Dates`,
+        `${name} ${tourPhrase.replace(/^the\s+/i, "")} Tickets ${yearLabel}`
+      ]
+    : [];
   return fitTitleToBudget([
-    ...(tourPhrase
-      ? [
-          `${name} Tickets ${yearLabel} | ${tourPhrase} Dates`,
-          `${name} ${tourPhrase.replace(/^the\s+/i, "")} Tickets ${yearLabel}`
-        ]
-      : []),
     ...(priced
       ? [
           `${name} Tickets ${yearLabel} | Compare Prices & Tour Dates`,
           `${name} Tickets ${yearLabel} | Compare Prices & Dates`,
-          `${name} Tickets ${yearLabel} | Compare Prices`
+          `${name} Tickets ${yearLabel} | Compare Prices`,
+          ...tourTitles
         ]
-      : [`${name} Tickets ${yearLabel} | Tour Dates & Ticket Links`, `${name} Tickets ${yearLabel} | Tour Dates`]),
+      : [...tourTitles, `${name} Tickets ${yearLabel} | Tour Dates & Ticket Links`, `${name} Tickets ${yearLabel} | Tour Dates`]),
     `${name} Tickets ${yearLabel}`,
     authored
   ]);

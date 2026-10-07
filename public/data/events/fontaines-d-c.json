@@ -2351,5 +2351,166 @@
         "end": "2026-10-09T05:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-fontaines-d-c-2026-amsterdam-z698xzbpz1kgf-z84",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C. | Vinyl Room Upgrade (TICKET NOT INCLUDED)",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Vinyl Room - Ziggo Dome",
+    "datetime_iso": "2026-11-10T19:01:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "314878415",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/fontaines-dc-%7C-vinyl-room-upgrade-ticket-not-included--tickets/314878415?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/fontaines-dc-%7C-vinyl-room-upgrade-ticket-not-included--tickets/314878415?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "314878415",
+        "discovery_event_id": "Z698xZbpZ1kGf-z84",
+        "url": "https://www.ticketmaster.nl/event/fontaines-dc-%7C-vinyl-room-upgrade-ticket-not-included--tickets/314878415?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kGf-z84",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-boston-vv1avzkfggkedloqr",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C.",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-04-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006535BB7D169E",
+    "ticketmaster_url": "https://www.ticketmaster.com/fontaines-dc-boston-massachusetts-04-22-2027/event/01006535BB7D169E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/fontaines-dc-boston-massachusetts-04-22-2027/event/01006535BB7D169E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006535BB7D169E",
+        "discovery_event_id": "vv1AvZkfgGkeDLoQr",
+        "url": "https://www.ticketmaster.com/fontaines-dc-boston-massachusetts-04-22-2027/event/01006535BB7D169E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfgGkeDLoQr",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T14:00:00Z"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-vancouver-1aozk4v0aa_zegf",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C.",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "UBC - Doug Mitchell Thunderbird Sports Centre",
+    "datetime_iso": "2027-05-07T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006541909259B7",
+    "ticketmaster_url": "https://www.ticketmaster.ca/fontaines-dc-vancouver-british-columbia-05-06-2027/event/11006541909259B7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/fontaines-dc-vancouver-british-columbia-05-06-2027/event/11006541909259B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006541909259B7",
+        "discovery_event_id": "1aoZk4v0aa_ZeGF",
+        "url": "https://www.ticketmaster.ca/fontaines-dc-vancouver-british-columbia-05-06-2027/event/11006541909259B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1aoZk4v0aa_ZeGF",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T17:00:00Z"
   }
 ]

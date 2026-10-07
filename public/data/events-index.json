@@ -31878,5 +31878,89 @@
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-charli-xcx-2027-amsterdam-z698xzbpz16v-igd-s",
+    "artist_slug": "charli-xcx",
+    "artist_name": "Charli xcx",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "venue": "Vinyl Room - Ziggo Dome",
+    "datetime_iso": "2027-02-22T19:01:00Z",
+    "timezone": "Europe/Amsterdam",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-huntsville-z7r9jz1aavu_y",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "country": "United States Of America",
+    "city": "Huntsville",
+    "venue": "Orion Amphitheater",
+    "datetime_iso": "2027-03-28T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sienna-spiro-2026-salt-lake-city-z7r9jz1aaef49",
+    "artist_slug": "sienna-spiro",
+    "artist_name": "Sienna Spiro",
+    "country": "United States Of America",
+    "city": "Salt Lake City",
+    "venue": "The Complex - UT",
+    "datetime_iso": "2026-11-01T02:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-omaha-z7r9jz1aavv7w",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "country": "United States Of America",
+    "city": "Omaha",
+    "venue": "The Waiting Room - NE",
+    "datetime_iso": "2027-03-17T01:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2026-amsterdam-z698xzbpz1kgf-z84",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "venue": "Vinyl Room - Ziggo Dome",
+    "datetime_iso": "2026-11-10T19:01:00Z",
+    "timezone": "Europe/Amsterdam",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-boston-vv1avzkfggkedloqr",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "country": "United States Of America",
+    "city": "Boston",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-04-23T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-vancouver-1aozk4v0aa_zegf",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "country": "Canada",
+    "city": "Vancouver",
+    "venue": "UBC - Doug Mitchell Thunderbird Sports Centre",
+    "datetime_iso": "2027-05-07T03:00:00Z",
+    "timezone": "America/Vancouver",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

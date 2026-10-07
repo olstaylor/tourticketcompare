@@ -137,7 +137,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-westbury-flagstar-at-westbury-music-fair-11-6-2026/production/7474215",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-westbury-new-york-11-06-2026/event/00006516D252F91B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -172,7 +172,14 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_oh3fR0h",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-28T14:00:00Z",
+        "end": "2026-10-31T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-scott-2027-detroit-vv1afzkfigkddz4or",
@@ -190,7 +197,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-detroit-the-fillmore-detroit-1-21-2027/production/7564207",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-detroit-michigan-01-21-2027/event/08006528C301581E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -241,7 +248,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268802",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268802/Dylan-Scott-tickets-Thu-Jan-21-2027-The-Fillmore-Detroit"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268802/Dylan-Scott-tickets-Thu-Jan-21-2027-The-Fillmore-Detroit",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2026-12-25T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-01-15T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-scott-2027-grand-rapids-vv1afzkfigker90br",
@@ -259,7 +278,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-grand-rapids-glc-live-at-20-monroe-1-22-2027/production/7564976",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-grand-rapids-michigan-01-22-2027/event/08006528AF5E461E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -310,7 +329,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268806",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268806/Dylan-Scott-tickets-Fri-Jan-22-2027-GLC-Live-at-20-Monroe"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268806/Dylan-Scott-tickets-Fri-Jan-22-2027-GLC-Live-at-20-Monroe",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2026-12-26T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-01-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-scott-2027-waukee-1ae7z_3gkl2epqo",
@@ -328,7 +359,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-waukee-vibrant-music-hall-1-23-2027/production/7564243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-waukee-iowa-01-23-2027/event/2100652ACF9E5751",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -379,7 +410,24 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268807",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268807/Dylan-Scott-tickets-Sat-Jan-23-2027-Vibrant-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268807/Dylan-Scott-tickets-Sat-Jan-23-2027-Vibrant-Music-Hall",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2026-12-27T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-01-17T04:00:00Z"
+      },
+      {
+        "name": "T-Mobile Offer + Fast Lane",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-01-21T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-scott-2027-sioux-falls-vv17bz_3gkbn6kzm",
@@ -397,7 +445,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-sioux-falls-sanford-pentagon-1-28-2027/production/7564984",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-sioux-falls-south-dakota-01-28-2027/event/0600652EA31C6E37",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448,7 +496,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268810",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268810/Dylan-Scott-tickets-Thu-Jan-28-2027-Sanford-Pentagon"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268810/Dylan-Scott-tickets-Thu-Jan-28-2027-Sanford-Pentagon",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-01-22T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-scott-2027-bismarck-z7r9jz1aavseb",
@@ -535,7 +590,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-rochester-mayo-civic-center-auditorium-1-30-2027/production/7564991",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-rochester-minnesota-01-30-2027/event/0600652AE2370CD9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -586,7 +641,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268816",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268816/Dylan-Scott-tickets-Sat-Jan-30-2027-Mayo-Civic-Center-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268816/Dylan-Scott-tickets-Sat-Jan-30-2027-Mayo-Civic-Center-Auditorium",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-01-24T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-scott-2027-philadelphia-vv17fz_3gklnt6ea",
@@ -604,7 +666,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-philadelphia-the-fillmore-philadelphia-2-4-2027/production/7564998",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-philadelphia-pennsylvania-02-04-2027/event/0200652AE3A47089",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -655,7 +717,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268820",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268820/Dylan-Scott-tickets-Thu-Feb-4-2027-The-Fillmore-Philadelphia"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268820/Dylan-Scott-tickets-Thu-Feb-4-2027-The-Fillmore-Philadelphia",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-01-29T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-01-29T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-scott-2027-wallingford-g5vvz_3ekjcji",
@@ -673,7 +747,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-wallingford-toyota-oakdale-theatre-2-5-2027/production/7565003",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-dear-big-city-tour-wallingford-connecticut-02-05-2027/event/1D006529C69AD728",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -724,7 +798,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268824",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268824/Dylan-Scott-tickets-Fri-Feb-5-2027-Toyota-Oakdale-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268824/Dylan-Scott-tickets-Fri-Feb-5-2027-Toyota-Oakdale-Theatre",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-01-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-01-30T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-scott-2027-boston-vv1avzkftgkeyygcg",
@@ -742,7 +828,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-boston-mgm-music-hall-at-fenway-2-6-2027--concerts-country-and-folk/production/7564213",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-boston-massachusetts-02-06-2027/event/01006529B9C35B4C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -801,7 +887,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268829",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268829/Dylan-Scott-tickets-Sat-Feb-6-2027-MGM-Music-Hall-at-Fenway-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/dylan-scott-boston-tickets-2-6-2027/event/107668644"
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-scott-boston-tickets-2-6-2027/event/107668644",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-01-31T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-scott-2027-denver-z7r9jz1aavse_",
@@ -888,7 +981,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-omaha-nebraska-02-19-2027/event/2000652AB2E43FFF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -939,7 +1032,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268835",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268835/Dylan-Scott-tickets-Fri-Feb-19-2027-Steelhouse-Omaha"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268835/Dylan-Scott-tickets-Fri-Feb-19-2027-Steelhouse-Omaha",
+    "presales": [
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-02-13T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-scott-2027-park-city-vv17bz_3gkmnbnzl",
@@ -957,7 +1057,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-park-city-heartland-credit-union-arena-2-20-2027/production/7565013",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-park-city-kansas-02-20-2027/event/0600652BAAEAA01F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -992,7 +1092,14 @@
     },
     "ticketmaster_discovery_event_id": "vv17bZ_3GkmnBnZL",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-02-14T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-scott-2027-albuquerque-g5vzz_3mo5e82",
@@ -1010,7 +1117,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-albuquerque-new-mexico-02-25-2027/event/1E00652BA02E740F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1045,7 +1152,14 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3mO5E82",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-02-19T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-scott-2027-prescott-valley-1av0z_3gkmlgghm",
@@ -1063,7 +1177,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-prescott-valley-findlay-toyota-center-2-26-2027/production/7564460",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-prescott-valley-arizona-02-26-2027/event/1900652B9F335F2E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1114,7 +1228,14 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268847",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268847/Dylan-Scott-tickets-Fri-Feb-26-2027-Findlay-Toyota-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268847/Dylan-Scott-tickets-Fri-Feb-26-2027-Findlay-Toyota-Center",
+    "presales": [
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-02-20T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-scott-2027-chandler-1av0z_3gkshqv4x",
@@ -1132,7 +1253,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-chandler-gila-river-resorts-and-casinos---wild-horse-pass-2-27-2027/production/7565027",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-chandler-arizona-02-27-2027/event/1900652CFC68157E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1183,7 +1304,14 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268850",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268850/Dylan-Scott-tickets-Sat-Feb-27-2027-Gila-River-Hotels-Casinos-Wild-Horse-Pass"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268850/Dylan-Scott-tickets-Sat-Feb-27-2027-Gila-River-Hotels-Casinos-Wild-Horse-Pass",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-02-21T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-scott-2027-kennewick-vvg1hz_3ngdpch",
@@ -1201,7 +1329,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-kennewick-toyota-center---kennewick-3-4-2027/production/7564587",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-kennewick-washington-03-04-2027/event/0F00652A8CEE53BC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1252,7 +1380,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268851",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268851/Dylan-Scott-tickets-Thu-Mar-4-2027-Toyota-Center-Kennewick"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268851/Dylan-Scott-tickets-Thu-Mar-4-2027-Toyota-Center-Kennewick",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-02-26T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-scott-2027-spokane-z7r9jz1aavsvm",

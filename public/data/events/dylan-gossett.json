@@ -704,7 +704,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charleston-south-carolina-03-25-2027/event/2D00653EE555C1C0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -739,7 +739,14 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KDP4j6Z",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-03-04T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-north-myrtle-beach-g5evz_kuxkrl8",
@@ -757,7 +764,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-north-myrtle-beach-south-carolina-03-26-2027/event/2D00653DBE4DEAD0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -792,7 +799,14 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KUXKrl8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-03-06T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-charlotte-g5evz_kb2iepf",
@@ -810,7 +824,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charlotte-north-carolina-03-27-2027/event/2D00653E8FB27954",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -845,7 +859,14 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KB2iEPf",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-03-02T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-chattanooga-z7r9jz1aae4bi",
@@ -916,7 +937,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-saint-louis-missouri-03-31-2027/event/2100653E42D4C750",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -951,7 +972,14 @@
     },
     "ticketmaster_discovery_event_id": "1Ae7Z_KGkyegGq8",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2027-03-11T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-fayetteville-z7r9jz1aae4bt",
@@ -1022,7 +1050,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-memphis-tennessee-04-03-2027/event/1B006541CB5D93D8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1057,7 +1085,14 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_f659_2b",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2027-03-14T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-birmingham-1aezz_kgkbdr7ks",
@@ -1075,7 +1110,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-birmingham-alabama-04-04-2027/event/2000653EBBBC44F3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1110,7 +1145,14 @@
     },
     "ticketmaster_discovery_event_id": "1AeZZ_KGkBDR7KS",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2027-03-08T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-philadelphia-vv17fz_kgkmvqdsy",
@@ -1128,7 +1170,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-philadelphia-pennsylvania-04-06-2027/event/0200653DC1683C79",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1163,7 +1205,14 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkMvQdsy",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-03-17T03:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-baltimore-1avfz_kgkbht6mj",
@@ -1181,7 +1230,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-baltimore-maryland-04-07-2027/event/1500653E9BFC7BA6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1216,7 +1265,14 @@
     },
     "ticketmaster_discovery_event_id": "1AvfZ_KGkBhT6mJ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-03-18T03:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-columbus-z7r9jz1aae4by",
@@ -1287,7 +1343,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-detroit-michigan-04-10-2027/event/0800653DBA936F3C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1322,7 +1378,14 @@
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkUB0UHH",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-03-14T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-grand-rapids-vv17oz_kgkubfkdd",
@@ -1340,7 +1403,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-grand-rapids-michigan-04-11-2027/event/0800653DBA206EC3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1375,7 +1438,14 @@
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkUBFkDd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-03-15T03:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-indianapolis-vv17fz_kgkd3hmfo",
@@ -1393,7 +1463,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-indianapolis-indiana-05-04-2027/event/0500653ED2F2E211",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1428,7 +1498,14 @@
     },
     "ticketmaster_discovery_event_id": "vv17fZ_KGkD3HmFo",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T14:00:00Z",
+        "end": "2027-04-13T07:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-madison-vv17jz_kgkmgwnt1",
@@ -1446,7 +1523,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-madison-wisconsin-05-06-2027/event/0700653DF5F6AFCA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1481,7 +1558,14 @@
     },
     "ticketmaster_discovery_event_id": "vv17jZ_KGkMgWnT1",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2027-04-06T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-kansas-city-vv17bz_kgkwikfde",
@@ -1499,7 +1583,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-kansas-city-missouri-05-07-2027/event/0600653CAC1880E7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1534,7 +1618,14 @@
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkwikFdE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2027-04-17T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-la-vista-1aezz_kgkwpxe_0",
@@ -1605,7 +1696,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-austin-texas-05-13-2027/event/3A006541BB741D0D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1640,7 +1731,14 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fkDqvVu",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2027-04-27T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-houston-g5diz_kmyuwxg",
@@ -1658,7 +1756,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-houston-texas-05-14-2027/event/3A00653DF0372FB5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1693,7 +1791,14 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KMYuwXg",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-06T15:00:00Z",
+        "end": "2027-05-14T15:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dylan-gossett-2027-fort-worth-z7r9jz1aae4bs",

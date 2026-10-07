@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/eros-ramazzotti-tickets-new-york-radio-city-music-hall-10-2-2027/production/7505558",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-new-york-new-york-10-02-2027/event/3C00651D84A312B0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,6 +66,13 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244289",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244289/Eros-Ramazzotti-tickets-Sat-Oct-2-2027-Radio-City-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244289/Eros-Ramazzotti-tickets-Sat-Oct-2-2027-Radio-City-Music-Hall",
+    "presales": [
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-09-04T14:00:00Z",
+        "end": "2027-10-03T01:00:00Z"
+      }
+    ]
   }
 ]

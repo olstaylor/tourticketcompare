@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-dallas-the-echo-lounge-and-music-hall-3-2-2027--concerts-pop/production/7600460",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-dallas-texas-03-02-2027/event/0C00653319761B3C",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286278/Lukas-Graham-tickets-Tue-Mar-2-2027-The-Echo-Lounge-and-Music-Hall",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286278"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286278",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-02-03T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lukas-graham-2027-atlanta-vvg1zz_kgj9z2e",
@@ -84,7 +91,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-atlanta-buckhead-theatre-3-4-2027--concerts-pop/production/7600468",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-atlanta-georgia-03-04-2027/event/0E0065331C5F83C2",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +142,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286279/Lukas-Graham-tickets-Thu-Mar-4-2027-Buckhead-Theatre",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286279"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286279",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-02-05T03:00:00Z"
+      },
+      {
+        "name": "T-Mobile® Concert Perks + Fast Lane",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-02T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lukas-graham-2027-tampa-vvg1vz_kpwcutv",
@@ -307,7 +326,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-silver-spring-the-fillmore-silver-spring-3-9-2027--concerts-pop/production/7600510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-silver-spring-maryland-03-09-2027/event/15006532F6299035",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -366,7 +385,14 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286282/Lukas-Graham-tickets-Tue-Mar-9-2027-The-Fillmore-Silver-Spring",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286282",
-    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-silver-spring-tickets-3-9-2027/event/107669269"
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-silver-spring-tickets-3-9-2027/event/107669269",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-02-11T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lukas-graham-2027-new-york-k7vgf_kq-e_yf",
@@ -384,7 +410,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-new-york-new-york-03-10-2027/event/00006536A19D9C08",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419,7 +445,14 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_KQ-E_YF",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-02-11T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lukas-graham-2027-boston-vv1k7z_k8xg7ihpb",
@@ -514,7 +547,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-philadelphia-theatre-of-living-arts-4-3-2027--concerts-pop/production/7600529",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-philadelphia-pennsylvania-04-03-2027/event/020065354840217A",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -557,7 +590,14 @@
     "ticketmaster_discovery_event_id": "vv1aOvPuf-ZF9v5",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-philadelphia-tickets-4-3-2027/event/107669266"
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-philadelphia-tickets-4-3-2027/event/107669266",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-03-04T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lukas-graham-2027-toronto-1f7zvpgxaoz786kf",
@@ -628,7 +668,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-detroit-michigan-04-07-2027/event/08006532FB50D043",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -663,7 +703,14 @@
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfwGkdDfuvd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-04-05T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lukas-graham-2027-indianapolis-vv1kv8vpuvgauq0sn",
@@ -750,7 +797,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-minneapolis-uptown-theater-minneapolis-4-10-2027--concerts-pop/production/7600599",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-minneapolis-minnesota-04-10-2027/event/0600653221834624",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -785,7 +832,14 @@
     },
     "ticketmaster_discovery_event_id": "vv11bZ_KF-OVb0",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-03-14T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-lukas-graham-2027-chicago-vv1a7zkfugkegdi06",
@@ -803,7 +857,7 @@
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-chicago-house-of-blues-chicago-4-11-2027--concerts-pop/production/7600614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-chicago-illinois-04-11-2027/event/04006536B5EEC907",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -862,6 +916,13 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286294/Lukas-Graham-tickets-Sun-Apr-11-2027-House-Of-Blues-Chicago",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286294",
-    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-chicago-tickets-4-11-2027/event/107670520"
+    "stubhub_international_url": "https://www.stubhub.ie/lukas-graham-chicago-tickets-4-11-2027/event/107670520",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-03-14T04:00:00Z"
+      }
+    ]
   }
 ]

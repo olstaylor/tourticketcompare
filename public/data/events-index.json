@@ -954,7 +954,7 @@
     "country": "United States",
     "city": "Brooklyn",
     "venue": "Barclays Center",
-    "datetime_iso": "2026-07-12T20:00:00",
+    "datetime_iso": "2026-07-15T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "The Eternal Sunshine Tour",
     "status": "announced"
@@ -24998,7 +24998,7 @@
     "country": "Canada",
     "city": "Winnipeg",
     "venue": "PARK THEATRE",
-    "datetime_iso": "2027-02-17T01:00:00Z",
+    "datetime_iso": "2027-02-17T00:00:00Z",
     "timezone": "America/Winnipeg",
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "status": "on-sale"
@@ -27482,7 +27482,7 @@
     "country": "United States Of America",
     "city": "Huntington",
     "venue": "The Paramount in concert with Northwell",
-    "datetime_iso": "2026-10-21T00:00:00Z",
+    "datetime_iso": "2026-10-20T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "20 Years Unplugged Tour",
     "status": "on-sale"
@@ -30377,7 +30377,7 @@
     "datetime_iso": "2026-10-12T18:30:00Z",
     "timezone": "Europe/Madrid",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-lemonheads-2027-englewood-z7r9jz1aavvvk",

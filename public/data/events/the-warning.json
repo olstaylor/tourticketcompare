@@ -344,7 +344,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-phoenix-the-van-buren-4-18-2027/production/7553211",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-phoenix-arizona-04-18-2027/event/1900652AD29B9FD3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395,7 +395,19 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264649",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-phoenix-tickets-4-18-2027/event/107668181"
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-phoenix-tickets-4-18-2027/event/107668181",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-18T17:00:00Z",
+        "end": "2027-03-19T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T17:00:00Z",
+        "end": "2027-04-12T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-warning-2027-san-francisco-z7r9jz1aavtgn",
@@ -535,7 +547,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-seattle-moore-theatre-4-23-2027/production/7553067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-seattle-washington-04-23-2027/event/0F00652BDDA8EC99",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -586,7 +598,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264648",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-seattle-tickets-4-23-2027/event/107668671"
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-seattle-tickets-4-23-2027/event/107668671",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-18T17:00:00Z",
+        "end": "2027-04-17T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-warning-2027-vancouver-z7r9jz1aavjo7",
@@ -665,7 +684,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-denver-fillmore-auditorium-denver-4-28-2027/production/7553189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-denver-colorado-04-28-2027/event/1E00652BAAD0873B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -708,7 +727,19 @@
     "ticketmaster_discovery_event_id": "G5vzZ_3mnVFjD",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-denver-tickets-4-28-2027/event/107668159"
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-denver-tickets-4-28-2027/event/107668159",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-18T16:00:00Z",
+        "end": "2027-04-15T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T16:00:00Z",
+        "end": "2027-04-22T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-warning-2027-oklahoma-city-z7r9jz1aavtgp",
@@ -779,7 +810,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-houston-bayou-music-center-5-2-2027/production/7553247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-houston-texas-05-02-2027/event/3A006529119E8C6E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -830,7 +861,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264650",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-houston-tickets-5-2-2027/event/107668162"
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-houston-tickets-5-2-2027/event/107668162",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2027-04-25T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-warning-2027-atlanta-z7r9jz1aavtgj",
@@ -909,7 +947,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-detroit-the-fillmore-detroit-5-6-2027/production/7553223",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wrif-presents-the-warning-everythings-falling-detroit-michigan-05-06-2027/event/0800652AD3728646",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -968,7 +1006,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264651",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264651/The-Warning-tickets-Thu-May-6-2027-The-Fillmore-Detroit",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-detroit-tickets-5-6-2027/event/107668673"
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-detroit-tickets-5-6-2027/event/107668673",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-04-09T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-04-30T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-warning-2027-ottawa-1ad7z_3gklmhbs8",
@@ -986,7 +1036,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-ottawa-history-ottawa-5-8-2027/production/7553145",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-ottawa-ontario-05-08-2027/event/3100652AEE6FACD0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1021,7 +1071,14 @@
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GklmhBS8",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-05-02T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-warning-2027-montreal-1ad7z_3gknfhkqk",
@@ -1039,7 +1096,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-montreal-mtelus-5-9-2027/production/7555333",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-montreal-quebec-05-09-2027/event/3100652A94F13753",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1082,7 +1139,14 @@
     "ticketmaster_discovery_event_id": "1Ad7Z_3GknfHKqK",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270802"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270802",
+    "presales": [
+      {
+        "name": "FORFAIT VIP EN VENTE",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-05-03T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-warning-2027-toronto-1avzz_3gkltrh3z",
@@ -1100,7 +1164,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-toronto-history-toronto-5-11-2027/production/7553111",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-toronto-ontario-05-11-2027/event/1000652AFFBFC4B8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1135,7 +1199,14 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_3GklTRH3z",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-05-05T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-warning-2027-pittsburgh-1avbz_3gknh0_t1",
@@ -1153,7 +1224,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-pittsburgh-citizens-live-at-the-wylie-5-15-2027/production/7553269",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/presented-by-wxdx-the-warning-everythings-pittsburgh-pennsylvania-05-15-2027/event/1600652ABC919A4A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1196,7 +1267,14 @@
     "ticketmaster_discovery_event_id": "1AvbZ_3GknH0_t1",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264652"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264652",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-05-09T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-warning-2027-brooklyn-k7vgf_3iu7xhd",
@@ -1214,7 +1292,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-brooklyn-brooklyn-paramount-5-18-2027/production/7553227",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wwsk-presents-the-warning-everythings-falling-brooklyn-new-york-05-18-2027/event/0000652B0D1226C3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1273,7 +1351,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264661",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264661/The-Warning-tickets-Tue-May-18-2027-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-brooklyn-tickets-5-18-2027/event/107668061"
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-brooklyn-tickets-5-18-2027/event/107668061",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-05-12T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-warning-2027-boston-vv177z_3gklqgssu",
@@ -1291,7 +1376,7 @@
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-boston-mgm-music-hall-at-fenway-5-23-2027--concerts-pop/production/7552850",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-boston-massachusetts-05-23-2027/event/0100652ADA331C76",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1342,7 +1427,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264653",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-boston-tickets-5-23-2027/event/107668674"
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-boston-tickets-5-23-2027/event/107668674",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-18T14:00:00Z",
+        "end": "2027-05-17T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-warning-2027-las-vegas-z7r9jz1aavtgx",

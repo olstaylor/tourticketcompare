@@ -495,7 +495,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-san-francisco-california-10-24-2026/event/1C0064CABFC98DA4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -546,7 +546,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056125",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056125/Amble-tickets-Sat-Oct-24-2026-The-Fillmore-San-Francisco"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056125/Amble-tickets-Sat-Oct-24-2026-The-Fillmore-San-Francisco",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-06-19T16:00:00Z",
+        "end": "2026-10-11T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-amble-2026-seattle-z7r9jz1a70p_0",
@@ -702,7 +709,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-detroit-michigan-11-01-2026/event/08006497A7C3A145",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -737,7 +744,14 @@
     },
     "ticketmaster_discovery_event_id": "vv1AFZk39GkeEYBAA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-08T13:00:00Z",
+        "end": "2026-10-30T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-amble-2026-toronto-1avzz_agki7dtkh",
@@ -930,7 +944,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-brooklyn-brooklyn-paramount-11-7-2026--concerts-alternative/production/6982398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-brooklyn-new-york-11-07-2026/event/0000649EC4999749",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -989,7 +1003,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930669",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930669/Amble-tickets-Sat-Nov-7-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-brooklyn-tickets-11-7-2026/event/107478110"
+    "stubhub_international_url": "https://www.stubhub.ie/amble-brooklyn-tickets-11-7-2026/event/107478110",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-08T13:00:00Z",
+        "end": "2026-10-18T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-amble-2026-philadelphia-vv17fz_agkycvjx3",
@@ -1007,7 +1028,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-philadelphia-theatre-of-living-arts-11-10-2026--concerts-alternative/production/6982400",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-philadelphia-pennsylvania-11-10-2026/event/0200649C2D05CF92",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1042,7 +1063,14 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZ_aGkYcvjX3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-08T13:00:00Z",
+        "end": "2026-10-11T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-amble-2026-washington-1avfz_agkmvpzjt",
@@ -1198,7 +1226,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-nashville-brooklyn-bowl---nashville-11-14-2026/production/7165441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1249,7 +1277,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8055458",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8055458/Amble-tickets-Sat-Nov-14-2026-Brooklyn-Bowl-Nashville"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8055458/Amble-tickets-Sat-Nov-14-2026-Brooklyn-Bowl-Nashville",
+    "presales": [
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-06-19T14:00:00Z",
+        "end": "2026-10-18T03:00:00Z"
+      },
+      {
+        "name": "T-Mobile® Concert Perks",
+        "start": "2026-06-19T14:00:00Z",
+        "end": "2026-11-12T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-amble-2026-new-orleans-g5viz_aeqhsnh",
@@ -1267,7 +1307,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-new-orleans-house-of-blues-new-orleans-11-16-2026--concerts-alternative/production/6982406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-new-orleans-louisiana-11-16-2026/event/1B006499DDF33ABC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1318,7 +1358,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930663",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930663/Amble-tickets-Mon-Nov-16-2026-House-Of-Blues-New-Orleans"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930663/Amble-tickets-Mon-Nov-16-2026-House-Of-Blues-New-Orleans",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-08T14:00:00Z",
+        "end": "2026-11-09T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-amble-2026-austin-g5diz_ahr-flp",
@@ -1389,7 +1436,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-dallas-the-echo-lounge-and-music-hall-11-18-2026--concerts-alternative/production/6982420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-dallas-texas-11-18-2026/event/0C0064A1CAA1A75C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1440,7 +1487,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930667",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930667/Amble-tickets-Wed-Nov-18-2026-The-Echo-Lounge-and-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930667/Amble-tickets-Wed-Nov-18-2026-The-Echo-Lounge-and-Music-Hall",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-08T14:00:00Z",
+        "end": "2026-10-19T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-amble-2026-co-mayo-1abzkfugkd8h21y",

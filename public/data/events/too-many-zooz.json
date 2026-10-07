@@ -145,7 +145,7 @@
     "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-denver-summit-music-hall-3-19-2027/production/7594958",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/too-many-zooz-audio-lipstick-tour-denver-colorado-03-19-2027/event/1E006531942A5AAF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -196,7 +196,14 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284720",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284720/Too-Many-Zooz-tickets-Fri-Mar-19-2027-The-Summit-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284720/Too-Many-Zooz-tickets-Fri-Mar-19-2027-The-Summit-Music-Hall",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-02-20T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-too-many-zooz-2027-houston-g5diz_kf4niru",

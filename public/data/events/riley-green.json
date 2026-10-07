@@ -328,7 +328,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-seattle-climate-pledge-arena-4-2-2027/production/7618128",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-seattle-washington-04-02-2027/event/0F00653091695C25",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387,7 +387,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293123",
     "stubhub_international_url": "https://www.stubhub.ie/riley-green-seattle-tickets-4-2-2027/event/107671388",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293123/Riley-Green-tickets-Fri-Apr-2-2027-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293123/Riley-Green-tickets-Fri-Apr-2-2027-Climate-Pledge-Arena",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-03-06T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-03-29T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-eugene-vvg1hz_3divdk0",
@@ -405,7 +417,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-eugene-matthew-knight-arena-4-3-2027/production/7618132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-eugene-oregon-04-03-2027/event/0F00652EEC07B4E4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456,7 +468,29 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293124",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293124/Riley-Green-tickets-Sat-Apr-3-2027-Matthew-Knight-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293124/Riley-Green-tickets-Sat-Apr-3-2027-Matthew-Knight-Arena",
+    "presales": [
+      {
+        "name": "Global Citizen",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-03-07T06:00:00Z"
+      },
+      {
+        "name": "Citi Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-03-07T07:45:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-03-07T07:45:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-03-30T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-edmonton-1av7z_3gkwgn0bp",
@@ -474,7 +508,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-edmonton-rogers-place-4-8-2027--concerts-country-and-folk/production/7618682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-edmonton-alberta-04-08-2027/event/1100652F758E4625",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -525,7 +559,14 @@
     "timezone": "America/Edmonton",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293148",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293148/Riley-Green-tickets-Thu-Apr-8-2027-Rogers-Place"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293148/Riley-Green-tickets-Thu-Apr-8-2027-Rogers-Place",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T16:00:00Z",
+        "end": "2027-04-04T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-calgary-1aozkfygkderjem",
@@ -543,7 +584,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-calgary-scotiabank-saddledome-4-9-2027/production/7618664",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-calgary-alberta-04-09-2027/event/11006530C279C9F7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -594,7 +635,14 @@
     "timezone": "America/Edmonton",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293149",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293149/Riley-Green-tickets-Fri-Apr-9-2027-Scotiabank-Saddledome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293149/Riley-Green-tickets-Fri-Apr-9-2027-Scotiabank-Saddledome",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T16:00:00Z",
+        "end": "2027-04-05T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-saskatoon-1av7z_3gkdixvhi",
@@ -612,7 +660,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-saskatoon-sasktel-centre-4-10-2027/production/7618680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-saskatoon-saskatchewan-04-10-2027/event/1100652EECF81F28",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -663,7 +711,14 @@
     "timezone": "America/Swift_Current",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293150",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293150/Riley-Green-tickets-Sat-Apr-10-2027-SaskTel-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293150/Riley-Green-tickets-Sat-Apr-10-2027-SaskTel-Centre",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T16:00:00Z",
+        "end": "2027-04-06T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-raleigh-g5evz_ke-2cfw",
@@ -681,7 +736,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-4-29-2027/production/7618134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-raleigh-north-carolina-04-29-2027/event/2D006530A13ED53D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -732,7 +787,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293125",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293125/Riley-Green-tickets-Thu-Apr-29-2027-Coastal-Credit-Union-Music-Park-at-Walnut-Creek"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293125/Riley-Green-tickets-Thu-Apr-29-2027-Coastal-Credit-Union-Music-Park-at-Walnut-Creek",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-02T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-25T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-knoxville-g5viz_3wie3-p",
@@ -750,7 +817,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-knoxville-thompson-boling-arena-at-food-city-center-4-30-2027/production/7618136",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-knoxville-tennessee-04-30-2027/event/1B00652F68092865",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -801,7 +868,29 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293127",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293127/Riley-Green-tickets-Fri-Apr-30-2027-Thompson-Boling-Arena-at-Food-City-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293127/Riley-Green-tickets-Fri-Apr-30-2027-Thompson-Boling-Arena-at-Food-City-Center",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-03T02:00:00Z"
+      },
+      {
+        "name": "T-Mobile Concert Perks",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-03T02:00:00Z"
+      },
+      {
+        "name": "Global Poverty Project",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-24T01:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-26T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-greenville-g5evz_k14klik",
@@ -819,7 +908,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-greenville-bon-secours-wellness-arena-5-1-2027/production/7618144",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-greenville-south-carolina-05-01-2027/event/2D006532954EBB06",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -870,7 +959,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293128",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293128/Riley-Green-tickets-Sat-May-1-2027-Bon-Secours-Wellness-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293128/Riley-Green-tickets-Sat-May-1-2027-Bon-Secours-Wellness-Arena",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-04T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-04-28T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-fort-worth-vvg1yz_kepbp4s",
@@ -888,7 +989,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-fort-worth-dickies-arena-5-6-2027/production/7618146",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-fort-worth-texas-05-06-2027/event/0C00653096616571",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -947,7 +1048,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293130",
     "stubhub_international_url": "https://www.stubhub.ie/riley-green-fort-worth-tickets-5-6-2027/event/107671387",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293130/Riley-Green-tickets-Thu-May-6-2027-Dickies-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293130/Riley-Green-tickets-Thu-May-6-2027-Dickies-Arena",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-04-09T00:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-02T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-wichita-vv1akzkfwgkdilqfv",
@@ -965,7 +1078,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-wichita-intrust-bank-arena-5-7-2027/production/7618142",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-wichita-kansas-05-07-2027/event/06006532E8ADD534",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1016,7 +1129,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293131",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293131/Riley-Green-tickets-Fri-May-7-2027-INTRUST-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293131/Riley-Green-tickets-Fri-May-7-2027-INTRUST-Bank-Arena",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-04-10T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-03T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-rogers-g5viz_k5ft6hv",
@@ -1034,7 +1159,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-rogers-walmart-amp-5-8-2027/production/7618170",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-rogers-arkansas-05-08-2027/event/1B006532D4A476C1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1085,7 +1210,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293132",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293132/Riley-Green-tickets-Sat-May-8-2027-Walmart-AMP"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293132/Riley-Green-tickets-Sat-May-8-2027-Walmart-AMP",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-04-11T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-04T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-tulsa-1aozkfsgkexhv7n",
@@ -1103,7 +1240,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-tulsa-bok-center-5-20-2027/production/7618172",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-tulsa-oklahoma-05-20-2027/event/20006531A26F4123",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1154,7 +1291,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293133",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293133/Riley-Green-tickets-Thu-May-20-2027-BOK-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293133/Riley-Green-tickets-Thu-May-20-2027-BOK-Center",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-04-23T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-16T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-dallas-vvg1yz_k1h0ipi",
@@ -1172,7 +1321,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-dallas-dos-equis-pavilion-5-21-2027/production/7618204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-dallas-texas-05-21-2027/event/0C0065329B928968",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1223,7 +1372,24 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293134",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293134/Riley-Green-tickets-Fri-May-21-2027-Dos-Equis-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293134/Riley-Green-tickets-Fri-May-21-2027-Dos-Equis-Pavilion",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-04-24T03:00:00Z"
+      },
+      {
+        "name": "T-Mobile Concert Perks With Fast Lane",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-04-24T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-19T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-lafayette-g5viz_3r9l7s7",
@@ -1241,7 +1407,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-lafayette-louisiana-05-22-2027/event/1B00652BD77C4C44",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1276,7 +1442,19 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_3R9L7s7",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-04-25T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-18T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-brandon-g5viz_3t3qkqr",
@@ -1294,7 +1472,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-brandon-brandon-amphitheater-6-3-2027/production/7618192",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-brandon-mississippi-06-03-2027/event/1B00652FD275369E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1345,7 +1523,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293136",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293136/Riley-Green-tickets-Thu-Jun-3-2027-Brandon-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293136/Riley-Green-tickets-Thu-Jun-3-2027-Brandon-Amphitheater",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-07T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-30T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-orange-beach-g5viz_kvcnsvm",
@@ -1363,7 +1553,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-orange-beach-amphitheater-at-the-wharf-6-4-2027/production/7618180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-orange-beach-alabama-06-04-2027/event/1B0065306D8F3D37",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1398,7 +1588,19 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_KvcNSVM",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-08T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-31T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-orange-beach-g5viz_k5itlvp",
@@ -1416,7 +1618,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-orange-beach-amphitheater-at-the-wharf-6-5-2027--concerts-country-and-folk/production/7636580",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-orange-beach-alabama-06-05-2027/event/1B006532E8A6BD25",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1451,7 +1653,19 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_K5ItlVP",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-08T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-05-31T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-mount-pleasant-z7r9jz1aaef_z",
@@ -1538,7 +1752,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-toronto-rbc-amphitheatre-6-11-2027/production/7618686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-toronto-ontario-06-11-2027/event/10006532CB6CEB0B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1573,7 +1787,14 @@
     },
     "ticketmaster_discovery_event_id": "1A8ZkfwGkd5hCi5",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-07T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-toronto-1a8zkfwgkd5hxip",
@@ -1591,7 +1812,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-toronto-rbc-amphitheatre-6-12-2027--concerts-country-and-folk/production/7636602",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/riley-green-thats-just-me-tour-toronto-ontario-06-12-2027/event/10006532CB6FEB16",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1626,7 +1847,14 @@
     },
     "ticketmaster_discovery_event_id": "1A8ZkfwGkd5hXip",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-08T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-gilford-vv1avzkfsgke-elvi",
@@ -1644,7 +1872,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-gilford-banknh-pavilion-6-18-2027/production/7618196",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-18-2027/event/01006531A109FD2C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1679,7 +1907,24 @@
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfsGke-eLVi",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Eastern Propane Ticket Offer",
+        "start": "2026-10-01T14:00:00Z",
+        "end": "2026-11-02T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-05-22T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-14T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-gilford-vv1avzkfsgkeipxy_",
@@ -1697,7 +1942,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-gilford-banknh-pavilion-6-19-2027--concerts-country-and-folk/production/7636582",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-gilford-new-hampshire-06-19-2027/event/01006531A85A2C19",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1732,7 +1977,19 @@
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfsGkeIpxY_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-05-23T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-15T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-clarkston-vv1afzkfwgkdw_jcp",
@@ -1750,7 +2007,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-clarkston-pine-knob-music-theatre-6-25-2027/production/7618228",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/995-wycd-hoedown-featuring-riley-green-clarkston-michigan-06-25-2027/event/08006532F265C396",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1801,7 +2058,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293140",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293140/Riley-Green-tickets-Fri-Jun-25-2027-Pine-Knob-Music-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293140/Riley-Green-tickets-Fri-Jun-25-2027-Pine-Knob-Music-Theatre",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-05-29T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-21T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-clarkston-vv1afzkfygkenvgq1",
@@ -1819,7 +2088,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-clarkston-pine-knob-music-theatre-6-26-2027--concerts-country-and-folk/production/7637034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/995-wycd-hoedown-featuring-riley-green-clarkston-michigan-06-26-2027/event/08006539A3D3574A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1870,7 +2139,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300342",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300342/Riley-Green-tickets-Sat-Jun-26-2027-Pine-Knob-Music-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300342/Riley-Green-tickets-Sat-Jun-26-2027-Pine-Knob-Music-Theatre",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-05-29T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-22T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-syracuse-k7vgf_k1rwxjy",
@@ -1888,7 +2169,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-syracuse-empower-federal-credit-union-amphitheater-at-lakeview-7-15-2027/production/7618652",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-syracuse-new-york-07-15-2027/event/000065329EF7E9B0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1939,7 +2220,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294264",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294264/Riley-Green-tickets-Thu-Jul-15-2027-Empower-Federal-Credit-Union-Amphitheater-at-Lakeview"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294264/Riley-Green-tickets-Thu-Jul-15-2027-Empower-Federal-Credit-Union-Amphitheater-at-Lakeview",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-18T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-07-11T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-allentown-1adzz_3gkdwsja0",
@@ -1957,7 +2250,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-allentown-ppl-center-7-16-2027/production/7618240",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-allentown-pennsylvania-07-16-2027/event/3000652EFDC5C164",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2008,7 +2301,24 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293141",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293141/Riley-Green-tickets-Fri-Jul-16-2027-PPL-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293141/Riley-Green-tickets-Fri-Jul-16-2027-PPL-Center",
+    "presales": [
+      {
+        "name": "Preferred Seating",
+        "start": "2026-09-29T14:00:00Z",
+        "end": "2027-07-16T20:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-12T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-07-12T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-columbia-1a4zkfwgkdajcik",
@@ -2026,7 +2336,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-columbia-merriweather-post-pavilion-7-22-2027/production/7618186",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-columbia-maryland-07-22-2027/event/15006532C998EA06",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2077,7 +2387,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293142",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293142/Riley-Green-tickets-Thu-Jul-22-2027-Merriweather-Post-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293142/Riley-Green-tickets-Thu-Jul-22-2027-Merriweather-Post-Pavilion",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-25T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-07-18T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-bethel-k7vgf_kkxvsto",
@@ -2095,7 +2417,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-bethel-bethel-woods-center-for-the-arts-7-23-2027/production/7618250",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-bethel-new-york-07-23-2027/event/00006531A2071A60",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2146,7 +2468,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293143",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293143/Riley-Green-tickets-Fri-Jul-23-2027-Bethel-Woods-Center-For-The-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293143/Riley-Green-tickets-Fri-Jul-23-2027-Bethel-Woods-Center-For-The-Arts",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-07-19T16:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-07-23T23:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-mansfield-vv1avzkfwgke0hynm",
@@ -2164,7 +2498,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-mansfield-xfinity-center---ma-7-24-2027/production/7618226",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-mansfield-massachusetts-07-24-2027/event/01006532A46F08EE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2223,7 +2557,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293144",
     "stubhub_international_url": "https://www.stubhub.ie/riley-green-mansfield-tickets-7-24-2027/event/107671436",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293144/Riley-Green-tickets-Sat-Jul-24-2027-Xfinity-Center-MA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293144/Riley-Green-tickets-Sat-Jul-24-2027-Xfinity-Center-MA",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-06-27T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-07-20T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-evansville-vv16azkfwxpza8acgv",
@@ -2241,7 +2587,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-evansville-ford-center-evansville-7-29-2027/production/7618220",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-evansville-indiana-07-29-2027/event/05006532896F4DB0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2292,7 +2638,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293145",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293145/Riley-Green-tickets-Thu-Jul-29-2027-Ford-Center-IN"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293145/Riley-Green-tickets-Thu-Jul-29-2027-Ford-Center-IN",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-07-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-07-25T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-maryland-heights-vv1fvovpgtqtz755aa",
@@ -2310,7 +2668,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-maryland-heights-missouri-07-30-2027/event/060065329769AA44",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2345,7 +2703,24 @@
     },
     "ticketmaster_discovery_event_id": "vv1FvOvPGtqtZ755AA",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-07-03T03:00:00Z"
+      },
+      {
+        "name": "T-Mobile® Concert Perks + Fast Lane",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-07-03T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-07-26T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-riley-green-2027-milwaukee-vv1a6zkfwgkdjdyhh",
@@ -2363,7 +2738,7 @@
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-milwaukee-henry-maier-festival-park---american-family-insurance-amphitheater-7-31-2027/production/7618510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-milwaukee-wisconsin-07-31-2027/event/07006532DCEF96FC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2398,6 +2773,18 @@
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfwGkdjDyhH",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-07-04T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-02T15:00:00Z",
+        "end": "2027-07-27T17:00:00Z"
+      }
+    ]
   }
 ]

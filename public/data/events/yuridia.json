@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-seattle-paramount-theatre-seattle-2-4-2027/production/7530975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-seattle-washington-02-04-2027/event/0F006521E725215D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,19 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252886",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252886/Yuridia-tickets-Thu-Feb-4-2027-Paramount-Theatre-Seattle"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252886/Yuridia-tickets-Thu-Feb-4-2027-Paramount-Theatre-Seattle",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-08T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-08T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yuridia-2027-reno-1a9zkf0gkdps324",
@@ -84,7 +96,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-reno-grand-theatre-at-grand-sierra-resort-2-6-2027/production/7531082",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-reno-nevada-02-06-2027/event/17006524E5C523D5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -119,7 +131,19 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zkf0GkdPs324",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-10T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-10T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yuridia-2027-san-jose-g5vyz_oxvxyml",
@@ -137,7 +161,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-san-jose-sap-center-2-7-2027/production/7531054",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-san-jose-california-02-07-2027/event/1C00651FB4FB0B9F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -172,7 +196,19 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_oXVXYmL",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-11T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-11T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yuridia-2027-palm-desert-vvg1iz_35qkx8b",
@@ -190,7 +226,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-palm-desert-california-02-11-2027/event/0A006522DD1BE418",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -225,7 +261,19 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_35qkX8b",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-15T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-15T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yuridia-2027-phoenix-1a_zkfxgkecvpec",
@@ -243,7 +291,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-phoenix-arizona-financial-theatre-2-13-2027/production/7531084",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-phoenix-arizona-02-13-2027/event/19006522AD0560AD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -302,7 +350,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252897",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252897/Yuridia-tickets-Sat-Feb-13-2027-Arizona-Financial-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/yuridia-phoenix-tickets-2-13-2027/event/107666051"
+    "stubhub_international_url": "https://www.stubhub.ie/yuridia-phoenix-tickets-2-13-2027/event/107666051",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-14T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yuridia-2027-highland-z7r9jz1aav-j_",
@@ -389,7 +444,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-las-vegas-ph-live-at-planet-hollywood-2-18-2027/production/7531056",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-las-vegas-nevada-02-18-2027/event/39006523DDACBD18",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448,7 +503,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252899",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252899/Yuridia-tickets-Thu-Feb-18-2027-PH-Live-At-Planet-Hollywood",
-    "stubhub_international_url": "https://www.stubhub.ie/yuridia-las-vegas-tickets-2-18-2027/event/107666031"
+    "stubhub_international_url": "https://www.stubhub.ie/yuridia-las-vegas-tickets-2-18-2027/event/107666031",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-22T06:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-02-19T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yuridia-2027-inglewood-vvg1iz_3kmopkh",
@@ -466,7 +533,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-inglewood-youtube-theater-2-20-2027/production/7531076",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-20-2027/event/0A006521AE4654FC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -525,7 +592,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252903",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252903/Yuridia-tickets-Sat-Feb-20-2027-YouTube-Theater-at-Hollywood-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/yuridia-inglewood-tickets-2-20-2027/event/107666048"
+    "stubhub_international_url": "https://www.stubhub.ie/yuridia-inglewood-tickets-2-20-2027/event/107666048",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-24T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-24T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yuridia-2027-inglewood-vvg1iz_33c4njl",
@@ -543,7 +622,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-inglewood-youtube-theater-2-21-2027/production/7545945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-inglewood-california-02-21-2027/event/0A006524AD56A71F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -602,7 +681,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259518",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259518/Yuridia-tickets-Sun-Feb-21-2027-YouTube-Theater-at-Hollywood-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/yuridia-inglewood-tickets-2-21-2027/event/107668406"
+    "stubhub_international_url": "https://www.stubhub.ie/yuridia-inglewood-tickets-2-21-2027/event/107668406",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-25T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-25T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yuridia-2027-fresno-g5vyz_35vhmjx",
@@ -620,7 +711,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-fresno-save-mart-center-2-25-2027/production/7531046",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-fresno-california-02-25-2027/event/1C006522C16EE722",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -679,7 +770,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252904",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252904/Yuridia-tickets-Thu-Feb-25-2027-Save-Mart-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/yuridia-fresno-tickets-2-25-2027/event/107666042"
+    "stubhub_international_url": "https://www.stubhub.ie/yuridia-fresno-tickets-2-25-2027/event/107666042",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-29T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-29T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yuridia-2027-wheatland-g5vyz_32kawxi",
@@ -697,7 +800,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-wheatland-sacramento-hard-rock-hotel-and-casino-2-27-2027/production/7531094",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-wheatland-california-02-27-2027/event/1C006523D3272FAC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -748,7 +851,19 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252906",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252906/Yuridia-tickets-Sat-Feb-27-2027-Hard-Rock-Live-Sacramento"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252906/Yuridia-tickets-Sat-Feb-27-2027-Hard-Rock-Live-Sacramento",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-28T06:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-01-31T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yuridia-2027-san-diego-vvg1iz_3fqrwdv",
@@ -766,7 +881,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-san-diego-california-02-28-2027/event/0A0065221D7BDEF4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -817,7 +932,19 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252908",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252908/Yuridia-tickets-Sun-Feb-28-2027-Viejas-Arena-At-Aztec-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252908/Yuridia-tickets-Sun-Feb-28-2027-Viejas-Arena-At-Aztec-Bowl",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-02-01T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-02-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yuridia-2027-dallas-vvg1yz_32hm5d6",
@@ -835,7 +962,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-dallas-dos-equis-pavilion-3-12-2027/production/7531070",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-dallas-texas-03-12-2027/event/0C006523DBDCBEC7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -894,7 +1021,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252911",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252911/Yuridia-tickets-Fri-Mar-12-2027-Dos-Equis-Pavilion",
-    "stubhub_international_url": "https://www.stubhub.ie/yuridia-dallas-tickets-3-12-2027/event/107666053"
+    "stubhub_international_url": "https://www.stubhub.ie/yuridia-dallas-tickets-3-12-2027/event/107666053",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-11T15:00:00Z",
+        "end": "2027-02-13T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yuridia-2027-el-paso-vvg1yz_3ggzxqt",
@@ -912,7 +1046,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-el-paso-don-haskins-center-3-14-2027/production/7531086",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-el-paso-texas-03-14-2027/event/0C0065230CE22769",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -971,7 +1105,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252912",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252912/Yuridia-tickets-Sun-Mar-14-2027-Don-Haskins-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/yuridia-el-paso-tickets-3-14-2027/event/107666033"
+    "stubhub_international_url": "https://www.stubhub.ie/yuridia-el-paso-tickets-3-14-2027/event/107666033",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-11T16:00:00Z",
+        "end": "2027-02-15T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-11T16:00:00Z",
+        "end": "2027-02-15T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yuridia-2027-laredo-g5diz_3f66dhn",
@@ -989,7 +1135,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-laredo-sames-auto-arena-3-18-2027/production/7531062",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-laredo-texas-03-18-2027/event/3A006522071FB6E3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1040,7 +1186,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252914",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252914/Yuridia-tickets-Thu-Mar-18-2027-Sames-Auto-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252914/Yuridia-tickets-Thu-Mar-18-2027-Sames-Auto-Arena",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-11T15:00:00Z",
+        "end": "2027-03-05T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-11T15:00:00Z",
+        "end": "2027-03-19T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yuridia-2027-rosemont-vv1a7zkf0gkenyiy-",
@@ -1127,7 +1285,7 @@
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-oxon-hill-the-theater-at-mgm-national-harbor-3-28-2027/production/7531066",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-national-harbor-maryland-03-28-2027/event/15006522ABA282F4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1178,7 +1336,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252920",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252920/Yuridia-tickets-Sun-Mar-28-2027-The-Theater-at-MGM-National-Harbor"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252920/Yuridia-tickets-Sun-Mar-28-2027-The-Theater-at-MGM-National-Harbor",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-11T14:00:00Z",
+        "end": "2027-03-01T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-11T14:00:00Z",
+        "end": "2027-03-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-yuridia-2027-rosemont-vv1a7zkf0gkeskm_x",

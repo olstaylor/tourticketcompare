@@ -814,7 +814,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-dallas-american-airlines-center---tx-10-18-2026--concerts-alternative/production/6897883",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-dallas-texas-10-18-2026/event/0C006488CB1AC234",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -873,7 +873,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874863",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-dallas-tickets-10-18-2026/event/107155471",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874863/sombr-tickets-Sun-Oct-18-2026-American-Airlines-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874863/sombr-tickets-Sun-Oct-18-2026-American-Airlines-Center",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T15:00:00Z",
+        "end": "2026-10-08T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-austin-g5diz_fem5b0f",
@@ -891,7 +898,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-austin-moody-center-atx-10-20-2026--concerts-alternative/production/6897885",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-austin-texas-10-20-2026/event/3A006489F72D8914",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -950,7 +957,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874865",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-austin-tickets-10-20-2026/event/107155472",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874865/sombr-tickets-Tue-Oct-20-2026-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874865/sombr-tickets-Tue-Oct-20-2026-Moody-Center-ATX",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T15:00:00Z",
+        "end": "2026-10-09T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-atlanta-vvg1zz_fxet19l",
@@ -968,7 +982,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-atlanta-state-farm-arena-10-22-2026--concerts-alternative/production/6897895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-atlanta-georgia-10-22-2026/event/0E006488A7A4A5DF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1027,7 +1041,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874866",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-atlanta-tickets-10-22-2026/event/107155494",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874866/sombr-tickets-Thu-Oct-22-2026-State-Farm-Arena-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874866/sombr-tickets-Thu-Oct-22-2026-State-Farm-Arena-GA",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-10-12T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-sunrise-z7r9jz1a7x8vw",
@@ -1122,7 +1143,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-orlando-kia-center-10-25-2026--concerts-alternative/production/6897905",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-orlando-florida-10-25-2026/event/2200648A8ADC2C92",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1181,7 +1202,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874868",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-orlando-tickets-10-25-2026/event/107154726",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874868/sombr-tickets-Sun-Oct-25-2026-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874868/sombr-tickets-Sun-Oct-25-2026-Kia-Center",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-10-15T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-charlotte-g5evz_fneqevn",
@@ -1199,7 +1227,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-charlotte-spectrum-center-10-27-2026--concerts-alternative/production/6897916",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-charlotte-north-carolina-10-27-2026/event/2D006488C26A706A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1250,7 +1278,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874869",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874869/sombr-tickets-Tue-Oct-27-2026-Spectrum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874869/sombr-tickets-Tue-Oct-27-2026-Spectrum-Center",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-10-16T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-nashville-g5viz_fja3nq8",
@@ -1268,7 +1303,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-nashville-bridgestone-arena-10-28-2026--concerts-alternative/production/6897932",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-nashville-tennessee-10-28-2026/event/1B006489894AA690",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1319,7 +1354,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874870",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874870/sombr-tickets-Wed-Oct-28-2026-Bridgestone-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874870/sombr-tickets-Wed-Oct-28-2026-Bridgestone-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T15:00:00Z",
+        "end": "2026-10-24T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-saint-louis-vv1akzk3fgkey5tam",
@@ -1337,7 +1379,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-saint-louis-missouri-10-30-2026/event/06006488B92FF177",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1372,7 +1414,14 @@
     },
     "ticketmaster_discovery_event_id": "vv1AkZk3FGkey5TAM",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T15:00:00Z",
+        "end": "2026-10-26T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-kansas-city-vv1kbz_fjfg7wetj",
@@ -1390,7 +1439,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-kansas-city-t-mobile-center-10-31-2026--concerts-alternative/production/6897945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-kansas-city-missouri-10-31-2026/event/0600648988F67FDC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1441,7 +1490,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874872",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874872/sombr-tickets-Sat-Oct-31-2026-T-Mobile-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874872/sombr-tickets-Sat-Oct-31-2026-T-Mobile-Center",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T15:00:00Z",
+        "end": "2026-10-27T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-minneapolis-vv1akzk3agkeivme6",
@@ -1459,7 +1515,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-minneapolis-target-center-11-1-2026--concerts-alternative/production/6897954",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-minneapolis-minnesota-11-01-2026/event/06006489AC06E087",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1510,7 +1566,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874873",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874873/sombr-tickets-Sun-Nov-1-2026-Target-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874873/sombr-tickets-Sun-Nov-1-2026-Target-Center",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T15:00:00Z",
+        "end": "2026-10-28T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-milwaukee-vv1a6zk3fgkdlouyw",
@@ -1528,7 +1591,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-milwaukee-fiserv-forum-11-3-2026--concerts-alternative/production/6897964",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-milwaukee-wisconsin-11-03-2026/event/07006488DF476E7D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1579,7 +1642,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874874",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874874/sombr-tickets-Tue-Nov-3-2026-Fiserv-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874874/sombr-tickets-Tue-Nov-3-2026-Fiserv-Forum",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T15:00:00Z",
+        "end": "2026-10-30T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-chicago-vv1a7zk36gkd2hi7b",
@@ -1597,7 +1667,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-chicago-united-center-11-4-2026--concerts-alternative/production/6897970",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-chicago-illinois-11-04-2026/event/04006487CFF2C118",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1656,7 +1726,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874875",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-chicago-tickets-11-4-2026/event/107154727",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874875/sombr-tickets-Wed-Nov-4-2026-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874875/sombr-tickets-Wed-Nov-4-2026-United-Center",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T15:00:00Z",
+        "end": "2026-10-31T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-indianapolis-vv1aazk3apba_ze8u",
@@ -1674,7 +1751,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-indianapolis-gainbridge-fieldhouse-11-6-2026--concerts-alternative/production/6897982",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-indianapolis-indiana-11-06-2026/event/05006489958259FC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1725,7 +1802,14 @@
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874876",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874876/sombr-tickets-Fri-Nov-6-2026-Gainbridge-Fieldhouse"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874876/sombr-tickets-Fri-Nov-6-2026-Gainbridge-Fieldhouse",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-11-02T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-detroit-vv1afzk3fgkeg5jlz",
@@ -1743,7 +1827,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-detroit-little-caesars-arena-11-7-2026--concerts-alternative/production/6897986",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-detroit-michigan-11-07-2026/event/08006488B52E6AC0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1802,7 +1886,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874877",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874877/sombr-tickets-Sat-Nov-7-2026-Little-Caesars-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-detroit-tickets-11-7-2026/event/107667741"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-detroit-tickets-11-7-2026/event/107667741",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-11-03T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-columbus-vv1kv8v0xbga57f2-",
@@ -1820,7 +1911,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-columbus-nationwide-arena-11-8-2026--concerts-alternative/production/6897990",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-columbus-ohio-11-08-2026/event/050064898B1143E1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1871,7 +1962,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874878",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874878/sombr-tickets-Sun-Nov-8-2026-Nationwide-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874878/sombr-tickets-Sun-Nov-8-2026-Nationwide-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-11-04T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-washington-1a4zk3vgkd85lni",
@@ -1889,7 +1987,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-washington-capital-one-arena-11-10-2026--concerts-alternative/production/6897996",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-washington-district-of-columbia-11-10-2026/event/15006481D02EB8E8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1948,7 +2046,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874879",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-washington-tickets-11-10-2026/event/107154729",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874879/sombr-tickets-Tue-Nov-10-2026-Capital-One-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874879/sombr-tickets-Tue-Nov-10-2026-Capital-One-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-11-06T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-pittsburgh-1kaov0xfga560gt",
@@ -1966,7 +2071,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-pittsburgh-ppg-paints-arena-11-12-2026--concerts-alternative/production/6898000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-pittsburgh-pennsylvania-11-12-2026/event/160064888B1E4D69",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2017,7 +2122,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874880",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874880/sombr-tickets-Thu-Nov-12-2026-PPG-Paints-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874880/sombr-tickets-Thu-Nov-12-2026-PPG-Paints-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-11-08T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-cleveland-z7r9jz1a7xav7",
@@ -2104,7 +2216,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-buffalo-keybank-center-11-14-2026--concerts-alternative/production/6898016",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-buffalo-new-york-11-14-2026/event/0000648913B1C282",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2163,7 +2275,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874882",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-buffalo-tickets-11-14-2026/event/107154730",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874882/sombr-tickets-Sat-Nov-14-2026-KeyBank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874882/sombr-tickets-Sat-Nov-14-2026-KeyBank-Center",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-11-10T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-toronto-1a8zk36gkdv1i_l",
@@ -2181,7 +2300,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-toronto-scotiabank-arena-11-16-2026--concerts-alternative/production/6898024",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sombr-you-are-the-reason-tour-toronto-ontario-11-16-2026/event/10006487F42AC66B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2216,7 +2335,14 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zk36GkdV1i_l",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-11-12T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-boston-vv1avzk36gkdfnkex",
@@ -2234,7 +2360,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-boston-td-garden-11-18-2026--concerts-alternative/production/6898034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-boston-massachusetts-11-18-2026/event/01006487C88D39E2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2293,7 +2419,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874884",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-boston-tickets-11-18-2026/event/107154733",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874884/sombr-tickets-Wed-Nov-18-2026-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874884/sombr-tickets-Wed-Nov-18-2026-TD-Garden",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-11-14T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-philadelphia-1kgzv0xbga5zeae",
@@ -2311,7 +2444,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-philadelphia-xfinity-mobile-arena-11-19-2026--concerts-alternative/production/6898038",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-philadelphia-pennsylvania-11-19-2026/event/300064898BE02142",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2370,7 +2503,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874885",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-philadelphia-tickets-11-19-2026/event/107154735",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874885/sombr-tickets-Thu-Nov-19-2026-Xfinity-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874885/sombr-tickets-Thu-Nov-19-2026-Xfinity-Mobile-Arena",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-11-15T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-newark-vv1aezk3fgkdhlmuf",
@@ -2388,7 +2528,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-newark-prudential-center-11-21-2026--concerts-alternative/production/6898048",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-newark-new-jersey-11-21-2026/event/02006488DB7EED88",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2447,7 +2587,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874886",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-newark-tickets-11-21-2026/event/107155495",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874886/sombr-tickets-Sat-Nov-21-2026-Prudential-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874886/sombr-tickets-Sat-Nov-21-2026-Prudential-Center",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-11-17T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-new-york-g5diz_flfogz-",
@@ -2465,7 +2612,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-23-2026/production/6898010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-new-york-new-york-11-23-2026/event/3B00648AD4475021",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2524,7 +2671,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874887",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-new-york-tickets-11-23-2026/event/107154738",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874887/sombr-tickets-Mon-Nov-23-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874887/sombr-tickets-Mon-Nov-23-2026-Madison-Square-Garden",
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-11-19T17:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-11-24T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2026-new-york-g5diz_flffpzi",
@@ -2542,7 +2701,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-24-2026/production/6902538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-new-york-new-york-11-24-2026/event/3B00648AD4525028",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2601,7 +2760,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877722",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-new-york-tickets-11-24-2026/event/107160120",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877722/sombr-tickets-Tue-Nov-24-2026-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877722/sombr-tickets-Tue-Nov-24-2026-Madison-Square-Garden",
+    "presales": [
+      {
+        "name": "VIP Packages",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-11-20T17:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-04-17T14:00:00Z",
+        "end": "2026-11-25T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sombr-2027-hamburg-z698xzc2z1k-yjfqj",

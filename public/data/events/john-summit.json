@@ -389,7 +389,7 @@
     "vividseats_url": "https://www.vividseats.com/john-summit-tickets-university-park-bryce-jordan-center-10-30-2026--concerts-dance-electronica/production/7058772",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-university-park-pennsylvania-10-30-2026/event/020064B2C916ABB2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440,7 +440,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982947",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982947/John-Summit-tickets-Fri-Oct-30-2026-Bryce-Jordan-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982947/John-Summit-tickets-Fri-Oct-30-2026-Bryce-Jordan-Center",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-29T14:00:00Z",
+        "end": "2026-10-26T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-summit-2026-washington-1avfz_agklgjntv",
@@ -1849,7 +1856,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/john-summit--europe-ctrl-escape-arena-tour-tickets/2045555723?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1885,7 +1892,29 @@
     "ticketmaster_discovery_event_id": "Z698xZQpZ16evA44jN",
     "timezone": "Europe/Warsaw",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T10:00:00Z"
+    "public_onsale_at": "2026-10-09T10:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-07T08:00:00Z",
+        "end": "2026-10-09T08:00:00Z"
+      },
+      {
+        "name": "Mastercard® Presale",
+        "start": "2026-10-07T10:00:00Z",
+        "end": "2026-10-09T08:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-08T08:00:00Z",
+        "end": "2026-10-09T08:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-08T10:00:00Z",
+        "end": "2026-10-09T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-summit-2027-forest-brussels-z698xzg2z1kfkv_0g",
@@ -1903,7 +1932,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/john-summit--europe-ctrl-escape-arena-tour-tickets/206059935",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1939,7 +1968,34 @@
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kFkv_0g",
     "timezone": "Europe/Brussels",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T10:00:00Z"
+    "public_onsale_at": "2026-10-09T10:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-07T08:00:00Z",
+        "end": "2026-10-09T08:00:00Z"
+      },
+      {
+        "name": "Mastercard® Presale",
+        "start": "2026-10-07T10:00:00Z",
+        "end": "2026-10-09T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-08T08:00:00Z",
+        "end": "2026-10-09T08:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-08T08:00:00Z",
+        "end": "2026-10-09T08:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-08T10:00:00Z",
+        "end": "2026-10-09T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-summit-2027-amsterdam-z698xzbpz16vu0fx-w",
@@ -1957,7 +2013,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/john-summit--europe-ctrl-escape-arena-tour-tickets/1364222872?language=en-us",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1993,7 +2049,29 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vu0Fx-w",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T10:00:00Z"
+    "public_onsale_at": "2026-10-09T10:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-07T08:00:00Z",
+        "end": "2026-10-09T08:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-10-07T10:00:00Z",
+        "end": "2026-10-09T08:00:00Z"
+      },
+      {
+        "name": "MOJO Presale",
+        "start": "2026-10-08T08:00:00Z",
+        "end": "2026-10-09T08:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-08T10:00:00Z",
+        "end": "2026-10-09T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-summit-2027-london-1agzk4egkdwrmjf",
@@ -2011,7 +2089,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/john-summit-europe-ctrl-escape-arena-london-27-02-2027/event/35006542F27AE994",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2047,6 +2125,23 @@
     "ticketmaster_discovery_event_id": "1AgZk4eGkdwrmJf",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T11:00:00Z"
+    "public_onsale_at": "2026-10-09T11:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-07T09:00:00Z",
+        "end": "2026-10-09T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-08T09:00:00Z",
+        "end": "2026-10-09T09:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-08T11:00:00Z",
+        "end": "2026-10-09T09:00:00Z"
+      }
+    ]
   }
 ]

@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/in-flames-ft-lauderdale-florida-11-04-2026/event/0D0065219995598D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,6 +50,13 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3k_P4Ju",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "In Flames Meet & Greet Package",
+        "start": "2026-09-04T14:00:00Z",
+        "end": "2026-10-28T02:00:00Z"
+      }
+    ]
   }
 ]

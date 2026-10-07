@@ -1103,7 +1103,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-detroit-little-caesars-arena-3-19-2027/production/7017219",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-detroit-michigan-03-19-2027/event/080064A7B4549CE9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1162,7 +1162,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954156",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-detroit-tickets-3-19-2027/event/107165599",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954156/Niall-Horan-tickets-Fri-Mar-19-2027-Little-Caesars-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954156/Niall-Horan-tickets-Fri-Mar-19-2027-Little-Caesars-Arena",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-02-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-03-15T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-columbus-vvg1fz_1x9ig7q",
@@ -1180,7 +1192,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-columbus-nationwide-arena-3-20-2027/production/7017191",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-columbus-ohio-03-20-2027/event/050064A897A0C11D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1231,7 +1243,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954157",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954157/Niall-Horan-tickets-Sat-Mar-20-2027-Nationwide-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954157/Niall-Horan-tickets-Sat-Mar-20-2027-Nationwide-Arena",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-02-21T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-03-16T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-chicago-vvg18z_1llyajb",
@@ -1249,7 +1273,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-chicago-united-center-3-23-2027/production/7017215",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-chicago-illinois-03-23-2027/event/040064A7DFC05998",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1308,7 +1332,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954198",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-chicago-tickets-3-23-2027/event/107166117",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954198/Niall-Horan-tickets-Tue-Mar-23-2027-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954198/Niall-Horan-tickets-Tue-Mar-23-2027-United-Center",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T15:00:00Z",
+        "end": "2027-02-24T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-15T15:00:00Z",
+        "end": "2027-03-19T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-indianapolis-vvg1fz_1htnybv",
@@ -1326,7 +1362,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-indianapolis-gainbridge-fieldhouse-3-26-2027/production/7017203",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-indianapolis-indiana-03-26-2027/event/050064A6E98F9E81",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1377,7 +1413,19 @@
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954200",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954200/Niall-Horan-tickets-Fri-Mar-26-2027-Gainbridge-Fieldhouse"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954200/Niall-Horan-tickets-Fri-Mar-26-2027-Gainbridge-Fieldhouse",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-02-27T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-03-22T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-saint-louis-vvg1bz_1qy32om",
@@ -1395,7 +1443,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-saint-louis-missouri-03-27-2027/event/060064A6B048F46E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1430,7 +1478,19 @@
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_1QY32om",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T15:00:00Z",
+        "end": "2027-02-28T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-15T15:00:00Z",
+        "end": "2027-03-23T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-toronto-177zv0g61h1eoxc",
@@ -1448,7 +1508,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-toronto-scotiabank-arena-3-30-2027/production/7017201",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-toronto-ontario-03-30-2027/event/100064A6CA091FAD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1483,7 +1543,14 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G61h1eoXc",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-03-26T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-montreal-17g8v0g61rtd60v",
@@ -1501,7 +1568,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-montreal-bell-centre-4-2-2027--concerts-pop/production/7017243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-montreal-quebec-04-02-2027/event/310064A7A90C7934",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1552,7 +1619,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954209",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954209/Niall-Horan-tickets-Fri-Apr-2-2027-Centre-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954209/Niall-Horan-tickets-Fri-Apr-2-2027-Centre-Bell",
+    "presales": [
+      {
+        "name": "Forfaits VIP Packages",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-03-29T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-brooklyn-17gzv0g61hpqmr1",
@@ -1570,7 +1644,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-brooklyn-barclays-center-4-4-2027/production/7017205",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-brooklyn-new-york-04-04-2027/event/300064A6D66AE78A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1629,7 +1703,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954210",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-brooklyn-tickets-4-4-2027/event/107162727",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954210/Niall-Horan-tickets-Sun-Apr-4-2027-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954210/Niall-Horan-tickets-Sun-Apr-4-2027-Barclays-Center",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-03-06T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-03-31T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-baltimore-17a8v0g61lfcmsv",
@@ -1647,7 +1733,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-baltimore-cfg-bank-arena-4-8-2027/production/7017207",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-baltimore-maryland-04-08-2027/event/150064A7C83AECF4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1698,7 +1784,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954211",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954211/Niall-Horan-tickets-Thu-Apr-8-2027-CFG-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954211/Niall-Horan-tickets-Thu-Apr-8-2027-CFG-Bank-Arena",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-03-12T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-04-04T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-boston-vvg17z_1qxbhwy",
@@ -1716,7 +1814,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-boston-td-garden-4-12-2027/production/7017199",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-boston-massachusetts-04-12-2027/event/010064A6BEEBCCB9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1775,7 +1873,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954213",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-boston-tickets-4-12-2027/event/107165601",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954213/Niall-Horan-tickets-Mon-Apr-12-2027-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954213/Niall-Horan-tickets-Mon-Apr-12-2027-TD-Garden",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-03-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-raleigh-g5evz_1r802la",
@@ -1793,7 +1898,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-raleigh-lenovo-center-4-15-2027--concerts-pop/production/7017239",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-raleigh-north-carolina-04-15-2027/event/2D0064A79090FAC5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1844,7 +1949,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954215",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954215/Niall-Horan-tickets-Thu-Apr-15-2027-Lenovo-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954215/Niall-Horan-tickets-Thu-Apr-15-2027-Lenovo-Center",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-03-19T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-04-11T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-orlando-17fov0g61xk1ezu",
@@ -1862,7 +1979,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-orlando-kia-center-4-17-2027--concerts-pop/production/7017237",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-orlando-florida-04-17-2027/event/220064A886282E36",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1921,7 +2038,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954325",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-orlando-tickets-4-17-2027/event/107165602",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954325/Niall-Horan-tickets-Sat-Apr-17-2027-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954325/Niall-Horan-tickets-Sat-Apr-17-2027-Kia-Center",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-03-21T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-04-13T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-atlanta-vvg1zz_1hoxudt",
@@ -1939,7 +2068,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-atlanta-state-farm-arena-4-28-2027/production/7017229",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-atlanta-georgia-04-28-2027/event/0E0064A6D18B6EFF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1998,7 +2127,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954216",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-atlanta-tickets-4-28-2027/event/107165603",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954216/Niall-Horan-tickets-Wed-Apr-28-2027-State-Farm-Arena-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954216/Niall-Horan-tickets-Wed-Apr-28-2027-State-Farm-Arena-GA",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-04-01T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-15T14:00:00Z",
+        "end": "2027-04-24T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-new-orleans-g5viz_1xkcnon",
@@ -2016,7 +2157,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-new-orleans-smoothie-king-center-4-29-2027/production/7017193",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-new-orleans-louisiana-04-29-2027/event/1B0064A893B6A823",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2075,7 +2216,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954217",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-new-orleans-tickets-4-29-2027/event/107162728",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954217/Niall-Horan-tickets-Thu-Apr-29-2027-Smoothie-King-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954217/Niall-Horan-tickets-Thu-Apr-29-2027-Smoothie-King-Center",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T15:00:00Z",
+        "end": "2027-04-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-05-15T15:00:00Z",
+        "end": "2027-04-25T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-houston-z7r9jz1a709uy",
@@ -2162,7 +2315,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-fort-worth-dickies-arena-5-2-2027/production/7017217",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-fort-worth-texas-05-02-2027/event/0C0064A78A72709E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2221,7 +2374,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954219",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-fort-worth-tickets-5-2-2027/event/107166118",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954219/Niall-Horan-tickets-Sun-May-2-2027-Dickies-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954219/Niall-Horan-tickets-Sun-May-2-2027-Dickies-Arena",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T15:00:00Z",
+        "end": "2027-02-18T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-05-15T15:00:00Z",
+        "end": "2027-04-28T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-austin-g5diz_1lpaglw",
@@ -2239,7 +2404,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-austin-moody-center-atx-5-14-2027--concerts-pop/production/7017231",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-austin-texas-05-14-2027/event/3A0064A7E5175AFD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2298,7 +2463,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954220",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-austin-tickets-5-14-2027/event/107166124",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954220/Niall-Horan-tickets-Fri-May-14-2027-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954220/Niall-Horan-tickets-Fri-May-14-2027-Moody-Center-ATX",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T15:00:00Z",
+        "end": "2027-02-18T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-05-15T15:00:00Z",
+        "end": "2027-05-10T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-denver-g5vzz_1lspoiu",
@@ -2316,7 +2493,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-denver-ball-arena-5-16-2027/production/7017223",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-denver-colorado-05-16-2027/event/1E0064A7F3960B36",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2375,7 +2552,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954221",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-denver-tickets-5-16-2027/event/107162733",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954221/Niall-Horan-tickets-Sun-May-16-2027-Ball-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954221/Niall-Horan-tickets-Sun-May-16-2027-Ball-Arena",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T16:00:00Z",
+        "end": "2027-04-19T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-15T16:00:00Z",
+        "end": "2027-05-12T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-west-valley-city-g5vzz_1xafaiw",
@@ -2393,7 +2582,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-west-valley-city-utah-05-18-2027/event/1E0064A885205B3D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2428,7 +2617,19 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_1xAFAiW",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T16:00:00Z",
+        "end": "2027-02-18T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-15T16:00:00Z",
+        "end": "2027-05-14T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-phoenix-17k8v0g61ruofyr",
@@ -2446,7 +2647,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-phoenix-mortgage-matchup-center-5-20-2027/production/7017195",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-phoenix-arizona-05-20-2027/event/190064A78D814E6F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2505,7 +2706,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954224",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-phoenix-tickets-5-20-2027/event/107166121",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954224/Niall-Horan-tickets-Thu-May-20-2027-Mortgage-Matchup-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954224/Niall-Horan-tickets-Thu-May-20-2027-Mortgage-Matchup-Center",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T17:00:00Z",
+        "end": "2027-02-18T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-inglewood-vvg10z_1jzwise",
@@ -2523,7 +2731,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-inglewood-kia-forum-5-22-2027--concerts-pop/production/7017187",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-inglewood-california-05-22-2027/event/090064A700F6CCC2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2582,7 +2790,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954226",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-inglewood-tickets-5-22-2027/event/107170309",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954226/Niall-Horan-tickets-Sat-May-22-2027-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954226/Niall-Horan-tickets-Sat-May-22-2027-The-Kia-Forum",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T17:00:00Z",
+        "end": "2027-02-18T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-05-15T17:00:00Z",
+        "end": "2027-05-18T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-san-francisco-g5vyz_195tivo",
@@ -2600,7 +2820,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-san-francisco-chase-center-5-25-2027--concerts-pop/production/7017185",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-san-francisco-california-05-25-2027/event/1C0064A5CBFECD20",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2659,7 +2879,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954234",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-san-francisco-tickets-5-25-2027/event/107166120",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954234/Niall-Horan-tickets-Tue-May-25-2027-Chase-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954234/Niall-Horan-tickets-Tue-May-25-2027-Chase-Center",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T17:00:00Z",
+        "end": "2027-04-28T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-05-15T17:00:00Z",
+        "end": "2027-05-21T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-seattle-vvg1hz_1hqc03-",
@@ -2677,7 +2909,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-seattle-climate-pledge-arena-5-27-2027--concerts-pop/production/7017183",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-seattle-washington-05-27-2027/event/0F0064A6DAB644A1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2736,7 +2968,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954237",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-seattle-tickets-5-27-2027/event/107162731",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954237/Niall-Horan-tickets-Thu-May-27-2027-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954237/Niall-Horan-tickets-Thu-May-27-2027-Climate-Pledge-Arena",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-15T17:00:00Z",
+        "end": "2027-04-30T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-05-15T17:00:00Z",
+        "end": "2027-05-23T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2027-vancouver-1778v0g61qodyye",
@@ -2754,7 +2998,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/niall-horan-dinner-party-live-on-vancouver-british-columbia-05-29-2027/event/110064A6A00F9E42",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2813,7 +3057,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7954249",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-vancouver-rogers-arena-5-29-2027/event/107165604",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954249/Niall-Horan-tickets-Sat-May-29-2027-Rogers-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7954249/Niall-Horan-tickets-Sat-May-29-2027-Rogers-Arena",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-05-15T17:00:00Z",
+        "end": "2027-05-16T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-05-15T17:00:00Z",
+        "end": "2027-05-25T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-niall-horan-2026-dublin-1avoz_6rofpzd5ed",

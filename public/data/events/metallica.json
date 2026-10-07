@@ -145,7 +145,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-01-28-2027/event/170064619015BB05",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -180,7 +180,14 @@
     },
     "ticketmaster_discovery_event_id": "1FAYv0b_Z4Z7GGvk",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T21:00:00Z",
+        "end": "2027-01-22T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-las-vegas-16vjz_kk3g7ndxr",
@@ -198,7 +205,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-1-30-2027--concerts-hard-rock/production/6742765",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-01-30-2027/event/1700646192ABBF9E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -257,7 +264,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775513",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775513/Metallica-tickets-Sat-Jan-30-2027-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-1-30-2027/event/107132085"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-1-30-2027/event/107132085",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T21:00:00Z",
+        "end": "2027-01-24T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0yct0",
@@ -275,7 +289,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-04-2027/event/17006461A4E6DFE4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -310,7 +324,14 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0ycT0",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T22:00:00Z",
+        "end": "2027-01-29T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzr6s",
@@ -328,7 +349,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-2-6-2027/production/6754182",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-06-2027/event/17006461A5E1E1F1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387,7 +408,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785087",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785087/Metallica-tickets-Sat-Feb-6-2027-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-6-2027/event/107133088"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-6-2027/event/107133088",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T22:00:00Z",
+        "end": "2027-01-31T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0ywtn",
@@ -405,7 +433,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-18-2027/event/17006461A4E7DFEA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440,7 +468,14 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0yWTn",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T22:00:00Z",
+        "end": "2027-02-12T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzr6g",
@@ -458,7 +493,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-2-20-2027/production/6754200",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-20-2027/event/17006461A5E1E1F5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -517,7 +552,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785089",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785089/Metallica-tickets-Sat-Feb-20-2027-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-20-2027/event/107133092"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-20-2027/event/107133092",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T22:00:00Z",
+        "end": "2027-02-14T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0buti",
@@ -535,7 +577,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-25-2027/event/17006461A4E8DFEC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -570,7 +612,14 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0BuTi",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T22:00:00Z",
+        "end": "2027-02-19T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzxff",
@@ -588,7 +637,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-3-13-2027--concerts-hard-rock/production/6755440",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-13-2027/event/17006461A5E3E208",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -647,7 +696,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785871",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785871/Metallica-tickets-Sat-Mar-13-2027-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-13-2027/event/107133100"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-13-2027/event/107133100",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T23:00:00Z",
+        "end": "2027-03-07T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-vancouver-1av7z_3gkd3wcu8",
@@ -665,7 +721,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-vancouver-bc-place-stadium-5-8-2027--concerts-hard-rock/production/7563478",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/metallica-m72-world-tour-vancouver-british-columbia-05-08-2027/event/1100652ED2CADD90",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -724,7 +780,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268591",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268591/Metallica-tickets-Sat-May-8-2027-BC-Place-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-tickets-vancouver-bc-place-stadium-5-8-2027/event/107668657"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-tickets-vancouver-bc-place-stadium-5-8-2027/event/107668657",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-05-02T05:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-05-02T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-san-diego-vvg1iz_3rsxtwd",
@@ -742,7 +810,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-san-diego-snapdragon-stadium-5-13-2027--concerts-hard-rock/production/7563504",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-diego-california-05-13-2027/event/0A00652BF38BFCBB",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -801,7 +869,29 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268592",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268592/Metallica-tickets-Thu-May-13-2027-Snapdragon-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-san-diego-tickets-5-13-2027/event/107669480"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-san-diego-tickets-5-13-2027/event/107669480",
+    "presales": [
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-03-30T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-04-14T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-04-16T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2027-05-07T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-el-paso-vvg1yz_3zjrn4d",
@@ -819,7 +909,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-el-paso-sun-bowl-stadium-5-18-2027--concerts-hard-rock/production/7563516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-el-paso-texas-05-18-2027/event/0C00652E1C7A357B",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -878,7 +968,29 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268593",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268593/Metallica-tickets-Tue-May-18-2027-Sun-Bowl-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-el-paso-tickets-5-18-2027/event/107669513"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-el-paso-tickets-5-18-2027/event/107669513",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-04-19T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-04-19T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-05-12T04:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-05-12T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-san-antonio-g5diz_3mpis-k",
@@ -896,7 +1008,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-san-antonio-alamodome-5-22-2027--concerts-hard-rock/production/7563518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-antonio-texas-05-22-2027/event/3A00652DE5A33846",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -955,7 +1067,29 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268594",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268594/Metallica-tickets-Sat-May-22-2027-Alamodome",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-san-antonio-tickets-5-22-2027/event/107669512"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-san-antonio-tickets-5-22-2027/event/107669512",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-04-23T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-05-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-05-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-05-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-fayetteville-g5viz_om30atl",
@@ -973,7 +1107,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-fayetteville-arkansas-05-26-2027/event/1B00651B92909FDF",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1024,7 +1158,29 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268595",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268595/Metallica-tickets-Wed-May-26-2027-Donald-W-Reynolds-Razorback-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268595/Metallica-tickets-Wed-May-26-2027-Donald-W-Reynolds-Razorback-Stadium",
+    "presales": [
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-04-12T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-04-27T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-04-29T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-05-20T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-kansas-city-vv17bz_3gkwemfok",
@@ -1042,7 +1198,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-kansas-city-arrowhead-stadium-5-29-2027--concerts-hard-rock/production/7563528",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-kansas-city-missouri-05-29-2027/event/0600652CA7DC8453",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1101,7 +1257,29 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268597",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268597/Metallica-tickets-Sat-May-29-2027-Arrowhead-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-kansas-city-tickets-5-29-2027/event/107668967"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-kansas-city-tickets-5-29-2027/event/107668967",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-04-30T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-05-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-05-23T03:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-05-23T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-indianapolis-vv17fz_3gktr8lni",
@@ -1119,7 +1297,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-indianapolis-lucas-oil-stadium-6-5-2027--concerts-hard-rock/production/7563544",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-indianapolis-indiana-06-05-2027/event/0500652FDE41F8EC",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1178,7 +1356,29 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268598",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268598/Metallica-tickets-Sat-Jun-5-2027-Lucas-Oil-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-indianapolis-tickets-6-5-2027/event/107668970"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-indianapolis-tickets-6-5-2027/event/107668970",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-05-09T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-05-09T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-05-30T02:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-05-30T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-orchard-park-vv17gz_3gktmreup",
@@ -1196,7 +1396,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-orchard-park-highmark-stadium-6-8-2027--concerts-hard-rock/production/7563550",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-orchard-park-new-york-06-08-2027/event/0300652FEEBC2D96",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1255,7 +1455,29 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268600",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268600/Metallica-tickets-Tue-Jun-8-2027-New-Highmark-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-orchard-park-tickets-6-8-2027/event/107668971"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-orchard-park-tickets-6-8-2027/event/107668971",
+    "presales": [
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-04-25T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-05-10T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-05-12T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-06-02T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-cleveland-vv17fz_3gkdywngg",
@@ -1273,7 +1495,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-cleveland-huntington-bank-field-6-15-2027--concerts-hard-rock/production/7563446",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-cleveland-ohio-06-15-2027/event/0500652EF0CA330C",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1332,7 +1554,29 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268601",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268601/Metallica-tickets-Tue-Jun-15-2027-Huntington-Bank-Field",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-cleveland-tickets-6-15-2027/event/107668973"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-cleveland-tickets-6-15-2027/event/107668973",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-05-19T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-05-19T22:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-06-09T02:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-06-09T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-salt-lake-city-g5vzz_3hepr-9",
@@ -1350,7 +1594,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-salt-lake-city-rice-eccles-stadium-6-19-2027--concerts-hard-rock/production/7563558",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-salt-lake-city-utah-06-19-2027/event/1E00652F0259E857",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1409,7 +1653,34 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8268602",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8268602/Metallica-tickets-Sat-Jun-19-2027-Rice-Eccles-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-salt-lake-city-tickets-6-19-2027/event/107668972"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-salt-lake-city-tickets-6-19-2027/event/107668972",
+    "presales": [
+      {
+        "name": "VIP Travel Packages Presale",
+        "start": "2026-09-21T16:00:00Z",
+        "end": "2027-05-06T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-05-21T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-05-23T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-06-13T04:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-06-13T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtkw4-",
@@ -1687,7 +1958,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-15-2026/event/17006455FF51D56A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1722,7 +1993,14 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfq4n",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T18:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfq4i",
@@ -1740,7 +2018,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-10-17-2026--concerts-hard-rock/production/6709895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-17-2026/event/17006455FF51D56C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1799,7 +2077,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758710",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758710/Metallica-tickets-Sat-Oct-17-2026-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-17-2026/event/107121293"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-17-2026/event/107121293",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T18:00:00Z",
+        "end": "2026-10-11T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfc4w",
@@ -1817,7 +2102,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-22-2026/event/17006455FF52D572",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1852,7 +2137,14 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfc4w",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T18:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfc4g",
@@ -1870,7 +2162,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-10-24-2026--concerts-hard-rock/production/6709901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-24-2026/event/17006455FF52D575",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1929,7 +2221,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758712",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758712/Metallica-tickets-Sat-Oct-24-2026-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-24-2026/event/107126149"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-24-2026/event/107126149",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T18:00:00Z",
+        "end": "2026-10-18T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rvz72a6e",
@@ -1947,7 +2246,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-29-2026/event/170064550781E861",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1982,7 +2281,14 @@
     },
     "ticketmaster_discovery_event_id": "1FAYv048rvZ72a6e",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T20:00:00Z",
+        "end": "2026-10-23T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rvz72a6k",
@@ -2000,7 +2306,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-10-31-2026--concerts-hard-rock/production/6709909",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-31-2026/event/170064550781E865",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2059,7 +2365,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7759027",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7759027/Metallica-tickets-Sat-Oct-31-2026-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-31-2026/event/107120358"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-31-2026/event/107120358",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T20:00:00Z",
+        "end": "2026-10-25T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rez72a62",
@@ -2077,7 +2390,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-05-2026/event/170064550782E86E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2112,7 +2425,14 @@
     },
     "ticketmaster_discovery_event_id": "1FAYv048reZ72a62",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T21:00:00Z",
+        "end": "2026-10-30T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2026-las-vegas-1fayv048rez72afa",
@@ -2130,7 +2450,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-11-7-2026/production/6742738",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-11-07-2026/event/170064550782E874",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2189,7 +2509,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775511",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775511/Metallica-tickets-Sat-Nov-7-2026-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-7-2026/event/107120666"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-11-7-2026/event/107120666",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T21:00:00Z",
+        "end": "2026-11-01T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzm6y",
@@ -2207,7 +2534,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-2-27-2027/production/6754204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-02-27-2027/event/17006461A5E2E1F9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2266,7 +2593,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785091",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785091/Metallica-tickets-Sat-Feb-27-2027-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-27-2027/event/107133094"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-27-2027/event/107133094",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T22:00:00Z",
+        "end": "2027-02-21T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0butu",
@@ -2284,7 +2618,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-04-2027/event/17006461A4E8DFF6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2319,7 +2653,14 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0BuTU",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T23:00:00Z",
+        "end": "2027-02-26T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gkepzm6w",
@@ -2337,7 +2678,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-3-6-2027--concerts-hard-rock/production/6755435",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-06-2027/event/17006461A5E2E1FD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2396,7 +2737,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785869",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785869/Metallica-tickets-Sat-Mar-6-2027-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-6-2027/event/107133098"
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-6-2027/event/107133098",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T23:00:00Z",
+        "end": "2027-02-28T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-las-vegas-1a9zko-gke0bqtz",
@@ -2414,7 +2762,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-11-2027/event/17006461A4E9DFF8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2449,7 +2797,14 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zko-Gke0BqTz",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-06T23:00:00Z",
+        "end": "2027-03-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-metallica-2027-raleigh-z7r9jz1aavwaj",

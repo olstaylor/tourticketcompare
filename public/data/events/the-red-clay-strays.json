@@ -4136,5 +4136,59 @@
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z"
+  },
+  {
+    "id": "tm-the-red-clay-strays-2027-cleveland-z7r9jz1aaefgw",
+    "artist_slug": "the-red-clay-strays",
+    "artist_name": "The Red Clay Strays",
+    "event_name": "The Red Clay Strays",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Rocket Arena",
+    "datetime_iso": "2027-02-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAefGw",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefGw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefGw",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAefGw",
+        "discovery_event_id": "Z7r9jZ1AAefGw",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefGw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAefGw",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T15:00:00Z"
   }
 ]

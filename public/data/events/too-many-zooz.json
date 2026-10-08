@@ -480,5 +480,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8236208",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8236208/Too-Many-Zooz-tickets-Fri-Nov-13-2026-Asbury-Hall-at-Babeville"
+  },
+  {
+    "id": "tm-too-many-zooz-2027-portland-z7r9jz1aaeerf",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Revolution Hall - Portland",
+    "datetime_iso": "2027-05-14T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeerF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeerF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeerF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeerF",
+        "discovery_event_id": "Z7r9jZ1AAeerF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeerF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeerF",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

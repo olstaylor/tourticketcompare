@@ -134,7 +134,7 @@
     "ticketmaster_event_id": "160064D2E899E8A7",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-charles-wesley-godwin-pittsburgh-pennsylvania-10-30-2026/event/160064D2E899E8A7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-pittsburgh-citizens-live-at-the-wylie-10-30-2026--concerts-country-and-folk/production/7199155",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-charles-wesley-godwin-pittsburgh-pennsylvania-10-30-2026/event/160064D2E899E8A7",
     "last_verified_at": null,
@@ -156,11 +156,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7199155,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-pittsburgh-citizens-live-at-the-wylie-10-30-2026--concerts-country-and-folk/production/7199155",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -431,7 +431,7 @@
     "ticketmaster_event_id": "3E006504EA652A78",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-london-18-02-2027/event/3E006504EA652A78",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-london-o2-academy-brixton-2-18-2027/production/7428684",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-london-18-02-2027/event/3E006504EA652A78",
     "last_verified_at": null,
@@ -453,11 +453,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7428684,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-london-o2-academy-brixton-2-18-2027/production/7428684",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -545,7 +545,7 @@
     "ticketmaster_event_id": "3E006504AB4116C0",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-birmingham-21-02-2027/event/3E006504AB4116C0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-birmingham-o2-academy---birmingham-2-21-2027/production/7428688",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-birmingham-21-02-2027/event/3E006504AB4116C0",
     "last_verified_at": null,
@@ -567,11 +567,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7428688,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-birmingham-o2-academy---birmingham-2-21-2027/production/7428688",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -622,7 +622,7 @@
     "ticketmaster_event_id": "3E006505B52F1612",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-23-02-2027/event/3E006505B52F1612",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-23-2027/production/7455097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-23-02-2027/event/3E006505B52F1612",
     "last_verified_at": null,
@@ -644,11 +644,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7455097,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-23-2027/production/7455097",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -683,7 +683,7 @@
     "ticketmaster_event_id": "3E006506B20D1765",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-24-02-2027/event/3E006506B20D1765",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-24-2027/production/7428676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/dylan-gossett-ramblin-euuk-tour-2027-glasgow-24-02-2027/event/3E006506B20D1765",
     "last_verified_at": null,
@@ -705,11 +705,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7428676,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-glasgow-o2-academy-glasgow-2-24-2027/production/7428676",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -797,7 +797,7 @@
     "ticketmaster_event_id": "2D00653EE555C1C0",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charleston-south-carolina-03-25-2027/event/2D00653EE555C1C0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-charleston-charleston-music-hall-3-25-2027/production/7644164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charleston-south-carolina-03-25-2027/event/2D00653EE555C1C0",
     "last_verified_at": "2026-10-07",
@@ -819,11 +819,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644164,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-charleston-charleston-music-hall-3-25-2027/production/7644164",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -857,7 +857,7 @@
     "ticketmaster_event_id": "2D00653DBE4DEAD0",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-north-myrtle-beach-south-carolina-03-26-2027/event/2D00653DBE4DEAD0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-north-myrtle-beach-house-of-blues-myrtle-beach-3-26-2027/production/7644189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-north-myrtle-beach-south-carolina-03-26-2027/event/2D00653DBE4DEAD0",
     "last_verified_at": "2026-10-07",
@@ -879,11 +879,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644189,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-north-myrtle-beach-house-of-blues-myrtle-beach-3-26-2027/production/7644189",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -933,7 +933,7 @@
     "ticketmaster_event_id": "2D00653E8FB27954",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charlotte-north-carolina-03-27-2027/event/2D00653E8FB27954",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-charlotte-the-fillmore-charlotte-3-27-2027/production/7643781",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charlotte-north-carolina-03-27-2027/event/2D00653E8FB27954",
     "last_verified_at": "2026-10-07",
@@ -955,11 +955,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7643781,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-charlotte-the-fillmore-charlotte-3-27-2027/production/7643781",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1009,7 +1009,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe4bI",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bI",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-chattanooga-the-signal-3-30-2027/production/7645645",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bI",
     "last_verified_at": null,
@@ -1031,11 +1031,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7645645,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-chattanooga-the-signal-3-30-2027/production/7645645",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1138,7 +1138,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe4bt",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bt",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-fayetteville-ozark-music-hall-4-2-2027/production/7645605",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bt",
     "last_verified_at": null,
@@ -1160,11 +1160,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7645605,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-fayetteville-ozark-music-hall-4-2-2027/production/7645605",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1207,7 +1207,7 @@
     "ticketmaster_event_id": "1B006541CB5D93D8",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-memphis-tennessee-04-03-2027/event/1B006541CB5D93D8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-memphis-satellite-music-hall-4-3-2027/production/7644194",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-memphis-tennessee-04-03-2027/event/1B006541CB5D93D8",
     "last_verified_at": "2026-10-07",
@@ -1229,11 +1229,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644194,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-memphis-satellite-music-hall-4-3-2027/production/7644194",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1283,7 +1283,7 @@
     "ticketmaster_event_id": "2000653EBBBC44F3",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-birmingham-alabama-04-04-2027/event/2000653EBBBC44F3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-birmingham-avondale-brewing-company-4-4-2027/production/7644156",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-birmingham-alabama-04-04-2027/event/2000653EBBBC44F3",
     "last_verified_at": "2026-10-07",
@@ -1305,11 +1305,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644156,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-birmingham-avondale-brewing-company-4-4-2027/production/7644156",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1419,7 +1419,7 @@
     "ticketmaster_event_id": "1500653E9BFC7BA6",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-baltimore-maryland-04-07-2027/event/1500653E9BFC7BA6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-baltimore-the-paramount-baltimore-4-7-2027/production/7644204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-baltimore-maryland-04-07-2027/event/1500653E9BFC7BA6",
     "last_verified_at": "2026-10-07",
@@ -1441,11 +1441,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644204,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-baltimore-the-paramount-baltimore-4-7-2027/production/7644204",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1495,7 +1495,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe4bY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bY",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-columbus-kemba-live-4-8-2027/production/7644647",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bY",
     "last_verified_at": null,
@@ -1517,11 +1517,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644647,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-columbus-kemba-live-4-8-2027/production/7644647",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1564,7 +1564,7 @@
     "ticketmaster_event_id": "0800653DBA936F3C",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-detroit-michigan-04-10-2027/event/0800653DBA936F3C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-detroit-the-fillmore-detroit-4-10-2027/production/7644126",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-detroit-michigan-04-10-2027/event/0800653DBA936F3C",
     "last_verified_at": "2026-10-07",
@@ -1586,11 +1586,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644126,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-detroit-the-fillmore-detroit-4-10-2027/production/7644126",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1640,7 +1640,7 @@
     "ticketmaster_event_id": "0800653DBA206EC3",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-grand-rapids-michigan-04-11-2027/event/0800653DBA206EC3",
     "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2027-04-11-7-pm/concert/18642102",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-grand-rapids-glc-live-at-20-monroe-4-11-2027/production/7644661",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-grand-rapids-michigan-04-11-2027/event/0800653DBA206EC3",
     "last_verified_at": "2026-10-07",
@@ -1662,11 +1662,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644661,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-grand-rapids-glc-live-at-20-monroe-4-11-2027/production/7644661",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1716,7 +1716,7 @@
     "ticketmaster_event_id": "0500653ED2F2E211",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-indianapolis-indiana-05-04-2027/event/0500653ED2F2E211",
     "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-05-04-7-pm/concert/18642104",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-5-4-2027--concerts-country-and-folk/production/7644411",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-indianapolis-indiana-05-04-2027/event/0500653ED2F2E211",
     "last_verified_at": "2026-10-07",
@@ -1738,11 +1738,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644411,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-5-4-2027--concerts-country-and-folk/production/7644411",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1792,7 +1792,7 @@
     "ticketmaster_event_id": "0700653DF5F6AFCA",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-madison-wisconsin-05-06-2027/event/0700653DF5F6AFCA",
     "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/madison-wisconsin-the-sylvee-2027-05-06-7-pm/concert/18642105",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-madison-the-sylvee-5-6-2027/production/7644178",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-madison-wisconsin-05-06-2027/event/0700653DF5F6AFCA",
     "last_verified_at": "2026-10-07",
@@ -1814,11 +1814,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644178,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-madison-the-sylvee-5-6-2027/production/7644178",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1868,7 +1868,7 @@
     "ticketmaster_event_id": "0600653CAC1880E7",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-kansas-city-missouri-05-07-2027/event/0600653CAC1880E7",
     "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/kansas-city-missouri-uptown-theater-kc-2027-05-07-7-pm/concert/18642106",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-kansas-city-uptown-theater-kansas-city-5-7-2027--concerts-country-and-folk/production/7644413",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-kansas-city-missouri-05-07-2027/event/0600653CAC1880E7",
     "last_verified_at": "2026-10-07",
@@ -1890,11 +1890,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644413,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-kansas-city-uptown-theater-kansas-city-5-7-2027--concerts-country-and-folk/production/7644413",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1944,7 +1944,7 @@
     "ticketmaster_event_id": "2000653C96F82664",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-la-vista-nebraska-05-08-2027/event/2000653C96F82664",
     "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/la-vista-nebraska-the-astro-theater-la-vista-2027-05-08-7-pm/concert/18642110",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-la-vista-astro-theater-5-8-2027/production/7644180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-la-vista-nebraska-05-08-2027/event/2000653C96F82664",
     "last_verified_at": null,
@@ -1966,11 +1966,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644180,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-la-vista-astro-theater-5-8-2027/production/7644180",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1997,7 +1997,7 @@
     "ticketmaster_event_id": "3A006541BB741D0D",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-austin-texas-05-13-2027/event/3A006541BB741D0D",
     "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/austin-texas-moody-amphitheater-2027-05-13-7-pm/concert/18642112",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-austin-moody-amphitheater-5-13-2027/production/7644187",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-austin-texas-05-13-2027/event/3A006541BB741D0D",
     "last_verified_at": "2026-10-07",
@@ -2019,11 +2019,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644187,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-austin-moody-amphitheater-5-13-2027/production/7644187",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2073,7 +2073,7 @@
     "ticketmaster_event_id": "3A00653DF0372FB5",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-houston-texas-05-14-2027/event/3A00653DF0372FB5",
     "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/houston-texas-bayou-music-center-2027-05-14-7-pm/concert/18642115",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-houston-bayou-music-center-5-14-2027/production/7644161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-houston-texas-05-14-2027/event/3A00653DF0372FB5",
     "last_verified_at": "2026-10-07",
@@ -2095,11 +2095,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7644161,
+        "url": "https://www.vividseats.com/dylan-gossett-tickets-houston-bayou-music-center-5-14-2027/production/7644161",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "0900635E02A5A5C0",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-10-09-2026/event/0900635E02A5A5C0",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/inglewood-california-kia-forum-2026-10-09-7-pm/concert/17878570",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-10-9-2026--concerts-rock/production/6246338",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-10-09-2026/event/0900635E02A5A5C0",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6246338,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-10-9-2026--concerts-rock/production/6246338",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "0E006444A7A0612C",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-atlanta-georgia-11-10-2026/event/0E006444A7A0612C",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/atlanta-georgia-state-farm-arena-1-2026-11-10-7-30-pm/concert/18085136",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-atlanta-state-farm-arena-11-10-2026/production/6690298",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-atlanta-georgia-11-10-2026/event/0E006444A7A0612C",
     "last_verified_at": "2026-10-07",
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690298,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-atlanta-state-farm-arena-11-10-2026/production/6690298",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -178,7 +178,7 @@
     "ticketmaster_event_id": "22006451B763471F",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-orlando-florida-11-11-2026/event/22006451B763471F",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/orlando-florida-kia-center-2026-11-11-7-30-pm/concert/18085138",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-orlando-kia-center-11-11-2026--concerts-rock/production/6690352",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-orlando-florida-11-11-2026/event/22006451B763471F",
     "last_verified_at": "2026-10-07",
@@ -200,11 +200,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690352,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-orlando-kia-center-11-11-2026--concerts-rock/production/6690352",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -238,7 +238,7 @@
     "ticketmaster_event_id": "0D006449E4C49B80",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-miami-florida-11-12-2026/event/0D006449E4C49B80",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/miami-florida-kaseya-center-2026-11-12-7-30-pm/concert/18085137",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-miami-kaseya-center-11-12-2026--concerts-rock/production/6690355",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-miami-florida-11-12-2026/event/0D006449E4C49B80",
     "last_verified_at": "2026-10-07",
@@ -260,11 +260,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690355,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-miami-kaseya-center-11-12-2026--concerts-rock/production/6690355",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -298,7 +298,7 @@
     "ticketmaster_event_id": "1B00646BB8E7F668",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-nashville-tennessee-11-14-2026/event/1B00646BB8E7F668",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/nashville-tennessee-the-truth-nashville-2026-11-14-7-30-pm/concert/18126039",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-nashville-the-truth-11-14-2026--concerts-rock/production/6789957",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-nashville-tennessee-11-14-2026/event/1B00646BB8E7F668",
     "last_verified_at": "2026-10-07",
@@ -320,11 +320,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6789957,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-nashville-the-truth-11-14-2026--concerts-rock/production/6789957",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -358,7 +358,7 @@
     "ticketmaster_event_id": "0600644BD278D916",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-world-tour-kansas-city-missouri-11-16-2026/event/0600644BD278D916",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/kansas-city-missouri-t-mobile-center-2026-11-16-7-30-pm/concert/18085139",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-kansas-city-t-mobile-center-11-16-2026--concerts-rock/production/6690358",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-world-tour-kansas-city-missouri-11-16-2026/event/0600644BD278D916",
     "last_verified_at": "2026-10-07",
@@ -380,11 +380,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690358,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-kansas-city-t-mobile-center-11-16-2026--concerts-rock/production/6690358",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -418,7 +418,7 @@
     "ticketmaster_event_id": "04006449E2046622",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-chicago-illinois-11-18-2026/event/04006449E2046622",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/chicago-illinois-united-center-2026-11-18-7-30-pm/concert/18140881",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-chicago-united-center-11-18-2026/production/6822533",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-chicago-illinois-11-18-2026/event/04006449E2046622",
     "last_verified_at": null,
@@ -440,11 +440,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6822533,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-chicago-united-center-11-18-2026/production/6822533",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -471,7 +471,7 @@
     "ticketmaster_event_id": "0800644CAC2688E0",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-detroit-michigan-11-19-2026/event/0800644CAC2688E0",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/detroit-michigan-little-caesars-arena-2026-11-19-7-30-pm/concert/18085141",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-detroit-little-caesars-arena-11-19-2026--concerts-rock/production/6690365",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-detroit-michigan-11-19-2026/event/0800644CAC2688E0",
     "last_verified_at": "2026-10-07",
@@ -493,11 +493,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690365,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-detroit-little-caesars-arena-11-19-2026--concerts-rock/production/6690365",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -531,7 +531,7 @@
     "ticketmaster_event_id": "30006449D4A6700C",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-21-2026/event/30006449D4A6700C",
     "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/brooklyn-new-york-barclays-center-2026-11-21-7-pm/concert/18085142",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-brooklyn-barclays-center-11-21-2026--concerts-rock/production/6690367",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-21-2026/event/30006449D4A6700C",
     "last_verified_at": "2026-10-07",
@@ -553,11 +553,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690367,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-brooklyn-barclays-center-11-21-2026--concerts-rock/production/6690367",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -591,7 +591,7 @@
     "ticketmaster_event_id": "3000645478072229",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-22-2026/event/3000645478072229",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-brooklyn-barclays-center-11-22-2026--concerts-rock/production/6932838",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-22-2026/event/3000645478072229",
     "last_verified_at": null,
@@ -613,11 +613,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6932838,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-brooklyn-barclays-center-11-22-2026--concerts-rock/production/6932838",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -644,7 +644,7 @@
     "ticketmaster_event_id": "1900645387C950F4",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-phoenix-arizona-11-30-2026/event/1900645387C950F4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-phoenix-mortgage-matchup-center-11-30-2026--concerts-rock/production/6690369",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-phoenix-arizona-11-30-2026/event/1900645387C950F4",
     "last_verified_at": "2026-10-07",
@@ -666,11 +666,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690369,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-phoenix-mortgage-matchup-center-11-30-2026--concerts-rock/production/6690369",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -704,7 +704,7 @@
     "ticketmaster_event_id": "1C006453D3D07859",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-san-francisco-california-12-02-2026/event/1C006453D3D07859",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-san-francisco-bill-graham-civic-auditorium-12-2-2026--concerts-rock/production/6690371",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-san-francisco-california-12-02-2026/event/1C006453D3D07859",
     "last_verified_at": "2026-10-07",
@@ -726,11 +726,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690371,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-san-francisco-bill-graham-civic-auditorium-12-2-2026--concerts-rock/production/6690371",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -764,7 +764,7 @@
     "ticketmaster_event_id": "09006443CD5C89D1",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-04-2026/event/09006443CD5C89D1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-4-2026--concerts-rock/production/6690373",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-04-2026/event/09006443CD5C89D1",
     "last_verified_at": "2026-10-07",
@@ -786,11 +786,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6690373,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-4-2026--concerts-rock/production/6690373",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -824,7 +824,7 @@
     "ticketmaster_event_id": "0900645403D3F8BA",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-05-2026/event/0900645403D3F8BA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-5-2026/production/6707944",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-05-2026/event/0900645403D3F8BA",
     "last_verified_at": null,
@@ -846,11 +846,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6707944,
+        "url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-5-2026/production/6707944",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

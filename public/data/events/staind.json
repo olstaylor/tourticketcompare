@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "1C00643CB5B26DE8",
     "ticketmaster_url": "https://www.ticketmaster.com/98-rock-presents-staind-break-the-wheatland-california-10-09-2026/event/1C00643CB5B26DE8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-wheatland-toyota-amphitheatre-10-9-2026--concerts-rock/production/6614450",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/98-rock-presents-staind-break-the-wheatland-california-10-09-2026/event/1C00643CB5B26DE8",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6614450,
+        "url": "https://www.vividseats.com/staind-tickets-wheatland-toyota-amphitheatre-10-9-2026--concerts-rock/production/6614450",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -142,7 +142,7 @@
     "ticketmaster_event_id": "0900643C9E919007",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-ontario-california-10-10-2026/event/0900643C9E919007",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-ontario-toyota-arena---ca-10-10-2026--concerts-rock/production/6614452",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-ontario-california-10-10-2026/event/0900643C9E919007",
     "last_verified_at": null,
@@ -164,11 +164,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6614452,
+        "url": "https://www.vividseats.com/staind-tickets-ontario-toyota-arena---ca-10-10-2026--concerts-rock/production/6614452",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -219,7 +219,7 @@
     "ticketmaster_event_id": "1900643D874B484B",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-phoenix-arizona-10-13-2026/event/1900643D874B484B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-phoenix-talking-stick-resort-amphitheatre-10-13-2026/production/6614441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-phoenix-arizona-10-13-2026/event/1900643D874B484B",
     "last_verified_at": "2026-10-07",
@@ -241,11 +241,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6614441,
+        "url": "https://www.vividseats.com/staind-tickets-phoenix-talking-stick-resort-amphitheatre-10-13-2026/production/6614441",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -364,7 +364,7 @@
     "ticketmaster_event_id": "2000643D05BE513B",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-tulsa-oklahoma-10-16-2026/event/2000643D05BE513B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-tulsa-bok-center-10-16-2026--concerts-rock/production/6614461",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-tulsa-oklahoma-10-16-2026/event/2000643D05BE513B",
     "last_verified_at": "2026-10-07",
@@ -386,11 +386,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6614461,
+        "url": "https://www.vividseats.com/staind-tickets-tulsa-bok-center-10-16-2026--concerts-rock/production/6614461",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -448,7 +448,7 @@
     "ticketmaster_event_id": "3A00643EB4D5D528",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-the-woodlands-texas-10-17-2026/event/3A00643EB4D5D528",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-the-woodlands-cynthia-woods-mitchell-pavilion-10-17-2026/production/6614454",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-the-woodlands-texas-10-17-2026/event/3A00643EB4D5D528",
     "last_verified_at": "2026-10-07",
@@ -470,11 +470,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6614454,
+        "url": "https://www.vividseats.com/staind-tickets-the-woodlands-cynthia-woods-mitchell-pavilion-10-17-2026/production/6614454",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -508,7 +508,7 @@
     "ticketmaster_event_id": "3A00643C063099B5",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-austin-texas-10-19-2026/event/3A00643C063099B5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-austin-moody-center-atx-10-19-2026--concerts-rock/production/6614465",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-austin-texas-10-19-2026/event/3A00643C063099B5",
     "last_verified_at": "2026-10-07",
@@ -530,11 +530,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6614465,
+        "url": "https://www.vividseats.com/staind-tickets-austin-moody-center-atx-10-19-2026--concerts-rock/production/6614465",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -592,7 +592,7 @@
     "ticketmaster_event_id": "0100653EB072478E",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-manchester-new-hampshire-03-04-2027/event/0100653EB072478E",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/manchester-new-hampshire-snhu-arena-2027-03-04-6-pm/concert/18654539",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-manchester-snhu-arena-3-4-2027/production/7658793",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-manchester-new-hampshire-03-04-2027/event/0100653EB072478E",
     "last_verified_at": "2026-10-07",
@@ -614,11 +614,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658793,
+        "url": "https://www.vividseats.com/staind-tickets-manchester-snhu-arena-3-4-2027/production/7658793",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -709,7 +709,7 @@
     "ticketmaster_event_id": "150065453170510C",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-baltimore-maryland-03-06-2027/event/150065453170510C",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/baltimore-maryland-cfg-bank-arena-2027-03-06-6-pm/concert/18654540",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-baltimore-cfg-bank-arena-3-6-2027/production/7658799",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-baltimore-maryland-03-06-2027/event/150065453170510C",
     "last_verified_at": "2026-10-07",
@@ -731,11 +731,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658799,
+        "url": "https://www.vividseats.com/staind-tickets-baltimore-cfg-bank-arena-3-6-2027/production/7658799",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -826,7 +826,7 @@
     "ticketmaster_event_id": "1600653EE0B6D584",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-pittsburgh-pennsylvania-03-08-2027/event/1600653EE0B6D584",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-pittsburgh-ppg-paints-arena-3-8-2027/production/7658795",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-pittsburgh-pennsylvania-03-08-2027/event/1600653EE0B6D584",
     "last_verified_at": "2026-10-07",
@@ -848,11 +848,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658795,
+        "url": "https://www.vividseats.com/staind-tickets-pittsburgh-ppg-paints-arena-3-8-2027/production/7658795",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -943,7 +943,7 @@
     "ticketmaster_event_id": "02006541B36EAC1B",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-reading-pennsylvania-03-09-2027/event/02006541B36EAC1B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-reading-santander-arena-3-9-2027/production/7658819",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-reading-pennsylvania-03-09-2027/event/02006541B36EAC1B",
     "last_verified_at": "2026-10-07",
@@ -965,11 +965,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658819,
+        "url": "https://www.vividseats.com/staind-tickets-reading-santander-arena-3-9-2027/production/7658819",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1044,7 +1044,7 @@
     "ticketmaster_event_id": "160065428FA34508",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-huntington-west-virginia-03-10-2027/event/160065428FA34508",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/huntington-west-virginia-marshall-health-network-arena-2027-03-10-6-pm/concert/18654510",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-huntington-marshall-health-network-arena-3-10-2027--concerts-rock/production/7658997",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-huntington-west-virginia-03-10-2027/event/160065428FA34508",
     "last_verified_at": "2026-10-07",
@@ -1066,11 +1066,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658997,
+        "url": "https://www.vividseats.com/staind-tickets-huntington-marshall-health-network-arena-3-10-2027--concerts-rock/production/7658997",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1140,7 +1140,7 @@
     "ticketmaster_event_id": "0D006541E77B70C3",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-tampa-florida-03-12-2027/event/0D006541E77B70C3",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/tampa-florida-benchmark-international-arena-2027-03-12-6-pm/concert/18654500",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-tampa-benchmark-international-arena-3-12-2027/production/7658917",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-tampa-florida-03-12-2027/event/0D006541E77B70C3",
     "last_verified_at": "2026-10-07",
@@ -1162,11 +1162,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658917,
+        "url": "https://www.vividseats.com/staind-tickets-tampa-benchmark-international-arena-3-12-2027/production/7658917",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1257,7 +1257,7 @@
     "ticketmaster_event_id": "0D00653ED841F3E7",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-west-palm-beach-florida-03-13-2027/event/0D00653ED841F3E7",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/west-palm-beach-florida-ithink-financial-amphitheatre-2027-03-13-6-pm/concert/18654501",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-west-palm-beach-ithink-financial-amphitheatre-3-13-2027/production/7658871",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-west-palm-beach-florida-03-13-2027/event/0D00653ED841F3E7",
     "last_verified_at": "2026-10-07",
@@ -1279,11 +1279,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658871,
+        "url": "https://www.vividseats.com/staind-tickets-west-palm-beach-ithink-financial-amphitheatre-3-13-2027/production/7658871",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1374,7 +1374,7 @@
     "ticketmaster_event_id": "20006541D60961E0",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-birmingham-alabama-03-16-2027/event/20006541D60961E0",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2027-03-16-6-pm/concert/18654502",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-birmingham-legacy-arena-at-the-bjcc-3-16-2027/production/7658907",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-birmingham-alabama-03-16-2027/event/20006541D60961E0",
     "last_verified_at": "2026-10-07",
@@ -1396,11 +1396,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658907,
+        "url": "https://www.vividseats.com/staind-tickets-birmingham-legacy-arena-at-the-bjcc-3-16-2027/production/7658907",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1491,7 +1491,7 @@
     "ticketmaster_event_id": "0C00653E978F5ED8",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-oklahoma-city-oklahoma-03-18-2027/event/0C00653E978F5ED8",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/oklahoma-city-oklahoma-paycom-center-2027-03-18-6-pm/concert/18654504",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-oklahoma-city-paycom-center-3-18-2027/production/7658925",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-oklahoma-city-oklahoma-03-18-2027/event/0C00653E978F5ED8",
     "last_verified_at": "2026-10-07",
@@ -1513,11 +1513,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658925,
+        "url": "https://www.vividseats.com/staind-tickets-oklahoma-city-paycom-center-3-18-2027/production/7658925",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1608,7 +1608,7 @@
     "ticketmaster_event_id": "0C0065423A11B8B1",
     "ticketmaster_url": "https://www.ticketmaster.com/971-the-eagle-presents-staind-break-dallas-texas-03-19-2027/event/0C0065423A11B8B1",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/dallas-texas-dos-equis-pavilion-2027-03-19-6-pm/concert/18654503",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-dallas-dos-equis-pavilion-3-19-2027--concerts-rock/production/7659012",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/971-the-eagle-presents-staind-break-dallas-texas-03-19-2027/event/0C0065423A11B8B1",
     "last_verified_at": "2026-10-07",
@@ -1630,11 +1630,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7659012,
+        "url": "https://www.vividseats.com/staind-tickets-dallas-dos-equis-pavilion-3-19-2027--concerts-rock/production/7659012",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1720,7 +1720,7 @@
     "ticketmaster_event_id": "3A0065419BE1B609",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-san-antonio-texas-03-20-2027/event/3A0065419BE1B609",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-san-antonio-frost-bank-center-3-20-2027--concerts-rock/production/7659014",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-san-antonio-texas-03-20-2027/event/3A0065419BE1B609",
     "last_verified_at": "2026-10-07",
@@ -1742,11 +1742,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7659014,
+        "url": "https://www.vividseats.com/staind-tickets-san-antonio-frost-bank-center-3-20-2027--concerts-rock/production/7659014",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1837,7 +1837,7 @@
     "ticketmaster_event_id": "1E00654113F8BE5A",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-denver-colorado-03-22-2027/event/1E00654113F8BE5A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-denver-ball-arena-3-22-2027/production/7658985",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-denver-colorado-03-22-2027/event/1E00654113F8BE5A",
     "last_verified_at": "2026-10-07",
@@ -1859,11 +1859,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658985,
+        "url": "https://www.vividseats.com/staind-tickets-denver-ball-arena-3-22-2027/production/7658985",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1954,7 +1954,7 @@
     "ticketmaster_event_id": "1E00653E84B94351",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-boise-idaho-03-24-2027/event/1E00653E84B94351",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-boise-extramile-arena-3-24-2027/production/7658945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-boise-idaho-03-24-2027/event/1E00653E84B94351",
     "last_verified_at": "2026-10-07",
@@ -1976,11 +1976,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658945,
+        "url": "https://www.vividseats.com/staind-tickets-boise-extramile-arena-3-24-2027/production/7658945",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2071,7 +2071,7 @@
     "ticketmaster_event_id": "0F00653DD76CDC06",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-seattle-washington-03-27-2027/event/0F00653DD76CDC06",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-seattle-climate-pledge-arena-3-27-2027--concerts-rock/production/7659018",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-seattle-washington-03-27-2027/event/0F00653DD76CDC06",
     "last_verified_at": "2026-10-07",
@@ -2093,11 +2093,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7659018,
+        "url": "https://www.vividseats.com/staind-tickets-seattle-climate-pledge-arena-3-27-2027--concerts-rock/production/7659018",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2188,7 +2188,7 @@
     "ticketmaster_event_id": "11006542CE9DD016",
     "ticketmaster_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-vancouver-british-columbia-03-29-2027/event/11006542CE9DD016",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-vancouver-rogers-arena-3-29-2027--concerts-rock/production/7659028",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-vancouver-british-columbia-03-29-2027/event/11006542CE9DD016",
     "last_verified_at": "2026-10-07",
@@ -2210,11 +2210,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7659028,
+        "url": "https://www.vividseats.com/staind-tickets-vancouver-rogers-arena-3-29-2027--concerts-rock/production/7659028",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2300,7 +2300,7 @@
     "ticketmaster_event_id": "1100653DE10AE9F2",
     "ticketmaster_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-calgary-alberta-03-31-2027/event/1100653DE10AE9F2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-calgary-scotiabank-saddledome-3-31-2027/production/7659022",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-calgary-alberta-03-31-2027/event/1100653DE10AE9F2",
     "last_verified_at": "2026-10-07",
@@ -2322,11 +2322,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7659022,
+        "url": "https://www.vividseats.com/staind-tickets-calgary-scotiabank-saddledome-3-31-2027/production/7659022",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2412,7 +2412,7 @@
     "ticketmaster_event_id": "1100653E198825E1",
     "ticketmaster_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-edmonton-alberta-04-01-2027/event/1100653E198825E1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-edmonton-rogers-place-4-1-2027/production/7659026",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-edmonton-alberta-04-01-2027/event/1100653E198825E1",
     "last_verified_at": "2026-10-07",
@@ -2434,11 +2434,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7659026,
+        "url": "https://www.vividseats.com/staind-tickets-edmonton-rogers-place-4-1-2027/production/7659026",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2524,7 +2524,7 @@
     "ticketmaster_event_id": "06006541D0984441",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-sioux-falls-south-dakota-04-06-2027/event/06006541D0984441",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-sioux-falls-denny-sanford-premier-center-4-6-2027/production/7658947",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-sioux-falls-south-dakota-04-06-2027/event/06006541D0984441",
     "last_verified_at": "2026-10-07",
@@ -2546,11 +2546,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658947,
+        "url": "https://www.vividseats.com/staind-tickets-sioux-falls-denny-sanford-premier-center-4-6-2027/production/7658947",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2641,7 +2641,7 @@
     "ticketmaster_event_id": "0600653DBDE4BB80",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-fargo-north-dakota-04-07-2027/event/0600653DBDE4BB80",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-fargo-fargodome-4-7-2027/production/7658969",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-fargo-north-dakota-04-07-2027/event/0600653DBDE4BB80",
     "last_verified_at": "2026-10-07",
@@ -2663,11 +2663,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658969,
+        "url": "https://www.vividseats.com/staind-tickets-fargo-fargodome-4-7-2027/production/7658969",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2758,7 +2758,7 @@
     "ticketmaster_event_id": "060065429BA0997F",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-omaha-nebraska-04-09-2027/event/060065429BA0997F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-omaha-chi-health-center-omaha-4-9-2027/production/7658975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-omaha-nebraska-04-09-2027/event/060065429BA0997F",
     "last_verified_at": "2026-10-08",
@@ -2780,11 +2780,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658975,
+        "url": "https://www.vividseats.com/staind-tickets-omaha-chi-health-center-omaha-4-9-2027/production/7658975",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2875,7 +2875,7 @@
     "ticketmaster_event_id": "06006541B5EEF63F",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-kansas-city-missouri-04-10-2027/event/06006541B5EEF63F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-kansas-city-t-mobile-center-4-10-2027/production/7658897",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-kansas-city-missouri-04-10-2027/event/06006541B5EEF63F",
     "last_verified_at": "2026-10-07",
@@ -2897,11 +2897,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658897,
+        "url": "https://www.vividseats.com/staind-tickets-kansas-city-t-mobile-center-4-10-2027/production/7658897",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2992,7 +2992,7 @@
     "ticketmaster_event_id": "0600654182384B89",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-moline-illinois-04-11-2027/event/0600654182384B89",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-moline-vibrant-arena-at-the-mark-4-11-2027/production/7658963",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-moline-illinois-04-11-2027/event/0600654182384B89",
     "last_verified_at": "2026-10-07",
@@ -3014,11 +3014,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658963,
+        "url": "https://www.vividseats.com/staind-tickets-moline-vibrant-arena-at-the-mark-4-11-2027/production/7658963",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3109,7 +3109,7 @@
     "ticketmaster_event_id": "0800653DDD089A23",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-grand-rapids-michigan-04-13-2027/event/0800653DDD089A23",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-grand-rapids-van-andel-arena-4-13-2027/production/7658869",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-grand-rapids-michigan-04-13-2027/event/0800653DDD089A23",
     "last_verified_at": "2026-10-07",
@@ -3131,11 +3131,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658869,
+        "url": "https://www.vividseats.com/staind-tickets-grand-rapids-van-andel-arena-4-13-2027/production/7658869",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3226,7 +3226,7 @@
     "ticketmaster_event_id": "0500653ED26DE11F",
     "ticketmaster_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-evansville-indiana-04-14-2027/event/0500653ED26DE11F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-evansville-ford-center-evansville-4-14-2027/production/7658929",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-evansville-indiana-04-14-2027/event/0500653ED26DE11F",
     "last_verified_at": "2026-10-07",
@@ -3248,11 +3248,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658929,
+        "url": "https://www.vividseats.com/staind-tickets-evansville-ford-center-evansville-4-14-2027/production/7658929",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

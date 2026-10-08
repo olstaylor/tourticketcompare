@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2E006536EFEB6CDC",
     "ticketmaster_url": "https://www.ticketmaster.com/latto-las-vegas-nevada-10-31-2026/event/2E006536EFEB6CDC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/latto-tickets/las-vegas-nevada-on-the-record-2026-10-31-10-pm/concert/18618942",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/latto-las-vegas-nevada-10-31-2026/event/2E006536EFEB6CDC",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18618942,
+        "url": "https://seatgeek.com/latto-tickets/las-vegas-nevada-on-the-record-2026-10-31-10-pm/concert/18618942",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

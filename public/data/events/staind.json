@@ -298,7 +298,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-albuquerque-new-mexico-10-14-2026/event/1E00643CEC7AA9DC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -348,13 +348,6 @@
     "ticketmaster_discovery_event_id": "G5vzZ_dSirnEj",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-02-06T17:00:00Z",
-        "end": "2026-10-08T05:59:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718205",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718205/Staind-tickets-Wed-Oct-14-2026-First-Financial-Credit-Union-Amphitheater"
   },
@@ -2768,7 +2761,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-omaha-nebraska-04-09-2027/event/060065429BA0997F",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2847,6 +2840,11 @@
       },
       {
         "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
         "start": "2026-10-08T15:00:00Z",
         "end": "2026-10-09T03:00:00Z"
       },

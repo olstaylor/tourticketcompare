@@ -91,7 +91,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-vancouver-rogers-arena-11-7-2026/production/7394177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/pentatonix-christmas-in-the-city-tour-vancouver-british-columbia-11-07-2026/event/110065058A055491",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -161,6 +161,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-08-14T17:00:00Z",
         "end": "2026-11-01T05:00:00Z"
+      },
+      {
+        "name": "Thanksgiving Deal",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2026-10-14T05:00:00Z"
       }
     ]
   },

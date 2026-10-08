@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-edmonton-northern-alberta-jubilee-auditorium-4-15-2027/production/7636669",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-edmonton-alberta-04-15-2027/event/1100653AC57AB350",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -82,16 +82,6 @@
         "end": "2026-10-08T15:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T16:00:00Z",
-        "end": "2026-10-07T15:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T16:00:00Z",
-        "end": "2026-10-08T04:00:00Z"
-      },
-      {
         "name": "VIP Package Public Onsale",
         "start": "2026-10-08T16:00:00Z",
         "end": "2027-04-11T18:00:00Z"
@@ -115,7 +105,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-calgary-alberta-04-16-2027/event/1100653D9FDD7212",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -159,16 +149,6 @@
         "end": "2026-10-08T15:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T16:00:00Z",
-        "end": "2026-10-07T15:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T16:00:00Z",
-        "end": "2026-10-08T04:00:00Z"
-      },
-      {
         "name": "VIP Packages Public Onsale",
         "start": "2026-10-08T16:00:00Z",
         "end": "2027-04-12T18:00:00Z"
@@ -191,7 +171,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-vancouver-orpheum-theatre---vancouver-4-18-2027--concerts-pop/production/7636675",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-vancouver-british-columbia-04-18-2027/event/1100653AC64BB4F2",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -258,16 +238,6 @@
         "end": "2026-10-08T16:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-07T16:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
-      },
-      {
         "name": "VIP Package Public Onsale",
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-14T19:00:00Z"
@@ -291,7 +261,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-san-francisco-bill-graham-civic-auditorium-4-21-2027--concerts-pop/production/7636617",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-san-francisco-california-04-21-2027/event/1C00653EE35C5635",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -353,24 +323,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300771/Carly-Rae-Jepsen-tickets-Wed-Apr-21-2027-Bill-Graham-Civic-Auditorium",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-07T16:45:00Z"
-      },
-      {
         "name": "VIP Packages Presale",
         "start": "2026-10-06T17:00:00Z",
         "end": "2026-10-08T16:45:00Z"
-      },
-      {
-        "name": "APE Presale",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
       },
       {
         "name": "Mastercard Preferred Tickets",
@@ -406,7 +361,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-inglewood-kia-forum-4-22-2027--concerts-pop/production/7636619",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-inglewood-california-04-22-2027/event/0900653DD37AFC77",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -474,16 +429,6 @@
         "end": "2026-10-08T16:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-07T16:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
-      },
-      {
         "name": "Verizon Shine Select Seats",
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-03-26T05:00:00Z"
@@ -511,7 +456,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-san-diego-gallagher-square-at-petco-park-4-23-2027--concerts-pop/production/7636621",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-san-diego-california-04-23-2027/event/0A00653DFBE2B391",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -573,24 +518,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300773/Carly-Rae-Jepsen-tickets-Fri-Apr-23-2027-Gallagher-Square-at-Petco-Park",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-07T16:45:00Z"
-      },
-      {
         "name": "VIP Package Presale",
         "start": "2026-10-06T17:00:00Z",
         "end": "2026-10-08T16:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
       },
       {
         "name": "Verizon Shine Select Seats",
@@ -621,7 +551,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-las-vegas-cosmopolitan-of-las-vegas-4-30-2027--concerts-pop/production/7636633",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-las-vegas-nevada-04-30-2027/event/1700653C7E015760",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -683,19 +613,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300776/Carly-Rae-Jepsen-tickets-Fri-Apr-30-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-07T16:45:00Z"
-      },
-      {
         "name": "VIP Package Presale",
         "start": "2026-10-06T17:00:00Z",
         "end": "2026-10-08T16:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
       },
       {
         "name": "Verizon Shine Select Seats",
@@ -726,7 +646,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-phoenix-arizona-financial-theatre-5-1-2027--concerts-pop/production/7636635",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-phoenix-arizona-05-01-2027/event/190065399E606563",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -793,16 +713,6 @@
         "end": "2026-10-08T16:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-07T16:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-04T05:00:00Z"
@@ -831,7 +741,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-irving-pavilion-at-toyota-music-factory-5-5-2027--concerts-pop/production/7636637",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-irving-texas-05-05-2027/event/0C00653CBA167BDF",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -898,16 +808,6 @@
         "end": "2026-10-08T14:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-07T14:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
-      },
-      {
         "name": "Verizon Shine Select Seats",
         "start": "2026-10-08T15:00:00Z",
         "end": "2027-04-06T03:00:00Z"
@@ -936,7 +836,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-austin-moody-amphitheater-5-7-2027--concerts-pop/production/7636639",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-austin-texas-05-07-2027/event/3A00653EBB77F9AC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -998,19 +898,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300779/Carly-Rae-Jepsen-tickets-Fri-May-7-2027-Moody-Amphitheater",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-07T14:45:00Z"
-      },
-      {
         "name": "VIP Packages Presale",
         "start": "2026-10-06T15:00:00Z",
         "end": "2026-10-08T14:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
       },
       {
         "name": "VIP Packages Public Onsale",
@@ -1041,7 +931,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-houston-713-music-hall-5-8-2027--concerts-pop/production/7636641",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-houston-texas-05-08-2027/event/3A00653E8D017735",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1109,16 +999,6 @@
         "end": "2026-10-08T14:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-07T14:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-08T15:00:00Z",
         "end": "2027-04-11T03:00:00Z"
@@ -1146,7 +1026,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-nashville-the-truth-5-10-2027--concerts-pop/production/7636643",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-nashville-tennessee-05-10-2027/event/1B00653EC0C1669B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1206,16 +1086,6 @@
         "end": "2026-10-08T14:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-07T14:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
-      },
-      {
         "name": "Verizon Shine Select Seats",
         "start": "2026-10-08T15:00:00Z",
         "end": "2027-04-09T03:00:00Z"
@@ -1248,7 +1118,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-atlanta-coca-cola-roxy-theatre-5-11-2027--concerts-pop/production/7636653",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-atlanta-georgia-05-11-2027/event/0E00653DDEEB8031",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1315,11 +1185,6 @@
         "end": "2026-10-08T13:45:00Z"
       },
       {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
         "name": "Verizon Shine Select Seats",
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-05-07T14:00:00Z"
@@ -1348,7 +1213,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-charlotte-skyla-credit-union-amphitheatre-5-12-2027--concerts-pop/production/7636657",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-charlotte-north-carolina-05-12-2027/event/2D00653CC129D74A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1415,16 +1280,6 @@
         "end": "2026-10-08T13:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-04-15T02:00:00Z"
@@ -1453,7 +1308,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-washington-dc-the-anthem-5-14-2027--concerts-pop/production/7636659",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-washington-district-of-columbia-05-14-2027/event/1500653E21F8E22A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1520,16 +1375,6 @@
         "end": "2026-10-08T13:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
         "name": "Verizon Shine Select Seats",
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-04-17T02:00:00Z"
@@ -1553,7 +1398,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-new-york-madison-square-garden-5-15-2027--concerts-pop/production/7636661",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-new-york-new-york-05-15-2027/event/3B00653BC1584829",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1616,29 +1461,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-new-york-tickets-5-15-2027/event/107671551",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
         "name": "VIP Packages Presale",
         "start": "2026-10-06T14:00:00Z",
         "end": "2026-10-08T13:45:00Z"
-      },
-      {
-        "name": "Chase Cardholder Preferred Tickets",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
       },
       {
         "name": "Verizon Shine Select Seats",
@@ -1673,7 +1498,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-philadelphia-pennsylvania-05-18-2027/event/0200653DC0663995",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1733,11 +1558,6 @@
         "end": "2026-10-08T13:45:00Z"
       },
       {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-04-21T02:00:00Z"
@@ -1770,7 +1590,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-boston-mgm-music-hall-at-fenway-5-19-2027--concerts-pop/production/7636665",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-boston-massachusetts-05-19-2027/event/0100653AF339EDA9",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1833,19 +1653,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-boston-tickets-5-19-2027/event/107671552",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
         "name": "VIP Packages Presale",
         "start": "2026-10-06T14:00:00Z",
         "end": "2026-10-08T13:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
       },
       {
         "name": "Verizon Shine Select Seats",
@@ -1875,7 +1685,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-chicago-illinois-05-21-2027/event/0700653EBAEE8CED",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1930,29 +1740,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300788/Carly-Rae-Jepsen-tickets-Fri-May-21-2027-The-Chicago-Theatre",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-07T14:45:00Z"
-      },
-      {
         "name": "VIP Packages Presale",
         "start": "2026-10-06T15:00:00Z",
         "end": "2026-10-08T14:45:00Z"
-      },
-      {
-        "name": "Chase Cardholder Preferred Tickets",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
       },
       {
         "name": "Verizon Shine Select Seats",
@@ -1987,7 +1777,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-detroit-fox-theatre-detroit-5-22-2027--concerts-pop/production/7636671",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-detroit-michigan-05-22-2027/event/0800653EEA8EC325",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2049,19 +1839,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300789/Carly-Rae-Jepsen-tickets-Sat-May-22-2027-Fox-Theatre-Detroit",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
         "name": "VIP Package Presale",
         "start": "2026-10-06T14:00:00Z",
         "end": "2026-10-08T13:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
       },
       {
         "name": "Verizon Shine Select Seats",
@@ -2092,7 +1872,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-toronto-history-toronto-5-25-2027--concerts-pop/production/7636677",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-25-2027/event/1000653A09F7D88D",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2136,16 +1916,6 @@
         "end": "2026-10-08T13:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
         "name": "VIP Package Public Onsale",
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-05-21T16:00:00Z"
@@ -2168,7 +1938,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-ottawa-history-ottawa-5-28-2027--concerts-pop/production/7636679",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-ottawa-ontario-05-28-2027/event/3100653A1E1309BA",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2212,16 +1982,6 @@
         "end": "2026-10-08T13:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
         "name": "VIP Packages Public Onsale",
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-05-24T16:00:00Z"
@@ -2244,7 +2004,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-montreal-mtelus-5-29-2027--concerts-pop/production/7636681",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-montreal-quebec-05-29-2027/event/3100653DB72263CC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2311,16 +2071,6 @@
         "end": "2026-10-08T13:45:00Z"
       },
       {
-        "name": "Prévente Artiste",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
         "name": "Forfaits VIP Packages",
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-05-25T16:00:00Z"
@@ -2344,7 +2094,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-26-2027/event/10006544C72C8970",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2382,11 +2132,6 @@
     "status": "announced",
     "public_onsale_at": "2026-10-08T14:00:00Z",
     "presales": [
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
       {
         "name": "VIP Package Presale",
         "start": "2026-10-07T14:00:00Z",

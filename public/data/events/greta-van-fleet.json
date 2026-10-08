@@ -4248,7 +4248,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-columbus-nationwide-arena-7-16-2027/production/7642116",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-columbus-ohio-07-16-2027/event/05006541BEACAA22",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4308,6 +4308,11 @@
         "end": "2026-10-15T02:00:00Z"
       },
       {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T13:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
         "name": "GVF Fan Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
@@ -4331,6 +4336,11 @@
         "name": "Venue Presale",
         "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2027-07-09T03:55:00Z"
       }
     ]
   },
@@ -4350,7 +4360,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-noblesville-ruoff-music-center-7-17-2027/production/7642100",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-noblesville-indiana-07-17-2027/event/0500653DCD4CD2AE",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4405,7 +4415,7 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303376/Greta-Van-Fleet-tickets-Sat-Jul-17-2027-Ruoff-Music-Center",
     "presales": [
       {
-        "name": "GFV Ether Pass Presale",
+        "name": "GVF Ether Pass Presale",
         "start": "2026-10-13T13:00:00Z",
         "end": "2026-10-15T02:00:00Z"
       },
@@ -4420,7 +4430,7 @@
         "end": "2026-10-15T02:00:00Z"
       },
       {
-        "name": "GFV Fan Presale",
+        "name": "GVF Fan Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
       },
@@ -4870,7 +4880,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-gilford-banknh-pavilion-7-26-2027/production/7642112",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-gilford-new-hampshire-07-26-2027/event/0100653AAC543171",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4941,7 +4951,7 @@
       {
         "name": "Eastern Propane Ticket Offer",
         "start": "2026-10-14T14:00:00Z",
-        "end": "2026-11-15T03:00:00Z"
+        "end": "2026-10-22T02:00:00Z"
       }
     ]
   },
@@ -4961,7 +4971,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-laval-place-bell-7-28-2027/production/7642144",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-laval-quebec-07-28-2027/event/3100653CC94F6595",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -5016,17 +5026,17 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303391/Greta-Van-Fleet-tickets-Wed-Jul-28-2027-Place-Bell",
     "presales": [
       {
-        "name": "GVF Ether Pass Presale",
+        "name": "Prévente forfait VIP Packages Presale",
         "start": "2026-10-13T13:00:00Z",
         "end": "2026-10-15T02:00:00Z"
       },
       {
-        "name": "VIP Packages Presale",
+        "name": "Prevente GVF Ether Pass Presale",
         "start": "2026-10-13T13:00:00Z",
         "end": "2026-10-15T02:00:00Z"
       },
       {
-        "name": "GVF Fan Presale",
+        "name": "Prevente GVF Fan Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
       },
@@ -5041,7 +5051,7 @@
         "end": "2026-10-15T02:00:00Z"
       },
       {
-        "name": "VIP Packages Onsale",
+        "name": "Forfait VIP Packages Onsale",
         "start": "2026-10-15T14:00:00Z",
         "end": "2027-07-21T03:55:00Z"
       }
@@ -5149,7 +5159,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-grand-rapids-acrisure-amphitheater-7-31-2027/production/7642128",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-grand-rapids-michigan-07-31-2027/event/0800653CABC5444C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -5214,6 +5224,11 @@
         "end": "2026-10-15T02:00:00Z"
       },
       {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T13:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
         "name": "Reserved By Spotify",
         "start": "2026-10-13T18:00:00Z",
         "end": "2026-10-15T02:00:00Z"
@@ -5222,6 +5237,11 @@
         "name": "LIVE NATION PRESALE",
         "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2027-07-24T03:55:00Z"
       }
     ]
   }

@@ -2300,7 +2300,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-toronto-scotiabank-arena-11-16-2026--concerts-alternative/production/6898024",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sombr-you-are-the-reason-tour-toronto-ontario-11-16-2026/event/10006487F42AC66B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2341,6 +2341,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-04-17T14:00:00Z",
         "end": "2026-11-12T17:00:00Z"
+      },
+      {
+        "name": "Gondola Offer",
+        "start": "2026-10-07T14:00:00Z",
+        "end": "2026-11-17T01:00:00Z"
       }
     ]
   },

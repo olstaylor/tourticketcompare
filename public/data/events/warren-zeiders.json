@@ -1303,7 +1303,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-columbia-south-carolina-04-29-2027/event/2D00653EB7C32F38",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1373,6 +1373,11 @@
       {
         "name": "Venue Presale - Internet Only!!",
         "start": "2026-10-07T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-10-08T14:00:00Z",
         "end": "2026-10-09T02:00:00Z"
       },
       {

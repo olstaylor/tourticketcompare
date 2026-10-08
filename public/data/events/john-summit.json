@@ -2051,6 +2051,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8310259",
+        "url": "https://www.ticketnetwork.com/en/p/8310259",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vu0Fx-w",
@@ -2079,7 +2086,8 @@
         "end": "2026-10-09T08:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-amsterdam-ziggo-dome-13-2-2027/event/107671906"
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-amsterdam-ziggo-dome-13-2-2027/event/107671906",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310259"
   },
   {
     "id": "tm-john-summit-2027-london-1agzk4egkdwrmjf",
@@ -2135,6 +2143,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8310113",
+        "url": "https://www.ticketnetwork.com/en/p/8310113",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4eGkdwrmJf",
@@ -2158,6 +2173,7 @@
         "end": "2026-10-09T09:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-london-the-o2-arena-27-2-2027/event/107671913"
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-london-the-o2-arena-27-2-2027/event/107671913",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310113"
   }
 ]

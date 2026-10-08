@@ -109,6 +109,7 @@ export const OG_CARDS = {
   "/artists/fontaines-d-c": {"url":"/og/artists-fontaines-d-c.png","alt":"Tickets & tour dates: Fontaines D.C."},
   "/artists/fontaines-d-c/presale": {"url":"/og/artists-fontaines-d-c-presale.png","alt":"Presale: Fontaines D.C."},
   "/artists/fontaines-d-c/ticket-prices": {"url":"/og/artists-fontaines-d-c-ticket-prices.png","alt":"Ticket prices: Fontaines D.C."},
+  "/artists/fontaines-d-c/tickets/boston-united-states": {"url":"/og/artists-fontaines-d-c-tickets-boston-united-states.png","alt":"Tickets: Fontaines D.C. in Boston"},
   "/artists/fontaines-d-c/tickets/glasgow-united-kingdom": {"url":"/og/artists-fontaines-d-c-tickets-glasgow-united-kingdom.png","alt":"Tickets: Fontaines D.C. in Glasgow"},
   "/artists/fontaines-d-c/tickets/london-united-kingdom": {"url":"/og/artists-fontaines-d-c-tickets-london-united-kingdom.png","alt":"Tickets: Fontaines D.C. in London"},
   "/artists/fontaines-d-c/tickets/manchester-united-kingdom": {"url":"/og/artists-fontaines-d-c-tickets-manchester-united-kingdom.png","alt":"Tickets: Fontaines D.C. in Manchester"},

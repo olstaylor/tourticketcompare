@@ -2341,11 +2341,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7695883",
-        "url": "https://www.ticketnetwork.com/en/p/7695883",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107083221",
@@ -2364,7 +2364,7 @@
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfAnI1y",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7695883",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-7-2026/event/107083221",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695883/Harry-Styles-tickets-Wed-Oct-7-2026-Madison-Square-Garden"
   },
@@ -8753,11 +8753,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7921653",
-        "url": "https://www.ticketnetwork.com/en/p/7921653",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7921653",
@@ -8778,7 +8778,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5eVZ_aUyED-b",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921653",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921653/Olivia-Rodrigo-tickets-Wed-Oct-7-2026-Spectrum-Center",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-charlotte-tickets-10-7-2026/event/107164276"
   },
@@ -17442,11 +17442,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7680331",
-        "url": "https://www.ticketnetwork.com/en/p/7680331",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7680331",
@@ -17467,7 +17467,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_eheo7is",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7680331",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7680331/Bruno-Mars-tickets-Wed-Oct-7-2026-SoFi-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-7-2026/event/107073305"
   },
@@ -46448,11 +46448,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7883098",
-        "url": "https://www.ticketnetwork.com/en/p/7883098",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7883098",
@@ -46465,7 +46465,7 @@
     "ticketmaster_discovery_event_id": "1Ad7Z_FGkM9lFwl",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883098",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883098/Teddy-Swims-tickets-Wed-Oct-7-2026-Centre-Bell",
     "presales": [
       {
@@ -134576,11 +134576,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7676437",
-        "url": "https://www.ticketnetwork.com/en/p/7676437",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7676437",
@@ -134593,7 +134593,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOob",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676437",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676437/Five-Finger-Death-Punch-tickets-Wed-Oct-7-2026-The-Orion-Amphitheater"
   },
   {
@@ -143628,11 +143628,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8105565",
-        "url": "https://www.ticketnetwork.com/en/p/8105565",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8105565",
@@ -143645,7 +143645,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSep",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8105565",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8105565/Dylan-Scott-tickets-Thu-Oct-15-2026-The-Bomb-Factory"
   },
   {
@@ -145148,11 +145148,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8310947",
+        "url": "https://www.ticketnetwork.com/en/p/8310947",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310947"
   },
   {
     "id": "tm-valley-2027-montreal-1ad7z_3gkblokhd",
@@ -189061,6 +189069,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8310259",
+        "url": "https://www.ticketnetwork.com/en/p/8310259",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vu0Fx-w",
@@ -189089,7 +189104,8 @@
         "end": "2026-10-09T08:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-amsterdam-ziggo-dome-13-2-2027/event/107671906"
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-amsterdam-ziggo-dome-13-2-2027/event/107671906",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310259"
   },
   {
     "id": "tm-john-summit-2027-london-1agzk4egkdwrmjf",
@@ -189145,6 +189161,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8310113",
+        "url": "https://www.ticketnetwork.com/en/p/8310113",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4eGkdwrmJf",
@@ -189168,7 +189191,8 @@
         "end": "2026-10-09T09:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-london-the-o2-arena-27-2-2027/event/107671913"
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-london-the-o2-arena-27-2-2027/event/107671913",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310113"
   },
   {
     "id": "tm-morat-2026-pamplona-iruna-z698xz2qz16voojza6",
@@ -189626,11 +189650,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271408",
+        "url": "https://www.ticketnetwork.com/en/p/8271408",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvU_y",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271408"
   },
   {
     "id": "tm-sienna-spiro-2026-salt-lake-city-z7r9jz1aaef49",
@@ -189838,6 +189870,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8310408",
+        "url": "https://www.ticketnetwork.com/en/p/8310408",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGkeDLoQr",
@@ -189860,7 +189899,8 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2026-10-09T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310408"
   },
   {
     "id": "tm-fontaines-d-c-2027-vancouver-1aozk4v0aa_zegf",

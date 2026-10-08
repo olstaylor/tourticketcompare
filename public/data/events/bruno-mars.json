@@ -3170,11 +3170,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107073305",
-        "url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-7-2026/event/107073305",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
@@ -3183,7 +3183,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_eheo7is",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-7-2026/event/107073305"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_epx9ygn",

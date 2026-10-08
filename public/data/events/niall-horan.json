@@ -3417,17 +3417,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107148173",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-hamburg-barclays-arena-hamburg-7-10-2026/event/107148173",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1ka-fJkp",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-hamburg-barclays-arena-hamburg-7-10-2026/event/107148173"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-niall-horan-2026-berlin-z698xzc2z16vvx0w-e",

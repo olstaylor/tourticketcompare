@@ -2355,18 +2355,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7695883",
-        "url": "https://www.ticketliquidator.com/tickets/7695883/Harry-Styles-tickets-Wed-Oct-7-2026-Madison-Square-Garden",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfAnI1y",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-7-2026/event/107083221",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695883/Harry-Styles-tickets-Wed-Oct-7-2026-Madison-Square-Garden"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505b782ca",
@@ -8760,11 +8760,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7921653",
-        "url": "https://www.ticketliquidator.com/tickets/7921653/Olivia-Rodrigo-tickets-Wed-Oct-7-2026-Spectrum-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107164276",
@@ -8779,7 +8779,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5eVZ_aUyED-b",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921653/Olivia-Rodrigo-tickets-Wed-Oct-7-2026-Spectrum-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-charlotte-tickets-10-7-2026/event/107164276"
   },
   {
@@ -17449,11 +17449,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7680331",
-        "url": "https://www.ticketliquidator.com/tickets/7680331/Bruno-Mars-tickets-Wed-Oct-7-2026-SoFi-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107073305",
@@ -17468,7 +17468,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_eheo7is",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7680331/Bruno-Mars-tickets-Wed-Oct-7-2026-SoFi-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-7-2026/event/107073305"
   },
   {
@@ -46455,18 +46455,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7883098",
-        "url": "https://www.ticketliquidator.com/tickets/7883098/Teddy-Swims-tickets-Wed-Oct-7-2026-Centre-Bell",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_FGkM9lFwl",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883098/Teddy-Swims-tickets-Wed-Oct-7-2026-Centre-Bell",
+    "ticketliquidator_url": "",
     "presales": [
       {
         "name": "Offre 30$ ALL-IN Offer",
@@ -134583,18 +134583,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7676437",
-        "url": "https://www.ticketliquidator.com/tickets/7676437/Five-Finger-Death-Punch-tickets-Wed-Oct-7-2026-The-Orion-Amphitheater",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOob",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676437/Five-Finger-Death-Punch-tickets-Wed-Oct-7-2026-The-Orion-Amphitheater"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2027-glasgow-1adbz_agkuc9oes",
@@ -143635,18 +143635,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8105565",
-        "url": "https://www.ticketliquidator.com/tickets/8105565/Dylan-Scott-tickets-Thu-Oct-15-2026-The-Bomb-Factory",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSep",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8105565/Dylan-Scott-tickets-Thu-Oct-15-2026-The-Bomb-Factory"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-dylan-scott-2026-milwaukee-z7r9jz1aavse9",
@@ -145155,12 +145155,20 @@
         "verified": true,
         "last_verified_at": "2026-10-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310947",
+        "url": "https://www.ticketliquidator.com/tickets/8310947/Valley-Band-tickets-Thu-Feb-4-2027-Grizzly-Fuzz",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310947"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310947",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310947/Valley-Band-tickets-Thu-Feb-4-2027-Grizzly-Fuzz"
   },
   {
     "id": "tm-valley-2027-montreal-1ad7z_3gkblokhd",
@@ -189076,6 +189084,13 @@
         "verified": true,
         "last_verified_at": "2026-10-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310259",
+        "url": "https://www.ticketliquidator.com/tickets/8310259/John-Summit-tickets-Sat-Feb-13-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vu0Fx-w",
@@ -189105,7 +189120,8 @@
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-amsterdam-ziggo-dome-13-2-2027/event/107671906",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310259"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310259",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310259/John-Summit-tickets-Sat-Feb-13-2027-Ziggo-Dome"
   },
   {
     "id": "tm-john-summit-2027-london-1agzk4egkdwrmjf",
@@ -189168,6 +189184,13 @@
         "verified": true,
         "last_verified_at": "2026-10-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310113",
+        "url": "https://www.ticketliquidator.com/tickets/8310113/John-Summit-tickets-Sat-Feb-27-2027-The-Bubble-Exhibition-Space-at-the-O2",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4eGkdwrmJf",
@@ -189192,7 +189215,8 @@
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-london-the-o2-arena-27-2-2027/event/107671913",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310113"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310113",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310113/John-Summit-tickets-Sat-Feb-27-2027-The-Bubble-Exhibition-Space-at-the-O2"
   },
   {
     "id": "tm-morat-2026-pamplona-iruna-z698xz2qz16voojza6",
@@ -189657,12 +189681,20 @@
         "verified": true,
         "last_verified_at": "2026-10-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271408",
+        "url": "https://www.ticketliquidator.com/tickets/8271408/Death-Cab-for-Cutie-tickets-Sat-Mar-27-2027-The-Orion-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvU_y",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271408"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271408",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271408/Death-Cab-for-Cutie-tickets-Sat-Mar-27-2027-The-Orion-Amphitheater"
   },
   {
     "id": "tm-sienna-spiro-2026-salt-lake-city-z7r9jz1aaef49",
@@ -189877,6 +189909,13 @@
         "verified": true,
         "last_verified_at": "2026-10-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310408",
+        "url": "https://www.ticketliquidator.com/tickets/8310408/Fontaines-DC-tickets-Thu-Apr-22-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGkeDLoQr",
@@ -189900,7 +189939,8 @@
         "end": "2026-10-09T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310408"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310408",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310408/Fontaines-DC-tickets-Thu-Apr-22-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-fontaines-d-c-2027-vancouver-1aozk4v0aa_zegf",

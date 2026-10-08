@@ -631,18 +631,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7883098",
-        "url": "https://www.ticketliquidator.com/tickets/7883098/Teddy-Swims-tickets-Wed-Oct-7-2026-Centre-Bell",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_FGkM9lFwl",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883098/Teddy-Swims-tickets-Wed-Oct-7-2026-Centre-Bell",
+    "ticketliquidator_url": "",
     "presales": [
       {
         "name": "Offre 30$ ALL-IN Offer",

@@ -1305,18 +1305,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7695883",
-        "url": "https://www.ticketliquidator.com/tickets/7695883/Harry-Styles-tickets-Wed-Oct-7-2026-Madison-Square-Garden",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfAnI1y",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-7-2026/event/107083221",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695883/Harry-Styles-tickets-Wed-Oct-7-2026-Madison-Square-Garden"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505b782ca",

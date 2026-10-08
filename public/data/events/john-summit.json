@@ -2058,6 +2058,13 @@
         "verified": true,
         "last_verified_at": "2026-10-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310259",
+        "url": "https://www.ticketliquidator.com/tickets/8310259/John-Summit-tickets-Sat-Feb-13-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vu0Fx-w",
@@ -2087,7 +2094,8 @@
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-amsterdam-ziggo-dome-13-2-2027/event/107671906",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310259"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310259",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310259/John-Summit-tickets-Sat-Feb-13-2027-Ziggo-Dome"
   },
   {
     "id": "tm-john-summit-2027-london-1agzk4egkdwrmjf",
@@ -2150,6 +2158,13 @@
         "verified": true,
         "last_verified_at": "2026-10-08",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310113",
+        "url": "https://www.ticketliquidator.com/tickets/8310113/John-Summit-tickets-Sat-Feb-27-2027-The-Bubble-Exhibition-Space-at-the-O2",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4eGkdwrmJf",
@@ -2174,6 +2189,7 @@
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-london-the-o2-arena-27-2-2027/event/107671913",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310113"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310113",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310113/John-Summit-tickets-Sat-Feb-27-2027-The-Bubble-Exhibition-Space-at-the-O2"
   }
 ]

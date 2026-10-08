@@ -20,7 +20,6 @@ export const OG_CARDS = {
   "/artists/amble": {"url":"/og/artists-amble.png","alt":"Tickets & tour dates: Amble"},
   "/artists/amble/presale": {"url":"/og/artists-amble-presale.png","alt":"Presale: Amble"},
   "/artists/amble/ticket-prices": {"url":"/og/artists-amble-ticket-prices.png","alt":"Ticket prices: Amble"},
-  "/artists/amble/tickets/london-united-kingdom": {"url":"/og/artists-amble-tickets-london-united-kingdom.png","alt":"Tickets: Amble in London"},
   "/artists/andrea-bocelli": {"url":"/og/artists-andrea-bocelli.png","alt":"Tickets & tour dates: Andrea Bocelli"},
   "/artists/andrea-bocelli/presale": {"url":"/og/artists-andrea-bocelli-presale.png","alt":"Presale: Andrea Bocelli"},
   "/artists/andrea-bocelli/ticket-prices": {"url":"/og/artists-andrea-bocelli-ticket-prices.png","alt":"Ticket prices: Andrea Bocelli"},

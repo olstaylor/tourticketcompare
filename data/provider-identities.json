@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-06",
+  "updated_at": "2026-10-08",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -1140,6 +1140,61 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-06 (sanctioned path D): SeatGeek performer 797196 and Ticketmaster attraction K8vZ917QK3f captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "dancing-with-the-stars",
+      "ticketmaster_attraction_id": "K8vZ9175XT7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/dancing-with-the-stars-tickets/artist/1086116",
+      "seatgeek_performer_id": 260726,
+      "seatgeek_artist_url": "https://seatgeek.com/dancing-with-the-stars-1-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-08 (sanctioned path D): SeatGeek performer 260726 and Ticketmaster attraction K8vZ9175XT7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "def-leppard",
+      "ticketmaster_attraction_id": "K8vZ9171CY7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/def-leppard-tickets/artist/734898",
+      "seatgeek_performer_id": 580,
+      "seatgeek_artist_url": "https://seatgeek.com/def-leppard-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-08 (sanctioned path D): SeatGeek performer 580 and Ticketmaster attraction K8vZ9171CY7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "jay-wheeler",
+      "ticketmaster_attraction_id": "K8vZ917_hEf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/jay-wheeler-tickets/artist/2795427",
+      "seatgeek_performer_id": 795139,
+      "seatgeek_artist_url": "https://seatgeek.com/jay-wheeler-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-08 (sanctioned path D): SeatGeek performer 795139 and Ticketmaster attraction K8vZ917_hEf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "rod-stewart",
+      "ticketmaster_attraction_id": "K8vZ917135f",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/rod-stewart-tickets/artist/736200",
+      "seatgeek_performer_id": 1552,
+      "seatgeek_artist_url": "https://seatgeek.com/rod-stewart-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-08 (sanctioned path D): SeatGeek performer 1552 and Ticketmaster attraction K8vZ917135f captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "leon-bridges",
+      "ticketmaster_attraction_id": "K8vZ917Kkuf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/leon-bridges-tickets/artist/2075742",
+      "seatgeek_performer_id": 302237,
+      "seatgeek_artist_url": "https://seatgeek.com/leon-bridges-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-08 (sanctioned path D): SeatGeek performer 302237 and Ticketmaster attraction K8vZ917Kkuf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

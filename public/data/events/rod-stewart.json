@@ -1,0 +1,1116 @@
+[
+  {
+    "id": "tm-rod-stewart-2027-reading-vv17fz_kgks7life",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart",
+    "city": "Reading",
+    "country": "United States Of America",
+    "venue": "The Santander Arena",
+    "datetime_iso": "2027-03-03T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200653CC47EC202",
+    "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-reading-pennsylvania-03-02-2027/event/0200653CC47EC202",
+    "seatgeek_url": "https://seatgeek.com/rod-stewart-tickets/reading-pennsylvania-santander-arena-2027-03-02-7-30-pm/concert/18652809",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rod-stewart-reading-pennsylvania-03-02-2027/event/0200653CC47EC202",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200653CC47EC202",
+        "discovery_event_id": "vv17FZ_KGkS7LiFe",
+        "url": "https://www.ticketmaster.com/rod-stewart-reading-pennsylvania-03-02-2027/event/0200653CC47EC202",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_KGkS7LiFe",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T14:00:00Z"
+  },
+  {
+    "id": "tm-rod-stewart-2027-savannah-vvg1zz_kexgebo",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart",
+    "city": "Savannah",
+    "country": "United States Of America",
+    "venue": "Enmarket Arena",
+    "datetime_iso": "2027-03-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006530BE302E91",
+    "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-savannah-georgia-03-08-2027/event/0E006530BE302E91",
+    "seatgeek_url": "https://seatgeek.com/rod-stewart-tickets/savannah-georgia-enmarket-arena-2027-03-08-8-pm/concert/18611010",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rod-stewart-savannah-georgia-03-08-2027/event/0E006530BE302E91",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006530BE302E91",
+        "discovery_event_id": "vvG1zZ_KeXGeBo",
+        "url": "https://www.ticketmaster.com/rod-stewart-savannah-georgia-03-08-2027/event/0E006530BE302E91",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_KeXGeBo",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-biloxi-g5viz_kjgqiyx",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart",
+    "city": "Biloxi",
+    "country": "United States Of America",
+    "venue": "Mississippi Coast Coliseum",
+    "datetime_iso": "2027-03-11T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0065398C6A8C3E",
+    "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-biloxi-mississippi-03-10-2027/event/1B0065398C6A8C3E",
+    "seatgeek_url": "https://seatgeek.com/rod-stewart-tickets/biloxi-mississippi-mississippi-coast-coliseum-2027-03-10-7-30-pm/concert/18626760",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rod-stewart-biloxi-mississippi-03-10-2027/event/1B0065398C6A8C3E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0065398C6A8C3E",
+        "discovery_event_id": "G5viZ_KJGQIYX",
+        "url": "https://www.ticketmaster.com/rod-stewart-biloxi-mississippi-03-10-2027/event/1B0065398C6A8C3E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_KJGQIYX",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-hollywood-vvg1vz_3j9ejp4",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live",
+    "datetime_iso": "2027-03-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006529970A6595",
+    "ticketmaster_url": "https://www.ticketmaster.com/rod-stewart-hollywood-florida-03-12-2027/event/0D006529970A6595",
+    "seatgeek_url": "https://seatgeek.com/rod-stewart-tickets/hollywood-florida-hard-rock-live-hollywood-2027-03-12-8-pm/concert/18591364",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rod-stewart-hollywood-florida-03-12-2027/event/0D006529970A6595",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006529970A6595",
+        "discovery_event_id": "vvG1VZ_3J9eJp4",
+        "url": "https://www.ticketmaster.com/rod-stewart-hollywood-florida-03-12-2027/event/0D006529970A6595",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_3J9eJp4",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-saint-augustine-z7r9jz1aavybs",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-03-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvYbs",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvYbs",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvYbs",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvYbs",
+        "discovery_event_id": "Z7r9jZ1AAvYbs",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvYbs",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvYbs",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-dublin-1abzkfygkdqi3oq",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart - Premium Priced Seats",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-04-23T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006539DDB1281D",
+    "ticketmaster_url": "https://www.ticketmaster.ie/rod-stewart-premium-priced-seats-dublin-23-04-2027/event/18006539DDB1281D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/rod-stewart-premium-priced-seats-dublin-23-04-2027/event/18006539DDB1281D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006539DDB1281D",
+        "discovery_event_id": "1AbZkfyGkdqi3Oq",
+        "url": "https://www.ticketmaster.ie/rod-stewart-premium-priced-seats-dublin-23-04-2027/event/18006539DDB1281D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkfyGkdqi3Oq",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-dublin-1avoz_kgkw68xnf",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-04-24T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800653C87422A94",
+    "ticketmaster_url": "https://www.ticketmaster.ie/rod-stewart-dublin-24-04-2027/event/1800653C87422A94",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/rod-stewart-dublin-24-04-2027/event/1800653C87422A94",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800653C87422A94",
+        "discovery_event_id": "1AvOZ_KGkw68xnf",
+        "url": "https://www.ticketmaster.ie/rod-stewart-dublin-24-04-2027/event/1800653C87422A94",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_KGkw68xnf",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-belfast-1azzkfygkdgr3ds",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart - Premium Priced Seating",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "The O2 Belfast",
+    "datetime_iso": "2027-04-27T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "38006539CC7920F1",
+    "ticketmaster_url": "https://www.ticketmaster.ie/rod-stewart-premium-priced-seating-belfast-27-04-2027/event/38006539CC7920F1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/rod-stewart-premium-priced-seating-belfast-27-04-2027/event/38006539CC7920F1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "38006539CC7920F1",
+        "discovery_event_id": "1AzZkfyGkdGr3ds",
+        "url": "https://www.ticketmaster.ie/rod-stewart-premium-priced-seating-belfast-27-04-2027/event/38006539CC7920F1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AzZkfyGkdGr3ds",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-glasgow-1auzkfmgkdmgbjs",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Venue Premium - Rod Stewart - The Final Encore",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-04-29T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006537F733A9B3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/venue-premium-rod-stewart-the-final-glasgow-29-04-2027/event/36006537F733A9B3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/venue-premium-rod-stewart-the-final-glasgow-29-04-2027/event/36006537F733A9B3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006537F733A9B3",
+        "discovery_event_id": "1AUZkfMGkdMGBJS",
+        "url": "https://www.ticketmaster.co.uk/venue-premium-rod-stewart-the-final-glasgow-29-04-2027/event/36006537F733A9B3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkfMGkdMGBJS",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-glasgow-1auzkfygkdhvxxd",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart - The Final Encore",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-05-01T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006539FC07E883",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-01-05-2027/event/36006539FC07E883",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-01-05-2027/event/36006539FC07E883",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006539FC07E883",
+        "discovery_event_id": "1AUZkfyGkdHvXxd",
+        "url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-glasgow-01-05-2027/event/36006539FC07E883",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkfyGkdHvXxd",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-birmingham-1kfyvpcfga2dzlv",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart - The Final Encore",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Birmingham",
+    "datetime_iso": "2027-05-04T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "230065388F0C0AC1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-birmingham-04-05-2027/event/230065388F0C0AC1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-birmingham-04-05-2027/event/230065388F0C0AC1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "230065388F0C0AC1",
+        "discovery_event_id": "1kFYvPCFGA2dZlv",
+        "url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-birmingham-04-05-2027/event/230065388F0C0AC1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kFYvPCFGA2dZlv",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-manchester-1amzkfugkesbky7",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-05-06T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006536B3613C04",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-manchester-06-05-2027/event/37006536B3613C04",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rod-stewart-manchester-06-05-2027/event/37006536B3613C04",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006536B3613C04",
+        "discovery_event_id": "1AMZkfUGkeSbKY7",
+        "url": "https://www.ticketmaster.co.uk/rod-stewart-manchester-06-05-2027/event/37006536B3613C04",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkfUGkeSbKY7",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-manchester-1amzkfzgkdjwz0v",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-05-08T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006538E6F78934",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-manchester-08-05-2027/event/37006538E6F78934",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rod-stewart-manchester-08-05-2027/event/37006538E6F78934",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006538E6F78934",
+        "discovery_event_id": "1AMZkfzGkdJWz0V",
+        "url": "https://www.ticketmaster.co.uk/rod-stewart-manchester-08-05-2027/event/37006538E6F78934",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZkfzGkdJWz0V",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-london-1agzkfzgkdv3zff",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart - The Final Encore",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-05-11T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006538C14B8214",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-11-05-2027/event/35006538C14B8214",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-11-05-2027/event/35006538C14B8214",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006538C14B8214",
+        "discovery_event_id": "1AgZkfzGkdv3zFf",
+        "url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-11-05-2027/event/35006538C14B8214",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfzGkdv3zFf",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-london-1agzkfzgkdvmnjo",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart - The Final Encore",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-05-14T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006538F4DEA720",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-14-05-2027/event/35006538F4DEA720",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-14-05-2027/event/35006538F4DEA720",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006538F4DEA720",
+        "discovery_event_id": "1AgZkfzGkdVMnjO",
+        "url": "https://www.ticketmaster.co.uk/rod-stewart-the-final-encore-london-14-05-2027/event/35006538F4DEA720",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfzGkdVMnjO",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-amsterdam-z698xzbpz1kbf3oo4",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart - The Final Encore",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-05-28T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "608491455",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/rod-stewart-the-final-encore-tickets/608491455?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/rod-stewart-the-final-encore-tickets/608491455?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "608491455",
+        "discovery_event_id": "Z698xZbpZ1kbF3oo4",
+        "url": "https://www.ticketmaster.nl/event/rod-stewart-the-final-encore-tickets/608491455?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kbF3oo4",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-merksem-antwerpen-z698xzg2z1kq_k_u9",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart: The Final Encore",
+    "city": "Merksem (Antwerpen)",
+    "country": "Belgium",
+    "venue": "AFAS Dome",
+    "datetime_iso": "2027-05-29T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "699199357",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/rod-stewart-the-final-encore-tickets/699199357",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/rod-stewart-the-final-encore-tickets/699199357",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "699199357",
+        "discovery_event_id": "Z698xZG2Z1kQ_k_u9",
+        "url": "https://www.ticketmaster.be/event/rod-stewart-the-final-encore-tickets/699199357",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1kQ_k_u9",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-berlin-z698xzc2z16vov80ga",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart - \"The Final Encore\"",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Uber Arena",
+    "datetime_iso": "2027-06-01T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1441424309",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/1441424309?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/1441424309?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1441424309",
+        "discovery_event_id": "Z698xZC2Z16vov80Ga",
+        "url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/1441424309?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vov80Ga",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-munich-z698xzc2z1kqvo_bs",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart - \"The Final Encore\"",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Olympiahalle",
+    "datetime_iso": "2027-06-20T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "741819633",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/741819633?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/741819633?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "741819633",
+        "discovery_event_id": "Z698xZC2Z1kqvO_bS",
+        "url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/741819633?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kqvO_bS",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-krakow-z698xzqpz1kk400qk",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart: The Final Encore",
+    "city": "Krakow",
+    "country": "Poland",
+    "venue": "TAURON Arena Kraków",
+    "datetime_iso": "2027-07-20T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "195924746",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/rod-stewart-the-final-encore-tickets/195924746?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/rod-stewart-the-final-encore-tickets/195924746?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "195924746",
+        "discovery_event_id": "Z698xZQpZ1kk400qk",
+        "url": "https://www.ticketmaster.pl/event/rod-stewart-the-final-encore-tickets/195924746?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ1kk400qk",
+    "timezone": "Europe/Warsaw",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-stewart-2027-hannover-z698xzc2z1k88ofxe",
+    "artist_slug": "rod-stewart",
+    "artist_name": "Rod Stewart",
+    "event_name": "Rod Stewart - \"The Final Encore\"",
+    "city": "Hannover",
+    "country": "Germany",
+    "venue": "ZAG Arena",
+    "datetime_iso": "2027-07-24T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "410454882",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/410454882?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/410454882?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "410454882",
+        "discovery_event_id": "Z698xZC2Z1k88ofxe",
+        "url": "https://www.ticketmaster.de/event/rod-stewart-the-final-encore-tickets/410454882?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1k88ofxe",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  }
+]

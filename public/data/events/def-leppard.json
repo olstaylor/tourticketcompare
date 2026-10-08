@@ -1,0 +1,2053 @@
+[
+  {
+    "id": "tm-def-leppard-2026-hollywood-vvg1vz_5sqbrak",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live",
+    "datetime_iso": "2026-10-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0064BCDD61E246",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-hollywood-florida-10-15-2026/event/0D0064BCDD61E246",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-hollywood-florida-10-15-2026/event/0D0064BCDD61E246",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0064BCDD61E246",
+        "discovery_event_id": "vvG1VZ_5Sqbrak",
+        "url": "https://www.ticketmaster.com/def-leppard-hollywood-florida-10-15-2026/event/0D0064BCDD61E246",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_5Sqbrak",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-def-leppard-2027-allentown-1ayzk4agkdyeyao",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Allentown",
+    "country": "United States Of America",
+    "venue": "PPL Center",
+    "datetime_iso": "2027-03-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "30006545F09F9260",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-allentown-pennsylvania-03-02-2027/event/30006545F09F9260",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-allentown-pennsylvania-03-02-2027/event/30006545F09F9260",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006545F09F9260",
+        "discovery_event_id": "1AYZk4AGkdYEyaO",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-allentown-pennsylvania-03-02-2027/event/30006545F09F9260",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AYZk4AGkdYEyaO",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-montreal-1aszk4agkdf99bi",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Centre Bell",
+    "datetime_iso": "2027-03-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006545D45D7EA8",
+    "ticketmaster_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-montreal-quebec-03-05-2027/event/31006545D45D7EA8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-montreal-quebec-03-05-2027/event/31006545D45D7EA8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006545D45D7EA8",
+        "discovery_event_id": "1AsZk4AGkdf99BI",
+        "url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-montreal-quebec-03-05-2027/event/31006545D45D7EA8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4AGkdf99BI",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-detroit-vv1afzk4egkelpgxa",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2027-03-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006542AB5B5889",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-detroit-michigan-03-07-2027/event/08006542AB5B5889",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-detroit-michigan-03-07-2027/event/08006542AB5B5889",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006542AB5B5889",
+        "discovery_event_id": "vv1AFZk4eGkelpgxa",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-detroit-michigan-03-07-2027/event/08006542AB5B5889",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZk4eGkelpgxa",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-toronto-1a8zk4egkdrqf1w",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2027-03-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006542DE7542BD",
+    "ticketmaster_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-toronto-ontario-03-09-2027/event/10006542DE7542BD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-toronto-ontario-03-09-2027/event/10006542DE7542BD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006542DE7542BD",
+        "discovery_event_id": "1A8Zk4eGkdrqf1W",
+        "url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-toronto-ontario-03-09-2027/event/10006542DE7542BD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk4eGkdrqf1W",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-newark-vv1aezk4kgkdvinob",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2027-03-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006546C1A2A458",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-newark-new-jersey-03-13-2027/event/02006546C1A2A458",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-newark-new-jersey-03-13-2027/event/02006546C1A2A458",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006546C1A2A458",
+        "discovery_event_id": "vv1AeZk4kGkdvInob",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-newark-new-jersey-03-13-2027/event/02006546C1A2A458",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk4kGkdvInob",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-boston-vv1a8vp88ga16tl3",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2027-03-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010065410A1FFAD2",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-boston-massachusetts-03-17-2027/event/010065410A1FFAD2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-boston-massachusetts-03-17-2027/event/010065410A1FFAD2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010065410A1FFAD2",
+        "discovery_event_id": "vv1A8vP88GA16Tl3",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-boston-massachusetts-03-17-2027/event/010065410A1FFAD2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A8vP88GA16Tl3",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-nashville-g5viz_f9p6_vj",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2027-03-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006545E51D9D1C",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-nashville-tennessee-03-19-2027/event/1B006545E51D9D1C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-nashville-tennessee-03-19-2027/event/1B006545E51D9D1C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006545E51D9D1C",
+        "discovery_event_id": "G5viZ_f9P6_Vj",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-nashville-tennessee-03-19-2027/event/1B006545E51D9D1C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_f9P6_Vj",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-washington-17a8v0g62pvh_yy",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Capital One Arena",
+    "datetime_iso": "2027-03-21T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064F5B46D9E79",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-washington-district-of-columbia-03-21-2027/event/150064F5B46D9E79",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-washington-district-of-columbia-03-21-2027/event/150064F5B46D9E79",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064F5B46D9E79",
+        "discovery_event_id": "17A8v0G62pVh_yy",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-washington-district-of-columbia-03-21-2027/event/150064F5B46D9E79",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G62pVh_yy",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-pittsburgh-1apzk4egkdr8ult",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "PPG Paints Arena",
+    "datetime_iso": "2027-03-23T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006542DE40DAE9",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-pittsburgh-pennsylvania-03-23-2027/event/16006542DE40DAE9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-pittsburgh-pennsylvania-03-23-2027/event/16006542DE40DAE9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006542DE40DAE9",
+        "discovery_event_id": "1ApZk4eGkdr8ult",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-pittsburgh-pennsylvania-03-23-2027/event/16006542DE40DAE9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZk4eGkdr8ult",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-chicago-vv1k8z_fgkg7dl8f",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-03-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400654313EDF414",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-chicago-illinois-03-25-2027/event/0400654313EDF414",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-chicago-illinois-03-25-2027/event/0400654313EDF414",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400654313EDF414",
+        "discovery_event_id": "vv1k8Z_fGKG7DL8f",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-chicago-illinois-03-25-2027/event/0400654313EDF414",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1k8Z_fGKG7DL8f",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-denver-g5vzz_frfov07",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2027-03-30T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00654788474904",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-denver-colorado-03-29-2027/event/1E00654788474904",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-denver-colorado-03-29-2027/event/1E00654788474904",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00654788474904",
+        "discovery_event_id": "G5vzZ_frFoV07",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-denver-colorado-03-29-2027/event/1E00654788474904",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_frFoV07",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T16:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-austin-g5diz_f1_s12h",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2027-04-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00654299C4A3DB",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-austin-texas-04-13-2027/event/3A00654299C4A3DB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-austin-texas-04-13-2027/event/3A00654299C4A3DB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00654299C4A3DB",
+        "discovery_event_id": "G5dIZ_f1_s12h",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-austin-texas-04-13-2027/event/3A00654299C4A3DB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_f1_s12h",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-north-little-rock-g5viz_f5gacpb",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "North Little Rock",
+    "country": "United States Of America",
+    "venue": "Simmons Bank Arena",
+    "datetime_iso": "2027-04-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006542CC24E598",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-north-little-rock-arkansas-04-16-2027/event/1B006542CC24E598",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-north-little-rock-arkansas-04-16-2027/event/1B006542CC24E598",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006542CC24E598",
+        "discovery_event_id": "G5viZ_f5GaCpb",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-north-little-rock-arkansas-04-16-2027/event/1B006542CC24E598",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_f5GaCpb",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-fort-worth-vvg1yz_fhfmaat",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Dickies Arena",
+    "datetime_iso": "2027-04-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006546D4B89269",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-fort-worth-texas-04-18-2027/event/0C006546D4B89269",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-fort-worth-texas-04-18-2027/event/0C006546D4B89269",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006546D4B89269",
+        "discovery_event_id": "vvG1YZ_fhfmaat",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-fort-worth-texas-04-18-2027/event/0C006546D4B89269",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_fhfmaat",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-mobile-g5viz_fptcweu",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Mobile",
+    "country": "United States Of America",
+    "venue": "Regions Arena",
+    "datetime_iso": "2027-04-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006545BF3B20B6",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-mobile-alabama-04-20-2027/event/1B006545BF3B20B6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-mobile-alabama-04-20-2027/event/1B006545BF3B20B6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006545BF3B20B6",
+        "discovery_event_id": "G5viZ_fpTCweU",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-mobile-alabama-04-20-2027/event/1B006545BF3B20B6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_fpTCweU",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-wichita-vv1akzk4kgkexoysl",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Wichita",
+    "country": "United States Of America",
+    "venue": "INTRUST Bank Arena",
+    "datetime_iso": "2027-04-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006546A2839CDF",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-wichita-kansas-04-22-2027/event/06006546A2839CDF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-wichita-kansas-04-22-2027/event/06006546A2839CDF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006546A2839CDF",
+        "discovery_event_id": "vv1AkZk4kGkexOySL",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-wichita-kansas-04-22-2027/event/06006546A2839CDF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk4kGkexOySL",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-lincoln-vv1akzk4vgkel3utc",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Lincoln",
+    "country": "United States Of America",
+    "venue": "Pinnacle Bank Arena",
+    "datetime_iso": "2027-04-25T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006541AB48DFCE",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-lincoln-nebraska-04-24-2027/event/06006541AB48DFCE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-lincoln-nebraska-04-24-2027/event/06006541AB48DFCE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006541AB48DFCE",
+        "discovery_event_id": "vv1AkZk4vGkel3uTC",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-lincoln-nebraska-04-24-2027/event/06006541AB48DFCE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk4vGkel3uTC",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-glendale-1kk8vp8bga1l7cc",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "Desert Diamond Arena",
+    "datetime_iso": "2027-04-30T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190065418A7C43AD",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-glendale-arizona-04-29-2027/event/190065418A7C43AD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-glendale-arizona-04-29-2027/event/190065418A7C43AD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190065418A7C43AD",
+        "discovery_event_id": "1kk8vP8bGA1L7Cc",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-glendale-arizona-04-29-2027/event/190065418A7C43AD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kk8vP8bGA1L7Cc",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T17:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-hollywood-vvg1iz_f7e8nik",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2027-05-02T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B0065410242AA13",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-hollywood-california-05-01-2027/event/0B0065410242AA13",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-hollywood-california-05-01-2027/event/0B0065410242AA13",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B0065410242AA13",
+        "discovery_event_id": "vvG1iZ_f7e8nIK",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-hollywood-california-05-01-2027/event/0B0065410242AA13",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_f7e8nIK",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T17:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-san-francisco-g5vyz_f5oof-x",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Chase Center",
+    "datetime_iso": "2027-05-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006542E044887E",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-san-francisco-california-05-05-2027/event/1C006542E044887E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-san-francisco-california-05-05-2027/event/1C006542E044887E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006542E044887E",
+        "discovery_event_id": "G5vYZ_f5OoF-X",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-san-francisco-california-05-05-2027/event/1C006542E044887E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_f5OoF-X",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T17:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-sacramento-g5vyz_f5hdkto",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2027-05-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006542DB0C6A51",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-sacramento-california-05-07-2027/event/1C006542DB0C6A51",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/sacramento-california-golden-1-center-2027-05-07-7-pm/concert/18662420",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-sacramento-california-05-07-2027/event/1C006542DB0C6A51",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006542DB0C6A51",
+        "discovery_event_id": "G5vYZ_f5hdkto",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-sacramento-california-05-07-2027/event/1C006542DB0C6A51",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_f5hdkto",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T17:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-seattle-vvg1hz_f1kfpyl",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-05-10T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00654293525E5F",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-seattle-washington-05-09-2027/event/0F00654293525E5F",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/seattle-washington-climate-pledge-arena-2027-05-09-7-pm/concert/18662421",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-seattle-washington-05-09-2027/event/0F00654293525E5F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00654293525E5F",
+        "discovery_event_id": "vvG1HZ_f1KfPyL",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-seattle-washington-05-09-2027/event/0F00654293525E5F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_f1KfPyL",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T17:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-vancouver-1aozk4agkddzaes",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-05-15T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006545C3E090B1",
+    "ticketmaster_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-vancouver-british-columbia-05-14-2027/event/11006545C3E090B1",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/vancouver-canada-rogers-arena-2027-05-14-7-pm/concert/18662462",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-vancouver-british-columbia-05-14-2027/event/11006545C3E090B1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006545C3E090B1",
+        "discovery_event_id": "1AoZk4AGkddzaes",
+        "url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-vancouver-british-columbia-05-14-2027/event/11006545C3E090B1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk4AGkddzaes",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T17:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-edmonton-1k78vpoiga55fiz",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Rogers Place",
+    "datetime_iso": "2027-05-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110065468B2D4B00",
+    "ticketmaster_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-edmonton-alberta-05-16-2027/event/110065468B2D4B00",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/edmonton-canada-rogers-place-2027-05-16-7-pm/concert/18662464",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-edmonton-alberta-05-16-2027/event/110065468B2D4B00",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110065468B2D4B00",
+        "discovery_event_id": "1k78vPoIGA55fiZ",
+        "url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-edmonton-alberta-05-16-2027/event/110065468B2D4B00",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78vPoIGA55fiZ",
+    "timezone": "America/Edmonton",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T16:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-san-antonio-g5diz_fqmcwez",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Frost Bank Center",
+    "datetime_iso": "2027-05-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006546B73BD9C0",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-san-antonio-texas-05-29-2027/event/3A006546B73BD9C0",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/san-antonio-texas-frost-bank-center-2027-05-29-7-pm/concert/18662426",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-san-antonio-texas-05-29-2027/event/3A006546B73BD9C0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006546B73BD9C0",
+        "discovery_event_id": "G5dIZ_fQMCWEZ",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-san-antonio-texas-05-29-2027/event/3A006546B73BD9C0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_fQMCWEZ",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-oklahoma-city-vvg1yz_fkymbmf",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Oklahoma City",
+    "country": "United States Of America",
+    "venue": "Paycom Center",
+    "datetime_iso": "2027-06-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006541B9BBAB88",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-oklahoma-city-oklahoma-06-03-2027/event/0C006541B9BBAB88",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/oklahoma-city-oklahoma-paycom-center-2027-06-03-7-pm/concert/18662428",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-oklahoma-city-oklahoma-06-03-2027/event/0C006541B9BBAB88",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006541B9BBAB88",
+        "discovery_event_id": "vvG1YZ_fkymBmF",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-oklahoma-city-oklahoma-06-03-2027/event/0C006541B9BBAB88",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_fkymBmF",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-milwaukee-vv1a6zk4kgkd_k6yp",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Fiserv Forum",
+    "datetime_iso": "2027-06-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006546D9187E56",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-milwaukee-wisconsin-06-05-2027/event/07006546D9187E56",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/milwaukee-wisconsin-fiserv-forum-2027-06-05-7-pm/concert/18662432",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-milwaukee-wisconsin-06-05-2027/event/07006546D9187E56",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006546D9187E56",
+        "discovery_event_id": "vv1A6Zk4kGkd_k6yp",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-milwaukee-wisconsin-06-05-2027/event/07006546D9187E56",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6Zk4kGkd_k6yp",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-saint-louis-vv1kvovp8tga1iyft",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Enterprise Center",
+    "datetime_iso": "2027-06-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060065429AA3953F",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-saint-louis-missouri-06-07-2027/event/060065429AA3953F",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/saint-louis-missouri-enterprise-center-2027-06-07-7-pm/concert/18662434",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-saint-louis-missouri-06-07-2027/event/060065429AA3953F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060065429AA3953F",
+        "discovery_event_id": "vv1kvOvP8tGA1IyfT",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-saint-louis-missouri-06-07-2027/event/060065429AA3953F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvOvP8tGA1IyfT",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-louisville-1kaovpoiga1ispc",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Louisville",
+    "country": "United States Of America",
+    "venue": "KFC Yum! Center",
+    "datetime_iso": "2027-06-09T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160065468AA335AD",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-louisville-kentucky-06-09-2027/event/160065468AA335AD",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/louisville-kentucky-kfc-yum-center-2027-06-09-7-pm/concert/18662436",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-louisville-kentucky-06-09-2027/event/160065468AA335AD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160065468AA335AD",
+        "discovery_event_id": "1kAOvPoIGA1ISpc",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-louisville-kentucky-06-09-2027/event/160065468AA335AD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kAOvPoIGA1ISpc",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-tampa-vvg1vz_fpw01di",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Benchmark International Arena",
+    "datetime_iso": "2027-06-13T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006545BD90A0E8",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-tampa-florida-06-13-2027/event/0D006545BD90A0E8",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/tampa-florida-benchmark-international-arena-2027-06-13-7-pm/concert/18662437",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-tampa-florida-06-13-2027/event/0D006545BD90A0E8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006545BD90A0E8",
+        "discovery_event_id": "vvG1VZ_fpW01dI",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-tampa-florida-06-13-2027/event/0D006545BD90A0E8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_fpW01dI",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-atlanta-vvg1zz_fpttjci",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2027-06-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006545BFFDC3AC",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-atlanta-georgia-06-17-2027/event/0E006545BFFDC3AC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-atlanta-georgia-06-17-2027/event/0E006545BFFDC3AC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006545BFFDC3AC",
+        "discovery_event_id": "vvG1zZ_fpTTjCi",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-atlanta-georgia-06-17-2027/event/0E006545BFFDC3AC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_fpTTjCi",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-columbus-vv1aazk4kgkdpgu4v",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Schottenstein Center",
+    "datetime_iso": "2027-06-19T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006546E5D4D541",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-columbus-ohio-06-19-2027/event/05006546E5D4D541",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-columbus-ohio-06-19-2027/event/05006546E5D4D541",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006546E5D4D541",
+        "discovery_event_id": "vv1AAZk4kGkdPgu4v",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-columbus-ohio-06-19-2027/event/05006546E5D4D541",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4kGkdPgu4v",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-new-york-g5diz_fkxvp6l",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Madison Square Garden",
+    "datetime_iso": "2027-06-23T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B006544E20651DF",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-new-york-new-york-06-23-2027/event/3B006544E20651DF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-new-york-new-york-06-23-2027/event/3B006544E20651DF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B006544E20651DF",
+        "discovery_event_id": "G5diZ_fKxvP6L",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-new-york-new-york-06-23-2027/event/3B006544E20651DF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_fKxvP6L",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-uncasville-g5vvz_fbgzjmo",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Uncasville",
+    "country": "United States Of America",
+    "venue": "Mohegan Sun Arena",
+    "datetime_iso": "2027-06-25T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D0065460C026BA0",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-uncasville-connecticut-06-25-2027/event/1D0065460C026BA0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-uncasville-connecticut-06-25-2027/event/1D0065460C026BA0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D0065460C026BA0",
+        "discovery_event_id": "G5vVZ_fbGZJmO",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-uncasville-connecticut-06-25-2027/event/1D0065460C026BA0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_fbGZJmO",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-philadelphia-1ayzk4agkeprd7q",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Xfinity Mobile Arena",
+    "datetime_iso": "2027-06-27T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "30006545A5BC311A",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-philadelphia-pennsylvania-06-27-2027/event/30006545A5BC311A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-philadelphia-pennsylvania-06-27-2027/event/30006545A5BC311A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006545A5BC311A",
+        "discovery_event_id": "1AYZk4AGkePRd7Q",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-philadelphia-pennsylvania-06-27-2027/event/30006545A5BC311A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AYZk4AGkePRd7Q",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-charlotte-g5evz_fps2umn",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2027-06-30T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006545B33CDBA3",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-charlotte-north-carolina-06-30-2027/event/2D006545B33CDBA3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-charlotte-north-carolina-06-30-2027/event/2D006545B33CDBA3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006545B33CDBA3",
+        "discovery_event_id": "G5eVZ_fpS2umN",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-charlotte-north-carolina-06-30-2027/event/2D006545B33CDBA3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_fpS2umN",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-def-leppard-2027-indianapolis-vv1kv8vp8_ga1mpgy",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard and Goo Goo Dolls",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Gainbridge Fieldhouse",
+    "datetime_iso": "2027-07-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050065419ABA5D79",
+    "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-indianapolis-indiana-07-02-2027/event/050065419ABA5D79",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-indianapolis-indiana-07-02-2027/event/050065419ABA5D79",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050065419ABA5D79",
+        "discovery_event_id": "vv1kv8vP8_GA1mPgy",
+        "url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-indianapolis-indiana-07-02-2027/event/050065419ABA5D79",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kv8vP8_GA1mPgy",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
+  }
+]

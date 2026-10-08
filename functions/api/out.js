@@ -1526,6 +1526,76 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-warren-zeiders",
     redirectUrl: "https://seatgeek.com/warren-zeiders-tickets",
     verified: true
+  },
+  "dancing-with-the-stars:ticketmaster": {
+    artistSlug: "dancing-with-the-stars",
+    provider: "ticketmaster",
+    linkId: "tm-artist-dancing-with-the-stars",
+    redirectUrl: "https://www.ticketmaster.com/dancing-with-the-stars-tickets/artist/1086116",
+    verified: true
+  },
+  "dancing-with-the-stars:seatgeek": {
+    artistSlug: "dancing-with-the-stars",
+    provider: "seatgeek",
+    linkId: "sg-artist-dancing-with-the-stars",
+    redirectUrl: "https://seatgeek.com/dancing-with-the-stars-1-tickets",
+    verified: true
+  },
+  "def-leppard:ticketmaster": {
+    artistSlug: "def-leppard",
+    provider: "ticketmaster",
+    linkId: "tm-artist-def-leppard",
+    redirectUrl: "https://www.ticketmaster.com/def-leppard-tickets/artist/734898",
+    verified: true
+  },
+  "def-leppard:seatgeek": {
+    artistSlug: "def-leppard",
+    provider: "seatgeek",
+    linkId: "sg-artist-def-leppard",
+    redirectUrl: "https://seatgeek.com/def-leppard-tickets",
+    verified: true
+  },
+  "jay-wheeler:ticketmaster": {
+    artistSlug: "jay-wheeler",
+    provider: "ticketmaster",
+    linkId: "tm-artist-jay-wheeler",
+    redirectUrl: "https://www.ticketmaster.com/jay-wheeler-tickets/artist/2795427",
+    verified: true
+  },
+  "jay-wheeler:seatgeek": {
+    artistSlug: "jay-wheeler",
+    provider: "seatgeek",
+    linkId: "sg-artist-jay-wheeler",
+    redirectUrl: "https://seatgeek.com/jay-wheeler-tickets",
+    verified: true
+  },
+  "rod-stewart:ticketmaster": {
+    artistSlug: "rod-stewart",
+    provider: "ticketmaster",
+    linkId: "tm-artist-rod-stewart",
+    redirectUrl: "https://www.ticketmaster.com/rod-stewart-tickets/artist/736200",
+    verified: true
+  },
+  "rod-stewart:seatgeek": {
+    artistSlug: "rod-stewart",
+    provider: "seatgeek",
+    linkId: "sg-artist-rod-stewart",
+    redirectUrl: "https://seatgeek.com/rod-stewart-tickets",
+    verified: true
+  },
+  "leon-bridges:ticketmaster": {
+    artistSlug: "leon-bridges",
+    provider: "ticketmaster",
+    linkId: "tm-artist-leon-bridges",
+    redirectUrl: "https://www.ticketmaster.com/leon-bridges-tickets/artist/2075742",
+    verified: true
+  },
+  "leon-bridges:seatgeek": {
+    artistSlug: "leon-bridges",
+    provider: "seatgeek",
+    linkId: "sg-artist-leon-bridges",
+    redirectUrl: "https://seatgeek.com/leon-bridges-tickets",
+    verified: true
   }
 };
 

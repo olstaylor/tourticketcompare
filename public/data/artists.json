@@ -1367,5 +1367,75 @@
     "last_verified_at": "2026-10-06",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-06"
+  },
+  {
+    "slug": "dancing-with-the-stars",
+    "name": "Dancing With The Stars",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-08",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-08"
+  },
+  {
+    "slug": "def-leppard",
+    "name": "Def Leppard",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-08",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-08"
+  },
+  {
+    "slug": "jay-wheeler",
+    "name": "Jay Wheeler",
+    "short_description": "Latin act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-08",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-08"
+  },
+  {
+    "slug": "rod-stewart",
+    "name": "Rod Stewart",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-08",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-08"
+  },
+  {
+    "slug": "leon-bridges",
+    "name": "Leon Bridges",
+    "short_description": "R&B act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-08",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-08"
   }
 ]

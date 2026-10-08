@@ -91,6 +91,7 @@ const DEFAULT_AUTHOR = "TourTicketCompare";
 const INTERNAL_LINK_SHAPES = [
   { pattern: /^\/guides\/[a-z0-9-]+$/, kind: "guide" },
   { pattern: /^\/artists\/[a-z0-9-]+$/, kind: "artist" },
+  { pattern: /^\/artists\/[a-z0-9-]+\/ticket-prices$/, kind: "price-guide" },
   { pattern: /^\/blog\/tags\/[a-z0-9-]+$/, kind: "blog-tag" },
   { pattern: /^\/blog\/[a-z0-9-]+$/, kind: "blog-post" },
   // Shape-checked only: city and venue pages move with the calendar, so
@@ -262,6 +263,9 @@ function validatePost(post, context) {
     if (shape?.kind === "artist" && !context.artistSlugs.has(clean.split("/")[2])) {
       problems.push(`${where}: internal link "${href}" points at an unknown artist slug`);
     }
+    if (shape?.kind === "price-guide" && (!context.artistSlugs.has(clean.split("/")[2]) || !context.priceGuideArtists.has(clean.split("/")[2]))) {
+      problems.push(`${where}: internal link "${href}" points at an unregistered artist price guide`);
+    }
     if (shape?.kind === "blog-tag" && !context.tags.has(clean.split("/")[3])) {
       problems.push(`${where}: internal link "${href}" points at a tag no published post carries`);
     }
@@ -374,8 +378,10 @@ function serialize(document) {
 async function loadContext() {
   const metadata = await import(pathToFileURL(path.join(root, "functions/_route-metadata.js")));
   const artists = JSON.parse(await fs.readFile(path.join(root, "public/data/artists.json"), "utf8"));
+  const { PRICE_GUIDE_ARTISTS } = await import(pathToFileURL(path.join(root, "functions/_price-guides.js")));
   return {
     guidePaths: new Set(Object.keys(metadata.GUIDE_ROUTES)),
+    priceGuideArtists: new Set(PRICE_GUIDE_ARTISTS),
     artistSlugs: new Set(artists.map((artist) => String(artist?.slug || "").trim()).filter(Boolean))
   };
 }
@@ -577,7 +583,8 @@ function selfTest() {
 
   const context = {
     guidePaths: new Set(["/guides/known"]),
-    artistSlugs: new Set(["known-artist"]),
+    artistSlugs: new Set(["known-artist", "no-price-guide"]),
+    priceGuideArtists: new Set(["known-artist"]),
     slugs: new Set(["a-post", "a-draft"]),
     publishedSlugs: new Set(["a-post"]),
     tags: new Set(["known-tag"])
@@ -647,7 +654,7 @@ function selfTest() {
   assert(impossibleDate.some((problem) => /real YYYY-MM-DD calendar date/.test(problem)), "an impossible date fails validation");
 
   // Prefix matching accepted paths with extra segments that the router 404s.
-  for (const dead of ["/artists/known-artist/bogus", "/blog/a-post/extra", "/cities/london/extra", "/guides/known/deeper"]) {
+  for (const dead of ["/artists/known-artist/bogus", "/artists/known-artist/ticket-prices/extra", "/blog/a-post/extra", "/cities/london/extra", "/guides/known/deeper"]) {
     const result = validatePost({ ...base, sections: [{ type: "section", title: "H", content: `See [it](${dead}).` }] }, context);
     assert(result.some((problem) => /does not match a route this site serves/.test(problem)), `"${dead}" fails validation`);
   }
@@ -656,6 +663,11 @@ function selfTest() {
     context
   );
   assert(okShapes.length === 0, "well-shaped internal links of every allowed family validate clean");
+  const priceLink = (slug) => validatePost({ ...base, sections: [{ type: "section", title: "H", content: `See [prices](/artists/${slug}/ticket-prices).` }] }, context);
+  assert(priceLink("known-artist").length === 0, "registered artist price guide validates");
+  for (const slug of ["no-price-guide", "unknown-artist"]) {
+    assert(priceLink(slug).some((problem) => /unregistered artist price guide/.test(problem)), "unregistered or unknown price guide fails");
+  }
 
   // The validator strips a query/fragment before resolving, so the renderer has
   // to accept them or the link ships as raw Markdown.

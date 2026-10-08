@@ -2137,7 +2137,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-san-francisco-chase-center-11-10-2026--concerts-rb/production/6912010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-san-francisco-california-11-10-2026/event/1C00648ABCA0F080",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2212,6 +2212,11 @@
         "name": "Special Offer",
         "start": "2026-09-18T17:00:00Z",
         "end": "2026-11-11T03:00:00Z"
+      },
+      {
+        "name": "T-Mobile Reserved Tickets",
+        "start": "2026-10-10T16:00:00Z",
+        "end": "2026-11-10T06:00:00Z"
       }
     ]
   },

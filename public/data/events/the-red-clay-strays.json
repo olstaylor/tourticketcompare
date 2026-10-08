@@ -267,7 +267,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-orlando-kia-center-10-14-2026--concerts-country-and-folk/production/6948975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-orlando-florida-10-14-2026/event/2200648D084192C2",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -318,14 +318,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906846",
-    "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-orlando-tickets-10-14-2026/event/107212078",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-01T13:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      }
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-orlando-tickets-10-14-2026/event/107212078"
   },
   {
     "id": "tm-the-red-clay-strays-2026-savannah-vvg1zz_fxgmnus",
@@ -1595,7 +1588,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-omaha-chi-health-center-omaha-1-31-2027/production/7637012",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-omaha-nebraska-01-31-2027/event/0600653CE4D6E031",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1675,7 +1668,7 @@
         "end": "2026-10-09T03:00:00Z"
       },
       {
-        "name": "Amex Presale Tickets",
+        "name": "Amex Presale Tickets®",
         "start": "2026-10-07T15:00:00Z",
         "end": "2026-10-09T03:00:00Z"
       },

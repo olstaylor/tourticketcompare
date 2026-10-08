@@ -744,7 +744,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-toronto-ontario-11-18-2026/event/100064F09E2A8269",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -785,6 +785,11 @@
         "name": "Trivium VIP Packages Onsale",
         "start": "2026-07-24T14:00:00Z",
         "end": "2026-11-12T04:55:00Z"
+      },
+      {
+        "name": "Rocktober Sale: BOGO",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-11-01T03:59:00Z"
       }
     ]
   },

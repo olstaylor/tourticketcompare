@@ -197,7 +197,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-detroit-the-fillmore-detroit-1-21-2027/production/7564207",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-detroit-michigan-01-21-2027/event/08006528C301581E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -259,6 +259,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-01-15T03:00:00Z"
+      },
+      {
+        "name": "Dylan Scott's Birthday Offer",
+        "start": "2026-10-22T04:00:00Z",
+        "end": "2026-10-23T03:59:00Z"
       }
     ]
   },
@@ -278,7 +283,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-grand-rapids-glc-live-at-20-monroe-1-22-2027/production/7564976",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-grand-rapids-michigan-01-22-2027/event/08006528AF5E461E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -340,6 +345,11 @@
         "name": "VIP Package Public Onsale",
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-01-16T03:00:00Z"
+      },
+      {
+        "name": "Dylan Scott's Birthday Offer",
+        "start": "2026-10-22T04:00:00Z",
+        "end": "2026-10-23T03:59:00Z"
       }
     ]
   },

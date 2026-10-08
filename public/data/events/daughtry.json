@@ -1457,7 +1457,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-san-antonio-texas-11-13-2026/event/3A0064CCF65A6281",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1514,6 +1514,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-06-19T15:00:00Z",
         "end": "2026-11-07T04:00:00Z"
+      },
+      {
+        "name": "$20 All In Special",
+        "start": "2026-10-07T15:32:00Z",
+        "end": "2026-11-13T04:00:00Z"
       }
     ]
   },

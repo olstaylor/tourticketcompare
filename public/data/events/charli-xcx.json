@@ -522,7 +522,7 @@
     "city": "San Diego",
     "country": "United States Of America",
     "venue": "Viejas Arena at Aztec Bowl San Diego State University",
-    "datetime_iso": "2026-10-15T03:00:00Z",
+    "datetime_iso": "2026-10-15T02:50:00Z",
     "tour_name": "Music, Fashion, Film Tour",
     "ticketmaster_event_id": "0A0064C5A3FB77BE",
     "ticketmaster_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-san-diego-california-10-14-2026/event/0A0064C5A3FB77BE",
@@ -530,7 +530,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-san-diego-california-10-14-2026/event/0A0064C5A3FB77BE",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -538,7 +538,7 @@
         "discovery_event_id": "vvG1IZ_GpNXMrX",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-san-diego-california-10-14-2026/event/0A0064C5A3FB77BE",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "not_checked"
       },
       "seatgeek": {

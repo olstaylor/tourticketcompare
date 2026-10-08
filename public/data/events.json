@@ -21115,7 +21115,7 @@
     "city": "Indianapolis",
     "country": "United States Of America",
     "venue": "Lucas Oil Stadium",
-    "datetime_iso": "2026-10-10T21:30:00Z",
+    "datetime_iso": "2026-10-11T00:00:00Z",
     "tour_name": "The Loop Tour",
     "ticketmaster_event_id": "050063299AFD15F3",
     "ticketmaster_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-indianapolis-indiana-10-10-2026/event/050063299AFD15F3",
@@ -21123,7 +21123,7 @@
     "vividseats_url": "https://www.vividseats.com/ed-sheeran-tickets-indianapolis-lucas-oil-stadium-10-10-2026--concerts-pop/production/6049737",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ed-sheeran-loop-tour-indianapolis-indiana-10-10-2026/event/050063299AFD15F3",
-    "last_verified_at": "2026-07-07",
+    "last_verified_at": "2026-10-08",
     "provider_links": {
       "ticketmaster": {
         "event_id": "050063299AFD15F3",
@@ -23935,7 +23935,7 @@
     "city": "San Diego",
     "country": "United States Of America",
     "venue": "Viejas Arena at Aztec Bowl San Diego State University",
-    "datetime_iso": "2026-10-15T03:00:00Z",
+    "datetime_iso": "2026-10-15T02:50:00Z",
     "tour_name": "Music, Fashion, Film Tour",
     "ticketmaster_event_id": "0A0064C5A3FB77BE",
     "ticketmaster_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-san-diego-california-10-14-2026/event/0A0064C5A3FB77BE",
@@ -23943,7 +23943,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-san-diego-california-10-14-2026/event/0A0064C5A3FB77BE",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -23951,7 +23951,7 @@
         "discovery_event_id": "vvG1IZ_GpNXMrX",
         "url": "https://www.ticketmaster.com/charli-xcx-music-fashion-film-tour-san-diego-california-10-14-2026/event/0A0064C5A3FB77BE",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "not_checked"
       },
       "seatgeek": {
@@ -33067,7 +33067,7 @@
     "id": "tm-niall-horan-2027-saint-paul-z7r9jz1a704vb",
     "artist_slug": "niall-horan",
     "artist_name": "Niall Horan",
-    "event_name": "Niall Horan",
+    "event_name": "Niall Horan: Dinner Party Live On Tour",
     "city": "Saint Paul",
     "country": "United States Of America",
     "venue": "Grand Casino Arena",
@@ -33079,7 +33079,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-saint-paul-grand-casino-arena-3-17-2027/production/7017227",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A704vb",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-08",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -39782,7 +39782,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-toronto-scotiabank-arena-11-16-2026--concerts-alternative/production/6898024",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sombr-you-are-the-reason-tour-toronto-ontario-11-16-2026/event/10006487F42AC66B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -39823,6 +39823,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-04-17T14:00:00Z",
         "end": "2026-11-12T17:00:00Z"
+      },
+      {
+        "name": "Gondola Offer",
+        "start": "2026-10-07T14:00:00Z",
+        "end": "2026-11-17T01:00:00Z"
       }
     ]
   },
@@ -47956,7 +47961,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-san-francisco-chase-center-11-10-2026--concerts-rb/production/6912010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-san-francisco-california-11-10-2026/event/1C00648ABCA0F080",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -48031,6 +48036,11 @@
         "name": "Special Offer",
         "start": "2026-09-18T17:00:00Z",
         "end": "2026-11-11T03:00:00Z"
+      },
+      {
+        "name": "T-Mobile Reserved Tickets",
+        "start": "2026-10-10T16:00:00Z",
+        "end": "2026-11-10T06:00:00Z"
       }
     ]
   },
@@ -50155,7 +50165,7 @@
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-franklin-firstbank-amphitheater-10-8-2026--concerts-hard-rock/production/6517276",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-franklin-tennessee-10-08-2026/event/1B00642691B1655B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50206,19 +50216,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676513",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676513/Five-Finger-Death-Punch-tickets-Thu-Oct-8-2026-FirstBank-Amphitheater",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-01-16T16:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
-      },
-      {
-        "name": "All Access: Discount Offer",
-        "start": "2026-03-27T17:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676513/Five-Finger-Death-Punch-tickets-Thu-Oct-8-2026-FirstBank-Amphitheater"
   },
   {
     "id": "tm-five-finger-death-punch-2026-tampa-vvg1vz_eqhp7qi",
@@ -50443,7 +50441,7 @@
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-10-14-2026/production/6517205",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-raleigh-north-carolina-10-14-2026/event/2D006429A5869EEA",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50494,14 +50492,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676524",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676524/Five-Finger-Death-Punch-tickets-Wed-Oct-14-2026-Coastal-Credit-Union-Music-Park-at-Walnut-Creek",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-01-16T15:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676524/Five-Finger-Death-Punch-tickets-Wed-Oct-14-2026-Coastal-Credit-Union-Music-Park-at-Walnut-Creek"
   },
   {
     "id": "tm-five-finger-death-punch-2026-charlotte-g5evz_eqi_eoi",
@@ -52483,7 +52474,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-charlotte-spectrum-center-10-14-2026/production/7047276",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-charlotte-north-carolina-10-14-2026/event/2D0064AED07FC966",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -52542,14 +52533,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976483",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976483/Don-Omar-tickets-Wed-Oct-14-2026-Spectrum-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-charlotte-tickets-10-14-2026/event/107185218",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-22T14:00:00Z",
-        "end": "2026-10-07T21:00:00Z"
-      }
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/don-omar-charlotte-tickets-10-14-2026/event/107185218"
   },
   {
     "id": "tm-don-omar-2026-washington-17a8v0g61wbnb9b",
@@ -59762,7 +59746,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-vancouver-rogers-arena-11-7-2026/production/7394177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/pentatonix-christmas-in-the-city-tour-vancouver-british-columbia-11-07-2026/event/110065058A055491",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -59832,6 +59816,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-08-14T17:00:00Z",
         "end": "2026-11-01T05:00:00Z"
+      },
+      {
+        "name": "Thanksgiving Deal",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2026-10-14T05:00:00Z"
       }
     ]
   },
@@ -66617,7 +66606,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/trivium-crown-in-the-grave-world-toronto-ontario-11-18-2026/event/100064F09E2A8269",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66658,6 +66647,11 @@
         "name": "Trivium VIP Packages Onsale",
         "start": "2026-07-24T14:00:00Z",
         "end": "2026-11-12T04:55:00Z"
+      },
+      {
+        "name": "Rocktober Sale: BOGO",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-11-01T03:59:00Z"
       }
     ]
   },
@@ -85830,7 +85824,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-brooklyn-brooklyn-paramount-10-14-2026--concerts-dance-electronica/production/7144060",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-brooklyn-new-york-10-14-2026/event/000064C5B8594A98",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -85889,14 +85883,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042269/Sylvan-Esso-tickets-Wed-Oct-14-2026-Brooklyn-Paramount",
     "stubhub_international_url": "https://www.stubhub.ie/sylvan-esso-brooklyn-tickets-10-14-2026/event/107452575",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042269",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-12T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      }
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042269"
   },
   {
     "id": "tm-sylvan-esso-2026-portland-vvg17z_gkbpmvl",
@@ -99674,7 +99661,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-sacramento-california-12-02-2026/event/1C006506ECD3CC5A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -99720,11 +99707,6 @@
         "name": "T-Mobile Concert Perks",
         "start": "2026-09-18T17:00:00Z",
         "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Scary Good TSO Deal",
-        "start": "2026-10-08T17:00:00Z",
-        "end": "2026-11-01T05:00:00Z"
       }
     ]
   },
@@ -100372,7 +100354,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-austin-moody-center-atx-12-9-2026/production/7536643",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-austin-texas-12-09-2026/event/3A006510C43173A4",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -100439,6 +100421,11 @@
         "name": "$10 Off TSO Limited Time Offer",
         "start": "2026-09-23T18:00:00Z",
         "end": "2026-10-13T04:59:00Z"
+      },
+      {
+        "name": "Scary Good TSO Deal",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-11-01T03:00:00Z"
       }
     ]
   },
@@ -100730,7 +100717,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlotte-north-carolina-12-12-2026/event/2D006511DF4864ED",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -100776,6 +100763,11 @@
         "name": "T-Mobile Concert Perks",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-12-12T19:30:00Z"
+      },
+      {
+        "name": "Scary Good Deal",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-11-01T02:00:00Z"
       }
     ]
   },
@@ -100855,7 +100847,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-duluth-georgia-12-13-2026/event/0E00650786114C1D",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -100896,6 +100888,11 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-16T03:00:00Z"
+      },
+      {
+        "name": "Scary Good TSO Deal",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-11-01T02:00:00Z"
       }
     ]
   },
@@ -100985,7 +100982,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-charlottesville-john-paul-jones-arena-12-16-2026--concerts-world-music/production/7536731",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlottesville-virginia-12-16-2026/event/0100651CDD7E5A42",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -101041,9 +101038,14 @@
         "end": "2026-12-13T03:00:00Z"
       },
       {
-        "name": "TSO $10 off discount offer",
+        "name": "$10 Off Trans-Siberian Orchestra Limited",
         "start": "2026-09-23T17:00:00Z",
         "end": "2026-10-13T03:59:00Z"
+      },
+      {
+        "name": "Scary Good TSO Deal",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-11-01T02:00:00Z"
       }
     ]
   },
@@ -101817,7 +101819,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-detroit-michigan-12-23-2026/event/0800650C01D5B80D",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -101863,6 +101865,11 @@
         "name": "T-Mobile® Concert Perks",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-12-10T03:00:00Z"
+      },
+      {
+        "name": "Scary Good TSO Deal",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-11-01T02:00:00Z"
       }
     ]
   },
@@ -131189,7 +131196,7 @@
     "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-houston-house-of-blues-houston-11-4-2026/production/7234434",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dinosaur-jr-fall-tour-2026-with-houston-texas-11-04-2026/event/3A0064D9A11E9F73",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -131240,14 +131247,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8099101",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8099101/Dinosaur-Jr-tickets-Wed-Nov-4-2026-House-Of-Blues-Houston",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-06-30T16:01:00Z",
-        "end": "2026-10-08T03:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8099101/Dinosaur-Jr-tickets-Wed-Nov-4-2026-House-Of-Blues-Houston"
   },
   {
     "id": "tm-dinosaur-jr-2026-austin-g5diz_usqkioq",
@@ -143777,7 +143777,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-detroit-the-fillmore-detroit-1-21-2027/production/7564207",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-detroit-michigan-01-21-2027/event/08006528C301581E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -143839,6 +143839,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-01-15T03:00:00Z"
+      },
+      {
+        "name": "Dylan Scott's Birthday Offer",
+        "start": "2026-10-22T04:00:00Z",
+        "end": "2026-10-23T03:59:00Z"
       }
     ]
   },
@@ -143858,7 +143863,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-grand-rapids-glc-live-at-20-monroe-1-22-2027/production/7564976",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-grand-rapids-michigan-01-22-2027/event/08006528AF5E461E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -143920,6 +143925,11 @@
         "name": "VIP Package Public Onsale",
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-01-16T03:00:00Z"
+      },
+      {
+        "name": "Dylan Scott's Birthday Offer",
+        "start": "2026-10-22T04:00:00Z",
+        "end": "2026-10-23T03:59:00Z"
       }
     ]
   },
@@ -156614,7 +156624,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-orlando-kia-center-10-14-2026--concerts-country-and-folk/production/6948975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-orlando-florida-10-14-2026/event/2200648D084192C2",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156665,14 +156675,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906846",
-    "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-orlando-tickets-10-14-2026/event/107212078",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-05-01T13:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      }
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/the-red-clay-strays-orlando-tickets-10-14-2026/event/107212078"
   },
   {
     "id": "tm-the-red-clay-strays-2026-savannah-vvg1zz_fxgmnus",
@@ -157942,7 +157945,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-omaha-chi-health-center-omaha-1-31-2027/production/7637012",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-omaha-nebraska-01-31-2027/event/0600653CE4D6E031",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -158022,7 +158025,7 @@
         "end": "2026-10-09T03:00:00Z"
       },
       {
-        "name": "Amex Presale Tickets",
+        "name": "Amex Presale Tickets®",
         "start": "2026-10-07T15:00:00Z",
         "end": "2026-10-09T03:00:00Z"
       },
@@ -161842,7 +161845,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-san-antonio-texas-11-13-2026/event/3A0064CCF65A6281",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -161899,6 +161902,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-06-19T15:00:00Z",
         "end": "2026-11-07T04:00:00Z"
+      },
+      {
+        "name": "$20 All In Special",
+        "start": "2026-10-07T15:32:00Z",
+        "end": "2026-11-13T04:00:00Z"
       }
     ]
   },
@@ -171018,7 +171026,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-columbus-nationwide-arena-7-16-2027/production/7642116",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-columbus-ohio-07-16-2027/event/05006541BEACAA22",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -171078,6 +171086,11 @@
         "end": "2026-10-15T02:00:00Z"
       },
       {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T13:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
         "name": "GVF Fan Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
@@ -171101,6 +171114,11 @@
         "name": "Venue Presale",
         "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2027-07-09T03:55:00Z"
       }
     ]
   },
@@ -171120,7 +171138,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-noblesville-ruoff-music-center-7-17-2027/production/7642100",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-noblesville-indiana-07-17-2027/event/0500653DCD4CD2AE",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -171175,7 +171193,7 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303376/Greta-Van-Fleet-tickets-Sat-Jul-17-2027-Ruoff-Music-Center",
     "presales": [
       {
-        "name": "GFV Ether Pass Presale",
+        "name": "GVF Ether Pass Presale",
         "start": "2026-10-13T13:00:00Z",
         "end": "2026-10-15T02:00:00Z"
       },
@@ -171190,7 +171208,7 @@
         "end": "2026-10-15T02:00:00Z"
       },
       {
-        "name": "GFV Fan Presale",
+        "name": "GVF Fan Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
       },
@@ -171640,7 +171658,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-gilford-banknh-pavilion-7-26-2027/production/7642112",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-gilford-new-hampshire-07-26-2027/event/0100653AAC543171",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -171711,7 +171729,7 @@
       {
         "name": "Eastern Propane Ticket Offer",
         "start": "2026-10-14T14:00:00Z",
-        "end": "2026-11-15T03:00:00Z"
+        "end": "2026-10-22T02:00:00Z"
       }
     ]
   },
@@ -171731,7 +171749,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-laval-place-bell-7-28-2027/production/7642144",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-laval-quebec-07-28-2027/event/3100653CC94F6595",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -171786,17 +171804,17 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303391/Greta-Van-Fleet-tickets-Wed-Jul-28-2027-Place-Bell",
     "presales": [
       {
-        "name": "GVF Ether Pass Presale",
+        "name": "Prévente forfait VIP Packages Presale",
         "start": "2026-10-13T13:00:00Z",
         "end": "2026-10-15T02:00:00Z"
       },
       {
-        "name": "VIP Packages Presale",
+        "name": "Prevente GVF Ether Pass Presale",
         "start": "2026-10-13T13:00:00Z",
         "end": "2026-10-15T02:00:00Z"
       },
       {
-        "name": "GVF Fan Presale",
+        "name": "Prevente GVF Fan Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
       },
@@ -171811,7 +171829,7 @@
         "end": "2026-10-15T02:00:00Z"
       },
       {
-        "name": "VIP Packages Onsale",
+        "name": "Forfait VIP Packages Onsale",
         "start": "2026-10-15T14:00:00Z",
         "end": "2027-07-21T03:55:00Z"
       }
@@ -171919,7 +171937,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-grand-rapids-acrisure-amphitheater-7-31-2027/production/7642128",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-grand-rapids-michigan-07-31-2027/event/0800653CABC5444C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -171984,6 +172002,11 @@
         "end": "2026-10-15T02:00:00Z"
       },
       {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T13:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
         "name": "Reserved By Spotify",
         "start": "2026-10-13T18:00:00Z",
         "end": "2026-10-15T02:00:00Z"
@@ -171992,6 +172015,11 @@
         "name": "LIVE NATION PRESALE",
         "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2027-07-24T03:55:00Z"
       }
     ]
   },
@@ -177274,7 +177302,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-edmonton-northern-alberta-jubilee-auditorium-4-15-2027/production/7636669",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-edmonton-alberta-04-15-2027/event/1100653AC57AB350",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -177341,16 +177369,6 @@
         "end": "2026-10-08T15:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T16:00:00Z",
-        "end": "2026-10-07T15:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T16:00:00Z",
-        "end": "2026-10-08T04:00:00Z"
-      },
-      {
         "name": "VIP Package Public Onsale",
         "start": "2026-10-08T16:00:00Z",
         "end": "2027-04-11T18:00:00Z"
@@ -177374,7 +177392,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-calgary-alberta-04-16-2027/event/1100653D9FDD7212",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -177418,16 +177436,6 @@
         "end": "2026-10-08T15:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T16:00:00Z",
-        "end": "2026-10-07T15:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T16:00:00Z",
-        "end": "2026-10-08T04:00:00Z"
-      },
-      {
         "name": "VIP Packages Public Onsale",
         "start": "2026-10-08T16:00:00Z",
         "end": "2027-04-12T18:00:00Z"
@@ -177450,7 +177458,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-vancouver-orpheum-theatre---vancouver-4-18-2027--concerts-pop/production/7636675",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-vancouver-british-columbia-04-18-2027/event/1100653AC64BB4F2",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -177517,16 +177525,6 @@
         "end": "2026-10-08T16:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-07T16:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
-      },
-      {
         "name": "VIP Package Public Onsale",
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-14T19:00:00Z"
@@ -177550,7 +177548,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-san-francisco-bill-graham-civic-auditorium-4-21-2027--concerts-pop/production/7636617",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-san-francisco-california-04-21-2027/event/1C00653EE35C5635",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -177612,24 +177610,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300771/Carly-Rae-Jepsen-tickets-Wed-Apr-21-2027-Bill-Graham-Civic-Auditorium",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-07T16:45:00Z"
-      },
-      {
         "name": "VIP Packages Presale",
         "start": "2026-10-06T17:00:00Z",
         "end": "2026-10-08T16:45:00Z"
-      },
-      {
-        "name": "APE Presale",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
       },
       {
         "name": "Mastercard Preferred Tickets",
@@ -177665,7 +177648,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-inglewood-kia-forum-4-22-2027--concerts-pop/production/7636619",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-inglewood-california-04-22-2027/event/0900653DD37AFC77",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -177733,16 +177716,6 @@
         "end": "2026-10-08T16:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-07T16:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
-      },
-      {
         "name": "Verizon Shine Select Seats",
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-03-26T05:00:00Z"
@@ -177770,7 +177743,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-san-diego-gallagher-square-at-petco-park-4-23-2027--concerts-pop/production/7636621",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-san-diego-california-04-23-2027/event/0A00653DFBE2B391",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -177832,24 +177805,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300773/Carly-Rae-Jepsen-tickets-Fri-Apr-23-2027-Gallagher-Square-at-Petco-Park",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-07T16:45:00Z"
-      },
-      {
         "name": "VIP Package Presale",
         "start": "2026-10-06T17:00:00Z",
         "end": "2026-10-08T16:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
       },
       {
         "name": "Verizon Shine Select Seats",
@@ -177880,7 +177838,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-las-vegas-cosmopolitan-of-las-vegas-4-30-2027--concerts-pop/production/7636633",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-las-vegas-nevada-04-30-2027/event/1700653C7E015760",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -177942,19 +177900,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300776/Carly-Rae-Jepsen-tickets-Fri-Apr-30-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-07T16:45:00Z"
-      },
-      {
         "name": "VIP Package Presale",
         "start": "2026-10-06T17:00:00Z",
         "end": "2026-10-08T16:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
       },
       {
         "name": "Verizon Shine Select Seats",
@@ -177985,7 +177933,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-phoenix-arizona-financial-theatre-5-1-2027--concerts-pop/production/7636635",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-phoenix-arizona-05-01-2027/event/190065399E606563",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178052,16 +178000,6 @@
         "end": "2026-10-08T16:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-07T16:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T17:00:00Z",
-        "end": "2026-10-08T05:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-04T05:00:00Z"
@@ -178090,7 +178028,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-irving-pavilion-at-toyota-music-factory-5-5-2027--concerts-pop/production/7636637",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-irving-texas-05-05-2027/event/0C00653CBA167BDF",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178157,16 +178095,6 @@
         "end": "2026-10-08T14:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-07T14:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
-      },
-      {
         "name": "Verizon Shine Select Seats",
         "start": "2026-10-08T15:00:00Z",
         "end": "2027-04-06T03:00:00Z"
@@ -178195,7 +178123,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-austin-moody-amphitheater-5-7-2027--concerts-pop/production/7636639",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-austin-texas-05-07-2027/event/3A00653EBB77F9AC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178257,19 +178185,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300779/Carly-Rae-Jepsen-tickets-Fri-May-7-2027-Moody-Amphitheater",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-07T14:45:00Z"
-      },
-      {
         "name": "VIP Packages Presale",
         "start": "2026-10-06T15:00:00Z",
         "end": "2026-10-08T14:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
       },
       {
         "name": "VIP Packages Public Onsale",
@@ -178300,7 +178218,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-houston-713-music-hall-5-8-2027--concerts-pop/production/7636641",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-houston-texas-05-08-2027/event/3A00653E8D017735",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178368,16 +178286,6 @@
         "end": "2026-10-08T14:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-07T14:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-08T15:00:00Z",
         "end": "2027-04-11T03:00:00Z"
@@ -178405,7 +178313,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-nashville-the-truth-5-10-2027--concerts-pop/production/7636643",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-nashville-tennessee-05-10-2027/event/1B00653EC0C1669B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178465,16 +178373,6 @@
         "end": "2026-10-08T14:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-07T14:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
-      },
-      {
         "name": "Verizon Shine Select Seats",
         "start": "2026-10-08T15:00:00Z",
         "end": "2027-04-09T03:00:00Z"
@@ -178507,7 +178405,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-atlanta-coca-cola-roxy-theatre-5-11-2027--concerts-pop/production/7636653",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-atlanta-georgia-05-11-2027/event/0E00653DDEEB8031",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178574,11 +178472,6 @@
         "end": "2026-10-08T13:45:00Z"
       },
       {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
         "name": "Verizon Shine Select Seats",
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-05-07T14:00:00Z"
@@ -178607,7 +178500,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-charlotte-skyla-credit-union-amphitheatre-5-12-2027--concerts-pop/production/7636657",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-charlotte-north-carolina-05-12-2027/event/2D00653CC129D74A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178674,16 +178567,6 @@
         "end": "2026-10-08T13:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-04-15T02:00:00Z"
@@ -178712,7 +178595,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-washington-dc-the-anthem-5-14-2027--concerts-pop/production/7636659",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-washington-district-of-columbia-05-14-2027/event/1500653E21F8E22A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178779,16 +178662,6 @@
         "end": "2026-10-08T13:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
         "name": "Verizon Shine Select Seats",
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-04-17T02:00:00Z"
@@ -178812,7 +178685,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-new-york-madison-square-garden-5-15-2027--concerts-pop/production/7636661",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-new-york-new-york-05-15-2027/event/3B00653BC1584829",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178875,29 +178748,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-new-york-tickets-5-15-2027/event/107671551",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
         "name": "VIP Packages Presale",
         "start": "2026-10-06T14:00:00Z",
         "end": "2026-10-08T13:45:00Z"
-      },
-      {
-        "name": "Chase Cardholder Preferred Tickets",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
       },
       {
         "name": "Verizon Shine Select Seats",
@@ -178932,7 +178785,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-philadelphia-pennsylvania-05-18-2027/event/0200653DC0663995",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178992,11 +178845,6 @@
         "end": "2026-10-08T13:45:00Z"
       },
       {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-04-21T02:00:00Z"
@@ -179029,7 +178877,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-boston-mgm-music-hall-at-fenway-5-19-2027--concerts-pop/production/7636665",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-boston-massachusetts-05-19-2027/event/0100653AF339EDA9",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -179092,19 +178940,9 @@
     "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-boston-tickets-5-19-2027/event/107671552",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
         "name": "VIP Packages Presale",
         "start": "2026-10-06T14:00:00Z",
         "end": "2026-10-08T13:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
       },
       {
         "name": "Verizon Shine Select Seats",
@@ -179134,7 +178972,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-chicago-illinois-05-21-2027/event/0700653EBAEE8CED",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -179189,29 +179027,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300788/Carly-Rae-Jepsen-tickets-Fri-May-21-2027-The-Chicago-Theatre",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-07T14:45:00Z"
-      },
-      {
         "name": "VIP Packages Presale",
         "start": "2026-10-06T15:00:00Z",
         "end": "2026-10-08T14:45:00Z"
-      },
-      {
-        "name": "Chase Cardholder Preferred Tickets",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-08T03:00:00Z"
       },
       {
         "name": "Verizon Shine Select Seats",
@@ -179246,7 +179064,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-detroit-fox-theatre-detroit-5-22-2027--concerts-pop/production/7636671",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-detroit-michigan-05-22-2027/event/0800653EEA8EC325",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -179308,19 +179126,9 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300789/Carly-Rae-Jepsen-tickets-Sat-May-22-2027-Fox-Theatre-Detroit",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
         "name": "VIP Package Presale",
         "start": "2026-10-06T14:00:00Z",
         "end": "2026-10-08T13:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
       },
       {
         "name": "Verizon Shine Select Seats",
@@ -179351,7 +179159,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-toronto-history-toronto-5-25-2027--concerts-pop/production/7636677",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-25-2027/event/1000653A09F7D88D",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -179395,16 +179203,6 @@
         "end": "2026-10-08T13:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
         "name": "VIP Package Public Onsale",
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-05-21T16:00:00Z"
@@ -179427,7 +179225,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-ottawa-history-ottawa-5-28-2027--concerts-pop/production/7636679",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-ottawa-ontario-05-28-2027/event/3100653A1E1309BA",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -179471,16 +179269,6 @@
         "end": "2026-10-08T13:45:00Z"
       },
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
-      {
         "name": "VIP Packages Public Onsale",
         "start": "2026-10-08T14:00:00Z",
         "end": "2027-05-24T16:00:00Z"
@@ -179503,7 +179291,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-montreal-mtelus-5-29-2027--concerts-pop/production/7636681",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-montreal-quebec-05-29-2027/event/3100653DB72263CC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -179568,16 +179356,6 @@
         "name": "Prévente Forfaits VIP Packages Presale",
         "start": "2026-10-05T14:00:00Z",
         "end": "2026-10-08T13:45:00Z"
-      },
-      {
-        "name": "Prévente Artiste",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-07T13:45:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
       },
       {
         "name": "Forfaits VIP Packages",
@@ -181430,7 +181208,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-albuquerque-new-mexico-10-14-2026/event/1E00643CEC7AA9DC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -181480,13 +181258,6 @@
     "ticketmaster_discovery_event_id": "G5vzZ_dSirnEj",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-02-06T17:00:00Z",
-        "end": "2026-10-08T05:59:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718205",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718205/Staind-tickets-Wed-Oct-14-2026-First-Financial-Credit-Union-Amphitheater"
   },
@@ -183900,7 +183671,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-omaha-nebraska-04-09-2027/event/060065429BA0997F",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -183979,6 +183750,11 @@
       },
       {
         "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T15:00:00Z",
+        "end": "2026-10-09T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
         "start": "2026-10-08T15:00:00Z",
         "end": "2026-10-09T03:00:00Z"
       },
@@ -188881,7 +188657,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-columbia-south-carolina-04-29-2027/event/2D00653EB7C32F38",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -188951,6 +188727,11 @@
       {
         "name": "Venue Presale - Internet Only!!",
         "start": "2026-10-07T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-10-08T14:00:00Z",
         "end": "2026-10-09T02:00:00Z"
       },
       {
@@ -189626,7 +189407,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-26-2027/event/10006544C72C8970",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -189664,11 +189445,6 @@
     "status": "announced",
     "public_onsale_at": "2026-10-08T14:00:00Z",
     "presales": [
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      },
       {
         "name": "VIP Package Presale",
         "start": "2026-10-07T14:00:00Z",
@@ -190031,7 +189807,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-boston-massachusetts-04-22-2027/event/01006535BB7D169E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -190067,7 +189843,24 @@
     "ticketmaster_discovery_event_id": "vv1AvZkfgGkeDLoQr",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-07T16:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "Citizens Bank Presale",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T14:00:00Z",
+        "end": "2026-10-09T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fontaines-d-c-2027-vancouver-1aozk4v0aa_zegf",
@@ -190085,7 +189878,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fontaines-dc-vancouver-british-columbia-05-06-2027/event/11006541909259B7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -190121,6 +189914,23 @@
     "ticketmaster_discovery_event_id": "1aoZk4v0aa_ZeGF",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-07T19:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-08T17:00:00Z",
+        "end": "2026-10-09T05:00:00Z"
+      }
+    ]
   }
 ]

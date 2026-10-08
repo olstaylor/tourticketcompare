@@ -397,7 +397,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-brooklyn-brooklyn-paramount-10-14-2026--concerts-dance-electronica/production/7144060",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-brooklyn-new-york-10-14-2026/event/000064C5B8594A98",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-08",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456,14 +456,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8042269/Sylvan-Esso-tickets-Wed-Oct-14-2026-Brooklyn-Paramount",
     "stubhub_international_url": "https://www.stubhub.ie/sylvan-esso-brooklyn-tickets-10-14-2026/event/107452575",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042269",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-12T14:00:00Z",
-        "end": "2026-10-08T02:00:00Z"
-      }
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8042269"
   },
   {
     "id": "tm-sylvan-esso-2026-portland-vvg17z_gkbpmvl",

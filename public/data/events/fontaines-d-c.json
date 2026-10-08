@@ -2326,6 +2326,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671885",
+        "url": "https://www.stubhub.ie/fontaines-d-c-inglewood-tickets-10-15-2027/event/107671885",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1ke8vPuYGA5P1Et",
@@ -2350,7 +2357,8 @@
         "start": "2026-10-08T17:00:00Z",
         "end": "2026-10-09T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-inglewood-tickets-10-15-2027/event/107671885"
   },
   {
     "id": "tm-fontaines-d-c-2026-amsterdam-z698xzbpz1kgf-z84",

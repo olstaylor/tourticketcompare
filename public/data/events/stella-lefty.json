@@ -1523,6 +1523,13 @@
         "verified": true,
         "last_verified_at": "2026-09-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670970",
+        "url": "https://www.stubhub.ie/stella-lefty-washington-tickets-1-23-2027/event/107670970",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkffGkdf8c-z",
@@ -1536,7 +1543,8 @@
         "start": "2026-08-28T14:00:00Z",
         "end": "2027-01-19T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/stella-lefty-washington-tickets-1-23-2027/event/107670970"
   },
   {
     "id": "tm-stella-lefty-2027-charlotte-g5evz_o9kpb3z",

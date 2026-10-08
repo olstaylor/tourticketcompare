@@ -3046,6 +3046,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670992",
+        "url": "https://www.stubhub.ie/greta-van-fleet-tickets-berlin-uber-arena-21-5-2027/event/107670992",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kfv0ZvS",
@@ -3078,7 +3085,8 @@
         "start": "2026-10-08T08:00:00Z",
         "end": "2026-10-09T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-berlin-uber-arena-21-5-2027/event/107670992"
   },
   {
     "id": "tm-greta-van-fleet-2027-amsterdam-z698xzbpz1kpzobgo",
@@ -4125,6 +4133,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671900",
+        "url": "https://www.stubhub.ie/greta-van-fleet-kansas-city-tickets-7-13-2027/event/107671900",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4vGkdr0kg1",
@@ -4139,7 +4154,8 @@
         "start": "2026-10-13T19:00:00Z",
         "end": "2026-10-15T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-kansas-city-tickets-7-13-2027/event/107671900"
   },
   {
     "id": "tm-greta-van-fleet-2027-saint-louis-vv17bz_kgkm_stkv",

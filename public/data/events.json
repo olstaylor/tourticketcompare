@@ -2348,11 +2348,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107083221",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-7-2026/event/107083221",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -2365,7 +2365,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfAnI1y",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-7-2026/event/107083221",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -8767,11 +8767,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107164276",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-charlotte-tickets-10-7-2026/event/107164276",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -8780,7 +8780,7 @@
     "ticketmaster_discovery_event_id": "G5eVZ_aUyED-b",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-charlotte-tickets-10-7-2026/event/107164276"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-olivia-rodrigo-2026-charlotte-g5evz_auyt5-g",
@@ -17456,11 +17456,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107073305",
-        "url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-7-2026/event/107073305",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
@@ -17469,7 +17469,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_eheo7is",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-7-2026/event/107073305"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_epx9ygn",
@@ -75160,6 +75160,13 @@
         "verified": true,
         "last_verified_at": "2026-09-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670970",
+        "url": "https://www.stubhub.ie/stella-lefty-washington-tickets-1-23-2027/event/107670970",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkffGkdf8c-z",
@@ -75173,7 +75180,8 @@
         "start": "2026-08-28T14:00:00Z",
         "end": "2027-01-19T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/stella-lefty-washington-tickets-1-23-2027/event/107670970"
   },
   {
     "id": "tm-stella-lefty-2027-charlotte-g5evz_o9kpb3z",
@@ -111530,6 +111538,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672442",
+        "url": "https://www.stubhub.ie/kenny-chesney-foxborough-tickets-8-27-2027/event/107672442",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GkT1lKmv",
@@ -111543,7 +111558,8 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-08-06T21:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-foxborough-tickets-8-27-2027/event/107672442"
   },
   {
     "id": "tm-kenny-chesney-2027-foxborough-vv1avzkfxgkdu8gfo",
@@ -137989,6 +138005,13 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671866",
+        "url": "https://www.stubhub.ie/needtobreathe-washington-tickets-3-6-2027/event/107671866",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfgGkdjQhAU",
@@ -138002,7 +138025,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-02-28T04:55:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/needtobreathe-washington-tickets-3-6-2027/event/107671866"
   },
   {
     "id": "tm-needtobreathe-2027-pittsburgh-1apzkfggkd9zzsh",
@@ -169840,6 +169864,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670992",
+        "url": "https://www.stubhub.ie/greta-van-fleet-tickets-berlin-uber-arena-21-5-2027/event/107670992",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kfv0ZvS",
@@ -169872,7 +169903,8 @@
         "start": "2026-10-08T08:00:00Z",
         "end": "2026-10-09T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-berlin-uber-arena-21-5-2027/event/107670992"
   },
   {
     "id": "tm-greta-van-fleet-2027-amsterdam-z698xzbpz1kpzobgo",
@@ -170919,6 +170951,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671900",
+        "url": "https://www.stubhub.ie/greta-van-fleet-kansas-city-tickets-7-13-2027/event/107671900",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4vGkdr0kg1",
@@ -170933,7 +170972,8 @@
         "start": "2026-10-13T19:00:00Z",
         "end": "2026-10-15T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-kansas-city-tickets-7-13-2027/event/107671900"
   },
   {
     "id": "tm-greta-van-fleet-2027-saint-louis-vv17bz_kgkm_stkv",
@@ -174366,6 +174406,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671885",
+        "url": "https://www.stubhub.ie/fontaines-d-c-inglewood-tickets-10-15-2027/event/107671885",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1ke8vPuYGA5P1Et",
@@ -174390,7 +174437,8 @@
         "start": "2026-10-08T17:00:00Z",
         "end": "2026-10-09T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-inglewood-tickets-10-15-2027/event/107671885"
   },
   {
     "id": "tm-riley-green-2026-durant-vvg1yz_ggasrcz",
@@ -179430,17 +179478,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107148173",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-hamburg-barclays-arena-hamburg-7-10-2026/event/107148173",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1ka-fJkp",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-hamburg-barclays-arena-hamburg-7-10-2026/event/107148173"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-niall-horan-2026-berlin-z698xzc2z16vvx0w-e",
@@ -180046,6 +180094,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671926",
+        "url": "https://www.stubhub.ie/pink-martini-tickets-edinburgh-usher-hall-4-7-2027/event/107671926",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZk4AGkdmo6DJ",
@@ -180058,7 +180113,8 @@
         "start": "2026-10-08T08:00:00Z",
         "end": "2026-10-09T07:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/pink-martini-tickets-edinburgh-usher-hall-4-7-2027/event/107671926"
   },
   {
     "id": "tm-the-neighbourhood-2026-san-francisco-g5vyzbgd1f1iu",
@@ -189318,6 +189374,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671924",
+        "url": "https://www.stubhub.ie/pink-martini-tickets-london-london-royal-albert-hall-2-7-2027/event/107671924",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_fQbBwez",
@@ -189330,7 +189393,8 @@
         "start": "2026-10-08T08:00:00Z",
         "end": "2026-10-09T07:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/pink-martini-tickets-london-london-royal-albert-hall-2-7-2027/event/107671924"
   },
   {
     "id": "tm-haiden-henderson-2027-salt-lake-city-z7r9jz1aaeefa",

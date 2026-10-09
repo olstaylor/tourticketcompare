@@ -136,8 +136,8 @@ export (used by the indexing pilot report) also use page-backed redirects.
 
 Page-backed is not proof of a person: `/api/analytics` is public, so
 automation that runs page scripts or posts beacons still passes. It also
-misses real visitors with JavaScript off, a lost beacon, or an IP change
-between page and click, so the remainder is mostly but not provably crawler
+misses real visitors with JavaScript off, a lost beacon, an IP change
+between page and click, or a page view and click either side of midnight UTC, so the remainder is mostly but not provably crawler
 traffic.
 
 Every qualified receipt (`outbound_attempt`, `outbound_click`,

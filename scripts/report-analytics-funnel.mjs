@@ -26,7 +26,7 @@ import { buildD1ReadArgs } from "./lib/d1-read.mjs";
 import { humanRedirectSql } from "./lib/human-clicks.mjs";
 
 // Redirects count only when page-backed (visitor sent a page event that day):
-// outbound_click rows are a crawler hitting /api/out directly. See
+// most raw outbound_click rows are a crawler hitting /api/out directly. See
 // scripts/lib/human-clicks.mjs.
 const PEOPLE_ONLY = ` AND (event_name != 'outbound_click' OR (${humanRedirectSql()}))`;
 

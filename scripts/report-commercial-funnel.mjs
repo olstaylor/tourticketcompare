@@ -887,7 +887,7 @@ export function renderReport(report) {
   ));
   lines.push("");
 
-  lines.push("-- Reconciliation by provider (raw, includes crawler redirects) --");
+  lines.push("-- Reconciliation by provider (not page-filtered; includes redirects without page evidence) --");
   lines.push(renderTable(
     ["provider", "attempts", "redirected", "blocked", "affiliate", "GA4 eligible", "Impact IDs"],
     report.reconciliation_by_provider.map((row) => [

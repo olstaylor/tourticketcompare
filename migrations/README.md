@@ -30,7 +30,7 @@ Notes:
 - `npm run demand:migrate` runs **only** `0001_demand.sql`. Later migrations were applied
   one-off with `wrangler d1 execute tourticketcompare-demand --remote --file migrations/<file>`,
   except `0007`, which is applied via its dedicated GitHub Actions workflow and is safe to
-  re-run (idempotent).
+  re-run (idempotent), and `0011`, which was applied through the D1 Console on 2026-10-09.
 - New migrations should take the next `NNNN_` number and be applied the same way, then
   recorded here. Confirm live schema state through the price-snapshot run summaries and
   `/api/health` rather than assuming from this file.

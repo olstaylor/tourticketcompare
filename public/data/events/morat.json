@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-inglewood-intuit-dome-2-26-2027/production/7047204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-inglewood-california-02-26-2027/event/090064AFF1A0DF67",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -80,6 +80,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T17:00:00Z",
         "end": "2027-02-20T01:00:00Z"
+      },
+      {
+        "name": "Weekend Special",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2026-10-13T05:00:00Z"
       }
     ]
   },
@@ -99,7 +104,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-el-paso-don-haskins-center-2-28-2027/production/7047161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-el-paso-texas-02-28-2027/event/0C0064AFA338822A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -164,6 +169,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T16:00:00Z",
         "end": "2027-02-22T00:00:00Z"
+      },
+      {
+        "name": "Weekend Special",
+        "start": "2026-10-09T16:00:00Z",
+        "end": "2026-10-13T04:00:00Z"
       }
     ]
   },
@@ -183,7 +193,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-rosemont-illinois-03-05-2027/event/040064A78C386CA4",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -248,6 +258,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T15:00:00Z",
         "end": "2027-02-26T23:00:00Z"
+      },
+      {
+        "name": "Weekend Special Offer",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2026-10-13T03:00:00Z"
       }
     ]
   },
@@ -481,7 +496,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-hidalgo-payne-arena-3-14-2027/production/7047159",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-hidalgo-texas-03-14-2027/event/3A0064AE96BE7CBC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -546,6 +561,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T15:00:00Z",
         "end": "2027-03-07T23:00:00Z"
+      },
+      {
+        "name": "Weekend Special",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2026-10-13T03:00:00Z"
       }
     ]
   },
@@ -565,7 +585,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-orlando-kia-center-3-18-2027/production/7047153",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-orlando-florida-03-18-2027/event/220064AF8C665BDB",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -630,6 +650,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-05-28T14:00:00Z",
         "end": "2027-03-11T22:00:00Z"
+      },
+      {
+        "name": "Weekend Special",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2026-10-13T02:00:00Z"
       }
     ]
   },

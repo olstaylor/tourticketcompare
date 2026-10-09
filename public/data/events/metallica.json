@@ -1958,7 +1958,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-15-2026/event/17006455FF51D56A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1993,14 +1993,7 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zko4GkdTfq4n",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-06T18:00:00Z",
-        "end": "2026-10-09T05:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfq4i",

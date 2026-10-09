@@ -1563,7 +1563,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/pink-martini-liverpool-03-07-2027/event/1F0065459E1F267D",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1598,15 +1598,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_fpr6w_W",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T08:00:00Z",
-    "presales": [
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T07:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-pink-martini-2027-edinburgh-1auzk4agkdmo6dj",
@@ -1624,7 +1616,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/pink-martini-edinburgh-04-07-2027/event/36006545EE447EE6",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1666,15 +1658,7 @@
     },
     "ticketmaster_discovery_event_id": "1AUZk4AGkdmo6DJ",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T08:00:00Z",
-    "presales": [
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T07:00:00Z"
-      }
-    ],
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/pink-martini-tickets-edinburgh-usher-hall-4-7-2027/event/107671926"
   },
   {
@@ -1693,7 +1677,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/pink-martini-london-02-07-2027/event/1F00654698EB20B8",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1735,15 +1719,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_fQbBwez",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T08:00:00Z",
-    "presales": [
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T07:00:00Z"
-      }
-    ],
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/pink-martini-tickets-london-london-royal-albert-hall-2-7-2027/event/107671924"
   }
 ]

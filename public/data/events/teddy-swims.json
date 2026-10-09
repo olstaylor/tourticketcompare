@@ -672,7 +672,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-boston-td-garden-10-9-2026--concerts-rb/production/6911924",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-boston-massachusetts-10-09-2026/event/0100648A63DE2A43",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -731,14 +731,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883099",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883099/Teddy-Swims-tickets-Fri-Oct-9-2026-TD-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-boston-tickets-10-9-2026/event/107158269",
-    "presales": [
-      {
-        "name": "T-Mobile Reserved Tickets",
-        "start": "2026-09-09T16:00:00Z",
-        "end": "2026-10-08T16:00:00Z"
-      }
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-boston-tickets-10-9-2026/event/107158269"
   },
   {
     "id": "tm-teddy-swims-2026-philadelphia-1adzz_fgkm5wpjt",
@@ -999,7 +992,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-charlotte-spectrum-center-10-18-2026--concerts-rb/production/6911963",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-charlotte-north-carolina-10-18-2026/event/2D00648DB77333B2",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1060,11 +1053,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883104/Teddy-Swims-tickets-Sun-Oct-18-2026-Spectrum-Center",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-charlotte-tickets-10-18-2026/event/107168138",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-04-24T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
       {
         "name": "$30 Ticket",
         "start": "2026-09-18T14:00:00Z",
@@ -1177,7 +1165,7 @@
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-orlando-kia-center-10-22-2026--concerts-rb/production/6911973",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-orlando-florida-10-22-2026/event/2200648ECACE6269",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1238,11 +1226,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883107/Teddy-Swims-tickets-Thu-Oct-22-2026-Kia-Center",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-orlando-tickets-10-22-2026/event/107158271",
     "presales": [
-      {
-        "name": "Chime Visa Post-Sale",
-        "start": "2026-04-24T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-04-24T14:00:00Z",

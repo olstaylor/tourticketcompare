@@ -78,8 +78,13 @@ MAX_EVENTS_PER_PAGE = 100
 MAX_DISCOVERY_PAGES = 5
 
 # Status codes from dates.status.code that may be proposed. Anything else
-# (cancelled, postponed, rescheduled, offsale, ...) is withheld.
-PROPOSABLE_STATUS_CODES = {"onsale", ""}
+# (cancelled, postponed, offsale, ...) is withheld. A `rescheduled` record
+# already carries its new date and stays on sale, so it is proposed like
+# `onsale` (owner-approved 2026-10-09; existing rows already keep their links
+# when they are rescheduled).
+PROPOSABLE_STATUS_CODES = {"onsale", "rescheduled", ""}
+# A rescheduled date further out than this is treated as a placeholder.
+RESCHEDULED_MAX_DAYS = 450
 
 # Travel/hospitality upsell markers checked against event name and URL.
 TRAVEL_PACKAGE_MARKERS = ("travel", "hotel", "package", "parking", "shuttle", "hospitality")
@@ -530,6 +535,19 @@ def load_tombstones(path=TOMBSTONES_PATH):
         return {}
 
 
+def rescheduled_too_far(datetime_iso, now_iso):
+    try:
+        start = datetime.fromisoformat(datetime_iso.replace("Z", "+00:00"))
+        now = datetime.fromisoformat(now_iso.replace("Z", "+00:00"))
+    except ValueError:
+        return True
+    if start.tzinfo is None:
+        start = start.replace(tzinfo=timezone.utc)
+    if now.tzinfo is None:
+        now = now.replace(tzinfo=timezone.utc)
+    return (start - now).days > RESCHEDULED_MAX_DAYS
+
+
 def pending_public_onsale(tm_event, status_code, now_iso):
     """The verbatim public on-sale time when an `offsale` date has one in the
     future, else "". Such a date is proposable (auto-ingest PR 5): it is shown
@@ -591,6 +609,10 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
     public_onsale_at = pending_public_onsale(tm_event, status_code, now_iso)
     if status_code not in PROPOSABLE_STATUS_CODES and not public_onsale_at:
         withhold("status_not_onsale", f"status is '{status_code}' (not onsale)")
+    elif status_code == "rescheduled" and datetime_iso and rescheduled_too_far(datetime_iso, now_iso):
+        # Ticketmaster sometimes parks a rescheduled show on a far-off stand-in
+        # date until the real one is set; never publish that as a show date.
+        withhold("status_not_onsale", f"rescheduled date is over {RESCHEDULED_MAX_DAYS} days out (likely a placeholder)")
     if not venue_name:
         withhold("missing_venue", "missing venue")
     if not city:
@@ -1075,7 +1097,7 @@ def self_test():
     check(
         "non-allowlisted host withheld",
         any("not in the out.js" in r for r in classify(
-            make_event(url="https://www.ticketmaster.com.mx/raye/event/VV001")
+            make_event(url="https://www.ticketmaster.com.ar/raye/event/VV001")
         )["withheld_reasons"]),
     )
     wrapped_ok = classify(
@@ -1133,7 +1155,7 @@ def self_test():
     check(
         "affiliate wrapper with non-allowlisted destination withheld",
         any("not in the out.js" in r for r in classify(
-            make_event(url="https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.ticketmaster.com.mx%2Fevent%2FVV001")
+            make_event(url="https://ticketmaster.evyy.net/c/1/2/3?u=https%3A%2F%2Fwww.ticketmaster.com.ar%2Fevent%2FVV001")
         )["withheld_reasons"]),
     )
     check(
@@ -1376,7 +1398,7 @@ def self_test():
     check(
         "codes and human reasons stay index-aligned",
         (lambda r: len(r["withheld_reason_codes"]) == len(r["withheld_reasons"]) and len(r["withheld_reasons"]) >= 2)(
-            classify(make_event(url="https://www.ticketmaster.com.mx/raye/event/VV001",
+            classify(make_event(url="https://www.ticketmaster.com.ar/raye/event/VV001",
                                 dates={"start": {"dateTime": "2027-06-01T19:00:00Z"},
                                        "status": {"code": "cancelled"}}))
         ),
@@ -1391,6 +1413,10 @@ def self_test():
     check("offsale with no public on-sale stays withheld", "status_not_onsale" in codes_for(make_event(dates=offsale)))
     check("offsale whose public on-sale already passed stays withheld", "status_not_onsale" in codes_for(
         make_event(dates=offsale, sales={"public": {"startDateTime": "2026-01-01T09:00:00Z"}})))
+    check("a far-off rescheduled placeholder date stays withheld", rescheduled_too_far("2029-05-22T19:00:00Z", "2026-10-09T00:00:00Z"))
+    check("a rescheduled date within the window is not a placeholder", not rescheduled_too_far("2027-06-01T19:00:00Z", "2026-10-09T00:00:00Z"))
+    check("rescheduled status is proposable", "status_not_onsale" not in codes_for(
+        make_event(dates={"start": {"dateTime": "2027-06-01T19:00:00Z"}, "status": {"code": "rescheduled"}})))
     check("postponed stays withheld even with a future public on-sale", "status_not_onsale" in codes_for(
         make_event(dates={**offsale, "status": {"code": "postponed"}}, sales={"public": {"startDateTime": "2026-07-01T09:00:00Z"}})))
     check("pending public on-sale is carried verbatim", pending_public_onsale(
@@ -1400,7 +1426,7 @@ def self_test():
     check("missing venue emits missing_venue", "missing_venue" in codes_for(no_venue))
     check("missing city emits missing_city", "missing_city" in codes_for(no_city))
     check("non-allowlisted host emits host_not_allowlisted", "host_not_allowlisted" in codes_for(
-        make_event(url="https://www.ticketmaster.com.mx/raye/event/VV001")))
+        make_event(url="https://www.ticketmaster.com.ar/raye/event/VV001")))
     check("travel package emits travel_package_listing", "travel_package_listing" in codes_for(
         make_event(name="RAYE Hotel + Ticket Travel Package")))
     check("premium-seats listing emits travel_package_listing", "travel_package_listing" in codes_for(

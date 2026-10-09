@@ -58,6 +58,22 @@ test('intent matching rejects duplicates, missing receipts, tuple and timing mis
   assert.equal(result.conversion_rate, null);
 });
 
+test('direct Ticketmaster and malformed tokens retain checked destinations without a forwarded intent ID', async () => {
+  for (const token of ['0123456789abcdef0123456789abcdef', 'malformed-token']) {
+    const { db, env, request } = fixture();
+    try {
+      const response = await onRequestGet({ request: request(`showId=${event.id}&provider=ticketmaster&browserIntentId=${token}`), env });
+      assert.equal(response.status, 302);
+      assert.equal(response.headers.get('Location'), event.ticketmaster_url);
+      const click = db.prepare("SELECT * FROM analytics_events WHERE event_name='outbound_click'").get();
+      assert.equal(click.impact_reconciliation_eligible, 0);
+      assert.equal(JSON.parse(click.metadata_json).browserIntentId, normalizeBrowserIntentId(token) || undefined);
+      assert.equal(new URL(response.headers.get('Location')).searchParams.has('subId1'), false);
+      assert.equal(new URL(response.headers.get('Location')).searchParams.has('browserIntentId'), false);
+    } finally { db.close(); }
+  }
+});
+
 test('browser activation is consented, native, TTC-only and restores the link', () => {
   const source = readFileSync(new URL('../public/app.js', import.meta.url), 'utf8');
   const body = source.slice(source.indexOf('function attachBrowserIntent('), source.indexOf('\ndocument.addEventListener("click", (event) => {', source.indexOf('function attachBrowserIntent(')));

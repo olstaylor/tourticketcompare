@@ -197907,5 +197907,1701 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-toronto-1avzz_8gkmdenjm",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2026-12-29T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000650DC30A3737",
+    "ticketmaster_url": "https://www.ticketmaster.ca/transsiberian-orchestra-the-ghosts-of-christmas-toronto-ontario-12-29-2026/event/1000650DC30A3737",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/transsiberian-orchestra-the-ghosts-of-christmas-toronto-ontario-12-29-2026/event/1000650DC30A3737",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000650DC30A3737",
+        "discovery_event_id": "1AvZZ_8GkMdeNjM",
+        "url": "https://www.ticketmaster.ca/transsiberian-orchestra-the-ghosts-of-christmas-toronto-ontario-12-29-2026/event/1000650DC30A3737",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_8GkMdeNjM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-kansas-city-vv1kvovpkbgacwdwu",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2026-12-29T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060065198EC83CB6",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-kansas-city-missouri-12-29-2026/event/060065198EC83CB6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-kansas-city-missouri-12-29-2026/event/060065198EC83CB6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060065198EC83CB6",
+        "discovery_event_id": "vv1kvOvPkbGACwdwU",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-kansas-city-missouri-12-29-2026/event/060065198EC83CB6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvOvPkbGACwdwU",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-buffalo-k7vgf_okhdtog",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Buffalo",
+    "country": "United States Of America",
+    "venue": "KeyBank Center",
+    "datetime_iso": "2026-12-30T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006514DBEFF80C",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-buffalo-new-york-12-30-2026/event/00006514DBEFF80C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-buffalo-new-york-12-30-2026/event/00006514DBEFF80C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006514DBEFF80C",
+        "discovery_event_id": "k7vGF_oKhDTOG",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-buffalo-new-york-12-30-2026/event/00006514DBEFF80C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_oKhDTOG",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-saint-louis-vv1akzkfbgkdrsdgs",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Enterprise Center",
+    "datetime_iso": "2026-12-30T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006518DECC3331",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-saint-louis-missouri-12-30-2026/event/06006518DECC3331",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-saint-louis-missouri-12-30-2026/event/06006518DECC3331",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006518DECC3331",
+        "discovery_event_id": "vv1AkZkfbGkdrSdGs",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-saint-louis-missouri-12-30-2026/event/06006518DECC3331",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfbGkdrSdGs",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-saint-petersburg-z7r9jz1aae_gk",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler",
+    "city": "Saint Petersburg",
+    "country": "United States Of America",
+    "venue": "Jannus Live",
+    "datetime_iso": "2027-01-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_GK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_GK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_GK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_GK",
+        "discovery_event_id": "Z7r9jZ1AAe_GK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_GK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_GK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-atlanta-z7r9jz1aae_gf",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Eastern-GA",
+    "datetime_iso": "2027-01-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_Gf",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gf",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gf",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_Gf",
+        "discovery_event_id": "Z7r9jZ1AAe_Gf",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_Gf",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-nashville-z7r9jz1aaefb3",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler w/ Lamb",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Marathon Music Works",
+    "datetime_iso": "2027-02-04T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAefb3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefb3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefb3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAefb3",
+        "discovery_event_id": "Z7r9jZ1AAefb3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefb3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAefb3",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-boston-z7r9jz1aaefp9",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler w/ Lamb",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Roadrunner-Boston",
+    "datetime_iso": "2027-02-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAefp9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAefp9",
+        "discovery_event_id": "Z7r9jZ1AAefp9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAefp9",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-columbus-z7r9jz1aaef0s",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler w/ googly eyes",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Newport Music Hall",
+    "datetime_iso": "2027-02-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAef0S",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef0S",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef0S",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAef0S",
+        "discovery_event_id": "Z7r9jZ1AAef0S",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef0S",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAef0S",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-denver-z7r9jz1aae_g4",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Mission Ballroom",
+    "datetime_iso": "2027-03-01T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_G4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_G4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_G4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_G4",
+        "discovery_event_id": "Z7r9jZ1AAe_G4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_G4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_G4",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-san-francisco-z7r9jz1aae_gp",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Midway",
+    "datetime_iso": "2027-03-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_Gp",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gp",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gp",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_Gp",
+        "discovery_event_id": "Z7r9jZ1AAe_Gp",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gp",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_Gp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-salt-lake-city-z7r9jz1aaefp4",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Complex - UT",
+    "datetime_iso": "2027-03-10T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAefp4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAefp4",
+        "discovery_event_id": "Z7r9jZ1AAefp4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAefp4",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-seattle-z7r9jz1aae_g9",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Showbox SODO",
+    "datetime_iso": "2027-03-13T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_G9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_G9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_G9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_G9",
+        "discovery_event_id": "Z7r9jZ1AAe_G9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_G9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_G9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-portland-z7r9jz1aae_gb",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Roseland Theater",
+    "datetime_iso": "2027-03-14T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_Gb",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gb",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gb",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_Gb",
+        "discovery_event_id": "Z7r9jZ1AAe_Gb",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_Gb",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-red-clay-strays-2027-jacksonville-z7r9jz1aaef4f",
+    "artist_slug": "the-red-clay-strays",
+    "artist_name": "The Red Clay Strays",
+    "event_name": "The Red Clay Strays",
+    "city": "Jacksonville",
+    "country": "United States Of America",
+    "venue": "VyStar Veterans Arena",
+    "datetime_iso": "2027-02-27T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAef4f",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4f",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4f",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAef4f",
+        "discovery_event_id": "Z7r9jZ1AAef4f",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4f",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAef4f",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-red-clay-strays-2027-green-bay-z7r9jz1aaef4y",
+    "artist_slug": "the-red-clay-strays",
+    "artist_name": "The Red Clay Strays",
+    "event_name": "The Red Clay Strays",
+    "city": "Green Bay",
+    "country": "United States Of America",
+    "venue": "Resch Center",
+    "datetime_iso": "2027-08-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAef4Y",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4Y",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4Y",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAef4Y",
+        "discovery_event_id": "Z7r9jZ1AAef4Y",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4Y",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAef4Y",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-red-clay-strays-2027-fresno-z7r9jz1aaefgo",
+    "artist_slug": "the-red-clay-strays",
+    "artist_name": "The Red Clay Strays",
+    "event_name": "The Red Clay Strays w/ St. Paul and the Broken Bones",
+    "city": "Fresno",
+    "country": "United States Of America",
+    "venue": "Save Mart Center",
+    "datetime_iso": "2027-08-14T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAefGO",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefGO",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefGO",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAefGO",
+        "discovery_event_id": "Z7r9jZ1AAefGO",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefGO",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAefGO",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-red-clay-strays-2027-englewood-z7r9jz1aaef4s",
+    "artist_slug": "the-red-clay-strays",
+    "artist_name": "The Red Clay Strays",
+    "event_name": "The Red Clay Strays",
+    "city": "Englewood",
+    "country": "United States Of America",
+    "venue": "Fiddlers Green Amphitheatre",
+    "datetime_iso": "2027-08-29T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAef4s",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4s",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4s",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAef4s",
+        "discovery_event_id": "Z7r9jZ1AAef4s",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4s",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAef4s",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-red-clay-strays-2027-huntsville-z7r9jz1aaek-6",
+    "artist_slug": "the-red-clay-strays",
+    "artist_name": "The Red Clay Strays",
+    "event_name": "The Red Clay Strays w/ St. Paul and the Broken Bones",
+    "city": "Huntsville",
+    "country": "United States Of America",
+    "venue": "Orion Amphitheater",
+    "datetime_iso": "2027-09-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeK-6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeK-6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeK-6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeK-6",
+        "discovery_event_id": "Z7r9jZ1AAeK-6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeK-6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeK-6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-red-clay-strays-2027-oklahoma-city-z7r9jz1aaefef",
+    "artist_slug": "the-red-clay-strays",
+    "artist_name": "The Red Clay Strays",
+    "event_name": "The Red Clay Strays w/ St. Paul and the Broken Bones",
+    "city": "Oklahoma City",
+    "country": "United States Of America",
+    "venue": "Paycom Center",
+    "datetime_iso": "2027-09-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAefef",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefef",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefef",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAefef",
+        "discovery_event_id": "Z7r9jZ1AAefef",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefef",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAefef",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-columbus-z7r9jz1aaepk6",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines DC w/ Iceage",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "KEMBA Live!",
+    "datetime_iso": "2027-09-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAepk6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepk6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepk6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAepk6",
+        "discovery_event_id": "Z7r9jZ1AAepk6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepk6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAepk6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-forest-hills-z7r9jz1aaep7g",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C.",
+    "city": "Forest Hills",
+    "country": "United States Of America",
+    "venue": "Forest Hills Stadium",
+    "datetime_iso": "2027-09-28T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAep7g",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAep7g",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAep7g",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAep7g",
+        "discovery_event_id": "Z7r9jZ1AAep7g",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAep7g",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAep7g",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-forest-hills-z7r9jz1aa7v_9",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C.",
+    "city": "Forest Hills",
+    "country": "United States Of America",
+    "venue": "Forest Hills Stadium",
+    "datetime_iso": "2027-09-29T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7v_9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7v_9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7v_9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7v_9",
+        "discovery_event_id": "Z7r9jZ1AA7v_9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7v_9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7v_9",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-nashville-z7r9jz1aaepkf",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines DC",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Pinnacle - TN",
+    "datetime_iso": "2027-10-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAepkF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepkF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepkF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAepkF",
+        "discovery_event_id": "Z7r9jZ1AAepkF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepkF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAepkF",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-morrison-z7r9jz1aaepka",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines DC w/ Iceage",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-10-14T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAepka",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepka",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepka",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAepka",
+        "discovery_event_id": "Z7r9jZ1AAepka",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepka",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAepka",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-staind-2027-spokane-z7r9jz1aae_qs",
+    "artist_slug": "staind",
+    "artist_name": "Staind",
+    "event_name": "Staind: Break The Cycle 25th Anniversary Tour",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "Numerica Veterans Arena",
+    "datetime_iso": "2027-03-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_qS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_qS",
+        "discovery_event_id": "Z7r9jZ1AAe_qS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_qS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-staind-2027-billings-z7r9jz1aae_qg",
+    "artist_slug": "staind",
+    "artist_name": "Staind",
+    "event_name": "Staind: Break The Cycle 25th Anniversary Tou",
+    "city": "Billings",
+    "country": "United States Of America",
+    "venue": "First Interstate Arena",
+    "datetime_iso": "2027-04-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_qg",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qg",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_qg",
+        "discovery_event_id": "Z7r9jZ1AAe_qg",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_qg",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-staind-2027-cleveland-z7r9jz1aae_q-",
+    "artist_slug": "staind",
+    "artist_name": "Staind",
+    "event_name": "Staind: Break The Cycle 25th Anniversary Tour",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Rocket Arena",
+    "datetime_iso": "2027-04-16T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_q-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_q-",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_q-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_q-",
+        "discovery_event_id": "Z7r9jZ1AAe_q-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_q-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_q-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-warren-zeiders-2027-kansas-city-z7r9jz1aaeb7w",
+    "artist_slug": "warren-zeiders",
+    "artist_name": "Warren Zeiders",
+    "event_name": "Warren Zeiders",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "The Midland Theatre - MO",
+    "datetime_iso": "2027-04-02T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeb7w",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7w",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7w",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeb7w",
+        "discovery_event_id": "Z7r9jZ1AAeb7w",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7w",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb7w",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-warren-zeiders-2027-fort-worth-z7r9jz1aaeb7s",
+    "artist_slug": "warren-zeiders",
+    "artist_name": "Warren Zeiders",
+    "event_name": "Warren Zeiders (18+ Event)",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Billy Bob's",
+    "datetime_iso": "2027-04-10T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeb7S",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7S",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7S",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeb7S",
+        "discovery_event_id": "Z7r9jZ1AAeb7S",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7S",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb7S",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-warren-zeiders-2027-helotes-z7r9jz1aaeb7v",
+    "artist_slug": "warren-zeiders",
+    "artist_name": "Warren Zeiders",
+    "event_name": "Warren Zeiders (17 and under with guardian)",
+    "city": "Helotes",
+    "country": "United States Of America",
+    "venue": "John T Floore Country Store",
+    "datetime_iso": "2027-04-11T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeb7V",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7V",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7V",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeb7V",
+        "discovery_event_id": "Z7r9jZ1AAeb7V",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7V",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb7V",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-warren-zeiders-2027-louisville-z7r9jz1aaeb7g",
+    "artist_slug": "warren-zeiders",
+    "artist_name": "Warren Zeiders",
+    "event_name": "Warren Zeiders",
+    "city": "Louisville",
+    "country": "United States Of America",
+    "venue": "Old Foresters Paristown Hall",
+    "datetime_iso": "2027-04-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeb7g",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7g",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7g",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeb7g",
+        "discovery_event_id": "Z7r9jZ1AAeb7g",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7g",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb7g",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

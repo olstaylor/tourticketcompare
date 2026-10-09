@@ -3542,5 +3542,217 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255067"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-toronto-1avzz_8gkmdenjm",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2026-12-29T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000650DC30A3737",
+    "ticketmaster_url": "https://www.ticketmaster.ca/transsiberian-orchestra-the-ghosts-of-christmas-toronto-ontario-12-29-2026/event/1000650DC30A3737",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/transsiberian-orchestra-the-ghosts-of-christmas-toronto-ontario-12-29-2026/event/1000650DC30A3737",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000650DC30A3737",
+        "discovery_event_id": "1AvZZ_8GkMdeNjM",
+        "url": "https://www.ticketmaster.ca/transsiberian-orchestra-the-ghosts-of-christmas-toronto-ontario-12-29-2026/event/1000650DC30A3737",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_8GkMdeNjM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-kansas-city-vv1kvovpkbgacwdwu",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2026-12-29T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060065198EC83CB6",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-kansas-city-missouri-12-29-2026/event/060065198EC83CB6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-kansas-city-missouri-12-29-2026/event/060065198EC83CB6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060065198EC83CB6",
+        "discovery_event_id": "vv1kvOvPkbGACwdwU",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-kansas-city-missouri-12-29-2026/event/060065198EC83CB6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvOvPkbGACwdwU",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-buffalo-k7vgf_okhdtog",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Buffalo",
+    "country": "United States Of America",
+    "venue": "KeyBank Center",
+    "datetime_iso": "2026-12-30T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006514DBEFF80C",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-buffalo-new-york-12-30-2026/event/00006514DBEFF80C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-buffalo-new-york-12-30-2026/event/00006514DBEFF80C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006514DBEFF80C",
+        "discovery_event_id": "k7vGF_oKhDTOG",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-buffalo-new-york-12-30-2026/event/00006514DBEFF80C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_oKhDTOG",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-trans-siberian-orchestra-2026-saint-louis-vv1akzkfbgkdrsdgs",
+    "artist_slug": "trans-siberian-orchestra",
+    "artist_name": "Trans-Siberian Orchestra",
+    "event_name": "Trans-Siberian Orchestra - The Ghosts Of Christmas Eve",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Enterprise Center",
+    "datetime_iso": "2026-12-30T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006518DECC3331",
+    "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-saint-louis-missouri-12-30-2026/event/06006518DECC3331",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-saint-louis-missouri-12-30-2026/event/06006518DECC3331",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006518DECC3331",
+        "discovery_event_id": "vv1AkZkfbGkdrSdGs",
+        "url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-saint-louis-missouri-12-30-2026/event/06006518DECC3331",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkfbGkdrSdGs",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

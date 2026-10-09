@@ -2352,5 +2352,270 @@
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-columbus-z7r9jz1aaepk6",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines DC w/ Iceage",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "KEMBA Live!",
+    "datetime_iso": "2027-09-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAepk6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepk6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepk6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAepk6",
+        "discovery_event_id": "Z7r9jZ1AAepk6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepk6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAepk6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-forest-hills-z7r9jz1aaep7g",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C.",
+    "city": "Forest Hills",
+    "country": "United States Of America",
+    "venue": "Forest Hills Stadium",
+    "datetime_iso": "2027-09-28T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAep7g",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAep7g",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAep7g",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAep7g",
+        "discovery_event_id": "Z7r9jZ1AAep7g",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAep7g",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAep7g",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-forest-hills-z7r9jz1aa7v_9",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C.",
+    "city": "Forest Hills",
+    "country": "United States Of America",
+    "venue": "Forest Hills Stadium",
+    "datetime_iso": "2027-09-29T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7v_9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7v_9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7v_9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7v_9",
+        "discovery_event_id": "Z7r9jZ1AA7v_9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7v_9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7v_9",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-nashville-z7r9jz1aaepkf",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines DC",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Pinnacle - TN",
+    "datetime_iso": "2027-10-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAepkF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepkF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepkF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAepkF",
+        "discovery_event_id": "Z7r9jZ1AAepkF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepkF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAepkF",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-morrison-z7r9jz1aaepka",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines DC w/ Iceage",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-10-14T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAepka",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepka",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepka",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAepka",
+        "discovery_event_id": "Z7r9jZ1AAepka",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepka",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAepka",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

@@ -68,7 +68,7 @@ sources:
 | `tags` | no | Lowercase hyphenated slugs. |
 | `author` | no | Defaults to `TourTicketCompare`, and the build rejects any other value: bylines credit the site (see `docs/CONTENT_RULES.md` → Voice and Attribution). The BlogPosting `author` is the Organization node. |
 | `related_guides` | no | Guide slugs without the `/guides/` prefix. Must exist. Each guide named here also links back to the post, under "From the blog" (newest three posts per guide). |
-| `related_artists` | no | Artist slugs. Must exist in `public/data/artists.json`. Each artist named here also links back to the post from its artist page (newest three posts per artist). |
+| `related_artists` | no | Artist slugs. Must exist in `public/data/artists.json`. Each artist named here also links back to the post from its artist page (newest three posts per artist). The first three named artists that are indexable and have upcoming shows also get a ticket-routes panel above the post body (date board, price guide when live, next indexable city pages; links only, no prices). |
 | `sources` | no | `label` + https `url` pairs. Rendered as a Sources section and as schema citations. |
 
 ### Body

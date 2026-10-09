@@ -28,6 +28,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
 import { buildD1ReadArgs } from "./lib/d1-read.mjs";
+import { humanRedirectSql } from "./lib/human-clicks.mjs";
 import { normalizeAnalyticsPath } from "../functions/_funnel.js";
 
 const execFileAsync = promisify(execFile);
@@ -255,11 +256,16 @@ export function assertNoPersonalColumns(sql) {
 // Qualified server receipts are explicitly versioned in metadata. This keeps
 // old, unqualified rows out of a rolling report window after the fetch-user
 // gate was deployed; the report must never silently combine the populations.
-const RECEIPT_QUALIFICATION = "json_extract(metadata_json, '$.receiptQualification') = 'fetch_user_v1'";
+const receiptQualification = (alias = "") => `json_extract(${alias ? `${alias}.` : ""}metadata_json, '$.receiptQualification') = 'fetch_user_v1'`;
+const RECEIPT_QUALIFICATION = receiptQualification();
 const SERVER_RECEIPT_EVENTS = "event_name IN ('outbound_attempt', 'outbound_click', 'outbound_blocked')";
 const QUALIFIED_SERVER_RECEIPT = `(${SERVER_RECEIPT_EVENTS} AND ${RECEIPT_QUALIFICATION})`;
-// The authoritative qualified outbound event, expressed once so no query can drift.
-const OUTBOUND = `(event_name = 'outbound_click' AND ${RECEIPT_QUALIFICATION})`;
+// The outbound event every click breakdown counts, expressed once so no query
+// can drift: a qualified server redirect whose visitor also sent a page event
+// that day. Automation that reaches /api/out without loading a page is still
+// counted in the qualified total in `totals` (see scripts/lib/human-clicks.mjs).
+const outboundSql = (alias = "") => `(${humanRedirectSql(alias)} AND ${receiptQualification(alias)})`;
+const OUTBOUND = outboundSql();
 
 export function buildStatements(window) {
   const since = windowClause(window);
@@ -270,7 +276,11 @@ export function buildStatements(window) {
       sql: `SELECT event_name, COUNT(*) AS events, COUNT(DISTINCT request_key) AS visitors, COUNT(DISTINCT (request_key || substr(created_at, 1, 10))) AS sessions
 FROM analytics_events
 WHERE (event_name IN ('page_view', 'artist_view', 'event_view', 'provider_cta_view', 'provider_click', 'email_signup', 'artist_interest', 'price_alert_interest') OR ${QUALIFIED_SERVER_RECEIPT})${since}
-GROUP BY 1`
+GROUP BY 1
+UNION ALL
+SELECT 'outbound_click_page_backed' AS event_name, COUNT(*) AS events, COUNT(DISTINCT request_key) AS visitors, COUNT(DISTINCT (request_key || substr(created_at, 1, 10))) AS sessions
+FROM analytics_events
+WHERE ${OUTBOUND}${since}`
     },
     {
       key: "viewsByPageType",
@@ -290,7 +300,7 @@ GROUP BY 1`
       key: "clicksByProvider",
       sql: `SELECT event_name, COALESCE(NULLIF(TRIM(provider), ''), '(none)') AS provider, COUNT(*) AS clicks
 FROM analytics_events
-WHERE (event_name = 'provider_click' OR ${QUALIFIED_SERVER_RECEIPT})${since}
+WHERE (event_name = 'provider_click' OR ${QUALIFIED_SERVER_RECEIPT}) AND (event_name != 'outbound_click' OR ${OUTBOUND})${since}
 GROUP BY 1, 2`
     },
     {
@@ -373,7 +383,7 @@ JOIN (
 ) entry
   ON entry.visitor_key = click.request_key
   AND entry.visit_day = substr(click.created_at, 1, 10)
-WHERE ${OUTBOUND.replaceAll("event_name", "click.event_name").replaceAll("metadata_json", "click.metadata_json")}${clickSince}
+WHERE ${outboundSql("click")}${clickSince}
 GROUP BY 1`
     },
     {
@@ -578,6 +588,7 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
 
   const pageViews = at("page_view");
   const outbound = at("outbound_click").events;
+  const outboundPageBacked = at("outbound_click_page_backed").events;
   const outboundAttempts = at("outbound_attempt").events;
   const providerClicks = at("provider_click").events;
   const ctaViews = at("provider_cta_view").events;
@@ -592,6 +603,9 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
     provider_clicks_client: providerClicks,
     outbound_attempts: outboundAttempts,
     provider_clicks: outbound,
+    provider_clicks_page_backed: outboundPageBacked,
+    provider_click_visitors_page_backed: at("outbound_click_page_backed").visitors,
+    redirects_without_page: Math.max(0, outbound - outboundPageBacked),
     outbound_blocked: at("outbound_blocked").events,
     signups: at("email_signup").events + at("artist_interest").events + at("price_alert_interest").events,
     // Retain the legacy keys, but never divide unpaired server and client
@@ -616,7 +630,7 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
   const byProvider = [...providerIndex.values()]
     .map((entry) => ({
       ...entry,
-      share_of_clicks: rate(entry.provider_clicks, outbound),
+      share_of_clicks: rate(entry.provider_clicks, outboundPageBacked),
       redirect_completion_rate: null
     }))
     .sort((a, b) => b.provider_clicks - a.provider_clicks || a.provider.localeCompare(b.provider));
@@ -769,6 +783,7 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
     measurement: {
       status: "unreconciled",
       redirect_count_basis: "server_issued_redirects_not_verified_human_clicks",
+      breakdown_basis: "page_backed_redirects_visitor_also_loaded_a_ttc_page",
       conversion_rates_withheld_reason: "full_client_and_server_populations_remain_unjoined_partial_consented_tokens_do_not_prove_humans_or_purchases",
       landing_attribution_basis: "approximate_visitor_day_join",
       qualified_affiliate_clicks: null
@@ -851,25 +866,28 @@ export function renderReport(report) {
       ["provider_click (client intent)", funnel.provider_clicks_client],
       ["outbound_attempt (server receipt)", funnel.outbound_attempts],
       ["outbound_click (server redirect)", funnel.provider_clicks],
+      ["  from visitors who loaded a page", funnel.provider_clicks_page_backed],
+      ["  without page evidence (mostly crawler)", funnel.redirects_without_page],
       ["outbound_blocked", funnel.outbound_blocked],
       ["signups", funnel.signups]
     ]
   ));
   lines.push("");
+  lines.push("Redirect breakdowns below count page-backed redirects (visitor sent a page event that day), except the reconciliation table, which stays raw for matching against Impact.");
   lines.push("-- Server redirects by provider --");
   lines.push(renderTable(
     ["provider", "redirects", "receipt_share", "client_intents", "blocked"],
     report.clicks_by_provider.map((row) => [
       row.provider,
       row.provider_clicks,
-      formatRate(row.share_of_clicks, report.funnel.provider_clicks, 0),
+      formatRate(row.share_of_clicks, report.funnel.provider_clicks_page_backed, 0),
       row.provider_clicks_client,
       row.blocked
     ])
   ));
   lines.push("");
 
-  lines.push("-- Reconciliation by provider --");
+  lines.push("-- Reconciliation by provider (not page-filtered; includes redirects without page evidence) --");
   lines.push(renderTable(
     ["provider", "attempts", "redirected", "blocked", "affiliate", "GA4 eligible", "Impact IDs"],
     report.reconciliation_by_provider.map((row) => [
@@ -1058,7 +1076,12 @@ function selfTest() {
       const statement = statements.find((entry) => entry.key === key);
       assert.match(statement.sql, /event_name = 'outbound_click'/, `${key} must count the authoritative outbound event`);
       assert.doesNotMatch(statement.sql, /IN \('provider_click', 'outbound_click'\)/, `${key} must not sum client and server clicks`);
+      assert.match(statement.sql, /IN \(SELECT seen\.request_key \|\| '\|' \|\| substr\(seen\.created_at, 1, 10\) FROM analytics_events seen WHERE seen\.event_name IN \('page_view'/, `${key} must count only page-backed redirects`);
     }
+    const providerSql = statements.find((entry) => entry.key === "clicksByProvider").sql;
+    assert.match(providerSql, /event_name != 'outbound_click' OR \(event_name = 'outbound_click' AND \(request_key \|\| '\|' \|\| substr\(created_at, 1, 10\)\) IN/, "provider redirects must be page-backed");
+    const totalsSql = statements.find((entry) => entry.key === "totals").sql;
+    assert.match(totalsSql, /'outbound_click_page_backed' AS event_name/, "totals must report page-backed redirects beside the raw count");
   });
 
   const fixtures = {
@@ -1069,6 +1092,7 @@ function selfTest() {
       { event_name: "provider_cta_view", events: 180, visitors: 80, sessions: 130 },
       { event_name: "provider_click", events: 50, visitors: 30, sessions: 40 },
       { event_name: "outbound_click", events: 44, visitors: 28, sessions: 36 },
+      { event_name: "outbound_click_page_backed", events: 44, visitors: 28, sessions: 36 },
       { event_name: "outbound_blocked", events: 6, visitors: 4, sessions: 5 },
       { event_name: "email_signup", events: 7, visitors: 7, sessions: 7 }
     ],
@@ -1168,6 +1192,20 @@ function selfTest() {
     assert.equal(report.funnel.cta_click_to_redirect_rate, null);
     assert.equal(report.measurement.qualified_affiliate_clicks, null);
     assert.equal(report.funnel.signups, 7);
+    assert.equal(report.funnel.provider_clicks_page_backed, 44);
+    assert.equal(report.funnel.redirects_without_page, 0);
+  });
+
+  // Crawler redirects stay visible in the raw total but out of every share.
+  check(() => {
+    const botHeavy = { ...fixtures, totals: fixtures.totals.map((row) => row.event_name === "outbound_click" ? { ...row, events: 900 } : row) };
+    const botReport = buildReport(botHeavy, options, { since: "2026-06-30T12:00:00.000Z", until: "" }, coverage);
+    assert.equal(botReport.funnel.provider_clicks, 900);
+    assert.equal(botReport.funnel.provider_clicks_page_backed, 44);
+    assert.equal(botReport.funnel.redirects_without_page, 856);
+    const seatgeek = botReport.clicks_by_provider.find((row) => row.provider === "seatgeek");
+    assert.equal(seatgeek.share_of_clicks, 26 / 44);
+    assert.match(renderReport(botReport), /without page evidence \(mostly crawler\)\s+\|?\s*856/);
   });
 
   // Below-threshold denominators must not produce a headline rate.

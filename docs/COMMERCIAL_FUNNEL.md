@@ -112,6 +112,55 @@ create a qualified redirect receipt. Protecting event names and requiring the
 browser-controlled navigation signal reduce injection and direct-request noise;
 they do not authenticate a human or make conversion rates safe.
 
+### Automated redirects and page-backed counting
+
+In September and October 2026 well over 90% of `outbound_click` rows came from
+a crawler that requests `/api/out` URLs directly with rotating stock browser
+user agents and residential IPs. `isLikelyBot` cannot see it. Those requests
+never load a page and arrive with no Referer, so most land on `source_path`
+`/` (`page_type` `home`).
+
+Since 9 Oct 2026 `/api/out` writes receipts only for requests carrying
+`Sec-Fetch-User: ?1` (see *Canonical definitions*), which drops script-made
+direct requests. A browser or headless browser opening a redirect URL
+directly still sends that header, so reports also count a redirect only when
+it is page-backed: its visitor
+key (`request_key`) also sent a browser event (`page_view`, `artist_view`,
+`event_view`, `provider_cta_view`, `provider_click` or `web_vitals`) on the
+same UTC day. The predicate lives in `scripts/lib/human-clicks.mjs`. The
+commercial funnel report shows the raw redirect total, the page-backed total
+and the remainder "without page evidence"; every breakdown and share uses
+page-backed redirects except the reconciliation table, which stays raw for
+matching against Impact. The analytics funnel report and the route-traffic
+export (used by the indexing pilot report) also use page-backed redirects.
+
+Page-backed is not proof of a person: `/api/analytics` is public, so
+automation that runs page scripts or posts beacons still passes. It also
+misses real visitors with JavaScript off, a lost beacon, an IP change
+between page and click, or a page view and click either side of midnight UTC, so the remainder is mostly but not provably crawler
+traffic.
+
+Every qualified receipt (`outbound_attempt`, `outbound_click`,
+`outbound_blocked`) also records `metadata_json.navigation`: `Sec-Fetch-Site`, `Sec-Fetch-Mode`,
+whether `Sec-Fetch-User` was set, whether the Referer was same-origin, and
+`direct` (neither a same-origin fetch nor a same-origin Referer). A click on a
+TTC page is never `direct` in a current browser; a browser opening the
+redirect URL from outside the site is (`Sec-Fetch-Site: none`). The flag is evidence only:
+the redirect is unchanged and the row is still written. It exists to confirm,
+before the owner adds one, that a Cloudflare rule challenging direct hits on
+`/api/out` would not touch real clicks.
+
+Page-backed restatement (Sep 2026 to 9 Oct 2026, raw vs page-backed redirects):
+
+| Week | Raw redirects | Page-backed redirects | Clicking visitors | Page-view visitors |
+|---|---|---|---|---|
+| 1-7 Sep | 4,237 | 58 | 37 | 143 |
+| 8-14 Sep | 10,272 | 14 | 12 | 144 |
+| 15-21 Sep | 2,736 | 79 | 50 | 166 |
+| 22-28 Sep | 3,181 | 63 | 45 | 221 |
+| 29 Sep-5 Oct | 5,577 | 134 | 93 | 359 |
+| 6-9 Oct (to 16:00 UTC) | 3,024 | 202 | 113 | 327 |
+
 ## Lizzy McAlpine price-guide measurement baseline
 
 Reviewed **2026-10-02**; compare again around **2026-10-30**, allowing about
@@ -502,7 +551,9 @@ Also currently unmeasurable:
   first-party analytics sees a visit only once it arrives.
 - **Whether a visit is human.** Bot filtering catches only crawlers that
   identify themselves. Headless automation with a stock browser user agent is
-  counted as a visitor.
+  counted as a visitor. Redirects are counted only when page-backed (see
+  *Automated redirects and page-backed counting*), which removes crawlers that
+  hit `/api/out` directly but not a headless browser that loads pages first.
 - **Cross-device journeys.** No cookie, no login, no identity graph.
 - **True sessions.** See *What "session" means here*.
 - **Ticketmaster revenue.** Ticketmaster is a plain, unmonetized verification

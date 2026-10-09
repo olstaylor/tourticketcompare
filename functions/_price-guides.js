@@ -130,7 +130,14 @@ export const PRICE_GUIDE_ARTISTS = Object.freeze([
   "greta-van-fleet",
   "fontaines-d-c",
   "carly-rae-jepsen",
-  "riley-green"
+  "riley-green",
+  // 2026-10-09: every indexable artist without a guide whose data clears the
+  // guide gate today (staind and warren-zeiders have Ticketmaster public
+  // on-sales on 2026-10-09).
+  "dylan-gossett",
+  "staind",
+  "warren-zeiders",
+  "flans"
 ]);
 
 export const PRICE_GUIDE_SEGMENT = "ticket-prices";

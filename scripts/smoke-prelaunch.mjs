@@ -4131,7 +4131,7 @@ assert(/<h1[^>]*>[^<]*Tickets in /.test(artistCityPage.text), "artist-city page 
 // than only its head.
 const artistCityTitle = extractTitle(artistCityPage.text);
 assert(
-  /\| (Compare )?Prices at [^|]+$|\| Compare Prices & Dates$|\| Compare Prices$| Tickets(?: \d{4}(?:–\d{4})?)?$/.test(artistCityTitle),
+  /\| (Compare |Ticket )?Prices at [^|]+$|\| Compare Ticket Prices$|\| Compare Prices & Dates$|\| Compare Prices$| Tickets(?: \d{4}(?:–\d{4})?)?$/.test(artistCityTitle),
   `artist-city title should follow the fitTitleToBudget ladder (was "${artistCityTitle}")`
 );
 // Every rung keeps "<artist> <city> Tickets", so the ladder check above cannot

@@ -252,8 +252,14 @@ export function assertNoPersonalColumns(sql) {
   return body;
 }
 
-// The authoritative outbound event, expressed once so no query can drift.
-const OUTBOUND = "event_name = 'outbound_click'";
+// Qualified server receipts are explicitly versioned in metadata. This keeps
+// old, unqualified rows out of a rolling report window after the fetch-user
+// gate was deployed; the report must never silently combine the populations.
+const RECEIPT_QUALIFICATION = "json_extract(metadata_json, '$.receiptQualification') = 'fetch_user_v1'";
+const SERVER_RECEIPT_EVENTS = "event_name IN ('outbound_attempt', 'outbound_click', 'outbound_blocked')";
+const QUALIFIED_SERVER_RECEIPT = `(${SERVER_RECEIPT_EVENTS} AND ${RECEIPT_QUALIFICATION})`;
+// The authoritative qualified outbound event, expressed once so no query can drift.
+const OUTBOUND = `(event_name = 'outbound_click' AND ${RECEIPT_QUALIFICATION})`;
 
 export function buildStatements(window) {
   const since = windowClause(window);
@@ -263,7 +269,7 @@ export function buildStatements(window) {
       key: "totals",
       sql: `SELECT event_name, COUNT(*) AS events, COUNT(DISTINCT request_key) AS visitors, COUNT(DISTINCT (request_key || substr(created_at, 1, 10))) AS sessions
 FROM analytics_events
-WHERE event_name IN ('page_view', 'artist_view', 'event_view', 'provider_cta_view', 'provider_click', 'outbound_attempt', 'outbound_click', 'outbound_blocked', 'email_signup', 'artist_interest', 'price_alert_interest')${since}
+WHERE (event_name IN ('page_view', 'artist_view', 'event_view', 'provider_cta_view', 'provider_click', 'email_signup', 'artist_interest', 'price_alert_interest') OR ${QUALIFIED_SERVER_RECEIPT})${since}
 GROUP BY 1`
     },
     {
@@ -284,7 +290,7 @@ GROUP BY 1`
       key: "clicksByProvider",
       sql: `SELECT event_name, COALESCE(NULLIF(TRIM(provider), ''), '(none)') AS provider, COUNT(*) AS clicks
 FROM analytics_events
-WHERE event_name IN ('provider_click', 'outbound_click', 'outbound_blocked')${since}
+WHERE (event_name = 'provider_click' OR ${QUALIFIED_SERVER_RECEIPT})${since}
 GROUP BY 1, 2`
     },
     {
@@ -297,7 +303,7 @@ GROUP BY 1, 2`
   COUNT(CASE WHEN event_name = 'provider_click' THEN 1 END) AS ga4_eligible_events,
   COUNT(DISTINCT CASE WHEN event_name = 'outbound_click' AND impact_reconciliation_eligible = 1 THEN click_id END) AS impact_reconcilable_click_ids
 FROM analytics_events
-WHERE event_name IN ('outbound_attempt', 'outbound_click', 'outbound_blocked', 'provider_click')${since}
+WHERE (event_name = 'provider_click' OR ${QUALIFIED_SERVER_RECEIPT})${since}
 GROUP BY 1`
     },
     {
@@ -367,7 +373,7 @@ JOIN (
 ) entry
   ON entry.visitor_key = click.request_key
   AND entry.visit_day = substr(click.created_at, 1, 10)
-WHERE click.event_name = 'outbound_click'${clickSince}
+WHERE ${OUTBOUND.replaceAll("event_name", "click.event_name").replaceAll("metadata_json", "click.metadata_json")}${clickSince}
 GROUP BY 1`
     },
     {
@@ -413,7 +419,7 @@ GROUP BY 1`
       key: "blockedByStatus",
       sql: `SELECT COALESCE(NULLIF(TRIM(provider), ''), '(none)') AS provider, COALESCE(NULLIF(TRIM(json_extract(metadata_json, '$.status')), ''), '(unknown)') AS status, COUNT(*) AS blocked
 FROM analytics_events
-WHERE event_name = 'outbound_blocked'${since}
+WHERE event_name = 'outbound_blocked' AND ${RECEIPT_QUALIFICATION}${since}
 GROUP BY 1, 2`
     }
   ];

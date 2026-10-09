@@ -23,6 +23,10 @@ qualified row was recorded, and a 3xx was issued. `outbound_blocked` means the
 same qualified attempt fail-closed before a 3xx, with a safe failure reason.
 Valid headerless requests still receive exactly the same redirect or safe
 failure response; they simply do not add a funnel receipt.
+Qualified rows carry `receiptQualification: "fetch_user_v1"` in their internal
+metadata. Commercial reports select that marker, so rolling reporting windows
+do not blend these rows with legacy unqualified receipts from before this
+change.
 
 Affiliate/non-affiliate status is based on the actual redirect hostname:
 reviewed Impact/tracking hosts are `affiliate_network`; reviewed provider hosts

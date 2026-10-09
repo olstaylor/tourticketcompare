@@ -2432,6 +2432,12 @@ function hasUserNavigationSignal(request) {
   return request?.method === "GET" && request.headers.get("sec-fetch-user") === "?1";
 }
 
+// Keep this marker in metadata rather than adding a D1 column: it makes the
+// post-deployment measurement population explicit without a schema migration.
+// Funnel reports must select it so old, unqualified rows are never blended
+// into this population during a rolling date window.
+const RECEIPT_QUALIFICATION = "fetch_user_v1";
+
 // The authoritative qualified outbound-click record. Every monetized and
 // unmonetized CTA on the site navigates through here, so this row — not the
 // client beacon — is what the commercial funnel counts. `provider_click` is
@@ -2475,7 +2481,8 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
     guideSlug: link.guideSlug || undefined,
     position: link.position || undefined,
     outcome,
-    status: status || undefined
+    status: status || undefined,
+    receiptQualification: RECEIPT_QUALIFICATION
   });
 
   await insertAnalyticsRow(db, {
@@ -2540,7 +2547,8 @@ async function trackOutboundAttempt({ request, env, link, sourcePath, ctaLocatio
       ctaLocation: normalizeCtaLocation(ctaLocation) || undefined,
       guideSlug: link.guideSlug || undefined,
       position: link.position || undefined,
-      outcome: "attempted"
+      outcome: "attempted",
+      receiptQualification: RECEIPT_QUALIFICATION
     }),
     provider: link.provider || null,
     tour_slug: null,

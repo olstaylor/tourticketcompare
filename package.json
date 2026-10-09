@@ -59,6 +59,7 @@
     "validate:cta-provider-state:self-test": "node scripts/validate-cta-provider-state.mjs --self-test",
     "demand:migrate": "wrangler d1 execute tourticketcompare-demand --remote --file migrations/0001_demand.sql",
     "alerts:date:preview": "node scripts/send-date-alerts.mjs --mode preview",
+    "alerts:digest:preview": "node scripts/send-weekly-digest.mjs --mode preview",
     "demand:export": "wrangler d1 execute tourticketcompare-demand --remote --command \"SELECT * FROM email_subscribers\"",
     "events:partition": "python3 scripts/partition-events.py",
     "events:validate": "python3 scripts/validate-events.py",

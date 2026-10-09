@@ -1,14 +1,15 @@
-name: Artist date alerts
+name: Weekly presale digest
 
-# Sends the one-off "dates are now listed" email to watchlist signups whose
-# artist now has upcoming dates (scripts/send-date-alerts.mjs). Manual only:
-# there is deliberately no schedule until the owner has reviewed a test send
-# and decided to run it automatically.
+# Sends the weekly presale and on-sale email to signups who ticked the optional
+# updates box (scripts/send-weekly-digest.mjs). Manual only: there is
+# deliberately no schedule until the owner has reviewed test sends and decided
+# to run it automatically.
 #
-# preview  counts due alerts per artist; sends and writes nothing
-# test     sends one sample to test_to; records nothing
-# send     sends due alerts, up to `limit` per run, and records each in D1 so no
-#          one is emailed twice; the log says when more are left, so run it again
+# preview  lists what this week's email would contain and how many people are
+#          due; sends and writes nothing
+# test     sends this week's email to test_to; records nothing
+# send     sends this week's email to everyone due, up to `limit` per run, and
+#          records each in D1 so no one gets the same week twice
 
 on:
   workflow_dispatch:
@@ -23,12 +24,8 @@ on:
         description: "Recipient for a test send"
         required: false
         default: ""
-      artist:
-        description: "Artist slug for a test send (optional)"
-        required: false
-        default: ""
       limit:
-        description: "Most alerts one send run emails (rerun to send the rest)"
+        description: "Most emails one send run sends (rerun to send the rest)"
         required: false
         default: "500"
 
@@ -40,7 +37,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  alerts:
+  digest:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -53,25 +50,20 @@ jobs:
 
       - run: npm ci
 
-      - name: Run date alerts
+      - name: Run weekly digest
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          # Not a credential: the default works once tourticketcompare.com is
-          # verified in Resend. A secret of the same name overrides it.
+          # Not a credential; same default as date-alerts.yml.
           ALERT_EMAIL_FROM: ${{ secrets.ALERT_EMAIL_FROM || 'TourTicketCompare <alerts@tourticketcompare.com>' }}
           ALERT_POSTAL_ADDRESS: ${{ secrets.ALERT_POSTAL_ADDRESS }}
           ALERT_REPLY_TO: ${{ secrets.ALERT_REPLY_TO }}
           MODE: ${{ inputs.mode }}
           TEST_TO: ${{ inputs.test_to }}
-          ARTIST: ${{ inputs.artist }}
           LIMIT: ${{ inputs.limit }}
         run: |
           set -euo pipefail
           args=(--mode "$MODE" --limit "${LIMIT:-500}")
-          if [ "$MODE" = "test" ]; then
-            args+=(--test-to "$TEST_TO")
-            if [ -n "$ARTIST" ]; then args+=(--artist "$ARTIST"); fi
-          fi
-          node scripts/send-date-alerts.mjs "${args[@]}"
+          if [ "$MODE" = "test" ]; then args+=(--test-to "$TEST_TO"); fi
+          node scripts/send-weekly-digest.mjs "${args[@]}"

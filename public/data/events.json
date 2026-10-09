@@ -8837,18 +8837,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7921654",
-        "url": "https://www.ticketliquidator.com/tickets/7921654/Olivia-Rodrigo-tickets-Thu-Oct-8-2026-Spectrum-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107164277",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-charlotte-tickets-10-8-2026/event/107164277",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -8856,8 +8856,8 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5eVZ_aUyt5-g",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921654/Olivia-Rodrigo-tickets-Thu-Oct-8-2026-Spectrum-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-charlotte-tickets-10-8-2026/event/107164277"
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-olivia-rodrigo-2026-chicago-vv178z_agkyetuoa",
@@ -35464,26 +35464,26 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106954736",
-        "url": "https://www.stubhub.ie/doja-cat-denver-tickets-10-8-2026/event/106954736",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7457608",
-        "url": "https://www.ticketliquidator.com/tickets/7457608/Doja-Cat-tickets-Thu-Oct-8-2026-Ball-Arena",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbSEFO0An",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-denver-tickets-10-8-2026/event/106954736",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457608/Doja-Cat-tickets-Thu-Oct-8-2026-Ball-Arena"
+    "stubhub_international_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-doja-cat-2026-west-valley-city-g5vzzbslbgavf",
@@ -50181,18 +50181,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7676513",
-        "url": "https://www.ticketliquidator.com/tickets/7676513/Five-Finger-Death-Punch-tickets-Thu-Oct-8-2026-FirstBank-Amphitheater",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_eQoip4h",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676513/Five-Finger-Death-Punch-tickets-Thu-Oct-8-2026-FirstBank-Amphitheater"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-tampa-vvg1vz_eqhp7qi",
@@ -52259,26 +52259,26 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7976480",
-        "url": "https://www.ticketliquidator.com/tickets/7976480/Don-Omar-tickets-Thu-Oct-8-2026-Allstate-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107289093",
-        "url": "https://www.stubhub.ie/don-omar-rosemont-tickets-10-8-2026/event/107289093",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1BHCnVF",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976480/Don-Omar-tickets-Thu-Oct-8-2026-Allstate-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-rosemont-tickets-10-8-2026/event/107289093"
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-brooklyn-17gzv0g61dlian2",
@@ -140912,18 +140912,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8259348",
-        "url": "https://www.ticketliquidator.com/tickets/8259348/Tommy-Emmanuel-tickets-Thu-Oct-8-2026-Discovery-Theatre",
-        "verified": true,
-        "last_verified_at": "2026-09-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PdJf",
     "timezone": "America/Anchorage",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259348/Tommy-Emmanuel-tickets-Thu-Oct-8-2026-Discovery-Theatre"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-tommy-emmanuel-2026-kenai-vvg1hz_5wlthim",
@@ -149241,26 +149241,26 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8290449",
-        "url": "https://www.ticketliquidator.com/tickets/8290449/Amble-tickets-Thu-Oct-8-2026-O2-Academy-Brixton",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107258194",
-        "url": "https://www.stubhub.ie/amble-tickets-london-o2-academy-brixton-8-10-2026/event/107258194",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_5SZ3VmK",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290449/Amble-tickets-Thu-Oct-8-2026-O2-Academy-Brixton",
-    "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-london-o2-academy-brixton-8-10-2026/event/107258194"
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-amble-2026-los-angeles-vv170z_agkrleod6",
@@ -164453,6 +164453,13 @@
         "verified": true,
         "last_verified_at": "2026-10-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8306364",
+        "url": "https://www.ticketliquidator.com/tickets/8306364/Tommy-Emmanuel-tickets-Wed-Mar-17-2027-Burton-Cummings-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPupGA1vvtI",
@@ -164465,7 +164472,8 @@
         "end": "2027-03-11T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8306364"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8306364",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8306364/Tommy-Emmanuel-tickets-Wed-Mar-17-2027-Burton-Cummings-Theatre"
   },
   {
     "id": "tm-tommy-emmanuel-2027-ottawa-1aszkfgjd0vzecc",
@@ -168486,11 +168494,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671901",
+        "url": "https://www.stubhub.ie/greta-van-fleet-tickets-hamburg-barclays-arena-hamburg-18-5-2027/event/107671901",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k83JeA7",
     "timezone": "Europe/Berlin",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-hamburg-barclays-arena-hamburg-18-5-2027/event/107671901"
   },
   {
     "id": "tm-greta-van-fleet-2027-berlin-z698xzc2z1kfv0zvs",
@@ -171431,6 +171447,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672469",
+        "url": "https://www.stubhub.ie/fontaines-d-c-detroit-tickets-4-27-2027/event/107672469",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkSEW9Wu",
@@ -171438,7 +171461,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303810",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303810/Fontaines-DC-tickets-Tue-Apr-27-2027-Fox-Theatre-Detroit"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303810/Fontaines-DC-tickets-Tue-Apr-27-2027-Fox-Theatre-Detroit",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-detroit-tickets-4-27-2027/event/107672469"
   },
   {
     "id": "tm-fontaines-d-c-2027-chicago-vv1k8z_fkfg7zjno",
@@ -171765,6 +171789,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672464",
+        "url": "https://www.stubhub.ie/fontaines-d-c-seattle-tickets-5-8-2027/event/107672464",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KBR3B0C",
@@ -171772,7 +171803,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303814",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303814/Fontaines-DC-tickets-Sat-May-8-2027-Wamu-Theater-At-Lumen-Field-Event-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303814/Fontaines-DC-tickets-Sat-May-8-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-seattle-tickets-5-8-2027/event/107672464"
   },
   {
     "id": "tm-fontaines-d-c-2027-sacramento-g5vyz_kmgztid",
@@ -171835,6 +171867,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672016",
+        "url": "https://www.stubhub.ie/fontaines-d-c-sacramento-tickets-5-11-2027/event/107672016",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KMGzTiD",
@@ -171842,7 +171881,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303815",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303815/Fontaines-DC-tickets-Tue-May-11-2027-Channel-24"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303815/Fontaines-DC-tickets-Tue-May-11-2027-Channel-24",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-sacramento-tickets-5-11-2027/event/107672016"
   },
   {
     "id": "tm-fontaines-d-c-2027-san-francisco-g5vyz_k9cdguj",
@@ -171905,6 +171945,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672467",
+        "url": "https://www.stubhub.ie/fontaines-d-c-san-francisco-tickets-5-12-2027/event/107672467",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K9Cdguj",
@@ -171919,7 +171966,8 @@
         "start": "2026-10-09T17:00:00Z",
         "end": "2027-04-15T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-san-francisco-tickets-5-12-2027/event/107672467"
   },
   {
     "id": "tm-fontaines-d-c-2027-milano-zg9rmiynyzd1ve",
@@ -177717,26 +177765,26 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7831762",
-        "url": "https://www.ticketliquidator.com/tickets/7831762/Niall-Horan-tickets-Thu-Oct-8-2026-Uber-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-05",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107148175",
-        "url": "https://www.stubhub.ie/niall-horan-tickets-berlin-uber-arena-8-10-2026/event/107148175",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vvx0w-E",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831762/Niall-Horan-tickets-Thu-Oct-8-2026-Uber-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-berlin-uber-arena-8-10-2026/event/107148175"
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-latto-2026-petersburg-vvg17z_2r3gq4t",
@@ -187019,6 +187067,13 @@
         "verified": true,
         "last_verified_at": "2026-10-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672109",
+        "url": "https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-22-2027/event/107672109",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGkeDLoQr",
@@ -187026,7 +187081,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310408",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310408/Fontaines-DC-tickets-Thu-Apr-22-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310408/Fontaines-DC-tickets-Thu-Apr-22-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-22-2027/event/107672109"
   },
   {
     "id": "tm-fontaines-d-c-2027-vancouver-1aozk4v0aa_zegf",
@@ -187189,12 +187245,20 @@
         "verified": true,
         "last_verified_at": "2026-10-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271405",
+        "url": "https://www.ticketliquidator.com/tickets/8271405/Death-Cab-for-Cutie-tickets-Wed-Mar-24-2027-The-Bomb-Factory",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvUug",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271405"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271405",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271405/Death-Cab-for-Cutie-tickets-Wed-Mar-24-2027-The-Bomb-Factory"
   },
   {
     "id": "tm-too-many-zooz-2027-portland-z7r9jz1aaeerf",
@@ -187250,12 +187314,20 @@
         "verified": true,
         "last_verified_at": "2026-10-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284750",
+        "url": "https://www.ticketliquidator.com/tickets/8284750/Too-Many-Zooz-tickets-Thu-May-13-2027-Revolution-Hall-Portland",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeerF",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284750"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284750",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284750/Too-Many-Zooz-tickets-Thu-May-13-2027-Revolution-Hall-Portland"
   },
   {
     "id": "tm-the-red-clay-strays-2027-cleveland-z7r9jz1aaefgw",
@@ -187365,12 +187437,20 @@
         "verified": true,
         "last_verified_at": "2026-10-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300380",
+        "url": "https://www.ticketliquidator.com/tickets/8300380/Carly-Rae-Jepsen-tickets-Mon-Apr-19-2027-Arlene-Schnitzer-Concert-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeKuy",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300380"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300380",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300380/Carly-Rae-Jepsen-tickets-Mon-Apr-19-2027-Arlene-Schnitzer-Concert-Hall"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-morrison-z7r9jz1aaekuz",
@@ -187426,12 +187506,28 @@
         "verified": true,
         "last_verified_at": "2026-10-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300774",
+        "url": "https://www.ticketliquidator.com/tickets/8300774/Carly-Rae-Jepsen-tickets-Sun-Apr-25-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671803",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-morrison-tickets-4-25-2027/event/107671803",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeKuz",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300774"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300774",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300774/Carly-Rae-Jepsen-tickets-Sun-Apr-25-2027-Red-Rocks-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-morrison-tickets-4-25-2027/event/107671803"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-salt-lake-city-z7r9jz1aaekuv",

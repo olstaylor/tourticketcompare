@@ -198,6 +198,7 @@ const text = (html) =>
   assert(page.robots.startsWith("index,follow"), "a near presale under an indexable artist page is indexable");
   const body = text(page.main);
   assert(body.includes("Presales open now") && body.includes("Card Presale"), "open windows are listed");
+  assert(/The first public on-sale starts [^.]+, for Manchester\./.test(body), "the opening answer names the first public on-sale and its city");
   assert(body.includes("Presales coming up") && body.includes("Oasis Fan Presale") && body.includes("Venue Presale"), "upcoming windows are listed");
   assert(body.includes("Public on-sale"), "public on-sales are listed");
   assert(!body.includes("Dublin") && !body.includes("Glasgow") && !body.includes("Leeds"), "past, held and other artists' dates are not listed");
@@ -239,6 +240,18 @@ const text = (html) =>
   assert(xml.includes("/artists/oasis/presale"), "the sitemap lists an indexable presale page");
   const quiet = JSON.stringify(await sitemapModule.buildSitemapSegments(env(EVENTS.filter((event) => !event.presales)), ["artists"], ORIGIN));
   assert(!quiet.includes("/presale"), "the sitemap drops it when nothing is near");
+  const newer = EVENTS.map((event) => ({ ...event, last_verified_at: "2099-01-02" }));
+  const fresh = (await sitemapModule.buildSitemapSegments(env(newer), ["artists"], ORIGIN)).artists;
+  assert(
+    fresh.find((entry) => entry.path === "/artists/oasis")?.lastmod === "2099-01-02",
+    "an artist page's lastmod follows its newest verified upcoming row"
+  );
+  const pastOnly = EVENTS.concat([{ ...EVENTS[0], id: "past-row", datetime_iso: "2020-01-01T20:00:00Z", last_verified_at: "2099-01-03" }]);
+  const unmoved = (await sitemapModule.buildSitemapSegments(env(pastOnly), ["artists"], ORIGIN)).artists;
+  assert(
+    unmoved.find((entry) => entry.path === "/artists/oasis")?.lastmod !== "2099-01-03",
+    "a re-verified past row the artist page hides does not move its lastmod"
+  );
 }
 
 {

@@ -535,11 +535,19 @@
         "verified": true,
         "last_verified_at": "2026-10-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284750",
+        "url": "https://www.ticketliquidator.com/tickets/8284750/Too-Many-Zooz-tickets-Thu-May-13-2027-Revolution-Hall-Portland",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeerF",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284750"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284750",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284750/Too-Many-Zooz-tickets-Thu-May-13-2027-Revolution-Hall-Portland"
   }
 ]

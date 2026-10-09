@@ -2054,12 +2054,20 @@
         "verified": true,
         "last_verified_at": "2026-10-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300380",
+        "url": "https://www.ticketliquidator.com/tickets/8300380/Carly-Rae-Jepsen-tickets-Mon-Apr-19-2027-Arlene-Schnitzer-Concert-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeKuy",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300380"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300380",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300380/Carly-Rae-Jepsen-tickets-Mon-Apr-19-2027-Arlene-Schnitzer-Concert-Hall"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-morrison-z7r9jz1aaekuz",
@@ -2115,12 +2123,20 @@
         "verified": true,
         "last_verified_at": "2026-10-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300774",
+        "url": "https://www.ticketliquidator.com/tickets/8300774/Carly-Rae-Jepsen-tickets-Sun-Apr-25-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeKuz",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300774"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300774",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300774/Carly-Rae-Jepsen-tickets-Sun-Apr-25-2027-Red-Rocks-Amphitheatre"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-salt-lake-city-z7r9jz1aaekuv",

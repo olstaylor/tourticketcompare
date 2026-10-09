@@ -485,11 +485,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7976480",
-        "url": "https://www.ticketliquidator.com/tickets/7976480/Don-Omar-tickets-Thu-Oct-8-2026-Allstate-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107289093",
@@ -503,7 +503,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976480/Don-Omar-tickets-Thu-Oct-8-2026-Allstate-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-rosemont-tickets-10-8-2026/event/107289093"
   },
   {

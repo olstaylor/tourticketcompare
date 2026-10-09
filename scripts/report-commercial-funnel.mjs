@@ -253,7 +253,7 @@ export function assertNoPersonalColumns(sql) {
 }
 
 // The outbound event every click breakdown counts, expressed once so no query
-// can drift: a server redirect whose visitor also loaded a TTC page. Most raw
+// can drift: a server redirect whose visitor sent a page event that day. Most raw
 // redirects are a crawler hitting /api/out directly (see
 // scripts/lib/human-clicks.mjs); the raw total is still reported in `totals`.
 const OUTBOUND = humanRedirectSql();
@@ -806,13 +806,13 @@ export function renderReport(report) {
       ["outbound_attempt (server receipt)", funnel.outbound_attempts],
       ["outbound_click (server redirect)", funnel.provider_clicks],
       ["  from visitors who loaded a page", funnel.provider_clicks_page_backed],
-      ["  with no page (automated)", funnel.redirects_without_page],
+      ["  without page evidence (mostly crawler)", funnel.redirects_without_page],
       ["outbound_blocked", funnel.outbound_blocked],
       ["signups", funnel.signups]
     ]
   ));
   lines.push("");
-  lines.push("Click breakdowns below count only redirects whose visitor also loaded a TTC page.");
+  lines.push("Redirect breakdowns below count page-backed redirects (visitor sent a page event that day), except the reconciliation table, which stays raw for matching against Impact.");
   lines.push("-- Server redirects by provider --");
   lines.push(renderTable(
     ["provider", "redirects", "receipt_share", "client_intents", "blocked"],
@@ -826,7 +826,7 @@ export function renderReport(report) {
   ));
   lines.push("");
 
-  lines.push("-- Reconciliation by provider --");
+  lines.push("-- Reconciliation by provider (raw, includes crawler redirects) --");
   lines.push(renderTable(
     ["provider", "attempts", "redirected", "blocked", "affiliate", "GA4 eligible", "Impact IDs"],
     report.reconciliation_by_provider.map((row) => [
@@ -1015,10 +1015,10 @@ function selfTest() {
       const statement = statements.find((entry) => entry.key === key);
       assert.match(statement.sql, /event_name = 'outbound_click'/, `${key} must count the authoritative outbound event`);
       assert.doesNotMatch(statement.sql, /IN \('provider_click', 'outbound_click'\)/, `${key} must not sum client and server clicks`);
-      assert.match(statement.sql, /request_key IN \(SELECT seen\.request_key FROM analytics_events seen WHERE seen\.event_name IN \('page_view'/, `${key} must count only page-backed redirects`);
+      assert.match(statement.sql, /IN \(SELECT seen\.request_key \|\| '\|' \|\| substr\(seen\.created_at, 1, 10\) FROM analytics_events seen WHERE seen\.event_name IN \('page_view'/, `${key} must count only page-backed redirects`);
     }
     const providerSql = statements.find((entry) => entry.key === "clicksByProvider").sql;
-    assert.match(providerSql, /event_name != 'outbound_click' OR \(event_name = 'outbound_click' AND request_key IN/, "provider redirects must be page-backed");
+    assert.match(providerSql, /event_name != 'outbound_click' OR \(event_name = 'outbound_click' AND \(request_key \|\| '\|' \|\| substr\(created_at, 1, 10\)\) IN/, "provider redirects must be page-backed");
     const totalsSql = statements.find((entry) => entry.key === "totals").sql;
     assert.match(totalsSql, /'outbound_click_page_backed' AS event_name/, "totals must report page-backed redirects beside the raw count");
   });
@@ -1144,7 +1144,7 @@ function selfTest() {
     assert.equal(botReport.funnel.redirects_without_page, 856);
     const seatgeek = botReport.clicks_by_provider.find((row) => row.provider === "seatgeek");
     assert.equal(seatgeek.share_of_clicks, 26 / 44);
-    assert.match(renderReport(botReport), /with no page \(automated\)\s+\|?\s*856/);
+    assert.match(renderReport(botReport), /without page evidence \(mostly crawler\)\s+\|?\s*856/);
   });
 
   // Below-threshold denominators must not produce a headline rate.

@@ -74,7 +74,7 @@ test('redirect receipts carry navigation evidence and the redirect is unchanged'
   }
 });
 
-test('reports count a redirect only when its visitor loaded a page', () => {
+test('reports count a redirect only when its visitor sent a page event that day', () => {
   const db = new DatabaseSync(':memory:');
   try {
     db.exec(readFileSync(new URL('../migrations/0001_demand.sql', import.meta.url), 'utf8'));
@@ -85,10 +85,13 @@ test('reports count a redirect only when its visitor loaded a page', () => {
     insert.run('2026-10-08T11:01:00Z', 'outbound_click', 'person-2');
     for (let i = 0; i < 20; i++) insert.run('2026-10-08T12:00:00Z', 'outbound_click', `crawler-${i}`);
     insert.run('2026-10-08T12:00:00Z', 'outbound_click', null);
+    // Page evidence from another day does not qualify a redirect.
+    insert.run('2026-10-01T09:00:00Z', 'page_view', 'returning-ip');
+    insert.run('2026-10-08T13:00:00Z', 'outbound_click', 'returning-ip');
     // Another redirect is not page evidence.
     insert.run('2026-10-08T12:00:00Z', 'outbound_attempt', 'crawler-0');
     assert.equal(db.prepare(`SELECT COUNT(*) AS n FROM analytics_events WHERE ${humanRedirectSql()}`).get().n, 2);
     assert.equal(db.prepare(`SELECT COUNT(*) AS n FROM analytics_events click WHERE ${humanRedirectSql('click')}`).get().n, 2);
-    assert.equal(db.prepare(`SELECT COUNT(*) AS n FROM analytics_events WHERE event_name = 'outbound_click' AND NOT (${pageBackedSql()})`).get().n, 20);
+    assert.equal(db.prepare(`SELECT COUNT(*) AS n FROM analytics_events WHERE event_name = 'outbound_click' AND NOT (${pageBackedSql()})`).get().n, 21);
   } finally { db.close(); }
 });

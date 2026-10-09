@@ -90,15 +90,21 @@ user agents and residential IPs. `isLikelyBot` cannot see it. Those requests
 never load a page and arrive with no Referer, so most land on `source_path`
 `/` (`page_type` `home`).
 
-Reports therefore count a redirect as a person's click only when its visitor
+Reports therefore count a redirect only when it is page-backed: its visitor
 key (`request_key`) also sent a browser event (`page_view`, `artist_view`,
-`event_view`, `provider_cta_view`, `provider_click` or `web_vitals`); the
-predicate lives in `scripts/lib/human-clicks.mjs`. The commercial funnel
-report shows the raw redirect total, the page-backed total and the difference;
-every breakdown and share uses page-backed redirects. The analytics funnel
-report and the route-traffic export (used by the indexing pilot report) do the
-same. Real visitors with JavaScript off, or whose IP changes between page and
-click, are missed, so the figure is a slight undercount.
+`event_view`, `provider_cta_view`, `provider_click` or `web_vitals`) on the
+same UTC day. The predicate lives in `scripts/lib/human-clicks.mjs`. The
+commercial funnel report shows the raw redirect total, the page-backed total
+and the remainder "without page evidence"; every breakdown and share uses
+page-backed redirects except the reconciliation table, which stays raw for
+matching against Impact. The analytics funnel report and the route-traffic
+export (used by the indexing pilot report) also use page-backed redirects.
+
+Page-backed is not proof of a person: `/api/analytics` is public, so
+automation that runs page scripts or posts beacons still passes. It also
+misses real visitors with JavaScript off, a lost beacon, or an IP change
+between page and click, so the remainder is mostly but not provably crawler
+traffic.
 
 Every receipt (`outbound_attempt`, `outbound_click`, `outbound_blocked`) also
 records `metadata_json.navigation`: `Sec-Fetch-Site`, `Sec-Fetch-Mode`,
@@ -109,16 +115,16 @@ the redirect is unchanged and the row is still written. It exists to confirm,
 before the owner adds one, that a Cloudflare rule challenging direct hits on
 `/api/out` would not touch real clicks.
 
-Page-backed restatement (Sep 2026 to 9 Oct 2026, raw redirects vs people):
+Page-backed restatement (Sep 2026 to 9 Oct 2026, raw vs page-backed redirects):
 
 | Week | Raw redirects | Page-backed redirects | Clicking visitors | Page-view visitors |
 |---|---|---|---|---|
 | 1-7 Sep | 4,237 | 58 | 37 | 143 |
-| 8-14 Sep | 10,272 | 18 | 16 | 144 |
+| 8-14 Sep | 10,272 | 14 | 12 | 144 |
 | 15-21 Sep | 2,736 | 79 | 50 | 166 |
 | 22-28 Sep | 3,181 | 63 | 45 | 221 |
 | 29 Sep-5 Oct | 5,577 | 134 | 93 | 359 |
-| 6-9 Oct | 2,991 | 191 | 107 | 314 |
+| 6-9 Oct (to 16:00 UTC) | 3,024 | 202 | 113 | 327 |
 
 ## Lizzy McAlpine price-guide measurement baseline
 

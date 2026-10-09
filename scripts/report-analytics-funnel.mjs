@@ -25,7 +25,7 @@ import { promisify } from "node:util";
 import { buildD1ReadArgs } from "./lib/d1-read.mjs";
 import { humanRedirectSql } from "./lib/human-clicks.mjs";
 
-// Redirects count only when the visitor also loaded a TTC page: most raw
+// Redirects count only when page-backed (visitor sent a page event that day):
 // outbound_click rows are a crawler hitting /api/out directly. See
 // scripts/lib/human-clicks.mjs.
 const PEOPLE_ONLY = ` AND (event_name != 'outbound_click' OR (${humanRedirectSql()}))`;
@@ -499,7 +499,7 @@ function selfTest() {
   // Redirect counts exclude crawler hits that never loaded a page.
   check(() => {
     for (const statement of buildStatements("").filter((s) => s.sql.includes("'outbound_click'"))) {
-      assert.match(statement.sql, /event_name != 'outbound_click' OR \(event_name = 'outbound_click' AND request_key IN \(SELECT seen\.request_key/, `${statement.key} must count page-backed redirects only`);
+      assert.match(statement.sql, /event_name != 'outbound_click' OR \(event_name = 'outbound_click' AND \(request_key \|\| '\|' \|\| substr\(created_at, 1, 10\)\) IN \(SELECT seen\.request_key/, `${statement.key} must count page-backed redirects only`);
     }
   });
 

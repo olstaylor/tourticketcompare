@@ -97,7 +97,7 @@ jobs:
         id: snapshot-download
         if: steps.snapshot.outputs.artifact_id != ''
         continue-on-error: true
-        uses: actions/download-artifact@v6
+        uses: actions/download-artifact@v7
         with:
           artifact-ids: ${{ steps.snapshot.outputs.artifact_id }}
           run-id: ${{ steps.snapshot.outputs.run_id }}

@@ -22,7 +22,7 @@
 
 /** The one per-page caveat, rendered in the money disclosure line. */
 export const PRICE_DISCLOSURE =
-  "Prices are listed-price snapshots from each ticket site, checked at the time shown. They can change, and they aren't your final total: fees are added at checkout.";
+  "Prices are listed-price snapshots from each ticket site, checked at the time shown. They can change and aren't your final total. Listed prices may already include mandatory fees. Confirm the final total for your ticket quantity, taxes, delivery and selected extras on the ticket site.";
 
 /** The short tail on each priced card, after "Checked <age>". */
 export const CARD_PRICE_TAIL = "not the final total";

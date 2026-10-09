@@ -818,6 +818,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672469",
+        "url": "https://www.stubhub.ie/fontaines-d-c-detroit-tickets-4-27-2027/event/107672469",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkSEW9Wu",
@@ -825,7 +832,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303810",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303810/Fontaines-DC-tickets-Tue-Apr-27-2027-Fox-Theatre-Detroit"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303810/Fontaines-DC-tickets-Tue-Apr-27-2027-Fox-Theatre-Detroit",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-detroit-tickets-4-27-2027/event/107672469"
   },
   {
     "id": "tm-fontaines-d-c-2027-chicago-vv1k8z_fkfg7zjno",
@@ -1152,6 +1160,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672464",
+        "url": "https://www.stubhub.ie/fontaines-d-c-seattle-tickets-5-8-2027/event/107672464",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KBR3B0C",
@@ -1159,7 +1174,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303814",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303814/Fontaines-DC-tickets-Sat-May-8-2027-Wamu-Theater-At-Lumen-Field-Event-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303814/Fontaines-DC-tickets-Sat-May-8-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-seattle-tickets-5-8-2027/event/107672464"
   },
   {
     "id": "tm-fontaines-d-c-2027-sacramento-g5vyz_kmgztid",
@@ -1222,6 +1238,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672016",
+        "url": "https://www.stubhub.ie/fontaines-d-c-sacramento-tickets-5-11-2027/event/107672016",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KMGzTiD",
@@ -1229,7 +1252,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303815",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303815/Fontaines-DC-tickets-Tue-May-11-2027-Channel-24"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303815/Fontaines-DC-tickets-Tue-May-11-2027-Channel-24",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-sacramento-tickets-5-11-2027/event/107672016"
   },
   {
     "id": "tm-fontaines-d-c-2027-san-francisco-g5vyz_k9cdguj",
@@ -1292,6 +1316,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672467",
+        "url": "https://www.stubhub.ie/fontaines-d-c-san-francisco-tickets-5-12-2027/event/107672467",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K9Cdguj",
@@ -1306,7 +1337,8 @@
         "start": "2026-10-09T17:00:00Z",
         "end": "2027-04-15T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-san-francisco-tickets-5-12-2027/event/107672467"
   },
   {
     "id": "tm-fontaines-d-c-2027-milano-zg9rmiynyzd1ve",
@@ -2250,6 +2282,13 @@
         "verified": true,
         "last_verified_at": "2026-10-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672109",
+        "url": "https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-22-2027/event/107672109",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGkeDLoQr",
@@ -2257,7 +2296,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310408",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310408/Fontaines-DC-tickets-Thu-Apr-22-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310408/Fontaines-DC-tickets-Thu-Apr-22-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-22-2027/event/107672109"
   },
   {
     "id": "tm-fontaines-d-c-2027-vancouver-1aozk4v0aa_zegf",

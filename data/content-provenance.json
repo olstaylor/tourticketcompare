@@ -139,8 +139,8 @@
       "content_updated_at": "2026-10-06"
     },
     "/about": {
-      "content_hash": "c4852bba4bc0af50",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "7e3f06797d445107",
+      "content_updated_at": "2026-10-09"
     },
     "/about/ollie-taylor": {
       "content_hash": "b639edd07afca6ef",
@@ -149,6 +149,10 @@
     "/contact": {
       "content_hash": "b8962f4f15e12877",
       "content_updated_at": "2026-09-24"
+    },
+    "/press": {
+      "content_hash": "b90dde1f2835b13f",
+      "content_updated_at": "2026-10-09"
     },
     "/editorial-policy": {
       "content_hash": "777e7fec65ff1ff3",

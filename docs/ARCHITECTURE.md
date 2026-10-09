@@ -110,7 +110,7 @@ images needing neither, and the `/*` rules in `public/_headers` are applied by
 Pages rather than the middleware — so they keep every security header while
 costing no Function invocation.
 
-`functions/[[path]].js` handles the home page, the `/compare-concert-ticket-prices` comparison hub, trust pages, guide routes, blog routes, artist routes, city routes, venue routes, redirects, schemas, and 404s. `functions/_route-metadata.js` is the single metadata registry for fixed and guide routes; data-derived city and venue metadata is composed in the router from the shared aggregation records.
+`functions/[[path]].js` handles the home page, the `/compare-concert-ticket-prices` comparison hub, trust pages (including `/press`), the `/tours/2027` hub (`functions/_tours-hub.js`), guide routes, blog routes, artist routes, city routes, venue routes, redirects, schemas, and 404s. `functions/_route-metadata.js` is the single metadata registry for fixed and guide routes; data-derived city and venue metadata is composed in the router from the shared aggregation records.
 
 The named route shims (`functions/artists.js`, `guides.js`, and peers) only re-export `onRequest` from `[[path]].js`. While middleware is active, editing a shim does not change live routing.
 

@@ -43,6 +43,7 @@ const TRUST_PATHS = new Set([
   "/about",
   "/about/ollie-taylor",
   "/contact",
+  "/press",
   "/editorial-policy",
   "/affiliate-disclosure",
   "/privacy",

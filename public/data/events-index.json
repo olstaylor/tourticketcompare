@@ -28952,18 +28952,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-greta-van-fleet-2027-glasgow-1auzk4vgkene4-w",
-    "artist_slug": "greta-van-fleet",
-    "artist_name": "Greta Van Fleet",
-    "country": "Great Britain",
-    "city": "Glasgow",
-    "venue": "OVO Hydro",
-    "datetime_iso": "2027-06-02T17:30:00Z",
-    "timezone": "Europe/London",
-    "tour_name": "Into The Beginning Tour",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-greta-van-fleet-2027-dublin-1abzkfmgkes3wyd",
     "artist_slug": "greta-van-fleet",
     "artist_name": "Greta Van Fleet",
@@ -29223,30 +29211,6 @@
     "city": "Liverpool",
     "venue": "M&S Bank Arena Liverpool",
     "datetime_iso": "2026-11-20T18:30:00Z",
-    "timezone": "Europe/London",
-    "tour_name": "D.C. EU & UK Tour 2026",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-fontaines-d-c-2026-manchester-g5vhz_ocwip0o",
-    "artist_slug": "fontaines-d-c",
-    "artist_name": "Fontaines D.C.",
-    "country": "Great Britain",
-    "city": "Manchester",
-    "venue": "AO Arena",
-    "datetime_iso": "2026-11-21T18:00:00Z",
-    "timezone": "Europe/London",
-    "tour_name": "D.C. EU & UK Tour 2026",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-fontaines-d-c-2026-glasgow-1auzkffgketljog",
-    "artist_slug": "fontaines-d-c",
-    "artist_name": "Fontaines D.C.",
-    "country": "Great Britain",
-    "city": "Glasgow",
-    "venue": "OVO Hydro",
-    "datetime_iso": "2026-11-22T18:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "D.C. EU & UK Tour 2026",
     "status": "on-sale"
@@ -31880,18 +31844,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-charli-xcx-2027-amsterdam-z698xzbpz16v-igd-s",
-    "artist_slug": "charli-xcx",
-    "artist_name": "Charli xcx",
-    "country": "Netherlands",
-    "city": "Amsterdam",
-    "venue": "Vinyl Room - Ziggo Dome",
-    "datetime_iso": "2027-02-22T19:01:00Z",
-    "timezone": "Europe/Amsterdam",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-death-cab-for-cutie-2027-huntsville-z7r9jz1aavu_y",
     "artist_slug": "death-cab-for-cutie",
     "artist_name": "Death Cab for Cutie",
@@ -31924,18 +31876,6 @@
     "venue": "The Waiting Room - NE",
     "datetime_iso": "2027-03-17T01:30:00Z",
     "timezone": "America/Chicago",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-fontaines-d-c-2026-amsterdam-z698xzbpz1kgf-z84",
-    "artist_slug": "fontaines-d-c",
-    "artist_name": "Fontaines D.C.",
-    "country": "Netherlands",
-    "city": "Amsterdam",
-    "venue": "Vinyl Room - Ziggo Dome",
-    "datetime_iso": "2026-11-10T19:01:00Z",
-    "timezone": "Europe/Amsterdam",
     "tour_name": "",
     "status": "on-sale"
   },

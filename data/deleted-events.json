@@ -202,6 +202,46 @@
       "ticketmaster_event_id": "04006501D67DD8BB",
       "reason": "Ticketmaster VIP upgrade listing (\"Latto VIP Upgrade (Event Ticket Not Included)\" at United Center), not a concert date. It rendered as the artist's next show. Tombstoned by Ticketmaster id only (no venue/date key) so the real concert at the same venue and night can still be ingested. Removed with owner approval after the 2026-10-03 data audit.",
       "deleted_at": "2026-10-05"
+    },
+    {
+      "artist_slug": "greta-van-fleet",
+      "id": "tm-greta-van-fleet-2027-glasgow-1auzk4vgkene4-w",
+      "ticketmaster_discovery_event_id": "1AUZk4vGkeNe4-w",
+      "ticketmaster_event_id": "36006541A3095872",
+      "reason": "Ticketmaster venue-premium listing (\"Venue Premium - Greta Van Fleet - Into The Beginning\" at OVO Hydro), not the standard concert listing. Tombstoned by Ticketmaster id only (no venue/date key) so the standard concert listing for the same venue and night can still be ingested. Removed at the owner’s request on 2026-10-09 (list standard concert listings only); the recogniser now withholds these as travel_package_listing.",
+      "deleted_at": "2026-10-09"
+    },
+    {
+      "artist_slug": "fontaines-d-c",
+      "id": "tm-fontaines-d-c-2026-manchester-g5vhz_ocwip0o",
+      "ticketmaster_discovery_event_id": "G5vHZ_oCwiP0O",
+      "ticketmaster_event_id": "1F006513B2B25920",
+      "reason": "Ticketmaster venue-premium listing (\"Fontaines D.C. - Venue Premium Tickets\" at AO Arena), not the standard concert listing. Tombstoned by Ticketmaster id only (no venue/date key) so the standard concert listing for the same venue and night can still be ingested. Removed at the owner’s request on 2026-10-09 (list standard concert listings only); the recogniser now withholds these as travel_package_listing.",
+      "deleted_at": "2026-10-09"
+    },
+    {
+      "artist_slug": "fontaines-d-c",
+      "id": "tm-fontaines-d-c-2026-glasgow-1auzkffgketljog",
+      "ticketmaster_discovery_event_id": "1AUZkffGketlJOG",
+      "ticketmaster_event_id": "36006514A9AE680C",
+      "reason": "Ticketmaster venue-premium listing (\"Venue Premium - Fontaines D.C.\" at OVO Hydro), not the standard concert listing. Tombstoned by Ticketmaster id only (no venue/date key) so the standard concert listing for the same venue and night can still be ingested. Removed at the owner’s request on 2026-10-09 (list standard concert listings only); the recogniser now withholds these as travel_package_listing.",
+      "deleted_at": "2026-10-09"
+    },
+    {
+      "artist_slug": "charli-xcx",
+      "id": "tm-charli-xcx-2027-amsterdam-z698xzbpz16v-igd-s",
+      "ticketmaster_discovery_event_id": "Z698xZbpZ16v-IGd-S",
+      "ticketmaster_event_id": "1868303873",
+      "reason": "Ticketmaster upgrade listing (\"Charli xcx | Vinyl Room Upgrade (TICKET NOT INCLUDED)\" at Vinyl Room - Ziggo Dome), not admission to the concert; the concert row at Ziggo Dome on the same night is kept. Tombstoned by Ticketmaster id only (no venue/date key) so the standard concert listing for the same venue and night can still be ingested. Removed at the owner’s request on 2026-10-09 (list standard concert listings only); the recogniser now withholds these as travel_package_listing.",
+      "deleted_at": "2026-10-09"
+    },
+    {
+      "artist_slug": "fontaines-d-c",
+      "id": "tm-fontaines-d-c-2026-amsterdam-z698xzbpz1kgf-z84",
+      "ticketmaster_discovery_event_id": "Z698xZbpZ1kGf-z84",
+      "ticketmaster_event_id": "314878415",
+      "reason": "Ticketmaster upgrade listing (\"Fontaines D.C. | Vinyl Room Upgrade (TICKET NOT INCLUDED)\" at Vinyl Room - Ziggo Dome), not admission to the concert. Tombstoned by Ticketmaster id only (no venue/date key) so the standard concert listing for the same venue and night can still be ingested. Removed at the owner’s request on 2026-10-09 (list standard concert listings only); the recogniser now withholds these as travel_package_listing.",
+      "deleted_at": "2026-10-09"
     }
   ]
 }

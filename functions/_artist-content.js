@@ -1,4 +1,5 @@
 // @ts-check
+import { PRICE_DISCLOSURE } from "./_price-wording.js";
 // Reusable, typed, data-driven content model for the main artist pages.
 //
 // This module is the single source of truth for the *derived* editorial
@@ -325,7 +326,7 @@ export function artistTicketHelp() {
     points: [
       "A button on a date card opens that exact date.",
       "The buttons under \"Where to buy\" open the artist's page on each ticket site, not a specific date.",
-      "A price is a snapshot of one site's listed price when it was last checked, not your final total. Fees, delivery and tax are added at checkout.",
+      PRICE_DISCLOSURE,
       "When two sites price the same date, the lower listed figure is marked. That is per date, never across different dates, and never a claim that a site is cheaper overall.",
       "A date without a button usually isn't on sale yet, or its link is still being matched."
     ]

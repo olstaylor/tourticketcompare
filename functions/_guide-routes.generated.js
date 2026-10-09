@@ -64,7 +64,7 @@ export const GUIDE_ROUTES = {
     description: "Use practical checks to avoid overpaying for concert tickets by reviewing final fees, seat location, seller terms, delivery timing, and misleading urgency.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-10-05"
+    lastmod: "2026-10-09"
   },
   "/guides/when-is-the-best-time-to-buy-concert-tickets": {
     title: "When to Buy Concert Tickets | TourTicketCompare",

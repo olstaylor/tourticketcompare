@@ -474,7 +474,7 @@
     "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-portland-state-theatre-portland-10-16-2026--concerts-dance-electronica/production/7144100",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sylvan-esso-portland-maine-10-16-2026/event/010064C4D897706B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -525,14 +525,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8043105/Sylvan-Esso-tickets-Fri-Oct-16-2026-State-Theatre-ME",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043105",
-    "presales": [
-      {
-        "name": "VIP Package",
-        "start": "2026-06-11T14:00:00Z",
-        "end": "2026-10-09T07:00:00Z"
-      }
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8043105"
   },
   {
     "id": "tm-sylvan-esso-2026-boston-vvg17z_g2bjele",

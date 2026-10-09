@@ -2113,7 +2113,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/john-summit-europe-ctrl-escape-arena-london-27-02-2027/event/35006542F27AE994",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2171,23 +2171,6 @@
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-09T11:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T09:00:00Z",
-        "end": "2026-10-09T09:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-10-08T09:00:00Z",
-        "end": "2026-10-09T09:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-10-08T11:00:00Z",
-        "end": "2026-10-09T09:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-london-the-o2-arena-27-2-2027/event/107671913",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310113",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310113/John-Summit-tickets-Sat-Feb-27-2027-The-Bubble-Exhibition-Space-at-the-O2"

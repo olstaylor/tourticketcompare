@@ -206,7 +206,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-uncasville-mohegan-sun-arena-ct-10-15-2026/production/7169606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-uncasville-connecticut-10-15-2026/event/1D0064CAFB49D234",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -257,14 +257,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056796",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056796/Daughtry-tickets-Thu-Oct-15-2026-Mohegan-Sun-Arena-CT",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056796/Daughtry-tickets-Thu-Oct-15-2026-Mohegan-Sun-Arena-CT"
   },
   {
     "id": "tm-daughtry-2026-waterloo-k7vgf_gm6sksu",

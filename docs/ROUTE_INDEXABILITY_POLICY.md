@@ -205,6 +205,17 @@ destination requirement because the page links only to artist pages, never to
 a ticket site. Below the bar it renders `noindex,follow` and leaves the sitemap
 and `llms.txt`; it never 404s.
 
+### Tours hub — `/tours/2027`
+
+**Held `noindex,follow`** (`TOURS_HUB_INDEXABLE = false` in
+`functions/_tours-hub.js`) until the owner reviews the event-page pilot read-out
+(2026-10-25), and out of the sitemap and `llms.txt` while held. It lists every
+catalog artist with upcoming, non-cancelled dates in 2027 (venue-local year),
+with counts of dates, cities and countries and the month span, and links only to
+artist pages: no event pages, no ticket sites, no prices. Flipping the constant
+is an owner decision; once flipped it is indexable whenever at least one artist
+qualifies.
+
 ### Artist-city — `/artists/<artist>/tickets/<city>`
 
 This is where the policy makes its substantive change.

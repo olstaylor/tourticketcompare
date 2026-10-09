@@ -30,6 +30,7 @@ import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js"
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
 import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, EVENT_LIFECYCLE, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
+import { deriveToursHub, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
 import { deriveArtistPresales, deriveUpcomingPresales, presalePath, PRESALE_SEGMENT, PRESALE_LOOKAHEAD_DAYS } from "./_presales.js";
 import {
   PRICE_GUIDE_SEGMENT,
@@ -76,7 +77,8 @@ const PUBLIC_HTML_ROUTES = new Set([
   "/editorial-policy",
   "/about",
   "/about/ollie-taylor",
-  "/contact"
+  "/contact",
+  "/press"
 ]);
 
 // The creator's standalone page. One copy of the bio serves the visible page
@@ -274,7 +276,8 @@ const EDGE_CACHEABLE_STATIC_PATHS = new Set([
   "/editorial-policy",
   "/about",
   "/about/ollie-taylor",
-  "/contact"
+  "/contact",
+  "/press"
 ]);
 
 function edgeCacheableRoute(route) {
@@ -637,6 +640,23 @@ async function resolveRoute(pathname, env) {
       calendar,
       presales: deriveUpcomingPresales(onsaleEvents),
       breadcrumb: [{ name: "On-sale calendar", path: ONSALE_CALENDAR_PATH }]
+    };
+  }
+
+  // The yearly tours hub: every tracked artist with upcoming dates that year,
+  // linking to the artist pages. No per-event pages; noindex until
+  // TOURS_HUB_INDEXABLE flips (functions/_tours-hub.js).
+  if (path === TOURS_HUB_PATH) {
+    const [hubEvents, catalog] = await Promise.all([loadEvents(env), loadCatalog(env)]);
+    const hub = deriveToursHub(hubEvents, catalog);
+    return {
+      type: "tours-hub",
+      path,
+      indexable: hub.indexable,
+      title: `${TOURS_HUB_YEAR} Concert Tours: Artists and Dates | TourTicketCompare`,
+      description: `Every tracked artist with ${TOURS_HUB_YEAR} tour dates, with how many dates, cities and months each tour covers. Open an artist for every date and its checked ticket links.`,
+      hub,
+      breadcrumb: [{ name: `${TOURS_HUB_YEAR} tours`, path }]
     };
   }
 
@@ -1744,6 +1764,30 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
         url: `${origin}/artists/${route.artist.slug}`
       },
       relatedLink: [`${origin}/artists/${route.artist.slug}`, `${origin}${ONSALE_CALENDAR_PATH}`]
+    });
+  }
+  if (route.type === "tours-hub") {
+    const artists = route.hub?.artists || [];
+    graph.push({
+      "@type": "CollectionPage",
+      "@id": `${origin}${route.path}#webpage`,
+      url: `${origin}${route.path}`,
+      name: route.title,
+      description: route.description,
+      inLanguage: "en",
+      publisher: { "@id": `${origin}/#organization` },
+      isPartOf: { "@id": `${origin}/#website` },
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: artists.length,
+        itemListOrder: "https://schema.org/ItemListOrderDescending",
+        itemListElement: artists.map((artist, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: artist.artistName,
+          url: `${origin}${artist.path}`
+        }))
+      }
     });
   }
   if (route.type === "onsale-calendar") {
@@ -5164,6 +5208,56 @@ export function renderOnsaleCalendarBody(route) {
   )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
 }
 
+const TOURS_HUB_MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+function toursHubArtistMeta(artist) {
+  const plural = (count, one, many) => `${count} ${count === 1 ? one : many}`;
+  const first = TOURS_HUB_MONTHS[artist.firstMonth - 1];
+  const last = TOURS_HUB_MONTHS[artist.lastMonth - 1];
+  const where =
+    artist.countries.length <= 2 ? artist.countries.join(" and ") : plural(artist.countries.length, "country", "countries");
+  return [
+    artist.tourName,
+    plural(artist.showCount, "date", "dates"),
+    plural(artist.cityCount, "city", "cities"),
+    where,
+    first === last ? first : `${first}–${last}`
+  ]
+    .filter(Boolean)
+    .join(" · ");
+}
+
+export function renderToursHubBody(route) {
+  const hub = route.hub || { artists: [], artistCount: 0, showCount: 0, countryCount: 0, year: TOURS_HUB_YEAR };
+  const plural = (count, one, many) => `${count.toLocaleString("en-US")} ${count === 1 ? one : many}`;
+  const lead = hub.artistCount
+    ? `${plural(hub.artistCount, "tracked artist has", "tracked artists have")} ${plural(hub.showCount, "upcoming date", "upcoming dates")} in ${hub.year}, across ${plural(
+        hub.countryCount,
+        "country",
+        "countries"
+      )}. Open an artist to see every date and its checked ticket links.`
+    : `No tracked artist has upcoming dates in ${hub.year} yet. Dates are added as tours are announced.`;
+  const listHtml = hub.artists.length
+    ? `${renderTileFilterHtml("Filter artists by name", "Find an artist")}${renderTileListHtml(
+        hub.artists.map((artist) => ({ href: artist.path, name: artist.artistName, meta: toursHubArtistMeta(artist) }))
+      )}`
+    : `<p>${anchor("Browse artists", "/artists", "text-link")} to see what is already on sale.</p>`;
+  return `<main id="mainContent"><section class="content-page" aria-labelledby="toursHubTitle">${renderBreadcrumbHtml(
+    route
+  )}<h1 id="toursHubTitle">${escapeHtml(`${hub.year} concert tours`)}</h1><p class="lead">${escapeHtml(
+    lead
+  )}</p><section class="section-grid"><div class="section-intro"><h2>${escapeHtml(
+    `Artists with ${hub.year} dates`
+  )}</h2><p>Most dates first. Months are in each venue's local calendar.</p></div>${listHtml}</section>${collapsedGroupHtml(
+    "About this list",
+    `<section class="nested-panel"><h2>Where these counts come from</h2><div class="card-grid"><article class="info-card"><h3>The same checked dates</h3><p>Each count is taken from the reviewed event records each artist page lists. Nothing here is estimated, and a tour appears only once its dates are confirmed.</p></article><article class="info-card"><h3>Upcoming dates only</h3><p>Cancelled and postponed shows are left out, and a date drops off once it has passed.</p></article><article class="info-card"><h3>Coverage</h3><p>Coverage is strongest in the United States, with selected UK, Europe and Canada dates. An artist missing here may simply not be tracked yet.</p></article></div></section>`
+  )}<div class="action-row">${anchor("Browse artists", "/artists", "button button-secondary")}${anchor(
+    "On sale soon",
+    ONSALE_CALENDAR_PATH,
+    "button button-secondary"
+  )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
+}
+
 function eventLinkPublishable(event) {
   if (eventLifecycleHeld(event)) return false;
   if (publicOnsalePending(event)) return false;
@@ -6861,6 +6955,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   }
 
   if (route.type === "onsale-calendar") return renderOnsaleCalendarBody(route);
+  if (route.type === "tours-hub") return renderToursHubBody(route);
   if (route.type === "presale") return renderPresalePageBody(route);
 
   if (route.type === "cities-index") {
@@ -7089,6 +7184,48 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     )}</div></section></main>`;
   }
 
+  if (route.path === "/press") {
+    return `<main id="mainContent"><section class="content-page" aria-labelledby="pressTitle">${renderBreadcrumbHtml(
+      route
+    )}<h1 id="pressTitle">Press</h1><p class="lead">Facts, a short description and logos for anyone writing about TourTicketCompare. Use them freely when covering the site.</p><section class="nested-panel"><h2>In one line</h2><p>TourTicketCompare is a free, independent site that shows, for every date on a major concert tour, which ticket sites list it, with links checked against the exact show and timestamped resale price snapshots side by side.</p></section><section class="nested-panel"><h2>About TourTicketCompare</h2><p>TourTicketCompare (tourticketcompare.com) is an independent ticket research site for major live music tours. It tracks upcoming dates for major touring artists, checks each ticket link against the exact event before publishing it, and shows timestamped listed-price snapshots from resale sites side by side, plus price guides and plain-English buying guides. It is free, needs no account, and is not a ticket seller or affiliated with any artist or venue. Some outbound links earn a commission.</p></section><section class="nested-panel"><h2>Fact sheet</h2><ul class="check-list"><li><strong>Based:</strong> Brighton, UK</li><li><strong>Founder:</strong> Ollie Taylor</li><li><strong>Ticket sites linked:</strong> Ticketmaster for the primary sale; SeatGeek, Vivid Seats, TicketNetwork, Ticket Liquidator and StubHub International for resale</li><li><strong>Price data:</strong> the lowest listed price per site for each date, with the time it was captured. Never a checkout total, and never a promise of availability.</li><li><strong>Cost to fans:</strong> free, no account needed</li><li><strong>Business model:</strong> some ticket links earn a commission from the ticket site. A link is published once its destination has been checked, whether or not it earns anything. Details are in the ${anchor(
+      "affiliate disclosure",
+      "/affiliate-disclosure",
+      "text-link"
+    )}.</li><li><strong>Coverage:</strong> strongest in the United States, with selected UK, Europe and Canada dates. Current artists are on the ${anchor(
+      "artists page",
+      "/artists",
+      "text-link"
+    )}, and every artist with ${TOURS_HUB_YEAR} dates is on the ${anchor(`${TOURS_HUB_YEAR} tours page`, TOURS_HUB_PATH, "text-link")}.</li></ul></section><section class="nested-panel"><h2>What makes it different</h2><ul class="check-list"><li>Every price names its ticket site and the time it was captured.</li><li>Links are checked against the exact show, so a fan does not land on the wrong night or a lookalike listing.</li><li>One page per tour, with every date and the ticket sites that list it, instead of five open tabs.</li><li>It says what it does not know: a listed price is not the checkout total, and fees and availability change.</li></ul></section><section class="nested-panel"><h2>Logos and images</h2><ul class="check-list"><li>${anchor(
+      "Square logo (PNG, 512 × 512)",
+      "/logo.png",
+      "text-link"
+    )}</li><li>${anchor("Square logo (SVG)", "/assets/logo.svg", "text-link")}</li><li>${anchor(
+      "Wide logo for light backgrounds (PNG, 1620 × 240)",
+      "/assets/press/logo-horizontal.png",
+      "text-link"
+    )}</li><li>${anchor("Wide logo for dark backgrounds (PNG, 1660 × 280)", "/assets/press/logo-horizontal-dark.png", "text-link")}</li><li>${anchor(
+      "Social card (PNG, 1200 × 630)",
+      "/og-image.png",
+      "text-link"
+    )}</li></ul><p>Please keep the logo's proportions and colours as they are.</p></section><section class="nested-panel"><h2>Press enquiries</h2><p>Email ${anchor(
+      "hello@tourticketcompare.com",
+      "mailto:hello@tourticketcompare.com",
+      "text-link"
+    )} and a person will reply. TourTicketCompare is also on X as ${anchor(
+      "@tourticketcomp",
+      SITE_X_URL,
+      "text-link"
+    )} and on Instagram as ${anchor("@tourticketcompare", SITE_INSTAGRAM_URL, "text-link")}.</p></section><div class="action-row">${anchor(
+      "About TourTicketCompare",
+      "/about",
+      "button button-primary"
+    )}${anchor("How it works", "/how-it-works", "button button-secondary")}${anchor(
+      "Editorial policy",
+      "/editorial-policy",
+      "button button-secondary"
+    )}</div></section></main>`;
+  }
+
   if (route.path === "/about") {
     return `<main id="mainContent"><section class="content-page" aria-labelledby="aboutTitle">${renderBreadcrumbHtml(
       route
@@ -7104,7 +7241,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "Instagram",
       SITE_INSTAGRAM_URL,
       "text-link"
-    )}.</p></section><div class="action-row">${anchor(
+    )}. Writing about the site? The ${anchor("press page", "/press", "text-link")} has the facts and logos.</p></section><div class="action-row">${anchor(
       "Compare concert ticket prices",
       "/compare-concert-ticket-prices",
       "button button-primary"
@@ -7289,6 +7426,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     route.type === "venue" ||
     route.type === "cities-index" ||
     route.type === "venues-index" ||
+    route.type === "tours-hub" ||
     route.path === "/artists"
   ) {
     next = next.replace("</body>", '<script src="/artist-board.js?v=20261002m" defer></script></body>');

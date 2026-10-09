@@ -22,7 +22,8 @@ import {
   PRICE_GUIDE_LAUNCH_LOOKBACK_DAYS,
   PRICE_GUIDE_LAUNCH_MIN_SHOWS,
   derivePriceGuide,
-  priceGuideLaunchCandidates
+  priceGuideLaunchCandidates,
+  priceGuideRegistered
 } from "../functions/_price-guides.js";
 
 export const LABEL = "automation:price-guide-candidates";
@@ -33,7 +34,7 @@ function day(iso) {
   return String(iso || "").slice(0, 10);
 }
 
-export function renderIssue({ generatedAt, candidates, live }) {
+export function renderIssue({ generatedAt, candidates, ready = [], live }) {
   const lines = [
     `Price-guide candidates — ${generatedAt} (propose-only; nothing is published by this issue)`,
     "",
@@ -45,6 +46,10 @@ export function renderIssue({ generatedAt, candidates, live }) {
     `### Would render noindex today (${candidates.filter((c) => !c.wouldIndex).length})`,
     "_Approving these is safe but the page stays out of search until its gate passes; the reason codes say what is missing._",
     candidates.filter((c) => !c.wouldIndex).map((c) => `${candidateLine(c)} · held: ${c.reasons.join(", ")}`).join("\n") || "None.",
+    "",
+    `### Clears the guide gate without a launch (${ready.length})`,
+    "_Indexable artists with no guide whose dates already pass the guide's own gate (enough dates, cities and price-snapshot coverage). Approve these too: a guide is useful whenever the data supports it, not only at a launch._",
+    ready.map((g) => `- **${String(g.name).replace(/([*_`\\])/g, "\\$1")}** (\`${g.artistSlug}\`) · ${g.showCount} upcoming dates in ${g.cityCount} cities · ${g.snapshotReadyCount} on a price-snapshot lane`).join("\n") || "None.",
     "",
     `### Live guides (${live.length})`,
     live.map((g) => `- \`${g.artistSlug}\` → ${g.path} · ${g.showCount} dates, ${g.cityCount} cities · ${g.indexable ? "indexable" : `noindex (${g.reasons.join(", ") || "no upcoming dates"})`}`).join("\n") || "None."
@@ -63,9 +68,17 @@ export function buildReport({ events, artistsMeta, catalog, now = Date.now() }) 
   const indexable = (artistsMeta || [])
     .filter((artist) => artist?.indexing_status === INDEXABLE)
     .map((artist) => ({ slug: String(artist.slug || "").trim(), name: names.get(String(artist.slug || "").trim()) || artist.name || artist.slug }));
+  const candidates = priceGuideLaunchCandidates(events, indexable, { now });
+  const launching = new Set(candidates.map((c) => c.slug));
+  const ready = indexable
+    .filter((artist) => artist.slug && !priceGuideRegistered(artist.slug) && !launching.has(artist.slug))
+    .map((artist) => ({ ...derivePriceGuide(events, artist.slug, { now }), name: artist.name }))
+    .filter((guide) => guide.indexable)
+    .sort((a, b) => b.showCount - a.showCount || a.artistSlug.localeCompare(b.artistSlug));
   return {
     generatedAt: new Date(now).toISOString().slice(0, 10),
-    candidates: priceGuideLaunchCandidates(events, indexable, { now }),
+    candidates,
+    ready,
     live: PRICE_GUIDE_ARTISTS.map((slug) => derivePriceGuide(events, slug, { now }))
   };
 }
@@ -119,7 +132,7 @@ function selfTest() {
     event(`l${i}`, "launcher", i % 2 ? "Leeds" : "Cardiff", `2027-06-0${i + 1}T19:00:00Z`, "2026-09-26T09:00:00Z")
   );
   const quiet = Array.from({ length: 7 }, (_, i) =>
-    event(`q${i}`, "quiet", "York", `2027-06-0${i + 1}T19:00:00Z`, "2026-01-01T09:00:00Z")
+    event(`q${i}`, "quiet", i % 2 ? "York" : "Derby", `2027-06-0${i + 1}T19:00:00Z`, "2026-01-01T09:00:00Z")
   );
   const thin = Array.from({ length: 6 }, (_, i) =>
     event(`t${i}`, "thin", i % 2 ? "Bath" : "Hull", `2027-07-0${i + 1}T19:00:00Z`, "2026-11-01T09:00:00Z", false)
@@ -135,6 +148,8 @@ function selfTest() {
   const checks = [
     [slugs.includes("launcher"), "a run of recent on-sales is a candidate"],
     [!slugs.includes("quiet"), "an on-sale months ago is not a launch"],
+    [report.ready.some((g) => g.artistSlug === "quiet") && body.includes("(`quiet`) · 7 upcoming dates"), "a gate-passing artist without a launch is still proposed"],
+    [!report.ready.some((g) => g.artistSlug === "launcher" || g.artistSlug === "thin"), "launch candidates and thin artists are not repeated as ready"],
     [!slugs.includes("oasis"), "an artist with a guide is never re-proposed"],
     [report.candidates.find((c) => c.slug === "launcher")?.wouldIndex === true, "a multi-city priced launch would index"],
     [report.candidates.find((c) => c.slug === "thin")?.reasons.includes("below_price_coverage_threshold"), "an unpriced launch says why it would stay noindex"],

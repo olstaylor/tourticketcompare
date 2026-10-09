@@ -2509,5 +2509,164 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308791",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308791/Staind-tickets-Wed-Apr-14-2027-Ford-Center-IN"
+  },
+  {
+    "id": "tm-staind-2027-spokane-z7r9jz1aae_qs",
+    "artist_slug": "staind",
+    "artist_name": "Staind",
+    "event_name": "Staind: Break The Cycle 25th Anniversary Tour",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "Numerica Veterans Arena",
+    "datetime_iso": "2027-03-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_qS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_qS",
+        "discovery_event_id": "Z7r9jZ1AAe_qS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_qS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-staind-2027-billings-z7r9jz1aae_qg",
+    "artist_slug": "staind",
+    "artist_name": "Staind",
+    "event_name": "Staind: Break The Cycle 25th Anniversary Tou",
+    "city": "Billings",
+    "country": "United States Of America",
+    "venue": "First Interstate Arena",
+    "datetime_iso": "2027-04-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_qg",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qg",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_qg",
+        "discovery_event_id": "Z7r9jZ1AAe_qg",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_qg",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-staind-2027-cleveland-z7r9jz1aae_q-",
+    "artist_slug": "staind",
+    "artist_name": "Staind",
+    "event_name": "Staind: Break The Cycle 25th Anniversary Tour",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Rocket Arena",
+    "datetime_iso": "2027-04-16T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_q-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_q-",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_q-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_q-",
+        "discovery_event_id": "Z7r9jZ1AAe_q-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_q-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_q-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

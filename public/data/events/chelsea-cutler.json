@@ -1121,5 +1121,535 @@
         "end": "2027-03-04T05:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-saint-petersburg-z7r9jz1aae_gk",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler",
+    "city": "Saint Petersburg",
+    "country": "United States Of America",
+    "venue": "Jannus Live",
+    "datetime_iso": "2027-01-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_GK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_GK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_GK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_GK",
+        "discovery_event_id": "Z7r9jZ1AAe_GK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_GK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_GK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-atlanta-z7r9jz1aae_gf",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Eastern-GA",
+    "datetime_iso": "2027-01-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_Gf",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gf",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gf",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_Gf",
+        "discovery_event_id": "Z7r9jZ1AAe_Gf",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_Gf",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-nashville-z7r9jz1aaefb3",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler w/ Lamb",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Marathon Music Works",
+    "datetime_iso": "2027-02-04T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAefb3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefb3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefb3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAefb3",
+        "discovery_event_id": "Z7r9jZ1AAefb3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefb3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAefb3",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-boston-z7r9jz1aaefp9",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler w/ Lamb",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Roadrunner-Boston",
+    "datetime_iso": "2027-02-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAefp9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAefp9",
+        "discovery_event_id": "Z7r9jZ1AAefp9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAefp9",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-columbus-z7r9jz1aaef0s",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler w/ googly eyes",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Newport Music Hall",
+    "datetime_iso": "2027-02-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAef0S",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef0S",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef0S",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAef0S",
+        "discovery_event_id": "Z7r9jZ1AAef0S",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef0S",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAef0S",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-denver-z7r9jz1aae_g4",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Mission Ballroom",
+    "datetime_iso": "2027-03-01T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_G4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_G4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_G4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_G4",
+        "discovery_event_id": "Z7r9jZ1AAe_G4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_G4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_G4",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-san-francisco-z7r9jz1aae_gp",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Midway",
+    "datetime_iso": "2027-03-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_Gp",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gp",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gp",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_Gp",
+        "discovery_event_id": "Z7r9jZ1AAe_Gp",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gp",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_Gp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-salt-lake-city-z7r9jz1aaefp4",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Complex - UT",
+    "datetime_iso": "2027-03-10T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAefp4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAefp4",
+        "discovery_event_id": "Z7r9jZ1AAefp4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAefp4",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-seattle-z7r9jz1aae_g9",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Showbox SODO",
+    "datetime_iso": "2027-03-13T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_G9",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_G9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_G9",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_G9",
+        "discovery_event_id": "Z7r9jZ1AAe_G9",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_G9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_G9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chelsea-cutler-2027-portland-z7r9jz1aae_gb",
+    "artist_slug": "chelsea-cutler",
+    "artist_name": "Chelsea Cutler",
+    "event_name": "Chelsea Cutler",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Roseland Theater",
+    "datetime_iso": "2027-03-14T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_Gb",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gb",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gb",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_Gb",
+        "discovery_event_id": "Z7r9jZ1AAe_Gb",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_Gb",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

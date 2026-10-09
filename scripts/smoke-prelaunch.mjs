@@ -1362,6 +1362,37 @@ for (const [artistSlug, postSlugs] of postSlugsByArtist) {
   );
 }
 
+// A published post that names a touring, indexable artist opens with that
+// artist's ticket pages (date board, price guide, city pages), so blog readers
+// have a route to checked ticket links before the foot of the post.
+{
+  const smokeArtistsMeta = JSON.parse(await read("public/data/artists.json"));
+  const smokeEvents = JSON.parse(await read("public/data/events.json"));
+  const nowMs = Date.now();
+  const touring = new Set(
+    smokeArtistsMeta
+      .filter((meta) => meta.indexing_status === "indexable_with_substantial_content")
+      .map((meta) => meta.slug)
+      .filter((slug) => smokeEvents.some((event) => event.artist_slug === slug && Date.parse(event.datetime_iso) > nowMs + 6 * 3600 * 1000))
+  );
+  let panels = 0;
+  for (const post of (smokeBlogContent.posts || []).filter((entry) => entry.status === "published")) {
+    const named = (post.relatedArtists || []).slice(0, 3).filter((slug) => touring.has(slug));
+    if (!named.length) continue;
+    const page = await routeResponse(`/blog/${post.slug}`);
+    for (const artistSlug of named) {
+      assert(
+        page.text.includes(`data-blog-ticket-routes="${artistSlug}"`) &&
+          (page.text.includes(`class="button button-primary" href="/artists/${artistSlug}"`) || page.text.includes(`class="text-link" href="/artists/${artistSlug}"`)),
+        `/blog/${post.slug} shows ticket routes for ${artistSlug}`
+      );
+      panels += 1;
+    }
+    assert(!/\$\d|£\d|€\d/.test(page.text.match(/<section class="nested-panel blog-ticket-routes"[\s\S]*?<\/section>/g)?.join("") || ""), `/blog/${post.slug} ticket routes carry no price figures`);
+  }
+  assert(panels >= 1, "at least one published blog post shows artist ticket routes");
+}
+
 const pairwiseGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster");
 assert(pairwiseGuide.response.status === 200, "focused SeatGeek vs Ticketmaster guide should return 200");
 assert(extractCanonical(pairwiseGuide.text) === "https://tourticketcompare.com/guides/seatgeek-vs-ticketmaster", "focused guide should expose its own canonical");

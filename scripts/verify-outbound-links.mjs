@@ -255,6 +255,37 @@ function collectLinks(events) {
   return [...found.entries()].map(([url, refs]) => ({ url, refs: [...refs] }));
 }
 
+// A connection error, a timeout or a gateway 5xx says nothing about whether
+// the storefront page still exists. On 2026-10-09 one TicketNetwork URL that
+// answered 200 in a browser came back as ERR in the sweep, and that single
+// transient kept the daily-audit issue open and Site health red all day.
+const TRANSIENT_STATUSES = new Set([502, 503, 504]);
+
+export function isTransientFailure(result) {
+  if (!result || result.ok || result.blocked) return false;
+  return result.status == null || TRANSIENT_STATUSES.has(result.status);
+}
+
+/**
+ * Re-check transient failures once, one at a time, before any of them may be
+ * reported as a dead link. Serial on purpose: the first pass is a burst, and a
+ * retry fired at the same width would meet the same congestion. A URL that
+ * fails again is reported exactly as before, so a real outage still surfaces.
+ */
+export async function recheckTransientFailures(items, results, check) {
+  const out = results.slice();
+  let rechecked = 0;
+  let recovered = 0;
+  for (const [index, result] of results.entries()) {
+    if (!isTransientFailure(result)) continue;
+    rechecked += 1;
+    const retry = await check(items[index]);
+    out[index] = retry;
+    if (retry.ok || retry.blocked) recovered += 1;
+  }
+  return { results: out, rechecked, recovered };
+}
+
 async function checkUrl(url, timeoutMs, fetchImpl = fetch) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), timeoutMs);
@@ -500,6 +531,40 @@ if (args.has('--self-test')) {
     /worker defect/
   );
 
+  // --- transient re-check -----------------------------------------------------
+  //
+  // Only network errors and gateway 5xx are retried; a 404, a WAF block or a
+  // pass is left exactly as the first pass saw it. A retry that fails again
+  // still reaches the report.
+  assert.equal(isTransientFailure({ ok: false, status: null, error: 'timeout' }), true);
+  assert.equal(isTransientFailure({ ok: false, status: 503 }), true);
+  assert.equal(isTransientFailure({ ok: false, status: 404 }), false);
+  assert.equal(isTransientFailure({ ok: false, blocked: true, status: 403 }), false);
+  assert.equal(isTransientFailure({ ok: true, status: 200 }), false);
+
+  const retryItems = ['a', 'b', 'c', 'd'].map((id) => ({ url: `https://retry.example/${id}` }));
+  const retried = [];
+  const recheck = await recheckTransientFailures(
+    retryItems,
+    [
+      { ok: false, status: null, error: 'fetch failed' },
+      { ok: false, status: 404 },
+      { ok: false, status: 504 },
+      { ok: true, status: 200 }
+    ],
+    async (item) => {
+      retried.push(item.url);
+      return item.url.endsWith('/a') ? { ok: true, status: 200 } : { ok: false, status: 504 };
+    }
+  );
+  assert.deepEqual(retried, ['https://retry.example/a', 'https://retry.example/c']);
+  assert.equal(recheck.rechecked, 2);
+  assert.equal(recheck.recovered, 1);
+  assert.equal(recheck.results[0].ok, true);
+  assert.equal(recheck.results[1].status, 404);
+  assert.equal(recheck.results[2].status, 504);
+  assert.equal(recheck.results[3].ok, true);
+
   console.log('verify-outbound-links self-test passed');
   process.exit(0);
 }
@@ -567,11 +632,19 @@ console.log(
 
 // Phase one is the network, run concurrently. Phase two replays the results in
 // input order, so classification, logging and the artefact are unchanged.
-const results = await mapWithHostLimits(
+const firstPass = await mapWithHostLimits(
   links,
   { perHost: PER_HOST_CONCURRENCY, global: GLOBAL_CONCURRENCY },
   (item) => checkUrl(item.url, timeoutMs)
 );
+const { results, rechecked, recovered } = await recheckTransientFailures(
+  links,
+  firstPass,
+  (item) => checkUrl(item.url, timeoutMs * 2)
+);
+if (rechecked) {
+  console.log(`Re-checked ${rechecked} transient failure(s) (network error, timeout or 502/503/504); ${recovered} recovered.`);
+}
 
 for (const [index, item] of links.entries()) {
   const result = results[index];

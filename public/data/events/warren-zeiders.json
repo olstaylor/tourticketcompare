@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "3E00636A91763685",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/warren-zeiders-glasgow-11-10-2026/event/3E00636A91763685",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-glasgow-o2-academy-glasgow-10-11-2026--concerts-country-and-folk/production/6277275",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/warren-zeiders-glasgow-11-10-2026/event/3E00636A91763685",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6277275,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-glasgow-o2-academy-glasgow-10-11-2026--concerts-country-and-folk/production/6277275",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -89,7 +89,7 @@
     "ticketmaster_event_id": "3E0063663072FDB1",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/warren-zeiders-leeds-12-10-2026/event/3E0063663072FDB1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-leeds-o2-academy---leeds-10-12-2026--concerts-country-and-folk/production/6420846",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/warren-zeiders-leeds-12-10-2026/event/3E0063663072FDB1",
     "last_verified_at": "2026-10-07",
@@ -111,11 +111,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6420846,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-leeds-o2-academy---leeds-10-12-2026--concerts-country-and-folk/production/6420846",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -165,7 +165,7 @@
     "ticketmaster_event_id": "1F00635FDE00908E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/warren-zeiders-manchester-14-10-2026/event/1F00635FDE00908E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-manchester-manchester-academy-10-14-2026--concerts-country-and-folk/production/6277273",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/warren-zeiders-manchester-14-10-2026/event/1F00635FDE00908E",
     "last_verified_at": null,
@@ -187,11 +187,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6277273,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-manchester-manchester-academy-10-14-2026--concerts-country-and-folk/production/6277273",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -319,7 +319,7 @@
     "ticketmaster_event_id": "3E006363CFF9713E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/warren-zeiders-world-tour-2026-birmingham-16-10-2026/event/3E006363CFF9713E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-birmingham-o2-academy---birmingham-10-16-2026--concerts-country-and-folk/production/6277263",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/warren-zeiders-world-tour-2026-birmingham-16-10-2026/event/3E006363CFF9713E",
     "last_verified_at": null,
@@ -341,11 +341,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6277263,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-birmingham-o2-academy---birmingham-10-16-2026--concerts-country-and-folk/production/6277263",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -473,10 +473,10 @@
     "ticketmaster_event_id": "22006541AA89370E",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-presented-orlando-florida-03-25-2027/event/22006541AA89370E",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/orlando-florida-house-of-blues-orlando-2027-03-25-7-pm/concert/18649742",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-lake-buena-vista-house-of-blues-orlando-3-25-2027/production/7653877",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-presented-orlando-florida-03-25-2027/event/22006541AA89370E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -495,11 +495,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653877,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-lake-buena-vista-house-of-blues-orlando-3-25-2027/production/7653877",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -529,31 +529,6 @@
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Warren Zeiders Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Lakeview Presale",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-02-26T03:00:00Z"
@@ -580,10 +555,10 @@
     "ticketmaster_event_id": "0D0065418958601A",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-hollywood-florida-03-26-2027/event/0D0065418958601A",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/hollywood-florida-daer-nightclub-at-the-seminole-hard-rock-hotel-casino-2027-03-26-7-pm/concert/18649740",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-3-26-2027/production/7653928",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-hollywood-florida-03-26-2027/event/0D0065418958601A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -602,11 +577,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653928,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-3-26-2027/production/7653928",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -636,36 +611,6 @@
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "presales": [
       {
-        "name": "VIP Package Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Warren Zeiders Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Lakeview Presale",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Casino Presale",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Social Media Presale",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-03-20T02:00:00Z"
@@ -687,10 +632,10 @@
     "ticketmaster_event_id": "2100653EC6D6514B",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-waukee-iowa-04-02-2027/event/2100653EC6D6514B",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/waukee-iowa-vibrant-music-hall-2027-04-02-7-pm/concert/18649743",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-waukee-vibrant-music-hall-4-2-2027/production/7653930",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-waukee-iowa-04-02-2027/event/2100653EC6D6514B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -709,11 +654,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653930,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-waukee-vibrant-music-hall-4-2-2027/production/7653930",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -743,31 +688,6 @@
     "public_onsale_at": "2026-10-09T15:00:00Z",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "Warren Zeiders Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "Lakeview Presale",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-03-06T04:00:00Z"
@@ -794,10 +714,10 @@
     "ticketmaster_event_id": "08006541B02463F9",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-grand-rapids-michigan-04-15-2027/event/08006541B02463F9",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2027-04-15-7-pm/concert/18649754",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-grand-rapids-glc-live-at-20-monroe-4-15-2027/production/7654266",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-grand-rapids-michigan-04-15-2027/event/08006541B02463F9",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -816,11 +736,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654266,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-grand-rapids-glc-live-at-20-monroe-4-15-2027/production/7654266",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -849,31 +769,6 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "presales": [
-      {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Warren Zeiders Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Lakeview Presale",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
       {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-09T14:00:00Z",
@@ -904,7 +799,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-chicago-illinois-04-17-2027/event/0400654296D17207",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -943,26 +838,6 @@
     "public_onsale_at": "2026-10-09T15:00:00Z",
     "presales": [
       {
-        "name": "VIP Package Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "Warren Zeiders Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "Lakeview Presale",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "The Salt Shed Online Presale",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-04-11T03:00:00Z"
@@ -985,7 +860,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-philadelphia-pennsylvania-04-22-2027/event/0200653DC346439C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1038,31 +913,6 @@
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Warren Zeiders Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Lakeview Presale",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-03-26T02:00:00Z"
@@ -1089,10 +939,10 @@
     "ticketmaster_event_id": "16006541C47A9A6E",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-pittsburgh-pennsylvania-04-23-2027/event/16006541C47A9A6E",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2027-04-23-7-pm/concert/18649761",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-pittsburgh-citizens-live-at-the-wylie-4-23-2027/production/7653452",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-pittsburgh-pennsylvania-04-23-2027/event/16006541C47A9A6E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1111,11 +961,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653452,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-pittsburgh-citizens-live-at-the-wylie-4-23-2027/production/7653452",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1145,36 +995,6 @@
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Warren Zeiders Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Citizens Bank Presale",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Lakeview Presale",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-03-27T02:00:00Z"
@@ -1201,10 +1021,10 @@
     "ticketmaster_event_id": "1600653EB00E81D9",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-cincinnati-ohio-04-24-2027/event/1600653EB00E81D9",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/cincinnati-ohio-andrew-j-brady-music-center-2027-04-24-7-pm/concert/18649764",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-cincinnati-andrew-j-brady-music-center-4-24-2027/production/7653990",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-cincinnati-ohio-04-24-2027/event/1600653EB00E81D9",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1223,11 +1043,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653990,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-cincinnati-andrew-j-brady-music-center-4-24-2027/production/7653990",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1250,36 +1070,6 @@
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "presales": [
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Warren Zeiders Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Lakeview Presale",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Venue Internet Presale",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-04-18T02:00:00Z"
@@ -1300,10 +1090,10 @@
     "ticketmaster_event_id": "2D00653EB7C32F38",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-columbia-south-carolina-04-29-2027/event/2D00653EB7C32F38",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/columbia-south-carolina-township-auditorium-2027-04-29-7-pm/concert/18649765",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-columbia-township-auditorium-4-29-2027/production/7653998",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-columbia-south-carolina-04-29-2027/event/2D00653EB7C32F38",
-    "last_verified_at": "2026-10-08",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1322,11 +1112,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653998,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-columbia-township-auditorium-4-29-2027/production/7653998",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1356,31 +1146,6 @@
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Lakeview Presale",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Venue Presale - Internet Only!!",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Local Presale",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-04-23T02:00:00Z"
@@ -1402,10 +1167,10 @@
     "ticketmaster_event_id": "0E006541C3E15265",
     "ticketmaster_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-atlanta-georgia-04-30-2027/event/0E006541C3E15265",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-04-30-7-pm/concert/18649766",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-atlanta-coca-cola-roxy-theatre-4-30-2027/production/7654298",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/warren-zeiders-no-brakes-tour-atlanta-georgia-04-30-2027/event/0E006541C3E15265",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1424,11 +1189,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654298,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-atlanta-coca-cola-roxy-theatre-4-30-2027/production/7654298",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1457,31 +1222,6 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "presales": [
-      {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Warren Zeiders Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Lakeview Presale",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-07T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
       {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-09T14:00:00Z",

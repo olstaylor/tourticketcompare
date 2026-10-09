@@ -37,7 +37,7 @@
         "event_id": 7642178,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-savannah-enmarket-arena-2-3-2027/production/7642178",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -144,7 +144,7 @@
         "event_id": 7642170,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-tampa-benchmark-international-arena-2-5-2027/production/7642170",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -237,7 +237,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-jacksonville-vystar-veterans-memorial-arena-2-6-2027/production/7642110",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-jacksonville-florida-02-06-2027/event/2200653EF0D8953E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -259,7 +259,7 @@
         "event_id": 7642110,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-jacksonville-vystar-veterans-memorial-arena-2-6-2027/production/7642110",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -304,6 +304,11 @@
         "end": "2026-10-15T02:00:00Z"
       },
       {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T13:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
         "name": "GVF Fan Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
@@ -317,6 +322,11 @@
         "name": "LIVE NATION PRESALE",
         "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2027-01-30T04:55:00Z"
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-jacksonville-tickets-2-6-2027/event/107670989"
@@ -359,7 +369,7 @@
         "event_id": 7642152,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-atlanta-state-farm-arena-2-9-2027/production/7642152",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -469,7 +479,7 @@
         "event_id": 7642172,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-nashville-bridgestone-arena-2-10-2027/production/7642172",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -569,7 +579,7 @@
         "event_id": 7642180,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-rosemont-allstate-arena-2-12-2027/production/7642180",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -679,7 +689,7 @@
         "event_id": 7642102,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-omaha-chi-health-center-omaha-2-13-2027/production/7642102",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -776,7 +786,7 @@
         "event_id": 7642158,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-minneapolis-target-center-2-15-2027/production/7642158",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -891,7 +901,7 @@
         "event_id": 7642122,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-louisville-kfc-yum-center-2-19-2027/production/7642122",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -998,7 +1008,7 @@
         "event_id": 7642136,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-pittsburgh-ppg-paints-arena-2-20-2027/production/7642136",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1105,7 +1115,7 @@
         "event_id": 7642148,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-detroit-little-caesars-arena-3-2-2027/production/7642148",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1207,7 +1217,7 @@
         "event_id": 7642108,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-boston-td-garden-3-5-2027/production/7642108",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1317,7 +1327,7 @@
         "event_id": 7642140,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-albany-mvp-arena-3-6-2027/production/7642140",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1419,7 +1429,7 @@
         "event_id": 7642146,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-brooklyn-barclays-center-3-8-2027/production/7642146",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1534,7 +1544,7 @@
         "event_id": 7642134,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-philadelphia-xfinity-mobile-arena-3-10-2027/production/7642134",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1644,7 +1654,7 @@
         "event_id": 7642096,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-charlotte-spectrum-center-3-12-2027/production/7642096",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1746,7 +1756,7 @@
         "event_id": 7642114,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-knoxville-thompson-boling-arena-at-food-city-center-3-13-2027/production/7642114",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1841,7 +1851,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-fort-worth-dickies-arena-3-15-2027/production/7642182",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/971-the-eagle-presents-greta-van-fort-worth-texas-03-15-2027/event/0C006541C1B6C11E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1863,7 +1873,7 @@
         "event_id": 7642182,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-fort-worth-dickies-arena-3-15-2027/production/7642182",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1903,6 +1913,21 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303363/Greta-Van-Fleet-tickets-Mon-Mar-15-2027-Dickies-Arena",
     "presales": [
       {
+        "name": "GVF Ether Pass Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "GVF Fan Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
         "name": "Reserved by Spotify",
         "start": "2026-10-13T19:00:00Z",
         "end": "2026-10-15T03:00:00Z"
@@ -1916,6 +1941,11 @@
         "name": "Venue Presale",
         "start": "2026-10-14T15:00:00Z",
         "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2027-03-08T05:55:00Z"
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-fort-worth-tickets-3-15-2027/event/107671871"
@@ -1958,7 +1988,7 @@
         "event_id": 7642162,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-tulsa-bok-center-3-16-2027/production/7642162",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2050,7 +2080,7 @@
         "event_id": 7642130,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-anaheim-honda-center-3-19-2027/production/7642130",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2165,7 +2195,7 @@
         "event_id": 7642092,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-phoenix-mortgage-matchup-center-3-20-2027/production/7642092",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2272,7 +2302,7 @@
         "event_id": 7642168,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-reno-reno-events-center-3-22-2027/production/7642168",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2374,7 +2404,7 @@
         "event_id": 7642094,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-seattle-climate-pledge-arena-3-24-2027/production/7642094",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2489,7 +2519,7 @@
         "event_id": 7642126,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-portland-moda-center-3-25-2027/production/7642126",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2596,7 +2626,7 @@
         "event_id": 7642160,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-boise-extramile-arena-3-27-2027/production/7642160",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2698,7 +2728,7 @@
         "event_id": 7642098,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-denver-ball-arena-3-30-2027/production/7642098",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2791,7 +2821,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/greta-van-fleet-into-the-beginning-tickets/1124094012?language=en-us",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2833,35 +2863,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v70efZ3",
     "timezone": "Europe/Berlin",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T08:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Greta Van Fleet Album Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "PayPal Prio Tickets",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Telekom Prio Tickets",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      }
-    ],
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-munich-olympiahalle-munich-15-5-2027/event/107670991"
   },
   {
@@ -2880,7 +2882,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/greta-van-fleet-assago-16-05-2027/event/f5l9e9a0fsq1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2915,8 +2917,7 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZ7k7A",
     "timezone": "Europe/Rome",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T08:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-hamburg-z698xzc2z1k83jea7",
@@ -2931,10 +2932,10 @@
     "ticketmaster_event_id": "412982144",
     "ticketmaster_url": "https://www.ticketmaster.de/event/greta-van-fleet-into-the-beginning-tickets/412982144?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-hamburg-barclays-arena---hamburg-5-18-2027--concerts-rock/production/7643045",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/greta-van-fleet-into-the-beginning-tickets/412982144?language=en-us",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2953,11 +2954,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7643045,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-hamburg-barclays-arena---hamburg-5-18-2027--concerts-rock/production/7643045",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2969,35 +2970,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k83JeA7",
     "timezone": "Europe/Berlin",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T08:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Greta Van Fleet Album Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "PayPal Prio Tickets",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Telekom Prio Tickets",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-berlin-z698xzc2z1kfv0zvs",
@@ -3012,10 +2985,10 @@
     "ticketmaster_event_id": "501900073",
     "ticketmaster_url": "https://www.ticketmaster.de/event/greta-van-fleet-into-the-beginning-tickets/501900073?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-berlin-uber-arena-5-21-2027--concerts-rock/production/7643051",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/greta-van-fleet-into-the-beginning-tickets/501900073?language=en-us",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3034,11 +3007,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7643051,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-berlin-uber-arena-5-21-2027--concerts-rock/production/7643051",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3046,39 +3019,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670992",
+        "url": "https://www.stubhub.ie/greta-van-fleet-tickets-berlin-uber-arena-21-5-2027/event/107670992",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kfv0ZvS",
     "timezone": "Europe/Berlin",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T08:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Greta Van Fleet Album Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "PayPal Prio Tickets",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Telekom Prio Tickets",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      }
-    ]
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-berlin-uber-arena-21-5-2027/event/107670992"
   },
   {
     "id": "tm-greta-van-fleet-2027-amsterdam-z698xzbpz1kpzobgo",
@@ -3096,7 +3049,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/greta-van-fleet-into-the-beginning-tickets/978458311?language=en-us",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3138,30 +3091,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kPzobGo",
     "timezone": "Europe/Amsterdam",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T08:00:00Z",
-    "presales": [
-      {
-        "name": "Album Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T07:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T07:00:00Z"
-      },
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T07:00:00Z"
-      },
-      {
-        "name": "MOJO Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T07:00:00Z"
-      }
-    ],
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-amsterdam-ziggo-dome-24-5-2027/event/107670944"
   },
   {
@@ -3180,7 +3110,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/greta-van-fleet--into-the-beginning-tickets/2012935063",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3215,35 +3145,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16eZ30gvN",
     "timezone": "Europe/Brussels",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T08:00:00Z",
-    "presales": [
-      {
-        "name": "Album Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T07:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T07:00:00Z"
-      },
-      {
-        "name": "Mastercard® Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T07:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T07:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T07:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-london-1adfz_kgkmuet5g",
@@ -3258,10 +3160,10 @@
     "ticketmaster_event_id": "3500653DF69FF2F5",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-london-28-05-2027/event/3500653DF69FF2F5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-london-the-o2---london-5-28-2027--concerts-rock/production/7643061",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-london-28-05-2027/event/3500653DF69FF2F5",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3280,11 +3182,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7643061,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-london-the-o2---london-5-28-2027--concerts-rock/production/7643061",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3303,25 +3205,7 @@
     },
     "ticketmaster_discovery_event_id": "1AdfZ_KGkMUET5g",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T09:00:00Z",
-    "presales": [
-      {
-        "name": "Album Presale",
-        "start": "2026-10-07T09:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T09:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-10-08T09:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      }
-    ],
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-london-the-o2-arena-28-5-2027/event/107671665"
   },
   {
@@ -3340,7 +3224,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-birmingham-30-05-2027/event/2300653DF8931441",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3382,20 +3266,7 @@
     },
     "ticketmaster_discovery_event_id": "1AeGZ_KGkMz0sov",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T09:00:00Z",
-    "presales": [
-      {
-        "name": "Album Presale",
-        "start": "2026-10-07T09:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T09:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      }
-    ],
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-birmingham-utilita-arena-birmingham-30-5-2027/event/107671666"
   },
   {
@@ -3411,10 +3282,10 @@
     "ticketmaster_event_id": "3700653EB0D83124",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-manchester-01-06-2027/event/3700653EB0D83124",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-manchester-co-op-live-6-1-2027--concerts-rock/production/7643065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/greta-van-fleet-into-the-beginning-manchester-01-06-2027/event/3700653EB0D83124",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3433,11 +3304,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7643065,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-manchester-co-op-live-6-1-2027--concerts-rock/production/7643065",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3470,37 +3341,9 @@
     },
     "ticketmaster_discovery_event_id": "1AdjZ_KGkBYUd70",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T09:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303348",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303348/Greta-Van-Fleet-tickets-Tue-Jun-1-2027-Co-Op-Live",
-    "presales": [
-      {
-        "name": "Album Presale",
-        "start": "2026-10-07T09:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T09:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Co-op Presale",
-        "start": "2026-10-07T09:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Priority from O2",
-        "start": "2026-10-07T09:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-10-08T09:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-manchester-co-op-live-1-6-2027/event/107671667"
   },
   {
@@ -3516,10 +3359,10 @@
     "ticketmaster_event_id": "36006541A3095872",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/venue-premium-greta-van-fleet-into-glasgow-02-06-2027/event/36006541A3095872",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-glasgow-ovo-hydro-6-2-2027--concerts-rock/production/7643067",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/venue-premium-greta-van-fleet-into-glasgow-02-06-2027/event/36006541A3095872",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3538,11 +3381,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7643067,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-glasgow-ovo-hydro-6-2-2027--concerts-rock/production/7643067",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3561,8 +3404,7 @@
     },
     "ticketmaster_discovery_event_id": "1AUZk4vGkeNe4-w",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T09:00:00Z",
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-glasgow-ovo-hydro-arena-glasgow-2-6-2027/event/107671668"
   },
   {
@@ -3581,7 +3423,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/greta-van-fleet-into-the-beginning-dublin-04-06-2027/event/18006537B34BDC03",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3616,30 +3458,7 @@
     },
     "ticketmaster_discovery_event_id": "1AbZkfMGkeS3WYd",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T09:00:00Z",
-    "presales": [
-      {
-        "name": "Album Presale",
-        "start": "2026-10-07T09:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T09:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Three+ Presale",
-        "start": "2026-10-07T09:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "MCD Presale",
-        "start": "2026-10-08T09:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-vancouver-1av7z_kgkw_ogty",
@@ -3657,7 +3476,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-vancouver-british-columbia-07-05-2027/event/1100653C99835FF0",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3727,7 +3546,7 @@
         "end": "2026-10-15T05:00:00Z"
       },
       {
-        "name": "Reserved by Spotify Offer",
+        "name": "Reserved by Spotify",
         "start": "2026-10-13T21:00:00Z",
         "end": "2026-10-15T05:00:00Z"
       },
@@ -3786,7 +3605,7 @@
         "event_id": 7642106,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-edmonton-rogers-place-7-7-2027/production/7642106",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3893,7 +3712,7 @@
         "event_id": 7642090,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-calgary-scotiabank-saddledome-7-8-2027/production/7642090",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4000,7 +3819,7 @@
         "event_id": 7642164,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-winnipeg-canada-life-centre-7-10-2027/production/7642164",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4102,7 +3921,7 @@
         "event_id": 7642120,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-kansas-city-t-mobile-center-7-13-2027/production/7642120",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4125,6 +3944,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671900",
+        "url": "https://www.stubhub.ie/greta-van-fleet-kansas-city-tickets-7-13-2027/event/107671900",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4vGkdr0kg1",
@@ -4139,7 +3965,8 @@
         "start": "2026-10-13T19:00:00Z",
         "end": "2026-10-15T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-kansas-city-tickets-7-13-2027/event/107671900"
   },
   {
     "id": "tm-greta-van-fleet-2027-saint-louis-vv17bz_kgkm_stkv",
@@ -4270,7 +4097,7 @@
         "event_id": 7642116,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-columbus-nationwide-arena-7-16-2027/production/7642116",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4382,7 +4209,7 @@
         "event_id": 7642100,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-noblesville-ruoff-music-center-7-17-2027/production/7642100",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4494,7 +4321,7 @@
         "event_id": 7642150,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-raleigh-lenovo-center-7-20-2027/production/7642150",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4574,7 +4401,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-columbia-merriweather-post-pavilion-7-21-2027/production/7642117",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-columbia-maryland-07-21-2027/event/1500653CF16628BF",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4596,7 +4423,7 @@
         "event_id": 7642117,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-columbia-merriweather-post-pavilion-7-21-2027/production/7642117",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4634,6 +4461,11 @@
         "end": "2026-10-15T02:00:00Z"
       },
       {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T13:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
         "name": "GVF Fan Presale",
         "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
@@ -4652,6 +4484,11 @@
         "name": "LIVE NATION PRESALE",
         "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2027-07-14T03:55:00Z"
       }
     ]
   },
@@ -4693,7 +4530,7 @@
         "event_id": 7642132,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-hershey-giant-center-7-23-2027/production/7642132",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4800,7 +4637,7 @@
         "event_id": 7642174,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-uncasville-mohegan-sun-arena-ct-7-24-2027/production/7642174",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4880,7 +4717,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-gilford-banknh-pavilion-7-26-2027/production/7642112",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-gilford-new-hampshire-07-26-2027/event/0100653AAC543171",
-    "last_verified_at": "2026-10-08",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4902,7 +4739,7 @@
         "event_id": 7642112,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-gilford-banknh-pavilion-7-26-2027/production/7642112",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4920,6 +4757,11 @@
     "presales": [
       {
         "name": "GVF Ether Pass Presale",
+        "start": "2026-10-13T13:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
         "start": "2026-10-13T13:00:00Z",
         "end": "2026-10-15T02:00:00Z"
       },
@@ -4952,6 +4794,11 @@
         "name": "Eastern Propane Ticket Offer",
         "start": "2026-10-14T14:00:00Z",
         "end": "2026-10-22T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2027-07-19T03:55:00Z"
       }
     ]
   },
@@ -4993,7 +4840,7 @@
         "event_id": 7642144,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-laval-place-bell-7-28-2027/production/7642144",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -5070,7 +4917,7 @@
     "ticketmaster_event_id": "1000653CF2C026FE",
     "ticketmaster_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-toronto-ontario-07-29-2027/event/1000653CF2C026FE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-toronto-rbc-amphitheatre-7-29-2027/production/7642156",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-toronto-ontario-07-29-2027/event/1000653CF2C026FE",
     "last_verified_at": "2026-10-07",
@@ -5092,11 +4939,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642156,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-toronto-rbc-amphitheatre-7-29-2027/production/7642156",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -5159,7 +5006,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-grand-rapids-acrisure-amphitheater-7-31-2027/production/7642128",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-grand-rapids-michigan-07-31-2027/event/0800653CABC5444C",
-    "last_verified_at": "2026-10-08",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -5181,7 +5028,7 @@
         "event_id": 7642128,
         "url": "https://www.vividseats.com/greta-van-fleet-tickets-grand-rapids-acrisure-amphitheater-7-31-2027/production/7642128",
         "verified": true,
-        "last_verified_at": "2026-10-04",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -5219,13 +5066,13 @@
         "end": "2026-10-15T02:00:00Z"
       },
       {
-        "name": "GVF Fan Presale",
+        "name": "VIP Packages Presale",
         "start": "2026-10-13T13:00:00Z",
         "end": "2026-10-15T02:00:00Z"
       },
       {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-13T13:00:00Z",
+        "name": "GVF Fan Presale",
+        "start": "2026-10-13T14:00:00Z",
         "end": "2026-10-15T02:00:00Z"
       },
       {

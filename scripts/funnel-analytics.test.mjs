@@ -6,8 +6,8 @@
 //                           and no personal data reaches analytics_events.
 //   2. Duplicate prevention — one interaction produces one row, on both the
 //                           client guard and the server insert path.
-//   3. Redirect tracking  — /api/out records the authoritative outbound row
-//                           with its funnel dimensions, keeps the provider
+//   3. Redirect tracking  — /api/out records qualified outbound receipts with
+//                           their funnel dimensions, keeps the provider
 //                           allowlist and fail-closed behaviour intact, and
 //                           does not change the affiliate URL by default.
 //
@@ -111,9 +111,10 @@ function fakeAssets(events = [SAMPLE_EVENT]) {
 
 const BROWSER_UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1";
 
-function outRequest(query, { userAgent = BROWSER_UA, referer = null } = {}) {
+function outRequest(query, { userAgent = BROWSER_UA, referer = null, secFetchUser = "?1" } = {}) {
   const headers = { "user-agent": userAgent, "cf-connecting-ip": "203.0.113.7" };
   if (referer) headers.referer = referer;
+  if (secFetchUser) headers["sec-fetch-user"] = secFetchUser;
   return new Request(`https://tourticketcompare.com/api/out?${query}`, { headers });
 }
 
@@ -494,6 +495,21 @@ await test("bot filtering still drops self-identifying crawlers on both paths", 
   assert.equal(outDb.rows.length, 0, "a crawler click must not be recorded");
 });
 
+await test("outbound analytics requires a browser user-navigation signal without changing redirects", async () => {
+  const db = fakeDb();
+  const response = await outGet({
+    request: outRequest(
+      `showId=${SAMPLE_EVENT.id}&provider=ticketmaster&sourcePath=/artists/test-artist`,
+      { secFetchUser: null }
+    ),
+    env: { DEMAND_DB: db, ASSETS: fakeAssets() }
+  });
+
+  assert.equal(response.status, 302, "a valid redirect must remain available without the signal");
+  assert.equal(response.headers.get("Location"), SAMPLE_EVENT.ticketmaster_url);
+  assert.equal(db.rows.length, 0, "an unqualified request must not create attempt or terminal receipt rows");
+});
+
 // ── 3. Duplicate prevention ─────────────────────────────────────────────────
 
 await test("duplicate guard suppresses a repeat inside the window only", () => {
@@ -526,6 +542,9 @@ await test("one interaction produces exactly one outbound row", async () => {
   await outGet({ request: outRequest(`showId=${SAMPLE_EVENT.id}&provider=ticketmaster&sourcePath=/artists/test-artist`), env });
   assert.equal(db.rows.filter((row) => row.click_id && row.click_id === db.rows[0].click_id).length, 2, "one click id has an attempt and one terminal row");
   assert.equal(db.rows.filter((row) => row.event_name === "outbound_click").length, 1);
+  for (const row of db.rows) {
+    assert.equal(JSON.parse(row.metadata_json).receiptQualification, "fetch_user_v1", "qualified receipts must be distinguishable from legacy rows");
+  }
 });
 
 // ── 4. Redirect tracking ────────────────────────────────────────────────────
@@ -747,8 +766,9 @@ await test("every report query is valid SQLite against the 0008 schema", async (
   try {
     db = await openFixtureDb([
       { created_at: "2026-07-20T10:00:00.000Z", event_name: "page_view", source_path: "/artists/x", artist_slug: "x", request_key: "v1", landing_path: "/artists/x", page_type: "artist" },
-      { created_at: "2026-07-20T10:05:00.000Z", event_name: "outbound_click", source_path: "/artists/x", artist_slug: "x", request_key: "v1", page_type: "artist", provider: "seatgeek", is_affiliate: 1, destination_category: "affiliate_network", cta_location: "event_card" },
-      { created_at: "2026-07-20T10:06:00.000Z", event_name: "outbound_blocked", source_path: "/artists/x", artist_slug: "x", request_key: "v1", provider: "vivid-seats", metadata_json: JSON.stringify({ status: "impact_request_failed" }) },
+      { created_at: "2026-07-20T10:05:00.000Z", event_name: "outbound_click", source_path: "/artists/x", artist_slug: "x", request_key: "v1", page_type: "artist", provider: "seatgeek", is_affiliate: 1, destination_category: "affiliate_network", cta_location: "event_card", metadata_json: JSON.stringify({ receiptQualification: "fetch_user_v1" }) },
+      { created_at: "2026-07-20T10:05:30.000Z", event_name: "outbound_click", source_path: "/legacy", artist_slug: "x", request_key: "v1", page_type: "artist", provider: "seatgeek" },
+      { created_at: "2026-07-20T10:06:00.000Z", event_name: "outbound_blocked", source_path: "/artists/x", artist_slug: "x", request_key: "v1", provider: "vivid-seats", metadata_json: JSON.stringify({ status: "impact_request_failed", receiptQualification: "fetch_user_v1" }) },
       { created_at: "2026-07-20T10:07:00.000Z", event_name: "email_signup", source_path: "/artists/y", artist_slug: "y", request_key: "v2" }
     ]);
   } catch (error) {
@@ -761,6 +781,8 @@ await test("every report query is valid SQLite against the 0008 schema", async (
   for (const statement of buildStatements({ since: "2026-07-01T00:00:00.000Z", until: "2026-08-01T00:00:00.000Z" })) {
     assert.doesNotThrow(() => db.prepare(statement.sql).all(), `${statement.key} is not valid SQLite`);
   }
+  const clicksByPath = db.prepare(buildStatements({ since: "", until: "" }).find((entry) => entry.key === "clicksByPath").sql).all();
+  assert.deepEqual(clicksByPath.map((row) => [row.source_path, Number(row.clicks)]), [["/artists/x", 1]], "legacy unqualified receipts must not enter the qualified report population");
   db.close();
 });
 
@@ -791,7 +813,8 @@ await test("a landing page is not credited one click per page the visitor viewed
       page_type: "artist",
       provider: "seatgeek",
       is_affiliate: 1,
-      destination_category: "affiliate_network"
+      destination_category: "affiliate_network",
+      metadata_json: JSON.stringify({ receiptQualification: "fetch_user_v1" })
     });
     db = await openFixtureDb(rows);
   } catch (error) {
@@ -820,7 +843,7 @@ await test("the landing row is the visitor's earliest page view of the day", asy
       // A later document load in the same tab reuses the stored landing path;
       // a genuinely new session on the same day reports its own.
       { created_at: "2026-07-20T18:00:00.000Z", event_name: "page_view", source_path: "/guides", request_key: "v1", landing_path: "/guides", page_type: "guides_index" },
-      { created_at: "2026-07-20T18:30:00.000Z", event_name: "outbound_click", source_path: "/artists/x", artist_slug: "x", request_key: "v1", provider: "seatgeek" }
+      { created_at: "2026-07-20T18:30:00.000Z", event_name: "outbound_click", source_path: "/artists/x", artist_slug: "x", request_key: "v1", provider: "seatgeek", metadata_json: JSON.stringify({ receiptQualification: "fetch_user_v1" }) }
     ]);
   } catch (error) {
     return;

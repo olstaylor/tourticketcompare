@@ -15,11 +15,18 @@ displayed) · `PROJECT_STATUS.md` (what is live right now).
 ### Canonical definitions
 
 `provider_click` means a visitor activated a provider CTA (client intent).
-`outbound_attempt` means a valid known-provider request reached `/api/out` and
+`outbound_attempt` means a valid known-provider **GET navigation carrying the
+browser-controlled `Sec-Fetch-User: ?1` signal** reached `/api/out` and
 received a server-generated opaque `click_id`. `outbound_click` means the
 reviewed destination and any required Impact tracking URL were validated, the
-row was recorded, and a 3xx was issued. `outbound_blocked` means the same
-legitimate attempt fail-closed before a 3xx, with a safe failure reason.
+qualified row was recorded, and a 3xx was issued. `outbound_blocked` means the
+same qualified attempt fail-closed before a 3xx, with a safe failure reason.
+Valid headerless requests still receive exactly the same redirect or safe
+failure response; they simply do not add a funnel receipt.
+Qualified rows carry `receiptQualification: "fetch_user_v1"` in their internal
+metadata. Commercial reports select that marker, so rolling reporting windows
+do not blend these rows with legacy unqualified receipts from before this
+change.
 
 Affiliate/non-affiliate status is based on the actual redirect hostname:
 reviewed Impact/tracking hosts are `affiliate_network`; reviewed provider hosts
@@ -39,11 +46,14 @@ count terminal rows for funnel totals and distinct IDs for reconciliation.
 | 7b. Click that never left | `outbound_blocked` | server, `functions/api/out.js` | Authoritative failure |
 | 8. Left an email address | `email_signup`, `artist_interest`, `price_alert_interest` | server, `functions/api/signup.js` | Authoritative |
 
-**`outbound_click` is authoritative evidence of a server-issued redirect,
-not of a human clicking a button.** Crawlers, browser automation, repeat
-requests and requests discovered outside the visible CTA can reach `/api/out`.
-Client beacons can be missing independently. Count server receipts separately
-from browser CTA intent; neither count proves arrival at the provider or a sale.
+**`outbound_click` is authoritative evidence of a qualified server-issued
+redirect, not of a human clicking a button.** Its `Sec-Fetch-User: ?1`
+requirement removes ordinary script requests and much automated direct access,
+but browser automation, repeat requests and requests discovered outside the
+visible CTA can still reach `/api/out`. Some compatible headerless browsers
+may be omitted. Client beacons can be missing independently. Count server
+receipts separately from browser CTA intent; neither count proves arrival at
+the provider or a sale.
 
 The commercial funnel report therefore withholds visitor CTR and CTA-to-redirect
 completion rates, including provider, artist, page-type and landing-page rates.
@@ -97,9 +107,10 @@ to it returns `400` and writes nothing. `/api/out` is the only writer of them.
 
 The client events that remain open — `page_view`, `artist_view`, `event_view`,
 `provider_cta_view`, `provider_click` — are indicative browser telemetry. An
-automated request can still invoke the legitimate `/api/out` writer and create
-a genuine redirect receipt. Protecting event names prevents client injection
-of server events; it does not authenticate a human or make conversion rates safe.
+automated browser request can still invoke the legitimate `/api/out` writer and
+create a qualified redirect receipt. Protecting event names and requiring the
+browser-controlled navigation signal reduce injection and direct-request noise;
+they do not authenticate a human or make conversion rates safe.
 
 ## Lizzy McAlpine price-guide measurement baseline
 

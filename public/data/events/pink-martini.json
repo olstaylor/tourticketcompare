@@ -952,7 +952,7 @@
         "event_id": 18396258,
         "url": "https://seatgeek.com/pink-martini-tickets/chicago-illinois-chicago-symphony-center-2027-02-12-8-pm/concert/18396258",
         "verified": true,
-        "last_verified_at": "2026-10-08",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1177,7 +1177,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZtZk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZtZk",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-05-7-30-pm/concert/18660140",
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-colorado-springs-pikes-peak-center-3-5-2027/production/7286670",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZtZk",
@@ -1193,11 +1193,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18660140,
+        "url": "https://seatgeek.com/pink-martini-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-05-7-30-pm/concert/18660140",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7286670,
@@ -1265,7 +1265,7 @@
         "event_id": 18500192,
         "url": "https://seatgeek.com/pink-martini-tickets/colorado-springs-colorado-pikes-peak-center-2027-03-06-7-30-pm/concert/18500192",
         "verified": true,
-        "last_verified_at": "2026-10-08",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1387,7 +1387,7 @@
         "event_id": 18238944,
         "url": "https://seatgeek.com/pink-martini-tickets/quebec-city-canada-theatre-capitole-2027-03-18-8-30-pm/concert/18238944",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1456,7 +1456,7 @@
         "event_id": 18515284,
         "url": "https://seatgeek.com/pink-martini-tickets/houston-texas-sarofim-hall-at-the-hobby-center-2027-03-25-7-30-pm/concert/18515284",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "vivid-seats": {

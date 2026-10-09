@@ -3491,13 +3491,18 @@ function renderPriceGuideBody(route, events, env) {
     .filter((guidePath) => GUIDE_ROUTES[guidePath])
     .map((guidePath) => `<li>${anchor(GUIDE_ROUTES[guidePath].h1 || GUIDE_ROUTES[guidePath].title, guidePath)}</li>`)
     .join("");
+  // A ready-made credit line so writers and fan sites can cite the figures with
+  // a link back. It describes what the data is; it adds no new claim.
+  const citeHtml = `<section class="nested-panel" aria-labelledby="priceGuideCiteTitle"><h2 id="priceGuideCiteTitle">Using this data</h2><p>${escapeHtml(
+    `You're welcome to quote these figures. They are the lowest listed resale prices on record for each ${artist.name} date, captured from the ticket sites named above at the time shown, not prices paid or checkout totals. Please credit and link this page:`
+  )}</p><p><code>${escapeHtml(`Source: TourTicketCompare, ${artist.name} ticket prices, ${canonicalOrigin("")}${route.path}`)}</code></p></section>`;
   const relatedHtml = `<section class="nested-panel" aria-labelledby="priceGuideRelatedTitle"><h2 id="priceGuideRelatedTitle">More on ${escapeHtml(
     artist.name
   )} tickets</h2><ul class="guide-link-list"><li>${anchor(`${artist.name} tickets and tour dates`, artistHref)}</li>${cityLinks}${postLinks}${guideLinks}</ul></section>`;
 
   return `<main id="mainContent"><section class="content-page price-guide-page" aria-labelledby="priceGuideTitle">${renderBreadcrumbHtml(
     route
-  )}${leadHtml}${glanceHtml}${tablesHtml}${movesHtml}${missingPricesHtml}${faceValueHtml}${whereHtml}${renderPriceGuideFaqHtml(priceGuideFaqEntries(route, view))}${relatedHtml}</section></main>`;
+  )}${leadHtml}${glanceHtml}${tablesHtml}${movesHtml}${missingPricesHtml}${faceValueHtml}${whereHtml}${renderPriceGuideFaqHtml(priceGuideFaqEntries(route, view))}${citeHtml}${relatedHtml}</section></main>`;
 }
 
 function artistCityShowIdSet(artistCity) {

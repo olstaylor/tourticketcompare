@@ -1,4 +1,5 @@
 import { CANONICAL_HOST } from "../_route-metadata.js";
+import { normalizeBrowserIntentId } from "../_browser-intent.js";
 import { isLikelyBot } from "../_bot-detection.js";
 import { insertAnalyticsRow } from "../_analytics-write.js";
 import {
@@ -103,6 +104,11 @@ export function sanitizeMetadata(value) {
   if (!value || typeof value !== "object" || Array.isArray(value)) return {};
   const output = {};
   for (const [key, raw] of Object.entries(value)) {
+    if (key === "browserIntentId") {
+      const intentId = normalizeBrowserIntentId(raw);
+      if (intentId) output.browserIntentId = intentId;
+      continue;
+    }
     if (!SAFE_METADATA_KEYS.has(key)) continue;
     if (typeof raw === "boolean") {
       output[key] = raw;

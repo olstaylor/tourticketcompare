@@ -47,9 +47,21 @@ from browser CTA intent; neither count proves arrival at the provider or a sale.
 
 The commercial funnel report therefore withholds visitor CTR and CTA-to-redirect
 completion rates, including provider, artist, page-type and landing-page rates.
-The two populations have no reliable shared browser-intent identity. A larger
+The full populations have no reliable shared browser-intent identity. A larger
 sample, equal aggregate counts, or a ratio below 100% does not fix that problem.
 The approximate visitor-day landing join is not a count of converting sessions.
+
+Consented ordinary browser CTA activations can additionally carry a fresh
+128-bit `browserIntentId` to TTC's analytics beacon and `/api/out`. It is not
+a visitor ID, is never stored in a cookie, and is not forwarded to a provider
+or Impact. The server's independently generated `click_id` and existing
+SubId1 stay unchanged. The native CTA link is restored after activation;
+denied consent, no JavaScript, synthetic and middle-click paths remain unjoined.
+The report's `browser_intent_join` counts only token groups with exactly one
+client intent and one redirect, matching provider/event and a five-minute
+maximum time span. Duplicates, blocked paths, mismatches and incomplete groups
+are reported separately. This partial correlation does not prove a human,
+provider arrival or purchase, and does not unlock visitor conversion rates.
 
 For JSON compatibility, existing `provider_clicks` fields still count server
 redirects and the legacy conversion-rate fields remain present as `null`.

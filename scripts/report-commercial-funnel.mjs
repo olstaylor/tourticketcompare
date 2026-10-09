@@ -391,6 +391,21 @@ WHERE event_name IN ('email_signup', 'artist_interest', 'price_alert_interest')$
 GROUP BY 1, 2`
     },
     {
+      key: "browserIntentPairs",
+      sql: `SELECT json_extract(metadata_json, '$.browserIntentId') AS intent_id,
+SUM(event_name = 'provider_click') AS intents,
+SUM(event_name = 'outbound_click') AS receipts,
+SUM(event_name = 'outbound_blocked') AS blocked,
+MIN(COALESCE(provider, '')) AS provider_min, MAX(COALESCE(provider, '')) AS provider_max,
+MIN(COALESCE(event_id, '')) AS event_min, MAX(COALESCE(event_id, '')) AS event_max,
+MIN(created_at) AS first_at, MAX(created_at) AS last_at
+FROM analytics_events
+WHERE event_name IN ('provider_click', 'outbound_click', 'outbound_blocked')${since}
+AND length(json_extract(metadata_json, '$.browserIntentId')) = 32
+AND json_extract(metadata_json, '$.browserIntentId') NOT GLOB '*[^0-9a-f]*'
+GROUP BY 1`
+    },
+    {
       key: "blockedByStatus",
       sql: `SELECT COALESCE(NULLIF(TRIM(provider), ''), '(none)') AS provider, COALESCE(NULLIF(TRIM(json_extract(metadata_json, '$.status')), ''), '(unknown)') AS status, COUNT(*) AS blocked
 FROM analytics_events
@@ -513,6 +528,19 @@ function toCountMap(rows, key, valueKey) {
 
 function sumRows(rows, valueKey) {
   return rows.reduce((total, row) => total + (Number(row[valueKey]) || 0), 0);
+}
+
+export function summarizeBrowserIntentPairs(rows) {
+  const summary = { token_groups: rows.length, matched: 0, unmatched: 0, ambiguous: 0, tuple_mismatch: 0, timing_mismatch: 0, basis: "consented_client_activation_to_server_receipt_not_human_identity_or_purchase", conversion_rate: null };
+  for (const row of rows) {
+    if (Number(row.intents) > 1 || Number(row.receipts) > 1) { summary.ambiguous++; continue; }
+    if (Number(row.intents) !== 1 || Number(row.receipts) !== 1 || Number(row.blocked)) { summary.unmatched++; continue; }
+    if (!row.provider_min || row.provider_min !== row.provider_max || row.event_min !== row.event_max) { summary.tuple_mismatch++; continue; }
+    const span = Date.parse(row.last_at) - Date.parse(row.first_at);
+    if (!Number.isFinite(span) || span < 0 || span > 300000) { summary.timing_mismatch++; continue; }
+    summary.matched++;
+  }
+  return summary;
 }
 
 export function buildReport(resultSets, options, window, coverage = new Map()) {
@@ -719,9 +747,14 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
     measurement: {
       status: "unreconciled",
       redirect_count_basis: "server_issued_redirects_not_verified_human_clicks",
-      conversion_rates_withheld_reason: "client_intent_and_server_receipts_have_no_reliable_shared_identity",
+      conversion_rates_withheld_reason: "full_client_and_server_populations_remain_unjoined_partial_consented_tokens_do_not_prove_humans_or_purchases",
       landing_attribution_basis: "approximate_visitor_day_join",
       qualified_affiliate_clicks: null
+    },
+    browser_intent_join: {
+      ...summarizeBrowserIntentPairs(resultSets.browserIntentPairs || []),
+      client_events_without_valid_token: Math.max(0, providerClicks - (resultSets.browserIntentPairs || []).reduce((sum, row) => sum + (Number(row.intents) || 0), 0)),
+      server_receipts_without_valid_token: Math.max(0, outbound - (resultSets.browserIntentPairs || []).reduce((sum, row) => sum + (Number(row.receipts) || 0), 0))
     },
     funnel,
     clicks_by_provider: byProvider,
@@ -776,6 +809,7 @@ export function renderReport(report) {
   lines.push(`Thresholds: traffic tables need >= ${minViews} views · receipt rankings need >= ${minClicks} redirects`);
   lines.push("outbound_click counts server-issued redirects, not verified human clicks.");
   lines.push("Visitor conversion and CTA completion rates withheld: client intent and server receipts are not reliably joined.");
+  lines.push(`Consented intent token groups: ${report.browser_intent_join.token_groups}; unique tuple/time matches: ${report.browser_intent_join.matched}; unmatched: ${report.browser_intent_join.unmatched}; ambiguous: ${report.browser_intent_join.ambiguous}; tuple/timing mismatches: ${report.browser_intent_join.tuple_mismatch + report.browser_intent_join.timing_mismatch}. These are partial activation-to-receipt matches, not human conversions or purchases.`);
   lines.push("Qualified affiliate clicks: unknown. Receipt rankings are investigation leads, not conversion rankings.");
   lines.push("");
 
@@ -980,7 +1014,7 @@ function selfTest() {
     assert.deepEqual(statements.map((s) => s.key), [
       "totals", "viewsByPageType", "clicksByPageType", "clicksByProvider", "reconciliationByProvider", "clicksByArtist",
       "viewsByArtist", "affiliateSplit", "clicksByCtaLocation", "landingPageViews",
-      "landingPageClicks", "pageViewsByPath", "clicksByPath", "signupsByArtist", "blockedByStatus"
+      "landingPageClicks", "pageViewsByPath", "clicksByPath", "signupsByArtist", "browserIntentPairs", "blockedByStatus"
     ]);
     for (const statement of statements) {
       assert.match(statement.sql, /^SELECT/);

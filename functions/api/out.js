@@ -1,4 +1,5 @@
 import { impactMarketplacePublicEnabled } from "../_impact-marketplace-config.js";
+import { browserIntentIdFromRequest } from "../_browser-intent.js";
 import { isLikelyBot } from "../_bot-detection.js";
 import { insertAnalyticsRow } from "../_analytics-write.js";
 import { eventLifecycleHeld } from "../_route-indexability.js";
@@ -2452,6 +2453,7 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
     : (destinationCategory === "affiliate_network" ? 1 : 0);
   const userAgent = clean(request.headers.get("user-agent"), 255) || null;
   const metadata = JSON.stringify({
+    browserIntentId: browserIntentIdFromRequest(request) || undefined,
     provider: link.provider,
     artistSlug: link.artistSlug,
     showId: link.showId || null,

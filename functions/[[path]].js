@@ -854,9 +854,18 @@ async function resolveRoute(pathname, env) {
       // has them. An empty board gets a description that matches what the page
       // actually says, so a shared or cached snippet never promises dates that
       // are not there.
+      // A priced board leads with "compare <artist> ticket prices", the intent its title
+      // and most of its search impressions carry ("<artist> ticket prices",
+      // "how much are <artist> tickets"); no figure, as this is also JSON-LD.
       description: hasUpcoming
-        ? artist.meta_description ||
-          `Every upcoming ${artist.name} date verified so far, with the checked ticket links for each one.`
+        ? priced
+          ? fitMetaDescription(
+              `Compare ${artist.name} ticket prices by date across checked ticket sites, with each site's listed price, when it was checked and the ticket link for each date.`,
+              `Compare ${artist.name} ticket prices by date across checked ticket sites, with each listed price, its check time and the link for each date.`,
+              `Compare ${artist.name} ticket prices by date across checked ticket sites.`
+            )
+          : artist.meta_description ||
+            `Every upcoming ${artist.name} date verified so far, with the checked ticket links for each one.`
         : `No upcoming ${artist.name} dates are listed right now. See where to find ${artist.name} tickets and get told when dates are confirmed.`,
       artist: enrichedArtist,
       catalog,
@@ -2867,16 +2876,29 @@ function artistCityTitle(artist, artistCity) {
   // "Prices" is promised only where a date in the run carries two listed-price
   // lanes (comparableCount, the same test the indexability gate reads).
   // Without one the page offers ticket links and dates, and its title says so.
+  //
+  // A priced run says "Ticket Prices", the phrase searchers type ("harry styles
+  // atlanta ticket prices", Search Console 2026-10). It is one character
+  // shorter than "Compare Prices", so it never costs the venue its place.
   const priced = artistCity.comparableCount > 0;
   const what = priced ? "Prices" : "Tickets";
   return fitTitleToBudget([
     ...(venue
-      ? [
-          `${lead(place)} | Compare ${what} at ${venue}`,
-          `${lead(shortPlace)} | Compare ${what} at ${venue}`,
-          ...(priced ? [`${lead(shortPlace)} | Prices at ${venue}`] : [`${lead(shortPlace)} | ${venue}`])
-        ]
-      : [`${lead(place)} | Compare ${what} & Dates`]),
+      ? priced
+        ? [
+            `${lead(place)} | Ticket Prices at ${venue}`,
+            `${lead(shortPlace)} | Ticket Prices at ${venue}`,
+            `${lead(shortPlace)} | Prices at ${venue}`
+          ]
+        : [
+            `${lead(place)} | Compare ${what} at ${venue}`,
+            `${lead(shortPlace)} | Compare ${what} at ${venue}`,
+            `${lead(shortPlace)} | ${venue}`
+          ]
+      : priced
+        ? [`${lead(place)} | Compare Ticket Prices`]
+        : [`${lead(place)} | Compare ${what} & Dates`]),
+    ...(priced ? [`${lead(shortPlace)} | Compare Ticket Prices`] : []),
     `${lead(shortPlace)} | Compare ${what} & Dates`,
     `${lead(shortPlace)} | Compare ${what}`,
     lead(shortPlace),
@@ -3146,10 +3168,14 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
 
 function priceGuideTitle(artist, yearLabel) {
   const year = yearLabel ? `${yearLabel} ` : "";
+  // "<artist> ticket prices" and "how much are <artist> tickets" are the two
+  // phrasings searchers use (Search Console, 2026-10), so the title keeps the
+  // first phrase unbroken, with the year after it, and adds the question.
   return fitTitleToBudget([
-    `${artist.name} ${year}Ticket Prices by Date & Provider`,
-    `${artist.name} ${year}Ticket Prices by Date`,
-    `${artist.name} ${year}Ticket Prices`,
+    `${artist.name} Ticket Prices ${year}| How Much Are Tickets?`,
+    `${artist.name} Ticket Prices ${year}by Date & Provider`,
+    `${artist.name} Ticket Prices ${year}by Date`,
+    `${artist.name} Ticket Prices ${year}`.trim(),
     `${artist.name} Ticket Prices`
   ]);
 }
@@ -3160,6 +3186,8 @@ function priceGuideDescription(artist, guide, yearLabel) {
   }`;
   const year = yearLabel ? ` ${yearLabel}` : "";
   return fitMetaDescription(
+    `How much are ${artist.name} tickets? Compare${year} listed resale prices by date and ticket site across ${scope}, with check times and recorded changes.`,
+    `How much are ${artist.name} tickets? Compare${year} listed resale prices by date and ticket site, with check times and recorded changes.`,
     `Check ${artist.name}${year} listed resale prices by date and provider across ${scope}, with price-check times and recorded changes. Compare the exact show.`,
     `Check ${artist.name}${year} listed resale prices by date and provider, with price-check times and recorded changes. Compare ticket sites for the exact show.`,
     `${artist.name}${year} ticket prices by date and provider, with listed resale prices, price-check times and links to compare the exact show.`

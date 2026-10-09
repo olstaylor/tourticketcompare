@@ -129,6 +129,9 @@ const EVENTS = [
 
   const farOnly = deriveArtistPresales([EVENTS[2], EVENTS[3]], ARTIST.slug, NOW_MS);
   assert(farOnly.windowCount === 1 && !farOnly.indexable, "a presale more than 30 days out lists but does not index");
+  const STALE = { name: "VIP Packages Onsale", start: iso(NOW_MS - 120 * DAY), end: iso(NOW_MS + 60 * DAY) };
+  const staleOnly = deriveArtistPresales([fixtureEvent({ id: "ps-stale", city: "Leeds", venue: "Roundhay Park", iso: iso(NOW_MS + 90 * DAY), presales: [STALE] })], ARTIST.slug, NOW_MS);
+  assert(staleOnly.openCount === 1 && staleOnly.indexWindowCount === 0 && !staleOnly.indexable, "a window open for months lists as open but does not index");
   const none = deriveArtistPresales([EVENTS[3]], ARTIST.slug, NOW_MS);
   assert(!none.indexable && none.windowCount === 0, "no presale, no index");
   assert(policy.presalePageGate({ showCount: 0, indexWindowCount: 0 }).reasons.join() === "no_upcoming_shows,no_presale_window", "the gate reports its reasons");

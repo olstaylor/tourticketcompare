@@ -530,9 +530,15 @@ Ticketmaster lists none right now; the artist page and `/on-sale` link it only
 while a window is live, so the empty state is reached only by a direct visit.
 
 **Indexable when** the artist has ≥ 1 upcoming date and ≥ 1 presale window
-that is open now or opens within 30 days (`PRESALE_PAGE_INDEX_DAYS`,
-`PRESALE_PAGE_MIN_WINDOWS`, `presalePageGate`) — **and** the artist page itself
-is indexable. Outside that it renders `noindex,follow` and leaves the sitemap
+that opens within 30 days or opened within the last 14 (`PRESALE_PAGE_INDEX_DAYS`,
+`PRESALE_PAGE_FRESH_DAYS`, `PRESALE_PAGE_MIN_WINDOWS`, `presalePageGate`) —
+**and** the artist page itself is indexable.
+
+**Fresh windows only (2026-10-09).** Ticketmaster also lists standing channels
+as presales, such as "VIP Packages Onsale" and card-member allocations, that
+open with the tour and close at each show. Counted as "open now", they indexed
+74 presale pages on the first data run, almost all for sales that had begun
+months earlier. Such a window still lists on the page; it no longer indexes it. Outside that it renders `noindex,follow` and leaves the sitemap
 and `llms.txt` until the next tour's presales are listed. New exclusion code:
 `no_presale_window`.
 

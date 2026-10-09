@@ -92,7 +92,14 @@ export const PRICE_GUIDE_MIN_SNAPSHOT_READY_SHOWS = 3;
 // PRESALE_PAGE_INDEX_DAYS. Outside that it renders noindex,follow until the
 // next tour's presales are listed — see docs/ROUTE_INDEXABILITY_POLICY.md
 // § Presale page.
+//
+// An open window counts only if it opened within PRESALE_PAGE_FRESH_DAYS.
+// Ticketmaster also lists standing channels as presales ("VIP Packages
+// Onsale", card-member allocations) that open with the tour and close at the
+// show, months later. Counting those indexed nearly every touring artist's
+// presale page with "a presale is open now" for a sale that began long ago.
 export const PRESALE_PAGE_INDEX_DAYS = 30;
+export const PRESALE_PAGE_FRESH_DAYS = 14;
 export const PRESALE_PAGE_MIN_WINDOWS = 1;
 
 // Comparison data. Every aggregation route (city, venue, artist-city, price

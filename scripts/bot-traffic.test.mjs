@@ -58,7 +58,9 @@ test('declared crawlers are still dropped by user agent only', () => {
 });
 
 test('redirect receipts carry navigation evidence and the redirect is unchanged', async () => {
-  for (const [headers, direct] of [[{ 'sec-fetch-site': 'same-origin', referer: 'https://tourticketcompare.com/artists/test-artist' }, false], [{}, true]]) {
+  // Receipts need Sec-Fetch-User (functions/api/out.js); a browser opening the
+  // redirect URL directly still sends it, with Sec-Fetch-Site: none.
+  for (const [headers, direct] of [[{ 'sec-fetch-user': '?1', 'sec-fetch-site': 'same-origin', referer: 'https://tourticketcompare.com/artists/test-artist' }, false], [{ 'sec-fetch-user': '?1', 'sec-fetch-site': 'none' }, true]]) {
     const { db, env } = fixture();
     try {
       const response = await onRequestGet({ request: out(headers), env });

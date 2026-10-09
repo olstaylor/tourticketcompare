@@ -15,11 +15,18 @@ displayed) · `PROJECT_STATUS.md` (what is live right now).
 ### Canonical definitions
 
 `provider_click` means a visitor activated a provider CTA (client intent).
-`outbound_attempt` means a valid known-provider request reached `/api/out` and
+`outbound_attempt` means a valid known-provider **GET navigation carrying the
+browser-controlled `Sec-Fetch-User: ?1` signal** reached `/api/out` and
 received a server-generated opaque `click_id`. `outbound_click` means the
 reviewed destination and any required Impact tracking URL were validated, the
-row was recorded, and a 3xx was issued. `outbound_blocked` means the same
-legitimate attempt fail-closed before a 3xx, with a safe failure reason.
+qualified row was recorded, and a 3xx was issued. `outbound_blocked` means the
+same qualified attempt fail-closed before a 3xx, with a safe failure reason.
+Valid headerless requests still receive exactly the same redirect or safe
+failure response; they simply do not add a funnel receipt.
+Qualified rows carry `receiptQualification: "fetch_user_v1"` in their internal
+metadata. Commercial reports select that marker, so rolling reporting windows
+do not blend these rows with legacy unqualified receipts from before this
+change.
 
 Affiliate/non-affiliate status is based on the actual redirect hostname:
 reviewed Impact/tracking hosts are `affiliate_network`; reviewed provider hosts
@@ -39,17 +46,39 @@ count terminal rows for funnel totals and distinct IDs for reconciliation.
 | 7b. Click that never left | `outbound_blocked` | server, `functions/api/out.js` | Authoritative failure |
 | 8. Left an email address | `email_signup`, `artist_interest`, `price_alert_interest` | server, `functions/api/signup.js` | Authoritative |
 
-**`outbound_click` is authoritative evidence of a server-issued redirect,
-not of a human clicking a button.** Crawlers, browser automation, repeat
-requests and requests discovered outside the visible CTA can reach `/api/out`.
-Client beacons can be missing independently. Count server receipts separately
-from browser CTA intent; neither count proves arrival at the provider or a sale.
+**`outbound_click` is authoritative evidence of a qualified server-issued
+redirect, not of a human clicking a button.** Its `Sec-Fetch-User: ?1`
+requirement removes ordinary script requests and much automated direct access,
+but browser automation, repeat requests and requests discovered outside the
+visible CTA can still reach `/api/out`. Some compatible headerless browsers
+may be omitted. Client beacons can be missing independently. Count server
+receipts separately from browser CTA intent; neither count proves arrival at
+the provider or a sale.
 
 The commercial funnel report therefore withholds visitor CTR and CTA-to-redirect
 completion rates, including provider, artist, page-type and landing-page rates.
-The two populations have no reliable shared browser-intent identity. A larger
+The full populations have no reliable shared browser-intent identity. A larger
 sample, equal aggregate counts, or a ratio below 100% does not fix that problem.
 The approximate visitor-day landing join is not a count of converting sessions.
+
+Consented ordinary browser CTA activations can additionally carry a fresh
+128-bit `browserIntentId` to TTC's analytics beacon and `/api/out`. It is not
+a visitor ID, is never stored in a cookie, and is not forwarded to a provider
+or Impact. The server's independently generated `click_id` and existing
+SubId1 stay unchanged. The native CTA link is restored after activation;
+denied consent, no JavaScript, synthetic and middle-click paths remain unjoined.
+The report's `browser_intent_join` counts only token groups with exactly one
+client intent and one redirect, matching provider/event (or a non-empty matching
+artist for artist-level links without an event) and a five-minute
+maximum time span. Duplicates, blocked paths, mismatches and incomplete groups
+are reported separately. This partial correlation does not prove a human,
+provider arrival or purchase, and does not unlock visitor conversion rates.
+Both the normal route shell and fallback app bundle attach this token.
+`by_client_page` honors the report’s `--top` and `--min-clicks` thresholds and
+groups only accepted matches by client-reported source page,
+tab landing page and provider. It exposes event counts without random tokens.
+These page associations are not verified Google acquisition or unique users;
+missing landing paths remain unknown rather than being inferred from redirects.
 
 For JSON compatibility, existing `provider_clicks` fields still count server
 redirects and the legacy conversion-rate fields remain present as `null`.
@@ -78,9 +107,10 @@ to it returns `400` and writes nothing. `/api/out` is the only writer of them.
 
 The client events that remain open — `page_view`, `artist_view`, `event_view`,
 `provider_cta_view`, `provider_click` — are indicative browser telemetry. An
-automated request can still invoke the legitimate `/api/out` writer and create
-a genuine redirect receipt. Protecting event names prevents client injection
-of server events; it does not authenticate a human or make conversion rates safe.
+automated browser request can still invoke the legitimate `/api/out` writer and
+create a qualified redirect receipt. Protecting event names and requiring the
+browser-controlled navigation signal reduce injection and direct-request noise;
+they do not authenticate a human or make conversion rates safe.
 
 ### Automated redirects and page-backed counting
 
@@ -90,7 +120,11 @@ user agents and residential IPs. `isLikelyBot` cannot see it. Those requests
 never load a page and arrive with no Referer, so most land on `source_path`
 `/` (`page_type` `home`).
 
-Reports therefore count a redirect only when it is page-backed: its visitor
+Since 9 Oct 2026 `/api/out` writes receipts only for requests carrying
+`Sec-Fetch-User: ?1` (see *Canonical definitions*), which drops script-made
+direct requests. A browser or headless browser opening a redirect URL
+directly still sends that header, so reports also count a redirect only when
+it is page-backed: its visitor
 key (`request_key`) also sent a browser event (`page_view`, `artist_view`,
 `event_view`, `provider_cta_view`, `provider_click` or `web_vitals`) on the
 same UTC day. The predicate lives in `scripts/lib/human-clicks.mjs`. The
@@ -106,11 +140,12 @@ misses real visitors with JavaScript off, a lost beacon, or an IP change
 between page and click, so the remainder is mostly but not provably crawler
 traffic.
 
-Every receipt (`outbound_attempt`, `outbound_click`, `outbound_blocked`) also
-records `metadata_json.navigation`: `Sec-Fetch-Site`, `Sec-Fetch-Mode`,
+Every qualified receipt (`outbound_attempt`, `outbound_click`,
+`outbound_blocked`) also records `metadata_json.navigation`: `Sec-Fetch-Site`, `Sec-Fetch-Mode`,
 whether `Sec-Fetch-User` was set, whether the Referer was same-origin, and
 `direct` (neither a same-origin fetch nor a same-origin Referer). A click on a
-TTC page is never `direct` in a current browser. The flag is evidence only:
+TTC page is never `direct` in a current browser; a browser opening the
+redirect URL from outside the site is (`Sec-Fetch-Site: none`). The flag is evidence only:
 the redirect is unchanged and the row is still written. It exists to confirm,
 before the owner adds one, that a Cloudflare rule challenging direct hits on
 `/api/out` would not touch real clicks.

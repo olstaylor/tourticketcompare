@@ -66,11 +66,11 @@ const expectedTitle = new Map([
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.";
-const APP_ASSET_VERSION = "20261006b";
+const APP_ASSET_VERSION = "20261009b";
 const TTC_HOME_ASSET_VERSION = "20260924b";
 const TTC_HOME_JS_ASSET_VERSION = "20261006a";
 const TTC_SHELL_ASSET_VERSION = "20260925a";
-const SHELL_SCRIPT_ASSET_VERSION = "20260926a";
+const SHELL_SCRIPT_ASSET_VERSION = "20261009a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-4/p1dKV8DVVc+KAFU6w/f5XPSPD2Po0Wx8aWhKVLdjI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
@@ -4131,7 +4131,7 @@ assert(/<h1[^>]*>[^<]*Tickets in /.test(artistCityPage.text), "artist-city page 
 // than only its head.
 const artistCityTitle = extractTitle(artistCityPage.text);
 assert(
-  /\| (Compare )?Prices at [^|]+$|\| Compare Prices & Dates$|\| Compare Prices$| Tickets(?: \d{4}(?:–\d{4})?)?$/.test(artistCityTitle),
+  /\| (Compare |Ticket )?Prices at [^|]+$|\| Compare Ticket Prices$|\| Compare Prices & Dates$|\| Compare Prices$| Tickets(?: \d{4}(?:–\d{4})?)?$/.test(artistCityTitle),
   `artist-city title should follow the fitTitleToBudget ladder (was "${artistCityTitle}")`
 );
 // Every rung keeps "<artist> <city> Tickets", so the ladder check above cannot

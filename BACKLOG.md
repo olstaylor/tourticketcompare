@@ -69,7 +69,7 @@ Open items:
 The sender, unsubscribe page and manual `date-alerts.yml` workflow shipped in PR #1279; nothing sends until these owner steps are done. On 2026-10-02, 4 alerts were due (Olivia Rodrigo, Tame Impala, Shakira, Gracie Abrams; the last looks like an owner test address).
 
 1. Create a Resend account and verify `tourticketcompare.com` (DNS records in Cloudflare).
-2. Add GitHub Actions secrets `RESEND_API_KEY`, `ALERT_EMAIL_FROM` (e.g. `TourTicketCompare <alerts@tourticketcompare.com>`) and `ALERT_POSTAL_ADDRESS` (a PO box is fine); `ALERT_REPLY_TO` is optional.
+2. Add GitHub Actions secrets `RESEND_API_KEY` and `ALERT_POSTAL_ADDRESS` (a PO box is fine). `ALERT_EMAIL_FROM` defaults to `TourTicketCompare <alerts@tourticketcompare.com>` in the workflow; `ALERT_REPLY_TO` is optional.
 3. Run **Artist date alerts** in `test` mode to an owner address, check it, then run `send`.
 4. Decide later whether it should run on a schedule (it has none by design). Presale/on-sale alerts would need new signup-form wording first: the form promises "dates are listed. Nothing else."
 

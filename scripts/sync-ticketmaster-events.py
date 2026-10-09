@@ -73,6 +73,9 @@ OUT_JS_PATH = ROOT / "functions" / "api" / "out.js"
 DEFAULT_DISCOVERY_BASE = "https://app.ticketmaster.com/discovery/v2"
 USER_AGENT = "TourTicketCompareProviderSync/1.0 (+https://tourticketcompare.com)"
 MAX_EVENTS_PER_PAGE = 100
+# Discovery serves at most 1,000 results per query (size x page); five pages
+# covers the longest tour on the roster with room to spare.
+MAX_DISCOVERY_PAGES = 5
 
 # Status codes from dates.status.code that may be proposed. Anything else
 # (cancelled, postponed, rescheduled, offsale, ...) is withheld.
@@ -759,15 +762,14 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
 # ─── Live Discovery lookup ───────────────────────────────────────────────────
 
 
-def fetch_discovery_events(api_key, base, attraction_id, timeout_ms):
-    """Single-page upcoming-events query by attraction ID (propose-artists
-    pattern; a totalElements warning covers anything beyond one page)."""
-    start = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+def fetch_discovery_page(api_key, base, attraction_id, timeout_ms, start, page):
+    """One page of the upcoming-events query. Returns (data, error)."""
     query = urllib.parse.urlencode(
         {
             "apikey": api_key,
             "attractionId": attraction_id,
             "size": MAX_EVENTS_PER_PAGE,
+            "page": page,
             "sort": "date,asc",
             "startDateTime": start,
         }
@@ -776,18 +778,44 @@ def fetch_discovery_events(api_key, base, attraction_id, timeout_ms):
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
         with urllib.request.urlopen(request, timeout=timeout_ms / 1000) as response:
-            data = json.load(response)
+            return json.load(response), None
     except urllib.error.HTTPError as exc:
         return None, f"Discovery API returned HTTP {exc.code}"
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError, OSError) as exc:
         return None, f"Discovery API request failed: {exc}"
-    events = ((data.get("_embedded") or {}).get("events")) or []
-    total = ((data.get("page") or {}).get("totalElements")) or len(events)
+
+
+def fetch_discovery_events(api_key, base, attraction_id, timeout_ms, fetch_page=None):
+    """Upcoming-events query by attraction ID, following pages up to
+    MAX_DISCOVERY_PAGES. A one-page fetch silently dropped the latest dates of
+    any act with more than 100 listings (Trans-Siberian Orchestra's last
+    December shows). A first-page failure fails the lookup; a later-page
+    failure keeps what was fetched and says so in the warning."""
+    fetch_page = fetch_page or fetch_discovery_page
+    start = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    events = []
+    total = 0
+    for page in range(MAX_DISCOVERY_PAGES):
+        data, error = fetch_page(api_key, base, attraction_id, timeout_ms, start, page)
+        if data is None:
+            if page == 0:
+                return None, error
+            return events, (
+                f"Ticketmaster reports {total} upcoming events but only {len(events)} were fetched "
+                f"(page {page + 1} failed: {error})."
+            )
+        page_events = ((data.get("_embedded") or {}).get("events")) or []
+        events.extend(page_events)
+        info = data.get("page") or {}
+        total = info.get("totalElements") or len(events)
+        total_pages = info.get("totalPages") or 1
+        if not page_events or len(events) >= total or page + 1 >= total_pages:
+            break
     warning = None
     if total > len(events):
         warning = (
             f"Ticketmaster reports {total} upcoming events but only {len(events)} were fetched "
-            "(single-page dry-run fetch)."
+            f"({MAX_DISCOVERY_PAGES}-page cap)."
         )
     return events, warning
 
@@ -1483,6 +1511,34 @@ def self_test():
         not re.search(r"""add_argument\(\s*["']--(write|apply)""", source),
     )
     check("refuses to run without --dry-run (exit 2 guard present)", "sys.exit(2)" in source)
+
+    def paged(total, fail_at=None):
+        calls = []
+
+        def fetch_page(api_key, base, attraction_id, timeout_ms, start, page):
+            calls.append(page)
+            if page == fail_at:
+                return None, "Discovery API returned HTTP 429"
+            first = page * MAX_EVENTS_PER_PAGE
+            count = max(0, min(MAX_EVENTS_PER_PAGE, total - first))
+            return {
+                "_embedded": {"events": [{"id": f"E{first + i}"} for i in range(count)]},
+                "page": {"totalElements": total, "totalPages": -(-total // MAX_EVENTS_PER_PAGE), "number": page},
+            }, None
+
+        events, warning = fetch_discovery_events("k", "b", "A", 1000, fetch_page=fetch_page)
+        return events, warning, calls
+
+    events, warning, calls = paged(109)
+    check("a 109-event act is fetched in full across two pages", len(events) == 109 and warning is None and calls == [0, 1])
+    events, warning, calls = paged(40)
+    check("a one-page act costs one request", len(events) == 40 and warning is None and calls == [0])
+    events, warning, calls = paged(109, fail_at=0)
+    check("a first-page failure fails the lookup", events is None and "429" in warning)
+    events, warning, calls = paged(250, fail_at=2)
+    check("a later-page failure keeps the fetched pages and warns", len(events) == 200 and "page 3 failed" in warning)
+    events, warning, calls = paged(900)
+    check("the page cap bounds requests and warns", len(calls) == MAX_DISCOVERY_PAGES and "cap" in warning)
 
     print(f"\nself-test: {len(failures)} failure(s)")
     sys.exit(1 if failures else 0)

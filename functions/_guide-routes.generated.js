@@ -88,7 +88,7 @@ export const GUIDE_ROUTES = {
     description: "Learn how to spot fraudulent ticket sellers, fake platforms, counterfeit tickets, and scam tactics. Use verified platforms and protect yourself at checkout.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-09"
   },
   "/guides/why-ticket-prices-change": {
     title: "Why Do Concert Ticket Prices Change? | TourTicketCompare",

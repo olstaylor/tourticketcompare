@@ -19,7 +19,7 @@ When a figure appears on a ticket button here, it is one ticket site's lowest li
 
 ## One provider, one show, one moment
 
-A snapshot is the lowest listed figure a single provider's approved feed carried for a single verified show, recorded with the time it was captured. It is stored, displayed with that timestamp, and expires. It isn't an average, a market rate, a calculated figure, or the total you'll pay. Fees, delivery and tax land later, on the ticket site's own checkout.
+A snapshot is the lowest listed figure a single provider's approved feed carried for a single verified show, recorded with the time it was captured. It is stored, displayed with that timestamp, and expires. It isn't an average, a market rate, a calculated figure, or the total you'll pay. Mandatory fees may already be included in that figure. Confirm the total for your ticket quantity, applicable taxes, selected delivery and optional extras on the ticket site's own checkout.
 
 Several conditions all have to hold before it renders at all: the provider must have granted display rights, the record must map to that exact show rather than a nearby one, the destination URL must carry its own verified provenance, the provider's display flag must be on, and the observation must not have expired. If any one of those fails, no figure appears. The absence of a price on a card is a real output, not a rendering bug.
 

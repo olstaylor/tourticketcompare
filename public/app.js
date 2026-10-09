@@ -2024,7 +2024,7 @@ function displayCountry(value) {
 // Price vocabulary: mirrors functions/_price-wording.js (this classic script
 // cannot import it). scripts/price-wording.test.mjs fails if they drift.
 const PRICE_DISCLOSURE =
-  "Prices are listed-price snapshots from each ticket site, checked at the time shown. They can change, and they aren't your final total: fees are added at checkout.";
+  "Prices are listed-price snapshots from each ticket site, checked at the time shown. They can change and aren't your final total. Listed prices may already include mandatory fees. Confirm the final total for your ticket quantity, taxes, delivery and selected extras on the ticket site.";
 const CARD_PRICE_TAIL = "not the final total";
 const PRICE_UNAVAILABLE_NOTE = "No listed-price snapshot yet.";
 const PRICE_HISTORY_LABEL = "Show price history";

@@ -5053,6 +5053,16 @@ export function renderPresalePageBody(route) {
     const parts = [`Ticketmaster lists ${presalePlural(presales.windowCount, "presale", "presales")} for ${presalePlural(presales.coveredShowCount, "upcoming date", "upcoming dates")} of ${artist.name}.`];
     if (open.length) parts.push(open.length === 1 ? "One is open now." : `${open.length} are open now.`);
     if (presales.nextWindow) parts.push(`The next opens ${presaleTimeLabel(presales.nextWindow.startMs, presaleWindowZone(presales.nextWindow))}.`);
+    // The public on-sale is the other half of "when can I buy": the earliest
+    // tracked one goes in the opening answer, the full list stays below.
+    const firstOnsale = presales.publicOnsales[0];
+    if (firstOnsale) {
+      parts.push(
+        presales.publicOnsales.length === 1 || !firstOnsale.city
+          ? `The ${presales.publicOnsales.length === 1 ? "" : "first "}public on-sale starts ${presaleTimeLabel(firstOnsale.onsaleMs, firstOnsale.timezone)}.`
+          : `The first public on-sale starts ${presaleTimeLabel(firstOnsale.onsaleMs, firstOnsale.timezone)}, for ${firstOnsale.city}.`
+      );
+    }
     lead = parts.join(" ");
   }
   const openHtml = open.length

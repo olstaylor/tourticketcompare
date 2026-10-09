@@ -198,6 +198,7 @@ const text = (html) =>
   assert(page.robots.startsWith("index,follow"), "a near presale under an indexable artist page is indexable");
   const body = text(page.main);
   assert(body.includes("Presales open now") && body.includes("Card Presale"), "open windows are listed");
+  assert(/The first public on-sale starts [^.]+, for Manchester\./.test(body), "the opening answer names the first public on-sale and its city");
   assert(body.includes("Presales coming up") && body.includes("Oasis Fan Presale") && body.includes("Venue Presale"), "upcoming windows are listed");
   assert(body.includes("Public on-sale"), "public on-sales are listed");
   assert(!body.includes("Dublin") && !body.includes("Glasgow") && !body.includes("Leeds"), "past, held and other artists' dates are not listed");

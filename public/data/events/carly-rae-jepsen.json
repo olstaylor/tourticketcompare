@@ -2143,5 +2143,164 @@
         "end": "2027-05-22T16:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-portland-z7r9jz1aaekuy",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Arlene Schnitzer Concert Hall",
+    "datetime_iso": "2027-04-20T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeKuy",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuy",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuy",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeKuy",
+        "discovery_event_id": "Z7r9jZ1AAeKuy",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuy",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeKuy",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-morrison-z7r9jz1aaekuz",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-04-26T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeKuz",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuz",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuz",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeKuz",
+        "discovery_event_id": "Z7r9jZ1AAeKuz",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuz",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeKuz",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-salt-lake-city-z7r9jz1aaekuv",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "event_name": "Carly Rae Jepsen: Day and Night Tour",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Complex - UT",
+    "datetime_iso": "2027-04-28T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeKuV",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuV",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuV",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeKuV",
+        "discovery_event_id": "Z7r9jZ1AAeKuV",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuV",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeKuV",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

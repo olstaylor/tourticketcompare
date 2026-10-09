@@ -2103,7 +2103,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1500654189DE5384",
     "ticketmaster_url": "https://www.ticketmaster.com/fontaines-dc-columbia-maryland-09-30-2027/event/1500654189DE5384",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fontaines-d-c-tickets/columbia-maryland-merriweather-post-pavilion-2027-09-30-7-30-pm/concert/18642843",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-columbia-maryland-09-30-2027/event/1500654189DE5384",
@@ -2195,7 +2195,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E006539E8604B09",
     "ticketmaster_url": "https://www.ticketmaster.com/fontaines-dc-atlanta-georgia-10-08-2027/event/0E006539E8604B09",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fontaines-d-c-tickets/atlanta-georgia-synovus-bank-amphitheatre-at-chastain-park-2027-10-08-8-pm/concert/18642849",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-atlanta-georgia-10-08-2027/event/0E006539E8604B09",
@@ -2277,7 +2277,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "090065370B94A9E9",
     "ticketmaster_url": "https://www.ticketmaster.com/fontaines-dc-inglewood-california-10-15-2027/event/090065370B94A9E9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fontaines-d-c-tickets/inglewood-california-kia-forum-2027-10-15-7-pm/concert/18642853",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-inglewood-california-10-15-2027/event/090065370B94A9E9",
@@ -2326,6 +2326,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671885",
+        "url": "https://www.stubhub.ie/fontaines-d-c-inglewood-tickets-10-15-2027/event/107671885",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1ke8vPuYGA5P1Et",
@@ -2350,7 +2357,8 @@
         "start": "2026-10-08T17:00:00Z",
         "end": "2026-10-09T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-inglewood-tickets-10-15-2027/event/107671885"
   },
   {
     "id": "tm-fontaines-d-c-2026-amsterdam-z698xzbpz1kgf-z84",
@@ -2452,6 +2460,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8310408",
+        "url": "https://www.ticketnetwork.com/en/p/8310408",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310408",
+        "url": "https://www.ticketliquidator.com/tickets/8310408/Fontaines-DC-tickets-Thu-Apr-22-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGkeDLoQr",
@@ -2474,7 +2496,9 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2026-10-09T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310408",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310408/Fontaines-DC-tickets-Thu-Apr-22-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-fontaines-d-c-2027-vancouver-1aozk4v0aa_zegf",

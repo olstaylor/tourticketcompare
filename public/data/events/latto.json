@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2E006536EFEB6CDC",
     "ticketmaster_url": "https://www.ticketmaster.com/latto-las-vegas-nevada-10-31-2026/event/2E006536EFEB6CDC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/latto-tickets/las-vegas-nevada-on-the-record-2026-10-31-10-pm/concert/18618942",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/latto-las-vegas-nevada-10-31-2026/event/2E006536EFEB6CDC",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18618942,
+        "url": "https://seatgeek.com/latto-tickets/las-vegas-nevada-on-the-record-2026-10-31-10-pm/concert/18618942",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -118,6 +118,59 @@
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_2R3gq4t",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-latto-2026-boston-z7r9jz1aae_7z",
+    "artist_slug": "latto",
+    "artist_name": "Latto",
+    "event_name": "Latto - Ages 21+",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Roadrunner-Boston",
+    "datetime_iso": "2026-11-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAe_7z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_7z",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_7z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAe_7z",
+        "discovery_event_id": "Z7r9jZ1AAe_7z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_7z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_7z",
     "timezone": "America/New_York",
     "status": "on-sale"
   }

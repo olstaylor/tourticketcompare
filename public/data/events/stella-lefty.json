@@ -30,7 +30,7 @@
         "event_id": 18253661,
         "url": "https://seatgeek.com/stella-lefty-tickets/san-francisco-california-bimbos-365-club-2026-10-30-8-pm/concert/18253661",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -83,7 +83,7 @@
         "event_id": 18253662,
         "url": "https://seatgeek.com/stella-lefty-tickets/west-hollywood-california-troubadour-2026-11-01-7-pm/concert/18253662",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -152,7 +152,7 @@
         "event_id": 18291327,
         "url": "https://seatgeek.com/stella-lefty-tickets/los-angeles-california-the-fonda-theatre-2026-11-02-8-pm/concert/18291327",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -221,7 +221,7 @@
         "event_id": 18253664,
         "url": "https://seatgeek.com/stella-lefty-tickets/phoenix-arizona-crescent-ballroom-2026-11-03-8-pm/concert/18253664",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -541,7 +541,7 @@
         "event_id": 18269141,
         "url": "https://seatgeek.com/stella-lefty-tickets/new-york-new-york-webster-hall-2026-11-15-8-pm/concert/18269141",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -679,7 +679,7 @@
         "event_id": 18253466,
         "url": "https://seatgeek.com/stella-lefty-tickets/boston-massachusetts-royale-boston-2026-11-17-8-pm/concert/18253466",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -729,7 +729,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "150064ADA6967E6C",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-washington-district-of-columbia-11-19-2026/event/150064ADA6967E6C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/washington-district-of-columbia-the-atlantis-2026-11-19-6-30-pm/concert/18252806",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-washington-district-of-columbia-11-19-2026/event/150064ADA6967E6C",
@@ -745,11 +745,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18252806,
+        "url": "https://seatgeek.com/stella-lefty-tickets/washington-district-of-columbia-the-atlantis-2026-11-19-6-30-pm/concert/18252806",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -900,7 +900,7 @@
         "event_id": 18527907,
         "url": "https://seatgeek.com/stella-lefty-tickets/columbus-ohio-kemba-live-2027-01-10-8-pm/concert/18527907",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1398,7 +1398,7 @@
     "tour_name": "Long Way Home Tour",
     "ticketmaster_event_id": "02006513C3FB3BD3",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-philadelphia-pennsylvania-01-22-2027/event/02006513C3FB3BD3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-01-22-8-pm/concert/18527883",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-long-way-home-tour-philadelphia-pennsylvania-01-22-2027/event/02006513C3FB3BD3",
@@ -1414,11 +1414,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18527883,
+        "url": "https://seatgeek.com/stella-lefty-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-01-22-8-pm/concert/18527883",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1523,6 +1523,13 @@
         "verified": true,
         "last_verified_at": "2026-09-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670970",
+        "url": "https://www.stubhub.ie/stella-lefty-washington-tickets-1-23-2027/event/107670970",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkffGkdf8c-z",
@@ -1536,7 +1543,8 @@
         "start": "2026-08-28T14:00:00Z",
         "end": "2027-01-19T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/stella-lefty-washington-tickets-1-23-2027/event/107670970"
   },
   {
     "id": "tm-stella-lefty-2027-charlotte-g5evz_o9kpb3z",
@@ -2476,7 +2484,7 @@
         "event_id": 18527893,
         "url": "https://seatgeek.com/stella-lefty-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-01-31-8-pm/concert/18527893",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2537,7 +2545,7 @@
         "event_id": 18527898,
         "url": "https://seatgeek.com/stella-lefty-tickets/nashville-tennessee-ryman-auditorium-2027-02-17-8-pm/concert/18527898",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2606,7 +2614,7 @@
         "event_id": 18539564,
         "url": "https://seatgeek.com/stella-lefty-tickets/nashville-tennessee-ryman-auditorium-2027-02-18-8-pm/concert/18539564",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {

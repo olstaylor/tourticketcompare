@@ -1302,7 +1302,7 @@
     "tour_name": "20th Anniversary World Tour",
     "ticketmaster_event_id": "0100642694BB4886",
     "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-virginia-beach-virginia-10-17-2026/event/0100642694BB4886",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/five-finger-death-punch-tickets/virginia-beach-virginia-veterans-united-home-loans-amphitheater-at-virginia-beach-2026-10-17-6-45-pm/concert/18010604",
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-virginia-beach-veterans-united-home-loans-amphitheater-at-virginia-beach-10-17-2026/production/6517305",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-virginia-beach-virginia-10-17-2026/event/0100642694BB4886",
@@ -1318,11 +1318,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18010604,
+        "url": "https://seatgeek.com/five-finger-death-punch-tickets/virginia-beach-virginia-veterans-united-home-loans-amphitheater-at-virginia-beach-2026-10-17-6-45-pm/concert/18010604",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6517305,
@@ -1993,7 +1993,7 @@
     "tour_name": "20th Anniversary World Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7OOob",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOob",
-    "seatgeek_url": "https://seatgeek.com/five-finger-death-punch-tickets/huntsville-alabama-orion-amphitheater-2026-10-07-6-45-pm/concert/18010589",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7OOob",
@@ -2009,11 +2009,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18010589,
-        "url": "https://seatgeek.com/five-finger-death-punch-tickets/huntsville-alabama-orion-amphitheater-2026-10-07-6-45-pm/concert/18010589",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2030,25 +2030,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7676437",
-        "url": "https://www.ticketnetwork.com/en/p/7676437",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7676437",
-        "url": "https://www.ticketliquidator.com/tickets/7676437/Five-Finger-Death-Punch-tickets-Wed-Oct-7-2026-The-Orion-Amphitheater",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7OOob",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676437",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676437/Five-Finger-Death-Punch-tickets-Wed-Oct-7-2026-The-Orion-Amphitheater"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2027-glasgow-1adbz_agkuc9oes",

@@ -509,34 +509,34 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7921653",
-        "url": "https://www.ticketnetwork.com/en/p/7921653",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7921653",
-        "url": "https://www.ticketliquidator.com/tickets/7921653/Olivia-Rodrigo-tickets-Wed-Oct-7-2026-Spectrum-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107164276",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-charlotte-tickets-10-7-2026/event/107164276",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5eVZ_aUyED-b",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921653",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921653/Olivia-Rodrigo-tickets-Wed-Oct-7-2026-Spectrum-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-charlotte-tickets-10-7-2026/event/107164276"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-olivia-rodrigo-2026-charlotte-g5evz_auyt5-g",
@@ -1918,7 +1918,7 @@
         "event_id": 18208621,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-19-7-pm/concert/18208621",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1995,7 +1995,7 @@
         "event_id": 18208620,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-20-7-pm/concert/18208620",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2842,7 +2842,7 @@
         "event_id": 18211722,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-19-7-pm/concert/18211722",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2919,7 +2919,7 @@
         "event_id": 18211723,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {

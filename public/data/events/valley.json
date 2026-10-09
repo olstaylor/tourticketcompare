@@ -46,11 +46,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8310947",
+        "url": "https://www.ticketnetwork.com/en/p/8310947",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310947",
+        "url": "https://www.ticketliquidator.com/tickets/8310947/Valley-Band-tickets-Thu-Feb-4-2027-Grizzly-Fuzz",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzfI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310947",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310947/Valley-Band-tickets-Thu-Feb-4-2027-Grizzly-Fuzz"
   },
   {
     "id": "tm-valley-2027-montreal-1ad7z_3gkblokhd",

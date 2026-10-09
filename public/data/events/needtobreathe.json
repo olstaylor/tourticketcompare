@@ -265,11 +265,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621526,
+        "url": "https://seatgeek.com/needtobreathe-tickets/duluth-minnesota-decc-symphony-hall-2027-02-21-7-pm/concert/18621526",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7611482,
@@ -748,6 +748,13 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671866",
+        "url": "https://www.stubhub.ie/needtobreathe-washington-tickets-3-6-2027/event/107671866",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkfgGkdjQhAU",
@@ -761,7 +768,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-02-28T04:55:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/needtobreathe-washington-tickets-3-6-2027/event/107671866"
   },
   {
     "id": "tm-needtobreathe-2027-pittsburgh-1apzkfggkd9zzsh",
@@ -1063,11 +1071,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621554,
+        "url": "https://seatgeek.com/needtobreathe-tickets/columbia-south-carolina-township-auditorium-2027-03-13-8-pm/concert/18621554",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7611518,
@@ -1139,11 +1147,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621555,
+        "url": "https://seatgeek.com/needtobreathe-tickets/orlando-florida-hard-rock-live-orlando-2027-03-14-7-pm/concert/18621555",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7611553,
@@ -1215,11 +1223,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621556,
+        "url": "https://seatgeek.com/needtobreathe-tickets/memphis-tennessee-satellite-music-hall-2027-03-17-6-pm/concert/18621556",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7611514,
@@ -1291,11 +1299,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621561,
+        "url": "https://seatgeek.com/needtobreathe-tickets/memphis-tennessee-satellite-music-hall-2027-03-18-6-pm/concert/18621561",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7611516,
@@ -1367,11 +1375,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18621562,
+        "url": "https://seatgeek.com/needtobreathe-tickets/new-orleans-louisiana-fillmore-new-orleans-2027-03-19-6-pm/concert/18621562",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7611578,

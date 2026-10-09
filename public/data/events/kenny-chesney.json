@@ -119,7 +119,7 @@
         "event_id": 18570962,
         "url": "https://seatgeek.com/kenny-chesney-tickets/greenville-north-carolina-dowdy-ficklen-stadium-2027-05-01-4-30-pm/concert/18570962",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -188,7 +188,7 @@
         "event_id": 18414534,
         "url": "https://seatgeek.com/kenny-chesney-tickets/arlington-texas-at-t-stadium-2027-05-08-4-30-pm/concert/18414534",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1450,6 +1450,13 @@
         "verified": true,
         "last_verified_at": "2026-09-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672442",
+        "url": "https://www.stubhub.ie/kenny-chesney-foxborough-tickets-8-27-2027/event/107672442",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GkT1lKmv",
@@ -1463,7 +1470,8 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-08-06T21:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-foxborough-tickets-8-27-2027/event/107672442"
   },
   {
     "id": "tm-kenny-chesney-2027-foxborough-vv1avzkfxgkdu8gfo",

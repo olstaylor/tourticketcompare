@@ -526,7 +526,7 @@
     "tour_name": "The A*POP World Tour",
     "ticketmaster_event_id": "1C0064F6966E883D",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-wheatland-california-11-12-2026/event/1C0064F6966E883D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tyla-tickets/wheatland-california-hard-rock-live-sacramento-2026-11-12-8-pm/concert/18404272",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-wheatland-california-11-12-2026/event/1C0064F6966E883D",
@@ -542,11 +542,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18404272,
+        "url": "https://seatgeek.com/tyla-tickets/wheatland-california-hard-rock-live-sacramento-2026-11-12-8-pm/concert/18404272",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1895,7 +1895,7 @@
     "tour_name": "The A*POP World Tour",
     "ticketmaster_event_id": "0A0064EB1FC27EA4",
     "ticketmaster_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-san-diego-california-12-15-2026/event/0A0064EB1FC27EA4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tyla-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-12-15-8-pm/concert/18404300",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-san-diego-california-12-15-2026/event/0A0064EB1FC27EA4",
@@ -1911,11 +1911,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18404300,
+        "url": "https://seatgeek.com/tyla-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-12-15-8-pm/concert/18404300",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

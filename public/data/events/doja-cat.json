@@ -929,7 +929,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "0A00633B10646A91",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-diego-california-10-27-2026/event/0A00633B10646A91",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-10-27-7-30-pm/concert/17769323",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-diego-california-10-27-2026/event/0A00633B10646A91",
@@ -945,11 +945,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17769323,
+        "url": "https://seatgeek.com/doja-cat-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-10-27-7-30-pm/concert/17769323",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1360,7 +1360,7 @@
         "event_id": 17769336,
         "url": "https://seatgeek.com/doja-cat-tickets/houston-texas-toyota-center-2026-11-07-7-30-pm/concert/17769336",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2127,7 +2127,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "31006339B7D269BF",
     "ticketmaster_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-montreal-quebec-11-27-2026/event/31006339B7D269BF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/montreal-canada-centre-bell-2026-11-27-7-30-pm/concert/17769357",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-montreal-quebec-11-27-2026/event/31006339B7D269BF",
@@ -2143,11 +2143,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17769357,
+        "url": "https://seatgeek.com/doja-cat-tickets/montreal-canada-centre-bell-2026-11-27-7-30-pm/concert/17769357",
+        "verified": true,
+        "last_verified_at": "2026-10-08",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2395,7 +2395,7 @@
         "event_id": 17769328,
         "url": "https://seatgeek.com/doja-cat-tickets/las-vegas-nevada-t-mobile-arena-2026-10-31-7-30-pm/concert/17769328",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-08",
         "availability_status": "listed"
       },
       "vivid-seats": {

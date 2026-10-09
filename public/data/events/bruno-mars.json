@@ -3156,34 +3156,34 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7680331",
-        "url": "https://www.ticketnetwork.com/en/p/7680331",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7680331",
-        "url": "https://www.ticketliquidator.com/tickets/7680331/Bruno-Mars-tickets-Wed-Oct-7-2026-SoFi-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107073305",
-        "url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-7-2026/event/107073305",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vvG1IZ_eheo7is",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7680331",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7680331/Bruno-Mars-tickets-Wed-Oct-7-2026-SoFi-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-inglewood-tickets-10-7-2026/event/107073305"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_epx9ygn",

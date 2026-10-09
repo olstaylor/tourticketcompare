@@ -61,10 +61,10 @@ jobs:
     timeout-minutes: 40
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -106,7 +106,7 @@ jobs:
       # Only scheduled main runs may supply observations to another workflow.
       - name: Upload tracked TM response snapshot
         if: always() && github.event_name == 'schedule' && github.ref == 'refs/heads/main' && vars.TM_SHARED_SNAPSHOT_DISABLED != '1' && hashFiles('.audit/tm-snapshot.json') != ''
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: tm-tracked-event-snapshot
           path: .audit/tm-snapshot.json
@@ -139,7 +139,7 @@ jobs:
             --repo "${GITHUB_REPOSITORY}"
 
       - name: Upload audit artefacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         if: always()
         with:
           name: daily-audit-${{ github.run_id }}
@@ -167,12 +167,12 @@ jobs:
     timeout-minutes: 35
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -181,7 +181,7 @@ jobs:
         run: npm ci
 
       - name: Download audit artefacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v6
         with:
           name: daily-audit-${{ github.run_id }}
           path: .audit
@@ -359,12 +359,12 @@ jobs:
     timeout-minutes: 35
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm

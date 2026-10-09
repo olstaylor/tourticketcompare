@@ -71,7 +71,7 @@ jobs:
     timeout-minutes: 59
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -84,7 +84,7 @@ jobs:
         run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 14
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm

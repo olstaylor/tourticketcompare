@@ -136,6 +136,29 @@
   send("page_view", pageMetadata);
   if (artistSlug) send("artist_view", pageMetadata);
 
+  function attachBrowserIntent(cta, event) {
+    // Correlate only consented ordinary activations. Navigation remains native;
+    // a missing token never prevents the existing checked redirect.
+    if (!event.isTrusted || event.button !== 0 || !window.ttcConsent?.accepted?.() || !window.crypto?.getRandomValues) return null;
+    const originalHref = cta.getAttribute("href");
+    try {
+      const url = new URL(originalHref, window.location.href);
+      if (url.origin !== window.location.origin || url.pathname !== "/api/out") return null;
+      const bytes = window.crypto.getRandomValues(new Uint8Array(16));
+      const intentId = Array.from(bytes, value => value.toString(16).padStart(2, "0")).join("");
+      url.searchParams.set("browserIntentId", intentId);
+      const activationHref = `${url.pathname}${url.search}${url.hash}`;
+      cta.setAttribute("href", activationHref);
+      // The browser's default click action consumes this URL before the timer.
+      // Restore it so later unconsented/middle-click activations cannot reuse it.
+      window.setTimeout(() => {
+        if (cta.getAttribute("href") === activationHref) cta.setAttribute("href", originalHref);
+      }, 0);
+      return intentId;
+    } catch (error) { return null; }
+  }
+
+
   var recentClicks = new Set();
   var affiliateProviders = ["seatgeek", "vivid-seats", "ticketnetwork", "ticket-liquidator", "stubhub-international"];
   document.addEventListener("click", function (event) {
@@ -156,7 +179,9 @@
     var lowestListed = group && group.querySelector("a[data-cta-lowest]")
       ? (cta.hasAttribute("data-cta-lowest") ? "lowest" : "other")
       : undefined;
+    var browserIntentId = attachBrowserIntent(cta, event);
     send("provider_click", {
+      browserIntentId: browserIntentId || undefined,
       provider: provider,
       artistSlug: String(cta.dataset.ctaArtist || "").trim(),
       showId: showId,

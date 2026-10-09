@@ -4433,6 +4433,28 @@ document.addEventListener("click", async (event) => {
 // present/absent, and CTA location. Never blocks or rewrites the navigation.
 const AFFILIATE_CTA_PROVIDERS = ["seatgeek", "vivid-seats", "ticketnetwork", "ticket-liquidator", "stubhub-international"];
 
+function attachBrowserIntent(cta, event) {
+  // Correlate only consented ordinary activations. Navigation remains native;
+  // a missing token never prevents the existing checked redirect.
+  if (!event.isTrusted || event.button !== 0 || !window.ttcConsent?.accepted?.() || !window.crypto?.getRandomValues) return null;
+  const originalHref = cta.getAttribute("href");
+  try {
+    const url = new URL(originalHref, window.location.href);
+    if (url.origin !== window.location.origin || url.pathname !== "/api/out") return null;
+    const bytes = window.crypto.getRandomValues(new Uint8Array(16));
+    const intentId = Array.from(bytes, value => value.toString(16).padStart(2, "0")).join("");
+    url.searchParams.set("browserIntentId", intentId);
+    const activationHref = `${url.pathname}${url.search}${url.hash}`;
+    cta.setAttribute("href", activationHref);
+    // The browser's default click action consumes this URL before the timer.
+    // Restore it so later unconsented/middle-click activations cannot reuse it.
+    window.setTimeout(() => {
+      if (cta.getAttribute("href") === activationHref) cta.setAttribute("href", originalHref);
+    }, 0);
+    return intentId;
+  } catch (error) { return null; }
+}
+
 document.addEventListener("click", (event) => {
   const cta = event.target?.closest?.("a[data-cta-provider]");
   if (!cta) return;
@@ -4445,7 +4467,9 @@ document.addEventListener("click", (event) => {
   // /api/out either way, but an inflated provider_click would distort the
   // CTA-click-to-redirect completion rate.
   if (isDuplicateFunnelEvent(`provider_click:${provider}:${showId}:${ctaLocation}`, Date.now())) return;
+  const browserIntentId = attachBrowserIntent(cta, event);
   sendAnalytics("provider_click", {
+    ...(browserIntentId ? { browserIntentId } : {}),
     provider,
     artistSlug: String(cta.dataset.ctaArtist || "").trim(),
     showId,

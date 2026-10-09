@@ -255,7 +255,17 @@ function collectLinks(events) {
   return [...found.entries()].map(([url, refs]) => ({ url, refs: [...refs] }));
 }
 
+// A request that never got an HTTP answer ("fetch failed", a reset socket, a
+// timeout) says nothing about the URL itself. One such blip on a TicketNetwork
+// link on 2026-10-09 held the rolling audit issue red, and with it Site health.
+// Try once more before calling it a failure; a second network error still is.
 async function checkUrl(url, timeoutMs, fetchImpl = fetch) {
+  const first = await checkUrlOnce(url, timeoutMs, fetchImpl);
+  if (first.status != null) return first;
+  return checkUrlOnce(url, timeoutMs, fetchImpl);
+}
+
+async function checkUrlOnce(url, timeoutMs, fetchImpl) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), timeoutMs);
 
@@ -340,6 +350,33 @@ if (args.has('--self-test')) {
   assert.equal(blockedResult.ok, false);
   assert.equal(blockedResult.blocked, true);
   assert.deepEqual(blockedCalls, ['HEAD', 'GET']);
+
+  // A network error is retried once; a second one is still a failure.
+  const flakyFetch = (outcomes, calls) => async (_url, options = {}) => {
+    calls.push(options.method || 'GET');
+    const next = outcomes.shift();
+    if (next instanceof Error) throw next;
+    return new Response(null, { status: next });
+  };
+  const blipCalls = [];
+  const blip = await checkUrl(
+    'https://www.ticketnetwork.com/en/p/1',
+    1000,
+    flakyFetch([new TypeError('fetch failed'), 200], blipCalls)
+  );
+  assert.equal(blip.ok, true);
+  assert.deepEqual(blipCalls, ['HEAD', 'HEAD']);
+
+  const downCalls = [];
+  const down = await checkUrl(
+    'https://www.ticketnetwork.com/en/p/2',
+    1000,
+    flakyFetch([new TypeError('fetch failed'), new TypeError('fetch failed')], downCalls)
+  );
+  assert.equal(down.ok, false);
+  assert.equal(down.status, null);
+  assert.equal(down.error, 'fetch failed');
+  assert.deepEqual(downCalls, ['HEAD', 'HEAD']);
 
   const now = Date.parse('2026-07-30T12:00:00Z');
   const events = new Map([

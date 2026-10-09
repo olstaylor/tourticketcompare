@@ -344,9 +344,16 @@ export function selectEvents(events, registryBySlug, options, now = new Date()) 
       skipped.push({ event, reason: "event is in the past — SeatGeek delists finished shows; nothing to maintain" });
       continue;
     }
-    selected.push(event);
+    selected.push({ event, rank: verified ? (stale ? 1 : 2) : 0, instant });
   }
-  return { selected: options.limit === null ? selected : selected.slice(0, options.limit), skipped };
+  // The daily lane stops at --max-api-calls 400 against ~700 selected events,
+  // so file order decided who got checked: artists added late in events.json
+  // never reached the front, and their missing links became work-queue issues
+  // (2026-10-09). Spend the budget where a link is missing or unproven first,
+  // then stale proofs, then fresh needs_recheck proofs; soonest show first.
+  selected.sort((a, b) => a.rank - b.rank || a.instant - b.instant);
+  const ordered = selected.map((row) => row.event);
+  return { selected: options.limit === null ? ordered : ordered.slice(0, options.limit), skipped };
 }
 
 // ─── API access (curl, same pattern as enrich-seatgeek-events.mjs) ─────────
@@ -603,6 +610,15 @@ function selfTest() {
   assert("publishable event without URL not selected", !selectedIds.includes("s5"));
   assert("ambiguous datetime skipped with reason", selection.skipped.some((row) => row.event.id === "s6" && row.reason.includes("ambiguous")));
   assert("unregistered artist skipped with reason", selection.skipped.some((row) => row.event.id === "s7"));
+  assert("unproven links are checked before stale and fresh proofs",
+    selectedIds.indexOf("s1") < selectedIds.indexOf("s4") && selectedIds.indexOf("s2") < selectedIds.indexOf("s4"));
+  const order = selectEvents([
+    { ...base, id: "o1", verification_status: "needs_recheck", provider_links: { seatgeek: { verified: true, url: "https://seatgeek.com/x/concert/5", last_verified_at: "2026-07-07" } } },
+    { ...base, id: "o2", verification_status: "machine_high_confidence", seatgeek_url: "https://seatgeek.com/x/concert/6", provider_links: { seatgeek: { verified: true, url: "https://seatgeek.com/x/concert/6", last_verified_at: "2026-06-01" } } },
+    { ...base, id: "o3", verification_status: "needs_recheck", datetime_iso: "2026-10-01T00:00:00Z" },
+    { ...base, id: "o4", verification_status: "needs_recheck", datetime_iso: "2026-08-01T00:00:00Z" }
+  ], registryBySlug, selOptions, now).selected.map((event) => event.id);
+  assert("budget goes to missing links (soonest first), then stale, then fresh proofs", order.join(",") === "o4,o3,o2,o1");
   assert("past event skipped, never touched", !selectedIds.includes("s0") && selection.skipped.some((row) => row.event.id === "s0" && row.reason.includes("past")));
 
   // --artist semantics, shared with the enrichment lane: exact slug or exact

@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-charleston-charleston-music-hall-2-1-2027/production/7637072",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-charleston-south-carolina-02-01-2027/event/2D00653E8D0F6ADA",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -37,7 +37,7 @@
         "event_id": 7637072,
         "url": "https://www.vividseats.com/chelsea-cutler-tickets-charleston-charleston-music-hall-2-1-2027/production/7637072",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -53,21 +53,6 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T14:00:00Z",
@@ -91,7 +76,7 @@
     "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-charlotte-the-fillmore-charlotte-2-5-2027/production/7637087",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-charlotte-north-carolina-02-05-2027/event/2D00653D93FA7E1B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -113,7 +98,7 @@
         "event_id": 7637087,
         "url": "https://www.vividseats.com/chelsea-cutler-tickets-charlotte-the-fillmore-charlotte-2-5-2027/production/7637087",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -146,26 +131,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301000/Chelsea-Cutler-tickets-Fri-Feb-5-2027-The-Fillmore-Charlotte",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-01-06T03:00:00Z"
@@ -193,7 +158,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-washington-district-of-columbia-02-06-2027/event/15006536743D26AA",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -248,16 +213,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301001/Chelsea-Cutler-tickets-Sat-Feb-6-2027-930-Club",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-01-31T03:00:00Z"
@@ -280,7 +235,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-washington-district-of-columbia-02-07-2027/event/1500653C84D74253",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -335,16 +290,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301002/Chelsea-Cutler-tickets-Sun-Feb-7-2027-930-Club",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-02-01T03:00:00Z"
@@ -367,7 +312,7 @@
     "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-philadelphia-the-fillmore-philadelphia-2-10-2027/production/7637094",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-philadelphia-pennsylvania-02-10-2027/event/020065379D7B90A6",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -389,7 +334,7 @@
         "event_id": 7637094,
         "url": "https://www.vividseats.com/chelsea-cutler-tickets-philadelphia-the-fillmore-philadelphia-2-10-2027/production/7637094",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -422,26 +367,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301003/Chelsea-Cutler-tickets-Wed-Feb-10-2027-The-Fillmore-Philadelphia",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-02-04T03:00:00Z"
@@ -469,7 +394,7 @@
     "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-brooklyn-brooklyn-paramount-2-12-2027/production/7637078",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-brooklyn-new-york-02-12-2027/event/0000653E0267430E",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -491,7 +416,7 @@
         "event_id": 7637078,
         "url": "https://www.vividseats.com/chelsea-cutler-tickets-brooklyn-brooklyn-paramount-2-12-2027/production/7637078",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -532,26 +457,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/chelsea-cutler-brooklyn-tickets-2-12-2027/event/107671540",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-01-16T03:00:00Z"
@@ -579,7 +484,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/chelsea-cutler-is-this-the-end-toronto-ontario-02-16-2027/event/1000653CFFA44EFD",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -618,21 +523,6 @@
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-02-10T03:00:00Z"
@@ -655,7 +545,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-detroit-michigan-02-18-2027/event/08006536ABF34D64",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -694,26 +584,6 @@
     "public_onsale_at": "2026-10-09T14:00:00Z",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-06T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-10-09T02:00:00Z"
-      },
-      {
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-02-12T03:00:00Z"
@@ -741,7 +611,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-chicago-illinois-02-19-2027/event/0400653CD08BB5AB",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -780,31 +650,6 @@
     "public_onsale_at": "2026-10-09T15:00:00Z",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "Do312 Presale",
-        "start": "2026-10-08T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "Jam Presale",
-        "start": "2026-10-08T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "The Salt Shed Online Presale",
-        "start": "2026-10-08T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-02-13T04:00:00Z"
@@ -827,7 +672,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-minneapolis-minnesota-02-23-2027/event/0600653CFDC312DC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -882,31 +727,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301007/Chelsea-Cutler-tickets-Tue-Feb-23-2027-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "Affinity Plus Credit Union Presale",
-        "start": "2026-10-08T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-08T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-01-27T04:00:00Z"
@@ -934,7 +754,7 @@
     "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-dallas-south-side-ballroom-2-25-2027/production/7637108",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-dallas-texas-02-25-2027/event/0C00653BC5478CB5",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -956,7 +776,7 @@
         "event_id": 7637108,
         "url": "https://www.vividseats.com/chelsea-cutler-tickets-dallas-south-side-ballroom-2-25-2027/production/7637108",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -989,21 +809,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301008/Chelsea-Cutler-tickets-Thu-Feb-25-2027-South-Side-Ballroom-at-Gilleys",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-06T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-08T15:00:00Z",
-        "end": "2026-10-09T03:00:00Z"
-      },
-      {
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-02-19T04:00:00Z"
@@ -1026,7 +831,7 @@
     "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-phoenix-the-van-buren-3-3-2027/production/7637484",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-phoenix-arizona-03-03-2027/event/1900653805DBE2D0",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1048,7 +853,7 @@
         "event_id": 7637484,
         "url": "https://www.vividseats.com/chelsea-cutler-tickets-phoenix-the-van-buren-3-3-2027/production/7637484",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1080,21 +885,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301009",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301009/Chelsea-Cutler-tickets-Wed-Mar-3-2027-The-Van-Buren",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-09T05:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-09T05:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-09T05:00:00Z"
-      },
       {
         "name": "LIVE NATION PRESALE",
         "start": "2026-10-08T17:00:00Z",
@@ -1128,7 +918,7 @@
     "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-los-angeles-the-bellwether-3-4-2027/production/7637464",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-los-angeles-california-03-04-2027/event/09006538CC8CEE49",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1150,7 +940,7 @@
         "event_id": 7637464,
         "url": "https://www.vividseats.com/chelsea-cutler-tickets-los-angeles-the-bellwether-3-4-2027/production/7637464",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1183,21 +973,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301010/Chelsea-Cutler-tickets-Thu-Mar-4-2027-The-Bellwether",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-09T05:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-09T05:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-08T17:00:00Z",
-        "end": "2026-10-09T05:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-10-09T17:00:00Z",
         "end": "2027-02-26T06:00:00Z"
@@ -1220,7 +995,7 @@
     "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-san-diego-the-observatory-north-park-3-5-2027/production/7637476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-san-diego-california-03-05-2027/event/0B00653CCAB47152",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1242,7 +1017,7 @@
         "event_id": 7637476,
         "url": "https://www.vividseats.com/chelsea-cutler-tickets-san-diego-the-observatory-north-park-3-5-2027/production/7637476",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1275,26 +1050,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301011/Chelsea-Cutler-tickets-Fri-Mar-5-2027-The-Observatory-North-Park",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-09T05:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-09T05:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-06T17:00:00Z",
-        "end": "2026-10-09T05:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-08T17:00:00Z",
-        "end": "2026-10-09T05:00:00Z"
-      },
-      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-09T17:00:00Z",
         "end": "2027-02-06T06:00:00Z"
@@ -1322,7 +1077,7 @@
     "vividseats_url": "https://www.vividseats.com/chelsea-cutler-tickets-boise-knitting-factory-concert-house-boise-3-10-2027/production/7637474",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chelsea-cutler-is-this-the-end-boise-idaho-03-10-2027/event/1E00653CE2001EB3",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1344,7 +1099,7 @@
         "event_id": 7637474,
         "url": "https://www.vividseats.com/chelsea-cutler-tickets-boise-knitting-factory-concert-house-boise-3-10-2027/production/7637474",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1360,16 +1115,6 @@
     "status": "announced",
     "public_onsale_at": "2026-10-09T16:00:00Z",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-06T16:00:00Z",
-        "end": "2026-10-09T04:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-10-06T16:00:00Z",
-        "end": "2026-10-09T04:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T16:00:00Z",

@@ -882,7 +882,7 @@
     "ticketmaster_event_id": "1B00642691B1655B",
     "ticketmaster_url": "https://www.ticketmaster.com/five-finger-death-punch-franklin-tennessee-10-08-2026/event/1B00642691B1655B",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-franklin-firstbank-amphitheater-10-8-2026--concerts-hard-rock/production/6517276",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-franklin-tennessee-10-08-2026/event/1B00642691B1655B",
     "last_verified_at": "2026-10-08",
@@ -904,11 +904,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6517276,
-        "url": "https://www.vividseats.com/five-finger-death-punch-tickets-franklin-firstbank-amphitheater-10-8-2026--concerts-hard-rock/production/6517276",
-        "verified": true,
-        "last_verified_at": "2026-10-05",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -918,11 +918,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7676513",
-        "url": "https://www.ticketnetwork.com/en/p/7676513",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7676513",
@@ -935,7 +935,7 @@
     "ticketmaster_discovery_event_id": "G5viZ_eQoip4h",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676513",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676513/Five-Finger-Death-Punch-tickets-Thu-Oct-8-2026-FirstBank-Amphitheater"
   },
   {
@@ -1037,7 +1037,7 @@
         "event_id": 6517271,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-west-palm-beach-ithink-financial-amphitheatre-10-11-2026/production/6517271",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1114,7 +1114,7 @@
         "event_id": 6517161,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-alpharetta-ameris-bank-amphitheatre-10-13-2026/production/6517161",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1183,7 +1183,7 @@
         "event_id": 6517205,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-10-14-2026/production/6517205",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1252,7 +1252,7 @@
         "event_id": 6517299,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-charlotte-truliant-amphitheater-10-16-2026/production/6517299",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1328,7 +1328,7 @@
         "event_id": 6517305,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-virginia-beach-veterans-united-home-loans-amphitheater-at-virginia-beach-10-17-2026/production/6517305",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1396,7 +1396,7 @@
         "event_id": 6517203,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-greenville-bon-secours-wellness-arena-10-19-2026/production/6517203",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1472,7 +1472,7 @@
         "event_id": 6517215,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-columbus-nationwide-arena-10-21-2026/production/6517215",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1556,7 +1556,7 @@
         "event_id": 6517189,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-bristow-jiffy-lube-live-10-23-2026/production/6517189",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1637,7 +1637,7 @@
         "event_id": 6989751,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-manchester-ao-arena-1-16-2027--concerts-hard-rock/production/6989751",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1714,7 +1714,7 @@
         "event_id": 6989968,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-1-22-2027--concerts-hard-rock/production/6989968",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1791,7 +1791,7 @@
         "event_id": 6989985,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-london-the-o2---london-1-23-2027--concerts-hard-rock/production/6989985",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2088,7 +2088,7 @@
         "event_id": 6989766,
         "url": "https://www.vividseats.com/five-finger-death-punch-tickets-glasgow-ovo-hydro-1-17-2027--concerts-hard-rock/production/6989766",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {

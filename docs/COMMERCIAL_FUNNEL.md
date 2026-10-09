@@ -63,7 +63,9 @@ artist for artist-level links without an event) and a five-minute
 maximum time span. Duplicates, blocked paths, mismatches and incomplete groups
 are reported separately. This partial correlation does not prove a human,
 provider arrival or purchase, and does not unlock visitor conversion rates.
-`by_client_page` groups only accepted matches by client-reported source page,
+Both the normal route shell and fallback app bundle attach this token.
+`by_client_page` honors the report’s `--top` and `--min-clicks` thresholds and
+groups only accepted matches by client-reported source page,
 tab landing page and provider. It exposes event counts without random tokens.
 These page associations are not verified Google acquisition or unique users;
 missing landing paths remain unknown rather than being inferred from redirects.

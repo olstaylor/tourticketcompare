@@ -534,13 +534,14 @@ function sumRows(rows, valueKey) {
   return rows.reduce((total, row) => total + (Number(row[valueKey]) || 0), 0);
 }
 
-export function summarizeBrowserIntentPairs(rows) {
-  const summary = { token_groups: rows.length, matched: 0, unmatched: 0, ambiguous: 0, tuple_mismatch: 0, timing_mismatch: 0, basis: "consented_client_activation_to_server_receipt_not_human_identity_or_purchase", conversion_rate: null };
+export function summarizeBrowserIntentPairs(rows, options = {}) {
+  const summary = { token_groups: rows.length, matched: 0, blocked: 0, unmatched: 0, ambiguous: 0, tuple_mismatch: 0, timing_mismatch: 0, basis: "consented_client_activation_to_server_receipt_not_human_identity_or_purchase", conversion_rate: null };
   const pages = new Map();
   const pagePath = value => typeof value === 'string' && /^\/(?!\/)/.test(value) ? normalizeAnalyticsPath(value) : '(unknown)';
   for (const row of rows) {
     if (Number(row.intents) > 1 || Number(row.receipts) > 1) { summary.ambiguous++; continue; }
-    if (Number(row.intents) !== 1 || Number(row.receipts) !== 1 || Number(row.blocked)) { summary.unmatched++; continue; }
+    if (Number(row.blocked)) { summary.blocked++; continue; }
+    if (Number(row.intents) !== 1 || Number(row.receipts) !== 1) { summary.unmatched++; continue; }
     if (!row.provider_min || row.provider_min !== row.provider_max || row.event_min !== row.event_max) { summary.tuple_mismatch++; continue; }
     if (!row.event_min && (!row.artist_min || row.artist_min !== row.artist_max)) { summary.tuple_mismatch++; continue; }
     const span = Date.parse(row.last_at) - Date.parse(row.first_at);
@@ -553,7 +554,7 @@ export function summarizeBrowserIntentPairs(rows) {
     page.matched_events++;
     pages.set(key, page);
   }
-  summary.by_client_page = [...pages.values()].sort((a, b) => b.matched_events - a.matched_events || a.source_path.localeCompare(b.source_path));
+  summary.by_client_page = [...pages.values()].filter(row => row.matched_events >= (options.minClicks ?? 1)).sort((a, b) => b.matched_events - a.matched_events || a.source_path.localeCompare(b.source_path)).slice(0, options.top ?? 10);
   summary.page_attribution_basis = 'client_reported_source_and_tab_landing_not_verified_google_acquisition';
   return summary;
 }
@@ -767,7 +768,7 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
       qualified_affiliate_clicks: null
     },
     browser_intent_join: {
-      ...summarizeBrowserIntentPairs(resultSets.browserIntentPairs || []),
+      ...summarizeBrowserIntentPairs(resultSets.browserIntentPairs || [], options),
       client_events_without_valid_token: Math.max(0, providerClicks - (resultSets.browserIntentPairs || []).reduce((sum, row) => sum + (Number(row.intents) || 0), 0)),
       server_receipts_without_valid_token: Math.max(0, outbound - (resultSets.browserIntentPairs || []).reduce((sum, row) => sum + (Number(row.receipts) || 0), 0))
     },
@@ -824,7 +825,7 @@ export function renderReport(report) {
   lines.push(`Thresholds: traffic tables need >= ${minViews} views · receipt rankings need >= ${minClicks} redirects`);
   lines.push("outbound_click counts server-issued redirects, not verified human clicks.");
   lines.push("Visitor conversion and CTA completion rates withheld: client intent and server receipts are not reliably joined.");
-  lines.push(`Consented intent token groups: ${report.browser_intent_join.token_groups}; unique tuple/time matches: ${report.browser_intent_join.matched}; unmatched: ${report.browser_intent_join.unmatched}; ambiguous: ${report.browser_intent_join.ambiguous}; tuple/timing mismatches: ${report.browser_intent_join.tuple_mismatch + report.browser_intent_join.timing_mismatch}. These are partial activation-to-receipt matches, not human conversions or purchases.`);
+  lines.push(`Consented intent token groups: ${report.browser_intent_join.token_groups}; unique tuple/time matches: ${report.browser_intent_join.matched}; blocked: ${report.browser_intent_join.blocked}; unmatched: ${report.browser_intent_join.unmatched}; ambiguous: ${report.browser_intent_join.ambiguous}; tuple/timing mismatches: ${report.browser_intent_join.tuple_mismatch + report.browser_intent_join.timing_mismatch}. These are partial activation-to-receipt matches, not human conversions or purchases.`);
   lines.push(`Events without valid tokens: ${report.browser_intent_join.client_events_without_valid_token} client intents; ${report.browser_intent_join.server_receipts_without_valid_token} server receipts.`);
   lines.push('-- Matched events by client-reported landing/source page (not verified acquisition) --');
   lines.push(renderTable(['landing_page', 'source_page', 'provider', 'matched_events'], report.browser_intent_join.by_client_page.map(row => [row.landing_path, row.source_path, row.provider, row.matched_events])));

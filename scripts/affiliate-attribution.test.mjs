@@ -65,6 +65,40 @@ test('intent matching rejects duplicates, missing receipts, tuple and timing mis
   assert.equal(summarizeBrowserIntentPairs([{ ...pair, event_min: '', event_max: '', artist_min: 'one', artist_max: 'two' }]).matched, 0);
   assert.equal(summarizeBrowserIntentPairs([{ ...pair, event_min: '', event_max: '', artist_min: '', artist_max: '' }]).matched, 0);
   assert.equal(summarizeBrowserIntentPairs([{ ...pair, event_min: '', event_max: '', artist_min: 'one', artist_max: 'one' }]).matched, 1);
+  const blocked = summarizeBrowserIntentPairs([{ ...pair, receipts: 0, blocked: 1 }]);
+  assert.equal(blocked.blocked, 1);
+  assert.equal(blocked.unmatched, 0);
+  const ranked = summarizeBrowserIntentPairs([pair, pair, { ...pair, client_source_path: '/second' }, { ...pair, client_source_path: '/second' }, { ...pair, client_source_path: '/single' }], { top: 1, minClicks: 2 });
+  assert.equal(ranked.matched, 5);
+  assert.equal(ranked.by_client_page.length, 1);
+  assert.equal(ranked.by_client_page[0].matched_events, 2);
+});
+test('production shell handler sends the same nonce in its beacon and native CTA', () => {
+  const source = readFileSync(new URL('../public/shell.js', import.meta.url), 'utf8');
+  const listeners = new Map();
+  const beacons = [];
+  const ga4 = [];
+  const timers = [];
+  let accepted = false;
+  let href = '/api/out?showId=event1&provider=seatgeek';
+  const original = href;
+  const cta = { dataset: { ctaProvider: 'seatgeek', ctaShowId: 'event1', ctaArtist: 'test-artist' }, getAttribute: () => href, setAttribute: (key, value) => { href = value; }, closest: () => null };
+  const document = { referrer: '', querySelector: () => null, getElementById: () => null, addEventListener: (name, listener) => listeners.set(name, listener) };
+  const window = { location: new URL('https://tourticketcompare.com/artists/test-artist'), crypto: webcrypto, ttcConsent: { accepted: () => accepted }, setTimeout: callback => timers.push(callback), gtag: (...args) => ga4.push(args) };
+  runInNewContext(source, { window, document, navigator: { sendBeacon: (url, body) => beacons.push(JSON.parse(body)) }, sessionStorage: { getItem: () => null, setItem: () => {} }, URL, URLSearchParams, Uint8Array });
+  const click = listeners.get('click');
+  click({ target: { closest: () => cta }, isTrusted: true, button: 0 });
+  assert.equal(href, original);
+  assert.equal(beacons.at(-1).metadata.browserIntentId, undefined);
+  while (timers.length) timers.shift()();
+  accepted = true;
+  click({ target: { closest: () => cta }, isTrusted: true, button: 0 });
+  const nonce = beacons.at(-1).metadata.browserIntentId;
+  assert.equal(normalizeBrowserIntentId(nonce), nonce);
+  assert.equal(new URL(href, window.location.origin).searchParams.get('browserIntentId'), nonce);
+  assert.equal(ga4.some(args => JSON.stringify(args).includes(nonce)), false);
+  while (timers.length) timers.shift()();
+  assert.equal(href, original);
 });
 
 test('direct Ticketmaster and malformed tokens retain checked destinations without a forwarded intent ID', async () => {

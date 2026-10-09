@@ -191,6 +191,7 @@
     "docs:check": "node scripts/validate-docs.mjs",
     "test:remediation-review": "node scripts/remediation-review-self-test.mjs",
     "test:affiliate-attribution": "node scripts/affiliate-attribution.test.mjs",
+    "test:bot-traffic": "node scripts/bot-traffic.test.mjs",
     "test:price-timing": "node scripts/price-timing.test.mjs"
   },
   "devDependencies": {

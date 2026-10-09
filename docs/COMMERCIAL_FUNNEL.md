@@ -82,6 +82,44 @@ automated request can still invoke the legitimate `/api/out` writer and create
 a genuine redirect receipt. Protecting event names prevents client injection
 of server events; it does not authenticate a human or make conversion rates safe.
 
+### Automated redirects and page-backed counting
+
+In September and October 2026 well over 90% of `outbound_click` rows came from
+a crawler that requests `/api/out` URLs directly with rotating stock browser
+user agents and residential IPs. `isLikelyBot` cannot see it. Those requests
+never load a page and arrive with no Referer, so most land on `source_path`
+`/` (`page_type` `home`).
+
+Reports therefore count a redirect as a person's click only when its visitor
+key (`request_key`) also sent a browser event (`page_view`, `artist_view`,
+`event_view`, `provider_cta_view`, `provider_click` or `web_vitals`); the
+predicate lives in `scripts/lib/human-clicks.mjs`. The commercial funnel
+report shows the raw redirect total, the page-backed total and the difference;
+every breakdown and share uses page-backed redirects. The analytics funnel
+report and the route-traffic export (used by the indexing pilot report) do the
+same. Real visitors with JavaScript off, or whose IP changes between page and
+click, are missed, so the figure is a slight undercount.
+
+Every receipt (`outbound_attempt`, `outbound_click`, `outbound_blocked`) also
+records `metadata_json.navigation`: `Sec-Fetch-Site`, `Sec-Fetch-Mode`,
+whether `Sec-Fetch-User` was set, whether the Referer was same-origin, and
+`direct` (neither a same-origin fetch nor a same-origin Referer). A click on a
+TTC page is never `direct` in a current browser. The flag is evidence only:
+the redirect is unchanged and the row is still written. It exists to confirm,
+before the owner adds one, that a Cloudflare rule challenging direct hits on
+`/api/out` would not touch real clicks.
+
+Page-backed restatement (Sep 2026 to 9 Oct 2026, raw redirects vs people):
+
+| Week | Raw redirects | Page-backed redirects | Clicking visitors | Page-view visitors |
+|---|---|---|---|---|
+| 1-7 Sep | 4,237 | 58 | 37 | 143 |
+| 8-14 Sep | 10,272 | 18 | 16 | 144 |
+| 15-21 Sep | 2,736 | 79 | 50 | 166 |
+| 22-28 Sep | 3,181 | 63 | 45 | 221 |
+| 29 Sep-5 Oct | 5,577 | 134 | 93 | 359 |
+| 6-9 Oct | 2,991 | 191 | 107 | 314 |
+
 ## Lizzy McAlpine price-guide measurement baseline
 
 Reviewed **2026-10-02**; compare again around **2026-10-30**, allowing about
@@ -472,7 +510,9 @@ Also currently unmeasurable:
   first-party analytics sees a visit only once it arrives.
 - **Whether a visit is human.** Bot filtering catches only crawlers that
   identify themselves. Headless automation with a stock browser user agent is
-  counted as a visitor.
+  counted as a visitor. Redirects are counted only when page-backed (see
+  *Automated redirects and page-backed counting*), which removes crawlers that
+  hit `/api/out` directly but not a headless browser that loads pages first.
 - **Cross-device journeys.** No cookie, no login, no identity graph.
 - **True sessions.** See *What "session" means here*.
 - **Ticketmaster revenue.** Ticketmaster is a plain, unmonetized verification

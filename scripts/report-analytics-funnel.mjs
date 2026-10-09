@@ -23,6 +23,12 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
 import { buildD1ReadArgs } from "./lib/d1-read.mjs";
+import { humanRedirectSql } from "./lib/human-clicks.mjs";
+
+// Redirects count only when the visitor also loaded a TTC page: most raw
+// outbound_click rows are a crawler hitting /api/out directly. See
+// scripts/lib/human-clicks.mjs.
+const PEOPLE_ONLY = ` AND (event_name != 'outbound_click' OR (${humanRedirectSql()}))`;
 
 const execFileAsync = promisify(execFile);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -148,14 +154,14 @@ GROUP BY 1`
       key: "clicksByProvider",
       sql: `SELECT event_name, COALESCE(NULLIF(TRIM(provider), ''), NULLIF(TRIM(json_extract(metadata_json, '$.provider')), ''), '(none)') AS provider, COUNT(*) AS clicks
 FROM analytics_events
-WHERE event_name IN ('provider_click', 'outbound_click')${since}
+WHERE event_name IN ('provider_click', 'outbound_click')${PEOPLE_ONLY}${since}
 GROUP BY 1, 2`
     },
     {
       key: "clicksByArtist",
       sql: `SELECT event_name, COALESCE(NULLIF(TRIM(artist_slug), ''), NULLIF(TRIM(json_extract(metadata_json, '$.artistSlug')), ''), '(none)') AS artist_slug, COUNT(*) AS clicks
 FROM analytics_events
-WHERE event_name IN ('provider_click', 'outbound_click')${since}
+WHERE event_name IN ('provider_click', 'outbound_click')${PEOPLE_ONLY}${since}
 GROUP BY 1, 2`
     },
     {
@@ -178,7 +184,7 @@ GROUP BY 1`
   CASE WHEN event_name = 'outbound_click' THEN COALESCE(NULLIF(TRIM(provider), ''), '(none)') ELSE '' END AS provider,
   COUNT(*) AS events
 FROM analytics_events
-WHERE event_name IN ('page_view', 'provider_click', 'outbound_click')${since}
+WHERE event_name IN ('page_view', 'provider_click', 'outbound_click')${PEOPLE_ONLY}${since}
 GROUP BY 1, 2, 3`
     },
     {
@@ -488,6 +494,13 @@ function selfTest() {
       assert.match(statement.sql, /FROM analytics_events/);
     }
     for (const statement of buildStatements("")) assert.doesNotMatch(statement.sql, /created_at >=/);
+  });
+
+  // Redirect counts exclude crawler hits that never loaded a page.
+  check(() => {
+    for (const statement of buildStatements("").filter((s) => s.sql.includes("'outbound_click'"))) {
+      assert.match(statement.sql, /event_name != 'outbound_click' OR \(event_name = 'outbound_click' AND request_key IN \(SELECT seen\.request_key/, `${statement.key} must count page-backed redirects only`);
+    }
   });
 
   const fixtures = {

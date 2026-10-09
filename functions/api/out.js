@@ -1,5 +1,5 @@
 import { impactMarketplacePublicEnabled } from "../_impact-marketplace-config.js";
-import { isLikelyBot } from "../_bot-detection.js";
+import { describeNavigation, isLikelyBot } from "../_bot-detection.js";
 import { insertAnalyticsRow } from "../_analytics-write.js";
 import { eventLifecycleHeld } from "../_route-indexability.js";
 import {
@@ -2463,7 +2463,8 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
     guideSlug: link.guideSlug || undefined,
     position: link.position || undefined,
     outcome,
-    status: status || undefined
+    status: status || undefined,
+    navigation: describeNavigation(request)
   });
 
   await insertAnalyticsRow(db, {
@@ -2528,7 +2529,8 @@ async function trackOutboundAttempt({ request, env, link, sourcePath, ctaLocatio
       ctaLocation: normalizeCtaLocation(ctaLocation) || undefined,
       guideSlug: link.guideSlug || undefined,
       position: link.position || undefined,
-      outcome: "attempted"
+      outcome: "attempted",
+      navigation: describeNavigation(request)
     }),
     provider: link.provider || null,
     tour_slug: null,

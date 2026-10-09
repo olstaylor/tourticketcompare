@@ -2483,6 +2483,9 @@ function renderRecentShowsList(name, pastShows) {
 
 // Keep in sync with EMPTY_BOARD_EXPLAINER_PATH in functions/[[path]].js.
 const EMPTY_BOARD_EXPLAINER_PATH = "/blog/why-some-artist-pages-show-no-dates";
+// The optional weekly updates box on the watchlist form. Keep identical to
+// UPDATES_CONSENT_TEXT in functions/_email-alerts.js.
+const UPDATES_CONSENT_TEXT = "Also send me a weekly email of presales and on-sales coming up. Optional; unsubscribe any time.";
 
 // Zero-event board state. The primary CTA is the artist-level page of the
 // highest-ranked enabled provider (never an event-level ticket link — no
@@ -2532,7 +2535,7 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
     form.action = "/api/signup";
     form.dataset.watchlistShell = artistSlug;
     text(form, "h4", `Get told when ${name} dates land`);
-    text(form, "p", `Leave your email to hear when confirmed ${name} dates are listed. Nothing else.`, "muted");
+    text(form, "p", `Leave your email to hear when confirmed ${name} dates are listed.`, "muted");
     const hiddenArtist = document.createElement("input");
     hiddenArtist.type = "hidden";
     hiddenArtist.name = "artistSlug";
@@ -2567,6 +2570,16 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
     submit.textContent = "Notify me";
     row.append(email, honeypot, submit);
     form.append(label, hiddenArtist, hiddenSource, row);
+    // Optional, unticked, and separate from the date alert. Keep the wording
+    // identical to UPDATES_CONSENT_TEXT in functions/_email-alerts.js.
+    const updatesLine = text(form, "p", "", "muted");
+    const updatesLabel = document.createElement("label");
+    const updates = document.createElement("input");
+    updates.type = "checkbox";
+    updates.name = "updates";
+    updates.value = "yes";
+    updatesLabel.append(updates, ` ${UPDATES_CONSENT_TEXT}`);
+    updatesLine.append(updatesLabel);
     const status = text(form, "p", "", "disclosure-note");
     status.setAttribute("data-signup-status", "");
     status.setAttribute("aria-live", "polite");
@@ -4490,6 +4503,7 @@ document.addEventListener("submit", async (event) => {
   if (form.dataset.signupSubmitting === "true") return;
   const status = form.querySelector("[data-signup-status]");
   const emailInput = form.querySelector('input[name="email"]');
+  const updatesInput = form.querySelector('input[name="updates"]');
   const email = String(emailInput?.value || "").trim();
   const setStatus = (message) => {
     if (status) status.textContent = message;
@@ -4510,11 +4524,15 @@ document.addEventListener("submit", async (event) => {
         email,
         website: String(form.querySelector('input[name="website"]')?.value || ""),
         artistSlug: String(form.dataset.watchlistSignup || "").trim(),
-        sourcePath: window.location.pathname
+        sourcePath: window.location.pathname,
+        updates: Boolean(updatesInput?.checked)
       })
     });
     if (response.ok) {
-      setStatus("Done — you'll get an email when confirmed dates are up.");
+      setStatus(updatesInput?.checked
+        ? "Done — you'll get an email when confirmed dates are up, plus the weekly presale and on-sale email."
+        : "Done — you'll get an email when confirmed dates are up.");
+      if (updatesInput) updatesInput.checked = false;
       if (emailInput) emailInput.value = "";
       // GA4 mirror only. /api/signup has already written the authoritative
       // first-party email_signup row; a beacon here would double-count it. The

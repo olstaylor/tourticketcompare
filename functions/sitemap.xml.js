@@ -7,6 +7,7 @@ import { artistPageIndexable } from "./_artist-indexability.js";
 import { deriveOnsaleCalendar } from "./_onsale-calendar.js";
 import { deriveIndexablePriceGuides } from "./_price-guides.js";
 import { deriveIndexablePresalePages } from "./_presales.js";
+import { isUpcomingShow } from "./_upcoming.js";
 import { eventIndexingPilotFor } from "./[[path]].js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
@@ -160,14 +161,18 @@ async function loadIndexableArtists(env) {
         .filter(([slug]) => slug)
     );
 
-    // An artist page lists the artist's event rows, so its lastmod follows the
-    // same rule as the location pages built from those rows: the newest
-    // `last_verified_at` among them. The artist-level date alone lagged the
-    // page by months once dates were added or re-verified (Harry Styles read
-    // 2026-04-30 while its rows were verified 2026-10-07), which told crawlers
-    // and IndexNow nothing had changed.
+    // An artist page lists the artist's upcoming event rows, so its lastmod
+    // also takes the newest `last_verified_at` among those rows. The
+    // artist-level date alone lagged the page by months once dates were added
+    // or re-verified (Harry Styles read 2026-04-30 while its rows were verified
+    // 2026-10-07), which told crawlers and IndexNow nothing had changed. Past
+    // rows are left out: the page hides them while upcoming ones exist, so a
+    // re-verified past row must not move the date. An artist with no upcoming
+    // rows keeps its artist-level date.
+    const now = Date.now();
     const newestEventBySlug = new Map();
     for (const event of Array.isArray(events) ? events : []) {
+      if (!isUpcomingShow(event, now)) continue;
       const slug = String(event?.artist_slug || "").trim();
       const date = lastmodOf(String(event?.last_verified_at || "").slice(0, 10));
       if (slug && date) newestEventBySlug.set(slug, newestDate(newestEventBySlug.get(slug), date));

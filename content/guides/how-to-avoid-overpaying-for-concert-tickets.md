@@ -21,7 +21,7 @@ legacy_article_headline: How to Avoid Overpaying for Concert Tickets
 legacy_article_description: Practical guidance on understanding concert ticket pricing, comparing final checkout totals, avoiding pressure decisions, and confirming provider terms before you buy.
 ---
 
-Most overpaying comes down to three things: fees that only appear on the last screen, buying resale while primary tickets are still on sale, and deciding in a hurry before you've seen the terms.
+Before buying, compare the complete total for your ticket quantity, check primary options alongside resale, and read the delivery and refund terms. Mandatory fees may already be included in the listed price; taxes, selected delivery and optional extras can still affect what you pay.
 
 TourTicketCompare shows each ticket site's lowest listed price for a date where the site supplies one, with the time it was checked, and links to the right event page. It doesn't sell tickets or confirm availability, and a listed price isn't what you'll pay. The ticket site sets that at checkout.
 
@@ -33,15 +33,15 @@ Primary prices, resale prices and fees work differently, and mixing them up is o
 
 **Resale pricing** is set by individual sellers, under each marketplace's rules. A listing above the original price isn't fraud, but it does mean you may be paying more than the official price. Check whether primary tickets are still available before you buy resale.
 
-**Fees** are the most common reason a total ends up higher than expected. Service fees, order fees, facility charges, taxes and delivery are often added at checkout rather than included in the first price you see. A price that looks lower than another can end up as the higher total. Ticketmaster, for example, says its upfront price includes the face value and required fees but generally not taxes, and that a delivery fee is added only if you choose a method such as mail or courier. SeatGeek says its displayed price includes all mandatory fees, with taxes, shipping and optional add-ons possibly added at checkout.
+**Fees and other charges** need checking before you compare. Mandatory fees may already be included in the listed price, while taxes, selected delivery and optional extras can affect the final amount. Compare the same ticket quantity and choices on each site. Ticketmaster, for example, says its upfront price includes the face value and required fees but generally not taxes, and that a delivery fee is added only if you choose a method such as mail or courier. SeatGeek says its displayed price includes all mandatory fees, with taxes, shipping and optional add-ons possibly added at checkout.
 
-A primary ticket isn't automatically cheaper than resale once fees are added. Get to the final total on each site before you decide.
+A primary ticket isn't automatically cheaper than resale. Get to the final total on each site before you decide.
 
 ## The checkout total is the only useful comparison number
 
-To compare two options fairly, you need the same number from each: the total after the site has added every fee, tax, delivery charge and currency conversion.
+To compare two options fairly, use the complete amount payable for the same ticket quantity, including applicable fees, taxes, delivery, selected extras and any currency-conversion charge.
 
-In the United States, mandatory fees now have to be in the advertised total, but taxes, shipping and optional extras can still be added before you pay; the [fees guide](/guides/concert-ticket-fees-explained) explains what the rule covers. In other countries the price can grow as you go through checkout, so you won't know what's included until you reach the order screen.
+In the United States, mandatory fees now have to be in the advertised total, but taxes, shipping and optional extras can still be added before you pay; the [fees guide](/guides/concert-ticket-fees-explained) explains what the rule covers. Other countries have their own rules. Check what the listing includes and confirm the final amount before paying.
 
 To avoid a surprise at checkout:
 
@@ -138,11 +138,11 @@ No. Dynamic or demand-based pricing is a disclosed feature some sites use for so
 
 **Why is my final total higher than the price I first saw?**
 
-Fees, taxes, delivery and currency conversion are often added at checkout rather than shown at the start, and the rules differ by country. Go to the final order screen before comparing.
+Mandatory fees may already be included in the price you first saw. Your selected ticket quantity, taxes, delivery, optional extras or a currency-conversion charge may change the final amount. Check the order summary for your exact choices before comparing.
 
 **Is a primary ticket always cheaper than resale?**
 
-Not once fees are added. Service and order fees can bring a primary ticket close to, or above, some resale listings for the same event and section. Compare the final totals.
+No. Primary and resale listings can have different prices, ticket types and terms. Compare the complete totals for the same event, section and quantity rather than assuming either market is cheaper.
 
 **Can I get a refund if something changes?**
 

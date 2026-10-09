@@ -8830,11 +8830,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7921654",
-        "url": "https://www.ticketnetwork.com/en/p/7921654",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7921654",
@@ -8855,7 +8855,7 @@
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5eVZ_aUyt5-g",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921654",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921654/Olivia-Rodrigo-tickets-Thu-Oct-8-2026-Spectrum-Center",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-charlotte-tickets-10-8-2026/event/107164277"
   },
@@ -35457,11 +35457,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7457608",
-        "url": "https://www.ticketnetwork.com/en/p/7457608",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "106954736",
@@ -35481,7 +35481,7 @@
     "ticketmaster_discovery_event_id": "G5vzZbSEFO0An",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457608",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-denver-tickets-10-8-2026/event/106954736",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457608/Doja-Cat-tickets-Thu-Oct-8-2026-Ball-Arena"
   },
@@ -50174,11 +50174,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7676513",
-        "url": "https://www.ticketnetwork.com/en/p/7676513",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7676513",
@@ -50191,7 +50191,7 @@
     "ticketmaster_discovery_event_id": "G5viZ_eQoip4h",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676513",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676513/Five-Finger-Death-Punch-tickets-Thu-Oct-8-2026-FirstBank-Amphitheater"
   },
   {
@@ -52252,11 +52252,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7976480",
-        "url": "https://www.ticketnetwork.com/en/p/7976480",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7976480",
@@ -52276,7 +52276,7 @@
     "ticketmaster_discovery_event_id": "vvG18Z_1BHCnVF",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976480",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976480/Don-Omar-tickets-Thu-Oct-8-2026-Allstate-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-rosemont-tickets-10-8-2026/event/107289093"
   },
@@ -140905,11 +140905,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8259348",
-        "url": "https://www.ticketnetwork.com/en/p/8259348",
-        "verified": true,
-        "last_verified_at": "2026-09-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8259348",
@@ -140922,7 +140922,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PdJf",
     "timezone": "America/Anchorage",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259348",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259348/Tommy-Emmanuel-tickets-Thu-Oct-8-2026-Discovery-Theatre"
   },
   {
@@ -149234,11 +149234,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8290449",
-        "url": "https://www.ticketnetwork.com/en/p/8290449",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8290449",
@@ -149258,7 +149258,7 @@
     "ticketmaster_discovery_event_id": "G5dzZ_5SZ3VmK",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290449",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290449/Amble-tickets-Thu-Oct-8-2026-O2-Academy-Brixton",
     "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-london-o2-academy-brixton-8-10-2026/event/107258194"
   },
@@ -164446,6 +164446,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8306364",
+        "url": "https://www.ticketnetwork.com/en/p/8306364",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPupGA1vvtI",
@@ -164457,7 +164464,8 @@
         "start": "2026-10-02T16:00:00Z",
         "end": "2027-03-11T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8306364"
   },
   {
     "id": "tm-tommy-emmanuel-2027-ottawa-1aszkfgjd0vzecc",
@@ -177702,11 +177710,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7831762",
-        "url": "https://www.ticketnetwork.com/en/p/7831762",
-        "verified": true,
-        "last_verified_at": "2026-10-05",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7831762",
@@ -177726,7 +177734,7 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vvx0w-E",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7831762",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7831762/Niall-Horan-tickets-Thu-Oct-8-2026-Uber-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-berlin-uber-arena-8-10-2026/event/107148175"
   },
@@ -187174,11 +187182,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271405",
+        "url": "https://www.ticketnetwork.com/en/p/8271405",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvUug",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271405"
   },
   {
     "id": "tm-too-many-zooz-2027-portland-z7r9jz1aaeerf",
@@ -187227,11 +187243,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284750",
+        "url": "https://www.ticketnetwork.com/en/p/8284750",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeerF",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284750"
   },
   {
     "id": "tm-the-red-clay-strays-2027-cleveland-z7r9jz1aaefgw",
@@ -187334,11 +187358,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300380",
+        "url": "https://www.ticketnetwork.com/en/p/8300380",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeKuy",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300380"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-morrison-z7r9jz1aaekuz",
@@ -187387,11 +187419,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300774",
+        "url": "https://www.ticketnetwork.com/en/p/8300774",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeKuz",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300774"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-salt-lake-city-z7r9jz1aaekuv",

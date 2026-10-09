@@ -398,11 +398,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8290449",
-        "url": "https://www.ticketnetwork.com/en/p/8290449",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8290449",
@@ -422,7 +422,7 @@
     "ticketmaster_discovery_event_id": "G5dzZ_5SZ3VmK",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8290449",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290449/Amble-tickets-Thu-Oct-8-2026-O2-Academy-Brixton",
     "stubhub_international_url": "https://www.stubhub.ie/amble-tickets-london-o2-academy-brixton-8-10-2026/event/107258194"
   },

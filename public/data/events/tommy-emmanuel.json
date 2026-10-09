@@ -48,11 +48,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8259348",
-        "url": "https://www.ticketnetwork.com/en/p/8259348",
-        "verified": true,
-        "last_verified_at": "2026-09-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8259348",
@@ -65,7 +65,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PdJf",
     "timezone": "America/Anchorage",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8259348",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8259348/Tommy-Emmanuel-tickets-Thu-Oct-8-2026-Discovery-Theatre"
   },
   {
@@ -1863,6 +1863,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8306364",
+        "url": "https://www.ticketnetwork.com/en/p/8306364",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPupGA1vvtI",
@@ -1874,7 +1881,8 @@
         "start": "2026-10-02T16:00:00Z",
         "end": "2027-03-11T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8306364"
   },
   {
     "id": "tm-tommy-emmanuel-2027-ottawa-1aszkfgjd0vzecc",

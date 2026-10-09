@@ -530,6 +530,45 @@ async function routeForPath(pathname, env) {
   return { type: "redirect", location: canonicalRoute.type === "redirect" ? canonicalRoute.location : canonicalPath };
 }
 
+// Where a blog reader goes next to buy. Blog posts about a touring artist drew
+// search visitors who almost never reached a ticket button (Olivia Rodrigo,
+// 25 Sep-8 Oct 2026: 30 visitor-days, 4 went on to another page), because the
+// only route onward was the "Artists mentioned" list at the foot of the post.
+// For each mentioned artist that is editorially indexable and has upcoming
+// shows, this collects the pages that carry checked ticket links: the date
+// board, the price guide when it renders, and the artist's indexable city
+// pages, soonest first. Links only; no prices or availability are claimed.
+const BLOG_TICKET_ROUTE_ARTIST_LIMIT = 3;
+const BLOG_TICKET_ROUTE_CITY_LIMIT = 4;
+
+async function deriveBlogArtistTicketRoutes(env, artistSlugs) {
+  const slugs = (Array.isArray(artistSlugs) ? artistSlugs : []).slice(0, BLOG_TICKET_ROUTE_ARTIST_LIMIT);
+  if (!slugs.length) return [];
+  const artistsMeta = await loadArtistsMeta(env);
+  const rows = await Promise.all(
+    slugs.map(async (slug) => {
+      const meta = artistsMeta.find((m) => slugify(m.slug) === slug);
+      if (!meta || meta.indexing_status !== "indexable_with_substantial_content") return null;
+      const artistEvents = await loadArtistEvents(env, slug);
+      const shows = futureShowsForArtist(artistEvents, slug);
+      if (!shows.length) return null;
+      const priceGuideLive =
+        priceGuideRegistered(slug) &&
+        priceGuideRouteDecision(derivePriceGuide(artistEvents, slug), {
+          registered: true,
+          artistEditoriallyIndexable: true
+        }) === "render";
+      const cities = deriveArtistCities(artistEvents, slug)
+        .filter((artistCity) => artistCity.indexable && artistCity.shows.length)
+        .sort((a, b) => a.shows[0].ts - b.shows[0].ts || a.slug.localeCompare(b.slug))
+        .slice(0, BLOG_TICKET_ROUTE_CITY_LIMIT)
+        .map((artistCity) => ({ slug: artistCity.slug, label: artistCity.label, showCount: artistCity.showCount }));
+      return { slug, name: String(meta.name || "").trim(), showCount: shows.length, priceGuideLive, cities };
+    })
+  );
+  return rows.filter((row) => row && row.name);
+}
+
 async function resolveRoute(pathname, env) {
   const path = normalizePath(pathname);
   if (OLD_GUIDE_REDIRECTS[path]) return { type: "redirect", location: OLD_GUIDE_REDIRECTS[path] };
@@ -617,6 +656,7 @@ async function resolveRoute(pathname, env) {
       post,
       posts,
       tags,
+      artistTicketRoutes: await deriveBlogArtistTicketRoutes(env, post.relatedArtists),
       breadcrumb: [
         { name: "Blog", path: BLOG_INDEX_PATH },
         { name: post.title, path }
@@ -4511,6 +4551,45 @@ function renderBlogPostOnwardLinks(post, posts, catalog) {
   return `${relatedHtml}${guidesHtml}${artistsHtml}`;
 }
 
+// Near the top of a blog post: the ticket pages for each mentioned artist
+// that is touring (see deriveBlogArtistTicketRoutes).
+function renderBlogArtistTicketRoutes(routes) {
+  if (!Array.isArray(routes) || !routes.length) return "";
+  // A post about several artists gets one compact list rather than a stack of
+  // panels above the first paragraph.
+  if (routes.length > 1) {
+    const items = routes
+      .map(
+        (row) =>
+          `<li data-blog-ticket-routes="${escapeAttr(row.slug)}">${anchor(`${row.name} tickets by date`, `/artists/${row.slug}`)}${
+            row.priceGuideLive ? ` · ${anchor(`${row.name} ticket prices`, priceGuidePath(row.slug))}` : ""
+          }</li>`
+      )
+      .join("");
+    return `<section class="nested-panel blog-ticket-routes"><h2>Tickets for the artists in this post</h2><p>Each date board links to the ticket sites with a checked page for that exact show.</p><ul class="guide-link-list">${items}</ul></section>`;
+  }
+  return routes
+    .map((row) => {
+      const showsLabel = `${row.showCount} upcoming ${row.showCount === 1 ? "show" : "shows"}`;
+      const cityItems = row.cities
+        .map(
+          (city) =>
+            `<li>${anchor(`${row.name} tickets in ${city.label}`, `/artists/${row.slug}/tickets/${city.slug}`)}${
+              city.showCount > 1 ? ` (${city.showCount} shows)` : ""
+            }</li>`
+        )
+        .join("");
+      return `<section class="nested-panel blog-ticket-routes" data-blog-ticket-routes="${escapeAttr(row.slug)}"><h2>${escapeHtml(
+        row.name
+      )} tickets</h2><p>${escapeHtml(
+        `${showsLabel}. Each date links to the ticket sites with a checked page for that exact show.`
+      )}</p><div class="action-row">${anchor(`Compare ${row.name} tickets by date`, `/artists/${row.slug}`, "button button-primary")}${
+        row.priceGuideLive ? anchor(`${row.name} ticket prices`, priceGuidePath(row.slug), "button button-secondary") : ""
+      }</div>${cityItems ? `<p>Next cities:</p><ul class="guide-link-list">${cityItems}</ul>` : ""}</section>`;
+    })
+    .join("");
+}
+
 function providerVerificationNote(item) {
   const date = formatVerificationDate(item?.last_verified_at);
   return date ? `Provider link last checked: ${date}.` : "";
@@ -6943,7 +7022,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       post.tags.length
         ? renderBlogTagChips(post.tags.map((slug) => (route.tags || []).find((tag) => tag.slug === slug)).filter(Boolean))
         : ""
-    }${renderBlogPostBody(post.sections)}${renderBlogSources(post.sources)}${renderBlogPostOnwardLinks(
+    }${renderBlogArtistTicketRoutes(route.artistTicketRoutes)}${renderBlogPostBody(post.sections)}${renderBlogSources(post.sources)}${renderBlogPostOnwardLinks(
       post,
       posts,
       catalog

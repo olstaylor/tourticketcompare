@@ -116,6 +116,7 @@ jobs:
           node scripts/auto-promote.mjs --check-out-against artifacts/auto/out.base.js
           npm run test:mvp
           npm run test:providers
+          npm run schema:validate
           git diff --check
 
       - name: Configure git identity

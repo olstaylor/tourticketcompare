@@ -18,6 +18,7 @@
 export const STEPS = [
   { id: "automation:identity:self-test", lane: "units", run: "node scripts/configure-automation-identity.mjs --self-test" },
   { id: "docs:check",                             lane: "quick",  run: "npm run docs:check" },
+  { id: "schema:properties:self-test",            lane: "units",  run: "node scripts/schema-properties.test.mjs" },
   { id: "test:price-timing",                       lane: "units",  run: "npm run test:price-timing" },
   { id: "blog:self-test",                         lane: "units",  run: "npm run blog:self-test" },
   { id: "blog:check",                             lane: "quick",  run: "npm run blog:check" },

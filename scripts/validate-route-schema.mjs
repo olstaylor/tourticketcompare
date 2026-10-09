@@ -33,6 +33,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { hasSchemaProperty } from "./lib/schema-properties.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const failures = [];
@@ -299,8 +300,7 @@ function expectedMusicEventCount(artistSlug) {
       fail(`${pathname}: ${musicEvents.length} MusicEvent node(s), expected ${expected} from the publishable gate`);
     }
     for (const node of musicEvents) {
-      const raw = JSON.stringify(node).toLowerCase();
-      if (raw.includes("offer") || raw.includes("price") || raw.includes("availability")) {
+      if (hasSchemaProperty(node, /offer|price|availability|inventory/i)) {
         fail(`${pathname}: MusicEvent node carries offers/price/availability`);
       }
       if (!node.name || !node.startDate || !node.location?.name || !node.location?.address?.addressLocality) {
@@ -347,8 +347,7 @@ function expectedMusicEventCount(artistSlug) {
       fail(`${pathname}: ${musicEvents.length} MusicEvent node(s), expected ${expected} from the publishable listing`);
     }
     for (const node of musicEvents) {
-      const raw = JSON.stringify(node).toLowerCase();
-      if (raw.includes("offer") || raw.includes("price") || raw.includes("availability")) {
+      if (hasSchemaProperty(node, /offer|price|availability|inventory/i)) {
         fail(`${pathname}: MusicEvent node carries offers/price/availability in the default environment`);
       }
       if (!node.name || !node.startDate || !node.location?.name || !node.location?.address?.addressLocality) {
@@ -408,8 +407,7 @@ function expectedMusicEventCount(artistSlug) {
       fail(`${entry.path}: ${musicEvents.length} MusicEvent node(s), expected ${expected} from the publishable listing`);
     }
     for (const node of musicEvents) {
-      const raw = JSON.stringify(node).toLowerCase();
-      if (raw.includes("offer") || raw.includes("price") || raw.includes("availability")) {
+      if (hasSchemaProperty(node, /offer|price|availability|inventory/i)) {
         fail(`${entry.path}: MusicEvent node carries offers/price/availability in the default environment`);
       }
       if (!node.name || !node.startDate || !node.location?.name || !node.location?.address?.addressLocality) {
@@ -544,7 +542,7 @@ function expectedMusicEventCount(artistSlug) {
     const carriers = offersNodes(graph);
     const tainted = (graph || [])
       .filter((node) => node["@type"] === "MusicEvent")
-      .filter((node) => /offer|price/.test(JSON.stringify(node).toLowerCase()));
+      .filter((node) => hasSchemaProperty(node, /offer|price|availability|inventory/i));
     if (carriers.length || tainted.length) fail(`${label}: expected no offers, found ${carriers.length || tainted.length} MusicEvent node(s) carrying offer/price data`);
     else ok(`${label}: no Offer emitted`);
   }
@@ -586,8 +584,7 @@ function expectedMusicEventCount(artistSlug) {
     if (offer.priceCurrency !== row.currency) fail(`${label}: offer priceCurrency ${offer.priceCurrency} != cache row currency ${row.currency}`);
     if (offer.priceValidUntil !== row.expires_at) fail(`${label}: offer priceValidUntil ${offer.priceValidUntil} != cache row expires_at ${row.expires_at}`);
     if (offer.url !== expectedUrl) fail(`${label}: offer url ${offer.url} != ${expectedUrl}`);
-    const rawOffer = JSON.stringify(node).toLowerCase();
-    if (rawOffer.includes("availability") || rawOffer.includes("inventory")) fail(`${label}: node leaks availability/inventory`);
+    if (hasSchemaProperty(node, /availability|inventory/i)) fail(`${label}: node leaks availability/inventory`);
     if (!badgePresent(html, laneSlug)) {
       fail(`${label}: Offer emitted but the visible ${laneSlug} price badge is missing — schema asserted something the page does not show`);
     } else {
@@ -878,8 +875,8 @@ function expectedMusicEventCount(artistSlug) {
     if (!page.facts.Artist?.includes(`href="/artists/${event.artist_slug}"`)) problems.push("the visible Artist fact does not link the artist page");
 
     if (node.image !== page.ogImage || node.image !== `${ORIGIN}${OG_CARDS[pathname]?.url || "/og-image.png"}`) problems.push(`image ${node.image} is not the page's og:image ${page.ogImage}`);
-    if (/offer|price|availability|inventory/i.test(JSON.stringify(nodeCore))) problems.push("carries offer/price/availability data outside offers");
-    if (/availability|inventory/i.test(JSON.stringify(nodeOffers || []))) problems.push("offers carry availability data");
+    if (hasSchemaProperty(nodeCore, /offer|price|availability|inventory/i)) problems.push("carries offer/price/availability data outside offers");
+    if (hasSchemaProperty(nodeOffers || [], /availability|inventory/i)) problems.push("offers carry availability data");
     if (/\/api\/out/.test(JSON.stringify(graph.map((entry) => (entry === node ? nodeCore : entry))))) problems.push("structured data links /api/out outside offers");
     for (const problem of problems) fail(`${label} ${pathname}: MusicEvent ${problem}`);
     return node;
@@ -1108,7 +1105,7 @@ function expectedMusicEventCount(artistSlug) {
       const html = await (await render(eventPagesModule.eventPath(event), "tourticketcompare.com", fenv)).text();
       const main = html.slice(html.indexOf("<main"), html.indexOf("</main>"));
       if (node?.eventStatus !== status) fail(`event fixture ${event.id}: expected ${status}, got ${JSON.stringify(node)}`);
-      else if (/\/api\/out|\$\d/.test(main) || /offer|price|availability/i.test(JSON.stringify(extractGraph(html, event.id).filter((entry) => entry["@type"] !== "Organization")))) fail(`event fixture ${event.id}: a held page exposes a ticket link, price, offer or availability`);
+      else if (/\/api\/out|\$\d/.test(main) || hasSchemaProperty(extractGraph(html, event.id).filter((entry) => entry["@type"] !== "Organization"), /offer|price|availability|inventory/i)) fail(`event fixture ${event.id}: a held page exposes a ticket link, price, offer or availability`);
       else ok(`event fixture ${event.id}: ${status.replace("https://schema.org/", "")}, with no ticket link, price, Offer or availability on page or in schema`);
     }
     {

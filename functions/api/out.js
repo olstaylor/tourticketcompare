@@ -2422,14 +2422,24 @@ async function hashRequestKey(request) {
   }
 }
 
-// The authoritative outbound-click record. Every monetized and unmonetized CTA
-// on the site navigates through here, so this row — not the client beacon — is
-// what the commercial funnel counts. `provider_click` is the client's
-// statement of intent; `outbound_click` is the server's record that a redirect
-// was actually issued. See docs/COMMERCIAL_FUNNEL.md.
+// A browser-controlled signal for a top-level user navigation. It deliberately
+// qualifies only the analytics receipt: valid redirects must keep working for
+// every compatible request, including headerless browsers and link checkers.
+// `Sec-Fetch-User` is unavailable to script-set request headers, which removes
+// the largest known source of automated direct /api/out receipts without
+// pretending to prove that a person clicked the CTA.
+function hasUserNavigationSignal(request) {
+  return request?.method === "GET" && request.headers.get("sec-fetch-user") === "?1";
+}
+
+// The authoritative qualified outbound-click record. Every monetized and
+// unmonetized CTA on the site navigates through here, so this row — not the
+// client beacon — is what the commercial funnel counts. `provider_click` is
+// the client's statement of intent; `outbound_click` is the server's record
+// that a qualified redirect was actually issued. See docs/COMMERCIAL_FUNNEL.md.
 async function trackClick({ request, env, link, sourcePath, destinationHost, ctaLocation, clickId, impactTracked = false, impactReconciliationEligible = false, outcome = "redirected", status = null }) {
   const db = getDemandDb(env);
-  if (!db) return;
+  if (!db || !hasUserNavigationSignal(request)) return;
   // Self-identifying crawlers follow every affiliate link on the page, which
   // inflated outbound_click far above real demand. Skip the analytics write for
   // them; the redirect itself is untouched and still resolves normally.
@@ -2509,7 +2519,7 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
 // The same opaque click ID joins this row to exactly one terminal outcome.
 async function trackOutboundAttempt({ request, env, link, sourcePath, ctaLocation, clickId }) {
   const db = getDemandDb(env);
-  if (!db || isLikelyBot(request.headers.get("user-agent"))) return;
+  if (!db || !hasUserNavigationSignal(request) || isLikelyBot(request.headers.get("user-agent"))) return;
   const path = normalizeAnalyticsPath(sourcePath);
   const pageType = classifyPageType(path);
   const userAgent = clean(request.headers.get("user-agent"), 255) || null;

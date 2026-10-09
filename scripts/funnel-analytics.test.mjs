@@ -6,8 +6,8 @@
 //                           and no personal data reaches analytics_events.
 //   2. Duplicate prevention — one interaction produces one row, on both the
 //                           client guard and the server insert path.
-//   3. Redirect tracking  — /api/out records the authoritative outbound row
-//                           with its funnel dimensions, keeps the provider
+//   3. Redirect tracking  — /api/out records qualified outbound receipts with
+//                           their funnel dimensions, keeps the provider
 //                           allowlist and fail-closed behaviour intact, and
 //                           does not change the affiliate URL by default.
 //
@@ -111,9 +111,10 @@ function fakeAssets(events = [SAMPLE_EVENT]) {
 
 const BROWSER_UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1";
 
-function outRequest(query, { userAgent = BROWSER_UA, referer = null } = {}) {
+function outRequest(query, { userAgent = BROWSER_UA, referer = null, secFetchUser = "?1" } = {}) {
   const headers = { "user-agent": userAgent, "cf-connecting-ip": "203.0.113.7" };
   if (referer) headers.referer = referer;
+  if (secFetchUser) headers["sec-fetch-user"] = secFetchUser;
   return new Request(`https://tourticketcompare.com/api/out?${query}`, { headers });
 }
 
@@ -492,6 +493,21 @@ await test("bot filtering still drops self-identifying crawlers on both paths", 
   });
   assert.equal(redirect.status, 302, "the redirect itself must be unaffected");
   assert.equal(outDb.rows.length, 0, "a crawler click must not be recorded");
+});
+
+await test("outbound analytics requires a browser user-navigation signal without changing redirects", async () => {
+  const db = fakeDb();
+  const response = await outGet({
+    request: outRequest(
+      `showId=${SAMPLE_EVENT.id}&provider=ticketmaster&sourcePath=/artists/test-artist`,
+      { secFetchUser: null }
+    ),
+    env: { DEMAND_DB: db, ASSETS: fakeAssets() }
+  });
+
+  assert.equal(response.status, 302, "a valid redirect must remain available without the signal");
+  assert.equal(response.headers.get("Location"), SAMPLE_EVENT.ticketmaster_url);
+  assert.equal(db.rows.length, 0, "an unqualified request must not create attempt or terminal receipt rows");
 });
 
 // ── 3. Duplicate prevention ─────────────────────────────────────────────────

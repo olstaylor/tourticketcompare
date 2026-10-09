@@ -28,7 +28,7 @@ import { deriveArtistCities, deriveIndexableArtistCities, findArtistCity, artist
 import { deriveCityDatePrices } from "./_artist-city-prices.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
-import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, EVENT_LIFECYCLE, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
+import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, EVENT_LIFECYCLE, PRESALE_PAGE_FRESH_DAYS, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import { deriveToursHub, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
 import { deriveArtistPresales, deriveUpcomingPresales, presalePath, PRESALE_SEGMENT, PRESALE_LOOKAHEAD_DAYS } from "./_presales.js";
@@ -5133,9 +5133,15 @@ function renderPresaleWindowHtml(window, artistSlug) {
   )}</strong></p><p class="muted">${escapeHtml(`For ${presalePlural(window.shows.length, "date", "dates")}:`)}</p>${renderPresaleShowList(window.shows, artistSlug)}</article>`;
 }
 
-function renderArtistPresaleLinkHtml(artist, presales) {
-  if (!presales?.windowCount) return "";
-  const lead = presales.openCount
+// Linked from the artist page only while the presale page itself is
+// indexable: a window opening within 30 days or opened in the last 14. A VIP
+// package or card allocation that has been "open" since the tour went on sale
+// is not news to a fan, so it neither indexes the page nor earns this line.
+function renderArtistPresaleLinkHtml(artist, presales, now = Date.now()) {
+  if (!presales?.windowCount || !presales.indexable) return "";
+  const freshOpen = presales.windows.some((window) => window.open && now - window.startMs <= PRESALE_PAGE_FRESH_DAYS * 86400000);
+  if (!freshOpen && !presales.nextWindow) return "";
+  const lead = freshOpen
     ? `${artist.name} presale open now`
     : `${artist.name} presale: ${presales.nextWindow.name} opens ${presaleTimeLabel(presales.nextWindow.startMs, presaleWindowZone(presales.nextWindow))}`;
   return `<p class="price-guide-link presale-link">${anchor(`${lead}. See every presale time`, presalePath(artist.slug), "text-link")}</p>`;

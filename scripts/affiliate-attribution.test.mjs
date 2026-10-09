@@ -153,7 +153,7 @@ function fixture() {
     OUT_CLICK_ID_SUBID_ENABLED: 'true'
   };
   const request = (query = `showId=${event.id}&provider=seatgeek&sourcePath=/cities/berlin-germany&ctaLocation=event_card`) =>
-    new Request(`https://tourticketcompare.com/api/out?${query}`, { headers: { 'user-agent': 'Mozilla/5.0', 'cf-connecting-ip': '203.0.113.7' } });
+    new Request(`https://tourticketcompare.com/api/out?${query}`, { headers: { 'user-agent': 'Mozilla/5.0', 'cf-connecting-ip': '203.0.113.7', 'sec-fetch-user': '?1' } });
   return { db, env, request };
 }
 function lookup(db, actions) {

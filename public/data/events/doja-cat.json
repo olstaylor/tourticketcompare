@@ -347,11 +347,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106954736",
-        "url": "https://www.stubhub.ie/doja-cat-denver-tickets-10-8-2026/event/106954736",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -365,7 +365,7 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-denver-tickets-10-8-2026/event/106954736",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {

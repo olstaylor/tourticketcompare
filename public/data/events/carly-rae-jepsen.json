@@ -2130,13 +2130,21 @@
         "verified": true,
         "last_verified_at": "2026-10-09",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671803",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-morrison-tickets-4-25-2027/event/107671803",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeKuz",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300774",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300774/Carly-Rae-Jepsen-tickets-Sun-Apr-25-2027-Red-Rocks-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300774/Carly-Rae-Jepsen-tickets-Sun-Apr-25-2027-Red-Rocks-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-morrison-tickets-4-25-2027/event/107671803"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-salt-lake-city-z7r9jz1aaekuv",

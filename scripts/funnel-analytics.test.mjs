@@ -782,7 +782,7 @@ await test("every report query is valid SQLite against the 0008 schema", async (
     assert.doesNotThrow(() => db.prepare(statement.sql).all(), `${statement.key} is not valid SQLite`);
   }
   const clicksByPath = db.prepare(buildStatements({ since: "", until: "" }).find((entry) => entry.key === "clicksByPath").sql).all();
-  assert.deepEqual(clicksByPath, [{ source_path: "/artists/x", clicks: 1 }], "legacy unqualified receipts must not enter the qualified report population");
+  assert.deepEqual(clicksByPath.map((row) => [row.source_path, Number(row.clicks)]), [["/artists/x", 1]], "legacy unqualified receipts must not enter the qualified report population");
   db.close();
 });
 

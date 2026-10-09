@@ -7161,6 +7161,10 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "/logo.png",
       "text-link"
     )}</li><li>${anchor("Square logo (SVG)", "/assets/logo.svg", "text-link")}</li><li>${anchor(
+      "Wide logo for light backgrounds (PNG, 1620 × 240)",
+      "/assets/press/logo-horizontal.png",
+      "text-link"
+    )}</li><li>${anchor("Wide logo for dark backgrounds (PNG, 1660 × 280)", "/assets/press/logo-horizontal-dark.png", "text-link")}</li><li>${anchor(
       "Social card (PNG, 1200 × 630)",
       "/og-image.png",
       "text-link"

@@ -28,6 +28,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
 import { buildD1ReadArgs } from "./lib/d1-read.mjs";
+import { normalizeAnalyticsPath } from "../functions/_funnel.js";
 
 const execFileAsync = promisify(execFile);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -392,17 +393,20 @@ GROUP BY 1, 2`
     },
     {
       key: "browserIntentPairs",
-      sql: `SELECT json_extract(metadata_json, '$.browserIntentId') AS intent_id,
+      sql: `SELECT json_extract(CASE WHEN json_valid(metadata_json) THEN metadata_json ELSE '{}' END, '$.browserIntentId') AS intent_id,
 SUM(event_name = 'provider_click') AS intents,
 SUM(event_name = 'outbound_click') AS receipts,
 SUM(event_name = 'outbound_blocked') AS blocked,
 MIN(COALESCE(provider, '')) AS provider_min, MAX(COALESCE(provider, '')) AS provider_max,
 MIN(COALESCE(event_id, '')) AS event_min, MAX(COALESCE(event_id, '')) AS event_max,
+MIN(COALESCE(artist_slug, '')) AS artist_min, MAX(COALESCE(artist_slug, '')) AS artist_max,
+MAX(CASE WHEN event_name = 'provider_click' THEN source_path END) AS client_source_path,
+MAX(CASE WHEN event_name = 'provider_click' THEN landing_path END) AS client_landing_path,
 MIN(created_at) AS first_at, MAX(created_at) AS last_at
 FROM analytics_events
 WHERE event_name IN ('provider_click', 'outbound_click', 'outbound_blocked')${since}
-AND length(json_extract(metadata_json, '$.browserIntentId')) = 32
-AND json_extract(metadata_json, '$.browserIntentId') NOT GLOB '*[^0-9a-f]*'
+AND length(json_extract(CASE WHEN json_valid(metadata_json) THEN metadata_json ELSE '{}' END, '$.browserIntentId')) = 32
+AND json_extract(CASE WHEN json_valid(metadata_json) THEN metadata_json ELSE '{}' END, '$.browserIntentId') NOT GLOB '*[^0-9a-f]*'
 GROUP BY 1`
     },
     {
@@ -532,14 +536,25 @@ function sumRows(rows, valueKey) {
 
 export function summarizeBrowserIntentPairs(rows) {
   const summary = { token_groups: rows.length, matched: 0, unmatched: 0, ambiguous: 0, tuple_mismatch: 0, timing_mismatch: 0, basis: "consented_client_activation_to_server_receipt_not_human_identity_or_purchase", conversion_rate: null };
+  const pages = new Map();
+  const pagePath = value => typeof value === 'string' && /^\/(?!\/)/.test(value) ? normalizeAnalyticsPath(value) : '(unknown)';
   for (const row of rows) {
     if (Number(row.intents) > 1 || Number(row.receipts) > 1) { summary.ambiguous++; continue; }
     if (Number(row.intents) !== 1 || Number(row.receipts) !== 1 || Number(row.blocked)) { summary.unmatched++; continue; }
     if (!row.provider_min || row.provider_min !== row.provider_max || row.event_min !== row.event_max) { summary.tuple_mismatch++; continue; }
+    if (!row.event_min && (!row.artist_min || row.artist_min !== row.artist_max)) { summary.tuple_mismatch++; continue; }
     const span = Date.parse(row.last_at) - Date.parse(row.first_at);
     if (!Number.isFinite(span) || span < 0 || span > 300000) { summary.timing_mismatch++; continue; }
     summary.matched++;
+    const source_path = pagePath(row.client_source_path);
+    const landing_path = pagePath(row.client_landing_path);
+    const key = JSON.stringify([source_path, landing_path, row.provider_min]);
+    const page = pages.get(key) || { source_path, landing_path, provider: row.provider_min, matched_events: 0 };
+    page.matched_events++;
+    pages.set(key, page);
   }
+  summary.by_client_page = [...pages.values()].sort((a, b) => b.matched_events - a.matched_events || a.source_path.localeCompare(b.source_path));
+  summary.page_attribution_basis = 'client_reported_source_and_tab_landing_not_verified_google_acquisition';
   return summary;
 }
 
@@ -810,6 +825,9 @@ export function renderReport(report) {
   lines.push("outbound_click counts server-issued redirects, not verified human clicks.");
   lines.push("Visitor conversion and CTA completion rates withheld: client intent and server receipts are not reliably joined.");
   lines.push(`Consented intent token groups: ${report.browser_intent_join.token_groups}; unique tuple/time matches: ${report.browser_intent_join.matched}; unmatched: ${report.browser_intent_join.unmatched}; ambiguous: ${report.browser_intent_join.ambiguous}; tuple/timing mismatches: ${report.browser_intent_join.tuple_mismatch + report.browser_intent_join.timing_mismatch}. These are partial activation-to-receipt matches, not human conversions or purchases.`);
+  lines.push(`Events without valid tokens: ${report.browser_intent_join.client_events_without_valid_token} client intents; ${report.browser_intent_join.server_receipts_without_valid_token} server receipts.`);
+  lines.push('-- Matched events by client-reported landing/source page (not verified acquisition) --');
+  lines.push(renderTable(['landing_page', 'source_page', 'provider', 'matched_events'], report.browser_intent_join.by_client_page.map(row => [row.landing_path, row.source_path, row.provider, row.matched_events])));
   lines.push("Qualified affiliate clicks: unknown. Receipt rankings are investigation leads, not conversion rankings.");
   lines.push("");
 

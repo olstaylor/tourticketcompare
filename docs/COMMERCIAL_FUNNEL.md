@@ -58,10 +58,15 @@ or Impact. The server's independently generated `click_id` and existing
 SubId1 stay unchanged. The native CTA link is restored after activation;
 denied consent, no JavaScript, synthetic and middle-click paths remain unjoined.
 The report's `browser_intent_join` counts only token groups with exactly one
-client intent and one redirect, matching provider/event and a five-minute
+client intent and one redirect, matching provider/event (or a non-empty matching
+artist for artist-level links without an event) and a five-minute
 maximum time span. Duplicates, blocked paths, mismatches and incomplete groups
 are reported separately. This partial correlation does not prove a human,
 provider arrival or purchase, and does not unlock visitor conversion rates.
+`by_client_page` groups only accepted matches by client-reported source page,
+tab landing page and provider. It exposes event counts without random tokens.
+These page associations are not verified Google acquisition or unique users;
+missing landing paths remain unknown rather than being inferred from redirects.
 
 For JSON compatibility, existing `provider_clicks` fields still count server
 redirects and the legacy conversion-rate fields remain present as `null`.

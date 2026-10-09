@@ -35,6 +35,7 @@ test('intent tokens stay TTC-only and cannot alter an approved destination', asy
     assert.notEqual(click.click_id, id);
     db.prepare('INSERT INTO analytics_events (created_at,event_name,provider,event_id,metadata_json) VALUES (?,?,?,?,?)').run(click.created_at, 'provider_click', click.provider, click.event_id, JSON.stringify({ browserIntentId: id }));
     const sql = buildFunnelStatements({ since: '', until: '' }).find(statement => statement.key === 'browserIntentPairs').sql;
+    db.prepare('INSERT INTO analytics_events (created_at,event_name,metadata_json) VALUES (?,?,?)').run(click.created_at, 'provider_click', '{malformed');
     const pairs = db.prepare(sql).all();
     assert.equal(summarizeBrowserIntentPairs(pairs).matched, 1);
     db.prepare('INSERT INTO analytics_events (created_at,event_name,provider,event_id,metadata_json) VALUES (?,?,?,?,?)').run(click.created_at, 'provider_click', click.provider, click.event_id, JSON.stringify({ browserIntentId: id }));
@@ -48,7 +49,7 @@ test('intent tokens stay TTC-only and cannot alter an approved destination', asy
 });
 
 test('intent matching rejects duplicates, missing receipts, tuple and timing mismatches', () => {
-  const pair = { intents: 1, receipts: 1, blocked: 0, provider_min: 'seatgeek', provider_max: 'seatgeek', event_min: 'event1', event_max: 'event1', first_at: '2026-10-09T10:00:00Z', last_at: '2026-10-09T10:00:01Z' };
+  const pair = { intents: 1, receipts: 1, blocked: 0, provider_min: 'seatgeek', provider_max: 'seatgeek', event_min: 'event1', event_max: 'event1', client_source_path: '/artists/test-artist', client_landing_path: '/blog/test-guide', first_at: '2026-10-09T10:00:00Z', last_at: '2026-10-09T10:00:01Z' };
   const result = summarizeBrowserIntentPairs([pair, { ...pair, intents: 2 }, { ...pair, receipts: 0 }, { ...pair, provider_max: 'vivid-seats' }, { ...pair, event_max: 'event2' }, { ...pair, last_at: '2026-10-09T10:06:00Z' }]);
   assert.equal(result.matched, 1);
   assert.equal(result.ambiguous, 1);
@@ -56,6 +57,14 @@ test('intent matching rejects duplicates, missing receipts, tuple and timing mis
   assert.equal(result.tuple_mismatch, 2);
   assert.equal(result.timing_mismatch, 1);
   assert.equal(result.conversion_rate, null);
+  assert.deepEqual(result.by_client_page, [{ source_path: '/artists/test-artist', landing_path: '/blog/test-guide', provider: 'seatgeek', matched_events: 1 }]);
+  assert.equal(JSON.stringify(result).includes('intent_id'), false);
+  const unknown = summarizeBrowserIntentPairs([{ ...pair, client_source_path: null, client_landing_path: '' }]);
+  assert.equal(unknown.by_client_page[0].source_path, '(unknown)');
+  assert.equal(unknown.by_client_page[0].landing_path, '(unknown)');
+  assert.equal(summarizeBrowserIntentPairs([{ ...pair, event_min: '', event_max: '', artist_min: 'one', artist_max: 'two' }]).matched, 0);
+  assert.equal(summarizeBrowserIntentPairs([{ ...pair, event_min: '', event_max: '', artist_min: '', artist_max: '' }]).matched, 0);
+  assert.equal(summarizeBrowserIntentPairs([{ ...pair, event_min: '', event_max: '', artist_min: 'one', artist_max: 'one' }]).matched, 1);
 });
 
 test('direct Ticketmaster and malformed tokens retain checked destinations without a forwarded intent ID', async () => {

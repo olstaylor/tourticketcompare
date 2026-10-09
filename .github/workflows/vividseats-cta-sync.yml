@@ -83,7 +83,10 @@ jobs:
         # their merges. See scripts/wait-for-writer-lanes.mjs.
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 14
+        # The 7–8 October runs exhausted 14 minutes while SeatGeek was still
+        # active, then lost their merge race. 20 minutes covers those waits
+        # with headroom under this job's 59-minute cap; merge gates stay intact.
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 20
 
       - name: Setup Node.js
         uses: actions/setup-node@v4

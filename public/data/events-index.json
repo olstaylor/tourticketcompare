@@ -28853,7 +28853,7 @@
     "datetime_iso": "2027-05-15T18:00:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-assago-zg9rmiynyz7k7a",
@@ -28865,7 +28865,7 @@
     "datetime_iso": "2027-05-16T18:45:00Z",
     "timezone": "Europe/Rome",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-hamburg-z698xzc2z1k83jea7",
@@ -28877,7 +28877,7 @@
     "datetime_iso": "2027-05-18T18:00:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-berlin-z698xzc2z1kfv0zvs",
@@ -28889,7 +28889,7 @@
     "datetime_iso": "2027-05-21T18:00:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-amsterdam-z698xzbpz1kpzobgo",
@@ -28901,7 +28901,7 @@
     "datetime_iso": "2027-05-24T18:00:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-forest-brussels-z698xzg2z16ez30gvn",
@@ -28913,7 +28913,7 @@
     "datetime_iso": "2027-05-25T16:30:00Z",
     "timezone": "Europe/Brussels",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-london-1adfz_kgkmuet5g",
@@ -28925,7 +28925,7 @@
     "datetime_iso": "2027-05-28T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-birmingham-1aegz_kgkmz0sov",
@@ -28937,7 +28937,7 @@
     "datetime_iso": "2027-05-30T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-manchester-1adjz_kgkbyud70",
@@ -28949,7 +28949,7 @@
     "datetime_iso": "2027-06-01T18:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-glasgow-1auzk4vgkene4-w",
@@ -28961,7 +28961,7 @@
     "datetime_iso": "2027-06-02T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-dublin-1abzkfmgkes3wyd",
@@ -28973,7 +28973,7 @@
     "datetime_iso": "2027-06-04T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "Into The Beginning Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-greta-van-fleet-2027-vancouver-1av7z_kgkw_ogty",
@@ -30041,7 +30041,7 @@
     "datetime_iso": "2027-04-16T01:30:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-calgary-1av7z_kgkulm9f3",
@@ -30053,7 +30053,7 @@
     "datetime_iso": "2027-04-17T01:30:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-vancouver-1av7z_kgklk3dkw",
@@ -30065,7 +30065,7 @@
     "datetime_iso": "2027-04-19T02:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-san-francisco-g5vyz_kdn9abg",
@@ -30077,7 +30077,7 @@
     "datetime_iso": "2027-04-22T02:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-inglewood-vv170z_kgkmkrrsm",
@@ -30089,7 +30089,7 @@
     "datetime_iso": "2027-04-23T02:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-san-diego-vvg1iz_kmdzlco",
@@ -30101,7 +30101,7 @@
     "datetime_iso": "2027-04-24T02:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-las-vegas-1avjz_kgksxz4qo",
@@ -30113,7 +30113,7 @@
     "datetime_iso": "2027-05-01T02:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-phoenix-1kk8vpc_gacbk4n",
@@ -30125,7 +30125,7 @@
     "datetime_iso": "2027-05-02T02:30:00Z",
     "timezone": "America/Phoenix",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-irving-vvg1yz_kwbaerl",
@@ -30137,7 +30137,7 @@
     "datetime_iso": "2027-05-06T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-austin-g5diz_kbdqtji",
@@ -30149,7 +30149,7 @@
     "datetime_iso": "2027-05-08T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-houston-g5diz_kbuz9jg",
@@ -30161,7 +30161,7 @@
     "datetime_iso": "2027-05-09T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-nashville-g5viz_kdzypqh",
@@ -30173,7 +30173,7 @@
     "datetime_iso": "2027-05-11T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-atlanta-vvg1zz_kmrbzzs",
@@ -30185,7 +30185,7 @@
     "datetime_iso": "2027-05-11T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-charlotte-g5evz_ksv1qq1",
@@ -30197,7 +30197,7 @@
     "datetime_iso": "2027-05-12T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-washington-1avfz_kgkz-xcfn",
@@ -30209,7 +30209,7 @@
     "datetime_iso": "2027-05-14T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-new-york-g5diz_krvp7ot",
@@ -30221,7 +30221,7 @@
     "datetime_iso": "2027-05-16T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-philadelphia-vv17fz_kgkmz_nj4",
@@ -30233,7 +30233,7 @@
     "datetime_iso": "2027-05-18T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-boston-vv177z_kgklscrut",
@@ -30245,7 +30245,7 @@
     "datetime_iso": "2027-05-19T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-chicago-vv17jz_kgkbbdisc",
@@ -30257,7 +30257,7 @@
     "datetime_iso": "2027-05-22T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-detroit-vv17oz_kgkdnnigp",
@@ -30269,7 +30269,7 @@
     "datetime_iso": "2027-05-22T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-toronto-1avzz_kgkiawwxu",
@@ -30281,7 +30281,7 @@
     "datetime_iso": "2027-05-25T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-ottawa-1ad7z_kgkir7yjb",
@@ -30293,7 +30293,7 @@
     "datetime_iso": "2027-05-28T22:30:00Z",
     "timezone": "America/Toronto",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-montreal-1ad7z_kgkumfj2g",
@@ -30305,7 +30305,7 @@
     "datetime_iso": "2027-05-29T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "Day and Night Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-niall-horan-2026-hamburg-z698xzc2z1ka-fjkp",
@@ -30425,7 +30425,7 @@
     "datetime_iso": "2027-07-03T18:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-pink-martini-2027-edinburgh-1auzk4agkdmo6dj",
@@ -30437,7 +30437,7 @@
     "datetime_iso": "2027-07-04T18:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-neighbourhood-2026-san-francisco-g5vyzbgd1f1iu",
@@ -31829,7 +31829,7 @@
     "datetime_iso": "2027-07-02T18:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-haiden-henderson-2027-salt-lake-city-z7r9jz1aaeefa",
@@ -31865,7 +31865,7 @@
     "datetime_iso": "2027-05-26T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-flans-2027-grand-prairie-z7r9jz1aaeaoe",
@@ -31962,5 +31962,89 @@
     "timezone": "America/Vancouver",
     "tour_name": "",
     "status": "announced"
+  },
+  {
+    "id": "tm-latto-2026-boston-z7r9jz1aae_7z",
+    "artist_slug": "latto",
+    "artist_name": "Latto",
+    "country": "United States Of America",
+    "city": "Boston",
+    "venue": "Roadrunner-Boston",
+    "datetime_iso": "2026-11-24T03:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-death-cab-for-cutie-2027-dallas-z7r9jz1aavuug",
+    "artist_slug": "death-cab-for-cutie",
+    "artist_name": "Death Cab for Cutie",
+    "country": "United States Of America",
+    "city": "Dallas",
+    "venue": "The Bomb Factory",
+    "datetime_iso": "2027-03-25T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-too-many-zooz-2027-portland-z7r9jz1aaeerf",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "country": "United States Of America",
+    "city": "Portland",
+    "venue": "Revolution Hall - Portland",
+    "datetime_iso": "2027-05-14T03:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-red-clay-strays-2027-cleveland-z7r9jz1aaefgw",
+    "artist_slug": "the-red-clay-strays",
+    "artist_name": "The Red Clay Strays",
+    "country": "United States Of America",
+    "city": "Cleveland",
+    "venue": "Rocket Arena",
+    "datetime_iso": "2027-02-05T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-portland-z7r9jz1aaekuy",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "country": "United States Of America",
+    "city": "Portland",
+    "venue": "Arlene Schnitzer Concert Hall",
+    "datetime_iso": "2027-04-20T02:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-morrison-z7r9jz1aaekuz",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "country": "United States Of America",
+    "city": "Morrison",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-04-26T01:30:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-carly-rae-jepsen-2027-salt-lake-city-z7r9jz1aaekuv",
+    "artist_slug": "carly-rae-jepsen",
+    "artist_name": "Carly Rae Jepsen",
+    "country": "United States Of America",
+    "city": "Salt Lake City",
+    "venue": "The Complex - UT",
+    "datetime_iso": "2027-04-28T01:30:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

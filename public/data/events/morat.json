@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-inglewood-intuit-dome-2-26-2027/production/7047204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-inglewood-california-02-26-2027/event/090064AFF1A0DF67",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -37,7 +37,7 @@
         "event_id": 7047204,
         "url": "https://www.vividseats.com/morat-tickets-inglewood-intuit-dome-2-26-2027/production/7047204",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -80,6 +80,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T17:00:00Z",
         "end": "2027-02-20T01:00:00Z"
+      },
+      {
+        "name": "Weekend Special",
+        "start": "2026-10-09T17:00:00Z",
+        "end": "2026-10-13T05:00:00Z"
       }
     ]
   },
@@ -99,7 +104,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-el-paso-don-haskins-center-2-28-2027/production/7047161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-el-paso-texas-02-28-2027/event/0C0064AFA338822A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -121,7 +126,7 @@
         "event_id": 7047161,
         "url": "https://www.vividseats.com/morat-tickets-el-paso-don-haskins-center-2-28-2027/production/7047161",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -164,6 +169,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T16:00:00Z",
         "end": "2027-02-22T00:00:00Z"
+      },
+      {
+        "name": "Weekend Special",
+        "start": "2026-10-09T16:00:00Z",
+        "end": "2026-10-13T04:00:00Z"
       }
     ]
   },
@@ -183,7 +193,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-rosemont-illinois-03-05-2027/event/040064A78C386CA4",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -248,6 +258,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T15:00:00Z",
         "end": "2027-02-26T23:00:00Z"
+      },
+      {
+        "name": "Weekend Special Offer",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2026-10-13T03:00:00Z"
       }
     ]
   },
@@ -289,7 +304,7 @@
         "event_id": 7047171,
         "url": "https://www.vividseats.com/morat-tickets-boston-agganis-arena-3-7-2027/production/7047171",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -366,14 +381,14 @@
         "event_id": 18259792,
         "url": "https://seatgeek.com/morat-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-03-12-8-pm/concert/18259792",
         "verified": true,
-        "last_verified_at": "2026-10-08",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049584,
         "url": "https://www.vividseats.com/morat-tickets-grand-prairie-texas-trust-cu-theatre-at-grand-prairie-3-12-2027/production/7049584",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -435,14 +450,14 @@
         "event_id": 18259793,
         "url": "https://seatgeek.com/morat-tickets/sugar-land-texas-smart-financial-centre-2027-03-13-8-pm/concert/18259793",
         "verified": true,
-        "last_verified_at": "2026-10-08",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049495,
         "url": "https://www.vividseats.com/morat-tickets-sugar-land-smart-financial-centre-3-13-2027/production/7049495",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -481,7 +496,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-hidalgo-payne-arena-3-14-2027/production/7047159",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-hidalgo-texas-03-14-2027/event/3A0064AE96BE7CBC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -503,7 +518,7 @@
         "event_id": 7047159,
         "url": "https://www.vividseats.com/morat-tickets-hidalgo-payne-arena-3-14-2027/production/7047159",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -546,6 +561,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T15:00:00Z",
         "end": "2027-03-07T23:00:00Z"
+      },
+      {
+        "name": "Weekend Special",
+        "start": "2026-10-09T15:00:00Z",
+        "end": "2026-10-13T03:00:00Z"
       }
     ]
   },
@@ -565,7 +585,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-orlando-kia-center-3-18-2027/production/7047153",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-orlando-florida-03-18-2027/event/220064AF8C665BDB",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-09",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -587,7 +607,7 @@
         "event_id": 7047153,
         "url": "https://www.vividseats.com/morat-tickets-orlando-kia-center-3-18-2027/production/7047153",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -630,6 +650,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-05-28T14:00:00Z",
         "end": "2027-03-11T22:00:00Z"
+      },
+      {
+        "name": "Weekend Special",
+        "start": "2026-10-09T14:00:00Z",
+        "end": "2026-10-13T02:00:00Z"
       }
     ]
   },
@@ -671,7 +696,7 @@
         "event_id": 7047163,
         "url": "https://www.vividseats.com/morat-tickets-miami-kaseya-center-3-20-2027/production/7047163",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -755,7 +780,7 @@
         "event_id": 7048962,
         "url": "https://www.vividseats.com/morat-tickets-toronto-history-toronto-3-26-2027--concerts-pop/production/7048962",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -808,7 +833,7 @@
         "event_id": 7061569,
         "url": "https://www.vividseats.com/morat-tickets-montreal-mtelus-3-27-2027/production/7061569",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -885,7 +910,7 @@
         "event_id": 7047077,
         "url": "https://www.vividseats.com/morat-tickets-brooklyn-barclays-center-4-1-2027/production/7047077",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -962,14 +987,14 @@
         "event_id": 18251698,
         "url": "https://seatgeek.com/morat-tickets/fairfax-virginia-eaglebank-arena-2027-04-03-8-pm/concert/18251698",
         "verified": true,
-        "last_verified_at": "2026-10-06",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7047151,
         "url": "https://www.vividseats.com/morat-tickets-fairfax-eaglebank-arena-4-3-2027/production/7047151",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {

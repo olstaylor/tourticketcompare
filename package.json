@@ -122,6 +122,7 @@
     "report:event-routes": "node scripts/report-event-routes.mjs",
     "report:event-routes:json": "node scripts/report-event-routes.mjs --json",
     "report:event-indexing-pilot": "node scripts/report-event-indexing-pilot.mjs",
+    "events:indexing-batch:propose": "node scripts/select-event-indexing-batch.mjs",
     "report:event-indexing-pilot:json": "node scripts/report-event-indexing-pilot.mjs --json",
     "report:link-coverage": "node scripts/report-link-coverage.mjs",
     "report:link-coverage:json": "node scripts/report-link-coverage.mjs --json",

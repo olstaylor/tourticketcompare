@@ -30,7 +30,7 @@ Do not modify without explicit task scope:
 - `functions/api/out.js` (verified redirects, `VERIFIED_TICKET_LINKS`), `functions/_middleware.js` (every request), `functions/[[path]].js` (every HTML route), `functions/_route-metadata.js`, `public/_routes.json`.
 - `public/data/events.json`, `artists.json`, `catalog.json`: no record added, changed or removed without a verified source.
 - Impact credentials and affiliate tracking (including `functions/api/impact/`), and Cloudflare dashboard settings.
-- The event-page indexing pilot (`EVENT_INDEXING_PILOT_KEYS` in `functions/_event-indexability.js`, `data/event-indexing-pilot.json`, `EVENT_PAGES_INDEXING`): a frozen cohort. Never add, swap or regenerate keys or widen indexing.
+- Event-page indexing cohorts (`EVENT_INDEXING_PILOT_KEYS` in `functions/_event-indexability.js`, `data/event-indexing-pilot.json`, `EVENT_INDEXING_BATCHES` in `functions/_event-indexing-batches.js`, `data/event-indexing-batches.json`, `EVENT_PAGES_INDEXING`): frozen cohorts. Never add, swap or regenerate keys in an existing cohort. Widening happens only as a new staged batch in a reviewed PR (owner decision 2026-10-09; [policy](docs/ROUTE_INDEXABILITY_POLICY.md)).
 - Generated files. Never hand-edit; regenerate:
 
 | File | Command |

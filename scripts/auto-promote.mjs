@@ -24,8 +24,8 @@ const P = {
   out: path.join(root, "functions/api/out.js"),
   registry: path.join(root, "data/provider-identities.json"),
 };
-export const MAX_PER_DAY = 5;
-export const MAX_PER_WEEK = 20;
+export const MAX_PER_DAY = 6;
+export const MAX_PER_WEEK = 40;
 const MAX_TITLE = 60;
 const MAX_DESCRIPTION = 160;
 const PLACEHOLDER = /\[OWNER COPY|placeholder|lorem|tbd|todo|example\.com/i;
@@ -80,7 +80,7 @@ export function shellProblems(record, catalog) {
   return problems;
 }
 
-/** How many more auto promotions today's run may make (5/day, 20/rolling week). */
+/** How many more auto promotions today's run may make (6/day, 40/rolling week; owner-approved 2026-10-10). */
 export function remainingQuota(artists, today) {
   const since = (days) => new Date(Date.parse(`${today}T00:00:00Z`) - days * 86400000).toISOString().slice(0, 10);
   const auto = artists.filter((a) => a.promotion_source === "auto" && a.auto_promoted_at);
@@ -246,10 +246,10 @@ function selfTest() {
   const dupeRow = row("three", { screen: { eligible: true, seo_title: d.catalog.artists[0].seo_title } });
   const dupe = planRun({ artists: [dupeRow] }, d, "2026-10-01", recap(dupeRow));
   check(dupe.held[0]?.reasons.includes("D5: title already used"), "a duplicate title holds the candidate");
-  const full = { artists: Array.from({ length: 5 }, (_, i) => ({ slug: `s${i}`, promotion_source: "auto", auto_promoted_at: "2026-10-01" })) };
-  check(remainingQuota(full.artists, "2026-10-01") === 0 && remainingQuota(full.artists, "2026-10-02") === 5, "5 per day");
-  const week = Array.from({ length: 20 }, (_, i) => ({ slug: `w${i}`, promotion_source: "auto", auto_promoted_at: `2026-09-${25 + (i % 5)}` }));
-  check(remainingQuota(week, "2026-10-01") === 0 && remainingQuota(week, "2026-10-06") === 5, "20 per rolling week");
+  const full = { artists: Array.from({ length: MAX_PER_DAY }, (_, i) => ({ slug: `s${i}`, promotion_source: "auto", auto_promoted_at: "2026-10-01" })) };
+  check(remainingQuota(full.artists, "2026-10-01") === 0 && remainingQuota(full.artists, "2026-10-02") === MAX_PER_DAY, `${MAX_PER_DAY} per day`);
+  const week = Array.from({ length: MAX_PER_WEEK }, (_, i) => ({ slug: `w${i}`, promotion_source: "auto", auto_promoted_at: `2026-09-${25 + (i % 5)}` }));
+  check(remainingQuota(week, "2026-10-01") === 0 && remainingQuota(week, "2026-10-06") === MAX_PER_DAY, `${MAX_PER_WEEK} per rolling week`);
   check(shellRecords(row("x", { ticketmaster: { genre: "Undefined" } }), "t").catalogArtist.factual_summary.startsWith("X is listed by Ticketmaster."), "a catch-all genre is not stated");
   for (const f of failures) console.error(`  FAIL ${f}`);
   console.log(`[auto-promote] self-test: ${failures.length ? `${failures.length} failure(s)` : "all assertions passed"}`);

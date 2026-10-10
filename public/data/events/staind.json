@@ -115,11 +115,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107098206",
-        "url": "https://www.stubhub.ie/staind-wheatland-tickets-10-9-2026/event/107098206",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_dwgiJMI",
@@ -127,7 +127,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/staind-wheatland-tickets-10-9-2026/event/107098206"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-staind-2026-ontario-vv170z_dgkwr0_z6",

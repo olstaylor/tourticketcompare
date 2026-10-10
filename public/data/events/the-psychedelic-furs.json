@@ -1094,5 +1094,853 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266292"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2026-rocklin-z7r9jz1a7--1k",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "Psychedelic Furs w/ We Are Scientists",
+    "city": "Rocklin",
+    "country": "United States Of America",
+    "venue": "Quarry Park Amphitheater",
+    "datetime_iso": "2026-10-30T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7--1k",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--1k",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--1k",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7--1k",
+        "discovery_event_id": "Z7r9jZ1A7--1k",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7--1k",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7--1k",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2026-napa-g5vyz_aulujn5",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs With Special Guests We Are Scientists",
+    "city": "Napa",
+    "country": "United States Of America",
+    "venue": "Uptown Theatre Napa",
+    "datetime_iso": "2026-10-31T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064536BDA6A8B",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-napa-california-10-30-2026/event/1C0064536BDA6A8B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-napa-california-10-30-2026/event/1C0064536BDA6A8B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064536BDA6A8B",
+        "discovery_event_id": "G5vYZ_AulUJn5",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-napa-california-10-30-2026/event/1C0064536BDA6A8B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_AulUJn5",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2026-menlo-park-z7r9jz1a7p90y",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "Psychedelic Furs",
+    "city": "Menlo Park",
+    "country": "United States Of America",
+    "venue": "The Guild Theatre - CA",
+    "datetime_iso": "2026-11-02T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P90y",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P90y",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P90y",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P90y",
+        "discovery_event_id": "Z7r9jZ1A7P90y",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P90y",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P90y",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2026-menlo-park-z7r9jz1a7p9pd",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "Psychedelic Furs",
+    "city": "Menlo Park",
+    "country": "United States Of America",
+    "venue": "The Guild Theatre - CA",
+    "datetime_iso": "2026-11-03T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P9Pd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P9Pd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P9Pd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P9Pd",
+        "discovery_event_id": "Z7r9jZ1A7P9Pd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P9Pd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P9Pd",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2026-fresno-g5vyz_aupip7f",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs With Special Guests We Are Scientists",
+    "city": "Fresno",
+    "country": "United States Of America",
+    "venue": "Warnors Theatre",
+    "datetime_iso": "2026-11-05T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00645365A16108",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-fresno-california-11-04-2026/event/1C00645365A16108",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-fresno-california-11-04-2026/event/1C00645365A16108",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00645365A16108",
+        "discovery_event_id": "G5vYZ_AuPIp7F",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-fresno-california-11-04-2026/event/1C00645365A16108",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_AuPIp7F",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2026-del-mar-vvg1iz_a3sju3n",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs With Special Guests We Are Scientists",
+    "city": "Del Mar",
+    "country": "United States Of America",
+    "venue": "The Sound",
+    "datetime_iso": "2026-11-09T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006454B370D4AA",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-del-mar-california-11-08-2026/event/0A006454B370D4AA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-del-mar-california-11-08-2026/event/0A006454B370D4AA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006454B370D4AA",
+        "discovery_event_id": "vvG1IZ_A3Sju3n",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-del-mar-california-11-08-2026/event/0A006454B370D4AA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_A3Sju3n",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2026-san-luis-obispo-z7r9jz1a7-o8k",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "Psychedelic Furs",
+    "city": "San Luis Obispo",
+    "country": "United States Of America",
+    "venue": "Fremont Theater",
+    "datetime_iso": "2026-11-17T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-O8k",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-O8k",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-O8k",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-O8k",
+        "discovery_event_id": "Z7r9jZ1A7-O8k",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-O8k",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-O8k",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2026-phoenix-z7r9jz1a70kx4",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "Psychedelic Furs",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Celebrity Theatre",
+    "datetime_iso": "2026-11-20T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70Kx4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Kx4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Kx4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70Kx4",
+        "discovery_event_id": "Z7r9jZ1A70Kx4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Kx4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70Kx4",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-rancho-mirage-z7r9jz1a7-n8k",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "Psychedelic Furs w/ We Are Scientists",
+    "city": "Rancho Mirage",
+    "country": "United States Of America",
+    "venue": "The Show - Agua Caliente Casino",
+    "datetime_iso": "2027-03-20T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7-N8K",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-N8K",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-N8K",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-N8K",
+        "discovery_event_id": "Z7r9jZ1A7-N8K",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-N8K",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-N8K",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-san-antonio-g5diz_a6js1qk",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs with Special Guests Living Colour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Aztec Theatre",
+    "datetime_iso": "2027-03-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006451E6C4A746",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-san-antonio-texas-03-24-2027/event/3A006451E6C4A746",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-san-antonio-texas-03-24-2027/event/3A006451E6C4A746",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006451E6C4A746",
+        "discovery_event_id": "G5dIZ_A6Js1qk",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-san-antonio-texas-03-24-2027/event/3A006451E6C4A746",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_A6Js1qk",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-houston-g5diz_a5ghu6h",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs with Special Guests Living Colour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "House of Blues Houston",
+    "datetime_iso": "2027-03-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006452F56CD1FC",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-houston-texas-03-27-2027/event/3A006452F56CD1FC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-houston-texas-03-27-2027/event/3A006452F56CD1FC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006452F56CD1FC",
+        "discovery_event_id": "G5dIZ_A5ghu6H",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-houston-texas-03-27-2027/event/3A006452F56CD1FC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_A5ghu6H",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-dallas-vvg1yz_a29lq69",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs with Special Guests Living Colour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "House of Blues Dallas",
+    "datetime_iso": "2027-03-28T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006453D77DD1D7",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-dallas-texas-03-28-2027/event/0C006453D77DD1D7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-dallas-texas-03-28-2027/event/0C006453D77DD1D7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006453D77DD1D7",
+        "discovery_event_id": "vvG1YZ_A29Lq69",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-dallas-texas-03-28-2027/event/0C006453D77DD1D7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_A29Lq69",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-new-orleans-g5viz_ad68eh6",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs with Special Guests Living Colour",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "The Fillmore New Orleans",
+    "datetime_iso": "2027-04-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00649EC74276C7",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-new-orleans-louisiana-04-04-2027/event/1B00649EC74276C7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-new-orleans-louisiana-04-04-2027/event/1B00649EC74276C7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00649EC74276C7",
+        "discovery_event_id": "G5viZ_aD68Eh6",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-new-orleans-louisiana-04-04-2027/event/1B00649EC74276C7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_aD68Eh6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-orlando-1aefz_agku_10hc",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs with Special Guests Living Colour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Orlando",
+    "datetime_iso": "2027-04-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2200649D992A46CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-orlando-florida-04-11-2027/event/2200649D992A46CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-orlando-florida-04-11-2027/event/2200649D992A46CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200649D992A46CE",
+        "discovery_event_id": "1AeFZ_aGkU_10hC",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-orlando-florida-04-11-2027/event/2200649D992A46CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeFZ_aGkU_10hC",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-jacksonville-z7r9jz1a703oe",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "Psychedelic Furs",
+    "city": "Jacksonville",
+    "country": "United States Of America",
+    "venue": "Florida Theatre Jacksonville",
+    "datetime_iso": "2027-04-15T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A703Oe",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A703Oe",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A703Oe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A703Oe",
+        "discovery_event_id": "Z7r9jZ1A703Oe",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A703Oe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A703Oe",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-psychedelic-furs-2027-charlotte-g5evz_ausriiu",
+    "artist_slug": "the-psychedelic-furs",
+    "artist_name": "The Psychedelic Furs",
+    "event_name": "The Psychedelic Furs with Special Guests Living Colour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Fillmore Charlotte",
+    "datetime_iso": "2027-04-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00649DB37A8A0D",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-charlotte-north-carolina-04-16-2027/event/2D00649DB37A8A0D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-charlotte-north-carolina-04-16-2027/event/2D00649DB37A8A0D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00649DB37A8A0D",
+        "discovery_event_id": "G5eVZ_aUSrIIu",
+        "url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-charlotte-north-carolina-04-16-2027/event/2D00649DB37A8A0D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_aUSrIIu",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

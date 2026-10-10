@@ -1504,5 +1504,959 @@
         "end": "2027-03-04T03:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-polyphia-2026-zurich-z698xzu3z16v333k4j",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "venue": "Halle 622",
+    "datetime_iso": "2026-11-18T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1492493566",
+    "ticketmaster_url": "https://www.ticketmaster.ch/event/polyphia-be-not-afraid-world-tour-tickets/1492493566?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ch/event/polyphia-be-not-afraid-world-tour-tickets/1492493566?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1492493566",
+        "discovery_event_id": "Z698xZu3Z16v333K4J",
+        "url": "https://www.ticketmaster.ch/event/polyphia-be-not-afraid-world-tour-tickets/1492493566?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu3Z16v333K4J",
+    "timezone": "Europe/Zurich",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2026-praha-7-z698xzu0z16vqdqwjv",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Praha 7",
+    "country": "Czech Republic",
+    "venue": "SaSaZu",
+    "datetime_iso": "2026-11-28T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1743772734",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/polyphia-be-not-afraid-world-tour-tickets/1743772734?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/polyphia-be-not-afraid-world-tour-tickets/1743772734?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1743772734",
+        "discovery_event_id": "Z698xZu0Z16vqdqwjV",
+        "url": "https://www.ticketmaster.cz/event/polyphia-be-not-afraid-world-tour-tickets/1743772734?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z16vqdqwjV",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-hollywood-vvg10z_glgj36a",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Palladium",
+    "datetime_iso": "2027-02-10T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064CAF59921C5",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-hollywood-california-02-09-2027/event/090064CAF59921C5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-hollywood-california-02-09-2027/event/090064CAF59921C5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064CAF59921C5",
+        "discovery_event_id": "vvG10Z_GlgJ36A",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-hollywood-california-02-09-2027/event/090064CAF59921C5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_GlgJ36A",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-anaheim-vvg10z_gea9xhx",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "House of Blues Anaheim",
+    "datetime_iso": "2027-02-12T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064C9C95E26E2",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-anaheim-california-02-11-2027/event/090064C9C95E26E2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-anaheim-california-02-11-2027/event/090064C9C95E26E2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064C9C95E26E2",
+        "discovery_event_id": "vvG10Z_GEa9xhx",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-anaheim-california-02-11-2027/event/090064C9C95E26E2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_GEa9xhx",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-san-francisco-g5vyz_gra3gjr",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Masonic",
+    "datetime_iso": "2027-02-15T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064CBC54B572F",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-san-francisco-california-02-14-2027/event/1C0064CBC54B572F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-san-francisco-california-02-14-2027/event/1C0064CBC54B572F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064CBC54B572F",
+        "discovery_event_id": "G5vYZ_GRA3gjR",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-san-francisco-california-02-14-2027/event/1C0064CBC54B572F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_GRA3gjR",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-milwaukee-vvg1jz_gjngwwq",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Landmark Credit Union Live",
+    "datetime_iso": "2027-02-25T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "070064C9A3332F5D",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-milwaukee-wisconsin-02-24-2027/event/070064C9A3332F5D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-milwaukee-wisconsin-02-24-2027/event/070064C9A3332F5D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "070064C9A3332F5D",
+        "discovery_event_id": "vvG1jZ_GJNGwWq",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-milwaukee-wisconsin-02-24-2027/event/070064C9A3332F5D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1jZ_GJNGwWq",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-chicago-vvg18z_gjsjbx-",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Aragon Ballroom",
+    "datetime_iso": "2027-02-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064C9B39BAFA1",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-chicago-illinois-02-25-2027/event/040064C9B39BAFA1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-chicago-illinois-02-25-2027/event/040064C9B39BAFA1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064C9B39BAFA1",
+        "discovery_event_id": "vvG18Z_GJSJBX-",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-chicago-illinois-02-25-2027/event/040064C9B39BAFA1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_GJSJBX-",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-detroit-vvg1oz_ge56_sr",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "The Fillmore Detroit",
+    "datetime_iso": "2027-02-27T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080064C9CB1D9CEF",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-detroit-michigan-02-27-2027/event/080064C9CB1D9CEF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-detroit-michigan-02-27-2027/event/080064C9CB1D9CEF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080064C9CB1D9CEF",
+        "discovery_event_id": "vvG1OZ_GE56_SR",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-detroit-michigan-02-27-2027/event/080064C9CB1D9CEF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1OZ_GE56_SR",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-toronto-177zv0g6gmyx7u7",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "The Theatre at Great Canadian Toronto",
+    "datetime_iso": "2027-03-02T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064CBB9F84344",
+    "ticketmaster_url": "https://www.ticketmaster.ca/polyphia-be-not-afraid-world-tour-toronto-ontario-03-02-2027/event/100064CBB9F84344",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/polyphia-be-not-afraid-world-tour-toronto-ontario-03-02-2027/event/100064CBB9F84344",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064CBB9F84344",
+        "discovery_event_id": "177Zv0G6GmyX7u7",
+        "url": "https://www.ticketmaster.ca/polyphia-be-not-afraid-world-tour-toronto-ontario-03-02-2027/event/100064CBB9F84344",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G6GmyX7u7",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-montreal-17g8v0g6gnmzpef",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "L'Olympia",
+    "datetime_iso": "2027-03-03T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310064CAB7E169D4",
+    "ticketmaster_url": "https://www.ticketmaster.ca/polyphia-be-not-afraid-world-tour-montreal-quebec-03-03-2027/event/310064CAB7E169D4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/polyphia-be-not-afraid-world-tour-montreal-quebec-03-03-2027/event/310064CAB7E169D4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310064CAB7E169D4",
+        "discovery_event_id": "17G8v0G6GnMzpEf",
+        "url": "https://www.ticketmaster.ca/polyphia-be-not-afraid-world-tour-montreal-quebec-03-03-2027/event/310064CAB7E169D4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17G8v0G6GnMzpEf",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-philadelphia-vvg1fz_gn-cuhm",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Fillmore Philadelphia",
+    "datetime_iso": "2027-03-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020064CAA1B4D6EE",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-philadelphia-pennsylvania-03-05-2027/event/020064CAA1B4D6EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-philadelphia-pennsylvania-03-05-2027/event/020064CAA1B4D6EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020064CAA1B4D6EE",
+        "discovery_event_id": "vvG1FZ_Gn-cuhm",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-philadelphia-pennsylvania-03-05-2027/event/020064CAA1B4D6EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1FZ_Gn-cuhm",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-brooklyn-k7vgf_gsymxmt",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2027-03-06T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064CCF0DFEBBF",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-brooklyn-new-york-03-06-2027/event/000064CCF0DFEBBF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-brooklyn-new-york-03-06-2027/event/000064CCF0DFEBBF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064CCF0DFEBBF",
+        "discovery_event_id": "k7vGF_GSYMXmT",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-brooklyn-new-york-03-06-2027/event/000064CCF0DFEBBF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_GSYMXmT",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-boston-vvg17z_ge-9vq3",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-03-08T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064C9E15F4752",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-boston-massachusetts-03-07-2027/event/010064C9E15F4752",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-boston-massachusetts-03-07-2027/event/010064C9E15F4752",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064C9E15F4752",
+        "discovery_event_id": "vvG17Z_GE-9Vq3",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-boston-massachusetts-03-07-2027/event/010064C9E15F4752",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_GE-9Vq3",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-washington-17a8v0g6gmr0lc4",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Echostage",
+    "datetime_iso": "2027-03-10T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064CBAF92B395",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-washington-district-of-columbia-03-09-2027/event/150064CBAF92B395",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-washington-district-of-columbia-03-09-2027/event/150064CBAF92B395",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064CBAF92B395",
+        "discovery_event_id": "17A8v0G6GmR0lC4",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-washington-district-of-columbia-03-09-2027/event/150064CBAF92B395",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G6GmR0lC4",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-orlando-17fov0g6gemc12a",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Orlando",
+    "datetime_iso": "2027-03-14T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "220064C9F7B4A3C9",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-orlando-florida-03-13-2027/event/220064C9F7B4A3C9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-orlando-florida-03-13-2027/event/220064C9F7B4A3C9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "220064C9F7B4A3C9",
+        "discovery_event_id": "17FOv0G6GEMc12a",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-orlando-florida-03-13-2027/event/220064C9F7B4A3C9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FOv0G6GEMc12a",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-atlanta-vvg1zz_gwmeyrd",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Roxy",
+    "datetime_iso": "2027-03-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064CCB79F07BB",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-atlanta-georgia-03-16-2027/event/0E0064CCB79F07BB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-atlanta-georgia-03-16-2027/event/0E0064CCB79F07BB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064CCB79F07BB",
+        "discovery_event_id": "vvG1zZ_GwMEYrD",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-atlanta-georgia-03-16-2027/event/0E0064CCB79F07BB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_GwMEYrD",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-nashville-g5viz_gnfsyiq",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2027-03-19T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064CA94CF9B1D",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-nashville-tennessee-03-18-2027/event/1B0064CA94CF9B1D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-nashville-tennessee-03-18-2027/event/1B0064CA94CF9B1D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064CA94CF9B1D",
+        "discovery_event_id": "G5viZ_GnfSyiq",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-nashville-tennessee-03-18-2027/event/1B0064CA94CF9B1D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_GnfSyiq",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-polyphia-2027-dallas-vvg1yz_glmqcu0",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "South Side Ballroom",
+    "datetime_iso": "2027-03-21T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064CAEE76DDA4",
+    "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-dallas-texas-03-20-2027/event/0C0064CAEE76DDA4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-dallas-texas-03-20-2027/event/0C0064CAEE76DDA4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064CAEE76DDA4",
+        "discovery_event_id": "vvG1YZ_GlmqcU0",
+        "url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-dallas-texas-03-20-2027/event/0C0064CAEE76DDA4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_GlmqcU0",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

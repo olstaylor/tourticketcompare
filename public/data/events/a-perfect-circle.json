@@ -2317,5 +2317,58 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295091"
+  },
+  {
+    "id": "tm-a-perfect-circle-2026-auckland-1ae8z_kgkr16koz",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Spark Arena",
+    "datetime_iso": "2026-12-13T05:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2400646BCA1D3838",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/a-perfect-circle-auckland-13-12-2026/event/2400646BCA1D3838",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/a-perfect-circle-auckland-13-12-2026/event/2400646BCA1D3838",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2400646BCA1D3838",
+        "discovery_event_id": "1Ae8Z_kGkR16KOz",
+        "url": "https://www.ticketmaster.co.nz/a-perfect-circle-auckland-13-12-2026/event/2400646BCA1D3838",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae8Z_kGkR16KOz",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
   }
 ]

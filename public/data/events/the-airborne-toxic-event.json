@@ -295,5 +295,906 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977696/The-Airborne-Toxic-Event-tickets-Fri-Jun-11-2027-Revolution-Hall-Portland",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977696"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-charlotte-g5evz_1nj2twb",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Underground",
+    "datetime_iso": "2027-05-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064A8E63FFCBA",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-airborne-toxic-event-charlotte-north-carolina-05-18-2027/event/2D0064A8E63FFCBA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-charlotte-north-carolina-05-18-2027/event/2D0064A8E63FFCBA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064A8E63FFCBA",
+        "discovery_event_id": "G5eVZ_1NJ2TwB",
+        "url": "https://www.ticketmaster.com/the-airborne-toxic-event-charlotte-north-carolina-05-18-2027/event/2D0064A8E63FFCBA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_1NJ2TwB",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-washington-17a8v0g61rlmtti",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event - The Way Home 20 Year Anniversary Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "9:30 CLUB",
+    "datetime_iso": "2027-05-20T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064A79FBA9A6C",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-washington-district-of-columbia-05-20-2027/event/150064A79FBA9A6C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-washington-district-of-columbia-05-20-2027/event/150064A79FBA9A6C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064A79FBA9A6C",
+        "discovery_event_id": "17A8v0G61rLmtti",
+        "url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-washington-district-of-columbia-05-20-2027/event/150064A79FBA9A6C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G61rLmtti",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-new-york-k7vgf_1hjlw79",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Irving Plaza Powered By Verizon 5G",
+    "datetime_iso": "2027-05-21T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064AF1CAFD117",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-airborne-toxic-event-new-york-new-york-05-21-2027/event/000064AF1CAFD117",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-new-york-new-york-05-21-2027/event/000064AF1CAFD117",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064AF1CAFD117",
+        "discovery_event_id": "k7vGF_1HjlW79",
+        "url": "https://www.ticketmaster.com/the-airborne-toxic-event-new-york-new-york-05-21-2027/event/000064AF1CAFD117",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_1HjlW79",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-boston-vvg17z_1qyxhxi",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event - The Way Home 20 Year Anniversary Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Orpheum Theatre presented by Citizens",
+    "datetime_iso": "2027-05-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064A6B989B8AC",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-boston-massachusetts-05-22-2027/event/010064A6B989B8AC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-boston-massachusetts-05-22-2027/event/010064A6B989B8AC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064A6B989B8AC",
+        "discovery_event_id": "vvG17Z_1Qyxhxi",
+        "url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-boston-massachusetts-05-22-2027/event/010064A6B989B8AC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_1Qyxhxi",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-cleveland-vvg1fz_1qxxiit",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event - The Way Home 20 Year Anniversary Tour",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "House of Blues Cleveland",
+    "datetime_iso": "2027-05-24T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "050064A6A2FACB29",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-cleveland-ohio-05-24-2027/event/050064A6A2FACB29",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-cleveland-ohio-05-24-2027/event/050064A6A2FACB29",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "050064A6A2FACB29",
+        "discovery_event_id": "vvG1fZ_1QxXiit",
+        "url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-cleveland-ohio-05-24-2027/event/050064A6A2FACB29",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1fZ_1QxXiit",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-detroit-vv17oz_agkmoc3ug",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event - The Way Home 20 Year Anniversary Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Saint Andrew's Hall",
+    "datetime_iso": "2027-05-25T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800649DE0392D8C",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-detroit-michigan-05-25-2027/event/0800649DE0392D8C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-detroit-michigan-05-25-2027/event/0800649DE0392D8C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800649DE0392D8C",
+        "discovery_event_id": "vv17OZ_aGkMOC3UG",
+        "url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-detroit-michigan-05-25-2027/event/0800649DE0392D8C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_aGkMOC3UG",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-minneapolis-vvg1bz_1fhethg",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event: The Way Home 20 Year Anniversary Tour",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Uptown Theater Minneapolis",
+    "datetime_iso": "2027-05-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064A51B9FF6F5",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-minneapolis-minnesota-05-27-2027/event/060064A51B9FF6F5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-minneapolis-minnesota-05-27-2027/event/060064A51B9FF6F5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064A51B9FF6F5",
+        "discovery_event_id": "vvG1bZ_1fhEThg",
+        "url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-minneapolis-minnesota-05-27-2027/event/060064A51B9FF6F5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_1fhEThg",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-las-vegas-17ayv0g61avjbwz",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "House of Blues Las Vegas",
+    "datetime_iso": "2027-06-04T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064A274718CB8",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-airborne-toxic-event-las-vegas-nevada-06-03-2027/event/170064A274718CB8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-las-vegas-nevada-06-03-2027/event/170064A274718CB8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064A274718CB8",
+        "discovery_event_id": "17AYv0G61aVjbwz",
+        "url": "https://www.ticketmaster.com/the-airborne-toxic-event-las-vegas-nevada-06-03-2027/event/170064A274718CB8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G61aVjbwz",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-san-diego-vvg1iz_a0ap_1u",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Humphreys Concerts By the Bay",
+    "datetime_iso": "2027-06-06T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006459059592B6",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-airborne-toxic-event-san-diego-california-06-05-2027/event/0A006459059592B6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-san-diego-california-06-05-2027/event/0A006459059592B6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006459059592B6",
+        "discovery_event_id": "vvG1IZ_A0AP_1U",
+        "url": "https://www.ticketmaster.com/the-airborne-toxic-event-san-diego-california-06-05-2027/event/0A006459059592B6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_A0AP_1U",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-phoenix-17k8v0g61nr_nrj",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event: The Way Home 20 Year Anniversary Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Van Buren",
+    "datetime_iso": "2027-06-07T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064A8EF66A79C",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-phoenix-arizona-06-06-2027/event/190064A8EF66A79C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-phoenix-arizona-06-06-2027/event/190064A8EF66A79C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064A8EF66A79C",
+        "discovery_event_id": "17k8v0G61NR_nrj",
+        "url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-phoenix-arizona-06-06-2027/event/190064A8EF66A79C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G61NR_nrj",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-salt-lake-city-g5vzz_1rps_y3",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Depot",
+    "datetime_iso": "2027-06-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064A7A5C59E52",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-airborne-toxic-event-salt-lake-city-utah-06-09-2027/event/1E0064A7A5C59E52",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-salt-lake-city-utah-06-09-2027/event/1E0064A7A5C59E52",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064A7A5C59E52",
+        "discovery_event_id": "G5vzZ_1rPs_y3",
+        "url": "https://www.ticketmaster.com/the-airborne-toxic-event-salt-lake-city-utah-06-09-2027/event/1E0064A7A5C59E52",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_1rPs_y3",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-seattle-z7r9jz1a70ybz",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "The Showbox",
+    "datetime_iso": "2027-06-14T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70ybZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70ybZ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70ybZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70ybZ",
+        "discovery_event_id": "Z7r9jZ1A70ybZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70ybZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70ybZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-sacramento-g5vyz_1xif7y2",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event - The Way Home 20 Year Anniversary Tour",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Ace of Spades",
+    "datetime_iso": "2027-06-16T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064A8AC204C0F",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-sacramento-california-06-15-2027/event/1C0064A8AC204C0F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-sacramento-california-06-15-2027/event/1C0064A8AC204C0F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064A8AC204C0F",
+        "discovery_event_id": "G5vYZ_1xiF7Y2",
+        "url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-sacramento-california-06-15-2027/event/1C0064A8AC204C0F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_1xiF7Y2",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-san-luis-obispo-z7r9jz1a70w-f",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event",
+    "city": "San Luis Obispo",
+    "country": "United States Of America",
+    "venue": "Fremont Theater",
+    "datetime_iso": "2027-06-17T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70w-f",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70w-f",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70w-f",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70w-f",
+        "discovery_event_id": "Z7r9jZ1A70w-f",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70w-f",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70w-f",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-los-angeles-vvg10z_1rtqiih",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Wiltern",
+    "datetime_iso": "2027-06-18T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064A7A976CA3C",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-airborne-toxic-event-los-angeles-california-06-17-2027/event/090064A7A976CA3C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-los-angeles-california-06-17-2027/event/090064A7A976CA3C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064A7A976CA3C",
+        "discovery_event_id": "vvG10Z_1rtqiIH",
+        "url": "https://www.ticketmaster.com/the-airborne-toxic-event-los-angeles-california-06-17-2027/event/090064A7A976CA3C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_1rtqiIH",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-menlo-park-z7r9jz1a70ijm",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event",
+    "city": "Menlo Park",
+    "country": "United States Of America",
+    "venue": "The Guild Theatre - CA",
+    "datetime_iso": "2027-06-19T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70IjM",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IjM",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IjM",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70IjM",
+        "discovery_event_id": "Z7r9jZ1A70IjM",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70IjM",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70IjM",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-airborne-toxic-event-2027-menlo-park-z7r9jz1a7pj3f",
+    "artist_slug": "the-airborne-toxic-event",
+    "artist_name": "The Airborne Toxic Event",
+    "event_name": "The Airborne Toxic Event 20 Year Anniversary Tour",
+    "city": "Menlo Park",
+    "country": "United States Of America",
+    "venue": "The Guild Theatre - CA",
+    "datetime_iso": "2027-06-20T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PJ3f",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ3f",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ3f",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PJ3f",
+        "discovery_event_id": "Z7r9jZ1A7PJ3f",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PJ3f",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PJ3f",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

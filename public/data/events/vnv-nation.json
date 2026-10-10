@@ -348,5 +348,959 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Jv8M",
     "timezone": "America/Denver",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-limerick-city-1avozbugknqkh_5",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation",
+    "city": "Limerick City",
+    "country": "Ireland",
+    "venue": "Dolans Warehouse",
+    "datetime_iso": "2027-01-30T20:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800636A9D4FC64B",
+    "ticketmaster_url": "https://www.ticketmaster.ie/vnv-nation-limerick-city-30-01-2027/event/1800636A9D4FC64B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/vnv-nation-limerick-city-30-01-2027/event/1800636A9D4FC64B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800636A9D4FC64B",
+        "discovery_event_id": "1AvOZbUGknqKH_5",
+        "url": "https://www.ticketmaster.ie/vnv-nation-limerick-city-30-01-2027/event/1800636A9D4FC64B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZbUGknqKH_5",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-glasgow-16dbzbuq4g7ljkl",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Glasgow Garage",
+    "datetime_iso": "2027-02-01T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600636695AE61AB",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/vnv-nation-glasgow-01-02-2027/event/3600636695AE61AB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/vnv-nation-glasgow-01-02-2027/event/3600636695AE61AB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600636695AE61AB",
+        "discovery_event_id": "16dbZbUQ4G7lJkl",
+        "url": "https://www.ticketmaster.co.uk/vnv-nation-glasgow-01-02-2027/event/3600636695AE61AB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dbZbUQ4G7lJkl",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-nashville-rz7hnez1affnz0",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation - An Evening With",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Exit/In",
+    "datetime_iso": "2027-03-10T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14223024",
+    "ticketmaster_url": "https://www.ticketweb.com/event/vnv-nation-an-exitin-tickets/14223024",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/vnv-nation-an-exitin-tickets/14223024",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14223024",
+        "discovery_event_id": "rZ7HnEZ1AfFNZ0",
+        "url": "https://www.ticketweb.com/event/vnv-nation-an-exitin-tickets/14223024",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfFNZ0",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-ft-lauderdale-vvg1vzbvdf3u-x",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation - An Evening With",
+    "city": "Ft Lauderdale",
+    "country": "United States Of America",
+    "venue": "Culture Room",
+    "datetime_iso": "2027-03-13T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00634ED44B687E",
+    "ticketmaster_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-ft-lauderdale-florida-03-12-2027/event/0D00634ED44B687E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-ft-lauderdale-florida-03-12-2027/event/0D00634ED44B687E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00634ED44B687E",
+        "discovery_event_id": "vvG1VZbVDf3U-X",
+        "url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-ft-lauderdale-florida-03-12-2027/event/0D00634ED44B687E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZbVDf3U-X",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-mesa-z7r9jz1a7qp8u",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation",
+    "city": "Mesa",
+    "country": "United States Of America",
+    "venue": "Nile Theater",
+    "datetime_iso": "2027-03-19T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7qp8U",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qp8U",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qp8U",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7qp8U",
+        "discovery_event_id": "Z7r9jZ1A7qp8U",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qp8U",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7qp8U",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-san-diego-vvg1izbvnuske3",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation - An Evening With",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "House of Blues San Diego",
+    "datetime_iso": "2027-03-20T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00634AB6C469D2",
+    "ticketmaster_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-san-diego-california-03-19-2027/event/0A00634AB6C469D2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-san-diego-california-03-19-2027/event/0A00634AB6C469D2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00634AB6C469D2",
+        "discovery_event_id": "vvG1IZbVnUskE3",
+        "url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-san-diego-california-03-19-2027/event/0A00634AB6C469D2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZbVnUskE3",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-los-angeles-vv170zbvgklj1kgc",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Belasco",
+    "datetime_iso": "2027-03-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900634AE6286D6D",
+    "ticketmaster_url": "https://www.ticketmaster.com/vnv-nation-los-angeles-california-03-20-2027/event/0900634AE6286D6D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/vnv-nation-los-angeles-california-03-20-2027/event/0900634AE6286D6D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900634AE6286D6D",
+        "discovery_event_id": "vv170ZbVGklJ1kgc",
+        "url": "https://www.ticketmaster.com/vnv-nation-los-angeles-california-03-20-2027/event/0900634AE6286D6D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170ZbVGklJ1kgc",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-san-francisco-g5vyzbvdfhbds",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation - An Evening With",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "August Hall",
+    "datetime_iso": "2027-03-22T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00634EC8F3AEF3",
+    "ticketmaster_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-san-francisco-california-03-21-2027/event/1C00634EC8F3AEF3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-san-francisco-california-03-21-2027/event/1C00634EC8F3AEF3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00634EC8F3AEF3",
+        "discovery_event_id": "G5vYZbVDFHBDS",
+        "url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-san-francisco-california-03-21-2027/event/1C00634EC8F3AEF3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZbVDFHBDS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-seattle-vvg1hzbvl3-6jq",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation - An Evening With",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Neptune Theatre",
+    "datetime_iso": "2027-03-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00634AD284799A",
+    "ticketmaster_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-seattle-washington-03-24-2027/event/0F00634AD284799A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-seattle-washington-03-24-2027/event/0F00634AD284799A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00634AD284799A",
+        "discovery_event_id": "vvG1HZbVl3-6JQ",
+        "url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-seattle-washington-03-24-2027/event/0F00634AD284799A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZbVl3-6JQ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-omaha-z7r9jz1a7q0ef",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation",
+    "city": "Omaha",
+    "country": "United States Of America",
+    "venue": "Slowdown",
+    "datetime_iso": "2027-03-30T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7q0ef",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q0ef",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q0ef",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7q0ef",
+        "discovery_event_id": "Z7r9jZ1A7q0ef",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q0ef",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7q0ef",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-detroit-vv1afzkuagkexq-mx",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation - An Evening With",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Saint Andrew's Hall",
+    "datetime_iso": "2027-04-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006349A26A1BA2",
+    "ticketmaster_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-detroit-michigan-04-02-2027/event/08006349A26A1BA2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-detroit-michigan-04-02-2027/event/08006349A26A1BA2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006349A26A1BA2",
+        "discovery_event_id": "vv1AFZkuaGkexQ-mx",
+        "url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-detroit-michigan-04-02-2027/event/08006349A26A1BA2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkuaGkexQ-mx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-cleveland-vv1kfzbv0wg7mfd6",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation - An Evening With",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "House of Blues Cleveland",
+    "datetime_iso": "2027-04-03T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500634932B88EC7",
+    "ticketmaster_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-cleveland-ohio-04-03-2027/event/0500634932B88EC7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-cleveland-ohio-04-03-2027/event/0500634932B88EC7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500634932B88EC7",
+        "discovery_event_id": "vv1kfZbV0wG7mFD6",
+        "url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-cleveland-ohio-04-03-2027/event/0500634932B88EC7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kfZbV0wG7mFD6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-toronto-1avzzbvgkvjgkmw",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation - An Evening With",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "The Danforth Music Hall",
+    "datetime_iso": "2027-04-04T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000634D26306DF2",
+    "ticketmaster_url": "https://www.ticketmaster.ca/vnv-nation-an-evening-with-toronto-ontario-04-04-2027/event/1000634D26306DF2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/vnv-nation-an-evening-with-toronto-ontario-04-04-2027/event/1000634D26306DF2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000634D26306DF2",
+        "discovery_event_id": "1AvZZbVGkVJGkMw",
+        "url": "https://www.ticketmaster.ca/vnv-nation-an-evening-with-toronto-ontario-04-04-2027/event/1000634D26306DF2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZbVGkVJGkMw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-montreal-1ad7zbvgklrkbrt",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Théâtre Beanfield",
+    "datetime_iso": "2027-04-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100634ADE4D87A9",
+    "ticketmaster_url": "https://www.ticketmaster.ca/vnv-nation-montreal-quebec-04-06-2027/event/3100634ADE4D87A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/vnv-nation-montreal-quebec-04-06-2027/event/3100634ADE4D87A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100634ADE4D87A9",
+        "discovery_event_id": "1Ad7ZbVGklrKbrt",
+        "url": "https://www.ticketmaster.ca/vnv-nation-montreal-quebec-04-06-2027/event/3100634ADE4D87A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7ZbVGklrKbrt",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-boston-vv177zbvgkmc0qfx",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "An Evening With VNV Nation (18+)",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Paradise Rock Club presented by Citizens",
+    "datetime_iso": "2027-04-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100634DED91D53E",
+    "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-vnv-nation-18-boston-massachusetts-04-07-2027/event/0100634DED91D53E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/an-evening-with-vnv-nation-18-boston-massachusetts-04-07-2027/event/0100634DED91D53E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100634DED91D53E",
+        "discovery_event_id": "vv177ZbVGkMc0qfX",
+        "url": "https://www.ticketmaster.com/an-evening-with-vnv-nation-18-boston-massachusetts-04-07-2027/event/0100634DED91D53E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177ZbVGkMc0qfX",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-brooklyn-k7vgfbvbkdnzs",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation - An Evening With",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Warsaw",
+    "datetime_iso": "2027-04-09T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000634E930E3E33",
+    "ticketmaster_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-brooklyn-new-york-04-09-2027/event/0000634E930E3E33",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-brooklyn-new-york-04-09-2027/event/0000634E930E3E33",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000634E930E3E33",
+        "discovery_event_id": "k7vGFbVBKdNzS",
+        "url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-brooklyn-new-york-04-09-2027/event/0000634E930E3E33",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGFbVBKdNzS",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-baltimore-1avfzbvgklmrqky",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "VNV Nation - An Evening With",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "Baltimore Soundstage",
+    "datetime_iso": "2027-04-11T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500634AEE79A4F0",
+    "ticketmaster_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-baltimore-maryland-04-10-2027/event/1500634AEE79A4F0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-baltimore-maryland-04-10-2027/event/1500634AEE79A4F0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500634AEE79A4F0",
+        "discovery_event_id": "1AvfZbVGklmrQKY",
+        "url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-baltimore-maryland-04-10-2027/event/1500634AEE79A4F0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZbVGklmrQKY",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-vnv-nation-2027-millvale-rz7hnez1afbaps",
+    "artist_slug": "vnv-nation",
+    "artist_name": "VNV Nation",
+    "event_name": "Rescheduled - An Evening with VNV Nation",
+    "city": "Millvale",
+    "country": "United States Of America",
+    "venue": "Mr Smalls Theatre",
+    "datetime_iso": "2027-04-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14609973",
+    "ticketmaster_url": "https://www.ticketweb.com/event/rescheduled-an-evening-mr-smalls-theatre-tickets/14609973",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/rescheduled-an-evening-mr-smalls-theatre-tickets/14609973",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14609973",
+        "discovery_event_id": "rZ7HnEZ1AfbaPS",
+        "url": "https://www.ticketweb.com/event/rescheduled-an-evening-mr-smalls-theatre-tickets/14609973",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfbaPS",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

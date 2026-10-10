@@ -2138,5 +2138,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": ""
+  },
+  {
+    "id": "tm-sylvan-esso-2027-new-orleans-rz7hnez1afqk8n",
+    "artist_slug": "sylvan-esso",
+    "artist_name": "Sylvan Esso",
+    "event_name": "Sylvan Esso",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "Tipitina's",
+    "datetime_iso": "2027-03-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14753423",
+    "ticketmaster_url": "https://www.ticketweb.com/event/sylvan-esso-tipitinas-tickets/14753423",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/sylvan-esso-tipitinas-tickets/14753423",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14753423",
+        "discovery_event_id": "rZ7HnEZ1AfqK8N",
+        "url": "https://www.ticketweb.com/event/sylvan-esso-tipitinas-tickets/14753423",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfqK8N",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

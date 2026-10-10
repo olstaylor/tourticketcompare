@@ -1084,5 +1084,482 @@
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vOoJZA6",
     "timezone": "Europe/Madrid",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkebi9id",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "event_name": "Morat",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2026-11-07T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006482BAB17B03",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-06-11-2026/event/14006482BAB17B03",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-06-11-2026/event/14006482BAB17B03",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006482BAB17B03",
+        "discovery_event_id": "1AfZk3eGkeBi9id",
+        "url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-06-11-2026/event/14006482BAB17B03",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk3eGkeBi9id",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedjeux",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "event_name": "Morat",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2026-11-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006482BB9A7DA2",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-07-11-2026/event/14006482BB9A7DA2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-07-11-2026/event/14006482BB9A7DA2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006482BB9A7DA2",
+        "discovery_event_id": "1AfZk3eGkeDJEUx",
+        "url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-07-11-2026/event/14006482BB9A7DA2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk3eGkeDJEUx",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedjmu0",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "event_name": "Morat",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2026-11-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006482BB9B7DA4",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-08-11-2026/event/14006482BB9B7DA4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-08-11-2026/event/14006482BB9B7DA4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006482BB9B7DA4",
+        "discovery_event_id": "1AfZk3eGkeDJMU0",
+        "url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-08-11-2026/event/14006482BB9B7DA4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk3eGkeDJMU0",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedteuw",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "event_name": "Morat",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2026-11-14T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006482BBA67DBD",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-13-11-2026/event/14006482BBA67DBD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-13-11-2026/event/14006482BBA67DBD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006482BBA67DBD",
+        "discovery_event_id": "1AfZk3eGkeDtEUW",
+        "url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-13-11-2026/event/14006482BBA67DBD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk3eGkeDtEUW",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedteut",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "event_name": "Morat",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2026-11-15T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006482BBA67DBF",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-14-11-2026/event/14006482BBA67DBF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-14-11-2026/event/14006482BBA67DBF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006482BBA67DBF",
+        "discovery_event_id": "1AfZk3eGkeDtEUT",
+        "url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-14-11-2026/event/14006482BBA67DBF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk3eGkeDtEUT",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedjmuj",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "event_name": "Morat",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2026-11-16T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006482BB9B7DA6",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-15-11-2026/event/14006482BB9B7DA6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-15-11-2026/event/14006482BB9B7DA6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006482BB9B7DA6",
+        "discovery_event_id": "1AfZk3eGkeDJMUJ",
+        "url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-15-11-2026/event/14006482BB9B7DA6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk3eGkeDJMUJ",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedtmmv",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "event_name": "Morat",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2026-11-18T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006482BBA77DC1",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-17-11-2026/event/14006482BBA77DC1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-17-11-2026/event/14006482BBA77DC1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006482BBA77DC1",
+        "discovery_event_id": "1AfZk3eGkeDtMMv",
+        "url": "https://www.ticketmaster.com.mx/morat-ciudad-de-mexico-17-11-2026/event/14006482BBA77DC1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk3eGkeDtMMv",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-morat-2026-tlajomulco-de-zuniga-g5dvz_f6tnua-",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "event_name": "Morat",
+    "city": "Tlajomulco de Zuñiga",
+    "country": "Mexico",
+    "venue": "Arena VFG",
+    "datetime_iso": "2026-11-21T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D006481E9AB6161",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/morat-tlajomulco-de-zuniga-20-11-2026/event/3D006481E9AB6161",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/morat-tlajomulco-de-zuniga-20-11-2026/event/3D006481E9AB6161",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D006481E9AB6161",
+        "discovery_event_id": "G5dVZ_F6tnUA-",
+        "url": "https://www.ticketmaster.com.mx/morat-tlajomulco-de-zuniga-20-11-2026/event/3D006481E9AB6161",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_F6tnUA-",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-morat-2026-tlajomulco-de-zuniga-g5dvz_f6ivj5r",
+    "artist_slug": "morat",
+    "artist_name": "Morat",
+    "event_name": "Morat",
+    "city": "Tlajomulco de Zuñiga",
+    "country": "Mexico",
+    "venue": "Arena VFG",
+    "datetime_iso": "2026-11-22T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D006481ECD262DE",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/morat-tlajomulco-de-zuniga-21-11-2026/event/3D006481ECD262DE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/morat-tlajomulco-de-zuniga-21-11-2026/event/3D006481ECD262DE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D006481ECD262DE",
+        "discovery_event_id": "G5dVZ_F6iVJ5r",
+        "url": "https://www.ticketmaster.com.mx/morat-tlajomulco-de-zuniga-21-11-2026/event/3D006481ECD262DE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_F6iVJ5r",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
   }
 ]

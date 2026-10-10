@@ -2378,5 +2378,58 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293403",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293403/Andrea-Bocelli-tickets-Tue-Oct-5-2027-Co-Op-Live",
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-manchester-co-op-live-5-10-2027/event/107671325"
+  },
+  {
+    "id": "tm-andrea-bocelli-2026-abu-dhabi-z698xz52z1k7pedfx",
+    "artist_slug": "andrea-bocelli",
+    "artist_name": "Andrea Bocelli",
+    "event_name": "YASALAM CLASSICS PRESENTS ANDREA BOCELLI 'ROMANZA' LIVE IN CONCERT",
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "venue": "Etihad Arena, Yas Island",
+    "datetime_iso": "2026-12-02T14:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "116083522",
+    "ticketmaster_url": "https://www.ticketmaster.ae/event/yasalam-classics-presents-andrea-bocelli-romanza-live-in-concert-tickets/116083522",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ae/event/yasalam-classics-presents-andrea-bocelli-romanza-live-in-concert-tickets/116083522",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "116083522",
+        "discovery_event_id": "Z698xZ52Z1k7pedfx",
+        "url": "https://www.ticketmaster.ae/event/yasalam-classics-presents-andrea-bocelli-romanza-live-in-concert-tickets/116083522",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ52Z1k7pedfx",
+    "timezone": "Asia/Dubai",
+    "status": "on-sale"
   }
 ]

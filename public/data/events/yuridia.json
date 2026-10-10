@@ -1625,5 +1625,58 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252919",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252919/Yuridia-tickets-Sat-Mar-27-2027-Kings-Theatre-NY",
     "stubhub_international_url": "https://www.stubhub.ie/yuridia-brooklyn-tickets-3-27-2027/event/107666054"
+  },
+  {
+    "id": "tm-yuridia-2026-zapopan-g5dvz_aia5kvd",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia Las cartas sobre la mesa Tour",
+    "city": "Zapopan",
+    "country": "Mexico",
+    "venue": "Coliseo GNP Seguros",
+    "datetime_iso": "2026-12-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D00649B052C607B",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/yuridia-las-cartas-sobre-la-mesa-zapopan-05-12-2026/event/3D00649B052C607B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/yuridia-las-cartas-sobre-la-mesa-zapopan-05-12-2026/event/3D00649B052C607B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D00649B052C607B",
+        "discovery_event_id": "G5dVZ_aiA5kvD",
+        "url": "https://www.ticketmaster.com.mx/yuridia-las-cartas-sobre-la-mesa-zapopan-05-12-2026/event/3D00649B052C607B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_aiA5kvD",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
   }
 ]

@@ -2174,5 +2174,58 @@
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-london-the-o2-arena-27-2-2027/event/107671913",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310113",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310113/John-Summit-tickets-Sat-Feb-27-2027-The-Bubble-Exhibition-Space-at-the-O2"
+  },
+  {
+    "id": "tm-john-summit-2027-zurich-z698xzu3z1kxvu8oj",
+    "artist_slug": "john-summit",
+    "artist_name": "John Summit",
+    "event_name": "JOHN SUMMIT - EUROPE CTRL ESCAPE TOUR",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "venue": "Halle 622",
+    "datetime_iso": "2027-02-20T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "881350826",
+    "ticketmaster_url": "https://www.ticketmaster.ch/event/john-summit-europe-ctrl-escape-tour-tickets/881350826?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ch/event/john-summit-europe-ctrl-escape-tour-tickets/881350826?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "881350826",
+        "discovery_event_id": "Z698xZu3Z1kxvu8OJ",
+        "url": "https://www.ticketmaster.ch/event/john-summit-europe-ctrl-escape-tour-tickets/881350826?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu3Z1kxvu8OJ",
+    "timezone": "Europe/Zurich",
+    "status": "on-sale"
   }
 ]

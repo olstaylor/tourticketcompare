@@ -1118,5 +1118,111 @@
     "stubhub_international_url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255327",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255327/Josiah-Queen-tickets-Sat-May-8-2027-Dickies-Arena"
+  },
+  {
+    "id": "tm-josiah-queen-2026-westlake-village-rz7hnez1afuekf",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "Josiah Queen: The Damascus Road Experience - Westlake Village, CA",
+    "city": "Westlake Village",
+    "country": "United States Of America",
+    "venue": "Calvary Community Church",
+    "datetime_iso": "2026-10-25T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14367194",
+    "ticketmaster_url": "https://www.ticketweb.com/event/josiah-queen-the-damascus-road-calvary-community-church-tickets/14367194",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/josiah-queen-the-damascus-road-calvary-community-church-tickets/14367194",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14367194",
+        "discovery_event_id": "rZ7HnEZ1AfuEkf",
+        "url": "https://www.ticketweb.com/event/josiah-queen-the-damascus-road-calvary-community-church-tickets/14367194",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfuEkf",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-josiah-queen-2026-trinity-rz7hnez1afuea0",
+    "artist_slug": "josiah-queen",
+    "artist_name": "Josiah Queen",
+    "event_name": "SOLD OUT! Josiah Queen: The Damascus Road Experience - Trinity, FL",
+    "city": "Trinity",
+    "country": "United States Of America",
+    "venue": "Generations Christian Church",
+    "datetime_iso": "2026-10-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14367264",
+    "ticketmaster_url": "https://www.ticketweb.com/event/sold-out-josiah-queen-the-generations-christian-church-tickets/14367264",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/sold-out-josiah-queen-the-generations-christian-church-tickets/14367264",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14367264",
+        "discovery_event_id": "rZ7HnEZ1AfuEa0",
+        "url": "https://www.ticketweb.com/event/sold-out-josiah-queen-the-generations-christian-church-tickets/14367264",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfuEa0",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

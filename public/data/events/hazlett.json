@@ -136,5 +136,1118 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054737",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054737/Hazlett-tickets-Sat-Jun-12-2027-Scoot-Inn"
+  },
+  {
+    "id": "tm-hazlett-2027-nashville-z7r9jz1a7p0ay",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Eastside Bowl",
+    "datetime_iso": "2027-04-16T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P0ay",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0ay",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0ay",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P0ay",
+        "discovery_event_id": "Z7r9jZ1A7P0ay",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0ay",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P0ay",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-charlotte-g5evz_gmhpguu",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Neighborhood Theatre Main Room",
+    "datetime_iso": "2027-04-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064CB9B58CD8D",
+    "ticketmaster_url": "https://www.ticketmaster.com/hazlett-charlotte-north-carolina-04-19-2027/event/2D0064CB9B58CD8D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hazlett-charlotte-north-carolina-04-19-2027/event/2D0064CB9B58CD8D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064CB9B58CD8D",
+        "discovery_event_id": "G5eVZ_GmhpGUu",
+        "url": "https://www.ticketmaster.com/hazlett-charlotte-north-carolina-04-19-2027/event/2D0064CB9B58CD8D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_GmhpGUu",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-charlottesville-vvg17z_gcwfexc",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Charlottesville",
+    "country": "United States Of America",
+    "venue": "Jefferson Theater",
+    "datetime_iso": "2027-04-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064CB7D2278AD",
+    "ticketmaster_url": "https://www.ticketmaster.com/hazlett-charlottesville-virginia-04-20-2027/event/010064CB7D2278AD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hazlett-charlottesville-virginia-04-20-2027/event/010064CB7D2278AD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064CB7D2278AD",
+        "discovery_event_id": "vvG17Z_GcWFExc",
+        "url": "https://www.ticketmaster.com/hazlett-charlottesville-virginia-04-20-2027/event/010064CB7D2278AD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_GcWFExc",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-washington-rz7hnez1afukvf",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Howard Theatre",
+    "datetime_iso": "2027-04-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14353054",
+    "ticketmaster_url": "https://www.ticketweb.com/event/hazlett-howard-theatre-tickets/14353054",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/hazlett-howard-theatre-tickets/14353054",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14353054",
+        "discovery_event_id": "rZ7HnEZ1AfuKvf",
+        "url": "https://www.ticketweb.com/event/hazlett-howard-theatre-tickets/14353054",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfuKvf",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-pittsburgh-17aov0g6gw-k9-o",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Spirit Hall",
+    "datetime_iso": "2027-04-25T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "160064CCA14D7851",
+    "ticketmaster_url": "https://www.ticketmaster.com/hazlett-pittsburgh-pennsylvania-04-25-2027/event/160064CCA14D7851",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hazlett-pittsburgh-pennsylvania-04-25-2027/event/160064CCA14D7851",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160064CCA14D7851",
+        "discovery_event_id": "17AOv0G6Gw-K9-o",
+        "url": "https://www.ticketmaster.com/hazlett-pittsburgh-pennsylvania-04-25-2027/event/160064CCA14D7851",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AOv0G6Gw-K9-o",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-new-york-k7vgf_gs3k6br",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Irving Plaza Powered By Verizon 5G",
+    "datetime_iso": "2027-04-27T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064CCD24C7E9E",
+    "ticketmaster_url": "https://www.ticketmaster.com/hazlett-new-york-new-york-04-27-2027/event/000064CCD24C7E9E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hazlett-new-york-new-york-04-27-2027/event/000064CCD24C7E9E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064CCD24C7E9E",
+        "discovery_event_id": "k7vGF_GS3K6Br",
+        "url": "https://www.ticketmaster.com/hazlett-new-york-new-york-04-27-2027/event/000064CCD24C7E9E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_GS3K6Br",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-portland-vvg17z_grwzm6s",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "State Theatre",
+    "datetime_iso": "2027-05-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064CBF20371F3",
+    "ticketmaster_url": "https://www.ticketmaster.com/hazlett-portland-maine-04-30-2027/event/010064CBF20371F3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hazlett-portland-maine-04-30-2027/event/010064CBF20371F3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064CBF20371F3",
+        "discovery_event_id": "vvG17Z_GRwZM6S",
+        "url": "https://www.ticketmaster.com/hazlett-portland-maine-04-30-2027/event/010064CBF20371F3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_GRwZM6S",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-boston-vvg17z_grnbkkr",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Paradise Rock Club presented by Citizens",
+    "datetime_iso": "2027-05-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064CBE3E934EF",
+    "ticketmaster_url": "https://www.ticketmaster.com/hazlett-boston-massachusetts-05-02-2027/event/010064CBE3E934EF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hazlett-boston-massachusetts-05-02-2027/event/010064CBE3E934EF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064CBE3E934EF",
+        "discovery_event_id": "vvG17Z_GRNBKKR",
+        "url": "https://www.ticketmaster.com/hazlett-boston-massachusetts-05-02-2027/event/010064CBE3E934EF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_GRNBKKR",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-montreal-17g8v0g62kxoauq",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "The Pre-Show Speakeasy with Hazlett - Add-On",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Théâtre Beanfield",
+    "datetime_iso": "2027-05-05T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "310064F1A280535A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-preshow-speakeasy-with-hazlett-addon-montreal-quebec-05-04-2027/event/310064F1A280535A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-preshow-speakeasy-with-hazlett-addon-montreal-quebec-05-04-2027/event/310064F1A280535A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "310064F1A280535A",
+        "discovery_event_id": "17G8v0G62kxOAuQ",
+        "url": "https://www.ticketmaster.ca/the-preshow-speakeasy-with-hazlett-addon-montreal-quebec-05-04-2027/event/310064F1A280535A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17G8v0G62kxOAuQ",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-east-cleveland-z7r9jz1a7pe8a",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "East Cleveland",
+    "country": "United States Of America",
+    "venue": "Beachland Ballroom",
+    "datetime_iso": "2027-05-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7PE8a",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PE8a",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PE8a",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7PE8a",
+        "discovery_event_id": "Z7r9jZ1A7PE8a",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PE8a",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7PE8a",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-toronto-177zv0g6gsbxg-l",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "The Danforth Music Hall",
+    "datetime_iso": "2027-05-09T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064CCD8FB585F",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hazlett-toronto-ontario-05-09-2027/event/100064CCD8FB585F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hazlett-toronto-ontario-05-09-2027/event/100064CCD8FB585F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064CCD8FB585F",
+        "discovery_event_id": "177Zv0G6GSbXg-L",
+        "url": "https://www.ticketmaster.ca/hazlett-toronto-ontario-05-09-2027/event/100064CCD8FB585F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G6GSbXg-L",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-chicago-vvg18z_glqlopk",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "House of Blues Chicago",
+    "datetime_iso": "2027-05-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "040064CADD7D1593",
+    "ticketmaster_url": "https://www.ticketmaster.com/hazlett-chicago-illinois-05-13-2027/event/040064CADD7D1593",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hazlett-chicago-illinois-05-13-2027/event/040064CADD7D1593",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040064CADD7D1593",
+        "discovery_event_id": "vvG18Z_GlqLopK",
+        "url": "https://www.ticketmaster.com/hazlett-chicago-illinois-05-13-2027/event/040064CADD7D1593",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG18Z_GlqLopK",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-minneapolis-z7r9jz1a7p0gv",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett (18 and Over with Valid Government ID)",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "First Avenue",
+    "datetime_iso": "2027-05-15T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P0Gv",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0Gv",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0Gv",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P0Gv",
+        "discovery_event_id": "Z7r9jZ1A7P0Gv",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0Gv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P0Gv",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-kansas-city-vvg1bz_c1yj_ec",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "Madrid Theatre",
+    "datetime_iso": "2027-05-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064E2B071908E",
+    "ticketmaster_url": "https://www.ticketmaster.com/hazlett-kansas-city-missouri-05-17-2027/event/060064E2B071908E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hazlett-kansas-city-missouri-05-17-2027/event/060064E2B071908E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064E2B071908E",
+        "discovery_event_id": "vvG1bZ_C1Yj_eC",
+        "url": "https://www.ticketmaster.com/hazlett-kansas-city-missouri-05-17-2027/event/060064E2B071908E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_C1Yj_eC",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-seattle-vvg1hz_gmgf1et",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Neptune Theatre",
+    "datetime_iso": "2027-05-26T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0064CBB520A0BF",
+    "ticketmaster_url": "https://www.ticketmaster.com/hazlett-seattle-washington-05-25-2027/event/0F0064CBB520A0BF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hazlett-seattle-washington-05-25-2027/event/0F0064CBB520A0BF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0064CBB520A0BF",
+        "discovery_event_id": "vvG1HZ_GmgF1eT",
+        "url": "https://www.ticketmaster.com/hazlett-seattle-washington-05-25-2027/event/0F0064CBB520A0BF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_GmgF1eT",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-vancouver-1778v0g6ctjh581",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Commodore Ballroom",
+    "datetime_iso": "2027-05-27T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110064EFDCF0B40A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/hazlett-vancouver-british-columbia-05-26-2027/event/110064EFDCF0B40A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/hazlett-vancouver-british-columbia-05-26-2027/event/110064EFDCF0B40A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110064EFDCF0B40A",
+        "discovery_event_id": "1778v0G6CTjH581",
+        "url": "https://www.ticketmaster.ca/hazlett-vancouver-british-columbia-05-26-2027/event/110064EFDCF0B40A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1778v0G6CTjH581",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-san-francisco-g5vyz_gmceyww",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "August Hall",
+    "datetime_iso": "2027-06-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064CBAD9F0CBD",
+    "ticketmaster_url": "https://www.ticketmaster.com/hazlett-san-francisco-california-06-01-2027/event/1C0064CBAD9F0CBD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hazlett-san-francisco-california-06-01-2027/event/1C0064CBAD9F0CBD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064CBAD9F0CBD",
+        "discovery_event_id": "G5vYZ_GmcEYwW",
+        "url": "https://www.ticketmaster.com/hazlett-san-francisco-california-06-01-2027/event/1C0064CBAD9F0CBD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_GmcEYwW",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-los-angeles-z7r9jz1a7p0oi",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "El Rey Theatre - Los Angeles",
+    "datetime_iso": "2027-06-03T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7P0oI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0oI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0oI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7P0oI",
+        "discovery_event_id": "Z7r9jZ1A7P0oI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0oI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7P0oI",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-san-diego-rz7hnez1afufr7",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett - The Comeback Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Music Box",
+    "datetime_iso": "2027-06-05T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14348784",
+    "ticketmaster_url": "https://www.ticketweb.com/event/hazlett-the-comeback-music-box-tickets/14348784",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/hazlett-the-comeback-music-box-tickets/14348784",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14348784",
+        "discovery_event_id": "rZ7HnEZ1AfuFr7",
+        "url": "https://www.ticketweb.com/event/hazlett-the-comeback-music-box-tickets/14348784",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfuFr7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-phoenix-17k8v0g6gijmd6s",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Van Buren",
+    "datetime_iso": "2027-06-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "190064CB1CBBB1F3",
+    "ticketmaster_url": "https://www.ticketmaster.com/hazlett-phoenix-arizona-06-05-2027/event/190064CB1CBBB1F3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/hazlett-phoenix-arizona-06-05-2027/event/190064CB1CBBB1F3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064CB1CBBB1F3",
+        "discovery_event_id": "17k8v0G6GijmD6S",
+        "url": "https://www.ticketmaster.com/hazlett-phoenix-arizona-06-05-2027/event/190064CB1CBBB1F3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17k8v0G6GijmD6S",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-dallas-z7r9jz1a7pge_",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "The Kessler",
+    "datetime_iso": "2027-06-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7Pge_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pge_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pge_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7Pge_",
+        "discovery_event_id": "Z7r9jZ1A7Pge_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pge_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pge_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

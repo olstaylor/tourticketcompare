@@ -3742,5 +3742,429 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-belfast-ormeau-park-17-6-2027/event/107666405"
+  },
+  {
+    "id": "tm-sombr-2027-mexico-1av8z_agkn6tndi",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "Sombr",
+    "city": "México",
+    "country": "Mexico",
+    "venue": "Pepsi Center",
+    "datetime_iso": "2027-01-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1400645A87A630E8",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/sombr-mexico-29-01-2027/event/1400645A87A630E8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/sombr-mexico-29-01-2027/event/1400645A87A630E8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1400645A87A630E8",
+        "discovery_event_id": "1Av8Z_AGkn6tNdI",
+        "url": "https://www.ticketmaster.com.mx/sombr-mexico-29-01-2027/event/1400645A87A630E8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av8Z_AGkn6tNdI",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-mexico-1av8z_agknaoeux",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "Sombr",
+    "city": "México",
+    "country": "Mexico",
+    "venue": "Pepsi Center",
+    "datetime_iso": "2027-01-31T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1400645A85802DA2",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/sombr-mexico-30-01-2027/event/1400645A85802DA2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/sombr-mexico-30-01-2027/event/1400645A85802DA2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1400645A85802DA2",
+        "discovery_event_id": "1Av8Z_AGknAOeUx",
+        "url": "https://www.ticketmaster.com.mx/sombr-mexico-30-01-2027/event/1400645A85802DA2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av8Z_AGknAOeUx",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-auckland-1ae8z_ogkmlufo4",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "Sombr - You Are The Reason",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Spark Arena",
+    "datetime_iso": "2027-04-27T07:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2400651DDFD94455",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/sombr-you-are-the-reason-auckland-27-04-2027/event/2400651DDFD94455",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/sombr-you-are-the-reason-auckland-27-04-2027/event/2400651DDFD94455",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2400651DDFD94455",
+        "discovery_event_id": "1Ae8Z_oGkMLUfo4",
+        "url": "https://www.ticketmaster.co.nz/sombr-you-are-the-reason-auckland-27-04-2027/event/2400651DDFD94455",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae8Z_oGkMLUfo4",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-fornebu-z698xzb_z16vfe17ut",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // Oslo",
+    "city": "Fornebu",
+    "country": "Norway",
+    "venue": "Unity Arena",
+    "datetime_iso": "2027-05-08T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1502284369",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/sombr-you-are-the-reason-tour-oslo-tickets/1502284369?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/sombr-you-are-the-reason-tour-oslo-tickets/1502284369?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1502284369",
+        "discovery_event_id": "Z698xZb_Z16vfe17ut",
+        "url": "https://www.ticketmaster.no/event/sombr-you-are-the-reason-tour-oslo-tickets/1502284369?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16vfe17ut",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-helsinki-z698xz8kz1kuwpvu6",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // Helsinki",
+    "city": "Helsinki",
+    "country": "Finland",
+    "venue": "Veikkaus Arena",
+    "datetime_iso": "2027-05-11T15:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "372941347",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/sombr-you-are-the-reason-tour-helsinki-tickets/372941347?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.fi/event/sombr-you-are-the-reason-tour-helsinki-tickets/372941347?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "372941347",
+        "discovery_event_id": "Z698xZ8KZ1kuwPvu6",
+        "url": "https://www.ticketmaster.fi/event/sombr-you-are-the-reason-tour-helsinki-tickets/372941347?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ8KZ1kuwPvu6",
+    "timezone": "Europe/Helsinki",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-praha-9-z698xzu0z16v-zgmz9",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // Prague",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "venue": "O2 Arena",
+    "datetime_iso": "2027-05-19T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1878337017",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/sombr-you-are-the-reason-tour-prague-tickets/1878337017?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/sombr-you-are-the-reason-tour-prague-tickets/1878337017?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1878337017",
+        "discovery_event_id": "Z698xZu0Z16v-zGMZ9",
+        "url": "https://www.ticketmaster.cz/event/sombr-you-are-the-reason-tour-prague-tickets/1878337017?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z16v-zGMZ9",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-zurich-z698xzu3z16vqgjk0e",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // Zürich",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "venue": "Hallenstadion",
+    "datetime_iso": "2027-05-27T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1775713902",
+    "ticketmaster_url": "https://www.ticketmaster.ch/event/sombr-you-are-the-reason-tour-zurich-tickets/1775713902?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ch/event/sombr-you-are-the-reason-tour-zurich-tickets/1775713902?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1775713902",
+        "discovery_event_id": "Z698xZu3Z16vqgjK0e",
+        "url": "https://www.ticketmaster.ch/event/sombr-you-are-the-reason-tour-zurich-tickets/1775713902?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu3Z16vqgjK0e",
+    "timezone": "Europe/Zurich",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sombr-2027-vienna-z698xz5rz16vfevjbe",
+    "artist_slug": "sombr",
+    "artist_name": "Sombr",
+    "event_name": "SOMBR // You Are The Reason Tour // Vienna",
+    "city": "Vienna",
+    "country": "Austria",
+    "venue": "Wiener Stadthalle - Halle D",
+    "datetime_iso": "2027-05-29T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1227066602",
+    "ticketmaster_url": "https://www.ticketmaster.at/event/sombr-you-are-the-reason-tour-vienna-tickets/1227066602?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.at/event/sombr-you-are-the-reason-tour-vienna-tickets/1227066602?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1227066602",
+        "discovery_event_id": "Z698xZ5rZ16vFEvJbe",
+        "url": "https://www.ticketmaster.at/event/sombr-you-are-the-reason-tour-vienna-tickets/1227066602?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ5rZ16vFEvJbe",
+    "timezone": "Europe/Vienna",
+    "status": "on-sale"
   }
 ]

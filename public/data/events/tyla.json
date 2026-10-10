@@ -2118,5 +2118,164 @@
         "end": "2026-12-13T06:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-tyla-2026-oslo-z698xzb_z16v-8-pb8",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Oslo Spektrum",
+    "datetime_iso": "2026-10-30T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1850856610",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/tyla-the-apop-world-tour-tickets/1850856610?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/tyla-the-apop-world-tour-tickets/1850856610?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1850856610",
+        "discovery_event_id": "Z698xZb_Z16v-8-pb8",
+        "url": "https://www.ticketmaster.no/event/tyla-the-apop-world-tour-tickets/1850856610?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16v-8-pb8",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2027-pretoria-z698xz05z16eza8efw",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Pretoria",
+    "country": "South Africa",
+    "venue": "SunBet Arena Time Square",
+    "datetime_iso": "2027-01-08T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2009402532",
+    "ticketmaster_url": "https://www.ticketmaster.co.za/event/tyla-the-apop-world-tour-tickets/2009402532",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.za/event/tyla-the-apop-world-tour-tickets/2009402532",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2009402532",
+        "discovery_event_id": "Z698xZ05Z16eZa8efw",
+        "url": "https://www.ticketmaster.co.za/event/tyla-the-apop-world-tour-tickets/2009402532",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ05Z16eZa8efw",
+    "timezone": "Africa/Johannesburg",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tyla-2027-pretoria-z698xz05z1kqkoyov",
+    "artist_slug": "tyla",
+    "artist_name": "Tyla",
+    "event_name": "TYLA - THE A*POP WORLD TOUR",
+    "city": "Pretoria",
+    "country": "South Africa",
+    "venue": "SunBet Arena Time Square",
+    "datetime_iso": "2027-01-09T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "746470441",
+    "ticketmaster_url": "https://www.ticketmaster.co.za/event/tyla-the-apop-world-tour-tickets/746470441",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.za/event/tyla-the-apop-world-tour-tickets/746470441",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "746470441",
+        "discovery_event_id": "Z698xZ05Z1kqkoYov",
+        "url": "https://www.ticketmaster.co.za/event/tyla-the-apop-world-tour-tickets/746470441",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ05Z1kqkoYov",
+    "timezone": "Africa/Johannesburg",
+    "status": "on-sale"
   }
 ]

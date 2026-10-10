@@ -549,5 +549,323 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284750",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284750/Too-Many-Zooz-tickets-Thu-May-13-2027-Revolution-Hall-Portland"
+  },
+  {
+    "id": "tm-too-many-zooz-2026-toronto-rz7hnez1affov7",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz; Live in Canada (Mostly!) Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Lee's Palace",
+    "datetime_iso": "2026-11-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14211044",
+    "ticketmaster_url": "https://www.ticketweb.ca/event/too-many-zooz-live-in-lees-palace-tickets/14211044",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.ca/event/too-many-zooz-live-in-lees-palace-tickets/14211044",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14211044",
+        "discovery_event_id": "rZ7HnEZ1AfFov7",
+        "url": "https://www.ticketweb.ca/event/too-many-zooz-live-in-lees-palace-tickets/14211044",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfFov7",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-too-many-zooz-2026-ottawa-rz7hnez1af1e8f",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "Overflow Brewing Co.",
+    "datetime_iso": "2026-11-20T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14282414",
+    "ticketmaster_url": "https://www.ticketweb.ca/event/too-many-zooz-overflow-brewing-co-tickets/14282414",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.ca/event/too-many-zooz-overflow-brewing-co-tickets/14282414",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14282414",
+        "discovery_event_id": "rZ7HnEZ1Af1e8f",
+        "url": "https://www.ticketweb.ca/event/too-many-zooz-overflow-brewing-co-tickets/14282414",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1Af1e8f",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-too-many-zooz-2027-colorado-springs-1ae0z_3gkzlv-ok",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz: Audio Lipstick Tour",
+    "city": "Colorado Springs",
+    "country": "United States Of America",
+    "venue": "Black Sheep",
+    "datetime_iso": "2027-03-18T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14320514",
+    "ticketmaster_url": "https://www.ticketweb.com/event/too-many-zooz-audio-lipstick-black-sheep-tickets/14320514?REFERRAL_ID=tmfeed",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/too-many-zooz-audio-lipstick-black-sheep-tickets/14320514?REFERRAL_ID=tmfeed",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14320514",
+        "discovery_event_id": "1Ae0Z_3GkzlV-OK",
+        "url": "https://www.ticketweb.com/event/too-many-zooz-audio-lipstick-black-sheep-tickets/14320514?REFERRAL_ID=tmfeed",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae0Z_3GkzlV-OK",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-too-many-zooz-2027-san-diego-rz7hnez1afgpof",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz - Audio Lipstick Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Music Box",
+    "datetime_iso": "2027-05-08T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14325454",
+    "ticketmaster_url": "https://www.ticketweb.com/event/too-many-zooz-music-box-tickets/14325454",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/too-many-zooz-music-box-tickets/14325454",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14325454",
+        "discovery_event_id": "rZ7HnEZ1AfGPof",
+        "url": "https://www.ticketweb.com/event/too-many-zooz-music-box-tickets/14325454",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGPof",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-too-many-zooz-2027-san-francisco-rz7hnez1afgsv7",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Independent",
+    "datetime_iso": "2027-05-10T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14331044",
+    "ticketmaster_url": "https://www.ticketweb.com/event/too-many-zooz-the-independent-tickets/14331044",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/too-many-zooz-the-independent-tickets/14331044",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14331044",
+        "discovery_event_id": "rZ7HnEZ1AfGsv7",
+        "url": "https://www.ticketweb.com/event/too-many-zooz-the-independent-tickets/14331044",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGsv7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-too-many-zooz-2027-vancouver-rz7hnez1afgyg0",
+    "artist_slug": "too-many-zooz",
+    "artist_name": "Too Many Zooz",
+    "event_name": "Too Many Zooz: Audio Lipstick Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "The Pearl",
+    "datetime_iso": "2027-05-16T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14330324",
+    "ticketmaster_url": "https://www.ticketweb.ca/event/too-many-zooz-audio-lipstick-the-pearl-tickets/14330324",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.ca/event/too-many-zooz-audio-lipstick-the-pearl-tickets/14330324",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14330324",
+        "discovery_event_id": "rZ7HnEZ1AfGYG0",
+        "url": "https://www.ticketweb.ca/event/too-many-zooz-audio-lipstick-the-pearl-tickets/14330324",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGYG0",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
   }
 ]

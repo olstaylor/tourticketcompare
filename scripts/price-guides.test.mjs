@@ -288,7 +288,7 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
 
   const body = text(page.main);
   assert(body.includes("Face value: the official ticket price"), "the page answers the face-value question");
-  assert(body.includes("has no approved source for face-value prices"), "and says plainly that it prints no face value");
+  assert(body.includes("This page doesn't show face value."), "and says plainly that it prints no face value");
   assert(body.includes("a date with no price can still have tickets"), "missing Ticketmaster pricing is distinguished from ticket availability");
   assert(body.includes("a price too old to trust is hidden"), "missing prices explain freshness without claiming inventory");
   assert(body.includes("£182") && body.includes("£395"), "each date keeps its own lowest listed price");
@@ -333,7 +333,7 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   const page = await render(GUIDE_PATH, { withDb: "failing" });
   const body = text(page.main);
   assert(page.status === 200, "the guide renders when D1 fails");
-  assert(!body.includes("No listed-price snapshot right now"), "a failed read never reports a snapshot as absent");
+  assert(!body.includes("No listed price right now"), "a failed read never reports a snapshot as absent");
   assert(!body.includes("show a listed resale price right now"), "with no price read, the page claims nothing about prices");
   assert(!body.includes("How Oasis resale prices have moved"), "and renders no move section");
   assert(body.includes("Prices couldn't be loaded just now"), "failed reads are explained near the top without implying zero coverage");

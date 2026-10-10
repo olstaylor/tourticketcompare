@@ -2026,7 +2026,7 @@ function displayCountry(value) {
 const PRICE_DISCLOSURE =
   "Prices are listed-price snapshots from each ticket site, checked at the time shown. They can change and aren't your final total. Listed prices may already include mandatory fees. Confirm the final total for your ticket quantity, taxes, delivery and selected extras on the ticket site.";
 const CARD_PRICE_TAIL = "not the final total";
-const PRICE_UNAVAILABLE_NOTE = "No listed-price snapshot yet.";
+const PRICE_UNAVAILABLE_NOTE = "No listed price yet.";
 const PRICE_HISTORY_LABEL = "Show price history";
 
 // The lanes that supply listed-price snapshots. A card with no button on one

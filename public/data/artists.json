@@ -1372,15 +1372,16 @@
     "slug": "dancing-with-the-stars",
     "name": "Dancing With The Stars",
     "short_description": "Live stage tour of the ABC dance competition series.",
-    "indexing_status": "indexable_with_substantial_content",
-    "verified_provider_count": 2,
-    "verified_providers": [
-      "ticketmaster",
-      "seatgeek"
-    ],
+    "indexing_status": "review_required",
+    "verified_provider_count": 0,
+    "verified_providers": [],
     "last_verified_at": "2026-10-09",
     "promotion_source": "auto",
-    "auto_promoted_at": "2026-10-09"
+    "auto_promoted_at": "2026-10-09",
+    "demoted": {
+      "at": "2026-10-10",
+      "reason": "denylist"
+    }
   },
   {
     "slug": "def-leppard",

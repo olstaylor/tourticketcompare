@@ -15,18 +15,21 @@ displayed) · `PROJECT_STATUS.md` (what is live right now).
 ### Canonical definitions
 
 `provider_click` means a visitor activated a provider CTA (client intent).
-`outbound_attempt` means a valid known-provider **GET navigation carrying the
-browser-controlled `Sec-Fetch-User: ?1` signal** reached `/api/out` and
+`outbound_attempt` means a valid known-provider **GET navigation carrying a
+browser-controlled user-navigation signal** (`Sec-Fetch-User: ?1`, or
+`Sec-Fetch-Site: same-origin` with `Sec-Fetch-Mode: navigate`, which iOS Safari
+sends for new-tab CTAs instead) reached `/api/out` and
 received a server-generated opaque `click_id`. `outbound_click` means the
 reviewed destination and any required Impact tracking URL were validated, the
 qualified row was recorded, and a 3xx was issued. `outbound_blocked` means the
 same qualified attempt fail-closed before a 3xx, with a safe failure reason.
 Valid headerless requests still receive exactly the same redirect or safe
 failure response; they simply do not add a funnel receipt.
-Qualified rows carry `receiptQualification: "fetch_user_v1"` in their internal
-metadata. Commercial reports select that marker, so rolling reporting windows
-do not blend these rows with legacy unqualified receipts from before this
-change.
+Qualified rows carry `receiptQualification: "user_navigation_v2"` in their
+internal metadata (`fetch_user_v1` rows from 9 to 10 October 2026 required
+`Sec-Fetch-User` and recorded no iOS Safari new-tab clicks). Commercial reports
+select both markers, so rolling reporting windows do not blend these rows with
+legacy unqualified receipts from before the gate.
 
 Affiliate/non-affiliate status is based on the actual redirect hostname:
 reviewed Impact/tracking hosts are `affiliate_network`; reviewed provider hosts
@@ -47,10 +50,12 @@ count terminal rows for funnel totals and distinct IDs for reconciliation.
 | 8. Left an email address | `email_signup`, `artist_interest`, `price_alert_interest` | server, `functions/api/signup.js` | Authoritative |
 
 **`outbound_click` is authoritative evidence of a qualified server-issued
-redirect, not of a human clicking a button.** Its `Sec-Fetch-User: ?1`
-requirement removes ordinary script requests and much automated direct access,
-but browser automation, repeat requests and requests discovered outside the
-visible CTA can still reach `/api/out`. Some compatible headerless browsers
+redirect, not of a human clicking a button.** Its user-navigation signal
+removes ordinary script requests and much automated direct access, but it is
+weaker than the v1 `Sec-Fetch-User: ?1` rule: the `same-origin`/`navigate`
+fallback carries no user-activation guarantee, so a programmatic same-origin
+navigation also qualifies. Browser automation, repeat requests and requests
+discovered outside the visible CTA can still reach `/api/out`. Some compatible headerless browsers
 may be omitted. Client beacons can be missing independently. Count server
 receipts separately from browser CTA intent; neither count proves arrival at
 the provider or a sale.

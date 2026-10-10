@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "0D0064BCDD61E246",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-hollywood-florida-10-15-2026/event/0D0064BCDD61E246",
     "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/hollywood-florida-hard-rock-live-hollywood-2026-10-15-8-pm/concert/18281739",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-10-15-2026/production/7105235",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-hollywood-florida-10-15-2026/event/0D0064BCDD61E246",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7105235,
+        "url": "https://www.vividseats.com/def-leppard-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-10-15-2026/production/7105235",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8012408",
+        "url": "https://www.ticketnetwork.com/en/p/8012408",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_5Sqbrak",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012408"
   },
   {
     "id": "tm-def-leppard-2027-allentown-1ayzk4agkdyeyao",
@@ -65,7 +73,7 @@
     "ticketmaster_event_id": "30006545F09F9260",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-allentown-pennsylvania-03-02-2027/event/30006545F09F9260",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-allentown-ppl-center-3-2-2027--concerts-rock/production/7671846",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-allentown-pennsylvania-03-02-2027/event/30006545F09F9260",
     "last_verified_at": null,
@@ -87,11 +95,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671846,
+        "url": "https://www.vividseats.com/def-leppard-tickets-allentown-ppl-center-3-2-2027--concerts-rock/production/7671846",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99,12 +107,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312060",
+        "url": "https://www.ticketnetwork.com/en/p/8312060",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4AGkdYEyaO",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312060"
   },
   {
     "id": "tm-def-leppard-2027-montreal-1aszk4agkdf99bi",
@@ -119,7 +135,7 @@
     "ticketmaster_event_id": "31006545D45D7EA8",
     "ticketmaster_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-montreal-quebec-03-05-2027/event/31006545D45D7EA8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-montreal-bell-centre-3-5-2027--concerts-rock/production/7671848",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-montreal-quebec-03-05-2027/event/31006545D45D7EA8",
     "last_verified_at": null,
@@ -141,11 +157,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671848,
+        "url": "https://www.vividseats.com/def-leppard-tickets-montreal-bell-centre-3-5-2027--concerts-rock/production/7671848",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -153,12 +169,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312100",
+        "url": "https://www.ticketnetwork.com/en/p/8312100",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4AGkdf99BI",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312100"
   },
   {
     "id": "tm-def-leppard-2027-detroit-vv1afzk4egkelpgxa",
@@ -173,7 +197,7 @@
     "ticketmaster_event_id": "08006542AB5B5889",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-detroit-michigan-03-07-2027/event/08006542AB5B5889",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-detroit-little-caesars-arena-3-7-2027--concerts-rock/production/7671850",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-detroit-michigan-03-07-2027/event/08006542AB5B5889",
     "last_verified_at": null,
@@ -195,11 +219,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671850,
+        "url": "https://www.vividseats.com/def-leppard-tickets-detroit-little-caesars-arena-3-7-2027--concerts-rock/production/7671850",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -207,12 +231,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312061",
+        "url": "https://www.ticketnetwork.com/en/p/8312061",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4eGkelpgxa",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312061"
   },
   {
     "id": "tm-def-leppard-2027-toronto-1a8zk4egkdrqf1w",
@@ -315,12 +347,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312104",
+        "url": "https://www.ticketnetwork.com/en/p/8312104",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4AGkesU4rw",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312104"
   },
   {
     "id": "tm-def-leppard-2027-newark-vv1aezk4kgkdvinob",
@@ -335,7 +375,7 @@
     "ticketmaster_event_id": "02006546C1A2A458",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-newark-new-jersey-03-13-2027/event/02006546C1A2A458",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-newark-prudential-center-3-13-2027--concerts-rock/production/7671860",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-newark-new-jersey-03-13-2027/event/02006546C1A2A458",
     "last_verified_at": null,
@@ -357,11 +397,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671860,
+        "url": "https://www.vividseats.com/def-leppard-tickets-newark-prudential-center-3-13-2027--concerts-rock/production/7671860",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -369,12 +409,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312062",
+        "url": "https://www.ticketnetwork.com/en/p/8312062",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4kGkdvInob",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312062"
   },
   {
     "id": "tm-def-leppard-2027-boston-vv1a8vp88ga16tl3",
@@ -389,7 +437,7 @@
     "ticketmaster_event_id": "010065410A1FFAD2",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-boston-massachusetts-03-17-2027/event/010065410A1FFAD2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-boston-td-garden-3-17-2027--concerts-rock/production/7671862",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-boston-massachusetts-03-17-2027/event/010065410A1FFAD2",
     "last_verified_at": null,
@@ -411,11 +459,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671862,
+        "url": "https://www.vividseats.com/def-leppard-tickets-boston-td-garden-3-17-2027--concerts-rock/production/7671862",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -423,12 +471,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312063",
+        "url": "https://www.ticketnetwork.com/en/p/8312063",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vP88GA16Tl3",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312063"
   },
   {
     "id": "tm-def-leppard-2027-nashville-g5viz_f9p6_vj",
@@ -443,7 +499,7 @@
     "ticketmaster_event_id": "1B006545E51D9D1C",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-nashville-tennessee-03-19-2027/event/1B006545E51D9D1C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-nashville-bridgestone-arena-3-19-2027--concerts-rock/production/7671878",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-nashville-tennessee-03-19-2027/event/1B006545E51D9D1C",
     "last_verified_at": null,
@@ -465,11 +521,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671878,
+        "url": "https://www.vividseats.com/def-leppard-tickets-nashville-bridgestone-arena-3-19-2027--concerts-rock/production/7671878",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -477,12 +533,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312064",
+        "url": "https://www.ticketnetwork.com/en/p/8312064",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f9P6_Vj",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312064"
   },
   {
     "id": "tm-def-leppard-2027-washington-17a8v0g62pvh_yy",
@@ -497,7 +561,7 @@
     "ticketmaster_event_id": "150064F5B46D9E79",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-washington-district-of-columbia-03-21-2027/event/150064F5B46D9E79",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-washington-capital-one-arena-3-21-2027--concerts-rock/production/7671886",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-washington-district-of-columbia-03-21-2027/event/150064F5B46D9E79",
     "last_verified_at": null,
@@ -519,11 +583,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671886,
+        "url": "https://www.vividseats.com/def-leppard-tickets-washington-capital-one-arena-3-21-2027--concerts-rock/production/7671886",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -531,12 +595,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312065",
+        "url": "https://www.ticketnetwork.com/en/p/8312065",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G62pVh_yy",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312065"
   },
   {
     "id": "tm-def-leppard-2027-pittsburgh-1apzk4egkdr8ult",
@@ -551,7 +623,7 @@
     "ticketmaster_event_id": "16006542DE40DAE9",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-pittsburgh-pennsylvania-03-23-2027/event/16006542DE40DAE9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-pittsburgh-ppg-paints-arena-3-23-2027--concerts-rock/production/7671922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-pittsburgh-pennsylvania-03-23-2027/event/16006542DE40DAE9",
     "last_verified_at": null,
@@ -573,11 +645,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671922,
+        "url": "https://www.vividseats.com/def-leppard-tickets-pittsburgh-ppg-paints-arena-3-23-2027--concerts-rock/production/7671922",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -585,12 +657,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312066",
+        "url": "https://www.ticketnetwork.com/en/p/8312066",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZk4eGkdr8ult",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312066"
   },
   {
     "id": "tm-def-leppard-2027-chicago-vv1k8z_fgkg7dl8f",
@@ -605,7 +685,7 @@
     "ticketmaster_event_id": "0400654313EDF414",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-chicago-illinois-03-25-2027/event/0400654313EDF414",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-chicago-united-center-3-25-2027--concerts-rock/production/7671870",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-chicago-illinois-03-25-2027/event/0400654313EDF414",
     "last_verified_at": null,
@@ -627,11 +707,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671870,
+        "url": "https://www.vividseats.com/def-leppard-tickets-chicago-united-center-3-25-2027--concerts-rock/production/7671870",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -639,12 +719,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312067",
+        "url": "https://www.ticketnetwork.com/en/p/8312067",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k8Z_fGKG7DL8f",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312067"
   },
   {
     "id": "tm-def-leppard-2027-denver-g5vzz_frfov07",
@@ -659,7 +747,7 @@
     "ticketmaster_event_id": "1E00654788474904",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-denver-colorado-03-29-2027/event/1E00654788474904",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-denver-ball-arena-3-29-2027--concerts-rock/production/7671926",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-denver-colorado-03-29-2027/event/1E00654788474904",
     "last_verified_at": null,
@@ -681,11 +769,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671926,
+        "url": "https://www.vividseats.com/def-leppard-tickets-denver-ball-arena-3-29-2027--concerts-rock/production/7671926",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -693,12 +781,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312069",
+        "url": "https://www.ticketnetwork.com/en/p/8312069",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_frFoV07",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T16:00:00Z"
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312069"
   },
   {
     "id": "tm-def-leppard-2027-austin-g5diz_f1_s12h",
@@ -713,7 +809,7 @@
     "ticketmaster_event_id": "3A00654299C4A3DB",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-austin-texas-04-13-2027/event/3A00654299C4A3DB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-austin-moody-center-atx-4-13-2027--concerts-rock/production/7671942",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-austin-texas-04-13-2027/event/3A00654299C4A3DB",
     "last_verified_at": null,
@@ -735,11 +831,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671942,
+        "url": "https://www.vividseats.com/def-leppard-tickets-austin-moody-center-atx-4-13-2027--concerts-rock/production/7671942",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -747,12 +843,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312071",
+        "url": "https://www.ticketnetwork.com/en/p/8312071",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_f1_s12h",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312071"
   },
   {
     "id": "tm-def-leppard-2027-north-little-rock-g5viz_f5gacpb",
@@ -767,7 +871,7 @@
     "ticketmaster_event_id": "1B006542CC24E598",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-north-little-rock-arkansas-04-16-2027/event/1B006542CC24E598",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-north-little-rock-simmons-bank-arena-4-16-2027--concerts-rock/production/7671948",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-north-little-rock-arkansas-04-16-2027/event/1B006542CC24E598",
     "last_verified_at": null,
@@ -789,11 +893,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671948,
+        "url": "https://www.vividseats.com/def-leppard-tickets-north-little-rock-simmons-bank-arena-4-16-2027--concerts-rock/production/7671948",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -801,12 +905,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312072",
+        "url": "https://www.ticketnetwork.com/en/p/8312072",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f5GaCpb",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312072"
   },
   {
     "id": "tm-def-leppard-2027-fort-worth-vvg1yz_fhfmaat",
@@ -855,12 +967,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312073",
+        "url": "https://www.ticketnetwork.com/en/p/8312073",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_fhfmaat",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312073"
   },
   {
     "id": "tm-def-leppard-2027-mobile-g5viz_fptcweu",
@@ -875,7 +995,7 @@
     "ticketmaster_event_id": "1B006545BF3B20B6",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-mobile-alabama-04-20-2027/event/1B006545BF3B20B6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-mobile-regions-arena-4-20-2027--concerts-rock/production/7671960",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-mobile-alabama-04-20-2027/event/1B006545BF3B20B6",
     "last_verified_at": null,
@@ -897,11 +1017,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671960,
+        "url": "https://www.vividseats.com/def-leppard-tickets-mobile-regions-arena-4-20-2027--concerts-rock/production/7671960",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -909,12 +1029,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312074",
+        "url": "https://www.ticketnetwork.com/en/p/8312074",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_fpTCweU",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312074"
   },
   {
     "id": "tm-def-leppard-2027-wichita-vv1akzk4kgkexoysl",
@@ -929,7 +1057,7 @@
     "ticketmaster_event_id": "06006546A2839CDF",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-wichita-kansas-04-22-2027/event/06006546A2839CDF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-wichita-intrust-bank-arena-4-22-2027--concerts-rock/production/7671968",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-wichita-kansas-04-22-2027/event/06006546A2839CDF",
     "last_verified_at": null,
@@ -951,11 +1079,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671968,
+        "url": "https://www.vividseats.com/def-leppard-tickets-wichita-intrust-bank-arena-4-22-2027--concerts-rock/production/7671968",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -963,12 +1091,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312075",
+        "url": "https://www.ticketnetwork.com/en/p/8312075",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4kGkexOySL",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312075"
   },
   {
     "id": "tm-def-leppard-2027-lincoln-vv1akzk4vgkel3utc",
@@ -983,7 +1119,7 @@
     "ticketmaster_event_id": "06006541AB48DFCE",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-lincoln-nebraska-04-24-2027/event/06006541AB48DFCE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-lincoln-pinnacle-bank-arena-4-24-2027--concerts-rock/production/7671972",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-lincoln-nebraska-04-24-2027/event/06006541AB48DFCE",
     "last_verified_at": null,
@@ -1005,11 +1141,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671972,
+        "url": "https://www.vividseats.com/def-leppard-tickets-lincoln-pinnacle-bank-arena-4-24-2027--concerts-rock/production/7671972",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1017,12 +1153,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312076",
+        "url": "https://www.ticketnetwork.com/en/p/8312076",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4vGkel3uTC",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312076"
   },
   {
     "id": "tm-def-leppard-2027-glendale-1kk8vp8bga1l7cc",
@@ -1037,7 +1181,7 @@
     "ticketmaster_event_id": "190065418A7C43AD",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-glendale-arizona-04-29-2027/event/190065418A7C43AD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-glendale-desert-diamond-arena-4-29-2027--concerts-rock/production/7671984",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-glendale-arizona-04-29-2027/event/190065418A7C43AD",
     "last_verified_at": null,
@@ -1059,11 +1203,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671984,
+        "url": "https://www.vividseats.com/def-leppard-tickets-glendale-desert-diamond-arena-4-29-2027--concerts-rock/production/7671984",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1071,12 +1215,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312078",
+        "url": "https://www.ticketnetwork.com/en/p/8312078",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8vP8bGA1L7Cc",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312078"
   },
   {
     "id": "tm-def-leppard-2027-hollywood-vvg1iz_f7e8nik",
@@ -1091,7 +1243,7 @@
     "ticketmaster_event_id": "0B0065410242AA13",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-hollywood-california-05-01-2027/event/0B0065410242AA13",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-los-angeles-hollywood-bowl-5-1-2027/production/7671952",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-hollywood-california-05-01-2027/event/0B0065410242AA13",
     "last_verified_at": null,
@@ -1113,11 +1265,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7671952,
+        "url": "https://www.vividseats.com/def-leppard-tickets-los-angeles-hollywood-bowl-5-1-2027/production/7671952",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1125,12 +1277,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312079",
+        "url": "https://www.ticketnetwork.com/en/p/8312079",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_f7e8nIK",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312079"
   },
   {
     "id": "tm-def-leppard-2027-san-francisco-g5vyz_f5oof-x",
@@ -1145,7 +1305,7 @@
     "ticketmaster_event_id": "1C006542E044887E",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-san-francisco-california-05-05-2027/event/1C006542E044887E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-san-francisco-chase-center-5-5-2027--concerts-rock/production/7672000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-san-francisco-california-05-05-2027/event/1C006542E044887E",
     "last_verified_at": null,
@@ -1167,11 +1327,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672000,
+        "url": "https://www.vividseats.com/def-leppard-tickets-san-francisco-chase-center-5-5-2027--concerts-rock/production/7672000",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1179,12 +1339,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312080",
+        "url": "https://www.ticketnetwork.com/en/p/8312080",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_f5OoF-X",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312080"
   },
   {
     "id": "tm-def-leppard-2027-sacramento-g5vyz_f5hdkto",
@@ -1199,7 +1367,7 @@
     "ticketmaster_event_id": "1C006542DB0C6A51",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-sacramento-california-05-07-2027/event/1C006542DB0C6A51",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-sacramento-golden-1-center-5-7-2027/production/7672006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-sacramento-california-05-07-2027/event/1C006542DB0C6A51",
     "last_verified_at": null,
@@ -1221,11 +1389,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672006,
+        "url": "https://www.vividseats.com/def-leppard-tickets-sacramento-golden-1-center-5-7-2027/production/7672006",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1233,12 +1401,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312081",
+        "url": "https://www.ticketnetwork.com/en/p/8312081",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_f5hdkto",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312081"
   },
   {
     "id": "tm-def-leppard-2027-seattle-vvg1hz_f1kfpyl",
@@ -1253,7 +1429,7 @@
     "ticketmaster_event_id": "0F00654293525E5F",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-seattle-washington-05-09-2027/event/0F00654293525E5F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-seattle-climate-pledge-arena-5-9-2027/production/7672047",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-seattle-washington-05-09-2027/event/0F00654293525E5F",
     "last_verified_at": null,
@@ -1275,11 +1451,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672047,
+        "url": "https://www.vividseats.com/def-leppard-tickets-seattle-climate-pledge-arena-5-9-2027/production/7672047",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1287,12 +1463,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312082",
+        "url": "https://www.ticketnetwork.com/en/p/8312082",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_f1KfPyL",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312082"
   },
   {
     "id": "tm-def-leppard-2027-vancouver-1aozk4agkddzaes",
@@ -1341,12 +1525,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312105",
+        "url": "https://www.ticketnetwork.com/en/p/8312105",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4AGkddzaes",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312105"
   },
   {
     "id": "tm-def-leppard-2027-edmonton-1k78vpoiga55fiz",
@@ -1361,7 +1553,7 @@
     "ticketmaster_event_id": "110065468B2D4B00",
     "ticketmaster_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-edmonton-alberta-05-16-2027/event/110065468B2D4B00",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-edmonton-rogers-place-5-16-2027--concerts-rock/production/7672370",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-edmonton-alberta-05-16-2027/event/110065468B2D4B00",
     "last_verified_at": null,
@@ -1383,11 +1575,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672370,
+        "url": "https://www.vividseats.com/def-leppard-tickets-edmonton-rogers-place-5-16-2027--concerts-rock/production/7672370",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1395,12 +1587,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312106",
+        "url": "https://www.ticketnetwork.com/en/p/8312106",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPoIGA55fiZ",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T16:00:00Z"
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312106"
   },
   {
     "id": "tm-def-leppard-2027-san-antonio-g5diz_fqmcwez",
@@ -1415,7 +1615,7 @@
     "ticketmaster_event_id": "3A006546B73BD9C0",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-san-antonio-texas-05-29-2027/event/3A006546B73BD9C0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-san-antonio-frost-bank-center-5-29-2027--concerts-rock/production/7672077",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-san-antonio-texas-05-29-2027/event/3A006546B73BD9C0",
     "last_verified_at": null,
@@ -1437,11 +1637,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672077,
+        "url": "https://www.vividseats.com/def-leppard-tickets-san-antonio-frost-bank-center-5-29-2027--concerts-rock/production/7672077",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1449,12 +1649,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312084",
+        "url": "https://www.ticketnetwork.com/en/p/8312084",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fQMCWEZ",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312084"
   },
   {
     "id": "tm-def-leppard-2027-oklahoma-city-vvg1yz_fkymbmf",
@@ -1469,7 +1677,7 @@
     "ticketmaster_event_id": "0C006541B9BBAB88",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-oklahoma-city-oklahoma-06-03-2027/event/0C006541B9BBAB88",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-oklahoma-city-paycom-center-6-3-2027--concerts-rock/production/7672095",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-oklahoma-city-oklahoma-06-03-2027/event/0C006541B9BBAB88",
     "last_verified_at": null,
@@ -1491,11 +1699,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672095,
+        "url": "https://www.vividseats.com/def-leppard-tickets-oklahoma-city-paycom-center-6-3-2027--concerts-rock/production/7672095",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1503,12 +1711,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312086",
+        "url": "https://www.ticketnetwork.com/en/p/8312086",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_fkymBmF",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312086"
   },
   {
     "id": "tm-def-leppard-2027-milwaukee-vv1a6zk4kgkd_k6yp",
@@ -1523,7 +1739,7 @@
     "ticketmaster_event_id": "07006546D9187E56",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-milwaukee-wisconsin-06-05-2027/event/07006546D9187E56",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-milwaukee-fiserv-forum-6-5-2027--concerts-rock/production/7672107",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-milwaukee-wisconsin-06-05-2027/event/07006546D9187E56",
     "last_verified_at": null,
@@ -1545,11 +1761,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672107,
+        "url": "https://www.vividseats.com/def-leppard-tickets-milwaukee-fiserv-forum-6-5-2027--concerts-rock/production/7672107",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1557,12 +1773,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312087",
+        "url": "https://www.ticketnetwork.com/en/p/8312087",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk4kGkd_k6yp",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312087"
   },
   {
     "id": "tm-def-leppard-2027-saint-louis-vv1kvovp8tga1iyft",
@@ -1631,7 +1855,7 @@
     "ticketmaster_event_id": "160065468AA335AD",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-louisville-kentucky-06-09-2027/event/160065468AA335AD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-louisville-kfc-yum-center-6-9-2027--concerts-rock/production/7672127",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-louisville-kentucky-06-09-2027/event/160065468AA335AD",
     "last_verified_at": null,
@@ -1653,11 +1877,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672127,
+        "url": "https://www.vividseats.com/def-leppard-tickets-louisville-kfc-yum-center-6-9-2027--concerts-rock/production/7672127",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1665,12 +1889,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312089",
+        "url": "https://www.ticketnetwork.com/en/p/8312089",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAOvPoIGA1ISpc",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312089"
   },
   {
     "id": "tm-def-leppard-2027-savannah-vvg1zz_fqp5bwn",
@@ -1685,7 +1917,7 @@
     "ticketmaster_event_id": "0E006546962D8CA3",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-savannah-georgia-06-11-2027/event/0E006546962D8CA3",
     "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/savannah-georgia-enmarket-arena-2027-06-11-7-pm/concert/18662435",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-savannah-enmarket-arena-6-11-2027--concerts-rock/production/7672135",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-savannah-georgia-06-11-2027/event/0E006546962D8CA3",
     "last_verified_at": null,
@@ -1700,18 +1932,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662435,
+        "url": "https://seatgeek.com/def-leppard-tickets/savannah-georgia-enmarket-arena-2027-06-11-7-pm/concert/18662435",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672135,
+        "url": "https://www.vividseats.com/def-leppard-tickets-savannah-enmarket-arena-6-11-2027--concerts-rock/production/7672135",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1719,12 +1951,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312090",
+        "url": "https://www.ticketnetwork.com/en/p/8312090",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_fQp5bwN",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312090"
   },
   {
     "id": "tm-def-leppard-2027-tampa-vvg1vz_fpw01di",
@@ -1739,7 +1979,7 @@
     "ticketmaster_event_id": "0D006545BD90A0E8",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-tampa-florida-06-13-2027/event/0D006545BD90A0E8",
     "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/tampa-florida-benchmark-international-arena-2027-06-13-7-pm/concert/18662437",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-tampa-benchmark-international-arena-6-13-2027--concerts-rock/production/7672149",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-tampa-florida-06-13-2027/event/0D006545BD90A0E8",
     "last_verified_at": null,
@@ -1754,18 +1994,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662437,
+        "url": "https://seatgeek.com/def-leppard-tickets/tampa-florida-benchmark-international-arena-2027-06-13-7-pm/concert/18662437",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672149,
+        "url": "https://www.vividseats.com/def-leppard-tickets-tampa-benchmark-international-arena-6-13-2027--concerts-rock/production/7672149",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1773,12 +2013,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312091",
+        "url": "https://www.ticketnetwork.com/en/p/8312091",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fpW01dI",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312091"
   },
   {
     "id": "tm-def-leppard-2027-atlanta-vvg1zz_fpttjci",
@@ -1793,7 +2041,7 @@
     "ticketmaster_event_id": "0E006545BFFDC3AC",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-atlanta-georgia-06-17-2027/event/0E006545BFFDC3AC",
     "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/atlanta-georgia-state-farm-arena-1-2027-06-17-7-pm/concert/18662442",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-atlanta-state-farm-arena-6-17-2027--concerts-rock/production/7672155",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-atlanta-georgia-06-17-2027/event/0E006545BFFDC3AC",
     "last_verified_at": null,
@@ -1808,18 +2056,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662442,
+        "url": "https://seatgeek.com/def-leppard-tickets/atlanta-georgia-state-farm-arena-1-2027-06-17-7-pm/concert/18662442",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672155,
+        "url": "https://www.vividseats.com/def-leppard-tickets-atlanta-state-farm-arena-6-17-2027--concerts-rock/production/7672155",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1827,12 +2075,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312092",
+        "url": "https://www.ticketnetwork.com/en/p/8312092",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_fpTTjCi",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312092"
   },
   {
     "id": "tm-def-leppard-2027-columbus-vv1aazk4kgkdpgu4v",
@@ -1847,7 +2103,7 @@
     "ticketmaster_event_id": "05006546E5D4D541",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-columbus-ohio-06-19-2027/event/05006546E5D4D541",
     "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2027-06-19-7-pm/concert/18662443",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-columbus-value-city-arena-at-schottenstein-center-6-19-2027--concerts-rock/production/7672161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-columbus-ohio-06-19-2027/event/05006546E5D4D541",
     "last_verified_at": null,
@@ -1862,18 +2118,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662443,
+        "url": "https://seatgeek.com/def-leppard-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2027-06-19-7-pm/concert/18662443",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672161,
+        "url": "https://www.vividseats.com/def-leppard-tickets-columbus-value-city-arena-at-schottenstein-center-6-19-2027--concerts-rock/production/7672161",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1881,12 +2137,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312093",
+        "url": "https://www.ticketnetwork.com/en/p/8312093",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4kGkdPgu4v",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312093"
   },
   {
     "id": "tm-def-leppard-2027-new-york-g5diz_fkxvp6l",
@@ -1901,7 +2165,7 @@
     "ticketmaster_event_id": "3B006544E20651DF",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-new-york-new-york-06-23-2027/event/3B006544E20651DF",
     "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/new-york-new-york-madison-square-garden-2027-06-23-7-pm/concert/18662446",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-new-york-madison-square-garden-6-23-2027--concerts-rock/production/7672195",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-new-york-new-york-06-23-2027/event/3B006544E20651DF",
     "last_verified_at": null,
@@ -1916,18 +2180,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662446,
+        "url": "https://seatgeek.com/def-leppard-tickets/new-york-new-york-madison-square-garden-2027-06-23-7-pm/concert/18662446",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672195,
+        "url": "https://www.vividseats.com/def-leppard-tickets-new-york-madison-square-garden-6-23-2027--concerts-rock/production/7672195",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1935,12 +2199,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312095",
+        "url": "https://www.ticketnetwork.com/en/p/8312095",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_fKxvP6L",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312095"
   },
   {
     "id": "tm-def-leppard-2027-uncasville-g5vvz_fbgzjmo",
@@ -1955,7 +2227,7 @@
     "ticketmaster_event_id": "1D0065460C026BA0",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-uncasville-connecticut-06-25-2027/event/1D0065460C026BA0",
     "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/uncasville-connecticut-mohegan-sun-arena-2027-06-25-7-pm/concert/18662447",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-uncasville-mohegan-sun-arena-ct-6-25-2027--concerts-rock/production/7672206",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-uncasville-connecticut-06-25-2027/event/1D0065460C026BA0",
     "last_verified_at": null,
@@ -1970,18 +2242,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662447,
+        "url": "https://seatgeek.com/def-leppard-tickets/uncasville-connecticut-mohegan-sun-arena-2027-06-25-7-pm/concert/18662447",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672206,
+        "url": "https://www.vividseats.com/def-leppard-tickets-uncasville-mohegan-sun-arena-ct-6-25-2027--concerts-rock/production/7672206",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1989,12 +2261,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312096",
+        "url": "https://www.ticketnetwork.com/en/p/8312096",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_fbGZJmO",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312096"
   },
   {
     "id": "tm-def-leppard-2027-philadelphia-1ayzk4agkeprd7q",
@@ -2009,7 +2289,7 @@
     "ticketmaster_event_id": "30006545A5BC311A",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-philadelphia-pennsylvania-06-27-2027/event/30006545A5BC311A",
     "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-06-27-7-pm/concert/18662449",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-philadelphia-xfinity-mobile-arena-6-27-2027--concerts-rock/production/7672212",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-philadelphia-pennsylvania-06-27-2027/event/30006545A5BC311A",
     "last_verified_at": null,
@@ -2024,18 +2304,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662449,
+        "url": "https://seatgeek.com/def-leppard-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-06-27-7-pm/concert/18662449",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672212,
+        "url": "https://www.vividseats.com/def-leppard-tickets-philadelphia-xfinity-mobile-arena-6-27-2027--concerts-rock/production/7672212",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2043,12 +2323,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312097",
+        "url": "https://www.ticketnetwork.com/en/p/8312097",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4AGkePRd7Q",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312097"
   },
   {
     "id": "tm-def-leppard-2027-charlotte-g5evz_fps2umn",
@@ -2063,7 +2351,7 @@
     "ticketmaster_event_id": "2D006545B33CDBA3",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-charlotte-north-carolina-06-30-2027/event/2D006545B33CDBA3",
     "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-06-30-7-pm/concert/18662452",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-charlotte-spectrum-center-6-30-2027--concerts-rock/production/7672220",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-charlotte-north-carolina-06-30-2027/event/2D006545B33CDBA3",
     "last_verified_at": null,
@@ -2078,18 +2366,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662452,
+        "url": "https://seatgeek.com/def-leppard-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-06-30-7-pm/concert/18662452",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672220,
+        "url": "https://www.vividseats.com/def-leppard-tickets-charlotte-spectrum-center-6-30-2027--concerts-rock/production/7672220",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2097,12 +2385,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312098",
+        "url": "https://www.ticketnetwork.com/en/p/8312098",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fpS2umN",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312098"
   },
   {
     "id": "tm-def-leppard-2027-indianapolis-vv1kv8vp8_ga1mpgy",
@@ -2117,7 +2413,7 @@
     "ticketmaster_event_id": "050065419ABA5D79",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-indianapolis-indiana-07-02-2027/event/050065419ABA5D79",
     "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/indianapolis-indiana-gainbridge-fieldhouse-2027-07-02-7-pm/concert/18662454",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-indianapolis-gainbridge-fieldhouse-7-2-2027--concerts-rock/production/7672228",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-indianapolis-indiana-07-02-2027/event/050065419ABA5D79",
     "last_verified_at": null,
@@ -2132,18 +2428,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662454,
+        "url": "https://seatgeek.com/def-leppard-tickets/indianapolis-indiana-gainbridge-fieldhouse-2027-07-02-7-pm/concert/18662454",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672228,
+        "url": "https://www.vividseats.com/def-leppard-tickets-indianapolis-gainbridge-fieldhouse-7-2-2027--concerts-rock/production/7672228",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2151,11 +2447,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312099",
+        "url": "https://www.ticketnetwork.com/en/p/8312099",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vP8_GA1mPgy",
     "timezone": "America/Indiana/Indianapolis",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312099"
   }
 ]

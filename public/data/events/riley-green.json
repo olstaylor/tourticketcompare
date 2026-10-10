@@ -255,7 +255,7 @@
     "tour_name": "That's Just Me Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeZrp",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZrp",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/riley-green-tickets/spokane-washington-numerica-veterans-arena-2027-04-01-7-pm/concert/18626511",
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-spokane-numerica-veterans-arena-4-1-2027/production/7618130",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZrp",
@@ -271,11 +271,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626511,
+        "url": "https://seatgeek.com/riley-green-tickets/spokane-washington-numerica-veterans-arena-2027-04-01-7-pm/concert/18626511",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618130,
@@ -340,11 +340,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626514,
+        "url": "https://seatgeek.com/riley-green-tickets/seattle-washington-climate-pledge-arena-2027-04-02-7-pm/concert/18626514",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618128,
@@ -1679,7 +1679,7 @@
     "tour_name": "That's Just Me Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeF_Z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeF_Z",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/riley-green-tickets/mount-pleasant-michigan-soaring-eagle-casino-resort-2027-06-10-7-pm/concert/18626567",
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-mount-pleasant-soaring-eagle-casino-and-resort-6-10-2027/production/7618638",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeF_Z",
@@ -1695,11 +1695,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626567,
+        "url": "https://seatgeek.com/riley-green-tickets/mount-pleasant-michigan-soaring-eagle-casino-resort-2027-06-10-7-pm/concert/18626567",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618638,
@@ -2750,11 +2750,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18626554,
+        "url": "https://seatgeek.com/riley-green-tickets/milwaukee-wisconsin-american-family-insurance-amphitheater-summerfest-grounds-2027-07-31-7-pm/concert/18626554",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7618510,

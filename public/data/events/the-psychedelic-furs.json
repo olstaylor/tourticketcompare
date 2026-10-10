@@ -185,7 +185,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "07006521911B20A2",
     "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-w-special-guest-waukegan-illinois-04-01-2027/event/07006521911B20A2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-psychedelic-furs-tickets/waukegan-illinois-genesee-theatre-2027-04-01-7-30-pm/concert/18592664",
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-waukegan-genesee-theatre-4-1-2027--concerts-pop/production/7558897",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-w-special-guest-waukegan-illinois-04-01-2027/event/07006521911B20A2",
@@ -201,11 +201,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18592664,
+        "url": "https://seatgeek.com/the-psychedelic-furs-tickets/waukegan-illinois-genesee-theatre-2027-04-01-7-30-pm/concert/18592664",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7558897,
@@ -540,7 +540,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1500651FDC80B021",
     "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-baltimore-maryland-04-23-2027/event/1500651FDC80B021",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-psychedelic-furs-tickets/baltimore-maryland-nevermore-hall-2027-04-23-8-pm/concert/18592681",
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-baltimore-nevermore-hall-4-23-2027--concerts-pop/production/7558977",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-baltimore-maryland-04-23-2027/event/1500651FDC80B021",
@@ -556,11 +556,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18592681,
+        "url": "https://seatgeek.com/the-psychedelic-furs-tickets/baltimore-maryland-nevermore-hall-2027-04-23-8-pm/concert/18592681",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7558977,
@@ -668,7 +668,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1D00652A1FB5A077",
     "ticketmaster_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-red-bank-new-jersey-04-27-2027/event/1D00652A1FB5A077",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-psychedelic-furs-tickets/red-bank-new-jersey-hackensack-meridian-health-theatre-at-count-basie-center-2027-04-27-7-30-pm/concert/18592682",
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-red-bank-hackensack-meridian-health-theatre-at-the-count-basie-center-4-27-2027--concerts-pop/production/7559009",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-red-bank-new-jersey-04-27-2027/event/1D00652A1FB5A077",
@@ -684,11 +684,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18592682,
+        "url": "https://seatgeek.com/the-psychedelic-furs-tickets/red-bank-new-jersey-hackensack-meridian-health-theatre-at-count-basie-center-2027-04-27-7-30-pm/concert/18592682",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7559009,

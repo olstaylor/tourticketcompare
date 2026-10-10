@@ -254,9 +254,11 @@ export function assertNoPersonalColumns(sql) {
 }
 
 // Qualified server receipts are explicitly versioned in metadata. This keeps
-// old, unqualified rows out of a rolling report window after the fetch-user
+// old, unqualified rows out of a rolling report window after the qualification
 // gate was deployed; the report must never silently combine the populations.
-const receiptQualification = (alias = "") => `json_extract(${alias ? `${alias}.` : ""}metadata_json, '$.receiptQualification') = 'fetch_user_v1'`;
+// fetch_user_v1 (Sec-Fetch-User only) silently dropped iOS Safari new-tab
+// clicks; user_navigation_v2 also accepts a same-origin navigation.
+const receiptQualification = (alias = "") => `json_extract(${alias ? `${alias}.` : ""}metadata_json, '$.receiptQualification') IN ('fetch_user_v1', 'user_navigation_v2')`;
 const RECEIPT_QUALIFICATION = receiptQualification();
 const SERVER_RECEIPT_EVENTS = "event_name IN ('outbound_attempt', 'outbound_click', 'outbound_blocked')";
 const QUALIFIED_SERVER_RECEIPT = `(${SERVER_RECEIPT_EVENTS} AND ${RECEIPT_QUALIFICATION})`;

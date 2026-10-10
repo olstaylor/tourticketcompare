@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977875",
+        "url": "https://www.ticketnetwork.com/en/p/7977875",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70U7S",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977875"
   },
   {
     "id": "tm-mico-2026-portland-z7r9jz1a70i8e",
@@ -65,7 +73,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70I8E",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I8E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-portland-wonder-ballroom-10-11-2026/production/7049590",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I8E",
     "last_verified_at": null,
@@ -87,11 +95,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049590,
+        "url": "https://www.vividseats.com/mico-tickets-portland-wonder-ballroom-10-11-2026/production/7049590",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7978069",
+        "url": "https://www.ticketnetwork.com/en/p/7978069",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70I8E",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978069"
   },
   {
     "id": "tm-mico-2026-san-francisco-z7r9jz1a70i80",
@@ -118,7 +134,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70I80",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I80",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-san-francisco-the-regency-ballroom-10-13-2026/production/7049586",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I80",
     "last_verified_at": null,
@@ -140,11 +156,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049586,
+        "url": "https://www.vividseats.com/mico-tickets-san-francisco-the-regency-ballroom-10-13-2026/production/7049586",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977876",
+        "url": "https://www.ticketnetwork.com/en/p/7977876",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70I80",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977876"
   },
   {
     "id": "tm-mico-2026-los-angeles-z7r9jz1a70uao",
@@ -171,7 +195,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70UAO",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UAO",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-los-angeles-fonda-theatre-10-15-2026/production/7049607",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UAO",
     "last_verified_at": null,
@@ -193,11 +217,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049607,
+        "url": "https://www.vividseats.com/mico-tickets-los-angeles-fonda-theatre-10-15-2026/production/7049607",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977877",
+        "url": "https://www.ticketnetwork.com/en/p/7977877",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70UAO",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977877"
   },
   {
     "id": "tm-mico-2026-los-angeles-z7r9jz1a70ua4",
@@ -224,7 +256,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70UA4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UA4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-los-angeles-fonda-theatre-10-16-2026/production/7062189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UA4",
     "last_verified_at": null,
@@ -246,11 +278,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7062189,
+        "url": "https://www.vividseats.com/mico-tickets-los-angeles-fonda-theatre-10-16-2026/production/7062189",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -258,11 +290,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8005895",
+        "url": "https://www.ticketnetwork.com/en/p/8005895",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70UA4",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8005895"
   },
   {
     "id": "tm-mico-2026-las-vegas-17ayv0g61m2w1ya",
@@ -277,7 +317,7 @@
     "ticketmaster_event_id": "170064ADCFF4AC09",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-las-vegas-nevada-10-17-2026/event/170064ADCFF4AC09",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-las-vegas-house-of-blues-las-vegas-10-17-2026/production/7049182",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-las-vegas-nevada-10-17-2026/event/170064ADCFF4AC09",
     "last_verified_at": null,
@@ -299,11 +339,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049182,
+        "url": "https://www.vividseats.com/mico-tickets-las-vegas-house-of-blues-las-vegas-10-17-2026/production/7049182",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -311,11 +351,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977760",
+        "url": "https://www.ticketnetwork.com/en/p/7977760",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G61M2W1Ya",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977760"
   },
   {
     "id": "tm-mico-2026-san-diego-vvg1iz_1uivzmh",
@@ -330,7 +378,7 @@
     "ticketmaster_event_id": "0A0064ADACD38DDB",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-san-diego-california-10-19-2026/event/0A0064ADACD38DDB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-san-diego-house-of-blues-san-diego-10-19-2026/production/7049214",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-san-diego-california-10-19-2026/event/0A0064ADACD38DDB",
     "last_verified_at": null,
@@ -352,11 +400,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049214,
+        "url": "https://www.vividseats.com/mico-tickets-san-diego-house-of-blues-san-diego-10-19-2026/production/7049214",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -364,11 +412,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977763",
+        "url": "https://www.ticketnetwork.com/en/p/7977763",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_1UiVzMh",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977763"
   },
   {
     "id": "tm-mico-2026-tucson-z7r9jz1a70ioy",
@@ -383,7 +439,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70Ioy",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ioy",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-tucson-la-rosa-10-20-2026/production/7049597",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ioy",
     "last_verified_at": null,
@@ -405,11 +461,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049597,
+        "url": "https://www.vividseats.com/mico-tickets-tucson-la-rosa-10-20-2026/production/7049597",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -417,11 +473,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7978070",
+        "url": "https://www.ticketnetwork.com/en/p/7978070",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Ioy",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978070"
   },
   {
     "id": "tm-mico-2026-dallas-vvg1yz_1tobhle",
@@ -436,7 +500,7 @@
     "ticketmaster_event_id": "0C0064AFD1EBCAE7",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-dallas-texas-10-22-2026/event/0C0064AFD1EBCAE7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-dallas-the-echo-lounge-and-music-hall-10-22-2026/production/7049206",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-dallas-texas-10-22-2026/event/0C0064AFD1EBCAE7",
     "last_verified_at": null,
@@ -458,11 +522,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049206,
+        "url": "https://www.vividseats.com/mico-tickets-dallas-the-echo-lounge-and-music-hall-10-22-2026/production/7049206",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -470,11 +534,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977770",
+        "url": "https://www.ticketnetwork.com/en/p/7977770",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1ToBHlE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977770"
   },
   {
     "id": "tm-mico-2026-austin-g5diz_1wd9gll",
@@ -489,7 +561,7 @@
     "ticketmaster_event_id": "3A0064ACBB5CC7DF",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-austin-texas-10-23-2026/event/3A0064ACBB5CC7DF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-austin-scoot-inn-10-23-2026/production/7049125",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-austin-texas-10-23-2026/event/3A0064ACBB5CC7DF",
     "last_verified_at": null,
@@ -511,11 +583,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049125,
+        "url": "https://www.vividseats.com/mico-tickets-austin-scoot-inn-10-23-2026/production/7049125",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -523,11 +595,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977765",
+        "url": "https://www.ticketnetwork.com/en/p/7977765",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1wD9GLL",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977765"
   },
   {
     "id": "tm-mico-2026-houston-g5diz_1ucylhw",
@@ -542,7 +622,7 @@
     "ticketmaster_event_id": "3A0064ADADC2B6F2",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-houston-texas-10-24-2026/event/3A0064ADADC2B6F2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-houston-white-oak-music-hall---downstairs-10-24-2026/production/7049246",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-houston-texas-10-24-2026/event/3A0064ADADC2B6F2",
     "last_verified_at": null,
@@ -564,11 +644,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049246,
+        "url": "https://www.vividseats.com/mico-tickets-houston-white-oak-music-hall---downstairs-10-24-2026/production/7049246",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -576,11 +656,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977767",
+        "url": "https://www.ticketnetwork.com/en/p/7977767",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1UcYlhw",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977767"
   },
   {
     "id": "tm-mico-2026-nashville-g5viz_1mfi-bc",
@@ -595,7 +683,7 @@
     "ticketmaster_event_id": "1B0064ADD4A2160E",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-nashville-tennessee-10-26-2026/event/1B0064ADD4A2160E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-nashville-brooklyn-bowl---nashville-10-26-2026/production/7049234",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-nashville-tennessee-10-26-2026/event/1B0064ADD4A2160E",
     "last_verified_at": null,
@@ -617,11 +705,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049234,
+        "url": "https://www.vividseats.com/mico-tickets-nashville-brooklyn-bowl---nashville-10-26-2026/production/7049234",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -629,11 +717,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977769",
+        "url": "https://www.ticketnetwork.com/en/p/7977769",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_1MfI-bC",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977769"
   },
   {
     "id": "tm-mico-2026-atlanta-vvg1zz_1d2p0tb",
@@ -648,7 +744,7 @@
     "ticketmaster_event_id": "0E0064AECF5A4FD8",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-atlanta-georgia-10-27-2026/event/0E0064AECF5A4FD8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-atlanta-the-masquerade---heaven-10-27-2026/production/7049202",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-atlanta-georgia-10-27-2026/event/0E0064AECF5A4FD8",
     "last_verified_at": null,
@@ -670,11 +766,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049202,
+        "url": "https://www.vividseats.com/mico-tickets-atlanta-the-masquerade---heaven-10-27-2026/production/7049202",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -735,11 +831,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977761",
+        "url": "https://www.ticketnetwork.com/en/p/7977761",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61Sa7y8c",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977761"
   },
   {
     "id": "tm-mico-2026-new-york-z7r9jz1a70u7_",
@@ -754,7 +858,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70U7_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70U7_",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-new-york-webster-hall-10-30-2026--concerts-rock/production/7049299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70U7_",
     "last_verified_at": null,
@@ -776,11 +880,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049299,
+        "url": "https://www.vividseats.com/mico-tickets-new-york-webster-hall-10-30-2026--concerts-rock/production/7049299",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -788,11 +892,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977878",
+        "url": "https://www.ticketnetwork.com/en/p/7977878",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70U7_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977878"
   },
   {
     "id": "tm-mico-2026-brooklyn-z7r9jz1a70uez",
@@ -807,7 +919,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70UeZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UeZ",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-brooklyn-music-hall-of-williamsburg-10-31-2026/production/7049601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UeZ",
     "last_verified_at": null,
@@ -829,11 +941,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049601,
+        "url": "https://www.vividseats.com/mico-tickets-brooklyn-music-hall-of-williamsburg-10-31-2026/production/7049601",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -841,11 +953,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977870",
+        "url": "https://www.ticketnetwork.com/en/p/7977870",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70UeZ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977870"
   },
   {
     "id": "tm-mico-2026-boston-vvg17z_1mkpkh2",
@@ -860,7 +980,7 @@
     "ticketmaster_event_id": "010064ADC6946F0F",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-boston-massachusetts-11-02-2026/event/010064ADC6946F0F",
     "seatgeek_url": "https://seatgeek.com/mico-tickets/boston-massachusetts-paradise-rock-club-2026-11-02-7-pm/concert/18251753",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-boston-paradise-rock-club-11-2-2026/production/7049127",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-running-from-a-feeling-tour-boston-massachusetts-11-02-2026/event/010064ADC6946F0F",
     "last_verified_at": null,
@@ -882,11 +1002,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7049127,
+        "url": "https://www.vividseats.com/mico-tickets-boston-paradise-rock-club-11-2-2026/production/7049127",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -894,11 +1014,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977758",
+        "url": "https://www.ticketnetwork.com/en/p/7977758",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1MkPkH2",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977758"
   },
   {
     "id": "tm-mico-2026-providence-z7r9jz1a7p0b9",
@@ -913,7 +1041,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7P0b9",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0b9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-providence-fete-music-hall-11-3-2026/production/7165689",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0b9",
     "last_verified_at": null,
@@ -935,11 +1063,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7165689,
+        "url": "https://www.vividseats.com/mico-tickets-providence-fete-music-hall-11-3-2026/production/7165689",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -966,7 +1094,7 @@
     "ticketmaster_event_id": "31006506924B56FB",
     "ticketmaster_url": "https://www.ticketmaster.ca/mico-montreal-quebec-11-05-2026/event/31006506924B56FB",
     "seatgeek_url": "https://seatgeek.com/mico-tickets/montreal-canada-mtelus-2026-11-05-8-pm/concert/18472169",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-montreal-mtelus-11-5-2026/production/7411491",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/mico-montreal-quebec-11-05-2026/event/31006506924B56FB",
     "last_verified_at": null,
@@ -988,11 +1116,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7411491,
+        "url": "https://www.vividseats.com/mico-tickets-montreal-mtelus-11-5-2026/production/7411491",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1000,11 +1128,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199474",
+        "url": "https://www.ticketnetwork.com/en/p/8199474",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16sZkfk00ZAGk68G",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199474"
   },
   {
     "id": "tm-mico-2026-toronto-177zv0g61sycnt1",
@@ -1429,12 +1565,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315048",
+        "url": "https://www.ticketnetwork.com/en/p/8315048",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fQQay6K",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315048"
   },
   {
     "id": "tm-mico-2027-charleston-g5evz_fxr2vbf",
@@ -1449,7 +1593,7 @@
     "ticketmaster_event_id": "2D006548AF3C1E94",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-inbetween-tour-charleston-south-carolina-02-21-2027/event/2D006548AF3C1E94",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-charleston-charleston-music-hall-2-21-2027/production/7679097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-charleston-south-carolina-02-21-2027/event/2D006548AF3C1E94",
     "last_verified_at": null,
@@ -1471,11 +1615,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679097,
+        "url": "https://www.vividseats.com/mico-tickets-charleston-charleston-music-hall-2-21-2027/production/7679097",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1591,12 +1735,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315051",
+        "url": "https://www.ticketnetwork.com/en/p/8315051",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fxbU9SQ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315051"
   },
   {
     "id": "tm-mico-2027-orlando-16efz_fbzg7m_te",
@@ -1611,7 +1763,7 @@
     "ticketmaster_event_id": "2200654600DD9A42",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-inbetween-tour-orlando-florida-02-27-2027/event/2200654600DD9A42",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-lake-buena-vista-house-of-blues-orlando-2-27-2027/production/7679204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-orlando-florida-02-27-2027/event/2200654600DD9A42",
     "last_verified_at": null,
@@ -1633,11 +1785,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679204,
+        "url": "https://www.vividseats.com/mico-tickets-lake-buena-vista-house-of-blues-orlando-2-27-2027/production/7679204",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1645,12 +1797,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315052",
+        "url": "https://www.ticketnetwork.com/en/p/8315052",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16eFZ_fbZG7M_te",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315052"
   },
   {
     "id": "tm-mico-2027-birmingham-1aozk4fgkdswfqm",
@@ -1699,12 +1859,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315053",
+        "url": "https://www.ticketnetwork.com/en/p/8315053",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4FGkdSwFqm",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315053"
   },
   {
     "id": "tm-mico-2027-new-orleans-g5viz_f97lnal",
@@ -1719,7 +1887,7 @@
     "ticketmaster_event_id": "1B006545C4AE315F",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-inbetween-tour-new-orleans-louisiana-03-02-2027/event/1B006545C4AE315F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mico-tickets-new-orleans-house-of-blues-new-orleans-3-2-2027/production/7679270",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-inbetween-tour-new-orleans-louisiana-03-02-2027/event/1B006545C4AE315F",
     "last_verified_at": null,
@@ -1741,11 +1909,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679270,
+        "url": "https://www.vividseats.com/mico-tickets-new-orleans-house-of-blues-new-orleans-3-2-2027/production/7679270",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1753,12 +1921,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315055",
+        "url": "https://www.ticketnetwork.com/en/p/8315055",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f97lNAL",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315055"
   },
   {
     "id": "tm-mico-2027-indianapolis-vv1aazk4kgkenppel",
@@ -1807,12 +1983,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315056",
+        "url": "https://www.ticketnetwork.com/en/p/8315056",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4kGkeNppeL",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315056"
   },
   {
     "id": "tm-mico-2027-cincinnati-1apzk47gkdey9ag",

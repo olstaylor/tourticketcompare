@@ -2442,5 +2442,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239106",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239106/TobyMac-tickets-Sun-Mar-21-2027-BOK-Center"
+  },
+  {
+    "id": "tm-tobymac-2027-sioux-falls-vv1akzkg_gkd7w414",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Sioux Falls",
+    "country": "United States Of America",
+    "venue": "Denny Sanford PREMIER Center",
+    "datetime_iso": "2027-03-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006319C4C95295",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-sioux-falls-south-dakota-03-16-2027/event/06006319C4C95295",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-sioux-falls-south-dakota-03-16-2027/event/06006319C4C95295",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006319C4C95295",
+        "discovery_event_id": "vv1AkZkG_Gkd7w414",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-sioux-falls-south-dakota-03-16-2027/event/06006319C4C95295",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkG_Gkd7w414",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

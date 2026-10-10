@@ -2375,5 +2375,164 @@
     "ticketmaster_discovery_event_id": "1AbZkfUGkd8WL5u",
     "timezone": "Europe/London",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2026-phoenix-rz7hnez1afk4vf",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "AMBLE",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Crescent Ballroom",
+    "datetime_iso": "2026-10-23T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14195054",
+    "ticketmaster_url": "https://www.ticketweb.com/event/amble-crescent-ballroom-tickets/14195054",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/amble-crescent-ballroom-tickets/14195054",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14195054",
+        "discovery_event_id": "rZ7HnEZ1Afk4vf",
+        "url": "https://www.ticketweb.com/event/amble-crescent-ballroom-tickets/14195054",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1Afk4vf",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2027-vienna-z698xz5rz1kburk7p",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble - Europe 2027",
+    "city": "Vienna",
+    "country": "Austria",
+    "venue": "Arena Wien",
+    "datetime_iso": "2027-02-16T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "636793125",
+    "ticketmaster_url": "https://www.ticketmaster.at/event/amble-europe-2027-tickets/636793125?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.at/event/amble-europe-2027-tickets/636793125?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "636793125",
+        "discovery_event_id": "Z698xZ5rZ1kbUrK7P",
+        "url": "https://www.ticketmaster.at/event/amble-europe-2027-tickets/636793125?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ5rZ1kbUrK7P",
+    "timezone": "Europe/Vienna",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-amble-2027-praha-5-z698xzu0z1kje4u8k",
+    "artist_slug": "amble",
+    "artist_name": "Amble",
+    "event_name": "Amble",
+    "city": "Praha 5",
+    "country": "Czech Republic",
+    "venue": "MeetFactory",
+    "datetime_iso": "2027-02-17T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "982576413",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/amble-tickets/982576413?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/amble-tickets/982576413?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "982576413",
+        "discovery_event_id": "Z698xZu0Z1kJe4U8K",
+        "url": "https://www.ticketmaster.cz/event/amble-tickets/982576413?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z1kJe4U8K",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
   }
 ]

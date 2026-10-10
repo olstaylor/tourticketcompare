@@ -2514,5 +2514,217 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303825",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303825/Fontaines-DC-tickets-Wed-Oct-13-2027-Red-Rocks-Amphitheatre",
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-morrison-tickets-10-13-2027/event/107672466"
+  },
+  {
+    "id": "tm-fontaines-d-c-2026-praha-7-z698xzu0z16vouudjv",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C. + support: Chalk",
+    "city": "Praha 7",
+    "country": "Czech Republic",
+    "venue": "Sportovní hala FORTUNA",
+    "datetime_iso": "2026-10-30T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1836343981",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/fontaines-dc--support-chalk-tickets/1836343981?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/fontaines-dc--support-chalk-tickets/1836343981?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1836343981",
+        "discovery_event_id": "Z698xZu0Z16vOUudJv",
+        "url": "https://www.ticketmaster.cz/event/fontaines-dc--support-chalk-tickets/1836343981?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z16vOUudJv",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2026-oslo-z698xzb_z16vftpojp",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C.",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Oslo Spektrum",
+    "datetime_iso": "2026-11-06T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1229960725",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/fontaines-dc-tickets/1229960725?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/fontaines-dc-tickets/1229960725?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1229960725",
+        "discovery_event_id": "Z698xZb_Z16vFtPOjP",
+        "url": "https://www.ticketmaster.no/event/fontaines-dc-tickets/1229960725?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16vFtPOjP",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-mexico-1av8z_ogku9epc3",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C.",
+    "city": "México",
+    "country": "Mexico",
+    "venue": "Pepsi Center",
+    "datetime_iso": "2027-03-25T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1400651D97096B52",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/fontaines-dc-mexico-24-03-2027/event/1400651D97096B52",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/fontaines-dc-mexico-24-03-2027/event/1400651D97096B52",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1400651D97096B52",
+        "discovery_event_id": "1Av8Z_oGkU9epc3",
+        "url": "https://www.ticketmaster.com.mx/fontaines-dc-mexico-24-03-2027/event/1400651D97096B52",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av8Z_oGkU9epc3",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-mexico-1av8z_ogkxugz79",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C.",
+    "city": "México",
+    "country": "Mexico",
+    "venue": "Pepsi Center",
+    "datetime_iso": "2027-03-26T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1400651FB6D78117",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/fontaines-dc-mexico-25-03-2027/event/1400651FB6D78117",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/fontaines-dc-mexico-25-03-2027/event/1400651FB6D78117",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1400651FB6D78117",
+        "discovery_event_id": "1Av8Z_oGkXUgz79",
+        "url": "https://www.ticketmaster.com.mx/fontaines-dc-mexico-25-03-2027/event/1400651FB6D78117",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av8Z_oGkXUgz79",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
   }
 ]

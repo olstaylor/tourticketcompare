@@ -1634,5 +1634,58 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110"
+  },
+  {
+    "id": "tm-the-warning-2027-ciudad-de-mexico-1afzkf4gkenopd9",
+    "artist_slug": "the-warning",
+    "artist_name": "The Warning",
+    "event_name": "The Warning - Everything's Falling World Tour",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2027-02-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006515AA456ED7",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/the-warning-everythings-falling-world-tour-ciudad-de-mexico-05-02-2027/event/14006515AA456ED7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/the-warning-everythings-falling-world-tour-ciudad-de-mexico-05-02-2027/event/14006515AA456ED7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006515AA456ED7",
+        "discovery_event_id": "1AfZkf4GkenopD9",
+        "url": "https://www.ticketmaster.com.mx/the-warning-everythings-falling-world-tour-ciudad-de-mexico-05-02-2027/event/14006515AA456ED7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZkf4GkenopD9",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
   }
 ]

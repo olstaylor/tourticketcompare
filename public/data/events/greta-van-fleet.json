@@ -5038,5 +5038,58 @@
         "end": "2027-07-24T03:55:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-greta-van-fleet-2027-praha-9-z698xzu0z1k0yg9c_",
+    "artist_slug": "greta-van-fleet",
+    "artist_name": "Greta Van Fleet",
+    "event_name": "Greta Van Fleet - Into The Beginning",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "venue": "O2 Arena",
+    "datetime_iso": "2027-05-22T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "930317399",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/greta-van-fleet-into-the-beginning-tickets/930317399?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/greta-van-fleet-into-the-beginning-tickets/930317399?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "930317399",
+        "discovery_event_id": "Z698xZu0Z1k0YG9C_",
+        "url": "https://www.ticketmaster.cz/event/greta-van-fleet-into-the-beginning-tickets/930317399?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z1k0YG9C_",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
   }
 ]

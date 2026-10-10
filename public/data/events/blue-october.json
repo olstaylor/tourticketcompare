@@ -4281,5 +4281,111 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957262"
+  },
+  {
+    "id": "tm-blue-october-2026-little-rock-rz7hnez1afr4pn",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Little Rock",
+    "country": "United States Of America",
+    "venue": "The Hall",
+    "datetime_iso": "2026-12-10T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14795963",
+    "ticketmaster_url": "https://www.ticketweb.com/event/blue-october-the-hall-tickets/14795963",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/blue-october-the-hall-tickets/14795963",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14795963",
+        "discovery_event_id": "rZ7HnEZ1Afr4PN",
+        "url": "https://www.ticketweb.com/event/blue-october-the-hall-tickets/14795963",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1Afr4PN",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-blue-october-2027-ventura-rz7hnez1af0ofn",
+    "artist_slug": "blue-october",
+    "artist_name": "Blue October",
+    "event_name": "Blue October",
+    "city": "Ventura",
+    "country": "United States Of America",
+    "venue": "Ventura Theater",
+    "datetime_iso": "2027-02-13T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14911223",
+    "ticketmaster_url": "https://www.ticketweb.com/event/blue-october-ventura-theater-tickets/14911223",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/blue-october-ventura-theater-tickets/14911223",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14911223",
+        "discovery_event_id": "rZ7HnEZ1Af0oFN",
+        "url": "https://www.ticketweb.com/event/blue-october-ventura-theater-tickets/14911223",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1Af0oFN",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

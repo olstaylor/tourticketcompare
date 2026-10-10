@@ -3003,5 +3003,275 @@
     "timezone": "Europe/Warsaw",
     "status": "announced",
     "public_onsale_at": "2026-10-16T08:00:00Z"
+  },
+  {
+    "id": "tm-nickelback-2027-zurich-z698xzu3z1kjt1pck",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "venue": "Hallenstadion",
+    "datetime_iso": "2027-06-20T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "729296386",
+    "ticketmaster_url": "https://www.ticketmaster.ch/event/nickelback-everything-under-the-sun-tour-tickets/729296386?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ch/event/nickelback-everything-under-the-sun-tour-tickets/729296386?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "729296386",
+        "discovery_event_id": "Z698xZu3Z1kjt1pCk",
+        "url": "https://www.ticketmaster.ch/event/nickelback-everything-under-the-sun-tour-tickets/729296386?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu3Z1kjt1pCk",
+    "timezone": "Europe/Zurich",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z"
+  },
+  {
+    "id": "tm-nickelback-2027-vienna-z698xz5rz16vz489ev",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Vienna",
+    "country": "Austria",
+    "venue": "Wiener Stadthalle - Halle D",
+    "datetime_iso": "2027-06-25T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1015417081",
+    "ticketmaster_url": "https://www.ticketmaster.at/event/nickelback-everything-under-the-sun-tour-tickets/1015417081?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.at/event/nickelback-everything-under-the-sun-tour-tickets/1015417081?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1015417081",
+        "discovery_event_id": "Z698xZ5rZ16vZ489ev",
+        "url": "https://www.ticketmaster.at/event/nickelback-everything-under-the-sun-tour-tickets/1015417081?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ5rZ16vZ489ev",
+    "timezone": "Europe/Vienna",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z"
+  },
+  {
+    "id": "tm-nickelback-2027-praha-9-z698xzu0z1kqvft7s",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "venue": "O2 Arena",
+    "datetime_iso": "2027-06-26T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "774529133",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/nickelback-everything-under-the-sun-tour-tickets/774529133?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/nickelback-everything-under-the-sun-tour-tickets/774529133?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "774529133",
+        "discovery_event_id": "Z698xZu0Z1kqVft7S",
+        "url": "https://www.ticketmaster.cz/event/nickelback-everything-under-the-sun-tour-tickets/774529133?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z1kqVft7S",
+    "timezone": "Europe/Prague",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z"
+  },
+  {
+    "id": "tm-nickelback-2027-helsinki-z698xz8kz16vqs7sfi",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Helsinki",
+    "country": "Finland",
+    "venue": "Veikkaus Arena",
+    "datetime_iso": "2027-07-07T14:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1771131528",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/nickelback-everything-under-the-sun-tour-tickets/1771131528?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.fi/event/nickelback-everything-under-the-sun-tour-tickets/1771131528?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1771131528",
+        "discovery_event_id": "Z698xZ8KZ16vqs7sfI",
+        "url": "https://www.ticketmaster.fi/event/nickelback-everything-under-the-sun-tour-tickets/1771131528?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ8KZ16vqs7sfI",
+    "timezone": "Europe/Helsinki",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T07:00:00Z"
+  },
+  {
+    "id": "tm-nickelback-2027-fornebu-z698xzb_z1an7vpy",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Fornebu",
+    "country": "Norway",
+    "venue": "Unity Arena",
+    "datetime_iso": "2027-07-09T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23134970",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/nickelback-everything-under-the-sun-tour-tickets/23134970?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/nickelback-everything-under-the-sun-tour-tickets/23134970?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23134970",
+        "discovery_event_id": "Z698xZb_Z1AN7VPY",
+        "url": "https://www.ticketmaster.no/event/nickelback-everything-under-the-sun-tour-tickets/23134970?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z1AN7VPY",
+    "timezone": "Europe/Oslo",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z"
   }
 ]

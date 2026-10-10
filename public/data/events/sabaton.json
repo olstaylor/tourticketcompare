@@ -942,5 +942,1118 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Ojz",
     "timezone": "America/Denver",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-dallas-vvg1yzbwnj2elc",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "South Side Ballroom",
+    "datetime_iso": "2026-11-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006328DC3C27CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-dallas-texas-11-06-2026/event/0C006328DC3C27CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-dallas-texas-11-06-2026/event/0C006328DC3C27CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006328DC3C27CE",
+        "discovery_event_id": "vvG1YZbwNj2eLC",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-dallas-texas-11-06-2026/event/0C006328DC3C27CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZbwNj2eLC",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-houston-g5dizbwlrp709",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2026-11-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00632ADE944917",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-houston-texas-11-07-2026/event/3A00632ADE944917",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-houston-texas-11-07-2026/event/3A00632ADE944917",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00632ADE944917",
+        "discovery_event_id": "G5dIZbwlrP709",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-houston-texas-11-07-2026/event/3A00632ADE944917",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZbwlrP709",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-san-antonio-z7r9jz1a7jk4v",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Boeing Center at Tech Port",
+    "datetime_iso": "2026-11-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7jK4V",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jK4V",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jK4V",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7jK4V",
+        "discovery_event_id": "Z7r9jZ1A7jK4V",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jK4V",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7jK4V",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-phoenix-1av0zbwgkrn_kuq",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2026-11-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900632BE3653D9A",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-phoenix-arizona-11-11-2026/event/1900632BE3653D9A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-phoenix-arizona-11-11-2026/event/1900632BE3653D9A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900632BE3653D9A",
+        "discovery_event_id": "1Av0ZbwGkRN_KUQ",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-phoenix-arizona-11-11-2026/event/1900632BE3653D9A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0ZbwGkRN_KUQ",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-wheatland-g5vyzbwpukkfz",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Wheatland",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Sacramento",
+    "datetime_iso": "2026-11-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006325B6186200",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-wheatland-california-11-14-2026/event/1C006325B6186200",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-wheatland-california-11-14-2026/event/1C006325B6186200",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006325B6186200",
+        "discovery_event_id": "G5vYZbwpUkkFZ",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-wheatland-california-11-14-2026/event/1C006325B6186200",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZbwpUkkFZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-salt-lake-city-g5vzzbwnvavqo",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Union",
+    "datetime_iso": "2026-11-18T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006328C1141760",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-salt-lake-city-utah-11-17-2026/event/1E006328C1141760",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-salt-lake-city-utah-11-17-2026/event/1E006328C1141760",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006328C1141760",
+        "discovery_event_id": "G5vzZbwNvAvqO",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-salt-lake-city-utah-11-17-2026/event/1E006328C1141760",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZbwNvAvqO",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-omaha-1aozkgigkedlvji",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Omaha",
+    "country": "United States Of America",
+    "venue": "Steelhouse Omaha",
+    "datetime_iso": "2026-11-21T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006328BBAC19A8",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-omaha-nebraska-11-20-2026/event/20006328BBAC19A8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-omaha-nebraska-11-20-2026/event/20006328BBAC19A8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006328BBAC19A8",
+        "discovery_event_id": "1AOZkGIGkeDlvJI",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-omaha-nebraska-11-20-2026/event/20006328BBAC19A8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZkGIGkeDlvJI",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-milwaukee-vv17jzbvgkusja2a",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Landmark Credit Union Live",
+    "datetime_iso": "2026-11-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700634DB37053C5",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-milwaukee-wisconsin-11-21-2026/event/0700634DB37053C5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-milwaukee-wisconsin-11-21-2026/event/0700634DB37053C5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700634DB37053C5",
+        "discovery_event_id": "vv17jZbVGkUSjA2A",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-milwaukee-wisconsin-11-21-2026/event/0700634DB37053C5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZbVGkUSjA2A",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-minneapolis-vv1akzkgtgkd2vkhk",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Armory",
+    "datetime_iso": "2026-11-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006329CFD13F06",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-minneapolis-minnesota-11-22-2026/event/06006329CFD13F06",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-minneapolis-minnesota-11-22-2026/event/06006329CFD13F06",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006329CFD13F06",
+        "discovery_event_id": "vv1AkZkGtGkd2VKHk",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-minneapolis-minnesota-11-22-2026/event/06006329CFD13F06",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkGtGkd2VKHk",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-chicago-vv178zbwgkltpkse",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Salt Shed Indoors (Shed)",
+    "datetime_iso": "2026-11-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400632AFF953C67",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-chicago-illinois-11-24-2026/event/0400632AFF953C67",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-chicago-illinois-11-24-2026/event/0400632AFF953C67",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400632AFF953C67",
+        "discovery_event_id": "vv178ZbwGklTPKsE",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-chicago-illinois-11-24-2026/event/0400632AFF953C67",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178ZbwGklTPKsE",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-waukee-1a-zkgtgkdjdyyw",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Waukee",
+    "country": "United States Of America",
+    "venue": "Vibrant Music Hall",
+    "datetime_iso": "2026-11-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "21006329DC0F0C3D",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-waukee-iowa-11-25-2026/event/21006329DC0F0C3D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-waukee-iowa-11-25-2026/event/21006329DC0F0C3D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "21006329DC0F0C3D",
+        "discovery_event_id": "1A-ZkGtGkdjdYYW",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-waukee-iowa-11-25-2026/event/21006329DC0F0C3D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A-ZkGtGkdjdYYW",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-saint-louis-1ae7zbwgkmsi8la",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Factory",
+    "datetime_iso": "2026-11-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2100632BB3A10AC9",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-saint-louis-missouri-11-27-2026/event/2100632BB3A10AC9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-saint-louis-missouri-11-27-2026/event/2100632BB3A10AC9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2100632BB3A10AC9",
+        "discovery_event_id": "1Ae7ZbwGkmSI8la",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-saint-louis-missouri-11-27-2026/event/2100632BB3A10AC9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae7ZbwGkmSI8la",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-cincinnati-1avbzbwgkn0vsnb",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "The Andrew J Brady Music Center",
+    "datetime_iso": "2026-11-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600632AA4D318FA",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-cincinnati-ohio-11-28-2026/event/1600632AA4D318FA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-cincinnati-ohio-11-28-2026/event/1600632AA4D318FA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600632AA4D318FA",
+        "discovery_event_id": "1AvbZbwGkn0VsNB",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-cincinnati-ohio-11-28-2026/event/1600632AA4D318FA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZbwGkn0VsNB",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-detroit-vv1afzkgpgkdnrjuw",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "The Fillmore Detroit",
+    "datetime_iso": "2026-11-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006325EA7A6DB2",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-detroit-michigan-11-29-2026/event/08006325EA7A6DB2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-detroit-michigan-11-29-2026/event/08006325EA7A6DB2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006325EA7A6DB2",
+        "discovery_event_id": "vv1AFZkGPGkdnrJUw",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-detroit-michigan-11-29-2026/event/08006325EA7A6DB2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZkGPGkdnrJUw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-boston-vv1a8vnaygac9fy1",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2026-12-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010063270E5C8C0A",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-boston-massachusetts-12-01-2026/event/010063270E5C8C0A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-boston-massachusetts-12-01-2026/event/010063270E5C8C0A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010063270E5C8C0A",
+        "discovery_event_id": "vv1A8vNaYGAC9FY1",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-boston-massachusetts-12-01-2026/event/010063270E5C8C0A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A8vNaYGAC9FY1",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-philadelphia-vv17fzbwgklacdxp",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "The Met Presented by Highmark",
+    "datetime_iso": "2026-12-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200632AC5B43896",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-philadelphia-pennsylvania-12-02-2026/event/0200632AC5B43896",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-philadelphia-pennsylvania-12-02-2026/event/0200632AC5B43896",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200632AC5B43896",
+        "discovery_event_id": "vv17FZbwGklAcdxp",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-philadelphia-pennsylvania-12-02-2026/event/0200632AC5B43896",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZbwGklAcdxp",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-virginia-beach-vv177zbwgklinzle",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Virginia Beach",
+    "country": "United States Of America",
+    "venue": "The Dome by Rutter Mills",
+    "datetime_iso": "2026-12-06T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100632AE88F87C2",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-virginia-beach-virginia-12-05-2026/event/0100632AE88F87C2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-virginia-beach-virginia-12-05-2026/event/0100632AE88F87C2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100632AE88F87C2",
+        "discovery_event_id": "vv177ZbwGklINzLe",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-virginia-beach-virginia-12-05-2026/event/0100632AE88F87C2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177ZbwGklINzLe",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-national-harbor-1a4zkgtgkdyjn0o",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "National Harbor",
+    "country": "United States Of America",
+    "venue": "The Theater at MGM National Harbor",
+    "datetime_iso": "2026-12-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006329F9723920",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-national-harbor-maryland-12-06-2026/event/15006329F9723920",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-national-harbor-maryland-12-06-2026/event/15006329F9723920",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006329F9723920",
+        "discovery_event_id": "1A4ZkGtGkdyjN0O",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-national-harbor-maryland-12-06-2026/event/15006329F9723920",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkGtGkdyjN0O",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2026-atlanta-vvg1zzbwjnkk6z",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton: Legends on Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Roxy",
+    "datetime_iso": "2026-12-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006329A34D31F8",
+    "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-atlanta-georgia-12-08-2026/event/0E006329A34D31F8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-atlanta-georgia-12-08-2026/event/0E006329A34D31F8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006329A34D31F8",
+        "discovery_event_id": "vvG1zZbwJNKK6z",
+        "url": "https://www.ticketmaster.com/sabaton-legends-on-tour-atlanta-georgia-12-08-2026/event/0E006329A34D31F8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZbwJNKK6z",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2027-praha-9-z698xzu0z1kggp0g_",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "Sabaton",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "venue": "O2 Arena",
+    "datetime_iso": "2027-05-02T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "335964319",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/sabaton-tickets/335964319?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/sabaton-tickets/335964319?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "335964319",
+        "discovery_event_id": "Z698xZu0Z1kGgP0G_",
+        "url": "https://www.ticketmaster.cz/event/sabaton-tickets/335964319?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z1kGgP0G_",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sabaton-2027-helsinki-z698xz8kz16vffuzea",
+    "artist_slug": "sabaton",
+    "artist_name": "Sabaton",
+    "event_name": "SABATON The Legendary Tour Part 2 - Europe 2027 | Legazy Seat Ticket",
+    "city": "Helsinki",
+    "country": "Finland",
+    "venue": "Veikkaus Arena",
+    "datetime_iso": "2027-05-08T14:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1214340089",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/sabaton-the-legendary-tour-part-2-europe-2027-%7C-legazy-seat-ticket-tickets/1214340089?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.fi/event/sabaton-the-legendary-tour-part-2-europe-2027-%7C-legazy-seat-ticket-tickets/1214340089?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1214340089",
+        "discovery_event_id": "Z698xZ8KZ16vFfuZea",
+        "url": "https://www.ticketmaster.fi/event/sabaton-the-legendary-tour-part-2-europe-2027-%7C-legazy-seat-ticket-tickets/1214340089?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ8KZ16vFfuZea",
+    "timezone": "Europe/Helsinki",
+    "status": "on-sale"
   }
 ]

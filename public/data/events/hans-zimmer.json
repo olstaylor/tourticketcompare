@@ -2379,5 +2379,58 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271012",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271012/Hans-Zimmer-tickets-Thu-Apr-1-2027-Cryptocom-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-los-angeles-tickets-4-1-2027/event/107669476"
+  },
+  {
+    "id": "tm-hans-zimmer-2026-abu-dhabi-z698xz52z16vb-f9q_",
+    "artist_slug": "hans-zimmer",
+    "artist_name": "Hans Zimmer",
+    "event_name": "Hans Zimmer Live",
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "venue": "Etihad Arena, Yas Island",
+    "datetime_iso": "2026-11-13T14:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1621217699",
+    "ticketmaster_url": "https://www.ticketmaster.ae/event/hans-zimmer-live-tickets/1621217699",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ae/event/hans-zimmer-live-tickets/1621217699",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1621217699",
+        "discovery_event_id": "Z698xZ52Z16vb-F9Q_",
+        "url": "https://www.ticketmaster.ae/event/hans-zimmer-live-tickets/1621217699",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ52Z16vb-F9Q_",
+    "timezone": "Asia/Dubai",
+    "status": "on-sale"
   }
 ]

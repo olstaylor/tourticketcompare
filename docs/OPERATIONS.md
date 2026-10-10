@@ -333,9 +333,9 @@ measured production usage or a claim that the quota incident is closed.
 | Nightly sync / `apply-tm-updates.mjs` | 2,083 | 0 normally; direct fallback/retries as needed |
 | New shows / `sync-tm-events-write-pr.mjs` → `sync-ticketmaster-events.py` | 93 (one attraction-events query per enabled verified identity) | 93 |
 | Roster candidates / `report-roster-forecast.mjs` + `propose-onboarding-batch.mjs` | ~330–840 | unchanged |
-| Auto-promote / same forecast + capture, `auto-promote.mjs` identity re-fetch + new-artist ingestion | ~330–840 + 0–25 | unchanged |
+| Auto-promote / same forecast + capture, `auto-promote.mjs` identity re-fetch + new-artist ingestion | ~330–840 + 0–30 | unchanged |
 | Price-guide candidates and other cache-only sensors | 0 Discovery calls | 0 |
-| **Scheduled fleet estimate, auto-promote on** | **~4,919–5,964** | **~2,836–3,881** |
+| **Scheduled fleet estimate, auto-promote on** | **~4,919–5,969** | **~2,836–3,886** |
 
 The **2,083-call saving** halves the tracked sweeps (about **35–42%** of the
 estimated scheduled fleet), adding headroom for discovery. Advancing the
@@ -356,7 +356,7 @@ include-past override on, today's two sweeps are 4,582 → 2,291.
 - `auto-promote.mjs` independently re-fetches captured attraction identities
   in the promotion job for every eligible screened candidate (same-job
   verification, up to 20 before the promotion cap); its new-artist ingestion
-  invokes the recogniser once per promoted artist (up to five). These
+  invokes the recogniser once per promoted artist (up to six, five event pages each). These
   independent verification/discovery calls remain mandatory.
 - `propose-artists.mjs`: manual proposal, an attraction search then one
   attraction-events query per matched name (plus diagnostic reachability and

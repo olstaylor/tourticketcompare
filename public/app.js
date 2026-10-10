@@ -4475,12 +4475,21 @@ document.addEventListener("click", (event) => {
   if (!provider) return;
   const showId = String(cta.dataset.ctaShowId || "").trim();
   const ctaLocation = String(cta.dataset.ctaLocation || "").trim();
+  // SeatGeek CTAs open the promo-code dialog (public/seatgeek-promo.js), whose
+  // Continue link then makes the same /api/out navigation.
+  const promo = window.ttcSeatGeekPromo;
+  const showPromo = Boolean(promo && promo.shouldIntercept(cta, event));
+  if (showPromo) event.preventDefault();
   // A double-click, or a click that bubbles through a nested tracked element,
   // is one intent and must produce one row. The authoritative count comes from
   // /api/out either way, but an inflated provider_click would distort the
   // CTA-click-to-redirect completion rate.
-  if (isDuplicateFunnelEvent(`provider_click:${provider}:${showId}:${ctaLocation}`, Date.now())) return;
+  if (isDuplicateFunnelEvent(`provider_click:${provider}:${showId}:${ctaLocation}`, Date.now())) {
+    if (showPromo) promo.open(cta, cta.getAttribute("href"));
+    return;
+  }
   const browserIntentId = attachBrowserIntent(cta, event);
+  if (showPromo) promo.open(cta, cta.getAttribute("href"));
   sendAnalytics("provider_click", {
     ...(browserIntentId ? { browserIntentId } : {}),
     provider,

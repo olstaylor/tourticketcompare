@@ -7680,8 +7680,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
-    '<script src="/app.js?v=20261009c" defer></script>',
-    '<script src="/shell.js?v=20261009a" defer></script>'
+    '<script src="/app.js?v=20261010s" defer></script>',
+    '<script src="/shell.js?v=20261010s" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed
   // without the visitor copying /blog/rss.xml from the page copy.

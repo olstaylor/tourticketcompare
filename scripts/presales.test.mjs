@@ -274,4 +274,17 @@ const text = (html) =>
   assert(JSON.stringify(projected.sales.presales) === JSON.stringify([{ name: "Card Presale", startDateTime: "2027-01-01T00:00:00Z", endDateTime: "2027-01-02T00:00:00Z" }]), "the shared snapshot never holds a code, description or link");
 }
 
+
+{
+  // Pages that already rank (artist-city, blog, city) link the presale page
+  // only for windows covering their own dates, with the same gate.
+  const { artistPresaleLead, presalesForShows } = await load("functions/[[path]].js");
+  const view = deriveArtistPresales(EVENTS, ARTIST.slug, NOW_MS);
+  const manchester = presalesForShows(view, new Set(["ps-man-2"]));
+  assert(manchester.windowCount === 1 && manchester.nextWindow?.name === SHARED.name && manchester.indexable, "a city sees only windows that cover its dates");
+  assert(artistPresaleLead("Oasis", manchester, NOW_MS).startsWith(`Oasis presale: ${SHARED.name} opens`), "the city line names the next window for its dates");
+  assert(artistPresaleLead("Oasis", presalesForShows(view, new Set(["ps-cdf-1"])), NOW_MS) === "", "a city with no window gets no presale line");
+  assert(artistPresaleLead("Oasis", { ...view, indexable: false }, NOW_MS) === "", "no line while the presale page is not indexable");
+}
+
 console.log(`presales: ${passed} assertions passed.`);

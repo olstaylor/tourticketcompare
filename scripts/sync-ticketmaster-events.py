@@ -100,6 +100,17 @@ PREMIUM_SEATS_VENUE_SUFFIX = " loge"
 # or "| Logen-Seat" (Loge = box). Name segment only, so "Box Seat Records" is
 # never withheld. Mirrors BOX_SEAT_NAME_RE in functions/_event-pages.js.
 BOX_SEAT_NAME_RE = re.compile(r"\|\s*(?:box|logen)[\s-]?seat\b", re.IGNORECASE)
+# Premium-tier listings Ticketmaster sells as separate events ("Venue Premium -
+# Rod Stewart", "Fontaines D.C. - Venue Premium Tickets", "Rod Stewart -
+# Premium Priced Seats/Seating"). Owner decision 2026-10-09: list standard
+# concert listings only. Exact phrases, so "RAYE: Premium Tour" is never
+# withheld. Not mirrored in functions/_event-pages.js: there it would 404 the
+# frozen charli-xcx "Venue Premium" pilot row, which stays until the pilot ends.
+PREMIUM_LISTING_NAME_RE = re.compile(r"\b(?:venue premium|premium priced seat(?:s|ing))\b", re.IGNORECASE)
+# A listing that says the event ticket is not included ("Charli xcx | Vinyl
+# Room Upgrade (TICKET NOT INCLUDED)") is by its own words not admission to the
+# concert. Mirrors TICKET_NOT_INCLUDED_RE in functions/_event-pages.js.
+TICKET_NOT_INCLUDED_RE = re.compile(r"\bticket not included\b", re.IGNORECASE)
 
 PLACEHOLDER_MARKERS = ("localhost", "example.com", "placeholder", "replace-me", "tbd")
 AFFILIATE_WRAPPER_HOSTS = {"ticketmaster.evyy.net"}
@@ -671,6 +682,10 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
         travel_hits.append("loge venue")
     if BOX_SEAT_NAME_RE.search(event_name):
         travel_hits.append("| box seat")
+    if PREMIUM_LISTING_NAME_RE.search(event_name):
+        travel_hits.append("premium-tier listing")
+    if TICKET_NOT_INCLUDED_RE.search(haystack):
+        travel_hits.append("ticket not included")
     if travel_hits:
         withhold(
             "travel_package_listing",
@@ -1438,6 +1453,14 @@ def self_test():
               "travel_package_listing" in codes_for(make_event(name=box_name)))
     check("'Box Seat' outside a name segment is not withheld",
           "travel_package_listing" not in codes_for(make_event(name="Box Seat Records Showcase")))
+    for premium_name in ("Venue Premium - Rod Stewart - The Final Encore", "Fontaines D.C. - Venue Premium Tickets",
+                         "Rod Stewart - Premium Priced Seats", "Rod Stewart - Premium Priced Seating",
+                         "Charli xcx | Vinyl Room Upgrade (TICKET NOT INCLUDED)"):
+        check(f"premium-tier listing '{premium_name}' emits travel_package_listing",
+              "travel_package_listing" in codes_for(make_event(name=premium_name)))
+    check("a tour or venue merely called Premium is not withheld",
+          "travel_package_listing" not in codes_for(make_event(name="RAYE: Premium Tour"))
+          and "travel_package_listing" not in codes_for(make_event(name="Rod Stewart - Live at Premium Arena")))
     check("plain concert at an ordinary venue emits no travel_package_listing",
           "travel_package_listing" not in codes_for(make_event(name="RAYE: This Tour May Contain New Music")))
     check("mismatched attraction emits attraction_identity_mismatch",

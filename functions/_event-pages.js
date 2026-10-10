@@ -416,8 +416,10 @@ export const TICKET_NOT_INCLUDED_RE = /\bticket not included\b/i;
 /**
  * Which non-performance markers a record carries. Empty for a concert.
  * Deliberately conservative: vague words ("premium", "experience", "lounge")
- * are not markers — "The Rebel Lounge" is a venue and "Venue Premium Tickets"
- * admits to the show.
+ * are not markers — "The Rebel Lounge" is a venue. "Venue Premium" and
+ * "Premium Priced Seats" listings are withheld at ingestion instead
+ * (PREMIUM_LISTING_NAME_RE in scripts/sync-ticketmaster-events.py) and not
+ * flagged here, so the frozen charli-xcx pilot row renders until the pilot ends.
  *
  * @param {any} event
  * @returns {string[]}

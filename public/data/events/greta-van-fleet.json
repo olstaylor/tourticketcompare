@@ -3355,67 +3355,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-manchester-co-op-live-1-6-2027/event/107671667"
   },
   {
-    "id": "tm-greta-van-fleet-2027-glasgow-1auzk4vgkene4-w",
-    "artist_slug": "greta-van-fleet",
-    "artist_name": "Greta Van Fleet",
-    "event_name": "Venue Premium - Greta Van Fleet - Into The Beginning",
-    "city": "Glasgow",
-    "country": "Great Britain",
-    "venue": "OVO Hydro",
-    "datetime_iso": "2027-06-02T17:30:00Z",
-    "tour_name": "Into The Beginning Tour",
-    "ticketmaster_event_id": "36006541A3095872",
-    "ticketmaster_url": "https://www.ticketmaster.co.uk/venue-premium-greta-van-fleet-into-glasgow-02-06-2027/event/36006541A3095872",
-    "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-glasgow-ovo-hydro-6-2-2027--concerts-rock/production/7643067",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.co.uk/venue-premium-greta-van-fleet-into-glasgow-02-06-2027/event/36006541A3095872",
-    "last_verified_at": "2026-10-09",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "36006541A3095872",
-        "discovery_event_id": "1AUZk4vGkeNe4-w",
-        "url": "https://www.ticketmaster.co.uk/venue-premium-greta-van-fleet-into-glasgow-02-06-2027/event/36006541A3095872",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": 7643067,
-        "url": "https://www.vividseats.com/greta-van-fleet-tickets-glasgow-ovo-hydro-6-2-2027--concerts-rock/production/7643067",
-        "verified": true,
-        "last_verified_at": "2026-10-09",
-        "availability_status": "listed"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub-international": {
-        "event_id": "107671668",
-        "url": "https://www.stubhub.ie/greta-van-fleet-tickets-glasgow-ovo-hydro-arena-glasgow-2-6-2027/event/107671668",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "1AUZk4vGkeNe4-w",
-    "timezone": "Europe/London",
-    "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-tickets-glasgow-ovo-hydro-arena-glasgow-2-6-2027/event/107671668"
-  },
-  {
     "id": "tm-greta-van-fleet-2027-dublin-1abzkfmgkes3wyd",
     "artist_slug": "greta-van-fleet",
     "artist_name": "Greta Van Fleet",

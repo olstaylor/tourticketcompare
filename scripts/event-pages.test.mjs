@@ -28,6 +28,7 @@ import {
   RECOGNISER_PREMIUM_SEATS_NAME_RE,
   RECOGNISER_PREMIUM_SEATS_VENUE_SUFFIX,
   RECOGNISER_TRAVEL_PACKAGE_MARKERS,
+  TICKET_NOT_INCLUDED_RE,
   assertUniqueEventKeys,
   buildEventKeyIndex,
   deriveEventRouteStates,
@@ -293,7 +294,10 @@ assert("keys are fixed-length lowercase hex", GOLDEN_KEYS.every(([id]) => new Re
   assert("\"(Event Ticket Not Included)\" is flagged", flagged({ event_name: "Latto VIP Upgrades (Event Ticket Not Included)" }));
   assert("a plain concert is not flagged", !flagged({}));
   assert("a Lounge venue is not flagged", !flagged({ venue: "The Rebel Lounge" }));
-  assert("\"Venue Premium Tickets\" admits to the show and is not flagged", !flagged({ event_name: "The Warning - Venue Premium Tickets" }));
+  // Venue Premium / Premium Priced listings are withheld at ingestion (owner
+  // decision 2026-10-09) but deliberately not flagged here: flagging would 404
+  // the frozen charli-xcx "Venue Premium" pilot row before the pilot ends.
+  assert("\"Venue Premium\" is not flagged at runtime (ingestion withholds it)", !flagged({ event_name: "The Warning - Venue Premium Tickets" }));
   assert("a tour called Premium is not flagged", !flagged({ event_name: "RAYE: Premium Tour" }));
   assert("\"Box seat\" outside a name segment is not flagged", !flagged({ event_name: "Box Seat Records Showcase" }));
   assert("non-performance does not change structural renderability", eventRouteState(show({ event_name: "X | Premium Seats" }), { artist: ARTIST, now: NOW }).renderable);
@@ -310,6 +314,8 @@ assert("keys are fixed-length lowercase hex", GOLDEN_KEYS.every(([id]) => new Re
   assert("loge venue suffix matches the recogniser", pySuffix === RECOGNISER_PREMIUM_SEATS_VENUE_SUFFIX);
   const pyBox = python.match(/^BOX_SEAT_NAME_RE = re\.compile\(r"([^"]+)", re\.IGNORECASE\)/m)?.[1] || "";
   assert("box-seat pattern matches the recogniser", pyBox === BOX_SEAT_NAME_RE.source && BOX_SEAT_NAME_RE.flags === "i");
+  const pyNotIncluded = python.match(/^TICKET_NOT_INCLUDED_RE = re\.compile\(r"([^"]+)", re\.IGNORECASE\)/m)?.[1] || "";
+  assert("ticket-not-included pattern matches the recogniser", pyNotIncluded === TICKET_NOT_INCLUDED_RE.source && TICKET_NOT_INCLUDED_RE.flags === "i");
 }
 
 // ── Event-page structured data decision ─────────────────────────────────────

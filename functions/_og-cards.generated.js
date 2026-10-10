@@ -225,7 +225,6 @@ export const OG_CARDS = {
   "/artists/nothing-but-thieves/ticket-prices": {"url":"/og/artists-nothing-but-thieves-ticket-prices.png","alt":"Ticket prices: Nothing But Thieves"},
   "/artists/nothing-but-thieves/tickets/amsterdam-netherlands": {"url":"/og/artists-nothing-but-thieves-tickets-amsterdam-netherlands.png","alt":"Tickets: Nothing But Thieves in Amsterdam"},
   "/artists/oasis": {"url":"/og/artists-oasis.png","alt":"Tickets & tour dates: Oasis"},
-  "/artists/oasis/presale": {"url":"/og/artists-oasis-presale.png","alt":"Presale: Oasis"},
   "/artists/oasis/ticket-prices": {"url":"/og/artists-oasis-ticket-prices.png","alt":"Ticket prices: Oasis"},
   "/artists/oasis/tickets/amsterdam-netherlands": {"url":"/og/artists-oasis-tickets-amsterdam-netherlands.png","alt":"Tickets: Oasis in Amsterdam"},
   "/artists/oasis/tickets/foxborough-united-states": {"url":"/og/artists-oasis-tickets-foxborough-united-states.png","alt":"Tickets: Oasis in Foxborough"},

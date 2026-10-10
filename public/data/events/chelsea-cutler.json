@@ -1505,7 +1505,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAefp4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/chelsea-cutler-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-09-7-pm/concert/18639209",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp4",
@@ -1521,11 +1521,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639209,
+        "url": "https://seatgeek.com/chelsea-cutler-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-09-7-pm/concert/18639209",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1558,7 +1558,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe_G9",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_G9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/chelsea-cutler-tickets/seattle-washington-showbox-sodo-2027-03-12-7-pm/concert/18639214",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_G9",
@@ -1574,11 +1574,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639214,
+        "url": "https://seatgeek.com/chelsea-cutler-tickets/seattle-washington-showbox-sodo-2027-03-12-7-pm/concert/18639214",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1611,7 +1611,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe_Gb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gb",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/chelsea-cutler-tickets/portland-oregon-roseland-theater-2027-03-13-7-pm/concert/18639215",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_Gb",
@@ -1627,11 +1627,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639215,
+        "url": "https://seatgeek.com/chelsea-cutler-tickets/portland-oregon-roseland-theater-2027-03-13-7-pm/concert/18639215",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

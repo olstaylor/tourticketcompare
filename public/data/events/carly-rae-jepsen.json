@@ -349,11 +349,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639016,
+        "url": "https://seatgeek.com/carly-rae-jepsen-tickets/inglewood-california-kia-forum-2027-04-22-7-30-pm/concert/18639016",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7636619,
@@ -1398,7 +1398,7 @@
     "tour_name": "Day and Night Tour",
     "ticketmaster_event_id": "0200653DC0663995",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-philadelphia-pennsylvania-05-18-2027/event/0200653DC0663995",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/carly-rae-jepsen-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-05-18-7-30-pm/concert/18639041",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-philadelphia-pennsylvania-05-18-2027/event/0200653DC0663995",
@@ -1414,11 +1414,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639041,
+        "url": "https://seatgeek.com/carly-rae-jepsen-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-05-18-7-30-pm/concert/18639041",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1573,7 +1573,7 @@
     "tour_name": "Day and Night Tour",
     "ticketmaster_event_id": "0700653EBAEE8CED",
     "ticketmaster_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-chicago-illinois-05-21-2027/event/0700653EBAEE8CED",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/carly-rae-jepsen-tickets/chicago-illinois-the-chicago-theatre-2027-05-21-7-30-pm/concert/18639045",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-chicago-illinois-05-21-2027/event/0700653EBAEE8CED",
@@ -1589,11 +1589,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639045,
+        "url": "https://seatgeek.com/carly-rae-jepsen-tickets/chicago-illinois-the-chicago-theatre-2027-05-21-7-30-pm/concert/18639045",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2012,7 +2012,7 @@
     "tour_name": "Day and Night Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeKuy",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuy",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/carly-rae-jepsen-tickets/portland-oregon-arlene-schnitzer-concert-hall-2027-04-19-7-30-pm/concert/18639014",
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-portland-arlene-schnitzer-concert-hall-4-19-2027--concerts-pop/production/7636613",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuy",
@@ -2028,11 +2028,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639014,
+        "url": "https://seatgeek.com/carly-rae-jepsen-tickets/portland-oregon-arlene-schnitzer-concert-hall-2027-04-19-7-30-pm/concert/18639014",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7636613,
@@ -2081,7 +2081,7 @@
     "tour_name": "Day and Night Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeKuz",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuz",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/carly-rae-jepsen-tickets/morrison-colorado-red-rocks-amphitheatre-2027-04-25-7-30-pm/concert/18639047",
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-morrison-red-rocks-amphitheatre-4-25-2027--concerts-pop/production/7636623",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuz",
@@ -2097,11 +2097,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639047,
+        "url": "https://seatgeek.com/carly-rae-jepsen-tickets/morrison-colorado-red-rocks-amphitheatre-2027-04-25-7-30-pm/concert/18639047",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7636623,
@@ -2158,7 +2158,7 @@
     "tour_name": "Day and Night Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeKuV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuV",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/carly-rae-jepsen-tickets/salt-lake-city-utah-the-complex-2027-04-27-7-30-pm/concert/18639063",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuV",
@@ -2174,11 +2174,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639063,
+        "url": "https://seatgeek.com/carly-rae-jepsen-tickets/salt-lake-city-utah-the-complex-2027-04-27-7-30-pm/concert/18639063",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

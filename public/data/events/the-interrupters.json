@@ -746,7 +746,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3100652B9E8A6D49",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-interrupters-montreal-quebec-04-09-2027/event/3100652B9E8A6D49",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/montreal-canada-mtelus-2027-04-09-7-pm/concert/18612730",
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-montreal-mtelus-4-9-2027--concerts-rock/production/7592482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-interrupters-montreal-quebec-04-09-2027/event/3100652B9E8A6D49",
@@ -762,11 +762,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612730,
+        "url": "https://seatgeek.com/the-interrupters-tickets/montreal-canada-mtelus-2027-04-09-7-pm/concert/18612730",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592482,
@@ -1302,7 +1302,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0600652EB8CF9BA0",
     "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-minneapolis-minnesota-04-21-2027/event/0600652EB8CF9BA0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/minneapolis-minnesota-fillmore-minneapolis-2027-04-21-6-pm/concert/18613147",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-minneapolis-minnesota-04-21-2027/event/0600652EB8CF9BA0",
@@ -1318,11 +1318,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18613147,
+        "url": "https://seatgeek.com/the-interrupters-tickets/minneapolis-minnesota-fillmore-minneapolis-2027-04-21-6-pm/concert/18613147",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1383,7 +1383,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E00652AB1E58D81",
     "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-salt-lake-city-utah-04-24-2027/event/1E00652AB1E58D81",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2027-04-24-6-30-pm/concert/18613135",
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-salt-lake-city-the-union-event-center---salt-lake-city-4-24-2027--concerts-rock/production/7592476",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-salt-lake-city-utah-04-24-2027/event/1E00652AB1E58D81",
@@ -1399,11 +1399,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18613135,
+        "url": "https://seatgeek.com/the-interrupters-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2027-04-24-6-30-pm/concert/18613135",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592476,
@@ -1451,7 +1451,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "090065318DFF5BCC",
     "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-los-angeles-california-04-30-2027/event/090065318DFF5BCC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/los-angeles-california-the-wiltern-2027-04-30-5-30-pm/concert/18612589",
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-los-angeles-the-wiltern-4-30-2027--concerts-rock/production/7592478",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-los-angeles-california-04-30-2027/event/090065318DFF5BCC",
@@ -1467,11 +1467,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612589,
+        "url": "https://seatgeek.com/the-interrupters-tickets/los-angeles-california-the-wiltern-2027-04-30-5-30-pm/concert/18612589",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592478,

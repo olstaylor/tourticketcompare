@@ -1249,7 +1249,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAeb7w",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7w",
     "seatgeek_url": "https://seatgeek.com/warren-zeiders-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-04-01-7-pm/concert/18649741",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-kansas-city-the-midland-theatre-4-1-2027--concerts-country-and-folk/production/7655011",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb7w",
     "last_verified_at": null,
@@ -1271,11 +1271,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7655011,
+        "url": "https://www.vividseats.com/warren-zeiders-tickets-kansas-city-the-midland-theatre-4-1-2027--concerts-country-and-folk/production/7655011",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -579,6 +579,7 @@ export const OG_CARDS = {
   "/venues/the-pavilion-at-toyota-music-factory-irving": {"url":"/og/venues-the-pavilion-at-toyota-music-factory-irving.png","alt":"Concerts at: The Pavilion at Toyota Music Factory"},
   "/venues/the-sylvee-madison": {"url":"/og/venues-the-sylvee-madison.png","alt":"Concerts at: The Sylvee"},
   "/venues/the-truth-nashville": {"url":"/og/venues-the-truth-nashville.png","alt":"Concerts at: The Truth"},
+  "/venues/the-union-salt-lake-city": {"url":"/og/venues-the-union-salt-lake-city.png","alt":"Concerts at: The Union"},
   "/venues/the-van-buren-phoenix": {"url":"/og/venues-the-van-buren-phoenix.png","alt":"Concerts at: The Van Buren"},
   "/venues/the-wiltern-los-angeles": {"url":"/og/venues-the-wiltern-los-angeles.png","alt":"Concerts at: The Wiltern"},
   "/venues/toyota-center-tx-houston": {"url":"/og/venues-toyota-center-tx-houston.png","alt":"Concerts at: Toyota Center - TX"},

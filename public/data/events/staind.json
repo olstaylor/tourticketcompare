@@ -2523,7 +2523,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe_qS",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qS",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/spokane-washington-numerica-veterans-arena-2027-03-26-6-pm/concert/18655524",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-spokane-numerica-veterans-arena-3-26-2027--concerts-rock/production/7659097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qS",
     "last_verified_at": null,
@@ -2545,11 +2545,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7659097,
+        "url": "https://www.vividseats.com/staind-tickets-spokane-numerica-veterans-arena-3-26-2027--concerts-rock/production/7659097",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2576,7 +2576,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe_qg",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qg",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/billings-montana-first-interstate-arena-2027-04-03-6-pm/concert/18655681",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-billings-first-interstate-arena-4-3-2027--concerts-rock/production/7659099",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_qg",
     "last_verified_at": null,
@@ -2598,11 +2598,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7659099,
+        "url": "https://www.vividseats.com/staind-tickets-billings-first-interstate-arena-4-3-2027--concerts-rock/production/7659099",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2629,7 +2629,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe_q-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_q-",
     "seatgeek_url": "https://seatgeek.com/staind-tickets/cleveland-ohio-rocket-arena-2027-04-16-6-pm/concert/18589059",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/staind-tickets-cleveland-rocket-arena-4-16-2027--concerts-rock/production/7659024",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe_q-",
     "last_verified_at": null,
@@ -2651,11 +2651,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7659024,
+        "url": "https://www.vividseats.com/staind-tickets-cleveland-rocket-arena-4-16-2027--concerts-rock/production/7659024",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

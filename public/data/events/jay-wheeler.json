@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "1542576841",
     "ticketmaster_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/1542576841?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-valencia-roig-arena-12-8-2026--concerts-pop/production/7655495",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/1542576841?language=en-us",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7655495,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-valencia-roig-arena-12-8-2026--concerts-pop/production/7655495",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -118,7 +118,7 @@
     "ticketmaster_event_id": "58137086",
     "ticketmaster_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/58137086?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-bizkaia-bilbao-arena-miribilla-12-10-2026--concerts-pop/production/7655497",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/58137086?language=en-us",
     "last_verified_at": null,
@@ -140,11 +140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7655497,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-bizkaia-bilbao-arena-miribilla-12-10-2026--concerts-pop/production/7655497",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -171,7 +171,7 @@
     "ticketmaster_event_id": "1155605421",
     "ticketmaster_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/1155605421?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-madrid-movistar-arena---madrid-12-13-2026--concerts-pop/production/7655499",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/1155605421?language=en-us",
     "last_verified_at": null,
@@ -193,11 +193,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7655499,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-madrid-movistar-arena---madrid-12-13-2026--concerts-pop/production/7655499",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "863336232",
     "ticketmaster_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/863336232?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-barcelona-palau-sant-jordi-12-19-2026--concerts-pop/production/7655503",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/863336232?language=en-us",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7655503,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-barcelona-palau-sant-jordi-12-19-2026--concerts-pop/production/7655503",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -277,7 +277,7 @@
     "ticketmaster_event_id": "0D00654119AE11EB",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-miami-florida-03-11-2027/event/0D00654119AE11EB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-miami-kaseya-center-3-11-2027/production/7653858",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-miami-florida-03-11-2027/event/0D00654119AE11EB",
     "last_verified_at": null,
@@ -299,11 +299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653858,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-miami-kaseya-center-3-11-2027/production/7653858",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -330,7 +330,7 @@
     "ticketmaster_event_id": "0E006543D0403EB4",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-atlanta-georgia-03-12-2027/event/0E006543D0403EB4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-atlanta-coca-cola-roxy-theatre-3-12-2027/production/7654288",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-atlanta-georgia-03-12-2027/event/0E006543D0403EB4",
     "last_verified_at": null,
@@ -352,11 +352,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654288,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-atlanta-coca-cola-roxy-theatre-3-12-2027/production/7654288",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "2D0065410BEFEB65",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-charlotte-north-carolina-03-14-2027/event/2D0065410BEFEB65",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-charlotte-ovens-auditorium-3-14-2027/production/7653891",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-charlotte-north-carolina-03-14-2027/event/2D0065410BEFEB65",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653891,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-charlotte-ovens-auditorium-3-14-2027/production/7653891",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "15006542D2937489",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-washington-district-of-columbia-03-18-2027/event/15006542D2937489",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-washington-dar-constitution-hall-3-18-2027/production/7653895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-washington-district-of-columbia-03-18-2027/event/15006542D2937489",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653895,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-washington-dar-constitution-hall-3-18-2027/production/7653895",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "02006541CD68DEAC",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-atlantic-city-new-jersey-03-19-2027/event/02006541CD68DEAC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-3-19-2027/production/7654058",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-atlantic-city-new-jersey-03-19-2027/event/02006541CD68DEAC",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654058,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-atlantic-city-etess-arena-at-hard-rock-hotel-and-casino-3-19-2027/production/7654058",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -542,7 +542,7 @@
     "ticketmaster_event_id": "1D00654599DC27D3",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-tour-mashantucket-connecticut-03-20-2027/event/1D00654599DC27D3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-mashantucket-premier-theater-at-foxwoods-resort-casino-3-20-2027/production/7654002",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-tour-mashantucket-connecticut-03-20-2027/event/1D00654599DC27D3",
     "last_verified_at": null,
@@ -564,11 +564,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654002,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-mashantucket-premier-theater-at-foxwoods-resort-casino-3-20-2027/production/7654002",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "30006541BAFA78EA",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-brooklyn-new-york-03-24-2027/event/30006541BAFA78EA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-brooklyn-barclays-center-3-24-2027/production/7653992",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-brooklyn-new-york-03-24-2027/event/30006541BAFA78EA",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653992,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-brooklyn-barclays-center-3-24-2027/production/7653992",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "0200653E9FA592E2",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-reading-pennsylvania-03-25-2027/event/0200653E9FA592E2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-reading-santander-arena-3-25-2027/production/7653970",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-reading-pennsylvania-03-25-2027/event/0200653E9FA592E2",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653970,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-reading-santander-arena-3-25-2027/production/7653970",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "01006545A6FAA9EE",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-boston-massachusetts-03-27-2027/event/01006545A6FAA9EE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-boston-mgm-music-hall-at-fenway-3-27-2027/production/7656372",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-boston-massachusetts-03-27-2027/event/01006545A6FAA9EE",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7656372,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-boston-mgm-music-hall-at-fenway-3-27-2027/production/7656372",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "0400653E9C0C6FAB",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-rosemont-illinois-04-02-2027/event/0400653E9C0C6FAB",
     "seatgeek_url": "https://seatgeek.com/jay-wheeler-tickets/rosemont-illinois-rosemont-theatre-2027-04-02-8-pm/concert/18649608",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-rosemont-rosemont-theatre-4-2-2027/production/7654062",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-rosemont-illinois-04-02-2027/event/0400653E9C0C6FAB",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654062,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-rosemont-rosemont-theatre-4-2-2027/production/7654062",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +807,7 @@
     "ticketmaster_event_id": "1E006543E465C6CD",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-denver-colorado-04-04-2027/event/1E006543E465C6CD",
     "seatgeek_url": "https://seatgeek.com/jay-wheeler-tickets/denver-colorado-fillmore-auditorium-denver-2027-04-04-8-pm/concert/18649609",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-denver-fillmore-auditorium-denver-4-4-2027/production/7653984",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-denver-colorado-04-04-2027/event/1E006543E465C6CD",
     "last_verified_at": null,
@@ -829,11 +829,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653984,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-denver-fillmore-auditorium-denver-4-4-2027/production/7653984",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "0C006544237B2CD9",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-irving-irving-texas-04-06-2027/event/0C006544237B2CD9",
     "seatgeek_url": "https://seatgeek.com/jay-wheeler-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2027-04-06-8-pm/concert/18649614",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-irving-pavilion-at-toyota-music-factory-4-6-2027/production/7654066",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-irving-irving-texas-04-06-2027/event/0C006544237B2CD9",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654066,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-irving-pavilion-at-toyota-music-factory-4-6-2027/production/7654066",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "3A006541CFA26294",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-houston-houston-texas-04-07-2027/event/3A006541CFA26294",
     "seatgeek_url": "https://seatgeek.com/jay-wheeler-tickets/houston-texas-713-music-hall-2027-04-07-8-pm/concert/18649616",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-houston-713-music-hall-4-7-2027/production/7654072",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-houston-houston-texas-04-07-2027/event/3A006541CFA26294",
     "last_verified_at": null,
@@ -935,11 +935,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654072,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-houston-713-music-hall-4-7-2027/production/7654072",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -966,7 +966,7 @@
     "ticketmaster_event_id": "0A00654405517B6A",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-tour-inglewood-california-04-10-2027/event/0A00654405517B6A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-inglewood-youtube-theater-4-10-2027/production/7654128",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-tour-inglewood-california-04-10-2027/event/0A00654405517B6A",
     "last_verified_at": null,
@@ -988,11 +988,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654128,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-inglewood-youtube-theater-4-10-2027/production/7654128",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1020,7 +1020,7 @@
     "ticketmaster_event_id": "22006541C7FD498B",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-orlando-florida-04-15-2027/event/22006541C7FD498B",
     "seatgeek_url": "https://seatgeek.com/jay-wheeler-tickets/orlando-florida-kia-center-2027-04-15-8-pm/concert/18649618",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-orlando-kia-center-4-15-2027/production/7654104",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-orlando-florida-04-15-2027/event/22006541C7FD498B",
     "last_verified_at": null,
@@ -1042,11 +1042,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7654104,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-orlando-kia-center-4-15-2027/production/7654104",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

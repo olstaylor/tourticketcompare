@@ -356,6 +356,20 @@ export function selectEvents(events, registryBySlug, options, now = new Date()) 
   return { selected: options.limit === null ? ordered : ordered.slice(0, options.limit), skipped };
 }
 
+// A capped run (--max-api-calls) only reaches the front of the ordered list,
+// and events whose discovery keeps finding nothing would hold that front every
+// night. Start each day's run at a different window of the list (UTC day
+// number, as the enrichment lane does) and wrap around, so consecutive runs
+// cover the whole queue while each run still walks it in priority order. A
+// window is sized for the worst case of two API calls per event.
+export function rotateSelection(ordered, maxApiCalls, rotationKey) {
+  const windowSize = maxApiCalls ? Math.max(1, Math.floor(maxApiCalls / 2)) : 0;
+  if (!windowSize || ordered.length <= windowSize) return ordered;
+  const windowCount = Math.ceil(ordered.length / windowSize);
+  const start = (((Math.trunc(rotationKey) % windowCount) + windowCount) % windowCount) * windowSize;
+  return [...ordered.slice(start), ...ordered.slice(0, start)];
+}
+
 // ─── API access (curl, same pattern as enrich-seatgeek-events.mjs) ─────────
 
 function httpsJson(url) {
@@ -619,6 +633,10 @@ function selfTest() {
     { ...base, id: "o4", verification_status: "needs_recheck", datetime_iso: "2026-08-01T00:00:00Z" }
   ], registryBySlug, selOptions, now).selected.map((event) => event.id);
   assert("budget goes to missing links (soonest first), then stale, then fresh proofs", order.join(",") === "o4,o3,o2,o1");
+  const queue = Array.from({ length: 10 }, (_, i) => i);
+  assert("uncapped run keeps the whole priority order", rotateSelection(queue, null, 3).join() === queue.join());
+  assert("capped run starts at the day's window", rotateSelection(queue, 8, 1).join() === "4,5,6,7,8,9,0,1,2,3");
+  assert("windows wrap so every event is reached", rotateSelection(queue, 8, 3).join() === "0,1,2,3,4,5,6,7,8,9");
   assert("past event skipped, never touched", !selectedIds.includes("s0") && selection.skipped.some((row) => row.event.id === "s0" && row.reason.includes("past")));
 
   // --artist semantics, shared with the enrichment lane: exact slug or exact
@@ -705,7 +723,9 @@ async function main() {
 
   const now = new Date();
   const today = isoDate(now);
-  const { selected, skipped } = selectEvents(events, registryBySlug, options, now);
+  const selection = selectEvents(events, registryBySlug, options, now);
+  const { skipped } = selection;
+  const selected = rotateSelection(selection.selected, options.maxApiCalls, Math.floor(now.getTime() / 86400000));
   const runState = { apiCalls: 0, rateLimitResponses: 0, stopReason: "" };
   const results = [];
   const changedIds = new Set();

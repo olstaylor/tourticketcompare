@@ -28,7 +28,7 @@ import { deriveArtistCities, deriveIndexableArtistCities, findArtistCity, artist
 import { deriveCityDatePrices } from "./_artist-city-prices.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
-import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, EVENT_LIFECYCLE, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
+import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, EVENT_LIFECYCLE, PRESALE_PAGE_FRESH_DAYS, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import { deriveToursHub, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
 import { deriveArtistPresales, deriveUpcomingPresales, presalePath, PRESALE_SEGMENT, PRESALE_LOOKAHEAD_DAYS } from "./_presales.js";
@@ -51,7 +51,7 @@ import {
 import { isUpcomingShow, showStartMs } from "./_upcoming.js";
 import { CARD_PRICE_TAIL, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, lowestPriceLabel, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, resolveEventRoute } from "./_event-pages.js";
-import { EVENT_INDEXING_PILOT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
+import { EVENT_INDEXED_COHORT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
 import {
   BLOG_INDEX_PATH,
   derivePosts as deriveBlogPosts,
@@ -410,7 +410,7 @@ async function loadArtistsMeta(env) {
   return loadJsonAsset(env, "/data/artists.json", Array.isArray, []);
 }
 
-const EVENT_INDEXING_PILOT_KEY_SET = new Set(EVENT_INDEXING_PILOT_KEYS);
+const EVENT_INDEXED_COHORT_KEY_SET = new Set(EVENT_INDEXED_COHORT_KEYS);
 const NO_EVENT_INDEXING_PILOT = Object.freeze({ active: false, reason: "no_pilot_event", members: [], indexed: [], pathById: new Map() });
 
 /**
@@ -424,8 +424,9 @@ const NO_EVENT_INDEXING_PILOT = Object.freeze({ active: false, reason: "no_pilot
  *
  * @param {any} env
  * @param {string} origin  The request's own origin (not the canonical one).
- * @param {any[] | null} [candidates]  When given, records the route shows: a
- *   route holding no pilot key skips the evaluation (and the full-file load).
+ * @param {any[] | null} [candidates]  When given, records the route shows: only
+ *   the cohort keys among them are evaluated, and a route holding none skips
+ *   the evaluation (and the full-file load).
  * @param {{ events?: any[], artists?: any[] }} [loaded]  The full events.json and
  *   artists.json when the caller has already parsed them.
  */
@@ -433,9 +434,12 @@ export async function eventIndexingPilotFor(env, origin, candidates = null, load
   const hostIndexable = isIndexableOrigin(origin);
   // Flag off or a non-canonical host: inactive, without loading anything.
   if (!hostIndexable || !eventPagesIndexingEnabled(env)) return deriveEventIndexingPilot([], [], env, { hostIndexable });
-  if (Array.isArray(candidates) && !candidates.some((event) => EVENT_INDEXING_PILOT_KEY_SET.has(eventKey(event?.id)))) {
-    return NO_EVENT_INDEXING_PILOT;
-  }
+  // A route evaluates only the cohort keys it shows: an artist board holding
+  // three cohort events decides those three, not every cohort member.
+  const candidateKeys = Array.isArray(candidates)
+    ? [...new Set(candidates.map((event) => eventKey(event?.id)).filter((key) => EVENT_INDEXED_COHORT_KEY_SET.has(key)))]
+    : null;
+  if (candidateKeys && !candidateKeys.length) return NO_EVENT_INDEXING_PILOT;
   // The sitemap and llms.txt pass the files they already parsed, so a cold
   // discovery request parses the multi-megabyte events.json once, not twice.
   const [events, artistsMeta] = await Promise.all([
@@ -444,6 +448,7 @@ export async function eventIndexingPilotFor(env, origin, candidates = null, load
   ]);
   return deriveEventIndexingPilot(events, artistsMeta, env, {
     hostIndexable,
+    ...(candidateKeys ? { pilotKeys: candidateKeys } : {}),
     lanesFor: (event) => eventPublishableLaneSlugs(event, env)
   });
 }
@@ -5133,9 +5138,15 @@ function renderPresaleWindowHtml(window, artistSlug) {
   )}</strong></p><p class="muted">${escapeHtml(`For ${presalePlural(window.shows.length, "date", "dates")}:`)}</p>${renderPresaleShowList(window.shows, artistSlug)}</article>`;
 }
 
-function renderArtistPresaleLinkHtml(artist, presales) {
-  if (!presales?.windowCount) return "";
-  const lead = presales.openCount
+// Linked from the artist page only while the presale page itself is
+// indexable: a window opening within 30 days or opened in the last 14. A VIP
+// package or card allocation that has been "open" since the tour went on sale
+// is not news to a fan, so it neither indexes the page nor earns this line.
+function renderArtistPresaleLinkHtml(artist, presales, now = Date.now()) {
+  if (!presales?.windowCount || !presales.indexable) return "";
+  const freshOpen = presales.windows.some((window) => window.open && now - window.startMs <= PRESALE_PAGE_FRESH_DAYS * 86400000);
+  if (!freshOpen && !presales.nextWindow) return "";
+  const lead = freshOpen
     ? `${artist.name} presale open now`
     : `${artist.name} presale: ${presales.nextWindow.name} opens ${presaleTimeLabel(presales.nextWindow.startMs, presaleWindowZone(presales.nextWindow))}`;
   return `<p class="price-guide-link presale-link">${anchor(`${lead}. See every presale time`, presalePath(artist.slug), "text-link")}</p>`;

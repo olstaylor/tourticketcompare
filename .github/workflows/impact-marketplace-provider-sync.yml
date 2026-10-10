@@ -71,7 +71,7 @@ jobs:
       IMPACT_STUBHUB_INTERNATIONAL_PROGRAM_ID: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_PROGRAM_ID }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -83,7 +83,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 14
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm

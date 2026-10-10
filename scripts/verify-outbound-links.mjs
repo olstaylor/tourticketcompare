@@ -255,17 +255,47 @@ function collectLinks(events) {
   return [...found.entries()].map(([url, refs]) => ({ url, refs: [...refs] }));
 }
 
-// A request that never got an HTTP answer ("fetch failed", a reset socket, a
-// timeout) says nothing about the URL itself. One such blip on a TicketNetwork
-// link on 2026-10-09 held the rolling audit issue red, and with it Site health.
-// Try once more before calling it a failure; a second network error still is.
-async function checkUrl(url, timeoutMs, fetchImpl = fetch) {
-  const first = await checkUrlOnce(url, timeoutMs, fetchImpl);
-  if (first.status != null) return first;
-  return checkUrlOnce(url, timeoutMs, fetchImpl);
+// A connection error, a timeout or a gateway 5xx says nothing about whether
+// the storefront page still exists. On 2026-10-09 one TicketNetwork URL that
+// answered 200 in a browser came back as ERR in the sweep, and that single
+// transient kept the daily-audit issue open and Site health red all day.
+const TRANSIENT_STATUSES = new Set([502, 503, 504]);
+
+export function isTransientFailure(result) {
+  if (!result || result.ok || result.blocked) return false;
+  return result.status == null || TRANSIENT_STATUSES.has(result.status);
 }
 
-async function checkUrlOnce(url, timeoutMs, fetchImpl) {
+/**
+ * Re-check transient failures once before any of them may be reported as a
+ * dead link. One lane per host, so a retry never meets the burst that caused
+ * the first failure. Capped at `maxRechecks`: a handful of transients is noise
+ * worth retrying, but hundreds is an outage, and retrying all of them would
+ * spend the audit job's 40-minute limit before the report is written. Past the
+ * cap the first-pass results stand. A URL that fails again is reported exactly
+ * as before, so a real outage still surfaces.
+ */
+export async function recheckTransientFailures(items, results, check, { maxRechecks = 25, global = 8 } = {}) {
+  const out = results.slice();
+  const indexes = [];
+  for (const [index, result] of results.entries()) {
+    if (isTransientFailure(result)) indexes.push(index);
+  }
+  const selected = indexes.slice(0, maxRechecks);
+  const retries = await mapWithHostLimits(
+    selected.map((index) => items[index]),
+    { perHost: 1, global },
+    (item) => check(item)
+  );
+  let recovered = 0;
+  for (const [position, index] of selected.entries()) {
+    out[index] = retries[position];
+    if (retries[position].ok || retries[position].blocked) recovered += 1;
+  }
+  return { results: out, rechecked: selected.length, recovered, skipped: indexes.length - selected.length };
+}
+
+async function checkUrl(url, timeoutMs, fetchImpl = fetch) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), timeoutMs);
 
@@ -350,33 +380,6 @@ if (args.has('--self-test')) {
   assert.equal(blockedResult.ok, false);
   assert.equal(blockedResult.blocked, true);
   assert.deepEqual(blockedCalls, ['HEAD', 'GET']);
-
-  // A network error is retried once; a second one is still a failure.
-  const flakyFetch = (outcomes, calls) => async (_url, options = {}) => {
-    calls.push(options.method || 'GET');
-    const next = outcomes.shift();
-    if (next instanceof Error) throw next;
-    return new Response(null, { status: next });
-  };
-  const blipCalls = [];
-  const blip = await checkUrl(
-    'https://www.ticketnetwork.com/en/p/1',
-    1000,
-    flakyFetch([new TypeError('fetch failed'), 200], blipCalls)
-  );
-  assert.equal(blip.ok, true);
-  assert.deepEqual(blipCalls, ['HEAD', 'HEAD']);
-
-  const downCalls = [];
-  const down = await checkUrl(
-    'https://www.ticketnetwork.com/en/p/2',
-    1000,
-    flakyFetch([new TypeError('fetch failed'), new TypeError('fetch failed')], downCalls)
-  );
-  assert.equal(down.ok, false);
-  assert.equal(down.status, null);
-  assert.equal(down.error, 'fetch failed');
-  assert.deepEqual(downCalls, ['HEAD', 'HEAD']);
 
   const now = Date.parse('2026-07-30T12:00:00Z');
   const events = new Map([
@@ -537,6 +540,54 @@ if (args.has('--self-test')) {
     /worker defect/
   );
 
+  // --- transient re-check -----------------------------------------------------
+  //
+  // Only network errors and gateway 5xx are retried; a 404, a WAF block or a
+  // pass is left exactly as the first pass saw it. A retry that fails again
+  // still reaches the report, and an outage-sized set is not retried in full.
+  assert.equal(isTransientFailure({ ok: false, status: null, error: 'timeout' }), true);
+  assert.equal(isTransientFailure({ ok: false, status: 503 }), true);
+  assert.equal(isTransientFailure({ ok: false, status: 404 }), false);
+  assert.equal(isTransientFailure({ ok: false, blocked: true, status: 403 }), false);
+  assert.equal(isTransientFailure({ ok: true, status: 200 }), false);
+
+  const retryItems = ['a', 'b', 'c', 'd'].map((id) => ({ url: `https://retry.example/${id}` }));
+  const retried = [];
+  const recheck = await recheckTransientFailures(
+    retryItems,
+    [
+      { ok: false, status: null, error: 'fetch failed' },
+      { ok: false, status: 404 },
+      { ok: false, status: 504 },
+      { ok: true, status: 200 }
+    ],
+    async (item) => {
+      retried.push(item.url);
+      return item.url.endsWith('/a') ? { ok: true, status: 200 } : { ok: false, status: 504 };
+    }
+  );
+  assert.deepEqual(retried, ['https://retry.example/a', 'https://retry.example/c']);
+  assert.equal(recheck.rechecked, 2);
+  assert.equal(recheck.recovered, 1);
+  assert.equal(recheck.results[0].ok, true);
+  assert.equal(recheck.results[1].status, 404);
+  assert.equal(recheck.results[2].status, 504);
+  assert.equal(recheck.results[3].ok, true);
+  assert.equal(recheck.skipped, 0);
+
+  const outage = Array.from({ length: 40 }, (_, i) => ({ url: `https://down.example/${i}` }));
+  let outageCalls = 0;
+  const capped = await recheckTransientFailures(
+    outage,
+    outage.map(() => ({ ok: false, status: null, error: 'timeout' })),
+    async () => { outageCalls += 1; return { ok: false, status: null, error: 'timeout' }; },
+    { maxRechecks: 5 }
+  );
+  assert.equal(outageCalls, 5);
+  assert.equal(capped.rechecked, 5);
+  assert.equal(capped.skipped, 35);
+  assert.equal(capped.results.filter((r) => !r.ok).length, 40);
+
   console.log('verify-outbound-links self-test passed');
   process.exit(0);
 }
@@ -604,11 +655,22 @@ console.log(
 
 // Phase one is the network, run concurrently. Phase two replays the results in
 // input order, so classification, logging and the artefact are unchanged.
-const results = await mapWithHostLimits(
+const firstPass = await mapWithHostLimits(
   links,
   { perHost: PER_HOST_CONCURRENCY, global: GLOBAL_CONCURRENCY },
   (item) => checkUrl(item.url, timeoutMs)
 );
+const { results, rechecked, recovered, skipped: notRechecked } = await recheckTransientFailures(
+  links,
+  firstPass,
+  (item) => checkUrl(item.url, timeoutMs)
+);
+if (rechecked) {
+  console.log(
+    `Re-checked ${rechecked} transient failure(s) (network error, timeout or 502/503/504); ${recovered} recovered` +
+      (notRechecked ? `; ${notRechecked} more left as reported (over the re-check cap, likely an outage).` : '.')
+  );
+}
 
 for (const [index, item] of links.entries()) {
   const result = results[index];

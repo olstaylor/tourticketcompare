@@ -26,10 +26,10 @@ jobs:
     timeout-minutes: 30
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
 
@@ -40,6 +40,7 @@ jobs:
         run: |
           node scripts/lib/artist-screen.mjs --self-test
           node scripts/report-roster-candidates.mjs --self-test
+          node scripts/report-demand-candidates.mjs --self-test
 
       - name: Forecast, capture and screen
         id: forecast
@@ -64,6 +65,9 @@ jobs:
           fi
           echo "forecast_ok=$FORECAST_OK" >> "$GITHUB_OUTPUT"
           # Owner requests go first, flagged "requested".
+          # Demand-ranked acts (SeatGeek score) go ahead of the city-overlap forecast
+          # (owner-approved 2026-10-09); full screen, same caps. Non-fatal on failure.
+          node scripts/report-demand-candidates.mjs --merge artifacts/roster/names.txt --top 10
           node scripts/artist-requests.mjs --merge artifacts/roster/names.txt --limit 20
           if [ "$FORECAST_OK" != true ] && [ ! -s artifacts/roster/names.txt ]; then echo "forecast failed and there are no open requests" >&2; exit 1; fi
           if [ -s artifacts/roster/names.txt ]; then

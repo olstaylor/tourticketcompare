@@ -235,6 +235,12 @@ const text = (html) =>
   assert(page.main.includes('href="/artists/oasis/presale"'), "the artist page links its presale page while a window is live");
   const quiet = await render("/artists/oasis", EVENTS.filter((event) => !event.presales));
   assert(!quiet.main.includes("/artists/oasis/presale"), "with nothing listed the artist page does not link it");
+  const staleWindow = { name: "VIP Packages Onsale", start: iso(NOW_MS - 120 * DAY), end: iso(NOW_MS + 60 * DAY) };
+  const stale = await render(
+    "/artists/oasis",
+    EVENTS.map((event) => (event.presales ? { ...event, presales: [staleWindow] } : event))
+  );
+  assert(!stale.main.includes("/artists/oasis/presale"), "a window open for months does not earn the artist page's presale-open line");
 }
 
 {

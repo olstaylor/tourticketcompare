@@ -418,8 +418,6 @@ The obsolete `IMPACT_TICKETMASTER_*` secrets are unused — delete from the dash
 
 ## Known incidents
 
-- **Automation health, 2026-10-09: separate blockers, not a shared red `main`.** Vivid Seats CTA runs `37617041722` and `37774689640` passed in-job and exact-head validation, but exhausted the 14-minute writer wait while SeatGeek was still active and their PRs #1398/#1412 then conflicted. The Vivid Seats wait is extended to 20 minutes within its 59-minute cap; timeouts still warn and merge conflicts are never forced. Auto-promote PRs #1402/#1420 passed `test:mvp` but failed the separate schema check: its serialized-text search matched Rod Stewart's official "Premium Priced Seats/Seating" listing names. The schema guard now inspects property names and schema types recursively, preserving the bans on Offer/price/availability/inventory, and auto-promote runs `schema:validate` before publishing. Work queue repair run `37771376564` correctly returned NEEDS HUMAN for #1301's 12 unmatched SeatGeek dates; it already skips previously reported unmatched batches on subsequent scheduled runs. Site health run `37812697647` passed live pages, sitemaps, runtime and prices and was red on open upstream findings. These findings remain open until genuine scheduled-run recovery is observed; a prepared fix or passing local test does not prove recovery.
-
 Infrastructure/automation issues only — dated, short, actionable. Content and data-hygiene backlog items live in `BACKLOG.md`.
 
 - **Vivid Seats snapshots wrote prices but failed to parse their run summary (fix prepared 2026-09-30; #1060).** Run `36693448565` completed its apply step with zero failed observations, then failed `Publish Vivid Seats snapshot run summary`: the Valley catalog exceeded the pagination cap, and the writer appended its `::warning::` annotation to the JSON stdout captured by `tee`. `JSON.parse` rejected the trailing annotation, making the lane red and skipping history retention despite successful pricing. The writer now sends both catalog-cap and price-check-write warnings to stderr, preserving a single JSON document on stdout; its self-test covers both warnings together. Confirm a successful scheduled run after merging before treating #1060 as resolved.
@@ -470,6 +468,8 @@ Infrastructure/automation issues only — dated, short, actionable. Content and 
 
 One line each; the full write-ups are in git history (`git log -p -- docs/OPERATIONS.md`).
 
+- One transient network error on a live TicketNetwork URL kept the daily-audit issue open and Site health red; the link check now re-checks up to 25 network errors, timeouts or 502/503/504 once, one lane per host, before reporting a URL as failing (resolved 2026-10-09).
+- Vivid Seats CTA sync lost its merge race on 7 and 8 October (PRs #1398/#1412, closed as superseded) and auto-promote failed `schema:validate` on Rod Stewart's "Premium Priced Seats" listing names; the writer wait is 20 minutes and the schema guard reads property names, and both lanes ran green on 2026-10-09 (resolved 2026-10-09, #1422).
 - Auto-promote failed `test:mvp` on a duplicate venue H1 when a promoted artist added a second "Paramount Theatre" (Denver, beside Seattle); a venue name used in more than one city now carries the city in its H1 (resolved 2026-10-05).
 - Site health stayed red on open SeatGeek provider URL coverage items, which can stay open for good; they are now linked for context, not gating (resolved 2026-10-05).
 - Site health latched itself red through its own work-queue item (resolved 2026-09-28).

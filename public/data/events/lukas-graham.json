@@ -543,7 +543,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "020065354840217A",
     "ticketmaster_url": "https://www.ticketmaster.com/lukas-graham-philadelphia-pennsylvania-04-03-2027/event/020065354840217A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lukas-graham-tickets/philadelphia-pennsylvania-theatre-of-living-arts-2027-04-03-8-pm/concert/18617589",
     "vividseats_url": "https://www.vividseats.com/lukas-graham-tickets-philadelphia-theatre-of-living-arts-4-3-2027--concerts-pop/production/7600529",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lukas-graham-philadelphia-pennsylvania-04-03-2027/event/020065354840217A",
@@ -559,11 +559,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18617589,
+        "url": "https://seatgeek.com/lukas-graham-tickets/philadelphia-pennsylvania-theatre-of-living-arts-2027-04-03-8-pm/concert/18617589",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7600529,

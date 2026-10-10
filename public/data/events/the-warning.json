@@ -680,7 +680,7 @@
     "tour_name": "Everything's Falling World Tour",
     "ticketmaster_event_id": "1E00652BAAD0873B",
     "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-denver-colorado-04-28-2027/event/1E00652BAAD0873B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-warning-tickets/denver-colorado-fillmore-auditorium-denver-2027-04-28-6-30-pm/concert/18590114",
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-denver-fillmore-auditorium-denver-4-28-2027/production/7553189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-denver-colorado-04-28-2027/event/1E00652BAAD0873B",
@@ -696,11 +696,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590114,
+        "url": "https://seatgeek.com/the-warning-tickets/denver-colorado-fillmore-auditorium-denver-2027-04-28-6-30-pm/concert/18590114",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553189,
@@ -1092,7 +1092,7 @@
     "tour_name": "Everything's Falling World Tour",
     "ticketmaster_event_id": "3100652A94F13753",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-montreal-quebec-05-09-2027/event/3100652A94F13753",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-warning-tickets/montreal-canada-mtelus-2027-05-09-8-pm/concert/18590511",
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-montreal-mtelus-5-9-2027/production/7555333",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-warning-everythings-falling-world-tour-montreal-quebec-05-09-2027/event/3100652A94F13753",
@@ -1108,11 +1108,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590511,
+        "url": "https://seatgeek.com/the-warning-tickets/montreal-canada-mtelus-2027-05-09-8-pm/concert/18590511",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7555333,
@@ -1220,7 +1220,7 @@
     "tour_name": "Everything's Falling World Tour",
     "ticketmaster_event_id": "1600652ABC919A4A",
     "ticketmaster_url": "https://www.ticketmaster.com/presented-by-wxdx-the-warning-everythings-pittsburgh-pennsylvania-05-15-2027/event/1600652ABC919A4A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-warning-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2027-05-15-8-pm/concert/18591883",
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-pittsburgh-citizens-live-at-the-wylie-5-15-2027/production/7553269",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/presented-by-wxdx-the-warning-everythings-pittsburgh-pennsylvania-05-15-2027/event/1600652ABC919A4A",
@@ -1236,11 +1236,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18591883,
+        "url": "https://seatgeek.com/the-warning-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2027-05-15-8-pm/concert/18591883",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553269,

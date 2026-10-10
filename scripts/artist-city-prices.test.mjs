@@ -642,11 +642,11 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const body = text(page.main);
   assert(body.includes("Lowest listed price"), "the table still labels its figure");
   assert(
-    /lower listed figure/.test(body) && /never across different dates/.test(body),
+    /lower listed price is marked/.test(body) && /never different dates/.test(body),
     "the help copy states the comparison's real scope: same date, both directions bounded"
   );
   assert(
-    /never a claim that a site is cheaper overall/.test(body),
+    /doesn't mean a site is cheaper overall/.test(body),
     "the help copy still refuses the site-level verdict the policy forbids"
   );
   assert(!/\bcheapest\b|\bbest price\b/i.test(body), "no banned ranking copy reaches the page");

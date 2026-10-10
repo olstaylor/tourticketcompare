@@ -2765,12 +2765,8 @@ function isShellTicketBuyingNote(text, name) {
   return String(text || "").trim() === `These links go to the ${n} page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.`;
 }
 
-// `withArtistPanel` false drops the point about the "Where to buy" buttons, for
-// pages (artist-city) that render the date board without that panel: the help
-// must not describe furniture the page does not have.
-function renderArtistTicketHelpHtml(help, { withArtistPanel = true } = {}) {
+function renderArtistTicketHelpHtml(help) {
   const points = help.points
-    .filter((point) => withArtistPanel || !/Where to buy/.test(point))
     .map((point) => `<li>${escapeHtml(point)}</li>`)
     .join("");
   return `<section class="nested-panel artist-ticket-help" data-artist-ticket-help><h2>How prices and links work here</h2><p>${escapeHtml(
@@ -3476,7 +3472,7 @@ function priceGuideFaqEntries(route, view) {
   const entries = [];
   entries.push([
     `How much are ${name} tickets?`,
-    `It depends on the date, city and seat. ${view.currentAnswer} Every figure on this page is one ticket site's resale listed price for one date when it was checked, not face value and not a final checkout total.`
+    `It depends on the date, city and seat. ${view.currentAnswer} Each price on this page is one ticket site's resale price for one date when it was checked. It isn't face value, and it isn't your final total.`
   ]);
   const moveSentence = view.moves.length
     ? (() => {
@@ -3486,7 +3482,7 @@ function priceGuideFaqEntries(route, view) {
     : "";
   entries.push([
     `When is the best time to buy ${name} tickets?`,
-    `There isn't a reliable best moment to buy. Resale prices for each date move up and down independently, and the site doesn't predict where a price is heading.${moveSentence} Buying at the official sale gives the most seat choice; waiting can pay off, but can also mean fewer seats or a higher total.`
+    `There isn't a reliable best moment to buy. Resale prices for each date move up and down on their own, and this site doesn't predict where a price is heading.${moveSentence} Buying at the official sale gives the most seat choice; waiting can pay off, but can also mean fewer seats or a higher total.`
   ]);
   entries.push([
     `When do ${name} tickets go on sale?`,
@@ -3498,7 +3494,7 @@ function priceGuideFaqEntries(route, view) {
   if (linked.length) {
     entries.push([
       `Where can I buy ${name} tickets?`,
-      `The site links to these ticket sites for the ${dates}, each matched to the exact event: ${linked.join(", ")}. A link means the date is listed there, not that tickets are available.`
+      `This site links to these ticket sites for the ${dates}, each matched to the exact event: ${linked.join(", ")}. A link means the date is listed there, not that tickets are available.`
     ]);
   }
   return entries;
@@ -3569,7 +3565,7 @@ function renderPriceGuideBody(route, events, env) {
 
   const primaryGuide = GUIDE_ROUTES["/guides/primary-vs-resale-concert-tickets"] ? "/guides/primary-vs-resale-concert-tickets" : "";
   const faceValueHtml = `<section class="nested-panel" aria-labelledby="priceGuideFaceTitle"><h2 id="priceGuideFaceTitle">Face value: the official ticket price</h2><p>${escapeHtml(
-    `Face value is the price the event organiser sets for tickets sold in the official sale. TourTicketCompare has no approved source for face-value prices, so this page doesn't print one: every figure below is a resale listing, which can sit above or below face value.`
+    `Face value is the price the organiser sets for tickets in the official sale. This page doesn't show face value. Every price on it is a resale listing, which can be higher or lower than face value.`
   )}</p><p>${escapeHtml(
     guide.onsalePendingCount
       ? `Ticketmaster lists a public on-sale time for ${guide.onsalePendingCount} of these dates, the next at ${nextOnsale}. Until then those dates show no Ticketmaster button, and any listing you see is resale.`
@@ -3581,7 +3577,7 @@ function renderPriceGuideBody(route, events, env) {
   const tablesHtml = `<section class="nested-panel artist-city-price-answer" aria-labelledby="priceGuideDatesTitle"><h2 id="priceGuideDatesTitle">${escapeHtml(
     artist.name
   )} resale prices by date</h2><p>${escapeHtml(
-    `The lowest listed price on record for each date and the site offering it, in date order. "Sites compared" is how many ticket sites had a price for that date.`
+    `Each date's lowest listed price and the site listing it, in date order. "Sites compared" is how many ticket sites had a price for that date.`
   )}</p>${renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, route.indexableCitySlugs || new Set())}</section>`;
 
   const movesHtml = renderPriceGuideMoves(artist, moves, priceAnswer.pricedRowCount, guideShowsById);
@@ -3594,7 +3590,7 @@ function renderPriceGuideBody(route, events, env) {
     ? `<section class="nested-panel" aria-labelledby="priceGuideWhereTitle"><h2 id="priceGuideWhereTitle">Where ${escapeHtml(
         artist.name
       )} tickets are listed</h2><p>${escapeHtml(
-        "The ticket sites this site links to for these dates, each checked against the exact event. A link means the date is listed there, not that tickets are available."
+        "Ticket sites this site links to for these dates, each checked against the exact show. A link means the date is listed there, not that tickets are left."
       )}</p><ul>${linkItems}</ul><div class="action-row">${anchor(
         `Compare ${artist.name} tickets by date`,
         artistHref,
@@ -4651,7 +4647,7 @@ function availableArtistProviderLinks(catalog, artist, providerAvailability = {}
 function renderProviderFallback(catalog, artist, surface, providerAvailability = {}) {
   const links = availableArtistProviderLinks(catalog, artist, providerAvailability);
   if (!links.length) {
-    return `<section class="provider-panel"><h2>Where to buy</h2><p class="muted">There's no checked provider page for this artist yet — buttons only go up once the link has been followed and confirmed.</p><p class="muted">Worth reading before you pick a ticket site:</p><ul class="guide-link-list"><li>${anchor("How to avoid overpaying for concert tickets", "/guides/how-to-avoid-overpaying-for-concert-tickets")}</li><li>${anchor("When is the best time to buy concert tickets?", "/guides/when-is-the-best-time-to-buy-concert-tickets")}</li><li>${anchor("How to spot ticket scams and fake listings", "/guides/how-to-avoid-ticket-scams")}</li></ul><div class="action-row">${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor("Browse other artists", "/artists", "button button-secondary")}</div></section>`;
+    return `<section class="provider-panel"><h2>Where to buy</h2><p class="muted">No ticket site link for this artist has been checked yet. Buttons appear once a link is confirmed.</p><p class="muted">Worth reading before you pick a ticket site:</p><ul class="guide-link-list"><li>${anchor("How to avoid overpaying for concert tickets", "/guides/how-to-avoid-overpaying-for-concert-tickets")}</li><li>${anchor("When is the best time to buy concert tickets?", "/guides/when-is-the-best-time-to-buy-concert-tickets")}</li><li>${anchor("How to spot ticket scams and fake listings", "/guides/how-to-avoid-ticket-scams")}</li></ul><div class="action-row">${anchor("Read buying guides", "/guides", "button button-secondary")}${anchor("Browse other artists", "/artists", "button button-secondary")}</div></section>`;
   }
   const cards = links
     .map((item) => {
@@ -4668,8 +4664,7 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
       )}${verificationNote ? `<p class="disclosure-note">${escapeHtml(verificationNote)}</p>` : ""}</article>`;
     })
     .join("");
-  const singleProviderNote = links.length === 1 ? `<p class="disclosure-note">There's only one checked provider page for this artist so far, so there's nothing to compare it against yet.</p>` : "";
-  return `<section class="provider-panel"><h2>Where to buy</h2><p class="muted">These go to the artist's page on each ticket site, not to a specific date.</p>${singleProviderNote}<div class="provider-actions">${cards}</div></section>`;
+  return `<section class="provider-panel"><h2>Where to buy</h2><p class="muted">These go to the artist's page on each ticket site, not to a specific date.</p><div class="provider-actions">${cards}</div></section>`;
 }
 
 function formatVerificationDate(value) {
@@ -4712,7 +4707,7 @@ function renderVerificationDisclosure(artist, hasShows = true) {
       )}, by an automated check rather than a human review.</p>`
     : "";
   const verificationLines = hasShows
-    ? `<p><strong>What's verified:</strong> every date comes from a source listing with a date, venue and city, and every button on a date card opens that exact event on the ticket site. A date that fails stays listed without a button. The &ldquo;Where to buy&rdquo; buttons are checked too, but open the artist's page rather than one date.</p><p><strong>What isn't verified:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. The ticket site settles those at checkout. A price here is one site's listed price at the time shown, not a quote.</p>`
+    ? `<p><strong>What's verified:</strong> each date's day, venue and city come from the source listing, and every button on a date card opens that exact event on the ticket site. If a link fails the check, the date stays listed without a button.</p><p><strong>What isn't verified:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. The ticket site confirms those at checkout.</p>`
     : `<p><strong>What's verified:</strong> there are no confirmed upcoming ${escapeHtml(
         artist.name
       )} dates, so none are listed. A date goes up only with a date, venue and city from the source, and a ticket button only once its link opens that exact event.</p>`;
@@ -6965,7 +6960,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       eventPageLinker(route.events || events, [artist])
     )}${renderArtistCityAnswerSummary(artist, artistCity, { datesTabled })}${priceGuideHtml}${relatedLinksHtml}${collapsedGroupHtml(
       "How prices and links work, and useful links",
-      `${renderArtistTicketHelpHtml(artistTicketHelp(), { withArtistPanel: false })}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
+      `${renderArtistTicketHelpHtml(artistTicketHelp())}<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
       `All ${artist.name} tickets and dates`,
       `/artists/${artist.slug}`,
       "mini-link"

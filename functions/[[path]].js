@@ -50,7 +50,8 @@ import {
 } from "./_event-price-moves.js";
 import { isUpcomingShow, showStartMs } from "./_upcoming.js";
 import { CARD_PRICE_TAIL, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, lowestPriceLabel, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
-import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, resolveEventRoute } from "./_event-pages.js";
+import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, nonPerformanceMarkers, resolveEventRoute } from "./_event-pages.js";
+import { deriveEventContext, EVENT_CITY_NEIGHBOUR_DAYS, EVENT_VENUE_NEIGHBOUR_DAYS } from "./_event-context.js";
 import { EVENT_INDEXED_COHORT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
 import {
   BLOG_INDEX_PATH,
@@ -720,7 +721,7 @@ async function resolveRoute(pathname, env) {
     if (decision.action !== EVENT_ROUTE_ACTION.RENDER) return null;
     const artist = findArtist(catalog, slugify(decision.event.artist_slug));
     if (!artist) return null;
-    return eventPageRoute(decision, artist, catalog, events);
+    return eventPageRoute(decision, artist, catalog, events, artistsMeta);
   }
 
   if (path === "/cities" || path.startsWith("/cities/")) {
@@ -6413,7 +6414,7 @@ function eventPageDescription(artistName, venue, city, dateLabel, state) {
   );
 }
 
-function eventPageRoute(decision, artist, catalog, events) {
+function eventPageRoute(decision, artist, catalog, events, artistsMeta = []) {
   const event = decision.event;
   const state = decision.state;
   const venue = String(event.venue || "").trim();
@@ -6440,6 +6441,7 @@ function eventPageRoute(decision, artist, catalog, events) {
     venuePath: deriveVenues(events).some((entry) => entry.indexable && entry.slug === venueSlugValue) ? `/venues/${venueSlugValue}` : "",
     catalog,
     events,
+    artistsMeta,
     breadcrumb: [
       { name: "Artists", path: "/artists" },
       { name: artist.name, path: `/artists/${artist.slug}` },
@@ -6461,10 +6463,116 @@ function eventStatusFact(show) {
   return "";
 }
 
+// One date in a list on the event page: its venue-local date, venue and city.
+// Event pages stay a leaf (scripts/audit-internal-links.mjs: only the artist,
+// artist-city, city and venue boards link event pages), so another artist's
+// date links that artist's page and the artist's own dates are plain text.
+function eventContextDateItem(event, { withArtist = false, note = "" } = {}) {
+  const date = formatShowDateServer(event.datetime_iso, event.timezone);
+  const venue = String(event.venue || "").trim();
+  const city = String(event.city || "").trim();
+  // "The Great Hall, Exeter" already names its city.
+  const place = city && !venue.toLowerCase().includes(city.toLowerCase()) ? [venue, city].filter(Boolean).join(", ") : venue || city;
+  const artistName = String(event.artist_name || "").trim();
+  const rest = escapeHtml([date, place].filter(Boolean).join(" · "));
+  const lead = withArtist && artistName ? `${anchor(artistName, `/artists/${slugify(event.artist_slug)}`, "text-link")} · ` : "";
+  return `<li>${lead}${rest}${note ? ` ${escapeHtml(note)}` : ""}</li>`;
+}
+
+function eventSaleTimeLabel(iso, timezone) {
+  const ms = Date.parse(String(iso || ""));
+  return Number.isFinite(ms) ? presaleTimeLabel(ms, timezone) : "";
+}
+
+// The per-show context (deriveEventContext in functions/_event-context.js):
+// sale dates, where the date sits in the artist's tracked schedule, the
+// artist's other dates in the city, and other tracked artists at the venue.
+// Each section renders only when its data exists.
+function renderEventContextHtml(route, artist, show, held, now = Date.now()) {
+  const sourceEvents = route.events || [];
+  const context = deriveEventContext(sourceEvents, route.event, { now, artists: route.artistsMeta || [], nonPerformanceMarkers });
+  const sections = [];
+  const timezone = show.timezone || "UTC";
+
+  const saleItems = [];
+  if (context.publicOnsale) {
+    const when = eventSaleTimeLabel(context.publicOnsale.at, timezone);
+    if (when) saleItems.push(context.publicOnsale.pending ? `Public on-sale: opens ${when}.` : `Public on-sale: opened ${when}.`);
+  }
+  for (const window of context.presales) {
+    const start = eventSaleTimeLabel(window.start, timezone);
+    const end = eventSaleTimeLabel(window.end, timezone);
+    if (!start || !end) continue;
+    saleItems.push(Date.parse(window.start) > now ? `${window.name}: opens ${start}, closes ${end}.` : `${window.name}: opened ${start}, closes ${end}.`);
+  }
+  if (saleItems.length) {
+    sections.push(
+      `<section class="nested-panel" aria-labelledby="eventSalesTitle"><h2 id="eventSalesTitle">Sale dates for this show</h2><p>${escapeHtml(
+        "The sale windows Ticketmaster lists for this date, in the venue's local time. Check each one's terms on Ticketmaster: some need a presale code or a membership."
+      )}</p><ul>${saleItems.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul></section>`
+    );
+  }
+
+  const schedule = context.schedule;
+  if (!held && schedule.position && schedule.total >= 1) {
+    const plural = (count, one, many) => `${count} ${count === 1 ? one : many}`;
+    const firstDate = schedule.first ? formatShortDateServer(schedule.first.datetime_iso, schedule.first.timezone) : "";
+    const lastDate = schedule.last ? formatShortDateServer(schedule.last.datetime_iso, schedule.last.timezone) : "";
+    const scopeLabel = schedule.tourName ? `on the tour listed as \u201c${schedule.tourName}\u201d` : `for ${artist.name}`;
+    const lead =
+      schedule.total === 1
+        ? `This is the only upcoming ${artist.name} date TourTicketCompare tracks.`
+        : `This is date ${schedule.position} of ${schedule.total} upcoming dates ${scopeLabel} that TourTicketCompare tracks, in ${plural(
+            schedule.cityCount,
+            "city",
+            "cities"
+          )}${schedule.countryCount > 1 ? ` across ${plural(schedule.countryCount, "country", "countries")}` : ""}${
+            firstDate && lastDate && firstDate !== lastDate ? `, between ${firstDate} and ${lastDate}` : ""
+          }.`;
+    const stepItems = [
+      schedule.previous ? eventContextDateItem(schedule.previous, { note: "(date before)" }) : "",
+      schedule.next ? eventContextDateItem(schedule.next, { note: "(date after)" }) : ""
+    ].filter(Boolean);
+    sections.push(
+      `<section class="nested-panel" aria-labelledby="eventTourTitle"><h2 id="eventTourTitle">${escapeHtml(
+        `Where this date sits on the ${artist.name} schedule`
+      )}</h2><p>${escapeHtml(lead)}</p>${stepItems.length ? `<ul>${stepItems.join("")}</ul>` : ""}</section>`
+    );
+  }
+
+  if (context.sameCity.length) {
+    const more = context.sameCityTotal - context.sameCity.length;
+    sections.push(
+      `<section class="nested-panel" aria-labelledby="eventSameCityTitle"><h2 id="eventSameCityTitle">${escapeHtml(
+        `Other ${artist.name} dates in ${show.city}`
+      )}</h2><ul>${context.sameCity
+        .map((entry) => eventContextDateItem(entry.event, { note: entry.sameVenue ? "(same venue)" : "" }))
+        .join("")}</ul>${more > 0 ? `<p>${escapeHtml(`And ${more} more on the ${artist.name} page.`)}</p>` : ""}</section>`
+    );
+  }
+
+  if (context.venueNeighbours.length) {
+    sections.push(
+      `<section class="nested-panel" aria-labelledby="eventVenueTitle"><h2 id="eventVenueTitle">${escapeHtml(`Also at ${show.venue}`)}</h2><p>${escapeHtml(
+        `Other artists TourTicketCompare tracks at ${show.venue} within ${EVENT_VENUE_NEIGHBOUR_DAYS} days of this date.`
+      )}</p><ul>${context.venueNeighbours.map((event) => eventContextDateItem(event, { withArtist: true })).join("")}</ul></section>`
+    );
+  }
+  if (context.cityNeighbours.length) {
+    sections.push(
+      `<section class="nested-panel" aria-labelledby="eventCityTitle"><h2 id="eventCityTitle">${escapeHtml(`Other concerts in ${show.city} around this date`)}</h2><p>${escapeHtml(
+        `Other artists TourTicketCompare tracks at other ${show.city} venues within ${EVENT_CITY_NEIGHBOUR_DAYS} days of this date.`
+      )}</p><ul>${context.cityNeighbours.map((event) => eventContextDateItem(event, { withArtist: true })).join("")}</ul></section>`
+    );
+  }
+  return sections.join("");
+}
+
 // One event: the facts, the same show card every board renders (so the same
 // CTA gates, /api/out links, price snapshots and lifecycle hold), the recorded
-// low and latest move for the same date where there is one, and links back to
-// the artist's pages. No FAQ and no generated copy; its structured data
+// low and latest move for the same date where there is one, the per-show
+// context (renderEventContextHtml), and links back to the artist's pages.
+// No FAQ and no generated copy; its structured data
 // (eventPageSchema) encodes only the facts rendered here.
 function renderEventPageBody(route, events, env) {
   const artist = route.artist;
@@ -6538,7 +6646,17 @@ function renderEventPageBody(route, events, env) {
     .map(([term, value]) => `<dt>${escapeHtml(term)}</dt><dd>${value}</dd>`)
     .join("")}</dl></section>`;
 
+  const contextHtml = renderEventContextHtml(route, artist, show, held);
+
+  // The artist's price guide, linked on the same condition the artist page uses.
+  const priceGuideLive =
+    priceGuideRegistered(artist.slug) &&
+    priceGuideRouteDecision(derivePriceGuide(route.events || events, artist.slug), {
+      registered: true,
+      artistEditoriallyIndexable: artist.indexing_status === "indexable_with_substantial_content"
+    }) === "render";
   const links = [
+    priceGuideLive ? anchor(`${artist.name} ticket prices by date`, priceGuidePath(artist.slug), "mini-link") : "",
     route.artistCityPath ? anchor(`All ${artist.name} dates in ${route.artistCityLabel}`, route.artistCityPath, "mini-link") : "",
     anchor(`All ${artist.name} tickets and dates`, `/artists/${artist.slug}`, "mini-link"),
     route.venuePath ? anchor(`Concerts at ${show.venue}`, route.venuePath, "mini-link") : "",
@@ -6586,7 +6704,7 @@ function renderEventPageBody(route, events, env) {
     route
   )}<h1 id="eventTitle">${escapeHtml(`${artist.name} at ${show.venue}, ${show.city} — ${dateLabel}`)}</h1><section class="section-grid show-board" aria-labelledby="eventTicketsTitle"><div class="section-intro"><h2 id="eventTicketsTitle">${escapeHtml(
     ticketsHeading
-  )}</h2>${disclosure}</div><div class="card-grid show-card-grid">${cardHtml}</div></section>${pricesHtml}${factsHtml}${knowHtml}${linksHtml}</section></main>`;
+  )}</h2>${disclosure}</div><div class="card-grid show-card-grid">${cardHtml}</div></section>${pricesHtml}${factsHtml}${contextHtml}${knowHtml}${linksHtml}</section></main>`;
 }
 
 function renderMainContent(route, catalog, events = [], guideContent = {}, env = {}) {

@@ -281,7 +281,23 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
 
   // Links back to existing pages only.
   assert(page.html.includes(`href="${ARTIST_CITY}"`) && page.html.includes(`href="/artists/${ARTIST.slug}"`), "the page links back to the artist-city and artist pages");
+  // Event pages stay a leaf: the per-show context names other dates without
+  // linking their pages (scripts/audit-internal-links.mjs owns that rule).
   assert(!/href="\/events\//.test(mainOf(page.html)), "the page links to no other event page");
+
+  // Per-show context: schedule position, neighbouring dates, other dates in the
+  // city. Held (cancelled, postponed, unconfirmed) dates are never listed.
+  const tour = text(meta(page.html, /(<section[^>]*aria-labelledby="eventTourTitle"[\s\S]*?<\/section>)/));
+  assert(/This is date 2 of 6 upcoming dates on the tour listed as \u201cFixture Tour\u201d that TourTicketCompare tracks/.test(tour), `the schedule position is stated (got ${tour.slice(0, 240)})`);
+  assert(/in 2 cities across 2 countries, between Aug 30, 2026 and Sep 17, 2026/.test(tour), "the schedule's span is stated");
+  assert(/Merkur Spiel-Arena, Düsseldorf \(date before\)/.test(tour) && /\(date after\)/.test(tour), "the dates either side are listed");
+  const sameCity = text(meta(page.html, /(<section[^>]*aria-labelledby="eventSameCityTitle"[\s\S]*?<\/section>)/));
+  assert(/Other .+ dates in Springfield/.test(sameCity) && /\(same venue\)/.test(sameCity), `the artist's other Springfield dates are listed (got ${sameCity.slice(0, 240)})`);
+  for (const heldEvent of HELD) {
+    const heldDate = resolveEventLocalDate(heldEvent).iso;
+    assert(!mainOf(page.html).includes(eventPages.eventPath(heldEvent)), `a held date (${heldDate}) is never linked from the context`);
+  }
+  assert(!/Sep 14, 2026|Sep 15, 2026/.test(sameCity + tour), "cancelled and postponed dates are not listed as other dates");
 
   // Structured data: the site graph, the breadcrumb, and one MusicEvent for
   // this performance, identified by this page, with an Offer for each price
@@ -568,6 +584,45 @@ const detailsLinkOf = (cardHtml) => cardHtml.match(/<a class="text-link show-det
   const llms = await (await llmsGet({ request: new Request(`${ORIGIN}/llms.txt`), env: env(EVENTS) })).text();
   assert(sitemap.includes("<urlset") && !sitemap.includes("/events/"), "the sitemap lists no event page");
   assert(llms.length > 0 && !llms.includes("/events/"), "llms.txt lists no event page");
+}
+
+// ─── per-show context (deriveEventContext) ──────────────────────────────────
+
+{
+  const { deriveEventContext } = await load("functions/_event-context.js");
+  const other = artistsMeta.find(
+    (artist) => artist?.indexing_status === "indexable_with_substantial_content" && String(artist.slug) !== ARTIST.slug
+  );
+  const neighbour = (id, iso, extra = {}) =>
+    fixtureEvent(id, iso, { artist_slug: String(other.slug), artist_name: String(other.name || other.slug), tour_name: "", ...extra });
+  const NEAR_VENUE = neighbour("fixture-neighbour-near", "2026-09-20T01:00:00Z");
+  const NEAR_VENUE_LATER = neighbour("fixture-neighbour-later", "2026-09-21T01:00:00Z");
+  const FAR_VENUE = neighbour("fixture-neighbour-far", "2026-12-20T01:00:00Z", { artist_slug: "x-far", artist_name: "Far" });
+  const OTHER_VENUE = neighbour("fixture-neighbour-elsewhere", "2026-09-20T01:00:00Z", { venue: "Elsewhere Hall" });
+  const HELD_NEIGHBOUR = neighbour("fixture-neighbour-held", "2026-09-12T01:00:00Z", { ticketmaster_status_code: "cancelled" });
+  const SHELL_NEIGHBOUR = { ...SHELL, id: "fixture-shell-neighbour" };
+  const WITH_SALES = {
+    ...PRICED,
+    public_onsale_at: "2026-08-20T15:00:00Z",
+    presales: [
+      { name: "Artist Presale", start: "2026-08-18T15:00:00Z", end: "2026-08-19T03:00:00Z" },
+      { name: "Ended Presale", start: "2026-07-01T15:00:00Z", end: "2026-07-02T03:00:00Z" }
+    ]
+  };
+  const list = [...EVENTS.filter((event) => event.id !== PRICED.id), WITH_SALES, NEAR_VENUE, NEAR_VENUE_LATER, FAR_VENUE, OTHER_VENUE, HELD_NEIGHBOUR, SHELL_NEIGHBOUR];
+  const context = deriveEventContext(list, WITH_SALES, { now: NOW_MS, artists: artistsMeta, nonPerformanceMarkers: eventPages.nonPerformanceMarkers });
+
+  assert(context.venueNeighbours.length === 1 && context.venueNeighbours[0].id === NEAR_VENUE.id, `one neighbour per artist, the closest date, at this venue only (got ${context.venueNeighbours.map((e) => e.id).join(", ")})`);
+  assert(!context.venueNeighbours.some((e) => e.id === SHELL_NEIGHBOUR.id), "an artist under review is never a venue neighbour");
+  assert(context.presales.length === 1 && context.presales[0].name === "Artist Presale", "an ended presale window is dropped");
+  assert(context.publicOnsale?.pending === true, "a future public on-sale is pending");
+  assert(context.schedule.tourName === "Fixture Tour" && context.schedule.position === 2 && context.schedule.total === 6, "the schedule counts this tour's upcoming, unheld dates");
+
+  const heldContext = deriveEventContext(list, CANCELLED, { now: NOW_MS, artists: artistsMeta, nonPerformanceMarkers: eventPages.nonPerformanceMarkers });
+  assert(heldContext.presales.length === 0 && heldContext.publicOnsale === null, "a held date states no sale windows");
+
+  const untoured = deriveEventContext(list, { ...WITH_SALES, tour_name: "" }, { now: NOW_MS, artists: artistsMeta, nonPerformanceMarkers: eventPages.nonPerformanceMarkers });
+  assert(untoured.schedule.tourName === "", "a date with no tour name is never given one");
 }
 
 // ─── analytics page type ────────────────────────────────────────────────────

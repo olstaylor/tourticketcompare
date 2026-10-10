@@ -542,8 +542,12 @@ months earlier. Such a window still lists on the page; it no longer indexes it. 
 and `llms.txt` until the next tour's presales are listed. New exclusion code:
 `no_presale_window`.
 
-It prints no presale code and links to no ticket site. It emits a `WebPage`
-about the artist and no `MusicEvent`, `Offer` or `FAQPage`.
+It prints no presale code. Since 2026-10-09 (owner-approved) it also shows the
+lowest listed resale price for each date it lists, with the site and check
+time, in the artist-city price table with its tracked buttons
+(`cta_location=presale_page`), and says resale is not face value. A date with
+no eligible price shows none, and a page with none links to no ticket site.
+It emits a `WebPage` about the artist and no `MusicEvent`, `Offer` or `FAQPage`.
 
 ### Blog — `/blog`, `/blog/<slug>`, `/blog/tags/<tag>`
 

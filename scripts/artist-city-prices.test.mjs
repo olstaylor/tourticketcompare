@@ -186,6 +186,11 @@ const SOLO = fixtureEvent({ id: "fixture-solo", city: SOLO_CITY, venue: VENUE, i
 // A two-venue run, so the table's venue column is exercised in both states.
 const MULTI_A = fixtureEvent({ id: "fixture-multi-a", city: MULTI_CITY, venue: "North Hall", iso: "2026-11-05T01:00:00Z" });
 const MULTI_B = fixtureEvent({ id: "fixture-multi-b", city: MULTI_CITY, venue: "South Pavilion", iso: "2026-11-07T01:00:00Z" });
+// A presale opened yesterday on the run city's two dates, for the presale
+// page's resale table.
+const PRESALE = { name: "Fixture Fan Presale", start: "2026-08-08T15:00:00Z", end: "2026-08-12T15:00:00Z" };
+RUN_A.presales = [PRESALE];
+RUN_B.presales = [PRESALE];
 const EVENTS = [RUN_A, RUN_B, SOLO, MULTI_A, MULTI_B];
 
 // Cache rows shaped exactly as provider_pricing_cache returns them. Vivid Seats
@@ -727,6 +732,25 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(!solo.main.includes("provider-cta-lowest"), "a date with a single priced provider has nothing to be lower than, so no badge");
   const unpriced = await render(RUN_PATH, { withDb: false });
   assert(!unpriced.main.includes("provider-cta-lowest"), "no prices, no badge");
+}
+
+// ─── the presale page reuses the table for its own dates ─────────────────────
+{
+  const presalePath = `/artists/${ARTIST.slug}/presale`;
+  const page = await render(presalePath);
+  assert(page.status === 200, "the presale page renders");
+  const section = (page.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [])[0] || "";
+  assert(section.includes(`${ARTIST.name} resale prices for these dates`), "the presale page carries its own resale table");
+  const body = text(section);
+  assert(body.includes("$182") && body.includes("$240"), "each presale date shows its own lowest listed price");
+  assert(!body.includes("$145"), "a date the page does not list never reaches its table");
+  assert(body.includes("not face value"), "the table says resale is not face value");
+  const outHrefs = [...section.matchAll(/href="([^"]+)"/g)].map((m) => m[1]).filter((href) => href.startsWith("/api/out?"));
+  assert(outHrefs.length >= 2 && outHrefs.every((href) => href.includes("ctaLocation=presale_page")), "presale-table CTAs carry their own cta_location");
+  assert(CTA_LOCATIONS.includes("presale_page"), "presale_page is in the allowlist, or /api/out discards it");
+  assert(page.main.includes("How this site makes money"), "a priced presale page carries the money disclosure");
+  const unpriced = await render(presalePath, { withDb: false });
+  assert(!unpriced.main.includes("/api/out"), "with no price on record the presale page links to no ticket site");
 }
 
 console.log(`artist-city-prices: ${passed} checks passed`);

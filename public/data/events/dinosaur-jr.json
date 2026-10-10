@@ -418,7 +418,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZMfs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMfs",
     "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/menlo-park-california-the-guild-theatre-menlo-park-2026-10-19-8-pm/concert/18540429",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-menlo-park-the-guild-theatre-10-19-2026/production/7457212",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZMfs",
     "last_verified_at": null,
@@ -440,11 +440,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7457212,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-menlo-park-the-guild-theatre-10-19-2026/production/7457212",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

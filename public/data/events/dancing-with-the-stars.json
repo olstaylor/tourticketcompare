@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "01006538BEB0BB7D",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-manchester-new-hampshire-01-21-2027/event/01006538BEB0BB7D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-manchester-snhu-arena-1-21-2027--theater-ballet-and-dance/production/7662725",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-manchester-new-hampshire-01-21-2027/event/01006538BEB0BB7D",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662725,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-manchester-snhu-arena-1-21-2027--theater-ballet-and-dance/production/7662725",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -66,7 +66,7 @@
     "ticketmaster_event_id": "00006541965469FE",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-buffalo-new-york-01-22-2027/event/00006541965469FE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-buffalo-keybank-center-1-22-2027--theater-ballet-and-dance/production/7662727",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-buffalo-new-york-01-22-2027/event/00006541965469FE",
     "last_verified_at": null,
@@ -88,11 +88,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662727,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-buffalo-keybank-center-1-22-2027--theater-ballet-and-dance/production/7662727",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -120,7 +120,7 @@
     "ticketmaster_event_id": "16006539A07F5AF9",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-cincinnati-ohio-01-23-2027/event/16006539A07F5AF9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-cincinnati-heritage-bank-center-1-23-2027--theater-ballet-and-dance/production/7662731",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-cincinnati-ohio-01-23-2027/event/16006539A07F5AF9",
     "last_verified_at": null,
@@ -142,11 +142,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662731,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-cincinnati-heritage-bank-center-1-23-2027--theater-ballet-and-dance/production/7662731",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -174,7 +174,7 @@
     "ticketmaster_event_id": "1000653CE43CF7B0",
     "ticketmaster_url": "https://www.ticketmaster.ca/dancing-with-the-stars-live-2027-toronto-ontario-01-24-2027/event/1000653CE43CF7B0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-toronto-scotiabank-arena-1-24-2027/production/7662836",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dancing-with-the-stars-live-2027-toronto-ontario-01-24-2027/event/1000653CE43CF7B0",
     "last_verified_at": null,
@@ -196,11 +196,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662836,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-toronto-scotiabank-arena-1-24-2027/production/7662836",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -228,7 +228,7 @@
     "ticketmaster_event_id": "08006539FBF2D53A",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-grand-rapids-michigan-01-27-2027/event/08006539FBF2D53A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-grand-rapids-van-andel-arena-1-27-2027--theater-ballet-and-dance/production/7662740",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-grand-rapids-michigan-01-27-2027/event/08006539FBF2D53A",
     "last_verified_at": null,
@@ -250,11 +250,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662740,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-grand-rapids-van-andel-arena-1-27-2027--theater-ballet-and-dance/production/7662740",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -282,7 +282,7 @@
     "ticketmaster_event_id": "08006542E5B3BA17",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-detroit-michigan-01-28-2027/event/08006542E5B3BA17",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-detroit-little-caesars-arena-1-28-2027--theater-ballet-and-dance/production/7662742",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-detroit-michigan-01-28-2027/event/08006542E5B3BA17",
     "last_verified_at": null,
@@ -304,11 +304,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662742,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-detroit-little-caesars-arena-1-28-2027--theater-ballet-and-dance/production/7662742",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -336,7 +336,7 @@
     "ticketmaster_event_id": "0500653DE03DF13C",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-indianapolis-indiana-01-29-2027/event/0500653DE03DF13C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-indianapolis-gainbridge-fieldhouse-1-29-2027--theater-ballet-and-dance/production/7662744",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-indianapolis-indiana-01-29-2027/event/0500653DE03DF13C",
     "last_verified_at": null,
@@ -358,11 +358,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662744,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-indianapolis-gainbridge-fieldhouse-1-29-2027--theater-ballet-and-dance/production/7662744",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -390,7 +390,7 @@
     "ticketmaster_event_id": "06006538E6A9FCF7",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-minneapolis-minnesota-01-30-2027/event/06006538E6A9FCF7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-minneapolis-target-center-1-30-2027--theater-ballet-and-dance/production/7662746",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-minneapolis-minnesota-01-30-2027/event/06006538E6A9FCF7",
     "last_verified_at": null,
@@ -412,11 +412,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662746,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-minneapolis-target-center-1-30-2027--theater-ballet-and-dance/production/7662746",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -444,7 +444,7 @@
     "ticketmaster_event_id": "07006538B7515581",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-milwaukee-wisconsin-01-31-2027/event/07006538B7515581",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-milwaukee-fiserv-forum-1-31-2027--theater-ballet-and-dance/production/7662748",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-milwaukee-wisconsin-01-31-2027/event/07006538B7515581",
     "last_verified_at": null,
@@ -466,11 +466,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662748,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-milwaukee-fiserv-forum-1-31-2027--theater-ballet-and-dance/production/7662748",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -498,7 +498,7 @@
     "ticketmaster_event_id": "300065414C81F38A",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-allentown-pennsylvania-02-03-2027/event/300065414C81F38A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-allentown-ppl-center-2-3-2027--theater-ballet-and-dance/production/7662750",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-allentown-pennsylvania-02-03-2027/event/300065414C81F38A",
     "last_verified_at": null,
@@ -520,11 +520,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662750,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-allentown-ppl-center-2-3-2027--theater-ballet-and-dance/production/7662750",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -552,7 +552,7 @@
     "ticketmaster_event_id": "30006541A59E5D3F",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-philadelphia-pennsylvania-02-04-2027/event/30006541A59E5D3F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-philadelphia-xfinity-mobile-arena-2-4-2027--theater-ballet-and-dance/production/7662752",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-philadelphia-pennsylvania-02-04-2027/event/30006541A59E5D3F",
     "last_verified_at": null,
@@ -574,11 +574,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662752,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-philadelphia-xfinity-mobile-arena-2-4-2027--theater-ballet-and-dance/production/7662752",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -606,7 +606,7 @@
     "ticketmaster_event_id": "3B006542B8356869",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-new-york-new-york-02-05-2027/event/3B006542B8356869",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-new-york-madison-square-garden-2-5-2027--theater-ballet-and-dance/production/7662754",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-new-york-new-york-02-05-2027/event/3B006542B8356869",
     "last_verified_at": null,
@@ -628,11 +628,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662754,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-new-york-madison-square-garden-2-5-2027--theater-ballet-and-dance/production/7662754",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -660,7 +660,7 @@
     "ticketmaster_event_id": "15006531BD84D18B",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-washington-district-of-columbia-02-07-2027/event/15006531BD84D18B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-washington-capital-one-arena-2-7-2027--theater-ballet-and-dance/production/7662762",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-washington-district-of-columbia-02-07-2027/event/15006531BD84D18B",
     "last_verified_at": null,
@@ -682,11 +682,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662762,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-washington-capital-one-arena-2-7-2027--theater-ballet-and-dance/production/7662762",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -714,7 +714,7 @@
     "ticketmaster_event_id": "15006541BDE3BE41",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-baltimore-maryland-02-09-2027/event/15006541BDE3BE41",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-baltimore-cfg-bank-arena-2-9-2027--theater-ballet-and-dance/production/7662764",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-baltimore-maryland-02-09-2027/event/15006541BDE3BE41",
     "last_verified_at": null,
@@ -736,11 +736,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662764,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-baltimore-cfg-bank-arena-2-9-2027--theater-ballet-and-dance/production/7662764",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -768,7 +768,7 @@
     "ticketmaster_event_id": "16006539DABEB34E",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-pittsburgh-pennsylvania-02-10-2027/event/16006539DABEB34E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-pittsburgh-ppg-paints-arena-2-10-2027--theater-ballet-and-dance/production/7662768",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-pittsburgh-pennsylvania-02-10-2027/event/16006539DABEB34E",
     "last_verified_at": null,
@@ -790,11 +790,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662768,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-pittsburgh-ppg-paints-arena-2-10-2027--theater-ballet-and-dance/production/7662768",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -822,7 +822,7 @@
     "ticketmaster_event_id": "0100653CD70D5CA8",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-boston-massachusetts-02-11-2027/event/0100653CD70D5CA8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-boston-td-garden-2-11-2027--theater-ballet-and-dance/production/7662772",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-boston-massachusetts-02-11-2027/event/0100653CD70D5CA8",
     "last_verified_at": null,
@@ -844,11 +844,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662772,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-boston-td-garden-2-11-2027--theater-ballet-and-dance/production/7662772",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -876,7 +876,7 @@
     "ticketmaster_event_id": "0000653DD5431BAA",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-albany-new-york-02-12-2027/event/0000653DD5431BAA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-albany-mvp-arena-2-12-2027--theater-ballet-and-dance/production/7662776",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-albany-new-york-02-12-2027/event/0000653DD5431BAA",
     "last_verified_at": null,
@@ -898,11 +898,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662776,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-albany-mvp-arena-2-12-2027--theater-ballet-and-dance/production/7662776",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -930,7 +930,7 @@
     "ticketmaster_event_id": "0200653EBECBC8A8",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-newark-new-jersey-02-13-2027/event/0200653EBECBC8A8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-newark-prudential-center-2-13-2027--theater-ballet-and-dance/production/7662780",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-newark-new-jersey-02-13-2027/event/0200653EBECBC8A8",
     "last_verified_at": null,
@@ -952,11 +952,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662780,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-newark-prudential-center-2-13-2027--theater-ballet-and-dance/production/7662780",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -984,7 +984,7 @@
     "ticketmaster_event_id": "02006542D92D5CA3",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-hershey-pennsylvania-02-17-2027/event/02006542D92D5CA3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-hershey-giant-center-2-17-2027/production/7662778",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-hershey-pennsylvania-02-17-2027/event/02006542D92D5CA3",
     "last_verified_at": null,
@@ -1006,11 +1006,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662778,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-hershey-giant-center-2-17-2027/production/7662778",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1038,7 +1038,7 @@
     "ticketmaster_event_id": "050065412E0091DE",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-columbus-ohio-02-18-2027/event/050065412E0091DE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-columbus-value-city-arena-at-schottenstein-center-2-18-2027--theater-ballet-and-dance/production/7662788",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-columbus-ohio-02-18-2027/event/050065412E0091DE",
     "last_verified_at": null,
@@ -1060,11 +1060,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662788,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-columbus-value-city-arena-at-schottenstein-center-2-18-2027--theater-ballet-and-dance/production/7662788",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1092,7 +1092,7 @@
     "ticketmaster_event_id": "0400653D95F16C6D",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-rosemont-illinois-02-19-2027/event/0400653D95F16C6D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-rosemont-allstate-arena-2-19-2027--theater-ballet-and-dance/production/7662790",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-rosemont-illinois-02-19-2027/event/0400653D95F16C6D",
     "last_verified_at": null,
@@ -1114,11 +1114,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662790,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-rosemont-allstate-arena-2-19-2027--theater-ballet-and-dance/production/7662790",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1146,7 +1146,7 @@
     "ticketmaster_event_id": "0600653EB9A3CCD5",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-moline-illinois-02-20-2027/event/0600653EB9A3CCD5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-moline-vibrant-arena-at-the-mark-2-20-2027--theater-ballet-and-dance/production/7662798",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-moline-illinois-02-20-2027/event/0600653EB9A3CCD5",
     "last_verified_at": null,
@@ -1168,11 +1168,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662798,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-moline-vibrant-arena-at-the-mark-2-20-2027--theater-ballet-and-dance/production/7662798",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1200,7 +1200,7 @@
     "ticketmaster_event_id": "06006542DC3078FA",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-omaha-nebraska-02-23-2027/event/06006542DC3078FA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-omaha-chi-health-center-omaha-2-23-2027--theater-ballet-and-dance/production/7662832",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-omaha-nebraska-02-23-2027/event/06006542DC3078FA",
     "last_verified_at": null,
@@ -1222,11 +1222,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662832,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-omaha-chi-health-center-omaha-2-23-2027--theater-ballet-and-dance/production/7662832",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1254,7 +1254,7 @@
     "ticketmaster_event_id": "0600654197E6B4C7",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-kansas-city-missouri-02-24-2027/event/0600654197E6B4C7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-kansas-city-t-mobile-center-2-24-2027--theater-ballet-and-dance/production/7662838",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-kansas-city-missouri-02-24-2027/event/0600654197E6B4C7",
     "last_verified_at": null,
@@ -1276,11 +1276,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662838,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-kansas-city-t-mobile-center-2-24-2027--theater-ballet-and-dance/production/7662838",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1308,7 +1308,7 @@
     "ticketmaster_event_id": "1B006538ACB4E533",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-north-little-rock-arkansas-02-25-2027/event/1B006538ACB4E533",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-north-little-rock-simmons-bank-arena-2-25-2027--theater-ballet-and-dance/production/7662842",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-north-little-rock-arkansas-02-25-2027/event/1B006538ACB4E533",
     "last_verified_at": null,
@@ -1330,11 +1330,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662842,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-north-little-rock-simmons-bank-arena-2-25-2027--theater-ballet-and-dance/production/7662842",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1416,7 +1416,7 @@
     "ticketmaster_event_id": "1B00653C8D076A24",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-knoxville-tennessee-02-27-2027/event/1B00653C8D076A24",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-knoxville-thompson-boling-arena-at-food-city-center-2-27-2027/production/7662770",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-knoxville-tennessee-02-27-2027/event/1B00653C8D076A24",
     "last_verified_at": null,
@@ -1438,11 +1438,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662770,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-knoxville-thompson-boling-arena-at-food-city-center-2-27-2027/production/7662770",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1470,7 +1470,7 @@
     "ticketmaster_event_id": "1B00653E9585B550",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-nashville-tennessee-02-28-2027/event/1B00653E9585B550",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-nashville-bridgestone-arena-2-28-2027--theater-ballet-and-dance/production/7662850",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-nashville-tennessee-02-28-2027/event/1B00653E9585B550",
     "last_verified_at": null,
@@ -1492,11 +1492,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662850,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-nashville-bridgestone-arena-2-28-2027--theater-ballet-and-dance/production/7662850",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1524,7 +1524,7 @@
     "ticketmaster_event_id": "01006541731E53C6",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-charlottesville-virginia-03-02-2027/event/01006541731E53C6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-charlottesville-john-paul-jones-arena-3-2-2027--theater-ballet-and-dance/production/7662854",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-charlottesville-virginia-03-02-2027/event/01006541731E53C6",
     "last_verified_at": null,
@@ -1546,11 +1546,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662854,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-charlottesville-john-paul-jones-arena-3-2-2027--theater-ballet-and-dance/production/7662854",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1632,7 +1632,7 @@
     "ticketmaster_event_id": "0D00653E98AD5BF3",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-tampa-florida-03-09-2027/event/0D00653E98AD5BF3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-tampa-benchmark-international-arena-3-9-2027--theater-ballet-and-dance/production/7662870",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-tampa-florida-03-09-2027/event/0D00653E98AD5BF3",
     "last_verified_at": null,
@@ -1654,11 +1654,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662870,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-tampa-benchmark-international-arena-3-9-2027--theater-ballet-and-dance/production/7662870",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1686,7 +1686,7 @@
     "ticketmaster_event_id": "2000653C9E542B62",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-birmingham-alabama-03-10-2027/event/2000653C9E542B62",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-birmingham-legacy-arena-at-the-bjcc-3-10-2027--theater-ballet-and-dance/production/7662874",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-birmingham-alabama-03-10-2027/event/2000653C9E542B62",
     "last_verified_at": null,
@@ -1708,11 +1708,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662874,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-birmingham-legacy-arena-at-the-bjcc-3-10-2027--theater-ballet-and-dance/production/7662874",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1740,7 +1740,7 @@
     "ticketmaster_event_id": "1B006538BD01255B",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-new-orleans-louisiana-03-11-2027/event/1B006538BD01255B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-new-orleans-smoothie-king-center-3-11-2027--theater-ballet-and-dance/production/7662876",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-new-orleans-louisiana-03-11-2027/event/1B006538BD01255B",
     "last_verified_at": null,
@@ -1762,11 +1762,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662876,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-new-orleans-smoothie-king-center-3-11-2027--theater-ballet-and-dance/production/7662876",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1794,7 +1794,7 @@
     "ticketmaster_event_id": "3A006538C5B915A0",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-austin-texas-03-12-2027/event/3A006538C5B915A0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-austin-moody-center-atx-3-12-2027/production/7662852",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-austin-texas-03-12-2027/event/3A006538C5B915A0",
     "last_verified_at": null,
@@ -1816,11 +1816,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662852,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-austin-moody-center-atx-3-12-2027/production/7662852",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1848,7 +1848,7 @@
     "ticketmaster_event_id": "3A00653ECD645374",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-san-antonio-texas-03-13-2027/event/3A00653ECD645374",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-san-antonio-frost-bank-center-3-13-2027--theater-ballet-and-dance/production/7662896",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-san-antonio-texas-03-13-2027/event/3A00653ECD645374",
     "last_verified_at": null,
@@ -1870,11 +1870,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662896,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-san-antonio-frost-bank-center-3-13-2027--theater-ballet-and-dance/production/7662896",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1902,7 +1902,7 @@
     "ticketmaster_event_id": "0C006539D5D718DC",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-dallas-texas-03-16-2027/event/0C006539D5D718DC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-dallas-american-airlines-center---tx-3-16-2027/production/7662862",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-dallas-texas-03-16-2027/event/0C006539D5D718DC",
     "last_verified_at": null,
@@ -1924,11 +1924,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662862,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-dallas-american-airlines-center---tx-3-16-2027/production/7662862",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1956,7 +1956,7 @@
     "ticketmaster_event_id": "2000653CEBF25A1E",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-tulsa-oklahoma-03-17-2027/event/2000653CEBF25A1E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-tulsa-bok-center-3-17-2027/production/7662868",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-tulsa-oklahoma-03-17-2027/event/2000653CEBF25A1E",
     "last_verified_at": null,
@@ -1978,11 +1978,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662868,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-tulsa-bok-center-3-17-2027/production/7662868",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2010,7 +2010,7 @@
     "ticketmaster_event_id": "1E00653EB490A290",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-denver-colorado-03-19-2027/event/1E00653EB490A290",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-denver-ball-arena-3-19-2027--theater-ballet-and-dance/production/7662898",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-denver-colorado-03-19-2027/event/1E00653EB490A290",
     "last_verified_at": null,
@@ -2032,11 +2032,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662898,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-denver-ball-arena-3-19-2027--theater-ballet-and-dance/production/7662898",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2064,7 +2064,7 @@
     "ticketmaster_event_id": "0F006541D298D33B",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-seattle-washington-03-22-2027/event/0F006541D298D33B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-seattle-climate-pledge-arena-3-22-2027/production/7662840",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-seattle-washington-03-22-2027/event/0F006541D298D33B",
     "last_verified_at": null,
@@ -2086,11 +2086,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662840,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-seattle-climate-pledge-arena-3-22-2027/production/7662840",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2118,7 +2118,7 @@
     "ticketmaster_event_id": "11006539A671AC25",
     "ticketmaster_url": "https://www.ticketmaster.ca/dancing-with-the-stars-live-2027-abbotsford-british-columbia-03-23-2027/event/11006539A671AC25",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-abbotsford-rogers-forum-3-23-2027/production/7662834",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dancing-with-the-stars-live-2027-abbotsford-british-columbia-03-23-2027/event/11006539A671AC25",
     "last_verified_at": null,
@@ -2140,11 +2140,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662834,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-abbotsford-rogers-forum-3-23-2027/production/7662834",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2172,7 +2172,7 @@
     "ticketmaster_event_id": "0F006538A0DE891F",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-portland-oregon-03-24-2027/event/0F006538A0DE891F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-portland-moda-center-3-24-2027/production/7662882",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-portland-oregon-03-24-2027/event/0F006538A0DE891F",
     "last_verified_at": null,
@@ -2194,11 +2194,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662882,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-portland-moda-center-3-24-2027/production/7662882",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2226,7 +2226,7 @@
     "ticketmaster_event_id": "1C00653E3B86F1F1",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-sacramento-california-03-26-2027/event/1C00653E3B86F1F1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-sacramento-golden-1-center-3-26-2027--theater-ballet-and-dance/production/7662900",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-sacramento-california-03-26-2027/event/1C00653E3B86F1F1",
     "last_verified_at": null,
@@ -2248,11 +2248,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662900,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-sacramento-golden-1-center-3-26-2027--theater-ballet-and-dance/production/7662900",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2388,7 +2388,7 @@
     "ticketmaster_event_id": "0900653E9B4AA1E1",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-anaheim-california-04-01-2027/event/0900653E9B4AA1E1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-anaheim-honda-center-4-1-2027--theater-ballet-and-dance/production/7662910",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-anaheim-california-04-01-2027/event/0900653E9B4AA1E1",
     "last_verified_at": null,
@@ -2410,11 +2410,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662910,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-anaheim-honda-center-4-1-2027--theater-ballet-and-dance/production/7662910",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2496,7 +2496,7 @@
     "ticketmaster_event_id": "1900653E92C14C23",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-phoenix-arizona-04-04-2027/event/1900653E92C14C23",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-phoenix-mortgage-matchup-center-4-4-2027--theater-ballet-and-dance/production/7662920",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-phoenix-arizona-04-04-2027/event/1900653E92C14C23",
     "last_verified_at": null,
@@ -2518,11 +2518,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662920,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-phoenix-mortgage-matchup-center-4-4-2027--theater-ballet-and-dance/production/7662920",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2550,7 +2550,7 @@
     "ticketmaster_event_id": "1B0065428EB8AEA0",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-mobile-alabama-04-07-2027/event/1B0065428EB8AEA0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-mobile-regions-arena-4-7-2027--theater-ballet-and-dance/production/7662924",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-mobile-alabama-04-07-2027/event/1B0065428EB8AEA0",
     "last_verified_at": null,
@@ -2572,11 +2572,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662924,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-mobile-regions-arena-4-7-2027--theater-ballet-and-dance/production/7662924",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2604,7 +2604,7 @@
     "ticketmaster_event_id": "2D00653ED67D943D",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-greenville-south-carolina-04-08-2027/event/2D00653ED67D943D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-greenville-bon-secours-wellness-arena-4-8-2027/production/7662872",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-greenville-south-carolina-04-08-2027/event/2D00653ED67D943D",
     "last_verified_at": null,
@@ -2626,11 +2626,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662872,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-greenville-bon-secours-wellness-arena-4-8-2027/production/7662872",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2658,7 +2658,7 @@
     "ticketmaster_event_id": "2D006541E4BE12CC",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-raleigh-north-carolina-04-09-2027/event/2D006541E4BE12CC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-raleigh-lenovo-center-4-9-2027/production/7662774",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-raleigh-north-carolina-04-09-2027/event/2D006541E4BE12CC",
     "last_verified_at": null,
@@ -2680,11 +2680,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662774,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-raleigh-lenovo-center-4-9-2027/production/7662774",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2712,7 +2712,7 @@
     "ticketmaster_event_id": "2D0065398F3E763B",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-charlotte-north-carolina-04-10-2027/event/2D0065398F3E763B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-charlotte-spectrum-center-4-10-2027/production/7662782",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-charlotte-north-carolina-04-10-2027/event/2D0065398F3E763B",
     "last_verified_at": null,
@@ -2734,11 +2734,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662782,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-charlotte-spectrum-center-4-10-2027/production/7662782",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2766,7 +2766,7 @@
     "ticketmaster_event_id": "0E00653DE41C8C5E",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-duluth-georgia-04-11-2027/event/0E00653DE41C8C5E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dancing-with-the-stars-tickets-duluth-gas-south-arena-4-11-2027--theater-ballet-and-dance/production/7662932",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-duluth-georgia-04-11-2027/event/0E00653DE41C8C5E",
     "last_verified_at": null,
@@ -2788,11 +2788,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7662932,
+        "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-duluth-gas-south-arena-4-11-2027--theater-ballet-and-dance/production/7662932",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

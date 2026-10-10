@@ -1674,7 +1674,7 @@
     "ticketmaster_event_id": "1F00654698EB20B8",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/pink-martini-london-02-07-2027/event/1F00654698EB20B8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-london-royal-albert-hall-7-2-2027/production/7679841",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/pink-martini-london-02-07-2027/event/1F00654698EB20B8",
     "last_verified_at": "2026-10-09",
@@ -1696,11 +1696,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679841,
+        "url": "https://www.vividseats.com/pink-martini-tickets-london-royal-albert-hall-7-2-2027/production/7679841",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

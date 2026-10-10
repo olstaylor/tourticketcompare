@@ -715,7 +715,7 @@
     "ticketmaster_event_id": "1E0064C3D426F256",
     "ticketmaster_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-salt-lake-city-utah-10-13-2026/event/1E0064C3D426F256",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-salt-lake-city-the-union-event-center---salt-lake-city-10-13-2026/production/7132419",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-salt-lake-city-utah-10-13-2026/event/1E0064C3D426F256",
     "last_verified_at": "2026-10-07",
@@ -737,11 +737,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7132419,
+        "url": "https://www.vividseats.com/malcolm-todd-tickets-salt-lake-city-the-union-event-center---salt-lake-city-10-13-2026/production/7132419",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

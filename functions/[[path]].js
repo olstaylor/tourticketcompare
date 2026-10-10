@@ -7588,11 +7588,11 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20261002u" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20260924b" />\n    <link rel="stylesheet" href="/styles.css?v=20261002u" />'
+      '<link rel="stylesheet" href="/styles.css?v=20261010a" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20261010a" />\n    <link rel="stylesheet" href="/styles.css?v=20261010a" />'
     );
-    next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20260924b" /></head>');
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261006a" defer></script></body>');
+    next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20261010a" /></head>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261010a" defer></script></body>');
   }
   return next;
 }

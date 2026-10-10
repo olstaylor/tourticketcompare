@@ -67,9 +67,9 @@ const expectedTitle = new Map([
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.";
 const APP_ASSET_VERSION = "20261009c";
-const TTC_HOME_ASSET_VERSION = "20260924b";
-const TTC_HOME_JS_ASSET_VERSION = "20261006a";
-const TTC_SHELL_ASSET_VERSION = "20260925a";
+const TTC_HOME_ASSET_VERSION = "20261010a";
+const TTC_HOME_JS_ASSET_VERSION = "20261010a";
+const TTC_SHELL_ASSET_VERSION = "20261010a";
 const SHELL_SCRIPT_ASSET_VERSION = "20261009a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-4/p1dKV8DVVc+KAFU6w/f5XPSPD2Po0Wx8aWhKVLdjI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";

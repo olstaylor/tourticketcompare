@@ -61,14 +61,23 @@ export function rankPerformers(events, { onSiteNames = new Set(), onSiteSeatgeek
   return [...best.values()].sort((a, b) => b.score - a.score || b.events - a.events || a.name.localeCompare(b.name));
 }
 
-/** Demand names first, then the existing lines that are not already listed. */
+/**
+ * Demand names first, then the existing lines that are not already listed.
+ * A forecast line for a demand name keeps its place at the front but carries
+ * its Ticketmaster attraction id, so the screen re-fetches by id.
+ */
 export function mergeDemand(ranked, existingText, top = DEFAULT_TOP) {
   const lines = ranked.slice(0, top).map((row) => `${row.name}\t`);
-  const seen = new Set(ranked.slice(0, top).map((row) => normalizeName(row.name)));
+  const demandIndex = new Map(ranked.slice(0, top).map((row, i) => [normalizeName(row.name), i]));
+  const seen = new Set(demandIndex.keys());
   for (const line of String(existingText || "").split("\n")) {
     const trimmed = line.trim();
     if (!trimmed || trimmed.startsWith("#")) continue;
     const key = normalizeName(trimmed.split("\t")[0]);
+    if (demandIndex.has(key) && trimmed.split("\t")[1]) {
+      lines[demandIndex.get(key)] = trimmed;
+      demandIndex.delete(key);
+    }
     if (seen.has(key)) continue;
     seen.add(key);
     lines.push(trimmed);
@@ -108,7 +117,8 @@ async function fetchDemandEvents({ clientId, clientSecret, pages }) {
       const res = await fetch(`https://api.seatgeek.com/2/events?${params.toString()}`, { signal: controller.signal });
       if (!res.ok) throw new Error(`SeatGeek events returned HTTP ${res.status} on page ${page}`);
       const data = await res.json();
-      const batch = Array.isArray(data?.events) ? data.events : [];
+      if (!Array.isArray(data?.events)) throw new Error(`SeatGeek events response had no events list on page ${page}`);
+      const batch = data.events;
       events.push(...batch);
       if (batch.length < PER_PAGE) break;
     } finally {
@@ -137,8 +147,8 @@ function selfTest() {
   assert.equal(ranked[1].events, 2, "events are counted per performer");
   assert.equal(
     mergeDemand(ranked, "Def Leppard\tK1\nEagles\tK2\n# note\n\nRod Stewart\t", 10),
-    "Eagles\t\nJonas Brothers\t\nDef Leppard\tK1\nRod Stewart\n",
-    "demand names lead, a later duplicate is dropped, forecast lines keep their ids"
+    "Eagles\tK2\nJonas Brothers\t\nDef Leppard\tK1\nRod Stewart\n",
+    "demand names lead, a later duplicate is dropped but its attraction id moves to the demand line"
   );
   assert.equal(mergeDemand(ranked, "", 1), "Eagles\t\n", "top caps the demand names");
   assert.equal(mergeDemand([], ""), "", "nothing in, nothing out");

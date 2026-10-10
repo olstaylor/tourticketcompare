@@ -267,23 +267,32 @@ export function isTransientFailure(result) {
 }
 
 /**
- * Re-check transient failures once, one at a time, before any of them may be
- * reported as a dead link. Serial on purpose: the first pass is a burst, and a
- * retry fired at the same width would meet the same congestion. A URL that
- * fails again is reported exactly as before, so a real outage still surfaces.
+ * Re-check transient failures once before any of them may be reported as a
+ * dead link. One lane per host, so a retry never meets the burst that caused
+ * the first failure. Capped at `maxRechecks`: a handful of transients is noise
+ * worth retrying, but hundreds is an outage, and retrying all of them would
+ * spend the audit job's 40-minute limit before the report is written. Past the
+ * cap the first-pass results stand. A URL that fails again is reported exactly
+ * as before, so a real outage still surfaces.
  */
-export async function recheckTransientFailures(items, results, check) {
+export async function recheckTransientFailures(items, results, check, { maxRechecks = 25, global = 8 } = {}) {
   const out = results.slice();
-  let rechecked = 0;
-  let recovered = 0;
+  const indexes = [];
   for (const [index, result] of results.entries()) {
-    if (!isTransientFailure(result)) continue;
-    rechecked += 1;
-    const retry = await check(items[index]);
-    out[index] = retry;
-    if (retry.ok || retry.blocked) recovered += 1;
+    if (isTransientFailure(result)) indexes.push(index);
   }
-  return { results: out, rechecked, recovered };
+  const selected = indexes.slice(0, maxRechecks);
+  const retries = await mapWithHostLimits(
+    selected.map((index) => items[index]),
+    { perHost: 1, global },
+    (item) => check(item)
+  );
+  let recovered = 0;
+  for (const [position, index] of selected.entries()) {
+    out[index] = retries[position];
+    if (retries[position].ok || retries[position].blocked) recovered += 1;
+  }
+  return { results: out, rechecked: selected.length, recovered, skipped: indexes.length - selected.length };
 }
 
 async function checkUrl(url, timeoutMs, fetchImpl = fetch) {
@@ -535,7 +544,7 @@ if (args.has('--self-test')) {
   //
   // Only network errors and gateway 5xx are retried; a 404, a WAF block or a
   // pass is left exactly as the first pass saw it. A retry that fails again
-  // still reaches the report.
+  // still reaches the report, and an outage-sized set is not retried in full.
   assert.equal(isTransientFailure({ ok: false, status: null, error: 'timeout' }), true);
   assert.equal(isTransientFailure({ ok: false, status: 503 }), true);
   assert.equal(isTransientFailure({ ok: false, status: 404 }), false);
@@ -564,6 +573,20 @@ if (args.has('--self-test')) {
   assert.equal(recheck.results[1].status, 404);
   assert.equal(recheck.results[2].status, 504);
   assert.equal(recheck.results[3].ok, true);
+  assert.equal(recheck.skipped, 0);
+
+  const outage = Array.from({ length: 40 }, (_, i) => ({ url: `https://down.example/${i}` }));
+  let outageCalls = 0;
+  const capped = await recheckTransientFailures(
+    outage,
+    outage.map(() => ({ ok: false, status: null, error: 'timeout' })),
+    async () => { outageCalls += 1; return { ok: false, status: null, error: 'timeout' }; },
+    { maxRechecks: 5 }
+  );
+  assert.equal(outageCalls, 5);
+  assert.equal(capped.rechecked, 5);
+  assert.equal(capped.skipped, 35);
+  assert.equal(capped.results.filter((r) => !r.ok).length, 40);
 
   console.log('verify-outbound-links self-test passed');
   process.exit(0);
@@ -637,13 +660,16 @@ const firstPass = await mapWithHostLimits(
   { perHost: PER_HOST_CONCURRENCY, global: GLOBAL_CONCURRENCY },
   (item) => checkUrl(item.url, timeoutMs)
 );
-const { results, rechecked, recovered } = await recheckTransientFailures(
+const { results, rechecked, recovered, skipped: notRechecked } = await recheckTransientFailures(
   links,
   firstPass,
-  (item) => checkUrl(item.url, timeoutMs * 2)
+  (item) => checkUrl(item.url, timeoutMs)
 );
 if (rechecked) {
-  console.log(`Re-checked ${rechecked} transient failure(s) (network error, timeout or 502/503/504); ${recovered} recovered.`);
+  console.log(
+    `Re-checked ${rechecked} transient failure(s) (network error, timeout or 502/503/504); ${recovered} recovered` +
+      (notRechecked ? `; ${notRechecked} more left as reported (over the re-check cap, likely an outage).` : '.')
+  );
 }
 
 for (const [index, item] of links.entries()) {

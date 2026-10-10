@@ -127190,7 +127190,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "3A006531911D6E0F",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-houston-texas-05-01-2027/event/3A006531911D6E0F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/houston-texas-713-music-hall-2027-05-01-7-pm/concert/18619416",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-houston-713-music-hall-5-1-2027/production/7606570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-houston-texas-05-01-2027/event/3A006531911D6E0F",
@@ -127206,11 +127206,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619416,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/houston-texas-713-music-hall-2027-05-01-7-pm/concert/18619416",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606570,
@@ -127274,7 +127274,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "2D006537DF9A769F",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-durham-north-carolina-05-04-2027/event/2D006537DF9A769F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/durham-north-carolina-dpac-durham-performing-arts-center-2027-05-04-7-pm/concert/18619418",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-durham-north-carolina-05-04-2027/event/2D006537DF9A769F",
@@ -127290,11 +127290,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619418,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/durham-north-carolina-dpac-durham-performing-arts-center-2027-05-04-7-pm/concert/18619418",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -127344,7 +127344,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "08006537FB91CECB",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-detroit-michigan-05-07-2027/event/08006537FB91CECB",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/detroit-michigan-fox-theatre-detroit-2027-05-07-7-pm/concert/18619420",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-detroit-fox-theatre-detroit-5-7-2027/production/7606574",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-detroit-michigan-05-07-2027/event/08006537FB91CECB",
@@ -127360,11 +127360,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619420,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/detroit-michigan-fox-theatre-detroit-2027-05-07-7-pm/concert/18619420",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606574,
@@ -127425,7 +127425,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "05006535B611EE82",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-indianapolis-indiana-05-09-2027/event/05006535B611EE82",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/indianapolis-indiana-clowes-memorial-hall-2027-05-09-7-pm/concert/18619426",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-indianapolis-clowes-memorial-hall-5-9-2027/production/7606576",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-indianapolis-indiana-05-09-2027/event/05006535B611EE82",
@@ -127441,11 +127441,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619426,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/indianapolis-indiana-clowes-memorial-hall-2027-05-09-7-pm/concert/18619426",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606576,
@@ -127506,7 +127506,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "06006531EBD2D135",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-12-2027/event/06006531EBD2D135",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/minneapolis-minnesota-state-theatre-minneapolis-2027-05-12-7-pm/concert/18619429",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-12-2027/production/7606578",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-12-2027/event/06006531EBD2D135",
@@ -127522,11 +127522,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619429,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/minneapolis-minnesota-state-theatre-minneapolis-2027-05-12-7-pm/concert/18619429",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606578,
@@ -127652,7 +127652,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "1B00653773DE4835",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-nashville-tennessee-06-16-2027/event/1B00653773DE4835",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/nashville-tennessee-bridgestone-arena-2027-06-16-7-pm/concert/18619440",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-nashville-bridgestone-arena-6-16-2027/production/7606584",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-nashville-tennessee-06-16-2027/event/1B00653773DE4835",
@@ -127668,11 +127668,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619440,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/nashville-tennessee-bridgestone-arena-2027-06-16-7-pm/concert/18619440",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606584,
@@ -127741,7 +127741,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "30006531F6639F96",
     "ticketmaster_url": "https://www.ticketmaster.com/wxpn-welcomes-lizzy-mcalpine-the-over-philadelphia-pennsylvania-06-18-2027/event/30006531F6639F96",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-06-18-7-pm/concert/18619442",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-philadelphia-xfinity-mobile-arena-6-18-2027/production/7606586",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wxpn-welcomes-lizzy-mcalpine-the-over-philadelphia-pennsylvania-06-18-2027/event/30006531F6639F96",
@@ -127757,11 +127757,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619442,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-06-18-7-pm/concert/18619442",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606586,
@@ -127830,7 +127830,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "010065378A60995E",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-20-2027/event/010065378A60995E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/boston-massachusetts-agganis-arena-2027-06-20-7-pm/concert/18619443",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-20-2027/production/7606590",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-20-2027/event/010065378A60995E",
@@ -127846,11 +127846,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619443,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/boston-massachusetts-agganis-arena-2027-06-20-7-pm/concert/18619443",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606590,
@@ -127911,7 +127911,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "3B006537909D2CC2",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-new-york-new-york-06-24-2027/event/3B006537909D2CC2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/new-york-new-york-madison-square-garden-2027-06-24-7-pm/concert/18619444",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-new-york-madison-square-garden-6-24-2027/production/7606580",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-new-york-new-york-06-24-2027/event/3B006537909D2CC2",
@@ -127927,11 +127927,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619444,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/new-york-new-york-madison-square-garden-2027-06-24-7-pm/concert/18619444",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606580,
@@ -128010,7 +128010,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "15006537A689641E",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-columbia-maryland-06-25-2027/event/15006537A689641E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/columbia-maryland-merriweather-post-pavilion-2027-06-25-7-pm/concert/18619445",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbia-merriweather-post-pavilion-6-25-2027--concerts-alternative/production/7606598",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-columbia-maryland-06-25-2027/event/15006537A689641E",
@@ -128026,11 +128026,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619445,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/columbia-maryland-merriweather-post-pavilion-2027-06-25-7-pm/concert/18619445",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606598,
@@ -128091,7 +128091,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "10006532A18F8C90",
     "ticketmaster_url": "https://www.ticketmaster.ca/lizzy-mcalpine-the-over-country-tour-toronto-ontario-06-27-2027/event/10006532A18F8C90",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/toronto-canada-scotiabank-arena-2027-06-27-7-pm/concert/18619449",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-toronto-scotiabank-arena-6-27-2027--concerts-alternative/production/7606716",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/lizzy-mcalpine-the-over-country-tour-toronto-ontario-06-27-2027/event/10006532A18F8C90",
@@ -128107,11 +128107,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619449,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/toronto-canada-scotiabank-arena-2027-06-27-7-pm/concert/18619449",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606716,
@@ -128151,7 +128151,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "04006535AADD9CC0",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-chicago-illinois-06-29-2027/event/04006535AADD9CC0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/chicago-illinois-united-center-2027-06-29-7-pm/concert/18619452",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-chicago-united-center-6-29-2027--concerts-alternative/production/7606600",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-chicago-illinois-06-29-2027/event/04006535AADD9CC0",
@@ -128167,11 +128167,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619452,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/chicago-illinois-united-center-2027-06-29-7-pm/concert/18619452",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606600,
@@ -128240,7 +128240,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "3A0065329D25838A",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-austin-texas-07-02-2027/event/3A0065329D25838A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/austin-texas-moody-center-atx-2027-07-02-7-pm/concert/18619454",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-austin-moody-center-atx-7-2-2027--concerts-alternative/production/7606604",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-austin-texas-07-02-2027/event/3A0065329D25838A",
@@ -128256,11 +128256,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619454,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/austin-texas-moody-center-atx-2027-07-02-7-pm/concert/18619454",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606604,
@@ -128329,7 +128329,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "0A0065365069CDEC",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-san-diego-california-07-09-2027/event/0A0065365069CDEC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/san-diego-california-the-rady-shell-at-jacobs-park-2027-07-09-6-30-pm/concert/18619456",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-san-diego-the-rady-shell-at-jacobs-park-7-9-2027--concerts-alternative/production/7606606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-san-diego-california-07-09-2027/event/0A0065365069CDEC",
@@ -128345,11 +128345,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619456,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/san-diego-california-the-rady-shell-at-jacobs-park-2027-07-09-6-30-pm/concert/18619456",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606606,
@@ -128410,7 +128410,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "09006536E3C9E1DF",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-inglewood-california-07-10-2027/event/09006536E3C9E1DF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/los-angeles-california-forum-23-2027-07-10-7-pm/concert/18619461",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-inglewood-kia-forum-7-10-2027/production/7606614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-inglewood-california-07-10-2027/event/09006536E3C9E1DF",
@@ -128426,11 +128426,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619461,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/los-angeles-california-forum-23-2027-07-10-7-pm/concert/18619461",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606614,
@@ -128499,7 +128499,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "1C006531E959B015",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-san-francisco-california-07-13-2027/event/1C006531E959B015",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/san-francisco-california-chase-center-2027-07-13-7-pm/concert/18619460",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-san-francisco-chase-center-7-13-2027/production/7606620",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-san-francisco-california-07-13-2027/event/1C006531E959B015",
@@ -128515,11 +128515,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619460,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/san-francisco-california-chase-center-2027-07-13-7-pm/concert/18619460",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606620,
@@ -128588,7 +128588,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "0F00653582563117",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-portland-oregon-07-15-2027/event/0F00653582563117",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/portland-oregon-moda-center-2027-07-15-7-pm/concert/18619462",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-portland-moda-center-7-15-2027/production/7606624",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-portland-oregon-07-15-2027/event/0F00653582563117",
@@ -128604,11 +128604,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619462,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/portland-oregon-moda-center-2027-07-15-7-pm/concert/18619462",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606624,
@@ -128669,7 +128669,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "0F00653207A196E3",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-seattle-washington-07-17-2027/event/0F00653207A196E3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/seattle-washington-climate-pledge-arena-2027-07-17-7-pm/concert/18619466",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-seattle-climate-pledge-arena-7-17-2027/production/7606630",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-seattle-washington-07-17-2027/event/0F00653207A196E3",
@@ -128685,11 +128685,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619466,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/seattle-washington-climate-pledge-arena-2027-07-17-7-pm/concert/18619466",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606630,
@@ -145186,7 +145186,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "3100652EAB806F3B",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-montreal-quebec-02-05-2027/event/3100652EAB806F3B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/montreal-canada-le-studio-td-2027-02-05-8-pm/concert/18606379",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-montreal-le-studio-td-2-5-2027--concerts-rock/production/7579939",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-montreal-quebec-02-05-2027/event/3100652EAB806F3B",
@@ -145202,11 +145202,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606379,
+        "url": "https://seatgeek.com/valley-tickets/montreal-canada-le-studio-td-2027-02-05-8-pm/concert/18606379",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579939,
@@ -145262,7 +145262,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "3100652D0A2AA378",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-ottawa-ontario-02-06-2027/event/3100652D0A2AA378",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/ottawa-canada-bronson-centre-2027-02-06-7-pm/concert/18606169",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-ottawa-ontario-02-06-2027/event/3100652D0A2AA378",
@@ -145278,11 +145278,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606169,
+        "url": "https://seatgeek.com/valley-tickets/ottawa-canada-bronson-centre-2027-02-06-7-pm/concert/18606169",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -145375,7 +145375,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1000652FD632ADB4",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-london-ontario-02-10-2027/event/1000652FD632ADB4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/london-canada-london-music-hall-2027-02-10-7-pm/concert/18606118",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-london-london-music-hall---ontario-2-10-2027--concerts-rock/production/7579426",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-london-ontario-02-10-2027/event/1000652FD632ADB4",
@@ -145391,11 +145391,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606118,
+        "url": "https://seatgeek.com/valley-tickets/london-canada-london-music-hall-2027-02-10-7-pm/concert/18606118",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579426,
@@ -145573,7 +145573,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1100652E91186703",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-winnipeg-manitoba-02-16-2027/event/1100652E91186703",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/winnipeg-canada-the-park-theatre-2027-02-16-7-pm/concert/18606405",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-winnipeg-park-theatre---mb-2-16-2027--concerts-rock/production/7579430",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-winnipeg-manitoba-02-16-2027/event/1100652E91186703",
@@ -145589,11 +145589,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606405,
+        "url": "https://seatgeek.com/valley-tickets/winnipeg-canada-the-park-theatre-2027-02-16-7-pm/concert/18606405",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579430,
@@ -145718,7 +145718,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1100652EA2AE8DDE",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-edmonton-alberta-02-19-2027/event/1100652EA2AE8DDE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/edmonton-canada-midway-edmonton-2027-02-19-5-30-pm/concert/18606369",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-edmonton-alberta-02-19-2027/event/1100652EA2AE8DDE",
@@ -145794,11 +145794,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18605986,
+        "url": "https://seatgeek.com/valley-tickets/calgary-canada-the-palace-theatre-calgary-2027-02-20-6-pm/concert/18605986",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579440,
@@ -145857,7 +145857,7 @@
         "event_id": 18606164,
         "url": "https://seatgeek.com/valley-tickets/victoria-canada-capital-ballroom-2027-02-23-8-pm/concert/18606164",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -145907,7 +145907,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1100652E92F16D17",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-vancouver-british-columbia-02-24-2027/event/1100652E92F16D17",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/vancouver-canada-commodore-ballroom-2027-02-24-7-pm/concert/18606271",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-vancouver-commodore-ballroom-2-24-2027--concerts-rock/production/7579442",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-vancouver-british-columbia-02-24-2027/event/1100652E92F16D17",
@@ -145923,11 +145923,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606271,
+        "url": "https://seatgeek.com/valley-tickets/vancouver-canada-commodore-ballroom-2027-02-24-7-pm/concert/18606271",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579442,
@@ -145998,7 +145998,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "0F00652AB1AE98D6",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-seattle-washington-02-26-2027/event/0F00652AB1AE98D6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/seattle-washington-neptune-theatre-wa-2027-02-26-8-pm/concert/18606330",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-seattle-the-neptune-theatre-2-26-2027--concerts-rock/production/7579376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-seattle-washington-02-26-2027/event/0F00652AB1AE98D6",
@@ -146014,11 +146014,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606330,
+        "url": "https://seatgeek.com/valley-tickets/seattle-washington-neptune-theatre-wa-2027-02-26-8-pm/concert/18606330",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579376,
@@ -146212,7 +146212,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "09006521DDBFCEF5",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-los-angeles-california-03-02-2027/event/09006521DDBFCEF5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/los-angeles-california-the-bellwether-2027-03-02-8-pm/concert/18606549",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-los-angeles-the-bellwether-3-2-2027/production/7580204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-los-angeles-california-03-02-2027/event/09006521DDBFCEF5",
@@ -146228,11 +146228,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606549,
+        "url": "https://seatgeek.com/valley-tickets/los-angeles-california-the-bellwether-2027-03-02-8-pm/concert/18606549",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7580204,
@@ -146357,7 +146357,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1E00652EA3D363D8",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-salt-lake-city-utah-03-05-2027/event/1E00652EA3D363D8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/salt-lake-city-utah-the-depot-salt-lake-city-2027-03-05-7-pm/concert/18606235",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-salt-lake-city-the-depot---ut-3-5-2027--concerts-rock/production/7579390",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-salt-lake-city-utah-03-05-2027/event/1E00652EA3D363D8",
@@ -146373,11 +146373,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606235,
+        "url": "https://seatgeek.com/valley-tickets/salt-lake-city-utah-the-depot-salt-lake-city-2027-03-05-7-pm/concert/18606235",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579390,
@@ -146551,7 +146551,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1B00652BDE776355",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-nashville-tennessee-03-10-2027/event/1B00652BDE776355",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/nashville-tennessee-brooklyn-bowl-nashville-2027-03-10-8-pm/concert/18606526",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-nashville-brooklyn-bowl---nashville-3-10-2027--concerts-rock/production/7579396",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-nashville-tennessee-03-10-2027/event/1B00652BDE776355",
@@ -146567,11 +146567,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606526,
+        "url": "https://seatgeek.com/valley-tickets/nashville-tennessee-brooklyn-bowl-nashville-2027-03-10-8-pm/concert/18606526",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579396,
@@ -146632,7 +146632,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "0E006523C519F7E8",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-atlanta-georgia-03-12-2027/event/0E006523C519F7E8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/atlanta-georgia-the-masquerade-hell-2027-03-12-7-pm/concert/18606100",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-atlanta-the-masquerade---hell-3-12-2027--concerts-rock/production/7579398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-atlanta-georgia-03-12-2027/event/0E006523C519F7E8",
@@ -146648,11 +146648,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606100,
+        "url": "https://seatgeek.com/valley-tickets/atlanta-georgia-the-masquerade-hell-2027-03-12-7-pm/concert/18606100",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579398,
@@ -146708,11 +146708,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606490,
+        "url": "https://seatgeek.com/valley-tickets/charlotte-north-carolina-the-underground-at-the-fillmore-charlotte-2027-03-13-8-pm/concert/18606490",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579404,
@@ -146768,7 +146768,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1500652492B86FDF",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-washington-district-of-columbia-03-14-2027/event/1500652492B86FDF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/washington-district-of-columbia-9-30-club-2027-03-14-7-pm/concert/18606068",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-washington-district-of-columbia-03-14-2027/event/1500652492B86FDF",
@@ -146784,11 +146784,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606068,
+        "url": "https://seatgeek.com/valley-tickets/washington-district-of-columbia-9-30-club-2027-03-14-7-pm/concert/18606068",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -146860,11 +146860,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606537,
+        "url": "https://seatgeek.com/valley-tickets/philadelphia-pennsylvania-brooklyn-bowl-philadelphia-2027-03-16-8-pm/concert/18606537",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579418,
@@ -146939,7 +146939,7 @@
         "event_id": 18643169,
         "url": "https://seatgeek.com/valley-tickets/new-york-new-york-webster-hall-2027-03-17-8-pm/concert/18643169",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -146989,7 +146989,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "0100652BB45A30E3",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-dyntbe-the-tour-boston-massachusetts-03-18-2027/event/0100652BB45A30E3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/boston-massachusetts-paradise-rock-club-2027-03-18-7-pm/concert/18606067",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-boston-paradise-rock-club-3-18-2027--concerts-rock/production/7579422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-dyntbe-the-tour-boston-massachusetts-03-18-2027/event/0100652BB45A30E3",
@@ -147005,11 +147005,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606067,
+        "url": "https://seatgeek.com/valley-tickets/boston-massachusetts-paradise-rock-club-2027-03-18-7-pm/concert/18606067",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579422,
@@ -147065,7 +147065,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1000652EE7F895D1",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-toronto-ontario-03-20-2027/event/1000652EE7F895D1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/toronto-canada-massey-hall-2027-03-20-8-pm/concert/18606234",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-toronto-massey-hall---allied-music-centre-3-20-2027--concerts-rock/production/7579953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-toronto-ontario-03-20-2027/event/1000652EE7F895D1",
@@ -147081,11 +147081,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606234,
+        "url": "https://seatgeek.com/valley-tickets/toronto-canada-massey-hall-2027-03-20-8-pm/concert/18606234",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579953,
@@ -149274,7 +149274,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0900649BEB091EC7",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-los-angeles-california-10-23-2026/event/0900649BEB091EC7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/amble-tickets/los-angeles-california-the-belasco-los-angeles-2026-10-23-7-pm/concert/18223144",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-los-angeles-california-10-23-2026/event/0900649BEB091EC7",
@@ -149290,11 +149290,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18223144,
+        "url": "https://seatgeek.com/amble-tickets/los-angeles-california-the-belasco-los-angeles-2026-10-23-7-pm/concert/18223144",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -149343,11 +149343,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18311697,
+        "url": "https://seatgeek.com/amble-tickets/san-francisco-california-the-fillmore-san-francisco-2026-10-24-8-pm/concert/18311697",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -149403,7 +149403,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70p_0",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/amble-tickets/seattle-washington-the-showbox-2026-10-26-8-pm/concert/18475220",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_0",
@@ -149419,11 +149419,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18475220,
+        "url": "https://seatgeek.com/amble-tickets/seattle-washington-the-showbox-2026-10-26-8-pm/concert/18475220",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -149472,7 +149472,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1100649BB3788107",
     "ticketmaster_url": "https://www.ticketmaster.ca/amble-vancouver-british-columbia-10-27-2026/event/1100649BB3788107",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/amble-tickets/vancouver-canada-orpheum-theatre-vancouver-2026-10-27-8-pm/concert/18222764",
     "vividseats_url": "https://www.vividseats.com/amble-tickets-vancouver-orpheum-theatre---vancouver-10-27-2026--concerts-alternative/production/6982424",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/amble-vancouver-british-columbia-10-27-2026/event/1100649BB3788107",
@@ -149488,11 +149488,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18222764,
+        "url": "https://seatgeek.com/amble-tickets/vancouver-canada-orpheum-theatre-vancouver-2026-10-27-8-pm/concert/18222764",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6982424,
@@ -149541,7 +149541,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "08006497A7C3A145",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-detroit-michigan-11-01-2026/event/08006497A7C3A145",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/amble-tickets/detroit-michigan-saint-andrews-hall-2026-11-01-7-pm/concert/18222450",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-detroit-michigan-11-01-2026/event/08006497A7C3A145",
@@ -149557,11 +149557,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18222450,
+        "url": "https://seatgeek.com/amble-tickets/detroit-michigan-saint-andrews-hall-2026-11-01-7-pm/concert/18222450",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -149617,11 +149617,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18223885,
+        "url": "https://seatgeek.com/amble-tickets/toronto-canada-history-2026-11-02-7-pm/concert/18223885",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6982426,
@@ -149654,7 +149654,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3100649A01FBEA2D",
     "ticketmaster_url": "https://www.ticketmaster.ca/amble-ottawa-ontario-11-03-2026/event/3100649A01FBEA2D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/amble-tickets/ottawa-canada-bronson-centre-2026-11-03-7-pm/concert/18222746",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/amble-ottawa-ontario-11-03-2026/event/3100649A01FBEA2D",
@@ -149670,11 +149670,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18222746,
+        "url": "https://seatgeek.com/amble-tickets/ottawa-canada-bronson-centre-2026-11-03-7-pm/concert/18222746",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -149707,7 +149707,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0100649CBC0A3C05",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-boston-massachusetts-11-06-2026/event/0100649CBC0A3C05",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/amble-tickets/boston-massachusetts-citizens-house-of-blues-boston-2026-11-06-7-pm/concert/18222463",
     "vividseats_url": "https://www.vividseats.com/amble-tickets-boston-citizens-house-of-blues-boston-11-6-2026--concerts-alternative/production/6982394",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-boston-massachusetts-11-06-2026/event/0100649CBC0A3C05",
@@ -149723,11 +149723,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18222463,
+        "url": "https://seatgeek.com/amble-tickets/boston-massachusetts-citizens-house-of-blues-boston-2026-11-06-7-pm/concert/18222463",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6982394,
@@ -149776,7 +149776,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000649EC4999749",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-brooklyn-new-york-11-07-2026/event/0000649EC4999749",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/amble-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-07-7-pm/concert/18223366",
     "vividseats_url": "https://www.vividseats.com/amble-tickets-brooklyn-brooklyn-paramount-11-7-2026--concerts-alternative/production/6982398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-brooklyn-new-york-11-07-2026/event/0000649EC4999749",
@@ -149792,11 +149792,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18223366,
+        "url": "https://seatgeek.com/amble-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-07-7-pm/concert/18223366",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6982398,
@@ -149876,11 +149876,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18222479,
+        "url": "https://seatgeek.com/amble-tickets/philadelphia-pennsylvania-theatre-of-living-arts-2026-11-10-8-pm/concert/18222479",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6982400,
@@ -149936,11 +149936,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18222468,
+        "url": "https://seatgeek.com/amble-tickets/washington-district-of-columbia-9-30-club-2026-11-11-7-pm/concert/18222468",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -149989,7 +149989,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70p_N",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_N",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/amble-tickets/atlanta-georgia-terminal-west-2026-11-13-8-pm/concert/18322791",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70p_N",
@@ -150005,11 +150005,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18322791,
+        "url": "https://seatgeek.com/amble-tickets/atlanta-georgia-terminal-west-2026-11-13-8-pm/concert/18322791",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -150058,7 +150058,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B0064CABED5F446",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/amble-tickets/nashville-tennessee-brooklyn-bowl-nashville-2026-11-14-8-pm/concert/18312209",
     "vividseats_url": "https://www.vividseats.com/amble-tickets-nashville-brooklyn-bowl---nashville-11-14-2026/production/7165441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
@@ -150074,11 +150074,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18312209,
+        "url": "https://seatgeek.com/amble-tickets/nashville-tennessee-brooklyn-bowl-nashville-2026-11-14-8-pm/concert/18312209",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7165441,
@@ -150139,7 +150139,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B006499DDF33ABC",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-new-orleans-louisiana-11-16-2026/event/1B006499DDF33ABC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/amble-tickets/new-orleans-louisiana-house-of-blues-new-orleans-2026-11-16-7-pm/concert/18222773",
     "vividseats_url": "https://www.vividseats.com/amble-tickets-new-orleans-house-of-blues-new-orleans-11-16-2026--concerts-alternative/production/6982406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-new-orleans-louisiana-11-16-2026/event/1B006499DDF33ABC",
@@ -150155,11 +150155,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18222773,
+        "url": "https://seatgeek.com/amble-tickets/new-orleans-louisiana-house-of-blues-new-orleans-2026-11-16-7-pm/concert/18222773",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6982406,
@@ -150215,7 +150215,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006496EF8487E5",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-austin-texas-11-17-2026/event/3A006496EF8487E5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/amble-tickets/austin-texas-emo-s-austin-2026-11-17-7-pm/concert/18222798",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-austin-texas-11-17-2026/event/3A006496EF8487E5",
@@ -150231,11 +150231,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18222798,
+        "url": "https://seatgeek.com/amble-tickets/austin-texas-emo-s-austin-2026-11-17-7-pm/concert/18222798",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -150268,7 +150268,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C0064A1CAA1A75C",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-dallas-texas-11-18-2026/event/0C0064A1CAA1A75C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/amble-tickets/dallas-texas-the-echo-lounge-music-hall-2026-11-18-7-pm/concert/18223872",
     "vividseats_url": "https://www.vividseats.com/amble-tickets-dallas-the-echo-lounge-and-music-hall-11-18-2026--concerts-alternative/production/6982420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-dallas-texas-11-18-2026/event/0C0064A1CAA1A75C",
@@ -150284,11 +150284,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18223872,
+        "url": "https://seatgeek.com/amble-tickets/dallas-texas-the-echo-lounge-music-hall-2026-11-18-7-pm/concert/18223872",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6982420,
@@ -162204,7 +162204,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "11006538816C4514",
     "ticketmaster_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/vancouver-canada-commodore-ballroom-2027-03-06-6-30-pm/concert/18633501",
     "vividseats_url": "https://www.vividseats.com/blondshell-tickets-vancouver-commodore-ballroom-3-6-2027/production/7625188",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
@@ -162220,11 +162220,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633501,
+        "url": "https://seatgeek.com/blondshell-tickets/vancouver-canada-commodore-ballroom-2027-03-06-6-30-pm/concert/18633501",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625188,
@@ -162280,7 +162280,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006538E67CCB2E",
     "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-asbury-park-new-jersey-03-23-2027/event/00006538E67CCB2E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/asbury-park-new-jersey-the-stone-pony-2-2027-03-23-7-pm/concert/18633502",
     "vividseats_url": "https://www.vividseats.com/blondshell-tickets-asbury-park-stone-pony-3-23-2027/production/7625132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-asbury-park-new-jersey-03-23-2027/event/00006538E67CCB2E",
@@ -162296,11 +162296,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633502,
+        "url": "https://seatgeek.com/blondshell-tickets/asbury-park-new-jersey-the-stone-pony-2-2027-03-23-7-pm/concert/18633502",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625132,
@@ -162340,7 +162340,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "070065399B2D42BD",
     "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-madison-wisconsin-05-15-2027/event/070065399B2D42BD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/madison-wisconsin-majestic-theatre-wi-2027-05-15-8-pm/concert/18633499",
     "vividseats_url": "https://www.vividseats.com/blondshell-tickets-madison-majestic-theatre---madison-5-15-2027/production/7626132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-madison-wisconsin-05-15-2027/event/070065399B2D42BD",
@@ -162356,11 +162356,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633499,
+        "url": "https://seatgeek.com/blondshell-tickets/madison-wisconsin-majestic-theatre-wi-2027-05-15-8-pm/concert/18633499",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7626132,
@@ -162416,7 +162416,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "08006537CC738AB0",
     "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-detroit-michigan-05-17-2027/event/08006537CC738AB0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/detroit-michigan-saint-andrews-hall-2027-05-17-6-pm/concert/18633500",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-detroit-michigan-05-17-2027/event/08006537CC738AB0",
@@ -162432,11 +162432,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633500,
+        "url": "https://seatgeek.com/blondshell-tickets/detroit-michigan-saint-andrews-hall-2027-05-17-6-pm/concert/18633500",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -163341,7 +163341,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAekq3",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekq3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/dallas-texas-the-bomb-factory-dallas-2027-04-30-7-pm/concert/18619417",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-dallas-the-bomb-factory-4-30-2027--concerts-alternative/production/7606724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekq3",
@@ -163357,11 +163357,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619417,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/dallas-texas-the-bomb-factory-dallas-2027-04-30-7-pm/concert/18619417",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606724,
@@ -163410,7 +163410,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeA-b",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-b",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/atlanta-georgia-fox-theatre-atlanta-2027-05-03-7-pm/concert/18619419",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-atlanta-fox-theatre---atlanta-5-3-2027--concerts-alternative/production/7606728",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-b",
@@ -163426,11 +163426,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619419,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/atlanta-georgia-fox-theatre-atlanta-2027-05-03-7-pm/concert/18619419",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606728,
@@ -163479,7 +163479,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeA09",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA09",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/columbus-ohio-palace-theatre-columbus-2027-05-06-7-pm/concert/18619421",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbus-palace-theatre-columbus-5-6-2027--concerts-alternative/production/7606732",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA09",
@@ -163495,11 +163495,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619421,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/columbus-ohio-palace-theatre-columbus-2027-05-06-7-pm/concert/18619421",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606732,
@@ -163548,7 +163548,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeA0_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA0_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-05-10-7-pm/concert/18619430",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-milwaukee-riverside-theater---wi-5-10-2027--concerts-alternative/production/7606750",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA0_",
@@ -163564,11 +163564,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619430,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-05-10-7-pm/concert/18619430",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606750,
@@ -163617,7 +163617,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "06006531EBD5D13F",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-13-2027/event/06006531EBD5D13F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/minneapolis-minnesota-state-theatre-minneapolis-2027-05-13-7-pm/concert/18637702",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-13-2027/production/7631653",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-13-2027/event/06006531EBD5D13F",
@@ -163633,11 +163633,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18637702,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/minneapolis-minnesota-state-theatre-minneapolis-2027-05-13-7-pm/concert/18637702",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7631653,
@@ -163698,7 +163698,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAekqK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekqK",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-05-17-7-pm/concert/18619436",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-kansas-city-the-midland-theatre-5-17-2027--concerts-alternative/production/7606754",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekqK",
@@ -163714,11 +163714,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619436,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-05-17-7-pm/concert/18619436",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606754,
@@ -163820,7 +163820,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "010065378A639968",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-21-2027/event/010065378A639968",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/boston-massachusetts-agganis-arena-2027-06-21-7-pm/concert/18637280",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-21-2027--concerts-alternative/production/7631927",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-21-2027/event/010065378A639968",
@@ -163836,11 +163836,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18637280,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/boston-massachusetts-agganis-arena-2027-06-21-7-pm/concert/18637280",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7631927,
@@ -163901,7 +163901,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeAx6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAx6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/morrison-colorado-red-rocks-amphitheatre-2027-07-06-7-pm/concert/18619455",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-morrison-red-rocks-amphitheatre-7-6-2027--concerts-alternative/production/7606811",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAx6",
@@ -163917,11 +163917,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619455,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/morrison-colorado-red-rocks-amphitheatre-2027-07-06-7-pm/concert/18619455",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606811,
@@ -178400,11 +178400,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17878570,
+        "url": "https://seatgeek.com/the-neighbourhood-tickets/inglewood-california-kia-forum-2026-10-09-7-pm/concert/17878570",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6246338,
@@ -178453,11 +178453,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085136,
+        "url": "https://seatgeek.com/the-neighbourhood-tickets/atlanta-georgia-state-farm-arena-1-2026-11-10-7-30-pm/concert/18085136",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690298,
@@ -178513,11 +178513,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085138,
+        "url": "https://seatgeek.com/the-neighbourhood-tickets/orlando-florida-kia-center-2026-11-11-7-30-pm/concert/18085138",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690352,
@@ -178573,11 +178573,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085137,
+        "url": "https://seatgeek.com/the-neighbourhood-tickets/miami-florida-kaseya-center-2026-11-12-7-30-pm/concert/18085137",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690355,
@@ -178633,11 +178633,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18126039,
+        "url": "https://seatgeek.com/the-neighbourhood-tickets/nashville-tennessee-the-truth-nashville-2026-11-14-7-30-pm/concert/18126039",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6789957,
@@ -178693,11 +178693,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085139,
+        "url": "https://seatgeek.com/the-neighbourhood-tickets/kansas-city-missouri-t-mobile-center-2026-11-16-7-30-pm/concert/18085139",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690358,
@@ -178753,11 +178753,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18140881,
+        "url": "https://seatgeek.com/the-neighbourhood-tickets/chicago-illinois-united-center-2026-11-18-7-30-pm/concert/18140881",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6822533,
@@ -178806,11 +178806,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085141,
+        "url": "https://seatgeek.com/the-neighbourhood-tickets/detroit-michigan-little-caesars-arena-2026-11-19-7-30-pm/concert/18085141",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690365,
@@ -178866,11 +178866,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085142,
+        "url": "https://seatgeek.com/the-neighbourhood-tickets/brooklyn-new-york-barclays-center-2026-11-21-7-pm/concert/18085142",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690367,
@@ -178910,7 +178910,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3000645478072229",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-22-2026/event/3000645478072229",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/brooklyn-new-york-barclays-center-2026-11-22-6-pm/concert/18194371",
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-brooklyn-barclays-center-11-22-2026--concerts-rock/production/6932838",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-22-2026/event/3000645478072229",
@@ -178926,11 +178926,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18194371,
+        "url": "https://seatgeek.com/the-neighbourhood-tickets/brooklyn-new-york-barclays-center-2026-11-22-6-pm/concert/18194371",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6932838,
@@ -178963,7 +178963,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1900645387C950F4",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-phoenix-arizona-11-30-2026/event/1900645387C950F4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-30-7-30-pm/concert/18085146",
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-phoenix-mortgage-matchup-center-11-30-2026--concerts-rock/production/6690369",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-phoenix-arizona-11-30-2026/event/1900645387C950F4",
@@ -178979,11 +178979,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085146,
+        "url": "https://seatgeek.com/the-neighbourhood-tickets/phoenix-arizona-mortgage-matchup-center-2026-11-30-7-30-pm/concert/18085146",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690369,
@@ -179023,7 +179023,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006453D3D07859",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-san-francisco-california-12-02-2026/event/1C006453D3D07859",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-12-02-7-30-pm/concert/18085147",
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-san-francisco-bill-graham-civic-auditorium-12-2-2026--concerts-rock/production/6690371",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-san-francisco-california-12-02-2026/event/1C006453D3D07859",
@@ -179039,11 +179039,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085147,
+        "url": "https://seatgeek.com/the-neighbourhood-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-12-02-7-30-pm/concert/18085147",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690371,
@@ -179083,7 +179083,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "09006443CD5C89D1",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-04-2026/event/09006443CD5C89D1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/inglewood-california-kia-forum-2026-12-04-7-pm/concert/18085152",
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-4-2026--concerts-rock/production/6690373",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-04-2026/event/09006443CD5C89D1",
@@ -179099,11 +179099,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18085152,
+        "url": "https://seatgeek.com/the-neighbourhood-tickets/inglewood-california-kia-forum-2026-12-04-7-pm/concert/18085152",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6690373,
@@ -179143,7 +179143,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0900645403D3F8BA",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-05-2026/event/0900645403D3F8BA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/inglewood-california-kia-forum-2026-12-05-6-pm/concert/18194373",
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-5-2026/production/6707944",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-05-2026/event/0900645403D3F8BA",
@@ -179159,11 +179159,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18194373,
+        "url": "https://seatgeek.com/the-neighbourhood-tickets/inglewood-california-kia-forum-2026-12-05-6-pm/concert/18194373",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6707944,
@@ -181845,11 +181845,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18326820,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2026-10-30-8-pm/concert/18326820",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7199155,
@@ -181898,7 +181898,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Ps7y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps7y",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/apopka-florida-apopka-amphitheater-2026-11-21-6-pm/concert/18337370",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Ps7y",
@@ -181914,11 +181914,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18337370,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/apopka-florida-apopka-amphitheater-2026-11-21-6-pm/concert/18337370",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -182492,7 +182492,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D00653EE555C1C0",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charleston-south-carolina-03-25-2027/event/2D00653EE555C1C0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/charleston-south-carolina-charleston-music-hall-2027-03-25-7-pm/concert/18642081",
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-charleston-charleston-music-hall-3-25-2027/production/7644164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charleston-south-carolina-03-25-2027/event/2D00653EE555C1C0",
@@ -182508,11 +182508,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642081,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/charleston-south-carolina-charleston-music-hall-2027-03-25-7-pm/concert/18642081",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644164,
@@ -182552,7 +182552,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D00653DBE4DEAD0",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-north-myrtle-beach-south-carolina-03-26-2027/event/2D00653DBE4DEAD0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/north-myrtle-beach-south-carolina-house-of-blues-myrtle-beach-2027-03-26-7-pm/concert/18642079",
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-north-myrtle-beach-house-of-blues-myrtle-beach-3-26-2027/production/7644189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-north-myrtle-beach-south-carolina-03-26-2027/event/2D00653DBE4DEAD0",
@@ -182568,11 +182568,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642079,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/north-myrtle-beach-south-carolina-house-of-blues-myrtle-beach-2027-03-26-7-pm/concert/18642079",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644189,
@@ -182628,7 +182628,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D00653E8FB27954",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charlotte-north-carolina-03-27-2027/event/2D00653E8FB27954",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-03-27-7-pm/concert/18642082",
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-charlotte-the-fillmore-charlotte-3-27-2027/production/7643781",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-charlotte-north-carolina-03-27-2027/event/2D00653E8FB27954",
@@ -182644,11 +182644,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642082,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-03-27-7-pm/concert/18642082",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7643781,
@@ -182704,7 +182704,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe4bI",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bI",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/chattanooga-tennessee-the-signal-2027-03-30-7-pm/concert/18642078",
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-chattanooga-the-signal-3-30-2027/production/7645645",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bI",
@@ -182720,11 +182720,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642078,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/chattanooga-tennessee-the-signal-2027-03-30-7-pm/concert/18642078",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7645645,
@@ -182833,7 +182833,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe4bt",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bt",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/fayetteville-arkansas-ozark-music-hall-2027-04-02-7-pm/concert/18642083",
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-fayetteville-ozark-music-hall-4-2-2027/production/7645605",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bt",
@@ -182849,11 +182849,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642083,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/fayetteville-arkansas-ozark-music-hall-2027-04-02-7-pm/concert/18642083",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7645605,
@@ -182902,7 +182902,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B006541CB5D93D8",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-memphis-tennessee-04-03-2027/event/1B006541CB5D93D8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/memphis-tennessee-satellite-music-hall-2027-04-03-7-pm/concert/18642090",
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-memphis-satellite-music-hall-4-3-2027/production/7644194",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-memphis-tennessee-04-03-2027/event/1B006541CB5D93D8",
@@ -182918,11 +182918,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642090,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/memphis-tennessee-satellite-music-hall-2027-04-03-7-pm/concert/18642090",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644194,
@@ -182978,7 +182978,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2000653EBBBC44F3",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-birmingham-alabama-04-04-2027/event/2000653EBBBC44F3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/birmingham-alabama-avondale-brewing-company-2027-04-04-7-pm/concert/18642092",
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-birmingham-avondale-brewing-company-4-4-2027/production/7644156",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-birmingham-alabama-04-04-2027/event/2000653EBBBC44F3",
@@ -182994,11 +182994,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642092,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/birmingham-alabama-avondale-brewing-company-2027-04-04-7-pm/concert/18642092",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644156,
@@ -183038,7 +183038,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0200653DC1683C79",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-philadelphia-pennsylvania-04-06-2027/event/0200653DC1683C79",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-04-06-7-pm/concert/18642093",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-philadelphia-pennsylvania-04-06-2027/event/0200653DC1683C79",
@@ -183054,11 +183054,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642093,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-04-06-7-pm/concert/18642093",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -183114,7 +183114,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1500653E9BFC7BA6",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-baltimore-maryland-04-07-2027/event/1500653E9BFC7BA6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/baltimore-maryland-the-paramount-baltimore-2027-04-07-7-pm/concert/18642094",
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-baltimore-the-paramount-baltimore-4-7-2027/production/7644204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-baltimore-maryland-04-07-2027/event/1500653E9BFC7BA6",
@@ -183130,11 +183130,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642094,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/baltimore-maryland-the-paramount-baltimore-2027-04-07-7-pm/concert/18642094",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644204,
@@ -183190,7 +183190,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe4bY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bY",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/columbus-ohio-kemba-live-2027-04-08-7-pm/concert/18642098",
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-columbus-kemba-live-4-8-2027/production/7644647",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bY",
@@ -183206,11 +183206,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642098,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/columbus-ohio-kemba-live-2027-04-08-7-pm/concert/18642098",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644647,
@@ -183259,7 +183259,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0800653DBA936F3C",
     "ticketmaster_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-detroit-michigan-04-10-2027/event/0800653DBA936F3C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/detroit-michigan-the-fillmore-detroit-2027-04-10-7-pm/concert/18642099",
     "vividseats_url": "https://www.vividseats.com/dylan-gossett-tickets-detroit-the-fillmore-detroit-4-10-2027/production/7644126",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-gossett-the-ramblin-tour-2027-detroit-michigan-04-10-2027/event/0800653DBA936F3C",
@@ -183275,11 +183275,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642099,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/detroit-michigan-the-fillmore-detroit-2027-04-10-7-pm/concert/18642099",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644126,
@@ -183351,11 +183351,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642102,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2027-04-11-7-pm/concert/18642102",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644661,
@@ -183427,11 +183427,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642104,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-05-04-7-pm/concert/18642104",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644411,
@@ -183503,11 +183503,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642105,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/madison-wisconsin-the-sylvee-2027-05-06-7-pm/concert/18642105",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644178,
@@ -183579,11 +183579,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642106,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/kansas-city-missouri-uptown-theater-kc-2027-05-07-7-pm/concert/18642106",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644413,
@@ -183655,11 +183655,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642110,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/la-vista-nebraska-the-astro-theater-la-vista-2027-05-08-7-pm/concert/18642110",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644180,
@@ -183708,11 +183708,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642112,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/austin-texas-moody-amphitheater-2027-05-13-7-pm/concert/18642112",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644187,
@@ -183784,11 +183784,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642115,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/houston-texas-bayou-music-center-2027-05-14-7-pm/concert/18642115",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7644161,
@@ -183844,7 +183844,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe4bs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bs",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/fort-worth-texas-billy-bob-s-texas-2027-05-15-7-pm/concert/18642114",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bs",
@@ -183860,11 +183860,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642114,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/fort-worth-texas-billy-bob-s-texas-2027-05-15-7-pm/concert/18642114",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -183950,7 +183950,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe4bw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bw",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-05-21-7-pm/concert/18642120",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4bw",
@@ -183966,11 +183966,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642120,
+        "url": "https://seatgeek.com/dylan-gossett-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-05-21-7-pm/concert/18642120",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

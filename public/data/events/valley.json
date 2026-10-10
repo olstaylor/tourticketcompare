@@ -80,7 +80,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "3100652EAB806F3B",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-montreal-quebec-02-05-2027/event/3100652EAB806F3B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/montreal-canada-le-studio-td-2027-02-05-8-pm/concert/18606379",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-montreal-le-studio-td-2-5-2027--concerts-rock/production/7579939",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-montreal-quebec-02-05-2027/event/3100652EAB806F3B",
@@ -96,11 +96,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606379,
+        "url": "https://seatgeek.com/valley-tickets/montreal-canada-le-studio-td-2027-02-05-8-pm/concert/18606379",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579939,
@@ -156,7 +156,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "3100652D0A2AA378",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-ottawa-ontario-02-06-2027/event/3100652D0A2AA378",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/ottawa-canada-bronson-centre-2027-02-06-7-pm/concert/18606169",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-ottawa-ontario-02-06-2027/event/3100652D0A2AA378",
@@ -172,11 +172,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606169,
+        "url": "https://seatgeek.com/valley-tickets/ottawa-canada-bronson-centre-2027-02-06-7-pm/concert/18606169",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -269,7 +269,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1000652FD632ADB4",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-london-ontario-02-10-2027/event/1000652FD632ADB4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/london-canada-london-music-hall-2027-02-10-7-pm/concert/18606118",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-london-london-music-hall---ontario-2-10-2027--concerts-rock/production/7579426",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-london-ontario-02-10-2027/event/1000652FD632ADB4",
@@ -285,11 +285,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606118,
+        "url": "https://seatgeek.com/valley-tickets/london-canada-london-music-hall-2027-02-10-7-pm/concert/18606118",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579426,
@@ -467,7 +467,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1100652E91186703",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-winnipeg-manitoba-02-16-2027/event/1100652E91186703",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/winnipeg-canada-the-park-theatre-2027-02-16-7-pm/concert/18606405",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-winnipeg-park-theatre---mb-2-16-2027--concerts-rock/production/7579430",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-winnipeg-manitoba-02-16-2027/event/1100652E91186703",
@@ -483,11 +483,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606405,
+        "url": "https://seatgeek.com/valley-tickets/winnipeg-canada-the-park-theatre-2027-02-16-7-pm/concert/18606405",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579430,
@@ -612,7 +612,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1100652EA2AE8DDE",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-edmonton-alberta-02-19-2027/event/1100652EA2AE8DDE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/edmonton-canada-midway-edmonton-2027-02-19-5-30-pm/concert/18606369",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-edmonton-alberta-02-19-2027/event/1100652EA2AE8DDE",
@@ -688,11 +688,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18605986,
+        "url": "https://seatgeek.com/valley-tickets/calgary-canada-the-palace-theatre-calgary-2027-02-20-6-pm/concert/18605986",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579440,
@@ -751,7 +751,7 @@
         "event_id": 18606164,
         "url": "https://seatgeek.com/valley-tickets/victoria-canada-capital-ballroom-2027-02-23-8-pm/concert/18606164",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -801,7 +801,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1100652E92F16D17",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-vancouver-british-columbia-02-24-2027/event/1100652E92F16D17",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/vancouver-canada-commodore-ballroom-2027-02-24-7-pm/concert/18606271",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-vancouver-commodore-ballroom-2-24-2027--concerts-rock/production/7579442",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-vancouver-british-columbia-02-24-2027/event/1100652E92F16D17",
@@ -817,11 +817,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606271,
+        "url": "https://seatgeek.com/valley-tickets/vancouver-canada-commodore-ballroom-2027-02-24-7-pm/concert/18606271",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579442,
@@ -892,7 +892,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "0F00652AB1AE98D6",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-seattle-washington-02-26-2027/event/0F00652AB1AE98D6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/seattle-washington-neptune-theatre-wa-2027-02-26-8-pm/concert/18606330",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-seattle-the-neptune-theatre-2-26-2027--concerts-rock/production/7579376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-seattle-washington-02-26-2027/event/0F00652AB1AE98D6",
@@ -908,11 +908,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606330,
+        "url": "https://seatgeek.com/valley-tickets/seattle-washington-neptune-theatre-wa-2027-02-26-8-pm/concert/18606330",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579376,
@@ -1106,7 +1106,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "09006521DDBFCEF5",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-los-angeles-california-03-02-2027/event/09006521DDBFCEF5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/los-angeles-california-the-bellwether-2027-03-02-8-pm/concert/18606549",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-los-angeles-the-bellwether-3-2-2027/production/7580204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-los-angeles-california-03-02-2027/event/09006521DDBFCEF5",
@@ -1122,11 +1122,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606549,
+        "url": "https://seatgeek.com/valley-tickets/los-angeles-california-the-bellwether-2027-03-02-8-pm/concert/18606549",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7580204,
@@ -1251,7 +1251,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1E00652EA3D363D8",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-salt-lake-city-utah-03-05-2027/event/1E00652EA3D363D8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/salt-lake-city-utah-the-depot-salt-lake-city-2027-03-05-7-pm/concert/18606235",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-salt-lake-city-the-depot---ut-3-5-2027--concerts-rock/production/7579390",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-salt-lake-city-utah-03-05-2027/event/1E00652EA3D363D8",
@@ -1267,11 +1267,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606235,
+        "url": "https://seatgeek.com/valley-tickets/salt-lake-city-utah-the-depot-salt-lake-city-2027-03-05-7-pm/concert/18606235",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579390,
@@ -1445,7 +1445,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1B00652BDE776355",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-nashville-tennessee-03-10-2027/event/1B00652BDE776355",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/nashville-tennessee-brooklyn-bowl-nashville-2027-03-10-8-pm/concert/18606526",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-nashville-brooklyn-bowl---nashville-3-10-2027--concerts-rock/production/7579396",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-nashville-tennessee-03-10-2027/event/1B00652BDE776355",
@@ -1461,11 +1461,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606526,
+        "url": "https://seatgeek.com/valley-tickets/nashville-tennessee-brooklyn-bowl-nashville-2027-03-10-8-pm/concert/18606526",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579396,
@@ -1526,7 +1526,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "0E006523C519F7E8",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-atlanta-georgia-03-12-2027/event/0E006523C519F7E8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/atlanta-georgia-the-masquerade-hell-2027-03-12-7-pm/concert/18606100",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-atlanta-the-masquerade---hell-3-12-2027--concerts-rock/production/7579398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-atlanta-georgia-03-12-2027/event/0E006523C519F7E8",
@@ -1542,11 +1542,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606100,
+        "url": "https://seatgeek.com/valley-tickets/atlanta-georgia-the-masquerade-hell-2027-03-12-7-pm/concert/18606100",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579398,
@@ -1602,11 +1602,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606490,
+        "url": "https://seatgeek.com/valley-tickets/charlotte-north-carolina-the-underground-at-the-fillmore-charlotte-2027-03-13-8-pm/concert/18606490",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579404,
@@ -1662,7 +1662,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1500652492B86FDF",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-washington-district-of-columbia-03-14-2027/event/1500652492B86FDF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/washington-district-of-columbia-9-30-club-2027-03-14-7-pm/concert/18606068",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-do-you-need-to-be-washington-district-of-columbia-03-14-2027/event/1500652492B86FDF",
@@ -1678,11 +1678,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606068,
+        "url": "https://seatgeek.com/valley-tickets/washington-district-of-columbia-9-30-club-2027-03-14-7-pm/concert/18606068",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1754,11 +1754,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606537,
+        "url": "https://seatgeek.com/valley-tickets/philadelphia-pennsylvania-brooklyn-bowl-philadelphia-2027-03-16-8-pm/concert/18606537",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579418,
@@ -1833,7 +1833,7 @@
         "event_id": 18643169,
         "url": "https://seatgeek.com/valley-tickets/new-york-new-york-webster-hall-2027-03-17-8-pm/concert/18643169",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1883,7 +1883,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "0100652BB45A30E3",
     "ticketmaster_url": "https://www.ticketmaster.com/valley-dyntbe-the-tour-boston-massachusetts-03-18-2027/event/0100652BB45A30E3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/boston-massachusetts-paradise-rock-club-2027-03-18-7-pm/concert/18606067",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-boston-paradise-rock-club-3-18-2027--concerts-rock/production/7579422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/valley-dyntbe-the-tour-boston-massachusetts-03-18-2027/event/0100652BB45A30E3",
@@ -1899,11 +1899,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606067,
+        "url": "https://seatgeek.com/valley-tickets/boston-massachusetts-paradise-rock-club-2027-03-18-7-pm/concert/18606067",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579422,
@@ -1959,7 +1959,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1000652EE7F895D1",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-toronto-ontario-03-20-2027/event/1000652EE7F895D1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/toronto-canada-massey-hall-2027-03-20-8-pm/concert/18606234",
     "vividseats_url": "https://www.vividseats.com/valley-the-band-tickets-toronto-massey-hall---allied-music-centre-3-20-2027--concerts-rock/production/7579953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-toronto-ontario-03-20-2027/event/1000652EE7F895D1",
@@ -1975,11 +1975,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18606234,
+        "url": "https://seatgeek.com/valley-tickets/toronto-canada-massey-hall-2027-03-20-8-pm/concert/18606234",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7579953,

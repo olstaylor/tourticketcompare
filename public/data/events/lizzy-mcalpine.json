@@ -284,7 +284,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "3A006531911D6E0F",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-houston-texas-05-01-2027/event/3A006531911D6E0F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/houston-texas-713-music-hall-2027-05-01-7-pm/concert/18619416",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-houston-713-music-hall-5-1-2027/production/7606570",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-houston-texas-05-01-2027/event/3A006531911D6E0F",
@@ -300,11 +300,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619416,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/houston-texas-713-music-hall-2027-05-01-7-pm/concert/18619416",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606570,
@@ -368,7 +368,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "2D006537DF9A769F",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-durham-north-carolina-05-04-2027/event/2D006537DF9A769F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/durham-north-carolina-dpac-durham-performing-arts-center-2027-05-04-7-pm/concert/18619418",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-durham-north-carolina-05-04-2027/event/2D006537DF9A769F",
@@ -384,11 +384,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619418,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/durham-north-carolina-dpac-durham-performing-arts-center-2027-05-04-7-pm/concert/18619418",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -438,7 +438,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "08006537FB91CECB",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-detroit-michigan-05-07-2027/event/08006537FB91CECB",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/detroit-michigan-fox-theatre-detroit-2027-05-07-7-pm/concert/18619420",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-detroit-fox-theatre-detroit-5-7-2027/production/7606574",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-detroit-michigan-05-07-2027/event/08006537FB91CECB",
@@ -454,11 +454,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619420,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/detroit-michigan-fox-theatre-detroit-2027-05-07-7-pm/concert/18619420",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606574,
@@ -519,7 +519,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "05006535B611EE82",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-indianapolis-indiana-05-09-2027/event/05006535B611EE82",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/indianapolis-indiana-clowes-memorial-hall-2027-05-09-7-pm/concert/18619426",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-indianapolis-clowes-memorial-hall-5-9-2027/production/7606576",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-indianapolis-indiana-05-09-2027/event/05006535B611EE82",
@@ -535,11 +535,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619426,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/indianapolis-indiana-clowes-memorial-hall-2027-05-09-7-pm/concert/18619426",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606576,
@@ -600,7 +600,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "06006531EBD2D135",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-12-2027/event/06006531EBD2D135",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/minneapolis-minnesota-state-theatre-minneapolis-2027-05-12-7-pm/concert/18619429",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-12-2027/production/7606578",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-12-2027/event/06006531EBD2D135",
@@ -616,11 +616,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619429,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/minneapolis-minnesota-state-theatre-minneapolis-2027-05-12-7-pm/concert/18619429",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606578,
@@ -746,7 +746,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "1B00653773DE4835",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-nashville-tennessee-06-16-2027/event/1B00653773DE4835",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/nashville-tennessee-bridgestone-arena-2027-06-16-7-pm/concert/18619440",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-nashville-bridgestone-arena-6-16-2027/production/7606584",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-nashville-tennessee-06-16-2027/event/1B00653773DE4835",
@@ -762,11 +762,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619440,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/nashville-tennessee-bridgestone-arena-2027-06-16-7-pm/concert/18619440",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606584,
@@ -835,7 +835,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "30006531F6639F96",
     "ticketmaster_url": "https://www.ticketmaster.com/wxpn-welcomes-lizzy-mcalpine-the-over-philadelphia-pennsylvania-06-18-2027/event/30006531F6639F96",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-06-18-7-pm/concert/18619442",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-philadelphia-xfinity-mobile-arena-6-18-2027/production/7606586",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wxpn-welcomes-lizzy-mcalpine-the-over-philadelphia-pennsylvania-06-18-2027/event/30006531F6639F96",
@@ -851,11 +851,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619442,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-06-18-7-pm/concert/18619442",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606586,
@@ -924,7 +924,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "010065378A60995E",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-20-2027/event/010065378A60995E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/boston-massachusetts-agganis-arena-2027-06-20-7-pm/concert/18619443",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-20-2027/production/7606590",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-20-2027/event/010065378A60995E",
@@ -940,11 +940,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619443,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/boston-massachusetts-agganis-arena-2027-06-20-7-pm/concert/18619443",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606590,
@@ -1005,7 +1005,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "3B006537909D2CC2",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-new-york-new-york-06-24-2027/event/3B006537909D2CC2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/new-york-new-york-madison-square-garden-2027-06-24-7-pm/concert/18619444",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-new-york-madison-square-garden-6-24-2027/production/7606580",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-new-york-new-york-06-24-2027/event/3B006537909D2CC2",
@@ -1021,11 +1021,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619444,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/new-york-new-york-madison-square-garden-2027-06-24-7-pm/concert/18619444",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606580,
@@ -1104,7 +1104,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "15006537A689641E",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-columbia-maryland-06-25-2027/event/15006537A689641E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/columbia-maryland-merriweather-post-pavilion-2027-06-25-7-pm/concert/18619445",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbia-merriweather-post-pavilion-6-25-2027--concerts-alternative/production/7606598",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-columbia-maryland-06-25-2027/event/15006537A689641E",
@@ -1120,11 +1120,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619445,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/columbia-maryland-merriweather-post-pavilion-2027-06-25-7-pm/concert/18619445",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606598,
@@ -1185,7 +1185,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "10006532A18F8C90",
     "ticketmaster_url": "https://www.ticketmaster.ca/lizzy-mcalpine-the-over-country-tour-toronto-ontario-06-27-2027/event/10006532A18F8C90",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/toronto-canada-scotiabank-arena-2027-06-27-7-pm/concert/18619449",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-toronto-scotiabank-arena-6-27-2027--concerts-alternative/production/7606716",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/lizzy-mcalpine-the-over-country-tour-toronto-ontario-06-27-2027/event/10006532A18F8C90",
@@ -1201,11 +1201,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619449,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/toronto-canada-scotiabank-arena-2027-06-27-7-pm/concert/18619449",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606716,
@@ -1245,7 +1245,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "04006535AADD9CC0",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-chicago-illinois-06-29-2027/event/04006535AADD9CC0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/chicago-illinois-united-center-2027-06-29-7-pm/concert/18619452",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-chicago-united-center-6-29-2027--concerts-alternative/production/7606600",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-chicago-illinois-06-29-2027/event/04006535AADD9CC0",
@@ -1261,11 +1261,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619452,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/chicago-illinois-united-center-2027-06-29-7-pm/concert/18619452",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606600,
@@ -1334,7 +1334,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "3A0065329D25838A",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-austin-texas-07-02-2027/event/3A0065329D25838A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/austin-texas-moody-center-atx-2027-07-02-7-pm/concert/18619454",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-austin-moody-center-atx-7-2-2027--concerts-alternative/production/7606604",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-austin-texas-07-02-2027/event/3A0065329D25838A",
@@ -1350,11 +1350,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619454,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/austin-texas-moody-center-atx-2027-07-02-7-pm/concert/18619454",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606604,
@@ -1423,7 +1423,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "0A0065365069CDEC",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-san-diego-california-07-09-2027/event/0A0065365069CDEC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/san-diego-california-the-rady-shell-at-jacobs-park-2027-07-09-6-30-pm/concert/18619456",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-san-diego-the-rady-shell-at-jacobs-park-7-9-2027--concerts-alternative/production/7606606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-san-diego-california-07-09-2027/event/0A0065365069CDEC",
@@ -1439,11 +1439,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619456,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/san-diego-california-the-rady-shell-at-jacobs-park-2027-07-09-6-30-pm/concert/18619456",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606606,
@@ -1504,7 +1504,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "09006536E3C9E1DF",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-inglewood-california-07-10-2027/event/09006536E3C9E1DF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/los-angeles-california-forum-23-2027-07-10-7-pm/concert/18619461",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-inglewood-kia-forum-7-10-2027/production/7606614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-inglewood-california-07-10-2027/event/09006536E3C9E1DF",
@@ -1520,11 +1520,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619461,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/los-angeles-california-forum-23-2027-07-10-7-pm/concert/18619461",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606614,
@@ -1593,7 +1593,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "1C006531E959B015",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-san-francisco-california-07-13-2027/event/1C006531E959B015",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/san-francisco-california-chase-center-2027-07-13-7-pm/concert/18619460",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-san-francisco-chase-center-7-13-2027/production/7606620",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-san-francisco-california-07-13-2027/event/1C006531E959B015",
@@ -1609,11 +1609,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619460,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/san-francisco-california-chase-center-2027-07-13-7-pm/concert/18619460",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606620,
@@ -1682,7 +1682,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "0F00653582563117",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-portland-oregon-07-15-2027/event/0F00653582563117",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/portland-oregon-moda-center-2027-07-15-7-pm/concert/18619462",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-portland-moda-center-7-15-2027/production/7606624",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-portland-oregon-07-15-2027/event/0F00653582563117",
@@ -1698,11 +1698,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619462,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/portland-oregon-moda-center-2027-07-15-7-pm/concert/18619462",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606624,
@@ -1763,7 +1763,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "0F00653207A196E3",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-seattle-washington-07-17-2027/event/0F00653207A196E3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/seattle-washington-climate-pledge-arena-2027-07-17-7-pm/concert/18619466",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-seattle-climate-pledge-arena-7-17-2027/production/7606630",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-seattle-washington-07-17-2027/event/0F00653207A196E3",
@@ -1779,11 +1779,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619466,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/seattle-washington-climate-pledge-arena-2027-07-17-7-pm/concert/18619466",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606630,
@@ -2274,7 +2274,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAekq3",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekq3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/dallas-texas-the-bomb-factory-dallas-2027-04-30-7-pm/concert/18619417",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-dallas-the-bomb-factory-4-30-2027--concerts-alternative/production/7606724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekq3",
@@ -2290,11 +2290,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619417,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/dallas-texas-the-bomb-factory-dallas-2027-04-30-7-pm/concert/18619417",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606724,
@@ -2343,7 +2343,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeA-b",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-b",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/atlanta-georgia-fox-theatre-atlanta-2027-05-03-7-pm/concert/18619419",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-atlanta-fox-theatre---atlanta-5-3-2027--concerts-alternative/production/7606728",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA-b",
@@ -2359,11 +2359,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619419,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/atlanta-georgia-fox-theatre-atlanta-2027-05-03-7-pm/concert/18619419",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606728,
@@ -2412,7 +2412,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeA09",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA09",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/columbus-ohio-palace-theatre-columbus-2027-05-06-7-pm/concert/18619421",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbus-palace-theatre-columbus-5-6-2027--concerts-alternative/production/7606732",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA09",
@@ -2428,11 +2428,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619421,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/columbus-ohio-palace-theatre-columbus-2027-05-06-7-pm/concert/18619421",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606732,
@@ -2481,7 +2481,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeA0_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA0_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-05-10-7-pm/concert/18619430",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-milwaukee-riverside-theater---wi-5-10-2027--concerts-alternative/production/7606750",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeA0_",
@@ -2497,11 +2497,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619430,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-05-10-7-pm/concert/18619430",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606750,
@@ -2550,7 +2550,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "06006531EBD5D13F",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-13-2027/event/06006531EBD5D13F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/minneapolis-minnesota-state-theatre-minneapolis-2027-05-13-7-pm/concert/18637702",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-13-2027/production/7631653",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-minneapolis-minnesota-05-13-2027/event/06006531EBD5D13F",
@@ -2566,11 +2566,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18637702,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/minneapolis-minnesota-state-theatre-minneapolis-2027-05-13-7-pm/concert/18637702",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7631653,
@@ -2631,7 +2631,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAekqK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekqK",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-05-17-7-pm/concert/18619436",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-kansas-city-the-midland-theatre-5-17-2027--concerts-alternative/production/7606754",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAekqK",
@@ -2647,11 +2647,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619436,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-05-17-7-pm/concert/18619436",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606754,
@@ -2753,7 +2753,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "010065378A639968",
     "ticketmaster_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-21-2027/event/010065378A639968",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/boston-massachusetts-agganis-arena-2027-06-21-7-pm/concert/18637280",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-21-2027--concerts-alternative/production/7631927",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lizzy-mcalpine-the-over-country-tour-boston-massachusetts-06-21-2027/event/010065378A639968",
@@ -2769,11 +2769,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18637280,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/boston-massachusetts-agganis-arena-2027-06-21-7-pm/concert/18637280",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7631927,
@@ -2834,7 +2834,7 @@
     "tour_name": "The Over Country Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeAx6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAx6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lizzy-mcalpine-tickets/morrison-colorado-red-rocks-amphitheatre-2027-07-06-7-pm/concert/18619455",
     "vividseats_url": "https://www.vividseats.com/lizzy-mcalpine-tickets-morrison-red-rocks-amphitheatre-7-6-2027--concerts-alternative/production/7606811",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeAx6",
@@ -2850,11 +2850,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18619455,
+        "url": "https://seatgeek.com/lizzy-mcalpine-tickets/morrison-colorado-red-rocks-amphitheatre-2027-07-06-7-pm/concert/18619455",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606811,

@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8012408",
+        "url": "https://www.ticketnetwork.com/en/p/8012408",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_5Sqbrak",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012408"
   },
   {
     "id": "tm-def-leppard-2027-allentown-1ayzk4agkdyeyao",
@@ -99,12 +107,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312060",
+        "url": "https://www.ticketnetwork.com/en/p/8312060",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4AGkdYEyaO",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312060"
   },
   {
     "id": "tm-def-leppard-2027-montreal-1aszk4agkdf99bi",
@@ -153,12 +169,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312100",
+        "url": "https://www.ticketnetwork.com/en/p/8312100",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4AGkdf99BI",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312100"
   },
   {
     "id": "tm-def-leppard-2027-detroit-vv1afzk4egkelpgxa",
@@ -207,12 +231,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312061",
+        "url": "https://www.ticketnetwork.com/en/p/8312061",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4eGkelpgxa",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312061"
   },
   {
     "id": "tm-def-leppard-2027-toronto-1a8zk4egkdrqf1w",
@@ -315,12 +347,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312104",
+        "url": "https://www.ticketnetwork.com/en/p/8312104",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4AGkesU4rw",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312104"
   },
   {
     "id": "tm-def-leppard-2027-newark-vv1aezk4kgkdvinob",
@@ -369,12 +409,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312062",
+        "url": "https://www.ticketnetwork.com/en/p/8312062",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4kGkdvInob",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312062"
   },
   {
     "id": "tm-def-leppard-2027-boston-vv1a8vp88ga16tl3",
@@ -423,12 +471,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312063",
+        "url": "https://www.ticketnetwork.com/en/p/8312063",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vP88GA16Tl3",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312063"
   },
   {
     "id": "tm-def-leppard-2027-nashville-g5viz_f9p6_vj",
@@ -477,12 +533,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312064",
+        "url": "https://www.ticketnetwork.com/en/p/8312064",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f9P6_Vj",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312064"
   },
   {
     "id": "tm-def-leppard-2027-washington-17a8v0g62pvh_yy",
@@ -531,12 +595,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312065",
+        "url": "https://www.ticketnetwork.com/en/p/8312065",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G62pVh_yy",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312065"
   },
   {
     "id": "tm-def-leppard-2027-pittsburgh-1apzk4egkdr8ult",
@@ -585,12 +657,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312066",
+        "url": "https://www.ticketnetwork.com/en/p/8312066",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZk4eGkdr8ult",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312066"
   },
   {
     "id": "tm-def-leppard-2027-chicago-vv1k8z_fgkg7dl8f",
@@ -639,12 +719,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312067",
+        "url": "https://www.ticketnetwork.com/en/p/8312067",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k8Z_fGKG7DL8f",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312067"
   },
   {
     "id": "tm-def-leppard-2027-denver-g5vzz_frfov07",
@@ -693,12 +781,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312069",
+        "url": "https://www.ticketnetwork.com/en/p/8312069",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_frFoV07",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T16:00:00Z"
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312069"
   },
   {
     "id": "tm-def-leppard-2027-austin-g5diz_f1_s12h",
@@ -747,12 +843,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312071",
+        "url": "https://www.ticketnetwork.com/en/p/8312071",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_f1_s12h",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312071"
   },
   {
     "id": "tm-def-leppard-2027-north-little-rock-g5viz_f5gacpb",
@@ -801,12 +905,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312072",
+        "url": "https://www.ticketnetwork.com/en/p/8312072",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f5GaCpb",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312072"
   },
   {
     "id": "tm-def-leppard-2027-fort-worth-vvg1yz_fhfmaat",
@@ -855,12 +967,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312073",
+        "url": "https://www.ticketnetwork.com/en/p/8312073",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_fhfmaat",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312073"
   },
   {
     "id": "tm-def-leppard-2027-mobile-g5viz_fptcweu",
@@ -909,12 +1029,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312074",
+        "url": "https://www.ticketnetwork.com/en/p/8312074",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_fpTCweU",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312074"
   },
   {
     "id": "tm-def-leppard-2027-wichita-vv1akzk4kgkexoysl",
@@ -963,12 +1091,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312075",
+        "url": "https://www.ticketnetwork.com/en/p/8312075",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4kGkexOySL",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312075"
   },
   {
     "id": "tm-def-leppard-2027-lincoln-vv1akzk4vgkel3utc",
@@ -1017,12 +1153,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312076",
+        "url": "https://www.ticketnetwork.com/en/p/8312076",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4vGkel3uTC",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312076"
   },
   {
     "id": "tm-def-leppard-2027-glendale-1kk8vp8bga1l7cc",
@@ -1071,12 +1215,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312078",
+        "url": "https://www.ticketnetwork.com/en/p/8312078",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8vP8bGA1L7Cc",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312078"
   },
   {
     "id": "tm-def-leppard-2027-hollywood-vvg1iz_f7e8nik",
@@ -1125,12 +1277,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312079",
+        "url": "https://www.ticketnetwork.com/en/p/8312079",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_f7e8nIK",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312079"
   },
   {
     "id": "tm-def-leppard-2027-san-francisco-g5vyz_f5oof-x",
@@ -1179,12 +1339,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312080",
+        "url": "https://www.ticketnetwork.com/en/p/8312080",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_f5OoF-X",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312080"
   },
   {
     "id": "tm-def-leppard-2027-sacramento-g5vyz_f5hdkto",
@@ -1233,12 +1401,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312081",
+        "url": "https://www.ticketnetwork.com/en/p/8312081",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_f5hdkto",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312081"
   },
   {
     "id": "tm-def-leppard-2027-seattle-vvg1hz_f1kfpyl",
@@ -1287,12 +1463,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312082",
+        "url": "https://www.ticketnetwork.com/en/p/8312082",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_f1KfPyL",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312082"
   },
   {
     "id": "tm-def-leppard-2027-vancouver-1aozk4agkddzaes",
@@ -1341,12 +1525,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312105",
+        "url": "https://www.ticketnetwork.com/en/p/8312105",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4AGkddzaes",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T17:00:00Z"
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312105"
   },
   {
     "id": "tm-def-leppard-2027-edmonton-1k78vpoiga55fiz",
@@ -1395,12 +1587,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312106",
+        "url": "https://www.ticketnetwork.com/en/p/8312106",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPoIGA55fiZ",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T16:00:00Z"
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312106"
   },
   {
     "id": "tm-def-leppard-2027-san-antonio-g5diz_fqmcwez",
@@ -1449,12 +1649,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312084",
+        "url": "https://www.ticketnetwork.com/en/p/8312084",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fQMCWEZ",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312084"
   },
   {
     "id": "tm-def-leppard-2027-oklahoma-city-vvg1yz_fkymbmf",
@@ -1503,12 +1711,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312086",
+        "url": "https://www.ticketnetwork.com/en/p/8312086",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_fkymBmF",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312086"
   },
   {
     "id": "tm-def-leppard-2027-milwaukee-vv1a6zk4kgkd_k6yp",
@@ -1557,12 +1773,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312087",
+        "url": "https://www.ticketnetwork.com/en/p/8312087",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk4kGkd_k6yp",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312087"
   },
   {
     "id": "tm-def-leppard-2027-saint-louis-vv1kvovp8tga1iyft",
@@ -1665,12 +1889,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312089",
+        "url": "https://www.ticketnetwork.com/en/p/8312089",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAOvPoIGA1ISpc",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312089"
   },
   {
     "id": "tm-def-leppard-2027-savannah-vvg1zz_fqp5bwn",
@@ -1719,12 +1951,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312090",
+        "url": "https://www.ticketnetwork.com/en/p/8312090",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_fQp5bwN",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312090"
   },
   {
     "id": "tm-def-leppard-2027-tampa-vvg1vz_fpw01di",
@@ -1773,12 +2013,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312091",
+        "url": "https://www.ticketnetwork.com/en/p/8312091",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fpW01dI",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312091"
   },
   {
     "id": "tm-def-leppard-2027-atlanta-vvg1zz_fpttjci",
@@ -1827,12 +2075,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312092",
+        "url": "https://www.ticketnetwork.com/en/p/8312092",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_fpTTjCi",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312092"
   },
   {
     "id": "tm-def-leppard-2027-columbus-vv1aazk4kgkdpgu4v",
@@ -1881,12 +2137,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312093",
+        "url": "https://www.ticketnetwork.com/en/p/8312093",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4kGkdPgu4v",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312093"
   },
   {
     "id": "tm-def-leppard-2027-new-york-g5diz_fkxvp6l",
@@ -1935,12 +2199,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312095",
+        "url": "https://www.ticketnetwork.com/en/p/8312095",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_fKxvP6L",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312095"
   },
   {
     "id": "tm-def-leppard-2027-uncasville-g5vvz_fbgzjmo",
@@ -1989,12 +2261,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312096",
+        "url": "https://www.ticketnetwork.com/en/p/8312096",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_fbGZJmO",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312096"
   },
   {
     "id": "tm-def-leppard-2027-philadelphia-1ayzk4agkeprd7q",
@@ -2043,12 +2323,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312097",
+        "url": "https://www.ticketnetwork.com/en/p/8312097",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4AGkePRd7Q",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312097"
   },
   {
     "id": "tm-def-leppard-2027-charlotte-g5evz_fps2umn",
@@ -2097,12 +2385,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312098",
+        "url": "https://www.ticketnetwork.com/en/p/8312098",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fpS2umN",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312098"
   },
   {
     "id": "tm-def-leppard-2027-indianapolis-vv1kv8vp8_ga1mpgy",
@@ -2151,11 +2447,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312099",
+        "url": "https://www.ticketnetwork.com/en/p/8312099",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vP8_GA1mPgy",
     "timezone": "America/Indiana/Indianapolis",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312099"
   }
 ]

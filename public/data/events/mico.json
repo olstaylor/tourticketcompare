@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977875",
+        "url": "https://www.ticketnetwork.com/en/p/7977875",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70U7S",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977875"
   },
   {
     "id": "tm-mico-2026-portland-z7r9jz1a70i8e",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7978069",
+        "url": "https://www.ticketnetwork.com/en/p/7978069",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70I8E",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978069"
   },
   {
     "id": "tm-mico-2026-san-francisco-z7r9jz1a70i80",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977876",
+        "url": "https://www.ticketnetwork.com/en/p/7977876",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70I80",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977876"
   },
   {
     "id": "tm-mico-2026-los-angeles-z7r9jz1a70uao",
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977877",
+        "url": "https://www.ticketnetwork.com/en/p/7977877",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70UAO",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977877"
   },
   {
     "id": "tm-mico-2026-los-angeles-z7r9jz1a70ua4",
@@ -258,11 +290,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8005895",
+        "url": "https://www.ticketnetwork.com/en/p/8005895",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70UA4",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8005895"
   },
   {
     "id": "tm-mico-2026-las-vegas-17ayv0g61m2w1ya",
@@ -311,11 +351,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977760",
+        "url": "https://www.ticketnetwork.com/en/p/7977760",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G61M2W1Ya",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977760"
   },
   {
     "id": "tm-mico-2026-san-diego-vvg1iz_1uivzmh",
@@ -364,11 +412,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977763",
+        "url": "https://www.ticketnetwork.com/en/p/7977763",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_1UiVzMh",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977763"
   },
   {
     "id": "tm-mico-2026-tucson-z7r9jz1a70ioy",
@@ -417,11 +473,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7978070",
+        "url": "https://www.ticketnetwork.com/en/p/7978070",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Ioy",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978070"
   },
   {
     "id": "tm-mico-2026-dallas-vvg1yz_1tobhle",
@@ -470,11 +534,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977770",
+        "url": "https://www.ticketnetwork.com/en/p/7977770",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1ToBHlE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977770"
   },
   {
     "id": "tm-mico-2026-austin-g5diz_1wd9gll",
@@ -523,11 +595,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977765",
+        "url": "https://www.ticketnetwork.com/en/p/7977765",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1wD9GLL",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977765"
   },
   {
     "id": "tm-mico-2026-houston-g5diz_1ucylhw",
@@ -576,11 +656,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977767",
+        "url": "https://www.ticketnetwork.com/en/p/7977767",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1UcYlhw",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977767"
   },
   {
     "id": "tm-mico-2026-nashville-g5viz_1mfi-bc",
@@ -629,11 +717,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977769",
+        "url": "https://www.ticketnetwork.com/en/p/7977769",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_1MfI-bC",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977769"
   },
   {
     "id": "tm-mico-2026-atlanta-vvg1zz_1d2p0tb",
@@ -735,11 +831,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977761",
+        "url": "https://www.ticketnetwork.com/en/p/7977761",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61Sa7y8c",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977761"
   },
   {
     "id": "tm-mico-2026-new-york-z7r9jz1a70u7_",
@@ -788,11 +892,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977878",
+        "url": "https://www.ticketnetwork.com/en/p/7977878",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70U7_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977878"
   },
   {
     "id": "tm-mico-2026-brooklyn-z7r9jz1a70uez",
@@ -841,11 +953,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977870",
+        "url": "https://www.ticketnetwork.com/en/p/7977870",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70UeZ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977870"
   },
   {
     "id": "tm-mico-2026-boston-vvg17z_1mkpkh2",
@@ -894,11 +1014,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977758",
+        "url": "https://www.ticketnetwork.com/en/p/7977758",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1MkPkH2",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977758"
   },
   {
     "id": "tm-mico-2026-providence-z7r9jz1a7p0b9",
@@ -1000,11 +1128,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199474",
+        "url": "https://www.ticketnetwork.com/en/p/8199474",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16sZkfk00ZAGk68G",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199474"
   },
   {
     "id": "tm-mico-2026-toronto-177zv0g61sycnt1",
@@ -1429,12 +1565,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315048",
+        "url": "https://www.ticketnetwork.com/en/p/8315048",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fQQay6K",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315048"
   },
   {
     "id": "tm-mico-2027-charleston-g5evz_fxr2vbf",
@@ -1591,12 +1735,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315051",
+        "url": "https://www.ticketnetwork.com/en/p/8315051",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fxbU9SQ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315051"
   },
   {
     "id": "tm-mico-2027-orlando-16efz_fbzg7m_te",
@@ -1645,12 +1797,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315052",
+        "url": "https://www.ticketnetwork.com/en/p/8315052",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16eFZ_fbZG7M_te",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315052"
   },
   {
     "id": "tm-mico-2027-birmingham-1aozk4fgkdswfqm",
@@ -1699,12 +1859,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315053",
+        "url": "https://www.ticketnetwork.com/en/p/8315053",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4FGkdSwFqm",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315053"
   },
   {
     "id": "tm-mico-2027-new-orleans-g5viz_f97lnal",
@@ -1753,12 +1921,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315055",
+        "url": "https://www.ticketnetwork.com/en/p/8315055",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f97lNAL",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315055"
   },
   {
     "id": "tm-mico-2027-indianapolis-vv1aazk4kgkenppel",
@@ -1807,12 +1983,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315056",
+        "url": "https://www.ticketnetwork.com/en/p/8315056",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4kGkeNppeL",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315056"
   },
   {
     "id": "tm-mico-2027-cincinnati-1apzk47gkdey9ag",

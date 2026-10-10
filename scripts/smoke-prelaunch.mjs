@@ -861,11 +861,40 @@ async function routeResponse(pathname, envOverride = env, origin = "https://tour
 
 // Site voice (owner direction 2026-09-24): visible copy never speaks as "we".
 // Same rule scripts/check-site-voice.mjs applies to guide and blog Markdown.
+// Names that come from the event records (a listing title such as "Psychedelic
+// Furs w/ We Are Scientists", a tour, a venue) are the source's words, not the
+// site's, so they are exempt like quoted text.
+let sourceVoiceNames = null;
+function sourceNamesWithVoiceHits() {
+  if (!sourceVoiceNames) {
+    const names = new Set();
+    for (const event of Array.isArray(events) ? events : []) {
+      for (const field of ["event_name", "tour_name", "artist_name", "venue"]) {
+        const name = String(event?.[field] || "").trim();
+        if (name && findFirstPersonPlural(name).length) names.add(name);
+      }
+    }
+    // Longest first, so a title is removed before a shorter name inside it.
+    sourceVoiceNames = [...names].sort((a, b) => b.length - a.length);
+  }
+  return sourceVoiceNames;
+}
+
+function withoutSourceNames(text) {
+  let out = text;
+  for (const name of sourceNamesWithVoiceHits()) {
+    for (const form of new Set([name, name.replace(/&/g, "&amp;")])) out = out.split(form).join(" ");
+  }
+  return out;
+}
+
 function assertSiteVoice(pathname, text) {
-  const visibleMain = (text.match(/<main[\s\S]*<\/main>/)?.[0] || "")
-    .replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ")
-    .replace(/<[^>]+>/g, "\n")
-    .replace(/&rsquo;|&#39;/g, "'");
+  const visibleMain = withoutSourceNames(
+    (text.match(/<main[\s\S]*<\/main>/)?.[0] || "")
+      .replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ")
+      .replace(/<[^>]+>/g, "\n")
+      .replace(/&rsquo;|&#39;/g, "'")
+  );
   const voiceHits = findFirstPersonPlural(visibleMain);
   assert(
     voiceHits.length === 0,

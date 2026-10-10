@@ -50,10 +50,12 @@ count terminal rows for funnel totals and distinct IDs for reconciliation.
 | 8. Left an email address | `email_signup`, `artist_interest`, `price_alert_interest` | server, `functions/api/signup.js` | Authoritative |
 
 **`outbound_click` is authoritative evidence of a qualified server-issued
-redirect, not of a human clicking a button.** Its `Sec-Fetch-User: ?1`
-requirement removes ordinary script requests and much automated direct access,
-but browser automation, repeat requests and requests discovered outside the
-visible CTA can still reach `/api/out`. Some compatible headerless browsers
+redirect, not of a human clicking a button.** Its user-navigation signal
+removes ordinary script requests and much automated direct access, but it is
+weaker than the v1 `Sec-Fetch-User: ?1` rule: the `same-origin`/`navigate`
+fallback carries no user-activation guarantee, so a programmatic same-origin
+navigation also qualifies. Browser automation, repeat requests and requests
+discovered outside the visible CTA can still reach `/api/out`. Some compatible headerless browsers
 may be omitted. Client beacons can be missing independently. Count server
 receipts separately from browser CTA intent; neither count proves arrival at
 the provider or a sale.

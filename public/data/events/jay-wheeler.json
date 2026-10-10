@@ -318,12 +318,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307352",
+        "url": "https://www.ticketliquidator.com/tickets/8307352/Jay-Wheeler-tickets-Thu-Mar-11-2027-Kaseya-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_f7_l-6l",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307352"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307352",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307352/Jay-Wheeler-tickets-Thu-Mar-11-2027-Kaseya-Center"
   },
   {
     "id": "tm-jay-wheeler-2027-atlanta-vvg1zz_f288dbv",
@@ -379,12 +387,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307353",
+        "url": "https://www.ticketliquidator.com/tickets/8307353/Jay-Wheeler-tickets-Fri-Mar-12-2027-Coca-Cola-Roxy",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_f288dBV",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307353"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307353",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307353/Jay-Wheeler-tickets-Fri-Mar-12-2027-Coca-Cola-Roxy"
   },
   {
     "id": "tm-jay-wheeler-2027-charlotte-g5evz_f75dxcp",
@@ -440,12 +456,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307354",
+        "url": "https://www.ticketliquidator.com/tickets/8307354/Jay-Wheeler-tickets-Sun-Mar-14-2027-Ovens-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_f75DXcP",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307354"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307354",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307354/Jay-Wheeler-tickets-Sun-Mar-14-2027-Ovens-Auditorium"
   },
   {
     "id": "tm-jay-wheeler-2027-washington-1a4zk4egkd30m3a",
@@ -501,12 +525,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307355",
+        "url": "https://www.ticketliquidator.com/tickets/8307355/Jay-Wheeler-tickets-Thu-Mar-18-2027-DAR-Constitution-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk4eGkd30M3a",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307355"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307355",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307355/Jay-Wheeler-tickets-Thu-Mar-18-2027-DAR-Constitution-Hall"
   },
   {
     "id": "tm-jay-wheeler-2027-atlantic-city-vv1aezk4vgkduqubi",
@@ -562,12 +594,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307356",
+        "url": "https://www.ticketliquidator.com/tickets/8307356/Jay-Wheeler-tickets-Fri-Mar-19-2027-Hard-Rock-Live-At-Etess-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4vGkduQuBi",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307356"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307356",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307356/Jay-Wheeler-tickets-Fri-Mar-19-2027-Hard-Rock-Live-At-Etess-Arena"
   },
   {
     "id": "tm-jay-wheeler-2027-mashantucket-g5vvz_fp_melk",
@@ -676,12 +716,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307360",
+        "url": "https://www.ticketliquidator.com/tickets/8307360/Jay-Wheeler-tickets-Wed-Mar-24-2027-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4vGkeBXENn",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307360"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307360",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307360/Jay-Wheeler-tickets-Wed-Mar-24-2027-Barclays-Center"
   },
   {
     "id": "tm-jay-wheeler-2027-reading-vv17fz_kgkblt_5x",
@@ -790,12 +838,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8309790",
+        "url": "https://www.ticketliquidator.com/tickets/8309790/Jay-Wheeler-tickets-Sat-Mar-27-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4AGkeJXnEm",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8309790"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8309790",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8309790/Jay-Wheeler-tickets-Sat-Mar-27-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-jay-wheeler-2027-rosemont-vv178z_kgkbjdkxl",
@@ -851,12 +907,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307363",
+        "url": "https://www.ticketliquidator.com/tickets/8307363/Jay-Wheeler-tickets-Fri-Apr-2-2027-Rosemont-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_KGkBjdkXl",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307363"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307363",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307363/Jay-Wheeler-tickets-Fri-Apr-2-2027-Rosemont-Theatre"
   },
   {
     "id": "tm-jay-wheeler-2027-denver-g5vzz_f20_jhu",
@@ -965,12 +1029,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307366",
+        "url": "https://www.ticketliquidator.com/tickets/8307366/Jay-Wheeler-tickets-Tue-Apr-6-2027-The-Pavilion-at-Toyota-Music-Factory",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f8NrwS_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307366"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307366",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307366/Jay-Wheeler-tickets-Tue-Apr-6-2027-The-Pavilion-at-Toyota-Music-Factory"
   },
   {
     "id": "tm-jay-wheeler-2027-houston-g5diz_f62ij1f",
@@ -1026,12 +1098,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307367",
+        "url": "https://www.ticketliquidator.com/tickets/8307367/Jay-Wheeler-tickets-Wed-Apr-7-2027-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_f62IJ1f",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307367"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307367",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307367/Jay-Wheeler-tickets-Wed-Apr-7-2027-713-Music-Hall"
   },
   {
     "id": "tm-jay-wheeler-2027-inglewood-vvg1iz_f8af9cn",
@@ -1087,13 +1167,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307369",
+        "url": "https://www.ticketliquidator.com/tickets/8307369/Jay-Wheeler-tickets-Sat-Apr-10-2027-YouTube-Theater-at-Hollywood-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_f8Af9cn",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-09T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307369"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307369",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307369/Jay-Wheeler-tickets-Sat-Apr-10-2027-YouTube-Theater-at-Hollywood-Park"
   },
   {
     "id": "tm-jay-wheeler-2027-orlando-1axzk4vgkd6tfj5",
@@ -1149,11 +1237,19 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307371",
+        "url": "https://www.ticketliquidator.com/tickets/8307371/Jay-Wheeler-tickets-Thu-Apr-15-2027-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4vGkd6TfJ5",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307371"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307371",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307371/Jay-Wheeler-tickets-Thu-Apr-15-2027-Kia-Center"
   }
 ]

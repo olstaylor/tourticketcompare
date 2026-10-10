@@ -2353,13 +2353,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313478",
+        "url": "https://www.ticketliquidator.com/tickets/8313478/Fontaines-DC-tickets-Thu-May-6-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aoZk4v0aa_ZeGF",
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313478"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313478",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313478/Fontaines-DC-tickets-Thu-May-6-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
   },
   {
     "id": "tm-fontaines-d-c-2027-columbus-z7r9jz1aaepk6",
@@ -2415,12 +2423,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307056",
+        "url": "https://www.ticketliquidator.com/tickets/8307056/Fontaines-DC-tickets-Fri-Sep-24-2027-KEMBA-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAepk6",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307056"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307056",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307056/Fontaines-DC-tickets-Fri-Sep-24-2027-KEMBA-Live"
   },
   {
     "id": "tm-fontaines-d-c-2027-forest-hills-z7r9jz1aaep7g",
@@ -2476,12 +2492,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303817",
+        "url": "https://www.ticketliquidator.com/tickets/8303817/Fontaines-DC-tickets-Tue-Sep-28-2027-Forest-Hills-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAep7g",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303817"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303817",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303817/Fontaines-DC-tickets-Tue-Sep-28-2027-Forest-Hills-Stadium"
   },
   {
     "id": "tm-fontaines-d-c-2027-forest-hills-z7r9jz1aa7v_9",
@@ -2537,12 +2561,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312114",
+        "url": "https://www.ticketliquidator.com/tickets/8312114/Fontaines-DC-tickets-Wed-Sep-29-2027-Forest-Hills-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7v_9",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312114"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312114",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312114/Fontaines-DC-tickets-Wed-Sep-29-2027-Forest-Hills-Stadium"
   },
   {
     "id": "tm-fontaines-d-c-2027-nashville-z7r9jz1aaepkf",
@@ -2651,11 +2683,19 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303825",
+        "url": "https://www.ticketliquidator.com/tickets/8303825/Fontaines-DC-tickets-Wed-Oct-13-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAepka",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303825"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303825",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303825/Fontaines-DC-tickets-Wed-Oct-13-2027-Red-Rocks-Amphitheatre"
   }
 ]

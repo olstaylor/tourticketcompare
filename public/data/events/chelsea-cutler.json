@@ -1229,12 +1229,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301015",
+        "url": "https://www.ticketliquidator.com/tickets/8301015/Chelsea-Cutler-tickets-Sat-Jan-30-2027-The-Eastern-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_Gf",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301015"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301015",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301015/Chelsea-Cutler-tickets-Sat-Jan-30-2027-The-Eastern-GA"
   },
   {
     "id": "tm-chelsea-cutler-2027-nashville-z7r9jz1aaefb3",
@@ -1290,12 +1298,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301016",
+        "url": "https://www.ticketliquidator.com/tickets/8301016/Chelsea-Cutler-tickets-Wed-Feb-3-2027-Marathon-Music-Works",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAefb3",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301016"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301016",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301016/Chelsea-Cutler-tickets-Wed-Feb-3-2027-Marathon-Music-Works"
   },
   {
     "id": "tm-chelsea-cutler-2027-boston-z7r9jz1aaefp9",
@@ -1404,12 +1420,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301018",
+        "url": "https://www.ticketliquidator.com/tickets/8301018/Chelsea-Cutler-tickets-Sun-Feb-21-2027-Newport-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAef0S",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301018"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301018",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301018/Chelsea-Cutler-tickets-Sun-Feb-21-2027-Newport-Music-Hall"
   },
   {
     "id": "tm-chelsea-cutler-2027-denver-z7r9jz1aae_g4",
@@ -1465,12 +1489,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301019",
+        "url": "https://www.ticketliquidator.com/tickets/8301019/Chelsea-Cutler-tickets-Sun-Feb-28-2027-The-Mission-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_G4",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301019"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301019",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301019/Chelsea-Cutler-tickets-Sun-Feb-28-2027-The-Mission-Ballroom"
   },
   {
     "id": "tm-chelsea-cutler-2027-san-francisco-z7r9jz1aae_gp",
@@ -1526,12 +1558,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301020",
+        "url": "https://www.ticketliquidator.com/tickets/8301020/Chelsea-Cutler-tickets-Sat-Mar-6-2027-The-Midway-CA",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_Gp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301020"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301020",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301020/Chelsea-Cutler-tickets-Sat-Mar-6-2027-The-Midway-CA"
   },
   {
     "id": "tm-chelsea-cutler-2027-salt-lake-city-z7r9jz1aaefp4",
@@ -1640,12 +1680,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301029",
+        "url": "https://www.ticketliquidator.com/tickets/8301029/Chelsea-Cutler-tickets-Fri-Mar-12-2027-Showbox-SoDo",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_G9",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301029"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301029",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301029/Chelsea-Cutler-tickets-Fri-Mar-12-2027-Showbox-SoDo"
   },
   {
     "id": "tm-chelsea-cutler-2027-portland-z7r9jz1aae_gb",
@@ -1701,11 +1749,19 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301030",
+        "url": "https://www.ticketliquidator.com/tickets/8301030/Chelsea-Cutler-tickets-Sat-Mar-13-2027-Roseland-Theater",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_Gb",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301030"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301030",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301030/Chelsea-Cutler-tickets-Sat-Mar-13-2027-Roseland-Theater"
   }
 ]

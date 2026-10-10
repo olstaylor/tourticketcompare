@@ -2432,18 +2432,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7695884",
-        "url": "https://www.ticketliquidator.com/tickets/7695884/Harry-Styles-tickets-Fri-Oct-9-2026-Madison-Square-Garden",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfAcz51",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-9-2026/event/107085162",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7695884/Harry-Styles-tickets-Fri-Oct-9-2026-Madison-Square-Garden"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-harry-styles-2026-new-york-3b00643505d182df",
@@ -37905,11 +37905,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7874852",
-        "url": "https://www.ticketliquidator.com/tickets/7874852/sombr-tickets-Fri-Oct-9-2026-Honda-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1Fe8v0xoqvZ7u1ue",
@@ -37917,7 +37917,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-anaheim-tickets-10-9-2026/event/107155467",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874852/sombr-tickets-Fri-Oct-9-2026-Honda-Center"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-sombr-2026-inglewood-vv16azk3azmzauak1v",
@@ -43051,11 +43051,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7896543",
-        "url": "https://www.ticketliquidator.com/tickets/7896543/Karol-G-tickets-Fri-Oct-9-2026-Raymond-James-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107162169",
@@ -43069,7 +43069,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896543/Karol-G-tickets-Fri-Oct-9-2026-Raymond-James-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-tampa-tickets-10-9-2026/event/107162169"
   },
   {
@@ -46529,11 +46529,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7883099",
-        "url": "https://www.ticketliquidator.com/tickets/7883099/Teddy-Swims-tickets-Fri-Oct-9-2026-TD-Garden",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107158269",
@@ -46547,7 +46547,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883099/Teddy-Swims-tickets-Fri-Oct-9-2026-TD-Garden",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-boston-tickets-10-9-2026/event/107158269"
   },
   {
@@ -107624,12 +107624,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314998",
+        "url": "https://www.ticketliquidator.com/tickets/8314998/Teddy-Swims-tickets-Fri-Apr-9-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17kZv0G6260hbXf",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314998"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314998",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314998/Teddy-Swims-tickets-Fri-Apr-9-2027-3Arena-Dublin"
   },
   {
     "id": "tm-teddy-swims-2027-london-17u8v0g623nj3ov",
@@ -125018,18 +125026,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8034313",
-        "url": "https://www.ticketliquidator.com/tickets/8034313/Malcolm-Todd-tickets-Fri-Oct-9-2026-The-Armory-Minneapolis",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_GCw2Bqa",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034313/Malcolm-Todd-tickets-Fri-Oct-9-2026-The-Armory-Minneapolis"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-malcolm-todd-2026-denver-z7r9jz1a7pobe",
@@ -130399,11 +130407,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8097779",
-        "url": "https://www.ticketliquidator.com/tickets/8097779/Dinosaur-Jr-tickets-Fri-Oct-9-2026-Brooklyn-Bowl-Las-Vegas",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107482701",
@@ -130417,7 +130425,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8097779/Dinosaur-Jr-tickets-Fri-Oct-9-2026-Brooklyn-Bowl-Las-Vegas",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/dinosaur-jr-las-vegas-tickets-10-9-2026/event/107482701"
   },
   {
@@ -175716,12 +175724,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054737",
+        "url": "https://www.ticketliquidator.com/tickets/8054737/Hazlett-tickets-Sat-Jun-12-2027-Scoot-Inn",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_KEpKPyQ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054737"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054737",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054737/Hazlett-tickets-Sat-Jun-12-2027-Scoot-Inn"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-edmonton-1av7z_kgklarlu8",
@@ -179309,11 +179325,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7718199",
-        "url": "https://www.ticketliquidator.com/tickets/7718199/Staind-tickets-Fri-Oct-9-2026-Toyota-Amphitheatre",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107098206",
@@ -179327,7 +179343,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718199/Staind-tickets-Fri-Oct-9-2026-Toyota-Amphitheatre",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/staind-wheatland-tickets-10-9-2026/event/107098206"
   },
   {
@@ -187154,13 +187170,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313478",
+        "url": "https://www.ticketliquidator.com/tickets/8313478/Fontaines-DC-tickets-Thu-May-6-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aoZk4v0aa_ZeGF",
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-10-09T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313478"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313478",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313478/Fontaines-DC-tickets-Thu-May-6-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
   },
   {
     "id": "tm-latto-2026-boston-z7r9jz1aae_7z",
@@ -190468,12 +190492,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012408",
+        "url": "https://www.ticketliquidator.com/tickets/8012408/Def-Leppard-tickets-Thu-Oct-15-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_5Sqbrak",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012408"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012408",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012408/Def-Leppard-tickets-Thu-Oct-15-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
   },
   {
     "id": "tm-def-leppard-2027-allentown-1ayzk4agkdyeyao",
@@ -190529,13 +190561,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312060",
+        "url": "https://www.ticketliquidator.com/tickets/8312060/Def-Leppard-tickets-Tue-Mar-2-2027-PPL-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4AGkdYEyaO",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312060"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312060",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312060/Def-Leppard-tickets-Tue-Mar-2-2027-PPL-Center"
   },
   {
     "id": "tm-def-leppard-2027-montreal-1aszk4agkdf99bi",
@@ -190591,13 +190631,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312100",
+        "url": "https://www.ticketliquidator.com/tickets/8312100/Def-Leppard-tickets-Fri-Mar-5-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4AGkdf99BI",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312100"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312100",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312100/Def-Leppard-tickets-Fri-Mar-5-2027-Centre-Bell"
   },
   {
     "id": "tm-def-leppard-2027-detroit-vv1afzk4egkelpgxa",
@@ -190653,13 +190701,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312061",
+        "url": "https://www.ticketliquidator.com/tickets/8312061/Def-Leppard-tickets-Sun-Mar-7-2027-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4eGkelpgxa",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312061"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312061",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312061/Def-Leppard-tickets-Sun-Mar-7-2027-Little-Caesars-Arena"
   },
   {
     "id": "tm-def-leppard-2027-toronto-1a8zk4egkdrqf1w",
@@ -190769,13 +190825,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312104",
+        "url": "https://www.ticketliquidator.com/tickets/8312104/Def-Leppard-tickets-Thu-Mar-11-2027-Centre-Videotron",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4AGkesU4rw",
     "timezone": "America/Toronto",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312104"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312104",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312104/Def-Leppard-tickets-Thu-Mar-11-2027-Centre-Videotron"
   },
   {
     "id": "tm-def-leppard-2027-newark-vv1aezk4kgkdvinob",
@@ -190831,13 +190895,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312062",
+        "url": "https://www.ticketliquidator.com/tickets/8312062/Def-Leppard-tickets-Sat-Mar-13-2027-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4kGkdvInob",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312062"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312062",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312062/Def-Leppard-tickets-Sat-Mar-13-2027-Prudential-Center"
   },
   {
     "id": "tm-def-leppard-2027-boston-vv1a8vp88ga16tl3",
@@ -190893,13 +190965,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312063",
+        "url": "https://www.ticketliquidator.com/tickets/8312063/Def-Leppard-tickets-Wed-Mar-17-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vP88GA16Tl3",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312063"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312063",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312063/Def-Leppard-tickets-Wed-Mar-17-2027-TD-Garden"
   },
   {
     "id": "tm-def-leppard-2027-nashville-g5viz_f9p6_vj",
@@ -190955,13 +191035,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312064",
+        "url": "https://www.ticketliquidator.com/tickets/8312064/Def-Leppard-tickets-Fri-Mar-19-2027-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f9P6_Vj",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312064"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312064",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312064/Def-Leppard-tickets-Fri-Mar-19-2027-Bridgestone-Arena"
   },
   {
     "id": "tm-def-leppard-2027-washington-17a8v0g62pvh_yy",
@@ -191017,13 +191105,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312065",
+        "url": "https://www.ticketliquidator.com/tickets/8312065/Def-Leppard-tickets-Sun-Mar-21-2027-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G62pVh_yy",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312065"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312065",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312065/Def-Leppard-tickets-Sun-Mar-21-2027-Capital-One-Arena"
   },
   {
     "id": "tm-def-leppard-2027-pittsburgh-1apzk4egkdr8ult",
@@ -191079,13 +191175,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312066",
+        "url": "https://www.ticketliquidator.com/tickets/8312066/Def-Leppard-tickets-Tue-Mar-23-2027-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZk4eGkdr8ult",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312066"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312066",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312066/Def-Leppard-tickets-Tue-Mar-23-2027-PPG-Paints-Arena"
   },
   {
     "id": "tm-def-leppard-2027-chicago-vv1k8z_fgkg7dl8f",
@@ -191141,13 +191245,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312067",
+        "url": "https://www.ticketliquidator.com/tickets/8312067/Def-Leppard-tickets-Thu-Mar-25-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k8Z_fGKG7DL8f",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312067"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312067",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312067/Def-Leppard-tickets-Thu-Mar-25-2027-United-Center"
   },
   {
     "id": "tm-def-leppard-2027-denver-g5vzz_frfov07",
@@ -191203,13 +191315,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312069",
+        "url": "https://www.ticketliquidator.com/tickets/8312069/Def-Leppard-tickets-Mon-Mar-29-2027-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_frFoV07",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-10-16T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312069"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312069",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312069/Def-Leppard-tickets-Mon-Mar-29-2027-Ball-Arena"
   },
   {
     "id": "tm-def-leppard-2027-austin-g5diz_f1_s12h",
@@ -191265,13 +191385,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312071",
+        "url": "https://www.ticketliquidator.com/tickets/8312071/Def-Leppard-tickets-Tue-Apr-13-2027-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_f1_s12h",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312071"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312071",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312071/Def-Leppard-tickets-Tue-Apr-13-2027-Moody-Center-ATX"
   },
   {
     "id": "tm-def-leppard-2027-north-little-rock-g5viz_f5gacpb",
@@ -191327,13 +191455,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312072",
+        "url": "https://www.ticketliquidator.com/tickets/8312072/Def-Leppard-tickets-Fri-Apr-16-2027-Simmons-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f5GaCpb",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312072"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312072",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312072/Def-Leppard-tickets-Fri-Apr-16-2027-Simmons-Bank-Arena"
   },
   {
     "id": "tm-def-leppard-2027-fort-worth-vvg1yz_fhfmaat",
@@ -191389,13 +191525,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312073",
+        "url": "https://www.ticketliquidator.com/tickets/8312073/Def-Leppard-tickets-Sun-Apr-18-2027-Dickies-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_fhfmaat",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312073"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312073",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312073/Def-Leppard-tickets-Sun-Apr-18-2027-Dickies-Arena"
   },
   {
     "id": "tm-def-leppard-2027-mobile-g5viz_fptcweu",
@@ -191451,13 +191595,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312074",
+        "url": "https://www.ticketliquidator.com/tickets/8312074/Def-Leppard-tickets-Tue-Apr-20-2027-Regions-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_fpTCweU",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312074"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312074",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312074/Def-Leppard-tickets-Tue-Apr-20-2027-Regions-Arena"
   },
   {
     "id": "tm-def-leppard-2027-wichita-vv1akzk4kgkexoysl",
@@ -191513,13 +191665,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312075",
+        "url": "https://www.ticketliquidator.com/tickets/8312075/Def-Leppard-tickets-Thu-Apr-22-2027-INTRUST-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4kGkexOySL",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312075"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312075",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312075/Def-Leppard-tickets-Thu-Apr-22-2027-INTRUST-Bank-Arena"
   },
   {
     "id": "tm-def-leppard-2027-lincoln-vv1akzk4vgkel3utc",
@@ -191575,13 +191735,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312076",
+        "url": "https://www.ticketliquidator.com/tickets/8312076/Def-Leppard-tickets-Sat-Apr-24-2027-Pinnacle-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4vGkel3uTC",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312076"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312076",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312076/Def-Leppard-tickets-Sat-Apr-24-2027-Pinnacle-Bank-Arena"
   },
   {
     "id": "tm-def-leppard-2027-glendale-1kk8vp8bga1l7cc",
@@ -191637,13 +191805,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312078",
+        "url": "https://www.ticketliquidator.com/tickets/8312078/Def-Leppard-tickets-Thu-Apr-29-2027-Desert-Diamond-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8vP8bGA1L7Cc",
     "timezone": "America/Phoenix",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312078"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312078",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312078/Def-Leppard-tickets-Thu-Apr-29-2027-Desert-Diamond-Arena"
   },
   {
     "id": "tm-def-leppard-2027-hollywood-vvg1iz_f7e8nik",
@@ -191699,13 +191875,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312079",
+        "url": "https://www.ticketliquidator.com/tickets/8312079/Def-Leppard-tickets-Sat-May-1-2027-Hollywood-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_f7e8nIK",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312079"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312079",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312079/Def-Leppard-tickets-Sat-May-1-2027-Hollywood-Bowl"
   },
   {
     "id": "tm-def-leppard-2027-san-francisco-g5vyz_f5oof-x",
@@ -191761,13 +191945,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312080",
+        "url": "https://www.ticketliquidator.com/tickets/8312080/Def-Leppard-tickets-Wed-May-5-2027-Chase-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_f5OoF-X",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312080"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312080",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312080/Def-Leppard-tickets-Wed-May-5-2027-Chase-Center"
   },
   {
     "id": "tm-def-leppard-2027-sacramento-g5vyz_f5hdkto",
@@ -191823,13 +192015,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312081",
+        "url": "https://www.ticketliquidator.com/tickets/8312081/Def-Leppard-tickets-Fri-May-7-2027-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_f5hdkto",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312081"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312081",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312081/Def-Leppard-tickets-Fri-May-7-2027-Golden-1-Center"
   },
   {
     "id": "tm-def-leppard-2027-seattle-vvg1hz_f1kfpyl",
@@ -191885,13 +192085,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312082",
+        "url": "https://www.ticketliquidator.com/tickets/8312082/Def-Leppard-tickets-Sun-May-9-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_f1KfPyL",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312082"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312082",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312082/Def-Leppard-tickets-Sun-May-9-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-def-leppard-2027-vancouver-1aozk4agkddzaes",
@@ -191947,13 +192155,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312105",
+        "url": "https://www.ticketliquidator.com/tickets/8312105/Def-Leppard-tickets-Fri-May-14-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4AGkddzaes",
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312105"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312105",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312105/Def-Leppard-tickets-Fri-May-14-2027-Rogers-Arena"
   },
   {
     "id": "tm-def-leppard-2027-edmonton-1k78vpoiga55fiz",
@@ -192009,13 +192225,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312106",
+        "url": "https://www.ticketliquidator.com/tickets/8312106/Def-Leppard-tickets-Sun-May-16-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPoIGA55fiZ",
     "timezone": "America/Edmonton",
     "status": "announced",
     "public_onsale_at": "2026-10-16T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312106"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312106",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312106/Def-Leppard-tickets-Sun-May-16-2027-Rogers-Place"
   },
   {
     "id": "tm-def-leppard-2027-san-antonio-g5diz_fqmcwez",
@@ -192071,13 +192295,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312084",
+        "url": "https://www.ticketliquidator.com/tickets/8312084/Def-Leppard-tickets-Sat-May-29-2027-Frost-Bank-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fQMCWEZ",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312084"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312084",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312084/Def-Leppard-tickets-Sat-May-29-2027-Frost-Bank-Center"
   },
   {
     "id": "tm-def-leppard-2027-oklahoma-city-vvg1yz_fkymbmf",
@@ -192133,13 +192365,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312086",
+        "url": "https://www.ticketliquidator.com/tickets/8312086/Def-Leppard-tickets-Thu-Jun-3-2027-Paycom-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_fkymBmF",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312086"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312086",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312086/Def-Leppard-tickets-Thu-Jun-3-2027-Paycom-Center"
   },
   {
     "id": "tm-def-leppard-2027-milwaukee-vv1a6zk4kgkd_k6yp",
@@ -192195,13 +192435,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312087",
+        "url": "https://www.ticketliquidator.com/tickets/8312087/Def-Leppard-tickets-Sat-Jun-5-2027-Fiserv-Forum",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk4kGkd_k6yp",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312087"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312087",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312087/Def-Leppard-tickets-Sat-Jun-5-2027-Fiserv-Forum"
   },
   {
     "id": "tm-def-leppard-2027-saint-louis-vv1kvovp8tga1iyft",
@@ -192311,13 +192559,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312089",
+        "url": "https://www.ticketliquidator.com/tickets/8312089/Def-Leppard-tickets-Wed-Jun-9-2027-KFC-Yum-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAOvPoIGA1ISpc",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312089"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312089",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312089/Def-Leppard-tickets-Wed-Jun-9-2027-KFC-Yum-Center"
   },
   {
     "id": "tm-def-leppard-2027-savannah-vvg1zz_fqp5bwn",
@@ -192373,13 +192629,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312090",
+        "url": "https://www.ticketliquidator.com/tickets/8312090/Def-Leppard-tickets-Fri-Jun-11-2027-Enmarket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_fQp5bwN",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312090"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312090",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312090/Def-Leppard-tickets-Fri-Jun-11-2027-Enmarket-Arena"
   },
   {
     "id": "tm-def-leppard-2027-tampa-vvg1vz_fpw01di",
@@ -192435,13 +192699,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312091",
+        "url": "https://www.ticketliquidator.com/tickets/8312091/Def-Leppard-tickets-Sun-Jun-13-2027-Benchmark-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fpW01dI",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312091"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312091",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312091/Def-Leppard-tickets-Sun-Jun-13-2027-Benchmark-International-Arena"
   },
   {
     "id": "tm-def-leppard-2027-atlanta-vvg1zz_fpttjci",
@@ -192497,13 +192769,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312092",
+        "url": "https://www.ticketliquidator.com/tickets/8312092/Def-Leppard-tickets-Thu-Jun-17-2027-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_fpTTjCi",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312092"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312092",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312092/Def-Leppard-tickets-Thu-Jun-17-2027-State-Farm-Arena-GA"
   },
   {
     "id": "tm-def-leppard-2027-columbus-vv1aazk4kgkdpgu4v",
@@ -192559,13 +192839,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312093",
+        "url": "https://www.ticketliquidator.com/tickets/8312093/Def-Leppard-tickets-Sat-Jun-19-2027-Value-City-Arena-at-The-Schottenstein-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4kGkdPgu4v",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312093"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312093",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312093/Def-Leppard-tickets-Sat-Jun-19-2027-Value-City-Arena-at-The-Schottenstein-Center"
   },
   {
     "id": "tm-def-leppard-2027-new-york-g5diz_fkxvp6l",
@@ -192621,13 +192909,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312095",
+        "url": "https://www.ticketliquidator.com/tickets/8312095/Def-Leppard-tickets-Wed-Jun-23-2027-Madison-Square-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_fKxvP6L",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312095"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312095",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312095/Def-Leppard-tickets-Wed-Jun-23-2027-Madison-Square-Garden"
   },
   {
     "id": "tm-def-leppard-2027-uncasville-g5vvz_fbgzjmo",
@@ -192683,13 +192979,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312096",
+        "url": "https://www.ticketliquidator.com/tickets/8312096/Def-Leppard-tickets-Fri-Jun-25-2027-Mohegan-Sun-Arena-CT",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_fbGZJmO",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312096"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312096",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312096/Def-Leppard-tickets-Fri-Jun-25-2027-Mohegan-Sun-Arena-CT"
   },
   {
     "id": "tm-def-leppard-2027-philadelphia-1ayzk4agkeprd7q",
@@ -192745,13 +193049,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312097",
+        "url": "https://www.ticketliquidator.com/tickets/8312097/Def-Leppard-tickets-Sun-Jun-27-2027-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4AGkePRd7Q",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312097"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312097",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312097/Def-Leppard-tickets-Sun-Jun-27-2027-Xfinity-Mobile-Arena"
   },
   {
     "id": "tm-def-leppard-2027-charlotte-g5evz_fps2umn",
@@ -192807,13 +193119,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312098",
+        "url": "https://www.ticketliquidator.com/tickets/8312098/Def-Leppard-tickets-Wed-Jun-30-2027-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fpS2umN",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312098"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312098",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312098/Def-Leppard-tickets-Wed-Jun-30-2027-Spectrum-Center"
   },
   {
     "id": "tm-def-leppard-2027-indianapolis-vv1kv8vp8_ga1mpgy",
@@ -192869,13 +193189,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312099",
+        "url": "https://www.ticketliquidator.com/tickets/8312099/Def-Leppard-tickets-Fri-Jul-2-2027-Gainbridge-Fieldhouse",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vP8_GA1mPgy",
     "timezone": "America/Indiana/Indianapolis",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312099"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312099",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312099/Def-Leppard-tickets-Fri-Jul-2-2027-Gainbridge-Fieldhouse"
   },
   {
     "id": "tm-nickelback-2026-durant-vvg1yz_3xvgs07",
@@ -192984,13 +193312,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314930",
+        "url": "https://www.ticketliquidator.com/tickets/8314930/Nickelback-tickets-Sat-Feb-6-2027-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZk4AGkeNjP68",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314930"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314930",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314930/Nickelback-tickets-Sat-Feb-6-2027-PPG-Paints-Arena"
   },
   {
     "id": "tm-nickelback-2027-allentown-15dzz_frakkqv",
@@ -193046,13 +193382,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314931",
+        "url": "https://www.ticketliquidator.com/tickets/8314931/Nickelback-tickets-Mon-Feb-8-2027-PPL-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "15dZZ_frakKqv",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314931"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314931",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314931/Nickelback-tickets-Mon-Feb-8-2027-PPL-Center"
   },
   {
     "id": "tm-nickelback-2027-grand-rapids-vv1afzk4agkd4fpse",
@@ -193108,13 +193452,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314932",
+        "url": "https://www.ticketliquidator.com/tickets/8314932/Nickelback-tickets-Wed-Feb-10-2027-Van-Andel-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4AGkd4fPSe",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314932"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314932",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314932/Nickelback-tickets-Wed-Feb-10-2027-Van-Andel-Arena"
   },
   {
     "id": "tm-nickelback-2027-columbus-vv1aazk4agkduqw0h",
@@ -193170,13 +193522,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314934",
+        "url": "https://www.ticketliquidator.com/tickets/8314934/Nickelback-tickets-Sat-Feb-13-2027-Value-City-Arena-at-The-Schottenstein-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4AGkdUQW0h",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314934"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314934",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314934/Nickelback-tickets-Sat-Feb-13-2027-Value-City-Arena-at-The-Schottenstein-Center"
   },
   {
     "id": "tm-nickelback-2027-indianapolis-vv1aazk4agkdzn6zd",
@@ -193232,13 +193592,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314935",
+        "url": "https://www.ticketliquidator.com/tickets/8314935/Nickelback-tickets-Tue-Feb-16-2027-Gainbridge-Fieldhouse",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4AGkdZN6zD",
     "timezone": "America/Indiana/Indianapolis",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314935"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314935",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314935/Nickelback-tickets-Tue-Feb-16-2027-Gainbridge-Fieldhouse"
   },
   {
     "id": "tm-nickelback-2027-chicago-vv1a7zk4agkexo6el",
@@ -193294,13 +193662,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314936",
+        "url": "https://www.ticketliquidator.com/tickets/8314936/Nickelback-tickets-Thu-Feb-18-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4AGkexO6EL",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314936"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314936",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314936/Nickelback-tickets-Thu-Feb-18-2027-United-Center"
   },
   {
     "id": "tm-nickelback-2027-saint-louis-vv1akzk4kgkdiwpu8",
@@ -193410,13 +193786,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314938",
+        "url": "https://www.ticketliquidator.com/tickets/8314938/Nickelback-tickets-Sun-Feb-21-2027-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_frYA27y",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314938"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314938",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314938/Nickelback-tickets-Sun-Feb-21-2027-Bridgestone-Arena"
   },
   {
     "id": "tm-nickelback-2027-knoxville-g5viz_f9kxnbt",
@@ -193472,13 +193856,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314939",
+        "url": "https://www.ticketliquidator.com/tickets/8314939/Nickelback-tickets-Wed-Feb-24-2027-Thompson-Boling-Arena-at-Food-City-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f9kxNbT",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314939"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314939",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314939/Nickelback-tickets-Wed-Feb-24-2027-Thompson-Boling-Arena-at-Food-City-Center"
   },
   {
     "id": "tm-nickelback-2027-hollywood-vvg1vz_fpmhiza",
@@ -193534,13 +193926,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314940",
+        "url": "https://www.ticketliquidator.com/tickets/8314940/Nickelback-tickets-Fri-Feb-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fpmHIZA",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314940"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314940",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314940/Nickelback-tickets-Fri-Feb-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
   },
   {
     "id": "tm-nickelback-2027-atlanta-vvg1zz_f9i_ugh",
@@ -193596,13 +193996,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314941",
+        "url": "https://www.ticketliquidator.com/tickets/8314941/Nickelback-tickets-Tue-Mar-2-2027-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_f9I_UgH",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314941"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314941",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314941/Nickelback-tickets-Tue-Mar-2-2027-State-Farm-Arena-GA"
   },
   {
     "id": "tm-nickelback-2027-raleigh-g5evz_fh5odfi",
@@ -193658,13 +194066,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314942",
+        "url": "https://www.ticketliquidator.com/tickets/8314942/Nickelback-tickets-Thu-Mar-4-2027-Lenovo-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fh5OdFi",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314942"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314942",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314942/Nickelback-tickets-Thu-Mar-4-2027-Lenovo-Center"
   },
   {
     "id": "tm-nickelback-2027-newark-vv1kfz_fj7g7twmf",
@@ -193720,13 +194136,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314943",
+        "url": "https://www.ticketliquidator.com/tickets/8314943/Nickelback-tickets-Sat-Mar-6-2027-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kFZ_fj7G7Twmf",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314943"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314943",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314943/Nickelback-tickets-Sat-Mar-6-2027-Prudential-Center"
   },
   {
     "id": "tm-nickelback-2027-washington-16vfz_ffeg7mdpa",
@@ -193782,13 +194206,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314944",
+        "url": "https://www.ticketliquidator.com/tickets/8314944/Nickelback-tickets-Mon-Mar-8-2027-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vfZ_fFEG7mdpA",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314944"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314944",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314944/Nickelback-tickets-Mon-Mar-8-2027-Capital-One-Arena"
   },
   {
     "id": "tm-nickelback-2027-boston-vv1avzk4egkdzjayi",
@@ -193844,13 +194276,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314945",
+        "url": "https://www.ticketliquidator.com/tickets/8314945/Nickelback-tickets-Wed-Mar-10-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4eGkdzjaYi",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314945"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314945",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314945/Nickelback-tickets-Wed-Mar-10-2027-TD-Garden"
   },
   {
     "id": "tm-nickelback-2027-montreal-15d7z_fqpa0kk",
@@ -193906,13 +194346,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314962",
+        "url": "https://www.ticketliquidator.com/tickets/8314962/Nickelback-tickets-Fri-Mar-12-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "15d7Z_fQpA0kK",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314962"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314962",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314962/Nickelback-tickets-Fri-Mar-12-2027-Centre-Bell"
   },
   {
     "id": "tm-nickelback-2027-hamilton-1a8zk4axofsze2g",
@@ -194076,13 +194524,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314946",
+        "url": "https://www.ticketliquidator.com/tickets/8314946/Nickelback-tickets-Wed-Mar-24-2027-KeyBank-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_frUEE-y",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314946"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314946",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314946/Nickelback-tickets-Wed-Mar-24-2027-KeyBank-Center"
   },
   {
     "id": "tm-nickelback-2027-detroit-vv1afzk46gkdogect",
@@ -194138,13 +194594,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314947",
+        "url": "https://www.ticketliquidator.com/tickets/8314947/Nickelback-tickets-Fri-Mar-26-2027-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk46GkdOGEcT",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314947"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314947",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314947/Nickelback-tickets-Fri-Mar-26-2027-Little-Caesars-Arena"
   },
   {
     "id": "tm-nickelback-2027-milwaukee-vv1a6zk4agkd7raaf",
@@ -194200,13 +194664,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314948",
+        "url": "https://www.ticketliquidator.com/tickets/8314948/Nickelback-tickets-Sat-Mar-27-2027-Fiserv-Forum",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk4AGkd7RAAf",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314948"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314948",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314948/Nickelback-tickets-Sat-Mar-27-2027-Fiserv-Forum"
   },
   {
     "id": "tm-nickelback-2027-saskatoon-16v7z_ff7g7wwtw",
@@ -194262,13 +194734,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314965",
+        "url": "https://www.ticketliquidator.com/tickets/8314965/Nickelback-tickets-Fri-Apr-2-2027-SaskTel-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v7Z_ff7G7wWtw",
     "timezone": "America/Swift_Current",
     "status": "announced",
     "public_onsale_at": "2026-10-16T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314965"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314965",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314965/Nickelback-tickets-Fri-Apr-2-2027-SaskTel-Centre"
   },
   {
     "id": "tm-nickelback-2027-edmonton-1f78vpoopnz72877",
@@ -194324,13 +194804,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314966",
+        "url": "https://www.ticketliquidator.com/tickets/8314966/Nickelback-tickets-Sat-Apr-3-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1F78vPooPNZ72877",
     "timezone": "America/Edmonton",
     "status": "announced",
     "public_onsale_at": "2026-10-16T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314966"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314966",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314966/Nickelback-tickets-Sat-Apr-3-2027-Rogers-Place"
   },
   {
     "id": "tm-nickelback-2027-calgary-1aozk4kgkd_yj0d",
@@ -194386,13 +194874,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314968",
+        "url": "https://www.ticketliquidator.com/tickets/8314968/Nickelback-tickets-Tue-Apr-6-2027-Scotiabank-Saddledome",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4kGkd_Yj0d",
     "timezone": "America/Edmonton",
     "status": "announced",
     "public_onsale_at": "2026-10-16T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314968"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314968",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314968/Nickelback-tickets-Tue-Apr-6-2027-Scotiabank-Saddledome"
   },
   {
     "id": "tm-nickelback-2027-vancouver-1aozk4agkdpx1_p",
@@ -194448,13 +194944,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314969",
+        "url": "https://www.ticketliquidator.com/tickets/8314969/Nickelback-tickets-Fri-Apr-9-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4AGkdpX1_P",
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314969"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314969",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314969/Nickelback-tickets-Fri-Apr-9-2027-Rogers-Arena"
   },
   {
     "id": "tm-nickelback-2027-seattle-vvg1hz_f5mpsjc",
@@ -194510,13 +195014,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314951",
+        "url": "https://www.ticketliquidator.com/tickets/8314951/Nickelback-tickets-Sat-Apr-10-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_f5MpSJC",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314951"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314951",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314951/Nickelback-tickets-Sat-Apr-10-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-nickelback-2027-sacramento-g5vyz_f9d-9xg",
@@ -194572,13 +195084,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314952",
+        "url": "https://www.ticketliquidator.com/tickets/8314952/Nickelback-tickets-Tue-Apr-13-2027-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_f9d-9xG",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314952"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314952",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314952/Nickelback-tickets-Tue-Apr-13-2027-Golden-1-Center"
   },
   {
     "id": "tm-nickelback-2027-anaheim-vv1aazk4kgkeh-rr7",
@@ -194634,13 +195154,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314954",
+        "url": "https://www.ticketliquidator.com/tickets/8314954/Nickelback-tickets-Sun-Apr-18-2027-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4kGkeH-rr7",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314954"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314954",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314954/Nickelback-tickets-Sun-Apr-18-2027-Honda-Center"
   },
   {
     "id": "tm-nickelback-2027-phoenix-1a_zk4kgkd7q1b3",
@@ -194696,13 +195224,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314956",
+        "url": "https://www.ticketliquidator.com/tickets/8314956/Nickelback-tickets-Tue-Apr-20-2027-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk4kGkd7Q1b3",
     "timezone": "America/Phoenix",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314956"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314956",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314956/Nickelback-tickets-Tue-Apr-20-2027-Mortgage-Matchup-Center"
   },
   {
     "id": "tm-nickelback-2027-denver-g5vzz_fpgv_um",
@@ -194758,13 +195294,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314958",
+        "url": "https://www.ticketliquidator.com/tickets/8314958/Nickelback-tickets-Sat-Apr-24-2027-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fpgv_UM",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-10-16T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314958"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314958",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314958/Nickelback-tickets-Sat-Apr-24-2027-Ball-Arena"
   },
   {
     "id": "tm-nickelback-2027-dallas-vvg1yz_f9cwbxt",
@@ -194820,13 +195364,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314959",
+        "url": "https://www.ticketliquidator.com/tickets/8314959/Nickelback-tickets-Tue-Apr-27-2027-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f9CWbxT",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314959"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314959",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314959/Nickelback-tickets-Tue-Apr-27-2027-American-Airlines-Center"
   },
   {
     "id": "tm-nickelback-2027-san-antonio-g5diz_fruim0m",
@@ -194882,13 +195434,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314961",
+        "url": "https://www.ticketliquidator.com/tickets/8314961/Nickelback-tickets-Sat-May-1-2027-Frost-Bank-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fruiM0m",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314961"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314961",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314961/Nickelback-tickets-Sat-May-1-2027-Frost-Bank-Center"
   },
   {
     "id": "tm-nickelback-2027-leeds-g5vhz_flmspew",
@@ -195052,13 +195612,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314975",
+        "url": "https://www.ticketliquidator.com/tickets/8314975/Nickelback-tickets-Fri-May-28-2027-Utilita-Arena-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kFYvP3_GAGcOMU",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-16T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314975"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314975",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314975/Nickelback-tickets-Fri-May-28-2027-Utilita-Arena-Birmingham"
   },
   {
     "id": "tm-nickelback-2027-dublin-1abzkfmgkepnjt6",
@@ -195114,13 +195682,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314976",
+        "url": "https://www.ticketliquidator.com/tickets/8314976/Nickelback-tickets-Sun-May-30-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZkfMGkePnjt6",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-16T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314976"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314976",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314976/Nickelback-tickets-Sun-May-30-2027-3Arena-Dublin"
   },
   {
     "id": "tm-nickelback-2027-glasgow-1auzk46gkexekqz",
@@ -195176,13 +195752,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314978",
+        "url": "https://www.ticketliquidator.com/tickets/8314978/Nickelback-tickets-Tue-Jun-1-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZk46GkeXEkqZ",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-16T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314978"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314978",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314978/Nickelback-tickets-Tue-Jun-1-2027-OVO-Hydro"
   },
   {
     "id": "tm-nickelback-2027-manchester-1amzk46gkdgpim1",
@@ -195238,13 +195822,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314791",
+        "url": "https://www.ticketliquidator.com/tickets/8314791/Nickelback-tickets-Wed-Jun-2-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk46GkdGpIM1",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-16T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314791"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314791",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314791/Nickelback-tickets-Wed-Jun-2-2027-Co-Op-Live"
   },
   {
     "id": "tm-nickelback-2027-forest-brussels-z698xzg2z1kppuzf3",
@@ -195354,13 +195946,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314980",
+        "url": "https://www.ticketliquidator.com/tickets/8314980/Nickelback-tickets-Mon-Jun-7-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k-Uqgjg",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
     "public_onsale_at": "2026-10-16T08:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314980"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314980",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314980/Nickelback-tickets-Mon-Jun-7-2027-Ziggo-Dome"
   },
   {
     "id": "tm-nickelback-2027-hannover-z698xzc2z16v-v0tgv",
@@ -195416,13 +196016,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314982",
+        "url": "https://www.ticketliquidator.com/tickets/8314982/Nickelback-tickets-Fri-Jun-11-2027-ZAG-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v-V0tGv",
     "timezone": "Europe/Berlin",
     "status": "announced",
     "public_onsale_at": "2026-10-16T08:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314982"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314982",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314982/Nickelback-tickets-Fri-Jun-11-2027-ZAG-Arena"
   },
   {
     "id": "tm-nickelback-2027-munich-z698xzc2z1k-kk3-_",
@@ -195478,13 +196086,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314985",
+        "url": "https://www.ticketliquidator.com/tickets/8314985/Nickelback-tickets-Sat-Jun-19-2027-Kleine-Olympiahalle-Munich",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k-Kk3-_",
     "timezone": "Europe/Berlin",
     "status": "announced",
     "public_onsale_at": "2026-10-16T08:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314985"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314985",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314985/Nickelback-tickets-Sat-Jun-19-2027-Kleine-Olympiahalle-Munich"
   },
   {
     "id": "tm-nickelback-2027-assago-zg9rmiynyza161",
@@ -195913,12 +196529,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307352",
+        "url": "https://www.ticketliquidator.com/tickets/8307352/Jay-Wheeler-tickets-Thu-Mar-11-2027-Kaseya-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_f7_l-6l",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307352"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307352",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307352/Jay-Wheeler-tickets-Thu-Mar-11-2027-Kaseya-Center"
   },
   {
     "id": "tm-jay-wheeler-2027-atlanta-vvg1zz_f288dbv",
@@ -195974,12 +196598,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307353",
+        "url": "https://www.ticketliquidator.com/tickets/8307353/Jay-Wheeler-tickets-Fri-Mar-12-2027-Coca-Cola-Roxy",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_f288dBV",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307353"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307353",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307353/Jay-Wheeler-tickets-Fri-Mar-12-2027-Coca-Cola-Roxy"
   },
   {
     "id": "tm-jay-wheeler-2027-charlotte-g5evz_f75dxcp",
@@ -196035,12 +196667,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307354",
+        "url": "https://www.ticketliquidator.com/tickets/8307354/Jay-Wheeler-tickets-Sun-Mar-14-2027-Ovens-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_f75DXcP",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307354"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307354",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307354/Jay-Wheeler-tickets-Sun-Mar-14-2027-Ovens-Auditorium"
   },
   {
     "id": "tm-jay-wheeler-2027-washington-1a4zk4egkd30m3a",
@@ -196096,12 +196736,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307355",
+        "url": "https://www.ticketliquidator.com/tickets/8307355/Jay-Wheeler-tickets-Thu-Mar-18-2027-DAR-Constitution-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk4eGkd30M3a",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307355"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307355",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307355/Jay-Wheeler-tickets-Thu-Mar-18-2027-DAR-Constitution-Hall"
   },
   {
     "id": "tm-jay-wheeler-2027-atlantic-city-vv1aezk4vgkduqubi",
@@ -196157,12 +196805,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307356",
+        "url": "https://www.ticketliquidator.com/tickets/8307356/Jay-Wheeler-tickets-Fri-Mar-19-2027-Hard-Rock-Live-At-Etess-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4vGkduQuBi",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307356"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307356",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307356/Jay-Wheeler-tickets-Fri-Mar-19-2027-Hard-Rock-Live-At-Etess-Arena"
   },
   {
     "id": "tm-jay-wheeler-2027-mashantucket-g5vvz_fp_melk",
@@ -196271,12 +196927,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307360",
+        "url": "https://www.ticketliquidator.com/tickets/8307360/Jay-Wheeler-tickets-Wed-Mar-24-2027-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4vGkeBXENn",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307360"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307360",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307360/Jay-Wheeler-tickets-Wed-Mar-24-2027-Barclays-Center"
   },
   {
     "id": "tm-jay-wheeler-2027-reading-vv17fz_kgkblt_5x",
@@ -196385,12 +197049,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8309790",
+        "url": "https://www.ticketliquidator.com/tickets/8309790/Jay-Wheeler-tickets-Sat-Mar-27-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4AGkeJXnEm",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8309790"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8309790",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8309790/Jay-Wheeler-tickets-Sat-Mar-27-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-jay-wheeler-2027-rosemont-vv178z_kgkbjdkxl",
@@ -196446,12 +197118,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307363",
+        "url": "https://www.ticketliquidator.com/tickets/8307363/Jay-Wheeler-tickets-Fri-Apr-2-2027-Rosemont-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_KGkBjdkXl",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307363"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307363",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307363/Jay-Wheeler-tickets-Fri-Apr-2-2027-Rosemont-Theatre"
   },
   {
     "id": "tm-jay-wheeler-2027-denver-g5vzz_f20_jhu",
@@ -196560,12 +197240,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307366",
+        "url": "https://www.ticketliquidator.com/tickets/8307366/Jay-Wheeler-tickets-Tue-Apr-6-2027-The-Pavilion-at-Toyota-Music-Factory",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f8NrwS_",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307366"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307366",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307366/Jay-Wheeler-tickets-Tue-Apr-6-2027-The-Pavilion-at-Toyota-Music-Factory"
   },
   {
     "id": "tm-jay-wheeler-2027-houston-g5diz_f62ij1f",
@@ -196621,12 +197309,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307367",
+        "url": "https://www.ticketliquidator.com/tickets/8307367/Jay-Wheeler-tickets-Wed-Apr-7-2027-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_f62IJ1f",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307367"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307367",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307367/Jay-Wheeler-tickets-Wed-Apr-7-2027-713-Music-Hall"
   },
   {
     "id": "tm-jay-wheeler-2027-inglewood-vvg1iz_f8af9cn",
@@ -196682,13 +197378,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307369",
+        "url": "https://www.ticketliquidator.com/tickets/8307369/Jay-Wheeler-tickets-Sat-Apr-10-2027-YouTube-Theater-at-Hollywood-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_f8Af9cn",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-09T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307369"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307369",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307369/Jay-Wheeler-tickets-Sat-Apr-10-2027-YouTube-Theater-at-Hollywood-Park"
   },
   {
     "id": "tm-jay-wheeler-2027-orlando-1axzk4vgkd6tfj5",
@@ -196744,12 +197448,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307371",
+        "url": "https://www.ticketliquidator.com/tickets/8307371/Jay-Wheeler-tickets-Thu-Apr-15-2027-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4vGkd6TfJ5",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307371"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307371",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307371/Jay-Wheeler-tickets-Thu-Apr-15-2027-Kia-Center"
   },
   {
     "id": "tm-mico-2026-seattle-z7r9jz1a70u7s",
@@ -196805,12 +197517,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977875",
+        "url": "https://www.ticketliquidator.com/tickets/7977875/Mico-tickets-Sat-Oct-10-2026-The-Showbox",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70U7S",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977875"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977875",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977875/Mico-tickets-Sat-Oct-10-2026-The-Showbox"
   },
   {
     "id": "tm-mico-2026-portland-z7r9jz1a70i8e",
@@ -196866,12 +197586,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7978069",
+        "url": "https://www.ticketliquidator.com/tickets/7978069/Mico-tickets-Sun-Oct-11-2026-Wonder-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70I8E",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978069"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978069",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978069/Mico-tickets-Sun-Oct-11-2026-Wonder-Ballroom"
   },
   {
     "id": "tm-mico-2026-san-francisco-z7r9jz1a70i80",
@@ -196927,12 +197655,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977876",
+        "url": "https://www.ticketliquidator.com/tickets/7977876/Mico-tickets-Tue-Oct-13-2026-The-Regency-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70I80",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977876"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977876",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977876/Mico-tickets-Tue-Oct-13-2026-The-Regency-Ballroom"
   },
   {
     "id": "tm-mico-2026-los-angeles-z7r9jz1a70uao",
@@ -196988,12 +197724,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977877",
+        "url": "https://www.ticketliquidator.com/tickets/7977877/Mico-tickets-Thu-Oct-15-2026-The-Fonda-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70UAO",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977877"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977877",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977877/Mico-tickets-Thu-Oct-15-2026-The-Fonda-Theatre"
   },
   {
     "id": "tm-mico-2026-los-angeles-z7r9jz1a70ua4",
@@ -197049,12 +197793,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8005895",
+        "url": "https://www.ticketliquidator.com/tickets/8005895/Mico-tickets-Fri-Oct-16-2026-The-Fonda-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70UA4",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8005895"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8005895",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8005895/Mico-tickets-Fri-Oct-16-2026-The-Fonda-Theatre"
   },
   {
     "id": "tm-mico-2026-las-vegas-17ayv0g61m2w1ya",
@@ -197110,12 +197862,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977760",
+        "url": "https://www.ticketliquidator.com/tickets/7977760/Mico-tickets-Sat-Oct-17-2026-House-Of-Blues-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G61M2W1Ya",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977760"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977760",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977760/Mico-tickets-Sat-Oct-17-2026-House-Of-Blues-Las-Vegas"
   },
   {
     "id": "tm-mico-2026-san-diego-vvg1iz_1uivzmh",
@@ -197171,12 +197931,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977763",
+        "url": "https://www.ticketliquidator.com/tickets/7977763/Mico-tickets-Mon-Oct-19-2026-House-Of-Blues-San-Diego",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_1UiVzMh",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977763"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977763",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977763/Mico-tickets-Mon-Oct-19-2026-House-Of-Blues-San-Diego"
   },
   {
     "id": "tm-mico-2026-tucson-z7r9jz1a70ioy",
@@ -197232,12 +198000,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7978070",
+        "url": "https://www.ticketliquidator.com/tickets/7978070/Mico-tickets-Tue-Oct-20-2026-La-Rosa-Tucson",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Ioy",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978070"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978070",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978070/Mico-tickets-Tue-Oct-20-2026-La-Rosa-Tucson"
   },
   {
     "id": "tm-mico-2026-dallas-vvg1yz_1tobhle",
@@ -197293,12 +198069,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977770",
+        "url": "https://www.ticketliquidator.com/tickets/7977770/Mico-tickets-Thu-Oct-22-2026-The-Echo-Lounge-and-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1ToBHlE",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977770"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977770",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977770/Mico-tickets-Thu-Oct-22-2026-The-Echo-Lounge-and-Music-Hall"
   },
   {
     "id": "tm-mico-2026-austin-g5diz_1wd9gll",
@@ -197354,12 +198138,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977765",
+        "url": "https://www.ticketliquidator.com/tickets/7977765/Mico-tickets-Fri-Oct-23-2026-Scoot-Inn",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1wD9GLL",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977765"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977765",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977765/Mico-tickets-Fri-Oct-23-2026-Scoot-Inn"
   },
   {
     "id": "tm-mico-2026-houston-g5diz_1ucylhw",
@@ -197415,12 +198207,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977767",
+        "url": "https://www.ticketliquidator.com/tickets/7977767/Mico-tickets-Sat-Oct-24-2026-White-Oak-Music-Hall-Downstairs",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1UcYlhw",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977767"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977767",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977767/Mico-tickets-Sat-Oct-24-2026-White-Oak-Music-Hall-Downstairs"
   },
   {
     "id": "tm-mico-2026-nashville-g5viz_1mfi-bc",
@@ -197476,12 +198276,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977769",
+        "url": "https://www.ticketliquidator.com/tickets/7977769/Mico-tickets-Mon-Oct-26-2026-Brooklyn-Bowl-Nashville",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_1MfI-bC",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977769"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977769",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977769/Mico-tickets-Mon-Oct-26-2026-Brooklyn-Bowl-Nashville"
   },
   {
     "id": "tm-mico-2026-atlanta-vvg1zz_1d2p0tb",
@@ -197590,12 +198398,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977761",
+        "url": "https://www.ticketliquidator.com/tickets/7977761/Mico-tickets-Thu-Oct-29-2026-930-Club",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61Sa7y8c",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977761"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977761",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977761/Mico-tickets-Thu-Oct-29-2026-930-Club"
   },
   {
     "id": "tm-mico-2026-new-york-z7r9jz1a70u7_",
@@ -197651,12 +198467,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977878",
+        "url": "https://www.ticketliquidator.com/tickets/7977878/Mico-tickets-Fri-Oct-30-2026-Webster-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70U7_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977878"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977878",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977878/Mico-tickets-Fri-Oct-30-2026-Webster-Hall"
   },
   {
     "id": "tm-mico-2026-brooklyn-z7r9jz1a70uez",
@@ -197712,12 +198536,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977870",
+        "url": "https://www.ticketliquidator.com/tickets/7977870/Mico-tickets-Sat-Oct-31-2026-Music-Hall-Of-Williamsburg",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70UeZ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977870"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977870",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977870/Mico-tickets-Sat-Oct-31-2026-Music-Hall-Of-Williamsburg"
   },
   {
     "id": "tm-mico-2026-boston-vvg17z_1mkpkh2",
@@ -197773,12 +198605,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7977758",
+        "url": "https://www.ticketliquidator.com/tickets/7977758/Mico-tickets-Mon-Nov-2-2026-Paradise-Rock-Club-Presented-by-Citizens",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1MkPkH2",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977758"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977758",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977758/Mico-tickets-Mon-Nov-2-2026-Paradise-Rock-Club-Presented-by-Citizens"
   },
   {
     "id": "tm-mico-2026-providence-z7r9jz1a7p0b9",
@@ -197887,12 +198727,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199474",
+        "url": "https://www.ticketliquidator.com/tickets/8199474/Mico-tickets-Thu-Nov-5-2026-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16sZkfk00ZAGk68G",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199474"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199474",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199474/Mico-tickets-Thu-Nov-5-2026-MTelus"
   },
   {
     "id": "tm-mico-2026-toronto-177zv0g61sycnt1",
@@ -198324,13 +199172,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315048",
+        "url": "https://www.ticketliquidator.com/tickets/8315048/Mico-tickets-Sat-Feb-20-2027-The-Underground-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fQQay6K",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315048"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315048",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315048/Mico-tickets-Sat-Feb-20-2027-The-Underground-Charlotte"
   },
   {
     "id": "tm-mico-2027-charleston-g5evz_fxr2vbf",
@@ -198494,13 +199350,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315051",
+        "url": "https://www.ticketliquidator.com/tickets/8315051/Mico-tickets-Fri-Feb-26-2027-Jannus-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fxbU9SQ",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315051"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315051",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315051/Mico-tickets-Fri-Feb-26-2027-Jannus-Live"
   },
   {
     "id": "tm-mico-2027-orlando-16efz_fbzg7m_te",
@@ -198556,13 +199420,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315052",
+        "url": "https://www.ticketliquidator.com/tickets/8315052/Mico-tickets-Sat-Feb-27-2027-House-Of-Blues-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16eFZ_fbZG7M_te",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315052"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315052",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315052/Mico-tickets-Sat-Feb-27-2027-House-Of-Blues-Orlando"
   },
   {
     "id": "tm-mico-2027-birmingham-1aozk4fgkdswfqm",
@@ -198618,13 +199490,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315053",
+        "url": "https://www.ticketliquidator.com/tickets/8315053/Mico-tickets-Mon-Mar-1-2027-Iron-City-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4FGkdSwFqm",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315053"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315053",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315053/Mico-tickets-Mon-Mar-1-2027-Iron-City-Birmingham"
   },
   {
     "id": "tm-mico-2027-new-orleans-g5viz_f97lnal",
@@ -198680,13 +199560,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315055",
+        "url": "https://www.ticketliquidator.com/tickets/8315055/Mico-tickets-Tue-Mar-2-2027-House-Of-Blues-New-Orleans",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f97lNAL",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315055"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315055",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315055/Mico-tickets-Tue-Mar-2-2027-House-Of-Blues-New-Orleans"
   },
   {
     "id": "tm-mico-2027-indianapolis-vv1aazk4kgkenppel",
@@ -198742,13 +199630,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315056",
+        "url": "https://www.ticketliquidator.com/tickets/8315056/Mico-tickets-Tue-Mar-9-2027-The-Deluxe-at-Old-National-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4kGkeNppeL",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315056"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315056",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315056/Mico-tickets-Tue-Mar-9-2027-The-Deluxe-at-Old-National-Centre"
   },
   {
     "id": "tm-mico-2027-cincinnati-1apzk47gkdey9ag",
@@ -199123,12 +200019,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301015",
+        "url": "https://www.ticketliquidator.com/tickets/8301015/Chelsea-Cutler-tickets-Sat-Jan-30-2027-The-Eastern-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_Gf",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301015"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301015",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301015/Chelsea-Cutler-tickets-Sat-Jan-30-2027-The-Eastern-GA"
   },
   {
     "id": "tm-chelsea-cutler-2027-nashville-z7r9jz1aaefb3",
@@ -199184,12 +200088,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301016",
+        "url": "https://www.ticketliquidator.com/tickets/8301016/Chelsea-Cutler-tickets-Wed-Feb-3-2027-Marathon-Music-Works",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAefb3",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301016"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301016",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301016/Chelsea-Cutler-tickets-Wed-Feb-3-2027-Marathon-Music-Works"
   },
   {
     "id": "tm-chelsea-cutler-2027-boston-z7r9jz1aaefp9",
@@ -199298,12 +200210,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301018",
+        "url": "https://www.ticketliquidator.com/tickets/8301018/Chelsea-Cutler-tickets-Sun-Feb-21-2027-Newport-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAef0S",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301018"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301018",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301018/Chelsea-Cutler-tickets-Sun-Feb-21-2027-Newport-Music-Hall"
   },
   {
     "id": "tm-chelsea-cutler-2027-denver-z7r9jz1aae_g4",
@@ -199359,12 +200279,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301019",
+        "url": "https://www.ticketliquidator.com/tickets/8301019/Chelsea-Cutler-tickets-Sun-Feb-28-2027-The-Mission-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_G4",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301019"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301019",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301019/Chelsea-Cutler-tickets-Sun-Feb-28-2027-The-Mission-Ballroom"
   },
   {
     "id": "tm-chelsea-cutler-2027-san-francisco-z7r9jz1aae_gp",
@@ -199420,12 +200348,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301020",
+        "url": "https://www.ticketliquidator.com/tickets/8301020/Chelsea-Cutler-tickets-Sat-Mar-6-2027-The-Midway-CA",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_Gp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301020"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301020",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301020/Chelsea-Cutler-tickets-Sat-Mar-6-2027-The-Midway-CA"
   },
   {
     "id": "tm-chelsea-cutler-2027-salt-lake-city-z7r9jz1aaefp4",
@@ -199534,12 +200470,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301029",
+        "url": "https://www.ticketliquidator.com/tickets/8301029/Chelsea-Cutler-tickets-Fri-Mar-12-2027-Showbox-SoDo",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_G9",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301029"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301029",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301029/Chelsea-Cutler-tickets-Fri-Mar-12-2027-Showbox-SoDo"
   },
   {
     "id": "tm-chelsea-cutler-2027-portland-z7r9jz1aae_gb",
@@ -199595,12 +200539,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8301030",
+        "url": "https://www.ticketliquidator.com/tickets/8301030/Chelsea-Cutler-tickets-Sat-Mar-13-2027-Roseland-Theater",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_Gb",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301030"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301030",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301030/Chelsea-Cutler-tickets-Sat-Mar-13-2027-Roseland-Theater"
   },
   {
     "id": "tm-the-red-clay-strays-2027-jacksonville-z7r9jz1aaef4f",
@@ -199974,12 +200926,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307056",
+        "url": "https://www.ticketliquidator.com/tickets/8307056/Fontaines-DC-tickets-Fri-Sep-24-2027-KEMBA-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAepk6",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307056"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307056",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307056/Fontaines-DC-tickets-Fri-Sep-24-2027-KEMBA-Live"
   },
   {
     "id": "tm-fontaines-d-c-2027-forest-hills-z7r9jz1aaep7g",
@@ -200035,12 +200995,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303817",
+        "url": "https://www.ticketliquidator.com/tickets/8303817/Fontaines-DC-tickets-Tue-Sep-28-2027-Forest-Hills-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAep7g",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303817"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303817",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303817/Fontaines-DC-tickets-Tue-Sep-28-2027-Forest-Hills-Stadium"
   },
   {
     "id": "tm-fontaines-d-c-2027-forest-hills-z7r9jz1aa7v_9",
@@ -200096,12 +201064,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312114",
+        "url": "https://www.ticketliquidator.com/tickets/8312114/Fontaines-DC-tickets-Wed-Sep-29-2027-Forest-Hills-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7v_9",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312114"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312114",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312114/Fontaines-DC-tickets-Wed-Sep-29-2027-Forest-Hills-Stadium"
   },
   {
     "id": "tm-fontaines-d-c-2027-nashville-z7r9jz1aaepkf",
@@ -200210,12 +201186,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303825",
+        "url": "https://www.ticketliquidator.com/tickets/8303825/Fontaines-DC-tickets-Wed-Oct-13-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAepka",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303825"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303825",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303825/Fontaines-DC-tickets-Wed-Oct-13-2027-Red-Rocks-Amphitheatre"
   },
   {
     "id": "tm-staind-2027-spokane-z7r9jz1aae_qs",
@@ -200271,12 +201255,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308780",
+        "url": "https://www.ticketliquidator.com/tickets/8308780/Staind-tickets-Fri-Mar-26-2027-Numerica-Veterans-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_qS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308780"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308780",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308780/Staind-tickets-Fri-Mar-26-2027-Numerica-Veterans-Arena"
   },
   {
     "id": "tm-staind-2027-billings-z7r9jz1aae_qg",
@@ -200332,12 +201324,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308784",
+        "url": "https://www.ticketliquidator.com/tickets/8308784/Staind-tickets-Sat-Apr-3-2027-First-Interstate-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_qg",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308784"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308784",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308784/Staind-tickets-Sat-Apr-3-2027-First-Interstate-Arena"
   },
   {
     "id": "tm-staind-2027-cleveland-z7r9jz1aae_q-",
@@ -200393,12 +201393,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8308792",
+        "url": "https://www.ticketliquidator.com/tickets/8308792/Staind-tickets-Fri-Apr-16-2027-Rocket-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe_q-",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308792"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308792",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8308792/Staind-tickets-Fri-Apr-16-2027-Rocket-Arena"
   },
   {
     "id": "tm-warren-zeiders-2027-kansas-city-z7r9jz1aaeb7w",
@@ -200454,12 +201462,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307502",
+        "url": "https://www.ticketliquidator.com/tickets/8307502/Warren-Zeiders-tickets-Thu-Apr-1-2027-The-Midland-Theatre-MO",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb7w",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307502"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307502",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307502/Warren-Zeiders-tickets-Thu-Apr-1-2027-The-Midland-Theatre-MO"
   },
   {
     "id": "tm-warren-zeiders-2027-fort-worth-z7r9jz1aaeb7s",
@@ -200568,12 +201584,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307508",
+        "url": "https://www.ticketliquidator.com/tickets/8307508/Warren-Zeiders-tickets-Sat-Apr-10-2027-John-T-Floore-Country-Store",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb7V",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307508"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307508",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307508/Warren-Zeiders-tickets-Sat-Apr-10-2027-John-T-Floore-Country-Store"
   },
   {
     "id": "tm-warren-zeiders-2027-louisville-z7r9jz1aaeb7g",
@@ -200622,10 +201646,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307490",
+        "url": "https://www.ticketliquidator.com/tickets/8307490/Warren-Zeiders-tickets-Fri-Apr-16-2027-Old-Foresters-Paristown-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb7g",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307490/Warren-Zeiders-tickets-Fri-Apr-16-2027-Old-Foresters-Paristown-Hall"
   }
 ]

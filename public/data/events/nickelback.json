@@ -106,13 +106,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314930",
+        "url": "https://www.ticketliquidator.com/tickets/8314930/Nickelback-tickets-Sat-Feb-6-2027-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZk4AGkeNjP68",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314930"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314930",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314930/Nickelback-tickets-Sat-Feb-6-2027-PPG-Paints-Arena"
   },
   {
     "id": "tm-nickelback-2027-allentown-15dzz_frakkqv",
@@ -168,13 +176,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314931",
+        "url": "https://www.ticketliquidator.com/tickets/8314931/Nickelback-tickets-Mon-Feb-8-2027-PPL-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "15dZZ_frakKqv",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314931"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314931",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314931/Nickelback-tickets-Mon-Feb-8-2027-PPL-Center"
   },
   {
     "id": "tm-nickelback-2027-grand-rapids-vv1afzk4agkd4fpse",
@@ -230,13 +246,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314932",
+        "url": "https://www.ticketliquidator.com/tickets/8314932/Nickelback-tickets-Wed-Feb-10-2027-Van-Andel-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4AGkd4fPSe",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314932"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314932",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314932/Nickelback-tickets-Wed-Feb-10-2027-Van-Andel-Arena"
   },
   {
     "id": "tm-nickelback-2027-columbus-vv1aazk4agkduqw0h",
@@ -292,13 +316,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314934",
+        "url": "https://www.ticketliquidator.com/tickets/8314934/Nickelback-tickets-Sat-Feb-13-2027-Value-City-Arena-at-The-Schottenstein-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4AGkdUQW0h",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314934"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314934",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314934/Nickelback-tickets-Sat-Feb-13-2027-Value-City-Arena-at-The-Schottenstein-Center"
   },
   {
     "id": "tm-nickelback-2027-indianapolis-vv1aazk4agkdzn6zd",
@@ -354,13 +386,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314935",
+        "url": "https://www.ticketliquidator.com/tickets/8314935/Nickelback-tickets-Tue-Feb-16-2027-Gainbridge-Fieldhouse",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4AGkdZN6zD",
     "timezone": "America/Indiana/Indianapolis",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314935"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314935",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314935/Nickelback-tickets-Tue-Feb-16-2027-Gainbridge-Fieldhouse"
   },
   {
     "id": "tm-nickelback-2027-chicago-vv1a7zk4agkexo6el",
@@ -416,13 +456,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314936",
+        "url": "https://www.ticketliquidator.com/tickets/8314936/Nickelback-tickets-Thu-Feb-18-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4AGkexO6EL",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314936"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314936",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314936/Nickelback-tickets-Thu-Feb-18-2027-United-Center"
   },
   {
     "id": "tm-nickelback-2027-saint-louis-vv1akzk4kgkdiwpu8",
@@ -532,13 +580,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314938",
+        "url": "https://www.ticketliquidator.com/tickets/8314938/Nickelback-tickets-Sun-Feb-21-2027-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_frYA27y",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314938"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314938",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314938/Nickelback-tickets-Sun-Feb-21-2027-Bridgestone-Arena"
   },
   {
     "id": "tm-nickelback-2027-knoxville-g5viz_f9kxnbt",
@@ -594,13 +650,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314939",
+        "url": "https://www.ticketliquidator.com/tickets/8314939/Nickelback-tickets-Wed-Feb-24-2027-Thompson-Boling-Arena-at-Food-City-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f9kxNbT",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314939"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314939",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314939/Nickelback-tickets-Wed-Feb-24-2027-Thompson-Boling-Arena-at-Food-City-Center"
   },
   {
     "id": "tm-nickelback-2027-hollywood-vvg1vz_fpmhiza",
@@ -656,13 +720,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314940",
+        "url": "https://www.ticketliquidator.com/tickets/8314940/Nickelback-tickets-Fri-Feb-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fpmHIZA",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314940"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314940",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314940/Nickelback-tickets-Fri-Feb-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
   },
   {
     "id": "tm-nickelback-2027-atlanta-vvg1zz_f9i_ugh",
@@ -718,13 +790,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314941",
+        "url": "https://www.ticketliquidator.com/tickets/8314941/Nickelback-tickets-Tue-Mar-2-2027-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_f9I_UgH",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314941"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314941",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314941/Nickelback-tickets-Tue-Mar-2-2027-State-Farm-Arena-GA"
   },
   {
     "id": "tm-nickelback-2027-raleigh-g5evz_fh5odfi",
@@ -780,13 +860,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314942",
+        "url": "https://www.ticketliquidator.com/tickets/8314942/Nickelback-tickets-Thu-Mar-4-2027-Lenovo-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fh5OdFi",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314942"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314942",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314942/Nickelback-tickets-Thu-Mar-4-2027-Lenovo-Center"
   },
   {
     "id": "tm-nickelback-2027-newark-vv1kfz_fj7g7twmf",
@@ -842,13 +930,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314943",
+        "url": "https://www.ticketliquidator.com/tickets/8314943/Nickelback-tickets-Sat-Mar-6-2027-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kFZ_fj7G7Twmf",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314943"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314943",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314943/Nickelback-tickets-Sat-Mar-6-2027-Prudential-Center"
   },
   {
     "id": "tm-nickelback-2027-washington-16vfz_ffeg7mdpa",
@@ -904,13 +1000,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314944",
+        "url": "https://www.ticketliquidator.com/tickets/8314944/Nickelback-tickets-Mon-Mar-8-2027-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16vfZ_fFEG7mdpA",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314944"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314944",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314944/Nickelback-tickets-Mon-Mar-8-2027-Capital-One-Arena"
   },
   {
     "id": "tm-nickelback-2027-boston-vv1avzk4egkdzjayi",
@@ -966,13 +1070,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314945",
+        "url": "https://www.ticketliquidator.com/tickets/8314945/Nickelback-tickets-Wed-Mar-10-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4eGkdzjaYi",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314945"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314945",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314945/Nickelback-tickets-Wed-Mar-10-2027-TD-Garden"
   },
   {
     "id": "tm-nickelback-2027-montreal-15d7z_fqpa0kk",
@@ -1028,13 +1140,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314962",
+        "url": "https://www.ticketliquidator.com/tickets/8314962/Nickelback-tickets-Fri-Mar-12-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "15d7Z_fQpA0kK",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314962"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314962",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314962/Nickelback-tickets-Fri-Mar-12-2027-Centre-Bell"
   },
   {
     "id": "tm-nickelback-2027-hamilton-1a8zk4axofsze2g",
@@ -1198,13 +1318,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314946",
+        "url": "https://www.ticketliquidator.com/tickets/8314946/Nickelback-tickets-Wed-Mar-24-2027-KeyBank-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_frUEE-y",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314946"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314946",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314946/Nickelback-tickets-Wed-Mar-24-2027-KeyBank-Center"
   },
   {
     "id": "tm-nickelback-2027-detroit-vv1afzk46gkdogect",
@@ -1260,13 +1388,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314947",
+        "url": "https://www.ticketliquidator.com/tickets/8314947/Nickelback-tickets-Fri-Mar-26-2027-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk46GkdOGEcT",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314947"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314947",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314947/Nickelback-tickets-Fri-Mar-26-2027-Little-Caesars-Arena"
   },
   {
     "id": "tm-nickelback-2027-milwaukee-vv1a6zk4agkd7raaf",
@@ -1322,13 +1458,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314948",
+        "url": "https://www.ticketliquidator.com/tickets/8314948/Nickelback-tickets-Sat-Mar-27-2027-Fiserv-Forum",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk4AGkd7RAAf",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314948"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314948",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314948/Nickelback-tickets-Sat-Mar-27-2027-Fiserv-Forum"
   },
   {
     "id": "tm-nickelback-2027-saskatoon-16v7z_ff7g7wwtw",
@@ -1384,13 +1528,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314965",
+        "url": "https://www.ticketliquidator.com/tickets/8314965/Nickelback-tickets-Fri-Apr-2-2027-SaskTel-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v7Z_ff7G7wWtw",
     "timezone": "America/Swift_Current",
     "status": "announced",
     "public_onsale_at": "2026-10-16T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314965"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314965",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314965/Nickelback-tickets-Fri-Apr-2-2027-SaskTel-Centre"
   },
   {
     "id": "tm-nickelback-2027-edmonton-1f78vpoopnz72877",
@@ -1446,13 +1598,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314966",
+        "url": "https://www.ticketliquidator.com/tickets/8314966/Nickelback-tickets-Sat-Apr-3-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1F78vPooPNZ72877",
     "timezone": "America/Edmonton",
     "status": "announced",
     "public_onsale_at": "2026-10-16T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314966"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314966",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314966/Nickelback-tickets-Sat-Apr-3-2027-Rogers-Place"
   },
   {
     "id": "tm-nickelback-2027-calgary-1aozk4kgkd_yj0d",
@@ -1508,13 +1668,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314968",
+        "url": "https://www.ticketliquidator.com/tickets/8314968/Nickelback-tickets-Tue-Apr-6-2027-Scotiabank-Saddledome",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4kGkd_Yj0d",
     "timezone": "America/Edmonton",
     "status": "announced",
     "public_onsale_at": "2026-10-16T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314968"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314968",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314968/Nickelback-tickets-Tue-Apr-6-2027-Scotiabank-Saddledome"
   },
   {
     "id": "tm-nickelback-2027-vancouver-1aozk4agkdpx1_p",
@@ -1570,13 +1738,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314969",
+        "url": "https://www.ticketliquidator.com/tickets/8314969/Nickelback-tickets-Fri-Apr-9-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4AGkdpX1_P",
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314969"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314969",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314969/Nickelback-tickets-Fri-Apr-9-2027-Rogers-Arena"
   },
   {
     "id": "tm-nickelback-2027-seattle-vvg1hz_f5mpsjc",
@@ -1632,13 +1808,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314951",
+        "url": "https://www.ticketliquidator.com/tickets/8314951/Nickelback-tickets-Sat-Apr-10-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_f5MpSJC",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314951"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314951",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314951/Nickelback-tickets-Sat-Apr-10-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-nickelback-2027-sacramento-g5vyz_f9d-9xg",
@@ -1694,13 +1878,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314952",
+        "url": "https://www.ticketliquidator.com/tickets/8314952/Nickelback-tickets-Tue-Apr-13-2027-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_f9d-9xG",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314952"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314952",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314952/Nickelback-tickets-Tue-Apr-13-2027-Golden-1-Center"
   },
   {
     "id": "tm-nickelback-2027-anaheim-vv1aazk4kgkeh-rr7",
@@ -1756,13 +1948,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314954",
+        "url": "https://www.ticketliquidator.com/tickets/8314954/Nickelback-tickets-Sun-Apr-18-2027-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4kGkeH-rr7",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314954"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314954",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314954/Nickelback-tickets-Sun-Apr-18-2027-Honda-Center"
   },
   {
     "id": "tm-nickelback-2027-phoenix-1a_zk4kgkd7q1b3",
@@ -1818,13 +2018,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314956",
+        "url": "https://www.ticketliquidator.com/tickets/8314956/Nickelback-tickets-Tue-Apr-20-2027-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk4kGkd7Q1b3",
     "timezone": "America/Phoenix",
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314956"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314956",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314956/Nickelback-tickets-Tue-Apr-20-2027-Mortgage-Matchup-Center"
   },
   {
     "id": "tm-nickelback-2027-denver-g5vzz_fpgv_um",
@@ -1880,13 +2088,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314958",
+        "url": "https://www.ticketliquidator.com/tickets/8314958/Nickelback-tickets-Sat-Apr-24-2027-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fpgv_UM",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-10-16T16:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314958"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314958",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314958/Nickelback-tickets-Sat-Apr-24-2027-Ball-Arena"
   },
   {
     "id": "tm-nickelback-2027-dallas-vvg1yz_f9cwbxt",
@@ -1942,13 +2158,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314959",
+        "url": "https://www.ticketliquidator.com/tickets/8314959/Nickelback-tickets-Tue-Apr-27-2027-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f9CWbxT",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314959"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314959",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314959/Nickelback-tickets-Tue-Apr-27-2027-American-Airlines-Center"
   },
   {
     "id": "tm-nickelback-2027-san-antonio-g5diz_fruim0m",
@@ -2004,13 +2228,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314961",
+        "url": "https://www.ticketliquidator.com/tickets/8314961/Nickelback-tickets-Sat-May-1-2027-Frost-Bank-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fruiM0m",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314961"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314961",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314961/Nickelback-tickets-Sat-May-1-2027-Frost-Bank-Center"
   },
   {
     "id": "tm-nickelback-2027-leeds-g5vhz_flmspew",
@@ -2174,13 +2406,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314975",
+        "url": "https://www.ticketliquidator.com/tickets/8314975/Nickelback-tickets-Fri-May-28-2027-Utilita-Arena-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kFYvP3_GAGcOMU",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-16T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314975"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314975",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314975/Nickelback-tickets-Fri-May-28-2027-Utilita-Arena-Birmingham"
   },
   {
     "id": "tm-nickelback-2027-dublin-1abzkfmgkepnjt6",
@@ -2236,13 +2476,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314976",
+        "url": "https://www.ticketliquidator.com/tickets/8314976/Nickelback-tickets-Sun-May-30-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AbZkfMGkePnjt6",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-16T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314976"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314976",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314976/Nickelback-tickets-Sun-May-30-2027-3Arena-Dublin"
   },
   {
     "id": "tm-nickelback-2027-glasgow-1auzk46gkexekqz",
@@ -2298,13 +2546,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314978",
+        "url": "https://www.ticketliquidator.com/tickets/8314978/Nickelback-tickets-Tue-Jun-1-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZk46GkeXEkqZ",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-16T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314978"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314978",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314978/Nickelback-tickets-Tue-Jun-1-2027-OVO-Hydro"
   },
   {
     "id": "tm-nickelback-2027-manchester-1amzk46gkdgpim1",
@@ -2360,13 +2616,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314791",
+        "url": "https://www.ticketliquidator.com/tickets/8314791/Nickelback-tickets-Wed-Jun-2-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk46GkdGpIM1",
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-10-16T09:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314791"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314791",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314791/Nickelback-tickets-Wed-Jun-2-2027-Co-Op-Live"
   },
   {
     "id": "tm-nickelback-2027-forest-brussels-z698xzg2z1kppuzf3",
@@ -2476,13 +2740,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314980",
+        "url": "https://www.ticketliquidator.com/tickets/8314980/Nickelback-tickets-Mon-Jun-7-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k-Uqgjg",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
     "public_onsale_at": "2026-10-16T08:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314980"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314980",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314980/Nickelback-tickets-Mon-Jun-7-2027-Ziggo-Dome"
   },
   {
     "id": "tm-nickelback-2027-hannover-z698xzc2z16v-v0tgv",
@@ -2538,13 +2810,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314982",
+        "url": "https://www.ticketliquidator.com/tickets/8314982/Nickelback-tickets-Fri-Jun-11-2027-ZAG-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16v-V0tGv",
     "timezone": "Europe/Berlin",
     "status": "announced",
     "public_onsale_at": "2026-10-16T08:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314982"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314982",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314982/Nickelback-tickets-Fri-Jun-11-2027-ZAG-Arena"
   },
   {
     "id": "tm-nickelback-2027-munich-z698xzc2z1k-kk3-_",
@@ -2600,13 +2880,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314985",
+        "url": "https://www.ticketliquidator.com/tickets/8314985/Nickelback-tickets-Sat-Jun-19-2027-Kleine-Olympiahalle-Munich",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k-Kk3-_",
     "timezone": "Europe/Berlin",
     "status": "announced",
     "public_onsale_at": "2026-10-16T08:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314985"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314985",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314985/Nickelback-tickets-Sat-Jun-19-2027-Kleine-Olympiahalle-Munich"
   },
   {
     "id": "tm-nickelback-2027-assago-zg9rmiynyza161",

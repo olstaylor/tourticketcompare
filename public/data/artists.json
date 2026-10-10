@@ -1301,7 +1301,7 @@
   {
     "slug": "the-neighbourhood",
     "name": "The Neighbourhood",
-    "short_description": "Rock act listed on Ticketmaster.",
+    "short_description": "American alternative rock band from Newbury Park, California, fronted by Jesse Rutherford.",
     "indexing_status": "indexable_with_substantial_content",
     "verified_provider_count": 2,
     "verified_providers": [
@@ -1315,7 +1315,7 @@
   {
     "slug": "staind",
     "name": "Staind",
-    "short_description": "Rock act listed on Ticketmaster.",
+    "short_description": "American rock band from Springfield, Massachusetts, fronted by Aaron Lewis.",
     "indexing_status": "indexable_with_substantial_content",
     "verified_provider_count": 2,
     "verified_providers": [
@@ -1329,7 +1329,7 @@
   {
     "slug": "dylan-gossett",
     "name": "Dylan Gossett",
-    "short_description": "Country act listed on Ticketmaster.",
+    "short_description": "American country singer-songwriter from Austin, Texas, known for \"Coal\".",
     "indexing_status": "indexable_with_substantial_content",
     "verified_provider_count": 2,
     "verified_providers": [
@@ -1343,7 +1343,7 @@
   {
     "slug": "flans",
     "name": "Flans",
-    "short_description": "Ballads/Romantic act listed on Ticketmaster.",
+    "short_description": "Mexican pop group whose first album came out in 1985.",
     "indexing_status": "indexable_with_substantial_content",
     "verified_provider_count": 2,
     "verified_providers": [
@@ -1357,7 +1357,7 @@
   {
     "slug": "warren-zeiders",
     "name": "Warren Zeiders",
-    "short_description": "Country act listed on Ticketmaster.",
+    "short_description": "American country singer-songwriter known for \"Pretty Little Poison\".",
     "indexing_status": "indexable_with_substantial_content",
     "verified_provider_count": 2,
     "verified_providers": [
@@ -1371,21 +1371,22 @@
   {
     "slug": "dancing-with-the-stars",
     "name": "Dancing With The Stars",
-    "short_description": "Rock act listed on Ticketmaster.",
-    "indexing_status": "indexable_with_substantial_content",
-    "verified_provider_count": 2,
-    "verified_providers": [
-      "ticketmaster",
-      "seatgeek"
-    ],
+    "short_description": "Live stage tour of the ABC dance competition series.",
+    "indexing_status": "review_required",
+    "verified_provider_count": 0,
+    "verified_providers": [],
     "last_verified_at": "2026-10-09",
     "promotion_source": "auto",
-    "auto_promoted_at": "2026-10-09"
+    "auto_promoted_at": "2026-10-09",
+    "demoted": {
+      "at": "2026-10-10",
+      "reason": "denylist"
+    }
   },
   {
     "slug": "def-leppard",
     "name": "Def Leppard",
-    "short_description": "Rock act listed on Ticketmaster.",
+    "short_description": "English rock band formed in Sheffield in 1976.",
     "indexing_status": "indexable_with_substantial_content",
     "verified_provider_count": 2,
     "verified_providers": [
@@ -1399,7 +1400,7 @@
   {
     "slug": "nickelback",
     "name": "Nickelback",
-    "short_description": "Rock act listed on Ticketmaster.",
+    "short_description": "Canadian rock band from Hanna, Alberta, fronted by Chad Kroeger.",
     "indexing_status": "indexable_with_substantial_content",
     "verified_provider_count": 2,
     "verified_providers": [
@@ -1413,7 +1414,7 @@
   {
     "slug": "jay-wheeler",
     "name": "Jay Wheeler",
-    "short_description": "Latin act listed on Ticketmaster.",
+    "short_description": "Puerto Rican singer and songwriter known for \"La Curiosidad\".",
     "indexing_status": "indexable_with_substantial_content",
     "verified_provider_count": 2,
     "verified_providers": [
@@ -1427,7 +1428,7 @@
   {
     "slug": "mico",
     "name": "Mico",
-    "short_description": "Rock act listed on Ticketmaster.",
+    "short_description": "Canadian singer-songwriter from Toronto, known for the 2022 single \"cut my hair\".",
     "indexing_status": "indexable_with_substantial_content",
     "verified_provider_count": 2,
     "verified_providers": [

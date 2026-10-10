@@ -54,8 +54,15 @@ on:
       - 'functions/_venues.js'
       - 'functions/_artist-cities.js'
       - 'functions/_artist-indexability.js'
-      # The event-page indexing pilot: its keys and policy, and the flag.
+      - 'functions/_route-indexability.js'
+      - 'functions/_presales.js'
+      - 'functions/_upcoming.js'
+      # The event-page indexing pilot and staged batches: their keys and
+      # policy, and the flag. A batch PR touches only the batch files, so
+      # without them its new event URLs are never announced.
       - 'functions/_event-indexability.js'
+      - 'functions/_event-indexing-batches.js'
+      - 'data/event-indexing-batches.json'
       - 'wrangler.toml'
   workflow_dispatch:
     inputs:

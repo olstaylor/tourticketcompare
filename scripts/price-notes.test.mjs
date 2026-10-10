@@ -238,7 +238,7 @@ function card(html, eventId) {
   return html.slice(start, end);
 }
 
-const PRICE_UNAVAILABLE_NOTE = "No listed-price snapshot yet.";
+const PRICE_UNAVAILABLE_NOTE = "No listed price yet.";
 
 for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artists/${ARTIST.slug}`]) {
   const { status, html } = await render(pathname, fakeDb());
@@ -251,7 +251,7 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
 
   const checked = text(card(html, CHECKED.id));
   assert(
-    checked.includes("No listed-price snapshot from Vivid Seats and TicketNetwork at the last check (9 Aug 2026, 10:05 UTC)."),
+    checked.includes("No listed price from Vivid Seats and TicketNetwork at the last check (9 Aug 2026, 10:05 UTC)."),
     `${pathname}: an unpriced date names the checked lanes and the latest check time — got: ${checked.slice(-260)}`
   );
   assert(!/available|sold out/i.test(checked.replace(PRICE_UNAVAILABLE_NOTE, "")), `${pathname}: the checked note makes no availability claim`);
@@ -261,7 +261,7 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
   // Nothing on it claims a price, and the old "isn't matched yet" line
   // repeated on every date of a Ticketmaster-only tour.
   assert(
-    !/No listed-price snapshot|isn't matched yet/.test(unmapped),
+    !/No listed price|isn't matched yet/.test(unmapped),
     `${pathname}: a date with no price-supplying lane carries no price note`
   );
 
@@ -282,7 +282,7 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
   const { status, html } = await render(`/cities/${CITY_SLUG}`, fakeDb({ failCache: true }));
   assert(status === 200, "the page survives a failed cache read");
   assert(!/provider-cta-priced/.test(html), "a failed read prints no price");
-  assert(!/No listed-price snapshot/.test(html), "a failed read renders the unchecked state, not a claim that no snapshot exists");
+  assert(!/No listed price/.test(html), "a failed read renders the unchecked state, not a claim that no snapshot exists");
 }
 
 // A missing check table (before the first writer run) falls back cleanly.

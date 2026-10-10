@@ -861,11 +861,40 @@ async function routeResponse(pathname, envOverride = env, origin = "https://tour
 
 // Site voice (owner direction 2026-09-24): visible copy never speaks as "we".
 // Same rule scripts/check-site-voice.mjs applies to guide and blog Markdown.
+// Names that come from the event records (a listing title such as "Psychedelic
+// Furs w/ We Are Scientists", a tour, a venue) are the source's words, not the
+// site's, so they are exempt like quoted text.
+let sourceVoiceNames = null;
+function sourceNamesWithVoiceHits() {
+  if (!sourceVoiceNames) {
+    const names = new Set();
+    for (const event of Array.isArray(events) ? events : []) {
+      for (const field of ["event_name", "tour_name", "artist_name", "venue"]) {
+        const name = String(event?.[field] || "").trim();
+        if (name && findFirstPersonPlural(name).length) names.add(name);
+      }
+    }
+    // Longest first, so a title is removed before a shorter name inside it.
+    sourceVoiceNames = [...names].sort((a, b) => b.length - a.length);
+  }
+  return sourceVoiceNames;
+}
+
+function withoutSourceNames(text) {
+  let out = text;
+  for (const name of sourceNamesWithVoiceHits()) {
+    for (const form of new Set([name, name.replace(/&/g, "&amp;")])) out = out.split(form).join(" ");
+  }
+  return out;
+}
+
 function assertSiteVoice(pathname, text) {
-  const visibleMain = (text.match(/<main[\s\S]*<\/main>/)?.[0] || "")
-    .replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ")
-    .replace(/<[^>]+>/g, "\n")
-    .replace(/&rsquo;|&#39;/g, "'");
+  const visibleMain = withoutSourceNames(
+    (text.match(/<main[\s\S]*<\/main>/)?.[0] || "")
+      .replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ")
+      .replace(/<[^>]+>/g, "\n")
+      .replace(/&rsquo;|&#39;/g, "'")
+  );
   const voiceHits = findFirstPersonPlural(visibleMain);
   assert(
     voiceHits.length === 0,
@@ -1660,7 +1689,7 @@ assert(!appJs.includes("Event last checked:"), "hydration should rely on the con
 assert(!appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every SeatGeek card");
 assert(!appJs.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every Vivid Seats card");
 assert(appJs.includes('note.append("Checked ");') && appJs.includes("const PRICE_DISCLOSURE ="), "hydration should include the per-card check age and the page-level price disclosure (P2)");
-assert(appJs.includes('const PRICE_UNAVAILABLE_NOTE = "No listed-price snapshot yet.";'), "hydration should state the price-unavailable case");
+assert(appJs.includes('const PRICE_UNAVAILABLE_NOTE = "No listed price yet.";'), "hydration should state the price-unavailable case");
 assert(appJs.includes("renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show))"), "hydration must only claim a snapshot is unavailable for a card whose lanes were actually queried");
 assert(appJs.includes("Array.isArray(show?.prices) && show.prices.length > 0"), "the hydrated priced-lane check must treat an empty lane array as unchecked, not as a confirmed absence");
 assert(appJs.includes("show?.provider_links?.seatgeek?.verified !== true"), "hydrated SeatGeek price snapshots should require explicit provider verification");
@@ -3367,7 +3396,7 @@ assert(serverMorganWithoutSeatGeek.text.includes("provider-cta-check\">See ticke
 // Ticketmaster) gets no price note (2026-10-06): nothing on it claims a price,
 // and the note used to repeat on every date of a tour.
 assert(
-  !/No listed-price snapshot/.test(serverMorganWithoutSeatGeek.text),
+  !/No listed price/.test(serverMorganWithoutSeatGeek.text),
   "a card with no price-supplying button must not carry a price-unavailable note"
 );
 
@@ -3390,7 +3419,7 @@ if (fullyPricedBoard.response.status === 200) {
   const silentCards = cardsWithButtons.filter(
     (card) =>
       /provider=(vivid-seats|ticketnetwork|stubhub-international)/.test(card) &&
-      !/No listed-price snapshot (yet|from )/.test(card) &&
+      !/No listed price (yet|from )/.test(card) &&
       !card.includes("provider-cta-price")
   );
   assert(cardsWithButtons.length > 6, "the coverage check needs a board longer than the old six-show slice to be meaningful");
@@ -3407,7 +3436,7 @@ const pricedMorganCards = serverPricedMorgan.text
   .filter((card) => card.includes("provider-cta-price"));
 assert(pricedMorganCards.length > 0, "the priced Morgan Wallen board should render at least one card with a snapshot");
 assert(
-  pricedMorganCards.every((card) => !/No listed-price snapshot (yet|from )/.test(card)),
+  pricedMorganCards.every((card) => !/No listed price (yet|from )/.test(card)),
   "a card carrying an eligible snapshot must keep the snapshot disclosure, not the unavailable note"
 );
 assert(serverMorganWithoutSeatGeek.text.includes(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&amp;provider=ticketmaster`), "server-rendered verified Ticketmaster event CTA should use its existing safe redirect");
@@ -3910,8 +3939,8 @@ assert(
   "the provenance block must not claim artist-level buttons resolve to a specific date"
 );
 assert(
-  manyBoard.html.includes("open the artist&#39;s page on each ticket site, not a specific date"),
-  "the shared help should describe where artist-level provider buttons land"
+  manyBoard.html.includes("These go to the artist's page on each ticket site, not to a specific date."),
+  "the Where to buy panel should describe where artist-level provider buttons land"
 );
 
 // The client must not restore the authored, date-promising description on a

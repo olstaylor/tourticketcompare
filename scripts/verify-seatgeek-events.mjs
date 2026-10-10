@@ -344,9 +344,30 @@ export function selectEvents(events, registryBySlug, options, now = new Date()) 
       skipped.push({ event, reason: "event is in the past — SeatGeek delists finished shows; nothing to maintain" });
       continue;
     }
-    selected.push(event);
+    selected.push({ event, rank: verified ? (stale ? 1 : 2) : 0, instant });
   }
-  return { selected: options.limit === null ? selected : selected.slice(0, options.limit), skipped };
+  // The daily lane stops at --max-api-calls 400 against ~700 selected events,
+  // so file order decided who got checked: artists added late in events.json
+  // never reached the front, and their missing links became work-queue issues
+  // (2026-10-09). Spend the budget where a link is missing or unproven first,
+  // then stale proofs, then fresh needs_recheck proofs; soonest show first.
+  selected.sort((a, b) => a.rank - b.rank || a.instant - b.instant);
+  const ordered = selected.map((row) => row.event);
+  return { selected: options.limit === null ? ordered : ordered.slice(0, options.limit), skipped };
+}
+
+// A capped run (--max-api-calls) only reaches the front of the ordered list,
+// and events whose discovery keeps finding nothing would hold that front every
+// night. Start each day's run at a different window of the list (UTC day
+// number, as the enrichment lane does) and wrap around, so consecutive runs
+// cover the whole queue while each run still walks it in priority order. A
+// window is sized for the worst case of two API calls per event.
+export function rotateSelection(ordered, maxApiCalls, rotationKey) {
+  const windowSize = maxApiCalls ? Math.max(1, Math.floor(maxApiCalls / 2)) : 0;
+  if (!windowSize || ordered.length <= windowSize) return ordered;
+  const windowCount = Math.ceil(ordered.length / windowSize);
+  const start = (((Math.trunc(rotationKey) % windowCount) + windowCount) % windowCount) * windowSize;
+  return [...ordered.slice(start), ...ordered.slice(0, start)];
 }
 
 // ─── API access (curl, same pattern as enrich-seatgeek-events.mjs) ─────────
@@ -603,6 +624,19 @@ function selfTest() {
   assert("publishable event without URL not selected", !selectedIds.includes("s5"));
   assert("ambiguous datetime skipped with reason", selection.skipped.some((row) => row.event.id === "s6" && row.reason.includes("ambiguous")));
   assert("unregistered artist skipped with reason", selection.skipped.some((row) => row.event.id === "s7"));
+  assert("unproven links are checked before stale and fresh proofs",
+    selectedIds.indexOf("s1") < selectedIds.indexOf("s4") && selectedIds.indexOf("s2") < selectedIds.indexOf("s4"));
+  const order = selectEvents([
+    { ...base, id: "o1", verification_status: "needs_recheck", provider_links: { seatgeek: { verified: true, url: "https://seatgeek.com/x/concert/5", last_verified_at: "2026-07-07" } } },
+    { ...base, id: "o2", verification_status: "machine_high_confidence", seatgeek_url: "https://seatgeek.com/x/concert/6", provider_links: { seatgeek: { verified: true, url: "https://seatgeek.com/x/concert/6", last_verified_at: "2026-06-01" } } },
+    { ...base, id: "o3", verification_status: "needs_recheck", datetime_iso: "2026-10-01T00:00:00Z" },
+    { ...base, id: "o4", verification_status: "needs_recheck", datetime_iso: "2026-08-01T00:00:00Z" }
+  ], registryBySlug, selOptions, now).selected.map((event) => event.id);
+  assert("budget goes to missing links (soonest first), then stale, then fresh proofs", order.join(",") === "o4,o3,o2,o1");
+  const queue = Array.from({ length: 10 }, (_, i) => i);
+  assert("uncapped run keeps the whole priority order", rotateSelection(queue, null, 3).join() === queue.join());
+  assert("capped run starts at the day's window", rotateSelection(queue, 8, 1).join() === "4,5,6,7,8,9,0,1,2,3");
+  assert("windows wrap so every event is reached", rotateSelection(queue, 8, 3).join() === "0,1,2,3,4,5,6,7,8,9");
   assert("past event skipped, never touched", !selectedIds.includes("s0") && selection.skipped.some((row) => row.event.id === "s0" && row.reason.includes("past")));
 
   // --artist semantics, shared with the enrichment lane: exact slug or exact
@@ -689,7 +723,9 @@ async function main() {
 
   const now = new Date();
   const today = isoDate(now);
-  const { selected, skipped } = selectEvents(events, registryBySlug, options, now);
+  const selection = selectEvents(events, registryBySlug, options, now);
+  const { skipped } = selection;
+  const selected = rotateSelection(selection.selected, options.maxApiCalls, Math.floor(now.getTime() / 86400000));
   const runState = { apiCalls: 0, rateLimitResponses: 0, stopReason: "" };
   const results = [];
   const changedIds = new Set();

@@ -18,6 +18,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import { EVENT_INDEXING_BATCHES } from "../functions/_event-indexing-batches.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const ORIGIN = "https://tourticketcompare.com";
@@ -334,6 +335,16 @@ const EVENTS = [STRONG, MULTI_A, MULTI_B, ONE_LANE, TWO_LANES, TWO_PRICE_LANES, 
   assert("pilot record: selected on 2026-09-27 from the stated main", record.selected_on === "2026-09-27" && record.selected_from.main_sha === "596bacef4c6eb3a48519d484e5372500b3359db2");
   assert("pilot record: launched (first served index,follow in production) on 2026-09-27", record.launch_date === "2026-09-27");
 
+  // Staged batches (owner decision 2026-10-09): each a frozen list pinned to
+  // data/event-indexing-batches.json, never overlapping the pilot or each other.
+  const batchRecord = readJson("data/event-indexing-batches.json");
+  const batches = EVENT_INDEXING_BATCHES;
+  assert("batches: identical, in order, to data/event-indexing-batches.json", JSON.stringify(batchRecord.batches.map((batch) => ({ id: batch.id, selectedOn: batch.selected_on, keys: batch.members.map((member) => member.key) }))) === JSON.stringify(batches.map((batch) => ({ id: batch.id, selectedOn: batch.selectedOn, keys: [...batch.keys] }))));
+  assert("batches: every list frozen, 16-hex stable keys", Object.isFrozen(batches) && batches.every((batch) => Object.isFrozen(batch) && Object.isFrozen(batch.keys) && batch.keys.every((key) => /^[0-9a-f]{16}$/.test(key))));
+  assert("batches: no key in two cohorts (pilot included)", new Set(policy.EVENT_INDEXED_COHORT_KEYS).size === policy.EVENT_INDEXED_COHORT_KEYS.length && policy.EVENT_INDEXED_COHORT_KEYS.length === keys.length + batches.reduce((sum, batch) => sum + batch.keys.length, 0));
+  assert("batch record: every member's key is eventKey(event_id) and ends its canonical path", batchRecord.batches.every((batch) => batch.members.every((member) => eventPages.eventKey(member.event_id) === member.key && member.canonical_path.endsWith(`-${member.key}`))));
+  assert("batch record: every member was selected with ≥2 destinations, ≥2 snapshot lanes, ≤6 per artist", batchRecord.batches.every((batch) => batch.members.every((member) => member.destinations >= 2 && member.snapshot_ready_lanes >= 2) && Object.values(batch.members.reduce((acc, member) => ({ ...acc, [member.artist_slug]: (acc[member.artist_slug] || 0) + 1 }), {})).every((count) => count <= 6)));
+
   const wrangler = fs.readFileSync(path.join(ROOT, "wrangler.toml"), "utf8");
   assert("rollout: wrangler.toml [vars] sets EVENT_PAGES_INDEXING = \"pilot\" (repo-managed, not dashboard-only)", /^EVENT_PAGES_INDEXING = "pilot"$/m.test(wrangler) && (await load("scripts/lib/event-indexability-audit.mjs")).wranglerVars(wrangler).EVENT_PAGES_INDEXING === "pilot");
   const importers = fs
@@ -584,9 +595,9 @@ Date.now = realNow;
       group.ids.filter((id) => !group.evidence.nonPerformanceIds.includes(id)).every((id) => byId.get(id)?.reasons.includes(R.DUPLICATE_AMBIGUITY))
     )
   );
-  const pilotKeys = new Set(policy.EVENT_INDEXING_PILOT_KEYS);
+  const pilotKeys = new Set(policy.EVENT_INDEXED_COHORT_KEYS);
   assert(
-    "real data: with the flag on, an eligible event is indexable exactly when its key is a pilot key",
+    "real data: with the flag on, an eligible event is indexable exactly when its key is in the pilot or a staged batch",
     eligible.every((decision) => eventPageIndexingDecision(decision, { EVENT_PAGES_INDEXING: "pilot" }).indexable === pilotKeys.has(decision.key))
   );
   assert("real data: every pilot key names exactly one event", policy.EVENT_INDEXING_PILOT_KEYS.every((key) => eventPages.buildEventKeyIndex(events).byKey.has(key)));
@@ -719,7 +730,7 @@ function resolveNothing(events, key) {
   // the audit exists to catch.
   const policyDecisions = policy.deriveEventIndexability(events, site.data.artistsMeta, { lanesFor: (event) => coverage.publishableLaneSlugs(event, isConfigured, now), now });
   const pilotDecision = policyDecisions.find((decision) => decision.eligible && policy.EVENT_INDEXING_PILOT_KEYS.includes(decision.key));
-  const otherEligible = policyDecisions.find((decision) => decision.eligible && !policy.EVENT_INDEXING_PILOT_KEYS.includes(decision.key));
+  const otherEligible = policyDecisions.find((decision) => decision.eligible && !policy.EVENT_INDEXED_COHORT_KEYS.includes(decision.key));
   const ineligibleServed = policyDecisions.find((decision) => !decision.eligible && decision.inputs.routeAction === "render");
   const pilotEvent = events.find((event) => String(event.id).trim() === pilotDecision.id);
   const artistPath = `/artists/${pilotEvent.artist_slug}`;
@@ -829,7 +840,7 @@ function resolveNothing(events, key) {
   // Non-selected pages: a spread across the eligible population (the audit
   // renders every served page; this keeps a fast in-test guard).
   const nonPilot = policy.deriveEventIndexability(events, site.data.artistsMeta, { lanesFor: (event) => coverage.publishableLaneSlugs(event, isConfigured, now), now })
-    .filter((decision) => decision.eligible && !policy.EVENT_INDEXING_PILOT_KEYS.includes(decision.key));
+    .filter((decision) => decision.eligible && !policy.EVENT_INDEXED_COHORT_KEYS.includes(decision.key));
   const sample = nonPilot.filter((_, index) => index % Math.max(1, Math.floor(nonPilot.length / 40)) === 0);
   const leaks = [];
   for (const decision of sample) {

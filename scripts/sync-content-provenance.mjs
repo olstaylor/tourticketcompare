@@ -133,7 +133,8 @@ const RENDER_SPECS = {
   // branch is written. collectCopyDependencies follows the constant, so an edit
   // to AUTHOR_BIO still advances this page's date.
   '/about/ollie-taylor': { block: 'if (route.path === AUTHOR_PATH) {' },
-  '/editorial-policy': { block: 'if (route.path === "/editorial-policy") {' }
+  '/editorial-policy': { block: 'if (route.path === "/editorial-policy") {' },
+  '/press': { block: 'if (route.path === "/press") {' }
 };
 
 // Provenance fields are *about* the copy, never part of it. See the header note.

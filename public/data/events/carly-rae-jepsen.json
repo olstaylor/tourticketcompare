@@ -1949,7 +1949,7 @@
     "country": "Canada",
     "venue": "History Toronto",
     "datetime_iso": "2027-05-26T22:30:00Z",
-    "tour_name": "",
+    "tour_name": "Day and Night Tour",
     "ticketmaster_event_id": "10006544C72C8970",
     "ticketmaster_url": "https://www.ticketmaster.ca/carly-rae-jepsen-day-and-night-toronto-ontario-05-26-2027/event/10006544C72C8970",
     "seatgeek_url": "",
@@ -2009,7 +2009,7 @@
     "country": "United States Of America",
     "venue": "Arlene Schnitzer Concert Hall",
     "datetime_iso": "2027-04-20T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "Day and Night Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeKuy",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuy",
     "seatgeek_url": "",
@@ -2054,12 +2054,20 @@
         "verified": true,
         "last_verified_at": "2026-10-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300380",
+        "url": "https://www.ticketliquidator.com/tickets/8300380/Carly-Rae-Jepsen-tickets-Mon-Apr-19-2027-Arlene-Schnitzer-Concert-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeKuy",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300380"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300380",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300380/Carly-Rae-Jepsen-tickets-Mon-Apr-19-2027-Arlene-Schnitzer-Concert-Hall"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-morrison-z7r9jz1aaekuz",
@@ -2070,7 +2078,7 @@
     "country": "United States Of America",
     "venue": "Red Rocks Amphitheatre",
     "datetime_iso": "2027-04-26T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Day and Night Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeKuz",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuz",
     "seatgeek_url": "",
@@ -2115,12 +2123,28 @@
         "verified": true,
         "last_verified_at": "2026-10-09",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300774",
+        "url": "https://www.ticketliquidator.com/tickets/8300774/Carly-Rae-Jepsen-tickets-Sun-Apr-25-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671803",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-morrison-tickets-4-25-2027/event/107671803",
+        "verified": true,
+        "last_verified_at": "2026-10-09",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeKuz",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300774"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300774",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300774/Carly-Rae-Jepsen-tickets-Sun-Apr-25-2027-Red-Rocks-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-morrison-tickets-4-25-2027/event/107671803"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-salt-lake-city-z7r9jz1aaekuv",
@@ -2131,7 +2155,7 @@
     "country": "United States Of America",
     "venue": "The Complex - UT",
     "datetime_iso": "2027-04-28T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Day and Night Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeKuV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKuV",
     "seatgeek_url": "",

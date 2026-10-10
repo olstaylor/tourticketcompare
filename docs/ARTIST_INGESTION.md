@@ -50,10 +50,14 @@ ignored, so the file doubles as a record of what was asked for.
 
 ### Without a request
 
-- **Automatic discovery.** The same two jobs rank touring headliners from
-  Ticketmaster (`scripts/report-roster-forecast.mjs`, "currently touring in
-  markets the site already covers") and promote the ones that pass the full
-  screen.
+- **Automatic discovery.** The same two jobs build the day's list in this
+  order: open requests, then the 10 highest-demand touring headliners on
+  SeatGeek with no page (`scripts/report-demand-candidates.mjs`, events sorted
+  by SeatGeek's demand score; owner-approved 2026-10-09), then Ticketmaster's
+  forecast (`scripts/report-roster-forecast.mjs`, "currently touring in markets
+  the site already covers"), capped at 20 names. Only requests get the relaxed
+  screen; demand and forecast names must pass it in full, and the daily and
+  weekly caps are unchanged.
 - **The manual gated path.** Use this for an act the screen cannot pass, or
   when you want a human-written profile from day one:
   `.claude/skills/artist-onboarding/SKILL.md` (Proposal → Shell → Promote →

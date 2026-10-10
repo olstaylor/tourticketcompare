@@ -1,5 +1,6 @@
 import { insertAnalyticsRow } from "../_analytics-write.js";
 import { classifyDeviceCategory, classifyPageType, normalizeAnalyticsPath } from "../_funnel.js";
+import { EMAIL_ALERT_SCHEMA_STATEMENTS, UPDATES_CONSENT_TEXT } from "../_email-alerts.js";
 
 const MAX_BODY_SIZE = 8 * 1024;
 const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
@@ -35,6 +36,12 @@ async function loadArtistSlugs(env) {
   } catch (error) {
     return null;
   }
+}
+
+// The optional updates box. A native form sends "yes" only when it is ticked;
+// the JS path sends a boolean. Anything else is no.
+function wantsUpdates(value) {
+  return value === true || String(value || "").trim().toLowerCase() === "yes";
 }
 
 function json(payload, status = 200) {
@@ -179,6 +186,7 @@ function safeBackHref(value) {
 
 const HTML_MESSAGES = {
   subscribed: "You're on the watchlist. You'll get an email when verified dates and checked ticket links are listed.",
+  subscribed_updates: "You're on the watchlist. You'll get an email when verified dates and checked ticket links are listed, plus the weekly presale and on-sale email you asked for.",
   invalid_email: "That email address didn't look right. Please go back and try again.",
   invalid_form: "That submission couldn't be read. Please go back and try again.",
   invalid_artist: "That artist couldn't be matched. Please go back and try again.",
@@ -191,7 +199,8 @@ const HTML_MESSAGES = {
 
 function htmlResponse(result, status, backHref = "/artists") {
   const heading = result.ok ? "You're on the watchlist" : "Signup not completed";
-  const message = HTML_MESSAGES[result.status] || "Something went wrong. Please go back and try again.";
+  const messageKey = result.ok && result.updates ? "subscribed_updates" : result.status;
+  const message = HTML_MESSAGES[messageKey] || "Something went wrong. Please go back and try again.";
   const body = `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex" /><title>${heading} | TourTicketCompare</title><link rel="stylesheet" href="/styles.css?v=20261002u" /></head><body><main id="mainContent"><section class="content-page"><h1>${heading}</h1><p class="lead">${message}</p><div class="action-row"><a class="button button-primary" href="${backHref}">Back to the artist page</a><a class="button button-secondary" href="/artists">Browse artists</a></div></section></main></body></html>`;
   return new Response(body, {
     status,
@@ -289,6 +298,9 @@ export async function onRequestPost({ request, env }) {
   // alert email stack is worth building.
   const isPriceAlertInterest = clean(payload?.intent, 40).toLowerCase() === "price_alert";
   const alertArtistSlug = isPriceAlertInterest ? "" : artistSlug;
+  // The weekly updates opt-in exists only on the date-alert form, so a price
+  // interest submission can never carry it.
+  const updatesOptIn = !isPriceAlertInterest && wantsUpdates(payload?.updates);
 
   await db
     .prepare(
@@ -323,12 +335,31 @@ export async function onRequestPost({ request, env }) {
       .run();
   }
 
+  if (updatesOptIn) {
+    for (const sql of EMAIL_ALERT_SCHEMA_STATEMENTS) {
+      await db.prepare(sql).run();
+    }
+    await db
+      .prepare(
+        `INSERT INTO email_update_consents (email, consented_at, consent_text, source_path)
+         VALUES (?1, ?2, ?3, ?4)
+         ON CONFLICT(email) DO UPDATE SET
+          consented_at = excluded.consented_at,
+          consent_text = excluded.consent_text,
+          source_path = excluded.source_path`
+      )
+      .bind(email, createdAt, UPDATES_CONSENT_TEXT, row.sourcePath)
+      .run();
+  }
+
   const rawEventId = clean(payload?.eventId, 120);
   const eventId = /^[a-z0-9-]{1,120}$/i.test(rawEventId) ? rawEventId : null;
   const analyticsEventName = isPriceAlertInterest
     ? "price_alert_interest"
     : (artistSlug ? "artist_interest" : "email_signup");
-  const analyticsMetadata = isPriceAlertInterest ? { intent: "price_alert", event_id: eventId } : null;
+  const analyticsMetadata = isPriceAlertInterest
+    ? { intent: "price_alert", event_id: eventId }
+    : (updatesOptIn ? { updates_opt_in: true } : null);
   await insertAnalytics(db, analyticsEventName, row, analyticsMetadata);
 
   return respond(
@@ -338,7 +369,8 @@ export async function onRequestPost({ request, env }) {
       // endpoint cannot be used to check who has subscribed.
       status: "subscribed",
       email,
-      artistSlug: artistSlug || null
+      artistSlug: artistSlug || null,
+      updates: updatesOptIn
     },
     200
   );

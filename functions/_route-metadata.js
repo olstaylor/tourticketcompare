@@ -346,7 +346,7 @@ export const TRUST_ROUTES = {
       "TourTicketCompare is an independent, unofficial ticket research site for major live music tours and verified links where available.",
     indexable: true,
     breadcrumb: [{ name: "About", path: "/about" }],
-    lastmod: "2026-09-24"
+    lastmod: "2026-10-09"
   },
   // The creator's standalone page, linked from /about only (owner direction
   // 2026-09-24). Bylines credit TourTicketCompare; this page alone carries the
@@ -368,6 +368,14 @@ export const TRUST_ROUTES = {
     indexable: true,
     breadcrumb: [{ name: "Contact", path: "/contact" }],
     lastmod: "2026-09-24"
+  },
+  "/press": {
+    title: "Press | TourTicketCompare",
+    description:
+      "Facts, a short description and logos for writing about TourTicketCompare, the independent ticket research site for major live music tours.",
+    indexable: true,
+    breadcrumb: [{ name: "Press", path: "/press" }],
+    lastmod: "2026-10-09"
   },
   "/editorial-policy": {
     title: "Editorial Policy | TourTicketCompare",
@@ -391,7 +399,7 @@ export const TRUST_ROUTES = {
       "How TourTicketCompare handles analytics, watchlist signups, and information when you browse or follow a ticket link.",
     indexable: true,
     breadcrumb: [{ name: "Privacy policy", path: "/privacy" }],
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-09"
   },
   "/terms": {
     title: "Terms of Use | TourTicketCompare",

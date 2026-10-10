@@ -66,11 +66,11 @@ const expectedTitle = new Map([
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.";
-const APP_ASSET_VERSION = "20261006b";
+const APP_ASSET_VERSION = "20261009c";
 const TTC_HOME_ASSET_VERSION = "20260924b";
 const TTC_HOME_JS_ASSET_VERSION = "20261006a";
 const TTC_SHELL_ASSET_VERSION = "20260925a";
-const SHELL_SCRIPT_ASSET_VERSION = "20260926a";
+const SHELL_SCRIPT_ASSET_VERSION = "20261009a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-4/p1dKV8DVVc+KAFU6w/f5XPSPD2Po0Wx8aWhKVLdjI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
@@ -1360,6 +1360,37 @@ for (const [artistSlug, postSlugs] of postSlugsByArtist) {
     linked === Math.min(3, postSlugs.length),
     `/artists/${artistSlug} links ${linked} of the ${postSlugs.length} published post(s) that name it`
   );
+}
+
+// A published post that names a touring, indexable artist opens with that
+// artist's ticket pages (date board, price guide, city pages), so blog readers
+// have a route to checked ticket links before the foot of the post.
+{
+  const smokeArtistsMeta = JSON.parse(await read("public/data/artists.json"));
+  const smokeEvents = JSON.parse(await read("public/data/events.json"));
+  const nowMs = Date.now();
+  const touring = new Set(
+    smokeArtistsMeta
+      .filter((meta) => meta.indexing_status === "indexable_with_substantial_content")
+      .map((meta) => meta.slug)
+      .filter((slug) => smokeEvents.some((event) => event.artist_slug === slug && Date.parse(event.datetime_iso) > nowMs + 6 * 3600 * 1000))
+  );
+  let panels = 0;
+  for (const post of (smokeBlogContent.posts || []).filter((entry) => entry.status === "published")) {
+    const named = (post.relatedArtists || []).slice(0, 3).filter((slug) => touring.has(slug));
+    if (!named.length) continue;
+    const page = await routeResponse(`/blog/${post.slug}`);
+    for (const artistSlug of named) {
+      assert(
+        page.text.includes(`data-blog-ticket-routes="${artistSlug}"`) &&
+          (page.text.includes(`class="button button-primary" href="/artists/${artistSlug}"`) || page.text.includes(`class="text-link" href="/artists/${artistSlug}"`)),
+        `/blog/${post.slug} shows ticket routes for ${artistSlug}`
+      );
+      panels += 1;
+    }
+    assert(!/\$\d|£\d|€\d/.test(page.text.match(/<section class="nested-panel blog-ticket-routes"[\s\S]*?<\/section>/g)?.join("") || ""), `/blog/${post.slug} ticket routes carry no price figures`);
+  }
+  assert(panels >= 1, "at least one published blog post shows artist ticket routes");
 }
 
 const pairwiseGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster");
@@ -4131,7 +4162,7 @@ assert(/<h1[^>]*>[^<]*Tickets in /.test(artistCityPage.text), "artist-city page 
 // than only its head.
 const artistCityTitle = extractTitle(artistCityPage.text);
 assert(
-  /\| (Compare )?Prices at [^|]+$|\| Compare Prices & Dates$|\| Compare Prices$| Tickets(?: \d{4}(?:–\d{4})?)?$/.test(artistCityTitle),
+  /\| (Compare |Ticket )?Prices at [^|]+$|\| Compare Ticket Prices$|\| Compare Prices & Dates$|\| Compare Prices$| Tickets(?: \d{4}(?:–\d{4})?)?$/.test(artistCityTitle),
   `artist-city title should follow the fitTitleToBudget ladder (was "${artistCityTitle}")`
 );
 // Every rung keeps "<artist> <city> Tickets", so the ladder check above cannot

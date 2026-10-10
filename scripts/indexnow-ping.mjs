@@ -180,9 +180,9 @@ async function runSelfTest() {
   check("local derivation is same-origin", [...expected.keys()].every((url) => url.startsWith(ORIGIN)));
   check("local derivation includes the homepage", expected.has(`${ORIGIN}/`));
   check("local derivation carries lastmod values", [...expected.values()].every((value) => /^\d{4}-\d{2}-\d{2}$/.test(value)));
-  const { EVENT_INDEXING_PILOT_KEYS } = await import("../functions/_event-indexability.js");
+  const { EVENT_INDEXED_COHORT_KEYS } = await import("../functions/_event-indexability.js");
   const eventUrls = [...expected.keys()].filter((url) => url.startsWith(`${ORIGIN}/events/`));
-  check("local derivation lists only indexing-pilot event pages", eventUrls.length <= EVENT_INDEXING_PILOT_KEYS.length && eventUrls.every((url) => EVENT_INDEXING_PILOT_KEYS.includes(url.slice(-16))));
+  check("local derivation lists only pilot and staged-batch event pages", eventUrls.length <= EVENT_INDEXED_COHORT_KEYS.length && eventUrls.every((url) => EVENT_INDEXED_COHORT_KEYS.includes(url.slice(-16))));
 
   if (failures.length) {
     console.error(`indexnow-ping self-test failed:\n- ${failures.join("\n- ")}`);

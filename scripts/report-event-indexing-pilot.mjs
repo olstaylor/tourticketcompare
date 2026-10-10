@@ -40,12 +40,28 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { EVENT_ROUTE_ACTION, eventKey, parseEventPath, resolveEventRoute } from "../functions/_event-pages.js";
+import { EVENT_INDEXING_BATCHES } from "../functions/_event-indexing-batches.js";
 import { EVENT_INDEXING_PILOT_KEYS, deriveEventIndexingPilot, eventArtistCityRelation } from "../functions/_event-indexability.js";
 import { providerConfiguredTest, publishableLaneSlugs } from "./lib/event-link-coverage.mjs";
 import { wranglerVars } from "./lib/event-indexability-audit.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 export const PILOT_RECORD_PATH = "data/event-indexing-pilot.json";
+// Staged batches (owner decision 2026-10-09) are measured the same way, one
+// cohort at a time: --batch <id> reads that batch's members instead.
+export const BATCH_RECORD_PATH = "data/event-indexing-batches.json";
+
+/**
+ * A staged batch, shaped like the pilot record so every figure below applies.
+ *
+ * @param {any} batchRecord data/event-indexing-batches.json
+ * @param {string} id
+ */
+export function recordForBatch(batchRecord, id) {
+  const batch = (batchRecord?.batches || []).find((entry) => entry.id === id);
+  if (!batch) throw new Error(`${BATCH_RECORD_PATH}: no batch "${id}"`);
+  return { experiment: `event-page-indexing-${batch.id}`, selected_on: batch.selected_on, launch_date: batch.launch_date, members: batch.members };
+}
 export const DEFAULT_ROUTE_TRAFFIC_PATH = "reports/analytics/route-traffic.json";
 export const CANONICAL_ORIGIN = "https://tourticketcompare.com";
 const CANONICAL_HOSTS = new Set(["tourticketcompare.com", "www.tourticketcompare.com"]);
@@ -68,7 +84,7 @@ export const CHECKPOINTS = Object.freeze([
 // ---------------------------------------------------------------------------
 
 export function parseArgs(argv) {
-  const options = { json: false, help: false, live: false, baseUrl: CANONICAL_ORIGIN, searchConsole: "", searchConsolePeriod: "", routeTraffic: "" };
+  const options = { json: false, help: false, live: false, baseUrl: CANONICAL_ORIGIN, searchConsole: "", searchConsolePeriod: "", routeTraffic: "", batch: "" };
   const value = (flag, index) => {
     const next = argv[index];
     if (!next || next.startsWith("--")) throw new Error(`${flag} requires a value`);
@@ -82,6 +98,7 @@ export function parseArgs(argv) {
     else if (arg === "--search-console") options.searchConsole = value(arg, ++i);
     else if (arg === "--search-console-period") options.searchConsolePeriod = value(arg, ++i);
     else if (arg === "--route-traffic") options.routeTraffic = value(arg, ++i);
+    else if (arg === "--batch") options.batch = value(arg, ++i);
     else if (arg === "--base-url") options.baseUrl = value(arg, ++i).replace(/\/+$/, "");
     else throw new Error(`Unknown argument: ${arg}`);
   }
@@ -105,6 +122,8 @@ Options:
   --search-console-period <a..b>  Measurement period of that export, YYYY-MM-DD..YYYY-MM-DD
   --route-traffic <file>          TTC route traffic export (default ${DEFAULT_ROUTE_TRAFFIC_PATH},
                                   written by npm run report:funnel -- --route-traffic <file>)
+  --batch <id>                    Measure a staged batch from ${BATCH_RECORD_PATH}
+                                  (e.g. batch-1) instead of the pilot
   --live                          GET each pilot page from production and record
                                   page-template facts (read-only HTTP GETs)
   --base-url <url>                Origin for --live (default ${CANONICAL_ORIGIN})
@@ -823,12 +842,12 @@ export function buildReport({ record, events, artists, catalog, vars, now, searc
     read_only: true,
     experiment: record.experiment,
     inputs: {
-      pilot_record: PILOT_RECORD_PATH,
+      pilot_record: record.record_path || PILOT_RECORD_PATH,
       events: "public/data/events.json",
       artists: "public/data/artists.json",
       catalog: "public/data/catalog.json",
       rollout_flag: vars.EVENT_PAGES_INDEXING ?? "",
-      runtime_keys_match_record: JSON.stringify([...EVENT_INDEXING_PILOT_KEYS]) === JSON.stringify(cohort.map((member) => member.key)),
+      runtime_keys_match_record: JSON.stringify([...(record.runtime_keys || EVENT_INDEXING_PILOT_KEYS)]) === JSON.stringify(cohort.map((member) => member.key)),
       ...inputs
     },
     launch: {
@@ -953,7 +972,13 @@ export async function main(argv = process.argv.slice(2)) {
   }
   const now = process.env.TTC_NOW ? Date.parse(process.env.TTC_NOW) : Date.now();
   if (!Number.isFinite(now)) throw new Error("TTC_NOW is not a valid timestamp");
-  const record = readJson(PILOT_RECORD_PATH);
+  const record = options.batch
+    ? {
+        ...recordForBatch(readJson(BATCH_RECORD_PATH), options.batch),
+        record_path: BATCH_RECORD_PATH,
+        runtime_keys: EVENT_INDEXING_BATCHES.find((batch) => batch.id === options.batch)?.keys || []
+      }
+    : readJson(PILOT_RECORD_PATH);
   const events = readJson("public/data/events.json");
   const artists = readJson("public/data/artists.json");
   const catalog = readJson("public/data/catalog.json");

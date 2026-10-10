@@ -69,11 +69,23 @@ async function loadIndexableArtists(env) {
       .map((artist) => ({
         slug: String(artist.slug).trim(),
         name: String(artist?.name || "").trim() || String(artist.slug).trim(),
-        description: String(artist?.short_description || "").trim()
+        description: authoredArtistDescription(artist?.short_description)
       }));
   } catch (error) {
     return [];
   }
+}
+
+// scripts/auto-promote.mjs seeds a new artist with "<genre> act listed on
+// Ticketmaster." until someone writes a real description. That placeholder
+// tells an answer engine nothing, and Ticketmaster's genre is sometimes wrong
+// (a TV dance tour filed as "Rock"), so the artist line carries only its date
+// facts until the description is authored.
+const AUTO_PROMOTE_PLACEHOLDER_DESCRIPTION = /^(?:.+ act )?listed on Ticketmaster\.?$/i;
+
+export function authoredArtistDescription(value) {
+  const text = String(value || "").trim();
+  return AUTO_PROMOTE_PLACEHOLDER_DESCRIPTION.test(text) ? "" : text;
 }
 
 async function loadIndexableLocations(env, indexableArtistSlugs = []) {

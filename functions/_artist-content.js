@@ -1,4 +1,5 @@
 // @ts-check
+import { PRICE_DISCLOSURE } from "./_price-wording.js";
 // Reusable, typed, data-driven content model for the main artist pages.
 //
 // This module is the single source of truth for the *derived* editorial
@@ -63,6 +64,7 @@
  * @property {VenueRun[]} multiNightRuns Venues with more than one tracked date, largest first.
  * @property {number} multiNightShowCount Shows that sit inside a multi-night run.
  * @property {number} showsWithCta   Shows rendering at least one provider button.
+ * @property {number} showsWithPrice Shows whose card prints an approved listed-price snapshot.
  * @property {number} showsWithoutCta
  * @property {boolean} providerCoverageVaries True when the per-date provider count is not uniform.
  * @property {number} maxProviderCount
@@ -88,6 +90,7 @@ const EMPTY_STATUS = /** @type {ArtistBoardStatus} */ ({
   multiNightRuns: [],
   multiNightShowCount: 0,
   showsWithCta: 0,
+  showsWithPrice: 0,
   showsWithoutCta: 0,
   providerCoverageVaries: false,
   maxProviderCount: 0
@@ -122,6 +125,7 @@ export function deriveArtistBoardStatus(shows) {
   const venues = [];
   const runCounts = new Map();
   let showsWithCta = 0;
+  let showsWithPrice = 0;
   let maxProviderCount = 0;
   let minProviderCount = Infinity;
 
@@ -138,6 +142,7 @@ export function deriveArtistBoardStatus(shows) {
     }
     const providerCount = Number.isFinite(show.ctaProviderCount) ? Number(show.ctaProviderCount) : 0;
     if (providerCount > 0) showsWithCta += 1;
+    if (show.hasPriceSnapshot === true) showsWithPrice += 1;
     maxProviderCount = Math.max(maxProviderCount, providerCount);
     minProviderCount = Math.min(minProviderCount, providerCount);
   }
@@ -171,6 +176,7 @@ export function deriveArtistBoardStatus(shows) {
     multiNightRuns,
     multiNightShowCount: multiNightRuns.reduce((total, run) => total + run.count, 0),
     showsWithCta,
+    showsWithPrice,
     showsWithoutCta: ordered.length - showsWithCta,
     providerCoverageVaries: minProviderCount !== maxProviderCount,
     maxProviderCount
@@ -325,7 +331,7 @@ export function artistTicketHelp() {
     points: [
       "A button on a date card opens that exact date.",
       "The buttons under \"Where to buy\" open the artist's page on each ticket site, not a specific date.",
-      "A price is a snapshot of one site's listed price when it was last checked, not your final total. Fees, delivery and tax are added at checkout.",
+      PRICE_DISCLOSURE,
       "When two sites price the same date, the lower listed figure is marked. That is per date, never across different dates, and never a claim that a site is cheaper overall.",
       "A date without a button usually isn't on sale yet, or its link is still being matched."
     ]
@@ -414,6 +420,23 @@ export function artistFaqEntries(artist, status, options = {}) {
   // repeated in the FAQ.
   const SUPERSEDED = [/tour dates\?/i, /prices can i see/i, /prices shown here/i];
   const authored = Array.isArray(artist?.faq) ? artist.faq : [];
+
+  // "How much are <artist> tickets?" is the price question searchers actually
+  // type (Search Console, 2026-10). It is answered from this page's own cards
+  // whenever one prints a listed price, unless the artist's authored FAQ
+  // already asks it. The answer carries counts only, never a figure: it is
+  // also FAQPage JSON-LD, and a tour-wide price is approved nowhere.
+  const authoredPriceQuestion = authored.some((entry) => /how much/i.test(cleanString(entry?.question)));
+  if (status && status.showsWithPrice > 0 && !authoredPriceQuestion) {
+    const priced =
+      status.showsWithPrice === status.showCount
+        ? `Every upcoming ${name} date on this page shows a listed price right now.`
+        : `${status.showsWithPrice} of the ${plural(status.showCount, "upcoming date")} on this page show a listed price right now.`;
+    entries.push([
+      `How much are ${name} tickets?`,
+      `It depends on the date, city and seat. ${priced} Each figure is one ticket site's listed price for that date, with the time it was checked; it isn't face value or a final total, and fees are added at checkout. Compare the same date and seat type across sites before you buy.`
+    ]);
+  }
   for (const entry of authored) {
     if (!entry || typeof entry !== "object") continue;
     const question = cleanString(entry.question);

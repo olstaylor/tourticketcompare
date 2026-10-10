@@ -15,11 +15,18 @@ displayed) · `PROJECT_STATUS.md` (what is live right now).
 ### Canonical definitions
 
 `provider_click` means a visitor activated a provider CTA (client intent).
-`outbound_attempt` means a valid known-provider request reached `/api/out` and
+`outbound_attempt` means a valid known-provider **GET navigation carrying the
+browser-controlled `Sec-Fetch-User: ?1` signal** reached `/api/out` and
 received a server-generated opaque `click_id`. `outbound_click` means the
 reviewed destination and any required Impact tracking URL were validated, the
-row was recorded, and a 3xx was issued. `outbound_blocked` means the same
-legitimate attempt fail-closed before a 3xx, with a safe failure reason.
+qualified row was recorded, and a 3xx was issued. `outbound_blocked` means the
+same qualified attempt fail-closed before a 3xx, with a safe failure reason.
+Valid headerless requests still receive exactly the same redirect or safe
+failure response; they simply do not add a funnel receipt.
+Qualified rows carry `receiptQualification: "fetch_user_v1"` in their internal
+metadata. Commercial reports select that marker, so rolling reporting windows
+do not blend these rows with legacy unqualified receipts from before this
+change.
 
 Affiliate/non-affiliate status is based on the actual redirect hostname:
 reviewed Impact/tracking hosts are `affiliate_network`; reviewed provider hosts
@@ -39,17 +46,39 @@ count terminal rows for funnel totals and distinct IDs for reconciliation.
 | 7b. Click that never left | `outbound_blocked` | server, `functions/api/out.js` | Authoritative failure |
 | 8. Left an email address | `email_signup`, `artist_interest`, `price_alert_interest` | server, `functions/api/signup.js` | Authoritative |
 
-**`outbound_click` is authoritative evidence of a server-issued redirect,
-not of a human clicking a button.** Crawlers, browser automation, repeat
-requests and requests discovered outside the visible CTA can reach `/api/out`.
-Client beacons can be missing independently. Count server receipts separately
-from browser CTA intent; neither count proves arrival at the provider or a sale.
+**`outbound_click` is authoritative evidence of a qualified server-issued
+redirect, not of a human clicking a button.** Its `Sec-Fetch-User: ?1`
+requirement removes ordinary script requests and much automated direct access,
+but browser automation, repeat requests and requests discovered outside the
+visible CTA can still reach `/api/out`. Some compatible headerless browsers
+may be omitted. Client beacons can be missing independently. Count server
+receipts separately from browser CTA intent; neither count proves arrival at
+the provider or a sale.
 
 The commercial funnel report therefore withholds visitor CTR and CTA-to-redirect
 completion rates, including provider, artist, page-type and landing-page rates.
-The two populations have no reliable shared browser-intent identity. A larger
+The full populations have no reliable shared browser-intent identity. A larger
 sample, equal aggregate counts, or a ratio below 100% does not fix that problem.
 The approximate visitor-day landing join is not a count of converting sessions.
+
+Consented ordinary browser CTA activations can additionally carry a fresh
+128-bit `browserIntentId` to TTC's analytics beacon and `/api/out`. It is not
+a visitor ID, is never stored in a cookie, and is not forwarded to a provider
+or Impact. The server's independently generated `click_id` and existing
+SubId1 stay unchanged. The native CTA link is restored after activation;
+denied consent, no JavaScript, synthetic and middle-click paths remain unjoined.
+The report's `browser_intent_join` counts only token groups with exactly one
+client intent and one redirect, matching provider/event (or a non-empty matching
+artist for artist-level links without an event) and a five-minute
+maximum time span. Duplicates, blocked paths, mismatches and incomplete groups
+are reported separately. This partial correlation does not prove a human,
+provider arrival or purchase, and does not unlock visitor conversion rates.
+Both the normal route shell and fallback app bundle attach this token.
+`by_client_page` honors the report’s `--top` and `--min-clicks` thresholds and
+groups only accepted matches by client-reported source page,
+tab landing page and provider. It exposes event counts without random tokens.
+These page associations are not verified Google acquisition or unique users;
+missing landing paths remain unknown rather than being inferred from redirects.
 
 For JSON compatibility, existing `provider_clicks` fields still count server
 redirects and the legacy conversion-rate fields remain present as `null`.
@@ -78,9 +107,59 @@ to it returns `400` and writes nothing. `/api/out` is the only writer of them.
 
 The client events that remain open — `page_view`, `artist_view`, `event_view`,
 `provider_cta_view`, `provider_click` — are indicative browser telemetry. An
-automated request can still invoke the legitimate `/api/out` writer and create
-a genuine redirect receipt. Protecting event names prevents client injection
-of server events; it does not authenticate a human or make conversion rates safe.
+automated browser request can still invoke the legitimate `/api/out` writer and
+create a qualified redirect receipt. Protecting event names and requiring the
+browser-controlled navigation signal reduce injection and direct-request noise;
+they do not authenticate a human or make conversion rates safe.
+
+### Automated redirects and page-backed counting
+
+In September and October 2026 well over 90% of `outbound_click` rows came from
+a crawler that requests `/api/out` URLs directly with rotating stock browser
+user agents and residential IPs. `isLikelyBot` cannot see it. Those requests
+never load a page and arrive with no Referer, so most land on `source_path`
+`/` (`page_type` `home`).
+
+Since 9 Oct 2026 `/api/out` writes receipts only for requests carrying
+`Sec-Fetch-User: ?1` (see *Canonical definitions*), which drops script-made
+direct requests. A browser or headless browser opening a redirect URL
+directly still sends that header, so reports also count a redirect only when
+it is page-backed: its visitor
+key (`request_key`) also sent a browser event (`page_view`, `artist_view`,
+`event_view`, `provider_cta_view`, `provider_click` or `web_vitals`) on the
+same UTC day. The predicate lives in `scripts/lib/human-clicks.mjs`. The
+commercial funnel report shows the raw redirect total, the page-backed total
+and the remainder "without page evidence"; every breakdown and share uses
+page-backed redirects except the reconciliation table, which stays raw for
+matching against Impact. The analytics funnel report and the route-traffic
+export (used by the indexing pilot report) also use page-backed redirects.
+
+Page-backed is not proof of a person: `/api/analytics` is public, so
+automation that runs page scripts or posts beacons still passes. It also
+misses real visitors with JavaScript off, a lost beacon, an IP change
+between page and click, or a page view and click either side of midnight UTC, so the remainder is mostly but not provably crawler
+traffic.
+
+Every qualified receipt (`outbound_attempt`, `outbound_click`,
+`outbound_blocked`) also records `metadata_json.navigation`: `Sec-Fetch-Site`, `Sec-Fetch-Mode`,
+whether `Sec-Fetch-User` was set, whether the Referer was same-origin, and
+`direct` (neither a same-origin fetch nor a same-origin Referer). A click on a
+TTC page is never `direct` in a current browser; a browser opening the
+redirect URL from outside the site is (`Sec-Fetch-Site: none`). The flag is evidence only:
+the redirect is unchanged and the row is still written. It exists to confirm,
+before the owner adds one, that a Cloudflare rule challenging direct hits on
+`/api/out` would not touch real clicks.
+
+Page-backed restatement (Sep 2026 to 9 Oct 2026, raw vs page-backed redirects):
+
+| Week | Raw redirects | Page-backed redirects | Clicking visitors | Page-view visitors |
+|---|---|---|---|---|
+| 1-7 Sep | 4,237 | 58 | 37 | 143 |
+| 8-14 Sep | 10,272 | 14 | 12 | 144 |
+| 15-21 Sep | 2,736 | 79 | 50 | 166 |
+| 22-28 Sep | 3,181 | 63 | 45 | 221 |
+| 29 Sep-5 Oct | 5,577 | 134 | 93 | 359 |
+| 6-9 Oct (to 16:00 UTC) | 3,024 | 202 | 113 | 327 |
 
 ## Lizzy McAlpine price-guide measurement baseline
 
@@ -166,7 +245,7 @@ either the request or the reviewed event record — never from a client claim:
 | Event id / date / city / venue | `event_id`, `event_date`, `event_city`, `event_venue` | the reviewed `events.json` record |
 | Provider | `provider` | validated provider slug |
 | CTA component | `cta_location` | `ctaLocation` on the tracked URL, allowlisted |
-| ↳ *allowed values* | `CTA_LOCATIONS` in `functions/_funnel.js` | `event_card`, `artist_provider_panel`, `artist_page`, `empty_state`, `comparison_hub`, `guide_provider_pair`, `venue_card`, `city_card`, `artist_city_answer`, `price_guide`. Anything else is discarded rather than stored — the value arrives on a query string and is attacker-controllable, so the column stays low-cardinality by construction. `price_guide` is the per-date price tables on an artist price guide (`/artists/<artist>/ticket-prices`, page type `artist_price_guide`). `artist_city_answer` is the per-date price answer at the top of an artist-city page; it is its own surface rather than `event_card` so its contribution to marketplace clicks can be read separately from the show board underneath it. |
+| ↳ *allowed values* | `CTA_LOCATIONS` in `functions/_funnel.js` | `event_card`, `artist_provider_panel`, `artist_page`, `empty_state`, `comparison_hub`, `guide_provider_pair`, `venue_card`, `city_card`, `artist_city_answer`, `price_guide`, `presale_page`. Anything else is discarded rather than stored — the value arrives on a query string and is attacker-controllable, so the column stays low-cardinality by construction. `price_guide` is the per-date price tables on an artist price guide (`/artists/<artist>/ticket-prices`, page type `artist_price_guide`). `presale_page` is the per-date resale table on an artist presale page (`/artists/<artist>/presale`, page type `artist_presale`). `artist_city_answer` is the per-date price answer at the top of an artist-city page; it is its own surface rather than `event_card` so its contribution to marketplace clicks can be read separately from the show board underneath it. |
 | Destination category | `destination_category` | the host actually redirected to |
 | Affiliate status | `is_affiliate` | the host actually redirected to, not the provider's lane — a tracking response that resolves to a direct provider URL is genuinely unmonetized and is recorded as 0. A blocked click has no destination, so it falls back to the lane the visitor was trying to use |
 | Referrer / acquisition | `referrer`, `acquisition_source` | external referrer origin, **session entry row only**; `NULL` on every later event in the visit |
@@ -472,7 +551,9 @@ Also currently unmeasurable:
   first-party analytics sees a visit only once it arrives.
 - **Whether a visit is human.** Bot filtering catches only crawlers that
   identify themselves. Headless automation with a stock browser user agent is
-  counted as a visitor.
+  counted as a visitor. Redirects are counted only when page-backed (see
+  *Automated redirects and page-backed counting*), which removes crawlers that
+  hit `/api/out` directly but not a headless browser that loads pages first.
 - **Cross-device journeys.** No cookie, no login, no identity graph.
 - **True sessions.** See *What "session" means here*.
 - **Ticketmaster revenue.** Ticketmaster is a plain, unmonetized verification

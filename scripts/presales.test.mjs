@@ -129,6 +129,9 @@ const EVENTS = [
 
   const farOnly = deriveArtistPresales([EVENTS[2], EVENTS[3]], ARTIST.slug, NOW_MS);
   assert(farOnly.windowCount === 1 && !farOnly.indexable, "a presale more than 30 days out lists but does not index");
+  const STALE = { name: "VIP Packages Onsale", start: iso(NOW_MS - 120 * DAY), end: iso(NOW_MS + 60 * DAY) };
+  const staleOnly = deriveArtistPresales([fixtureEvent({ id: "ps-stale", city: "Leeds", venue: "Roundhay Park", iso: iso(NOW_MS + 90 * DAY), presales: [STALE] })], ARTIST.slug, NOW_MS);
+  assert(staleOnly.openCount === 1 && staleOnly.indexWindowCount === 0 && !staleOnly.indexable, "a window open for months lists as open but does not index");
   const none = deriveArtistPresales([EVENTS[3]], ARTIST.slug, NOW_MS);
   assert(!none.indexable && none.windowCount === 0, "no presale, no index");
   assert(policy.presalePageGate({ showCount: 0, indexWindowCount: 0 }).reasons.join() === "no_upcoming_shows,no_presale_window", "the gate reports its reasons");
@@ -198,10 +201,11 @@ const text = (html) =>
   assert(page.robots.startsWith("index,follow"), "a near presale under an indexable artist page is indexable");
   const body = text(page.main);
   assert(body.includes("Presales open now") && body.includes("Card Presale"), "open windows are listed");
+  assert(/The first public on-sale starts [^.]+, for Manchester\./.test(body), "the opening answer names the first public on-sale and its city");
   assert(body.includes("Presales coming up") && body.includes("Oasis Fan Presale") && body.includes("Venue Presale"), "upcoming windows are listed");
   assert(body.includes("Public on-sale"), "public on-sales are listed");
   assert(!body.includes("Dublin") && !body.includes("Glasgow") && !body.includes("Leeds"), "past, held and other artists' dates are not listed");
-  assert(!/ticketmaster\.com|\/api\/out/.test(page.main), "the page links to the artist page, never to a ticket site");
+  assert(!/ticketmaster\.com|\/api\/out/.test(page.main), "with no price on record the page links to no ticket site (priced tables: artist-city-prices.test.mjs)");
   assert(body.includes("no presale code is shown"), "the page says codes are never shown");
   assert(page.html.includes('"@type":"WebPage"') || page.html.includes('"@type": "WebPage"'), "the page carries a WebPage node");
   assert(!page.html.includes('"MusicEvent"'), "the page carries no MusicEvent");
@@ -231,6 +235,12 @@ const text = (html) =>
   assert(page.main.includes('href="/artists/oasis/presale"'), "the artist page links its presale page while a window is live");
   const quiet = await render("/artists/oasis", EVENTS.filter((event) => !event.presales));
   assert(!quiet.main.includes("/artists/oasis/presale"), "with nothing listed the artist page does not link it");
+  const staleWindow = { name: "VIP Packages Onsale", start: iso(NOW_MS - 120 * DAY), end: iso(NOW_MS + 60 * DAY) };
+  const stale = await render(
+    "/artists/oasis",
+    EVENTS.map((event) => (event.presales ? { ...event, presales: [staleWindow] } : event))
+  );
+  assert(!stale.main.includes("/artists/oasis/presale"), "a window open for months does not earn the artist page's presale-open line");
 }
 
 {
@@ -239,6 +249,18 @@ const text = (html) =>
   assert(xml.includes("/artists/oasis/presale"), "the sitemap lists an indexable presale page");
   const quiet = JSON.stringify(await sitemapModule.buildSitemapSegments(env(EVENTS.filter((event) => !event.presales)), ["artists"], ORIGIN));
   assert(!quiet.includes("/presale"), "the sitemap drops it when nothing is near");
+  const newer = EVENTS.map((event) => ({ ...event, last_verified_at: "2099-01-02" }));
+  const fresh = (await sitemapModule.buildSitemapSegments(env(newer), ["artists"], ORIGIN)).artists;
+  assert(
+    fresh.find((entry) => entry.path === "/artists/oasis")?.lastmod === "2099-01-02",
+    "an artist page's lastmod follows its newest verified upcoming row"
+  );
+  const pastOnly = EVENTS.concat([{ ...EVENTS[0], id: "past-row", datetime_iso: "2020-01-01T20:00:00Z", last_verified_at: "2099-01-03" }]);
+  const unmoved = (await sitemapModule.buildSitemapSegments(env(pastOnly), ["artists"], ORIGIN)).artists;
+  assert(
+    unmoved.find((entry) => entry.path === "/artists/oasis")?.lastmod !== "2099-01-03",
+    "a re-verified past row the artist page hides does not move its lastmod"
+  );
 }
 
 {

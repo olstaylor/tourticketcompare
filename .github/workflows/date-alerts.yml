@@ -44,9 +44,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -58,7 +58,9 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          ALERT_EMAIL_FROM: ${{ secrets.ALERT_EMAIL_FROM }}
+          # Not a credential: the default works once tourticketcompare.com is
+          # verified in Resend. A secret of the same name overrides it.
+          ALERT_EMAIL_FROM: ${{ secrets.ALERT_EMAIL_FROM || 'TourTicketCompare <alerts@tourticketcompare.com>' }}
           ALERT_POSTAL_ADDRESS: ${{ secrets.ALERT_POSTAL_ADDRESS }}
           ALERT_REPLY_TO: ${{ secrets.ALERT_REPLY_TO }}
           MODE: ${{ inputs.mode }}

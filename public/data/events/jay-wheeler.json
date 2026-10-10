@@ -1,0 +1,1063 @@
+[
+  {
+    "id": "tm-jay-wheeler-2026-malaga-z698xz2qz1kf3jk0a",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler",
+    "city": "Málaga",
+    "country": "Spain",
+    "venue": "Palacio de Dep. Martín Carpena",
+    "datetime_iso": "2026-12-07T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "512986909",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/512986909?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/512986909?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "512986909",
+        "discovery_event_id": "Z698xZ2qZ1kf3Jk0a",
+        "url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/512986909?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kf3Jk0a",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2026-valencia-z698xz2qz16v4e4u-v",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler",
+    "city": "Valencia",
+    "country": "Spain",
+    "venue": "Roig Arena",
+    "datetime_iso": "2026-12-08T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1542576841",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/1542576841?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/1542576841?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1542576841",
+        "discovery_event_id": "Z698xZ2qZ16v4e4U-v",
+        "url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/1542576841?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16v4e4U-v",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2026-bilbao-z698xz2qz1kvb7mek",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler",
+    "city": "Bilbao",
+    "country": "Spain",
+    "venue": "Bilbao Arena Miribilla",
+    "datetime_iso": "2026-12-10T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "58137086",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/58137086?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/58137086?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "58137086",
+        "discovery_event_id": "Z698xZ2qZ1kvb7Mek",
+        "url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/58137086?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kvb7Mek",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2026-madrid-z698xz2qz16va4ba8-",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Movistar Arena",
+    "datetime_iso": "2026-12-13T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1155605421",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/1155605421?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/1155605421?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1155605421",
+        "discovery_event_id": "Z698xZ2qZ16vA4bA8-",
+        "url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/1155605421?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vA4bA8-",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2026-barcelona-z698xz2qz1k-ngufw",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler",
+    "city": "Barcelona",
+    "country": "Spain",
+    "venue": "Palau Sant Jordi",
+    "datetime_iso": "2026-12-19T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "863336232",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/863336232?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/863336232?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "863336232",
+        "discovery_event_id": "Z698xZ2qZ1k-NGUFw",
+        "url": "https://www.ticketmaster.es/event/jay-wheeler-tickets/863336232?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k-NGUFw",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2027-miami-vvg1vz_f7_l-6l",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler - LVF Tour",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Kaseya Center",
+    "datetime_iso": "2027-03-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00654119AE11EB",
+    "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-miami-florida-03-11-2027/event/0D00654119AE11EB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-miami-florida-03-11-2027/event/0D00654119AE11EB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00654119AE11EB",
+        "discovery_event_id": "vvG1VZ_f7_l-6l",
+        "url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-miami-florida-03-11-2027/event/0D00654119AE11EB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_f7_l-6l",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2027-atlanta-vvg1zz_f288dbv",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler: La Voz Favorita",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Roxy",
+    "datetime_iso": "2027-03-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006543D0403EB4",
+    "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-atlanta-georgia-03-12-2027/event/0E006543D0403EB4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-atlanta-georgia-03-12-2027/event/0E006543D0403EB4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006543D0403EB4",
+        "discovery_event_id": "vvG1zZ_f288dBV",
+        "url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-atlanta-georgia-03-12-2027/event/0E006543D0403EB4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_f288dBV",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2027-charlotte-g5evz_f75dxcp",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler - LVF Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Ovens Auditorium",
+    "datetime_iso": "2027-03-15T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0065410BEFEB65",
+    "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-charlotte-north-carolina-03-14-2027/event/2D0065410BEFEB65",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-charlotte-north-carolina-03-14-2027/event/2D0065410BEFEB65",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0065410BEFEB65",
+        "discovery_event_id": "G5eVZ_f75DXcP",
+        "url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-charlotte-north-carolina-03-14-2027/event/2D0065410BEFEB65",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_f75DXcP",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2027-washington-1a4zk4egkd30m3a",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler - LVF Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "DAR Constitution Hall",
+    "datetime_iso": "2027-03-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006542D2937489",
+    "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-washington-district-of-columbia-03-18-2027/event/15006542D2937489",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-washington-district-of-columbia-03-18-2027/event/15006542D2937489",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006542D2937489",
+        "discovery_event_id": "1A4Zk4eGkd30M3a",
+        "url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-washington-district-of-columbia-03-18-2027/event/15006542D2937489",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4Zk4eGkd30M3a",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2027-atlantic-city-vv1aezk4vgkduqubi",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler - LVF Tour",
+    "city": "Atlantic City",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live at Etess Arena",
+    "datetime_iso": "2027-03-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006541CD68DEAC",
+    "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-atlantic-city-new-jersey-03-19-2027/event/02006541CD68DEAC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-atlantic-city-new-jersey-03-19-2027/event/02006541CD68DEAC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006541CD68DEAC",
+        "discovery_event_id": "vv1AeZk4vGkduQuBi",
+        "url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-atlantic-city-new-jersey-03-19-2027/event/02006541CD68DEAC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk4vGkduQuBi",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2027-mashantucket-g5vvz_fp_melk",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler - La Voz Favorita Tour",
+    "city": "Mashantucket",
+    "country": "United States Of America",
+    "venue": "Premier Theater at Foxwoods Resort Casino",
+    "datetime_iso": "2027-03-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D00654599DC27D3",
+    "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-tour-mashantucket-connecticut-03-20-2027/event/1D00654599DC27D3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-tour-mashantucket-connecticut-03-20-2027/event/1D00654599DC27D3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D00654599DC27D3",
+        "discovery_event_id": "G5vVZ_fp_MeLK",
+        "url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-tour-mashantucket-connecticut-03-20-2027/event/1D00654599DC27D3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_fp_MeLK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2027-brooklyn-1ayzk4vgkebxenn",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler - LVF Tour",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2027-03-25T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "30006541BAFA78EA",
+    "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-brooklyn-new-york-03-24-2027/event/30006541BAFA78EA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-brooklyn-new-york-03-24-2027/event/30006541BAFA78EA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "30006541BAFA78EA",
+        "discovery_event_id": "1AYZk4vGkeBXENn",
+        "url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-brooklyn-new-york-03-24-2027/event/30006541BAFA78EA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AYZk4vGkeBXENn",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2027-reading-vv17fz_kgkblt_5x",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler - LVF Tour",
+    "city": "Reading",
+    "country": "United States Of America",
+    "venue": "The Santander Arena",
+    "datetime_iso": "2027-03-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200653E9FA592E2",
+    "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-reading-pennsylvania-03-25-2027/event/0200653E9FA592E2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-reading-pennsylvania-03-25-2027/event/0200653E9FA592E2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200653E9FA592E2",
+        "discovery_event_id": "vv17FZ_KGkBLt_5x",
+        "url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-reading-pennsylvania-03-25-2027/event/0200653E9FA592E2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_KGkBLt_5x",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2027-boston-vv1avzk4agkejxnem",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler - LVF Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-03-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006545A6FAA9EE",
+    "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-boston-massachusetts-03-27-2027/event/01006545A6FAA9EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-boston-massachusetts-03-27-2027/event/01006545A6FAA9EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006545A6FAA9EE",
+        "discovery_event_id": "vv1AvZk4AGkeJXnEm",
+        "url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-boston-massachusetts-03-27-2027/event/01006545A6FAA9EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4AGkeJXnEm",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2027-rosemont-vv178z_kgkbjdkxl",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler - LVF Tour",
+    "city": "Rosemont",
+    "country": "United States Of America",
+    "venue": "Rosemont Theatre",
+    "datetime_iso": "2027-04-03T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400653E9C0C6FAB",
+    "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-rosemont-illinois-04-02-2027/event/0400653E9C0C6FAB",
+    "seatgeek_url": "https://seatgeek.com/jay-wheeler-tickets/rosemont-illinois-rosemont-theatre-2027-04-02-8-pm/concert/18649608",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-rosemont-illinois-04-02-2027/event/0400653E9C0C6FAB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400653E9C0C6FAB",
+        "discovery_event_id": "vv178Z_KGkBjdkXl",
+        "url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-rosemont-illinois-04-02-2027/event/0400653E9C0C6FAB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_KGkBjdkXl",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2027-denver-g5vzz_f20_jhu",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler - LVF Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Fillmore Auditorium (Denver)",
+    "datetime_iso": "2027-04-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006543E465C6CD",
+    "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-denver-colorado-04-04-2027/event/1E006543E465C6CD",
+    "seatgeek_url": "https://seatgeek.com/jay-wheeler-tickets/denver-colorado-fillmore-auditorium-denver-2027-04-04-8-pm/concert/18649609",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-denver-colorado-04-04-2027/event/1E006543E465C6CD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006543E465C6CD",
+        "discovery_event_id": "G5vzZ_f20_jhu",
+        "url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-denver-colorado-04-04-2027/event/1E006543E465C6CD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_f20_jhu",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2027-irving-vvg1yz_f8nrws_",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler - LVF Tour - IRVING",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2027-04-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006544237B2CD9",
+    "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-irving-irving-texas-04-06-2027/event/0C006544237B2CD9",
+    "seatgeek_url": "https://seatgeek.com/jay-wheeler-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2027-04-06-8-pm/concert/18649614",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-irving-irving-texas-04-06-2027/event/0C006544237B2CD9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006544237B2CD9",
+        "discovery_event_id": "vvG1YZ_f8NrwS_",
+        "url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-irving-irving-texas-04-06-2027/event/0C006544237B2CD9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_f8NrwS_",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2027-houston-g5diz_f62ij1f",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler - LVF Tour - HOUSTON",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "713 Music Hall",
+    "datetime_iso": "2027-04-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006541CFA26294",
+    "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-houston-houston-texas-04-07-2027/event/3A006541CFA26294",
+    "seatgeek_url": "https://seatgeek.com/jay-wheeler-tickets/houston-texas-713-music-hall-2027-04-07-8-pm/concert/18649616",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-houston-houston-texas-04-07-2027/event/3A006541CFA26294",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006541CFA26294",
+        "discovery_event_id": "G5dIZ_f62IJ1f",
+        "url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-houston-houston-texas-04-07-2027/event/3A006541CFA26294",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_f62IJ1f",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jay-wheeler-2027-inglewood-vvg1iz_f8af9cn",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler - La Voz Favorita Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "YouTube Theater",
+    "datetime_iso": "2027-04-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00654405517B6A",
+    "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-tour-inglewood-california-04-10-2027/event/0A00654405517B6A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-tour-inglewood-california-04-10-2027/event/0A00654405517B6A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00654405517B6A",
+        "discovery_event_id": "vvG1IZ_f8Af9cn",
+        "url": "https://www.ticketmaster.com/jay-wheeler-la-voz-favorita-tour-inglewood-california-04-10-2027/event/0A00654405517B6A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_f8Af9cn",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-09T18:00:00Z"
+  },
+  {
+    "id": "tm-jay-wheeler-2027-orlando-1axzk4vgkd6tfj5",
+    "artist_slug": "jay-wheeler",
+    "artist_name": "Jay Wheeler",
+    "event_name": "Jay Wheeler - LVF Tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2027-04-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006541C7FD498B",
+    "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-orlando-florida-04-15-2027/event/22006541C7FD498B",
+    "seatgeek_url": "https://seatgeek.com/jay-wheeler-tickets/orlando-florida-kia-center-2027-04-15-8-pm/concert/18649618",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-orlando-florida-04-15-2027/event/22006541C7FD498B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006541C7FD498B",
+        "discovery_event_id": "1AxZk4vGkd6TfJ5",
+        "url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-orlando-florida-04-15-2027/event/22006541C7FD498B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZk4vGkd6TfJ5",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

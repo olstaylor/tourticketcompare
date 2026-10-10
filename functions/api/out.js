@@ -1,5 +1,6 @@
 import { impactMarketplacePublicEnabled } from "../_impact-marketplace-config.js";
-import { isLikelyBot } from "../_bot-detection.js";
+import { browserIntentIdFromRequest } from "../_browser-intent.js";
+import { describeNavigation, isLikelyBot } from "../_bot-detection.js";
 import { insertAnalyticsRow } from "../_analytics-write.js";
 import { eventLifecycleHeld } from "../_route-indexability.js";
 import {
@@ -38,7 +39,21 @@ const PROVIDERS = {
       "ticketmaster.be",
       "ticketmaster.it",
       "ticketmaster.com.au",
-      "ticketmaster.ie"
+      "ticketmaster.ie",
+      "ticketmaster.com.mx",
+      "ticketmaster.co.nz",
+      "ticketmaster.cz",
+      "ticketmaster.no",
+      "ticketmaster.fi",
+      "ticketmaster.ch",
+      "ticketmaster.at",
+      "ticketmaster.dk",
+      "ticketmaster.co.za",
+      "ticketmaster.ae",
+      "ticketmaster.com.br",
+      "ticketmaster.sg",
+      "ticketweb.com",
+      "ticketweb.ca"
     ],
     trustedAffiliateHosts: []
   },
@@ -1526,6 +1541,76 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-warren-zeiders",
     redirectUrl: "https://seatgeek.com/warren-zeiders-tickets",
     verified: true
+  },
+  "dancing-with-the-stars:ticketmaster": {
+    artistSlug: "dancing-with-the-stars",
+    provider: "ticketmaster",
+    linkId: "tm-artist-dancing-with-the-stars",
+    redirectUrl: "https://www.ticketmaster.com/dancing-with-the-stars-tickets/artist/1086116",
+    verified: true
+  },
+  "dancing-with-the-stars:seatgeek": {
+    artistSlug: "dancing-with-the-stars",
+    provider: "seatgeek",
+    linkId: "sg-artist-dancing-with-the-stars",
+    redirectUrl: "https://seatgeek.com/dancing-with-the-stars-1-tickets",
+    verified: true
+  },
+  "def-leppard:ticketmaster": {
+    artistSlug: "def-leppard",
+    provider: "ticketmaster",
+    linkId: "tm-artist-def-leppard",
+    redirectUrl: "https://www.ticketmaster.com/def-leppard-tickets/artist/734898",
+    verified: true
+  },
+  "def-leppard:seatgeek": {
+    artistSlug: "def-leppard",
+    provider: "seatgeek",
+    linkId: "sg-artist-def-leppard",
+    redirectUrl: "https://seatgeek.com/def-leppard-tickets",
+    verified: true
+  },
+  "nickelback:ticketmaster": {
+    artistSlug: "nickelback",
+    provider: "ticketmaster",
+    linkId: "tm-artist-nickelback",
+    redirectUrl: "https://www.ticketmaster.com/nickelback-tickets/artist/710632",
+    verified: true
+  },
+  "nickelback:seatgeek": {
+    artistSlug: "nickelback",
+    provider: "seatgeek",
+    linkId: "sg-artist-nickelback",
+    redirectUrl: "https://seatgeek.com/nickelback-tickets",
+    verified: true
+  },
+  "jay-wheeler:ticketmaster": {
+    artistSlug: "jay-wheeler",
+    provider: "ticketmaster",
+    linkId: "tm-artist-jay-wheeler",
+    redirectUrl: "https://www.ticketmaster.com/jay-wheeler-tickets/artist/2795427",
+    verified: true
+  },
+  "jay-wheeler:seatgeek": {
+    artistSlug: "jay-wheeler",
+    provider: "seatgeek",
+    linkId: "sg-artist-jay-wheeler",
+    redirectUrl: "https://seatgeek.com/jay-wheeler-tickets",
+    verified: true
+  },
+  "mico:ticketmaster": {
+    artistSlug: "mico",
+    provider: "ticketmaster",
+    linkId: "tm-artist-mico",
+    redirectUrl: "https://www.ticketmaster.com/mico-tickets/artist/3000734",
+    verified: true
+  },
+  "mico:seatgeek": {
+    artistSlug: "mico",
+    provider: "seatgeek",
+    linkId: "sg-artist-mico",
+    redirectUrl: "https://seatgeek.com/mico-tickets",
+    verified: true
   }
 };
 
@@ -2421,14 +2506,30 @@ async function hashRequestKey(request) {
   }
 }
 
-// The authoritative outbound-click record. Every monetized and unmonetized CTA
-// on the site navigates through here, so this row — not the client beacon — is
-// what the commercial funnel counts. `provider_click` is the client's
-// statement of intent; `outbound_click` is the server's record that a redirect
-// was actually issued. See docs/COMMERCIAL_FUNNEL.md.
+// A browser-controlled signal for a top-level user navigation. It deliberately
+// qualifies only the analytics receipt: valid redirects must keep working for
+// every compatible request, including headerless browsers and link checkers.
+// `Sec-Fetch-User` is unavailable to script-set request headers, which removes
+// the largest known source of automated direct /api/out receipts without
+// pretending to prove that a person clicked the CTA.
+function hasUserNavigationSignal(request) {
+  return request?.method === "GET" && request.headers.get("sec-fetch-user") === "?1";
+}
+
+// Keep this marker in metadata rather than adding a D1 column: it makes the
+// post-deployment measurement population explicit without a schema migration.
+// Funnel reports must select it so old, unqualified rows are never blended
+// into this population during a rolling date window.
+const RECEIPT_QUALIFICATION = "fetch_user_v1";
+
+// The authoritative qualified outbound-click record. Every monetized and
+// unmonetized CTA on the site navigates through here, so this row — not the
+// client beacon — is what the commercial funnel counts. `provider_click` is
+// the client's statement of intent; `outbound_click` is the server's record
+// that a qualified redirect was actually issued. See docs/COMMERCIAL_FUNNEL.md.
 async function trackClick({ request, env, link, sourcePath, destinationHost, ctaLocation, clickId, impactTracked = false, impactReconciliationEligible = false, outcome = "redirected", status = null }) {
   const db = getDemandDb(env);
-  if (!db) return;
+  if (!db || !hasUserNavigationSignal(request)) return;
   // Self-identifying crawlers follow every affiliate link on the page, which
   // inflated outbound_click far above real demand. Skip the analytics write for
   // them; the redirect itself is untouched and still resolves normally.
@@ -2452,6 +2553,7 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
     : (destinationCategory === "affiliate_network" ? 1 : 0);
   const userAgent = clean(request.headers.get("user-agent"), 255) || null;
   const metadata = JSON.stringify({
+    browserIntentId: browserIntentIdFromRequest(request) || undefined,
     provider: link.provider,
     artistSlug: link.artistSlug,
     showId: link.showId || null,
@@ -2463,7 +2565,9 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
     guideSlug: link.guideSlug || undefined,
     position: link.position || undefined,
     outcome,
-    status: status || undefined
+    status: status || undefined,
+    receiptQualification: RECEIPT_QUALIFICATION,
+    navigation: describeNavigation(request)
   });
 
   await insertAnalyticsRow(db, {
@@ -2507,7 +2611,7 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
 // The same opaque click ID joins this row to exactly one terminal outcome.
 async function trackOutboundAttempt({ request, env, link, sourcePath, ctaLocation, clickId }) {
   const db = getDemandDb(env);
-  if (!db || isLikelyBot(request.headers.get("user-agent"))) return;
+  if (!db || !hasUserNavigationSignal(request) || isLikelyBot(request.headers.get("user-agent"))) return;
   const path = normalizeAnalyticsPath(sourcePath);
   const pageType = classifyPageType(path);
   const userAgent = clean(request.headers.get("user-agent"), 255) || null;
@@ -2528,7 +2632,9 @@ async function trackOutboundAttempt({ request, env, link, sourcePath, ctaLocatio
       ctaLocation: normalizeCtaLocation(ctaLocation) || undefined,
       guideSlug: link.guideSlug || undefined,
       position: link.position || undefined,
-      outcome: "attempted"
+      outcome: "attempted",
+      receiptQualification: RECEIPT_QUALIFICATION,
+      navigation: describeNavigation(request)
     }),
     provider: link.provider || null,
     tour_slug: null,

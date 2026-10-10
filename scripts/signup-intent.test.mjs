@@ -65,6 +65,7 @@ async function submit(body) {
 
 const subscriberRow = (writes) => writes.find((write) => write.sql.startsWith("INSERT INTO email_subscribers"));
 const interestRows = (writes) => writes.filter((write) => write.sql.startsWith("INSERT INTO artist_interests"));
+const consentRows = (writes) => writes.filter((write) => write.sql.startsWith("INSERT INTO email_update_consents"));
 const analyticsRow = (writes) => writes.find((write) => write.sql.includes("analytics_events"));
 
 {
@@ -93,6 +94,60 @@ const analyticsRow = (writes) => writes.find((write) => write.sql.includes("anal
   assert(analytics, "price interest is still counted in analytics");
   assert(analytics.args.includes("price_alert_interest"), "the analytics row is the distinct price_alert_interest event");
   assert(analytics.args.includes("fixture-artist"), "the analytics row keeps the artist for demand measurement");
+}
+
+// The optional weekly updates box: recorded only when ticked, with the exact
+// wording shown, and never from the price-interest form.
+const { UPDATES_CONSENT_TEXT } = await import(pathToFileURL(path.join(root, "functions/_email-alerts.js")));
+
+{
+  const { writes } = await submit({ email: "fan@example.com", artistSlug: "fixture-artist", sourcePath: "/artists/fixture-artist" });
+  assert(consentRows(writes).length === 0, "an unticked box records no updates consent");
+}
+
+{
+  const { response, writes } = await submit({ email: "fan@example.com", artistSlug: "fixture-artist", sourcePath: "/artists/fixture-artist", updates: true });
+  const consent = consentRows(writes);
+  assert(response.status === 200 && (await response.json()).updates === true, "a ticked box is reported back");
+  assert(consent.length === 1, "a ticked box records updates consent");
+  assert(consent[0].args[0] === "fan@example.com" && consent[0].args[2] === UPDATES_CONSENT_TEXT, "consent keeps the address and the exact wording");
+  assert(interestRows(writes).length === 1, "the date alert signup still happens alongside it");
+  assert(writes.some((write) => write.sql.startsWith("CREATE TABLE IF NOT EXISTS email_update_consents")), "the consent table creates itself");
+}
+
+{
+  const { writes } = await submit({ email: "fan@example.com", artistSlug: "fixture-artist", intent: "price_alert", updates: true });
+  assert(consentRows(writes).length === 0, "price interest can never record updates consent");
+}
+
+{
+  const { writes } = await submit({ email: "fan@example.com", artistSlug: "fixture-artist", updates: "on" });
+  assert(consentRows(writes).length === 0, "only an explicit yes counts as consent");
+}
+
+{
+  const db = fakeDb();
+  const response = await onRequestPost({
+    request: new Request("https://tourticketcompare.com/api/signup", {
+      method: "POST",
+      headers: { "content-type": "application/x-www-form-urlencoded", "user-agent": "fixture", "cf-connecting-ip": "203.0.113.9" },
+      body: new URLSearchParams({ email: "fan@example.com", artistSlug: "fixture-artist", sourcePath: "/artists/fixture-artist", updates: "yes" }).toString()
+    }),
+    env: env(db)
+  });
+  const html = await response.text();
+  assert(consentRows(db.writes).length === 1, "a no-JS form post with the box ticked records consent");
+  assert(/weekly presale and on-sale email/.test(html), "the no-JS confirmation mentions the weekly email");
+}
+
+// The form copy matches the stored consent wording on both render paths.
+{
+  const fs = await import("node:fs");
+  const appJs = fs.readFileSync(path.join(root, "public/app.js"), "utf8");
+  assert(appJs.includes(`const UPDATES_CONSENT_TEXT = ${JSON.stringify(UPDATES_CONSENT_TEXT)};`), "public/app.js shows the same consent wording");
+  const router = fs.readFileSync(path.join(root, "functions/[[path]].js"), "utf8");
+  assert(router.includes('name="updates" value="yes" /> ${escapeHtml(UPDATES_CONSENT_TEXT)}'), "the server-rendered form uses the shared wording");
+  assert(!/name="updates"[^>]*checked/.test(router) && !/updates\.checked = true/.test(appJs), "the box is never pre-ticked");
 }
 
 console.log(`signup-intent: ${passed} assertions passed`);

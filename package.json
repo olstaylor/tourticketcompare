@@ -33,6 +33,7 @@
     "test:renderer-assets": "node scripts/renderer-asset-cache.test.mjs",
     "test:location-pages": "node scripts/location-pages.test.mjs",
     "test:onsale-calendar": "node scripts/onsale-calendar.test.mjs",
+    "test:tours-hub": "node scripts/tours-hub.test.mjs",
     "test:presales": "node scripts/presales.test.mjs",
     "test:price-guides": "node scripts/price-guides.test.mjs",
     "price-guides:propose": "node scripts/propose-price-guides.mjs",
@@ -58,6 +59,7 @@
     "validate:cta-provider-state:self-test": "node scripts/validate-cta-provider-state.mjs --self-test",
     "demand:migrate": "wrangler d1 execute tourticketcompare-demand --remote --file migrations/0001_demand.sql",
     "alerts:date:preview": "node scripts/send-date-alerts.mjs --mode preview",
+    "alerts:digest:preview": "node scripts/send-weekly-digest.mjs --mode preview",
     "demand:export": "wrangler d1 execute tourticketcompare-demand --remote --command \"SELECT * FROM email_subscribers\"",
     "events:partition": "python3 scripts/partition-events.py",
     "events:validate": "python3 scripts/validate-events.py",
@@ -120,6 +122,7 @@
     "report:event-routes": "node scripts/report-event-routes.mjs",
     "report:event-routes:json": "node scripts/report-event-routes.mjs --json",
     "report:event-indexing-pilot": "node scripts/report-event-indexing-pilot.mjs",
+    "events:indexing-batch:propose": "node scripts/select-event-indexing-batch.mjs",
     "report:event-indexing-pilot:json": "node scripts/report-event-indexing-pilot.mjs --json",
     "report:link-coverage": "node scripts/report-link-coverage.mjs",
     "report:link-coverage:json": "node scripts/report-link-coverage.mjs --json",
@@ -191,6 +194,7 @@
     "docs:check": "node scripts/validate-docs.mjs",
     "test:remediation-review": "node scripts/remediation-review-self-test.mjs",
     "test:affiliate-attribution": "node scripts/affiliate-attribution.test.mjs",
+    "test:bot-traffic": "node scripts/bot-traffic.test.mjs",
     "test:price-timing": "node scripts/price-timing.test.mjs"
   },
   "devDependencies": {

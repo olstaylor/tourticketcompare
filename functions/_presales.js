@@ -23,7 +23,7 @@
 // Shared by the router ([[path]].js), the sitemap, llms.txt and the sync
 // script, so none of them can disagree. Pure: no HTML, no I/O.
 
-import { eventLifecycleHeld, presalePageGate, PRESALE_PAGE_INDEX_DAYS } from "./_route-indexability.js";
+import { eventLifecycleHeld, presalePageGate, PRESALE_PAGE_FRESH_DAYS, PRESALE_PAGE_INDEX_DAYS } from "./_route-indexability.js";
 
 const DAY_MS = 86400000;
 
@@ -156,7 +156,9 @@ export function deriveArtistPresales(events, artistSlug, now = Date.now()) {
     .filter((entry) => Number.isFinite(entry.onsaleMs) && entry.onsaleMs > now && entry.onsaleMs - now <= PRESALE_MAX_HORIZON_DAYS * DAY_MS)
     .sort((a, b) => a.onsaleMs - b.onsaleMs || a.datetimeIso.localeCompare(b.datetimeIso));
   const coveredShowIds = new Set(windows.flatMap((window) => window.shows.map((show) => show.id)));
-  const indexWindowCount = windows.filter((window) => window.startMs - now <= PRESALE_PAGE_INDEX_DAYS * DAY_MS).length;
+  const indexWindowCount = windows.filter(
+    (window) => window.startMs - now <= PRESALE_PAGE_INDEX_DAYS * DAY_MS && now - window.startMs <= PRESALE_PAGE_FRESH_DAYS * DAY_MS
+  ).length;
   const view = {
     artistSlug: slug,
     windows,

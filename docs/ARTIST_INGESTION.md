@@ -26,7 +26,7 @@ Run `npm run artists:requests:check` (it is also in `test:quick` and
 | When (UTC) | Workflow | What it does with the request |
 |---|---|---|
 | 10:15 | `roster-candidates.yml` | Puts open requests first in the day's candidate list. Captures the SeatGeek performer and Ticketmaster attraction from their APIs by exact name, runs the D1–D5 screen, and posts the verdict (marked "owner-requested") in the `automation:roster-candidates` issue. Writes nothing. |
-| 10:45 | `auto-promote.yml` | The same capture and screen, then promotes up to 5 artists a day (20 a week). Requests come first. It creates the artist record, catalog entry, registry entry and artist-level links, ingests the artist's Ticketmaster dates and SeatGeek event links, runs `test:mvp` and `test:providers`, and auto-merges one PR. Runs only while the repo variable `AUTOPROMOTE_ENABLED` is `true`. |
+| 10:45 | `auto-promote.yml` | The same capture and screen, then promotes up to 6 artists a day (40 a week). Requests come first. It creates the artist record, catalog entry, registry entry and artist-level links, ingests the artist's Ticketmaster dates and SeatGeek event links, runs `test:mvp` and `test:providers`, and auto-merges one PR. Runs only while the repo variable `AUTOPROMOTE_ENABLED` is `true`. |
 
 **The screen for a request.** Identity must match exactly on both APIs (D1).
 The name must not be on `data/artist-denylist.json`, must not match the

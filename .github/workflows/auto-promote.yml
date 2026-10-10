@@ -4,7 +4,7 @@ name: Auto-promote artists
 # Off unless the repo variable AUTOPROMOTE_ENABLED is "true": the job then ends
 # green at its first step, so automation-health still sees it run. When on, one
 # job re-captures identities, screens (D1–D5), writes shell + promotion through
-# the existing promote writer (max 5/day, 20/week), ingests the new artists'
+# the existing promote writer (max 6/day, 40/week), ingests the new artists'
 # dates (amendment 5), gates out.js to VERIFIED_TICKET_LINKS additions only
 # (amendment 4), runs test:mvp and opens an auto-merged PR of publish class
 # `autopromote`, whose merge re-reads both switches.

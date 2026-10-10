@@ -719,11 +719,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107158269",
-        "url": "https://www.stubhub.ie/teddy-swims-boston-tickets-10-9-2026/event/107158269",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_FGktNMxtd",
@@ -731,7 +731,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-boston-tickets-10-9-2026/event/107158269"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-teddy-swims-2026-philadelphia-1adzz_fgkm5wpjt",

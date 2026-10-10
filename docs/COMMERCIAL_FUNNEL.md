@@ -15,18 +15,21 @@ displayed) · `PROJECT_STATUS.md` (what is live right now).
 ### Canonical definitions
 
 `provider_click` means a visitor activated a provider CTA (client intent).
-`outbound_attempt` means a valid known-provider **GET navigation carrying the
-browser-controlled `Sec-Fetch-User: ?1` signal** reached `/api/out` and
+`outbound_attempt` means a valid known-provider **GET navigation carrying a
+browser-controlled user-navigation signal** (`Sec-Fetch-User: ?1`, or
+`Sec-Fetch-Site: same-origin` with `Sec-Fetch-Mode: navigate`, which iOS Safari
+sends for new-tab CTAs instead) reached `/api/out` and
 received a server-generated opaque `click_id`. `outbound_click` means the
 reviewed destination and any required Impact tracking URL were validated, the
 qualified row was recorded, and a 3xx was issued. `outbound_blocked` means the
 same qualified attempt fail-closed before a 3xx, with a safe failure reason.
 Valid headerless requests still receive exactly the same redirect or safe
 failure response; they simply do not add a funnel receipt.
-Qualified rows carry `receiptQualification: "fetch_user_v1"` in their internal
-metadata. Commercial reports select that marker, so rolling reporting windows
-do not blend these rows with legacy unqualified receipts from before this
-change.
+Qualified rows carry `receiptQualification: "user_navigation_v2"` in their
+internal metadata (`fetch_user_v1` rows from 9 to 10 October 2026 required
+`Sec-Fetch-User` and recorded no iOS Safari new-tab clicks). Commercial reports
+select both markers, so rolling reporting windows do not blend these rows with
+legacy unqualified receipts from before the gate.
 
 Affiliate/non-affiliate status is based on the actual redirect hostname:
 reviewed Impact/tracking hosts are `affiliate_network`; reviewed provider hosts

@@ -2506,21 +2506,30 @@ async function hashRequestKey(request) {
   }
 }
 
-// A browser-controlled signal for a top-level user navigation. It deliberately
-// qualifies only the analytics receipt: valid redirects must keep working for
-// every compatible request, including headerless browsers and link checkers.
-// `Sec-Fetch-User` is unavailable to script-set request headers, which removes
-// the largest known source of automated direct /api/out receipts without
-// pretending to prove that a person clicked the CTA.
+// Browser-controlled signals for a top-level user navigation. They qualify only
+// the analytics receipt: valid redirects must keep working for every compatible
+// request, including headerless browsers and link checkers. Sec-Fetch-* headers
+// cannot be set by page scripts, so they exclude the automated direct /api/out
+// hits without pretending to prove that a person clicked the CTA.
+//
+// `Sec-Fetch-User: ?1` alone is not enough: iOS Safari omits it when a CTA
+// opens in a new tab, and after fetch_user_v1 shipped no iPhone receipt was
+// recorded while redirects kept working. A same-origin navigation (the CTA's
+// own `Sec-Fetch-Site`/`Sec-Fetch-Mode`) qualifies as well; a direct hit
+// arrives as `none` or with no Sec-Fetch headers at all.
 function hasUserNavigationSignal(request) {
-  return request?.method === "GET" && request.headers.get("sec-fetch-user") === "?1";
+  if (request?.method !== "GET") return false;
+  const headers = request.headers;
+  if (headers.get("sec-fetch-user") === "?1") return true;
+  return headers.get("sec-fetch-site") === "same-origin" && headers.get("sec-fetch-mode") === "navigate";
 }
 
 // Keep this marker in metadata rather than adding a D1 column: it makes the
 // post-deployment measurement population explicit without a schema migration.
 // Funnel reports must select it so old, unqualified rows are never blended
-// into this population during a rolling date window.
-const RECEIPT_QUALIFICATION = "fetch_user_v1";
+// into this population during a rolling date window. v1 rows required
+// Sec-Fetch-User; v2 also accepts a same-origin navigation (see above).
+const RECEIPT_QUALIFICATION = "user_navigation_v2";
 
 // The authoritative qualified outbound-click record. Every monetized and
 // unmonetized CTA on the site navigates through here, so this row — not the

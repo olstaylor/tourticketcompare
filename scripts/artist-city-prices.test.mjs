@@ -291,9 +291,10 @@ const baseAssets = new Map();
 for (const file of ASSET_FILES) baseAssets.set(`/${file}`, await read(`public/${file}`));
 baseAssets.set("/", baseAssets.get("/index.html"));
 
-function env({ withDb }) {
+function env({ withDb, priceRows = PRICE_ROWS, artists = null }) {
   const assets = new Map(baseAssets);
   assets.set("/data/events.json", JSON.stringify(EVENTS));
+  if (artists) assets.set("/data/artists.json", JSON.stringify(artists));
   return {
     MOCK_MODE: "false",
     ALLOW_MOCK_PRICES: "false",
@@ -313,7 +314,7 @@ function env({ withDb }) {
     TICKETLIQUIDATOR_PRICE_DISPLAY_ENABLED: "false",
     STUBHUB_INTERNATIONAL_PUBLIC_ENABLED: "true",
     STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED: "true",
-    ...(withDb ? { DEMAND_DB: fakeDb(PRICE_ROWS, HISTORY_ROWS) } : {}),
+    ...(withDb ? { DEMAND_DB: fakeDb(priceRows, HISTORY_ROWS) } : {}),
     ASSETS: {
       async fetch(request) {
         const body = assets.get(new URL(request.url).pathname);
@@ -323,10 +324,10 @@ function env({ withDb }) {
   };
 }
 
-async function render(pathname, { withDb = true } = {}) {
+async function render(pathname, { withDb = true, priceRows, artists } = {}) {
   const response = await middlewareModule.onRequest({
     request: new Request(`${ORIGIN}${pathname}`),
-    env: env({ withDb }),
+    env: env({ withDb, priceRows, artists }),
     next: () => new Response("static-asset", { status: 200 })
   });
   const html = await response.text();
@@ -751,6 +752,19 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(page.main.includes("How this site makes money"), "a priced presale page carries the money disclosure");
   const unpriced = await render(presalePath, { withDb: false });
   assert(!unpriced.main.includes("/api/out"), "with no price on record the presale page links to no ticket site");
+  // A date with no price points to its card on the artist page: the presale
+  // page has no show cards of its own.
+  const partial = await render(presalePath, { priceRows: PRICE_ROWS.filter((row) => row.event_id !== RUN_B.id) });
+  const partialSection = (partial.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [])[0] || "";
+  const optionHrefs = [...partialSection.matchAll(/href="([^"]+)"[^>]*>See ticket options</g)].map((m) => m[1]);
+  assert(optionHrefs.length === 1 && optionHrefs[0].startsWith(`/artists/${ARTIST.slug}#`), `an unpriced presale row links to the artist page card: ${optionHrefs}`);
+  assert(!/href="#/.test(partialSection), "the presale table has no same-page anchor");
+  // An artist under review shows no ticket buttons anywhere, presale page included.
+  const reviewArtists = artistsMeta.map((artist) =>
+    String(artist?.slug) === ARTIST.slug ? { ...artist, indexing_status: "review_required" } : artist
+  );
+  const review = await render(presalePath, { artists: reviewArtists });
+  assert(!review.main.includes("/api/out") && !review.main.includes("artist-city-price-answer"), "an artist under review gets no presale resale table");
 }
 
 console.log(`artist-city-prices: ${passed} checks passed`);

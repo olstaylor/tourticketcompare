@@ -3175,6 +3175,9 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
     .map((row) => {
       const dateLabel = formatShowDateServer(row.datetimeISO, row.timezone) || "Date to be confirmed";
       const cardAnchor = showAnchorId({ id: row.showId });
+      // Where an unpriced row's "See ticket options" goes: the date's card on
+      // this page by default, or wherever the surface says its cards live.
+      const cardHref = cardAnchor ? (surface?.cardHrefFor ? surface.cardHrefFor(cardAnchor) : `#${cardAnchor}`) : "";
       let priceCell;
       if (row.lowest) {
         const amount = formatServerPrice(row.lowest.price, row.lowest.currency);
@@ -3202,10 +3205,10 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
         // Checked and nothing eligible came back. Saying so is honest; saying it
         // about a row the server never queried would not be.
         priceCell = `<span class="muted">${escapeHtml(NO_PRICE_NOTE)}</span>${
-          cardAnchor ? ` ${anchor("See ticket options", `#${cardAnchor}`, "text-link")}` : ""
+          cardHref ? ` ${anchor("See ticket options", cardHref, "text-link")}` : ""
         }`;
       } else {
-        priceCell = cardAnchor ? anchor("See ticket options", `#${cardAnchor}`, "text-link") : "";
+        priceCell = cardHref ? anchor("See ticket options", cardHref, "text-link") : "";
       }
       // data-label carries each cell's column name for the narrow-screen
       // layout, where the table stacks into one block per date and the header
@@ -5193,6 +5196,9 @@ function presaleListedShowIds(presales) {
 // Rendered only when at least one date has an eligible price.
 function renderPresaleResaleTable(route, events, env) {
   const artist = route.artist;
+  // An artist page under review carries no ticket buttons, so neither does its
+  // presale page.
+  if (artist.indexing_status !== "indexable_with_substantial_content") return "";
   const listedIds = presaleListedShowIds(route.presales);
   if (!listedIds.size || !Array.isArray(events) || !events.length) return "";
   const shows = futureShowsForArtist(events, artist.slug).filter((show) => listedIds.has(String(show.id || "")));
@@ -5212,7 +5218,9 @@ function renderPresaleResaleTable(route, events, env) {
     caption: `Lowest listed resale price by date for ${artist.name}`,
     titleId: "presaleResaleTitle",
     ctaLocation: "presale_page",
-    placeFor: (row) => placeById.get(row.showId) || row.venue
+    placeFor: (row) => placeById.get(row.showId) || row.venue,
+    // This page has no show cards; each date's card is on the artist page.
+    cardHrefFor: (cardAnchor) => `/artists/${artist.slug}#${cardAnchor}`
   });
 }
 
@@ -8066,7 +8074,8 @@ async function renderRequest(context) {
     } else if (route.type === "presale") {
       // The dates the page lists: those under a presale window or with an
       // upcoming public on-sale (presaleListedShowIds).
-      const listedIds = presaleListedShowIds(route.presales);
+      // An artist under review gets no table (renderPresaleResaleTable), so no read.
+      const listedIds = route.artist.indexing_status === "indexable_with_substantial_content" ? presaleListedShowIds(route.presales) : new Set();
       priceCandidates = futureShowsForArtist(events, route.artist.slug).filter((show) => listedIds.has(String(show.id || "")));
     } else if (route.type === "artist-city") {
       const cityShowIds = artistCityShowIdSet(route.artistCity || {});

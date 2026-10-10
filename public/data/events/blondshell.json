@@ -353,7 +353,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "11006538816C4514",
     "ticketmaster_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/vancouver-canada-commodore-ballroom-2027-03-06-6-30-pm/concert/18633501",
     "vividseats_url": "https://www.vividseats.com/blondshell-tickets-vancouver-commodore-ballroom-3-6-2027/production/7625188",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-vancouver-british-columbia-03-06-2027/event/11006538816C4514",
@@ -369,11 +369,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633501,
+        "url": "https://seatgeek.com/blondshell-tickets/vancouver-canada-commodore-ballroom-2027-03-06-6-30-pm/concert/18633501",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625188,
@@ -429,7 +429,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006538E67CCB2E",
     "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-asbury-park-new-jersey-03-23-2027/event/00006538E67CCB2E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/asbury-park-new-jersey-the-stone-pony-2-2027-03-23-7-pm/concert/18633502",
     "vividseats_url": "https://www.vividseats.com/blondshell-tickets-asbury-park-stone-pony-3-23-2027/production/7625132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-asbury-park-new-jersey-03-23-2027/event/00006538E67CCB2E",
@@ -445,11 +445,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633502,
+        "url": "https://seatgeek.com/blondshell-tickets/asbury-park-new-jersey-the-stone-pony-2-2027-03-23-7-pm/concert/18633502",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625132,
@@ -489,7 +489,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "070065399B2D42BD",
     "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-madison-wisconsin-05-15-2027/event/070065399B2D42BD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/madison-wisconsin-majestic-theatre-wi-2027-05-15-8-pm/concert/18633499",
     "vividseats_url": "https://www.vividseats.com/blondshell-tickets-madison-majestic-theatre---madison-5-15-2027/production/7626132",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-madison-wisconsin-05-15-2027/event/070065399B2D42BD",
@@ -505,11 +505,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633499,
+        "url": "https://seatgeek.com/blondshell-tickets/madison-wisconsin-majestic-theatre-wi-2027-05-15-8-pm/concert/18633499",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7626132,
@@ -565,7 +565,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "08006537CC738AB0",
     "ticketmaster_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-detroit-michigan-05-17-2027/event/08006537CC738AB0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/blondshell-tickets/detroit-michigan-saint-andrews-hall-2027-05-17-6-pm/concert/18633500",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-detroit-michigan-05-17-2027/event/08006537CC738AB0",
@@ -581,11 +581,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633500,
+        "url": "https://seatgeek.com/blondshell-tickets/detroit-michigan-saint-andrews-hall-2027-05-17-6-pm/concert/18633500",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

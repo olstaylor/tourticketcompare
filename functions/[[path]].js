@@ -51,7 +51,7 @@ import {
 import { isUpcomingShow, showStartMs } from "./_upcoming.js";
 import { CARD_PRICE_TAIL, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, lowestPriceLabel, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, resolveEventRoute } from "./_event-pages.js";
-import { EVENT_INDEXING_PILOT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
+import { EVENT_INDEXED_COHORT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
 import {
   BLOG_INDEX_PATH,
   derivePosts as deriveBlogPosts,
@@ -410,7 +410,7 @@ async function loadArtistsMeta(env) {
   return loadJsonAsset(env, "/data/artists.json", Array.isArray, []);
 }
 
-const EVENT_INDEXING_PILOT_KEY_SET = new Set(EVENT_INDEXING_PILOT_KEYS);
+const EVENT_INDEXED_COHORT_KEY_SET = new Set(EVENT_INDEXED_COHORT_KEYS);
 const NO_EVENT_INDEXING_PILOT = Object.freeze({ active: false, reason: "no_pilot_event", members: [], indexed: [], pathById: new Map() });
 
 /**
@@ -424,8 +424,9 @@ const NO_EVENT_INDEXING_PILOT = Object.freeze({ active: false, reason: "no_pilot
  *
  * @param {any} env
  * @param {string} origin  The request's own origin (not the canonical one).
- * @param {any[] | null} [candidates]  When given, records the route shows: a
- *   route holding no pilot key skips the evaluation (and the full-file load).
+ * @param {any[] | null} [candidates]  When given, records the route shows: only
+ *   the cohort keys among them are evaluated, and a route holding none skips
+ *   the evaluation (and the full-file load).
  * @param {{ events?: any[], artists?: any[] }} [loaded]  The full events.json and
  *   artists.json when the caller has already parsed them.
  */
@@ -433,9 +434,12 @@ export async function eventIndexingPilotFor(env, origin, candidates = null, load
   const hostIndexable = isIndexableOrigin(origin);
   // Flag off or a non-canonical host: inactive, without loading anything.
   if (!hostIndexable || !eventPagesIndexingEnabled(env)) return deriveEventIndexingPilot([], [], env, { hostIndexable });
-  if (Array.isArray(candidates) && !candidates.some((event) => EVENT_INDEXING_PILOT_KEY_SET.has(eventKey(event?.id)))) {
-    return NO_EVENT_INDEXING_PILOT;
-  }
+  // A route evaluates only the cohort keys it shows: an artist board holding
+  // three cohort events decides those three, not every cohort member.
+  const candidateKeys = Array.isArray(candidates)
+    ? [...new Set(candidates.map((event) => eventKey(event?.id)).filter((key) => EVENT_INDEXED_COHORT_KEY_SET.has(key)))]
+    : null;
+  if (candidateKeys && !candidateKeys.length) return NO_EVENT_INDEXING_PILOT;
   // The sitemap and llms.txt pass the files they already parsed, so a cold
   // discovery request parses the multi-megabyte events.json once, not twice.
   const [events, artistsMeta] = await Promise.all([
@@ -444,6 +448,7 @@ export async function eventIndexingPilotFor(env, origin, candidates = null, load
   ]);
   return deriveEventIndexingPilot(events, artistsMeta, env, {
     hostIndexable,
+    ...(candidateKeys ? { pilotKeys: candidateKeys } : {}),
     lanesFor: (event) => eventPublishableLaneSlugs(event, env)
   });
 }

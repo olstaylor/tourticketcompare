@@ -3156,7 +3156,10 @@ function weeklyChangeSentence(change) {
 // Indexability is not consulted. A single-date page is noindex because it adds
 // nothing an artist page cannot already rank for, which is a routing judgement,
 // not a reason to withhold the price from the visitor who is standing on it.
-function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId = new Map(), weeklyChangeByShowId = new Map()) {
+// `surface` lets the presale page reuse this table for its own dates: a
+// heading, an intro, a place label per row (the dates span several cities) and
+// its own cta_location. Omitted, the artist-city output is unchanged.
+function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId = new Map(), weeklyChangeByShowId = new Map(), surface = null) {
   const rows = priceAnswer?.rows || [];
   if (!priceAnswer?.pricedRowCount || !rows.length) return "";
 
@@ -3164,13 +3167,17 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
   // down every row of the table is the "say each fact once" rule broken once
   // per date. Name it in the lead instead and drop the column; keep the column
   // only where the dates genuinely differ.
-  const venues = [...new Set(rows.map((row) => row.venue).filter(Boolean))];
+  const placeFor = surface?.placeFor || ((row) => row.venue);
+  const venues = [...new Set(rows.map((row) => placeFor(row)).filter(Boolean))];
   const singleVenue = venues.length === 1 ? venues[0] : "";
 
   const body = rows
     .map((row) => {
       const dateLabel = formatShowDateServer(row.datetimeISO, row.timezone) || "Date to be confirmed";
       const cardAnchor = showAnchorId({ id: row.showId });
+      // Where an unpriced row's "See ticket options" goes: the date's card on
+      // this page by default, or wherever the surface says its cards live.
+      const cardHref = cardAnchor ? (surface?.cardHrefFor ? surface.cardHrefFor(cardAnchor) : `#${cardAnchor}`) : "";
       let priceCell;
       if (row.lowest) {
         const amount = formatServerPrice(row.lowest.price, row.lowest.currency);
@@ -3182,7 +3189,7 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
           provider: row.lowest.provider,
           artistSlug: artist.slug,
           showId: row.showId,
-          ctaLocation: "artist_city_answer"
+          ctaLocation: surface?.ctaLocation || "artist_city_answer"
         });
         // The trailing recorded low, when there is one. `deriveEventPriceLow`
         // includes the live snapshot among its candidates, so this can never be
@@ -3198,10 +3205,10 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
         // Checked and nothing eligible came back. Saying so is honest; saying it
         // about a row the server never queried would not be.
         priceCell = `<span class="muted">${escapeHtml(NO_PRICE_NOTE)}</span>${
-          cardAnchor ? ` ${anchor("See ticket options", `#${cardAnchor}`, "text-link")}` : ""
+          cardHref ? ` ${anchor("See ticket options", cardHref, "text-link")}` : ""
         }`;
       } else {
-        priceCell = cardAnchor ? anchor("See ticket options", `#${cardAnchor}`, "text-link") : "";
+        priceCell = cardHref ? anchor("See ticket options", cardHref, "text-link") : "";
       }
       // data-label carries each cell's column name for the narrow-screen
       // layout, where the table stacks into one block per date and the header
@@ -3211,7 +3218,7 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
       // in front of it would label what is self-evidently labelled.
       const venueCell = singleVenue
         ? ""
-        : `<td data-label="Venue">${escapeHtml(row.venue || "Venue confirmed on the date")}</td>`;
+        : `<td data-label="Venue">${escapeHtml(placeFor(row) || "Venue confirmed on the date")}</td>`;
       return `<tr><th scope="row">${escapeHtml(
         dateLabel
       )}</th>${venueCell}<td class="price-answer-price">${priceCell}</td><td data-label="Sites compared">${
@@ -3220,17 +3227,17 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
     })
     .join("");
 
-  return `<section class="nested-panel artist-city-price-answer" aria-labelledby="artistCityPriceTitle"><h2 id="artistCityPriceTitle">How much are ${escapeHtml(
-    artist.name
-  )} tickets in ${escapeHtml(
-    artistCity.city
-  )}?</h2><p>The lowest listed price on record for each date${escapeHtml(
+  const heading = surface?.heading || `How much are ${artist.name} tickets in ${artistCity.city}?`;
+  const intro = surface?.intro || "The lowest listed price on record for each date";
+  const caption = surface?.caption || `Lowest listed price by date for ${artist.name} in ${artistCity.city}`;
+  const titleId = surface?.titleId || "artistCityPriceTitle";
+  return `<section class="nested-panel artist-city-price-answer" aria-labelledby="${escapeAttr(titleId)}"><h2 id="${escapeAttr(titleId)}">${escapeHtml(
+    heading
+  )}</h2><p>${escapeHtml(intro)}${escapeHtml(
     singleVenue ? `, all at ${singleVenue}` : ""
-  )}, and the site offering it, in date order. "Sites compared" is how many ticket sites had a price for that date.</p><div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">Lowest listed price by date for ${escapeHtml(
-    artist.name
-  )} in ${escapeHtml(
-    artistCity.city
-  )}</caption><thead><tr><th scope="col">Date</th>${
+  )}, and the site offering it, in date order. "Sites compared" is how many ticket sites had a price for that date.${
+    surface?.note ? ` ${escapeHtml(surface.note)}` : ""
+  }</p><div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">${escapeHtml(caption)}</caption><thead><tr><th scope="col">Date</th>${
     singleVenue ? "" : '<th scope="col">Venue</th>'
   }<th scope="col">Lowest listed price</th><th scope="col">Sites compared</th></tr></thead><tbody>${body}</tbody></table></div></section>`;
 }
@@ -5175,7 +5182,49 @@ function renderOnsalePresaleArtistHtml(artist) {
   }<p>${anchor(`Every ${artist.artistName} presale time`, presalePath(slugify(artist.artistSlug)), "text-link")}</p></section>`;
 }
 
-export function renderPresalePageBody(route) {
+function presaleListedShowIds(presales) {
+  const ids = new Set();
+  for (const window of presales?.windows || []) for (const show of window.shows) ids.add(String(show.id || ""));
+  for (const entry of presales?.publicOnsales || []) ids.add(String(entry.id || ""));
+  ids.delete("");
+  return ids;
+}
+
+// The listed resale price for each date this page lists (owner-approved
+// 2026-10-09): the same per-date table, lanes and tracked buttons as an
+// artist-city page, so it states nothing the rest of the site would not.
+// Rendered only when at least one date has an eligible price.
+function renderPresaleResaleTable(route, events, env) {
+  const artist = route.artist;
+  // An artist page under review carries no ticket buttons, so neither does its
+  // presale page.
+  if (artist.indexing_status !== "indexable_with_substantial_content") return "";
+  const listedIds = presaleListedShowIds(route.presales);
+  if (!listedIds.size || !Array.isArray(events) || !events.length) return "";
+  const shows = futureShowsForArtist(events, artist.slug).filter((show) => listedIds.has(String(show.id || "")));
+  if (!shows.length) return "";
+  const seatGeekAvailable = isSeatGeekConfigured(env);
+  const vividSeatsAvailable = isVividSeatsConfigured(env);
+  const marketplaceAvailability = Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]));
+  const priceAnswer = deriveCityDatePrices(shows, {
+    ctaSpecsFor: (show) => serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability }),
+    wasChecked: pricesWereChecked
+  });
+  const placeById = new Map(shows.map((show) => [String(show.id || ""), [show.city, show.venue].filter(Boolean).join(" · ")]));
+  return renderArtistCityPriceAnswer(artist, { city: "" }, priceAnswer, new Map(), new Map(), {
+    heading: `${artist.name} resale prices for these dates`,
+    intro: "The lowest listed resale price on record for each date above",
+    note: "Resale listings are not face value and can sit well above it.",
+    caption: `Lowest listed resale price by date for ${artist.name}`,
+    titleId: "presaleResaleTitle",
+    ctaLocation: "presale_page",
+    placeFor: (row) => placeById.get(row.showId) || row.venue,
+    // This page has no show cards; each date's card is on the artist page.
+    cardHrefFor: (cardAnchor) => `/artists/${artist.slug}#${cardAnchor}`
+  });
+}
+
+export function renderPresalePageBody(route, events = [], env = {}) {
   const artist = route.artist;
   const presales = route.presales;
   const artistHref = `/artists/${artist.slug}`;
@@ -5236,6 +5285,8 @@ export function renderPresalePageBody(route) {
           ? `${escapeHtml(artist.name)} has ${escapeHtml(presalePlural(presales.showCount, "tracked upcoming date", "tracked upcoming dates"))}, and none carries an open or upcoming presale on Ticketmaster's listing.`
           : `No upcoming ${escapeHtml(artist.name)} date is tracked right now.`
       } ${anchor(`See ${artist.name} tickets and dates`, artistHref, "text-link")} or ${anchor("the on-sale calendar", ONSALE_CALENDAR_PATH, "text-link")}.</p></section>`;
+  const resaleTable = renderPresaleResaleTable(route, events, env);
+  const resaleHtml = resaleTable ? `${resaleTable}${renderMoneyDisclosureHtml()}` : "";
   const howHtml = `<section class="nested-panel" aria-labelledby="presaleHowTitle"><h2 id="presaleHowTitle">How presales work</h2><div class="card-grid"><article class="info-card"><h3>Who gets in</h3><p>Each presale is for a group named in its title, such as an artist fan club, a card issuer or a venue list. The group running it sends any code or sign-up link. This site never shows codes.</p></article><article class="info-card"><h3>Times can move</h3><p>These times are Ticketmaster's listing for each date when it was last checked, once a day. Promoters do move them, so confirm on Ticketmaster and be signed in a few minutes early.</p></article><article class="info-card"><h3>Resale before the sale</h3><p>Resale sites can list tickets before a presale or public on-sale opens. Those listings can sit well above face value.</p></article></div><div class="mini-link-grid">${anchor(
     "How to prepare for a ticket on-sale",
     "/guides/how-to-prepare-for-a-ticket-onsale",
@@ -5245,7 +5296,7 @@ export function renderPresalePageBody(route) {
     route
   )}<h1 id="presaleTitle">${escapeHtml(`${artist.name} presale times and ticket on-sale dates`)}</h1><p class="lead">${escapeHtml(
     lead
-  )}</p><p class="disclosure-note">Presale names and times are Ticketmaster's, for each exact date. Nothing is estimated, and no presale code is shown.</p>${openHtml}${upcomingHtml}${onsaleHtml}${emptyHtml}${howHtml}<div class="action-row">${anchor(
+  )}</p><p class="disclosure-note">Presale names and times are Ticketmaster's, for each exact date. Nothing is estimated, and no presale code is shown.</p>${openHtml}${upcomingHtml}${onsaleHtml}${resaleHtml}${emptyHtml}${howHtml}<div class="action-row">${anchor(
     `${artist.name} tickets and dates`,
     artistHref,
     "button button-primary"
@@ -7046,7 +7097,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
 
   if (route.type === "onsale-calendar") return renderOnsaleCalendarBody(route);
   if (route.type === "tours-hub") return renderToursHubBody(route);
-  if (route.type === "presale") return renderPresalePageBody(route);
+  if (route.type === "presale") return renderPresalePageBody(route, events, env);
 
   if (route.type === "cities-index") {
     const cities = Array.isArray(route.cities) ? route.cities : [];
@@ -8004,7 +8055,7 @@ async function renderRequest(context) {
   let edgeValidUntil = null;
   let priceWeekSeries = new Map();
   let renderEvents = events;
-  if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event") && events.length) {
+  if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "presale" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event") && events.length) {
     // Query prices for exactly the cards each route renders, not a fixed prefix
     // of the board. A card the server never queried can neither show a snapshot
     // nor honestly report one as absent, so the old six-show slice left the rest
@@ -8020,6 +8071,12 @@ async function renderRequest(context) {
       priceCandidates = futureShowsForArtist([route.event], route.artist.slug);
     } else if (route.type === "artist" || route.type === "price-guide") {
       priceCandidates = futureShowsForArtist(events, route.artist.slug);
+    } else if (route.type === "presale") {
+      // The dates the page lists: those under a presale window or with an
+      // upcoming public on-sale (presaleListedShowIds).
+      // An artist under review gets no table (renderPresaleResaleTable), so no read.
+      const listedIds = route.artist.indexing_status === "indexable_with_substantial_content" ? presaleListedShowIds(route.presales) : new Set();
+      priceCandidates = futureShowsForArtist(events, route.artist.slug).filter((show) => listedIds.has(String(show.id || "")));
     } else if (route.type === "artist-city") {
       const cityShowIds = artistCityShowIdSet(route.artistCity || {});
       priceCandidates = futureShowsForArtist(events, route.artist.slug)

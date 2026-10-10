@@ -205,7 +205,7 @@ const text = (html) =>
   assert(body.includes("Presales coming up") && body.includes("Oasis Fan Presale") && body.includes("Venue Presale"), "upcoming windows are listed");
   assert(body.includes("Public on-sale"), "public on-sales are listed");
   assert(!body.includes("Dublin") && !body.includes("Glasgow") && !body.includes("Leeds"), "past, held and other artists' dates are not listed");
-  assert(!/ticketmaster\.com|\/api\/out/.test(page.main), "the page links to the artist page, never to a ticket site");
+  assert(!/ticketmaster\.com|\/api\/out/.test(page.main), "with no price on record the page links to no ticket site (priced tables: artist-city-prices.test.mjs)");
   assert(body.includes("no presale code is shown"), "the page says codes are never shown");
   assert(page.html.includes('"@type":"WebPage"') || page.html.includes('"@type": "WebPage"'), "the page carries a WebPage node");
   assert(!page.html.includes('"MusicEvent"'), "the page carries no MusicEvent");

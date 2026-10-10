@@ -53,7 +53,7 @@ Open items:
 
 ### 4. Routine data hygiene (recurring)
 
-- **`needs_recheck`:** 507 events (2026-10-05). This is not a manual CTA queue; runtime checks handle the destinations.
+- **`needs_recheck`:** 588 events (recounted 2026-10-10; 543 upcoming). This is not a manual CTA queue; runtime checks handle the destinations.
   - 72 upcoming ones (of 89 in total) lack a verified resale lane (2026-10-05). Once past their public on-sale, they still show the Ticketmaster button.
   - The count climbs with each large ingestion run. Recount it with the same test `scripts/validate-status-counts.mjs` uses.
   - Compute "renders no CTA" claims with `eventLinkPublishable` and `providerEventPublishable`, never by hand.

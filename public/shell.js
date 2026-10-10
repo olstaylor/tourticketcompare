@@ -168,7 +168,16 @@
     var showId = String(cta.dataset.ctaShowId || "").trim();
     var location = String(cta.dataset.ctaLocation || "").trim();
     var key = provider + ":" + showId + ":" + location;
-    if (!provider || recentClicks.has(key)) return;
+    if (!provider) return;
+    // SeatGeek CTAs open the promo-code dialog (public/seatgeek-promo.js),
+    // whose Continue link then makes the same /api/out navigation.
+    var promo = window.ttcSeatGeekPromo;
+    var showPromo = Boolean(promo && promo.shouldIntercept(cta, event));
+    if (showPromo) event.preventDefault();
+    if (recentClicks.has(key)) {
+      if (showPromo) promo.open(cta, cta.getAttribute("href"));
+      return;
+    }
     recentClicks.add(key);
     window.setTimeout(function () { recentClicks.delete(key); }, 1000);
     // "Lowest listed" (see renderProviderCtaButtonHtml): recorded only when the
@@ -180,6 +189,7 @@
       ? (cta.hasAttribute("data-cta-lowest") ? "lowest" : "other")
       : undefined;
     var browserIntentId = attachBrowserIntent(cta, event);
+    if (showPromo) promo.open(cta, cta.getAttribute("href"));
     send("provider_click", {
       browserIntentId: browserIntentId || undefined,
       provider: provider,

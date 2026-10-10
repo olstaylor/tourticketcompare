@@ -2223,13 +2223,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672465",
+        "url": "https://www.stubhub.ie/fontaines-d-c-columbus-tickets-9-24-2027/event/107672465",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAepk6",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307056",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307056/Fontaines-DC-tickets-Fri-Sep-24-2027-KEMBA-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307056/Fontaines-DC-tickets-Fri-Sep-24-2027-KEMBA-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-columbus-tickets-9-24-2027/event/107672465"
   },
   {
     "id": "tm-fontaines-d-c-2027-forest-hills-z7r9jz1aaep7g",
@@ -2292,13 +2300,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672017",
+        "url": "https://www.stubhub.ie/fontaines-d-c-flushing-tickets-9-28-2027/event/107672017",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAep7g",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303817",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303817/Fontaines-DC-tickets-Tue-Sep-28-2027-Forest-Hills-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303817/Fontaines-DC-tickets-Tue-Sep-28-2027-Forest-Hills-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-flushing-tickets-9-28-2027/event/107672017"
   },
   {
     "id": "tm-fontaines-d-c-2027-forest-hills-z7r9jz1aa7v_9",
@@ -2483,12 +2499,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672466",
+        "url": "https://www.stubhub.ie/fontaines-d-c-morrison-tickets-10-13-2027/event/107672466",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAepka",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303825",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303825/Fontaines-DC-tickets-Wed-Oct-13-2027-Red-Rocks-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303825/Fontaines-DC-tickets-Wed-Oct-13-2027-Red-Rocks-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-morrison-tickets-10-13-2027/event/107672466"
   }
 ]

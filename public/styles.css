@@ -3044,3 +3044,10 @@ summary {
 .onsale-day .onsale-shows {
   margin: 0;
 }
+
+/* Long unbroken strings (the price-guide citation line carries a full URL)
+   must wrap rather than widen their grid panel, which on a phone pushed the
+   whole page wider than the screen (2026-10-10 usability pass). */
+code {
+  overflow-wrap: anywhere;
+}

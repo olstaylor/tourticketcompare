@@ -22,7 +22,7 @@
   --ttc-border-strong: #ddd5c6;
   --ttc-ink: #1c1a16;
   --ttc-muted: #6c665c;
-  --ttc-faint: #9c9488;
+  --ttc-faint: #746e62;       /* 4.5:1 on --ttc-bg; was #9c9488 (2.9:1) */
   --ttc-brand: #214034;        /* forest green — identity */
   --ttc-brand-ink: #ffffff;
   --ttc-accent: #bf4a2c;       /* terracotta — primary CTA */

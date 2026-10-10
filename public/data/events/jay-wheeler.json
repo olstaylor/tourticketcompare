@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671915",
+        "url": "https://www.stubhub.ie/jay-wheeler-tickets-valencia-roig-arena-8-12-2026/event/107671915",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v4e4U-v",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-valencia-roig-arena-8-12-2026/event/107671915"
   },
   {
     "id": "tm-jay-wheeler-2026-bilbao-z698xz2qz1kvb7mek",
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671917",
+        "url": "https://www.stubhub.ie/jay-wheeler-tickets-bilbao-bilbao-arena-miribilla-10-12-2026/event/107671917",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kvb7Mek",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-bilbao-bilbao-arena-miribilla-10-12-2026/event/107671917"
   },
   {
     "id": "tm-jay-wheeler-2026-madrid-z698xz2qz16va4ba8-",
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671918",
+        "url": "https://www.stubhub.ie/jay-wheeler-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-12-2026/event/107671918",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vA4bA8-",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-12-2026/event/107671918"
   },
   {
     "id": "tm-jay-wheeler-2026-barcelona-z698xz2qz1k-ngufw",
@@ -258,11 +282,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670995",
+        "url": "https://www.stubhub.ie/jay-wheeler-tickets-barcelona-palau-sant-jordi-19-12-2026/event/107670995",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k-NGUFw",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-barcelona-palau-sant-jordi-19-12-2026/event/107670995"
   },
   {
     "id": "tm-jay-wheeler-2027-miami-vvg1vz_f7_l-6l",
@@ -325,13 +357,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671870",
+        "url": "https://www.stubhub.ie/jay-wheeler-miami-tickets-3-11-2027/event/107671870",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_f7_l-6l",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307352",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307352/Jay-Wheeler-tickets-Thu-Mar-11-2027-Kaseya-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307352/Jay-Wheeler-tickets-Thu-Mar-11-2027-Kaseya-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-miami-tickets-3-11-2027/event/107671870"
   },
   {
     "id": "tm-jay-wheeler-2027-atlanta-vvg1zz_f288dbv",
@@ -723,13 +763,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671874",
+        "url": "https://www.stubhub.ie/jay-wheeler-brooklyn-tickets-3-24-2027/event/107671874",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4vGkeBXENn",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307360",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307360/Jay-Wheeler-tickets-Wed-Mar-24-2027-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307360/Jay-Wheeler-tickets-Wed-Mar-24-2027-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-brooklyn-tickets-3-24-2027/event/107671874"
   },
   {
     "id": "tm-jay-wheeler-2027-reading-vv17fz_kgkblt_5x",
@@ -845,13 +893,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672213",
+        "url": "https://www.stubhub.ie/jay-wheeler-boston-tickets-3-27-2027/event/107672213",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4AGkeJXnEm",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8309790",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8309790/Jay-Wheeler-tickets-Sat-Mar-27-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8309790/Jay-Wheeler-tickets-Sat-Mar-27-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-boston-tickets-3-27-2027/event/107672213"
   },
   {
     "id": "tm-jay-wheeler-2027-rosemont-vv178z_kgkbjdkxl",
@@ -1105,13 +1161,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671877",
+        "url": "https://www.stubhub.ie/jay-wheeler-houston-tickets-4-7-2027/event/107671877",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_f62IJ1f",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307367",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307367/Jay-Wheeler-tickets-Wed-Apr-7-2027-713-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307367/Jay-Wheeler-tickets-Wed-Apr-7-2027-713-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-houston-tickets-4-7-2027/event/107671877"
   },
   {
     "id": "tm-jay-wheeler-2027-inglewood-vvg1iz_f8af9cn",
@@ -1244,12 +1308,20 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671880",
+        "url": "https://www.stubhub.ie/jay-wheeler-orlando-tickets-4-15-2027/event/107671880",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4vGkd6TfJ5",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307371",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307371/Jay-Wheeler-tickets-Thu-Apr-15-2027-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307371/Jay-Wheeler-tickets-Thu-Apr-15-2027-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-orlando-tickets-4-15-2027/event/107671880"
   }
 ]

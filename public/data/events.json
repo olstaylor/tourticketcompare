@@ -2425,11 +2425,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107085162",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-9-2026/event/107085162",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -2442,7 +2442,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfAcz51",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-9-2026/event/107085162",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -37898,11 +37898,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107155467",
-        "url": "https://www.stubhub.ie/sombr-anaheim-tickets-10-9-2026/event/107155467",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -37916,7 +37916,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-anaheim-tickets-10-9-2026/event/107155467",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -43058,11 +43058,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162169",
-        "url": "https://www.stubhub.ie/karol-g-tampa-tickets-10-9-2026/event/107162169",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_aKsr-m3",
@@ -43070,7 +43070,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-tampa-tickets-10-9-2026/event/107162169"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-karol-g-2026-arlington-z7r9jz1a7xfrb",
@@ -46536,11 +46536,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107158269",
-        "url": "https://www.stubhub.ie/teddy-swims-boston-tickets-10-9-2026/event/107158269",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_FGktNMxtd",
@@ -46548,7 +46548,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-boston-tickets-10-9-2026/event/107158269"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-teddy-swims-2026-philadelphia-1adzz_fgkm5wpjt",
@@ -130414,11 +130414,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107482701",
-        "url": "https://www.stubhub.ie/dinosaur-jr-las-vegas-tickets-10-9-2026/event/107482701",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G6uJIQnhU",
@@ -130426,7 +130426,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/dinosaur-jr-las-vegas-tickets-10-9-2026/event/107482701"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-dinosaur-jr-2026-tempe-17k8v0g6ujk40ss",
@@ -151169,11 +151169,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670584",
+        "url": "https://www.stubhub.ie/andrea-bocelli-tickets-birmingham-utilita-arena-birmingham-29-9-2027/event/107670584",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeGZ_KGkwAgOld",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-tickets-birmingham-utilita-arena-birmingham-29-9-2027/event/107670584"
   },
   {
     "id": "tm-andrea-bocelli-2027-glasgow-1adbz_k03jdzd5av",
@@ -179117,11 +179125,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107098206",
-        "url": "https://www.stubhub.ie/staind-wheatland-tickets-10-9-2026/event/107098206",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_dwgiJMI",
@@ -179129,7 +179137,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/staind-wheatland-tickets-10-9-2026/event/107098206"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-staind-2026-ontario-vv170z_dgkwr0_z6",
@@ -184758,6 +184766,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672176",
+        "url": "https://www.stubhub.ie/warren-zeiders-tickets-leeds-o2-academy-leeds-12-10-2026/event/107672176",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbUbYjRUs",
@@ -184771,7 +184786,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8086310",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8086310/Warren-Zeiders-tickets-Mon-Oct-12-2026-O2-Academy-Leeds"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8086310/Warren-Zeiders-tickets-Mon-Oct-12-2026-O2-Academy-Leeds",
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-leeds-o2-academy-leeds-12-10-2026/event/107672176"
   },
   {
     "id": "tm-warren-zeiders-2026-manchester-g5vhzbgtrzaec",
@@ -185142,6 +185158,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672617",
+        "url": "https://www.stubhub.ie/warren-zeiders-orlando-tickets-3-25-2027/event/107672617",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4vGkenxKjC",
@@ -185161,7 +185184,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307486",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307486/Warren-Zeiders-tickets-Thu-Mar-25-2027-House-Of-Blues-Orlando"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307486/Warren-Zeiders-tickets-Thu-Mar-25-2027-House-Of-Blues-Orlando",
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-orlando-tickets-3-25-2027/event/107672617"
   },
   {
     "id": "tm-warren-zeiders-2027-hollywood-vvg1vz_fkapkzq",
@@ -185836,6 +185860,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672606",
+        "url": "https://www.stubhub.ie/warren-zeiders-atlanta-tickets-4-30-2027/event/107672606",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_f6dz4aP",
@@ -185855,7 +185886,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307496",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307496/Warren-Zeiders-tickets-Fri-Apr-30-2027-Coca-Cola-Roxy"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307496/Warren-Zeiders-tickets-Fri-Apr-30-2027-Coca-Cola-Roxy",
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-atlanta-tickets-4-30-2027/event/107672606"
   },
   {
     "id": "tm-john-summit-2027-warsaw-z698xzqpz16eva44jn",
@@ -190178,13 +190210,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482820",
+        "url": "https://www.stubhub.ie/def-leppard-hollywood-tickets-10-15-2026/event/107482820",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_5Sqbrak",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012408",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012408/Def-Leppard-tickets-Thu-Oct-15-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012408/Def-Leppard-tickets-Thu-Oct-15-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-hollywood-tickets-10-15-2026/event/107482820"
   },
   {
     "id": "tm-def-leppard-2027-allentown-1ayzk4agkdyeyao",
@@ -190581,6 +190621,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672812",
+        "url": "https://www.stubhub.ie/def-leppard-newark-tickets-3-13-2027/event/107672812",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4kGkdvInob",
@@ -190588,7 +190635,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312062",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312062/Def-Leppard-tickets-Sat-Mar-13-2027-Prudential-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312062/Def-Leppard-tickets-Sat-Mar-13-2027-Prudential-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-newark-tickets-3-13-2027/event/107672812"
   },
   {
     "id": "tm-def-leppard-2027-boston-vv1a8vp88ga16tl3",
@@ -190651,6 +190699,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672813",
+        "url": "https://www.stubhub.ie/def-leppard-boston-tickets-3-17-2027/event/107672813",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vP88GA16Tl3",
@@ -190658,7 +190713,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312063",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312063/Def-Leppard-tickets-Wed-Mar-17-2027-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312063/Def-Leppard-tickets-Wed-Mar-17-2027-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-boston-tickets-3-17-2027/event/107672813"
   },
   {
     "id": "tm-def-leppard-2027-nashville-g5viz_f9p6_vj",
@@ -190791,6 +190847,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672814",
+        "url": "https://www.stubhub.ie/def-leppard-washington-tickets-3-21-2027/event/107672814",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G62pVh_yy",
@@ -190798,7 +190861,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312065",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312065/Def-Leppard-tickets-Sun-Mar-21-2027-Capital-One-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312065/Def-Leppard-tickets-Sun-Mar-21-2027-Capital-One-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-washington-tickets-3-21-2027/event/107672814"
   },
   {
     "id": "tm-def-leppard-2027-pittsburgh-1apzk4egkdr8ult",
@@ -190931,6 +190995,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672815",
+        "url": "https://www.stubhub.ie/def-leppard-chicago-tickets-3-25-2027/event/107672815",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k8Z_fGKG7DL8f",
@@ -190938,7 +191009,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312067",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312067/Def-Leppard-tickets-Thu-Mar-25-2027-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312067/Def-Leppard-tickets-Thu-Mar-25-2027-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-chicago-tickets-3-25-2027/event/107672815"
   },
   {
     "id": "tm-def-leppard-2027-denver-g5vzz_frfov07",
@@ -191071,6 +191143,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672238",
+        "url": "https://www.stubhub.ie/def-leppard-austin-tickets-4-13-2027/event/107672238",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_f1_s12h",
@@ -191078,7 +191157,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312071",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312071/Def-Leppard-tickets-Tue-Apr-13-2027-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312071/Def-Leppard-tickets-Tue-Apr-13-2027-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-austin-tickets-4-13-2027/event/107672238"
   },
   {
     "id": "tm-def-leppard-2027-north-little-rock-g5viz_f5gacpb",
@@ -191211,6 +191291,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672239",
+        "url": "https://www.stubhub.ie/def-leppard-fort-worth-tickets-4-18-2027/event/107672239",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_fhfmaat",
@@ -191218,7 +191305,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312073",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312073/Def-Leppard-tickets-Sun-Apr-18-2027-Dickies-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312073/Def-Leppard-tickets-Sun-Apr-18-2027-Dickies-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-fort-worth-tickets-4-18-2027/event/107672239"
   },
   {
     "id": "tm-def-leppard-2027-mobile-g5viz_fptcweu",
@@ -191561,6 +191649,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672816",
+        "url": "https://www.stubhub.ie/def-leppard-hollywood-tickets-5-1-2027/event/107672816",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_f7e8nIK",
@@ -191568,7 +191663,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312079",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312079/Def-Leppard-tickets-Sat-May-1-2027-Hollywood-Bowl"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312079/Def-Leppard-tickets-Sat-May-1-2027-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-hollywood-tickets-5-1-2027/event/107672816"
   },
   {
     "id": "tm-def-leppard-2027-san-francisco-g5vyz_f5oof-x",
@@ -191631,6 +191727,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672817",
+        "url": "https://www.stubhub.ie/def-leppard-san-francisco-tickets-5-5-2027/event/107672817",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_f5OoF-X",
@@ -191638,7 +191741,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312080",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312080/Def-Leppard-tickets-Wed-May-5-2027-Chase-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312080/Def-Leppard-tickets-Wed-May-5-2027-Chase-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-san-francisco-tickets-5-5-2027/event/107672817"
   },
   {
     "id": "tm-def-leppard-2027-sacramento-g5vyz_f5hdkto",
@@ -191701,6 +191805,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672240",
+        "url": "https://www.stubhub.ie/def-leppard-sacramento-tickets-5-7-2027/event/107672240",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_f5hdkto",
@@ -191708,7 +191819,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312081",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312081/Def-Leppard-tickets-Fri-May-7-2027-Golden-1-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312081/Def-Leppard-tickets-Fri-May-7-2027-Golden-1-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-sacramento-tickets-5-7-2027/event/107672240"
   },
   {
     "id": "tm-def-leppard-2027-seattle-vvg1hz_f1kfpyl",
@@ -191771,6 +191883,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672241",
+        "url": "https://www.stubhub.ie/def-leppard-seattle-tickets-5-9-2027/event/107672241",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_f1KfPyL",
@@ -191778,7 +191897,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312082",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312082/Def-Leppard-tickets-Sun-May-9-2027-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312082/Def-Leppard-tickets-Sun-May-9-2027-Climate-Pledge-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-seattle-tickets-5-9-2027/event/107672241"
   },
   {
     "id": "tm-def-leppard-2027-vancouver-1aozk4agkddzaes",
@@ -191981,6 +192101,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672818",
+        "url": "https://www.stubhub.ie/def-leppard-san-antonio-tickets-5-29-2027/event/107672818",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fQMCWEZ",
@@ -191988,7 +192115,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312084",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312084/Def-Leppard-tickets-Sat-May-29-2027-Frost-Bank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312084/Def-Leppard-tickets-Sat-May-29-2027-Frost-Bank-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-san-antonio-tickets-5-29-2027/event/107672818"
   },
   {
     "id": "tm-def-leppard-2027-oklahoma-city-vvg1yz_fkymbmf",
@@ -192385,6 +192513,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672819",
+        "url": "https://www.stubhub.ie/def-leppard-tampa-tickets-6-13-2027/event/107672819",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fpW01dI",
@@ -192392,7 +192527,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312091",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312091/Def-Leppard-tickets-Sun-Jun-13-2027-Benchmark-International-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312091/Def-Leppard-tickets-Sun-Jun-13-2027-Benchmark-International-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-tampa-tickets-6-13-2027/event/107672819"
   },
   {
     "id": "tm-def-leppard-2027-atlanta-vvg1zz_fpttjci",
@@ -192595,6 +192731,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672820",
+        "url": "https://www.stubhub.ie/def-leppard-new-york-tickets-6-23-2027/event/107672820",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_fKxvP6L",
@@ -192602,7 +192745,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312095",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312095/Def-Leppard-tickets-Wed-Jun-23-2027-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312095/Def-Leppard-tickets-Wed-Jun-23-2027-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-new-york-tickets-6-23-2027/event/107672820"
   },
   {
     "id": "tm-def-leppard-2027-uncasville-g5vvz_fbgzjmo",
@@ -192735,6 +192879,13 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672821",
+        "url": "https://www.stubhub.ie/def-leppard-philadelphia-tickets-6-27-2027/event/107672821",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4AGkePRd7Q",
@@ -192742,7 +192893,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312097",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312097/Def-Leppard-tickets-Sun-Jun-27-2027-Xfinity-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312097/Def-Leppard-tickets-Sun-Jun-27-2027-Xfinity-Mobile-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-philadelphia-tickets-6-27-2027/event/107672821"
   },
   {
     "id": "tm-def-leppard-2027-charlotte-g5evz_fps2umn",
@@ -195989,11 +196141,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671915",
+        "url": "https://www.stubhub.ie/jay-wheeler-tickets-valencia-roig-arena-8-12-2026/event/107671915",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v4e4U-v",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-valencia-roig-arena-8-12-2026/event/107671915"
   },
   {
     "id": "tm-jay-wheeler-2026-bilbao-z698xz2qz1kvb7mek",
@@ -196042,11 +196202,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671917",
+        "url": "https://www.stubhub.ie/jay-wheeler-tickets-bilbao-bilbao-arena-miribilla-10-12-2026/event/107671917",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kvb7Mek",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-bilbao-bilbao-arena-miribilla-10-12-2026/event/107671917"
   },
   {
     "id": "tm-jay-wheeler-2026-madrid-z698xz2qz16va4ba8-",
@@ -196095,11 +196263,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671918",
+        "url": "https://www.stubhub.ie/jay-wheeler-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-12-2026/event/107671918",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vA4bA8-",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-12-2026/event/107671918"
   },
   {
     "id": "tm-jay-wheeler-2026-barcelona-z698xz2qz1k-ngufw",
@@ -196148,11 +196324,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670995",
+        "url": "https://www.stubhub.ie/jay-wheeler-tickets-barcelona-palau-sant-jordi-19-12-2026/event/107670995",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k-NGUFw",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-barcelona-palau-sant-jordi-19-12-2026/event/107670995"
   },
   {
     "id": "tm-jay-wheeler-2027-miami-vvg1vz_f7_l-6l",
@@ -196215,13 +196399,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671870",
+        "url": "https://www.stubhub.ie/jay-wheeler-miami-tickets-3-11-2027/event/107671870",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_f7_l-6l",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307352",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307352/Jay-Wheeler-tickets-Thu-Mar-11-2027-Kaseya-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307352/Jay-Wheeler-tickets-Thu-Mar-11-2027-Kaseya-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-miami-tickets-3-11-2027/event/107671870"
   },
   {
     "id": "tm-jay-wheeler-2027-atlanta-vvg1zz_f288dbv",
@@ -196613,13 +196805,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671874",
+        "url": "https://www.stubhub.ie/jay-wheeler-brooklyn-tickets-3-24-2027/event/107671874",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4vGkeBXENn",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307360",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307360/Jay-Wheeler-tickets-Wed-Mar-24-2027-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307360/Jay-Wheeler-tickets-Wed-Mar-24-2027-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-brooklyn-tickets-3-24-2027/event/107671874"
   },
   {
     "id": "tm-jay-wheeler-2027-reading-vv17fz_kgkblt_5x",
@@ -196735,13 +196935,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672213",
+        "url": "https://www.stubhub.ie/jay-wheeler-boston-tickets-3-27-2027/event/107672213",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4AGkeJXnEm",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8309790",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8309790/Jay-Wheeler-tickets-Sat-Mar-27-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8309790/Jay-Wheeler-tickets-Sat-Mar-27-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-boston-tickets-3-27-2027/event/107672213"
   },
   {
     "id": "tm-jay-wheeler-2027-rosemont-vv178z_kgkbjdkxl",
@@ -196995,13 +197203,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671877",
+        "url": "https://www.stubhub.ie/jay-wheeler-houston-tickets-4-7-2027/event/107671877",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_f62IJ1f",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307367",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307367/Jay-Wheeler-tickets-Wed-Apr-7-2027-713-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307367/Jay-Wheeler-tickets-Wed-Apr-7-2027-713-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-houston-tickets-4-7-2027/event/107671877"
   },
   {
     "id": "tm-jay-wheeler-2027-inglewood-vvg1iz_f8af9cn",
@@ -197134,13 +197350,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671880",
+        "url": "https://www.stubhub.ie/jay-wheeler-orlando-tickets-4-15-2027/event/107671880",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4vGkd6TfJ5",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307371",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307371/Jay-Wheeler-tickets-Thu-Apr-15-2027-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307371/Jay-Wheeler-tickets-Thu-Apr-15-2027-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-orlando-tickets-4-15-2027/event/107671880"
   },
   {
     "id": "tm-mico-2026-seattle-z7r9jz1a70u7s",
@@ -200612,13 +200836,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672465",
+        "url": "https://www.stubhub.ie/fontaines-d-c-columbus-tickets-9-24-2027/event/107672465",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAepk6",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307056",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307056/Fontaines-DC-tickets-Fri-Sep-24-2027-KEMBA-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307056/Fontaines-DC-tickets-Fri-Sep-24-2027-KEMBA-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-columbus-tickets-9-24-2027/event/107672465"
   },
   {
     "id": "tm-fontaines-d-c-2027-forest-hills-z7r9jz1aaep7g",
@@ -200681,13 +200913,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672017",
+        "url": "https://www.stubhub.ie/fontaines-d-c-flushing-tickets-9-28-2027/event/107672017",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAep7g",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303817",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303817/Fontaines-DC-tickets-Tue-Sep-28-2027-Forest-Hills-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303817/Fontaines-DC-tickets-Tue-Sep-28-2027-Forest-Hills-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-flushing-tickets-9-28-2027/event/107672017"
   },
   {
     "id": "tm-fontaines-d-c-2027-forest-hills-z7r9jz1aa7v_9",
@@ -200872,13 +201112,21 @@
         "verified": true,
         "last_verified_at": "2026-10-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672466",
+        "url": "https://www.stubhub.ie/fontaines-d-c-morrison-tickets-10-13-2027/event/107672466",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAepka",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303825",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303825/Fontaines-DC-tickets-Wed-Oct-13-2027-Red-Rocks-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303825/Fontaines-DC-tickets-Wed-Oct-13-2027-Red-Rocks-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-morrison-tickets-10-13-2027/event/107672466"
   },
   {
     "id": "tm-staind-2027-spokane-z7r9jz1aae_qs",

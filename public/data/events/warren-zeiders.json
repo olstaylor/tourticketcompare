@@ -137,6 +137,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672176",
+        "url": "https://www.stubhub.ie/warren-zeiders-tickets-leeds-o2-academy-leeds-12-10-2026/event/107672176",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbUbYjRUs",
@@ -150,7 +157,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8086310",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8086310/Warren-Zeiders-tickets-Mon-Oct-12-2026-O2-Academy-Leeds"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8086310/Warren-Zeiders-tickets-Mon-Oct-12-2026-O2-Academy-Leeds",
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-leeds-o2-academy-leeds-12-10-2026/event/107672176"
   },
   {
     "id": "tm-warren-zeiders-2026-manchester-g5vhzbgtrzaec",
@@ -521,6 +529,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672617",
+        "url": "https://www.stubhub.ie/warren-zeiders-orlando-tickets-3-25-2027/event/107672617",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4vGkenxKjC",
@@ -540,7 +555,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307486",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307486/Warren-Zeiders-tickets-Thu-Mar-25-2027-House-Of-Blues-Orlando"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307486/Warren-Zeiders-tickets-Thu-Mar-25-2027-House-Of-Blues-Orlando",
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-orlando-tickets-3-25-2027/event/107672617"
   },
   {
     "id": "tm-warren-zeiders-2027-hollywood-vvg1vz_fkapkzq",
@@ -1215,6 +1231,13 @@
         "verified": true,
         "last_verified_at": "2026-10-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672606",
+        "url": "https://www.stubhub.ie/warren-zeiders-atlanta-tickets-4-30-2027/event/107672606",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_f6dz4aP",
@@ -1234,7 +1257,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307496",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307496/Warren-Zeiders-tickets-Fri-Apr-30-2027-Coca-Cola-Roxy"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307496/Warren-Zeiders-tickets-Fri-Apr-30-2027-Coca-Cola-Roxy",
+    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-atlanta-tickets-4-30-2027/event/107672606"
   },
   {
     "id": "tm-warren-zeiders-2027-kansas-city-z7r9jz1aaeb7w",

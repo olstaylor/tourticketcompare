@@ -2812,5 +2812,217 @@
         "end": "2027-11-15T06:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-hilary-duff-2026-auckland-1ae8z_7gkmdmw55",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff - the lucky me tour",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Spark Arena",
+    "datetime_iso": "2026-10-20T05:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2400644B83DF22CB",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/hilary-duff-the-lucky-me-tour-auckland-20-10-2026/event/2400644B83DF22CB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/hilary-duff-the-lucky-me-tour-auckland-20-10-2026/event/2400644B83DF22CB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2400644B83DF22CB",
+        "discovery_event_id": "1Ae8Z_7GkmdMw55",
+        "url": "https://www.ticketmaster.co.nz/hilary-duff-the-lucky-me-tour-auckland-20-10-2026/event/2400644B83DF22CB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae8Z_7GkmdMw55",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdoa5fw",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-02-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006447E024B232",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/hilary-duff-the-lucky-me-tour-ciudad-de-mexico-12-02-2027/event/14006447E024B232",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/hilary-duff-the-lucky-me-tour-ciudad-de-mexico-12-02-2027/event/14006447E024B232",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006447E024B232",
+        "discovery_event_id": "1AfZko6GkdOa5Fw",
+        "url": "https://www.ticketmaster.com.mx/hilary-duff-the-lucky-me-tour-ciudad-de-mexico-12-02-2027/event/14006447E024B232",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZko6GkdOa5Fw",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdomhcz",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-02-14T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006447E0DDB380",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/hilary-duff-the-lucky-me-tour-ciudad-de-mexico-13-02-2027/event/14006447E0DDB380",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/hilary-duff-the-lucky-me-tour-ciudad-de-mexico-13-02-2027/event/14006447E0DDB380",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006447E0DDB380",
+        "discovery_event_id": "1AfZko6GkdOMhCZ",
+        "url": "https://www.ticketmaster.com.mx/hilary-duff-the-lucky-me-tour-ciudad-de-mexico-13-02-2027/event/14006447E0DDB380",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZko6GkdOMhCZ",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-hilary-duff-2027-zapopan-1av8z_fgknzgqjq",
+    "artist_slug": "hilary-duff",
+    "artist_name": "Hilary Duff",
+    "event_name": "Hilary Duff: the lucky me tour",
+    "city": "Zapopan",
+    "country": "Mexico",
+    "venue": "Auditorio Telmex",
+    "datetime_iso": "2027-02-16T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1400648AB8D5A71A",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/hilary-duff-the-lucky-me-tour-zapopan-15-02-2027/event/1400648AB8D5A71A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/hilary-duff-the-lucky-me-tour-zapopan-15-02-2027/event/1400648AB8D5A71A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1400648AB8D5A71A",
+        "discovery_event_id": "1Av8Z_FGknzgQjQ",
+        "url": "https://www.ticketmaster.com.mx/hilary-duff-the-lucky-me-tour-zapopan-15-02-2027/event/1400648AB8D5A71A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av8Z_FGknzgQjQ",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
   }
 ]

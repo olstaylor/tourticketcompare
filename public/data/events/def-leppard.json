@@ -2885,5 +2885,111 @@
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312099",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312099/Def-Leppard-tickets-Fri-Jul-2-2027-Gainbridge-Fieldhouse"
+  },
+  {
+    "id": "tm-def-leppard-2026-ciudad-de-mexico-17azv0g65px_l4r",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2026-10-20T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "140064B5BE65F56F",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/def-leppard-ciudad-de-mexico-19-10-2026/event/140064B5BE65F56F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/def-leppard-ciudad-de-mexico-19-10-2026/event/140064B5BE65F56F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "140064B5BE65F56F",
+        "discovery_event_id": "17AZv0G65pX_L4R",
+        "url": "https://www.ticketmaster.com.mx/def-leppard-ciudad-de-mexico-19-10-2026/event/140064B5BE65F56F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AZv0G65pX_L4R",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-def-leppard-2026-tlajomulco-de-zuniga-g5dvz_5361kla",
+    "artist_slug": "def-leppard",
+    "artist_name": "Def Leppard",
+    "event_name": "Def Leppard",
+    "city": "Tlajomulco de Zuñiga",
+    "country": "Mexico",
+    "venue": "Arena VFG",
+    "datetime_iso": "2026-10-22T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D0064B487293AC5",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/def-leppard-tlajomulco-de-zuniga-21-10-2026/event/3D0064B487293AC5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/def-leppard-tlajomulco-de-zuniga-21-10-2026/event/3D0064B487293AC5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D0064B487293AC5",
+        "discovery_event_id": "G5dVZ_5361KlA",
+        "url": "https://www.ticketmaster.com.mx/def-leppard-tlajomulco-de-zuniga-21-10-2026/event/3D0064B487293AC5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_5361KlA",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
   }
 ]

@@ -2898,5 +2898,58 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287530",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287530/Lizzy-McAlpine-tickets-Tue-Jul-6-2027-Red-Rocks-Amphitheatre",
     "stubhub_international_url": "https://www.stubhub.ie/lizzy-mcalpine-morrison-tickets-7-6-2027/event/107669216"
+  },
+  {
+    "id": "tm-lizzy-mcalpine-2027-praha-7-z698xzu0z1kufbskd",
+    "artist_slug": "lizzy-mcalpine",
+    "artist_name": "Lizzy McAlpine",
+    "event_name": "Lizzy McAlpine - The Over Country Tour",
+    "city": "Praha 7",
+    "country": "Czech Republic",
+    "venue": "SaSaZu",
+    "datetime_iso": "2027-03-14T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "348631183",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/lizzy-mcalpine-the-over-country-tour-tickets/348631183?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/lizzy-mcalpine-the-over-country-tour-tickets/348631183?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "348631183",
+        "discovery_event_id": "Z698xZu0Z1kuFbskd",
+        "url": "https://www.ticketmaster.cz/event/lizzy-mcalpine-the-over-country-tour-tickets/348631183?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z1kuFbskd",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
   }
 ]

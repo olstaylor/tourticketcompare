@@ -834,5 +834,323 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvV7w",
     "timezone": "America/Chicago",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-miami-rz7hnez1afgkkf",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: \"The Love Chant Tour\" in Miami",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Las Rosas",
+    "datetime_iso": "2027-02-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14313194",
+    "ticketmaster_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-las-rosas-tickets/14313194",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-las-rosas-tickets/14313194",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14313194",
+        "discovery_event_id": "rZ7HnEZ1AfGKkf",
+        "url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-las-rosas-tickets/14313194",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGKkf",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-orlando-rz7hnez1afgkf0",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: \"The Love Chant Tour\" in Orlando",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "The Abbey",
+    "datetime_iso": "2027-02-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14313224",
+    "ticketmaster_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-the-abbey-tickets/14313224",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-the-abbey-tickets/14313224",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14313224",
+        "discovery_event_id": "rZ7HnEZ1AfGKF0",
+        "url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-the-abbey-tickets/14313224",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGKF0",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-phoenix-rz7hnez1afgbaf",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "THE LEMONHEADS: THE LOVE CHANT TOUR",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Crescent Ballroom",
+    "datetime_iso": "2027-02-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14318254",
+    "ticketmaster_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-crescent-ballroom-tickets/14318254",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-crescent-ballroom-tickets/14318254",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14318254",
+        "discovery_event_id": "rZ7HnEZ1AfGbaf",
+        "url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-crescent-ballroom-tickets/14318254",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGbaf",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-san-juan-capistrano-rz7hnez1a4zzjn",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour",
+    "city": "San Juan Capistrano",
+    "country": "United States Of America",
+    "venue": "The Coach House",
+    "datetime_iso": "2027-03-01T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15038723",
+    "ticketmaster_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-the-coach-house-tickets/15038723",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-the-coach-house-tickets/15038723",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15038723",
+        "discovery_event_id": "rZ7HnEZ1A4ZzjN",
+        "url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-the-coach-house-tickets/15038723",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1A4ZzjN",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-chicago-rz7hnez1afgof7",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Empty Bottle",
+    "datetime_iso": "2027-03-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14320204",
+    "ticketmaster_url": "https://www.ticketweb.com/event/the-lemonheads-empty-bottle-tickets/14320204",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/the-lemonheads-empty-bottle-tickets/14320204",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14320204",
+        "discovery_event_id": "rZ7HnEZ1AfGOF7",
+        "url": "https://www.ticketweb.com/event/the-lemonheads-empty-bottle-tickets/14320204",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGOF7",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-lemonheads-2027-columbus-rz7hnez1afgpp0",
+    "artist_slug": "the-lemonheads",
+    "artist_name": "The Lemonheads",
+    "event_name": "The Lemonheads: The Love Chant Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Rumba Cafe",
+    "datetime_iso": "2027-03-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14316964",
+    "ticketmaster_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-rumba-cafe-tickets/14316964",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-rumba-cafe-tickets/14316964",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14316964",
+        "discovery_event_id": "rZ7HnEZ1AfGpP0",
+        "url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-rumba-cafe-tickets/14316964",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGpP0",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

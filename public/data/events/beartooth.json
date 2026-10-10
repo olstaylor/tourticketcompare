@@ -2192,5 +2192,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980238",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980238/Beartooth-tickets-Tue-Dec-15-2026-Revel-Entertainment-Center"
+  },
+  {
+    "id": "tm-beartooth-2026-charleston-rz7hnez1af0fgk",
+    "artist_slug": "beartooth",
+    "artist_name": "Beartooth",
+    "event_name": "BEARTOOTH - PURE ECSTASY WORLD TOUR",
+    "city": "Charleston",
+    "country": "United States Of America",
+    "venue": "The Refinery",
+    "datetime_iso": "2026-12-02T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14914313",
+    "ticketmaster_url": "https://www.ticketweb.com/event/beartooth-pure-ecstasy-the-refinery-tickets/14914313",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/beartooth-pure-ecstasy-the-refinery-tickets/14914313",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14914313",
+        "discovery_event_id": "rZ7HnEZ1Af0fGK",
+        "url": "https://www.ticketweb.com/event/beartooth-pure-ecstasy-the-refinery-tickets/14914313",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1Af0fGK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

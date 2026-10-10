@@ -4463,5 +4463,429 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264033",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264033/Bruno-Mars-tickets-Tue-Mar-9-2027-Accor-Stadium"
+  },
+  {
+    "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkesyi9m",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-12-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006453B3E6C5F7",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-03-12-2026/event/14006453B3E6C5F7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-03-12-2026/event/14006453B3E6C5F7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006453B3E6C5F7",
+        "discovery_event_id": "1AfZkoKGkeSyi9M",
+        "url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-03-12-2026/event/14006453B3E6C5F7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZkoKGkeSyi9M",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfcxu",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-12-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006453BC22D8B6",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-04-12-2026/event/14006453BC22D8B6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-04-12-2026/event/14006453BC22D8B6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006453BC22D8B6",
+        "discovery_event_id": "1AfZkoKGkeHFcxU",
+        "url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-04-12-2026/event/14006453BC22D8B6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZkoKGkeHFcxU",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxy",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-12-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006453BC23D8B9",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-07-12-2026/event/14006453BC23D8B9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-07-12-2026/event/14006453BC23D8B9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006453BC23D8B9",
+        "discovery_event_id": "1AfZkoKGkeHFWxy",
+        "url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-07-12-2026/event/14006453BC23D8B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZkoKGkeHFWxy",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxd",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-12-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006453BC23D8BB",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-08-12-2026/event/14006453BC23D8BB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-08-12-2026/event/14006453BC23D8BB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006453BC23D8BB",
+        "discovery_event_id": "1AfZkoKGkeHFWxD",
+        "url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-08-12-2026/event/14006453BC23D8BB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZkoKGkeHFWxD",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehaqnd",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-12-12T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006453BC25D8C3",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-11-12-2026/event/14006453BC25D8C3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-11-12-2026/event/14006453BC25D8C3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006453BC25D8C3",
+        "discovery_event_id": "1AfZkoKGkeHaqNd",
+        "url": "https://www.ticketmaster.com.mx/bruno-mars-the-romantic-tour-ciudad-de-mexico-11-12-2026/event/14006453BC25D8C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZkoKGkeHaqNd",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-auckland-1a0zkfkgkeslw-y",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Eden Park",
+    "datetime_iso": "2027-03-13T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "24006513B1AF2879",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/bruno-mars-the-romantic-tour-auckland-13-03-2027/event/24006513B1AF2879",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/bruno-mars-the-romantic-tour-auckland-13-03-2027/event/24006513B1AF2879",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "24006513B1AF2879",
+        "discovery_event_id": "1A0ZkfKGkeslw-y",
+        "url": "https://www.ticketmaster.co.nz/bruno-mars-the-romantic-tour-auckland-13-03-2027/event/24006513B1AF2879",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A0ZkfKGkeslw-y",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-auckland-1ae8z_ogkiuunsj",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Eden Park",
+    "datetime_iso": "2027-03-14T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2400651B0D363CE6",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/bruno-mars-the-romantic-tour-auckland-14-03-2027/event/2400651B0D363CE6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/bruno-mars-the-romantic-tour-auckland-14-03-2027/event/2400651B0D363CE6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2400651B0D363CE6",
+        "discovery_event_id": "1Ae8Z_oGkiuuNSJ",
+        "url": "https://www.ticketmaster.co.nz/bruno-mars-the-romantic-tour-auckland-14-03-2027/event/2400651B0D363CE6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae8Z_oGkiuuNSJ",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-bruno-mars-2027-auckland-1ae8z_ogksqr0wn",
+    "artist_slug": "bruno-mars",
+    "artist_name": "Bruno Mars",
+    "event_name": "Bruno Mars - The Romantic Tour",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Eden Park",
+    "datetime_iso": "2027-03-16T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2400651CDA7A4CA3",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/bruno-mars-the-romantic-tour-auckland-16-03-2027/event/2400651CDA7A4CA3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/bruno-mars-the-romantic-tour-auckland-16-03-2027/event/2400651CDA7A4CA3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2400651CDA7A4CA3",
+        "discovery_event_id": "1Ae8Z_oGkSQr0wN",
+        "url": "https://www.ticketmaster.co.nz/bruno-mars-the-romantic-tour-auckland-16-03-2027/event/2400651CDA7A4CA3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae8Z_oGkSQr0wN",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
   }
 ]

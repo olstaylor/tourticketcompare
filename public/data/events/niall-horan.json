@@ -3505,5 +3505,165 @@
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
     "stubhub_international_url": ""
+  },
+  {
+    "id": "tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdnvnrg",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-05-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006527E3D2ABF5",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-07-05-2027/event/14006527E3D2ABF5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-07-05-2027/event/14006527E3D2ABF5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006527E3D2ABF5",
+        "discovery_event_id": "1AfZkfEGkdNVnRg",
+        "url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-07-05-2027/event/14006527E3D2ABF5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZkfEGkdNVnRg",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdpr1hq",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-05-09T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006527E578AF1A",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-08-05-2027/event/14006527E578AF1A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-08-05-2027/event/14006527E578AF1A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006527E578AF1A",
+        "discovery_event_id": "1AfZkfEGkdPr1HQ",
+        "url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-08-05-2027/event/14006527E578AF1A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZkfEGkdPr1HQ",
+    "timezone": "America/Mexico_City",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T17:00:00Z"
+  },
+  {
+    "id": "tm-niall-horan-2027-tlajomulco-de-zuniga-g5dvz_31eksvx",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan",
+    "city": "Tlajomulco de Zuñiga",
+    "country": "Mexico",
+    "venue": "Arena VFG",
+    "datetime_iso": "2027-05-12T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D006522821B107E",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/niall-horan-tlajomulco-de-zuniga-11-05-2027/event/3D006522821B107E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/niall-horan-tlajomulco-de-zuniga-11-05-2027/event/3D006522821B107E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D006522821B107E",
+        "discovery_event_id": "G5dVZ_31eksvX",
+        "url": "https://www.ticketmaster.com.mx/niall-horan-tlajomulco-de-zuniga-11-05-2027/event/3D006522821B107E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_31eksvX",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
   }
 ]

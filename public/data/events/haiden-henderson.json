@@ -1150,5 +1150,164 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeeFa",
     "timezone": "America/Denver",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-praha-5-z698xzu0z16v1ec67a",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson – The Dumblond Tour",
+    "city": "Praha 5",
+    "country": "Czech Republic",
+    "venue": "MeetFactory",
+    "datetime_iso": "2027-03-11T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1282387105",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/haiden-henderson--the-dumblond-tour-tickets/1282387105?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/haiden-henderson--the-dumblond-tour-tickets/1282387105?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1282387105",
+        "discovery_event_id": "Z698xZu0Z16v1eC67A",
+        "url": "https://www.ticketmaster.cz/event/haiden-henderson--the-dumblond-tour-tickets/1282387105?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z16v1eC67A",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-nashville-rz7hnez1afgiq7",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Basement East",
+    "datetime_iso": "2027-04-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14328684",
+    "ticketmaster_url": "https://www.ticketweb.com/event/haiden-henderson-the-basement-east-tickets/14328684",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/haiden-henderson-the-basement-east-tickets/14328684",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14328684",
+        "discovery_event_id": "rZ7HnEZ1AfGIQ7",
+        "url": "https://www.ticketweb.com/event/haiden-henderson-the-basement-east-tickets/14328684",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGIQ7",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-haiden-henderson-2027-san-francisco-rz7hnez1afggu7",
+    "artist_slug": "haiden-henderson",
+    "artist_name": "Haiden Henderson",
+    "event_name": "Haiden Henderson — The Dumblond Tour",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Brick and Mortar Music Hall",
+    "datetime_iso": "2027-05-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14335344",
+    "ticketmaster_url": "https://www.ticketweb.com/event/haiden-henderson-the-dumblond-brick-and-mortar-music-hall-tickets/14335344",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/haiden-henderson-the-dumblond-brick-and-mortar-music-hall-tickets/14335344",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14335344",
+        "discovery_event_id": "rZ7HnEZ1AfGgu7",
+        "url": "https://www.ticketweb.com/event/haiden-henderson-the-dumblond-brick-and-mortar-music-hall-tickets/14335344",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGgu7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

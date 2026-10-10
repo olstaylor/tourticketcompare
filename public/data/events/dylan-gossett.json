@@ -2294,5 +2294,111 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4bw",
     "timezone": "America/Chicago",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2026-auckland-17azv0g65cuaddf",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Headed Out Back Tour",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Great Hall, Auckland Town Hall",
+    "datetime_iso": "2026-12-11T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240064B3B6143EC8",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/dylan-gossett-the-headed-out-back-auckland-11-12-2026/event/240064B3B6143EC8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/dylan-gossett-the-headed-out-back-auckland-11-12-2026/event/240064B3B6143EC8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240064B3B6143EC8",
+        "discovery_event_id": "17aZv0G65CUAdDF",
+        "url": "https://www.ticketmaster.co.nz/dylan-gossett-the-headed-out-back-auckland-11-12-2026/event/240064B3B6143EC8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17aZv0G65CUAdDF",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2026-waipara-17azv0g653pu3v4",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Headed Out Back Tour",
+    "city": "Waipara",
+    "country": "New Zealand",
+    "venue": "Waipara Winehouse",
+    "datetime_iso": "2026-12-12T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240064B496352055",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/dylan-gossett-the-headed-out-back-waipara-12-12-2026/event/240064B496352055",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/dylan-gossett-the-headed-out-back-waipara-12-12-2026/event/240064B496352055",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240064B496352055",
+        "discovery_event_id": "17aZv0G653pu3v4",
+        "url": "https://www.ticketmaster.co.nz/dylan-gossett-the-headed-out-back-waipara-12-12-2026/event/240064B496352055",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17aZv0G653pu3v4",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
   }
 ]

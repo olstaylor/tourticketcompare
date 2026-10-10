@@ -2235,5 +2235,167 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z"
+  },
+  {
+    "id": "tm-mico-2027-praha-1-z698xzu0z16vxkonfi",
+    "artist_slug": "mico",
+    "artist_name": "Mico",
+    "event_name": "MICO - IN:BETWEEN TOUR",
+    "city": "Praha 1",
+    "country": "Czech Republic",
+    "venue": "Roxy",
+    "datetime_iso": "2027-01-25T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1886823228",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/mico-inbetween-tour-tickets/1886823228?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/mico-inbetween-tour-tickets/1886823228?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1886823228",
+        "discovery_event_id": "Z698xZu0Z16vxkONFI",
+        "url": "https://www.ticketmaster.cz/event/mico-inbetween-tour-tickets/1886823228?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z16vxkONFI",
+    "timezone": "Europe/Prague",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z"
+  },
+  {
+    "id": "tm-mico-2027-k-benhavn-v-z698xzc4z16vj9j7ev",
+    "artist_slug": "mico",
+    "artist_name": "Mico",
+    "event_name": "MICO - IN:BETWEEN TOUR",
+    "city": "København V",
+    "country": "Denmark",
+    "venue": "VEGA - Musikkens Hus, Store VEGA",
+    "datetime_iso": "2027-01-27T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1717984081",
+    "ticketmaster_url": "https://www.ticketmaster.dk/event/mico-inbetween-tour-tickets/1717984081?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.dk/event/mico-inbetween-tour-tickets/1717984081?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1717984081",
+        "discovery_event_id": "Z698xZC4Z16vj9J7ev",
+        "url": "https://www.ticketmaster.dk/event/mico-inbetween-tour-tickets/1717984081?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC4Z16vj9J7ev",
+    "timezone": "Europe/Copenhagen",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z"
+  },
+  {
+    "id": "tm-mico-2027-cleveland-rz7hnez1afut40",
+    "artist_slug": "mico",
+    "artist_name": "Mico",
+    "event_name": "MICO",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Globe Iron",
+    "datetime_iso": "2027-03-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14369564",
+    "ticketmaster_url": "https://www.ticketweb.com/event/mico-globe-iron-tickets/14369564",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/mico-globe-iron-tickets/14369564",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14369564",
+        "discovery_event_id": "rZ7HnEZ1Afut40",
+        "url": "https://www.ticketweb.com/event/mico-globe-iron-tickets/14369564",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1Afut40",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z"
   }
 ]

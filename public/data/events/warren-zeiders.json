@@ -1511,5 +1511,58 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307490/Warren-Zeiders-tickets-Fri-Apr-16-2027-Old-Foresters-Paristown-Hall"
+  },
+  {
+    "id": "tm-warren-zeiders-2026-oslo-z698xzb_z16v4v_kce",
+    "artist_slug": "warren-zeiders",
+    "artist_name": "Warren Zeiders",
+    "event_name": "Warren Zeiders",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Sentrum Scene",
+    "datetime_iso": "2026-11-02T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1541653382",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/warren-zeiders-tickets/1541653382?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/warren-zeiders-tickets/1541653382?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1541653382",
+        "discovery_event_id": "Z698xZb_Z16v4v_KCe",
+        "url": "https://www.ticketmaster.no/event/warren-zeiders-tickets/1541653382?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16v4v_KCe",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
   }
 ]

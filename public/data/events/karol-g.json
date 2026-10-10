@@ -1808,5 +1808,323 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896509",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896509/Karol-G-tickets-Wed-Jul-14-2027-PGE-Narodowy"
+  },
+  {
+    "id": "tm-karol-g-2026-guadalupe-g5dvz_fd0l9ge",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "Karol G, Viajando por el mundo, Tropitour",
+    "city": "Guadalupe",
+    "country": "Mexico",
+    "venue": "Estadio BBVA",
+    "datetime_iso": "2026-11-07T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D00648EE4AD7327",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-06-11-2026/event/3D00648EE4AD7327",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-06-11-2026/event/3D00648EE4AD7327",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D00648EE4AD7327",
+        "discovery_event_id": "G5dVZ_FD0l9GE",
+        "url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-06-11-2026/event/3D00648EE4AD7327",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_FD0l9GE",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-guadalupe-g5dvz_fdjam8c",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "Karol G, Viajando por el mundo, Tropitour",
+    "city": "Guadalupe",
+    "country": "Mexico",
+    "venue": "Estadio BBVA",
+    "datetime_iso": "2026-11-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D00648EE617740E",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-07-11-2026/event/3D00648EE617740E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-07-11-2026/event/3D00648EE617740E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D00648EE617740E",
+        "discovery_event_id": "G5dVZ_FDJAM8C",
+        "url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-07-11-2026/event/3D00648EE617740E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_FDJAM8C",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-guadalupe-g5dvz_fdjk688",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "Karol G, Viajando por el mundo, Tropitour",
+    "city": "Guadalupe",
+    "country": "Mexico",
+    "venue": "Estadio BBVA",
+    "datetime_iso": "2026-11-09T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D00648EE6187410",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-08-11-2026/event/3D00648EE6187410",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-08-11-2026/event/3D00648EE6187410",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D00648EE6187410",
+        "discovery_event_id": "G5dVZ_FDJk688",
+        "url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-guadalupe-08-11-2026/event/3D00648EE6187410",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_FDJk688",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknv53if",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "Karol G, Viajando por el mundo, Tropitour",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-11-14T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1400646A812D2A08",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-13-11-2026/event/1400646A812D2A08",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-13-11-2026/event/1400646A812D2A08",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1400646A812D2A08",
+        "discovery_event_id": "1Av8Z_kGknv53IF",
+        "url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-13-11-2026/event/1400646A812D2A08",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av8Z_kGknv53IF",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknefxra",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "Karol G, Viajando por el mundo, Tropitour",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-11-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1400646A82522BC9",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-14-11-2026/event/1400646A82522BC9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-14-11-2026/event/1400646A82522BC9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1400646A82522BC9",
+        "discovery_event_id": "1Av8Z_kGknefxRa",
+        "url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-14-11-2026/event/1400646A82522BC9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av8Z_kGknefxRa",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknefwr5",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "Karol G, Viajando por el mundo, Tropitour",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-11-16T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1400646A82532BCB",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-15-11-2026/event/1400646A82532BCB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-15-11-2026/event/1400646A82532BCB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1400646A82532BCB",
+        "discovery_event_id": "1Av8Z_kGknefwR5",
+        "url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-15-11-2026/event/1400646A82532BCB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av8Z_kGknefwR5",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
   }
 ]

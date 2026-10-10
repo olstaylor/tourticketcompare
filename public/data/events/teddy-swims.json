@@ -3896,5 +3896,111 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167507",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167507/Teddy-Swims-tickets-Wed-Mar-10-2027-Barclays-Arena-Hamburg",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-hamburg-barclays-arena-hamburg-10-3-2027/event/107458276"
+  },
+  {
+    "id": "tm-teddy-swims-2027-fornebu-z698xzb_z1aakf8y",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims: The UGLY Tour",
+    "city": "Fornebu",
+    "country": "Norway",
+    "venue": "Unity Arena",
+    "datetime_iso": "2027-03-02T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "5194439",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/teddy-swims-the-ugly-tour-tickets/5194439?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/teddy-swims-the-ugly-tour-tickets/5194439?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "5194439",
+        "discovery_event_id": "Z698xZb_Z1AAkf8y",
+        "url": "https://www.ticketmaster.no/event/teddy-swims-the-ugly-tour-tickets/5194439?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z1AAkf8y",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-teddy-swims-2027-praha-9-z698xzu0z1kq9x78k",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims – The UGLY Tour",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "venue": "O2 Arena",
+    "datetime_iso": "2027-03-20T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "697884406",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/teddy-swims--the-ugly-tour-tickets/697884406?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/teddy-swims--the-ugly-tour-tickets/697884406?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "697884406",
+        "discovery_event_id": "Z698xZu0Z1kQ9x78k",
+        "url": "https://www.ticketmaster.cz/event/teddy-swims--the-ugly-tour-tickets/697884406?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z1kQ9x78k",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
   }
 ]

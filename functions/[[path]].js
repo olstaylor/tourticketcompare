@@ -411,6 +411,25 @@ async function loadArtistsMeta(env) {
   return loadJsonAsset(env, "/data/artists.json", Array.isArray, []);
 }
 
+// An artist demoted by the auto-publish health sensor (scripts/demote-artist.mjs)
+// keeps its page as a noindex shell with no ticket buttons, but is no longer
+// featured in site-wide lists: the homepage, /artists and the on-sale calendar
+// (owner decision 2026-10-10). Its own page and its events are left as they are.
+async function loadDemotedArtistSlugs(env) {
+  const artists = await loadArtistsMeta(env);
+  return new Set(artists.filter((artist) => artist && artist.demoted).map((artist) => slugify(artist.slug)));
+}
+
+function withoutDemotedEvents(events, demoted) {
+  if (!demoted.size || !Array.isArray(events)) return events;
+  return events.filter((event) => !demoted.has(slugify(event?.artist_slug)));
+}
+
+function withoutDemotedArtists(catalog, demoted) {
+  if (!demoted.size || !catalog || !Array.isArray(catalog.artists)) return catalog;
+  return { ...catalog, artists: catalog.artists.filter((artist) => !demoted.has(slugify(artist?.slug))) };
+}
+
 const EVENT_INDEXED_COHORT_KEY_SET = new Set(EVENT_INDEXED_COHORT_KEYS);
 const NO_EVENT_INDEXING_PILOT = Object.freeze({ active: false, reason: "no_pilot_event", members: [], indexed: [], pathById: new Map() });
 
@@ -674,7 +693,8 @@ async function resolveRoute(pathname, env) {
   // date moves from "going on sale" to "just went on sale" the moment its
   // public on-sale passes, with no rebuild.
   if (path === ONSALE_CALENDAR_PATH) {
-    const onsaleEvents = await loadEvents(env);
+    const [allOnsaleEvents, demotedSlugs] = await Promise.all([loadEvents(env), loadDemotedArtistSlugs(env)]);
+    const onsaleEvents = withoutDemotedEvents(allOnsaleEvents, demotedSlugs);
     const calendar = deriveOnsaleCalendar(onsaleEvents);
     return {
       type: "onsale-calendar",
@@ -8158,10 +8178,12 @@ async function renderRequest(context) {
     return Response.redirect(new URL(route.location, url.origin).toString(), 301);
   }
 
-  const catalog = route.catalog || await loadCatalog(env);
+  const listsOnly = route.path === "/" || route.path === "/artists";
+  const demotedSlugs = listsOnly ? await loadDemotedArtistSlugs(env) : new Set();
+  const catalog = withoutDemotedArtists(route.catalog || await loadCatalog(env), demotedSlugs);
   const needsGuideEvents = route.type === "guide" && Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2;
   const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || route.path === "/artists" || route.path === "/";
-  const events = route.events || (needsEvents ? await loadEvents(env) : []);
+  const events = withoutDemotedEvents(route.events || (needsEvents ? await loadEvents(env) : []), demotedSlugs);
   timer.mark("data");
   let priceLowSeries = new Map();
   let priceMoveSeries = new Map();

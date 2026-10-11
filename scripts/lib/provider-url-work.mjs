@@ -29,6 +29,9 @@ export function needsProviderUrl(event, now = new Date()) {
 }
 export const verifiedIdentity = (entry) => entry?.review_status === "verified"
   && Number.isSafeInteger(entry.seatgeek_performer_id) && entry.seatgeek_performer_id > 0;
+// A demoted artist's identity has sync switched off (scripts/demote-artist.mjs):
+// its links are unpublished, so its SeatGeek gaps are not work.
+export const syncPaused = (entry) => entry?.sync_enabled === false;
 
 export function buildProviderUrlReport(events, registry, now = new Date()) {
   if (!Array.isArray(events) || !Array.isArray(registry?.artists) || !Number.isFinite(now.getTime())) {
@@ -42,7 +45,7 @@ export function buildProviderUrlReport(events, registry, now = new Date()) {
       throw new Error("Invalid or duplicate event identity; refusing an incomplete coverage report");
     }
     ids.add(event.id);
-    if (!needsProviderUrl(event, now)) continue;
+    if (!needsProviderUrl(event, now) || syncPaused(identities.get(event.artist_slug))) continue;
     if (!groups.has(event.artist_slug)) groups.set(event.artist_slug, []);
     groups.get(event.artist_slug).push(event);
   }
@@ -93,6 +96,7 @@ export function validProviderUrlEvidence(evidence) {
 
 export function currentProviderUrlBatch(plan, events, registry, now = new Date()) {
   const entry = registry.artists.find((artist) => artist.slug === plan.artistSlug);
+  if (syncPaused(entry)) return { ok: true, events: [] };
   if (!verifiedIdentity(entry) || entry.seatgeek_performer_id !== plan.performerId) {
     return { ok: false, reason: "Registry identity is missing, unverified or changed since the sensor ran" };
   }

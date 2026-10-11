@@ -49,7 +49,7 @@ function spec(provider, name, price, currency = "USD", fetchedAt = "2026-08-09T0
     href: `/api/out?showId=x&provider=${provider}`,
     lane: { price, currency, fetchedAt, expiresAt: "2026-08-10T09:00:00Z" },
     priceAmount: `$${price}`,
-    priceAsOf: "9 Aug 2026, 09:00 UTC"
+    priceAsOf: "Aug 9, 2026, 9:00 AM UTC"
   };
 }
 
@@ -561,7 +561,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   // currency AND capture time; the event date is not the capture time, so a
   // row showing "Nov 4, 2026: $310" and nothing else would be unattributed.
   assert(
-    /: \$182, Vivid Seats \(checked 9 Aug 2026, 09:00 UTC\)/.test(body),
+    /: \$182, Vivid Seats \(checked Aug 9, 2026, 9:00 AM UTC\)/.test(body),
     "a city row carries the snapshot capture time beside the price, not just the event date"
   );
   // Counted rather than pattern-matched per row: what must hold is that the
@@ -586,11 +586,11 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   // carry-in has been dropped and the feature is silently reporting "no
   // history" for prices that have simply been stable.
   assert(
-    /30-day low \$150 · Vivid Seats, 1 Jul 2026/.test(body),
+    /30-day low \$150 · Vivid Seats, Jul 1, 2026/.test(body),
     "a low observed before the window opened is still reported, with its true observation date"
   );
   assert(
-    /30-day low \$175 · TicketNetwork, 20 Jul 2026/.test(body),
+    /30-day low \$175 · TicketNetwork, Jul 20, 2026/.test(body),
     "an in-window low is reported and attributed to the provider that recorded it"
   );
   // A $1 row sits in RUN_B's history. The floor is applied on read because

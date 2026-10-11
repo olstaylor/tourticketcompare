@@ -5,7 +5,7 @@
 // The hub counts reviewed events per artist and links each artist page. These
 // tests lock what it may count (upcoming, not cancelled, in the year at the
 // venue, artist in the catalog), that it never links a ticket site or an event
-// page, and that it stays noindex until TOURS_HUB_INDEXABLE is flipped.
+// page, and that it is indexable only while an indexable artist qualifies.
 
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
@@ -71,7 +71,10 @@ assert(first.firstMonth === 2 && first.lastMonth === 8, "months are read in the 
 assert(first.tourName === "The Big Tour", "a shared tour name is carried");
 assert(second.tourName === "", "no tour name is invented when the dates carry none");
 assert(first.path === "/artists/artist-a", "each row links the artist page");
-assert(TOURS_HUB_INDEXABLE === false && hub.indexable === false, "the hub stays noindex until the pilot read-out");
+assert(TOURS_HUB_INDEXABLE === true && hub.indexable === true, "the hub is indexable once an artist qualifies");
+const linkableOnly = deriveToursHub(events, catalog, 2027, NOW_MS, ["artist-a"]);
+assert(linkableOnly.artistCount === 1 && linkableOnly.artists[0].artistSlug === "artist-a", "artists whose own page is noindex are left out");
+assert(deriveToursHub(events, catalog, 2027, NOW_MS, []).indexable === false, "with no indexable artist the hub is noindex");
 
 const body = renderToursHubBody({ path: TOURS_HUB_PATH, hub, breadcrumb: [{ name: "2027 tours", path: TOURS_HUB_PATH }] });
 assert(body.includes('href="/artists/artist-a"') && body.includes('href="/artists/artist-b"'), "the page links each artist page");

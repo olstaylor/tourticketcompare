@@ -207,14 +207,13 @@ and `llms.txt`; it never 404s.
 
 ### Tours hub — `/tours/2027`
 
-**Held `noindex,follow`** (`TOURS_HUB_INDEXABLE = false` in
-`functions/_tours-hub.js`) until the owner reviews the event-page pilot read-out
-(2026-10-25), and out of the sitemap and `llms.txt` while held. It lists every
-catalog artist with upcoming, non-cancelled dates in 2027 (venue-local year),
-with counts of dates, cities and countries and the month span, and links only to
-artist pages: no event pages, no ticket sites, no prices. Flipping the constant
-is an owner decision; once flipped it is indexable whenever at least one artist
-qualifies.
+**Indexable since 2026-10-11** (owner OK; `TOURS_HUB_INDEXABLE = true` in
+`functions/_tours-hub.js`), in the pages sitemap and `llms.txt`. It lists every
+catalog artist whose own page is indexable and who has upcoming, non-cancelled
+dates in 2027 (venue-local year), with counts of dates, cities and countries and
+the month span, and links only to those artist pages: no event pages, no ticket
+sites, no prices. With no qualifying artist it renders `noindex,follow` and
+leaves the sitemap and `llms.txt`.
 
 ### Artist-city — `/artists/<artist>/tickets/<city>`
 

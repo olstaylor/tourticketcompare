@@ -48,6 +48,7 @@ on:
       - 'functions/sitemaps/**'
       - 'functions/_price-guides.js'
       - 'functions/_onsale-calendar.js'
+      - 'functions/_tours-hub.js'
       - 'functions/_blog.js'
       - 'functions/_route-metadata.js'
       - 'functions/_cities.js'

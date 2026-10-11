@@ -4187,7 +4187,7 @@ function publishableFutureShowsUncached(events, now = Date.now()) {
     }))
     .filter((show) => show.id && isUpcomingShow(show, now))
     .filter((show) => show.publishable)
-    .sort((a, b) => Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO));
+    .sort((a, b) => showStartMs(a) - showStartMs(b));
 }
 
 function renderComparisonHubArtistCards(catalog, events = []) {
@@ -4833,7 +4833,7 @@ function futureShowsForArtist(events, artistSlug, limit = Infinity) {
   return eventsForArtist(events, slug)
     .map(enrichEventAsShow)
     .filter((show) => show.id && isUpcomingShow(show, now))
-    .sort((a, b) => Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO))
+    .sort((a, b) => showStartMs(a) - showStartMs(b))
     .slice(0, limit);
 }
 
@@ -4851,7 +4851,7 @@ function recentPastShowsForArtist(events, artistSlug, limit = 3) {
     .map(enrichEventAsShow)
     .filter((show) => show.id && Number.isFinite(showStartMs(show)) && !isUpcomingShow(show, now))
     .filter((show) => show.publishable && show.venue && show.city)
-    .sort((a, b) => Date.parse(b.dateTimeISO) - Date.parse(a.dateTimeISO))
+    .sort((a, b) => showStartMs(b) - showStartMs(a))
     .slice(0, limit);
 }
 
@@ -5896,8 +5896,8 @@ function venueRunIndex(shows) {
   const sorted = [...shows]
     .filter((show) => show?.id)
     .sort((a, b) => {
-      const ta = Date.parse(a.dateTimeISO || "");
-      const tb = Date.parse(b.dateTimeISO || "");
+      const ta = showStartMs(a);
+      const tb = showStartMs(b);
       return (Number.isFinite(ta) ? ta : 0) - (Number.isFinite(tb) ? tb : 0);
     });
   for (const show of sorted) {
@@ -6374,15 +6374,10 @@ export function guideProviderPairEligibility(events, env = {}, pair = ["ticketma
   if (!pair.every((provider) => GUIDE_PAIR_PROVIDERS.has(provider))) return [];
   return (events || [])
     .filter((event) => {
-      const date = Date.parse(String(event?.datetime_iso || event?.dateTimeISO || ""));
-      if (!Number.isFinite(date) || date < Date.now()) return false;
+      if (!isUpcomingShow(event)) return false;
       return Boolean(event?.id && pair.every((provider) => guidePairLanePublishable(event, provider, env)));
     })
-    .sort(
-      (a, b) =>
-        Date.parse(String(a?.datetime_iso || a?.dateTimeISO || "")) -
-        Date.parse(String(b?.datetime_iso || b?.dateTimeISO || ""))
-    );
+    .sort((a, b) => showStartMs(a) - showStartMs(b));
 }
 
 function guideProviderPairHref(event, provider, guideSlug, position) {
@@ -7783,7 +7778,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
-    '<script src="/app.js?v=20261010s" defer></script>',
+    '<script src="/app.js?v=20261011a" defer></script>',
     '<script src="/shell.js?v=20261010s" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed
@@ -8124,7 +8119,7 @@ function edgeValidUntilFor(shows) {
   let until = Number.POSITIVE_INFINITY;
   for (const show of shows) {
     if (show?.priceQueryFailed) return null;
-    const starts = Date.parse(show?.dateTimeISO || show?.datetime_iso || "");
+    const starts = showStartMs(show);
     if (Number.isFinite(starts)) until = Math.min(until, starts);
     // A pending public on-sale is stated on the page until it opens.
     const onsale = Date.parse(show?.public_onsale_at || "");

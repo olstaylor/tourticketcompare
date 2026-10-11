@@ -1,3 +1,4 @@
+import { showStartMs } from "./_upcoming.js";
 import { TRUST_ROUTES, GUIDE_ROUTES, canonicalOrigin } from "./_route-metadata.js";
 import { deriveCities, citySlug } from "./_cities.js";
 import { deriveVenues } from "./_venues.js";
@@ -159,7 +160,7 @@ export function artistFactsBySlug(events, now = Date.now()) {
   for (const event of Array.isArray(events) ? events : []) {
     if (!event || typeof event !== "object" || eventLifecycleHeld(event)) continue;
     const slug = String(event.artist_slug || "").trim();
-    const showMs = Date.parse(String(event.datetime_iso || "").trim());
+    const showMs = showStartMs(event);
     if (!slug || !Number.isFinite(showMs) || showMs < now) continue;
     if (!grouped.has(slug)) grouped.set(slug, []);
     grouped.get(slug).push({ event, showMs });

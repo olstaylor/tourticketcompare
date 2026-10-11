@@ -23,6 +23,7 @@
 // Shared by the router ([[path]].js), the sitemap, llms.txt and the sync
 // script, so none of them can disagree. Pure: no HTML, no I/O.
 
+import { showStartMs } from "./_upcoming.js";
 import { eventLifecycleHeld, presalePageGate, PRESALE_PAGE_FRESH_DAYS, PRESALE_PAGE_INDEX_DAYS } from "./_route-indexability.js";
 
 const DAY_MS = 86400000;
@@ -116,7 +117,7 @@ function showEntry(event) {
 function upcomingEvents(events, now) {
   return (Array.isArray(events) ? events : []).filter((event) => {
     if (!event || !trimmed(event.artist_slug) || eventLifecycleHeld(event)) return false;
-    const showMs = Date.parse(trimmed(event.datetime_iso));
+    const showMs = showStartMs(event);
     return Number.isFinite(showMs) && showMs > now;
   });
 }

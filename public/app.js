@@ -2654,8 +2654,8 @@ function venueRunIndex(shows) {
   const sorted = [...shows]
     .filter((show) => show?.id)
     .sort((a, b) => {
-      const ta = Date.parse(a.dateTimeISO || a.datetime_iso || "");
-      const tb = Date.parse(b.dateTimeISO || b.datetime_iso || "");
+      const ta = showStartMs(a);
+      const tb = showStartMs(b);
       return (Number.isFinite(ta) ? ta : 0) - (Number.isFinite(tb) ? tb : 0);
     });
   for (const show of sorted) {

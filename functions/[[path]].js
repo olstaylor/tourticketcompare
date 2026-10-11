@@ -5819,8 +5819,8 @@ function venueRunIndex(shows) {
   const sorted = [...shows]
     .filter((show) => show?.id)
     .sort((a, b) => {
-      const ta = Date.parse(a.dateTimeISO || "");
-      const tb = Date.parse(b.dateTimeISO || "");
+      const ta = showStartMs(a);
+      const tb = showStartMs(b);
       return (Number.isFinite(ta) ? ta : 0) - (Number.isFinite(tb) ? tb : 0);
     });
   for (const show of sorted) {
@@ -7655,7 +7655,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
-    '<script src="/app.js?v=20261010a" defer></script>',
+    '<script src="/app.js?v=20261011a" defer></script>',
     '<script src="/shell.js?v=20261009a" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed

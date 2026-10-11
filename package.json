@@ -82,7 +82,7 @@
     "guides:validate": "node scripts/validate-guide-routes.mjs",
     "guides:build": "node scripts/build-guide-content.mjs",
     "guides:check": "node scripts/build-guide-content.mjs --check",
-    "guides:self-test": "node scripts/build-guide-content.mjs --self-test && node scripts/guide-provider-pair.test.mjs",
+    "guides:self-test": "node scripts/build-guide-content.mjs --self-test && node scripts/guide-provider-pair.test.mjs && node scripts/guide-dates-placement.test.mjs",
     "guides:new": "node scripts/new-guide.mjs",
     "og:build": "node scripts/build-og-cards.mjs",
     "og:check": "node scripts/build-og-cards.mjs --check",

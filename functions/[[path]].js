@@ -284,7 +284,7 @@ const EDGE_CACHEABLE_STATIC_PATHS = new Set([
 function edgeCacheableRoute(route) {
   if (!route) return false;
   if (route.type === "guide") {
-    return !(Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2);
+    return !(Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2) && !GUIDE_UPCOMING_ARTIST_PATHS.has(route.path);
   }
   if (route.type === "blog-index" || route.type === "blog-post" || route.type === "blog-tag") return true;
   return route.type === "static" && EDGE_CACHEABLE_STATIC_PATHS.has(route.path);
@@ -588,7 +588,9 @@ async function deriveBlogArtistTicketRoutes(env, artistSlugs) {
         .sort((a, b) => a.shows[0].ts - b.shows[0].ts || a.slug.localeCompare(b.slug))
         .slice(0, BLOG_TICKET_ROUTE_CITY_LIMIT)
         .map((artistCity) => ({ slug: artistCity.slug, label: artistCity.label, showCount: artistCity.showCount }));
-      return { slug, name: String(meta.name || "").trim(), showCount: shows.length, priceGuideLive, cities };
+      const name = String(meta.name || "").trim();
+      const presaleLead = artistPresaleLead(name, deriveArtistPresales(artistEvents, slug));
+      return { slug, name, showCount: shows.length, priceGuideLive, presaleLead, cities };
     })
   );
   return rows.filter((row) => row && row.name);
@@ -609,6 +611,8 @@ async function resolveRoute(pathname, env) {
       path,
       indexable: true,
       ...guide,
+      // Indexing status lives in artists.json, not the catalog.
+      ...(GUIDE_UPCOMING_ARTIST_PATHS.has(path) ? { artistsMeta: await loadArtistsMeta(env) } : {}),
       breadcrumb: [
         { name: "Guides", path: "/guides" },
         { name: guide.title.replace(" | TourTicketCompare", ""), path }
@@ -3848,7 +3852,7 @@ export function renderCityPageBody(route, events = [], options = {}) {
   }
 
   return shell(
-    `<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming dates</h2>${renderMoneyDisclosureHtml()}</div>${renderCityShowGroups(
+    `${renderCityPresaleLinksHtml(city, route.events || events, new Set(route.linkableArtistSlugs || route.indexableArtistSlugs || []))}<section class="section-grid" data-show-list><div class="section-intro"><h2>Upcoming dates</h2>${renderMoneyDisclosureHtml()}</div>${renderCityShowGroups(
       city,
       events,
       indexableArtistSlugs,
@@ -4444,22 +4448,35 @@ function renderGuideSources(sources) {
   return `<section class="nested-panel guide-sources"><h2>Sources</h2><p>Primary sources used to check time-sensitive provider and fee claims in this guide:</p><ul class="guide-link-list">${items}</ul></section>`;
 }
 
-function renderFullGuideContent(sections) {
+// Where a comparison guide's dated cards go: straight after its "Find your
+// concert" section, else after the opening answer. At the foot of a long guide
+// they reached almost nobody (70 visitors, 1 click, 1-9 Oct 2026).
+export function guideDatesInsertIndex(sections) {
+  if (!Array.isArray(sections) || !sections.length) return -1;
+  const find = sections.findIndex((section) => section?.type === "section" && /^find your concert$/i.test(String(section.title || "").trim()));
+  if (find >= 0) return find;
+  const firstSection = sections.findIndex((section) => section?.type === "section");
+  return firstSection >= 0 ? firstSection : sections.length - 1;
+}
+
+function renderFullGuideContent(sections, insertHtml = "", insertAfter = -1) {
   if (!Array.isArray(sections)) return "";
   return sections
-    .map(section => {
-      if (section.type === "intro") {
-        return `<section class="nested-panel">${markdownToHtml(section.content)}</section>`;
-      }
-      if (section.type === "section") {
-        return `<section class="nested-panel"><h2>${escapeHtml(section.title)}</h2>${markdownToHtml(section.content)}</section>`;
-      }
-      if (section.type === "subsection") {
-        return `<section class="nested-panel"><h3>${escapeHtml(section.title)}</h3>${markdownToHtml(section.content)}</section>`;
-      }
-      return "";
-    })
+    .map((section, index) => `${renderGuideSection(section)}${index === insertAfter ? insertHtml : ""}`)
     .join("");
+}
+
+function renderGuideSection(section) {
+  if (section?.type === "intro") {
+    return `<section class="nested-panel">${markdownToHtml(section.content)}</section>`;
+  }
+  if (section?.type === "section") {
+    return `<section class="nested-panel"><h2>${escapeHtml(section.title)}</h2>${markdownToHtml(section.content)}</section>`;
+  }
+  if (section?.type === "subsection") {
+    return `<section class="nested-panel"><h3>${escapeHtml(section.title)}</h3>${markdownToHtml(section.content)}</section>`;
+  }
+  return "";
 }
 
 // ---------------------------------------------------------------------------
@@ -4592,7 +4609,7 @@ function renderBlogArtistTicketRoutes(routes) {
         (row) =>
           `<li data-blog-ticket-routes="${escapeAttr(row.slug)}">${anchor(`${row.name} tickets by date`, `/artists/${row.slug}`)}${
             row.priceGuideLive ? ` · ${anchor(`${row.name} ticket prices`, priceGuidePath(row.slug))}` : ""
-          }</li>`
+          }${row.presaleLead ? ` · ${anchor(row.presaleLead, presalePath(row.slug))}` : ""}</li>`
       )
       .join("");
     return `<section class="nested-panel blog-ticket-routes"><h2>Tickets for the artists in this post</h2><p>Each date board links to the ticket sites with a checked page for that exact show.</p><ul class="guide-link-list">${items}</ul></section>`;
@@ -4614,7 +4631,9 @@ function renderBlogArtistTicketRoutes(routes) {
         `${showsLabel}. Each date links to the ticket sites with a checked page for that exact show.`
       )}</p><div class="action-row">${anchor(`Compare ${row.name} tickets by date`, `/artists/${row.slug}`, "button button-primary")}${
         row.priceGuideLive ? anchor(`${row.name} ticket prices`, priceGuidePath(row.slug), "button button-secondary") : ""
-      }</div>${cityItems ? `<p>Next cities:</p><ul class="guide-link-list">${cityItems}</ul>` : ""}</section>`;
+      }</div>${row.presaleLead ? `<p class="presale-link">${anchor(`${row.presaleLead}. See every presale time`, presalePath(row.slug), "text-link")}</p>` : ""}${
+        cityItems ? `<p>Next cities:</p><ul class="guide-link-list">${cityItems}</ul>` : ""
+      }</section>`;
     })
     .join("");
 }
@@ -5166,13 +5185,51 @@ function renderPresaleWindowHtml(window, artistSlug) {
 // package or card allocation that has been "open" since the tour went on sale
 // is not news to a fan, so it neither indexes the page nor earns this line.
 function renderArtistPresaleLinkHtml(artist, presales, now = Date.now()) {
+  const lead = artistPresaleLead(artist.name, presales, now);
+  if (!lead) return "";
+  return `<p class="price-guide-link presale-link">${anchor(`${lead}. See every presale time`, presalePath(artist.slug), "text-link")}</p>`;
+}
+
+// The same line for every page that links a presale page (artist, artist-city,
+// blog, city), so they all appear and disappear with the page's own gate.
+export function artistPresaleLead(name, presales, now = Date.now()) {
   if (!presales?.windowCount || !presales.indexable) return "";
   const freshOpen = presales.windows.some((window) => window.open && now - window.startMs <= PRESALE_PAGE_FRESH_DAYS * 86400000);
   if (!freshOpen && !presales.nextWindow) return "";
-  const lead = freshOpen
-    ? `${artist.name} presale open now`
-    : `${artist.name} presale: ${presales.nextWindow.name} opens ${presaleTimeLabel(presales.nextWindow.startMs, presaleWindowZone(presales.nextWindow))}`;
-  return `<p class="price-guide-link presale-link">${anchor(`${lead}. See every presale time`, presalePath(artist.slug), "text-link")}</p>`;
+  return freshOpen
+    ? `${name} presale open now`
+    : `${name} presale: ${presales.nextWindow.name} opens ${presaleTimeLabel(presales.nextWindow.startMs, presaleWindowZone(presales.nextWindow))}`;
+}
+
+// An artist's presale view narrowed to windows that cover one of `showIds`,
+// so a city page only mentions presales for its own dates. The page-level
+// indexable flag is kept: the link still points at the whole presale page.
+export function presalesForShows(presales, showIds) {
+  if (!presales?.windowCount) return presales;
+  const ids = showIds instanceof Set ? showIds : new Set(showIds || []);
+  const windows = presales.windows.filter((window) => window.shows.some((show) => ids.has(show.id)));
+  return { ...presales, windows, windowCount: windows.length, nextWindow: windows.find((window) => !window.open) || null };
+}
+
+// City page: presale lines for indexable artists whose windows cover a date in
+// this city. Each new presale the nightly sync records links itself here.
+const CITY_PRESALE_LINK_LIMIT = 6;
+function renderCityPresaleLinksHtml(city, events, indexableArtistSlugs, now = Date.now()) {
+  const showIdsByArtist = new Map();
+  for (const show of city.shows || []) {
+    const slug = slugify(show.artist_slug);
+    if (!slug || !indexableArtistSlugs.has(slug)) continue;
+    if (!showIdsByArtist.has(slug)) showIdsByArtist.set(slug, { name: show.artist_name || slug, ids: new Set() });
+    showIdsByArtist.get(slug).ids.add(String(show.id || ""));
+  }
+  const items = [];
+  for (const [slug, entry] of showIdsByArtist) {
+    const lead = artistPresaleLead(entry.name, presalesForShows(deriveArtistPresales(events, slug, now), entry.ids), now);
+    if (lead) items.push(`<li>${anchor(lead, presalePath(slug), "text-link")}</li>`);
+    if (items.length === CITY_PRESALE_LINK_LIMIT) break;
+  }
+  if (!items.length) return "";
+  return `<section class="nested-panel city-presales"><h2>${escapeHtml(`Presales for ${city.city} dates`)}</h2><ul class="guide-link-list">${items.join("")}</ul></section>`;
 }
 
 // /on-sale: each artist's windows, the first few shown and the rest folded.
@@ -6401,6 +6458,45 @@ export function renderGuideProviderPair(route, events, env = {}) {
   )}</p><div class="card-grid guide-provider-pair-grid">${rows}</div>${methodology}</section>`;
 }
 
+// Comparison guides about a marketplace TTC has no lane for (StubHub US and
+// Canada) cannot pair two checked links. They point at the artist pages of
+// soon-touring artists instead, where every approved lane is compared. Plain
+// internal links: no provider, price or availability claim.
+export const GUIDE_UPCOMING_ARTIST_PATHS = new Set([
+  "/guides/seatgeek-vs-stubhub",
+  "/guides/ticketmaster-vs-stubhub",
+  "/guides/vivid-seats-vs-stubhub"
+]);
+
+export function renderGuideUpcomingArtists(route, events, now = Date.now(), limit = 8) {
+  if (!GUIDE_UPCOMING_ARTIST_PATHS.has(route?.path)) return "";
+  const artists = new Map((route.artistsMeta || []).map((artist) => [slugify(artist.slug), artist]));
+  const upcoming = (events || [])
+    .filter((event) => isUpcomingShow(event, now))
+    .sort((a, b) => showStartMs(a) - showStartMs(b));
+  const seen = new Set();
+  const cards = [];
+  for (const event of upcoming) {
+    const slug = slugify(event.artist_slug);
+    if (!slug || seen.has(slug)) continue;
+    const artist = artists.get(slug);
+    if (!artist || !artistPageIndexable(artist, events, slug, now)) continue;
+    seen.add(slug);
+    const date = formatShowDateServer(event.datetime_iso || event.dateTimeISO, event.timezone);
+    const location = [event.venue, event.city].map((value) => String(value || "").trim()).filter(Boolean).join(" · ");
+    cards.push(`<article class="info-card guide-provider-pair-card"><h3>${anchor(
+      String(artist.name || event.artist_name || slug).trim(),
+      `/artists/${slug}`,
+      "guide-card-link"
+    )}</h3><p>${escapeHtml(["Next date", date, location].filter(Boolean).join(" · "))}</p></article>`);
+    if (cards.length === limit) break;
+  }
+  if (!cards.length) return "";
+  return `<section class="nested-panel guide-provider-pair" aria-labelledby="upcomingArtistsTitle"><h2 id="upcomingArtistsTitle">Compare a real show</h2><p>${escapeHtml(
+    "These artists play soon. Open one to see the checked ticket links for each date, then compare the same seats and the checkout total on each site."
+  )}</p><div class="card-grid guide-provider-pair-grid">${cards.join("")}</div></section>`;
+}
+
 // Title and description for an event page. Composed before any price is
 // fetched, so neither can carry a live figure; a held date's never says
 // "tickets".
@@ -7080,11 +7176,15 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
             "text-link"
           )}</p>`
         : "";
+    // The artist's presale page, when one of its windows covers a date here.
+    const presaleLinkHtml = shows.length
+      ? renderArtistPresaleLinkHtml(artist, presalesForShows(deriveArtistPresales(events, artist.slug), cityShowIds))
+      : "";
     return `<main id="mainContent"><section class="content-page artist-city-page" aria-labelledby="artistCityTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="artistCityTitle">${escapeHtml(artist.name)} Tickets in ${escapeHtml(
       artistCity.label
-    )}</h1>${priceAnswerHtml}${renderShowBoardServerHtml(
+    )}</h1>${presaleLinkHtml}${priceAnswerHtml}${renderShowBoardServerHtml(
       shows,
       seatGeekAvailable,
       true,
@@ -7111,13 +7211,16 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   }
 
   if (route.type === "guide") {
+    const datesHtml = renderGuideProviderPair(route, events, env) || renderGuideUpcomingArtists(route, events);
+    const sections = route.fullContent ? guideContent[route.path]?.sections : null;
+    const insertAfter = guideDatesInsertIndex(sections);
     const fullContent = route.fullContent && guideContent[route.path]
-      ? renderFullGuideContent(guideContent[route.path].sections)
+      ? renderFullGuideContent(sections, datesHtml, insertAfter)
       : "";
     const contentHtml = fullContent
       ? fullContent
       : `<section class="nested-panel"><h2>What this guide covers</h2><p>This guide explains what to check, red flags to avoid, what to confirm before buying, and what TourTicketCompare does and does not verify. Final prices, fees, availability, delivery, and checkout terms should always be confirmed on the provider site.</p></section>`;
-    const providerPairHtml = renderGuideProviderPair(route, events, env);
+    const providerPairHtml = fullContent && insertAfter >= 0 ? "" : datesHtml;
     return `<main id="mainContent"><section class="content-page guide-page" aria-labelledby="guideTitle">${renderBreadcrumbHtml(
       route
     )}<h1 id="guideTitle">${escapeHtml(route.h1 || route.title.replace(" | TourTicketCompare", ""))}</h1><p class="lead">${escapeHtml(
@@ -8181,7 +8284,7 @@ async function renderRequest(context) {
   const listsOnly = route.path === "/" || route.path === "/artists";
   const demotedSlugs = listsOnly ? await loadDemotedArtistSlugs(env) : new Set();
   const catalog = withoutDemotedArtists(route.catalog || await loadCatalog(env), demotedSlugs);
-  const needsGuideEvents = route.type === "guide" && Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2;
+  const needsGuideEvents = route.type === "guide" && ((Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2) || GUIDE_UPCOMING_ARTIST_PATHS.has(route.path));
   const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || route.path === "/artists" || route.path === "/";
   const events = withoutDemotedEvents(route.events || (needsEvents ? await loadEvents(env) : []), demotedSlugs);
   timer.mark("data");

@@ -1,0 +1,373 @@
+[
+  {
+    "id": "tm-uicideboy-2026-albuquerque-g5vzz_6ro72lp",
+    "artist_slug": "uicideboy",
+    "artist_name": "$uicideboy$",
+    "event_name": "$uicideboy$ present Grey Day Tour 2026 w. Shoreline Mafia & more",
+    "city": "Albuquerque",
+    "country": "United States Of America",
+    "venue": "First Financial Credit Union Amphitheater",
+    "datetime_iso": "2026-10-12T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00647BE010F7E5",
+    "ticketmaster_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-albuquerque-new-mexico-10-11-2026/event/1E00647BE010F7E5",
+    "seatgeek_url": "https://seatgeek.com/uicideboy-tickets/albuquerque-new-mexico-first-financial-credit-union-amphitheater-2026-10-11-6-30-pm/concert/18165458",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-albuquerque-new-mexico-10-11-2026/event/1E00647BE010F7E5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00647BE010F7E5",
+        "discovery_event_id": "G5vzZ_6RO72LP",
+        "url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-albuquerque-new-mexico-10-11-2026/event/1E00647BE010F7E5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_6RO72LP",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-uicideboy-2026-austin-g5diz_6rfioeh",
+    "artist_slug": "uicideboy",
+    "artist_name": "$uicideboy$",
+    "event_name": "$uicideboy$ Present Grey Day Tour 2026 W. Destroy Lonely & More",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Germania Insurance Amphitheater",
+    "datetime_iso": "2026-10-13T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00647BC8B110BC",
+    "ticketmaster_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-austin-texas-10-13-2026/event/3A00647BC8B110BC",
+    "seatgeek_url": "https://seatgeek.com/uicideboy-tickets/austin-texas-germania-insurance-amphitheater-2026-10-13-6-30-pm/concert/18155892",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-austin-texas-10-13-2026/event/3A00647BC8B110BC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00647BC8B110BC",
+        "discovery_event_id": "G5dIZ_6RFioeH",
+        "url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-austin-texas-10-13-2026/event/3A00647BC8B110BC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_6RFioeH",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-uicideboy-2026-new-orleans-g5viz_6roljgm",
+    "artist_slug": "uicideboy",
+    "artist_name": "$uicideboy$",
+    "event_name": "$uicideboy$ Present Grey Day Tour 2026 W. Destroy Lonely & More",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "Smoothie King Center",
+    "datetime_iso": "2026-10-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00647BD17DCD6E",
+    "ticketmaster_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-new-orleans-louisiana-10-14-2026/event/1B00647BD17DCD6E",
+    "seatgeek_url": "https://seatgeek.com/uicideboy-tickets/new-orleans-louisiana-smoothie-king-center-2026-10-14-6-30-pm/concert/18155895",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-new-orleans-louisiana-10-14-2026/event/1B00647BD17DCD6E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00647BD17DCD6E",
+        "discovery_event_id": "G5viZ_6RoLjgm",
+        "url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-new-orleans-louisiana-10-14-2026/event/1B00647BD17DCD6E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_6RoLjgm",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-uicideboy-2026-atlanta-vvg1zz_6rspgk8",
+    "artist_slug": "uicideboy",
+    "artist_name": "$uicideboy$",
+    "event_name": "$uicideboy$ Present Grey Day Tour 2026 W. Destroy Lonely & More",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Lakewood Amphitheatre",
+    "datetime_iso": "2026-10-16T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00647BF19754D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-atlanta-georgia-10-16-2026/event/0E00647BF19754D0",
+    "seatgeek_url": "https://seatgeek.com/uicideboy-tickets/atlanta-georgia-lakewood-amphitheatre-2026-10-16-6-30-pm/concert/18155896",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-atlanta-georgia-10-16-2026/event/0E00647BF19754D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00647BF19754D0",
+        "discovery_event_id": "vvG1zZ_6RsPgK8",
+        "url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-atlanta-georgia-10-16-2026/event/0E00647BF19754D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_6RsPgK8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-uicideboy-2026-tampa-vvg1vz_6rke2ej",
+    "artist_slug": "uicideboy",
+    "artist_name": "$uicideboy$",
+    "event_name": "$uicideboy$ present Grey Day Tour 2026 w. Shakewell & more",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "MIDFLORIDA Credit Union Amphitheatre at the FL State Fairgrounds",
+    "datetime_iso": "2026-10-17T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00647BD39CF0A6",
+    "ticketmaster_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-tampa-florida-10-17-2026/event/0D00647BD39CF0A6",
+    "seatgeek_url": "https://seatgeek.com/uicideboy-tickets/tampa-florida-midflorida-credit-union-amphitheatre-2026-10-17-6-30-pm/concert/18155899",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-tampa-florida-10-17-2026/event/0D00647BD39CF0A6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00647BD39CF0A6",
+        "discovery_event_id": "vvG1VZ_6RKE2eJ",
+        "url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-tampa-florida-10-17-2026/event/0D00647BD39CF0A6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_6RKE2eJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-uicideboy-2026-sunrise-z7r9jz1a7xzpd",
+    "artist_slug": "uicideboy",
+    "artist_name": "$uicideboy$",
+    "event_name": "$uicideboy$ present Grey Day Tour 2026 w. Shakewell & more",
+    "city": "Sunrise",
+    "country": "United States Of America",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2026-10-18T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7xZpd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZpd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZpd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7xZpd",
+        "discovery_event_id": "Z7r9jZ1A7xZpd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xZpd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZpd",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-uicideboy-2026-birmingham-1aezz_6gkra4gmu",
+    "artist_slug": "uicideboy",
+    "artist_name": "$uicideboy$",
+    "event_name": "$uicideboy$ Present Grey Day Tour 2026 W. Destroy Lonely & More",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Amphitheater",
+    "datetime_iso": "2026-10-20T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000647BC9575B8D",
+    "ticketmaster_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-birmingham-alabama-10-20-2026/event/2000647BC9575B8D",
+    "seatgeek_url": "https://seatgeek.com/uicideboy-tickets/birmingham-alabama-coca-cola-amphitheater-2026-10-20-6-30-pm/concert/18155901",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-birmingham-alabama-10-20-2026/event/2000647BC9575B8D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000647BC9575B8D",
+        "discovery_event_id": "1AeZZ_6GkRa4gmu",
+        "url": "https://www.ticketmaster.com/uicideboy-present-grey-day-tour-2026-birmingham-alabama-10-20-2026/event/2000647BC9575B8D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_6GkRa4gmu",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

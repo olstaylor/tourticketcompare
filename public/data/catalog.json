@@ -941,7 +941,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q9619",
-      "musicbrainz_id": "63aa26c3-d59b-4da4-84ac-716b54f1ef4d"
+      "musicbrainz_id": "63aa26c3-d59b-4da4-84ac-716b54f1ef4d",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "gracie-abrams",
@@ -2230,7 +2231,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q727124",
-      "musicbrainz_id": "8385f26a-f374-4a04-9aad-4442ce24db2b"
+      "musicbrainz_id": "8385f26a-f374-4a04-9aad-4442ce24db2b",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "michelle-branch",
@@ -2906,7 +2908,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q5494459",
-      "musicbrainz_id": "16f146da-deef-4f07-9bbf-e4922c27067e"
+      "musicbrainz_id": "16f146da-deef-4f07-9bbf-e4922c27067e",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "lukas-graham",
@@ -2934,7 +2937,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q300935",
-      "musicbrainz_id": "124cec07-44f1-4a99-9aaa-96a5bb9ec0bd"
+      "musicbrainz_id": "124cec07-44f1-4a99-9aaa-96a5bb9ec0bd",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "passenger",
@@ -3070,7 +3074,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q28451312",
-      "musicbrainz_id": "f8ed032c-0d34-4ae6-a069-91417097509e"
+      "musicbrainz_id": "f8ed032c-0d34-4ae6-a069-91417097509e",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "dinosaur-jr",
@@ -3098,7 +3103,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q622944",
-      "musicbrainz_id": "77c167d2-4965-4421-830a-9815e4956475"
+      "musicbrainz_id": "77c167d2-4965-4421-830a-9815e4956475",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "needtobreathe",
@@ -3126,7 +3132,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q1817575",
-      "musicbrainz_id": "c5c2f1bb-09db-429f-8f77-ed9dfe39a36b"
+      "musicbrainz_id": "c5c2f1bb-09db-429f-8f77-ed9dfe39a36b",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "foy-vance",
@@ -3342,7 +3349,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q19947173",
-      "musicbrainz_id": "e44ef539-1ec9-4cb2-bee7-852e84618308"
+      "musicbrainz_id": "e44ef539-1ec9-4cb2-bee7-852e84618308",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "amble",
@@ -3424,7 +3432,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q300519",
-      "musicbrainz_id": "078a9376-3c04-4280-b7d7-b20e158f345d"
+      "musicbrainz_id": "078a9376-3c04-4280-b7d7-b20e158f345d",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "chelsea-cutler",
@@ -3506,7 +3515,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q873413",
-      "musicbrainz_id": "21e3292e-dac8-4609-b57d-402f926aa41f"
+      "musicbrainz_id": "21e3292e-dac8-4609-b57d-402f926aa41f",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "greta-van-fleet",
@@ -3534,7 +3544,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q30636835",
-      "musicbrainz_id": "0be22557-d8c7-4706-a531-625c4c570162"
+      "musicbrainz_id": "0be22557-d8c7-4706-a531-625c4c570162",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "fontaines-d-c",
@@ -3562,7 +3573,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q65056403",
-      "musicbrainz_id": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68"
+      "musicbrainz_id": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "riley-green",
@@ -3672,7 +3684,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q7753383",
-      "musicbrainz_id": "97b8d224-5660-419c-8dff-4b3bf0c33983"
+      "musicbrainz_id": "97b8d224-5660-419c-8dff-4b3bf0c33983",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "staind",
@@ -3700,7 +3713,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q266496",
-      "musicbrainz_id": "777a21a8-0d0f-4cf3-86b4-65bc0eba5649"
+      "musicbrainz_id": "777a21a8-0d0f-4cf3-86b4-65bc0eba5649",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "dylan-gossett",
@@ -3754,7 +3768,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q741309",
-      "musicbrainz_id": "401ece69-dba5-431d-a5bc-dd44a68cf8cd"
+      "musicbrainz_id": "401ece69-dba5-431d-a5bc-dd44a68cf8cd",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "warren-zeiders",
@@ -3834,7 +3849,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q182890",
-      "musicbrainz_id": "7249b899-8db8-43e7-9e6e-22f1e736024e"
+      "musicbrainz_id": "7249b899-8db8-43e7-9e6e-22f1e736024e",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "nickelback",
@@ -3862,7 +3878,8 @@
         "how-to-avoid-overpaying-for-concert-tickets"
       ],
       "wikidata_id": "Q483802",
-      "musicbrainz_id": "bc710bcf-8815-42cf-bad2-3f1d12246aeb"
+      "musicbrainz_id": "bc710bcf-8815-42cf-bad2-3f1d12246aeb",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "jay-wheeler",

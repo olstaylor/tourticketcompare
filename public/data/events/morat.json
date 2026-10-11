@@ -1132,11 +1132,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107154381",
+        "url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-6-11-2026/event/107154381",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeBi9id",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-6-11-2026/event/107154381"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedjeux",
@@ -1185,11 +1193,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107155225",
+        "url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-7-11-2026/event/107155225",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDJEUx",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-7-11-2026/event/107155225"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedjmu0",
@@ -1238,11 +1254,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107154768",
+        "url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-8-11-2026/event/107154768",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDJMU0",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-8-11-2026/event/107154768"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedteuw",
@@ -1360,11 +1384,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107154770",
+        "url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-14-11-2026/event/107154770",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDtEUT",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-14-11-2026/event/107154770"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedjmuj",
@@ -1413,11 +1445,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107154769",
+        "url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-15-11-2026/event/107154769",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDJMUJ",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-15-11-2026/event/107154769"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedtmmv",
@@ -1466,11 +1506,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107649095",
+        "url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-17-11-2026/event/107649095",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDtMMv",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-17-11-2026/event/107649095"
   },
   {
     "id": "tm-morat-2026-tlajomulco-de-zuniga-g5dvz_f6tnua-",

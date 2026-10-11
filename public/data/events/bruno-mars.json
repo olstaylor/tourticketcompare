@@ -3247,11 +3247,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107071101",
-        "url": "https://www.stubhub.ie/bruno-mars-santa-clara-tickets-10-10-2026/event/107071101",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
@@ -3260,7 +3260,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_epX9yGn",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-santa-clara-tickets-10-10-2026/event/107071101"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_eejsdnx",
@@ -4525,13 +4525,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107129518",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-3-12-2026/event/107129518",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkoKGkeSyi9M",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798132",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798132/Bruno-Mars-tickets-Thu-Dec-3-2026-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798132/Bruno-Mars-tickets-Thu-Dec-3-2026-Estadio-GNP-Seguros-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-3-12-2026/event/107129518"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfcxu",
@@ -4594,13 +4602,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133105",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-4-12-2026/event/107133105",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkoKGkeHFcxU",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798133",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798133/Bruno-Mars-tickets-Fri-Dec-4-2026-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798133/Bruno-Mars-tickets-Fri-Dec-4-2026-Estadio-GNP-Seguros-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-4-12-2026/event/107133105"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxy",
@@ -4663,13 +4679,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133106",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-7-12-2026/event/107133106",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkoKGkeHFWxy",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798135",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798135/Bruno-Mars-tickets-Mon-Dec-7-2026-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798135/Bruno-Mars-tickets-Mon-Dec-7-2026-Estadio-GNP-Seguros-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-7-12-2026/event/107133106"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxd",
@@ -4732,13 +4756,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133107",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-8-12-2026/event/107133107",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkoKGkeHFWxD",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798136",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798136/Bruno-Mars-tickets-Tue-Dec-8-2026-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798136/Bruno-Mars-tickets-Tue-Dec-8-2026-Estadio-GNP-Seguros-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-8-12-2026/event/107133107"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehaqnd",
@@ -4801,13 +4833,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107554343",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-11-12-2026/event/107554343",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkoKGkeHaqNd",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271253",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271253/Bruno-Mars-tickets-Fri-Dec-11-2026-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271253/Bruno-Mars-tickets-Fri-Dec-11-2026-Estadio-GNP-Seguros-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-11-12-2026/event/107554343"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1a0zkfkgkeslw-y",
@@ -4978,10 +5018,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666026",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-16-3-2027/event/107666026",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_oGkSQr0wN",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-16-3-2027/event/107666026"
   }
 ]

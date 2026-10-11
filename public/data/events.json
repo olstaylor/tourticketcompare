@@ -2502,11 +2502,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107085163",
-        "url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-10-2026/event/107085163",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -2519,7 +2519,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5diZ_dfAVb5L",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-new-york-tickets-10-10-2026/event/107085163",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -17526,11 +17526,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107071101",
-        "url": "https://www.stubhub.ie/bruno-mars-santa-clara-tickets-10-10-2026/event/107071101",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
@@ -17539,7 +17539,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_epX9yGn",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-santa-clara-tickets-10-10-2026/event/107071101"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-santa-clara-g5vyz_eejsdnx",
@@ -21162,11 +21162,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106957102",
-        "url": "https://www.stubhub.ie/ed-sheeran-indianapolis-tickets-10-10-2026/event/106957102",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vN1_GA1To9S",
@@ -21175,7 +21175,7 @@
     "verification_status": "machine_high_confidence",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/ed-sheeran-indianapolis-tickets-10-10-2026/event/106957102"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-ed-sheeran-2026-charlotte-2d006331aac349eb",
@@ -35829,11 +35829,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106972097",
-        "url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -35847,7 +35847,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "",
     "presales": [
       {
@@ -37967,11 +37967,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107155468",
-        "url": "https://www.stubhub.ie/sombr-inglewood-tickets-10-10-2026/event/107155468",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -37985,7 +37985,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-inglewood-tickets-10-10-2026/event/107155468",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -46598,11 +46598,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107163013",
-        "url": "https://www.stubhub.ie/teddy-swims-philadelphia-tickets-10-10-2026/event/107163013",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_FGkM5WPjT",
@@ -46610,7 +46610,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-philadelphia-tickets-10-10-2026/event/107163013"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-teddy-swims-2026-washington-16vfz_f0sg7tpdk",
@@ -52307,11 +52307,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107185217",
-        "url": "https://www.stubhub.ie/don-omar-brooklyn-tickets-10-10-2026/event/107185217",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G61DlIaN2",
@@ -52319,7 +52319,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-brooklyn-tickets-10-10-2026/event/107185217"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-newark-vvg1fz_1tkglsd",
@@ -133445,11 +133445,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107132079",
-        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-10-2026/event/107132079",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_AGknswc9W",
@@ -133457,7 +133457,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-10-2026/event/107132079"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfq4n",
@@ -179284,11 +179284,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107098205",
-        "url": "https://www.stubhub.ie/staind-ontario-tickets-10-10-2026/event/107098205",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_dGkwr0_Z6",
@@ -179296,7 +179296,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/staind-ontario-tickets-10-10-2026/event/107098205"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-staind-2026-phoenix-1av0z_dgku63v-5",
@@ -206151,13 +206151,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107129518",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-3-12-2026/event/107129518",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkoKGkeSyi9M",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798132",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798132/Bruno-Mars-tickets-Thu-Dec-3-2026-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798132/Bruno-Mars-tickets-Thu-Dec-3-2026-Estadio-GNP-Seguros-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-3-12-2026/event/107129518"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfcxu",
@@ -206220,13 +206228,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133105",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-4-12-2026/event/107133105",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkoKGkeHFcxU",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798133",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798133/Bruno-Mars-tickets-Fri-Dec-4-2026-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798133/Bruno-Mars-tickets-Fri-Dec-4-2026-Estadio-GNP-Seguros-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-4-12-2026/event/107133105"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxy",
@@ -206289,13 +206305,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133106",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-7-12-2026/event/107133106",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkoKGkeHFWxy",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798135",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798135/Bruno-Mars-tickets-Mon-Dec-7-2026-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798135/Bruno-Mars-tickets-Mon-Dec-7-2026-Estadio-GNP-Seguros-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-7-12-2026/event/107133106"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxd",
@@ -206358,13 +206382,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107133107",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-8-12-2026/event/107133107",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkoKGkeHFWxD",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798136",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798136/Bruno-Mars-tickets-Tue-Dec-8-2026-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798136/Bruno-Mars-tickets-Tue-Dec-8-2026-Estadio-GNP-Seguros-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-8-12-2026/event/107133107"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehaqnd",
@@ -206427,13 +206459,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107554343",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-11-12-2026/event/107554343",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkoKGkeHaqNd",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271253",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271253/Bruno-Mars-tickets-Fri-Dec-11-2026-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271253/Bruno-Mars-tickets-Fri-Dec-11-2026-Estadio-GNP-Seguros-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-11-12-2026/event/107554343"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1a0zkfkgkeslw-y",
@@ -206604,11 +206644,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666026",
+        "url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-16-3-2027/event/107666026",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_oGkSQr0wN",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-16-3-2027/event/107666026"
   },
   {
     "id": "tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdnvnrg",
@@ -206657,6 +206705,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670791",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-7-5-2027/event/107670791",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkfEGkdNVnRg",
@@ -206668,7 +206723,8 @@
         "start": "2026-10-03T17:00:00Z",
         "end": "2027-05-08T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-7-5-2027/event/107670791"
   },
   {
     "id": "tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdpr1hq",
@@ -206848,11 +206904,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107158149",
+        "url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-29-1-2027/event/107158149",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_AGkn6tNdI",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-29-1-2027/event/107158149"
   },
   {
     "id": "tm-sombr-2027-mexico-1av8z_agknaoeux",
@@ -206901,6 +206965,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107449736",
+        "url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-30-1-2027/event/107449736",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_AGknAOeUx",
@@ -206912,7 +206983,8 @@
         "start": "2026-07-21T17:00:00Z",
         "end": "2027-01-31T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-30-1-2027/event/107449736"
   },
   {
     "id": "tm-sombr-2027-auckland-1ae8z_ogkmlufo4",
@@ -207113,13 +207185,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666323",
+        "url": "https://www.stubhub.ie/sombr-tickets-helsinki-veikkaus-arena-11-5-2027/event/107666323",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ8KZ1kuwPvu6",
     "timezone": "Europe/Helsinki",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245507",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245507/sombr-tickets-Tue-May-11-2027-Veikkaus-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245507/sombr-tickets-Tue-May-11-2027-Veikkaus-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-helsinki-veikkaus-arena-11-5-2027/event/107666323"
   },
   {
     "id": "tm-sombr-2027-praha-9-z698xzu0z16v-zgmz9",
@@ -207235,13 +207315,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666419",
+        "url": "https://www.stubhub.ie/sombr-tickets-zurich-hallenstadion-zurich-27-5-2027/event/107666419",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z16vqgjK0e",
     "timezone": "Europe/Zurich",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245518",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245518/sombr-tickets-Thu-May-27-2027-Hallenstadion-Zurich"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245518/sombr-tickets-Thu-May-27-2027-Hallenstadion-Zurich",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-zurich-hallenstadion-zurich-27-5-2027/event/107666419"
   },
   {
     "id": "tm-sombr-2027-vienna-z698xz5rz16vfevjbe",
@@ -207357,13 +207445,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672167",
+        "url": "https://www.stubhub.ie/john-summit-tickets-zurich-halle-622-zurich-eventhalle-20-2-2027/event/107672167",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z1kxvu8OJ",
     "timezone": "Europe/Zurich",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310405",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310405/John-Summit-tickets-Sat-Feb-20-2027-Halle-622"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310405/John-Summit-tickets-Sat-Feb-20-2027-Halle-622",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-zurich-halle-622-zurich-eventhalle-20-2-2027/event/107672167"
   },
   {
     "id": "tm-karol-g-2026-guadalupe-g5dvz_fd0l9ge",
@@ -207412,6 +207508,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107162152",
+        "url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-6-11-2026/event/107162152",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_FD0l9GE",
@@ -207423,7 +207526,8 @@
         "start": "2026-04-30T20:00:00Z",
         "end": "2026-11-07T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-6-11-2026/event/107162152"
   },
   {
     "id": "tm-karol-g-2026-guadalupe-g5dvz_fdjam8c",
@@ -207472,6 +207576,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107162453",
+        "url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-7-11-2026/event/107162453",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_FDJAM8C",
@@ -207483,7 +207594,8 @@
         "start": "2026-04-30T20:00:00Z",
         "end": "2026-11-08T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-7-11-2026/event/107162453"
   },
   {
     "id": "tm-karol-g-2026-guadalupe-g5dvz_fdjk688",
@@ -207532,6 +207644,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107164563",
+        "url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-8-11-2026/event/107164563",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_FDJk688",
@@ -207543,7 +207662,8 @@
         "start": "2026-05-01T20:00:00Z",
         "end": "2026-11-09T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-monterrey-estadio-bbva-8-11-2026/event/107164563"
   },
   {
     "id": "tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknv53if",
@@ -207606,6 +207726,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107161135",
+        "url": "https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-13-11-2026/event/107161135",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_kGknv53IF",
@@ -207619,7 +207746,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896537",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896537/Karol-G-tickets-Fri-Nov-13-2026-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896537/Karol-G-tickets-Fri-Nov-13-2026-Estadio-GNP-Seguros-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-13-11-2026/event/107161135"
   },
   {
     "id": "tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknefxra",
@@ -207682,6 +207810,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162454",
+        "url": "https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-14-11-2026/event/107162454",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_kGknefxRa",
@@ -207695,7 +207830,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921349",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921349/Karol-G-tickets-Sat-Nov-14-2026-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921349/Karol-G-tickets-Sat-Nov-14-2026-Estadio-GNP-Seguros-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-14-11-2026/event/107162454"
   },
   {
     "id": "tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknefwr5",
@@ -207758,6 +207894,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165371",
+        "url": "https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-15-11-2026/event/107165371",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_kGknefwR5",
@@ -207771,7 +207914,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7925374",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7925374/Karol-G-tickets-Sun-Nov-15-2026-Estadio-GNP-Seguros-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7925374/Karol-G-tickets-Sun-Nov-15-2026-Estadio-GNP-Seguros-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-15-11-2026/event/107165371"
   },
   {
     "id": "tm-teddy-swims-2027-fornebu-z698xzb_z1aakf8y",
@@ -208078,13 +208222,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162540",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-helsinki-veikkaus-arena-22-2-2027/event/107162540",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ8KZ16vjke6q8",
     "timezone": "Europe/Helsinki",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090422",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090422/Five-Finger-Death-Punch-tickets-Mon-Feb-22-2027-Veikkaus-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090422/Five-Finger-Death-Punch-tickets-Mon-Feb-22-2027-Veikkaus-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-helsinki-veikkaus-arena-22-2-2027/event/107162540"
   },
   {
     "id": "tm-blue-october-2026-little-rock-rz7hnez1afr4pn",
@@ -208239,11 +208391,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107462078",
+        "url": "https://www.stubhub.ie/tyla-tickets-oslo-oslo-spektrum-30-10-2026/event/107462078",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16v-8-pb8",
     "timezone": "Europe/Oslo",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-tickets-oslo-oslo-spektrum-30-10-2026/event/107462078"
   },
   {
     "id": "tm-tyla-2027-pretoria-z698xz05z16eza8efw",
@@ -208518,6 +208678,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107457434",
+        "url": "https://www.stubhub.ie/sabaton-dallas-tickets-11-6-2026/event/107457434",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZbwNj2eLC",
@@ -208532,7 +208699,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410005",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410005/Sabaton-tickets-Fri-Nov-6-2026-South-Side-Ballroom-at-Gilleys"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410005/Sabaton-tickets-Fri-Nov-6-2026-South-Side-Ballroom-at-Gilleys",
+    "stubhub_international_url": "https://www.stubhub.ie/sabaton-dallas-tickets-11-6-2026/event/107457434"
   },
   {
     "id": "tm-sabaton-2026-houston-g5dizbwlrp709",
@@ -208595,6 +208763,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107457435",
+        "url": "https://www.stubhub.ie/sabaton-houston-tickets-11-7-2026/event/107457435",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZbwlrP709",
@@ -208614,7 +208789,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410004",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410004/Sabaton-tickets-Sat-Nov-7-2026-713-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410004/Sabaton-tickets-Sat-Nov-7-2026-713-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/sabaton-houston-tickets-11-7-2026/event/107457435"
   },
   {
     "id": "tm-sabaton-2026-san-antonio-z7r9jz1a7jk4v",
@@ -208677,6 +208853,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107457436",
+        "url": "https://www.stubhub.ie/sabaton-san-antonio-tickets-11-8-2026/event/107457436",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jK4V",
@@ -208684,7 +208867,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410006",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410006/Sabaton-tickets-Sun-Nov-8-2026-Boeing-Center-at-Tech-Port"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410006/Sabaton-tickets-Sun-Nov-8-2026-Boeing-Center-at-Tech-Port",
+    "stubhub_international_url": "https://www.stubhub.ie/sabaton-san-antonio-tickets-11-8-2026/event/107457436"
   },
   {
     "id": "tm-sabaton-2026-phoenix-1av0zbwgkrn_kuq",
@@ -210270,6 +210454,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107455605",
+        "url": "https://www.stubhub.ie/polyphia-hollywood-tickets-2-9-2027/event/107455605",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GlgJ36A",
@@ -210284,7 +210475,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056759",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056759/Polyphia-tickets-Tue-Feb-9-2027-Hollywood-Palladium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056759/Polyphia-tickets-Tue-Feb-9-2027-Hollywood-Palladium",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-hollywood-tickets-2-9-2027/event/107455605"
   },
   {
     "id": "tm-polyphia-2027-anaheim-vvg10z_gea9xhx",
@@ -210347,6 +210539,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107455581",
+        "url": "https://www.stubhub.ie/polyphia-anaheim-tickets-2-11-2027/event/107455581",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GEa9xhx",
@@ -210366,7 +210565,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056760",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056760/Polyphia-tickets-Thu-Feb-11-2027-House-Of-Blues-Anaheim"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056760/Polyphia-tickets-Thu-Feb-11-2027-House-Of-Blues-Anaheim",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-anaheim-tickets-2-11-2027/event/107455581"
   },
   {
     "id": "tm-polyphia-2027-san-francisco-g5vyz_gra3gjr",
@@ -210429,6 +210629,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107455566",
+        "url": "https://www.stubhub.ie/polyphia-san-francisco-tickets-2-14-2027/event/107455566",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GRA3gjR",
@@ -210443,7 +210650,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056761",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056761/Polyphia-tickets-Sun-Feb-14-2027-The-Masonic-San-Francisco"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056761/Polyphia-tickets-Sun-Feb-14-2027-The-Masonic-San-Francisco",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-san-francisco-tickets-2-14-2027/event/107455566"
   },
   {
     "id": "tm-polyphia-2027-milwaukee-vvg1jz_gjngwwq",
@@ -210588,6 +210796,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107457341",
+        "url": "https://www.stubhub.ie/polyphia-chicago-tickets-2-25-2027/event/107457341",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_GJSJBX-",
@@ -210607,7 +210822,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056758",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056758/Polyphia-tickets-Thu-Feb-25-2027-Byline-Bank-Aragon-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056758/Polyphia-tickets-Thu-Feb-25-2027-Byline-Bank-Aragon-Ballroom",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-chicago-tickets-2-25-2027/event/107457341"
   },
   {
     "id": "tm-polyphia-2027-detroit-vvg1oz_ge56_sr",
@@ -210966,6 +211182,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107455573",
+        "url": "https://www.stubhub.ie/polyphia-brooklyn-tickets-3-6-2027/event/107455573",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_GSYMXmT",
@@ -210980,7 +211203,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056771",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056771/Polyphia-tickets-Sat-Mar-6-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056771/Polyphia-tickets-Sat-Mar-6-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-brooklyn-tickets-3-6-2027/event/107455573"
   },
   {
     "id": "tm-polyphia-2027-boston-vvg17z_ge-9vq3",
@@ -211043,6 +211267,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107451606",
+        "url": "https://www.stubhub.ie/polyphia-boston-tickets-3-7-2027/event/107451606",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GE-9Vq3",
@@ -211057,7 +211288,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056768",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056768/Polyphia-tickets-Sun-Mar-7-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056768/Polyphia-tickets-Sun-Mar-7-2027-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-boston-tickets-3-7-2027/event/107451606"
   },
   {
     "id": "tm-polyphia-2027-washington-17a8v0g6gmr0lc4",
@@ -211197,6 +211429,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107457292",
+        "url": "https://www.stubhub.ie/polyphia-orlando-tickets-3-13-2027/event/107457292",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G6GEMc12a",
@@ -211216,7 +211455,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056820",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056820/Polyphia-tickets-Sat-Mar-13-2027-Hard-Rock-Live-Orlando"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056820/Polyphia-tickets-Sat-Mar-13-2027-Hard-Rock-Live-Orlando",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-orlando-tickets-3-13-2027/event/107457292"
   },
   {
     "id": "tm-polyphia-2027-atlanta-vvg1zz_gwmeyrd",
@@ -211433,6 +211673,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107457344",
+        "url": "https://www.stubhub.ie/polyphia-dallas-tickets-3-20-2027/event/107457344",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_GlmqcU0",
@@ -211457,7 +211704,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056763",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056763/Polyphia-tickets-Sat-Mar-20-2027-South-Side-Ballroom-at-Gilleys"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056763/Polyphia-tickets-Sat-Mar-20-2027-South-Side-Ballroom-at-Gilleys",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-dallas-tickets-3-20-2027/event/107457344"
   },
   {
     "id": "tm-tobymac-2027-sioux-falls-vv1akzkg_gkd7w414",
@@ -212009,6 +212257,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107478085",
+        "url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-30-2027/event/107478085",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_CL-WdB8",
@@ -212023,7 +212278,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8144602",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8144602/Saint-Levant-tickets-Tue-Mar-30-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8144602/Saint-Levant-tickets-Tue-Mar-30-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-30-2027/event/107478085"
   },
   {
     "id": "tm-saint-levant-2027-brooklyn-k7vgf_cl-wsb-",
@@ -212086,6 +212342,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107478087",
+        "url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-31-2027/event/107478087",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_CL-WSB-",
@@ -212100,7 +212363,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8144603",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8144603/Saint-Levant-tickets-Wed-Mar-31-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8144603/Saint-Levant-tickets-Wed-Mar-31-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-31-2027/event/107478087"
   },
   {
     "id": "tm-saint-levant-2027-detroit-vvg1oz_cxteu1p",
@@ -214224,11 +214488,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107154381",
+        "url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-6-11-2026/event/107154381",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeBi9id",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-6-11-2026/event/107154381"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedjeux",
@@ -214277,11 +214549,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107155225",
+        "url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-7-11-2026/event/107155225",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDJEUx",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-7-11-2026/event/107155225"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedjmu0",
@@ -214330,11 +214610,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107154768",
+        "url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-8-11-2026/event/107154768",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDJMU0",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-8-11-2026/event/107154768"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedteuw",
@@ -214452,11 +214740,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107154770",
+        "url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-14-11-2026/event/107154770",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDtEUT",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-14-11-2026/event/107154770"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedjmuj",
@@ -214505,11 +214801,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107154769",
+        "url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-15-11-2026/event/107154769",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDJMUJ",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-15-11-2026/event/107154769"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedtmmv",
@@ -214558,11 +214862,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107649095",
+        "url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-17-11-2026/event/107649095",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDtMMv",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-17-11-2026/event/107649095"
   },
   {
     "id": "tm-morat-2026-tlajomulco-de-zuniga-g5dvz_f6tnua-",
@@ -215861,11 +216173,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107165422",
+        "url": "https://www.stubhub.ie/yuridia-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-5-12-2026/event/107165422",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_aiA5kvD",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/yuridia-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-5-12-2026/event/107165422"
   },
   {
     "id": "tm-fkj-2026-k-benhavn-v-z698xzc4z16vvpef0i",
@@ -216937,6 +217257,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672785",
+        "url": "https://www.stubhub.ie/blondshell-brooklyn-tickets-3-22-2027/event/107672785",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70gjw",
@@ -216944,7 +217271,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976582",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976582/Blondshell-tickets-Mon-Mar-22-2027-Brooklyn-Steel"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976582/Blondshell-tickets-Mon-Mar-22-2027-Brooklyn-Steel",
+    "stubhub_international_url": "https://www.stubhub.ie/blondshell-brooklyn-tickets-3-22-2027/event/107672785"
   },
   {
     "id": "tm-hans-zimmer-2026-abu-dhabi-z698xz52z16vb-f9q_",
@@ -218030,6 +218358,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107138188",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-tickets-laval-place-bell-9-26-2027/event/107138188",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk16GkexqsTP",
@@ -218037,7 +218372,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7092012",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7092012/Eros-Ramazzotti-tickets-Sun-Sep-26-2027-Place-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7092012/Eros-Ramazzotti-tickets-Sun-Sep-26-2027-Place-Bell",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-tickets-laval-place-bell-9-26-2027/event/107138188"
   },
   {
     "id": "tm-eros-ramazzotti-2027-boston-vv1avzk1fgkd0riv2",
@@ -218086,12 +218422,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "106750225",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-boston-tickets-9-29-2027/event/106750225",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk1FGkd0RIV2",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-boston-tickets-9-29-2027/event/106750225"
   },
   {
     "id": "tm-eros-ramazzotti-2027-rosemont-vv1a7zk1egkeidoc0",
@@ -218154,6 +218498,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106747121",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-rosemont-tickets-10-5-2027/event/106747121",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk1eGkeIdoc0",
@@ -218168,7 +218519,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7091994",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091994/Eros-Ramazzotti-tickets-Tue-Oct-5-2027-Rosemont-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091994/Eros-Ramazzotti-tickets-Tue-Oct-5-2027-Rosemont-Theatre",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-rosemont-tickets-10-5-2027/event/106747121"
   },
   {
     "id": "tm-eros-ramazzotti-2027-miami-vvg1vzbicfi7sa",
@@ -218231,6 +218583,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106747122",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-miami-tickets-10-8-2027/event/106747122",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbICFi7sA",
@@ -218238,7 +218597,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7091996",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091996/Eros-Ramazzotti-tickets-Fri-Oct-8-2027-Kaseya-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091996/Eros-Ramazzotti-tickets-Fri-Oct-8-2027-Kaseya-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-miami-tickets-10-8-2027/event/106747122"
   },
   {
     "id": "tm-eros-ramazzotti-2027-sugar-land-z7r9jz1a74uo8",
@@ -218363,6 +218723,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106747124",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-inglewood-tickets-10-16-2027/event/106747124",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbIYF5ko0",
@@ -218370,7 +218737,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7091997",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091997/Eros-Ramazzotti-tickets-Sat-Oct-16-2027-YouTube-Theater-at-Hollywood-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091997/Eros-Ramazzotti-tickets-Sat-Oct-16-2027-YouTube-Theater-at-Hollywood-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-inglewood-tickets-10-16-2027/event/106747124"
   },
   {
     "id": "tm-the-warning-2027-ciudad-de-mexico-1afzkf4gkenopd9",
@@ -218562,6 +218930,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107102490",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-mexico-city-palacio-de-los-deportes-12-2-2027/event/107102490",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZko6GkdOa5Fw",
@@ -218575,7 +218950,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7744482",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7744482/Hilary-Duff-tickets-Fri-Feb-12-2027-Palacio-De-Los-Deportes-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7744482/Hilary-Duff-tickets-Fri-Feb-12-2027-Palacio-De-Los-Deportes-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-mexico-city-palacio-de-los-deportes-12-2-2027/event/107102490"
   },
   {
     "id": "tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdomhcz",
@@ -218638,13 +219014,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107116077",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-mexico-city-palacio-de-los-deportes-13-2-2027/event/107116077",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZko6GkdOMhCZ",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8174253",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8174253/Hilary-Duff-tickets-Sat-Feb-13-2027-Palacio-De-Los-Deportes-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8174253/Hilary-Duff-tickets-Sat-Feb-13-2027-Palacio-De-Los-Deportes-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-mexico-city-palacio-de-los-deportes-13-2-2027/event/107116077"
   },
   {
     "id": "tm-hilary-duff-2027-zapopan-1av8z_fgknzgqjq",
@@ -218693,6 +219077,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107162296",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-guadalajara-auditorio-telmex-15-2-2027/event/107162296",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_FGknzgQjQ",
@@ -218704,7 +219095,8 @@
         "start": "2026-04-30T06:00:00Z",
         "end": "2027-02-16T02:30:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-guadalajara-auditorio-telmex-15-2-2027/event/107162296"
   },
   {
     "id": "tm-josiah-queen-2026-westlake-village-rz7hnez1afuekf",
@@ -220641,11 +221033,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107638078",
+        "url": "https://www.stubhub.ie/fontaines-d-c-tickets-oslo-oslo-spektrum-6-11-2026/event/107638078",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16vFtPOjP",
     "timezone": "Europe/Oslo",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-oslo-oslo-spektrum-6-11-2026/event/107638078"
   },
   {
     "id": "tm-fontaines-d-c-2027-mexico-1av8z_ogku9epc3",
@@ -220694,11 +221094,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670888",
+        "url": "https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-24-3-2027/event/107670888",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_oGkU9epc3",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-24-3-2027/event/107670888"
   },
   {
     "id": "tm-fontaines-d-c-2027-mexico-1av8z_ogkxugz79",
@@ -220747,11 +221155,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669312",
+        "url": "https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-25-3-2027/event/107669312",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_oGkXUgz79",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-25-3-2027/event/107669312"
   },
   {
     "id": "tm-hazlett-2027-nashville-z7r9jz1a7p0ay",
@@ -222359,13 +222775,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107274086",
+        "url": "https://www.stubhub.ie/def-leppard-tickets-mexico-city-palacio-de-los-deportes-19-10-2026/event/107274086",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AZv0G65pX_L4R",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8174251",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8174251/Def-Leppard-tickets-Mon-Oct-19-2026-Palacio-De-Los-Deportes-Mexico-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8174251/Def-Leppard-tickets-Mon-Oct-19-2026-Palacio-De-Los-Deportes-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-tickets-mexico-city-palacio-de-los-deportes-19-10-2026/event/107274086"
   },
   {
     "id": "tm-def-leppard-2026-tlajomulco-de-zuniga-g5dvz_5361kla",
@@ -222991,11 +223415,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672154",
+        "url": "https://www.stubhub.ie/jay-wheeler-tickets-mexico-city-pepsi-center-wtc-16-5-2027/event/107672154",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16fZkfUPgZA8kGA7",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-mexico-city-pepsi-center-wtc-16-5-2027/event/107672154"
   },
   {
     "id": "tm-mico-2027-praha-1-z698xzu0z16vxkonfi",

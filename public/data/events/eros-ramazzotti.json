@@ -190,6 +190,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107138188",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-tickets-laval-place-bell-9-26-2027/event/107138188",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk16GkexqsTP",
@@ -197,7 +204,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7092012",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7092012/Eros-Ramazzotti-tickets-Sun-Sep-26-2027-Place-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7092012/Eros-Ramazzotti-tickets-Sun-Sep-26-2027-Place-Bell",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-tickets-laval-place-bell-9-26-2027/event/107138188"
   },
   {
     "id": "tm-eros-ramazzotti-2027-boston-vv1avzk1fgkd0riv2",
@@ -246,12 +254,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "106750225",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-boston-tickets-9-29-2027/event/106750225",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk1FGkd0RIV2",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-boston-tickets-9-29-2027/event/106750225"
   },
   {
     "id": "tm-eros-ramazzotti-2027-rosemont-vv1a7zk1egkeidoc0",
@@ -314,6 +330,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106747121",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-rosemont-tickets-10-5-2027/event/106747121",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk1eGkeIdoc0",
@@ -328,7 +351,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7091994",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091994/Eros-Ramazzotti-tickets-Tue-Oct-5-2027-Rosemont-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091994/Eros-Ramazzotti-tickets-Tue-Oct-5-2027-Rosemont-Theatre",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-rosemont-tickets-10-5-2027/event/106747121"
   },
   {
     "id": "tm-eros-ramazzotti-2027-miami-vvg1vzbicfi7sa",
@@ -391,6 +415,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106747122",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-miami-tickets-10-8-2027/event/106747122",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbICFi7sA",
@@ -398,7 +429,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7091996",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091996/Eros-Ramazzotti-tickets-Fri-Oct-8-2027-Kaseya-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091996/Eros-Ramazzotti-tickets-Fri-Oct-8-2027-Kaseya-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-miami-tickets-10-8-2027/event/106747122"
   },
   {
     "id": "tm-eros-ramazzotti-2027-sugar-land-z7r9jz1a74uo8",
@@ -523,6 +555,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106747124",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-inglewood-tickets-10-16-2027/event/106747124",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbIYF5ko0",
@@ -530,6 +569,7 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7091997",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091997/Eros-Ramazzotti-tickets-Sat-Oct-16-2027-YouTube-Theater-at-Hollywood-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091997/Eros-Ramazzotti-tickets-Sat-Oct-16-2027-YouTube-Theater-at-Hollywood-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-inglewood-tickets-10-16-2027/event/106747124"
   }
 ]

@@ -2799,11 +2799,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107638078",
+        "url": "https://www.stubhub.ie/fontaines-d-c-tickets-oslo-oslo-spektrum-6-11-2026/event/107638078",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16vFtPOjP",
     "timezone": "Europe/Oslo",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-oslo-oslo-spektrum-6-11-2026/event/107638078"
   },
   {
     "id": "tm-fontaines-d-c-2027-mexico-1av8z_ogku9epc3",
@@ -2852,11 +2860,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670888",
+        "url": "https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-24-3-2027/event/107670888",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_oGkU9epc3",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-24-3-2027/event/107670888"
   },
   {
     "id": "tm-fontaines-d-c-2027-mexico-1av8z_ogkxugz79",
@@ -2905,10 +2921,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669312",
+        "url": "https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-25-3-2027/event/107669312",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_oGkXUgz79",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-25-3-2027/event/107669312"
   }
 ]

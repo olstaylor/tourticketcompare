@@ -1004,6 +1004,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107457434",
+        "url": "https://www.stubhub.ie/sabaton-dallas-tickets-11-6-2026/event/107457434",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZbwNj2eLC",
@@ -1018,7 +1025,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410005",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410005/Sabaton-tickets-Fri-Nov-6-2026-South-Side-Ballroom-at-Gilleys"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410005/Sabaton-tickets-Fri-Nov-6-2026-South-Side-Ballroom-at-Gilleys",
+    "stubhub_international_url": "https://www.stubhub.ie/sabaton-dallas-tickets-11-6-2026/event/107457434"
   },
   {
     "id": "tm-sabaton-2026-houston-g5dizbwlrp709",
@@ -1081,6 +1089,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107457435",
+        "url": "https://www.stubhub.ie/sabaton-houston-tickets-11-7-2026/event/107457435",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZbwlrP709",
@@ -1100,7 +1115,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410004",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410004/Sabaton-tickets-Sat-Nov-7-2026-713-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410004/Sabaton-tickets-Sat-Nov-7-2026-713-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/sabaton-houston-tickets-11-7-2026/event/107457435"
   },
   {
     "id": "tm-sabaton-2026-san-antonio-z7r9jz1a7jk4v",
@@ -1163,6 +1179,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107457436",
+        "url": "https://www.stubhub.ie/sabaton-san-antonio-tickets-11-8-2026/event/107457436",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jK4V",
@@ -1170,7 +1193,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410006",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410006/Sabaton-tickets-Sun-Nov-8-2026-Boeing-Center-at-Tech-Port"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410006/Sabaton-tickets-Sun-Nov-8-2026-Boeing-Center-at-Tech-Port",
+    "stubhub_international_url": "https://www.stubhub.ie/sabaton-san-antonio-tickets-11-8-2026/event/107457436"
   },
   {
     "id": "tm-sabaton-2026-phoenix-1av0zbwgkrn_kuq",

@@ -2161,12 +2161,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672167",
+        "url": "https://www.stubhub.ie/john-summit-tickets-zurich-halle-622-zurich-eventhalle-20-2-2027/event/107672167",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z1kxvu8OJ",
     "timezone": "Europe/Zurich",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310405",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310405/John-Summit-tickets-Sat-Feb-20-2027-Halle-622"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310405/John-Summit-tickets-Sat-Feb-20-2027-Halle-622",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-zurich-halle-622-zurich-eventhalle-20-2-2027/event/107672167"
   }
 ]

@@ -3553,6 +3553,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670791",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-7-5-2027/event/107670791",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkfEGkdNVnRg",
@@ -3564,7 +3571,8 @@
         "start": "2026-10-03T17:00:00Z",
         "end": "2027-05-08T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-7-5-2027/event/107670791"
   },
   {
     "id": "tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdpr1hq",

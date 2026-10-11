@@ -1482,10 +1482,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672154",
+        "url": "https://www.stubhub.ie/jay-wheeler-tickets-mexico-city-pepsi-center-wtc-16-5-2027/event/107672154",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16fZkfUPgZA8kGA7",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/jay-wheeler-tickets-mexico-city-pepsi-center-wtc-16-5-2027/event/107672154"
   }
 ]

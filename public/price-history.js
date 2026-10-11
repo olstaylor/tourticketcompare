@@ -122,14 +122,14 @@
       var firstAt = formatSnapshotTime(first.observedAt);
       var lastAt = formatSnapshotTime(last.observedAt);
       appendText(block, "p", latest && firstAt && lastAt
-        ? points.length + " listed-price snapshots · " + firstAt + " – " + lastAt + ". Most recent: " + latest + "."
-        : points.length + " listed-price snapshots.", "price-history-caption muted");
+        ? points.length + " price checks · " + firstAt + " – " + lastAt + ". Latest: " + latest + "."
+        : points.length + " price checks.", "price-history-caption muted");
       panel.appendChild(block);
       rendered += 1;
     });
     appendText(panel, "p", rendered
-      ? String(data && data.framing || "Provider-supplied listed-price snapshots, not live inventory, availability, or final checkout totals.")
-      : "Not enough snapshots have been recorded yet to show a history for this event.", "disclosure-note");
+      ? String(data && data.framing || "Each ticket site's listed price when it was checked. Not live availability or your final total.")
+      : "There aren't enough price checks for this date to show a history yet.", "disclosure-note");
     if (interest) {
       interest.hidden = false;
       panel.appendChild(interest);
@@ -165,7 +165,7 @@
       .then(function (data) { renderPriceHistory(panel, wrap, data); })
       .catch(function () {
         panel.replaceChildren();
-        appendText(panel, "p", "Price snapshot history isn't available right now.", "disclosure-note");
+        appendText(panel, "p", "Price history isn't available right now.", "disclosure-note");
         if (interest) {
           interest.hidden = false;
           panel.appendChild(interest);
@@ -183,7 +183,7 @@
     var email = String((form.querySelector('input[name="email"]') || {}).value || "").trim();
     var website = String((form.querySelector('input[name="website"]') || {}).value || "").trim();
     if (website) return;
-    if (!email) { if (status) status.textContent = "Enter an email address to register interest."; return; }
+    if (!email) { if (status) status.textContent = "Enter your email address first."; return; }
     form.dataset.submitting = "true";
     if (status) status.textContent = "Recording your interest…";
     var submit = form.querySelector('button[type="submit"]');

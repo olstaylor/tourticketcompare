@@ -253,7 +253,7 @@ assert(
   "city lead states the derived counts and local date span in one sentence"
 );
 assert(
-  cityText.includes(`Selected verified tour dates — not a complete ${CITY} events calendar.`),
+  cityText.includes(`Checked tour dates only, not every event in ${CITY}.`),
   "city page keeps the selective-coverage disclosure the policy requires"
 );
 // Stated once. A second copy is the summary-of-the-summary the trim removed.
@@ -392,7 +392,7 @@ assert(
   "venue lead states the derived counts and local date span in one sentence"
 );
 assert(
-  venueText.includes(`Selected verified tour dates — not the full ${MAIN_VENUE} calendar.`),
+  venueText.includes(`Checked tour dates only, not every event at ${MAIN_VENUE}.`),
   "venue page keeps its selective-coverage disclosure"
 );
 assert(occurrences(venueText, "4 upcoming shows") === 1, "venue page states its show count exactly once");
@@ -429,14 +429,14 @@ for (const [label, page] of [["city", cityPage], ["venue", venuePage]]) {
     page.main.includes("<strong>How this site makes money:</strong>") && page.main.includes('href="/affiliate-disclosure"'),
     `${label} page carries the how-this-site-makes-money disclosure with its link`
   );
-  assert(page.main.includes("Dates re-checked against Ticketmaster daily"), `${label} page states the daily re-check (P8)`);
+  assert(page.main.includes("Dates checked daily"), `${label} page states the daily re-check (P8)`);
   // 2026-09-25 (owner request): the summary sentence and coverage note sit under
   // the date list; only the one-line money statement stays above the dates.
   const listAt = page.main.indexOf("data-show-list");
   const notesAt = page.main.indexOf('class="location-page-notes"');
   const firstCardAt = page.main.indexOf('class="show-card', listAt);
   assert(listAt !== -1 && notesAt > listAt, `${label} page renders its summary and coverage note after the date list`);
-  assert(page.main.indexOf("Selected verified tour dates") > listAt, `${label} page has no coverage note above the date list`);
+  assert(page.main.indexOf("Checked tour dates only") > listAt, `${label} page has no coverage note above the date list`);
   const moneyAt = page.main.indexOf("How this site makes money");
   assert(moneyAt > listAt && moneyAt < firstCardAt, `${label} page states how the site makes money in the board header, above the first date`);
   assert(occurrences(page.main, "How this site makes money") === 1, `${label} page states how the site makes money once`);

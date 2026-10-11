@@ -17,7 +17,7 @@ export const GUIDE_ROUTES = {
   "/guides/how-to-compare-concert-ticket-prices": {
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
     h1: "How to Compare Concert Ticket Prices Safely",
-    description: "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final total and terms.",
+    description: "A practical method for comparing the same concert: match the listing, use checked prices to shortlist ticket sites, then verify the final total and terms.",
     fullContent: true,
     datePublished: "2026-06-11",
     lastmod: "2026-10-11"
@@ -268,7 +268,7 @@ export const PRICE_GUIDE_FALLBACK_PATH = "/guides/how-to-compare-concert-ticket-
 export const PRICE_GUIDE_FALLBACK = {
   title: "How to Compare Concert Ticket Prices | TourTicketCompare",
   h1: "How to Compare Concert Ticket Prices Safely",
-  description: "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final total and terms.",
+  description: "A practical method for comparing the same concert: match the listing, use checked prices to shortlist ticket sites, then verify the final total and terms.",
   fullContent: true,
   datePublished: "2026-06-11",
   lastmod: "2026-10-11"

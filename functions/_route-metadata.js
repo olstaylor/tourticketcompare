@@ -302,10 +302,10 @@ export const TRUST_ROUTES = {
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices by Site | TourTicketCompare",
     description:
-      "Compare prices for the same checked concert across ticket sites where listed-price snapshots are eligible, then confirm fees and the total with the provider.",
+      "Compare ticket prices for the same concert across ticket sites, then check the fees and final total before you buy.",
     indexable: true,
     breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }],
-    lastmod: "2026-10-06"
+    lastmod: "2026-10-11"
   },
   "/artists": {
     title: "Artists | TourTicketCompare",

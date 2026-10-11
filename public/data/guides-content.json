@@ -3,7 +3,7 @@
     "sections": [
       {
         "type": "intro",
-        "content": "Pin down the show first: artist, local date and venue. Then compare each ticket site's listed price for that date, open the ones worth a look, and decide on the total at each site's order screen. Two prices for \"the same show\" often turn out to be a different night, a different section, or resale against primary.\n\nWhere a ticket site supplies one, TourTicketCompare shows its listed-price snapshot for a date, with when it was checked. Go to an [artist page](/artists) and pick a date to start."
+        "content": "Pin down the show first: artist, local date and venue. Then compare each ticket site's listed price for that date, open the ones worth a look, and decide on the total at each site's order screen. Two prices for \"the same show\" often turn out to be a different night, a different section, or resale against primary.\n\nWhere a ticket site supplies one, TourTicketCompare shows its listed price for a date, with when it was checked. Go to an [artist page](/artists) and pick a date to start."
       },
       {
         "type": "section",
@@ -18,7 +18,7 @@
       {
         "type": "section",
         "title": "2. Use listed prices to decide where to look next",
-        "content": "Each price on a TourTicketCompare date is one ticket site's listed-price snapshot for that date, with how long ago it was checked. It drops off the page once it is more than 24 hours old. When two sites have a price for the same date in the same currency, the lower one is marked.\n\nThat tells you which pages to open first. It doesn't tell you the seats are equivalent, that they're still there, or which order will cost less. Open both listings before you choose."
+        "content": "Each price on a TourTicketCompare date is one ticket site's listed price for that date, with how long ago it was checked. It drops off the page once it is more than 24 hours old. When two sites have a price for the same date in the same currency, the lower one is marked.\n\nThat tells you which pages to open first. It doesn't tell you the seats are equivalent, that they're still there, or which order will cost less. Open both listings before you choose."
       },
       {
         "type": "section",
@@ -96,7 +96,7 @@
       "@context": "https://schema.org",
       "@type": "HowTo",
       "name": "How to Compare Concert Ticket Prices Safely",
-      "description": "A step-by-step guide to comparing concert ticket options using verified event details, timestamped price snapshots, like-for-like ticket checks, final totals, and provider terms.",
+      "description": "A step-by-step guide to comparing concert ticket options using verified event details, prices with the time they were checked, like-for-like ticket checks, final totals, and provider terms.",
       "step": [
         {
           "@type": "HowToStep",
@@ -105,8 +105,8 @@
         },
         {
           "@type": "HowToStep",
-          "name": "Use timestamped snapshots as a shortlist",
-          "text": "Check when each listed-price snapshot was taken and which site it came from, then use it only as a shortlist before opening both ticket sites."
+          "name": "Use checked prices as a shortlist",
+          "text": "Check when each price was checked and which site it came from, then use it only as a shortlist before opening both ticket sites."
         },
         {
           "@type": "HowToStep",
@@ -272,7 +272,7 @@
     "sections": [
       {
         "type": "intro",
-        "content": "Ticketmaster, SeatGeek, and Vivid Seats can show different options for the same concert because they do not always play the same role. Ticketmaster often sells primary tickets and also carries labelled resale inventory. SeatGeek combines a resale marketplace with primary ticketing for some partners. Vivid Seats is a resale marketplace where ticket resellers set listing prices.\n\nNo provider is automatically the lowest-priced for every event. Compare the exact event, ticket type, seat, quantity, delivery timing, current total, and buyer-protection terms. Of these three, only Vivid Seats supplies this site with a listed price, so expect a checked link from all three and a figure from one. The section below explains why. For narrower two-platform decisions, see [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster) or [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster).\n\n[Find your concert and compare ticket options](/compare-concert-ticket-prices). Choose an artist, city or venue, then the exact night. Provider coverage varies by show; a checked link is not a promise of availability, and listed-price snapshots are not final checkout totals."
+        "content": "Ticketmaster, SeatGeek, and Vivid Seats can show different options for the same concert because they do not always play the same role. Ticketmaster often sells primary tickets and also carries labelled resale inventory. SeatGeek combines a resale marketplace with primary ticketing for some partners. Vivid Seats is a resale marketplace where ticket resellers set listing prices.\n\nNo provider is automatically the lowest-priced for every event. Compare the exact event, ticket type, seat, quantity, delivery timing, current total, and buyer-protection terms. Of these three, only Vivid Seats supplies this site with a listed price, so expect a checked link from all three and a figure from one. The section below explains why. For narrower two-platform decisions, see [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster) or [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster).\n\n[Find your concert and compare ticket options](/compare-concert-ticket-prices). Choose an artist, city or venue, then the exact night. Which ticket sites are linked varies by show. A checked link doesn't promise tickets are left, and a listed price isn't your final total."
       },
       {
         "type": "section",
@@ -2437,7 +2437,7 @@
       {
         "type": "section",
         "title": "Staying safe while you look for codes",
-        "content": "Coupon searches attract lookalike sites. Enter codes only on vividseats.com or the Vivid Seats app, and never on a page that asks you to sign in to \"unlock\" a discount. A code that arrives by direct message, or that asks for card details before you have chosen tickets, is not worth testing. [How to avoid ticket scams](/guides/how-to-avoid-ticket-scams) has the full checklist.\n\nOn TourTicketCompare, the Vivid Seats button on a date opens the matched event on Vivid Seats. When its feed supplies one, the button shows Vivid Seats' lowest listed price with how long ago it was checked. That figure is a snapshot, not the checkout total."
+        "content": "Coupon searches attract lookalike sites. Enter codes only on vividseats.com or the Vivid Seats app, and never on a page that asks you to sign in to \"unlock\" a discount. A code that arrives by direct message, or that asks for card details before you have chosen tickets, is not worth testing. [How to avoid ticket scams](/guides/how-to-avoid-ticket-scams) has the full checklist.\n\nOn TourTicketCompare, the Vivid Seats button on a date opens the matched event on Vivid Seats. When Vivid Seats shares one, the button shows its lowest listed price and how long ago it was checked. That price isn't your checkout total."
       },
       {
         "type": "section",

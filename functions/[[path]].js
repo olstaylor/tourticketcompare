@@ -1254,6 +1254,9 @@ const HOME_FAQ = [
   ["Are the prices shown final?", "No. Each price is a ticket site's listed price for one date at the time shown. Fees, taxes, delivery and the final total are set at the ticket site's checkout."]
 ];
 
+// A plain YYYY-MM-DD date, the only form emitted as a schema dateModified.
+const ISO_DAY = /^\d{4}-\d{2}-\d{2}$/;
+
 function faqPageSchema(questions) {
   return {
     "@type": "FAQPage",
@@ -1503,6 +1506,8 @@ function eventPageSchema(route, origin, catalog, events = [], env = {}, now = Da
       "@id": `${pageUrl}#event`,
       url: pageUrl,
       name: `${artist.name} at ${show.venue}`,
+      // Composed from the same verified facts as the listing nodes' description.
+      description: `${artist.name} live at ${show.venue} in ${show.city} on ${formatShowDateServer(show.dateTimeISO, show.timezone)}.`,
       startDate,
       eventStatus: decision.eventStatus,
       // Every tracked show is an in-person concert at a named venue, as on the
@@ -1514,6 +1519,21 @@ function eventPageSchema(route, origin, catalog, events = [], env = {}, now = Da
       // per-page card), as every MusicEvent.image on the site is.
       image: ogCardUrl(route, origin),
       ...(offers.length ? { offers } : {})
+    },
+    // The page itself, so its freshness is machine-readable: dateModified is
+    // the event record's own verification date, the "Event record checked"
+    // line the page shows. Omitted when the record carries none.
+    {
+      "@type": "WebPage",
+      "@id": `${pageUrl}#webpage`,
+      url: pageUrl,
+      name: route.title,
+      description: route.description,
+      inLanguage: "en",
+      ...(ISO_DAY.test(String(show.last_verified_at || "")) ? { dateModified: String(show.last_verified_at) } : {}),
+      publisher: { "@id": `${origin}/#organization` },
+      isPartOf: { "@id": `${origin}/#website` },
+      about: { "@id": `${pageUrl}#event` }
     }
   ];
 }
@@ -1739,6 +1759,20 @@ function routeSchema(route, origin, guideContent = {}, events = [], catalog = {}
       !isShellArtistSummary(route.artist.factual_summary, route.artist.name) &&
       (artistModel.shows.length > 0 || route.artist.indexing_status === "indexable_with_substantial_content");
     graph.push(artistSchema(route, origin, rendersSummary));
+    // The page about the artist, carrying the artist record's verification
+    // date (the date "How this page is checked" states) as dateModified.
+    graph.push({
+      "@type": "WebPage",
+      "@id": `${origin}${route.path}#webpage`,
+      url: `${origin}${route.path}`,
+      name: route.title,
+      description: route.description,
+      inLanguage: "en",
+      ...(ISO_DAY.test(String(route.artist.last_verified_at || "")) ? { dateModified: String(route.artist.last_verified_at) } : {}),
+      publisher: { "@id": `${origin}/#organization` },
+      isPartOf: { "@id": `${origin}/#website` },
+      about: { "@id": `${origin}${route.path}#artist` }
+    });
     if (artistModel.shows.length) {
       graph.push(faqPageSchema(artistModel.content.faq));
       if (route.indexable) graph.push(...musicEventsSchema(route, origin, events, env));
@@ -6787,12 +6821,10 @@ function renderEventPageBody(route, events, env) {
   // "What to know": the page's own facts restated as a buyer's checklist, plus
   // links to the guides that cover delivery, scams and cancellations. No door
   // time is stated: the event record doesn't hold one.
-  const whenLine = `${artist.name} plays ${show.venue} in ${show.city} on ${dateLabel}${
-    localTime ? `, with a listed start time of ${localTime} local time` : ""
-  }. Door times aren't in the event record, so check your ticket or the venue before you travel.`;
+  const doorLine = "Door times aren't in the event record, so check your ticket or the venue before you travel.";
   // A held (cancelled, postponed or unconfirmed) date states its status
   // above; nothing here may read as if the show goes ahead.
-  const knowItems = held ? [] : [escapeHtml(whenLine)];
+  const knowItems = held ? [] : [escapeHtml(doorLine)];
   if (!held) {
     knowItems.push(
       escapeHtml(
@@ -6818,11 +6850,23 @@ function renderEventPageBody(route, events, env) {
     .map((item) => `<li>${item}</li>`)
     .join("")}</ul>${knowGuides.length ? `<div class="mini-link-grid">${knowGuides.join("")}</div>` : ""}</section>`;
 
+  // The answer-first lead: who, where, when and which ticket sites, in one
+  // place under the title, so a reader or an answer engine quoting the top of
+  // the page gets the facts. Stated once: "What to know" keeps only the
+  // door-time caveat. A held date gets no lead (its status is the answer).
+  const siteNames = ctaSpecs.map((spec) => spec.name);
+  const sitesText = siteNames.length > 1 ? `${siteNames.slice(0, -1).join(", ")} and ${siteNames.at(-1)}` : siteNames[0] || "";
+  const leadText = held
+    ? ""
+    : `${artist.name} plays ${show.venue} in ${show.city} on ${dateLabel}${
+        localTime ? `, with a listed start time of ${localTime} local time` : ""
+      }.${sitesText ? ` Ticket links for this date: ${sitesText}.` : ""}`;
+  const leadHtml = leadText ? `<p class="lead">${escapeHtml(leadText)}</p>` : "";
   const ticketsHeading = held ? "Ticket status" : "Ticket links for this date";
   const disclosure = ctaSpecs.length ? renderMoneyDisclosureHtml() : "";
   return `<main id="mainContent"><section class="content-page event-page" aria-labelledby="eventTitle" data-page-artist="${escapeAttr(artist.slug)}">${renderBreadcrumbHtml(
     route
-  )}<h1 id="eventTitle">${escapeHtml(`${artist.name} at ${show.venue}, ${show.city} — ${dateLabel}`)}</h1><section class="section-grid show-board" aria-labelledby="eventTicketsTitle"><div class="section-intro"><h2 id="eventTicketsTitle">${escapeHtml(
+  )}<h1 id="eventTitle">${escapeHtml(`${artist.name} at ${show.venue}, ${show.city} — ${dateLabel}`)}</h1>${leadHtml}<section class="section-grid show-board" aria-labelledby="eventTicketsTitle"><div class="section-intro"><h2 id="eventTicketsTitle">${escapeHtml(
     ticketsHeading
   )}</h2>${disclosure}</div><div class="card-grid show-card-grid">${cardHtml}</div></section>${pricesHtml}${factsHtml}${contextHtml}${knowHtml}${linksHtml}</section></main>`;
 }

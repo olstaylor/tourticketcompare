@@ -6667,7 +6667,8 @@ function startingPriceMetaDescription(route, events, env) {
   const money = `${lane.currency === "USD" ? "US$" : `${lane.currency} `}${amount}`;
   const city = route.type === "artist-city" ? route.artistCity.label : route.event.city;
   const date = formatShortDateServer(row.datetimeISO, row.timezone);
-  const tail = `Starting from ${money} listed at ${lane.name}; checked ${checked}. Check fees.`;
+  const startingPrice = ["Starting from", money].join(" ");
+  const tail = `${startingPrice} listed at ${lane.name}; checked ${checked}. Check fees.`;
   const candidates = [
     `${route.artist.name} tickets in ${city} on ${date}. ${tail}`,
     `${route.artist.name} ${city} tickets · ${date}. ${tail}`

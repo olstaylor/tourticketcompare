@@ -256,6 +256,14 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   assert(/Event details/.test(page.html) && /Fixture Arena/.test(text(mainOf(page.html))) && /Springfield, United States/.test(text(mainOf(page.html))), "the page states venue, city and country");
   assert(/8:00 PM local time/.test(text(mainOf(page.html))), "the page states the local start time");
   assert(/How this site makes money/.test(page.html), "the money disclosure sits with the buttons");
+  // Answer-first lead: who, where, when and the linked sites, directly under the title, said once.
+  const lead = text(meta(page.html, /<\/h1>(<p class="lead">[\s\S]*?<\/p>)/));
+  assert(/ plays Fixture Arena in Springfield on .*8:00 PM local time\. Ticket links for this date: .*Ticketmaster\./.test(lead), `the lead answers who, where, when and which sites (got ${lead})`);
+  assert(text(mainOf(page.html)).split(" plays Fixture Arena").length === 2, "the when-and-where sentence is stated once");
+  const pageGraph = graphOf(page.html);
+  const webPage = pageGraph.find((node) => node["@type"] === "WebPage");
+  assert(webPage && /#event$/.test(webPage.about?.["@id"] || ""), "the event page carries a WebPage node about its MusicEvent");
+  assert(/ live at Fixture Arena in Springfield on /.test(pageGraph.find((node) => node["@type"] === "MusicEvent")?.description || ""), "the MusicEvent has a factual description");
 
   // Parity: the event card is the parent card, button for button.
   const parent = await render(ARTIST_CITY);

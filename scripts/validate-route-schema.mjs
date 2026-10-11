@@ -671,9 +671,9 @@ function expectedMusicEventCount(artistSlug) {
   const catalog = JSON.parse(await fs.readFile(path.join(root, "public/data/catalog.json"), "utf8"));
 
   // The only properties an event-page MusicEvent may carry. Anything else —
-  // offers, description, organizer, endDate, previousStartDate — is a claim
-  // the page does not make.
-  const EVENT_NODE_KEYS = ["@id", "@type", "eventAttendanceMode", "eventStatus", "image", "location", "name", "performer", "startDate", "url"].join(",");
+  // organizer, endDate, previousStartDate — is a claim the page does not
+  // make. `description` restates the page's lead (artist, venue, city, date).
+  const EVENT_NODE_KEYS = ["@id", "@type", "description", "eventAttendanceMode", "eventStatus", "image", "location", "name", "performer", "startDate", "url"].join(",");
   const STATUS_URL = {
     scheduled: "https://schema.org/EventScheduled",
     rescheduled: "https://schema.org/EventRescheduled",

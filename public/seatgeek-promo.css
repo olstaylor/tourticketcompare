@@ -1,0 +1,122 @@
+/* SeatGeek promo-code dialog (public/seatgeek-promo.js). */
+.sg-promo {
+  width: min(420px, calc(100vw - 32px));
+  max-height: calc(100vh - 32px);
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 24px;
+  border: 1px solid var(--line-strong, #ddd5c6);
+  border-radius: var(--radius-lg, 12px);
+  background: var(--paper, #fff);
+  color: var(--ink, #1c1a16);
+  font-family: var(--body, sans-serif);
+  box-shadow: 0 24px 60px -20px rgba(20, 18, 15, 0.45);
+}
+
+.sg-promo::backdrop {
+  background: rgba(20, 18, 15, 0.55);
+}
+
+.sg-promo-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: var(--radius-md, 8px);
+  background: transparent;
+  color: var(--muted, #6c665c);
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.sg-promo-close:hover {
+  color: var(--ink, #1c1a16);
+}
+
+.sg-promo-title {
+  margin: 0 40px 10px 0;
+  font-family: var(--headline, sans-serif);
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+
+.sg-promo-offer {
+  margin: 0 0 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.sg-promo-code-row {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+  margin-bottom: 6px;
+}
+
+.sg-promo-code {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 6px 12px;
+  border: 2px dashed var(--accent, #bf4a2c);
+  border-radius: var(--radius-md, 8px);
+  background: var(--bg, #fbfaf8);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  user-select: all;
+}
+
+.sg-promo .sg-promo-copy {
+  flex: 0 0 auto;
+  width: auto;
+  min-height: 44px;
+  padding: 8px 18px;
+  white-space: nowrap;
+}
+
+.sg-promo-status {
+  min-height: 1.4em;
+  margin: 0 0 12px;
+  color: var(--green, #214034);
+  font-size: 0.9rem;
+}
+
+.sg-promo .sg-promo-continue {
+  display: flex;
+  padding: 12px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sg-promo-terms {
+  margin: 12px 0 0;
+  color: var(--muted, #6c665c);
+  font-size: 0.8rem;
+  line-height: 1.45;
+}
+
+.sg-promo-offscreen {
+  position: fixed;
+  top: -1000px;
+  left: -1000px;
+  opacity: 0;
+}
+
+.sg-promo-close:focus-visible,
+.sg-promo-copy:focus-visible,
+.sg-promo-continue:focus-visible {
+  outline: 3px solid var(--focus, #214034);
+  outline-offset: 2px;
+}

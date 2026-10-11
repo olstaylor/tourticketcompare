@@ -113,7 +113,7 @@ export const GUIDE_ROUTES = {
     fullContent: true,
     comparisonProviders: ["ticketmaster","seatgeek"],
     datePublished: "2026-06-11",
-    lastmod: "2026-10-02"
+    lastmod: "2026-10-10"
   },
   "/guides/concert-ticket-fees-explained": {
     title: "Concert Ticket Fees Explained | TourTicketCompare",

@@ -5731,7 +5731,7 @@ function formatObservationDate(value) {
   try {
     const parsed = new Date(String(value || ""));
     if (!Number.isFinite(parsed.getTime())) return "";
-    return new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" }).format(parsed);
+    return new Intl.DateTimeFormat("en-US", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" }).format(parsed);
   } catch (error) {
     return "";
   }
@@ -5739,7 +5739,7 @@ function formatObservationDate(value) {
 
 function formatServerSnapshotTime(value) {
   try {
-    return `${new Intl.DateTimeFormat("en-GB", {
+    return `${new Intl.DateTimeFormat("en-US", {
       dateStyle: "medium",
       timeStyle: "short",
       timeZone: "UTC"

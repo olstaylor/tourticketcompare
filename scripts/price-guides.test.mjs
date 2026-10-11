@@ -276,7 +276,7 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(text(page.title).includes("How Much Are Tickets?"), "the title answers the price question rather than describing a generic tour board");
   assert(/date and (provider|ticket site)/.test(page.description) && page.description.startsWith("How much are Oasis tickets?") && !page.description.includes("face value"), "metadata describes the sourced listed prices");
   const lead = text(page.main.match(/<p class="lead">([\s\S]*?)<\/p>/)?.[1]);
-  assert(lead.includes("Fri, Sep 11, 2026 in Manchester (Heaton Park)") && lead.includes("£182 on Vivid Seats") && lead.includes("9 Aug 2026"), "the first answer ties one chronological example to its venue, date, provider and check time");
+  assert(lead.includes("Fri, Sep 11, 2026 in Manchester (Heaton Park)") && lead.includes("£182 on Vivid Seats") && lead.includes("Aug 9, 2026"), "the first answer ties one chronological example to its venue, date, provider and check time");
   assert(lead.startsWith("2 of 6 dates show a listed resale price right now."), "the lead opens with the answer: how many dates have a price");
   assert(/<div class="action-row"><a[^>]+href="\/artists\/oasis"[^>]*class="button button-primary"|<div class="action-row"><a[^>]+class="button button-primary"[^>]*href="\/artists\/oasis"/.test(page.main), "the lead's one primary action is comparing tickets on the artist page");
   // Owner review 2026-10-06: the summary comes straight after the lead, then
@@ -299,8 +299,8 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(body.includes("2 of 6 dates show a listed resale price right now"), "the at-a-glance count covers the checked dates");
 
   // Moves: one per priced date, attributed, newest change first.
-  assert(body.includes("Vivid Seats down £58: £240 when recorded 1 Aug 2026, now £182 since 5 Aug 2026"), "a fall is stated with its provider, size, previous figure and dates");
-  assert(body.includes("TicketNetwork up £45: £350 when recorded 30 Jul 2026, now £395"), "a rise is stated the same way");
+  assert(body.includes("Vivid Seats down £58: £240 when recorded Aug 1, 2026, now £182 since Aug 5, 2026"), "a fall is stated with its provider, size, previous figure and dates");
+  assert(body.includes("TicketNetwork up £45: £350 when recorded Jul 30, 2026, now £395"), "a rise is stated the same way");
   assert(body.indexOf("TicketNetwork up £45") < body.indexOf("Vivid Seats down £58"), "moves are ordered by when the price changed");
   assert(body.includes("1 lower and 1 higher"), "the summary counts per-date moves");
 

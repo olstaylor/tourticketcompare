@@ -52,7 +52,7 @@
     var date = new Date(value);
     if (!Number.isFinite(date.getTime())) return "";
     try {
-      return new Intl.DateTimeFormat("en-GB", {
+      return new Intl.DateTimeFormat("en-US", {
         dateStyle: "medium",
         timeStyle: "short",
         timeZone: "UTC"

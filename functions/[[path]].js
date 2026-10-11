@@ -1291,6 +1291,20 @@ function breadcrumbSchema(route, origin) {
 // a review-required shell with no dates. Its factual summary is deliberately
 // not published there, and structured data must not republish it invisibly —
 // the JSON-LD mirrors the visible page or it says nothing.
+// Entity links for the artist node. The Wikidata and MusicBrainz ids are only
+// those whose MusicBrainz id came from the artist's verified Ticketmaster
+// attraction and whose Wikidata item agrees on Spotify or Wikipedia
+// (catalog fields wikidata_id / musicbrainz_id, added 2026-10-10).
+const WIKIDATA_ID = /^Q[1-9]\d*$/;
+const MUSICBRAINZ_ID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
+function artistSameAs(artist) {
+  const links = [];
+  if (artist.official_website) links.push(artist.official_website);
+  if (WIKIDATA_ID.test(String(artist.wikidata_id || ""))) links.push(`https://www.wikidata.org/wiki/${artist.wikidata_id}`);
+  if (MUSICBRAINZ_ID.test(String(artist.musicbrainz_id || ""))) links.push(`https://musicbrainz.org/artist/${artist.musicbrainz_id}`);
+  return links.length ? links : undefined;
+}
+
 function artistSchema(route, origin, describes = true) {
   const type = route.artist.schema_type === "MusicGroup" || route.artist.slug === "bts" ? "MusicGroup" : "Person";
   return {
@@ -1298,7 +1312,7 @@ function artistSchema(route, origin, describes = true) {
     "@id": `${origin}${route.path}#artist`,
     name: route.artist.name,
     url: `${origin}${route.path}`,
-    sameAs: route.artist.official_website ? [route.artist.official_website] : undefined,
+    sameAs: artistSameAs(route.artist),
     description: describes ? route.artist.factual_summary : undefined
   };
 }

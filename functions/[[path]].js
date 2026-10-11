@@ -35,6 +35,7 @@ import { deriveArtistPresales, deriveUpcomingPresales, presalePath, PRESALE_SEGM
 import {
   PRICE_GUIDE_SEGMENT,
   derivePriceGuide,
+  deriveIndexablePriceGuides,
   priceGuidePath,
   priceGuideRegistered,
   priceGuideRouteDecision
@@ -420,6 +421,41 @@ async function loadDemotedArtistSlugs(env) {
   return new Set(artists.filter((artist) => artist && artist.demoted).map((artist) => slugify(artist.slug)));
 }
 
+// Every indexable artist price guide, A-Z, for the internal links that point
+// at them from /guides, the comparison hub and other guides. Same derivation
+// as the sitemap (deriveIndexablePriceGuides over the indexable artist pages),
+// so a link appears exactly when the URL is advertised. Links only: no figure.
+async function loadPriceGuideDirectory(env) {
+  const [events, artistsMeta] = await Promise.all([loadEvents(env), loadArtistsMeta(env)]);
+  const list = Array.isArray(events) ? events : [];
+  const indexableArtists = artistsMeta.filter((artist) => artist && !artist.demoted && artistPageIndexable(artist, list));
+  const names = new Map(indexableArtists.map((artist) => [slugify(artist.slug), String(artist.name || "").trim()]));
+  return deriveIndexablePriceGuides(list, [...names.keys()])
+    .map((guide) => ({
+      slug: guide.artistSlug,
+      name: names.get(guide.artistSlug) || "",
+      path: guide.path,
+      showCount: guide.showCount,
+      citySlugs: guide.cities.map((city) => city.slug)
+    }))
+    .filter((entry) => entry.name)
+    .sort((a, b) => a.name.localeCompare(b.name));
+}
+
+// Guides for other artists playing the same cities, most shared cities first,
+// topped up with the largest guides, so each guide links onward to a few more.
+const RELATED_PRICE_GUIDE_LIMIT = 6;
+
+function relatedPriceGuides(directory, artistSlug, citySlugs, limit = RELATED_PRICE_GUIDE_LIMIT) {
+  const cities = new Set(citySlugs || []);
+  return (directory || [])
+    .filter((entry) => entry.slug !== artistSlug)
+    .map((entry) => ({ entry, shared: entry.citySlugs.filter((slug) => cities.has(slug)).length }))
+    .sort((a, b) => b.shared - a.shared || b.entry.showCount - a.entry.showCount || a.entry.name.localeCompare(b.entry.name))
+    .slice(0, limit)
+    .map(({ entry }) => entry);
+}
+
 function withoutDemotedEvents(events, demoted) {
   if (!demoted.size || !Array.isArray(events)) return events;
   return events.filter((event) => !demoted.has(slugify(event?.artist_slug)));
@@ -599,7 +635,10 @@ async function deriveBlogArtistTicketRoutes(env, artistSlugs) {
 async function resolveRoute(pathname, env) {
   const path = normalizePath(pathname);
   if (OLD_GUIDE_REDIRECTS[path]) return { type: "redirect", location: OLD_GUIDE_REDIRECTS[path] };
-  if (path === "/compare-concert-ticket-prices") return { type: "comparison-hub", path, ...TRUST_ROUTES[path] };
+  if (path === "/compare-concert-ticket-prices") {
+    return { type: "comparison-hub", path, ...TRUST_ROUTES[path], priceGuideDirectory: await loadPriceGuideDirectory(env) };
+  }
+  if (path === "/guides") return { type: "static", path, ...TRUST_ROUTES[path], priceGuideDirectory: await loadPriceGuideDirectory(env) };
   if (path === "/" || PUBLIC_HTML_ROUTES.has(path)) return { type: "static", path, ...TRUST_ROUTES[path] };
   // PRICE_GUIDE_FALLBACK keeps the highest-value guide routable (not a 404 or
   // noindex) if an edge deploy briefly serves stale route metadata. It is a
@@ -833,6 +872,7 @@ async function resolveRoute(pathname, env) {
       // The H1 follows the same rule as the title (renderCityPageBody).
       cityNameIsAmbiguous,
       events: cityEvents,
+      priceGuides: (await loadPriceGuideDirectory(env)).filter((entry) => entry.citySlugs.includes(city.slug)),
       indexableArtistSlugs: artistsMeta
         .filter((artist) => artist?.indexing_status === "indexable_with_substantial_content")
         .map((artist) => slugify(artist?.slug)),
@@ -1098,6 +1138,7 @@ async function resolveRoute(pathname, env) {
       yearLabel,
       indexableCitySlugs,
       relatedPosts,
+      relatedGuides: relatedPriceGuides(await loadPriceGuideDirectory(env), artist.slug, guide.cities.map((city) => city.slug)),
       catalog,
       events: artistEvents,
       breadcrumb: [
@@ -1131,6 +1172,13 @@ async function resolveRoute(pathname, env) {
       description: presalePageDescription(artist, presales),
       artist: { ...artist, indexing_status: artistMetaRecord.indexing_status || "" },
       presales,
+      // Linked on the same condition the artist and event pages use.
+      priceGuideLive:
+        priceGuideRegistered(artist.slug) &&
+        priceGuideRouteDecision(derivePriceGuide(artistEvents, artist.slug), {
+          registered: true,
+          artistEditoriallyIndexable: artistMetaRecord.indexing_status === "indexable_with_substantial_content"
+        }) === "render",
       catalog,
       events: artistEvents,
       breadcrumb: [
@@ -3546,6 +3594,16 @@ function renderPriceGuideFaqHtml(entries) {
     .join("")}</section>`;
 }
 
+// Links to artist price guides, as a block of mini links. Names and URLs only.
+function renderPriceGuideLinksHtml(entries, { id, heading, intro, footer = "" }) {
+  if (!entries?.length) return "";
+  return `<section class="nested-panel" id="${id}" aria-labelledby="${id}Title"><h2 id="${id}Title">${escapeHtml(heading)}</h2><p>${escapeHtml(
+    intro
+  )}</p><div class="mini-link-grid">${entries
+    .map((entry) => anchor(`${entry.name} ticket prices`, entry.path, "mini-link"))
+    .join("")}</div>${footer}</section>`;
+}
+
 function renderPriceGuideBody(route, events, env) {
   const artist = route.artist;
   const guide = route.guide;
@@ -3662,7 +3720,11 @@ function renderPriceGuideBody(route, events, env) {
 
   return `<main id="mainContent"><section class="content-page price-guide-page" aria-labelledby="priceGuideTitle">${renderBreadcrumbHtml(
     route
-  )}${leadHtml}${glanceHtml}${tablesHtml}${movesHtml}${missingPricesHtml}${faceValueHtml}${whereHtml}${renderPriceGuideFaqHtml(priceGuideFaqEntries(route, view))}${citeHtml}${relatedHtml}</section></main>`;
+  )}${leadHtml}${glanceHtml}${tablesHtml}${movesHtml}${missingPricesHtml}${faceValueHtml}${whereHtml}${renderPriceGuideFaqHtml(priceGuideFaqEntries(route, view))}${citeHtml}${relatedHtml}${renderPriceGuideLinksHtml(route.relatedGuides, {
+    id: "priceGuideOthers",
+    heading: "Ticket prices for other artists",
+    intro: `More tours with a date-by-date price page, starting with those playing the same cities as ${artist.name}.`
+  })}</section></main>`;
 }
 
 function artistCityShowIdSet(artistCity) {
@@ -3848,7 +3910,11 @@ export function renderCityPageBody(route, events = [], options = {}) {
       route
     )}<h1 id="cityTitle">Concerts in ${escapeHtml(route.cityNameIsAmbiguous ? `${city.city}, ${city.country}` : city.city)}${
       yearLabel ? `: ${escapeHtml(yearLabel)} dates and venues` : ""
-    }</h1>${body}${renderLocationProvenance("Report an incorrect date", city.lastmod)}</section></main>`;
+    }</h1>${body}${renderPriceGuideLinksHtml(route.priceGuides, {
+      id: "cityPriceGuides",
+      heading: `Ticket prices for artists playing ${city.city}`,
+      intro: "Each artist's price page lists all of their upcoming dates, here and on the rest of the tour, with each ticket site's listed price and when it was checked."
+    })}${renderLocationProvenance("Report an incorrect date", city.lastmod)}</section></main>`;
 
   // The router 404s a city with nothing upcoming, so this state is reached only
   // when every date has passed between derivation and render. Say that, briefly
@@ -5387,7 +5453,11 @@ export function renderPresalePageBody(route, events = [], env = {}) {
     `${artist.name} tickets and dates`,
     artistHref,
     "button button-primary"
-  )}${anchor("On-sale calendar", ONSALE_CALENDAR_PATH, "button button-secondary")}</div></section></main>`;
+  )}${route.priceGuideLive ? anchor(`${artist.name} ticket prices`, priceGuidePath(artist.slug), "button button-secondary") : ""}${anchor(
+    "On-sale calendar",
+    ONSALE_CALENDAR_PATH,
+    "button button-secondary"
+  )}</div></section></main>`;
 }
 
 export function renderOnsaleCalendarBody(route) {
@@ -6904,7 +6974,17 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       events
     )}</section><section id="compare-by-city" class="nested-panel"><h2>Find a concert by city or venue</h2><p>Pick a city below or ${anchor("browse venues", "/venues", "text-link")} to find your date.</p>${renderComparisonHubCityLinks(
       events
-    )}</section>${renderComparisonHubEventCards(
+    )}</section>${renderPriceGuideLinksHtml(
+      [...(route.priceGuideDirectory || [])].sort((a, b) => b.showCount - a.showCount || a.name.localeCompare(b.name)).slice(0, 12),
+      {
+        id: "compare-by-price-page",
+        heading: "Ticket prices by artist",
+        intro: "Every upcoming date for one artist on a single page, with each ticket site's listed price and when it was checked.",
+        footer: (route.priceGuideDirectory || []).length > 12
+          ? `<p>${anchor(`All ${route.priceGuideDirectory.length} artist price pages`, "/guides#artist-price-guides", "text-link")}</p>`
+          : ""
+      }
+    )}${renderComparisonHubEventCards(
       events,
       env
     )}${collapsedGroupHtml(
@@ -7448,7 +7528,14 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       "currency converter",
       "/currency-converter",
       "text-link"
-    )}, then check which currency you're actually charged in at checkout.</li></ul></section>${renderGuideClusters()}<div class="action-row">${anchor(
+    )}, then check which currency you're actually charged in at checkout.</li></ul></section>${renderGuideClusters()}${renderPriceGuideLinksHtml(
+      route.priceGuideDirectory,
+      {
+        id: "artist-price-guides",
+        heading: "Ticket prices by artist",
+        intro: "Each page lists an artist's upcoming dates with the prices ticket sites listed when they were last checked, and when that was."
+      }
+    )}<div class="action-row">${anchor(
       "Compare checked concert events",
       "/compare-concert-ticket-prices",
       "button button-primary"

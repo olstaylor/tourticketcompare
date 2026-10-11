@@ -344,8 +344,18 @@ export function priceGuideRouteDecision(guide, { registered, artistEditoriallyIn
  */
 export function deriveRenderedPriceGuides(events, indexableArtistSlugs, options = {}) {
   const indexable = new Set((indexableArtistSlugs || []).map((slug) => slugify(slug)));
+  // One pass to split the events by artist, so each guide reads only its own
+  // dates instead of every guide re-scanning the whole file. derivePriceGuide
+  // ignores other artists' rows, so the result is the same.
+  const eventsBySlug = new Map();
+  for (const event of Array.isArray(events) ? events : []) {
+    const slug = event && typeof event === "object" ? slugify(event.artist_slug) : "";
+    if (!indexable.has(slug)) continue;
+    if (!eventsBySlug.has(slug)) eventsBySlug.set(slug, []);
+    eventsBySlug.get(slug).push(event);
+  }
   return PRICE_GUIDE_ARTISTS.filter((slug) => indexable.has(slug))
-    .map((slug) => derivePriceGuide(events, slug, options))
+    .map((slug) => derivePriceGuide(eventsBySlug.get(slug) || [], slug, options))
     .filter((guide) => priceGuideRouteDecision(guide, { registered: true, artistEditoriallyIndexable: true }) === "render");
 }
 

@@ -38,6 +38,7 @@
 //      no "tickets from <price>", no tour-wide range and no lowest-date claim: every
 //      figure belongs to one date, one provider and one capture time.
 
+import { showStartMs } from "./_upcoming.js";
 import { slugify, normalizeCountry, citySlug, metroCity } from "./_cities.js";
 import { PRICE_SNAPSHOT_PROVIDERS, eventLifecycleHeld, eventPriceComparable, eventPublishable, publicOnsalePending, priceGuideGate } from "./_route-indexability.js";
 
@@ -229,7 +230,7 @@ export function derivePriceGuide(events, artistSlug, options = {}) {
   for (const event of Array.isArray(events) ? events : []) {
     if (!event || typeof event !== "object" || slugify(event.artist_slug) !== target) continue;
     const iso = String(event.datetime_iso || event.dateTimeISO || "").trim();
-    const ts = Date.parse(iso);
+    const ts = showStartMs(event);
     const city = String(event.city || "").trim();
     const country = normalizeCountry(event.country);
     const id = String(event.id || "").trim();

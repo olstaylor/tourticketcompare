@@ -8,6 +8,7 @@
 //
 // Pure: callers pass `now`, and the renderer in [[path]].js formats the dates.
 
+import { showStartMs } from "./_upcoming.js";
 import { citySlug, slugify } from "./_cities.js";
 import { venueSlug } from "./_venues.js";
 import { eventLifecycleHeld, eventPublishable, publicOnsalePending } from "./_route-indexability.js";
@@ -29,7 +30,7 @@ function trimmed(value) {
 }
 
 function startMs(event) {
-  return Date.parse(trimmed(event?.datetime_iso || event?.dateTimeISO));
+  return showStartMs(event);
 }
 
 // A real, upcoming, still-scheduled performance with somewhere to describe.

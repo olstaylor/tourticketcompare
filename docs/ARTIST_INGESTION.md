@@ -152,11 +152,18 @@ something needs attention and closes itself when all is clear. Each run:
    - open `work-queue` items (provider URL coverage items are linked for
      context only: a SeatGeek gap is not a site fault, and a batch SeatGeek
      never lists would keep this check red for good).
+6. **Checks for old dates.** No crawled page's JSON-LD, no `/api/shows` row
+   and no artist line in `/llms.txt` may name a show or "next" on-sale that
+   has already started (two hours' grace for edge caches). Published blog and
+   guide copy may not name a date that was still ahead when the copy was last
+   written and has passed since (`scripts/lib/date-staleness.mjs`).
 
 | Finding | First move |
 |---|---|
 | A sitemap URL answers 404 or redirects | A route gate and the sitemap disagree. Run `npm run audit:internal-links` and `npm run audit:indexable-surface` locally on `main`; both render every route with the same gates. |
 | Transient 5xx above budget | Pages CPU or memory. Profile the route with `node --cpu-prof` against the middleware (the 2026-09-24 render-cost work in `docs/OPERATIONS.md` → Known incidents shows how) before raising anything. |
+| A past show in JSON-LD, `/api/shows` or `/llms.txt` | A surface stopped using `isUpcomingShow`/`showStartMs` (`functions/_upcoming.js`), or a cache outlived its show. Render the route locally with the same `now` and compare. |
+| Old date in copy | Put the named sentences in the past tense (never invent what happened), then set `updated` on a blog post, or run `npm run content:provenance` for a guide. |
 | Price gate fails | The `automation:price-coverage` issue names the lane; `docs/OPERATIONS.md` → Price snapshot cadence has the recovery. |
 | Broken outbound link | The daily-audit issue lists the URL and event; provider syncs self-heal confirmed-gone links, and anything else is a human check. |
 | Automation lane failing | `automation:health` says whether it is one lane or a red `main` (the usual shared cause). |

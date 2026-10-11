@@ -1,3 +1,4 @@
+import { showStartMs } from "./_upcoming.js";
 import { onsaleCalendarGate, eventLifecycleHeld } from "./_route-indexability.js";
 
 // Shared on-sale calendar derivation for /on-sale, used by the HTML router,
@@ -90,7 +91,7 @@ export function deriveOnsaleCalendar(events, now = Date.now()) {
     const onsaleMs = Date.parse(trimmed(event.public_onsale_at));
     if (!Number.isFinite(onsaleMs)) continue;
     // The show itself must still be ahead; an on-sale for a past date is noise.
-    const showMs = Date.parse(trimmed(event.datetime_iso));
+    const showMs = showStartMs(event);
     if (!Number.isFinite(showMs) || showMs <= now) continue;
     if (onsaleMs - now > ONSALE_MAX_HORIZON_DAYS * DAY_MS) continue;
     if (onsaleMs > now && onsaleMs - now <= ONSALE_LOOKAHEAD_DAYS * DAY_MS) {

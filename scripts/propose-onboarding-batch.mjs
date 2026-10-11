@@ -106,7 +106,20 @@ async function lookupSeatGeekPerformer(name, credentials) {
   if (credentials.clientSecret) params.set('client_secret', credentials.clientSecret);
   const data = await fetchJson(`https://api.seatgeek.com/2/performers?${params.toString()}`);
   const performers = Array.isArray(data?.performers) ? data.performers : [];
-  const exact = performers.filter((p) => exactNameMatch(name, p?.name) && !COLLISION_PATTERN.test(String(p?.name || '')));
+  const isExact = (p) => exactNameMatch(name, p?.name) && !COLLISION_PATTERN.test(String(p?.name || ''));
+  // SeatGeek's text search ranks short names ("Eagles", "Journey", "Beck")
+  // below tributes and lookalikes, so the real performer can be missing from
+  // the first page. Ask once more by the performer slug; the result must still
+  // be an exact-name match, so this only finds what the search should have.
+  if (!performers.some(isExact)) {
+    const bySlug = new URLSearchParams({ slug: slugify(name), client_id: credentials.clientId });
+    if (credentials.clientSecret) bySlug.set('client_secret', credentials.clientSecret);
+    const extra = await fetchJson(`https://api.seatgeek.com/2/performers?${bySlug.toString()}`).catch(() => null);
+    for (const p of Array.isArray(extra?.performers) ? extra.performers : []) {
+      if (!performers.some((q) => q?.id === p?.id)) performers.push(p);
+    }
+  }
+  const exact = performers.filter(isExact);
   if (!exact.length) return { match: null, candidates: performers.slice(0, 5).map((p) => ({ id: p.id, name: p.name })) };
   // Two exact-name performers are ambiguous: never pick one by score, which can
   // reorder between calls. The row is excluded and a human resolves it.

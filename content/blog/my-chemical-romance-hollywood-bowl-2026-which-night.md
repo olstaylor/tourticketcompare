@@ -4,7 +4,7 @@ seo_title: "MCR Hollywood Bowl: which night?"
 description: Compare My Chemical Romance's October 2026 Hollywood Bowl dates, guest billing and start times before choosing a night and checking ticket totals.
 summary: My Chemical Romance's five October Hollywood Bowl listings are not identical. The first three carry The Black Parade 2026 billing; the final two name different special guests and start an hour earlier.
 date: 2026-10-11
-status: draft
+status: published
 tags:
   - tour-buying
 related_artists:

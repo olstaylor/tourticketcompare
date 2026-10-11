@@ -4,7 +4,7 @@ seo_title: "TSO 2026: matinee or evening?"
 description: Choosing Trans-Siberian Orchestra tickets for 2026? Check afternoon and evening sessions, family logistics and the exact start time before comparing.
 summary: Several stops on Trans-Siberian Orchestra's 2026 winter tour have two performances on the same day. Choose the session your group can attend, then compare tickets for that exact performance.
 date: 2026-10-11
-status: draft
+status: published
 tags:
   - tour-buying
 related_artists:

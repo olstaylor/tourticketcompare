@@ -11,7 +11,7 @@
       "summary": "My Chemical Romance's five October Hollywood Bowl listings are not identical. The first three carry The Black Parade 2026 billing; the final two name different special guests and start an hour earlier.",
       "datePublished": "2026-10-11",
       "dateModified": "2026-10-11",
-      "status": "draft",
+      "status": "published",
       "author": "TourTicketCompare",
       "tags": [
         "tour-buying"
@@ -75,7 +75,7 @@
       "summary": "Several stops on Trans-Siberian Orchestra's 2026 winter tour have two performances on the same day. Choose the session your group can attend, then compare tickets for that exact performance.",
       "datePublished": "2026-10-11",
       "dateModified": "2026-10-11",
-      "status": "draft",
+      "status": "published",
       "author": "TourTicketCompare",
       "tags": [
         "tour-buying"
@@ -957,7 +957,7 @@
     {
       "slug": "tour-buying",
       "label": "Tour Buying",
-      "postCount": 9
+      "postCount": 11
     },
     {
       "slug": "how-we-work",

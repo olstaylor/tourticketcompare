@@ -200,7 +200,7 @@ export async function loadSiteFixture(root) {
   const blogPaths = [blogModule.BLOG_INDEX_PATH, ...blogPosts.map((post) => post.path), ...blogTags.map((tag) => tag.path)];
 
   const allPaths = [
-    ...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/cities", ...cityPaths, "/venues", "/on-sale", ...venuePaths, ...artistCityPaths, ...priceGuidePaths, ...presalePaths, ...blogPaths])
+    ...new Set([...staticPaths, ...guidePaths, ...artistPaths, "/cities", ...cityPaths, "/venues", "/on-sale", "/tours/2027", ...venuePaths, ...artistCityPaths, ...priceGuidePaths, ...presalePaths, ...blogPaths])
   ];
 
   // Every event page the router serves (200, noindex,follow): each upcoming

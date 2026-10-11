@@ -714,11 +714,14 @@ async function resolveRoute(pathname, env) {
   }
 
   // The yearly tours hub: every tracked artist with upcoming dates that year,
-  // linking to the artist pages. No per-event pages; noindex until
-  // TOURS_HUB_INDEXABLE flips (functions/_tours-hub.js).
+  // linking to the artist pages. No per-event pages; only artists whose own
+  // page is indexable are listed (functions/_tours-hub.js).
   if (path === TOURS_HUB_PATH) {
-    const [hubEvents, catalog] = await Promise.all([loadEvents(env), loadCatalog(env)]);
-    const hub = deriveToursHub(hubEvents, catalog);
+    const [hubEvents, catalog, artistsMeta] = await Promise.all([loadEvents(env), loadCatalog(env), loadArtistsMeta(env)]);
+    const indexableSlugs = artistsMeta
+      .filter((artist) => artist && artistPageIndexable(artist, hubEvents, slugify(artist.slug)))
+      .map((artist) => slugify(artist.slug));
+    const hub = deriveToursHub(hubEvents, catalog, undefined, undefined, indexableSlugs);
     return {
       type: "tours-hub",
       path,

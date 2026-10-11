@@ -8602,4 +8602,3 @@ async function renderRequest(context) {
   applySecurityHeaders(headers);
   return new Response(injected, { status: 200, headers });
 }
-

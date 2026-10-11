@@ -1904,7 +1904,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A703Oe",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A703Oe",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-jacksonville-florida-theatre-jacksonville-4-14-2027/production/7567193",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A703Oe",
     "last_verified_at": "2026-10-11",
@@ -1926,11 +1926,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7567193,
+        "url": "https://www.vividseats.com/psychedelic-furs-tickets-jacksonville-florida-theatre-jacksonville-4-14-2027/production/7567193",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

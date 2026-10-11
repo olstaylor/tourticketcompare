@@ -80747,7 +80747,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZIv_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv_",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/missio-tickets-cudahy-x-ray-arcade-1-14-2027/production/7425743",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv_",
     "last_verified_at": null,
@@ -80769,11 +80769,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7425743,
+        "url": "https://www.vividseats.com/missio-tickets-cudahy-x-ray-arcade-1-14-2027/production/7425743",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -82476,7 +82476,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7JffK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JffK",
     "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/boulder-colorado-boulder-theater-2026-10-11-8-pm/concert/18373496",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-boulder-boulder-theater-10-11-2026/production/7291691",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JffK",
     "last_verified_at": null,
@@ -82498,11 +82498,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7291691,
+        "url": "https://www.vividseats.com/michelle-branch-tickets-boulder-boulder-theater-10-11-2026/production/7291691",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -131403,7 +131403,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvK1a",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1a",
     "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/brooklyn-new-york-brooklyn-steel-2027-02-11-8-pm/concert/18540431",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-11-2027--concerts-rock/production/7492601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1a",
     "last_verified_at": null,
@@ -131425,11 +131425,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7492601,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-11-2027--concerts-rock/production/7492601",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -168896,7 +168896,7 @@
     "ticketmaster_event_id": "1100653C99835FF0",
     "ticketmaster_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-vancouver-british-columbia-07-05-2027/event/1100653C99835FF0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-vancouver-rogers-arena-7-5-2027/production/7642176",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-vancouver-british-columbia-07-05-2027/event/1100653C99835FF0",
     "last_verified_at": "2026-10-09",
@@ -168918,11 +168918,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642176,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-vancouver-rogers-arena-7-5-2027/production/7642176",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -207827,7 +207827,7 @@
     "ticketmaster_event_id": "14795963",
     "ticketmaster_url": "https://www.ticketweb.com/event/blue-october-the-hall-tickets/14795963",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/blue-october-tickets-little-rock-the-hall---little-rock-12-9-2026--concerts-rock/production/6823271",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/blue-october-the-hall-tickets/14795963",
     "last_verified_at": null,
@@ -207849,11 +207849,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6823271,
+        "url": "https://www.vividseats.com/blue-october-tickets-little-rock-the-hall---little-rock-12-9-2026--concerts-rock/production/6823271",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -207880,7 +207880,7 @@
     "ticketmaster_event_id": "14911223",
     "ticketmaster_url": "https://www.ticketweb.com/event/blue-october-ventura-theater-tickets/14911223",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/blue-october-tickets-ventura-the-majestic-ventura-theater-2-12-2027/production/7022712",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/blue-october-ventura-theater-tickets/14911223",
     "last_verified_at": null,
@@ -207902,11 +207902,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7022712,
+        "url": "https://www.vividseats.com/blue-october-tickets-ventura-the-majestic-ventura-theater-2-12-2027/production/7022712",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -209519,7 +209519,7 @@
     "ticketmaster_event_id": "14914313",
     "ticketmaster_url": "https://www.ticketweb.com/event/beartooth-pure-ecstasy-the-refinery-tickets/14914313",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/beartooth-tickets-charleston-the-refinery-charleston-12-2-2026--concerts-hard-rock/production/7052773",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/beartooth-pure-ecstasy-the-refinery-tickets/14914313",
     "last_verified_at": null,
@@ -209541,11 +209541,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7052773,
+        "url": "https://www.vividseats.com/beartooth-tickets-charleston-the-refinery-charleston-12-2-2026--concerts-hard-rock/production/7052773",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -210262,7 +210262,7 @@
     "ticketmaster_event_id": "000064CCF0DFEBBF",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-brooklyn-new-york-03-06-2027/event/000064CCF0DFEBBF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/polyphia-tickets-brooklyn-brooklyn-paramount-3-6-2027/production/7486334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-brooklyn-new-york-03-06-2027/event/000064CCF0DFEBBF",
     "last_verified_at": "2026-10-11",
@@ -210284,11 +210284,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7486334,
+        "url": "https://www.vividseats.com/polyphia-tickets-brooklyn-brooklyn-paramount-3-6-2027/production/7486334",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -213842,7 +213842,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7qp8U",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qp8U",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/vnv-nation-tickets-mesa-nile-theater---mesa-3-18-2027--concerts-rock/production/7235020",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qp8U",
     "last_verified_at": "2026-10-11",
@@ -213864,11 +213864,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7235020,
+        "url": "https://www.vividseats.com/vnv-nation-tickets-mesa-nile-theater---mesa-3-18-2027--concerts-rock/production/7235020",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -214119,7 +214119,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7q0ef",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q0ef",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/vnv-nation-tickets-omaha-slowdown-3-29-2027/production/7234213",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q0ef",
     "last_verified_at": "2026-10-11",
@@ -214141,11 +214141,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7234213,
+        "url": "https://www.vividseats.com/vnv-nation-tickets-omaha-slowdown-3-29-2027/production/7234213",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -214342,7 +214342,7 @@
     "ticketmaster_event_id": "3100634ADE4D87A9",
     "ticketmaster_url": "https://www.ticketmaster.ca/vnv-nation-montreal-quebec-04-06-2027/event/3100634ADE4D87A9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/vnv-nation-tickets-montreal-beanfield-theatre-4-6-2027/production/7237583",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/vnv-nation-montreal-quebec-04-06-2027/event/3100634ADE4D87A9",
     "last_verified_at": "2026-10-11",
@@ -214364,11 +214364,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7237583,
+        "url": "https://www.vividseats.com/vnv-nation-tickets-montreal-beanfield-theatre-4-6-2027/production/7237583",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -216432,7 +216432,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A703Oe",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A703Oe",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-jacksonville-florida-theatre-jacksonville-4-14-2027/production/7567193",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A703Oe",
     "last_verified_at": "2026-10-11",
@@ -216454,11 +216454,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7567193,
+        "url": "https://www.vividseats.com/psychedelic-furs-tickets-jacksonville-florida-theatre-jacksonville-4-14-2027/production/7567193",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -216606,7 +216606,7 @@
     "ticketmaster_event_id": "31006287A2771FE5",
     "ticketmaster_url": "https://www.ticketmaster.ca/eros-ramazzotti-una-historia-importante-laval-quebec-09-26-2027/event/31006287A2771FE5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/eros-ramazzotti-tickets-laval-place-bell-9-26-2027/production/7484548",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/eros-ramazzotti-una-historia-importante-laval-quebec-09-26-2027/event/31006287A2771FE5",
     "last_verified_at": "2026-10-11",
@@ -216628,11 +216628,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7484548,
+        "url": "https://www.vividseats.com/eros-ramazzotti-tickets-laval-place-bell-9-26-2027/production/7484548",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -217647,7 +217647,7 @@
     "ticketmaster_event_id": "14114874",
     "ticketmaster_url": "https://www.ticketweb.com/event/foy-vance-world-tour-celebrating-thalia-hall-tickets/14114874",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-chicago-thalia-hall-4-17-2027/production/6683041",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/foy-vance-world-tour-celebrating-thalia-hall-tickets/14114874",
     "last_verified_at": null,
@@ -217669,11 +217669,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6683041,
+        "url": "https://www.vividseats.com/foy-vance-tickets-chicago-thalia-hall-4-17-2027/production/6683041",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -217700,7 +217700,7 @@
     "ticketmaster_event_id": "14158654",
     "ticketmaster_url": "https://www.ticketweb.com/event/foy-vance-world-tour-howard-theatre-tickets/14158654",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-washington-howard-theatre---dc-4-24-2027/production/6683012",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/foy-vance-world-tour-howard-theatre-tickets/14158654",
     "last_verified_at": null,
@@ -217722,11 +217722,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6683012,
+        "url": "https://www.vividseats.com/foy-vance-tickets-washington-howard-theatre---dc-4-24-2027/production/6683012",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -217753,7 +217753,7 @@
     "ticketmaster_event_id": "14131434",
     "ticketmaster_url": "https://www.ticketweb.com/event/foy-vance-world-tour-sony-hall-tickets/14131434",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-new-york-sony-hall-4-30-2027/production/6683019",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/foy-vance-world-tour-sony-hall-tickets/14131434",
     "last_verified_at": null,
@@ -217775,11 +217775,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6683019,
+        "url": "https://www.vividseats.com/foy-vance-tickets-new-york-sony-hall-4-30-2027/production/6683019",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -217859,7 +217859,7 @@
     "ticketmaster_event_id": "14313224",
     "ticketmaster_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-the-abbey-tickets/14313224",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-orlando-the-abbey-2-19-2027--concerts-rock/production/7561065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-the-abbey-tickets/14313224",
     "last_verified_at": null,
@@ -217881,11 +217881,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7561065,
+        "url": "https://www.vividseats.com/the-lemonheads-tickets-orlando-the-abbey-2-19-2027--concerts-rock/production/7561065",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -217912,7 +217912,7 @@
     "ticketmaster_event_id": "14318254",
     "ticketmaster_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-crescent-ballroom-tickets/14318254",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-phoenix-crescent-ballroom---phoenix-2-27-2027--concerts-rock/production/7561059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-crescent-ballroom-tickets/14318254",
     "last_verified_at": null,
@@ -217934,11 +217934,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7561059,
+        "url": "https://www.vividseats.com/the-lemonheads-tickets-phoenix-crescent-ballroom---phoenix-2-27-2027--concerts-rock/production/7561059",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -218177,7 +218177,7 @@
     "ticketmaster_event_id": "14328684",
     "ticketmaster_url": "https://www.ticketweb.com/event/haiden-henderson-the-basement-east-tickets/14328684",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-nashville-the-basement-east-4-13-2027--concerts-pop/production/7593675",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/haiden-henderson-the-basement-east-tickets/14328684",
     "last_verified_at": null,
@@ -218199,11 +218199,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593675,
+        "url": "https://www.vividseats.com/haiden-henderson-tickets-nashville-the-basement-east-4-13-2027--concerts-pop/production/7593675",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -218389,7 +218389,7 @@
     "ticketmaster_event_id": "14320514",
     "ticketmaster_url": "https://www.ticketweb.com/event/too-many-zooz-audio-lipstick-black-sheep-tickets/14320514?REFERRAL_ID=tmfeed",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-colorado-springs-black-sheep-3-17-2027/production/7612159",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/too-many-zooz-audio-lipstick-black-sheep-tickets/14320514?REFERRAL_ID=tmfeed",
     "last_verified_at": null,
@@ -218411,11 +218411,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7612159,
+        "url": "https://www.vividseats.com/too-many-zooz-tickets-colorado-springs-black-sheep-3-17-2027/production/7612159",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -218442,7 +218442,7 @@
     "ticketmaster_event_id": "14325454",
     "ticketmaster_url": "https://www.ticketweb.com/event/too-many-zooz-music-box-tickets/14325454",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-san-diego-music-box-san-diego-5-7-2027--concerts-alternative/production/7595204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/too-many-zooz-music-box-tickets/14325454",
     "last_verified_at": null,
@@ -218464,11 +218464,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7595204,
+        "url": "https://www.vividseats.com/too-many-zooz-tickets-san-diego-music-box-san-diego-5-7-2027--concerts-alternative/production/7595204",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -218495,7 +218495,7 @@
     "ticketmaster_event_id": "14331044",
     "ticketmaster_url": "https://www.ticketweb.com/event/too-many-zooz-the-independent-tickets/14331044",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-san-francisco-the-independent-5-9-2027--concerts-alternative/production/7595340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/too-many-zooz-the-independent-tickets/14331044",
     "last_verified_at": null,
@@ -218517,11 +218517,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7595340,
+        "url": "https://www.vividseats.com/too-many-zooz-tickets-san-francisco-the-independent-5-9-2027--concerts-alternative/production/7595340",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -219240,7 +219240,7 @@
     "ticketmaster_event_id": "14353054",
     "ticketmaster_url": "https://www.ticketweb.com/event/hazlett-howard-theatre-tickets/14353054",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hazlett-tickets-washington-howard-theatre---dc-4-23-2027/production/7634585",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/hazlett-howard-theatre-tickets/14353054",
     "last_verified_at": null,
@@ -219262,11 +219262,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7634585,
+        "url": "https://www.vividseats.com/hazlett-tickets-washington-howard-theatre---dc-4-23-2027/production/7634585",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -220879,7 +220879,7 @@
     "ticketmaster_event_id": "0D005F81A8632DC6",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-estero-florida-03-07-2027/event/0D005F81A8632DC6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-estero-hertz-arena-3-7-2027/production/7653850",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-estero-florida-03-07-2027/event/0D005F81A8632DC6",
     "last_verified_at": "2026-10-11",
@@ -220901,11 +220901,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653850,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-estero-hertz-arena-3-7-2027/production/7653850",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

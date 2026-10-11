@@ -1217,7 +1217,7 @@
     "ticketmaster_event_id": "14328684",
     "ticketmaster_url": "https://www.ticketweb.com/event/haiden-henderson-the-basement-east-tickets/14328684",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-nashville-the-basement-east-4-13-2027--concerts-pop/production/7593675",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/haiden-henderson-the-basement-east-tickets/14328684",
     "last_verified_at": null,
@@ -1239,11 +1239,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7593675,
+        "url": "https://www.vividseats.com/haiden-henderson-tickets-nashville-the-basement-east-4-13-2027--concerts-pop/production/7593675",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

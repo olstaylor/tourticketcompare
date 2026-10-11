@@ -312,7 +312,7 @@
     "ticketmaster_event_id": "14353054",
     "ticketmaster_url": "https://www.ticketweb.com/event/hazlett-howard-theatre-tickets/14353054",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hazlett-tickets-washington-howard-theatre---dc-4-23-2027/production/7634585",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/hazlett-howard-theatre-tickets/14353054",
     "last_verified_at": null,
@@ -334,11 +334,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7634585,
+        "url": "https://www.vividseats.com/hazlett-tickets-washington-howard-theatre---dc-4-23-2027/production/7634585",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

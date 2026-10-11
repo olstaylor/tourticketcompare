@@ -1378,7 +1378,7 @@
     "ticketmaster_event_id": "0D005F81A8632DC6",
     "ticketmaster_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-estero-florida-03-07-2027/event/0D005F81A8632DC6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-estero-hertz-arena-3-7-2027/production/7653850",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-estero-florida-03-07-2027/event/0D005F81A8632DC6",
     "last_verified_at": "2026-10-11",
@@ -1400,11 +1400,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7653850,
+        "url": "https://www.vividseats.com/jay-wheeler-tickets-estero-hertz-arena-3-7-2027/production/7653850",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

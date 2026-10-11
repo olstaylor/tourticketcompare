@@ -901,7 +901,7 @@
     "ticketmaster_event_id": "14313224",
     "ticketmaster_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-the-abbey-tickets/14313224",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-orlando-the-abbey-2-19-2027--concerts-rock/production/7561065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-the-abbey-tickets/14313224",
     "last_verified_at": null,
@@ -923,11 +923,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7561065,
+        "url": "https://www.vividseats.com/the-lemonheads-tickets-orlando-the-abbey-2-19-2027--concerts-rock/production/7561065",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -954,7 +954,7 @@
     "ticketmaster_event_id": "14318254",
     "ticketmaster_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-crescent-ballroom-tickets/14318254",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-phoenix-crescent-ballroom---phoenix-2-27-2027--concerts-rock/production/7561059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-crescent-ballroom-tickets/14318254",
     "last_verified_at": null,
@@ -976,11 +976,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7561059,
+        "url": "https://www.vividseats.com/the-lemonheads-tickets-phoenix-crescent-ballroom---phoenix-2-27-2027--concerts-rock/production/7561059",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

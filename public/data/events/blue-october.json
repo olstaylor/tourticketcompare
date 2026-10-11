@@ -4295,7 +4295,7 @@
     "ticketmaster_event_id": "14795963",
     "ticketmaster_url": "https://www.ticketweb.com/event/blue-october-the-hall-tickets/14795963",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/blue-october-tickets-little-rock-the-hall---little-rock-12-9-2026--concerts-rock/production/6823271",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/blue-october-the-hall-tickets/14795963",
     "last_verified_at": null,
@@ -4317,11 +4317,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6823271,
+        "url": "https://www.vividseats.com/blue-october-tickets-little-rock-the-hall---little-rock-12-9-2026--concerts-rock/production/6823271",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -4348,7 +4348,7 @@
     "ticketmaster_event_id": "14911223",
     "ticketmaster_url": "https://www.ticketweb.com/event/blue-october-ventura-theater-tickets/14911223",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/blue-october-tickets-ventura-the-majestic-ventura-theater-2-12-2027/production/7022712",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/blue-october-ventura-theater-tickets/14911223",
     "last_verified_at": null,
@@ -4370,11 +4370,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7022712,
+        "url": "https://www.vividseats.com/blue-october-tickets-ventura-the-majestic-ventura-theater-2-12-2027/production/7022712",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

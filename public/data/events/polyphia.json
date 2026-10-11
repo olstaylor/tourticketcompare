@@ -2208,7 +2208,7 @@
     "ticketmaster_event_id": "000064CCF0DFEBBF",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-brooklyn-new-york-03-06-2027/event/000064CCF0DFEBBF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/polyphia-tickets-brooklyn-brooklyn-paramount-3-6-2027/production/7486334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-brooklyn-new-york-03-06-2027/event/000064CCF0DFEBBF",
     "last_verified_at": "2026-10-11",
@@ -2230,11 +2230,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7486334,
+        "url": "https://www.vividseats.com/polyphia-tickets-brooklyn-brooklyn-paramount-3-6-2027/production/7486334",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

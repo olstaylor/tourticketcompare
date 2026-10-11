@@ -532,7 +532,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7JffK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JffK",
     "seatgeek_url": "https://seatgeek.com/michelle-branch-tickets/boulder-colorado-boulder-theater-2026-10-11-8-pm/concert/18373496",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/michelle-branch-tickets-boulder-boulder-theater-10-11-2026/production/7291691",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JffK",
     "last_verified_at": null,
@@ -554,11 +554,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7291691,
+        "url": "https://www.vividseats.com/michelle-branch-tickets-boulder-boulder-theater-10-11-2026/production/7291691",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -1120,7 +1120,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvK1a",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1a",
     "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/brooklyn-new-york-brooklyn-steel-2027-02-11-8-pm/concert/18540431",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-11-2027--concerts-rock/production/7492601",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvK1a",
     "last_verified_at": null,
@@ -1142,11 +1142,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7492601,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-brooklyn-brooklyn-steel-2-11-2027--concerts-rock/production/7492601",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

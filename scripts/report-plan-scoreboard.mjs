@@ -66,8 +66,10 @@ export function completeWeeks(now, weeks) {
 
 const WEEK_SQL = "date(substr(created_at, 1, 10), '-6 days', 'weekday 1')";
 
-export function buildStatements({ since, until }) {
+export function buildStatements({ since, until, starts = [] }) {
   const window = `created_at >= '${since}' AND created_at < '${until}'`;
+  const lastStart = starts.length ? `${starts.at(-1)}T00:00:00.000Z` : since;
+  const lastWeek = `created_at >= '${lastStart}' AND created_at < '${until}'`;
   const statements = [
     {
       key: "search",
@@ -76,6 +78,17 @@ export function buildStatements({ since, until }) {
     {
       key: "clicks",
       sql: `SELECT ${WEEK_SQL} AS week, COUNT(*) AS n FROM analytics_events WHERE ${humanRedirectSql()} AND ${window} GROUP BY week`,
+    },
+    // Funnel for the last complete week (owner ask 2026-10-11): which page
+    // types turn visitors into ticket clickers, and which providers get the
+    // clicks. provider_click is the browser beacon, so it is page-backed.
+    {
+      key: "funnelPages",
+      sql: `SELECT COALESCE(page_type, 'other') AS page_type, COUNT(DISTINCT CASE WHEN event_name = 'page_view' THEN request_key || '|' || substr(created_at, 1, 10) END) AS visitors, COUNT(DISTINCT CASE WHEN event_name = 'provider_click' THEN request_key || '|' || substr(created_at, 1, 10) END) AS clickers, SUM(event_name = 'provider_click') AS clicks FROM analytics_events WHERE event_name IN ('page_view', 'provider_click') AND request_key IS NOT NULL AND ${lastWeek} GROUP BY 1`,
+    },
+    {
+      key: "funnelProviders",
+      sql: `SELECT COALESCE(provider, 'unknown') AS provider, COUNT(DISTINCT request_key || '|' || substr(created_at, 1, 10)) AS clickers, COUNT(*) AS clicks FROM analytics_events WHERE event_name = 'provider_click' AND request_key IS NOT NULL AND ${lastWeek} GROUP BY 1`,
     },
   ];
   for (const s of statements) {
@@ -92,7 +105,14 @@ export function buildScoreboard(results, { starts }, now = new Date()) {
   const weeks = starts.map((week) => ({ week, searchVisits: search.get(week) || 0, realClicks: clicks.get(week) || 0 }));
   const today = now.toISOString().slice(0, 10);
   const next = PLAN.checkpoints.find((c) => c.date >= today) || null;
-  return { generatedAt: today, weeks, latest: weeks.at(-1) || null, next };
+  const num = (v) => Number(v) || 0;
+  const funnel = {
+    pages: (results.funnelPages || []).map((r) => ({ pageType: r.page_type, visitors: num(r.visitors), clickers: num(r.clickers), clicks: num(r.clicks) }))
+      .filter((r) => r.visitors || r.clicks).sort((a, b) => b.clicks - a.clicks || b.visitors - a.visitors),
+    providers: (results.funnelProviders || []).map((r) => ({ provider: r.provider, clickers: num(r.clickers), clicks: num(r.clicks) }))
+      .sort((a, b) => b.clicks - a.clicks),
+  };
+  return { generatedAt: today, weeks, latest: weeks.at(-1) || null, next, funnel };
 }
 
 function band(value, key) {
@@ -133,6 +153,29 @@ export function renderScoreboard(board) {
     );
   }
   if (board.next) lines.push(`**Next checkpoint, ${board.next.label}:** ${board.next.text}`);
+  const pages = board.funnel?.pages || [];
+  if (pages.length) {
+    const pct = (a, b) => (b ? `${Math.round((a / b) * 100)}%` : "–");
+    lines.push(
+      "",
+      `## Funnel, week of ${board.latest?.week || "last week"}`,
+      "",
+      "| Page type | Visitors | Clickers | Click rate | Ticket clicks |",
+      "|---|---:|---:|---:|---:|",
+      ...pages.map((r) => `| ${r.pageType} | ${fmt(r.visitors)} | ${fmt(r.clickers)} | ${pct(r.clickers, r.visitors)} | ${fmt(r.clicks)} |`)
+    );
+    const providers = board.funnel.providers || [];
+    const total = providers.reduce((sum, r) => sum + r.clicks, 0);
+    if (providers.length) {
+      lines.push(
+        "",
+        "| Provider | Clickers | Ticket clicks | Share of clicks |",
+        "|---|---:|---:|---:|",
+        ...providers.map((r) => `| ${r.provider} | ${fmt(r.clickers)} | ${fmt(r.clicks)} | ${pct(r.clicks, total)} |`)
+      );
+    }
+    lines.push("", "Visitors and clickers are visitor-days. Clickers can come from a page type with few page views when a visitor clicked from a page loaded the day before.");
+  }
   lines.push(
     "",
     "**Orders and commission are not counted here.** They come from the Impact Action Listing CSV, and StubHub International clicks can't be tied to a sale until its tracking URL is set in Cloudflare.",
@@ -183,7 +226,6 @@ function selfTest() {
   assert.equal(weekStart(new Date("2026-10-12T00:30:00Z")).toISOString().slice(0, 10), "2026-10-12");
 
   const statements = buildStatements(range);
-  assert.deepEqual(statements.map((s) => s.key), ["search", "clicks"]);
   assert.ok(statements[1].sql.includes("event_name = 'outbound_click'"), "clicks are page-backed redirects");
   assert.ok(statements.every((s) => s.sql.includes("created_at < '2026-10-12T00:00:00.000Z'")), "window stops at the current week");
 
@@ -199,6 +241,17 @@ function selfTest() {
   assert.ok(md.includes("search visits between low and base, real clicks between low and base"));
   assert.ok(md.includes("search visits met, real clicks met"));
   assert.ok(md.includes("Orders and commission are not counted here"));
+  assert.deepEqual(statements.map((s) => s.key), ["search", "clicks", "funnelPages", "funnelProviders"]);
+  assert.ok(statements[2].sql.includes("created_at >= '2026-10-05T00:00:00.000Z'"), "funnel covers only the last full week");
+  const funnelBoard = buildScoreboard(
+    { funnelPages: [{ page_type: "artist", visitors: 100, clickers: 30, clicks: 45 }, { page_type: "artist_price_guide", visitors: 40, clickers: 20, clicks: 50 }], funnelProviders: [{ provider: "stubhub-international", clickers: 30, clicks: 60 }, { provider: "vivid-seats", clickers: 10, clicks: 20 }] },
+    range,
+    new Date("2026-10-17T12:00:00Z")
+  );
+  const funnelMd = renderScoreboard(funnelBoard);
+  assert.ok(funnelMd.includes("| artist_price_guide | 40 | 20 | 50% | 50 |"), "page types sorted by clicks with click rate");
+  assert.ok(funnelMd.includes("| stubhub-international | 30 | 60 | 75% |"));
+  assert.ok(!renderScoreboard(board).includes("## Funnel"), "no funnel section without funnel rows");
   assert.equal(buildScoreboard({}, range, new Date("2027-02-01T00:00:00Z")).next, null, "no checkpoint after the launch");
   console.log("[plan-scoreboard] self-test: all assertions passed");
   return 0;

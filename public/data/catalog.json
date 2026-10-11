@@ -50,7 +50,9 @@
           "destination_type": "artist_page",
           "display_name": "Ticketmaster Artist Page"
         }
-      }
+      },
+      "wikidata_id": "Q36153",
+      "musicbrainz_id": "859d0860-d480-4efd-970c-c05d5f1776b8"
     },
     {
       "slug": "harry-styles",
@@ -86,7 +88,9 @@
           "question": "Is Together, Together playing anywhere other than New York?",
           "answer": "Yes. Beyond the Madison Square Garden residency, the verified dates on this page include stadium shows in the United States, Canada, Spain, Ireland, the United Kingdom and Australia. Anything not on this page is a date not yet verified from the source, which is not the same as saying no such date exists. Check Harry Styles' official site and the ticket sites for anything beyond what is listed here."
         }
-      ]
+      ],
+      "wikidata_id": "Q3626966",
+      "musicbrainz_id": "7eb1ce54-a355-41f9-8d68-e018b096d427"
     },
     {
       "slug": "bts",
@@ -128,7 +132,9 @@
           "answer": "No. TourTicketCompare is independent and unofficial. Ticket buying happens on the external provider site, which controls prices, fees, and availability."
         }
       ],
-      "schema_type": "MusicGroup"
+      "schema_type": "MusicGroup",
+      "wikidata_id": "Q13580495",
+      "musicbrainz_id": "0d79fe8e-ba27-4859-bb8c-2f255f346853"
     },
     {
       "slug": "ariana-grande",
@@ -168,7 +174,9 @@
           "question": "Does TourTicketCompare sell Ariana Grande tickets?",
           "answer": "No. TourTicketCompare is independent and unofficial. Ticket buying happens on the external provider site, which controls prices, fees, and availability."
         }
-      ]
+      ],
+      "wikidata_id": "Q151892",
+      "musicbrainz_id": "f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387"
     },
     {
       "slug": "bad-bunny",
@@ -209,7 +217,9 @@
           "question": "Does TourTicketCompare sell Bad Bunny tickets?",
           "answer": "No. TourTicketCompare is independent and unofficial. Ticket buying happens on the external provider site, which controls prices, fees, and availability."
         }
-      ]
+      ],
+      "wikidata_id": "Q44333953",
+      "musicbrainz_id": "89aa5ecb-59ad-46f5-b3eb-2d424e941f19"
     },
     {
       "slug": "morgan-wallen",
@@ -383,7 +393,9 @@
           "destination_type": "artist_page",
           "display_name": "Ticketmaster Artist Page"
         }
-      }
+      },
+      "wikidata_id": "Q1450",
+      "musicbrainz_id": "afb680f2-b6eb-4cd7-a70b-a63b25c763d5"
     },
     {
       "slug": "ed-sheeran",
@@ -419,7 +431,9 @@
         "how-to-read-a-ticket-listing",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q47447",
+      "musicbrainz_id": "b8a7c51f-362c-4dcb-a259-bc6e0095f0a6"
     },
     {
       "slug": "shakira",
@@ -454,7 +468,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q34424",
+      "musicbrainz_id": "bf24ca37-25f4-4e34-9aec-460b94364cfc"
     },
     {
       "slug": "raye",
@@ -489,7 +505,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q28071144",
+      "musicbrainz_id": "8be564c3-dfba-440b-af8c-4ffbceeef45e"
     },
     {
       "slug": "charli-xcx",
@@ -520,7 +538,9 @@
         "how-to-avoid-ticket-scams",
         "primary-vs-resale-concert-tickets",
         "when-is-the-best-time-to-buy-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q5084390",
+      "musicbrainz_id": "260b6184-8828-48eb-945c-bc4cb6fc34ca"
     },
     {
       "slug": "tate-mcrae",
@@ -555,7 +575,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q95129121",
+      "musicbrainz_id": "f9133869-f87c-459c-9aa7-2f176cda7e06"
     },
     {
       "slug": "summer-walker",
@@ -590,7 +612,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q61959478",
+      "musicbrainz_id": "9167f739-da47-4495-9d63-9c13b40114ac"
     },
     {
       "slug": "rosalia",
@@ -626,7 +650,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q28843759",
+      "musicbrainz_id": "25f3abd9-63b5-471a-bd25-feb9672dfa11"
     },
     {
       "slug": "sabrina-carpenter",
@@ -731,7 +757,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q21621919",
+      "musicbrainz_id": "b1e26560-60e5-4236-bbdb-9aa5a8d5ee19"
     },
     {
       "slug": "zach-bryan",
@@ -801,7 +829,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q2121062",
+      "musicbrainz_id": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9"
     },
     {
       "slug": "coldplay",
@@ -872,7 +902,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q6176881",
+      "musicbrainz_id": "ab5a7a60-1b71-4e5b-b622-e0ae2ce84c32"
     },
     {
       "slug": "tame-impala",
@@ -907,7 +939,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q9619",
+      "musicbrainz_id": "63aa26c3-d59b-4da4-84ac-716b54f1ef4d"
     },
     {
       "slug": "gracie-abrams",
@@ -942,7 +976,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q106301562",
+      "musicbrainz_id": "f7441bc7-d7de-4813-a2fc-31a4033d396d"
     },
     {
       "slug": "niall-horan",
@@ -977,7 +1013,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q775231",
+      "musicbrainz_id": "55e6074f-ef78-4ec3-8fff-bd1b8cc8c14a"
     },
     {
       "slug": "doja-cat",
@@ -1012,7 +1050,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q51120673",
+      "musicbrainz_id": "5df62a88-cac9-490a-b62c-c7c88f4020f4"
     },
     {
       "slug": "sombr",
@@ -1047,7 +1087,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q133444448",
+      "musicbrainz_id": "502cf908-9921-48bc-bf0e-265c881c0156"
     },
     {
       "slug": "latto",
@@ -1152,7 +1194,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q22001324",
+      "musicbrainz_id": "de22adae-f8ac-414f-b653-b0162611bd60"
     },
     {
       "slug": "foo-fighters",
@@ -1188,7 +1232,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q483718",
+      "musicbrainz_id": "67f66c07-6e61-4026-ade5-7e782fad3a5d"
     },
     {
       "slug": "metallica",
@@ -1224,7 +1270,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q15920",
+      "musicbrainz_id": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab"
     },
     {
       "slug": "rush",
@@ -1332,7 +1380,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q483285",
+      "musicbrainz_id": "c07f0676-9143-4217-8a9f-4c26bd636f13"
     },
     {
       "slug": "teddy-swims",
@@ -1367,7 +1417,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q105542333",
+      "musicbrainz_id": "35feae82-8b2c-4f8f-ae7a-af5662848947"
     },
     {
       "slug": "five-finger-death-punch",
@@ -1403,7 +1455,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q749502",
+      "musicbrainz_id": "7e8571b1-7c5a-4739-bc51-73d422ee9d74"
     },
     {
       "slug": "system-of-a-down",
@@ -1544,7 +1598,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q23884740",
+      "musicbrainz_id": "c20ee61f-071f-4e65-9c81-45ee931a54ce"
     },
     {
       "slug": "blue-october",
@@ -1580,7 +1636,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q885829",
+      "musicbrainz_id": "d6a3eeec-cde0-4c10-89b2-93e0bd5f34e6"
     },
     {
       "slug": "pentatonix",
@@ -1616,7 +1674,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q3374926",
+      "musicbrainz_id": "79c67eb5-3851-4b28-bfe0-3adfcd6f58d7"
     },
     {
       "slug": "tyla",
@@ -1687,7 +1747,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q20684996",
+      "musicbrainz_id": "7e2e4e3a-4e85-4d5a-b78e-5e4afd467a3e"
     },
     {
       "slug": "trivium",
@@ -1723,7 +1785,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q390684",
+      "musicbrainz_id": "1f5ff245-2837-4d4a-a609-e93e544478c3"
     },
     {
       "slug": "sabaton",
@@ -1759,7 +1823,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q740159",
+      "musicbrainz_id": "39a31de6-763d-48b6-a45c-f7cfad58ffd8"
     },
     {
       "slug": "in-flames",
@@ -1831,7 +1897,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q16822837",
+      "musicbrainz_id": "98a1e0ab-35fa-40dd-b62c-9fda46fdb061"
     },
     {
       "slug": "polyphia",
@@ -1937,7 +2005,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q364884",
+      "musicbrainz_id": "8484e4ab-b6b5-4326-b837-72eb72c9e8a4"
     },
     {
       "slug": "saint-levant",
@@ -2008,7 +2078,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q1567618",
+      "musicbrainz_id": "892fb2e4-0af4-42be-9e60-22898de51d32"
     },
     {
       "slug": "andrea-bocelli",
@@ -2043,7 +2115,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q42402",
+      "musicbrainz_id": "c5a0a216-c33c-42dc-92b8-4b60236f8dad"
     },
     {
       "slug": "morat",
@@ -2079,7 +2153,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q27535132",
+      "musicbrainz_id": "664f5669-a550-49fc-a38c-951594ddc9a4"
     },
     {
       "slug": "missio",
@@ -2115,7 +2191,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q41733812",
+      "musicbrainz_id": "ae5af627-ccd6-4db5-974d-83da8e32e705"
     },
     {
       "slug": "vnv-nation",
@@ -2150,7 +2228,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q727124",
+      "musicbrainz_id": "8385f26a-f374-4a04-9aad-4442ce24db2b"
     },
     {
       "slug": "michelle-branch",
@@ -2185,7 +2265,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q234685",
+      "musicbrainz_id": "a10f94a9-2a3c-4166-b9fa-a7bed0bf7d96"
     },
     {
       "slug": "yuridia",
@@ -2220,7 +2302,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q2352901",
+      "musicbrainz_id": "15ba83b7-d89a-4dd6-9695-1290fb567493"
     },
     {
       "slug": "fkj",
@@ -2255,7 +2339,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q30457256",
+      "musicbrainz_id": "8ef74994-73f6-459c-a10c-56a16e07b362"
     },
     {
       "slug": "sylvan-esso",
@@ -2291,7 +2377,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q17388812",
+      "musicbrainz_id": "c4593b34-2a94-4e44-ae10-4a0f4c0b4da8"
     },
     {
       "slug": "blondshell",
@@ -2326,7 +2414,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q117272643",
+      "musicbrainz_id": "f6621a8d-5644-460a-b0a8-9171cb2c595d"
     },
     {
       "slug": "pink-martini",
@@ -2362,7 +2452,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q1543576",
+      "musicbrainz_id": "113e0972-077f-423b-9b5f-3cc8a5bafa0f"
     },
     {
       "slug": "oasis",
@@ -2433,7 +2525,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q76364",
+      "musicbrainz_id": "e6de1f3b-6484-491c-88dd-6d619f142abc"
     },
     {
       "slug": "trans-siberian-orchestra",
@@ -2469,7 +2563,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q1360643",
+      "musicbrainz_id": "d2b83114-af3e-4397-b570-10d81f1dd650"
     },
     {
       "slug": "kenny-chesney",
@@ -2504,7 +2600,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q467526",
+      "musicbrainz_id": "5dca4d22-d6c8-4e70-8ca1-4543e43353c7"
     },
     {
       "slug": "death-cab-for-cutie",
@@ -2540,7 +2638,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q16414",
+      "musicbrainz_id": "0039c7ae-e1a7-4a7d-9b49-0cbc716821a6"
     },
     {
       "slug": "alan-walker",
@@ -2575,7 +2675,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q21808729",
+      "musicbrainz_id": "b0e4bc50-3062-4d31-afad-def6a6b7a8e9"
     },
     {
       "slug": "the-psychedelic-furs",
@@ -2611,7 +2713,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q276463",
+      "musicbrainz_id": "9f930ddf-be2f-4de5-a39f-7ae47305752e"
     },
     {
       "slug": "eros-ramazzotti",
@@ -2646,7 +2750,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q153708",
+      "musicbrainz_id": "3ab7295a-54ac-40e8-b1b2-3d110a143550"
     },
     {
       "slug": "atmosphere",
@@ -2682,7 +2788,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q757508",
+      "musicbrainz_id": "ef954679-5ee7-4016-acef-7ac71f2fa3d8"
     },
     {
       "slug": "the-warning",
@@ -2796,7 +2904,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q5494459",
+      "musicbrainz_id": "16f146da-deef-4f07-9bbf-e4922c27067e"
     },
     {
       "slug": "lukas-graham",
@@ -2822,7 +2932,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q300935",
+      "musicbrainz_id": "124cec07-44f1-4a99-9aaa-96a5bb9ec0bd"
     },
     {
       "slug": "passenger",
@@ -2956,7 +3068,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q28451312",
+      "musicbrainz_id": "f8ed032c-0d34-4ae6-a069-91417097509e"
     },
     {
       "slug": "dinosaur-jr",
@@ -2982,7 +3096,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q622944",
+      "musicbrainz_id": "77c167d2-4965-4421-830a-9815e4956475"
     },
     {
       "slug": "needtobreathe",
@@ -3008,7 +3124,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q1817575",
+      "musicbrainz_id": "c5c2f1bb-09db-429f-8f77-ed9dfe39a36b"
     },
     {
       "slug": "foy-vance",
@@ -3034,7 +3152,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q5477365",
+      "musicbrainz_id": "6ef3b33e-848c-4773-867b-5fb1397ef408"
     },
     {
       "slug": "the-lemonheads",
@@ -3086,7 +3206,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q310298",
+      "musicbrainz_id": "50c629c6-6f22-4bf9-a3c2-f2855e6704be"
     },
     {
       "slug": "haiden-henderson",
@@ -3138,7 +3260,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q18211409",
+      "musicbrainz_id": "6f614d38-ad89-4130-9aef-835ad53c9653"
     },
     {
       "slug": "valley",
@@ -3216,7 +3340,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q19947173",
+      "musicbrainz_id": "e44ef539-1ec9-4cb2-bee7-852e84618308"
     },
     {
       "slug": "amble",
@@ -3268,7 +3394,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q232288",
+      "musicbrainz_id": "4a5d70ad-89c8-47a1-afb2-4cc26471e113"
     },
     {
       "slug": "a-perfect-circle",
@@ -3294,7 +3422,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q300519",
+      "musicbrainz_id": "078a9376-3c04-4280-b7d7-b20e158f345d"
     },
     {
       "slug": "chelsea-cutler",
@@ -3320,7 +3450,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q72219259",
+      "musicbrainz_id": "ae34b97a-83ae-423c-bc2d-9cc7c0e4244d"
     },
     {
       "slug": "the-red-clay-strays",
@@ -3372,7 +3504,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q873413",
+      "musicbrainz_id": "21e3292e-dac8-4609-b57d-402f926aa41f"
     },
     {
       "slug": "greta-van-fleet",
@@ -3398,7 +3532,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q30636835",
+      "musicbrainz_id": "0be22557-d8c7-4706-a531-625c4c570162"
     },
     {
       "slug": "fontaines-d-c",
@@ -3424,7 +3560,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q65056403",
+      "musicbrainz_id": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68"
     },
     {
       "slug": "riley-green",
@@ -3450,7 +3588,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q57418818",
+      "musicbrainz_id": "d8c85c0e-ad88-47a7-a1df-b70608c2f52f"
     },
     {
       "slug": "hazlett",
@@ -3502,7 +3642,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q52583",
+      "musicbrainz_id": "09887aa7-226e-4ecc-9a0c-02d2ae5777e1"
     },
     {
       "slug": "the-neighbourhood",
@@ -3528,7 +3670,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q7753383",
+      "musicbrainz_id": "97b8d224-5660-419c-8dff-4b3bf0c33983"
     },
     {
       "slug": "staind",
@@ -3554,7 +3698,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q266496",
+      "musicbrainz_id": "777a21a8-0d0f-4cf3-86b4-65bc0eba5649"
     },
     {
       "slug": "dylan-gossett",
@@ -3606,7 +3752,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q741309",
+      "musicbrainz_id": "401ece69-dba5-431d-a5bc-dd44a68cf8cd"
     },
     {
       "slug": "warren-zeiders",
@@ -3684,7 +3832,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q182890",
+      "musicbrainz_id": "7249b899-8db8-43e7-9e6e-22f1e736024e"
     },
     {
       "slug": "nickelback",
@@ -3710,7 +3860,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q483802",
+      "musicbrainz_id": "bc710bcf-8815-42cf-bad2-3f1d12246aeb"
     },
     {
       "slug": "jay-wheeler",

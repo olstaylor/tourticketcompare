@@ -732,13 +732,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976571",
+        "url": "https://www.ticketliquidator.com/tickets/7976571/Blondshell-tickets-Sun-Feb-28-2027-The-Observatory-North-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_1wV8Vq3",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976571"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976571",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976571/Blondshell-tickets-Sun-Feb-28-2027-The-Observatory-North-Park"
   },
   {
     "id": "tm-blondshell-2027-los-angeles-vvg10z_1drttoa",
@@ -794,6 +802,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976572",
+        "url": "https://www.ticketliquidator.com/tickets/7976572/Blondshell-tickets-Tue-Mar-2-2027-The-Wiltern",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1DrttoA",
@@ -807,7 +822,8 @@
         "end": "2027-02-24T06:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976572"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976572",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976572/Blondshell-tickets-Tue-Mar-2-2027-The-Wiltern"
   },
   {
     "id": "tm-blondshell-2027-san-francisco-g5vyz_1m0mwvc",
@@ -924,13 +940,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976575",
+        "url": "https://www.ticketliquidator.com/tickets/7976575/Blondshell-tickets-Sun-Mar-7-2027-Showbox-SoDo",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Ere",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976575"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976575",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976575/Blondshell-tickets-Sun-Mar-7-2027-Showbox-SoDo"
   },
   {
     "id": "tm-blondshell-2027-minneapolis-vvg1bz_1dodkri",
@@ -986,6 +1010,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976576",
+        "url": "https://www.ticketliquidator.com/tickets/7976576/Blondshell-tickets-Thu-Mar-11-2027-Varsity-Theater-MN",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_1DoDKri",
@@ -1009,7 +1040,8 @@
         "end": "2027-02-12T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976576"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976576",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976576/Blondshell-tickets-Thu-Mar-11-2027-Varsity-Theater-MN"
   },
   {
     "id": "tm-blondshell-2027-chicago-z7r9jz1a70ubv",
@@ -1065,13 +1097,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976577",
+        "url": "https://www.ticketliquidator.com/tickets/7976577/Blondshell-tickets-Fri-Mar-12-2027-Vic-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Ubv",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976577"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976577",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976577/Blondshell-tickets-Fri-Mar-12-2027-Vic-Theatre"
   },
   {
     "id": "tm-blondshell-2027-philadelphia-z7r9jz1a70gjs",
@@ -1127,13 +1167,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976580",
+        "url": "https://www.ticketliquidator.com/tickets/7976580/Blondshell-tickets-Sun-Mar-14-2027-Union-Transfer",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70gjs",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976580"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976580",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976580/Blondshell-tickets-Sun-Mar-14-2027-Union-Transfer"
   },
   {
     "id": "tm-blondshell-2027-washington-17a8v0g61wjljxg",
@@ -1189,6 +1237,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976581",
+        "url": "https://www.ticketliquidator.com/tickets/7976581/Blondshell-tickets-Mon-Mar-15-2027-930-Club",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61wJlJXG",
@@ -1202,7 +1257,8 @@
         "end": "2026-10-28T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976581"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976581",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976581/Blondshell-tickets-Mon-Mar-15-2027-930-Club"
   },
   {
     "id": "tm-blondshell-2027-boston-vvg17z_1uqvup8",
@@ -1258,6 +1314,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976583",
+        "url": "https://www.ticketliquidator.com/tickets/7976583/Blondshell-tickets-Thu-Mar-18-2027-Citizens-House-Of-Blues-Boston",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1UqvuP8",
@@ -1271,7 +1334,8 @@
         "end": "2027-03-12T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976583"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976583",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976583/Blondshell-tickets-Thu-Mar-18-2027-Citizens-House-Of-Blues-Boston"
   },
   {
     "id": "tm-blondshell-2027-montreal-17g8v0g61mppmq0",
@@ -1327,6 +1391,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976579",
+        "url": "https://www.ticketliquidator.com/tickets/7976579/Blondshell-tickets-Fri-Mar-19-2027-Theatre-Beanfield",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G61MPPmq0",
@@ -1340,7 +1411,8 @@
         "end": "2027-03-13T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976579"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976579",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976579/Blondshell-tickets-Fri-Mar-19-2027-Theatre-Beanfield"
   },
   {
     "id": "tm-blondshell-2027-toronto-177zv0g61ygdrn9",
@@ -1457,12 +1529,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7976582",
+        "url": "https://www.ticketliquidator.com/tickets/7976582/Blondshell-tickets-Mon-Mar-22-2027-Brooklyn-Steel",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70gjw",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976582"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976582",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976582/Blondshell-tickets-Mon-Mar-22-2027-Brooklyn-Steel"
   }
 ]

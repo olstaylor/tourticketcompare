@@ -91,7 +91,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/eros-ramazzotti-una-historia-importante-toronto-ontario-09-24-2027/event/1000628AC03624E0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -126,7 +126,8 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZbIGklZuxKO",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-eros-ramazzotti-2027-laval-1aszk16gkexqstp",
@@ -144,7 +145,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/eros-ramazzotti-una-historia-importante-laval-quebec-09-26-2027/event/31006287A2771FE5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -179,7 +180,8 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk16GkexqsTP",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-eros-ramazzotti-2027-boston-vv1avzk1fgkd0riv2",
@@ -197,7 +199,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-boston-massachusetts-09-29-2027/event/01006288E4BE8D0F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -232,7 +234,8 @@
     },
     "ticketmaster_discovery_event_id": "vv1AvZk1FGkd0RIV2",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-eros-ramazzotti-2027-rosemont-vv1a7zk1egkeidoc0",
@@ -250,7 +253,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-rosemont-illinois-10-05-2027/event/04006282A80D1B64",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -285,7 +288,15 @@
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk1eGkeIdoc0",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "AISLE SEAT OFFER",
+        "start": "2025-04-21T15:00:00Z",
+        "end": "2026-10-29T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-eros-ramazzotti-2027-miami-vvg1vzbicfi7sa",
@@ -303,7 +314,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-miami-florida-10-08-2027/event/0D00628388B04C45",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -338,7 +349,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZbICFi7sA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-eros-ramazzotti-2027-sugar-land-z7r9jz1a74uo8",
@@ -356,7 +368,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A74UO8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -391,7 +403,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A74UO8",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-eros-ramazzotti-2027-inglewood-vvg1izbiyf5ko0",
@@ -409,7 +422,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-inglewood-california-10-16-2027/event/0A00628C082C6464",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -444,6 +457,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZbIYF5ko0",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   }
 ]

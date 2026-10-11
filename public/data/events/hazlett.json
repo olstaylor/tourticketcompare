@@ -153,7 +153,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0ay",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -188,7 +188,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P0ay",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-charlotte-g5evz_gmhpguu",
@@ -206,7 +207,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-charlotte-north-carolina-04-19-2027/event/2D0064CB9B58CD8D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -241,7 +242,8 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_GmhpGUu",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-charlottesville-vvg17z_gcwfexc",
@@ -259,7 +261,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-charlottesville-virginia-04-20-2027/event/010064CB7D2278AD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -294,7 +296,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GcWFExc",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-washington-rz7hnez1afukvf",
@@ -365,7 +368,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-pittsburgh-pennsylvania-04-25-2027/event/160064CCA14D7851",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -400,7 +403,8 @@
     },
     "ticketmaster_discovery_event_id": "17AOv0G6Gw-K9-o",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-new-york-k7vgf_gs3k6br",
@@ -418,7 +422,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-new-york-new-york-04-27-2027/event/000064CCD24C7E9E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453,7 +457,8 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_GS3K6Br",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-portland-vvg17z_grwzm6s",
@@ -471,7 +476,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-portland-maine-04-30-2027/event/010064CBF20371F3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -506,7 +511,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GRwZM6S",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-boston-vvg17z_grnbkkr",
@@ -524,7 +530,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-boston-massachusetts-05-02-2027/event/010064CBE3E934EF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -559,7 +565,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GRNBKKR",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-montreal-17g8v0g62kxoauq",
@@ -577,7 +584,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-preshow-speakeasy-with-hazlett-addon-montreal-quebec-05-04-2027/event/310064F1A280535A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -612,7 +619,8 @@
     },
     "ticketmaster_discovery_event_id": "17G8v0G62kxOAuQ",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-east-cleveland-z7r9jz1a7pe8a",
@@ -630,7 +638,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PE8a",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -665,7 +673,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PE8a",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-toronto-177zv0g6gsbxg-l",
@@ -683,7 +692,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hazlett-toronto-ontario-05-09-2027/event/100064CCD8FB585F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -718,7 +727,8 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G6GSbXg-L",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-chicago-vvg18z_glqlopk",
@@ -736,7 +746,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-chicago-illinois-05-13-2027/event/040064CADD7D1593",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -771,7 +781,15 @@
     },
     "ticketmaster_discovery_event_id": "vvG18Z_GlqLopK",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-06-18T15:00:00Z",
+        "end": "2027-04-18T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-hazlett-2027-minneapolis-z7r9jz1a7p0gv",
@@ -789,7 +807,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0Gv",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -824,7 +842,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P0Gv",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-kansas-city-vvg1bz_c1yj_ec",
@@ -842,7 +861,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-kansas-city-missouri-05-17-2027/event/060064E2B071908E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -877,7 +896,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_C1Yj_eC",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-seattle-vvg1hz_gmgf1et",
@@ -895,7 +915,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-seattle-washington-05-25-2027/event/0F0064CBB520A0BF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -930,7 +950,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_GmgF1eT",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-vancouver-1778v0g6ctjh581",
@@ -948,7 +969,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/hazlett-vancouver-british-columbia-05-26-2027/event/110064EFDCF0B40A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -983,7 +1004,8 @@
     },
     "ticketmaster_discovery_event_id": "1778v0G6CTjH581",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-san-francisco-g5vyz_gmceyww",
@@ -1001,7 +1023,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-san-francisco-california-06-01-2027/event/1C0064CBAD9F0CBD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1036,7 +1058,15 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GmcEYwW",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Hazlett Preshow Speakeasy Experience",
+        "start": "2026-07-29T17:00:00Z",
+        "end": "2026-10-14T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-hazlett-2027-los-angeles-z7r9jz1a7p0oi",
@@ -1054,7 +1084,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P0oI",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1089,7 +1119,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P0oI",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-san-diego-rz7hnez1afufr7",
@@ -1160,7 +1191,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hazlett-phoenix-arizona-06-05-2027/event/190064CB1CBBB1F3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1195,7 +1226,8 @@
     },
     "ticketmaster_discovery_event_id": "17k8v0G6GijmD6S",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-hazlett-2027-dallas-z7r9jz1a7pge_",
@@ -1213,7 +1245,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pge_",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1248,6 +1280,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pge_",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   }
 ]

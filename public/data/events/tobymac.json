@@ -404,7 +404,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-lexington-rupp-arena-1-29-2027/production/7491831",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lexington-kentucky-01-29-2027/event/16006518AF849566",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -465,7 +465,7 @@
       {
         "name": "Friends & Family Discount",
         "start": "2026-10-05T04:01:00Z",
-        "end": "2026-10-13T03:59:00Z"
+        "end": "2026-10-18T03:59:00Z"
       }
     ]
   },
@@ -2459,7 +2459,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-sioux-falls-south-dakota-03-16-2027/event/06006319C4C95295",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2494,6 +2494,14 @@
     },
     "ticketmaster_discovery_event_id": "vv1AkZkG_Gkd7w414",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Friends & Family",
+        "start": "2026-10-05T05:01:00Z",
+        "end": "2026-10-13T04:59:00Z"
+      }
+    ]
   }
 ]

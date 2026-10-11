@@ -437,7 +437,7 @@
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-vancouver-rogers-arena-10-13-2026--concerts-rap-hip-hop/production/6091614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-vancouver-british-columbia-10-13-2026/event/11006339E0CE8339",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -496,14 +496,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457660",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-tickets-vancouver-rogers-arena-10-13-2026/event/106969173",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457660/Doja-Cat-tickets-Tue-Oct-13-2026-Rogers-Arena",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2025-10-10T17:00:00Z",
-        "end": "2026-10-09T19:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457660/Doja-Cat-tickets-Tue-Oct-13-2026-Rogers-Arena"
   },
   {
     "id": "tm-doja-cat-2026-seattle-vvg1hzbslq8got",
@@ -673,7 +666,7 @@
     "city": "San Francisco",
     "country": "United States Of America",
     "venue": "Chase Center",
-    "datetime_iso": "2026-10-20T02:30:00Z",
+    "datetime_iso": "2026-10-26T02:30:00Z",
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "1C0063390D157FFD",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-francisco-california-10-19-2026/event/1C0063390D157FFD",
@@ -681,7 +674,7 @@
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-san-francisco-chase-center-10-19-2026--concerts-rap-hip-hop/production/6091547",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-san-francisco-california-10-19-2026/event/1C0063390D157FFD",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -728,11 +721,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7457622",
-        "url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Mon-Oct-19-2026-Chase-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbS0uA9TW",
@@ -740,14 +733,15 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457622",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-san-francisco-tickets-10-19-2026/event/106972097",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Mon-Oct-19-2026-Chase-Center",
+    "ticketliquidator_url": "",
     "presales": [
       {
         "name": "VIP Package Onsale",
         "start": "2025-10-10T17:00:00Z",
-        "end": "2026-10-15T19:00:00Z"
+        "end": "2026-10-21T19:00:00Z"
       }
-    ]
+    ],
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-doja-cat-2026-sacramento-g5vyzbsnj9ve1",

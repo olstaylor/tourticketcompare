@@ -1856,7 +1856,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/john-summit--europe-ctrl-escape-arena-tour-tickets/2045555723?language=en-us",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1891,30 +1891,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ16evA44jN",
     "timezone": "Europe/Warsaw",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T10:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Mastercard® Presale",
-        "start": "2026-10-07T10:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-10-08T10:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-john-summit-2027-forest-brussels-z698xzg2z1kfkv_0g",
@@ -1932,7 +1909,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/john-summit--europe-ctrl-escape-arena-tour-tickets/206059935",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1967,35 +1944,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kFkv_0g",
     "timezone": "Europe/Brussels",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T10:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Mastercard® Presale",
-        "start": "2026-10-07T10:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-10-08T10:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-john-summit-2027-amsterdam-z698xzbpz16vu0fx-w",
@@ -2013,7 +1962,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/john-summit--europe-ctrl-escape-arena-tour-tickets/1364222872?language=en-us",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2069,30 +2018,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vu0Fx-w",
     "timezone": "Europe/Amsterdam",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T10:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-10-07T10:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "MOJO Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-10-08T10:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      }
-    ],
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-amsterdam-ziggo-dome-13-2-2027/event/107671906",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310259",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310259/John-Summit-tickets-Sat-Feb-13-2027-Ziggo-Dome"
@@ -2113,7 +2039,7 @@
     "vividseats_url": "https://www.vividseats.com/john-summit-tickets-london-the-o2---london-2-27-2027/production/7663834",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/john-summit-europe-ctrl-escape-arena-london-27-02-2027/event/35006542F27AE994",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2169,8 +2095,7 @@
     },
     "ticketmaster_discovery_event_id": "1AgZk4eGkdwrmJf",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T11:00:00Z",
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-london-the-o2-arena-27-2-2027/event/107671913",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310113",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310113/John-Summit-tickets-Sat-Feb-27-2027-The-Bubble-Exhibition-Space-at-the-O2"

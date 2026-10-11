@@ -222,7 +222,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-phoenix-talking-stick-resort-amphitheatre-10-13-2026/production/6614441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-phoenix-arizona-10-13-2026/event/1900643D874B484B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -272,13 +272,6 @@
     "ticketmaster_discovery_event_id": "1Av0Z_dGkU63V-5",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "T-Mobile® Concert Perks+Fast Lane",
-        "start": "2026-02-06T17:00:00Z",
-        "end": "2026-10-11T05:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718203",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718203/Staind-tickets-Tue-Oct-13-2026-Talking-Stick-Resort-Amphitheatre"
   },
@@ -367,7 +360,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-tulsa-bok-center-10-16-2026--concerts-rock/production/6614461",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-tulsa-oklahoma-10-16-2026/event/2000643D05BE513B",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424,13 +417,6 @@
     "ticketmaster_discovery_event_id": "1AeZZ_dGkVARP7D",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-02-06T16:00:00Z",
-        "end": "2026-10-10T04:59:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718208",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718208/Staind-tickets-Fri-Oct-16-2026-BOK-Center",
     "stubhub_international_url": "https://www.stubhub.ie/staind-tulsa-tickets-10-16-2026/event/107098204"
@@ -451,7 +437,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-the-woodlands-cynthia-woods-mitchell-pavilion-10-17-2026/production/6614454",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-the-woodlands-texas-10-17-2026/event/3A00643EB4D5D528",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -486,14 +472,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_dBVgqfI",
     "timezone": "America/Chicago",
-    "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-02-06T16:00:00Z",
-        "end": "2026-10-11T04:59:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2026-austin-g5diz_dykgajg",
@@ -595,7 +574,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-manchester-snhu-arena-3-4-2027/production/7658793",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-manchester-new-hampshire-03-04-2027/event/0100653EB072478E",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -644,8 +623,7 @@
     },
     "ticketmaster_discovery_event_id": "vv177Z_KGkBYj0rC",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -677,7 +655,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-baltimore-cfg-bank-arena-3-6-2027/production/7658799",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-baltimore-maryland-03-06-2027/event/150065453170510C",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -726,8 +704,7 @@
     },
     "ticketmaster_discovery_event_id": "11A8vPoKAYf8vu",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -759,7 +736,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-pittsburgh-ppg-paints-arena-3-8-2027/production/7658795",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-pittsburgh-pennsylvania-03-08-2027/event/1600653EE0B6D584",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -808,8 +785,7 @@
     },
     "ticketmaster_discovery_event_id": "1AvbZ_KGkDOccp7",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -841,7 +817,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-reading-santander-arena-3-9-2027/production/7658819",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-reading-pennsylvania-03-09-2027/event/02006541B36EAC1B",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -876,8 +852,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4vGkeShnYh",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -907,7 +882,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-huntington-marshall-health-network-arena-3-10-2027--concerts-rock/production/7658997",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-huntington-west-virginia-03-10-2027/event/160065428FA34508",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -942,8 +917,7 @@
     },
     "ticketmaster_discovery_event_id": "1kAOvP8IGA2IVfF",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -973,7 +947,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-tampa-benchmark-international-arena-3-12-2027/production/7658917",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-tampa-florida-03-12-2027/event/0D006541E77B70C3",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1022,8 +996,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_f6ErMdd",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -1055,7 +1028,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-west-palm-beach-ithink-financial-amphitheatre-3-13-2027/production/7658871",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-west-palm-beach-florida-03-13-2027/event/0D00653ED841F3E7",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1104,8 +1077,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_KDb8L2E",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -1137,7 +1109,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-birmingham-legacy-arena-at-the-bjcc-3-16-2027/production/7658907",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-birmingham-alabama-03-16-2027/event/20006541D60961E0",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1186,8 +1158,7 @@
     },
     "ticketmaster_discovery_event_id": "1AOZk4vGkdpep6O",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -1219,7 +1190,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-oklahoma-city-paycom-center-3-18-2027/production/7658925",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-oklahoma-city-oklahoma-03-18-2027/event/0C00653E978F5ED8",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1268,8 +1239,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KB9NgDb",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -1301,7 +1271,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-dallas-dos-equis-pavilion-3-19-2027--concerts-rock/production/7659012",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/971-the-eagle-presents-staind-break-dallas-texas-03-19-2027/event/0C0065423A11B8B1",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1350,8 +1320,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_fFB7hxs",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -1383,7 +1352,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-san-antonio-frost-bank-center-3-20-2027--concerts-rock/production/7659014",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-san-antonio-texas-03-20-2027/event/3A0065419BE1B609",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1432,8 +1401,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fkhzhba",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -1465,7 +1433,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-denver-ball-arena-3-22-2027/production/7658985",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-denver-colorado-03-22-2027/event/1E00654113F8BE5A",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1514,8 +1482,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_f7KX5yQ",
     "timezone": "America/Denver",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T16:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -1547,7 +1514,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-boise-extramile-arena-3-24-2027/production/7658945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-boise-idaho-03-24-2027/event/1E00653E84B94351",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1596,8 +1563,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_KB7mfuo",
     "timezone": "America/Denver",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T16:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -1629,7 +1595,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-seattle-climate-pledge-arena-3-27-2027--concerts-rock/production/7659018",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-seattle-washington-03-27-2027/event/0F00653DD76CDC06",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1678,8 +1644,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KM9huYk",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -1711,7 +1676,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-vancouver-rogers-arena-3-29-2027--concerts-rock/production/7659028",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-vancouver-british-columbia-03-29-2027/event/11006542CE9DD016",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1760,8 +1725,7 @@
     },
     "ticketmaster_discovery_event_id": "1AoZk4eGkdCEqZp",
     "timezone": "America/Vancouver",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "VIP Packages Onsale",
@@ -1788,7 +1752,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-calgary-scotiabank-saddledome-3-31-2027/production/7659022",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-calgary-alberta-03-31-2027/event/1100653DE10AE9F2",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1837,8 +1801,7 @@
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkM-emEw",
     "timezone": "America/Edmonton",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T16:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Amex Reserved Tickets",
@@ -1870,7 +1833,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-edmonton-rogers-place-4-1-2027/production/7659026",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/staind-break-the-cycle-25th-anniversary-edmonton-alberta-04-01-2027/event/1100653E198825E1",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1919,8 +1882,7 @@
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkz_xe9-",
     "timezone": "America/Edmonton",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T16:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "VIP Packages Onsale",
@@ -1947,7 +1909,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-sioux-falls-denny-sanford-premier-center-4-6-2027/production/7658947",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-sioux-falls-south-dakota-04-06-2027/event/06006541D0984441",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1996,8 +1958,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4vGkd8J7ov",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -2029,7 +1990,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-fargo-fargodome-4-7-2027/production/7658969",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-fargo-north-dakota-04-07-2027/event/0600653DBDE4BB80",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2078,8 +2039,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkUWy5mZ",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -2111,7 +2071,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-omaha-chi-health-center-omaha-4-9-2027/production/7658975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-omaha-nebraska-04-09-2027/event/060065429BA0997F",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2160,8 +2120,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1kvOvP8tGA5IaPT",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -2193,7 +2152,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-kansas-city-t-mobile-center-4-10-2027/production/7658897",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-kansas-city-missouri-04-10-2027/event/06006541B5EEF63F",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2242,8 +2201,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4vGkegDRbT",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -2280,7 +2238,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-moline-vibrant-arena-at-the-mark-4-11-2027/production/7658963",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-moline-illinois-04-11-2027/event/0600654182384B89",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2329,8 +2287,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1FbZ_fkeC7ZdGa1",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -2362,7 +2319,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-grand-rapids-van-andel-arena-4-13-2027/production/7658869",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-grand-rapids-michigan-04-13-2027/event/0800653DDD089A23",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2411,8 +2368,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkMqeaIN",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",
@@ -2444,7 +2400,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-evansville-ford-center-evansville-4-14-2027/production/7658929",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-evansville-indiana-04-14-2027/event/0500653ED26DE11F",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2493,8 +2449,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17fZ_KGkD3hr7L",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "status": "on-sale",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",

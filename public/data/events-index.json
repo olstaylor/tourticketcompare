@@ -6266,7 +6266,7 @@
     "country": "United States Of America",
     "city": "San Francisco",
     "venue": "Chase Center",
-    "datetime_iso": "2026-10-20T02:30:00Z",
+    "datetime_iso": "2026-10-26T02:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Tour Ma Vie World Tour",
     "status": "on-sale"
@@ -26717,7 +26717,7 @@
     "datetime_iso": "2027-02-02T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-charlotte-g5evz_kukxezh",
@@ -26729,7 +26729,7 @@
     "datetime_iso": "2027-02-06T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-washington-164zkfuqdzacd655",
@@ -26741,7 +26741,7 @@
     "datetime_iso": "2027-02-07T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-washington-1avfz_kgkw7gvak",
@@ -26753,7 +26753,7 @@
     "datetime_iso": "2027-02-08T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-philadelphia-vv1aovpuygauryej",
@@ -26765,7 +26765,7 @@
     "datetime_iso": "2027-02-11T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-brooklyn-k7vgf_kze_vgc",
@@ -26777,7 +26777,7 @@
     "datetime_iso": "2027-02-13T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-toronto-1avzz_kgkstt7dw",
@@ -26789,7 +26789,7 @@
     "datetime_iso": "2027-02-17T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-detroit-vv1afzkfugkelhvg0",
@@ -26801,7 +26801,7 @@
     "datetime_iso": "2027-02-19T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-chicago-vv178z_kgks8xdpl",
@@ -26813,7 +26813,7 @@
     "datetime_iso": "2027-02-20T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-minneapolis-vv17bz_kgkswys5j",
@@ -26825,7 +26825,7 @@
     "datetime_iso": "2027-02-24T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-dallas-vvg1yz_kraozwg",
@@ -26837,7 +26837,7 @@
     "datetime_iso": "2027-02-26T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-phoenix-16v0z_koag7ux58",
@@ -26849,7 +26849,7 @@
     "datetime_iso": "2027-03-04T03:00:00Z",
     "timezone": "America/Phoenix",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-los-angeles-vv1aazkfzgkdgncya",
@@ -26861,7 +26861,7 @@
     "datetime_iso": "2027-03-05T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-san-diego-vvg1iz_ks1c6a3",
@@ -26873,7 +26873,7 @@
     "datetime_iso": "2027-03-06T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-boise-g5vzz_ksxzvbs",
@@ -26885,7 +26885,7 @@
     "datetime_iso": "2027-03-11T03:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2026-pittsburgh-1avbz_fgklj6-n0",
@@ -27101,7 +27101,7 @@
     "datetime_iso": "2027-01-23T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-columbia-g5evz_ksmjps3",
@@ -27113,7 +27113,7 @@
     "datetime_iso": "2027-01-24T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-rosemont-vv178z_kgksozism",
@@ -27125,7 +27125,7 @@
     "datetime_iso": "2027-01-29T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-saint-louis-vv17bz_3gkxtmyfx",
@@ -27137,7 +27137,7 @@
     "datetime_iso": "2027-01-30T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-omaha-vv17bz_kgks0gmzs",
@@ -27149,7 +27149,7 @@
     "datetime_iso": "2027-02-01T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-indianapolis-vv17fz_kgks5i1ir",
@@ -27161,7 +27161,7 @@
     "datetime_iso": "2027-02-06T00:00:00Z",
     "timezone": "America/Indiana/Indianapolis",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-charleston-1avbz_kgkb6hkqy",
@@ -27173,7 +27173,7 @@
     "datetime_iso": "2027-02-12T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-estero-vvg1vz_ks60_np",
@@ -27185,7 +27185,7 @@
     "datetime_iso": "2027-02-26T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-saskatoon-1av7z_kgkwfc4o1",
@@ -27197,7 +27197,7 @@
     "datetime_iso": "2027-03-12T01:00:00Z",
     "timezone": "America/Swift_Current",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-edmonton-1av7z_kgksqo5v0",
@@ -27209,7 +27209,7 @@
     "datetime_iso": "2027-03-13T01:00:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-winnipeg-1av7z_kgkgyzwh1",
@@ -27221,7 +27221,7 @@
     "datetime_iso": "2027-03-15T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-uncasville-g5vvz_koktqjf",
@@ -27233,7 +27233,7 @@
     "datetime_iso": "2027-03-18T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-allentown-1adzz_kgkmg3bkj",
@@ -27245,7 +27245,7 @@
     "datetime_iso": "2027-03-19T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-mobile-g5viz_k1kuycs",
@@ -27293,7 +27293,7 @@
     "datetime_iso": "2027-07-23T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-gilford-vv177z_kgklli63o",
@@ -27305,7 +27305,7 @@
     "datetime_iso": "2027-07-24T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-canandaigua-k7vgf_ksrxvbm",
@@ -27317,7 +27317,7 @@
     "datetime_iso": "2027-07-29T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-clarkston-vv17oz_kgkvl-rxl",
@@ -27329,7 +27329,7 @@
     "datetime_iso": "2027-07-31T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-berkeley-g5vyz_kir6nxo",
@@ -27341,7 +27341,7 @@
     "datetime_iso": "2027-08-13T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-bend-vvg1hz_kwvob2j",
@@ -27353,7 +27353,7 @@
     "datetime_iso": "2027-08-22T01:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-boise-g5vzz_kjqef3d",
@@ -27365,7 +27365,7 @@
     "datetime_iso": "2027-08-23T01:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-rogers-g5viz_kuooawu",
@@ -27377,7 +27377,7 @@
     "datetime_iso": "2027-09-10T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-corpus-christi-g5diz_ksvr9iw",
@@ -27389,7 +27389,7 @@
     "datetime_iso": "2027-09-19T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-austin-g5diz_kmbauv1",
@@ -27401,7 +27401,7 @@
     "datetime_iso": "2027-09-20T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-daughtry-2026-valley-center-vvg1iz_5rl2h1n",
@@ -29297,7 +29297,7 @@
     "datetime_iso": "2027-04-24T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-philadelphia-vv17fz_kgks-xsxp",
@@ -29309,7 +29309,7 @@
     "datetime_iso": "2027-04-24T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-detroit-vv17oz_kgksew9wu",
@@ -29321,7 +29321,7 @@
     "datetime_iso": "2027-04-28T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-chicago-vv1k8z_fkfg7zjno",
@@ -29333,7 +29333,7 @@
     "datetime_iso": "2027-04-29T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-milwaukee-vv17jz_kgkloizcl",
@@ -29345,7 +29345,7 @@
     "datetime_iso": "2027-05-01T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-minneapolis-vv17bz_kgkijqu5x",
@@ -29357,7 +29357,7 @@
     "datetime_iso": "2027-05-02T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-vancouver-1av7z_kgkupzetr",
@@ -29369,7 +29369,7 @@
     "datetime_iso": "2027-05-06T03:00:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-seattle-vvg1hz_kbr3b0c",
@@ -29381,7 +29381,7 @@
     "datetime_iso": "2027-05-09T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-sacramento-g5vyz_kmgztid",
@@ -29393,7 +29393,7 @@
     "datetime_iso": "2027-05-12T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-san-francisco-g5vyz_k9cdguj",
@@ -29405,7 +29405,7 @@
     "datetime_iso": "2027-05-13T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-milano-zg9rmiynyzd1ve",
@@ -29525,7 +29525,7 @@
     "datetime_iso": "2027-09-27T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-columbia-16vfz_fkag7mpc7",
@@ -29537,7 +29537,7 @@
     "datetime_iso": "2027-09-30T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-atlanta-vvg1zz_keib7ia",
@@ -29549,7 +29549,7 @@
     "datetime_iso": "2027-10-09T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-inglewood-vv1ke8vpuyga5p1et",
@@ -29561,7 +29561,7 @@
     "datetime_iso": "2027-10-16T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-riley-green-2026-durant-vvg1yz_ggasrcz",
@@ -30725,7 +30725,7 @@
     "datetime_iso": "2027-03-04T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-baltimore-11a8vpokayf8vu",
@@ -30737,7 +30737,7 @@
     "datetime_iso": "2027-03-06T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-pittsburgh-1avbz_kgkdoccp7",
@@ -30749,7 +30749,7 @@
     "datetime_iso": "2027-03-08T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-reading-vv1aezk4vgkeshnyh",
@@ -30761,7 +30761,7 @@
     "datetime_iso": "2027-03-09T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-huntington-1kaovp8iga2ivff",
@@ -30773,7 +30773,7 @@
     "datetime_iso": "2027-03-10T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-tampa-vvg1vz_f6ermdd",
@@ -30785,7 +30785,7 @@
     "datetime_iso": "2027-03-12T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-west-palm-beach-vvg1vz_kdb8l2e",
@@ -30797,7 +30797,7 @@
     "datetime_iso": "2027-03-13T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-birmingham-1aozk4vgkdpep6o",
@@ -30809,7 +30809,7 @@
     "datetime_iso": "2027-03-16T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-oklahoma-city-vvg1yz_kb9ngdb",
@@ -30821,7 +30821,7 @@
     "datetime_iso": "2027-03-18T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-dallas-vvg1yz_ffb7hxs",
@@ -30833,7 +30833,7 @@
     "datetime_iso": "2027-03-19T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-san-antonio-g5diz_fkhzhba",
@@ -30845,7 +30845,7 @@
     "datetime_iso": "2027-03-20T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-denver-g5vzz_f7kx5yq",
@@ -30857,7 +30857,7 @@
     "datetime_iso": "2027-03-23T00:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-boise-g5vzz_kb7mfuo",
@@ -30869,7 +30869,7 @@
     "datetime_iso": "2027-03-25T00:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-seattle-vvg1hz_km9huyk",
@@ -30881,7 +30881,7 @@
     "datetime_iso": "2027-03-28T01:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-vancouver-1aozk4egkdceqzp",
@@ -30893,7 +30893,7 @@
     "datetime_iso": "2027-03-30T01:00:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-calgary-1av7z_kgkm-emew",
@@ -30905,7 +30905,7 @@
     "datetime_iso": "2027-04-01T00:00:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-edmonton-1av7z_kgkz_xe9-",
@@ -30917,7 +30917,7 @@
     "datetime_iso": "2027-04-02T00:00:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-sioux-falls-vv1akzk4vgkd8j7ov",
@@ -30929,7 +30929,7 @@
     "datetime_iso": "2027-04-06T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-fargo-vv17bz_kgkuwy5mz",
@@ -30941,7 +30941,7 @@
     "datetime_iso": "2027-04-07T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-omaha-vv1kvovp8tga5iapt",
@@ -30953,7 +30953,7 @@
     "datetime_iso": "2027-04-09T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-kansas-city-vv1akzk4vgkegdrbt",
@@ -30965,7 +30965,7 @@
     "datetime_iso": "2027-04-10T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-moline-vv1fbz_fkec7zdga1",
@@ -30977,7 +30977,7 @@
     "datetime_iso": "2027-04-11T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-grand-rapids-vv17oz_kgkmqeain",
@@ -30989,7 +30989,7 @@
     "datetime_iso": "2027-04-13T22:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-evansville-vv17fz_kgkd3hr7l",
@@ -31001,7 +31001,7 @@
     "datetime_iso": "2027-04-14T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-dylan-gossett-2026-waco-z7r9jz1a7jdak",
@@ -31649,7 +31649,7 @@
     "datetime_iso": "2027-03-25T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-hollywood-vvg1vz_fkapkzq",
@@ -31661,7 +31661,7 @@
     "datetime_iso": "2027-03-27T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-waukee-1ae7z_kgkdkgpa5",
@@ -31673,7 +31673,7 @@
     "datetime_iso": "2027-04-03T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-grand-rapids-vv1afzk4vgkeyak2y",
@@ -31685,7 +31685,7 @@
     "datetime_iso": "2027-04-15T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-chicago-vv1k8z_f1pg7v9f6",
@@ -31697,7 +31697,7 @@
     "datetime_iso": "2027-04-18T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-philadelphia-vv17fz_kgkmdo0cj",
@@ -31709,7 +31709,7 @@
     "datetime_iso": "2027-04-22T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-pittsburgh-1apzk4vgkd7rttm",
@@ -31721,7 +31721,7 @@
     "datetime_iso": "2027-04-23T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-cincinnati-1avbz_kgkbydi6_",
@@ -31733,7 +31733,7 @@
     "datetime_iso": "2027-04-25T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-columbia-g5evz_kbmywhz",
@@ -31745,7 +31745,7 @@
     "datetime_iso": "2027-04-29T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-atlanta-vvg1zz_f6dz4ap",
@@ -31757,7 +31757,7 @@
     "datetime_iso": "2027-04-30T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-john-summit-2027-warsaw-z698xzqpz16eva44jn",
@@ -31769,7 +31769,7 @@
     "datetime_iso": "2027-02-11T17:00:00Z",
     "timezone": "Europe/Warsaw",
     "tour_name": "CTRL ESCAPE ARENA TOUR",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-john-summit-2027-forest-brussels-z698xzg2z1kfkv_0g",
@@ -31781,7 +31781,7 @@
     "datetime_iso": "2027-02-12T17:30:00Z",
     "timezone": "Europe/Brussels",
     "tour_name": "CTRL ESCAPE ARENA TOUR",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-john-summit-2027-amsterdam-z698xzbpz16vu0fx-w",
@@ -31793,7 +31793,7 @@
     "datetime_iso": "2027-02-13T19:00:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "CTRL ESCAPE ARENA TOUR",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-john-summit-2027-london-1agzk4egkdwrmjf",
@@ -31805,7 +31805,7 @@
     "datetime_iso": "2027-02-27T18:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "CTRL ESCAPE ARENA TOUR",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-morat-2026-pamplona-iruna-z698xz2qz16voojza6",
@@ -31853,7 +31853,7 @@
     "datetime_iso": "2027-08-18T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-toronto-1a8zk47gkd65fpy",
@@ -31949,7 +31949,7 @@
     "datetime_iso": "2027-04-23T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-vancouver-1aozk4v0aa_zegf",
@@ -31961,7 +31961,7 @@
     "datetime_iso": "2027-05-07T03:00:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-latto-2026-boston-z7r9jz1aae_7z",
@@ -32009,7 +32009,7 @@
     "datetime_iso": "2027-02-05T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-portland-z7r9jz1aaekuy",
@@ -33917,7 +33917,7 @@
     "datetime_iso": "2027-04-11T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-jay-wheeler-2027-orlando-1axzk4vgkd6tfj5",

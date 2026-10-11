@@ -1244,7 +1244,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-23-2027/event/100064E9EEB1DA59",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1279,7 +1279,15 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G6CEmiqt_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-03-19T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-toronto-177zv0g6cemcutq",
@@ -1297,7 +1305,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-24-2027/event/100064E9EEB4DA5D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1332,7 +1340,15 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G6CEmcutq",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-03-20T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-boston-vvg17z_cxqdi4_",
@@ -1350,7 +1366,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-boston-massachusetts-03-27-2027/event/010064E89AEEC559",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1385,7 +1401,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG17Z_CxQDi4_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-saint-levant-2027-philadelphia-vvg1fz_cxbxmek",
@@ -1403,7 +1420,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-philadelphia-pennsylvania-03-28-2027/event/020064E8BAFAE9C6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1438,7 +1455,15 @@
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_CxBXmEk",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-03-24T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-brooklyn-k7vgf_cl-wdb8",
@@ -1456,7 +1481,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-brooklyn-new-york-03-30-2027/event/000064E7E1F43E90",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1491,7 +1516,15 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_CL-WdB8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-03-26T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-brooklyn-k7vgf_cl-wsb-",
@@ -1509,7 +1542,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-brooklyn-new-york-03-31-2027/event/000064E7E1F73EA1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1544,7 +1577,15 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_CL-WSB-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-03-27T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-detroit-vvg1oz_cxteu1p",
@@ -1562,7 +1603,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-detroit-michigan-04-06-2027/event/080064E8A90B6296",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1597,7 +1638,15 @@
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_CxteU1p",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-04-02T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-silver-spring-17a8v0g6cjqrj2z",
@@ -1615,7 +1664,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-silver-spring-maryland-04-09-2027/event/150064E99DBE63F8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1650,7 +1699,15 @@
     },
     "ticketmaster_discovery_event_id": "17A8v0G6CJqRJ2z",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-04-05T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-charlotte-g5evz_cxoz58q",
@@ -1668,7 +1725,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-charlotte-north-carolina-04-13-2027/event/2D0064E8A000B41A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1703,7 +1760,15 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_CxOZ58Q",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-04-09T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-miami-beach-vvg1vz_clijxyh",
@@ -1721,7 +1786,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-miami-beach-florida-04-16-2027/event/0D0064E7EC73EC3C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1756,7 +1821,15 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_CLijXYH",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-04-12T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-atlanta-vvg1zz_cjej40m",
@@ -1774,7 +1847,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-atlanta-georgia-04-18-2027/event/0E0064E702995937",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1809,7 +1882,15 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_CjeJ40M",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-04-14T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-austin-g5diz_cxcz7mc",
@@ -1827,7 +1908,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-austin-texas-04-20-2027/event/3A0064E88E004B8E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1862,7 +1943,15 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_CxCZ7mC",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2027-04-16T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-houston-g5diz_clj5bta",
@@ -1880,7 +1969,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-houston-texas-04-21-2027/event/3A0064E7DC2FAA49",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1915,7 +2004,15 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_CLj5Bta",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2027-04-17T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-dallas-vvg1yz_cxxtz4x",
@@ -1933,7 +2030,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-dallas-texas-04-22-2027/event/0C0064E8BEA7857E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1968,7 +2065,15 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_CxXtz4X",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2027-04-18T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-denver-g5vzz_cl6uyod",
@@ -1986,7 +2091,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-denver-colorado-04-25-2027/event/1E0064E7C7DB9803",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2021,7 +2126,20 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_CL6UyOd",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-24T16:00:00Z",
+        "end": "2027-03-29T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T16:00:00Z",
+        "end": "2027-04-21T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-san-diego-rz7hnez1afa7-7",
@@ -2092,7 +2210,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-anaheim-california-04-29-2027/event/090064E7A47A5FF4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2127,7 +2245,15 @@
     },
     "ticketmaster_discovery_event_id": "vvG10Z_Cr0rPTV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-01T19:00:00Z",
+        "end": "2027-04-25T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-los-angeles-vvg10z_cjir6zj",
@@ -2145,7 +2271,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-los-angeles-california-05-03-2027/event/090064E9AC787E1C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2180,7 +2306,20 @@
     },
     "ticketmaster_discovery_event_id": "vvG10Z_CJir6zj",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2027-04-04T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2027-04-29T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-los-angeles-vvg10z_cjil6zv",
@@ -2198,7 +2337,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-los-angeles-california-05-04-2027/event/090064E9AC7C7E34",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2233,7 +2372,20 @@
     },
     "ticketmaster_discovery_event_id": "vvG10Z_CJiL6zV",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2027-04-05T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2027-04-30T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-saint-levant-2027-san-francisco-g5vyz_cj596wt",
@@ -2251,7 +2403,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-san-francisco-california-05-07-2027/event/1C0064E98B5C7CBF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2286,6 +2438,14 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_CJ596wT",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2027-05-03T19:00:00Z"
+      }
+    ]
   }
 ]

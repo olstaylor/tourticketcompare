@@ -1666,7 +1666,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-pittsburgh-ppg-paints-arena-10-16-2027--concerts-pop/production/7599690",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-pittsburgh-pennsylvania-10-16-2027/event/16006531DA59D328",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1727,11 +1727,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284583",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-pittsburgh-tickets-10-16-2027/event/107669007",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-10-02T14:00:00Z",
-        "end": "2026-10-10T02:00:00Z"
-      },
       {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-02T14:00:00Z",
@@ -2882,7 +2877,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/hilary-duff-the-lucky-me-tour-ciudad-de-mexico-12-02-2027/event/14006447E024B232",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2917,7 +2912,14 @@
     },
     "ticketmaster_discovery_event_id": "1AfZko6GkdOa5Fw",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-02-20T17:00:00Z",
+        "end": "2027-02-13T01:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdomhcz",
@@ -2988,7 +2990,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/hilary-duff-the-lucky-me-tour-zapopan-15-02-2027/event/1400648AB8D5A71A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3023,6 +3025,13 @@
     },
     "ticketmaster_discovery_event_id": "1Av8Z_FGknzgQjQ",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-04-30T06:00:00Z",
+        "end": "2027-02-16T02:30:00Z"
+      }
+    ]
   }
 ]

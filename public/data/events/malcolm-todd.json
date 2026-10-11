@@ -718,7 +718,7 @@
     "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-salt-lake-city-the-union-event-center---salt-lake-city-10-13-2026/production/7132419",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/malcolm-todd-do-that-again-tour-salt-lake-city-utah-10-13-2026/event/1E0064C3D426F256",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -769,14 +769,7 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034336",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034336/Malcolm-Todd-tickets-Tue-Oct-13-2026-The-Union-Event-Center",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-11T16:00:00Z",
-        "end": "2026-10-09T18:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034336/Malcolm-Todd-tickets-Tue-Oct-13-2026-The-Union-Event-Center"
   },
   {
     "id": "tm-malcolm-todd-2026-seattle-vvg1hz_g3nanrd",

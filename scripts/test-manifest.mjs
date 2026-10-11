@@ -99,6 +99,7 @@ export const STEPS = [
   { id: "test:event-indexing-pilot-report",       lane: "units",  run: "npm run test:event-indexing-pilot-report" },
   { id: "test:funnel-analytics",                  lane: "quick",  run: "npm run test:funnel-analytics" },
   { id: "report:commercial-funnel:self-test",     lane: "units",  run: "npm run report:commercial-funnel:self-test" },
+  { id: "report:plan-scoreboard:self-test",       lane: "units",  run: "npm run report:plan-scoreboard:self-test" },
   { id: "test:affiliate-attribution", lane: "units", run: "npm run test:affiliate-attribution" },
   { id: "test:bot-traffic", lane: "units", run: "npm run test:bot-traffic" },
   { id: "report:affiliate-performance:self-test", lane: "units",  run: "npm run report:affiliate-performance:self-test" },

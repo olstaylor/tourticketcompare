@@ -1291,11 +1291,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8278052",
+        "url": "https://www.ticketnetwork.com/en/p/8278052",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDtEUW",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8278052"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedteut",

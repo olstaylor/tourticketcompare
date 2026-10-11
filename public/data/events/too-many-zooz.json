@@ -703,11 +703,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284717",
+        "url": "https://www.ticketnetwork.com/en/p/8284717",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae0Z_3GkzlV-OK",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284717"
   },
   {
     "id": "tm-too-many-zooz-2027-san-diego-rz7hnez1afgpof",
@@ -756,11 +764,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284725",
+        "url": "https://www.ticketnetwork.com/en/p/8284725",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGPof",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284725"
   },
   {
     "id": "tm-too-many-zooz-2027-san-francisco-rz7hnez1afgsv7",
@@ -809,11 +825,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284728",
+        "url": "https://www.ticketnetwork.com/en/p/8284728",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGsv7",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284728"
   },
   {
     "id": "tm-too-many-zooz-2027-vancouver-rz7hnez1afgyg0",
@@ -862,10 +886,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284731",
+        "url": "https://www.ticketnetwork.com/en/p/8284731",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGYG0",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284731"
   }
 ]

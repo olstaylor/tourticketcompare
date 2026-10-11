@@ -1914,11 +1914,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7775746",
-        "url": "https://www.ticketnetwork.com/en/p/7775746",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7775746",
@@ -1938,7 +1938,7 @@
     "ticketmaster_discovery_event_id": "1AvjZ_AGknswc9W",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775746",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775746/Metallica-tickets-Sat-Oct-10-2026-Sphere",
     "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-10-2026/event/107132079"
   },

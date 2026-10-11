@@ -2490,6 +2490,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7376289",
+        "url": "https://www.ticketnetwork.com/en/p/7376289",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkG_Gkd7w414",
@@ -2502,6 +2509,7 @@
         "start": "2026-10-05T05:01:00Z",
         "end": "2026-10-13T04:59:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7376289"
   }
 ]

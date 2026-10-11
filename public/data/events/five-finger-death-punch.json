@@ -987,17 +987,17 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7676514",
-        "url": "https://www.ticketnetwork.com/en/p/7676514",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_eQhP7qi",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676514"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-west-palm-beach-vvg1vz_eqw6abn",
@@ -2213,11 +2213,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8090423",
+        "url": "https://www.ticketnetwork.com/en/p/8090423",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16eZEG-Gk",
     "timezone": "Europe/Oslo",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090423"
   },
   {
     "id": "tm-five-finger-death-punch-2027-helsinki-z698xz8kz16vjke6q8",
@@ -2266,10 +2274,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8090422",
+        "url": "https://www.ticketnetwork.com/en/p/8090422",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ8KZ16vjke6q8",
     "timezone": "Europe/Helsinki",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090422"
   }
 ]

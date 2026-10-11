@@ -178,11 +178,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7718202",
-        "url": "https://www.ticketnetwork.com/en/p/7718202",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7718202",
@@ -202,7 +202,7 @@
     "ticketmaster_discovery_event_id": "vv170Z_dGkwr0_Z6",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7718202",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7718202/Staind-tickets-Sat-Oct-10-2026-Toyota-Arena-Ontario",
     "stubhub_international_url": "https://www.stubhub.ie/staind-ontario-tickets-10-10-2026/event/107098205"
   },

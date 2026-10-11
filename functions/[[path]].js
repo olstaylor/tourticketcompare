@@ -3072,12 +3072,9 @@ function artistCityTitle(artist, artistCity) {
   // Prices at Etihad Stadium" is 64), then the venue, then the tail, then the
   // year. Once a qualifier is shed it stays shed.
   //
-  // A live figure is deliberately absent: metadata is composed here, before any
-  // price is fetched, and route.description is emitted verbatim as the
-  // CollectionPage JSON-LD description (see routeSchema), which is not gated on
-  // indexability. A price there would be machine-readable redistribution
-  // outside the SCHEMA_OFFERS_ENABLED exception and invisible to
-  // validate-route-schema.mjs.
+  // Titles stay stable as snapshots expire. route.description also stays
+  // price-free for CollectionPage JSON-LD; the HTML search/social snippet is
+  // composed separately after the gated prices have been fetched.
   const year = yearRangeLabel(
     (artistCity.shows || []).map((show) => eventLocalYear(show.datetime_iso, show.timezone))
   );
@@ -3120,11 +3117,9 @@ function artistCityDescription(artist, artistCity) {
   const count = cityShowCountLabel(artistCity.showCount);
   const range = cityDateRangeLabel(artistCity);
   const venueLabel = artistCityVenueLabel(artistCity);
-  // States what the page does, never what a ticket costs. The numeric answer is
-  // server-rendered in the body instead: a listed-price snapshot moves faster
-  // than a search snippet is refreshed, so a figure here would be wrong in the
-  // SERP most of the time — and this string is also the CollectionPage JSON-LD
-  // description, where a price would escape every schema-offers control.
+  // The fallback and CollectionPage JSON-LD description stays price-free.
+  // A dated starting-price snippet is composed separately after fetching
+  // prices, so it cannot escape the schema-offers controls through this field.
   // The price wording is used only where a date carries two listed-price
   // lanes, as in artistCityTitle.
   const lead = artistCity.comparableCount > 0
@@ -6613,9 +6608,8 @@ export function renderGuideUpcomingArtists(route, events, now = Date.now(), limi
   )}</p><div class="card-grid guide-provider-pair-grid">${cards.join("")}</div></section>`;
 }
 
-// Title and description for an event page. Composed before any price is
-// fetched, so neither can carry a live figure; a held date's never says
-// "tickets".
+// Stable title and fallback/schema description, composed before price reads.
+// A held date's metadata never says "tickets".
 function eventPageTitle(artistName, venue, city, dateLabel, lifecycle) {
   const suffix =
     lifecycle === EVENT_LIFECYCLE.CANCELLED ? " (Cancelled)" : lifecycle === EVENT_LIFECYCLE.POSTPONED ? " (Postponed)" : "";
@@ -6639,6 +6633,47 @@ function eventPageDescription(artistName, venue, city, dateLabel, state) {
     `Checked ticket links for ${what}. Listed prices aren't checkout totals.`,
     `Checked ticket links for ${what}.`
   );
+}
+
+// Mirror one visible, gated snapshot in HTML metadata only. Artist-city pages
+// quote their next tracked date, never a minimum across different shows. Keep
+// the event, provider, currency, capture time and fee caveat together; if they
+// cannot fit, retain the price-free fallback rather than truncate attribution.
+function startingPriceMetaDescription(route, events, env) {
+  if (route.type !== "artist-city" && route.type !== "event") return "";
+  if (route.type === "event" && !route.eventState?.commerciallyLive) return "";
+  const ids = route.type === "event"
+    ? new Set([String(route.event.id)])
+    : artistCityShowIdSet(route.artistCity);
+  const shows = futureShowsForArtist(events, route.artist.slug)
+    .filter((show) => ids.has(String(show.id)));
+  const availability = {
+    seatGeekAvailable: isSeatGeekConfigured(env),
+    vividSeatsAvailable: isVividSeatsConfigured(env),
+    marketplaceAvailability: Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map(
+      (provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]
+    ))
+  };
+  const row = deriveCityDatePrices(shows, {
+    ctaSpecsFor: (show) => serverShowCtaSpecs(show, availability),
+    wasChecked: pricesWereChecked
+  }).rows[0];
+  if (!row?.checked || !row.lowest) return "";
+  const lane = row.lowest;
+  const captured = new Date(lane.fetchedAt);
+  if (!Number.isFinite(captured.getTime())) return "";
+  const checked = `${captured.toISOString().slice(0, 16).replace("T", " ")} UTC`;
+  const amount = new Intl.NumberFormat("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(lane.price);
+  const money = `${lane.currency === "USD" ? "US$" : `${lane.currency} `}${amount}`;
+  const city = route.type === "artist-city" ? route.artistCity.label : route.event.city;
+  const date = formatShortDateServer(row.datetimeISO, row.timezone);
+  const startingPrice = ["Starting from", money].join(" ");
+  const tail = `${startingPrice} listed at ${lane.name}; checked ${checked}. Check fees.`;
+  const candidates = [
+    `${route.artist.name} tickets in ${city} on ${date}. ${tail}`,
+    `${route.artist.name} ${city} tickets · ${date}. ${tail}`
+  ];
+  return candidates.find((candidate) => candidate.length <= META_DESCRIPTION_LENGTH_LIMIT) || "";
 }
 
 function eventPageRoute(decision, artist, catalog, events, artistsMeta = []) {
@@ -7837,13 +7872,14 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   const hostIndexable = isIndexableOrigin(origin);
   origin = canonicalOrigin(origin);
   const canonicalUrl = `${origin}${route.path}`;
+  const metaDescription = startingPriceMetaDescription(route, events, env) || route.description;
   const robots =
     route.indexable && hostIndexable ? "index,follow,max-image-preview:large" : "noindex,follow";
   let next = html;
   next = next.replace(/<title>[^<]*<\/title>/i, () => `<title>${escapeAttr(route.title)}</title>`);
   next = next.replace(
     /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/i,
-    () => `<meta name="description" content="${escapeAttr(route.description)}" />`
+    () => `<meta name="description" content="${escapeAttr(metaDescription)}" />`
   );
   next = next.replace(
     /<meta\s+name="robots"\s+content="[^"]*"\s*\/?>/i,
@@ -7855,7 +7891,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(
     /<meta\s+property="og:description"\s+content="[^"]*"\s*\/?>/i,
-    () => `<meta property="og:description" content="${escapeAttr(route.description)}" />`
+    () => `<meta property="og:description" content="${escapeAttr(metaDescription)}" />`
   );
   next = next.replace(
     /<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/i,
@@ -7900,7 +7936,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(
     /<meta\s+name="twitter:description"\s+content="[^"]*"\s*\/?>/i,
-    () => `<meta name="twitter:description" content="${escapeAttr(route.description)}" />`
+    () => `<meta name="twitter:description" content="${escapeAttr(metaDescription)}" />`
   );
   next = next.replace(
     /<link\s+rel="canonical"\s+href="[^"]*"\s*\/?>/i,

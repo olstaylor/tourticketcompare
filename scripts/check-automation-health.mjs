@@ -173,6 +173,7 @@ export const WATCHED_LANES = [
   // Propose-only tour-launch queue for price guides: writes an issue, runs no
   // validation against main.
   { file: "price-guide-candidates.yml", name: "Price-guide candidates", cadence: "daily 11:05", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
+  { file: "blog-ideas.yml", name: "Weekly blog opportunities", cadence: "weekly Mon 11:20", maxAgeHours: 8 * 24 + 6, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
   // Auto-promote runs test:mvp before it writes, so it shares main's gate. It
   // ends green at its first step while AUTOPROMOTE_ENABLED is off.
   { file: "auto-promote.yml", name: "Auto-promote artists", cadence: "daily 10:45", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: true },
@@ -726,8 +727,8 @@ if (SELF_TEST) {
   );
   assert.deepEqual(
     WATCHED_LANES.filter((lane) => !lane.sharesMainGate).map((lane) => lane.file).sort(),
-    ["automation-health.yml", "autopublish-digest.yml", "generated-freshness.yml", "plan-scoreboard.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "price-guide-candidates.yml", "roster-candidates.yml", "show-priority.yml", "site-health.yml"],
-    "the sensors, the digest, the roster and price-guide screens, the price coverage report, the site health check, the plan scoreboard and the show-priority ranking, and only those, are excluded from writer correlation"
+    ["automation-health.yml", "autopublish-digest.yml", "blog-ideas.yml", "generated-freshness.yml", "plan-scoreboard.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "price-guide-candidates.yml", "roster-candidates.yml", "show-priority.yml", "site-health.yml"],
+    "the sensors, digest, editorial and roster screens, coverage report, site health, scoreboard and show-priority ranking are excluded from writer correlation"
   );
   // GitHub accepts either extension for a workflow file, so the coverage scan
   // below must recognise both or a scheduled `.yaml` lane slips past it.

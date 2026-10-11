@@ -22,7 +22,8 @@ import {
 import { historySupportsEventDate } from "./lib/pricing-schema.mjs";
 
 import { buildPriceChecksSql } from "./lib/price-checks.mjs";
-import { buildPriceTimingSql, timingObservation, prioritizeFinalHours } from "./lib/price-timing-capture.mjs";
+import { buildPriceTimingSql, timingObservation } from "./lib/price-timing-capture.mjs";
+import { priorityCandidates, readPriorityRows } from "./lib/show-priority-store.mjs";
 
 const execFileAsync = promisify(execFile);
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -160,6 +161,7 @@ function parseArgs(argv) {
     else if (arg === "--self-test") options.selfTest = true;
     else if (arg === "--local") options.remote = false;
     else if (arg === "--json") options.json = true;
+    else if (arg === "--priority") options.priority = true;
     else if (arg === "-h" || arg === "--help") options.help = true;
     else if (["--provider", "--limit", "--event-id", "--freshness-hours", "--database", "--within-hours"].includes(arg)) {
       const value = argv[++i];
@@ -178,7 +180,7 @@ function parseArgs(argv) {
 function selectEligible(events, artists, config, options, now = new Date()) {
   const names = new Map(artists.map((artist) => [clean(artist.slug, 120), clean(artist.name, 200)]));
   const rows = [];
-  for (const event of options.withinHours ? prioritizeFinalHours(events, now, options.withinHours) : events) {
+  for (const event of priorityCandidates(events, options, now)) {
     const id = clean(event?.id, 255);
     if (options.eventId && id !== options.eventId) continue;
     const link = event?.provider_links?.[config.linkKey];
@@ -395,6 +397,10 @@ async function run(options, deps = {}) {
   if (!config) throw new Error(`--provider must be one of: ${Object.keys(PROVIDERS).join(", ")}`);
   const [events, artists] = deps.data || await Promise.all([EVENTS_PATH, ARTISTS_PATH].map(async (file) => JSON.parse(await fs.readFile(file, "utf8"))));
   const now = deps.now || new Date();
+  if (options.priority && !options.priorityIds) {
+    const rows = await (deps.readPriority ? deps.readPriority(options) : readPriorityRows({ database: options.database, remote: options.remote }));
+    options = { ...options, priorityIds: rows.map((row) => clean(row.event_id, 255)) };
+  }
   const selected = selectEligible(events, artists, config, options, now);
   const rows = [];
   const checks = [];
@@ -648,7 +654,7 @@ async function selfTest() {
 
 async function main() {
   const options = parseArgs(process.argv.slice(2));
-  if (options.help) return console.log(`Usage: node scripts/snapshot-impact-marketplace-prices.mjs --provider <${Object.keys(PROVIDERS).join("|")}> [--apply] [--json]`);
+  if (options.help) return console.log(`Usage: node scripts/snapshot-impact-marketplace-prices.mjs --provider <${Object.keys(PROVIDERS).join("|")}> [--apply] [--json] [--within-hours <n>] [--priority]`);
   if (options.selfTest) return console.log(`Impact catalog price snapshot self-test passed (${await selfTest()} checks).`);
   if (!options.provider) throw new Error("--provider is required");
   const summary = await run(options);

@@ -1,0 +1,69 @@
+name: Show priority
+
+# Daily ranking of upcoming shows by expected commission (owner decision
+# 2026-10-11; scripts/report-show-priority.mjs, model in
+# scripts/lib/show-priority.mjs). Stores the list in D1 `show_priority` for the
+# lanes that read it (price snapshots, provider sync) and rewrites the rolling
+# `automation:show-priority` issue (weekly social pack, people).
+#
+# D1 reads are SELECTs; the one D1 write replaces `show_priority`. Every reader
+# is fail-open, so a missed run only means default order. 05:40 UTC, before
+# the 06:00 provider sync.
+
+on:
+  schedule:
+    - cron: '40 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: show-priority
+  cancel-in-progress: true
+
+jobs:
+  rank:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Self-test
+        run: node scripts/report-show-priority.mjs --self-test
+
+      - name: Rank, store and update the issue
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/report-show-priority.mjs --apply --issue --markdown "$RUNNER_TEMP/show-priority.md" --json "$RUNNER_TEMP/show-priority.json"
+
+      - name: Keep the full ranking
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: show-priority
+          path: ${{ runner.temp }}/show-priority.json
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Summarise
+        if: always()
+        run: |
+          if [ -s "$RUNNER_TEMP/show-priority.md" ]; then
+            cat "$RUNNER_TEMP/show-priority.md" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "No ranking was produced; readers fall back to their default order." >> "$GITHUB_STEP_SUMMARY"
+          fi

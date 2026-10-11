@@ -22,6 +22,7 @@ export const STEPS = [
   { id: "test:price-timing",                       lane: "units",  run: "npm run test:price-timing" },
   { id: "blog:self-test",                         lane: "units",  run: "npm run blog:self-test" },
   { id: "blog:check",                             lane: "quick",  run: "npm run blog:check" },
+  { id: "blog:ideas:test",                        lane: "units",  run: "npm run blog:ideas:test" },
   { id: "guides:self-test",                       lane: "units",  run: "npm run guides:self-test" },
   { id: "guides:check",                           lane: "quick",  run: "npm run guides:check" },
   { id: "guides:validate",                        lane: "quick",  run: "npm run guides:validate" },

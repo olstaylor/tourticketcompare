@@ -94,6 +94,8 @@
     "blog:check": "node scripts/build-blog-content.mjs --check",
     "blog:self-test": "node scripts/build-blog-content.mjs --self-test",
     "blog:new": "node scripts/new-blog-post.mjs",
+    "blog:ideas": "node scripts/propose-blog-ideas.mjs",
+    "blog:ideas:test": "node scripts/blog-opportunities.test.mjs",
     "content:cms-contract": "node scripts/cms-content-contract.test.mjs",
     "content:provenance": "node scripts/sync-content-provenance.mjs",
     "content:provenance:check": "node scripts/sync-content-provenance.mjs --check",

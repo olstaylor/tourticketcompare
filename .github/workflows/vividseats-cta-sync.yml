@@ -63,8 +63,10 @@ permissions:
   # dispatching Prelaunch Validation against the pushed branch.
   actions: write
 
+# Shared with seatgeek-cta-sync.yml so the two never race to merge
+# conflicting event-shard PRs (see the note there).
 concurrency:
-  group: vividseats-cta-sync
+  group: resale-cta-sync
   cancel-in-progress: false
 
 jobs:

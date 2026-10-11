@@ -119,6 +119,8 @@
     "report:commercial-funnel:self-test": "node scripts/report-commercial-funnel.mjs --self-test",
     "report:plan-scoreboard": "node scripts/report-plan-scoreboard.mjs",
     "report:plan-scoreboard:self-test": "node scripts/report-plan-scoreboard.mjs --self-test",
+    "report:show-priority": "node scripts/report-show-priority.mjs",
+    "report:show-priority:self-test": "node scripts/report-show-priority.mjs --self-test",
     "report:affiliate-performance": "node scripts/report-affiliate-performance.mjs",
     "report:affiliate-performance:self-test": "node scripts/report-affiliate-performance.mjs --self-test",
     "report:event-routes": "node scripts/report-event-routes.mjs",

@@ -57,6 +57,10 @@ Options:
                           remaining catalogs are logged as not checked
   --rotation-key <n>      Which artist the run starts from (default: UTC day
                           number), so a capped run reaches every artist in turn
+  --priority-artists <slugs>
+                          Comma-separated artists checked before the rotation
+                          (the show-priority list's coverage gaps for this
+                          provider; scripts/report-show-priority.mjs)
   --apply                 Write public/data/events.json
                           (every completed run, dry or applied, rewrites
                           reports/provider-sync/<provider>-event-sync.md)
@@ -66,14 +70,18 @@ Options:
 }
 
 function parseArgs(argv) {
-  const options = { provider: "", artist: "", limit: null, maxApiCalls: null, delayMs: DEFAULT_DELAY_MS, retryDelayMs: RETRY_DELAY_MS, deadline: null, rotationKey: null, apply: false, json: false, selfTest: false };
+  const options = { provider: "", artist: "", limit: null, maxApiCalls: null, delayMs: DEFAULT_DELAY_MS, retryDelayMs: RETRY_DELAY_MS, deadline: null, rotationKey: null, priorityArtists: [], apply: false, json: false, selfTest: false };
   for (let i = 0; i < argv.length; i += 1) {
     const arg = argv[i];
     if (arg === "--apply") options.apply = true;
     else if (arg === "--json") options.json = true;
     else if (arg === "--self-test") options.selfTest = true;
     else if (arg === "-h" || arg === "--help") options.help = true;
-    else if (["--provider", "--artist", "--limit", "--max-api-calls", "--delay-ms", "--max-runtime-minutes", "--rotation-key"].includes(arg)) {
+    else if (arg === "--priority-artists") {
+      // May be empty (no list today); that means the plain rotation.
+      const value = argv[++i] ?? "";
+      options.priorityArtists = value.split(/[\s,]+/).map((slug) => clean(slug, 120).toLowerCase()).filter(Boolean);
+    } else if (["--provider", "--artist", "--limit", "--max-api-calls", "--delay-ms", "--max-runtime-minutes", "--rotation-key"].includes(arg)) {
       const value = argv[++i];
       if (value == null || value.startsWith("--")) throw new Error(`${arg} requires a value`);
       if (arg === "--provider") options.provider = clean(value, 80).toLowerCase();
@@ -435,7 +443,12 @@ async function run(options, deps = {}) {
   const artistQueue = [...byArtist];
   const rotationKey = options.rotationKey ?? Math.floor((deps.now || new Date()).getTime() / 86400000);
   const start = artistQueue.length ? rotationKey % artistQueue.length : 0;
-  const rotated = [...artistQueue.slice(start), ...artistQueue.slice(0, start)];
+  const rotation = [...artistQueue.slice(start), ...artistQueue.slice(0, start)];
+  // Artists whose top-earning shows lack this lane go first, so a capped run
+  // still checks them; everyone else keeps the daily rotation.
+  const priorityRank = new Map((options.priorityArtists || []).map((slug, index) => [slug, index]));
+  const rankOf = ([, artistEvents]) => priorityRank.get(clean(artistEvents[0]?.artist_slug, 120).toLowerCase()) ?? Infinity;
+  const rotated = [...rotation.filter((entry) => rankOf(entry) !== Infinity).sort((a, b) => rankOf(a) - rankOf(b)), ...rotation.filter((entry) => rankOf(entry) === Infinity)];
   for (const [artistName, artistEvents] of rotated) {
     let catalog = deps.fetchCatalog ? await deps.fetchCatalog(config, artistName, options, state) : await fetchCatalog(config, artistName, options, state, deps.env, deps.fetchImpl);
     if (catalog.authFailure) { authFailure = true; authFailureReason = catalog.stopReason || ""; break; }
@@ -762,6 +775,15 @@ async function selfTest() {
   };
   assert.deepEqual(await order(0), ["Stadium Act", "Other Act"]);
   assert.deepEqual(await order(1), ["Other Act", "Stadium Act"]);
+  // Show-priority artists go before the rotation.
+  const prioritised = [];
+  await run({ provider: "ticketnetwork", artist: "", limit: null, maxApiCalls: null, delayMs: 0, rotationKey: 0, priorityArtists: ["other-act"], apply: false, json: false }, {
+    now: new Date("2026-09-27T00:00:00Z"), data: twoArtists,
+    async fetchCatalog(_c, name) { prioritised.push(name); return { candidates: [], complete: true, stopReason: "" }; }
+  });
+  assert.deepEqual(prioritised, ["Other Act", "Stadium Act"]);
+  assert.deepEqual(parseArgs(["--priority-artists", "a, b"]).priorityArtists, ["a", "b"]);
+  assert.deepEqual(parseArgs(["--priority-artists", ""]).priorityArtists, []);
   // Results (and so the log) keep selection order whatever the rotation, so
   // a rotated night with unchanged outcomes renders the same table.
   const resultOrder = async (key) => (await run({ provider: "ticketnetwork", artist: "", limit: null, maxApiCalls: null, delayMs: 0, rotationKey: key, apply: false, json: false }, {
@@ -773,7 +795,7 @@ async function selfTest() {
   // A row logged under an old display name is still the artist's, by id.
   const renamed = renderLog({ ...unlisted, results: [row("old", "Old Stage Name", "no qualifying listing (complete catalog checked)"), row("o1", "Other Act", "-")] });
   assert.deepEqual(mergeOutcomeRows(renamed, [], new Set(["old"])).rows.map((line) => line.slice(2).split(" | ")[0]), ["o1"]);
-  return 86;
+  return 89;
 }
 
 async function main() {

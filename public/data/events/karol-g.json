@@ -2043,6 +2043,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896537",
+        "url": "https://www.ticketliquidator.com/tickets/7896537/Karol-G-tickets-Fri-Nov-13-2026-Estadio-GNP-Seguros-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_kGknv53IF",
@@ -2055,7 +2062,8 @@
         "end": "2026-11-14T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896537"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896537",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896537/Karol-G-tickets-Fri-Nov-13-2026-Estadio-GNP-Seguros-Mexico-City"
   },
   {
     "id": "tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknefxra",
@@ -2111,6 +2119,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7921349",
+        "url": "https://www.ticketliquidator.com/tickets/7921349/Karol-G-tickets-Sat-Nov-14-2026-Estadio-GNP-Seguros-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_kGknefxRa",
@@ -2123,7 +2138,8 @@
         "end": "2026-11-15T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921349"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921349",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921349/Karol-G-tickets-Sat-Nov-14-2026-Estadio-GNP-Seguros-Mexico-City"
   },
   {
     "id": "tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknefwr5",
@@ -2179,6 +2195,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7925374",
+        "url": "https://www.ticketliquidator.com/tickets/7925374/Karol-G-tickets-Sun-Nov-15-2026-Estadio-GNP-Seguros-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_kGknefwR5",
@@ -2191,6 +2214,7 @@
         "end": "2026-11-16T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7925374"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7925374",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7925374/Karol-G-tickets-Sun-Nov-15-2026-Estadio-GNP-Seguros-Mexico-City"
   }
 ]

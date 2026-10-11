@@ -4834,6 +4834,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314986",
+        "url": "https://www.ticketliquidator.com/tickets/8314986/Nickelback-tickets-Sun-Jun-20-2027-Hallenstadion-Zurich",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z1kjt1pCk",
@@ -4872,7 +4879,8 @@
         "end": "2026-10-16T07:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314986"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314986",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314986/Nickelback-tickets-Sun-Jun-20-2027-Hallenstadion-Zurich"
   },
   {
     "id": "tm-nickelback-2027-vienna-z698xz5rz16vz489ev",
@@ -4928,6 +4936,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314989",
+        "url": "https://www.ticketliquidator.com/tickets/8314989/Nickelback-tickets-Fri-Jun-25-2027-Wiener-Stadthalle-Halle-D",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ5rZ16vZ489ev",
@@ -4951,7 +4966,8 @@
         "end": "2026-10-16T07:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314989"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314989",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314989/Nickelback-tickets-Fri-Jun-25-2027-Wiener-Stadthalle-Halle-D"
   },
   {
     "id": "tm-nickelback-2027-praha-9-z698xzu0z1kqvft7s",
@@ -5083,6 +5099,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314993",
+        "url": "https://www.ticketliquidator.com/tickets/8314993/Nickelback-tickets-Wed-Jul-7-2027-Veikkaus-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ8KZ16vqs7sfI",
@@ -5111,7 +5134,8 @@
         "end": "2028-10-16T06:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314993"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314993",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314993/Nickelback-tickets-Wed-Jul-7-2027-Veikkaus-Arena"
   },
   {
     "id": "tm-nickelback-2027-fornebu-z698xzb_z1an7vpy",
@@ -5167,6 +5191,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314994",
+        "url": "https://www.ticketliquidator.com/tickets/8314994/Nickelback-tickets-Fri-Jul-9-2027-Unity-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z1AN7VPY",
@@ -5200,6 +5231,7 @@
         "end": "2026-10-16T07:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314994"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314994",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314994/Nickelback-tickets-Fri-Jul-9-2027-Unity-Arena"
   }
 ]

@@ -1557,12 +1557,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7746921",
+        "url": "https://www.ticketliquidator.com/tickets/7746921/Foy-Vance-tickets-Thu-Nov-12-2026-Hollywood-Theatre-Vancouver",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Af7gv0",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746921"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746921",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746921/Foy-Vance-tickets-Thu-Nov-12-2026-Hollywood-Theatre-Vancouver"
   },
   {
     "id": "tm-foy-vance-2027-nashville-rz7hnez1af79qf",
@@ -1618,12 +1626,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7746922",
+        "url": "https://www.ticketliquidator.com/tickets/7746922/Foy-Vance-tickets-Fri-Apr-9-2027-The-Basement-East-Nashville",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Af79Qf",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746922"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746922",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746922/Foy-Vance-tickets-Fri-Apr-9-2027-The-Basement-East-Nashville"
   },
   {
     "id": "tm-foy-vance-2027-chicago-rz7hnez1af7f-v",
@@ -1679,12 +1695,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7747255",
+        "url": "https://www.ticketliquidator.com/tickets/7747255/Foy-Vance-tickets-Sat-Apr-17-2027-Thalia-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Af7f-V",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7747255"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7747255",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7747255/Foy-Vance-tickets-Sat-Apr-17-2027-Thalia-Hall"
   },
   {
     "id": "tm-foy-vance-2027-washington-rz7hnez1afab_f",
@@ -1740,12 +1764,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7746902",
+        "url": "https://www.ticketliquidator.com/tickets/7746902/Foy-Vance-tickets-Sat-Apr-24-2027-Howard-Theatre-DC",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfAb_f",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746902"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746902",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746902/Foy-Vance-tickets-Sat-Apr-24-2027-Howard-Theatre-DC"
   },
   {
     "id": "tm-foy-vance-2027-new-york-rz7hnez1af7s8v",
@@ -1801,11 +1833,19 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7746908",
+        "url": "https://www.ticketliquidator.com/tickets/7746908/Foy-Vance-tickets-Fri-Apr-30-2027-Sony-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Af7s8V",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746908"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746908",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746908/Foy-Vance-tickets-Fri-Apr-30-2027-Sony-Hall"
   }
 ]

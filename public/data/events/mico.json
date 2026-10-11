@@ -55,18 +55,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7977875",
-        "url": "https://www.ticketliquidator.com/tickets/7977875/Mico-tickets-Sat-Oct-10-2026-The-Showbox",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70U7S",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977875/Mico-tickets-Sat-Oct-10-2026-The-Showbox"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-mico-2026-portland-z7r9jz1a70i8e",
@@ -2688,12 +2688,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315361",
+        "url": "https://www.ticketliquidator.com/tickets/8315361/Mico-tickets-Sat-Mar-13-2027-Globe-Iron",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Afut40",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315361"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315361",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315361/Mico-tickets-Sat-Mar-13-2027-Globe-Iron"
   }
 ]

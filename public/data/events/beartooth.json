@@ -2247,11 +2247,19 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7980224",
+        "url": "https://www.ticketliquidator.com/tickets/7980224/Beartooth-tickets-Wed-Dec-2-2026-The-Refinery-SC",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Af0fGK",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980224"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980224",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980224/Beartooth-tickets-Wed-Dec-2-2026-The-Refinery-SC"
   }
 ]

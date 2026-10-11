@@ -2862,12 +2862,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7800051",
+        "url": "https://www.ticketliquidator.com/tickets/7800051/Hilary-Duff-tickets-Tue-Oct-20-2026-Spark-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_7GkmdMw55",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7800051"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7800051",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7800051/Hilary-Duff-tickets-Tue-Oct-20-2026-Spark-Arena"
   },
   {
     "id": "tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdoa5fw",
@@ -2923,6 +2931,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7744482",
+        "url": "https://www.ticketliquidator.com/tickets/7744482/Hilary-Duff-tickets-Fri-Feb-12-2027-Palacio-De-Los-Deportes-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZko6GkdOa5Fw",
@@ -2935,7 +2950,8 @@
         "end": "2027-02-13T01:30:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7744482"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7744482",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7744482/Hilary-Duff-tickets-Fri-Feb-12-2027-Palacio-De-Los-Deportes-Mexico-City"
   },
   {
     "id": "tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdomhcz",
@@ -2991,12 +3007,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8174253",
+        "url": "https://www.ticketliquidator.com/tickets/8174253/Hilary-Duff-tickets-Sat-Feb-13-2027-Palacio-De-Los-Deportes-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZko6GkdOMhCZ",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8174253"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8174253",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8174253/Hilary-Duff-tickets-Sat-Feb-13-2027-Palacio-De-Los-Deportes-Mexico-City"
   },
   {
     "id": "tm-hilary-duff-2027-zapopan-1av8z_fgknzgqjq",

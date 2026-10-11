@@ -299,13 +299,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054740",
+        "url": "https://www.ticketliquidator.com/tickets/8054740/Hazlett-tickets-Tue-Apr-20-2027-Jefferson-Theater-VA",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GcWFExc",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054740"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054740",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054740/Hazlett-tickets-Tue-Apr-20-2027-Jefferson-Theater-VA"
   },
   {
     "id": "tm-hazlett-2027-washington-rz7hnez1afukvf",
@@ -361,12 +369,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054742",
+        "url": "https://www.ticketliquidator.com/tickets/8054742/Hazlett-tickets-Fri-Apr-23-2027-Howard-Theatre-DC",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfuKvf",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054742"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054742",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054742/Hazlett-tickets-Fri-Apr-23-2027-Howard-Theatre-DC"
   },
   {
     "id": "tm-hazlett-2027-pittsburgh-17aov0g6gw-k9-o",
@@ -422,13 +438,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054860",
+        "url": "https://www.ticketliquidator.com/tickets/8054860/Hazlett-tickets-Sun-Apr-25-2027-Spirit-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G6Gw-K9-o",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054860"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054860",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054860/Hazlett-tickets-Sun-Apr-25-2027-Spirit-Hall"
   },
   {
     "id": "tm-hazlett-2027-new-york-k7vgf_gs3k6br",
@@ -538,13 +562,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054735",
+        "url": "https://www.ticketliquidator.com/tickets/8054735/Hazlett-tickets-Fri-Apr-30-2027-State-Theatre-ME",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GRwZM6S",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054735"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054735",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054735/Hazlett-tickets-Fri-Apr-30-2027-State-Theatre-ME"
   },
   {
     "id": "tm-hazlett-2027-boston-vvg17z_grnbkkr",
@@ -600,13 +632,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054734",
+        "url": "https://www.ticketliquidator.com/tickets/8054734/Hazlett-tickets-Sun-May-2-2027-Paradise-Rock-Club-Presented-by-Citizens",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GRNBKKR",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054734"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054734",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054734/Hazlett-tickets-Sun-May-2-2027-Paradise-Rock-Club-Presented-by-Citizens"
   },
   {
     "id": "tm-hazlett-2027-montreal-17g8v0g62kxoauq",
@@ -662,13 +702,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054865",
+        "url": "https://www.ticketliquidator.com/tickets/8054865/Hazlett-tickets-Tue-May-4-2027-Theatre-Beanfield",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G62kxOAuQ",
     "timezone": "America/Toronto",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054865"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054865",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054865/Hazlett-tickets-Tue-May-4-2027-Theatre-Beanfield"
   },
   {
     "id": "tm-hazlett-2027-east-cleveland-z7r9jz1a7pe8a",
@@ -832,6 +880,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054736",
+        "url": "https://www.ticketliquidator.com/tickets/8054736/Hazlett-tickets-Thu-May-13-2027-House-Of-Blues-Chicago",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_GlqLopK",
@@ -845,7 +900,8 @@
         "end": "2027-04-18T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054736"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054736",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054736/Hazlett-tickets-Thu-May-13-2027-House-Of-Blues-Chicago"
   },
   {
     "id": "tm-hazlett-2027-minneapolis-z7r9jz1a7p0gv",
@@ -901,13 +957,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054867",
+        "url": "https://www.ticketliquidator.com/tickets/8054867/Hazlett-tickets-Fri-May-14-2027-First-Avenue",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P0Gv",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054867"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054867",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054867/Hazlett-tickets-Fri-May-14-2027-First-Avenue"
   },
   {
     "id": "tm-hazlett-2027-kansas-city-vvg1bz_c1yj_ec",
@@ -963,13 +1027,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054738",
+        "url": "https://www.ticketliquidator.com/tickets/8054738/Hazlett-tickets-Mon-May-17-2027-Madrid-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_C1Yj_eC",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054738"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054738",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054738/Hazlett-tickets-Mon-May-17-2027-Madrid-Theatre"
   },
   {
     "id": "tm-hazlett-2027-seattle-vvg1hz_gmgf1et",
@@ -1025,13 +1097,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054741",
+        "url": "https://www.ticketliquidator.com/tickets/8054741/Hazlett-tickets-Tue-May-25-2027-The-Neptune-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_GmgF1eT",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054741"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054741",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054741/Hazlett-tickets-Tue-May-25-2027-The-Neptune-Theatre"
   },
   {
     "id": "tm-hazlett-2027-vancouver-1778v0g6ctjh581",
@@ -1087,13 +1167,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8168722",
+        "url": "https://www.ticketliquidator.com/tickets/8168722/Hazlett-tickets-Wed-May-26-2027-Commodore-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1778v0G6CTjH581",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168722"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8168722",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8168722/Hazlett-tickets-Wed-May-26-2027-Commodore-Ballroom"
   },
   {
     "id": "tm-hazlett-2027-san-francisco-g5vyz_gmceyww",
@@ -1149,6 +1237,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054861",
+        "url": "https://www.ticketliquidator.com/tickets/8054861/Hazlett-tickets-Tue-Jun-1-2027-August-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GmcEYwW",
@@ -1162,7 +1257,8 @@
         "end": "2026-10-14T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054861"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054861",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054861/Hazlett-tickets-Tue-Jun-1-2027-August-Hall"
   },
   {
     "id": "tm-hazlett-2027-los-angeles-z7r9jz1a7p0oi",
@@ -1218,13 +1314,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054869",
+        "url": "https://www.ticketliquidator.com/tickets/8054869/Hazlett-tickets-Wed-Jun-2-2027-El-Rey-Theatre-Los-Angeles",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7P0oI",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054869"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054869",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054869/Hazlett-tickets-Wed-Jun-2-2027-El-Rey-Theatre-Los-Angeles"
   },
   {
     "id": "tm-hazlett-2027-san-diego-rz7hnez1afufr7",
@@ -1333,13 +1437,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054743",
+        "url": "https://www.ticketliquidator.com/tickets/8054743/Hazlett-tickets-Sat-Jun-5-2027-The-Van-Buren",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G6GijmD6S",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054743"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054743",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054743/Hazlett-tickets-Sat-Jun-5-2027-The-Van-Buren"
   },
   {
     "id": "tm-hazlett-2027-dallas-z7r9jz1a7pge_",
@@ -1395,12 +1507,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8054884",
+        "url": "https://www.ticketliquidator.com/tickets/8054884/Hazlett-tickets-Tue-Jun-8-2027-The-Kessler",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Pge_",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054884"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8054884",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8054884/Hazlett-tickets-Tue-Jun-8-2027-The-Kessler"
   }
 ]

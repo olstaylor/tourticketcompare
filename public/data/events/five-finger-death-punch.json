@@ -2220,12 +2220,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090423",
+        "url": "https://www.ticketliquidator.com/tickets/8090423/Five-Finger-Death-Punch-tickets-Fri-Feb-19-2027-Unity-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16eZEG-Gk",
     "timezone": "Europe/Oslo",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090423"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090423",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090423/Five-Finger-Death-Punch-tickets-Fri-Feb-19-2027-Unity-Arena"
   },
   {
     "id": "tm-five-finger-death-punch-2027-helsinki-z698xz8kz16vjke6q8",
@@ -2281,11 +2289,19 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090422",
+        "url": "https://www.ticketliquidator.com/tickets/8090422/Five-Finger-Death-Punch-tickets-Mon-Feb-22-2027-Veikkaus-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ8KZ16vjke6q8",
     "timezone": "Europe/Helsinki",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090422"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090422",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090422/Five-Finger-Death-Punch-tickets-Mon-Feb-22-2027-Veikkaus-Arena"
   }
 ]

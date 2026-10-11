@@ -789,11 +789,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7883100",
-        "url": "https://www.ticketliquidator.com/tickets/7883100/Teddy-Swims-tickets-Sat-Oct-10-2026-Xfinity-Mobile-Arena",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107163013",
@@ -807,7 +807,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883100/Teddy-Swims-tickets-Sat-Oct-10-2026-Xfinity-Mobile-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-philadelphia-tickets-10-10-2026/event/107163013"
   },
   {
@@ -3944,12 +3944,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167502",
+        "url": "https://www.ticketliquidator.com/tickets/8167502/Teddy-Swims-tickets-Tue-Mar-2-2027-Unity-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z1AAkf8y",
     "timezone": "Europe/Oslo",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167502"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167502",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167502/Teddy-Swims-tickets-Tue-Mar-2-2027-Unity-Arena"
   },
   {
     "id": "tm-teddy-swims-2027-praha-9-z698xzu0z1kq9x78k",

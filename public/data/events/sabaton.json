@@ -997,6 +997,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410005",
+        "url": "https://www.ticketliquidator.com/tickets/7410005/Sabaton-tickets-Fri-Nov-6-2026-South-Side-Ballroom-at-Gilleys",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZbwNj2eLC",
@@ -1010,7 +1017,8 @@
         "end": "2026-10-31T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410005"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410005",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410005/Sabaton-tickets-Fri-Nov-6-2026-South-Side-Ballroom-at-Gilleys"
   },
   {
     "id": "tm-sabaton-2026-houston-g5dizbwlrp709",
@@ -1066,6 +1074,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410004",
+        "url": "https://www.ticketliquidator.com/tickets/7410004/Sabaton-tickets-Sat-Nov-7-2026-713-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZbwlrP709",
@@ -1084,7 +1099,8 @@
         "end": "2026-11-01T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410004"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410004",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410004/Sabaton-tickets-Sat-Nov-7-2026-713-Music-Hall"
   },
   {
     "id": "tm-sabaton-2026-san-antonio-z7r9jz1a7jk4v",
@@ -1140,13 +1156,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410006",
+        "url": "https://www.ticketliquidator.com/tickets/7410006/Sabaton-tickets-Sun-Nov-8-2026-Boeing-Center-at-Tech-Port",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jK4V",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410006"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410006",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410006/Sabaton-tickets-Sun-Nov-8-2026-Boeing-Center-at-Tech-Port"
   },
   {
     "id": "tm-sabaton-2026-phoenix-1av0zbwgkrn_kuq",
@@ -1202,6 +1226,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410007",
+        "url": "https://www.ticketliquidator.com/tickets/7410007/Sabaton-tickets-Wed-Nov-11-2026-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0ZbwGkRN_KUQ",
@@ -1215,7 +1246,8 @@
         "end": "2026-11-07T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410007"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410007",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410007/Sabaton-tickets-Wed-Nov-11-2026-Arizona-Financial-Theatre"
   },
   {
     "id": "tm-sabaton-2026-wheatland-g5vyzbwpukkfz",
@@ -1271,6 +1303,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410009",
+        "url": "https://www.ticketliquidator.com/tickets/7410009/Sabaton-tickets-Sat-Nov-14-2026-Hard-Rock-Live-Sacramento",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbwpUkkFZ",
@@ -1284,7 +1323,8 @@
         "end": "2026-11-08T06:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410009"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410009",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410009/Sabaton-tickets-Sat-Nov-14-2026-Hard-Rock-Live-Sacramento"
   },
   {
     "id": "tm-sabaton-2026-salt-lake-city-g5vzzbwnvavqo",
@@ -1340,6 +1380,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410010",
+        "url": "https://www.ticketliquidator.com/tickets/7410010/Sabaton-tickets-Tue-Nov-17-2026-The-Union-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZbwNvAvqO",
@@ -1353,7 +1400,8 @@
         "end": "2026-11-11T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410010"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410010",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410010/Sabaton-tickets-Tue-Nov-17-2026-The-Union-Event-Center"
   },
   {
     "id": "tm-sabaton-2026-omaha-1aozkgigkedlvji",
@@ -1409,6 +1457,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410012",
+        "url": "https://www.ticketliquidator.com/tickets/7410012/Sabaton-tickets-Fri-Nov-20-2026-Steelhouse-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkGIGkeDlvJI",
@@ -1427,7 +1482,8 @@
         "end": "2026-11-14T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410012"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410012",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410012/Sabaton-tickets-Fri-Nov-20-2026-Steelhouse-Omaha"
   },
   {
     "id": "tm-sabaton-2026-milwaukee-vv17jzbvgkusja2a",
@@ -1483,6 +1539,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7492835",
+        "url": "https://www.ticketliquidator.com/tickets/7492835/Sabaton-tickets-Sat-Nov-21-2026-Landmark-Credit-Union-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZbVGkUSjA2A",
@@ -1506,7 +1569,8 @@
         "end": "2026-11-21T09:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7492835"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7492835",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7492835/Sabaton-tickets-Sat-Nov-21-2026-Landmark-Credit-Union-Live"
   },
   {
     "id": "tm-sabaton-2026-minneapolis-vv1akzkgtgkd2vkhk",
@@ -1562,6 +1626,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410015",
+        "url": "https://www.ticketliquidator.com/tickets/7410015/Sabaton-tickets-Sun-Nov-22-2026-The-Armory-Minneapolis",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkGtGkd2VKHk",
@@ -1585,7 +1656,8 @@
         "end": "2026-11-16T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410015"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410015",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410015/Sabaton-tickets-Sun-Nov-22-2026-The-Armory-Minneapolis"
   },
   {
     "id": "tm-sabaton-2026-chicago-vv178zbwgkltpkse",
@@ -1712,6 +1784,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410014",
+        "url": "https://www.ticketliquidator.com/tickets/7410014/Sabaton-tickets-Wed-Nov-25-2026-Vibrant-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A-ZkGtGkdjdYYW",
@@ -1730,7 +1809,8 @@
         "end": "2026-11-19T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410014"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410014",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410014/Sabaton-tickets-Wed-Nov-25-2026-Vibrant-Music-Hall"
   },
   {
     "id": "tm-sabaton-2026-saint-louis-1ae7zbwgkmsi8la",
@@ -1918,6 +1998,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410018",
+        "url": "https://www.ticketliquidator.com/tickets/7410018/Sabaton-tickets-Sun-Nov-29-2026-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkGPGkdnrJUw",
@@ -1931,7 +2018,8 @@
         "end": "2026-11-23T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410018"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410018",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410018/Sabaton-tickets-Sun-Nov-29-2026-The-Fillmore-Detroit"
   },
   {
     "id": "tm-sabaton-2026-boston-vv1a8vnaygac9fy1",
@@ -1987,13 +2075,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410021",
+        "url": "https://www.ticketliquidator.com/tickets/7410021/Sabaton-tickets-Tue-Dec-1-2026-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vNaYGAC9FY1",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410021"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410021",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410021/Sabaton-tickets-Tue-Dec-1-2026-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-sabaton-2026-philadelphia-vv17fzbwgklacdxp",
@@ -2049,6 +2145,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410020",
+        "url": "https://www.ticketliquidator.com/tickets/7410020/Sabaton-tickets-Wed-Dec-2-2026-The-Met-Presented-by-Highmark",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZbwGklAcdxp",
@@ -2062,7 +2165,8 @@
         "end": "2026-11-26T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410020"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410020",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410020/Sabaton-tickets-Wed-Dec-2-2026-The-Met-Presented-by-Highmark"
   },
   {
     "id": "tm-sabaton-2026-virginia-beach-vv177zbwgklinzle",
@@ -2118,6 +2222,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410022",
+        "url": "https://www.ticketliquidator.com/tickets/7410022/Sabaton-tickets-Sat-Dec-5-2026-The-Dome-by-Rutter-Mills",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177ZbwGklINzLe",
@@ -2131,7 +2242,8 @@
         "end": "2026-11-29T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410022"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410022",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410022/Sabaton-tickets-Sat-Dec-5-2026-The-Dome-by-Rutter-Mills"
   },
   {
     "id": "tm-sabaton-2026-national-harbor-1a4zkgtgkdyjn0o",
@@ -2187,6 +2299,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410023",
+        "url": "https://www.ticketliquidator.com/tickets/7410023/Sabaton-tickets-Sun-Dec-6-2026-The-Theater-at-MGM-National-Harbor",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4ZkGtGkdyjN0O",
@@ -2205,7 +2324,8 @@
         "end": "2026-11-09T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410023"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410023",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410023/Sabaton-tickets-Sun-Dec-6-2026-The-Theater-at-MGM-National-Harbor"
   },
   {
     "id": "tm-sabaton-2026-atlanta-vvg1zzbwjnkk6z",
@@ -2261,6 +2381,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7410025",
+        "url": "https://www.ticketliquidator.com/tickets/7410025/Sabaton-tickets-Tue-Dec-8-2026-Coca-Cola-Roxy",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZbwJNKK6z",
@@ -2284,7 +2411,8 @@
         "end": "2026-12-02T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410025"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410025",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410025/Sabaton-tickets-Tue-Dec-8-2026-Coca-Cola-Roxy"
   },
   {
     "id": "tm-sabaton-2027-praha-9-z698xzu0z1kggp0g_",

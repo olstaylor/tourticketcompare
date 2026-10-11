@@ -1665,6 +1665,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056759",
+        "url": "https://www.ticketliquidator.com/tickets/8056759/Polyphia-tickets-Tue-Feb-9-2027-Hollywood-Palladium",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GlgJ36A",
@@ -1678,7 +1685,8 @@
         "end": "2027-02-03T06:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056759"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056759",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056759/Polyphia-tickets-Tue-Feb-9-2027-Hollywood-Palladium"
   },
   {
     "id": "tm-polyphia-2027-anaheim-vvg10z_gea9xhx",
@@ -1734,6 +1742,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056760",
+        "url": "https://www.ticketliquidator.com/tickets/8056760/Polyphia-tickets-Thu-Feb-11-2027-House-Of-Blues-Anaheim",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_GEa9xhx",
@@ -1752,7 +1767,8 @@
         "end": "2027-02-05T06:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056760"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056760",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056760/Polyphia-tickets-Thu-Feb-11-2027-House-Of-Blues-Anaheim"
   },
   {
     "id": "tm-polyphia-2027-san-francisco-g5vyz_gra3gjr",
@@ -1808,6 +1824,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056761",
+        "url": "https://www.ticketliquidator.com/tickets/8056761/Polyphia-tickets-Sun-Feb-14-2027-The-Masonic-San-Francisco",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_GRA3gjR",
@@ -1821,7 +1844,8 @@
         "end": "2027-02-08T06:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056761"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056761",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056761/Polyphia-tickets-Sun-Feb-14-2027-The-Masonic-San-Francisco"
   },
   {
     "id": "tm-polyphia-2027-milwaukee-vvg1jz_gjngwwq",
@@ -1877,6 +1901,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056853",
+        "url": "https://www.ticketliquidator.com/tickets/8056853/Polyphia-tickets-Wed-Feb-24-2027-Landmark-Credit-Union-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1jZ_GJNGwWq",
@@ -1895,7 +1926,8 @@
         "end": "2027-02-18T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056853"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056853",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056853/Polyphia-tickets-Wed-Feb-24-2027-Landmark-Credit-Union-Live"
   },
   {
     "id": "tm-polyphia-2027-chicago-vvg18z_gjsjbx-",
@@ -1951,6 +1983,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056758",
+        "url": "https://www.ticketliquidator.com/tickets/8056758/Polyphia-tickets-Thu-Feb-25-2027-Byline-Bank-Aragon-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_GJSJBX-",
@@ -1969,7 +2008,8 @@
         "end": "2027-02-19T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056758"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056758",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056758/Polyphia-tickets-Thu-Feb-25-2027-Byline-Bank-Aragon-Ballroom"
   },
   {
     "id": "tm-polyphia-2027-detroit-vvg1oz_ge56_sr",
@@ -2025,6 +2065,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056762",
+        "url": "https://www.ticketliquidator.com/tickets/8056762/Polyphia-tickets-Sat-Feb-27-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_GE56_SR",
@@ -2043,7 +2090,8 @@
         "end": "2027-02-21T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056762"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056762",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056762/Polyphia-tickets-Sat-Feb-27-2027-The-Fillmore-Detroit"
   },
   {
     "id": "tm-polyphia-2027-toronto-177zv0g6gmyx7u7",
@@ -2231,6 +2279,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056765",
+        "url": "https://www.ticketliquidator.com/tickets/8056765/Polyphia-tickets-Fri-Mar-5-2027-The-Fillmore-Philadelphia",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_Gn-cuhm",
@@ -2249,7 +2304,8 @@
         "end": "2027-02-27T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056765"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056765",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056765/Polyphia-tickets-Fri-Mar-5-2027-The-Fillmore-Philadelphia"
   },
   {
     "id": "tm-polyphia-2027-brooklyn-k7vgf_gsymxmt",
@@ -2305,6 +2361,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056771",
+        "url": "https://www.ticketliquidator.com/tickets/8056771/Polyphia-tickets-Sat-Mar-6-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_GSYMXmT",
@@ -2318,7 +2381,8 @@
         "end": "2027-02-28T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056771"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056771",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056771/Polyphia-tickets-Sat-Mar-6-2027-Brooklyn-Paramount"
   },
   {
     "id": "tm-polyphia-2027-boston-vvg17z_ge-9vq3",
@@ -2374,6 +2438,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056768",
+        "url": "https://www.ticketliquidator.com/tickets/8056768/Polyphia-tickets-Sun-Mar-7-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_GE-9Vq3",
@@ -2387,7 +2458,8 @@
         "end": "2027-03-01T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056768"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056768",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056768/Polyphia-tickets-Sun-Mar-7-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-polyphia-2027-washington-17a8v0g6gmr0lc4",
@@ -2443,6 +2515,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056764",
+        "url": "https://www.ticketliquidator.com/tickets/8056764/Polyphia-tickets-Tue-Mar-9-2027-Echostage",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6GmR0lC4",
@@ -2456,7 +2535,8 @@
         "end": "2027-03-03T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056764"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056764",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056764/Polyphia-tickets-Tue-Mar-9-2027-Echostage"
   },
   {
     "id": "tm-polyphia-2027-orlando-17fov0g6gemc12a",
@@ -2512,6 +2592,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056820",
+        "url": "https://www.ticketliquidator.com/tickets/8056820/Polyphia-tickets-Sat-Mar-13-2027-Hard-Rock-Live-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FOv0G6GEMc12a",
@@ -2530,7 +2617,8 @@
         "end": "2027-03-07T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056820"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056820",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056820/Polyphia-tickets-Sat-Mar-13-2027-Hard-Rock-Live-Orlando"
   },
   {
     "id": "tm-polyphia-2027-atlanta-vvg1zz_gwmeyrd",
@@ -2586,6 +2674,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056821",
+        "url": "https://www.ticketliquidator.com/tickets/8056821/Polyphia-tickets-Tue-Mar-16-2027-Coca-Cola-Roxy",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_GwMEYrD",
@@ -2599,7 +2694,8 @@
         "end": "2027-03-10T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056821"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056821",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056821/Polyphia-tickets-Tue-Mar-16-2027-Coca-Cola-Roxy"
   },
   {
     "id": "tm-polyphia-2027-nashville-g5viz_gnfsyiq",
@@ -2655,6 +2751,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056822",
+        "url": "https://www.ticketliquidator.com/tickets/8056822/Polyphia-tickets-Thu-Mar-18-2027-The-Truth",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_GnfSyiq",
@@ -2668,7 +2771,8 @@
         "end": "2027-03-12T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056822"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056822",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056822/Polyphia-tickets-Thu-Mar-18-2027-The-Truth"
   },
   {
     "id": "tm-polyphia-2027-dallas-vvg1yz_glmqcu0",
@@ -2724,6 +2828,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056763",
+        "url": "https://www.ticketliquidator.com/tickets/8056763/Polyphia-tickets-Sat-Mar-20-2027-South-Side-Ballroom-at-Gilleys",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_GlmqcU0",
@@ -2747,6 +2858,7 @@
         "end": "2027-03-14T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056763"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056763",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056763/Polyphia-tickets-Sat-Mar-20-2027-South-Side-Ballroom-at-Gilleys"
   }
 ]

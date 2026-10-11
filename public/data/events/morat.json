@@ -1298,12 +1298,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8278052",
+        "url": "https://www.ticketliquidator.com/tickets/8278052/Morat-tickets-Fri-Nov-13-2026-Palacio-De-Los-Deportes-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk3eGkeDtEUW",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8278052"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8278052",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8278052/Morat-tickets-Fri-Nov-13-2026-Palacio-De-Los-Deportes-Mexico-City"
   },
   {
     "id": "tm-morat-2026-ciudad-de-mexico-1afzk3egkedteut",

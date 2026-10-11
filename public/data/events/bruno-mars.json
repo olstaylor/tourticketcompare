@@ -3240,11 +3240,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7668645",
-        "url": "https://www.ticketliquidator.com/tickets/7668645/Bruno-Mars-tickets-Sat-Oct-10-2026-Levis-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107071101",
@@ -3259,7 +3259,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5vYZ_epX9yGn",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7668645/Bruno-Mars-tickets-Sat-Oct-10-2026-Levis-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-santa-clara-tickets-10-10-2026/event/107071101"
   },
   {
@@ -4518,12 +4518,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7798132",
+        "url": "https://www.ticketliquidator.com/tickets/7798132/Bruno-Mars-tickets-Thu-Dec-3-2026-Estadio-GNP-Seguros-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkoKGkeSyi9M",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798132"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798132",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798132/Bruno-Mars-tickets-Thu-Dec-3-2026-Estadio-GNP-Seguros-Mexico-City"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfcxu",
@@ -4579,12 +4587,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7798133",
+        "url": "https://www.ticketliquidator.com/tickets/7798133/Bruno-Mars-tickets-Fri-Dec-4-2026-Estadio-GNP-Seguros-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkoKGkeHFcxU",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798133"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798133",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798133/Bruno-Mars-tickets-Fri-Dec-4-2026-Estadio-GNP-Seguros-Mexico-City"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxy",
@@ -4640,12 +4656,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7798135",
+        "url": "https://www.ticketliquidator.com/tickets/7798135/Bruno-Mars-tickets-Mon-Dec-7-2026-Estadio-GNP-Seguros-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkoKGkeHFWxy",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798135"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798135",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798135/Bruno-Mars-tickets-Mon-Dec-7-2026-Estadio-GNP-Seguros-Mexico-City"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxd",
@@ -4701,12 +4725,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7798136",
+        "url": "https://www.ticketliquidator.com/tickets/7798136/Bruno-Mars-tickets-Tue-Dec-8-2026-Estadio-GNP-Seguros-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkoKGkeHFWxD",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798136"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7798136",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7798136/Bruno-Mars-tickets-Tue-Dec-8-2026-Estadio-GNP-Seguros-Mexico-City"
   },
   {
     "id": "tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehaqnd",
@@ -4762,12 +4794,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271253",
+        "url": "https://www.ticketliquidator.com/tickets/8271253/Bruno-Mars-tickets-Fri-Dec-11-2026-Estadio-GNP-Seguros-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkoKGkeHaqNd",
     "timezone": "America/Mexico_City",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271253"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271253",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271253/Bruno-Mars-tickets-Fri-Dec-11-2026-Estadio-GNP-Seguros-Mexico-City"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1a0zkfkgkeslw-y",
@@ -4816,11 +4856,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8244830",
+        "url": "https://www.ticketliquidator.com/tickets/8244830/Bruno-Mars-tickets-Sat-Mar-13-2027-Eden-Park-New-Zealand",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A0ZkfKGkeslw-y",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244830/Bruno-Mars-tickets-Sat-Mar-13-2027-Eden-Park-New-Zealand"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1ae8z_ogkiuunsj",
@@ -4869,11 +4917,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8244848",
+        "url": "https://www.ticketliquidator.com/tickets/8244848/Bruno-Mars-tickets-Sun-Mar-14-2027-Eden-Park-New-Zealand",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_oGkiuuNSJ",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244848/Bruno-Mars-tickets-Sun-Mar-14-2027-Eden-Park-New-Zealand"
   },
   {
     "id": "tm-bruno-mars-2027-auckland-1ae8z_ogksqr0wn",

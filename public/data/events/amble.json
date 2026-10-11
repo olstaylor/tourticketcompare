@@ -2416,12 +2416,20 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056126",
+        "url": "https://www.ticketliquidator.com/tickets/8056126/Amble-tickets-Thu-Oct-22-2026-The-Crescent-Ballroom-Phoenix",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Afk4vf",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056126"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056126",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056126/Amble-tickets-Thu-Oct-22-2026-The-Crescent-Ballroom-Phoenix"
   },
   {
     "id": "tm-amble-2027-vienna-z698xz5rz1kburk7p",

@@ -2036,6 +2036,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896537",
+        "url": "https://www.ticketnetwork.com/en/p/7896537",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_kGknv53IF",
@@ -2047,7 +2054,8 @@
         "start": "2026-04-30T20:00:00Z",
         "end": "2026-11-14T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896537"
   },
   {
     "id": "tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknefxra",
@@ -2096,6 +2104,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7921349",
+        "url": "https://www.ticketnetwork.com/en/p/7921349",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_kGknefxRa",
@@ -2107,7 +2122,8 @@
         "start": "2026-04-30T20:00:00Z",
         "end": "2026-11-15T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921349"
   },
   {
     "id": "tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknefwr5",
@@ -2156,6 +2172,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7925374",
+        "url": "https://www.ticketnetwork.com/en/p/7925374",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_kGknefwR5",
@@ -2167,6 +2190,7 @@
         "start": "2026-04-30T20:00:00Z",
         "end": "2026-11-16T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7925374"
   }
 ]

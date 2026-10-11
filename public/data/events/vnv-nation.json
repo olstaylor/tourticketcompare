@@ -504,11 +504,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8095650",
+        "url": "https://www.ticketnetwork.com/en/p/8095650",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfFNZ0",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8095650"
   },
   {
     "id": "tm-vnv-nation-2027-ft-lauderdale-vvg1vzbvdf3u-x",
@@ -665,12 +673,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7610204",
+        "url": "https://www.ticketnetwork.com/en/p/7610204",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZbVnUskE3",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7610204"
   },
   {
     "id": "tm-vnv-nation-2027-los-angeles-vv170zbvgklj1kgc",
@@ -773,6 +789,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7493673",
+        "url": "https://www.ticketnetwork.com/en/p/7493673",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbVDFHBDS",
@@ -785,7 +808,8 @@
         "start": "2026-06-30T14:00:00Z",
         "end": "2027-02-28T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7493673"
   },
   {
     "id": "tm-vnv-nation-2027-seattle-vvg1hzbvl3-6jq",
@@ -834,12 +858,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7496081",
+        "url": "https://www.ticketnetwork.com/en/p/7496081",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZbVl3-6JQ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7496081"
   },
   {
     "id": "tm-vnv-nation-2027-omaha-z7r9jz1a7q0ef",
@@ -888,12 +920,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7584375",
+        "url": "https://www.ticketnetwork.com/en/p/7584375",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7q0ef",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7584375"
   },
   {
     "id": "tm-vnv-nation-2027-detroit-vv1afzkuagkexq-mx",
@@ -1003,12 +1043,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7493671",
+        "url": "https://www.ticketnetwork.com/en/p/7493671",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kfZbV0wG7mFD6",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7493671"
   },
   {
     "id": "tm-vnv-nation-2027-toronto-1avzzbvgkvjgkmw",
@@ -1111,12 +1159,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7498713",
+        "url": "https://www.ticketnetwork.com/en/p/7498713",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7ZbVGklrKbrt",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7498713"
   },
   {
     "id": "tm-vnv-nation-2027-boston-vv177zbvgkmc0qfx",
@@ -1165,12 +1221,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7503826",
+        "url": "https://www.ticketnetwork.com/en/p/7503826",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177ZbVGkMc0qfX",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7503826"
   },
   {
     "id": "tm-vnv-nation-2027-brooklyn-k7vgfbvbkdnzs",
@@ -1219,12 +1283,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7495786",
+        "url": "https://www.ticketnetwork.com/en/p/7495786",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGFbVBKdNzS",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7495786"
   },
   {
     "id": "tm-vnv-nation-2027-baltimore-1avfzbvgklmrqky",
@@ -1273,12 +1345,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7665363",
+        "url": "https://www.ticketnetwork.com/en/p/7665363",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZbVGklmrQKY",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketmaster_status_code": "rescheduled"
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7665363"
   },
   {
     "id": "tm-vnv-nation-2027-millvale-rz7hnez1afbaps",

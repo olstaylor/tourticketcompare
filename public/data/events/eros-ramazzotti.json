@@ -364,7 +364,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A74UO8",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A74UO8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/eros-ramazzotti-tickets/sugar-land-texas-smart-financial-centre-2027-10-13-8-pm/concert/17491601",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A74UO8",
@@ -380,11 +380,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17491601,
+        "url": "https://seatgeek.com/eros-ramazzotti-tickets/sugar-land-texas-smart-financial-centre-2027-10-13-8-pm/concert/17491601",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

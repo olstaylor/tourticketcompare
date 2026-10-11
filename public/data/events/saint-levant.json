@@ -1542,6 +1542,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107478085",
+        "url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-30-2027/event/107478085",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_CL-WdB8",
@@ -1556,7 +1563,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8144602",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8144602/Saint-Levant-tickets-Tue-Mar-30-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8144602/Saint-Levant-tickets-Tue-Mar-30-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-30-2027/event/107478085"
   },
   {
     "id": "tm-saint-levant-2027-brooklyn-k7vgf_cl-wsb-",
@@ -1619,6 +1627,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107478087",
+        "url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-31-2027/event/107478087",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_CL-WSB-",
@@ -1633,7 +1648,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8144603",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8144603/Saint-Levant-tickets-Wed-Mar-31-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8144603/Saint-Levant-tickets-Wed-Mar-31-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-31-2027/event/107478087"
   },
   {
     "id": "tm-saint-levant-2027-detroit-vvg1oz_cxteu1p",

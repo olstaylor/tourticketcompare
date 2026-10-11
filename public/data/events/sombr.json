@@ -493,11 +493,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107155468",
-        "url": "https://www.stubhub.ie/sombr-inglewood-tickets-10-10-2026/event/107155468",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -511,7 +511,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-inglewood-tickets-10-10-2026/event/107155468",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -3783,11 +3783,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107158149",
+        "url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-29-1-2027/event/107158149",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_AGkn6tNdI",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-29-1-2027/event/107158149"
   },
   {
     "id": "tm-sombr-2027-mexico-1av8z_agknaoeux",
@@ -3836,6 +3844,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107449736",
+        "url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-30-1-2027/event/107449736",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_AGknAOeUx",
@@ -3847,7 +3862,8 @@
         "start": "2026-07-21T17:00:00Z",
         "end": "2027-01-31T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-30-1-2027/event/107449736"
   },
   {
     "id": "tm-sombr-2027-auckland-1ae8z_ogkmlufo4",
@@ -4048,13 +4064,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666323",
+        "url": "https://www.stubhub.ie/sombr-tickets-helsinki-veikkaus-arena-11-5-2027/event/107666323",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ8KZ1kuwPvu6",
     "timezone": "Europe/Helsinki",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245507",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245507/sombr-tickets-Tue-May-11-2027-Veikkaus-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245507/sombr-tickets-Tue-May-11-2027-Veikkaus-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-helsinki-veikkaus-arena-11-5-2027/event/107666323"
   },
   {
     "id": "tm-sombr-2027-praha-9-z698xzu0z16v-zgmz9",
@@ -4170,13 +4194,21 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666419",
+        "url": "https://www.stubhub.ie/sombr-tickets-zurich-hallenstadion-zurich-27-5-2027/event/107666419",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z16vqgjK0e",
     "timezone": "Europe/Zurich",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245518",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245518/sombr-tickets-Thu-May-27-2027-Hallenstadion-Zurich"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245518/sombr-tickets-Thu-May-27-2027-Hallenstadion-Zurich",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-zurich-hallenstadion-zurich-27-5-2027/event/107666419"
   },
   {
     "id": "tm-sombr-2027-vienna-z698xz5rz16vfevjbe",

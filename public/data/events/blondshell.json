@@ -1536,6 +1536,13 @@
         "verified": true,
         "last_verified_at": "2026-10-11",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672785",
+        "url": "https://www.stubhub.ie/blondshell-brooklyn-tickets-3-22-2027/event/107672785",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70gjw",
@@ -1543,6 +1550,7 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976582",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976582/Blondshell-tickets-Mon-Mar-22-2027-Brooklyn-Steel"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976582/Blondshell-tickets-Mon-Mar-22-2027-Brooklyn-Steel",
+    "stubhub_international_url": "https://www.stubhub.ie/blondshell-brooklyn-tickets-3-22-2027/event/107672785"
   }
 ]

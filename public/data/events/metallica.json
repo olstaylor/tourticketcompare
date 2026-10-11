@@ -1928,11 +1928,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107132079",
-        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-10-2026/event/107132079",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_AGknswc9W",
@@ -1940,7 +1940,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-10-2026/event/107132079"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfq4n",

@@ -92,7 +92,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-allentown-ppl-center-3-2-2027--concerts-rock/production/7671846",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-allentown-pennsylvania-03-02-2027/event/30006545F09F9260",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -144,7 +144,69 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312060",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312060/Def-Leppard-tickets-Tue-Mar-2-2027-PPL-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312060/Def-Leppard-tickets-Tue-Mar-2-2027-PPL-Center",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Aisle Seat Presale Offer",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-03T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-24T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-02T15:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-montreal-1aszk4agkdf99bi",
@@ -162,7 +224,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-montreal-bell-centre-3-5-2027--concerts-rock/production/7671848",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-montreal-quebec-03-05-2027/event/31006545D45D7EA8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -214,7 +276,54 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312100",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312100/Def-Leppard-tickets-Fri-Mar-5-2027-Centre-Bell"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312100/Def-Leppard-tickets-Fri-Mar-5-2027-Centre-Bell",
+    "presales": [
+      {
+        "name": "Def Leppard - Offre Bord d'Allé",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-13T13:45:00Z"
+      },
+      {
+        "name": "Prévente Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Prévente VIP Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Offre Bord d'Allée",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Prévente FOTL American Express Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "En Vente VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-27T03:00:00Z"
+      },
+      {
+        "name": "Offre Bord d'Allée - Aisle Seat Offer",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-06T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-detroit-vv1afzk4egkelpgxa",
@@ -232,7 +341,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-detroit-little-caesars-arena-3-7-2027--concerts-rock/production/7671850",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-detroit-michigan-03-07-2027/event/08006542AB5B5889",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -284,7 +393,74 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312061",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312061/Def-Leppard-tickets-Sun-Mar-7-2027-Little-Caesars-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312061/Def-Leppard-tickets-Sun-Mar-7-2027-Little-Caesars-Arena",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Aisle Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-13T13:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Aisle Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-13T13:45:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-08T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-08T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-toronto-1a8zk4egkdrqf1w",
@@ -302,7 +478,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-toronto-ontario-03-09-2027/event/10006542DE7542BD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -338,7 +514,54 @@
     "ticketmaster_discovery_event_id": "1A8Zk4eGkdrqf1W",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T14:00:00Z"
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Preferred Seating Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-13T13:45:00Z"
+      },
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Live INSIDER Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-03T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-quebec-1aszk4agkesu4rw",
@@ -356,7 +579,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-quebec-quebec-03-11-2027/event/31006545B1D957B2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -408,7 +631,59 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312104",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312104/Def-Leppard-tickets-Thu-Mar-11-2027-Centre-Videotron"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312104/Def-Leppard-tickets-Thu-Mar-11-2027-Centre-Videotron",
+    "presales": [
+      {
+        "name": "Prévente Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Prévente Offre Bord d'Allée",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Prévente VIP Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "PRÉVENTE ARTISTE",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Prévente FOTL American Express Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Prévente Première Place",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Préventes locales",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Forfaits VIP En Vente",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-05T03:00:00Z"
+      },
+      {
+        "name": "Offre Bord d'Allée - Preferred Seating",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-12T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-newark-vv1aezk4kgkdvinob",
@@ -426,7 +701,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-newark-prudential-center-3-13-2027--concerts-rock/production/7671860",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-newark-new-jersey-03-13-2027/event/02006546C1A2A458",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -486,7 +761,64 @@
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312062",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312062/Def-Leppard-tickets-Sat-Mar-13-2027-Prudential-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-newark-tickets-3-13-2027/event/107672812"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-newark-tickets-3-13-2027/event/107672812",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-07T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-14T00:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-14T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-boston-vv1a8vp88ga16tl3",
@@ -504,7 +836,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-boston-td-garden-3-17-2027--concerts-rock/production/7671862",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-boston-massachusetts-03-17-2027/event/010065410A1FFAD2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -564,7 +896,64 @@
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312063",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312063/Def-Leppard-tickets-Wed-Mar-17-2027-TD-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-boston-tickets-3-17-2027/event/107672813"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-boston-tickets-3-17-2027/event/107672813",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Local Presales",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-18T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-11T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-18T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-nashville-g5viz_f9p6_vj",
@@ -582,7 +971,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-nashville-bridgestone-arena-3-19-2027--concerts-rock/production/7671878",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-nashville-tennessee-03-19-2027/event/1B006545E51D9D1C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -634,7 +1023,64 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312064",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312064/Def-Leppard-tickets-Fri-Mar-19-2027-Bridgestone-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312064/Def-Leppard-tickets-Fri-Mar-19-2027-Bridgestone-Arena",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-02-20T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-02-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-13T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-washington-17a8v0g62pvh_yy",
@@ -652,7 +1098,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-washington-capital-one-arena-3-21-2027--concerts-rock/production/7671886",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-washington-district-of-columbia-03-21-2027/event/150064F5B46D9E79",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -712,7 +1158,74 @@
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312065",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312065/Def-Leppard-tickets-Sun-Mar-21-2027-Capital-One-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-washington-tickets-3-21-2027/event/107672814"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-washington-tickets-3-21-2027/event/107672814",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Preferred Seating Offer (Presale)",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Local/Venue/Radio Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages (Onsale Period)",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-15T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-22T00:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-22T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-pittsburgh-1apzk4egkdr8ult",
@@ -730,7 +1243,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-pittsburgh-ppg-paints-arena-3-23-2027--concerts-rock/production/7671922",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-pittsburgh-pennsylvania-03-23-2027/event/16006542DE40DAE9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -782,7 +1295,69 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312066",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312066/Def-Leppard-tickets-Tue-Mar-23-2027-PPG-Paints-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312066/Def-Leppard-tickets-Tue-Mar-23-2027-PPG-Paints-Arena",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Preferred Seating",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-24T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-24T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-16T14:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-chicago-vv1k8z_fgkg7dl8f",
@@ -800,7 +1375,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-chicago-united-center-3-25-2027--concerts-rock/production/7671870",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-chicago-illinois-03-25-2027/event/0400654313EDF414",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -860,7 +1435,69 @@
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312067",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312067/Def-Leppard-tickets-Thu-Mar-25-2027-United-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-chicago-tickets-3-25-2027/event/107672815"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-chicago-tickets-3-25-2027/event/107672815",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "Aisle Seat Offer",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-02-26T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-12T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-19T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-denver-g5vzz_frfov07",
@@ -878,7 +1515,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-denver-ball-arena-3-29-2027--concerts-rock/production/7671926",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-denver-colorado-03-29-2027/event/1E00654788474904",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -930,7 +1567,64 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T16:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312069",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312069/Def-Leppard-tickets-Mon-Mar-29-2027-Ball-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312069/Def-Leppard-tickets-Mon-Mar-29-2027-Ball-Arena",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presales",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T20:00:00Z",
+        "end": "2026-10-15T04:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Local/Venue/Radio Presale",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T16:00:00Z",
+        "end": "2027-03-02T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T16:00:00Z",
+        "end": "2027-03-02T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T16:00:00Z",
+        "end": "2027-03-22T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-austin-g5diz_f1_s12h",
@@ -948,7 +1642,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-austin-moody-center-atx-4-13-2027--concerts-rock/production/7671942",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-austin-texas-04-13-2027/event/3A00654299C4A3DB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1008,7 +1702,74 @@
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312071",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312071/Def-Leppard-tickets-Tue-Apr-13-2027-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-austin-tickets-4-13-2027/event/107672238"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-austin-tickets-4-13-2027/event/107672238",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "Aisle Seat Offer Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Venue Partner Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-17T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-17T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-04-07T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-north-little-rock-g5viz_f5gacpb",
@@ -1026,7 +1787,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-north-little-rock-simmons-bank-arena-4-16-2027--concerts-rock/production/7671948",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-north-little-rock-arkansas-04-16-2027/event/1B006542CC24E598",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1078,7 +1839,64 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312072",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312072/Def-Leppard-tickets-Fri-Apr-16-2027-Simmons-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312072/Def-Leppard-tickets-Fri-Apr-16-2027-Simmons-Bank-Arena",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-04-10T03:00:00Z"
+      },
+      {
+        "name": "Preferred Seating Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-04-17T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-fort-worth-vvg1yz_fhfmaat",
@@ -1096,7 +1914,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-fort-worth-texas-04-18-2027/event/0C006546D4B89269",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1156,7 +1974,64 @@
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312073",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312073/Def-Leppard-tickets-Sun-Apr-18-2027-Dickies-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-fort-worth-tickets-4-18-2027/event/107672239"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-fort-worth-tickets-4-18-2027/event/107672239",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-22T00:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-22T00:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-04-12T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-mobile-g5viz_fptcweu",
@@ -1174,7 +2049,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-mobile-regions-arena-4-20-2027--concerts-rock/production/7671960",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-mobile-alabama-04-20-2027/event/1B006545BF3B20B6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1226,7 +2101,54 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312074",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312074/Def-Leppard-tickets-Tue-Apr-20-2027-Regions-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312074/Def-Leppard-tickets-Tue-Apr-20-2027-Regions-Arena",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-18T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-23T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-31T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-wichita-vv1akzk4kgkexoysl",
@@ -1244,7 +2166,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-wichita-intrust-bank-arena-4-22-2027--concerts-rock/production/7671968",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-wichita-kansas-04-22-2027/event/06006546A2839CDF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1296,7 +2218,69 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312075",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312075/Def-Leppard-tickets-Thu-Apr-22-2027-INTRUST-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312075/Def-Leppard-tickets-Thu-Apr-22-2027-INTRUST-Bank-Arena",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-26T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-04-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-04-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-lincoln-vv1akzk4vgkel3utc",
@@ -1314,7 +2298,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-lincoln-pinnacle-bank-arena-4-24-2027--concerts-rock/production/7671972",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-lincoln-nebraska-04-24-2027/event/06006541AB48DFCE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1366,7 +2350,64 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312076",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312076/Def-Leppard-tickets-Sat-Apr-24-2027-Pinnacle-Bank-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312076/Def-Leppard-tickets-Sat-Apr-24-2027-Pinnacle-Bank-Arena",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Local/Venue/Radio Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-26T15:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-26T15:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-04-18T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-glendale-1kk8vp8bga1l7cc",
@@ -1384,7 +2425,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-glendale-desert-diamond-arena-4-29-2027--concerts-rock/production/7671984",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-glendale-arizona-04-29-2027/event/190065418A7C43AD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1436,7 +2477,64 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312078",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312078/Def-Leppard-tickets-Thu-Apr-29-2027-Desert-Diamond-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312078/Def-Leppard-tickets-Thu-Apr-29-2027-Desert-Diamond-Arena",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T21:00:00Z",
+        "end": "2026-10-15T05:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-02T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-23T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-30T02:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-hollywood-vvg1iz_f7e8nik",
@@ -1454,7 +2552,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-los-angeles-hollywood-bowl-5-1-2027/production/7671952",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-hollywood-california-05-01-2027/event/0B0065410242AA13",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1514,7 +2612,69 @@
     "public_onsale_at": "2026-10-16T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312079",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312079/Def-Leppard-tickets-Sat-May-1-2027-Hollywood-Bowl",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-hollywood-tickets-5-1-2027/event/107672816"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-hollywood-tickets-5-1-2027/event/107672816",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Aisle Offer",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-13T17:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T21:00:00Z",
+        "end": "2026-10-15T05:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Live Nation: Hewitt-Silva Presale",
+        "start": "2026-10-15T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-04T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-25T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-san-francisco-g5vyz_f5oof-x",
@@ -1532,7 +2692,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-san-francisco-chase-center-5-5-2027--concerts-rock/production/7672000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-san-francisco-california-05-05-2027/event/1C006542E044887E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1592,7 +2752,89 @@
     "public_onsale_at": "2026-10-16T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312080",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312080/Def-Leppard-tickets-Wed-May-5-2027-Chase-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-san-francisco-tickets-5-5-2027/event/107672817"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-san-francisco-tickets-5-5-2027/event/107672817",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Aisle Offer",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-13T17:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T21:00:00Z",
+        "end": "2026-10-15T05:00:00Z"
+      },
+      {
+        "name": "Preferred Seating Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-15T05:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Local/Venue/Radio Presale",
+        "start": "2026-10-15T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Venue/Warriors Dub Club/Insider Presale",
+        "start": "2026-10-15T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-05T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-05T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-29T05:00:00Z"
+      },
+      {
+        "name": "Preferred Seating Onsale",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-05-06T02:00:00Z"
+      },
+      {
+        "name": "Chase Preferred Seating",
+        "start": "2026-10-16T19:00:00Z",
+        "end": "2027-04-05T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-sacramento-g5vyz_f5hdkto",
@@ -1610,7 +2852,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-sacramento-golden-1-center-5-7-2027/production/7672006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-sacramento-california-05-07-2027/event/1C006542DB0C6A51",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1670,7 +2912,69 @@
     "public_onsale_at": "2026-10-16T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312081",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312081/Def-Leppard-tickets-Fri-May-7-2027-Golden-1-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-sacramento-tickets-5-7-2027/event/107672240"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-sacramento-tickets-5-7-2027/event/107672240",
+    "presales": [
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-13T16:45:00Z"
+      },
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T21:00:00Z",
+        "end": "2026-10-15T05:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Presale Offer",
+        "start": "2026-10-15T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-10T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-10T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-12T05:00:00Z"
+      },
+      {
+        "name": "Preferred Seating Offer",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-05-08T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-seattle-vvg1hz_f1kfpyl",
@@ -1688,7 +2992,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-seattle-climate-pledge-arena-5-9-2027/production/7672047",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-seattle-washington-05-09-2027/event/0F00654293525E5F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1748,7 +3052,64 @@
     "public_onsale_at": "2026-10-16T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312082",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312082/Def-Leppard-tickets-Sun-May-9-2027-Climate-Pledge-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-seattle-tickets-5-9-2027/event/107672241"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-seattle-tickets-5-9-2027/event/107672241",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T21:00:00Z",
+        "end": "2026-10-15T05:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Local Presales",
+        "start": "2026-10-15T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-10T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-05-03T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-05-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-vancouver-1aozk4agkddzaes",
@@ -1766,7 +3127,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-vancouver-british-columbia-05-14-2027/event/11006545C3E090B1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1818,7 +3179,64 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312105",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312105/Def-Leppard-tickets-Fri-May-14-2027-Rogers-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312105/Def-Leppard-tickets-Fri-May-14-2027-Rogers-Arena",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T21:00:00Z",
+        "end": "2026-10-15T05:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Preferred Seating Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-13T19:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-05-01T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-05-07T17:00:00Z"
+      },
+      {
+        "name": "Preferred Seating Onsale",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-05-15T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-edmonton-1k78vpoiga55fiz",
@@ -1836,7 +3254,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-edmonton-rogers-place-5-16-2027--concerts-rock/production/7672370",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/def-leppard-and-goo-goo-dolls-edmonton-alberta-05-16-2027/event/110065468B2D4B00",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1888,7 +3306,49 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T16:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312106",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312106/Def-Leppard-tickets-Sun-May-16-2027-Rogers-Place"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312106/Def-Leppard-tickets-Sun-May-16-2027-Rogers-Place",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T20:00:00Z",
+        "end": "2026-10-15T04:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-13T18:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T16:00:00Z",
+        "end": "2027-05-10T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-san-antonio-g5diz_fqmcwez",
@@ -1906,7 +3366,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-san-antonio-frost-bank-center-5-29-2027--concerts-rock/production/7672077",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-san-antonio-texas-05-29-2027/event/3A006546B73BD9C0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1966,7 +3426,69 @@
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312084",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312084/Def-Leppard-tickets-Sat-May-29-2027-Frost-Bank-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-san-antonio-tickets-5-29-2027/event/107672818"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-san-antonio-tickets-5-29-2027/event/107672818",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Preferred Seating",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Frost Bank Center Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-05-02T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-05-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-05-23T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-oklahoma-city-vvg1yz_fkymbmf",
@@ -1984,7 +3506,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-oklahoma-city-paycom-center-6-3-2027--concerts-rock/production/7672095",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-oklahoma-city-oklahoma-06-03-2027/event/0C006541B9BBAB88",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2036,7 +3558,69 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312086",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312086/Def-Leppard-tickets-Thu-Jun-3-2027-Paycom-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312086/Def-Leppard-tickets-Thu-Jun-3-2027-Paycom-Center",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-05-07T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-05-07T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-05-28T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-milwaukee-vv1a6zk4kgkd_k6yp",
@@ -2054,7 +3638,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-milwaukee-fiserv-forum-6-5-2027--concerts-rock/production/7672107",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-milwaukee-wisconsin-06-05-2027/event/07006546D9187E56",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2106,7 +3690,74 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T15:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312087",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312087/Def-Leppard-tickets-Sat-Jun-5-2027-Fiserv-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312087/Def-Leppard-tickets-Sat-Jun-5-2027-Fiserv-Forum",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Preferred Seating Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-05-09T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-05-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-05-30T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-saint-louis-vv1kvovp8tga1iyft",
@@ -2124,7 +3775,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-saint-louis-missouri-06-07-2027/event/060065429AA3953F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2160,7 +3811,79 @@
     "ticketmaster_discovery_event_id": "vv1kvOvP8tGA1IyfT",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-16T15:00:00Z"
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Seat Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-14T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T19:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Preferred Seat Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Radio/Venue Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-05-11T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-05-14T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-06-07T15:00:00Z"
+      },
+      {
+        "name": "Preferred Seating",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-06-07T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-louisville-1kaovpoiga1ispc",
@@ -2178,7 +3901,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-louisville-kfc-yum-center-6-9-2027--concerts-rock/production/7672127",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-louisville-kentucky-06-09-2027/event/160065468AA335AD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2230,7 +3953,64 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312089",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312089/Def-Leppard-tickets-Wed-Jun-9-2027-KFC-Yum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312089/Def-Leppard-tickets-Wed-Jun-9-2027-KFC-Yum-Center",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Insider Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-05-13T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-05-13T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-03T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-savannah-vvg1zz_fqp5bwn",
@@ -2248,7 +4028,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-savannah-enmarket-arena-6-11-2027--concerts-rock/production/7672135",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-savannah-georgia-06-11-2027/event/0E006546962D8CA3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2300,7 +4080,69 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312090",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312090/Def-Leppard-tickets-Fri-Jun-11-2027-Enmarket-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312090/Def-Leppard-tickets-Fri-Jun-11-2027-Enmarket-Arena",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T04:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Def Leppard Fan Club Platinum Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-13T13:45:00Z"
+      },
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale Generic",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-05T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-12T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-12T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-tampa-vvg1vz_fpw01di",
@@ -2318,7 +4160,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-tampa-benchmark-international-arena-6-13-2027--concerts-rock/production/7672149",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-tampa-florida-06-13-2027/event/0D006545BD90A0E8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2378,7 +4220,74 @@
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312091",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312091/Def-Leppard-tickets-Sun-Jun-13-2027-Benchmark-International-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-tampa-tickets-6-13-2027/event/107672819"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-tampa-tickets-6-13-2027/event/107672819",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Aisle Offer",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-13T14:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Preferred Seating Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-07T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-13T23:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-14T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-atlanta-vvg1zz_fpttjci",
@@ -2396,7 +4305,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-atlanta-state-farm-arena-6-17-2027--concerts-rock/production/7672155",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-atlanta-georgia-06-17-2027/event/0E006545BFFDC3AC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2448,7 +4357,64 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312092",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312092/Def-Leppard-tickets-Thu-Jun-17-2027-State-Farm-Arena-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312092/Def-Leppard-tickets-Thu-Jun-17-2027-State-Farm-Arena-GA",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-05-21T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-05-21T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-11T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-columbus-vv1aazk4kgkdpgu4v",
@@ -2466,7 +4432,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-columbus-value-city-arena-at-schottenstein-center-6-19-2027--concerts-rock/production/7672161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-columbus-ohio-06-19-2027/event/05006546E5D4D541",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2518,7 +4484,64 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312093",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312093/Def-Leppard-tickets-Sat-Jun-19-2027-Value-City-Arena-at-The-Schottenstein-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312093/Def-Leppard-tickets-Sat-Jun-19-2027-Value-City-Arena-at-The-Schottenstein-Center",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Aisle Seat Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-05-23T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-05-23T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-13T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-new-york-g5diz_fkxvp6l",
@@ -2536,7 +4559,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-new-york-madison-square-garden-6-23-2027--concerts-rock/production/7672195",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-new-york-new-york-06-23-2027/event/3B006544E20651DF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2596,7 +4619,69 @@
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312095",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312095/Def-Leppard-tickets-Wed-Jun-23-2027-Madison-Square-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-new-york-tickets-6-23-2027/event/107672820"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-new-york-tickets-6-23-2027/event/107672820",
+    "presales": [
+      {
+        "name": "Def Leppard Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-05-27T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-05-27T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-17T02:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-24T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-uncasville-g5vvz_fbgzjmo",
@@ -2614,7 +4699,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-uncasville-mohegan-sun-arena-ct-6-25-2027--concerts-rock/production/7672206",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-uncasville-connecticut-06-25-2027/event/1D0065460C026BA0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2666,7 +4751,59 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312096",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312096/Def-Leppard-tickets-Fri-Jun-25-2027-Mohegan-Sun-Arena-CT"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312096/Def-Leppard-tickets-Fri-Jun-25-2027-Mohegan-Sun-Arena-CT",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Mohegan Sun Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-19T02:00:00Z"
+      },
+      {
+        "name": "Aisle Seating",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-25T23:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-philadelphia-1ayzk4agkeprd7q",
@@ -2684,7 +4821,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-philadelphia-xfinity-mobile-arena-6-27-2027--concerts-rock/production/7672212",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-philadelphia-pennsylvania-06-27-2027/event/30006545A5BC311A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2744,7 +4881,64 @@
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312097",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312097/Def-Leppard-tickets-Sun-Jun-27-2027-Xfinity-Mobile-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-philadelphia-tickets-6-27-2027/event/107672821"
+    "stubhub_international_url": "https://www.stubhub.ie/def-leppard-philadelphia-tickets-6-27-2027/event/107672821",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Xfinity Mobile Arena Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-21T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-27T14:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-27T14:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-charlotte-g5evz_fps2umn",
@@ -2762,7 +4956,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-charlotte-spectrum-center-6-30-2027--concerts-rock/production/7672220",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-charlotte-north-carolina-06-30-2027/event/2D006545B33CDBA3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2814,7 +5008,64 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312098",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312098/Def-Leppard-tickets-Wed-Jun-30-2027-Spectrum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312098/Def-Leppard-tickets-Wed-Jun-30-2027-Spectrum-Center",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Spectrum Center Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-01T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-01T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-24T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2027-indianapolis-vv1kv8vp8_ga1mpgy",
@@ -2832,7 +5083,7 @@
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-indianapolis-gainbridge-fieldhouse-7-2-2027--concerts-rock/production/7672228",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-indianapolis-indiana-07-02-2027/event/050065419ABA5D79",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2884,7 +5135,69 @@
     "status": "announced",
     "public_onsale_at": "2026-10-16T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312099",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312099/Def-Leppard-tickets-Fri-Jul-2-2027-Gainbridge-Fieldhouse"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312099/Def-Leppard-tickets-Fri-Jul-2-2027-Gainbridge-Fieldhouse",
+    "presales": [
+      {
+        "name": "Def Leppard Fan Club Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-12T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Aisle Offer",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-13T14:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-12T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-12T18:00:00Z",
+        "end": "2026-10-15T02:00:00Z"
+      },
+      {
+        "name": "ARTIST FAN CLUB PRESALE",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Local/Venue/Radio Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-04T21:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-05T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-06-26T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-def-leppard-2026-ciudad-de-mexico-17azv0g65px_l4r",

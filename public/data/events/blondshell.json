@@ -694,7 +694,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-san-diego-california-02-28-2027/event/0B0064ACB4434752",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -729,7 +729,8 @@
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_1wV8Vq3",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-blondshell-2027-los-angeles-vvg10z_1drttoa",
@@ -747,7 +748,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-los-angeles-california-03-02-2027/event/090064AEDEA69445",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -782,7 +783,15 @@
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1DrttoA",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-22T17:00:00Z",
+        "end": "2027-02-24T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-blondshell-2027-san-francisco-g5vyz_1m0mwvc",
@@ -800,7 +809,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-san-francisco-california-03-03-2027/event/1C0064ABA4DFDD2D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -835,7 +844,15 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1m0MWVc",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-22T17:00:00Z",
+        "end": "2027-02-25T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-blondshell-2027-seattle-z7r9jz1a70ere",
@@ -853,7 +870,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ere",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -888,7 +905,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Ere",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-blondshell-2027-minneapolis-vvg1bz_1dodkri",
@@ -906,7 +924,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-minneapolis-minnesota-03-11-2027/event/060064AED1ED37AC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -941,7 +959,25 @@
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_1DoDKri",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-05-20T15:00:00Z",
+        "end": "2027-03-05T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-22T15:00:00Z",
+        "end": "2026-10-17T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-05-22T15:00:00Z",
+        "end": "2027-02-12T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-blondshell-2027-chicago-z7r9jz1a70ubv",
@@ -959,7 +995,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ubv",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -994,7 +1030,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Ubv",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-blondshell-2027-philadelphia-z7r9jz1a70gjs",
@@ -1012,7 +1049,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70gjs",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1047,7 +1084,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70gjs",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-blondshell-2027-washington-17a8v0g61wjljxg",
@@ -1065,7 +1103,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-washington-district-of-columbia-03-15-2027/event/150064ACA6AE6F8C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1100,7 +1138,15 @@
     },
     "ticketmaster_discovery_event_id": "17A8v0G61wJlJXG",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-22T14:00:00Z",
+        "end": "2026-10-28T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-blondshell-2027-boston-vvg17z_1uqvup8",
@@ -1118,7 +1164,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blondshell-scaring-strangers-tour-boston-massachusetts-03-18-2027/event/010064AD9D04D950",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1153,7 +1199,15 @@
     },
     "ticketmaster_discovery_event_id": "vvG17Z_1UqvuP8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-22T14:00:00Z",
+        "end": "2027-03-12T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-blondshell-2027-montreal-17g8v0g61mppmq0",
@@ -1171,7 +1225,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-montreal-quebec-03-19-2027/event/310064ADE596E764",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1206,7 +1260,15 @@
     },
     "ticketmaster_discovery_event_id": "17G8v0G61MPPmq0",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Forfaits VIP Packages",
+        "start": "2026-05-22T14:00:00Z",
+        "end": "2027-03-13T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-blondshell-2027-toronto-177zv0g61ygdrn9",
@@ -1224,7 +1286,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/blondshell-scaring-strangers-tour-toronto-ontario-03-20-2027/event/100064AC0C0EF8D7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1259,7 +1321,15 @@
     },
     "ticketmaster_discovery_event_id": "177Zv0G61YGdRN9",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-05-22T14:00:00Z",
+        "end": "2027-03-14T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-blondshell-2027-brooklyn-z7r9jz1a70gjw",
@@ -1277,7 +1347,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70gjw",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1312,6 +1382,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70gjw",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   }
 ]

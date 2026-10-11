@@ -959,7 +959,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-dallas-texas-11-06-2026/event/0C006328DC3C27CE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -994,7 +994,15 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZbwNj2eLC",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2025-09-19T15:00:00Z",
+        "end": "2026-10-31T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-houston-g5dizbwlrp709",
@@ -1012,7 +1020,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-houston-texas-11-07-2026/event/3A00632ADE944917",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1047,7 +1055,20 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZbwlrP709",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Presale",
+        "start": "2025-09-15T16:00:00Z",
+        "end": "2026-11-01T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2025-09-19T15:00:00Z",
+        "end": "2026-11-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-san-antonio-z7r9jz1a7jk4v",
@@ -1065,7 +1086,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7jK4V",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1100,7 +1121,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7jK4V",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-sabaton-2026-phoenix-1av0zbwgkrn_kuq",
@@ -1118,7 +1140,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-phoenix-arizona-11-11-2026/event/1900632BE3653D9A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1153,7 +1175,15 @@
     },
     "ticketmaster_discovery_event_id": "1Av0ZbwGkRN_KUQ",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-03-05T17:00:00Z",
+        "end": "2026-11-07T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-wheatland-g5vyzbwpukkfz",
@@ -1171,7 +1201,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-wheatland-california-11-14-2026/event/1C006325B6186200",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1206,7 +1236,15 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZbwpUkkFZ",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Pacakge Onsale",
+        "start": "2025-09-19T17:00:00Z",
+        "end": "2026-11-08T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-salt-lake-city-g5vzzbwnvavqo",
@@ -1224,7 +1262,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-salt-lake-city-utah-11-17-2026/event/1E006328C1141760",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1259,7 +1297,15 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZbwNvAvqO",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Onsale",
+        "start": "2025-09-19T16:00:00Z",
+        "end": "2026-11-11T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-omaha-1aozkgigkedlvji",
@@ -1277,7 +1323,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-omaha-nebraska-11-20-2026/event/20006328BBAC19A8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1312,7 +1358,20 @@
     },
     "ticketmaster_discovery_event_id": "1AOZkGIGkeDlvJI",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2025-09-19T15:00:00Z",
+        "end": "2026-10-31T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2025-09-19T15:00:00Z",
+        "end": "2026-11-14T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-milwaukee-vv17jzbvgkusja2a",
@@ -1330,7 +1389,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-milwaukee-wisconsin-11-21-2026/event/0700634DB37053C5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1365,7 +1424,25 @@
     },
     "ticketmaster_discovery_event_id": "vv17jZbVGkUSjA2A",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2025-10-24T15:00:00Z",
+        "end": "2026-11-15T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2025-10-24T15:00:00Z",
+        "end": "2026-11-21T09:00:00Z"
+      },
+      {
+        "name": "Verizon Access Select Seats",
+        "start": "2025-10-24T15:00:00Z",
+        "end": "2026-11-21T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-minneapolis-vv1akzkgtgkd2vkhk",
@@ -1383,7 +1460,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-minneapolis-minnesota-11-22-2026/event/06006329CFD13F06",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1418,7 +1495,25 @@
     },
     "ticketmaster_discovery_event_id": "vv1AkZkGtGkd2VKHk",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-03-05T15:00:00Z",
+        "end": "2026-10-26T02:00:00Z"
+      },
+      {
+        "name": "Verizon Access Select Seats",
+        "start": "2026-03-05T15:00:00Z",
+        "end": "2026-10-26T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-05T15:00:00Z",
+        "end": "2026-11-16T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-chicago-vv178zbwgkltpkse",
@@ -1436,7 +1531,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-chicago-illinois-11-24-2026/event/0400632AFF953C67",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1471,7 +1566,25 @@
     },
     "ticketmaster_discovery_event_id": "vv178ZbwGklTPKsE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2025-09-19T15:00:00Z",
+        "end": "2026-11-18T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2025-09-19T15:00:00Z",
+        "end": "2026-11-25T05:00:00Z"
+      },
+      {
+        "name": "Verizon Access Select Seats",
+        "start": "2025-09-19T15:00:00Z",
+        "end": "2026-11-25T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-waukee-1a-zkgtgkdjdyyw",
@@ -1489,7 +1602,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-waukee-iowa-11-25-2026/event/21006329DC0F0C3D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1524,7 +1637,20 @@
     },
     "ticketmaster_discovery_event_id": "1A-ZkGtGkdjdYYW",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2025-09-19T15:00:00Z",
+        "end": "2026-10-26T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2025-09-19T15:00:00Z",
+        "end": "2026-11-19T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-saint-louis-1ae7zbwgkmsi8la",
@@ -1542,7 +1668,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-saint-louis-missouri-11-27-2026/event/2100632BB3A10AC9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1577,7 +1703,25 @@
     },
     "ticketmaster_discovery_event_id": "1Ae7ZbwGkmSI8la",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2025-09-19T15:00:00Z",
+        "end": "2026-10-28T03:00:00Z"
+      },
+      {
+        "name": "Verizon Access Select Seat",
+        "start": "2025-09-19T15:00:00Z",
+        "end": "2026-10-28T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2025-09-19T15:00:00Z",
+        "end": "2026-11-21T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-cincinnati-1avbzbwgkn0vsnb",
@@ -1595,7 +1739,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-cincinnati-ohio-11-28-2026/event/1600632AA4D318FA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1630,7 +1774,15 @@
     },
     "ticketmaster_discovery_event_id": "1AvbZbwGkn0VsNB",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2025-09-19T14:00:00Z",
+        "end": "2026-11-22T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-detroit-vv1afzkgpgkdnrjuw",
@@ -1648,7 +1800,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-detroit-michigan-11-29-2026/event/08006325EA7A6DB2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1683,7 +1835,15 @@
     },
     "ticketmaster_discovery_event_id": "vv1AFZkGPGkdnrJUw",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-05T15:00:00Z",
+        "end": "2026-11-23T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-boston-vv1a8vnaygac9fy1",
@@ -1701,7 +1861,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-boston-massachusetts-12-01-2026/event/010063270E5C8C0A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1736,7 +1896,8 @@
     },
     "ticketmaster_discovery_event_id": "vv1A8vNaYGAC9FY1",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
   },
   {
     "id": "tm-sabaton-2026-philadelphia-vv17fzbwgklacdxp",
@@ -1754,7 +1915,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-philadelphia-pennsylvania-12-02-2026/event/0200632AC5B43896",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1789,7 +1950,15 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZbwGklAcdxp",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2025-09-19T14:00:00Z",
+        "end": "2026-11-26T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-virginia-beach-vv177zbwgklinzle",
@@ -1807,7 +1976,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-virginia-beach-virginia-12-05-2026/event/0100632AE88F87C2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1842,7 +2011,15 @@
     },
     "ticketmaster_discovery_event_id": "vv177ZbwGklINzLe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2025-09-19T14:00:00Z",
+        "end": "2026-11-29T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-national-harbor-1a4zkgtgkdyjn0o",
@@ -1860,7 +2037,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-national-harbor-maryland-12-06-2026/event/15006329F9723920",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1895,7 +2072,20 @@
     },
     "ticketmaster_discovery_event_id": "1A4ZkGtGkdyjN0O",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2025-09-19T14:00:00Z",
+        "end": "2026-11-09T03:00:00Z"
+      },
+      {
+        "name": "Verizon Access Select Seats",
+        "start": "2025-09-19T14:00:00Z",
+        "end": "2026-11-09T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2026-atlanta-vvg1zzbwjnkk6z",
@@ -1913,7 +2103,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-atlanta-georgia-12-08-2026/event/0E006329A34D31F8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1948,7 +2138,25 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZbwJNKK6z",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2025-09-19T14:00:00Z",
+        "end": "2026-11-11T03:00:00Z"
+      },
+      {
+        "name": "Verizon Access Select Seats",
+        "start": "2025-09-19T14:00:00Z",
+        "end": "2026-11-11T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2025-09-19T14:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-sabaton-2027-praha-9-z698xzu0z1kggp0g_",

@@ -275,7 +275,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-waterloo-the-vine-at-del-lago-resort-and-casino-10-16-2026/production/7176958",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-ages-waterloo-new-york-10-16-2026/event/000064CB87CC6C4D",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -310,14 +310,7 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_Gm6Sksu",
     "timezone": "America/New_York",
-    "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T14:00:00Z",
-        "end": "2026-10-10T02:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-daughtry-2026-atlantic-city-vvg1fz_gskknq7",
@@ -335,7 +328,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-atlantic-city-ovation-hall-at-ocean-casino-resort-10-17-2026--concerts-rock/production/7169989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-atlantic-city-new-jersey-10-17-2026/event/020064CCD34EA744",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -386,14 +379,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056798",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056798/Daughtry-tickets-Sat-Oct-17-2026-Ovation-Hall-at-Ocean-Resort-Casino",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T14:00:00Z",
-        "end": "2026-10-11T02:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056798/Daughtry-tickets-Sat-Oct-17-2026-Ovation-Hall-at-Ocean-Resort-Casino"
   },
   {
     "id": "tm-daughtry-2026-huntington-k7vgf_geicgms",

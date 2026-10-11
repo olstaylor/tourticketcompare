@@ -1230,7 +1230,7 @@
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-charlotte-truliant-amphitheater-10-16-2026/production/6517299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-charlotte-north-carolina-10-16-2026/event/2D006426A8667828",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1281,14 +1281,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676530",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676530/Five-Finger-Death-Punch-tickets-Fri-Oct-16-2026-Truliant-Amphitheater",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-01-16T15:00:00Z",
-        "end": "2026-10-10T02:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676530/Five-Finger-Death-Punch-tickets-Fri-Oct-16-2026-Truliant-Amphitheater"
   },
   {
     "id": "tm-five-finger-death-punch-2026-virginia-beach-vv1k7z_eqfg7mvxk",
@@ -1306,7 +1299,7 @@
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-virginia-beach-veterans-united-home-loans-amphitheater-at-virginia-beach-10-17-2026/production/6517305",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-virginia-beach-virginia-10-17-2026/event/0100642694BB4886",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1349,14 +1342,7 @@
     "ticketmaster_discovery_event_id": "vv1k7Z_eQfG7mVxk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676535",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-01-16T15:00:00Z",
-        "end": "2026-10-11T02:00:00Z"
-      }
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676535"
   },
   {
     "id": "tm-five-finger-death-punch-2026-greenville-g5evz_excrbbp",

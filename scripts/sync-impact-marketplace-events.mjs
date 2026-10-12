@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 import {
   CATALOG_PROXY_REJECTION_HINT,
   PROVIDERS,
+  catalogArtistKeyword,
   catalogItems,
   catalogItemsUrl,
   catalogProxyHeaders,
@@ -200,13 +201,14 @@ function evaluateCandidate(event, artistName, candidate) {
   return { ok: reasons.length === 0, reasons, url: candidate?.normalizedUrl || "", externalId: candidate?.externalId || "" };
 }
 
-function decideOutcome({ storedUrl, storedVerified, storedCandidate, passing, catalogComplete }) {
+function decideOutcome({ storedUrl, storedVerified, storedCandidate, passing, catalogComplete, preserveAbsentStored = false }) {
   if (storedCandidate?.ok) return { action: storedVerified ? "none" : "verify", candidate: storedCandidate };
   if (passing.length > 1) return { action: "conflict", candidate: null };
   // One passing listing in a partial catalog is not proof it is the only one:
   // an unfetched page could hold a second (a conflict), so nothing is added.
   if (!catalogComplete) return { action: "none", candidate: null };
   if (passing.length === 1) return { action: storedUrl ? "correct" : "add", candidate: passing[0] };
+  if (preserveAbsentStored) return { action: "none", candidate: null };
   if (storedUrl) return { action: storedVerified ? "unverify" : "clear", candidate: null };
   return { action: "none", candidate: null };
 }
@@ -326,6 +328,7 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
     ? `Basic ${Buffer.from(`${accountSid}:${authToken}`).toString("base64")}`
     : "";
   const candidates = [];
+  const keyword = catalogArtistKeyword(artistName);
   const now = () => (options.now ? options.now() : Date.now());
   for (let page = 1; page <= MAX_PAGES; page += 1) {
     let response;
@@ -343,7 +346,7 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
       let failure = "";
       response = undefined;
       try {
-        response = await fetchImpl(catalogItemsUrl(config, artistName, page, env, PAGE_SIZE), {
+        response = await fetchImpl(catalogItemsUrl(config, keyword, page, env, PAGE_SIZE), {
           headers: {
             Accept: "application/json",
             ...(authorization ? { Authorization: authorization } : {}),
@@ -372,7 +375,9 @@ async function fetchCatalog(config, artistName, options, state, env = process.en
     if (!items) return { candidates, complete: false, stopReason: "missing_items" };
     for (const item of items) candidates.push(...productCandidates(config, item, programId));
     const total = Number(payload?.["@total"] ?? payload?.Total ?? payload?.total);
-    if (items.length < PAGE_SIZE || (Number.isFinite(total) && page * PAGE_SIZE >= total)) return { candidates, complete: true, stopReason: "" };
+    if (items.length < PAGE_SIZE || (Number.isFinite(total) && total >= 0 && page * PAGE_SIZE >= total)) {
+      return { candidates, complete: true, stopReason: "", narrowed: keyword !== clean(artistName, 200) };
+    }
   }
   return { candidates, complete: false, stopReason: "pagination_cap" };
 }
@@ -430,6 +435,16 @@ async function run(options, deps = {}) {
   const selected = selectEvents(events, registry, artists, options, deps.now || new Date());
   const state = { apiCalls: 0 };
   const results = [];
+  const exactCatalogs = new Map();
+  const lookupExactId = async (lookupConfig, id) => {
+    const key = `${lookupConfig.slug}:${id}`;
+    if (!exactCatalogs.has(key)) {
+      exactCatalogs.set(key, deps.fetchCatalog
+        ? await deps.fetchCatalog(lookupConfig, id, options, state)
+        : await fetchCatalog(lookupConfig, id, options, state, deps.env, deps.fetchImpl));
+    }
+    return exactCatalogs.get(key);
+  };
   const byArtist = new Map();
   for (const item of selected) {
     const rows = byArtist.get(item.artistName) || [];
@@ -476,16 +491,42 @@ async function run(options, deps = {}) {
       const storedCandidate = exactStored ? { ...evaluateCandidate(event, artistName, exactStored), ...exactStored } : null;
       return { event, link, storedUrl, storedId, passing, storedCandidate };
     });
+    // A narrow discovery miss is not proof of removal. Recheck the stored ID
+    // in its own catalog, under the same call/time budgets and auth guards.
+    for (const evaluation of evaluations) {
+      if (!catalog.narrowed || !catalog.complete || !evaluation.storedUrl || !evaluation.storedId ||
+          evaluation.storedCandidate?.ok || evaluation.passing.length) continue;
+      let exact = await lookupExactId(config, evaluation.storedId);
+      if (exact.authFailure) { authFailure = true; authFailureReason = exact.stopReason || ""; break; }
+      if (config.slug === "ticket-liquidator" && exact.complete) {
+        const reference = await lookupExactId(providerConfig("ticketnetwork"), evaluation.storedId);
+        if (reference.authFailure) { authFailure = true; authFailureReason = reference.stopReason || ""; break; }
+        exact = reference.complete
+          ? { ...exact, candidates: enrichTicketLiquidatorCandidates(exact.candidates, reference.candidates) }
+          : { ...exact, complete: false, stopReason: `reference_${reference.stopReason || "incomplete"}` };
+      }
+      evaluation.exactIdComplete = exact.complete === true;
+      evaluation.exactIdStopReason = exact.stopReason || "";
+      if (!exact.complete) continue;
+      const found = exact.candidates.find((candidate) => candidate.externalId === evaluation.storedId);
+      evaluation.storedCandidate = found
+        ? { ...evaluateCandidate(evaluation.event, artistName, found), ...found }
+        : null;
+    }
+    if (authFailure) break;
     const ambiguous = listingsMatchingSeveralDates(evaluations);
-    for (const { event, link, storedUrl, storedId, passing, storedCandidate } of evaluations) {
-      let outcome = decideOutcome({ storedUrl, storedVerified: link?.verified === true, storedCandidate, passing, catalogComplete: catalog.complete });
+    for (const { event, link, storedUrl, storedId, passing, storedCandidate, exactIdComplete, exactIdStopReason } of evaluations) {
+      let outcome = decideOutcome({ storedUrl, storedVerified: link?.verified === true, storedCandidate, passing, catalogComplete: catalog.complete, preserveAbsentStored: catalog.narrowed === true && !exactIdComplete });
       // One listing is one performance. If it passes for performances on
       // different nights, nothing says which night it is: it is not written to
       // any of them. A link already stored and verified is left as it is.
       const ambiguousListing = Boolean(outcome.candidate && ambiguous.has(outcome.candidate.externalId) && ["verify", "add", "correct"].includes(outcome.action));
       if (ambiguousListing) outcome = { action: "conflict", candidate: null };
       const applied = options.apply && applyOutcome(event, config, outcome, (deps.now || new Date()).toISOString().slice(0, 10));
-      const note = outcomeNote(outcome.action, { ambiguousListing, storedListed: Boolean(storedCandidate?.ok), catalogComplete: catalog.complete, stopReason: catalog.stopReason });
+      const preservedAbsentStored = catalog.narrowed && storedUrl && !storedCandidate?.ok && passing.length === 0 && !exactIdComplete;
+      const note = preservedAbsentStored
+        ? `not checked: exact-ID verification incomplete (${exactIdStopReason || "missing_stored_id"}); stored link preserved`
+        : outcomeNote(outcome.action, { ambiguousListing, storedListed: Boolean(storedCandidate?.ok), catalogComplete: catalog.complete, stopReason: catalog.stopReason });
       results.push({ event_id: event.id, artist: artistName, action: outcome.action, applied, url: outcome.candidate?.url || storedUrl || "", external_id: outcome.candidate?.externalId || storedId || "", catalog_complete: catalog.complete, stop_reason: catalog.stopReason || "", note, ...(ambiguousListing ? { ambiguous_listing: true } : {}) });
     }
   }
@@ -515,6 +556,12 @@ async function run(options, deps = {}) {
 
 async function selfTest() {
   const config = providerConfig("ticketnetwork");
+  assert.equal(catalogArtistKeyword("Dancing With The Stars"), "Dancing");
+  assert.equal(catalogArtistKeyword("The Red Clay Strays"), "Strays");
+  assert.equal(catalogArtistKeyword("Trans-Siberian Orchestra"), "Siberian");
+  assert.equal(catalogArtistKeyword("Blue October"), "October");
+  assert.equal(catalogArtistKeyword("The The"), "The The");
+  assert.equal(catalogArtistKeyword("8310159"), "8310159");
   const catalogItem = { CampaignId: "123", CatalogItemId: "tn-1", Name: "RAYE", Description: "RAYE at O2 Arena, London on 9 July 2027", Url: "https://www.ticketnetwork.com/tickets/raye-london-o2-arena-7-9-2027/tn-1", CurrentPrice: "55", Currency: "GBP" };
   const candidate = productCandidates(config, catalogItem, "123")[0];
   assert.equal(candidate.externalId, "tn-1");
@@ -533,6 +580,9 @@ async function selfTest() {
   };
   assert.equal(productCandidates(config, liveTrackingItem, "2322")[0].normalizedUrl, "https://www.ticketnetwork.com/en/p/tn-1");
   assert.equal(productCandidates(config, { ...liveTrackingItem, Url: "https://tracking.example/click?u=https%3A%2F%2Fevil.example%2Ftickets%2F1" }, "2322").length, 0);
+  const sameHostTracking = { ...liveTrackingItem, Url: "https://goto.ticketnetwork.com/c/publisher/132208/2322?u=https%3A%2F%2Fwww.ticketnetwork.com%2Fen%2Fp%2Ftn-1" };
+  assert.equal(productCandidates(config, sameHostTracking, "2322")[0].normalizedUrl, "https://www.ticketnetwork.com/en/p/tn-1");
+  assert.equal(productCandidates(config, { ...sameHostTracking, Url: "https://goto.ticketnetwork.com/c/publisher/132208/2322?u=https%3A%2F%2Fevil.example%2Ftickets%2F1" }, "2322").length, 0);
   const proxyEnv = {
     IMPACT_CATALOG_PROXY_URL: "https://tourticketcompare.com/api/impact/products",
     IMPACT_CATALOG_PROXY_TOKEN: "proxy-token"
@@ -592,6 +642,27 @@ async function selfTest() {
   let calls401 = 0;
   await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0 }, { apiCalls: 0 }, tnEnv, async () => { calls401 += 1; return new Response("", { status: 401 }); });
   assert.equal(calls401, 1);
+  // Narrow discovery completes without weakening the full-name match. A
+  // different act sharing the keyword is rejected by the existing matcher.
+  const dancingItem = {
+    ...catalogItem, CampaignId: "2322", CatalogItemId: "dwts-1",
+    Name: "Dancing With The Stars",
+    Description: "Dancing With The Stars at O2 Arena, London on 9 July 2027"
+  };
+  const narrow = await fetchCatalog(config, "Dancing With The Stars", { delayMs: 0 }, { apiCalls: 0 }, tnEnv,
+    async (url) => {
+      assert.equal(new URL(url).searchParams.get("q"), "Dancing");
+      return new Response(JSON.stringify({ Items: [dancingItem], "@total": 1 }), { status: 200 });
+    });
+  assert.equal(narrow.complete, true);
+  assert.equal(narrow.narrowed, true);
+  assert.equal(decideOutcome({ storedUrl: "https://www.ticketnetwork.com/en/p/existing", storedVerified: true,
+    passing: [], catalogComplete: true, preserveAbsentStored: true }).action, "none");
+  const dancingEvent = { city: "London", venue: "O2 Arena", datetime_iso: "2027-07-09T19:00:00Z", timezone: "Europe/London" };
+  assert.equal(evaluateCandidate(dancingEvent, "Dancing With The Stars", narrow.candidates[0]).ok, true);
+  assert.equal(evaluateCandidate(dancingEvent, "Dancing With The Stars", {
+    ...narrow.candidates[0], searchableText: "Dancing Queen at O2 Arena, London on 9 July 2027"
+  }).ok, false);
   // A body that stalls past the timeout, or arrives cut off, is retried too.
   let stallCalls = 0;
   const stalled = await fetchCatalog(config, "RAYE", { delayMs: 0, retryDelayMs: 0, requestTimeoutMs: 20 }, { apiCalls: 0 }, tnEnv, async (_url, init) => {
@@ -653,6 +724,28 @@ async function selfTest() {
   assert.equal(dateMatches("2027-07-09T20:00:00+01:00", { year: 2027, month: 7, day: 9 }), true);
   assert.equal(evaluateCandidate(event, "RAYE", candidate).ok, true);
   assert.equal(evaluateCandidate({ ...event, city: "Manchester" }, "RAYE", candidate).ok, false);
+  // A narrowed discovery miss must be resolved by ID, not kept indefinitely.
+  const existing = { ...event, ticketnetwork_url: candidate.normalizedUrl,
+    provider_links: { ticketnetwork: { verified: true, event_id: candidate.externalId } } };
+  const exactRun = async (reply) => {
+    const queries = [];
+    const summary = await run({ provider: "ticketnetwork", apply: false, delayMs: 0 }, {
+      now: new Date("2027-01-01T00:00:00Z"),
+      data: [[structuredClone(existing)], [{ slug: "raye", name: "RAYE" }], [{ slug: "raye", review_status: "verified" }]],
+      async fetchCatalog(_config, query) {
+        queries.push(query);
+        return query === "RAYE" ? { candidates: [], complete: true, narrowed: true } : reply;
+      }
+    });
+    assert.deepEqual(queries, ["RAYE", candidate.externalId]);
+    return summary.results[0];
+  };
+  assert.equal((await exactRun({ candidates: [candidate], complete: true })).action, "none");
+  assert.equal((await exactRun({ candidates: [], complete: true })).action, "unverify");
+  const exactHeld = await exactRun({ candidates: [], complete: false, stopReason: "api_call_limit" });
+  assert.equal(exactHeld.action, "none");
+  assert.match(exactHeld.note, /exact-ID verification incomplete.*api_call_limit/);
+  await assert.rejects(exactRun({ candidates: [], complete: false, authFailure: true, stopReason: "http_403" }), /refused \(http_403\).*no writes/);
   // Shared local-date resolver: a row carrying an explicit numeric offset but
   // no IANA timezone states its own local date, so the date gate can pass. A
   // UTC instant with no timezone stays unresolved and the gate stays closed.

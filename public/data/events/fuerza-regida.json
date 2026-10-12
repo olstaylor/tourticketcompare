@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "20006503B9A725DA",
     "ticketmaster_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-birmingham-alabama-10-13-2026/event/20006503B9A725DA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-birmingham-coca-cola-amphitheater-10-13-2026/production/7411926",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-birmingham-alabama-10-13-2026/event/20006503B9A725DA",
     "last_verified_at": null,
@@ -87,11 +87,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7411926,
+        "url": "https://www.vividseats.com/fuerza-regida-tickets-birmingham-coca-cola-amphitheater-10-13-2026/production/7411926",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99,11 +99,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8194521",
+        "url": "https://www.ticketnetwork.com/en/p/8194521",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194521",
+        "url": "https://www.ticketliquidator.com/tickets/8194521/Fuerza-Regida-tickets-Tue-Oct-13-2026-Coca-Cola-Amphitheater-at-the-BJCC",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfdGkeytw9Q",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194521",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194521/Fuerza-Regida-tickets-Tue-Oct-13-2026-Coca-Cola-Amphitheater-at-the-BJCC"
   },
   {
     "id": "tm-fuerza-regida-2026-albuquerque-g5vzz_8cnmbuy",
@@ -118,7 +134,7 @@
     "ticketmaster_event_id": "1E006503AADFA370",
     "ticketmaster_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-albuquerque-new-mexico-10-17-2026/event/1E006503AADFA370",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-albuquerque-first-financial-credit-union-amphitheater-10-17-2026/production/7412169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-albuquerque-new-mexico-10-17-2026/event/1E006503AADFA370",
     "last_verified_at": null,
@@ -140,11 +156,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7412169,
+        "url": "https://www.vividseats.com/fuerza-regida-tickets-albuquerque-first-financial-credit-union-amphitheater-10-17-2026/production/7412169",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -152,11 +168,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8194522",
+        "url": "https://www.ticketnetwork.com/en/p/8194522",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194522",
+        "url": "https://www.ticketliquidator.com/tickets/8194522/Fuerza-Regida-tickets-Sat-Oct-17-2026-First-Financial-Credit-Union-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_8CnMBuY",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194522",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194522/Fuerza-Regida-tickets-Sat-Oct-17-2026-First-Financial-Credit-Union-Amphitheater"
   },
   {
     "id": "tm-fuerza-regida-2026-wheatland-g5vyz_81rrfk3",
@@ -171,7 +203,7 @@
     "ticketmaster_event_id": "1C0065029E7884D2",
     "ticketmaster_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-wheatland-california-10-23-2026/event/1C0065029E7884D2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-wheatland-toyota-amphitheatre-10-23-2026--concerts-latin-music/production/7411942",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-wheatland-california-10-23-2026/event/1C0065029E7884D2",
     "last_verified_at": null,
@@ -193,11 +225,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7411942,
+        "url": "https://www.vividseats.com/fuerza-regida-tickets-wheatland-toyota-amphitheatre-10-23-2026--concerts-latin-music/production/7411942",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -205,11 +237,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8194523",
+        "url": "https://www.ticketnetwork.com/en/p/8194523",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194523",
+        "url": "https://www.ticketliquidator.com/tickets/8194523/Fuerza-Regida-tickets-Fri-Oct-23-2026-Toyota-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_81rrFK3",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194523",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194523/Fuerza-Regida-tickets-Fri-Oct-23-2026-Toyota-Amphitheatre"
   },
   {
     "id": "tm-fuerza-regida-2026-bakersfield-z7r9jz1aazpuu",
@@ -224,7 +272,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZPuU",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPuU",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-bakersfield-dignity-health-arena-10-24-2026/production/7412153",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPuU",
     "last_verified_at": null,
@@ -246,11 +294,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7412153,
+        "url": "https://www.vividseats.com/fuerza-regida-tickets-bakersfield-dignity-health-arena-10-24-2026/production/7412153",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -258,11 +306,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8194524",
+        "url": "https://www.ticketnetwork.com/en/p/8194524",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194524",
+        "url": "https://www.ticketliquidator.com/tickets/8194524/Fuerza-Regida-tickets-Sat-Oct-24-2026-Dignity-Health-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZPuU",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194524",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194524/Fuerza-Regida-tickets-Sat-Oct-24-2026-Dignity-Health-Arena"
   },
   {
     "id": "tm-fuerza-regida-2026-bakersfield-z7r9jz1aavaxk",
@@ -277,7 +341,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvaxk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvaxk",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-bakersfield-dignity-health-arena-10-25-2026/production/7487798",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvaxk",
     "last_verified_at": null,
@@ -299,11 +363,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7487798,
+        "url": "https://www.vividseats.com/fuerza-regida-tickets-bakersfield-dignity-health-arena-10-25-2026/production/7487798",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -311,11 +375,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8237408",
+        "url": "https://www.ticketnetwork.com/en/p/8237408",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8237408",
+        "url": "https://www.ticketliquidator.com/tickets/8237408/Fuerza-Regida-tickets-Sun-Oct-25-2026-Dignity-Health-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvaxk",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8237408",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8237408/Fuerza-Regida-tickets-Sun-Oct-25-2026-Dignity-Health-Arena"
   },
   {
     "id": "tm-fuerza-regida-2026-fresno-g5vyz_89-ysvr",
@@ -330,7 +410,7 @@
     "ticketmaster_event_id": "1C006505E1E7105E",
     "ticketmaster_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-fresno-california-10-27-2026/event/1C006505E1E7105E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-fresno-save-mart-center-10-27-2026--concerts-latin-music/production/7512477",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-fresno-california-10-27-2026/event/1C006505E1E7105E",
     "last_verified_at": null,
@@ -352,11 +432,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7512477,
+        "url": "https://www.vividseats.com/fuerza-regida-tickets-fresno-save-mart-center-10-27-2026--concerts-latin-music/production/7512477",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -364,11 +444,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8247043",
+        "url": "https://www.ticketnetwork.com/en/p/8247043",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8247043",
+        "url": "https://www.ticketliquidator.com/tickets/8247043/Fuerza-Regida-tickets-Tue-Oct-27-2026-Save-Mart-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_89-ysvr",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8247043",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8247043/Fuerza-Regida-tickets-Tue-Oct-27-2026-Save-Mart-Center"
   },
   {
     "id": "tm-fuerza-regida-2026-fresno-g5vyz_8kys-gg",
@@ -383,7 +479,7 @@
     "ticketmaster_event_id": "1C006504F0CE1D4C",
     "ticketmaster_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-fresno-california-10-28-2026/event/1C006504F0CE1D4C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-fresno-save-mart-center-10-28-2026/production/7412141",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fuerza-regida-this-is-our-dream-fresno-california-10-28-2026/event/1C006504F0CE1D4C",
     "last_verified_at": null,
@@ -405,11 +501,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7412141,
+        "url": "https://www.vividseats.com/fuerza-regida-tickets-fresno-save-mart-center-10-28-2026/production/7412141",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -417,11 +513,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8194525",
+        "url": "https://www.ticketnetwork.com/en/p/8194525",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194525",
+        "url": "https://www.ticketliquidator.com/tickets/8194525/Fuerza-Regida-tickets-Wed-Oct-28-2026-Save-Mart-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_8KYS-gG",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194525",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194525/Fuerza-Regida-tickets-Wed-Oct-28-2026-Save-Mart-Center"
   },
   {
     "id": "tm-fuerza-regida-2026-west-valley-city-g5vzz_8qlaba8",
@@ -489,7 +601,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZPuz",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPuz",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-morrison-red-rocks-amphitheatre-11-2-2026/production/7412161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZPuz",
     "last_verified_at": null,
@@ -511,11 +623,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7412161,
+        "url": "https://www.vividseats.com/fuerza-regida-tickets-morrison-red-rocks-amphitheatre-11-2-2026/production/7412161",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -523,11 +635,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8194529",
+        "url": "https://www.ticketnetwork.com/en/p/8194529",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8194529",
+        "url": "https://www.ticketliquidator.com/tickets/8194529/Fuerza-Regida-tickets-Mon-Nov-2-2026-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107665240",
+        "url": "https://www.stubhub.ie/fuerza-regida-morrison-tickets-11-2-2026/event/107665240",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZPuz",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194529",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194529/Fuerza-Regida-tickets-Mon-Nov-2-2026-Red-Rocks-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-morrison-tickets-11-2-2026/event/107665240"
   },
   {
     "id": "tm-fuerza-regida-2026-morrison-z7r9jz1aazt0f",
@@ -542,7 +678,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZt0f",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZt0f",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/fuerza-regida-tickets-morrison-red-rocks-amphitheatre-11-3-2026/production/7416945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZt0f",
     "last_verified_at": null,
@@ -564,11 +700,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7416945,
+        "url": "https://www.vividseats.com/fuerza-regida-tickets-morrison-red-rocks-amphitheatre-11-3-2026/production/7416945",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -576,11 +712,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8203898",
+        "url": "https://www.ticketnetwork.com/en/p/8203898",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8203898",
+        "url": "https://www.ticketliquidator.com/tickets/8203898/Fuerza-Regida-tickets-Tue-Nov-3-2026-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107665241",
+        "url": "https://www.stubhub.ie/fuerza-regida-morrison-tickets-11-3-2026/event/107665241",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZt0f",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203898",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8203898/Fuerza-Regida-tickets-Tue-Nov-3-2026-Red-Rocks-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-morrison-tickets-11-3-2026/event/107665241"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnenx",
@@ -682,11 +842,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672800",
+        "url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-29-1-2027/event/107672800",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk4eGkdLZcpT",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-29-1-2027/event/107672800"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4egkdowrar",
@@ -735,11 +903,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672234",
+        "url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-30-1-2027/event/107672234",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk4eGkdOWraR",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-30-1-2027/event/107672234"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4vgkdxsfp_",
@@ -788,11 +964,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671608",
+        "url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-31-1-2027/event/107671608",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZk4vGkdxSFP_",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-31-1-2027/event/107671608"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4vgkdn9bgh",
@@ -894,11 +1078,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670793",
+        "url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-3-2-2027/event/107670793",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAZvPazGACn3ld",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-3-2-2027/event/107670793"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgauwxey",
@@ -947,11 +1139,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670885",
+        "url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-4-2-2027/event/107670885",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAZvPazGAuwxEy",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-4-2-2027/event/107670885"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnxl1",
@@ -1000,11 +1200,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303762",
+        "url": "https://www.ticketnetwork.com/en/p/8303762",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303762",
+        "url": "https://www.ticketliquidator.com/tickets/8303762/Fuerza-Regida-tickets-Fri-Feb-5-2027-Palacio-De-Los-Deportes-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670794",
+        "url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-5-2-2027/event/107670794",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAZvPazGACnxl1",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303762",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303762/Fuerza-Regida-tickets-Fri-Feb-5-2027-Palacio-De-Los-Deportes-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-5-2-2027/event/107670794"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnwlg",
@@ -1053,11 +1277,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303766",
+        "url": "https://www.ticketnetwork.com/en/p/8303766",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303766",
+        "url": "https://www.ticketliquidator.com/tickets/8303766/Fuerza-Regida-tickets-Sat-Feb-6-2027-Palacio-De-Los-Deportes-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670886",
+        "url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-6-2-2027/event/107670886",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAZvPazGACnwlG",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303766",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303766/Fuerza-Regida-tickets-Sat-Feb-6-2027-Palacio-De-Los-Deportes-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-6-2-2027/event/107670886"
   },
   {
     "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgaclelp",
@@ -1106,10 +1354,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303767",
+        "url": "https://www.ticketnetwork.com/en/p/8303767",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303767",
+        "url": "https://www.ticketliquidator.com/tickets/8303767/Fuerza-Regida-tickets-Sun-Feb-7-2027-Palacio-De-Los-Deportes-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107670887",
+        "url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-7-2-2027/event/107670887",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAZvPazGAClelp",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303767",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303767/Fuerza-Regida-tickets-Sun-Feb-7-2027-Palacio-De-Los-Deportes-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-7-2-2027/event/107670887"
   }
 ]

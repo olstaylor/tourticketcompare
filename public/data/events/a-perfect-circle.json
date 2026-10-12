@@ -219,6 +219,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295085",
+        "url": "https://www.ticketliquidator.com/tickets/8295085/A-Perfect-Circle-tickets-Tue-Apr-13-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPCbGAu8AWZ",
@@ -236,7 +243,8 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-04-07T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295085/A-Perfect-Circle-tickets-Tue-Apr-13-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
   },
   {
     "id": "tm-a-perfect-circle-2027-calgary-1av7z_kgkn55gda",
@@ -292,6 +300,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295086",
+        "url": "https://www.ticketliquidator.com/tickets/8295086/A-Perfect-Circle-tickets-Thu-Apr-15-2027-Scotiabank-Saddledome",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkn55gda",
@@ -309,7 +324,8 @@
         "start": "2026-10-02T16:00:00Z",
         "end": "2027-04-09T04:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295086/A-Perfect-Circle-tickets-Thu-Apr-15-2027-Scotiabank-Saddledome"
   },
   {
     "id": "tm-a-perfect-circle-2027-edmonton-1aozkfygkey3iuu",
@@ -365,6 +381,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295087",
+        "url": "https://www.ticketliquidator.com/tickets/8295087/A-Perfect-Circle-tickets-Sat-Apr-17-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfyGkey3iUU",
@@ -377,7 +400,8 @@
         "start": "2026-10-02T16:00:00Z",
         "end": "2027-04-11T04:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295087/A-Perfect-Circle-tickets-Sat-Apr-17-2027-Rogers-Place"
   },
   {
     "id": "tm-a-perfect-circle-2027-winnipeg-16v7z_kjkg7bgkj",
@@ -433,6 +457,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295088",
+        "url": "https://www.ticketliquidator.com/tickets/8295088/A-Perfect-Circle-tickets-Mon-Apr-19-2027-Canada-Life-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v7Z_KJkG7BgKJ",
@@ -445,7 +476,8 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-04-13T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295088/A-Perfect-Circle-tickets-Mon-Apr-19-2027-Canada-Life-Centre"
   },
   {
     "id": "tm-a-perfect-circle-2027-niagara-falls-1a8zkfmgkemh_mw",
@@ -704,6 +736,13 @@
         "verified": true,
         "last_verified_at": "2026-10-05",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295064",
+        "url": "https://www.ticketliquidator.com/tickets/8295064/A-Perfect-Circle-tickets-Tue-Apr-27-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_Kr_G7Rccc",
@@ -717,7 +756,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-04-21T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295064/A-Perfect-Circle-tickets-Tue-Apr-27-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-a-perfect-circle-2027-uncasville-g5vvz_khq_fxg",
@@ -773,6 +813,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295065",
+        "url": "https://www.ticketliquidator.com/tickets/8295065/A-Perfect-Circle-tickets-Wed-Apr-28-2027-Mohegan-Sun-Arena-CT",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_KhQ_FXg",
@@ -785,7 +832,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-04-22T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295065/A-Perfect-Circle-tickets-Wed-Apr-28-2027-Mohegan-Sun-Arena-CT"
   },
   {
     "id": "tm-a-perfect-circle-2027-camden-vv1aezkfzgkdun44v",
@@ -841,6 +889,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295066",
+        "url": "https://www.ticketliquidator.com/tickets/8295066/A-Perfect-Circle-tickets-Fri-Apr-30-2027-Freedom-Mortgage-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfzGkduN44V",
@@ -853,7 +908,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-04-24T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295066/A-Perfect-Circle-tickets-Fri-Apr-30-2027-Freedom-Mortgage-Pavilion"
   },
   {
     "id": "tm-a-perfect-circle-2027-newark-vv1aezkfzgkecfwzd",
@@ -916,6 +972,13 @@
         "verified": true,
         "last_verified_at": "2026-10-05",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295067",
+        "url": "https://www.ticketliquidator.com/tickets/8295067/A-Perfect-Circle-tickets-Sat-May-1-2027-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkfzGkecfWzD",
@@ -929,7 +992,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-04-24T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295067/A-Perfect-Circle-tickets-Sat-May-1-2027-Prudential-Center"
   },
   {
     "id": "tm-a-perfect-circle-2027-charlotte-g5evz_kj8b4gy",
@@ -985,6 +1049,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295068",
+        "url": "https://www.ticketliquidator.com/tickets/8295068/A-Perfect-Circle-tickets-Tue-May-4-2027-Truliant-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Kj8b4gY",
@@ -997,7 +1068,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-04-28T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295068/A-Perfect-Circle-tickets-Tue-May-4-2027-Truliant-Amphitheater"
   },
   {
     "id": "tm-a-perfect-circle-2027-duluth-vvg1zz_kxwhwhz",
@@ -1053,6 +1125,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295069",
+        "url": "https://www.ticketliquidator.com/tickets/8295069/A-Perfect-Circle-tickets-Wed-May-5-2027-Gas-South-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KxWhwHz",
@@ -1065,7 +1144,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-04-29T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295069/A-Perfect-Circle-tickets-Wed-May-5-2027-Gas-South-Arena"
   },
   {
     "id": "tm-a-perfect-circle-2027-the-woodlands-g5diz_kjdvhi6",
@@ -1186,6 +1266,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295071",
+        "url": "https://www.ticketliquidator.com/tickets/8295071/A-Perfect-Circle-tickets-Sat-May-15-2027-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KNjkaLN",
@@ -1198,7 +1285,8 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-05-09T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295071/A-Perfect-Circle-tickets-Sat-May-15-2027-Bridgestone-Arena"
   },
   {
     "id": "tm-a-perfect-circle-2027-saint-louis-vv1akzkfugkdepcmi",
@@ -1314,6 +1402,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295073",
+        "url": "https://www.ticketliquidator.com/tickets/8295073/A-Perfect-Circle-tickets-Thu-May-20-2027-Blossom-Music-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZkfzGkeUTDUJ",
@@ -1336,7 +1431,8 @@
         "start": "2026-10-02T14:00:00Z",
         "end": "2027-05-18T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295073/A-Perfect-Circle-tickets-Thu-May-20-2027-Blossom-Music-Center"
   },
   {
     "id": "tm-a-perfect-circle-2027-chicago-vv1kjz_kf7g7lms3",
@@ -1392,6 +1488,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295074",
+        "url": "https://www.ticketliquidator.com/tickets/8295074/A-Perfect-Circle-tickets-Sat-May-22-2027-Wintrust-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kjZ_Kf7G7lMS3",
@@ -1404,7 +1507,8 @@
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-05-16T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295074/A-Perfect-Circle-tickets-Sat-May-22-2027-Wintrust-Arena"
   },
   {
     "id": "tm-a-perfect-circle-2027-shakopee-1a-zkfygkehcamo",
@@ -1592,6 +1696,13 @@
         "verified": true,
         "last_verified_at": "2026-10-05",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295077",
+        "url": "https://www.ticketliquidator.com/tickets/8295077/A-Perfect-Circle-tickets-Sun-May-30-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KfmPpZS",
@@ -1605,7 +1716,8 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-05-24T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295077/A-Perfect-Circle-tickets-Sun-May-30-2027-Climate-Pledge-Arena"
   },
   {
     "id": "tm-a-perfect-circle-2027-portland-vvg1hz_kbfgxyu",
@@ -1797,6 +1909,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295079",
+        "url": "https://www.ticketliquidator.com/tickets/8295079/A-Perfect-Circle-tickets-Fri-Jun-4-2027-Cow-Palace",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KwFsETp",
@@ -1809,7 +1928,8 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-05-29T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295079/A-Perfect-Circle-tickets-Fri-Jun-4-2027-Cow-Palace"
   },
   {
     "id": "tm-a-perfect-circle-2027-hollywood-vvg1iz_kj6yzfl",
@@ -1949,6 +2069,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295080",
+        "url": "https://www.ticketliquidator.com/tickets/8295080/A-Perfect-Circle-tickets-Tue-Jun-8-2027-North-Island-Credit-Union-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_KL8JvKq",
@@ -1966,7 +2093,8 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-06-02T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295080/A-Perfect-Circle-tickets-Tue-Jun-8-2027-North-Island-Credit-Union-Amphitheatre"
   },
   {
     "id": "tm-a-perfect-circle-2027-las-vegas-1a9zkfmgkd8myho",
@@ -2174,6 +2302,13 @@
         "verified": true,
         "last_verified_at": "2026-10-02",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295082",
+        "url": "https://www.ticketliquidator.com/tickets/8295082/A-Perfect-Circle-tickets-Sun-Jun-13-2027-Talking-Stick-Resort-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_ZkfsGkd23t56",
@@ -2186,7 +2321,8 @@
         "start": "2026-10-02T17:00:00Z",
         "end": "2027-06-07T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295082/A-Perfect-Circle-tickets-Sun-Jun-13-2027-Talking-Stick-Resort-Amphitheatre"
   },
   {
     "id": "tm-a-perfect-circle-2027-grand-prairie-z7r9jz1aae8a6",
@@ -2311,12 +2447,20 @@
         "verified": true,
         "last_verified_at": "2026-10-03",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295091",
+        "url": "https://www.ticketliquidator.com/tickets/8295091/A-Perfect-Circle-tickets-Thu-May-27-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8aF",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295091"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295091",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295091/A-Perfect-Circle-tickets-Thu-May-27-2027-Red-Rocks-Amphitheatre"
   },
   {
     "id": "tm-a-perfect-circle-2026-auckland-1ae8z_kgkr16koz",
@@ -2365,10 +2509,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8173268",
+        "url": "https://www.ticketnetwork.com/en/p/8173268",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8173268",
+        "url": "https://www.ticketliquidator.com/tickets/8173268/A-Perfect-Circle-tickets-Sun-Dec-13-2026-Spark-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_kGkR16KOz",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173268",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8173268/A-Perfect-Circle-tickets-Sun-Dec-13-2026-Spark-Arena"
   }
 ]

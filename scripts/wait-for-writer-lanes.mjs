@@ -76,6 +76,14 @@ export const DEFAULT_MAX_WAIT_MINUTES = 14;
 export const POLL_MS = 30_000;
 const ACTIVE_STATUSES = ["in_progress", "queued", "pending"];
 
+// These lanes share a static GitHub concurrency group. A queued peer cannot
+// start while our run holds that group, even if it was created before us:
+// GitHub does not promise FIFO ordering for concurrency groups.
+export const SHARED_WRITER_GROUPS = {
+  "seatgeek-cta-sync.yml": "resale-cta-sync",
+  "vividseats-cta-sync.yml": "resale-cta-sync",
+};
+
 const workflowFile = (run) => String(run?.path || "").split("@")[0].split("/").pop();
 
 // The older, still-active writer runs `self` must wait for. Pure.
@@ -87,6 +95,9 @@ export function findBlockers({ runs, self, lanes = WRITER_LANES }) {
     seen.add(run.id);
     if (run.status === "completed") return false;
     if (!lanes.includes(workflowFile(run))) return false;
+    const group = SHARED_WRITER_GROUPS[workflowFile(self)];
+    if (group && group === SHARED_WRITER_GROUPS[workflowFile(run)]
+      && ["queued", "pending"].includes(run.status)) return false;
     const at = Date.parse(run.created_at);
     // Ties go to the lower id, so two runs created in the same second still
     // order themselves one way round and never wait on each other.
@@ -211,6 +222,14 @@ async function selfTest() {
   assert.deepEqual(findBlockers({ runs: [{ ...older, status: "completed" }], self }), [], "a completed run is not in flight");
   assert.deepEqual(findBlockers({ runs: [run(41, "prelaunch-validation.yml", "2026-09-27T10:30:00Z")], self }), [], "non-writer workflows are ignored");
   assert.deepEqual(findBlockers({ runs: [older, older], self }).length, 1, "a run listed under two statuses counts once");
+  for (const status of ["queued", "pending"]) {
+    assert.deepEqual(findBlockers({ runs: [{ ...older, status }], self }), [],
+      `a ${status} peer in our concurrency group cannot start until we finish`);
+    assert.equal(findBlockers({ runs: [run(39, "nightly-data-sync.yml", older.created_at, status)], self }).length, 1,
+      `a ${status} writer in another concurrency group still blocks us`);
+    assert.deepEqual(findBlockers({ runs: [{ ...older, path: self.path, status }], self }), [],
+      `a ${status} older run of our own lane cannot start either`);
+  }
   assert.deepEqual(
     findBlockers({ runs: [{ ...older, path: ".github/workflows/seatgeek-cta-sync.yml@refs/heads/main" }], self }).length,
     1,
@@ -259,6 +278,10 @@ async function selfTest() {
     Object.values(wf.jobs || {}).some((job) =>
       (job.steps || []).some((s) => /git add[^\n]*public\/data\/events|sync-tm-events-write-pr\.mjs|node scripts\/run-work-queue-repair\.mjs(?! --self-test)/.test(s.run || ""))
     );
+  for (const [file, group] of Object.entries(SHARED_WRITER_GROUPS)) {
+    assert.equal(workflows[file].concurrency?.group, group, `${file}: shared group must match the workflow`);
+    assert.equal(workflows[file].concurrency?.["cancel-in-progress"], false, `${file}: running writer must hold its group`);
+  }
   const derived = Object.keys(workflows).filter((f) => writes(workflows[f])).sort();
   assert.deepEqual(derived, [...WRITER_LANES].sort(), "WRITER_LANES must list exactly the workflows that commit event data");
   for (const file of WAITING_LANES) {

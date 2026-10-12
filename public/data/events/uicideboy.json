@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107156169",
+        "url": "https://www.stubhub.ie/uicideboy-austin-tickets-10-13-2026/event/107156169",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_6RFioeH",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/uicideboy-austin-tickets-10-13-2026/event/107156169"
   },
   {
     "id": "tm-uicideboy-2026-new-orleans-g5viz_6roljgm",
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107156171",
+        "url": "https://www.stubhub.ie/uicideboy-new-orleans-tickets-10-14-2026/event/107156171",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_6RoLjgm",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/uicideboy-new-orleans-tickets-10-14-2026/event/107156171"
   },
   {
     "id": "tm-uicideboy-2026-atlanta-vvg1zz_6rspgk8",
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107155129",
+        "url": "https://www.stubhub.ie/uicideboy-atlanta-tickets-10-16-2026/event/107155129",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_6RsPgK8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/uicideboy-atlanta-tickets-10-16-2026/event/107155129"
   },
   {
     "id": "tm-uicideboy-2026-tampa-vvg1vz_6rke2ej",
@@ -311,11 +335,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107156173",
+        "url": "https://www.stubhub.ie/uicideboy-sunrise-tickets-10-18-2026/event/107156173",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7xZpd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/uicideboy-sunrise-tickets-10-18-2026/event/107156173"
   },
   {
     "id": "tm-uicideboy-2026-birmingham-1aezz_6gkra4gmu",

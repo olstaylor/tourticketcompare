@@ -106,6 +106,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255034",
+        "url": "https://www.ticketliquidator.com/tickets/8255034/Trans-Siberian-Orchestra-tickets-Thu-Nov-19-2026-Mid-America-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_8GkR7R5-J",
@@ -123,7 +130,8 @@
         "start": "2026-09-18T15:00:00Z",
         "end": "2026-11-20T01:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255034/Trans-Siberian-Orchestra-tickets-Thu-Nov-19-2026-Mid-America-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-cincinnati-1apzkffgkdggxqt",
@@ -442,6 +450,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255046",
+        "url": "https://www.ticketliquidator.com/tickets/8255046/Trans-Siberian-Orchestra-tickets-Tue-Nov-24-2026-Mohegan-Arena-at-Casey-Plaza",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_8GkU2VDcC",
@@ -459,7 +474,8 @@
         "start": "2026-09-20T14:00:00Z",
         "end": "2026-10-28T03:59:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255046/Trans-Siberian-Orchestra-tickets-Tue-Nov-24-2026-Mohegan-Arena-at-Casey-Plaza"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-manchester-vv1avzkffgkecconl",
@@ -980,6 +996,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255062",
+        "url": "https://www.ticketliquidator.com/tickets/8255062/Trans-Siberian-Orchestra-tickets-Wed-Dec-2-2026-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_oinLsr4",
@@ -1017,7 +1040,8 @@
         "start": "2026-10-08T15:00:00Z",
         "end": "2026-11-01T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255062/Trans-Siberian-Orchestra-tickets-Wed-Dec-2-2026-Bridgestone-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-charleston-1avbz_8gkwouueg",
@@ -1159,6 +1183,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255064",
+        "url": "https://www.ticketliquidator.com/tickets/8255064/Trans-Siberian-Orchestra-tickets-Thu-Dec-3-2026-Save-Mart-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_o5RJusR",
@@ -1171,7 +1202,8 @@
         "start": "2026-09-18T17:00:00Z",
         "end": "2026-11-06T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255064/Trans-Siberian-Orchestra-tickets-Thu-Dec-3-2026-Save-Mart-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-toledo-vv1kezvpv_gacwg13",
@@ -1540,6 +1572,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255080",
+        "url": "https://www.ticketliquidator.com/tickets/8255080/Trans-Siberian-Orchestra-tickets-Wed-Dec-9-2026-PPL-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G62Dv8E6s",
@@ -1552,7 +1591,8 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-11-11T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255080/Trans-Siberian-Orchestra-tickets-Wed-Dec-9-2026-PPL-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-austin-g5diz_od7g9c0",
@@ -1615,6 +1655,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255081",
+        "url": "https://www.ticketliquidator.com/tickets/8255081/Trans-Siberian-Orchestra-tickets-Wed-Dec-9-2026-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_od7G9C0",
@@ -1643,7 +1690,8 @@
         "start": "2026-10-08T15:00:00Z",
         "end": "2026-11-01T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255081/Trans-Siberian-Orchestra-tickets-Wed-Dec-9-2026-Moody-Center-ATX"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-raleigh-g5evz_2wee5m0",
@@ -1706,6 +1754,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255082",
+        "url": "https://www.ticketliquidator.com/tickets/8255082/Trans-Siberian-Orchestra-tickets-Thu-Dec-10-2026-Lenovo-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_2wEe5m0",
@@ -1734,7 +1789,8 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2026-11-01T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255082/Trans-Siberian-Orchestra-tickets-Thu-Dec-10-2026-Lenovo-Center"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-bossier-city-g5viz_8b0hcmp",
@@ -1790,6 +1846,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255084",
+        "url": "https://www.ticketliquidator.com/tickets/8255084/Trans-Siberian-Orchestra-tickets-Thu-Dec-10-2026-Brookshire-Grocery-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_8B0hCMp",
@@ -1802,7 +1865,8 @@
         "start": "2026-09-18T15:00:00Z",
         "end": "2026-11-13T04:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255084/Trans-Siberian-Orchestra-tickets-Thu-Dec-10-2026-Brookshire-Grocery-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-greenville-g5evz_o2s2bkg",
@@ -2236,6 +2300,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255100",
+        "url": "https://www.ticketliquidator.com/tickets/8255100/Trans-Siberian-Orchestra-tickets-Wed-Dec-16-2026-John-Paul-Jones-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_oGkSqLPte",
@@ -2263,7 +2334,8 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2026-11-01T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255100/Trans-Siberian-Orchestra-tickets-Wed-Dec-16-2026-John-Paul-Jones-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-birmingham-1aezz_ockcvzdcau",
@@ -2326,6 +2398,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255101",
+        "url": "https://www.ticketliquidator.com/tickets/8255101/Trans-Siberian-Orchestra-tickets-Wed-Dec-16-2026-Legacy-Arena-at-The-BJCC",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aeZZ_oCKCvZdCau",
@@ -2339,7 +2418,8 @@
         "start": "2026-10-08T15:00:00Z",
         "end": "2026-11-01T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255101/Trans-Siberian-Orchestra-tickets-Wed-Dec-16-2026-Legacy-Arena-at-The-BJCC"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-jacksonville-1aefz_ogkwzigon",
@@ -2395,6 +2475,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255102",
+        "url": "https://www.ticketliquidator.com/tickets/8255102/Trans-Siberian-Orchestra-tickets-Thu-Dec-17-2026-VyStar-Veterans-Memorial-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_oGkwzigoN",
@@ -2417,7 +2504,8 @@
         "start": "2026-10-08T14:00:00Z",
         "end": "2026-11-01T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255102/Trans-Siberian-Orchestra-tickets-Thu-Dec-17-2026-VyStar-Veterans-Memorial-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-albany-k7vgf_8uqsipg",
@@ -2473,6 +2561,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255103",
+        "url": "https://www.ticketliquidator.com/tickets/8255103/Trans-Siberian-Orchestra-tickets-Thu-Dec-17-2026-MVP-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_8UQSipG",
@@ -2490,7 +2585,8 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-12-04T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255103/Trans-Siberian-Orchestra-tickets-Thu-Dec-17-2026-MVP-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-hershey-vv1aovpkfgau5bfb",
@@ -2628,13 +2724,21 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255106",
+        "url": "https://www.ticketliquidator.com/tickets/8255106/Trans-Siberian-Orchestra-tickets-Fri-Dec-18-2026-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNAg",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255106",
-    "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-sunrise-tickets-12-18-2026/event/107666302"
+    "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-sunrise-tickets-12-18-2026/event/107666302",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255106/Trans-Siberian-Orchestra-tickets-Fri-Dec-18-2026-Amerant-Bank-Arena"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-orlando-1aefz_8gkmasnhq",
@@ -3536,12 +3640,20 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255067",
+        "url": "https://www.ticketliquidator.com/tickets/8255067/Trans-Siberian-Orchestra-tickets-Fri-Dec-4-2026-Michelob-ULTRA-Arena-At-Mandalay-Bay",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvNZS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255067"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255067",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255067/Trans-Siberian-Orchestra-tickets-Fri-Dec-4-2026-Michelob-ULTRA-Arena-At-Mandalay-Bay"
   },
   {
     "id": "tm-trans-siberian-orchestra-2026-toronto-1avzz_8gkmdenjm",

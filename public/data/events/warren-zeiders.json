@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "3E00636A91763685",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/warren-zeiders-glasgow-11-10-2026/event/3E00636A91763685",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-glasgow-o2-academy-glasgow-10-11-2026--concerts-country-and-folk/production/6277275",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/warren-zeiders-glasgow-11-10-2026/event/3E00636A91763685",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6277275,
-        "url": "https://www.vividseats.com/warren-zeiders-tickets-glasgow-o2-academy-glasgow-10-11-2026--concerts-country-and-folk/production/6277275",
-        "verified": true,
-        "last_verified_at": "2026-10-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -89,7 +89,7 @@
     "ticketmaster_event_id": "3E0063663072FDB1",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/warren-zeiders-leeds-12-10-2026/event/3E0063663072FDB1",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-leeds-o2-academy---leeds-10-12-2026--concerts-country-and-folk/production/6420846",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/warren-zeiders-leeds-12-10-2026/event/3E0063663072FDB1",
     "last_verified_at": "2026-10-07",
@@ -111,11 +111,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6420846,
-        "url": "https://www.vividseats.com/warren-zeiders-tickets-leeds-o2-academy---leeds-10-12-2026--concerts-country-and-folk/production/6420846",
-        "verified": true,
-        "last_verified_at": "2026-10-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -173,7 +173,7 @@
     "ticketmaster_event_id": "1F00635FDE00908E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/warren-zeiders-manchester-14-10-2026/event/1F00635FDE00908E",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/warren-zeiders-tickets-manchester-manchester-academy-10-14-2026--concerts-country-and-folk/production/6277273",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/warren-zeiders-manchester-14-10-2026/event/1F00635FDE00908E",
     "last_verified_at": null,
@@ -195,11 +195,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 6277273,
-        "url": "https://www.vividseats.com/warren-zeiders-tickets-manchester-manchester-academy-10-14-2026--concerts-country-and-folk/production/6277273",
-        "verified": true,
-        "last_verified_at": "2026-10-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -352,7 +352,7 @@
         "event_id": 6277263,
         "url": "https://www.vividseats.com/warren-zeiders-tickets-birmingham-o2-academy---birmingham-10-16-2026--concerts-country-and-folk/production/6277263",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -506,7 +506,7 @@
         "event_id": 7653877,
         "url": "https://www.vividseats.com/warren-zeiders-tickets-lake-buena-vista-house-of-blues-orlando-3-25-2027/production/7653877",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -595,7 +595,7 @@
         "event_id": 7653928,
         "url": "https://www.vividseats.com/warren-zeiders-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-3-26-2027/production/7653928",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -671,7 +671,7 @@
         "event_id": 7653930,
         "url": "https://www.vividseats.com/warren-zeiders-tickets-waukee-vibrant-music-hall-4-2-2027/production/7653930",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -752,7 +752,7 @@
         "event_id": 7654266,
         "url": "https://www.vividseats.com/warren-zeiders-tickets-grand-rapids-glc-live-at-20-monroe-4-15-2027/production/7654266",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -974,7 +974,7 @@
         "event_id": 7653452,
         "url": "https://www.vividseats.com/warren-zeiders-tickets-pittsburgh-citizens-live-at-the-wylie-4-23-2027/production/7653452",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1055,7 +1055,7 @@
         "event_id": 7653990,
         "url": "https://www.vividseats.com/warren-zeiders-tickets-cincinnati-andrew-j-brady-music-center-4-24-2027/production/7653990",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1123,7 +1123,7 @@
         "event_id": 7653998,
         "url": "https://www.vividseats.com/warren-zeiders-tickets-columbia-township-auditorium-4-29-2027/production/7653998",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1199,7 +1199,7 @@
         "event_id": 7654298,
         "url": "https://www.vividseats.com/warren-zeiders-tickets-atlanta-coca-cola-roxy-theatre-4-30-2027/production/7654298",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "stubhub": {

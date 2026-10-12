@@ -5233,5 +5233,113 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314994",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314994/Nickelback-tickets-Fri-Jul-9-2027-Unity-Arena"
+  },
+  {
+    "id": "tm-nickelback-2027-waurn-ponds-1akzk4fgker3psp",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "NICKELBACK \"Everything Under The Sun\" Tour (Concert & Dining)",
+    "city": "Waurn Ponds",
+    "country": "Australia",
+    "venue": "Mount Duneed Estate",
+    "datetime_iso": "2027-10-09T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006548AF496C65",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-waurn-ponds-09-10-2027/event/13006548AF496C65",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-waurn-ponds-09-10-2027/event/13006548AF496C65",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006548AF496C65",
+        "discovery_event_id": "1AKZk4FGkeR3psP",
+        "url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-waurn-ponds-09-10-2027/event/13006548AF496C65",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZk4FGkeR3psP",
+    "timezone": "Australia/Melbourne",
+    "status": "announced",
+    "public_onsale_at": "2026-10-15T23:00:00Z"
+  },
+  {
+    "id": "tm-nickelback-2027-pokolbin-1akzk46gkdiziaq",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "NICKELBACK \"Everything Under The Sun\" Tour",
+    "city": "Pokolbin",
+    "country": "Australia",
+    "venue": "Roche Estate",
+    "datetime_iso": "2027-10-16T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006547ECE2C15A",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-pokolbin-16-10-2027/event/13006547ECE2C15A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-pokolbin-16-10-2027/event/13006547ECE2C15A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006547ECE2C15A",
+        "discovery_event_id": "1AKZk46GkdiziAQ",
+        "url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-pokolbin-16-10-2027/event/13006547ECE2C15A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZk46GkdiziAQ",
+    "timezone": "Australia/Sydney",
+    "status": "announced",
+    "public_onsale_at": "2026-10-15T23:00:00Z"
   }
 ]

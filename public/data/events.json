@@ -229559,5 +229559,329 @@
     "ticketmaster_discovery_event_id": "1AvbZ_KGkUEz9wb",
     "timezone": "America/New_York",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-hazlett-2027-glasgow-1auzkfggkeyhp7l",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Queen Margaret Union",
+    "datetime_iso": "2027-03-16T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006535B06E511F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hazlett-glasgow-16-03-2027/event/36006535B06E511F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hazlett-glasgow-16-03-2027/event/36006535B06E511F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006535B06E511F",
+        "discovery_event_id": "1AUZkfgGkeYhP7L",
+        "url": "https://www.ticketmaster.co.uk/hazlett-glasgow-16-03-2027/event/36006535B06E511F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkfgGkeYhP7L",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T09:00:00Z"
+  },
+  {
+    "id": "tm-hazlett-2027-manchester-g5vhz_klkyfqd",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Manchester Academy 2",
+    "datetime_iso": "2027-03-17T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006537C6C146BB",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hazlett-manchester-17-03-2027/event/1F006537C6C146BB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hazlett-manchester-17-03-2027/event/1F006537C6C146BB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006537C6C146BB",
+        "discovery_event_id": "G5vHZ_KLkYfQD",
+        "url": "https://www.ticketmaster.co.uk/hazlett-manchester-17-03-2027/event/1F006537C6C146BB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_KLkYfQD",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T09:00:00Z"
+  },
+  {
+    "id": "tm-hazlett-2027-dublin-1abzkfmgkdlb_c6",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "The Academy",
+    "datetime_iso": "2027-03-18T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006537EBE99B47",
+    "ticketmaster_url": "https://www.ticketmaster.ie/hazlett-dublin-18-03-2027/event/18006537EBE99B47",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/hazlett-dublin-18-03-2027/event/18006537EBE99B47",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006537EBE99B47",
+        "discovery_event_id": "1AbZkfMGkdlB_c6",
+        "url": "https://www.ticketmaster.ie/hazlett-dublin-18-03-2027/event/18006537EBE99B47",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkfMGkdlB_c6",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T09:00:00Z"
+  },
+  {
+    "id": "tm-hazlett-2027-london-g5dzz_3nl_fgq",
+    "artist_slug": "hazlett",
+    "artist_name": "Hazlett",
+    "event_name": "Hazlett",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Shepherds Bush Empire",
+    "datetime_iso": "2027-03-20T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006528EB654D5A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hazlett-london-20-03-2027/event/3E006528EB654D5A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hazlett-london-20-03-2027/event/3E006528EB654D5A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006528EB654D5A",
+        "discovery_event_id": "G5dzZ_3Nl_fgQ",
+        "url": "https://www.ticketmaster.co.uk/hazlett-london-20-03-2027/event/3E006528EB654D5A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_3Nl_fgQ",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T09:00:00Z"
+  },
+  {
+    "id": "tm-nickelback-2027-waurn-ponds-1akzk4fgker3psp",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "NICKELBACK \"Everything Under The Sun\" Tour (Concert & Dining)",
+    "city": "Waurn Ponds",
+    "country": "Australia",
+    "venue": "Mount Duneed Estate",
+    "datetime_iso": "2027-10-09T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006548AF496C65",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-waurn-ponds-09-10-2027/event/13006548AF496C65",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-waurn-ponds-09-10-2027/event/13006548AF496C65",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006548AF496C65",
+        "discovery_event_id": "1AKZk4FGkeR3psP",
+        "url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-waurn-ponds-09-10-2027/event/13006548AF496C65",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZk4FGkeR3psP",
+    "timezone": "Australia/Melbourne",
+    "status": "announced",
+    "public_onsale_at": "2026-10-15T23:00:00Z"
+  },
+  {
+    "id": "tm-nickelback-2027-pokolbin-1akzk46gkdiziaq",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "NICKELBACK \"Everything Under The Sun\" Tour",
+    "city": "Pokolbin",
+    "country": "Australia",
+    "venue": "Roche Estate",
+    "datetime_iso": "2027-10-16T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006547ECE2C15A",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-pokolbin-16-10-2027/event/13006547ECE2C15A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-pokolbin-16-10-2027/event/13006547ECE2C15A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006547ECE2C15A",
+        "discovery_event_id": "1AKZk46GkdiziAQ",
+        "url": "https://www.ticketmaster.com.au/nickelback-everything-under-the-sun-tour-pokolbin-16-10-2027/event/13006547ECE2C15A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZk46GkdiziAQ",
+    "timezone": "Australia/Sydney",
+    "status": "announced",
+    "public_onsale_at": "2026-10-15T23:00:00Z"
   }
 ]

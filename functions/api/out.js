@@ -1695,6 +1695,90 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-mei-semones",
     redirectUrl: "https://seatgeek.com/mei-semones-tickets",
     verified: true
+  },
+  "slipknot:ticketmaster": {
+    artistSlug: "slipknot",
+    provider: "ticketmaster",
+    linkId: "tm-artist-slipknot",
+    redirectUrl: "https://www.ticketmaster.com/slipknot-tickets/artist/763913",
+    verified: true
+  },
+  "slipknot:seatgeek": {
+    artistSlug: "slipknot",
+    provider: "seatgeek",
+    linkId: "sg-artist-slipknot",
+    redirectUrl: "https://seatgeek.com/slipknot-tickets",
+    verified: true
+  },
+  "noah-kahan:ticketmaster": {
+    artistSlug: "noah-kahan",
+    provider: "ticketmaster",
+    linkId: "tm-artist-noah-kahan",
+    redirectUrl: "https://www.ticketmaster.com/noah-kahan-tickets/artist/2385568",
+    verified: true
+  },
+  "noah-kahan:seatgeek": {
+    artistSlug: "noah-kahan",
+    provider: "seatgeek",
+    linkId: "sg-artist-noah-kahan",
+    redirectUrl: "https://seatgeek.com/noah-kahan-tickets",
+    verified: true
+  },
+  "eagles:ticketmaster": {
+    artistSlug: "eagles",
+    provider: "ticketmaster",
+    linkId: "tm-artist-eagles",
+    redirectUrl: "https://www.ticketmaster.com/eagles-tickets/artist/734977",
+    verified: true
+  },
+  "eagles:seatgeek": {
+    artistSlug: "eagles",
+    provider: "seatgeek",
+    linkId: "sg-artist-eagles",
+    redirectUrl: "https://seatgeek.com/eagles-tickets",
+    verified: true
+  },
+  "journey:ticketmaster": {
+    artistSlug: "journey",
+    provider: "ticketmaster",
+    linkId: "tm-artist-journey",
+    redirectUrl: "https://www.ticketmaster.com/journey-tickets/artist/735415",
+    verified: true
+  },
+  "journey:seatgeek": {
+    artistSlug: "journey",
+    provider: "seatgeek",
+    linkId: "sg-artist-journey",
+    redirectUrl: "https://seatgeek.com/journey-tickets",
+    verified: true
+  },
+  "john-mayer:ticketmaster": {
+    artistSlug: "john-mayer",
+    provider: "ticketmaster",
+    linkId: "tm-artist-john-mayer",
+    redirectUrl: "https://www.ticketmaster.com/john-mayer-tickets/artist/770494",
+    verified: true
+  },
+  "john-mayer:seatgeek": {
+    artistSlug: "john-mayer",
+    provider: "seatgeek",
+    linkId: "sg-artist-john-mayer",
+    redirectUrl: "https://seatgeek.com/john-mayer-tickets",
+    verified: true
+  },
+  "backstreet-boys:ticketmaster": {
+    artistSlug: "backstreet-boys",
+    provider: "ticketmaster",
+    linkId: "tm-artist-backstreet-boys",
+    redirectUrl: "https://www.ticketmaster.com/backstreet-boys-tickets/artist/781254",
+    verified: true
+  },
+  "backstreet-boys:seatgeek": {
+    artistSlug: "backstreet-boys",
+    provider: "seatgeek",
+    linkId: "sg-artist-backstreet-boys",
+    redirectUrl: "https://seatgeek.com/backstreet-boys-tickets",
+    verified: true
   }
 };
 

@@ -1522,5 +1522,89 @@
     "last_verified_at": "2026-10-11",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-11"
+  },
+  {
+    "slug": "slipknot",
+    "name": "Slipknot",
+    "short_description": "Metal act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-12",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-12"
+  },
+  {
+    "slug": "noah-kahan",
+    "name": "Noah Kahan",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-12",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-12"
+  },
+  {
+    "slug": "eagles",
+    "name": "Eagles",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-12",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-12"
+  },
+  {
+    "slug": "journey",
+    "name": "Journey",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-12",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-12"
+  },
+  {
+    "slug": "john-mayer",
+    "name": "John Mayer",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-12",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-12"
+  },
+  {
+    "slug": "backstreet-boys",
+    "name": "Backstreet Boys",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-12",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-12"
   }
 ]

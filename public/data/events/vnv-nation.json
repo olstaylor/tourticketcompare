@@ -593,7 +593,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7qp8U",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qp8U",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/vnv-nation-tickets-mesa-nile-theater---mesa-3-18-2027--concerts-rock/production/7235020",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7qp8U",
     "last_verified_at": "2026-10-11",
@@ -615,11 +615,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7235020,
+        "url": "https://www.vividseats.com/vnv-nation-tickets-mesa-nile-theater---mesa-3-18-2027--concerts-rock/production/7235020",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -918,7 +918,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7q0ef",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q0ef",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/vnv-nation-tickets-omaha-slowdown-3-29-2027/production/7234213",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7q0ef",
     "last_verified_at": "2026-10-11",
@@ -940,11 +940,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7234213,
+        "url": "https://www.vividseats.com/vnv-nation-tickets-omaha-slowdown-3-29-2027/production/7234213",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1119,7 +1119,7 @@
     "ticketmaster_event_id": "1000634D26306DF2",
     "ticketmaster_url": "https://www.ticketmaster.ca/vnv-nation-an-evening-with-toronto-ontario-04-04-2027/event/1000634D26306DF2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/vnv-nation-tickets-toronto-the-danforth-music-hall-4-4-2027/production/7237610",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/vnv-nation-an-evening-with-toronto-ontario-04-04-2027/event/1000634D26306DF2",
     "last_verified_at": "2026-10-11",
@@ -1141,11 +1141,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7237610,
+        "url": "https://www.vividseats.com/vnv-nation-tickets-toronto-the-danforth-music-hall-4-4-2027/production/7237610",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1173,7 +1173,7 @@
     "ticketmaster_event_id": "3100634ADE4D87A9",
     "ticketmaster_url": "https://www.ticketmaster.ca/vnv-nation-montreal-quebec-04-06-2027/event/3100634ADE4D87A9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/vnv-nation-tickets-montreal-beanfield-theatre-4-6-2027/production/7237583",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/vnv-nation-montreal-quebec-04-06-2027/event/3100634ADE4D87A9",
     "last_verified_at": "2026-10-11",
@@ -1195,11 +1195,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7237583,
+        "url": "https://www.vividseats.com/vnv-nation-tickets-montreal-beanfield-theatre-4-6-2027/production/7237583",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

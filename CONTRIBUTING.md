@@ -12,6 +12,56 @@ npm run dev          # Pages preview at http://localhost:3000
                      # Health check at http://localhost:3000/api/health
 ```
 
+## Browser development with Claude Code
+
+The [dev container](.devcontainer/devcontainer.json) supplies Node 22, Python 3.12,
+Claude Code's stable native release and the dependencies from `package-lock.json`.
+It works with GitHub Codespaces and installs without an Anthropic API key. Setup
+only installs tooling and checks the CLI version; it does not call a model, start
+the site, run provider jobs or deploy anything.
+
+1. Add a **personal Codespaces secret** named `ANTHROPIC_API_KEY` at
+   [GitHub Settings → Codespaces](https://github.com/settings/codespaces), and
+   grant it access to this repository. Use the key associated with your Anthropic
+   API credit. Personal secrets become available after codespace creation and
+   are not required by the prebuild. Do not put the key in repository files.
+2. Open the repository's **Code → Codespaces → Create codespace**. For an existing
+   codespace, rebuild the container after this configuration is available. If you
+   add or change the secret later, stop and restart the codespace to load it.
+3. In the browser terminal, run `claude`. The project instructions and the
+   [maintenance reviewer](.claude/agents/maintenance-reviewer.md) are loaded from
+   the repository. Use `/agents` to inspect the agent and `/cost` to inspect usage.
+   Start with:
+
+   > Use maintenance-reviewer to inspect the provider-sync reports and maintenance
+   > workflows. Identify the most useful next action supported by repository
+   > evidence. Don't change files.
+
+4. Run `npm run dev` when you want the site preview, and open forwarded port 3000.
+   Claude's API credit does not cover GitHub compute or storage; stop the codespace
+   when finished.
+
+### Enable Codespaces prebuilds
+
+After this configuration reaches the intended branch, a repository administrator
+can open **Settings → Codespaces → Set up prebuild** and choose that branch
+(normally `main`) and `.devcontainer/devcontainer.json`. Start with **On
+configuration change**, your working region only, and one retained version to
+limit GitHub storage and Actions usage. GitHub creates the prebuild workflow;
+adding the dev container alone does not enable prebuilds.
+
+The prebuild runs `onCreateCommand` to install Claude and `updateContentCommand`
+to install locked project dependencies. Codespace creation also runs the content
+update for its checkout, so dependency changes can be installed even when the
+prebuild trigger is **On configuration change**. Select **Every push** instead
+if you want those dependency changes baked into each new prebuild.
+
+Wait for the first prebuild to succeed, then create a codespace and confirm
+`claude --version`, `node --version` and `python3 --version`. Native Claude
+updates can run in the user's codespace; rebuilding refreshes the installer to
+the stable release. No Anthropic credit is spent until you submit a model task.
+See [GitHub's prebuild setup reference](https://docs.github.com/en/codespaces/prebuilding-your-codespaces/configuring-prebuilds).
+
 ---
 
 ## Validation (run the relevant subset before every commit)

@@ -6266,7 +6266,7 @@
     "country": "United States Of America",
     "city": "San Francisco",
     "venue": "Chase Center",
-    "datetime_iso": "2026-10-20T02:30:00Z",
+    "datetime_iso": "2026-10-26T02:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Tour Ma Vie World Tour",
     "status": "on-sale"
@@ -26717,7 +26717,7 @@
     "datetime_iso": "2027-02-02T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-charlotte-g5evz_kukxezh",
@@ -26729,7 +26729,7 @@
     "datetime_iso": "2027-02-06T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-washington-164zkfuqdzacd655",
@@ -26741,7 +26741,7 @@
     "datetime_iso": "2027-02-07T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-washington-1avfz_kgkw7gvak",
@@ -26753,7 +26753,7 @@
     "datetime_iso": "2027-02-08T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-philadelphia-vv1aovpuygauryej",
@@ -26765,7 +26765,7 @@
     "datetime_iso": "2027-02-11T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-brooklyn-k7vgf_kze_vgc",
@@ -26777,7 +26777,7 @@
     "datetime_iso": "2027-02-13T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-toronto-1avzz_kgkstt7dw",
@@ -26789,7 +26789,7 @@
     "datetime_iso": "2027-02-17T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-detroit-vv1afzkfugkelhvg0",
@@ -26801,7 +26801,7 @@
     "datetime_iso": "2027-02-19T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-chicago-vv178z_kgks8xdpl",
@@ -26813,7 +26813,7 @@
     "datetime_iso": "2027-02-20T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-minneapolis-vv17bz_kgkswys5j",
@@ -26825,7 +26825,7 @@
     "datetime_iso": "2027-02-24T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-dallas-vvg1yz_kraozwg",
@@ -26837,7 +26837,7 @@
     "datetime_iso": "2027-02-26T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-phoenix-16v0z_koag7ux58",
@@ -26849,7 +26849,7 @@
     "datetime_iso": "2027-03-04T03:00:00Z",
     "timezone": "America/Phoenix",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-los-angeles-vv1aazkfzgkdgncya",
@@ -26861,7 +26861,7 @@
     "datetime_iso": "2027-03-05T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-san-diego-vvg1iz_ks1c6a3",
@@ -26873,7 +26873,7 @@
     "datetime_iso": "2027-03-06T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-chelsea-cutler-2027-boise-g5vzz_ksxzvbs",
@@ -26885,7 +26885,7 @@
     "datetime_iso": "2027-03-11T03:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "IS THIS THE END? Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2026-pittsburgh-1avbz_fgklj6-n0",
@@ -27101,7 +27101,7 @@
     "datetime_iso": "2027-01-23T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-columbia-g5evz_ksmjps3",
@@ -27113,7 +27113,7 @@
     "datetime_iso": "2027-01-24T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-rosemont-vv178z_kgksozism",
@@ -27125,7 +27125,7 @@
     "datetime_iso": "2027-01-29T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-saint-louis-vv17bz_3gkxtmyfx",
@@ -27137,7 +27137,7 @@
     "datetime_iso": "2027-01-30T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-omaha-vv17bz_kgks0gmzs",
@@ -27149,7 +27149,7 @@
     "datetime_iso": "2027-02-01T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-indianapolis-vv17fz_kgks5i1ir",
@@ -27161,7 +27161,7 @@
     "datetime_iso": "2027-02-06T00:00:00Z",
     "timezone": "America/Indiana/Indianapolis",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-charleston-1avbz_kgkb6hkqy",
@@ -27173,7 +27173,7 @@
     "datetime_iso": "2027-02-12T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-estero-vvg1vz_ks60_np",
@@ -27185,7 +27185,7 @@
     "datetime_iso": "2027-02-26T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-saskatoon-1av7z_kgkwfc4o1",
@@ -27197,7 +27197,7 @@
     "datetime_iso": "2027-03-12T01:00:00Z",
     "timezone": "America/Swift_Current",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-edmonton-1av7z_kgksqo5v0",
@@ -27209,7 +27209,7 @@
     "datetime_iso": "2027-03-13T01:00:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-winnipeg-1av7z_kgkgyzwh1",
@@ -27221,7 +27221,7 @@
     "datetime_iso": "2027-03-15T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-uncasville-g5vvz_koktqjf",
@@ -27233,7 +27233,7 @@
     "datetime_iso": "2027-03-18T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-allentown-1adzz_kgkmg3bkj",
@@ -27245,7 +27245,7 @@
     "datetime_iso": "2027-03-19T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-mobile-g5viz_k1kuycs",
@@ -27293,7 +27293,7 @@
     "datetime_iso": "2027-07-23T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-gilford-vv177z_kgklli63o",
@@ -27305,7 +27305,7 @@
     "datetime_iso": "2027-07-24T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-canandaigua-k7vgf_ksrxvbm",
@@ -27317,7 +27317,7 @@
     "datetime_iso": "2027-07-29T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-clarkston-vv17oz_kgkvl-rxl",
@@ -27329,7 +27329,7 @@
     "datetime_iso": "2027-07-31T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-berkeley-g5vyz_kir6nxo",
@@ -27341,7 +27341,7 @@
     "datetime_iso": "2027-08-13T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-bend-vvg1hz_kwvob2j",
@@ -27353,7 +27353,7 @@
     "datetime_iso": "2027-08-22T01:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-boise-g5vzz_kjqef3d",
@@ -27365,7 +27365,7 @@
     "datetime_iso": "2027-08-23T01:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-rogers-g5viz_kuooawu",
@@ -27377,7 +27377,7 @@
     "datetime_iso": "2027-09-10T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-corpus-christi-g5diz_ksvr9iw",
@@ -27389,7 +27389,7 @@
     "datetime_iso": "2027-09-19T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-red-clay-strays-2027-austin-g5diz_kmbauv1",
@@ -27401,7 +27401,7 @@
     "datetime_iso": "2027-09-20T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Grateful Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-daughtry-2026-valley-center-vvg1iz_5rl2h1n",
@@ -29261,7 +29261,7 @@
     "datetime_iso": "2027-04-24T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-philadelphia-vv17fz_kgks-xsxp",
@@ -29273,7 +29273,7 @@
     "datetime_iso": "2027-04-24T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-detroit-vv17oz_kgksew9wu",
@@ -29285,7 +29285,7 @@
     "datetime_iso": "2027-04-28T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-chicago-vv1k8z_fkfg7zjno",
@@ -29297,7 +29297,7 @@
     "datetime_iso": "2027-04-29T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-milwaukee-vv17jz_kgkloizcl",
@@ -29309,7 +29309,7 @@
     "datetime_iso": "2027-05-01T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-minneapolis-vv17bz_kgkijqu5x",
@@ -29321,7 +29321,7 @@
     "datetime_iso": "2027-05-02T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-vancouver-1av7z_kgkupzetr",
@@ -29333,7 +29333,7 @@
     "datetime_iso": "2027-05-06T03:00:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-seattle-vvg1hz_kbr3b0c",
@@ -29345,7 +29345,7 @@
     "datetime_iso": "2027-05-09T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-sacramento-g5vyz_kmgztid",
@@ -29357,7 +29357,7 @@
     "datetime_iso": "2027-05-12T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-san-francisco-g5vyz_k9cdguj",
@@ -29369,7 +29369,7 @@
     "datetime_iso": "2027-05-13T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-milano-zg9rmiynyzd1ve",
@@ -29489,7 +29489,7 @@
     "datetime_iso": "2027-09-27T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-columbia-16vfz_fkag7mpc7",
@@ -29501,7 +29501,7 @@
     "datetime_iso": "2027-09-30T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-atlanta-vvg1zz_keib7ia",
@@ -29513,7 +29513,7 @@
     "datetime_iso": "2027-10-09T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-inglewood-vv1ke8vpuyga5p1et",
@@ -29525,7 +29525,7 @@
     "datetime_iso": "2027-10-16T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-riley-green-2026-durant-vvg1yz_ggasrcz",
@@ -30689,7 +30689,7 @@
     "datetime_iso": "2027-03-04T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-baltimore-11a8vpokayf8vu",
@@ -30701,7 +30701,7 @@
     "datetime_iso": "2027-03-06T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-pittsburgh-1avbz_kgkdoccp7",
@@ -30713,7 +30713,7 @@
     "datetime_iso": "2027-03-08T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-reading-vv1aezk4vgkeshnyh",
@@ -30725,7 +30725,7 @@
     "datetime_iso": "2027-03-09T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-huntington-1kaovp8iga2ivff",
@@ -30737,7 +30737,7 @@
     "datetime_iso": "2027-03-10T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-tampa-vvg1vz_f6ermdd",
@@ -30749,7 +30749,7 @@
     "datetime_iso": "2027-03-12T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-west-palm-beach-vvg1vz_kdb8l2e",
@@ -30761,7 +30761,7 @@
     "datetime_iso": "2027-03-13T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-birmingham-1aozk4vgkdpep6o",
@@ -30773,7 +30773,7 @@
     "datetime_iso": "2027-03-16T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-oklahoma-city-vvg1yz_kb9ngdb",
@@ -30785,7 +30785,7 @@
     "datetime_iso": "2027-03-18T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-dallas-vvg1yz_ffb7hxs",
@@ -30797,7 +30797,7 @@
     "datetime_iso": "2027-03-19T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-san-antonio-g5diz_fkhzhba",
@@ -30809,7 +30809,7 @@
     "datetime_iso": "2027-03-20T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-denver-g5vzz_f7kx5yq",
@@ -30821,7 +30821,7 @@
     "datetime_iso": "2027-03-23T00:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-boise-g5vzz_kb7mfuo",
@@ -30833,7 +30833,7 @@
     "datetime_iso": "2027-03-25T00:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-seattle-vvg1hz_km9huyk",
@@ -30845,7 +30845,7 @@
     "datetime_iso": "2027-03-28T01:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-vancouver-1aozk4egkdceqzp",
@@ -30857,7 +30857,7 @@
     "datetime_iso": "2027-03-30T01:00:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-calgary-1av7z_kgkm-emew",
@@ -30869,7 +30869,7 @@
     "datetime_iso": "2027-04-01T00:00:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-edmonton-1av7z_kgkz_xe9-",
@@ -30881,7 +30881,7 @@
     "datetime_iso": "2027-04-02T00:00:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-sioux-falls-vv1akzk4vgkd8j7ov",
@@ -30893,7 +30893,7 @@
     "datetime_iso": "2027-04-06T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-fargo-vv17bz_kgkuwy5mz",
@@ -30905,7 +30905,7 @@
     "datetime_iso": "2027-04-07T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-omaha-vv1kvovp8tga5iapt",
@@ -30917,7 +30917,7 @@
     "datetime_iso": "2027-04-09T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-kansas-city-vv1akzk4vgkegdrbt",
@@ -30929,7 +30929,7 @@
     "datetime_iso": "2027-04-10T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-moline-vv1fbz_fkec7zdga1",
@@ -30941,7 +30941,7 @@
     "datetime_iso": "2027-04-11T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-grand-rapids-vv17oz_kgkmqeain",
@@ -30953,7 +30953,7 @@
     "datetime_iso": "2027-04-13T22:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-evansville-vv17fz_kgkd3hr7l",
@@ -30965,7 +30965,7 @@
     "datetime_iso": "2027-04-14T23:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-dylan-gossett-2026-waco-z7r9jz1a7jdak",
@@ -31613,7 +31613,7 @@
     "datetime_iso": "2027-03-25T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-hollywood-vvg1vz_fkapkzq",
@@ -31625,7 +31625,7 @@
     "datetime_iso": "2027-03-27T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-waukee-1ae7z_kgkdkgpa5",
@@ -31637,7 +31637,7 @@
     "datetime_iso": "2027-04-03T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-grand-rapids-vv1afzk4vgkeyak2y",
@@ -31649,7 +31649,7 @@
     "datetime_iso": "2027-04-15T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-chicago-vv1k8z_f1pg7v9f6",
@@ -31661,7 +31661,7 @@
     "datetime_iso": "2027-04-18T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-philadelphia-vv17fz_kgkmdo0cj",
@@ -31673,7 +31673,7 @@
     "datetime_iso": "2027-04-22T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-pittsburgh-1apzk4vgkd7rttm",
@@ -31685,7 +31685,7 @@
     "datetime_iso": "2027-04-23T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-cincinnati-1avbz_kgkbydi6_",
@@ -31697,7 +31697,7 @@
     "datetime_iso": "2027-04-25T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-columbia-g5evz_kbmywhz",
@@ -31709,7 +31709,7 @@
     "datetime_iso": "2027-04-29T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-warren-zeiders-2027-atlanta-vvg1zz_f6dz4ap",
@@ -31721,7 +31721,7 @@
     "datetime_iso": "2027-04-30T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-john-summit-2027-warsaw-z698xzqpz16eva44jn",
@@ -31733,7 +31733,7 @@
     "datetime_iso": "2027-02-11T17:00:00Z",
     "timezone": "Europe/Warsaw",
     "tour_name": "CTRL ESCAPE ARENA TOUR",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-john-summit-2027-forest-brussels-z698xzg2z1kfkv_0g",
@@ -31745,7 +31745,7 @@
     "datetime_iso": "2027-02-12T17:30:00Z",
     "timezone": "Europe/Brussels",
     "tour_name": "CTRL ESCAPE ARENA TOUR",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-john-summit-2027-amsterdam-z698xzbpz16vu0fx-w",
@@ -31757,7 +31757,7 @@
     "datetime_iso": "2027-02-13T19:00:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "CTRL ESCAPE ARENA TOUR",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-john-summit-2027-london-1agzk4egkdwrmjf",
@@ -31769,7 +31769,7 @@
     "datetime_iso": "2027-02-27T18:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "CTRL ESCAPE ARENA TOUR",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-morat-2026-pamplona-iruna-z698xz2qz16voojza6",
@@ -31817,7 +31817,7 @@
     "datetime_iso": "2027-08-18T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-toronto-1a8zk47gkd65fpy",
@@ -31889,7 +31889,7 @@
     "datetime_iso": "2027-04-23T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-vancouver-1aozk4v0aa_zegf",
@@ -31901,7 +31901,7 @@
     "datetime_iso": "2027-05-07T03:00:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-latto-2026-boston-z7r9jz1aae_7z",
@@ -31949,7 +31949,7 @@
     "datetime_iso": "2027-02-05T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-portland-z7r9jz1aaekuy",
@@ -33857,7 +33857,7 @@
     "datetime_iso": "2027-04-11T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-jay-wheeler-2027-orlando-1axzk4vgkd6tfj5",
@@ -35032,18 +35032,6 @@
     "venue": "Unity Arena",
     "datetime_iso": "2027-02-19T18:00:00Z",
     "timezone": "Europe/Oslo",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-five-finger-death-punch-2027-helsinki-z698xz8kz16vjke6q8",
-    "artist_slug": "five-finger-death-punch",
-    "artist_name": "Five Finger Death Punch",
-    "country": "Finland",
-    "city": "Helsinki",
-    "venue": "Veikkaus Arena",
-    "datetime_iso": "2027-02-22T16:00:00Z",
-    "timezone": "Europe/Helsinki",
     "tour_name": "",
     "status": "on-sale"
   },
@@ -37842,5 +37830,1349 @@
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "announced"
+  },
+  {
+    "id": "tm-rod-wave-2026-saint-louis-vvg1bz_ukkhzgh",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Saint Louis",
+    "venue": "Enterprise Center",
+    "datetime_iso": "2026-10-13T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-nashville-g5viz_u63pwep",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Nashville",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2026-10-15T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-washington-17a8v0g6uelkuww",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Washington",
+    "venue": "Capital One Arena",
+    "datetime_iso": "2026-10-17T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-detroit-vvg1oz_udpjh0t",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Detroit",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2026-10-20T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-columbus-vvg1fz_u68l-x-",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Columbus",
+    "venue": "Schottenstein Center",
+    "datetime_iso": "2026-10-23T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-pittsburgh-17aov0g6uky4i7y",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Pittsburgh",
+    "venue": "PPG Paints Arena",
+    "datetime_iso": "2026-10-24T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-boston-vvg17z_uerk22e",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Boston",
+    "venue": "TD Garden",
+    "datetime_iso": "2026-10-26T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-brooklyn-17gzv0g6uz2i9rf",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Brooklyn",
+    "venue": "Barclays Center",
+    "datetime_iso": "2026-10-28T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-brooklyn-17gzv0g6uhl8aq4",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Brooklyn",
+    "venue": "Barclays Center",
+    "datetime_iso": "2026-10-29T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-chicago-vvg18z_udha5ep",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Chicago",
+    "venue": "United Center",
+    "datetime_iso": "2026-11-01T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-chicago-vvg18z_uqcj0ym",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Chicago",
+    "venue": "United Center",
+    "datetime_iso": "2026-11-02T02:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-charlotte-g5evz_uk3_hwq",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Charlotte",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2026-11-04T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-columbia-g5evz_udquqas",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Columbia",
+    "venue": "Colonial Life Arena",
+    "datetime_iso": "2026-11-07T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-orlando-17fov0g6u6bzp82",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Orlando",
+    "venue": "Kia Center",
+    "datetime_iso": "2026-11-10T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-orlando-17fov0g6uhspnas",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Orlando",
+    "venue": "Kia Center",
+    "datetime_iso": "2026-11-11T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-sunrise-z7r9jz1a7ppag",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Sunrise",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2026-11-15T01:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-sunrise-z7r9jz1aazfq4",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Sunrise",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2026-11-16T01:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-atlanta-vvg1zz_uzryhlw",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Atlanta",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2026-11-19T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rod-wave-2026-atlanta-vvg1zz_uqszfce",
+    "artist_slug": "rod-wave",
+    "artist_name": "Rod Wave",
+    "country": "United States Of America",
+    "city": "Atlanta",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2026-11-20T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-uicideboy-2026-albuquerque-g5vzz_6ro72lp",
+    "artist_slug": "uicideboy",
+    "artist_name": "$uicideboy$",
+    "country": "United States Of America",
+    "city": "Albuquerque",
+    "venue": "First Financial Credit Union Amphitheater",
+    "datetime_iso": "2026-10-12T00:30:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-uicideboy-2026-austin-g5diz_6rfioeh",
+    "artist_slug": "uicideboy",
+    "artist_name": "$uicideboy$",
+    "country": "United States Of America",
+    "city": "Austin",
+    "venue": "Germania Insurance Amphitheater",
+    "datetime_iso": "2026-10-13T23:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-uicideboy-2026-new-orleans-g5viz_6roljgm",
+    "artist_slug": "uicideboy",
+    "artist_name": "$uicideboy$",
+    "country": "United States Of America",
+    "city": "New Orleans",
+    "venue": "Smoothie King Center",
+    "datetime_iso": "2026-10-14T23:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-uicideboy-2026-atlanta-vvg1zz_6rspgk8",
+    "artist_slug": "uicideboy",
+    "artist_name": "$uicideboy$",
+    "country": "United States Of America",
+    "city": "Atlanta",
+    "venue": "Lakewood Amphitheatre",
+    "datetime_iso": "2026-10-16T22:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-uicideboy-2026-tampa-vvg1vz_6rke2ej",
+    "artist_slug": "uicideboy",
+    "artist_name": "$uicideboy$",
+    "country": "United States Of America",
+    "city": "Tampa",
+    "venue": "MIDFLORIDA Credit Union Amphitheatre at the FL State Fairgrounds",
+    "datetime_iso": "2026-10-17T22:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-uicideboy-2026-sunrise-z7r9jz1a7xzpd",
+    "artist_slug": "uicideboy",
+    "artist_name": "$uicideboy$",
+    "country": "United States Of America",
+    "city": "Sunrise",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2026-10-18T22:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-uicideboy-2026-birmingham-1aezz_6gkra4gmu",
+    "artist_slug": "uicideboy",
+    "artist_name": "$uicideboy$",
+    "country": "United States Of America",
+    "city": "Birmingham",
+    "venue": "Coca-Cola Amphitheater",
+    "datetime_iso": "2026-10-20T23:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-boston-vv1avzkfwgkdcqwfa",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Boston",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2026-10-13T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-boston-vvg17z_2dy9pyk",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Boston",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2026-10-14T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-camden-vv17fz_8gkl8lrzy",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Camden",
+    "venue": "Freedom Mortgage Pavilion",
+    "datetime_iso": "2026-10-16T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-washington-1a4zkfdgkeiyeai",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Washington",
+    "venue": "The Anthem",
+    "datetime_iso": "2026-10-18T23:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-virginia-beach-vv1avzkf6gkesce9z",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Virginia Beach",
+    "venue": "The Dome by Rutter Mills",
+    "datetime_iso": "2026-10-21T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-charlotte-g5evz_83vdq5d",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Charlotte",
+    "venue": "Skyla Credit Union Amphitheatre",
+    "datetime_iso": "2026-10-23T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-raleigh-g5evz_8ci0_um",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Raleigh",
+    "venue": "Red Hat Amphitheater",
+    "datetime_iso": "2026-10-24T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-miami-vvg1vz_8pw-pfe",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Miami",
+    "venue": "FPL Solar Amphitheater at Bayfront Park",
+    "datetime_iso": "2026-10-27T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-tampa-vvg1vz_8uxpnex",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Tampa",
+    "venue": "Yuengling Center",
+    "datetime_iso": "2026-10-29T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-atlanta-vvg1zz_2x4siub",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Atlanta",
+    "venue": "Synovus Bank Amphitheater at Chastain Park",
+    "datetime_iso": "2026-10-31T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-atlanta-vvg1zz_83dtnfh",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Atlanta",
+    "venue": "Synovus Bank Amphitheater at Chastain Park",
+    "datetime_iso": "2026-11-01T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-nashville-g5viz_2xpzbxl",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Nashville",
+    "venue": "Nashville Municipal Auditorium",
+    "datetime_iso": "2026-11-03T02:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-irving-vvg1yz_8n-3vdr",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Irving",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2026-11-06T02:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-austin-g5diz_8pb91k2",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Austin",
+    "venue": "Moody Amphitheater",
+    "datetime_iso": "2026-11-08T02:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-sugar-land-z7r9jz1aazj8f",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Sugar Land",
+    "venue": "Smart Financial Centre at Sugar Land",
+    "datetime_iso": "2026-11-09T02:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-morrison-z7r9jz1aazj84",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Morrison",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2026-11-12T03:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-las-vegas-169zkfdovza26a51",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Las Vegas",
+    "venue": "The Cosmopolitan of Las Vegas",
+    "datetime_iso": "2026-11-14T04:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-phoenix-16_zkf6fzza2g752",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Phoenix",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2026-11-18T03:00:00Z",
+    "timezone": "America/Phoenix",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-san-diego-vvg1iz_8prddbi",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "San Diego",
+    "venue": "Petco Park",
+    "datetime_iso": "2026-11-20T04:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-hollywood-vvg1iz_8f-wifq",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Hollywood",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-11-22T04:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-san-francisco-g5vyz_8boyp-m",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "San Francisco",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2026-11-25T04:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-san-francisco-g5vyz_8bk7kme",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "San Francisco",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2026-11-26T04:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-seattle-vvg1hz_8pk8e2l",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "United States Of America",
+    "city": "Seattle",
+    "venue": "WAMU Theater",
+    "datetime_iso": "2026-11-29T04:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-steve-lacy-2026-vancouver-1aozkf7gkepzmxx",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "country": "Canada",
+    "city": "Vancouver",
+    "venue": "UBC - Doug Mitchell Thunderbird Sports Centre",
+    "datetime_iso": "2026-12-01T03:00:00Z",
+    "timezone": "America/Vancouver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-madison-z7r9jz1a700fm",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Madison",
+    "venue": "Kohl Center",
+    "datetime_iso": "2026-10-12T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-saint-paul-z7r9jz1a70xpt",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Saint Paul",
+    "venue": "Grand Casino Arena",
+    "datetime_iso": "2026-10-14T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-chicago-vvg18z_1daahef",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Chicago",
+    "venue": "United Center",
+    "datetime_iso": "2026-10-15T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-charlotte-g5evz_1dw8jew",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Charlotte",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2026-10-17T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-jacksonville-17fov0g61t4w29c",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Jacksonville",
+    "venue": "VyStar Veterans Memorial Arena",
+    "datetime_iso": "2026-10-18T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-tampa-vvg1vz_1xbgmwh",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Tampa",
+    "venue": "Benchmark International Arena",
+    "datetime_iso": "2026-10-19T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-indianapolis-vvg1fz_1xmuiok",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Indianapolis",
+    "venue": "Gainbridge Fieldhouse",
+    "datetime_iso": "2026-10-21T00:00:00Z",
+    "timezone": "America/Indiana/Indianapolis",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-nashville-g5viz_1bbgqqs",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Nashville",
+    "venue": "The Truth",
+    "datetime_iso": "2026-10-23T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-oklahoma-city-vvg1yz_1hjjehy",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Oklahoma City",
+    "venue": "Paycom Center",
+    "datetime_iso": "2026-10-25T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-austin-g5diz_1txjp-0",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Austin",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2026-10-26T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-denver-g5vzz_1xqviwv",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Denver",
+    "venue": "Ball Arena",
+    "datetime_iso": "2026-10-28T02:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-salt-lake-city-z7r9jz1a70x_g",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Salt Lake City",
+    "venue": "Delta Center",
+    "datetime_iso": "2026-10-30T02:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-las-vegas-z7r9jz1a70x-e",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Las Vegas",
+    "venue": "MGM Grand Garden Arena",
+    "datetime_iso": "2026-10-31T03:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-portland-vvg1hz_1meesxh",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Portland",
+    "venue": "Moda Center",
+    "datetime_iso": "2026-11-02T04:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-calgary-1778v0g61djnfzx",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "Canada",
+    "city": "Calgary",
+    "venue": "Scotiabank Saddledome",
+    "datetime_iso": "2026-11-04T02:00:00Z",
+    "timezone": "America/Edmonton",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-vancouver-1778v0g61badswr",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "Canada",
+    "city": "Vancouver",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2026-11-06T03:00:00Z",
+    "timezone": "America/Vancouver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-seattle-vvg1hz_1wymaop",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Seattle",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2026-11-07T04:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-san-jose-g5vyz_1dhcziz",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "San Jose",
+    "venue": "SAP Center at San Jose",
+    "datetime_iso": "2026-11-09T04:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-phoenix-17k8v0g61xa1k9d",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Phoenix",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2026-11-12T03:00:00Z",
+    "timezone": "America/Phoenix",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-smashing-pumpkins-2026-inglewood-vvg10z_1t5e4o_",
+    "artist_slug": "the-smashing-pumpkins",
+    "artist_name": "The Smashing Pumpkins",
+    "country": "United States Of America",
+    "city": "Inglewood",
+    "venue": "Kia Forum",
+    "datetime_iso": "2026-11-13T04:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2026-atlanta-vvg1zz_83jdpwc",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "United States Of America",
+    "city": "Atlanta",
+    "venue": "Lakewood Amphitheatre",
+    "datetime_iso": "2026-10-12T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2026-birmingham-1aozkfdgkeytw9q",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "United States Of America",
+    "city": "Birmingham",
+    "venue": "Coca-Cola Amphitheater",
+    "datetime_iso": "2026-10-14T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2026-albuquerque-g5vzz_8cnmbuy",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "United States Of America",
+    "city": "Albuquerque",
+    "venue": "First Financial Credit Union Amphitheater",
+    "datetime_iso": "2026-10-18T02:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2026-wheatland-g5vyz_81rrfk3",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "United States Of America",
+    "city": "Wheatland",
+    "venue": "Toyota Amphitheatre",
+    "datetime_iso": "2026-10-24T03:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2026-bakersfield-z7r9jz1aazpuu",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "United States Of America",
+    "city": "Bakersfield",
+    "venue": "Dignity Health Arena",
+    "datetime_iso": "2026-10-25T03:30:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2026-bakersfield-z7r9jz1aavaxk",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "United States Of America",
+    "city": "Bakersfield",
+    "venue": "Dignity Health Arena",
+    "datetime_iso": "2026-10-26T03:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2026-fresno-g5vyz_89-ysvr",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "United States Of America",
+    "city": "Fresno",
+    "venue": "Save Mart Center",
+    "datetime_iso": "2026-10-28T03:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2026-fresno-g5vyz_8kys-gg",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "United States Of America",
+    "city": "Fresno",
+    "venue": "Save Mart Center",
+    "datetime_iso": "2026-10-29T03:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2026-west-valley-city-g5vzz_8qlaba8",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "United States Of America",
+    "city": "West Valley City",
+    "venue": "Canyon View Credit Union Stage at Maverik Center",
+    "datetime_iso": "2026-11-01T02:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2026-morrison-z7r9jz1aazpuz",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "United States Of America",
+    "city": "Morrison",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2026-11-03T03:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2026-morrison-z7r9jz1aazt0f",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "United States Of America",
+    "city": "Morrison",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2026-11-04T03:30:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnenx",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "Mexico",
+    "city": "Ciudad de México",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-01-29T02:00:00Z",
+    "timezone": "America/Mexico_City",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4egkdlzcpt",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "Mexico",
+    "city": "Ciudad de México",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-01-30T02:00:00Z",
+    "timezone": "America/Mexico_City",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4egkdowrar",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "Mexico",
+    "city": "Ciudad de México",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-01-31T02:00:00Z",
+    "timezone": "America/Mexico_City",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4vgkdxsfp_",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "Mexico",
+    "city": "Ciudad de México",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-02-01T01:00:00Z",
+    "timezone": "America/Mexico_City",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4vgkdn9bgh",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "Mexico",
+    "city": "Ciudad de México",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-02-02T02:00:00Z",
+    "timezone": "America/Mexico_City",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacn3ld",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "Mexico",
+    "city": "Ciudad de México",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-02-04T02:00:00Z",
+    "timezone": "America/Mexico_City",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgauwxey",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "Mexico",
+    "city": "Ciudad de México",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-02-05T02:00:00Z",
+    "timezone": "America/Mexico_City",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnxl1",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "Mexico",
+    "city": "Ciudad de México",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-02-06T02:00:00Z",
+    "timezone": "America/Mexico_City",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnwlg",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "Mexico",
+    "city": "Ciudad de México",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-02-07T02:00:00Z",
+    "timezone": "America/Mexico_City",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgaclelp",
+    "artist_slug": "fuerza-regida",
+    "artist_name": "Fuerza Regida",
+    "country": "Mexico",
+    "city": "Ciudad de México",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-02-08T01:00:00Z",
+    "timezone": "America/Mexico_City",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-cambridge-z7r9jz1aaebpz",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Cambridge",
+    "venue": "The Sinclair Music Hall",
+    "datetime_iso": "2027-02-25T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-portland-z7r9jz1aaekpv",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Portland",
+    "venue": "Space Gallery",
+    "datetime_iso": "2027-02-26T01:00:00Z",
+    "timezone": "America/Indiana/Indianapolis",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-toronto-rz7hnez1afu780",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "Canada",
+    "city": "Toronto",
+    "venue": "The Concert Hall",
+    "datetime_iso": "2027-02-28T00:00:00Z",
+    "timezone": "America/Toronto",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-chicago-z7r9jz1aae3ax",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Chicago",
+    "venue": "Thalia Hall",
+    "datetime_iso": "2027-03-03T02:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-philadelphia-z7r9jz1aaebpd",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Philadelphia",
+    "venue": "Union Transfer",
+    "datetime_iso": "2027-03-06T01:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-new-york-z7r9jz1aaebpe",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "New York",
+    "venue": "Webster Hall",
+    "datetime_iso": "2027-03-07T00:30:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-washington-16vfz_kjpg7wgxq",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Washington",
+    "venue": "9:30 CLUB",
+    "datetime_iso": "2027-04-09T22:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-carrboro-z7r9jz1aaefgv",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Carrboro",
+    "venue": "Cat's Cradle",
+    "datetime_iso": "2027-04-11T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-atlanta-z7r9jz1aaeb46",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Atlanta",
+    "venue": "Terminal West",
+    "datetime_iso": "2027-04-12T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-houston-g5diz_kenctep",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Houston",
+    "venue": "White Oak Music Hall - Upstairs",
+    "datetime_iso": "2027-04-17T00:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-tucson-z7r9jz1aae9f6",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Tucson",
+    "venue": "La Rosa",
+    "datetime_iso": "2027-04-21T02:00:00Z",
+    "timezone": "America/Phoenix",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-san-diego-z7r9jz1aae3k4",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "San Diego",
+    "venue": "Music Box - San Diego",
+    "datetime_iso": "2027-04-22T03:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-san-francisco-g5vyz_kyxockk",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "San Francisco",
+    "venue": "The Castro Theatre",
+    "datetime_iso": "2027-04-25T03:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-vancouver-1178vpcbx94gv5",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "Canada",
+    "city": "Vancouver",
+    "venue": "Commodore Ballroom",
+    "datetime_iso": "2027-04-28T02:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-seattle-vvg1hz_knof3ir",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Seattle",
+    "venue": "Neptune Theatre",
+    "datetime_iso": "2027-04-29T03:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-boise-z7r9jz1aaekjo",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Boise",
+    "venue": "Shrine Social Club",
+    "datetime_iso": "2027-05-01T01:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-salt-lake-city-z7r9jz1aaefc8",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Salt Lake City",
+    "venue": "Kilby Court",
+    "datetime_iso": "2027-05-02T01:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-denver-z7r9jz1aae37y",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Denver",
+    "venue": "Bluebird Theatre",
+    "datetime_iso": "2027-05-03T02:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-lexington-z7r9jz1aaek09",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Lexington",
+    "venue": "The Burl",
+    "datetime_iso": "2027-05-07T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-columbus-z7r9jz1aaef7k",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Columbus",
+    "venue": "Ace of Cups",
+    "datetime_iso": "2027-05-07T23:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mei-semones-2027-pittsburgh-1avbz_kgkuez9wb",
+    "artist_slug": "mei-semones",
+    "artist_name": "Mei Semones",
+    "country": "United States Of America",
+    "city": "Pittsburgh",
+    "venue": "Spirit Hall",
+    "datetime_iso": "2027-05-08T23:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

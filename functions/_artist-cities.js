@@ -25,6 +25,7 @@
 //     renders, stays linked, and is noindex,follow — it is the artist page
 //     filtered to one show card, so it earns navigation but not a listing.
 
+import { showStartMs } from "./_upcoming.js";
 import { slugify, normalizeCountry, citySlug, metroCity } from "./_cities.js";
 import { canonicalCity, venueSlug } from "./_venues.js";
 import { artistCityGate, eventPriceComparable, eventPublishable, eventStatusPublishable } from "./_route-indexability.js";
@@ -113,7 +114,7 @@ export function deriveArtistCities(events, artistSlug, options = {}) {
     const city = metroCity(rawCity, country);
     const venue = String(event.venue || "").trim();
     const iso = String(event.dateTimeISO || event.datetime_iso || "").trim();
-    const ts = Date.parse(iso);
+    const ts = showStartMs(event);
     if (!city || !country || !venue || !Number.isFinite(ts) || ts < now) continue;
 
     const slug = citySlug(city, country);

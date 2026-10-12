@@ -305,7 +305,7 @@
         "event_id": 18613218,
         "url": "https://seatgeek.com/too-many-zooz-tickets/tucson-arizona-la-rosa-tucson-2027-05-06-8-pm/concert/18613218",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -669,7 +669,7 @@
     "ticketmaster_event_id": "14320514",
     "ticketmaster_url": "https://www.ticketweb.com/event/too-many-zooz-audio-lipstick-black-sheep-tickets/14320514?REFERRAL_ID=tmfeed",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-colorado-springs-black-sheep-3-17-2027/production/7612159",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/too-many-zooz-audio-lipstick-black-sheep-tickets/14320514?REFERRAL_ID=tmfeed",
     "last_verified_at": null,
@@ -691,11 +691,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7612159,
+        "url": "https://www.vividseats.com/too-many-zooz-tickets-colorado-springs-black-sheep-3-17-2027/production/7612159",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -703,11 +703,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284717",
+        "url": "https://www.ticketnetwork.com/en/p/8284717",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284717",
+        "url": "https://www.ticketliquidator.com/tickets/8284717/Too-Many-Zooz-tickets-Wed-Mar-17-2027-Black-Sheep",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae0Z_3GkzlV-OK",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284717",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284717/Too-Many-Zooz-tickets-Wed-Mar-17-2027-Black-Sheep"
   },
   {
     "id": "tm-too-many-zooz-2027-san-diego-rz7hnez1afgpof",
@@ -722,7 +738,7 @@
     "ticketmaster_event_id": "14325454",
     "ticketmaster_url": "https://www.ticketweb.com/event/too-many-zooz-music-box-tickets/14325454",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-san-diego-music-box-san-diego-5-7-2027--concerts-alternative/production/7595204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/too-many-zooz-music-box-tickets/14325454",
     "last_verified_at": null,
@@ -744,11 +760,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7595204,
+        "url": "https://www.vividseats.com/too-many-zooz-tickets-san-diego-music-box-san-diego-5-7-2027--concerts-alternative/production/7595204",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -756,11 +772,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284725",
+        "url": "https://www.ticketnetwork.com/en/p/8284725",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284725",
+        "url": "https://www.ticketliquidator.com/tickets/8284725/Too-Many-Zooz-tickets-Fri-May-7-2027-Music-Box-San-Diego",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGPof",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284725",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284725/Too-Many-Zooz-tickets-Fri-May-7-2027-Music-Box-San-Diego"
   },
   {
     "id": "tm-too-many-zooz-2027-san-francisco-rz7hnez1afgsv7",
@@ -775,7 +807,7 @@
     "ticketmaster_event_id": "14331044",
     "ticketmaster_url": "https://www.ticketweb.com/event/too-many-zooz-the-independent-tickets/14331044",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-san-francisco-the-independent-5-9-2027--concerts-alternative/production/7595340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/too-many-zooz-the-independent-tickets/14331044",
     "last_verified_at": null,
@@ -797,11 +829,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7595340,
+        "url": "https://www.vividseats.com/too-many-zooz-tickets-san-francisco-the-independent-5-9-2027--concerts-alternative/production/7595340",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -809,11 +841,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284728",
+        "url": "https://www.ticketnetwork.com/en/p/8284728",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284728",
+        "url": "https://www.ticketliquidator.com/tickets/8284728/Too-Many-Zooz-tickets-Sun-May-9-2027-The-Independent",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGsv7",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284728",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284728/Too-Many-Zooz-tickets-Sun-May-9-2027-The-Independent"
   },
   {
     "id": "tm-too-many-zooz-2027-vancouver-rz7hnez1afgyg0",
@@ -827,7 +875,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14330324",
     "ticketmaster_url": "https://www.ticketweb.ca/event/too-many-zooz-audio-lipstick-the-pearl-tickets/14330324",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/too-many-zooz-tickets/vancouver-canada-the-pearl-bc-2027-05-15-7-pm/concert/18646948",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.ca/event/too-many-zooz-audio-lipstick-the-pearl-tickets/14330324",
@@ -843,11 +891,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18646948,
+        "url": "https://seatgeek.com/too-many-zooz-tickets/vancouver-canada-the-pearl-bc-2027-05-15-7-pm/concert/18646948",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -862,10 +910,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8284731",
+        "url": "https://www.ticketnetwork.com/en/p/8284731",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284731",
+        "url": "https://www.ticketliquidator.com/tickets/8284731/Too-Many-Zooz-tickets-Sat-May-15-2027-The-Pearl-BC",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGYG0",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284731",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284731/Too-Many-Zooz-tickets-Sat-May-15-2027-The-Pearl-BC"
   }
 ]

@@ -1,0 +1,59 @@
+name: Weekly blog opportunities
+
+# Propose-only. Read committed facts and Markdown; update one rolling issue.
+# Monday 11:20 UTC follows the morning ingestion jobs. No production access.
+on:
+  schedule:
+    - cron: '20 11 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: blog-ideas
+  cancel-in-progress: false
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Test discovery and issue reporting
+        run: npm run blog:ideas:test
+
+      - name: Validate committed source data and content
+        run: |
+          python3 scripts/validate-events.py --for-production
+          npm run blog:check
+          npm run guides:check
+
+      - name: Update the weekly blog opportunities issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/propose-blog-ideas.mjs --issue
+
+      - name: Confirm repository files are unchanged
+        if: always()
+        run: |
+          test -z "$(git status --porcelain --untracked-files=normal)" || {
+            echo '::error::A propose-only run changed repository files.' >&2
+            git status --short
+            exit 1
+          }

@@ -37,6 +37,7 @@
 // whose local date cannot be resolved gets no path at all rather than a guess.
 
 import { resolveEventLocalDate } from "./_event-local-date.js";
+import { isUpcomingShow } from "./_upcoming.js";
 import { slugify } from "./_cities.js";
 import { INDEXABLE_ARTIST_STATUS } from "./_artist-indexability.js";
 import {
@@ -480,7 +481,7 @@ export const EVENT_ROUTE_REASONS = Object.freeze({
 /**
  * Could this record structurally carry a future event route? Mirrors the
  * artist-city render gate for one show: the artist is editorially indexable,
- * the show is upcoming (the same `Date.parse` test the boards use), its venue
+ * the show is upcoming (the same isUpcomingShow test the boards use), its venue
  * and city are present, its venue-local date resolves, it is not held by a
  * cancelled or postponed Ticketmaster status, and it can lead somewhere
  * (`eventPublishable`, the "can this page lead anywhere?" test).
@@ -496,8 +497,7 @@ export function eventRouteState(event, options = {}) {
   const now = Number.isFinite(options.now) ? Number(options.now) : Date.now();
   const id = String(event?.id ?? "").trim();
   const local = resolveEventLocalDate(event);
-  const ts = Date.parse(String(event?.datetime_iso || event?.dateTimeISO || "").trim());
-  const upcoming = Number.isFinite(ts) && ts >= now;
+  const upcoming = isUpcomingShow(event, now);
   const reasons = [];
   if (!id) reasons.push(EVENT_ROUTE_REASONS.MISSING_ID);
   if (options.artist?.indexing_status !== INDEXABLE_ARTIST_STATUS) {

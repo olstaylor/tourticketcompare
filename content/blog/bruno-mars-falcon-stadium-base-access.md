@@ -4,6 +4,7 @@ seo_title: Bruno Mars: Falcon Stadium entry 2026
 description: Entry guidance for Bruno Mars’ 26–27 September 2026 Falcon Stadium concerts. These dates have passed; find current dates on the artist page.
 summary: The 26–27 September 2026 Falcon Stadium dates have passed. This article records the access guidance for those concerts, not the arrangements for a future event. For upcoming shows, start with the current Bruno Mars date list and check the instructions for that exact show.
 date: 2026-09-25
+updated: 2026-09-30
 status: published
 tags:
   - tour-buying

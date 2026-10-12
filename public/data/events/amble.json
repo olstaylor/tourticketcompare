@@ -495,7 +495,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-san-francisco-california-10-24-2026/event/1C0064CABFC98DA4",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -546,14 +546,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056125",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056125/Amble-tickets-Sat-Oct-24-2026-The-Fillmore-San-Francisco",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-06-19T16:00:00Z",
-        "end": "2026-10-11T05:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056125/Amble-tickets-Sat-Oct-24-2026-The-Fillmore-San-Francisco"
   },
   {
     "id": "tm-amble-2026-seattle-z7r9jz1a70p_0",
@@ -586,7 +579,7 @@
         "event_id": 18475220,
         "url": "https://seatgeek.com/amble-tickets/seattle-washington-the-showbox-2026-10-26-8-pm/concert/18475220",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1028,7 +1021,7 @@
     "vividseats_url": "https://www.vividseats.com/amble-tickets-philadelphia-theatre-of-living-arts-11-10-2026--concerts-alternative/production/6982400",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-philadelphia-pennsylvania-11-10-2026/event/0200649C2D05CF92",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1063,14 +1056,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZ_aGkYcvjX3",
     "timezone": "America/New_York",
-    "status": "on-sale",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-08T13:00:00Z",
-        "end": "2026-10-11T02:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-amble-2026-washington-1avfz_agkmvpzjt",
@@ -1172,7 +1158,7 @@
         "event_id": 18322791,
         "url": "https://seatgeek.com/amble-tickets/atlanta-georgia-terminal-west-2026-11-13-8-pm/concert/18322791",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2423,11 +2409,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056126",
+        "url": "https://www.ticketnetwork.com/en/p/8056126",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056126",
+        "url": "https://www.ticketliquidator.com/tickets/8056126/Amble-tickets-Thu-Oct-22-2026-The-Crescent-Ballroom-Phoenix",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Afk4vf",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056126",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056126/Amble-tickets-Thu-Oct-22-2026-The-Crescent-Ballroom-Phoenix"
   },
   {
     "id": "tm-amble-2027-vienna-z698xz5rz1kburk7p",

@@ -152,6 +152,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748316",
+        "url": "https://www.ticketnetwork.com/en/p/7748316",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748316",
+        "url": "https://www.ticketliquidator.com/tickets/7748316/The-Neighbourhood-tickets-Tue-Nov-10-2026-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107121123",
+        "url": "https://www.stubhub.ie/the-neighbourhood-atlanta-tickets-11-10-2026/event/107121123",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_73EIk7i",
@@ -163,7 +184,10 @@
         "start": "2026-02-26T16:00:00Z",
         "end": "2026-10-13T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748316",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748316/The-Neighbourhood-tickets-Tue-Nov-10-2026-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-atlanta-tickets-11-10-2026/event/107121123"
   },
   {
     "id": "tm-the-neighbourhood-2026-orlando-1axzkoogkembvjl",
@@ -212,6 +236,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748317",
+        "url": "https://www.ticketnetwork.com/en/p/7748317",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748317",
+        "url": "https://www.ticketliquidator.com/tickets/7748317/The-Neighbourhood-tickets-Wed-Nov-11-2026-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107121124",
+        "url": "https://www.stubhub.ie/the-neighbourhood-orlando-tickets-11-11-2026/event/107121124",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZkooGkeMbVjL",
@@ -223,7 +268,10 @@
         "start": "2026-02-26T16:00:00Z",
         "end": "2026-10-15T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748317",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748317/The-Neighbourhood-tickets-Wed-Nov-11-2026-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-orlando-tickets-11-11-2026/event/107121124"
   },
   {
     "id": "tm-the-neighbourhood-2026-miami-vvg1vz_7e0samz",
@@ -272,6 +320,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748318",
+        "url": "https://www.ticketnetwork.com/en/p/7748318",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748318",
+        "url": "https://www.ticketliquidator.com/tickets/7748318/The-Neighbourhood-tickets-Thu-Nov-12-2026-Kaseya-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107121125",
+        "url": "https://www.stubhub.ie/the-neighbourhood-miami-tickets-11-12-2026/event/107121125",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_7E0samZ",
@@ -283,7 +352,10 @@
         "start": "2026-02-26T16:00:00Z",
         "end": "2026-10-13T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748318",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748318/The-Neighbourhood-tickets-Thu-Nov-12-2026-Kaseya-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-miami-tickets-11-12-2026/event/107121125"
   },
   {
     "id": "tm-the-neighbourhood-2026-nashville-g5viz_kmzyt_i",
@@ -332,6 +404,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7808855",
+        "url": "https://www.ticketnetwork.com/en/p/7808855",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7808855",
+        "url": "https://www.ticketliquidator.com/tickets/7808855/The-Neighbourhood-tickets-Sat-Nov-14-2026-The-Truth",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_kmzyT_I",
@@ -343,7 +429,9 @@
         "start": "2026-03-27T15:00:00Z",
         "end": "2026-10-15T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808855",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808855/The-Neighbourhood-tickets-Sat-Nov-14-2026-The-Truth"
   },
   {
     "id": "tm-the-neighbourhood-2026-kansas-city-vv17bz_7gkr3ru0p",
@@ -392,6 +480,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748319",
+        "url": "https://www.ticketnetwork.com/en/p/7748319",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748319",
+        "url": "https://www.ticketliquidator.com/tickets/7748319/The-Neighbourhood-tickets-Mon-Nov-16-2026-T-Mobile-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107121127",
+        "url": "https://www.stubhub.ie/the-neighbourhood-kansas-city-tickets-11-16-2026/event/107121127",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_7GkR3ru0p",
@@ -403,7 +512,10 @@
         "start": "2026-03-07T03:45:00Z",
         "end": "2026-10-15T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748319",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748319/The-Neighbourhood-tickets-Mon-Nov-16-2026-T-Mobile-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-kansas-city-tickets-11-16-2026/event/107121127"
   },
   {
     "id": "tm-the-neighbourhood-2026-chicago-vv1a7zkoagkdxvkbx",
@@ -452,11 +564,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7828409",
+        "url": "https://www.ticketnetwork.com/en/p/7828409",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7828409",
+        "url": "https://www.ticketliquidator.com/tickets/7828409/The-Neighbourhood-tickets-Wed-Nov-18-2026-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107148374",
+        "url": "https://www.stubhub.ie/the-neighbourhood-chicago-tickets-11-18-2026/event/107148374",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkoaGkdxvkbx",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7828409",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7828409/The-Neighbourhood-tickets-Wed-Nov-18-2026-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-chicago-tickets-11-18-2026/event/107148374"
   },
   {
     "id": "tm-the-neighbourhood-2026-detroit-vv17oz_7gkwiaino",
@@ -505,6 +641,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748320",
+        "url": "https://www.ticketnetwork.com/en/p/7748320",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748320",
+        "url": "https://www.ticketliquidator.com/tickets/7748320/The-Neighbourhood-tickets-Thu-Nov-19-2026-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107121126",
+        "url": "https://www.stubhub.ie/the-neighbourhood-detroit-tickets-11-19-2026/event/107121126",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_7GkwiaINO",
@@ -516,7 +673,10 @@
         "start": "2026-02-26T16:00:00Z",
         "end": "2026-10-23T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748320",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748320/The-Neighbourhood-tickets-Thu-Nov-19-2026-Little-Caesars-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-detroit-tickets-11-19-2026/event/107121126"
   },
   {
     "id": "tm-the-neighbourhood-2026-brooklyn-1ayzkoagkdftezg",
@@ -565,6 +725,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748321",
+        "url": "https://www.ticketnetwork.com/en/p/7748321",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748321",
+        "url": "https://www.ticketliquidator.com/tickets/7748321/The-Neighbourhood-tickets-Sat-Nov-21-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107121128",
+        "url": "https://www.stubhub.ie/the-neighbourhood-brooklyn-tickets-11-21-2026/event/107121128",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZkoaGkdftEZG",
@@ -576,7 +757,10 @@
         "start": "2026-02-26T16:00:00Z",
         "end": "2026-10-25T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748321",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748321/The-Neighbourhood-tickets-Sat-Nov-21-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-brooklyn-tickets-11-21-2026/event/107121128"
   },
   {
     "id": "tm-the-neighbourhood-2026-brooklyn-15dzz_aozvwft",
@@ -625,11 +809,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896353",
+        "url": "https://www.ticketnetwork.com/en/p/7896353",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896353",
+        "url": "https://www.ticketliquidator.com/tickets/7896353/The-Neighbourhood-tickets-Sun-Nov-22-2026-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107165138",
+        "url": "https://www.stubhub.ie/the-neighbourhood-brooklyn-tickets-11-22-2026/event/107165138",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "15dZZ_AozvwFt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896353",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896353/The-Neighbourhood-tickets-Sun-Nov-22-2026-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-brooklyn-tickets-11-22-2026/event/107165138"
   },
   {
     "id": "tm-the-neighbourhood-2026-phoenix-16v0z_ac6g7w4dv",
@@ -678,6 +886,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748322",
+        "url": "https://www.ticketnetwork.com/en/p/7748322",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748322",
+        "url": "https://www.ticketliquidator.com/tickets/7748322/The-Neighbourhood-tickets-Mon-Nov-30-2026-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107123113",
+        "url": "https://www.stubhub.ie/the-neighbourhood-phoenix-tickets-11-30-2026/event/107123113",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v0Z_AC6G7w4dV",
@@ -689,7 +918,10 @@
         "start": "2026-02-26T18:00:00Z",
         "end": "2026-11-03T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748322",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748322/The-Neighbourhood-tickets-Mon-Nov-30-2026-Mortgage-Matchup-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-phoenix-tickets-11-30-2026/event/107123113"
   },
   {
     "id": "tm-the-neighbourhood-2026-san-francisco-g5vyz_a2kv6-_",
@@ -738,6 +970,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748323",
+        "url": "https://www.ticketnetwork.com/en/p/7748323",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748323",
+        "url": "https://www.ticketliquidator.com/tickets/7748323/The-Neighbourhood-tickets-Wed-Dec-2-2026-Bill-Graham-Civic-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107123114",
+        "url": "https://www.stubhub.ie/the-neighbourhood-san-francisco-tickets-12-2-2026/event/107123114",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_A2KV6-_",
@@ -749,7 +1002,10 @@
         "start": "2026-02-26T19:00:00Z",
         "end": "2026-12-03T03:30:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748323",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748323/The-Neighbourhood-tickets-Wed-Dec-2-2026-Bill-Graham-Civic-Auditorium",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-san-francisco-tickets-12-2-2026/event/107123114"
   },
   {
     "id": "tm-the-neighbourhood-2026-inglewood-vv1aazkodgkdu9feo",
@@ -798,6 +1054,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7748324",
+        "url": "https://www.ticketnetwork.com/en/p/7748324",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7748324",
+        "url": "https://www.ticketliquidator.com/tickets/7748324/The-Neighbourhood-tickets-Fri-Dec-4-2026-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107123115",
+        "url": "https://www.stubhub.ie/the-neighbourhood-inglewood-tickets-12-4-2026/event/107123115",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZkodGkdu9FEo",
@@ -809,7 +1086,10 @@
         "start": "2026-02-26T19:00:00Z",
         "end": "2026-11-02T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748324",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748324/The-Neighbourhood-tickets-Fri-Dec-4-2026-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-inglewood-tickets-12-4-2026/event/107123115"
   },
   {
     "id": "tm-the-neighbourhood-2026-inglewood-vv1k0z_a8dg7vtxb",
@@ -858,10 +1138,34 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896352",
+        "url": "https://www.ticketnetwork.com/en/p/7896352",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896352",
+        "url": "https://www.ticketliquidator.com/tickets/7896352/The-Neighbourhood-tickets-Sat-Dec-5-2026-The-Kia-Forum",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107164092",
+        "url": "https://www.stubhub.ie/the-neighbourhood-inglewood-tickets-12-5-2026/event/107164092",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k0Z_A8dG7VTxB",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896352",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896352/The-Neighbourhood-tickets-Sat-Dec-5-2026-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-inglewood-tickets-12-5-2026/event/107164092"
   }
 ]

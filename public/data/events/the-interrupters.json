@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284358",
+        "url": "https://www.ticketliquidator.com/tickets/8284358/The-Interrupters-tickets-Fri-Mar-19-2027-Marquee-Theatre-AZ",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v0Z_3J3G7WUjQ",
@@ -65,7 +72,8 @@
         "start": "2026-09-25T17:00:00Z",
         "end": "2027-03-13T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284358/The-Interrupters-tickets-Fri-Mar-19-2027-Marquee-Theatre-AZ"
   },
   {
     "id": "tm-the-interrupters-2027-dallas-vvg1yz_k69fczg",
@@ -283,6 +291,13 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284362",
+        "url": "https://www.ticketliquidator.com/tickets/8284362/The-Interrupters-tickets-Fri-Mar-26-2027-Jannus-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3Xxt6_9",
@@ -295,7 +310,8 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-03-20T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284362/The-Interrupters-tickets-Fri-Mar-26-2027-Jannus-Live"
   },
   {
     "id": "tm-the-interrupters-2027-ft-lauderdale-vvg1vz_3bjcjr0",
@@ -581,7 +597,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006531F02CDF6D",
     "ticketmaster_url": "https://www.ticketmaster.com/the-interrupters-brooklyn-new-york-04-04-2027/event/00006531F02CDF6D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-interrupters-tickets/brooklyn-new-york-brooklyn-paramount-2027-04-04-6-pm/concert/18613085",
     "vividseats_url": "https://www.vividseats.com/the-interrupters-tickets-brooklyn-brooklyn-paramount-4-4-2027--concerts-rock/production/7592438",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-interrupters-brooklyn-new-york-04-04-2027/event/00006531F02CDF6D",
@@ -788,6 +804,13 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284369",
+        "url": "https://www.ticketliquidator.com/tickets/8284369/The-Interrupters-tickets-Fri-Apr-9-2027-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GkmrxJga",
@@ -800,7 +823,8 @@
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-04-03T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284369/The-Interrupters-tickets-Fri-Apr-9-2027-MTelus"
   },
   {
     "id": "tm-the-interrupters-2027-toronto-1a8zkfsgkdrk_-b",
@@ -1425,6 +1449,13 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284381",
+        "url": "https://www.ticketliquidator.com/tickets/8284381/The-Interrupters-tickets-Sat-Apr-24-2027-The-Union-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_3nsybUv",
@@ -1437,7 +1468,8 @@
         "start": "2026-09-25T16:00:00Z",
         "end": "2027-04-18T04:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284381/The-Interrupters-tickets-Sat-Apr-24-2027-The-Union-Event-Center"
   },
   {
     "id": "tm-the-interrupters-2027-los-angeles-vv1ke8vpgbgautgrg",
@@ -1493,6 +1525,13 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284386",
+        "url": "https://www.ticketliquidator.com/tickets/8284386/The-Interrupters-tickets-Fri-Apr-30-2027-The-Wiltern",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1ke8vPGbGAuTgRG",
@@ -1505,7 +1544,8 @@
         "start": "2026-09-25T17:00:00Z",
         "end": "2027-04-24T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284386/The-Interrupters-tickets-Fri-Apr-30-2027-The-Wiltern"
   },
   {
     "id": "tm-the-interrupters-2027-anaheim-vv1fe8vpg33pz72fk7",

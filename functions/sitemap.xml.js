@@ -8,6 +8,7 @@ import { deriveOnsaleCalendar } from "./_onsale-calendar.js";
 import { deriveIndexablePriceGuides } from "./_price-guides.js";
 import { deriveIndexablePresalePages } from "./_presales.js";
 import { isUpcomingShow } from "./_upcoming.js";
+import { deriveToursHub, TOURS_HUB_PATH } from "./_tours-hub.js";
 import { eventIndexingPilotFor } from "./[[path]].js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
@@ -255,6 +256,13 @@ async function buildSegments(env, only = SITEMAP_SEGMENTS, origin = "") {
         path: "/on-sale",
         lastmod: newestDate(calendar.lastOpenedDate, newestArtistLastmod)
       });
+    }
+    // The yearly tours hub lists only indexable artist pages, so it is as
+    // fresh as the newest of them.
+    const catalog = Array.isArray(events) ? await loadJsonAsset(env, "/data/catalog.json").catch(() => null) : null;
+    const hub = catalog ? deriveToursHub(events, catalog, undefined, undefined, indexableArtists.map((artist) => artist.slug)) : null;
+    if (hub?.indexable) {
+      staticEntries.push({ path: TOURS_HUB_PATH, lastmod: newestArtistLastmod });
     }
   }
   const artistEntries = indexableArtists.map(({ slug, lastmod }) => ({

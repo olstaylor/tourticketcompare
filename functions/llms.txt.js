@@ -1,3 +1,4 @@
+import { showStartMs } from "./_upcoming.js";
 import { TRUST_ROUTES, GUIDE_ROUTES, canonicalOrigin } from "./_route-metadata.js";
 import { deriveCities, citySlug } from "./_cities.js";
 import { deriveVenues } from "./_venues.js";
@@ -10,6 +11,7 @@ import { deriveIndexablePresalePages } from "./_presales.js";
 import { resolveEventLocalDate } from "./_event-local-date.js";
 import { eventIndexingPilotFor } from "./[[path]].js";
 import { eventLifecycleHeld } from "./_route-indexability.js";
+import { deriveToursHub, TOURS_HUB_PATH } from "./_tours-hub.js";
 
 // llms.txt (https://llmstxt.org) — a curated index for answer engines and AI
 // crawlers. Derived from _route-metadata.js and the artist data files (the
@@ -159,7 +161,7 @@ export function artistFactsBySlug(events, now = Date.now()) {
   for (const event of Array.isArray(events) ? events : []) {
     if (!event || typeof event !== "object" || eventLifecycleHeld(event)) continue;
     const slug = String(event.artist_slug || "").trim();
-    const showMs = Date.parse(String(event.datetime_iso || "").trim());
+    const showMs = showStartMs(event);
     if (!slug || !Number.isFinite(showMs) || showMs < now) continue;
     if (!grouped.has(slug)) grouped.set(slug, []);
     grouped.get(slug).push({ event, showMs });
@@ -234,7 +236,10 @@ export async function onRequestGet({ request, env }) {
 
   const artists = await loadIndexableArtists(env);
   const locations = await loadIndexableLocations(env, artists.map((artist) => artist.slug));
-  const facts = artistFactsBySlug(await loadJsonAsset(env, "/data/events.json"));
+  const allEvents = await loadJsonAsset(env, "/data/events.json");
+  const facts = artistFactsBySlug(allEvents);
+  // The tours hub lists only indexable artists, so pass those as its catalog.
+  const toursHub = Array.isArray(allEvents) ? deriveToursHub(allEvents, { artists }) : null;
   const artistLines = artists.map((artist) => {
     const factLine = artistFactsSentence(facts.get(artist.slug));
     const description = [artist.description, factLine].filter(Boolean).join(" ");
@@ -319,6 +324,10 @@ Key facts:
 - [How TourTicketCompare works](${origin}/how-it-works): Read the verification, source, and freshness rules.${
   locations.onsale?.indexable
     ? `\n${linkLine(origin, "/on-sale", "Concert tickets going on sale", `Ticketmaster public on-sale times for ${locations.onsale.upcomingCount} tracked upcoming ${locations.onsale.upcomingCount === 1 ? "date" : "dates"}, plus dates that went on sale in the last week.`)}`
+    : ""
+}${
+  toursHub?.indexable
+    ? `\n${linkLine(origin, TOURS_HUB_PATH, `${toursHub.year} concert tours`, `${toursHub.artistCount} tracked ${toursHub.artistCount === 1 ? "artist" : "artists"} with ${toursHub.showCount} upcoming ${toursHub.year} ${toursHub.showCount === 1 ? "date" : "dates"} across ${toursHub.countryCount} ${toursHub.countryCount === 1 ? "country" : "countries"}, each linking to its artist page.`)}`
     : ""
 }
 - [Editorial policy](${origin}/editorial-policy): See what the site publishes, withholds, and corrects.

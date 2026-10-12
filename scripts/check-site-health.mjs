@@ -14,6 +14,12 @@
 //      exactly what /sitemap.xml lists.
 //   3. Runtime: /api/health reports ok.
 //   4. Prices: the price-coverage gates (scripts/report-price-coverage.mjs).
+//   6. Old dates (added 2026-10-10): no JSON-LD Event on a crawled page, row in
+//      /api/shows or artist line in /llms.txt may name a show or on-sale that
+//      has passed, and no published blog or guide copy may name a date that
+//      was ahead when it was written and has passed since
+//      (scripts/lib/date-staleness.mjs). The past-event check runs per page in
+//      section 1; the rest are reported here.
 //   5. Other sensors: open findings from the lanes that close their own issue
 //      when clean — outbound links and Ticketmaster drift (automation:daily-audit),
 //      failing or stale automation (automation:health), unvalidated PR heads
@@ -30,7 +36,13 @@
 
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
+import { fileURLToPath } from "node:url";
+import os from "node:os";
+import path from "node:path";
 import { analyse as analysePrices, coverageShareLabel, fetchAllShows } from "./report-price-coverage.mjs";
+import { llmsTxtStaleDates, pastShowsInApi, pastStructuredEvents, staleDatedCopy } from "./lib/date-staleness.mjs";
+
+const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
 const ISSUE_LABEL = "automation:site-health";
 const ISSUE_TITLE = "Site health";
@@ -87,7 +99,7 @@ const decode = (value) =>
     .replace(/&gt;/g, ">");
 
 /** Problems on one rendered page, from its status, final URL and HTML. */
-export function pageProblems(url, { status, location = "", html = "" }) {
+export function pageProblems(url, { status, location = "", html = "" }, now = Date.now()) {
   if (status >= 300 && status < 400) return [`redirects (${status}) to ${location || "?"} but is listed in the sitemap`];
   if (status !== 200) return [`answers HTTP ${status || "no response"}`];
   const problems = [];
@@ -109,6 +121,8 @@ export function pageProblems(url, { status, location = "", html = "" }) {
       break;
     }
   }
+  const past = pastStructuredEvents(html, now);
+  if (past.length) problems.push(`lists ${past.length} show(s) that have already started in its JSON-LD, e.g. "${past[0].name}" (${past[0].startDate})`);
   return problems;
 }
 
@@ -246,12 +260,24 @@ export function renderReport(report) {
   if (!report.sensors.available) lines.push(report.sensors.error ? `- 🔴 Could not read the sensor issues: ${report.sensors.error}` : "Not checked (no GitHub token in this run).");
   else if (!report.sensors.items.length) lines.push("None open.");
   else lines.push(...report.sensors.items.map((i) => `- [#${i.number} ${i.title}](${i.url}) — ${i.meaning} (\`${i.label}\`, updated ${String(i.updated).slice(0, 10)})${i.gating ? "" : " · linked for context, does not fail this check"}`));
+  lines.push("", "### 6. Old dates", "");
+  const dates = report.dates || { api_past_shows: [], llms_txt: [], llms_error: "", copy: [] };
+  const dateLines = [];
+  if (dates.api_past_shows.length) dateLines.push(`- \`/api/shows\` still lists ${dates.api_past_shows.length} show(s) that have started, e.g. \`${dates.api_past_shows[0].id}\` (${dates.api_past_shows[0].dateTimeISO}).`);
+  if (dates.llms_error) dateLines.push(`- \`/llms.txt\` could not be read: ${dates.llms_error}`);
+  dateLines.push(...dates.llms_txt.slice(0, 20).map((d) => `- \`/llms.txt\` ${d.entry}: ${d.detail}.`));
+  dateLines.push(
+    ...dates.copy.map(
+      (c) => `- \`${c.file}\` names ${c.dates.join(", ")}, still ahead when the copy was last written (${c.writtenOn}) and passed since. Put those sentences in the past tense and set \`updated\` (blog) or rebuild provenance (guide).`
+    )
+  );
+  lines.push(dateLines.length ? dateLines.join("\n") : "No past show or on-sale in `/api/shows` or `/llms.txt`, and no published copy names a date that has passed since it was written. Past shows in page JSON-LD are checked per page in section 1.");
   return lines.join("\n");
 }
 
 const pct = (value) => `${(Number(value) * 100).toFixed(1)}%`;
 
-export async function runHealthCheck({ baseUrl, fetchImpl = globalThis.fetch, token = "", repo = "", now = Date.now(), retryDelayMs = RETRY_DELAY_MS }) {
+export async function runHealthCheck({ baseUrl, fetchImpl = globalThis.fetch, token = "", repo = "", now = Date.now(), retryDelayMs = RETRY_DELAY_MS, contentRoot = REPO_ROOT }) {
   const { urls, canonicalUrls, problems: sitemapProblems } = await collectSitemapUrls(baseUrl, fetchImpl);
   const transient = [];
   const networkRetries = [];
@@ -272,7 +298,7 @@ export async function runHealthCheck({ baseUrl, fetchImpl = globalThis.fetch, to
   for (const result of results) {
     const path = new URL(result.url).pathname;
     // The canonical is judged against the sitemap's own URL, not the rebased one.
-    const problems = pageProblems(result.canonicalUrl, result);
+    const problems = pageProblems(result.canonicalUrl, result, now);
     if (problems.length) failures.push({ path, problems });
     const title = decode((result.html.match(/<title>([^<]*)<\/title>/i) || [])[1] || "").trim();
     if (title) byTitle.set(title, [...(byTitle.get(title) || []), path]);
@@ -287,11 +313,21 @@ export async function runHealthCheck({ baseUrl, fetchImpl = globalThis.fetch, to
   }
   let prices = null;
   let priceError = "";
+  const dates = { api_past_shows: [], llms_txt: [], llms_error: "", copy: [] };
   try {
-    prices = analysePrices(await fetchAllShows(baseUrl, fetchImpl), { now });
+    const shows = await fetchAllShows(baseUrl, fetchImpl);
+    prices = analysePrices(shows, { now });
+    dates.api_past_shows = pastShowsInApi(shows, now);
   } catch (error) {
     priceError = error.message;
   }
+  try {
+    dates.llms_txt = llmsTxtStaleDates(await readText(`${baseUrl}/llms.txt`, fetchImpl), now);
+  } catch (error) {
+    dates.llms_error = error.message;
+  }
+  dates.copy = contentRoot ? staleDatedCopy({ root: contentRoot, today: new Date(now).toISOString().slice(0, 10) }) : [];
+  const datesOk = !dates.api_past_shows.length && !dates.llms_txt.length && !dates.llms_error && !dates.copy.length;
   const sensors = await openSensorFindings(token, repo).catch((error) => ({ available: false, items: [], error: error.message }));
   // Fail closed: with credentials supplied, unreadable sensors are not "none open".
   const sensorsOk = token && repo ? sensors.available && !sensors.items.some((item) => item.gating) : true;
@@ -304,6 +340,7 @@ export async function runHealthCheck({ baseUrl, fetchImpl = globalThis.fetch, to
     !sitemapProblems.length &&
     apiHealth.ok &&
     Boolean(prices?.ok) &&
+    datesOk &&
     urls.length > 0 &&
     sensorsOk;
   return {
@@ -315,6 +352,7 @@ export async function runHealthCheck({ baseUrl, fetchImpl = globalThis.fetch, to
     api_health: apiHealth,
     prices,
     price_error: priceError,
+    dates,
     sensors
   };
 }
@@ -361,7 +399,8 @@ async function selfTest() {
     "/a": page("/a", "Same | TTC"),
     "/b": page("/b", "Same | TTC"),
     "/api/health": JSON.stringify({ ok: true }),
-    "/api/shows": JSON.stringify({ shows: [show] })
+    "/api/shows": JSON.stringify({ shows: [show] }),
+    "/llms.txt": "# TTC\n- [A](https://x.test/a): 2 upcoming dates in 1 city, 1 Jan 2099 to 2 Jan 2099.\n"
   };
   const fakeFetch = async (url) => {
     const body = routes[new URL(url).pathname];
@@ -433,7 +472,28 @@ async function selfTest() {
   assert.equal(workQueueItemGates(workItem({ source: "generated-freshness", identity: ["og-cards"] })), true, "a non-health work item still gates");
   assert.equal(workQueueItemGates({ body: "no machine-readable block" }), true, "an unparseable work item gates rather than hiding");
   assert.equal(workQueueItemGates(workItem({ source: "provider-url-coverage", identity: ["valley", "seatgeek"] })), false, "a provider URL coverage item is linked, not gating");
-  return 35;
+
+  // Old dates (2026-10-10).
+  const NOW = Date.parse("2026-10-10T12:00:00Z");
+  const eventLd = (startDate) => good.replace('{"@type":"WebPage"}', JSON.stringify({ "@graph": [{ "@type": "MusicEvent", name: "Show", startDate }] }));
+  assert.ok(pageProblems("https://x.test/a", { status: 200, html: eventLd("2026-10-09T20:00:00-04:00") }, NOW).some((p) => /already started/.test(p)), "a past MusicEvent in JSON-LD is a finding");
+  assert.deepEqual(pageProblems("https://x.test/a", { status: 200, html: eventLd("2026-10-10T20:00:00-04:00") }, NOW), [], "an upcoming MusicEvent is not");
+  assert.deepEqual(pageProblems("https://x.test/a", { status: 200, html: eventLd("2026-10-09") }, NOW), [], "a date-only show counts until its day is over everywhere");
+  assert.deepEqual(pastShowsInApi([{ id: "old", dateTimeISO: "2026-10-09T19:00:00Z" }, { id: "new", dateTimeISO: "2026-10-11T19:00:00Z" }], NOW).map((r) => r.id), ["old"]);
+  assert.equal(pastShowsInApi([{ id: "ny", dateTimeISO: "2026-10-10T09:00:00", timezone: "America/New_York" }], NOW).length, 0, "a naive time is read in the venue zone (09:00 New York is 13:00Z)");
+  const llms = "- [A](https://x.test/a): 3 upcoming dates in 2 cities, 8 Oct 2026 to 1 Nov 2026.\n- [B](https://x.test/b): 1 upcoming date in 1 city on 10 Oct 2026. Next Ticketmaster public on-sale: 2026-10-09 15:00 UTC.\n";
+  assert.deepEqual(llmsTxtStaleDates(llms, NOW).map((d) => d.entry), ["A", "B"], "a passed first date and a passed 'next' on-sale are findings; today's date is not");
+  const fixtureRoot = await fs.mkdtemp(path.join(os.tmpdir(), "site-health-"));
+  await fs.mkdir(path.join(fixtureRoot, "content/blog"), { recursive: true });
+  await fs.writeFile(path.join(fixtureRoot, "content/blog/onsale.md"), "---\ntitle: T\ndate: 2026-10-01\nstatus: published\n---\n\nTickets go on sale on 5 October 2026 for the 1 December 2026 show.\n");
+  await fs.writeFile(path.join(fixtureRoot, "content/blog/recap.md"), "---\ntitle: T\ndate: 2026-10-01\nupdated: 2026-10-06\nstatus: published\n---\n\nTickets went on sale on October 5, 2026.\n");
+  const copy = staleDatedCopy({ root: fixtureRoot, today: "2026-10-10" });
+  assert.deepEqual(copy.map((c) => [c.path, c.dates]), [["/blog/onsale", ["2026-10-05"]]], "copy written before a date that has passed is a finding; updated copy and future dates are not");
+  const datedRun = await runHealthCheck({ baseUrl: "https://x.test", fetchImpl: fakeFetch, retryDelayMs: 0, now: NOW, contentRoot: fixtureRoot });
+  assert.equal(datedRun.dates.copy.length, 1);
+  assert.match(renderReport(datedRun), /### 6\. Old dates[\s\S]*content\/blog\/onsale\.md/);
+  await fs.rm(fixtureRoot, { recursive: true, force: true });
+  return 44;
 }
 
 async function main(argv) {

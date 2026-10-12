@@ -9,7 +9,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-10"
+    "last_verified_at": "2026-10-12"
   },
   {
     "slug": "harry-styles",
@@ -45,7 +45,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-10"
+    "last_verified_at": "2026-10-12"
   },
   {
     "slug": "bad-bunny",
@@ -57,7 +57,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-10"
+    "last_verified_at": "2026-10-12"
   },
   {
     "slug": "morgan-wallen",
@@ -69,7 +69,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-10"
+    "last_verified_at": "2026-10-12"
   },
   {
     "slug": "jay-z",
@@ -141,7 +141,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-10"
+    "last_verified_at": "2026-10-12"
   },
   {
     "slug": "charli-xcx",
@@ -165,7 +165,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-10"
+    "last_verified_at": "2026-10-12"
   },
   {
     "slug": "summer-walker",
@@ -189,7 +189,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-10"
+    "last_verified_at": "2026-10-12"
   },
   {
     "slug": "sabrina-carpenter",
@@ -219,7 +219,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-10"
+    "last_verified_at": "2026-10-12"
   },
   {
     "slug": "zach-bryan",
@@ -231,7 +231,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-07-15"
+    "last_verified_at": "2026-10-12"
   },
   {
     "slug": "the-weeknd",
@@ -243,7 +243,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-10"
+    "last_verified_at": "2026-10-12"
   },
   {
     "slug": "coldplay",
@@ -264,7 +264,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-10"
+    "last_verified_at": "2026-10-12"
   },
   {
     "slug": "tame-impala",
@@ -372,7 +372,7 @@
       "ticketmaster",
       "seatgeek"
     ],
-    "last_verified_at": "2026-10-10"
+    "last_verified_at": "2026-10-12"
   },
   {
     "slug": "metallica",
@@ -1438,5 +1438,89 @@
     "last_verified_at": "2026-10-09",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-10-09"
+  },
+  {
+    "slug": "rod-wave",
+    "name": "Rod Wave",
+    "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-11",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-11"
+  },
+  {
+    "slug": "uicideboy",
+    "name": "$uicideboy$",
+    "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-11",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-11"
+  },
+  {
+    "slug": "steve-lacy",
+    "name": "Steve Lacy",
+    "short_description": "R&B act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-11",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-11"
+  },
+  {
+    "slug": "the-smashing-pumpkins",
+    "name": "The Smashing Pumpkins",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-11",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-11"
+  },
+  {
+    "slug": "fuerza-regida",
+    "name": "Fuerza Regida",
+    "short_description": "World act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-11",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-11"
+  },
+  {
+    "slug": "mei-semones",
+    "name": "Mei Semones",
+    "short_description": "Alternative act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-10-11",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-10-11"
   }
 ]

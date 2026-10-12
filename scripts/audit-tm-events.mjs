@@ -190,14 +190,40 @@ export function compareLocal(localEvent, remote) {
   }
 
   const remoteStatus = clean(remote.data?.dates?.status?.code).toLowerCase();
-  if (ACTIONABLE_STATUSES.has(remoteStatus)) {
-    diffs.push({ field: 'status', local: clean(localEvent?.status), remote: remoteStatus });
+  // Nightly sync records lifecycle changes separately from the site's sale
+  // status. Comparing against `status` would re-report every recorded hold or
+  // reschedule forever, keeping the daily audit and Site health red.
+  const localStatus = clean(localEvent?.ticketmaster_status_code || localEvent?.status).toLowerCase();
+  const normalizeStatus = (status) => status === 'canceled' ? 'cancelled' : status;
+  const statusChanged = normalizeStatus(localStatus) !== normalizeStatus(remoteStatus);
+  if (statusChanged && (ACTIONABLE_STATUSES.has(remoteStatus)
+    || (ACTIONABLE_STATUSES.has(localStatus) && remoteStatus === 'onsale'))) {
+    diffs.push({ field: 'status', local: localStatus, remote: remoteStatus });
   }
   return diffs;
 }
 
 function runSelfTest() {
+  const statusResult = (code) => ({ data: { dates: { status: { code } } } });
   const checks = [
+    ...[...ACTIONABLE_STATUSES].map((code) => [
+      `recorded ${code} is not reported again`,
+      compareLocal({ status: 'on-sale', ticketmaster_status_code: code }, statusResult(code)).length === 0
+    ]),
+    ['a new reschedule is reported', compareLocal({ status: 'on-sale' }, statusResult('rescheduled'))
+      .some((diff) => diff.field === 'status' && diff.local === 'on-sale' && diff.remote === 'rescheduled')],
+    ['a changed lifecycle code is reported', compareLocal({ status: 'on-sale', ticketmaster_status_code: 'postponed' }, statusResult('cancelled'))
+      .some((diff) => diff.field === 'status' && diff.local === 'postponed' && diff.remote === 'cancelled')],
+    ['cancellation spellings are equivalent', compareLocal({ ticketmaster_status_code: 'canceled' }, statusResult('cancelled')).length === 0],
+    ['lifecycle status comparison ignores case and whitespace', compareLocal({ ticketmaster_status_code: ' Rescheduled ' }, statusResult('RESCHEDULED')).length === 0],
+    ['a held event returning to sale is reported', compareLocal({ status: 'on-sale', ticketmaster_status_code: 'postponed' }, statusResult('onsale'))
+      .some((diff) => diff.field === 'status' && diff.local === 'postponed' && diff.remote === 'onsale')],
+    ['routine offsale churn is not reported', compareLocal({ status: 'on-sale' }, statusResult('offsale')).length === 0],
+    ['offsale does not prove a recorded hold cleared', compareLocal({ ticketmaster_status_code: 'postponed' }, statusResult('offsale')).length === 0],
+    ['a recorded reschedule still reports date and venue drift', compareLocal(
+      { datetime_iso: '2026-10-19', venue: 'Old Venue', ticketmaster_status_code: 'rescheduled' },
+      { data: { dates: { start: { localDate: '2026-10-25' }, status: { code: 'rescheduled' } }, _embedded: { venues: [{ name: 'New Venue' }] } } }
+    ).map((diff) => diff.field).join(',') === 'datetime_iso,venue'],
     ['date-only value stays venue-local', venueLocalDate('2026-06-19', 'America/Los_Angeles') === '2026-06-19'],
     ['offset-free wall time stays venue-local', venueLocalDate('2026-06-19T02:00:00', 'America/Los_Angeles') === '2026-06-19'],
     ['UTC instant converts to venue-local date', venueLocalDate('2026-06-19T02:00:00Z', 'America/Los_Angeles') === '2026-06-18'],

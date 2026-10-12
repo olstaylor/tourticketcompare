@@ -358,12 +358,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266214",
+        "url": "https://www.ticketliquidator.com/tickets/8266214/The-Lemonheads-tickets-Mon-Feb-22-2027-White-Oak-Music-Hall-Upstairs",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_3mypsTe",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266214"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266214",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266214/The-Lemonheads-tickets-Mon-Feb-22-2027-White-Oak-Music-Hall-Upstairs"
   },
   {
     "id": "tm-the-lemonheads-2027-los-angeles-vv1ke8vp13ga5mfmw",
@@ -419,12 +427,20 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266221",
+        "url": "https://www.ticketliquidator.com/tickets/8266221/The-Lemonheads-tickets-Thu-Mar-4-2027-Teragram-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1ke8vP13GA5MFmW",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266221"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266221",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266221/The-Lemonheads-tickets-Thu-Mar-4-2027-Teragram-Ballroom"
   },
   {
     "id": "tm-the-lemonheads-2027-san-francisco-g5vyz_3niolho",
@@ -480,6 +496,13 @@
         "verified": true,
         "last_verified_at": "2026-09-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266224",
+        "url": "https://www.ticketliquidator.com/tickets/8266224/The-Lemonheads-tickets-Sun-Mar-7-2027-August-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_3niOlHo",
@@ -492,7 +515,8 @@
         "start": "2026-09-18T07:00:00Z",
         "end": "2027-02-08T06:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266224/The-Lemonheads-tickets-Sun-Mar-7-2027-August-Hall"
   },
   {
     "id": "tm-the-lemonheads-2027-madison-vv17jz_3gkbfxvrj",
@@ -760,7 +784,7 @@
         "event_id": 18595343,
         "url": "https://seatgeek.com/the-lemonheads-tickets/englewood-colorado-gothic-theatre-2027-03-14-8-30-pm/concert/18595343",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -776,11 +800,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266228",
+        "url": "https://www.ticketnetwork.com/en/p/8266228",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266228",
+        "url": "https://www.ticketliquidator.com/tickets/8266228/The-Lemonheads-tickets-Sun-Mar-14-2027-Gothic-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvVvK",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266228",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266228/The-Lemonheads-tickets-Sun-Mar-14-2027-Gothic-Theatre"
   },
   {
     "id": "tm-the-lemonheads-2027-omaha-z7r9jz1aavv7w",
@@ -813,7 +853,7 @@
         "event_id": 18595344,
         "url": "https://seatgeek.com/the-lemonheads-tickets/omaha-nebraska-the-waiting-room-omaha-2027-03-16-7-pm/concert/18595344",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -882,11 +922,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266208",
+        "url": "https://www.ticketnetwork.com/en/p/8266208",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266208",
+        "url": "https://www.ticketliquidator.com/tickets/8266208/The-Lemonheads-tickets-Wed-Feb-17-2027-Las-Rosas",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGKkf",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266208",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266208/The-Lemonheads-tickets-Wed-Feb-17-2027-Las-Rosas"
   },
   {
     "id": "tm-the-lemonheads-2027-orlando-rz7hnez1afgkf0",
@@ -901,7 +957,7 @@
     "ticketmaster_event_id": "14313224",
     "ticketmaster_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-the-abbey-tickets/14313224",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-orlando-the-abbey-2-19-2027--concerts-rock/production/7561065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-the-abbey-tickets/14313224",
     "last_verified_at": null,
@@ -923,11 +979,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7561065,
+        "url": "https://www.vividseats.com/the-lemonheads-tickets-orlando-the-abbey-2-19-2027--concerts-rock/production/7561065",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -935,11 +991,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266211",
+        "url": "https://www.ticketnetwork.com/en/p/8266211",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266211",
+        "url": "https://www.ticketliquidator.com/tickets/8266211/The-Lemonheads-tickets-Fri-Feb-19-2027-The-Abbey-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGKF0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266211",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266211/The-Lemonheads-tickets-Fri-Feb-19-2027-The-Abbey-Orlando"
   },
   {
     "id": "tm-the-lemonheads-2027-phoenix-rz7hnez1afgbaf",
@@ -954,7 +1026,7 @@
     "ticketmaster_event_id": "14318254",
     "ticketmaster_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-crescent-ballroom-tickets/14318254",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-lemonheads-tickets-phoenix-crescent-ballroom---phoenix-2-27-2027--concerts-rock/production/7561059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/the-lemonheads-the-love-chant-crescent-ballroom-tickets/14318254",
     "last_verified_at": null,
@@ -976,11 +1048,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7561059,
+        "url": "https://www.vividseats.com/the-lemonheads-tickets-phoenix-crescent-ballroom---phoenix-2-27-2027--concerts-rock/production/7561059",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -988,11 +1060,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266218",
+        "url": "https://www.ticketnetwork.com/en/p/8266218",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266218",
+        "url": "https://www.ticketliquidator.com/tickets/8266218/The-Lemonheads-tickets-Sat-Feb-27-2027-The-Crescent-Ballroom-Phoenix",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGbaf",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266218",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266218/The-Lemonheads-tickets-Sat-Feb-27-2027-The-Crescent-Ballroom-Phoenix"
   },
   {
     "id": "tm-the-lemonheads-2027-san-juan-capistrano-rz7hnez1a4zzjn",
@@ -1094,11 +1182,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266232",
+        "url": "https://www.ticketnetwork.com/en/p/8266232",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266232",
+        "url": "https://www.ticketliquidator.com/tickets/8266232/The-Lemonheads-tickets-Sat-Mar-20-2027-The-Empty-Bottle",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGOF7",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266232",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266232/The-Lemonheads-tickets-Sat-Mar-20-2027-The-Empty-Bottle"
   },
   {
     "id": "tm-the-lemonheads-2027-columbus-rz7hnez1afgpp0",
@@ -1147,10 +1251,26 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266237",
+        "url": "https://www.ticketnetwork.com/en/p/8266237",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266237",
+        "url": "https://www.ticketliquidator.com/tickets/8266237/The-Lemonheads-tickets-Sat-Mar-27-2027-Rumba-Cafe",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfGpP0",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266237",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266237/The-Lemonheads-tickets-Sat-Mar-27-2027-Rumba-Cafe"
   }
 ]

@@ -251,7 +251,7 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
 
   const checked = text(card(html, CHECKED.id));
   assert(
-    checked.includes("No listed price from Vivid Seats and TicketNetwork at the last check (9 Aug 2026, 10:05 UTC)."),
+    checked.includes("No listed price from Vivid Seats and TicketNetwork at the last check (Aug 9, 2026, 10:05 AM UTC)."),
     `${pathname}: an unpriced date names the checked lanes and the latest check time — got: ${checked.slice(-260)}`
   );
   assert(!/available|sold out/i.test(checked.replace(PRICE_UNAVAILABLE_NOTE, "")), `${pathname}: the checked note makes no availability claim`);

@@ -659,8 +659,7 @@ function artistHasVerifiedEventLinks(events, artistSlug) {
   const slug = slugify(artistSlug);
   return (events || []).some((event) => {
     if (!event || slugify(event.artist_slug) !== slug) return false;
-    const ts = Date.parse(event.dateTimeISO || event.datetime_iso || "");
-    if (!Number.isFinite(ts) || ts < now) return false;
+    if (!isUpcomingShow(event, now)) return false;
     const ticketmasterAvailable = eventLinkPublishable(event) && Boolean(safeVerifiedEventUrl(event.ticketmaster_url));
     const seatGeekAvailable = providerEventPublishable(event, "seatgeek") && Boolean(safeSeatGeekEventUrl(event.seatgeek_url));
     const vividSeatsAvailable = providerEventPublishable(event, "vivid-seats") && Boolean(safeVividSeatsEventUrl(event.vividseats_url));
@@ -681,8 +680,7 @@ function artistHasUpcomingShow(events, artistSlug, now = Date.now()) {
   const slug = slugify(artistSlug);
   return (events || []).some((event) => {
     if (!event || slugify(event.artist_slug) !== slug) return false;
-    const ts = Date.parse(event.dateTimeISO || event.datetime_iso || "");
-    return Number.isFinite(ts) && ts >= now;
+    return isUpcomingShow(event, now);
   });
 }
 
@@ -1510,12 +1508,11 @@ function upcomingVerifiedShowSummary(events, artistSlug) {
   const upcoming = (events || [])
     .filter((event) => {
       if (!event || slugify(event.artist_slug) !== slug) return false;
-      const ts = Date.parse(event.dateTimeISO || event.datetime_iso || "");
-      if (!Number.isFinite(ts) || ts < now) return false;
+      if (!isUpcomingShow(event, now)) return false;
       if (!eventLinkPublishable(event)) return false;
       return /^https:\/\//i.test(String(event.ticketmaster_url || "").trim());
     })
-    .sort((a, b) => Date.parse(a.dateTimeISO || a.datetime_iso) - Date.parse(b.dateTimeISO || b.datetime_iso));
+    .sort((a, b) => showStartMs(a) - showStartMs(b));
   if (!upcoming.length) return null;
   const next = formatCardDate(upcoming[0].dateTimeISO || upcoming[0].datetime_iso, upcoming[0].timezone);
   if (!next) return null;
@@ -1563,6 +1560,41 @@ function renderShowBoardShell(id, title, body, note) {
   text(grid, "p", "Checking for verified ticket options...", "muted empty-state");
   section.append(header, grid);
   return section;
+}
+
+// Start instant of a show in ms, or NaN. Keep in sync with showStartMs in
+// functions/_upcoming.js: zoned values parse as written, a naive wall time is
+// read in the venue's IANA zone (never the viewer's), and a date-only value
+// counts until the end of that day.
+function showStartMs(show) {
+  const raw = String((show && (show.dateTimeISO || show.datetime_iso)) || "").trim();
+  if (!raw) return NaN;
+  if (/^\d{4}-\d{2}-\d{2}$/.test(raw)) {
+    const midnight = Date.parse(`${raw}T00:00:00Z`);
+    return Number.isFinite(midnight) ? midnight + 86400000 - 1 : NaN;
+  }
+  if (/Z$/i.test(raw) || /[+-]\d{2}:?\d{2}$/.test(raw) || !/T\d{2}:\d{2}/.test(raw)) return Date.parse(raw);
+  const naiveUtc = Date.parse(`${raw}Z`);
+  const timeZone = String((show && show.timezone) || "").trim();
+  if (!Number.isFinite(naiveUtc) || !timeZone.includes("/")) return naiveUtc;
+  try {
+    const formatter = new Intl.DateTimeFormat("en-US", {
+      timeZone, hourCycle: "h23", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit"
+    });
+    const offset = (ms) => {
+      const p = Object.fromEntries(formatter.formatToParts(new Date(ms)).map((part) => [part.type, part.value]));
+      return Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour, +p.minute, +p.second) - ms;
+    };
+    const first = naiveUtc - offset(naiveUtc);
+    return naiveUtc - offset(first);
+  } catch (error) {
+    return naiveUtc;
+  }
+}
+
+function isUpcomingShow(show, now = Date.now()) {
+  const start = showStartMs(show);
+  return Number.isFinite(start) && start >= now;
 }
 
 // Resolve a stored datetime to the venue's wall clock. Keep in sync with
@@ -2442,13 +2474,14 @@ function recentPastShowsForArtist(events, artistSlug, limit = 3) {
     .map((ev) => ({
       id: String(ev.id || "").trim(),
       dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
+      timezone: String(ev.timezone || "").trim(),
       city: String(ev.city || "").trim(),
       venue: String(ev.venue || "").trim(),
       publishable: eventLinkPublishable(ev)
     }))
-    .filter((show) => show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
-    .filter((show) => Date.parse(show.dateTimeISO) < now && show.publishable && show.venue && show.city)
-    .sort((a, b) => Date.parse(b.dateTimeISO) - Date.parse(a.dateTimeISO))
+    .filter((show) => show.dateTimeISO && Number.isFinite(showStartMs(show)))
+    .filter((show) => !isUpcomingShow(show, now) && show.publishable && show.venue && show.city)
+    .sort((a, b) => showStartMs(b) - showStartMs(a))
     .slice(0, limit);
 }
 
@@ -2621,8 +2654,8 @@ function venueRunIndex(shows) {
   const sorted = [...shows]
     .filter((show) => show?.id)
     .sort((a, b) => {
-      const ta = Date.parse(a.dateTimeISO || a.datetime_iso || "");
-      const tb = Date.parse(b.dateTimeISO || b.datetime_iso || "");
+      const ta = showStartMs(a);
+      const tb = showStartMs(b);
       return (Number.isFinite(ta) ? ta : 0) - (Number.isFinite(tb) ? tb : 0);
     });
   for (const show of sorted) {
@@ -3189,7 +3222,7 @@ async function hydrateShowBoard(section, filters = {}) {
     const fallbackShows = sortEventsForSearch(await loadEventsForSearch())
       .filter((show) => {
         if (!show || (artistSlug && slugify(show.artist_slug) !== artistSlug)) return false;
-        const eventTime = Date.parse(show.datetime_iso || show.dateTimeISO || "");
+        const eventTime = showStartMs(show);
         // A not-yet-on-sale date stays on the board as a no-CTA card, and a
         // cancelled or postponed date stays listed with its status, as on the
         // server-rendered board.
@@ -4475,12 +4508,21 @@ document.addEventListener("click", (event) => {
   if (!provider) return;
   const showId = String(cta.dataset.ctaShowId || "").trim();
   const ctaLocation = String(cta.dataset.ctaLocation || "").trim();
+  // SeatGeek CTAs open the promo-code dialog (public/seatgeek-promo.js), whose
+  // Continue link then makes the same /api/out navigation.
+  const promo = window.ttcSeatGeekPromo;
+  const showPromo = Boolean(promo && promo.shouldIntercept(cta, event));
+  if (showPromo) event.preventDefault();
   // A double-click, or a click that bubbles through a nested tracked element,
   // is one intent and must produce one row. The authoritative count comes from
   // /api/out either way, but an inflated provider_click would distort the
   // CTA-click-to-redirect completion rate.
-  if (isDuplicateFunnelEvent(`provider_click:${provider}:${showId}:${ctaLocation}`, Date.now())) return;
+  if (isDuplicateFunnelEvent(`provider_click:${provider}:${showId}:${ctaLocation}`, Date.now())) {
+    if (showPromo) promo.open(cta, cta.getAttribute("href"));
+    return;
+  }
   const browserIntentId = attachBrowserIntent(cta, event);
+  if (showPromo) promo.open(cta, cta.getAttribute("href"));
   sendAnalytics("provider_click", {
     ...(browserIntentId ? { browserIntentId } : {}),
     provider,

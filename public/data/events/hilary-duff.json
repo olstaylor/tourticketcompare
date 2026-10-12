@@ -1666,7 +1666,7 @@
     "vividseats_url": "https://www.vividseats.com/hilary-duff-tickets-pittsburgh-ppg-paints-arena-10-16-2027--concerts-pop/production/7599690",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hilary-duff-the-lucky-me-tour-pittsburgh-pennsylvania-10-16-2027/event/16006531DA59D328",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1727,11 +1727,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284583",
     "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-pittsburgh-tickets-10-16-2027/event/107669007",
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-10-02T14:00:00Z",
-        "end": "2026-10-10T02:00:00Z"
-      },
       {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-02T14:00:00Z",
@@ -2519,7 +2514,7 @@
         "event_id": 18604684,
         "url": "https://seatgeek.com/hilary-duff-tickets/sunrise-florida-amerant-bank-arena-2027-10-01-7-30-pm/concert/18604684",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2860,11 +2855,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7800051",
+        "url": "https://www.ticketnetwork.com/en/p/7800051",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7800051",
+        "url": "https://www.ticketliquidator.com/tickets/7800051/Hilary-Duff-tickets-Tue-Oct-20-2026-Spark-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_7GkmdMw55",
     "timezone": "Pacific/Auckland",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7800051",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7800051/Hilary-Duff-tickets-Tue-Oct-20-2026-Spark-Arena"
   },
   {
     "id": "tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdoa5fw",
@@ -2882,7 +2893,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/hilary-duff-the-lucky-me-tour-ciudad-de-mexico-12-02-2027/event/14006447E024B232",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2913,11 +2924,42 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7744482",
+        "url": "https://www.ticketnetwork.com/en/p/7744482",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7744482",
+        "url": "https://www.ticketliquidator.com/tickets/7744482/Hilary-Duff-tickets-Fri-Feb-12-2027-Palacio-De-Los-Deportes-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107102490",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-mexico-city-palacio-de-los-deportes-12-2-2027/event/107102490",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZko6GkdOa5Fw",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-02-20T17:00:00Z",
+        "end": "2027-02-13T01:30:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7744482",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7744482/Hilary-Duff-tickets-Fri-Feb-12-2027-Palacio-De-Los-Deportes-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-mexico-city-palacio-de-los-deportes-12-2-2027/event/107102490"
   },
   {
     "id": "tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdomhcz",
@@ -2966,11 +3008,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8174253",
+        "url": "https://www.ticketnetwork.com/en/p/8174253",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8174253",
+        "url": "https://www.ticketliquidator.com/tickets/8174253/Hilary-Duff-tickets-Sat-Feb-13-2027-Palacio-De-Los-Deportes-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107116077",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-mexico-city-palacio-de-los-deportes-13-2-2027/event/107116077",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZko6GkdOMhCZ",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8174253",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8174253/Hilary-Duff-tickets-Sat-Feb-13-2027-Palacio-De-Los-Deportes-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-mexico-city-palacio-de-los-deportes-13-2-2027/event/107116077"
   },
   {
     "id": "tm-hilary-duff-2027-zapopan-1av8z_fgknzgqjq",
@@ -2988,7 +3054,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/hilary-duff-the-lucky-me-tour-zapopan-15-02-2027/event/1400648AB8D5A71A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3019,10 +3085,25 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107162296",
+        "url": "https://www.stubhub.ie/hilary-duff-tickets-guadalajara-auditorio-telmex-15-2-2027/event/107162296",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_FGknzgQjQ",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-04-30T06:00:00Z",
+        "end": "2027-02-16T02:30:00Z"
+      }
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/hilary-duff-tickets-guadalajara-auditorio-telmex-15-2-2027/event/107162296"
   }
 ]

@@ -8,6 +8,7 @@
 // This module is the single source of truth for future-date state used by the
 // presentation layer.
 
+import { showStartMs } from "./_upcoming.js";
 import { eventLifecycleHeld } from "./_route-indexability.js";
 
 export const INDEXABLE_ARTIST_STATUS = "indexable_with_substantial_content";
@@ -52,7 +53,7 @@ function eventTimesBySlug(events, { excludeHeld = false } = {}) {
     const slug = normalizeSlug(ev.artist_slug);
     if (!slug) continue;
     if (!index.has(slug)) index.set(slug, []);
-    index.get(slug).push(Date.parse(String(ev.datetime_iso || ev.dateTimeISO || "").trim()));
+    index.get(slug).push(showStartMs(ev));
   }
   memo.set(events, index);
   return index;

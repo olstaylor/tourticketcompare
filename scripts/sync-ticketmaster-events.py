@@ -102,11 +102,12 @@ PREMIUM_SEATS_VENUE_SUFFIX = " loge"
 BOX_SEAT_NAME_RE = re.compile(r"\|\s*(?:box|logen)[\s-]?seat\b", re.IGNORECASE)
 # Premium-tier listings Ticketmaster sells as separate events ("Venue Premium -
 # Rod Stewart", "Fontaines D.C. - Venue Premium Tickets", "Rod Stewart -
-# Premium Priced Seats/Seating"). Owner decision 2026-10-09: list standard
+# Premium Priced Seats/Seating", "Five Finger Death Punch | Premium Suite
+# Ticket"). Owner decision 2026-10-09: list standard
 # concert listings only. Exact phrases, so "RAYE: Premium Tour" is never
 # withheld. Not mirrored in functions/_event-pages.js: there it would 404 the
 # frozen charli-xcx "Venue Premium" pilot row, which stays until the pilot ends.
-PREMIUM_LISTING_NAME_RE = re.compile(r"\b(?:venue premium|premium priced seat(?:s|ing))\b", re.IGNORECASE)
+PREMIUM_LISTING_NAME_RE = re.compile(r"\b(?:venue premium|premium priced seat(?:s|ing)|premium suite tickets?)\b", re.IGNORECASE)
 # A listing that says the event ticket is not included ("Charli xcx | Vinyl
 # Room Upgrade (TICKET NOT INCLUDED)") is by its own words not admission to the
 # concert. Mirrors TICKET_NOT_INCLUDED_RE in functions/_event-pages.js.
@@ -1455,12 +1456,15 @@ def self_test():
           "travel_package_listing" not in codes_for(make_event(name="Box Seat Records Showcase")))
     for premium_name in ("Venue Premium - Rod Stewart - The Final Encore", "Fontaines D.C. - Venue Premium Tickets",
                          "Rod Stewart - Premium Priced Seats", "Rod Stewart - Premium Priced Seating",
+                         "Five Finger Death Punch | Premium Suite Ticket",
+                         "Five Finger Death Punch | PREMIUM SUITE TICKETS",
                          "Charli xcx | Vinyl Room Upgrade (TICKET NOT INCLUDED)"):
         check(f"premium-tier listing '{premium_name}' emits travel_package_listing",
               "travel_package_listing" in codes_for(make_event(name=premium_name)))
     check("a tour or venue merely called Premium is not withheld",
           "travel_package_listing" not in codes_for(make_event(name="RAYE: Premium Tour"))
-          and "travel_package_listing" not in codes_for(make_event(name="Rod Stewart - Live at Premium Arena")))
+          and "travel_package_listing" not in codes_for(make_event(name="Rod Stewart - Live at Premium Arena"))
+          and "travel_package_listing" not in codes_for(make_event(name="Premium Suite Tour")))
     check("plain concert at an ordinary venue emits no travel_package_listing",
           "travel_package_listing" not in codes_for(make_event(name="RAYE: This Tour May Contain New Music")))
     check("mismatched attraction emits attraction_identity_mismatch",

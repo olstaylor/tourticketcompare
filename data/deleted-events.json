@@ -242,6 +242,14 @@
       "ticketmaster_event_id": "314878415",
       "reason": "Ticketmaster upgrade listing (\"Fontaines D.C. | Vinyl Room Upgrade (TICKET NOT INCLUDED)\" at Vinyl Room - Ziggo Dome), not admission to the concert. Tombstoned by Ticketmaster id only (no venue/date key) so the standard concert listing for the same venue and night can still be ingested. Removed at the owner’s request on 2026-10-09 (list standard concert listings only); the recogniser now withholds these as travel_package_listing.",
       "deleted_at": "2026-10-09"
+    },
+    {
+      "artist_slug": "five-finger-death-punch",
+      "id": "tm-five-finger-death-punch-2027-helsinki-z698xz8kz16vjke6q8",
+      "ticketmaster_discovery_event_id": "Z698xZ8KZ16vjke6q8",
+      "ticketmaster_event_id": "1706087750",
+      "reason": "Ticketmaster premium-suite listing (\"Five Finger Death Punch | Premium Suite Ticket\" at Veikkaus Arena), not the standard concert listing. Tombstoned by Ticketmaster id only (no venue/date key) so the standard concert listing for the same venue and night can still be ingested. Removed under the standard-concert-listings-only decision in PR #1458, addressing its premium-suite review finding.",
+      "deleted_at": "2026-10-12"
     }
   ]
 }

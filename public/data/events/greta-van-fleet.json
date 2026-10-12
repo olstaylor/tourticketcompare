@@ -667,7 +667,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-omaha-chi-health-center-omaha-2-13-2027/production/7642102",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-omaha-nebraska-02-13-2027/event/0600653DCC02D8E5",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -727,14 +727,14 @@
         "end": "2026-10-15T03:00:00Z"
       },
       {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
         "name": "GVF Fan Presale",
         "start": "2026-10-13T15:00:00Z",
         "end": "2026-10-14T03:00:00Z"
-      },
-      {
-        "name": "GVF Ether Pass Presales",
-        "start": "2026-10-13T15:00:00Z",
-        "end": "2026-10-15T03:00:00Z"
       },
       {
         "name": "Reserved by Spotify",
@@ -745,6 +745,11 @@
         "name": "LIVE NATION PRESALE",
         "start": "2026-10-14T15:00:00Z",
         "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2027-02-06T05:55:00Z"
       }
     ]
   },
@@ -1966,7 +1971,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-tulsa-bok-center-3-16-2027/production/7642162",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-tulsa-oklahoma-03-16-2027/event/2000653EEA055CCC",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2026,6 +2031,11 @@
         "end": "2026-10-15T03:00:00Z"
       },
       {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
         "name": "GVF Fan Presale",
         "start": "2026-10-13T15:00:00Z",
         "end": "2026-10-15T03:00:00Z"
@@ -2039,6 +2049,11 @@
         "name": "LIVE NATION PRESALE",
         "start": "2026-10-14T15:00:00Z",
         "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2027-03-09T05:55:00Z"
       }
     ]
   },
@@ -2604,7 +2619,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-boise-extramile-arena-3-27-2027/production/7642160",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-boise-idaho-03-27-2027/event/1E00654194226422",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2664,8 +2679,8 @@
         "end": "2026-10-15T04:00:00Z"
       },
       {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-10-13T16:00:00Z",
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T15:00:00Z",
         "end": "2026-10-15T04:00:00Z"
       },
       {
@@ -2684,9 +2699,9 @@
         "end": "2026-10-15T04:00:00Z"
       },
       {
-        "name": "Citi® Cardmember Preferred Tickets",
+        "name": "VIP Packages Onsale",
         "start": "2026-10-15T16:00:00Z",
-        "end": "2027-02-28T06:59:00Z"
+        "end": "2027-03-20T05:55:00Z"
       }
     ]
   },
@@ -3420,7 +3435,7 @@
     "ticketmaster_event_id": "1100653C99835FF0",
     "ticketmaster_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-vancouver-british-columbia-07-05-2027/event/1100653C99835FF0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-vancouver-rogers-arena-7-5-2027/production/7642176",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/greta-van-fleet-into-the-beginning-vancouver-british-columbia-07-05-2027/event/1100653C99835FF0",
     "last_verified_at": "2026-10-09",
@@ -3442,11 +3457,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7642176,
+        "url": "https://www.vividseats.com/greta-van-fleet-tickets-vancouver-rogers-arena-7-5-2027/production/7642176",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3846,7 +3861,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-kansas-city-t-mobile-center-7-13-2027/production/7642120",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-kansas-city-missouri-07-13-2027/event/06006541DE906D4A",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3908,9 +3923,34 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303373/Greta-Van-Fleet-tickets-Tue-Jul-13-2027-T-Mobile-Center",
     "presales": [
       {
+        "name": "GVF Ether Pass Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "GVF Fan Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
         "name": "Reserved by Spotify",
         "start": "2026-10-13T19:00:00Z",
         "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-15T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2027-07-06T04:55:00Z"
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-kansas-city-tickets-7-13-2027/event/107671900"

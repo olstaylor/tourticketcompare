@@ -252,10 +252,21 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   assert(h1(page.html) === `${ARTIST.name} at Fixture Arena, Springfield — Thu, Sep 10, 2026`, `the H1 names artist, venue, city and venue-local date (got ${h1(page.html)})`);
   assert(!/Sep 11/.test(h1(page.html) + title(page.html)), "the UTC date never appears in the H1 or title");
   assert(/Sep 10, 2026/.test(title(page.html)) && / Tickets/.test(title(page.html)), `the title is factual (got ${title(page.html)})`);
-  assert(!/\$/.test(title(page.html)) && !/\$/.test(description(page.html)), "no price in the title or description");
+  assert(!/\$/.test(title(page.html)), "the title stays stable as prices change");
+  assert(/Starting from US\$/.test(description(page.html)), `the event snippet carries its gated starting price (got ${description(page.html)})`);
+  assert(/Sep 10, 2026/.test(description(page.html)) && /checked .* UTC\. Check fees\./.test(description(page.html)), "the event snippet dates and qualifies its price");
+  assert(!JSON.stringify(graphOf(page.html)).includes("Starting from"), "the starting-price snippet is excluded from JSON-LD");
   assert(/Event details/.test(page.html) && /Fixture Arena/.test(text(mainOf(page.html))) && /Springfield, United States/.test(text(mainOf(page.html))), "the page states venue, city and country");
   assert(/8:00 PM local time/.test(text(mainOf(page.html))), "the page states the local start time");
   assert(/How this site makes money/.test(page.html), "the money disclosure sits with the buttons");
+  // Answer-first lead: who, where, when and the linked sites, directly under the title, said once.
+  const lead = text(meta(page.html, /<\/h1>(<p class="lead">[\s\S]*?<\/p>)/));
+  assert(/ plays Fixture Arena in Springfield on .*8:00 PM local time\. Ticket links for this date: .*Ticketmaster\./.test(lead), `the lead answers who, where, when and which sites (got ${lead})`);
+  assert(text(mainOf(page.html)).split(" plays Fixture Arena").length === 2, "the when-and-where sentence is stated once");
+  const pageGraph = graphOf(page.html);
+  const webPage = pageGraph.find((node) => node["@type"] === "WebPage");
+  assert(webPage && /#event$/.test(webPage.about?.["@id"] || ""), "the event page carries a WebPage node about its MusicEvent");
+  assert(/ live at Fixture Arena in Springfield on /.test(pageGraph.find((node) => node["@type"] === "MusicEvent")?.description || ""), "the MusicEvent has a factual description");
 
   // Parity: the event card is the parent card, button for button.
   const parent = await render(ARTIST_CITY);
@@ -270,7 +281,7 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
 
   // Recorded prices: the same figures the artist-city price answer states.
   const prices = text(meta(page.html, /(<section[^>]*aria-labelledby="eventPricesTitle"[\s\S]*?<\/section>)/));
-  assert(/Lowest listed price: \$182 on Vivid Seats, checked 9 Aug 2026, 09:00 UTC/.test(prices), `the lowest listed price matches the button and states its capture time (got ${prices.slice(0, 200)})`);
+  assert(/Lowest listed price: \$182 on Vivid Seats, checked Aug 9, 2026, 9:00 AM UTC/.test(prices), `the lowest listed price matches the button and states its capture time (got ${prices.slice(0, 200)})`);
   assert(!/\bnow:/.test(prices), "a cached price is never labelled as current");
   assert(/30-day low \$150 · Vivid Seats/.test(prices), "the recorded 30-day low is stated");
   assert(text(parent.html).includes("30-day low $150 · Vivid Seats"), "the parent price answer states the same low");

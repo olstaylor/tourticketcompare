@@ -389,6 +389,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264649",
+        "url": "https://www.ticketliquidator.com/tickets/8264649/The-Warning-tickets-Sun-Apr-18-2027-The-Van-Buren",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_3Gkl3JyTK",
@@ -407,7 +414,8 @@
         "start": "2026-09-18T17:00:00Z",
         "end": "2027-04-12T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264649/The-Warning-tickets-Sun-Apr-18-2027-The-Van-Buren"
   },
   {
     "id": "tm-the-warning-2027-san-francisco-z7r9jz1aavtgn",
@@ -440,7 +448,7 @@
         "event_id": 18593338,
         "url": "https://seatgeek.com/the-warning-tickets/san-francisco-california-the-warfield-2027-04-20-8-pm/concert/18593338",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -463,12 +471,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264655",
+        "url": "https://www.ticketliquidator.com/tickets/8264655/The-Warning-tickets-Tue-Apr-20-2027-Warfield",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtGN",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264655"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264655",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264655/The-Warning-tickets-Tue-Apr-20-2027-Warfield"
   },
   {
     "id": "tm-the-warning-2027-portland-z7r9jz1aavtg0",
@@ -501,7 +517,7 @@
         "event_id": 18593342,
         "url": "https://seatgeek.com/the-warning-tickets/portland-oregon-roseland-theater-2027-04-22-8-pm/concert/18593342",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -524,12 +540,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264657",
+        "url": "https://www.ticketliquidator.com/tickets/8264657/The-Warning-tickets-Thu-Apr-22-2027-Roseland-Theater",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtG0",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264657"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264657",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264657/The-Warning-tickets-Thu-Apr-22-2027-Roseland-Theater"
   },
   {
     "id": "tm-the-warning-2027-seattle-vvg1hz_3rqncw_",
@@ -592,6 +616,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264648",
+        "url": "https://www.ticketliquidator.com/tickets/8264648/The-Warning-tickets-Fri-Apr-23-2027-Moore-Theatre-WA",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3RqnCw_",
@@ -605,7 +636,8 @@
         "start": "2026-09-18T17:00:00Z",
         "end": "2027-04-17T05:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264648/The-Warning-tickets-Fri-Apr-23-2027-Moore-Theatre-WA"
   },
   {
     "id": "tm-the-warning-2027-vancouver-z7r9jz1aavjo7",
@@ -638,7 +670,7 @@
         "event_id": 18590212,
         "url": "https://seatgeek.com/the-warning-tickets/vancouver-canada-vogue-theatre-bc-1-2027-04-25-7-pm/concert/18590212",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -661,12 +693,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264658",
+        "url": "https://www.ticketliquidator.com/tickets/8264658/The-Warning-tickets-Sun-Apr-25-2027-Vogue-Theatre-BC",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvJO7",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264658"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264658",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264658/The-Warning-tickets-Sun-Apr-25-2027-Vogue-Theatre-BC"
   },
   {
     "id": "tm-the-warning-2027-denver-g5vzz_3mnvfjd",
@@ -855,6 +895,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264650",
+        "url": "https://www.ticketliquidator.com/tickets/8264650/The-Warning-tickets-Sun-May-2-2027-Bayou-Music-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_30oEIsm",
@@ -868,7 +915,8 @@
         "start": "2026-09-18T15:00:00Z",
         "end": "2027-04-25T17:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264650/The-Warning-tickets-Sun-May-2-2027-Bayou-Music-Center"
   },
   {
     "id": "tm-the-warning-2027-atlanta-z7r9jz1aavtgj",
@@ -901,7 +949,7 @@
         "event_id": 18593340,
         "url": "https://seatgeek.com/the-warning-tickets/atlanta-georgia-the-eastern-atlanta-2027-05-04-8-pm/concert/18593340",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -924,12 +972,20 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264656",
+        "url": "https://www.ticketliquidator.com/tickets/8264656/The-Warning-tickets-Tue-May-4-2027-The-Eastern-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtGJ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264656"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264656",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264656/The-Warning-tickets-Tue-May-4-2027-The-Eastern-GA"
   },
   {
     "id": "tm-the-warning-2027-detroit-vv17oz_3gklkji_k",
@@ -1134,6 +1190,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8270802",
+        "url": "https://www.ticketliquidator.com/tickets/8270802/The-Warning-tickets-Sun-May-9-2027-MTelus",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_3GknfHKqK",
@@ -1146,7 +1209,8 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-05-03T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270802/The-Warning-tickets-Sun-May-9-2027-MTelus"
   },
   {
     "id": "tm-the-warning-2027-toronto-1avzz_3gkltrh3z",
@@ -1262,6 +1326,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264652",
+        "url": "https://www.ticketliquidator.com/tickets/8264652/The-Warning-tickets-Sat-May-15-2027-Citizens-Live-at-The-Wylie",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_3GknH0_t1",
@@ -1274,7 +1345,8 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-05-09T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264652/The-Warning-tickets-Sat-May-15-2027-Citizens-Live-at-The-Wylie"
   },
   {
     "id": "tm-the-warning-2027-brooklyn-k7vgf_3iu7xhd",
@@ -1421,6 +1493,13 @@
         "verified": true,
         "last_verified_at": "2026-09-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264653",
+        "url": "https://www.ticketliquidator.com/tickets/8264653/The-Warning-tickets-Sun-May-23-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_3GklQGssU",
@@ -1434,7 +1513,8 @@
         "start": "2026-09-18T14:00:00Z",
         "end": "2027-05-17T02:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264653/The-Warning-tickets-Sun-May-23-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-the-warning-2027-las-vegas-z7r9jz1aavtgx",
@@ -1467,7 +1547,7 @@
         "event_id": 18590177,
         "url": "https://seatgeek.com/the-warning-tickets/las-vegas-nevada-pearl-concert-theater-at-palms-casino-resort-2027-04-17-8-pm/concert/18590177",
         "verified": true,
-        "last_verified_at": "2026-10-08",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1497,13 +1577,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264654",
+        "url": "https://www.ticketliquidator.com/tickets/8264654/The-Warning-tickets-Sat-Apr-17-2027-Pearl-Concert-Theater-At-Palms-Casino-Resort",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtGx",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264654",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-las-vegas-tickets-4-17-2027/event/107668670"
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-las-vegas-tickets-4-17-2027/event/107668670",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264654/The-Warning-tickets-Sat-Apr-17-2027-Pearl-Concert-Theater-At-Palms-Casino-Resort"
   },
   {
     "id": "tm-the-warning-2027-san-antonio-z7r9jz1aavtf4",
@@ -1536,7 +1624,7 @@
         "event_id": 18591754,
         "url": "https://seatgeek.com/the-warning-tickets/san-antonio-texas-boeing-center-at-tech-port-2027-04-30-8-pm/concert/18591754",
         "verified": true,
-        "last_verified_at": "2026-10-08",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1566,13 +1654,21 @@
         "verified": true,
         "last_verified_at": "2026-09-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264193",
+        "url": "https://www.ticketliquidator.com/tickets/8264193/The-Warning-tickets-Fri-Apr-30-2027-Boeing-Center-at-Tech-Port",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvtF4",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264193",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-san-antonio-tickets-4-30-2027/event/107668180"
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-san-antonio-tickets-4-30-2027/event/107668180",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264193/The-Warning-tickets-Fri-Apr-30-2027-Boeing-Center-at-Tech-Port"
   },
   {
     "id": "tm-the-warning-2027-london-1adjz_3gknpoval",
@@ -1628,12 +1724,28 @@
         "verified": true,
         "last_verified_at": "2026-10-05",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8309065",
+        "url": "https://www.ticketnetwork.com/en/p/8309065",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8309065",
+        "url": "https://www.ticketliquidator.com/tickets/8309065/The-Warning-tickets-Fri-Apr-2-2027-OVO-Arena-Wembley",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_3GknpOVAL",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110"
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8309065",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8309065/The-Warning-tickets-Fri-Apr-2-2027-OVO-Arena-Wembley"
   },
   {
     "id": "tm-the-warning-2027-ciudad-de-mexico-1afzkf4gkenopd9",
@@ -1651,7 +1763,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/the-warning-everythings-falling-world-tour-ciudad-de-mexico-05-02-2027/event/14006515AA456ED7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1682,10 +1794,41 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8280935",
+        "url": "https://www.ticketnetwork.com/en/p/8280935",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8280935",
+        "url": "https://www.ticketliquidator.com/tickets/8280935/The-Warning-tickets-Fri-Feb-5-2027-Estadio-GNP-Seguros-Mexico-City",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107665621",
+        "url": "https://www.stubhub.ie/the-warning-tickets-mexico-city-estadio-gnp-seguros-5-2-2027/event/107665621",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AfZkf4GkenopD9",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-09-11T17:00:00Z",
+        "end": "2027-02-06T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8280935",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8280935/The-Warning-tickets-Fri-Feb-5-2027-Estadio-GNP-Seguros-Mexico-City",
+    "stubhub_international_url": "https://www.stubhub.ie/the-warning-tickets-mexico-city-estadio-gnp-seguros-5-2-2027/event/107665621"
   }
 ]

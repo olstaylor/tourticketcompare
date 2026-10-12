@@ -338,6 +338,21 @@ async function selfTest() {
     }
   }
 
+  // Regression: timestamps must never be applied from reports generated
+  // before this checkout's current artist/event data revision.
+  const auditSteps = workflows["daily-audit.yml"].jobs.audit.steps || [];
+  const auditWait = auditSteps.findIndex((step) => /node scripts\/wait-for-writer-lanes\.mjs/.test(step.run || ""));
+  const firstProbe = auditSteps.findIndex((step) => /scripts\/verify-outbound-links\.mjs/.test(step.run || ""));
+  assert(auditWait > 0 && auditWait < firstProbe, "audit waits and refreshes main before generating evidence");
+  const verificationSteps = workflows["daily-audit.yml"].jobs["verification-dates"].steps || [];
+  const download = verificationSteps.findIndex((step) => /actions\/download-artifact@/.test(step.uses || ""));
+  const check = verificationSteps.findIndex((step) => step.name === "Check audit evidence revision");
+  const bump = verificationSteps.findIndex((step) => /scripts\/bump-verified-dates\.mjs/.test(step.run || ""));
+  assert(check > download && check < bump, "verification compares audit revision before stamping artists");
+  assert(/source-commit\.txt/.test(verificationSteps[check]?.run || "")
+    && /git rev-parse HEAD/.test(verificationSteps[check]?.run || ""),
+    "verification checks evidence commit against current checkout");
+
   console.log("wait-for-writer-lanes self-test passed.");
 }
 

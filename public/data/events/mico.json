@@ -124,18 +124,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7978069",
-        "url": "https://www.ticketliquidator.com/tickets/7978069/Mico-tickets-Sun-Oct-11-2026-Wonder-Ballroom",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70I8E",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978069/Mico-tickets-Sun-Oct-11-2026-Wonder-Ballroom"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-mico-2026-san-francisco-z7r9jz1a70i80",

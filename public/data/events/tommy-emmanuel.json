@@ -177,18 +177,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8079700",
-        "url": "https://www.ticketliquidator.com/tickets/8079700/Tommy-Emmanuel-tickets-Sun-Oct-11-2026-Hering-Auditorium",
-        "verified": true,
-        "last_verified_at": "2026-09-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_5i6WUHs",
     "timezone": "America/Anchorage",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8079700/Tommy-Emmanuel-tickets-Sun-Oct-11-2026-Hering-Auditorium"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-tommy-emmanuel-2026-dublin-1kkzv0qagauuqvy",

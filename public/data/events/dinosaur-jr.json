@@ -201,18 +201,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8105617",
-        "url": "https://www.ticketliquidator.com/tickets/8105617/Dinosaur-Jr-tickets-Sun-Oct-11-2026-Belly-Up-Tavern",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PUxp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8105617/Dinosaur-Jr-tickets-Sun-Oct-11-2026-Belly-Up-Tavern"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-dinosaur-jr-2026-anaheim-vvg10z_uu7ndiz",

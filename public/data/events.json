@@ -8907,11 +8907,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7921655",
-        "url": "https://www.ticketliquidator.com/tickets/7921655/Olivia-Rodrigo-tickets-Sun-Oct-11-2026-United-Center",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107162469",
@@ -8926,7 +8926,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "vv178Z_aGkYeTUOa",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921655/Olivia-Rodrigo-tickets-Sun-Oct-11-2026-United-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-chicago-tickets-10-11-2026/event/107162469"
   },
   {
@@ -17596,11 +17596,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7679802",
-        "url": "https://www.ticketliquidator.com/tickets/7679802/Bruno-Mars-tickets-Sun-Oct-11-2026-Levis-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107074188",
@@ -17615,7 +17615,7 @@
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5vYZ_eEJSDnx",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7679802/Bruno-Mars-tickets-Sun-Oct-11-2026-Levis-Stadium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-santa-clara-tickets-10-11-2026/event/107074188"
   },
   {
@@ -50296,11 +50296,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7676515",
-        "url": "https://www.ticketliquidator.com/tickets/7676515/Five-Finger-Death-Punch-tickets-Sun-Oct-11-2026-iTHINK-Financial-Amphitheatre",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_eQW6ABN",
@@ -50308,7 +50308,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-west-palm-beach-tickets-10-11-2026/event/107076164",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676515/Five-Finger-Death-Punch-tickets-Sun-Oct-11-2026-iTHINK-Financial-Amphitheatre"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-alpharetta-vvg1zz_eq2kn-d",
@@ -52377,11 +52377,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7976482",
-        "url": "https://www.ticketliquidator.com/tickets/7976482/Don-Omar-tickets-Sun-Oct-11-2026-Prudential-Center",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107250077",
@@ -52395,7 +52395,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976482/Don-Omar-tickets-Sun-Oct-11-2026-Prudential-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/don-omar-newark-tickets-10-11-2026/event/107250077"
   },
   {
@@ -82832,11 +82832,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8135396",
-        "url": "https://www.ticketliquidator.com/tickets/8135396/Michelle-Branch-tickets-Sun-Oct-11-2026-Boulder-Theater",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -82849,7 +82849,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JffK",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8135396/Michelle-Branch-tickets-Sun-Oct-11-2026-Boulder-Theater",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": ""
   },
   {
@@ -125593,18 +125593,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8035346",
-        "url": "https://www.ticketliquidator.com/tickets/8035346/Malcolm-Todd-tickets-Sun-Oct-11-2026-The-Mission-Ballroom",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PobE",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8035346/Malcolm-Todd-tickets-Sun-Oct-11-2026-The-Mission-Ballroom"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-malcolm-todd-2026-denver-z7r9jz1a7pk4i",
@@ -131084,18 +131084,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8105617",
-        "url": "https://www.ticketliquidator.com/tickets/8105617/Dinosaur-Jr-tickets-Sun-Oct-11-2026-Belly-Up-Tavern",
-        "verified": true,
-        "last_verified_at": "2026-10-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PUxp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8105617/Dinosaur-Jr-tickets-Sun-Oct-11-2026-Belly-Up-Tavern"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-dinosaur-jr-2026-anaheim-vvg10z_uu7ndiz",
@@ -141646,18 +141646,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8079700",
-        "url": "https://www.ticketliquidator.com/tickets/8079700/Tommy-Emmanuel-tickets-Sun-Oct-11-2026-Hering-Auditorium",
-        "verified": true,
-        "last_verified_at": "2026-09-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_5i6WUHs",
     "timezone": "America/Anchorage",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8079700/Tommy-Emmanuel-tickets-Sun-Oct-11-2026-Hering-Auditorium"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-tommy-emmanuel-2026-dublin-1kkzv0qagauuqvy",
@@ -186161,11 +186161,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7796640",
-        "url": "https://www.ticketliquidator.com/tickets/7796640/Warren-Zeiders-tickets-Sun-Oct-11-2026-O2-Academy-Glasgow",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107018106",
@@ -186179,7 +186179,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7796640/Warren-Zeiders-tickets-Sun-Oct-11-2026-O2-Academy-Glasgow",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-glasgow-o2-academy-glasgow-11-10-2026/event/107018106"
   },
   {
@@ -204035,18 +204035,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7978069",
-        "url": "https://www.ticketliquidator.com/tickets/7978069/Mico-tickets-Sun-Oct-11-2026-Wonder-Ballroom",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70I8E",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978069/Mico-tickets-Sun-Oct-11-2026-Wonder-Ballroom"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-mico-2026-san-francisco-z7r9jz1a70i80",

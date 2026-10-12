@@ -57,6 +57,11 @@ for (const [index, step] of STEPS.entries()) {
 // The lanes are a partition of the suite by construction; assert it so a future
 // change to stepsFor() cannot quietly reintroduce the drift this used to catch.
 const mvp = stepsFor("mvp");
+// Publishing jobs rely on this suite before opening a PR. Keep the schema
+// contract here so lifecycle drift cannot pass in-job and fail only in CI.
+if (!mvp.some((step) => step.run === "npm run schema:validate")) {
+  errors.push("schema:validate must run in the canonical publishing suite");
+}
 const partition = [...stepsFor("quick"), ...stepsFor("units")];
 if (partition.length !== mvp.length) {
   errors.push(`quick (${stepsFor("quick").length}) + units (${stepsFor("units").length}) != mvp (${mvp.length})`);

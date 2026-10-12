@@ -100,6 +100,10 @@ PREMIUM_SEATS_VENUE_SUFFIX = " loge"
 # or "| Logen-Seat" (Loge = box). Name segment only, so "Box Seat Records" is
 # never withheld. Mirrors BOX_SEAT_NAME_RE in functions/_event-pages.js.
 BOX_SEAT_NAME_RE = re.compile(r"\|\s*(?:box|logen)[\s-]?seat\b", re.IGNORECASE)
+# A listing that says the event ticket is not included is by its own words not
+# admission to the concert (e.g. "Vinyl Room Upgrade (TICKET NOT INCLUDED)").
+# Mirrors TICKET_NOT_INCLUDED_RE in functions/_event-pages.js.
+TICKET_NOT_INCLUDED_RE = re.compile(r"\bticket not included\b", re.IGNORECASE)
 
 PLACEHOLDER_MARKERS = ("localhost", "example.com", "placeholder", "replace-me", "tbd")
 AFFILIATE_WRAPPER_HOSTS = {"ticketmaster.evyy.net"}
@@ -671,6 +675,8 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
         travel_hits.append("loge venue")
     if BOX_SEAT_NAME_RE.search(event_name):
         travel_hits.append("| box seat")
+    if TICKET_NOT_INCLUDED_RE.search(haystack):
+        travel_hits.append("ticket not included")
     if travel_hits:
         withhold(
             "travel_package_listing",
@@ -1438,6 +1444,10 @@ def self_test():
               "travel_package_listing" in codes_for(make_event(name=box_name)))
     check("'Box Seat' outside a name segment is not withheld",
           "travel_package_listing" not in codes_for(make_event(name="Box Seat Records Showcase")))
+    for upgrade_name in ("Charli xcx | Vinyl Room Upgrade (TICKET NOT INCLUDED)",
+                         "Latto VIP Upgrade (Event Ticket Not Included)"):
+        check(f"ticket-not-included listing '{upgrade_name}' emits travel_package_listing",
+              "travel_package_listing" in codes_for(make_event(name=upgrade_name)))
     check("plain concert at an ordinary venue emits no travel_package_listing",
           "travel_package_listing" not in codes_for(make_event(name="RAYE: This Tour May Contain New Music")))
     check("mismatched attraction emits attraction_identity_mismatch",

@@ -1048,11 +1048,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7676515",
-        "url": "https://www.ticketnetwork.com/en/p/7676515",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107076164",
@@ -1072,7 +1072,7 @@
     "ticketmaster_discovery_event_id": "vvG1VZ_eQW6ABN",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676515",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-west-palm-beach-tickets-10-11-2026/event/107076164",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676515/Five-Finger-Death-Punch-tickets-Sun-Oct-11-2026-iTHINK-Financial-Amphitheatre"
   },

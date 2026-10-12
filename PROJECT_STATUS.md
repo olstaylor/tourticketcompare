@@ -17,7 +17,7 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 
   - Vivid Seats 2024; 348 `needs_recheck` rows retain a standalone Vivid Seats CTA.
 
-  - TicketNetwork 2028.
+  - TicketNetwork 2018.
 
   - Ticket Liquidator 1973.
 

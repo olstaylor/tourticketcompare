@@ -4,7 +4,7 @@
   "routes": {
     "/guides/how-to-compare-concert-ticket-prices": {
       "content_hash": "3707b6ed6c3b628e",
-      "content_updated_at": "2026-10-11"
+      "content_updated_at": "2026-10-12"
     },
     "/guides/vivid-seats-vs-ticketmaster": {
       "content_hash": "b43b5d0745cdf3ad",
@@ -12,7 +12,7 @@
     },
     "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
       "content_hash": "a0838d235888571b",
-      "content_updated_at": "2026-10-11"
+      "content_updated_at": "2026-10-12"
     },
     "/guides/seatgeek-vs-ticketmaster": {
       "content_hash": "6482847b5d3217e0",
@@ -112,23 +112,23 @@
     },
     "/guides/vivid-seats-promo-codes-and-fees": {
       "content_hash": "ba1cb27508e87ba2",
-      "content_updated_at": "2026-10-11"
+      "content_updated_at": "2026-10-12"
     },
     "/": {
       "content_hash": "8a0667895c1424f7",
       "content_updated_at": "2026-10-10"
     },
     "/compare-concert-ticket-prices": {
-      "content_hash": "b730828958950583",
-      "content_updated_at": "2026-10-11"
+      "content_hash": "ff74759f6b4fc602",
+      "content_updated_at": "2026-10-12"
     },
     "/artists": {
       "content_hash": "dfc0045786dae73a",
       "content_updated_at": "2026-10-10"
     },
     "/guides": {
-      "content_hash": "4163fe6532779195",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "bb87f668be5c11cd",
+      "content_updated_at": "2026-10-11"
     },
     "/how-it-works": {
       "content_hash": "f0ddec9da1a1ee13",

@@ -89,7 +89,7 @@ assert(Number.isFinite(SMOKE_TEST_NOW_MS), "smoke test clock must be a valid ISO
 Date.now = () => SMOKE_TEST_NOW_MS;
 const routeMarkers = new Map([
   ["/artists", "Choose an artist, then pick the date you want to compare ticket prices for."],
-  ["/cities", "at least four upcoming reviewed shows across at least two artists"],
+  ["/cities", "at least four upcoming shows from at least two artists"],
   ["/on-sale", "Presales from Ticketmaster"],
   ["/guides", "Compare the total at checkout for that exact ticket"],
   ["/guides/vivid-seats-vs-ticketmaster", "A like-for-like purchase checklist"],
@@ -3781,7 +3781,7 @@ const weakBoard = await renderSyntheticArtistBoard([
 ]);
 assert(weakBoard.html.includes("1 of the 3 have a checked ticket link"), "partial provider coverage must be stated in the lead");
 assert(
-  (weakBoard.html.match(/No checked ticket link for this date yet/g) || []).length === 2,
+  (weakBoard.html.match(/No ticket link for this date yet/g) || []).length === 2,
   "dates without a checked link must render the safe no-link state"
 );
 
@@ -3931,7 +3931,7 @@ assert(!beyonceEmptyStatePage.text.includes("event records"), "empty-board artis
 // Artist-level provider buttons land on the artist's page, not on one date, so
 // neither the provenance block nor the shared help may claim otherwise.
 assert(
-  manyBoard.html.includes("every button on a date card opens that exact event"),
+  manyBoard.html.includes("every button on a date card opens that exact show"),
   "the provenance block should scope the exact-event claim to date-card buttons"
 );
 assert(

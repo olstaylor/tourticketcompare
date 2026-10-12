@@ -47,6 +47,20 @@ function providerConfig(slug) {
   return PROVIDERS[clean(slug, 80).toLowerCase()] || null;
 }
 
+// Keyword matches individual words, so common words in a full artist name
+// can exhaust pagination on unrelated listings. The matcher still checks the
+// complete artist name, city, venue and venue-local date after this lookup.
+function catalogArtistKeyword(artistName) {
+  const words = clean(artistName, 200).match(/[\p{L}\p{N}]+/gu) || [];
+  const common = new Set([
+    "the", "and", "with", "of", "for", "a", "an", "to", "from", "in", "at",
+    "orchestra", "band", "stars", "event", "nation", "death", "my", "all",
+    "blue", "black", "city", "perfect"
+  ]);
+  const distinctive = words.filter((word) => !common.has(word.toLowerCase()));
+  return distinctive.sort((a, b) => b.length - a.length)[0] || clean(artistName, 200);
+}
+
 function hostnameAllowed(hostname, allowedHosts) {
   const host = clean(hostname, 255).toLowerCase();
   return allowedHosts.some((allowed) => host === allowed || host.endsWith(`.${allowed}`));
@@ -165,15 +179,20 @@ function catalogItems(payload) {
 
 function providerProductUrl(config, value) {
   const raw = clean(value);
-  const direct = normalizeProviderUrl(config, raw);
-  if (direct) return direct;
   try {
     const tracking = new URL(raw);
     if (tracking.protocol !== "https:") return "";
+    // Trackers can share the provider's domain (goto.ticketnetwork.com).
+    // Resolve their destination before accepting that outer host as an event.
+    let hasRedirect = false;
     for (const key of ["u", "url", "redirect"]) {
+      if (!tracking.searchParams.has(key)) continue;
+      hasRedirect = true;
       const nested = normalizeProviderUrl(config, tracking.searchParams.get(key));
       if (nested) return nested;
     }
+    if (hasRedirect) return "";
+    return normalizeProviderUrl(config, raw);
   } catch {}
   return "";
 }
@@ -228,6 +247,7 @@ function productCandidates(config, item, programId = "") {
 
 export {
   PROVIDERS,
+  catalogArtistKeyword,
   catalogItemMatchesProgram,
   catalogItems,
   catalogItemsUrl,

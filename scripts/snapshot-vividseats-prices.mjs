@@ -9,7 +9,8 @@ import { promisify } from "node:util";
 import { historySupportsEventDate } from "./lib/pricing-schema.mjs";
 
 import { buildPriceChecksSql } from "./lib/price-checks.mjs";
-import { buildPriceTimingSql, timingObservation, prioritizeFinalHours } from "./lib/price-timing-capture.mjs";
+import { buildPriceTimingSql, timingObservation } from "./lib/price-timing-capture.mjs";
+import { priorityCandidates, readPriorityRows } from "./lib/show-priority-store.mjs";
 
 const execFileAsync = promisify(execFile);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -82,6 +83,8 @@ Options:
   --limit <number>        Max eligible events (default: all event URLs)
   --event-id <id>         Process one local TourTicketCompare event ID
   --within-hours <n>      Only upcoming events within n hours (targeted extra ticks)
+  --priority              Visit the daily show-priority list first (added to
+                          the --within-hours tick); fail-open
   --freshness-hours <n>   Snapshot expiry, 0 < n <= 24 (default: ${DEFAULT_FRESHNESS_HOURS})
   --database <name>       D1 database in apply mode
   --local                 Use local D1 in apply mode
@@ -102,6 +105,7 @@ function parseArgs(argv) {
     else if (arg === "--self-test") options.selfTest = true;
     else if (arg === "--local") options.remote = false;
     else if (arg === "--json") options.json = true;
+    else if (arg === "--priority") options.priority = true;
     else if (["--limit", "--event-id", "--freshness-hours", "--database", "--within-hours"].includes(arg)) {
       const value = argv[++i];
       if (!value || value.startsWith("--")) throw new Error(`${arg} requires a value`);
@@ -138,7 +142,7 @@ function isPastEvent(event, now) {
 }
 function selectEligibleEvents(events, artistsBySlug, options, now = new Date()) {
   const selected = [], skipped = [];
-  for (const event of options.withinHours ? prioritizeFinalHours(events, now, options.withinHours) : events) {
+  for (const event of priorityCandidates(events, options, now)) {
     const localId = clean(event?.id, 255);
     if (options.eventId && localId !== options.eventId) continue;
     const productionId = vividProductionId(event?.vividseats_url);
@@ -334,6 +338,10 @@ async function runIngestion(options, deps = {}) {
   const env = deps.env || process.env;
   const catalog = deps.catalog || await readCatalog();
   const metadataAt = (deps.now || new Date()).toISOString();
+  if (options.priority && !options.priorityIds) {
+    const rows = await (deps.readPriority ? deps.readPriority(options) : readPriorityRows({ database: options.database, remote: options.remote }));
+    options = { ...options, priorityIds: rows.map((row) => clean(row.event_id, 255)) };
+  }
   const selection = selectEligibleEvents(catalog.events, catalog.artistsBySlug, options, new Date(metadataAt));
   const summary = {
     mode: options.apply ? "apply" : "dry-run",

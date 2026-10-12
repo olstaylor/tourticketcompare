@@ -83,7 +83,7 @@ const guidePages = [
   {
     slug: "how-to-compare-concert-ticket-prices",
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
-    description: "A practical method for comparing the same concert: match the listing, use timestamped snapshots to shortlist providers, then verify the final total and terms.",
+    description: "A practical method for comparing the same concert: match the listing, use checked prices to shortlist ticket sites, then verify the final total and terms.",
     h1: "How to Compare Concert Ticket Prices Safely",
     serverRendered: true
   },

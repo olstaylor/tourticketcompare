@@ -1,0 +1,24 @@
+{
+  "name": "TourTicketCompare with Claude Code",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    }
+  },
+  "remoteUser": "node",
+  "remoteEnv": {
+    "PATH": "/home/node/.local/bin:${containerEnv:PATH}"
+  },
+  "onCreateCommand": "bash .devcontainer/install-claude.sh",
+  "updateContentCommand": "npm ci",
+  "postCreateCommand": "/home/node/.local/bin/claude --version",
+  "waitFor": "updateContentCommand",
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "TourTicketCompare preview",
+      "onAutoForward": "notify"
+    }
+  }
+}

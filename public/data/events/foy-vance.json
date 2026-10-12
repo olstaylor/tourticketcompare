@@ -1654,7 +1654,7 @@
     "ticketmaster_event_id": "14114874",
     "ticketmaster_url": "https://www.ticketweb.com/event/foy-vance-world-tour-celebrating-thalia-hall-tickets/14114874",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-chicago-thalia-hall-4-17-2027/production/6683041",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/foy-vance-world-tour-celebrating-thalia-hall-tickets/14114874",
     "last_verified_at": null,
@@ -1676,11 +1676,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6683041,
+        "url": "https://www.vividseats.com/foy-vance-tickets-chicago-thalia-hall-4-17-2027/production/6683041",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1723,7 +1723,7 @@
     "ticketmaster_event_id": "14158654",
     "ticketmaster_url": "https://www.ticketweb.com/event/foy-vance-world-tour-howard-theatre-tickets/14158654",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-washington-howard-theatre---dc-4-24-2027/production/6683012",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/foy-vance-world-tour-howard-theatre-tickets/14158654",
     "last_verified_at": null,
@@ -1745,11 +1745,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6683012,
+        "url": "https://www.vividseats.com/foy-vance-tickets-washington-howard-theatre---dc-4-24-2027/production/6683012",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1792,7 +1792,7 @@
     "ticketmaster_event_id": "14131434",
     "ticketmaster_url": "https://www.ticketweb.com/event/foy-vance-world-tour-sony-hall-tickets/14131434",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foy-vance-tickets-new-york-sony-hall-4-30-2027/production/6683019",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/foy-vance-world-tour-sony-hall-tickets/14131434",
     "last_verified_at": null,
@@ -1814,11 +1814,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6683019,
+        "url": "https://www.vividseats.com/foy-vance-tickets-new-york-sony-hall-4-30-2027/production/6683019",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

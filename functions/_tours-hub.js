@@ -9,14 +9,15 @@ import { normalizeCountry } from "./_cities.js";
 // fact of its own: every row is a count over the same reviewed events the
 // artist page renders, so the two can never disagree.
 //
-// Indexing is held off (TOURS_HUB_INDEXABLE) until the event-page pilot is read
-// on 2026-10-25 (owner direction, 2026-10-06: measure before widening the
-// indexable surface). While false the page renders noindex,follow and stays out
-// of the sitemap and llms.txt. Flip it only with the owner's OK.
+// Indexable since 2026-10-11 (owner OK; the 2026-10-06 "measure before
+// widening" hold was lifted on 2026-10-09). The hub lists only artists whose
+// own page is indexable, so every link points at a page already in the sitemap.
+// With TOURS_HUB_INDEXABLE false, or no qualifying artist, the page renders
+// noindex,follow and stays out of the sitemap and llms.txt.
 
 export const TOURS_HUB_YEAR = 2027;
 export const TOURS_HUB_PATH = `/tours/${TOURS_HUB_YEAR}`;
-export const TOURS_HUB_INDEXABLE = false;
+export const TOURS_HUB_INDEXABLE = true;
 
 function trimmed(value) {
   return String(value ?? "").trim();
@@ -27,14 +28,17 @@ function trimmed(value) {
  *
  * A date counts when it is still upcoming, is not cancelled or postponed, and
  * falls in `year` in the venue's local calendar. Artists without a catalog
- * entry have no page to link, so they are left out.
+ * entry have no page to link, so they are left out, and so are artists outside
+ * `indexableArtistSlugs` when it is given (their own page is noindex).
  *
  * @param {any[]} events Raw events.json records.
  * @param {{artists?: any[]}} catalog catalog.json.
  * @param {number} [year]
  * @param {number} [now] Evaluation instant.
+ * @param {Iterable<string>|null} [indexableArtistSlugs] Artists whose page is indexable.
  */
-export function deriveToursHub(events, catalog, year = TOURS_HUB_YEAR, now = Date.now()) {
+export function deriveToursHub(events, catalog, year = TOURS_HUB_YEAR, now = Date.now(), indexableArtistSlugs = null) {
+  const linkable = indexableArtistSlugs ? new Set([...indexableArtistSlugs].map(trimmed)) : null;
   const catalogArtists = new Map(
     (Array.isArray(catalog?.artists) ? catalog.artists : []).map((artist) => [trimmed(artist.slug), artist])
   );
@@ -42,6 +46,7 @@ export function deriveToursHub(events, catalog, year = TOURS_HUB_YEAR, now = Dat
   for (const event of Array.isArray(events) ? events : []) {
     const slug = trimmed(event?.artist_slug);
     if (!slug || !catalogArtists.has(slug)) continue;
+    if (linkable && !linkable.has(slug)) continue;
     if (eventLifecycleHeld(event) || !isUpcomingShow(event, now)) continue;
     const parts = eventLocalDateParts(event);
     if (!parts || parts.year !== year) continue;

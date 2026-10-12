@@ -143,7 +143,7 @@ function renderTmActions(tm) {
     }
   }
   const statusLine = Object.entries(statusCounts).map(([status, count]) => `${status}: ${count}`).join(', ') || 'none reported';
-  return `- Rescheduled/off-sale status changes requiring human review: **${statusLine}**\n- Ambiguous or blocked records remain review-only; do not auto-edit dates, venues, or event names without confirmation.\n- Missing 404/410 records can be considered for removal only after checking duplicate coverage and independent provider links.\n`;
+  return `- Ticketmaster lifecycle status changes requiring human review: **${statusLine}**\n- Ambiguous or blocked records remain review-only; do not auto-edit dates, venues, or event names without confirmation.\n- Missing 404/410 records can be considered for removal only after checking duplicate coverage and independent provider links.\n`;
 }
 
 function renderTm(tm) {

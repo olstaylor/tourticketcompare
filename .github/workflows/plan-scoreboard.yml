@@ -1,0 +1,58 @@
+name: Plan scoreboard
+
+# Weekly scoreboard for the owner's revenue plan (scripts/report-plan-scoreboard.mjs):
+# search visits and page-backed ticket clicks per Monday-Sunday week from
+# DEMAND_DB, set beside the plan's checkpoints and January targets. Rewrites the
+# rolling `automation:plan-scoreboard` issue.
+#
+# Read-only on D1 (SELECTs only) and on the repository; its only write is that
+# one issue. Monday 07:20 UTC, after the week it reports has closed.
+
+on:
+  schedule:
+    - cron: '20 7 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: plan-scoreboard
+  cancel-in-progress: true
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Self-test
+        run: node scripts/report-plan-scoreboard.mjs --self-test
+
+      - name: Report and update the scoreboard issue
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/report-plan-scoreboard.mjs --issue --markdown "$RUNNER_TEMP/scoreboard.md"
+
+      - name: Summarise
+        if: always()
+        run: |
+          if [ -s "$RUNNER_TEMP/scoreboard.md" ]; then
+            cat "$RUNNER_TEMP/scoreboard.md" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "The scoreboard produced nothing; treat this week as unknown." >> "$GITHUB_STEP_SUMMARY"
+          fi

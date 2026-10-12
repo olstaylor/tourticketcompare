@@ -1000,9 +1000,11 @@ async function main() {
   return 0;
 }
 
-main().then((code) => {
+if (import.meta.url === `file://${process.argv[1]}`) main().then((code) => {
   process.exitCode = code;
 }).catch((error) => {
   console.error(`Error: ${clean(error?.message || error, 500)}`);
   process.exitCode = 1;
 });
+
+export { applyOutcomeToEvent, decideOutcome, evaluateCandidate, eventLocalDate, renderLog, toCandidate };

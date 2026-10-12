@@ -20,8 +20,15 @@
 //     artist-city cases first (where an event page adds most), then most
 //     destinations, most snapshot-ready lanes, soonest date.
 //
+// With --priority-file (the --json output of scripts/report-show-priority.mjs,
+// owner decision 2026-10-11) the expected-commission ranking comes right after
+// the single-date rule (which stays first so no page duplicates an indexed
+// artist-city page): the show's own expected-plus-gap value, then its
+// artist's total, then the order above. Eligibility and the per-artist cap
+// are unchanged.
+//
 // Usage:
-//   node scripts/select-event-indexing-batch.mjs [--size 200] [--per-artist 6] [--json]
+//   node scripts/select-event-indexing-batch.mjs [--size 200] [--per-artist 6] [--priority-file <json>] [--json]
 
 import fs from "node:fs";
 import path from "node:path";
@@ -68,7 +75,19 @@ export function urlDates(event) {
   return found.filter((readings) => readings.length);
 }
 
-export function selectBatch({ events, artists, catalog, now = Date.now(), size = 200, perArtist = 6, excludedKeys = [] }) {
+/** Show and artist values from a show-priority ranking, for sorting. */
+export function priorityValues(shows = []) {
+  const show = new Map();
+  const artist = new Map();
+  for (const row of shows) {
+    const value = Number(row?.potential_gbp) || 0;
+    show.set(String(row?.event_id), value);
+    artist.set(row?.artist_slug, (artist.get(row?.artist_slug) || 0) + value);
+  }
+  return { show, artist };
+}
+
+export function selectBatch({ events, artists, catalog, now = Date.now(), size = 200, perArtist = 6, excludedKeys = [], priority = null }) {
   const isConfigured = providerConfiguredTest(catalog);
   const excluded = new Set(excludedKeys);
   const byId = new Map(events.map((event) => [String(event.id).trim(), event]));
@@ -86,9 +105,13 @@ export function selectBatch({ events, artists, catalog, now = Date.now(), size =
     if (daysOut < BATCH_MIN_DAYS_OUT) { skipped.too_soon++; continue; }
     rows.push({ decision, event, localDate, daysOut, relation: eventArtistCityRelation(events, event, { now }) });
   }
+  const showValue = (row) => priority?.show.get(String(row.event.id)) || 0;
+  const artistValue = (row) => priority?.artist.get(row.event.artist_slug) || 0;
   rows.sort(
     (a, b) =>
       Number(a.relation !== "noindex_single_date") - Number(b.relation !== "noindex_single_date") ||
+      showValue(b) - showValue(a) ||
+      artistValue(b) - artistValue(a) ||
       b.decision.inputs.destinationCount - a.decision.inputs.destinationCount ||
       b.decision.inputs.snapshotReadyLanes.length - a.decision.inputs.snapshotReadyLanes.length ||
       a.daysOut - b.daysOut ||
@@ -130,13 +153,16 @@ function main() {
     return index > 0 ? Number(process.argv[index + 1]) : fallback;
   };
   const readJson = (relative) => JSON.parse(fs.readFileSync(path.join(ROOT, relative), "utf8"));
+  const fileIndex = process.argv.indexOf("--priority-file");
+  const priorityFile = fileIndex > 0 ? process.argv[fileIndex + 1] : "";
   const result = selectBatch({
     events: readJson("public/data/events.json"),
     artists: readJson("public/data/artists.json"),
     catalog: readJson("public/data/catalog.json"),
     size: arg("--size", 200),
     perArtist: arg("--per-artist", 6),
-    excludedKeys: [...EVENT_INDEXING_PILOT_KEYS, ...EVENT_INDEXING_BATCHES.flatMap((batch) => batch.keys)]
+    excludedKeys: [...EVENT_INDEXING_PILOT_KEYS, ...EVENT_INDEXING_BATCHES.flatMap((batch) => batch.keys)],
+    priority: priorityFile ? priorityValues(JSON.parse(fs.readFileSync(priorityFile, "utf8")).shows) : null
   });
   if (process.argv.includes("--json")) return console.log(JSON.stringify(result, null, 2));
   const tally = (key) => result.members.reduce((acc, m) => ({ ...acc, [m[key]]: (acc[m[key]] || 0) + 1 }), {});

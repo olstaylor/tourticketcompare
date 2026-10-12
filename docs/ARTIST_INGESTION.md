@@ -50,8 +50,17 @@ ignored, so the file doubles as a record of what was asked for.
 
 ### Without a request
 
+- **Watchlist (no dates yet).** `data/artist-watchlist.json` holds major acts
+  with no tour on sale: rumoured tours (`reason: "rumoured"`, with the report
+  in `source_url`) and big names between tours. They get no page while they
+  have no dates. Each day `scripts/artist-watchlist.mjs` asks Ticketmaster how
+  many upcoming events each open entry has; one with 8 or more (a tour, not a
+  festival slot) goes **first** in the day's list, ahead of requests, and must
+  pass the full screen (no relaxed thresholds). Check with
+  `npm run artists:watchlist:check`. A name sits in the watchlist or in the
+  requests file, never both.
 - **Automatic discovery.** The same two jobs build the day's list in this
-  order: open requests, then the 10 highest-demand touring headliners on
+  order: watchlist acts that now have a tour, open requests, then the 10 highest-demand touring headliners on
   SeatGeek with no page (`scripts/report-demand-candidates.mjs`, events sorted
   by SeatGeek's demand score; owner-approved 2026-10-09), then Ticketmaster's
   forecast (`scripts/report-roster-forecast.mjs`, "currently touring in markets

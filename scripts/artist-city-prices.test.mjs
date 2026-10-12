@@ -291,7 +291,7 @@ const baseAssets = new Map();
 for (const file of ASSET_FILES) baseAssets.set(`/${file}`, await read(`public/${file}`));
 baseAssets.set("/", baseAssets.get("/index.html"));
 
-function env({ withDb, priceRows = PRICE_ROWS, artists = null }) {
+function env({ withDb, priceRows = PRICE_ROWS, artists = null, runtime = {} }) {
   const assets = new Map(baseAssets);
   assets.set("/data/events.json", JSON.stringify(EVENTS));
   if (artists) assets.set("/data/artists.json", JSON.stringify(artists));
@@ -314,6 +314,7 @@ function env({ withDb, priceRows = PRICE_ROWS, artists = null }) {
     TICKETLIQUIDATOR_PRICE_DISPLAY_ENABLED: "false",
     STUBHUB_INTERNATIONAL_PUBLIC_ENABLED: "true",
     STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED: "true",
+    ...runtime,
     ...(withDb ? { DEMAND_DB: fakeDb(priceRows, HISTORY_ROWS) } : {}),
     ASSETS: {
       async fetch(request) {
@@ -324,10 +325,10 @@ function env({ withDb, priceRows = PRICE_ROWS, artists = null }) {
   };
 }
 
-async function render(pathname, { withDb = true, priceRows, artists } = {}) {
+async function render(pathname, { withDb = true, priceRows, artists, runtime } = {}) {
   const response = await middlewareModule.onRequest({
     request: new Request(`${ORIGIN}${pathname}`),
-    env: env({ withDb, priceRows, artists }),
+    env: env({ withDb, priceRows, artists, runtime }),
     next: () => new Response("static-asset", { status: 200 })
   });
   const html = await response.text();
@@ -452,7 +453,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   );
 }
 
-// ── metadata stays free of live numbers ─────────────────────────────────────
+// ── dated HTML metadata mirrors the next show's gated snapshot ──────────────
 {
   const page = await render(RUN_PATH);
   assert(/\| (Compare )?Prices\b/.test(page.title), `the title carries the stable price intent token (was "${page.title}")`);
@@ -464,19 +465,40 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     `no live figure appears in the title (was "${page.title}")`
   );
   assert(!/[$£€]\s?\d/.test(page.title), "no currency figure appears in the title");
-  assert(
-    !/[$£€]\s?\d/.test(page.description),
-    "no live figure appears in the meta description, which is also the CollectionPage JSON-LD description"
-  );
-  assert(/listed ticket prices/i.test(page.description), "the description says what the page compares");
+  assert(page.description.includes("Starting from US$182.00 listed at Vivid Seats"), `the snippet answers with the next date's listed price (got ${page.description})`);
+  assert(/Sep 10, 2026/.test(page.description), "the snippet identifies the venue-local show date");
+  assert(page.description.includes("checked 2026-08-09 09:00 UTC. Check fees."), "the snippet carries capture time and a fee caveat");
+  for (const pattern of [/<meta property="og:description" content="([^"]*)"/, /<meta name="twitter:description" content="([^"]*)"/]) {
+    assert(page.html.match(pattern)?.[1] === page.description, "search and social descriptions agree");
+  }
   assert(page.description.length <= 160, `the description stays within budget (was ${page.description.length})`);
 
   // Schema is untouched by this feature.
   const offers = [...page.html.matchAll(/"@type":"Offer"/g)].length;
   const faqQuestions = [...page.html.matchAll(/"@type":"Question"/g)].length;
   const schemaBlock = (page.html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/) || [])[1] || "";
+  assert(!/Starting from|US\$182/.test(schemaBlock), "the HTML snippet cannot introduce prices into structured data");
   assert(!/How much are/.test(schemaBlock), "the price question is not added to FAQ structured data");
   assert(offers >= 0 && faqQuestions >= 0, "structured data still parses");
+
+  const cheaperLater = await render(RUN_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === RUN_B.id ? { ...row, low_price: 99 } : row) });
+  assert(cheaperLater.description.includes("US$182.00") && !cheaperLater.description.includes("US$99.00"), "a cheaper later date never becomes a city-wide starting price");
+  const noNextPrice = await render(RUN_PATH, { priceRows: PRICE_ROWS.filter((row) => row.event_id !== RUN_A.id) });
+  assert(!/Starting from/.test(noNextPrice.description), "a missing price on the next date does not borrow another date's price");
+  const mixed = await render(RUN_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === RUN_A.id && row.provider === "ticketnetwork" ? { ...row, currency: "CAD" } : row) });
+  assert(!/Starting from/.test(mixed.description), "conflicting same-event currencies suppress the snippet price");
+  const expired = await render(RUN_PATH, { priceRows: PRICE_ROWS.map((row) => ({ ...row, expires_at: "2026-08-01T00:00:00Z" })) });
+  assert(!/Starting from/.test(expired.description), "expired snapshots never reach metadata");
+  const noDb = await render(RUN_PATH, { withDb: false });
+  assert(!/Starting from/.test(noDb.description) && /listed ticket prices/.test(noDb.description), "a cache outage preserves the price-free fallback");
+  const usd99 = await render(SOLO_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === SOLO.id ? { ...row, low_price: 99 } : row) });
+  assert(usd99.description.includes("Starting from US$99.00"), "USD is explicit and keeps both decimal places");
+  const cad99 = await render(SOLO_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === SOLO.id ? { ...row, low_price: 99, currency: "CAD" } : row) });
+  assert(cad99.description.includes("Starting from CAD 99.00") && !cad99.description.includes("US$"), "Canadian dollars cannot be mistaken for USD");
+  const wrongSource = await render(SOLO_PATH, { priceRows: PRICE_ROWS.map((row) => ({ ...row, source: "unapproved" })) });
+  assert(!/Starting from/.test(wrongSource.description), "an unapproved price source never reaches the snippet");
+  const disabled = await render(SOLO_PATH, { runtime: { VIVIDSEATS_PRICE_DISPLAY_ENABLED: "false" } });
+  assert(!/Starting from/.test(disabled.description), "a display-disabled lane never reaches the snippet");
 }
 
 // ── a single-date page shows the answer and stays noindex ───────────────────

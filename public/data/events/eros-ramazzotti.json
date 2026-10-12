@@ -142,7 +142,7 @@
     "ticketmaster_event_id": "31006287A2771FE5",
     "ticketmaster_url": "https://www.ticketmaster.ca/eros-ramazzotti-una-historia-importante-laval-quebec-09-26-2027/event/31006287A2771FE5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/eros-ramazzotti-tickets-laval-place-bell-9-26-2027/production/7484548",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/eros-ramazzotti-una-historia-importante-laval-quebec-09-26-2027/event/31006287A2771FE5",
     "last_verified_at": "2026-10-11",
@@ -164,11 +164,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7484548,
+        "url": "https://www.vividseats.com/eros-ramazzotti-tickets-laval-place-bell-9-26-2027/production/7484548",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

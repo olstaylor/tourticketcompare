@@ -67,6 +67,7 @@ jobs:
           set -euo pipefail
           node scripts/auto-promote.mjs --self-test
           node scripts/report-demand-candidates.mjs --self-test
+          node scripts/artist-watchlist.mjs --self-test
           mkdir -p artifacts/auto
           cp functions/api/out.js artifacts/auto/out.base.js
           # Owner requests (data/artist-requests.json) are screened by their own
@@ -87,6 +88,9 @@ jobs:
           # (owner-approved 2026-10-09); full screen, same caps. Non-fatal on failure.
           node scripts/report-demand-candidates.mjs --merge artifacts/auto/names.txt --top 10
           node scripts/artist-requests.mjs --merge artifacts/auto/names.txt --limit 20
+          # Watchlist acts (data/artist-watchlist.json) go first once Ticketmaster lists a
+          # tour for them; full screen, same caps. Non-fatal on failure.
+          node scripts/artist-watchlist.mjs --merge artifacts/auto/names.txt --limit 20
           if [ "$FORECAST_OK" != true ] && [ ! -s artifacts/auto/names.txt ]; then echo "forecast failed and there are no open requests" >&2; exit 1; fi
           if [ ! -s artifacts/auto/names.txt ]; then echo "count=0" >> "$GITHUB_OUTPUT"; exit 0; fi
           node scripts/propose-onboarding-batch.mjs --names-file artifacts/auto/names.txt --limit 20 --output artifacts/auto/manifest.json

@@ -1055,11 +1055,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107076164",
-        "url": "https://www.stubhub.ie/five-finger-death-punch-west-palm-beach-tickets-10-11-2026/event/107076164",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -1073,7 +1073,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-west-palm-beach-tickets-10-11-2026/event/107076164",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {

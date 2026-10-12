@@ -646,11 +646,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107250077",
-        "url": "https://www.stubhub.ie/don-omar-newark-tickets-10-11-2026/event/107250077",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_1TkGLsD",
@@ -658,7 +658,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-newark-tickets-10-11-2026/event/107250077"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-charlotte-g5evz_1d8lhpj",

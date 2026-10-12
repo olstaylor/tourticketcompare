@@ -8914,11 +8914,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162469",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-chicago-tickets-10-11-2026/event/107162469",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Chicago",
@@ -8927,7 +8927,7 @@
     "ticketmaster_discovery_event_id": "vv178Z_aGkYeTUOa",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-chicago-tickets-10-11-2026/event/107162469"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-olivia-rodrigo-2026-chicago-vv178z_agkmlebgy",
@@ -17603,11 +17603,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107074188",
-        "url": "https://www.stubhub.ie/bruno-mars-santa-clara-tickets-10-11-2026/event/107074188",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
@@ -17616,7 +17616,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_eEJSDnx",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-santa-clara-tickets-10-11-2026/event/107074188"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-16v7zbyrvg7dkhm",
@@ -50289,11 +50289,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107076164",
-        "url": "https://www.stubhub.ie/five-finger-death-punch-west-palm-beach-tickets-10-11-2026/event/107076164",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -50307,7 +50307,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-west-palm-beach-tickets-10-11-2026/event/107076164",
+    "stubhub_international_url": "",
     "ticketliquidator_url": ""
   },
   {
@@ -52384,11 +52384,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107250077",
-        "url": "https://www.stubhub.ie/don-omar-newark-tickets-10-11-2026/event/107250077",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_1TkGLsD",
@@ -52396,7 +52396,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/don-omar-newark-tickets-10-11-2026/event/107250077"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-don-omar-2026-charlotte-g5evz_1d8lhpj",
@@ -186168,11 +186168,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107018106",
-        "url": "https://www.stubhub.ie/warren-zeiders-tickets-glasgow-o2-academy-glasgow-11-10-2026/event/107018106",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZbUnoqNQA",
@@ -186180,7 +186180,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-glasgow-o2-academy-glasgow-11-10-2026/event/107018106"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-warren-zeiders-2026-leeds-g5dzzbubyjrus",

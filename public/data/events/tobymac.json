@@ -1104,7 +1104,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-columbus-nationwide-arena-2-18-2027/production/7491821",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-columbus-ohio-02-18-2027/event/05006518DC7A1551",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1160,7 +1160,7 @@
       {
         "name": "Friends & Family Offer",
         "start": "2026-10-05T04:01:00Z",
-        "end": "2026-10-13T03:59:00Z"
+        "end": "2026-10-18T03:59:00Z"
       }
     ]
   },

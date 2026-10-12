@@ -660,7 +660,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-atlanta-synovus-bank-amphitheater-at-chastain-park-10-30-2026--concerts-rb/production/7423354",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-atlanta-georgia-10-30-2026/event/0E0064FF95C6837A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -711,7 +711,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199802",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199802/Steve-Lacy-tickets-Fri-Oct-30-2026-Synovus-Bank-Amphitheater-at-Chastain-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199802/Steve-Lacy-tickets-Fri-Oct-30-2026-Synovus-Bank-Amphitheater-at-Chastain-Park",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-14T14:00:00Z",
+        "end": "2026-10-24T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-atlanta-vvg1zz_83dtnfh",
@@ -729,7 +736,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-atlanta-synovus-bank-amphitheater-at-chastain-park-10-31-2026--concerts-rb/production/7600473",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-atlanta-georgia-10-31-2026/event/0E006504BBA6A21B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -780,7 +787,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286235",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286235/Steve-Lacy-tickets-Sat-Oct-31-2026-Synovus-Bank-Amphitheater-at-Chastain-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286235/Steve-Lacy-tickets-Sat-Oct-31-2026-Synovus-Bank-Amphitheater-at-Chastain-Park",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2026-10-22T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-nashville-g5viz_2xpzbxl",
@@ -1236,7 +1250,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-phoenix-arizona-financial-theatre-11-17-2026--concerts-rb/production/7423380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-phoenix-arizona-11-17-2026/event/19006507200EB3AE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1287,7 +1301,14 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199809",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199809/Steve-Lacy-tickets-Tue-Nov-17-2026-Arizona-Financial-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199809/Steve-Lacy-tickets-Tue-Nov-17-2026-Arizona-Financial-Theatre",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-08-14T17:00:00Z",
+        "end": "2026-10-21T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-san-diego-vvg1iz_8prddbi",
@@ -1459,7 +1480,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-san-francisco-bill-graham-civic-auditorium-11-24-2026--concerts-rb/production/7423408",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-francisco-california-11-24-2026/event/1C00650611C16877",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1518,7 +1539,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199812",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199812/Steve-Lacy-tickets-Tue-Nov-24-2026-Bill-Graham-Civic-Auditorium",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-24-2026/event/107482319"
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-24-2026/event/107482319",
+    "presales": [
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-08-14T17:00:00Z",
+        "end": "2026-10-29T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-san-francisco-g5vyz_8bk7kme",
@@ -1536,7 +1564,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-san-francisco-bill-graham-civic-auditorium-11-25-2026--concerts-rb/production/7600490",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-francisco-california-11-25-2026/event/1C00650613106DC2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1595,7 +1623,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286236",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286236/Steve-Lacy-tickets-Wed-Nov-25-2026-Bill-Graham-Civic-Auditorium",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-25-2026/event/107672773"
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-25-2026/event/107672773",
+    "presales": [
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2026-10-29T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-25T17:00:00Z",
+        "end": "2026-11-22T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-steve-lacy-2026-seattle-vvg1hz_8pk8e2l",
@@ -1690,7 +1730,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-11-30-2026--concerts-rb/production/7423426",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/steve-lacy-oh-yeah-tour-vancouver-british-columbia-11-30-2026/event/11006504A5E37FA2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1741,6 +1781,13 @@
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199816",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199816/Steve-Lacy-tickets-Mon-Nov-30-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199816/Steve-Lacy-tickets-Mon-Nov-30-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-08-14T17:00:00Z",
+        "end": "2026-11-17T05:00:00Z"
+      }
+    ]
   }
 ]

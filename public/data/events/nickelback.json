@@ -4464,7 +4464,7 @@
     "city": "Hannover",
     "country": "Germany",
     "venue": "ZAG Arena",
-    "datetime_iso": "2027-06-11T18:00:00Z",
+    "datetime_iso": "2027-06-11T16:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1874929301",
     "ticketmaster_url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/1874929301?language=en-us",
@@ -4472,7 +4472,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/1874929301?language=en-us",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-12",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4561,7 +4561,7 @@
     "city": "Munich",
     "country": "Germany",
     "venue": "Olympiahalle",
-    "datetime_iso": "2027-06-19T18:00:00Z",
+    "datetime_iso": "2027-06-19T16:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "853192859",
     "ticketmaster_url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/853192859?language=en-us",
@@ -4569,7 +4569,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/853192859?language=en-us",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-12",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4788,7 +4788,7 @@
     "city": "Zürich",
     "country": "Switzerland",
     "venue": "Hallenstadion",
-    "datetime_iso": "2027-06-20T18:00:00Z",
+    "datetime_iso": "2027-06-20T16:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "729296386",
     "ticketmaster_url": "https://www.ticketmaster.ch/event/nickelback-everything-under-the-sun-tour-tickets/729296386?language=en-us",
@@ -4796,7 +4796,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ch/event/nickelback-everything-under-the-sun-tour-tickets/729296386?language=en-us",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-12",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -4890,7 +4890,7 @@
     "city": "Vienna",
     "country": "Austria",
     "venue": "Wiener Stadthalle - Halle D",
-    "datetime_iso": "2027-06-25T17:30:00Z",
+    "datetime_iso": "2027-06-25T16:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1015417081",
     "ticketmaster_url": "https://www.ticketmaster.at/event/nickelback-everything-under-the-sun-tour-tickets/1015417081?language=en-us",
@@ -4898,7 +4898,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.at/event/nickelback-everything-under-the-sun-tour-tickets/1015417081?language=en-us",
-    "last_verified_at": "2026-10-11",
+    "last_verified_at": "2026-10-12",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {

@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-dallas-the-bomb-factory-10-15-2026/production/7231636",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSep",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-12",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": ""
+    "ticketliquidator_url": "",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-dylan-scott-2026-milwaukee-z7r9jz1aavse9",

@@ -413,7 +413,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mei-semones-washington-district-of-columbia-04-09-2027/event/1500653996CB5F9A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -464,7 +464,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297634",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297634/Mei-Semones-tickets-Fri-Apr-9-2027-930-Club"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297634/Mei-Semones-tickets-Fri-Apr-9-2027-930-Club",
+    "presales": [
+      {
+        "name": "VIP Package",
+        "start": "2026-10-01T14:00:00Z",
+        "end": "2027-04-03T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mei-semones-2027-carrboro-z7r9jz1aaefgv",
@@ -620,7 +627,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-houston-white-oak-music-hall---upstairs-4-16-2027/production/7629281",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mei-semones-houston-texas-04-16-2027/event/3A006539E33A90A5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -671,7 +678,14 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297639",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297639/Mei-Semones-tickets-Fri-Apr-16-2027-White-Oak-Music-Hall-Upstairs"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297639/Mei-Semones-tickets-Fri-Apr-16-2027-White-Oak-Music-Hall-Upstairs",
+    "presales": [
+      {
+        "name": "Mei Semones VIP Experience",
+        "start": "2026-10-01T15:00:00Z",
+        "end": "2027-04-10T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mei-semones-2027-tucson-z7r9jz1aae9f6",
@@ -827,7 +841,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-san-francisco-castro-theatre-4-24-2027/production/7629402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mei-semones-san-francisco-california-04-24-2027/event/1C00653C3E82D186",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -862,7 +876,14 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KYXOckk",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-04-17T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mei-semones-2027-vancouver-1178vpcbx94gv5",
@@ -880,7 +901,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-vancouver-commodore-ballroom-4-27-2027/production/7629287",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/mei-semones-vancouver-british-columbia-04-27-2027/event/110065398897575A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -931,7 +952,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297654",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297654/Mei-Semones-tickets-Tue-Apr-27-2027-Commodore-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297654/Mei-Semones-tickets-Tue-Apr-27-2027-Commodore-Ballroom",
+    "presales": [
+      {
+        "name": "VIP Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-04-21T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mei-semones-2027-seattle-vvg1hz_knof3ir",
@@ -949,7 +977,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-seattle-the-neptune-theatre-4-28-2027/production/7629277",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mei-semones-seattle-washington-04-28-2027/event/0F006538E0212B2F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1000,7 +1028,14 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297648",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297648/Mei-Semones-tickets-Wed-Apr-28-2027-The-Neptune-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297648/Mei-Semones-tickets-Wed-Apr-28-2027-The-Neptune-Theatre",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-02T17:00:00Z",
+        "end": "2027-04-29T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mei-semones-2027-boise-z7r9jz1aaekjo",
@@ -1283,7 +1318,7 @@
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-pittsburgh-spirit-hall-5-8-2027/production/7629289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mei-semones-pittsburgh-pennsylvania-05-08-2027/event/1600653DA7E17C98",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1334,6 +1369,13 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297652",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297652/Mei-Semones-tickets-Sat-May-8-2027-Spirit-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297652/Mei-Semones-tickets-Sat-May-8-2027-Spirit-Hall",
+    "presales": [
+      {
+        "name": "Mei Semones VIP Experience On Sale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-05-02T02:00:00Z"
+      }
+    ]
   }
 ]

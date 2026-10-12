@@ -482,7 +482,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-greenville-bon-secours-wellness-arena-10-18-2026--concerts-country-and-folk/production/6948981",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-greenville-south-carolina-10-18-2026/event/2D006492DFD3DA64",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-12",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -533,13 +533,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7906850",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-01T13:00:00Z",
-        "end": "2026-10-12T02:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7906850/The-Red-Clay-Strays-tickets-Sun-Oct-18-2026-Bon-Secours-Wellness-Arena"
   },
   {

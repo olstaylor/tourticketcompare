@@ -3,16 +3,16 @@
   "note": "Content fingerprints for static routes. content_updated_at advances only when content_hash changes, so a published \"Updated\" date never moves without the copy moving. Do not hand-edit; run `npm run content:provenance`.",
   "routes": {
     "/guides/how-to-compare-concert-ticket-prices": {
-      "content_hash": "ef1638e90778fe9d",
-      "content_updated_at": "2026-10-11"
+      "content_hash": "3707b6ed6c3b628e",
+      "content_updated_at": "2026-10-12"
     },
     "/guides/vivid-seats-vs-ticketmaster": {
       "content_hash": "b43b5d0745cdf3ad",
       "content_updated_at": "2026-10-11"
     },
     "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
-      "content_hash": "6d6d60b8fb992cbc",
-      "content_updated_at": "2026-10-11"
+      "content_hash": "a0838d235888571b",
+      "content_updated_at": "2026-10-12"
     },
     "/guides/seatgeek-vs-ticketmaster": {
       "content_hash": "6482847b5d3217e0",
@@ -111,16 +111,16 @@
       "content_updated_at": "2026-10-11"
     },
     "/guides/vivid-seats-promo-codes-and-fees": {
-      "content_hash": "d56bed52e7f02040",
-      "content_updated_at": "2026-10-11"
+      "content_hash": "ba1cb27508e87ba2",
+      "content_updated_at": "2026-10-12"
     },
     "/": {
       "content_hash": "8a0667895c1424f7",
       "content_updated_at": "2026-10-10"
     },
     "/compare-concert-ticket-prices": {
-      "content_hash": "d53e10a450fb37dd",
-      "content_updated_at": "2026-10-11"
+      "content_hash": "ff74759f6b4fc602",
+      "content_updated_at": "2026-10-12"
     },
     "/artists": {
       "content_hash": "dfc0045786dae73a",

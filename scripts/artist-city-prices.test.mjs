@@ -427,15 +427,15 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     assert(!body.includes(card), `"${card}" is not reprinted as a card beside the table that already states it`);
   }
   assert(
-    body.includes("Latest date check:"),
+    body.includes("Dates last checked"),
     "the one fact the table does not carry \u2014 event-record verification \u2014 survives the compression"
   );
   assert(
-    /Each price above shows its own capture time/.test(body),
+    /Each price shows when it was checked/.test(body),
     "the panel distinguishes event-record verification from price capture time"
   );
   const lead = text((page.main.match(/<p class="artist-city-summary__lead">([\s\S]*?)<\/p>/) || [])[1] || "");
-  assert(lead.includes(`TourTicketCompare tracks 2 upcoming shows for ${ARTIST.name} in ${RUN_CITY}`), "the lead still states the count, which the table only implies");
+  assert(lead.includes(`${ARTIST.name} has 2 upcoming shows in ${RUN_CITY}`), "the lead still states the count, which the table only implies");
   assert(!lead.includes("Fixture Arena"), "the lead drops the venue the table names in its own lead");
   assert(!/Sep 10, 2026 to/.test(lead), "the lead drops the date range the table states row by row");
   // Each show card naming its own venue is not duplication \u2014 a card is the one
@@ -541,7 +541,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   for (const card of ["Next tracked date", "Tracked date range", "Verification recency"]) {
     assert(!body.includes(card), `"${card}" is not reprinted as a card`);
   }
-  assert(body.includes("Latest date check:"), "the summary keeps the event-record verification date");
+  assert(body.includes("Dates last checked"), "the summary keeps the event-record verification date");
   const unpricedLead = text((page.main.match(/<p class="artist-city-summary__lead">([\s\S]*?)<\/p>/) || [])[1] || "");
   assert(
     unpricedLead.includes("Fixture Arena") && /Sep 10, 2026 to/.test(unpricedLead),
@@ -636,14 +636,14 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const page = await render(SOLO_PATH);
   const body = text(page.main);
   assert(!/30-day low/.test(body), "an event with no history reports no low");
-  assert(!/Lowest recorded/.test(body), "and makes no claim to have watched it");
+  assert(!/Lowest (?:recorded|listed) in/.test(body), "and makes no claim to have watched it");
   assert(/\$145/.test(body), "while still showing its current price as before");
 }
 {
   // With no database bound there is no history read and no low.
   const page = await render(RUN_PATH, { withDb: false });
   const body = text(page.main);
-  assert(!/30-day low|Lowest recorded/.test(body), "no pricing database means no recorded low");
+  assert(!/30-day low|Lowest (?:recorded|listed) in/.test(body), "no pricing database means no recorded low");
 }
 
 

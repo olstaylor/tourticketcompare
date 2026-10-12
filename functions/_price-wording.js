@@ -22,14 +22,14 @@
 
 /** The one per-page caveat, rendered in the money disclosure line. */
 export const PRICE_DISCLOSURE =
-  "Prices are listed-price snapshots from each ticket site, checked at the time shown. They can change and aren't your final total. Listed prices may already include mandatory fees. Confirm the final total for your ticket quantity, taxes, delivery and selected extras on the ticket site.";
+  "Prices are each ticket site's listed price when it was last checked, at the time shown. They change often and aren't your final total. Some prices may already include fees. You'll see the full price, with taxes and delivery, on the ticket site before you pay.";
 
 /** The short tail on each priced card, after "Checked <age>". */
 export const CARD_PRICE_TAIL = "not the final total";
 
 /** How this site makes money, stated the same way wherever ticket buttons show. */
 export const MONEY_DISCLOSURE =
-  "Affiliate partners are listed before Ticketmaster. If you buy through an affiliate link, TourTicketCompare may earn a commission at no extra cost to you.";
+  "Some ticket sites pay TourTicketCompare a commission if you buy through their links, at no extra cost to you. Those sites are listed first, and Ticketmaster last.";
 
 /** A card or row whose price lanes were checked and none had a price. */
 export const NO_PRICE_NOTE = "No listed price yet.";

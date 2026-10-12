@@ -1444,6 +1444,10 @@ def self_test():
               "travel_package_listing" in codes_for(make_event(name=box_name)))
     check("'Box Seat' outside a name segment is not withheld",
           "travel_package_listing" not in codes_for(make_event(name="Box Seat Records Showcase")))
+    for upgrade_name in ("Charli xcx | Vinyl Room Upgrade (TICKET NOT INCLUDED)",
+                         "Latto VIP Upgrade (Event Ticket Not Included)"):
+        check(f"ticket-not-included listing '{upgrade_name}' emits travel_package_listing",
+              "travel_package_listing" in codes_for(make_event(name=upgrade_name)))
     check("plain concert at an ordinary venue emits no travel_package_listing",
           "travel_package_listing" not in codes_for(make_event(name="RAYE: This Tour May Contain New Music")))
     check("mismatched attraction emits attraction_identity_mismatch",

@@ -419,7 +419,7 @@
     "tour_name": "AFANDI World Tour",
     "ticketmaster_event_id": "0000651B73E2496C",
     "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-brooklyn-new-york-04-01-2027/event/0000651B73E2496C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/brooklyn-new-york-brooklyn-paramount-2027-04-01-7-pm/concert/18550841",
     "vividseats_url": "https://www.vividseats.com/saint-levant-tickets-brooklyn-brooklyn-paramount-4-1-2027--concerts-pop/production/7505633",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-brooklyn-new-york-04-01-2027/event/0000651B73E2496C",
@@ -876,7 +876,7 @@
     "tour_name": "AFANDI World Tour",
     "ticketmaster_event_id": "11006518D9D6ECD7",
     "ticketmaster_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-vancouver-british-columbia-05-12-2027/event/11006518D9D6ECD7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/saint-levant-tickets/vancouver-canada-malkin-bowl-2027-05-12-6-pm/concert/18551643",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-vancouver-british-columbia-05-12-2027/event/11006518D9D6ECD7",
@@ -892,11 +892,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18551643,
+        "url": "https://seatgeek.com/saint-levant-tickets/vancouver-canada-malkin-bowl-2027-05-12-6-pm/concert/18551643",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1068,5 +1068,1640 @@
     "ticketmaster_discovery_event_id": "17kZv0G6C1fpLUo",
     "timezone": "Europe/London",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-saint-levant-2026-k-benhavn-v-z698xzc4z16ez9zpo4",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "Saint Levant - AFANDI WORLD TOUR",
+    "city": "København V",
+    "country": "Denmark",
+    "venue": "VEGA - Musikkens Hus, Store VEGA",
+    "datetime_iso": "2026-11-18T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2017016815",
+    "ticketmaster_url": "https://www.ticketmaster.dk/event/saint-levant-afandi-world-tour-tickets/2017016815?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.dk/event/saint-levant-afandi-world-tour-tickets/2017016815?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2017016815",
+        "discovery_event_id": "Z698xZC4Z16eZ9ZpO4",
+        "url": "https://www.ticketmaster.dk/event/saint-levant-afandi-world-tour-tickets/2017016815?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC4Z16eZ9ZpO4",
+    "timezone": "Europe/Copenhagen",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-saint-levant-2026-oslo-z698xzb_z1kk3atjs",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "Saint Levant - AFANDI WORLD TOUR",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Rockefeller",
+    "datetime_iso": "2026-11-19T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "192169731",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/saint-levant-afandi-world-tour-tickets/192169731?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/saint-levant-afandi-world-tour-tickets/192169731?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "192169731",
+        "discovery_event_id": "Z698xZb_Z1kk3Atjs",
+        "url": "https://www.ticketmaster.no/event/saint-levant-afandi-world-tour-tickets/192169731?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z1kk3Atjs",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-saint-levant-2026-zurich-z698xzu3z1k8wzyjv",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "Saint Levant - AFANDI WORLD TOUR",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "venue": "Halle 622",
+    "datetime_iso": "2026-11-24T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "432030734",
+    "ticketmaster_url": "https://www.ticketmaster.ch/event/saint-levant-afandi-world-tour-tickets/432030734?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ch/event/saint-levant-afandi-world-tour-tickets/432030734?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "432030734",
+        "discovery_event_id": "Z698xZu3Z1k8wZYjV",
+        "url": "https://www.ticketmaster.ch/event/saint-levant-afandi-world-tour-tickets/432030734?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu3Z1k8wZYjV",
+    "timezone": "Europe/Zurich",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-saint-levant-2027-toronto-177zv0g6cemiqt_",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-03-23T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064E9EEB1DA59",
+    "ticketmaster_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-23-2027/event/100064E9EEB1DA59",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-23-2027/event/100064E9EEB1DA59",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064E9EEB1DA59",
+        "discovery_event_id": "177Zv0G6CEmiqt_",
+        "url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-23-2027/event/100064E9EEB1DA59",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G6CEmiqt_",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-03-19T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-saint-levant-2027-toronto-177zv0g6cemcutq",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-03-24T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064E9EEB4DA5D",
+    "ticketmaster_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-24-2027/event/100064E9EEB4DA5D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-24-2027/event/100064E9EEB4DA5D",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064E9EEB4DA5D",
+        "discovery_event_id": "177Zv0G6CEmcutq",
+        "url": "https://www.ticketmaster.ca/saint-levant-afandi-world-tour-toronto-ontario-03-24-2027/event/100064E9EEB4DA5D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G6CEmcutq",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-03-20T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-saint-levant-2027-boston-vvg17z_cxqdi4_",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Citizens House of Blues Boston",
+    "datetime_iso": "2027-03-27T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064E89AEEC559",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-boston-massachusetts-03-27-2027/event/010064E89AEEC559",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-boston-massachusetts-03-27-2027/event/010064E89AEEC559",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064E89AEEC559",
+        "discovery_event_id": "vvG17Z_CxQDi4_",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-boston-massachusetts-03-27-2027/event/010064E89AEEC559",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8144601",
+        "url": "https://www.ticketnetwork.com/en/p/8144601",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8144601",
+        "url": "https://www.ticketliquidator.com/tickets/8144601/Saint-Levant-tickets-Sat-Mar-27-2027-Citizens-House-Of-Blues-Boston",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_CxQDi4_",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8144601",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8144601/Saint-Levant-tickets-Sat-Mar-27-2027-Citizens-House-Of-Blues-Boston"
+  },
+  {
+    "id": "tm-saint-levant-2027-philadelphia-vvg1fz_cxbxmek",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Theatre of Living Arts",
+    "datetime_iso": "2027-03-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020064E8BAFAE9C6",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-philadelphia-pennsylvania-03-28-2027/event/020064E8BAFAE9C6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-philadelphia-pennsylvania-03-28-2027/event/020064E8BAFAE9C6",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020064E8BAFAE9C6",
+        "discovery_event_id": "vvG1FZ_CxBXmEk",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-philadelphia-pennsylvania-03-28-2027/event/020064E8BAFAE9C6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1FZ_CxBXmEk",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-03-24T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-saint-levant-2027-brooklyn-k7vgf_cl-wdb8",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2027-03-30T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064E7E1F43E90",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-brooklyn-new-york-03-30-2027/event/000064E7E1F43E90",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-brooklyn-new-york-03-30-2027/event/000064E7E1F43E90",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064E7E1F43E90",
+        "discovery_event_id": "k7vGF_CL-WdB8",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-brooklyn-new-york-03-30-2027/event/000064E7E1F43E90",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8144602",
+        "url": "https://www.ticketnetwork.com/en/p/8144602",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8144602",
+        "url": "https://www.ticketliquidator.com/tickets/8144602/Saint-Levant-tickets-Tue-Mar-30-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107478085",
+        "url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-30-2027/event/107478085",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_CL-WdB8",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-03-26T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8144602",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8144602/Saint-Levant-tickets-Tue-Mar-30-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-30-2027/event/107478085"
+  },
+  {
+    "id": "tm-saint-levant-2027-brooklyn-k7vgf_cl-wsb-",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2027-03-31T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064E7E1F73EA1",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-brooklyn-new-york-03-31-2027/event/000064E7E1F73EA1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-brooklyn-new-york-03-31-2027/event/000064E7E1F73EA1",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064E7E1F73EA1",
+        "discovery_event_id": "k7vGF_CL-WSB-",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-brooklyn-new-york-03-31-2027/event/000064E7E1F73EA1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8144603",
+        "url": "https://www.ticketnetwork.com/en/p/8144603",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8144603",
+        "url": "https://www.ticketliquidator.com/tickets/8144603/Saint-Levant-tickets-Wed-Mar-31-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107478087",
+        "url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-31-2027/event/107478087",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_CL-WSB-",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-03-27T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8144603",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8144603/Saint-Levant-tickets-Wed-Mar-31-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-31-2027/event/107478087"
+  },
+  {
+    "id": "tm-saint-levant-2027-detroit-vvg1oz_cxteu1p",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "The Fillmore Detroit",
+    "datetime_iso": "2027-04-06T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080064E8A90B6296",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-detroit-michigan-04-06-2027/event/080064E8A90B6296",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-detroit-michigan-04-06-2027/event/080064E8A90B6296",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080064E8A90B6296",
+        "discovery_event_id": "vvG1OZ_CxteU1p",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-detroit-michigan-04-06-2027/event/080064E8A90B6296",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8133115",
+        "url": "https://www.ticketnetwork.com/en/p/8133115",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8133115",
+        "url": "https://www.ticketliquidator.com/tickets/8133115/Saint-Levant-tickets-Tue-Apr-6-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1OZ_CxteU1p",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-04-02T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8133115",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8133115/Saint-Levant-tickets-Tue-Apr-6-2027-The-Fillmore-Detroit"
+  },
+  {
+    "id": "tm-saint-levant-2027-silver-spring-17a8v0g6cjqrj2z",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Silver Spring",
+    "country": "United States Of America",
+    "venue": "The Fillmore Silver Spring",
+    "datetime_iso": "2027-04-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064E99DBE63F8",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-silver-spring-maryland-04-09-2027/event/150064E99DBE63F8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-silver-spring-maryland-04-09-2027/event/150064E99DBE63F8",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064E99DBE63F8",
+        "discovery_event_id": "17A8v0G6CJqRJ2z",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-silver-spring-maryland-04-09-2027/event/150064E99DBE63F8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8133117",
+        "url": "https://www.ticketnetwork.com/en/p/8133117",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8133117",
+        "url": "https://www.ticketliquidator.com/tickets/8133117/Saint-Levant-tickets-Fri-Apr-9-2027-The-Fillmore-Silver-Spring",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G6CJqRJ2z",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-04-05T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8133117",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8133117/Saint-Levant-tickets-Fri-Apr-9-2027-The-Fillmore-Silver-Spring"
+  },
+  {
+    "id": "tm-saint-levant-2027-charlotte-g5evz_cxoz58q",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Underground",
+    "datetime_iso": "2027-04-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064E8A000B41A",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-charlotte-north-carolina-04-13-2027/event/2D0064E8A000B41A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-charlotte-north-carolina-04-13-2027/event/2D0064E8A000B41A",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064E8A000B41A",
+        "discovery_event_id": "G5eVZ_CxOZ58Q",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-charlotte-north-carolina-04-13-2027/event/2D0064E8A000B41A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8144620",
+        "url": "https://www.ticketnetwork.com/en/p/8144620",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8144620",
+        "url": "https://www.ticketliquidator.com/tickets/8144620/Saint-Levant-tickets-Tue-Apr-13-2027-The-Underground-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_CxOZ58Q",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-04-09T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8144620",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8144620/Saint-Levant-tickets-Tue-Apr-13-2027-The-Underground-Charlotte"
+  },
+  {
+    "id": "tm-saint-levant-2027-miami-beach-vvg1vz_clijxyh",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Miami Beach",
+    "country": "United States Of America",
+    "venue": "The Fillmore Miami Beach at Jackie Gleason Theater",
+    "datetime_iso": "2027-04-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0064E7EC73EC3C",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-miami-beach-florida-04-16-2027/event/0D0064E7EC73EC3C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-miami-beach-florida-04-16-2027/event/0D0064E7EC73EC3C",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0064E7EC73EC3C",
+        "discovery_event_id": "vvG1VZ_CLijXYH",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-miami-beach-florida-04-16-2027/event/0D0064E7EC73EC3C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8133114",
+        "url": "https://www.ticketnetwork.com/en/p/8133114",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8133114",
+        "url": "https://www.ticketliquidator.com/tickets/8133114/Saint-Levant-tickets-Fri-Apr-16-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_CLijXYH",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-04-12T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8133114",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8133114/Saint-Levant-tickets-Fri-Apr-16-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater"
+  },
+  {
+    "id": "tm-saint-levant-2027-atlanta-vvg1zz_cjej40m",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Buckhead Theatre",
+    "datetime_iso": "2027-04-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064E702995937",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-atlanta-georgia-04-18-2027/event/0E0064E702995937",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-atlanta-georgia-04-18-2027/event/0E0064E702995937",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064E702995937",
+        "discovery_event_id": "vvG1zZ_CjeJ40M",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-atlanta-georgia-04-18-2027/event/0E0064E702995937",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8133116",
+        "url": "https://www.ticketnetwork.com/en/p/8133116",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8133116",
+        "url": "https://www.ticketliquidator.com/tickets/8133116/Saint-Levant-tickets-Sun-Apr-18-2027-Buckhead-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_CjeJ40M",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T14:00:00Z",
+        "end": "2027-04-14T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8133116",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8133116/Saint-Levant-tickets-Sun-Apr-18-2027-Buckhead-Theatre"
+  },
+  {
+    "id": "tm-saint-levant-2027-austin-g5diz_cxcz7mc",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Stubb's Waller Creek Amphitheater",
+    "datetime_iso": "2027-04-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064E88E004B8E",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-austin-texas-04-20-2027/event/3A0064E88E004B8E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-austin-texas-04-20-2027/event/3A0064E88E004B8E",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064E88E004B8E",
+        "discovery_event_id": "G5dIZ_CxCZ7mC",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-austin-texas-04-20-2027/event/3A0064E88E004B8E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_CxCZ7mC",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2027-04-16T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-saint-levant-2027-houston-g5diz_clj5bta",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Bayou Music Center",
+    "datetime_iso": "2027-04-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0064E7DC2FAA49",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-houston-texas-04-21-2027/event/3A0064E7DC2FAA49",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-houston-texas-04-21-2027/event/3A0064E7DC2FAA49",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0064E7DC2FAA49",
+        "discovery_event_id": "G5dIZ_CLj5Bta",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-houston-texas-04-21-2027/event/3A0064E7DC2FAA49",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8144626",
+        "url": "https://www.ticketnetwork.com/en/p/8144626",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8144626",
+        "url": "https://www.ticketliquidator.com/tickets/8144626/Saint-Levant-tickets-Wed-Apr-21-2027-Bayou-Music-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_CLj5Bta",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2027-04-17T17:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8144626",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8144626/Saint-Levant-tickets-Wed-Apr-21-2027-Bayou-Music-Center"
+  },
+  {
+    "id": "tm-saint-levant-2027-dallas-vvg1yz_cxxtz4x",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "South Side Ballroom",
+    "datetime_iso": "2027-04-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064E8BEA7857E",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-dallas-texas-04-22-2027/event/0C0064E8BEA7857E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-dallas-texas-04-22-2027/event/0C0064E8BEA7857E",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064E8BEA7857E",
+        "discovery_event_id": "vvG1YZ_CxXtz4X",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-dallas-texas-04-22-2027/event/0C0064E8BEA7857E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8130662",
+        "url": "https://www.ticketnetwork.com/en/p/8130662",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8130662",
+        "url": "https://www.ticketliquidator.com/tickets/8130662/Saint-Levant-tickets-Thu-Apr-22-2027-South-Side-Ballroom-at-Gilleys",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_CxXtz4X",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T15:00:00Z",
+        "end": "2027-04-18T17:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8130662",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8130662/Saint-Levant-tickets-Thu-Apr-22-2027-South-Side-Ballroom-at-Gilleys"
+  },
+  {
+    "id": "tm-saint-levant-2027-denver-g5vzz_cl6uyod",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Summit Music Hall",
+    "datetime_iso": "2027-04-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064E7C7DB9803",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-denver-colorado-04-25-2027/event/1E0064E7C7DB9803",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-denver-colorado-04-25-2027/event/1E0064E7C7DB9803",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064E7C7DB9803",
+        "discovery_event_id": "G5vzZ_CL6UyOd",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-denver-colorado-04-25-2027/event/1E0064E7C7DB9803",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8144627",
+        "url": "https://www.ticketnetwork.com/en/p/8144627",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8144627",
+        "url": "https://www.ticketliquidator.com/tickets/8144627/Saint-Levant-tickets-Sun-Apr-25-2027-The-Summit-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_CL6UyOd",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-24T16:00:00Z",
+        "end": "2027-03-29T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T16:00:00Z",
+        "end": "2027-04-21T18:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8144627",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8144627/Saint-Levant-tickets-Sun-Apr-25-2027-The-Summit-Music-Hall"
+  },
+  {
+    "id": "tm-saint-levant-2027-san-diego-rz7hnez1afa7-7",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "SOMA - Mainstage",
+    "datetime_iso": "2027-04-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14244844",
+    "ticketmaster_url": "https://www.ticketweb.com/event/saint-levant-afandi-soma-mainstage-tickets/14244844",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/saint-levant-afandi-soma-mainstage-tickets/14244844",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14244844",
+        "discovery_event_id": "rZ7HnEZ1Afa7-7",
+        "url": "https://www.ticketweb.com/event/saint-levant-afandi-soma-mainstage-tickets/14244844",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1Afa7-7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-saint-levant-2027-anaheim-vvg10z_cr0rptv",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "House of Blues Anaheim",
+    "datetime_iso": "2027-04-30T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064E7A47A5FF4",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-anaheim-california-04-29-2027/event/090064E7A47A5FF4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-anaheim-california-04-29-2027/event/090064E7A47A5FF4",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064E7A47A5FF4",
+        "discovery_event_id": "vvG10Z_Cr0rPTV",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-anaheim-california-04-29-2027/event/090064E7A47A5FF4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8144629",
+        "url": "https://www.ticketnetwork.com/en/p/8144629",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8144629",
+        "url": "https://www.ticketliquidator.com/tickets/8144629/Saint-Levant-tickets-Thu-Apr-29-2027-House-Of-Blues-Anaheim",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_Cr0rPTV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-09-01T19:00:00Z",
+        "end": "2027-04-25T19:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8144629",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8144629/Saint-Levant-tickets-Thu-Apr-29-2027-House-Of-Blues-Anaheim"
+  },
+  {
+    "id": "tm-saint-levant-2027-los-angeles-vvg10z_cjir6zj",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Wiltern",
+    "datetime_iso": "2027-05-04T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064E9AC787E1C",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-los-angeles-california-05-03-2027/event/090064E9AC787E1C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-los-angeles-california-05-03-2027/event/090064E9AC787E1C",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064E9AC787E1C",
+        "discovery_event_id": "vvG10Z_CJir6zj",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-los-angeles-california-05-03-2027/event/090064E9AC787E1C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8130663",
+        "url": "https://www.ticketnetwork.com/en/p/8130663",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8130663",
+        "url": "https://www.ticketliquidator.com/tickets/8130663/Saint-Levant-tickets-Mon-May-3-2027-The-Wiltern",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_CJir6zj",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2027-04-04T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2027-04-29T19:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8130663",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8130663/Saint-Levant-tickets-Mon-May-3-2027-The-Wiltern"
+  },
+  {
+    "id": "tm-saint-levant-2027-los-angeles-vvg10z_cjil6zv",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "The Wiltern",
+    "datetime_iso": "2027-05-05T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064E9AC7C7E34",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-los-angeles-california-05-04-2027/event/090064E9AC7C7E34",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-los-angeles-california-05-04-2027/event/090064E9AC7C7E34",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064E9AC7C7E34",
+        "discovery_event_id": "vvG10Z_CJiL6zV",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-los-angeles-california-05-04-2027/event/090064E9AC7C7E34",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8130664",
+        "url": "https://www.ticketnetwork.com/en/p/8130664",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8130664",
+        "url": "https://www.ticketliquidator.com/tickets/8130664/Saint-Levant-tickets-Tue-May-4-2027-The-Wiltern",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_CJiL6zV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2027-04-05T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2027-04-30T19:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8130664",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8130664/Saint-Levant-tickets-Tue-May-4-2027-The-Wiltern"
+  },
+  {
+    "id": "tm-saint-levant-2027-san-francisco-g5vyz_cj596wt",
+    "artist_slug": "saint-levant",
+    "artist_name": "Saint Levant",
+    "event_name": "SAINT LEVANT - AFANDI WORLD TOUR",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Masonic",
+    "datetime_iso": "2027-05-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C0064E98B5C7CBF",
+    "ticketmaster_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-san-francisco-california-05-07-2027/event/1C0064E98B5C7CBF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-san-francisco-california-05-07-2027/event/1C0064E98B5C7CBF",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0064E98B5C7CBF",
+        "discovery_event_id": "G5vYZ_CJ596wT",
+        "url": "https://www.ticketmaster.com/saint-levant-afandi-world-tour-san-francisco-california-05-07-2027/event/1C0064E98B5C7CBF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8130665",
+        "url": "https://www.ticketnetwork.com/en/p/8130665",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8130665",
+        "url": "https://www.ticketliquidator.com/tickets/8130665/Saint-Levant-tickets-Fri-May-7-2027-The-Masonic-San-Francisco",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_CJ596wT",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2027-05-03T19:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8130665",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8130665/Saint-Levant-tickets-Fri-May-7-2027-The-Masonic-San-Francisco"
   }
 ]

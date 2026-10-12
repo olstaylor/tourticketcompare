@@ -1049,7 +1049,7 @@
         "event_id": 18235523,
         "url": "https://seatgeek.com/niall-horan-tickets/saint-paul-minnesota-grand-casino-arena-2027-03-17-7-30-pm/concert/18235523",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1099,7 +1099,7 @@
     "tour_name": "Dinner Party Live On Tour",
     "ticketmaster_event_id": "080064A7B4549CE9",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-detroit-michigan-03-19-2027/event/080064A7B4549CE9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/detroit-michigan-little-caesars-arena-2027-03-19-7-30-pm/concert/18235522",
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-detroit-little-caesars-arena-3-19-2027/production/7017219",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-detroit-michigan-03-19-2027/event/080064A7B4549CE9",
@@ -1269,7 +1269,7 @@
     "tour_name": "Dinner Party Live On Tour",
     "ticketmaster_event_id": "040064A7DFC05998",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-chicago-illinois-03-23-2027/event/040064A7DFC05998",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/chicago-illinois-united-center-2027-03-23-7-30-pm/concert/18235524",
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-chicago-united-center-3-23-2027/production/7017215",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-chicago-illinois-03-23-2027/event/040064A7DFC05998",
@@ -1640,7 +1640,7 @@
     "tour_name": "Dinner Party Live On Tour",
     "ticketmaster_event_id": "300064A6D66AE78A",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-brooklyn-new-york-04-04-2027/event/300064A6D66AE78A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/brooklyn-new-york-barclays-center-2027-04-04-7-30-pm/concert/18235519",
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-brooklyn-barclays-center-4-4-2027/production/7017205",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-brooklyn-new-york-04-04-2027/event/300064A6D66AE78A",
@@ -1810,7 +1810,7 @@
     "tour_name": "Dinner Party Live On Tour",
     "ticketmaster_event_id": "010064A6BEEBCCB9",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-boston-massachusetts-04-12-2027/event/010064A6BEEBCCB9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/boston-massachusetts-td-garden-2027-04-12-7-30-pm/concert/18235530",
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-boston-td-garden-4-12-2027/production/7017199",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-boston-massachusetts-04-12-2027/event/010064A6BEEBCCB9",
@@ -1975,7 +1975,7 @@
     "tour_name": "Dinner Party Live On Tour",
     "ticketmaster_event_id": "220064A886282E36",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-orlando-florida-04-17-2027/event/220064A886282E36",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/orlando-florida-kia-center-2027-04-17-7-30-pm/concert/18235541",
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-orlando-kia-center-4-17-2027--concerts-pop/production/7017237",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-orlando-florida-04-17-2027/event/220064A886282E36",
@@ -2261,7 +2261,7 @@
         "event_id": 18235544,
         "url": "https://seatgeek.com/niall-horan-tickets/houston-texas-toyota-center-2027-05-01-7-30-pm/concert/18235544",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3330,7 +3330,7 @@
         "event_id": 18235537,
         "url": "https://seatgeek.com/niall-horan-tickets/hartford-connecticut-peoplesbank-arena-2027-04-13-7-30-pm/concert/18235537",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3505,5 +3505,204 @@
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
     "stubhub_international_url": ""
+  },
+  {
+    "id": "tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdnvnrg",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-05-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006527E3D2ABF5",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-07-05-2027/event/14006527E3D2ABF5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-07-05-2027/event/14006527E3D2ABF5",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006527E3D2ABF5",
+        "discovery_event_id": "1AfZkfEGkdNVnRg",
+        "url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-07-05-2027/event/14006527E3D2ABF5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670791",
+        "url": "https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-7-5-2027/event/107670791",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZkfEGkdNVnRg",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-10-03T17:00:00Z",
+        "end": "2027-05-08T02:00:00Z"
+      }
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-7-5-2027/event/107670791"
+  },
+  {
+    "id": "tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdpr1hq",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Palacio de los Deportes",
+    "datetime_iso": "2027-05-09T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006527E578AF1A",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-08-05-2027/event/14006527E578AF1A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-08-05-2027/event/14006527E578AF1A",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006527E578AF1A",
+        "discovery_event_id": "1AfZkfEGkdPr1HQ",
+        "url": "https://www.ticketmaster.com.mx/niall-horan-ciudad-de-mexico-08-05-2027/event/14006527E578AF1A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZkfEGkdPr1HQ",
+    "timezone": "America/Mexico_City",
+    "status": "announced",
+    "public_onsale_at": "2026-10-13T17:00:00Z",
+    "presales": [
+      {
+        "name": "Preventa Banamex",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-13T05:59:00Z"
+      },
+      {
+        "name": "Preventa Banamex Paquetes VIP",
+        "start": "2026-10-12T17:00:00Z",
+        "end": "2026-10-13T05:59:00Z"
+      },
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2027-05-09T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-niall-horan-2027-tlajomulco-de-zuniga-g5dvz_31eksvx",
+    "artist_slug": "niall-horan",
+    "artist_name": "Niall Horan",
+    "event_name": "Niall Horan",
+    "city": "Tlajomulco de Zuñiga",
+    "country": "Mexico",
+    "venue": "Arena VFG",
+    "datetime_iso": "2027-05-12T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D006522821B107E",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/niall-horan-tlajomulco-de-zuniga-11-05-2027/event/3D006522821B107E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/niall-horan-tlajomulco-de-zuniga-11-05-2027/event/3D006522821B107E",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D006522821B107E",
+        "discovery_event_id": "G5dVZ_31eksvX",
+        "url": "https://www.ticketmaster.com.mx/niall-horan-tlajomulco-de-zuniga-11-05-2027/event/3D006522821B107E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_31eksvX",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale",
+    "presales": [
+      {
+        "name": "Venta General Paquetes VIP",
+        "start": "2026-10-03T17:00:00Z",
+        "end": "2027-05-12T03:00:00Z"
+      }
+    ]
   }
 ]

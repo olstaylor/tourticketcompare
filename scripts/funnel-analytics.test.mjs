@@ -111,10 +111,12 @@ function fakeAssets(events = [SAMPLE_EVENT]) {
 
 const BROWSER_UA = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1";
 
-function outRequest(query, { userAgent = BROWSER_UA, referer = null, secFetchUser = "?1" } = {}) {
+function outRequest(query, { userAgent = BROWSER_UA, referer = null, secFetchUser = "?1", secFetchSite = null, secFetchMode = null } = {}) {
   const headers = { "user-agent": userAgent, "cf-connecting-ip": "203.0.113.7" };
   if (referer) headers.referer = referer;
   if (secFetchUser) headers["sec-fetch-user"] = secFetchUser;
+  if (secFetchSite) headers["sec-fetch-site"] = secFetchSite;
+  if (secFetchMode) headers["sec-fetch-mode"] = secFetchMode;
   return new Request(`https://tourticketcompare.com/api/out?${query}`, { headers });
 }
 
@@ -510,6 +512,34 @@ await test("outbound analytics requires a browser user-navigation signal without
   assert.equal(db.rows.length, 0, "an unqualified request must not create attempt or terminal receipt rows");
 });
 
+await test("a same-origin navigation without Sec-Fetch-User (iOS Safari new tab) is still a qualified receipt", async () => {
+  const db = fakeDb();
+  const response = await outGet({
+    request: outRequest(
+      `showId=${SAMPLE_EVENT.id}&provider=ticketmaster&sourcePath=/artists/test-artist`,
+      { secFetchUser: null, secFetchSite: "same-origin", secFetchMode: "navigate" }
+    ),
+    env: { DEMAND_DB: db, ASSETS: fakeAssets() }
+  });
+  assert.equal(response.status, 302);
+  assert.equal(db.rows.filter((row) => row.event_name === "outbound_click").length, 1, "the Safari new-tab click must be recorded");
+});
+
+await test("a direct or cross-site hit without Sec-Fetch-User stays unrecorded", async () => {
+  for (const [secFetchSite, secFetchMode] of [["none", "navigate"], ["cross-site", "navigate"], ["same-origin", "cors"]]) {
+    const db = fakeDb();
+    const response = await outGet({
+      request: outRequest(
+        `showId=${SAMPLE_EVENT.id}&provider=ticketmaster&sourcePath=/artists/test-artist`,
+        { secFetchUser: null, secFetchSite, secFetchMode }
+      ),
+      env: { DEMAND_DB: db, ASSETS: fakeAssets() }
+    });
+    assert.equal(response.status, 302, "the redirect itself is unchanged");
+    assert.equal(db.rows.length, 0, `${secFetchSite}/${secFetchMode} must not create receipt rows`);
+  }
+});
+
 // ── 3. Duplicate prevention ─────────────────────────────────────────────────
 
 await test("duplicate guard suppresses a repeat inside the window only", () => {
@@ -543,7 +573,7 @@ await test("one interaction produces exactly one outbound row", async () => {
   assert.equal(db.rows.filter((row) => row.click_id && row.click_id === db.rows[0].click_id).length, 2, "one click id has an attempt and one terminal row");
   assert.equal(db.rows.filter((row) => row.event_name === "outbound_click").length, 1);
   for (const row of db.rows) {
-    assert.equal(JSON.parse(row.metadata_json).receiptQualification, "fetch_user_v1", "qualified receipts must be distinguishable from legacy rows");
+    assert.equal(JSON.parse(row.metadata_json).receiptQualification, "user_navigation_v2", "qualified receipts must be distinguishable from legacy rows");
   }
 });
 

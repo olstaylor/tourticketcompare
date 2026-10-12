@@ -55,6 +55,8 @@ import { pathToFileURL } from 'node:url';
 import { createSnapshotSweep, loadSnapshot, quotaHeaders, safeFetchError, reportSnapshotStats } from './lib/tm-event-snapshot.mjs';
 import { includePastFromEnv, skipInSweep, PAST_RECHECK_DAYS } from './lib/tm-sweep-window.mjs';
 import { normalizePresaleWindows } from '../functions/_presales.js';
+import { PROVIDER_LANES } from './lib/event-link-coverage.mjs';
+import { eventLocalDate, urlDateConflicts } from './sync-impact-marketplace-events.mjs';
 
 const DEFAULT_BASE = 'https://app.ticketmaster.com/discovery/v2';
 const DEFAULT_EVENTS_PATH = new URL('../public/data/events.json', import.meta.url);
@@ -713,7 +715,7 @@ export function planEventSync(event, remote, discoveryId) {
   if (lifecycleChange && (recordsHold ? identitySafe : blockers.length === 0)) {
     applied.push(lifecycleChange);
   }
-  if (!blockers.length) applied.push(...intendedChanges);
+  if (!blockers.length) applied.push(...intendedChanges, ...wrongNightLinkChanges(event, intendedChanges));
 
   const reviewItems = [...blockers];
   const heldCode = applied.some((change) => change.field === LIFECYCLE_FIELD)
@@ -739,6 +741,29 @@ export function planEventSync(event, remote, discoveryId) {
   };
 }
 
+// A date move (a reschedule) leaves resale links pointing at listings whose own
+// URL names the old night. Those are withdrawn — the field emptied and the link
+// unverified — in the same update, so no button sends a buyer to the wrong night
+// and the provider sync lanes look the date up again. A link whose URL names no
+// date, or the new one, is kept. Ticketmaster's own link follows its record.
+export function wrongNightLinkChanges(event, changes) {
+  const dateChange = changes.find((change) => change.field === 'datetime_iso');
+  if (!dateChange) return [];
+  const tzChange = changes.find((change) => change.field === 'timezone');
+  const moved = { ...event, datetime_iso: dateChange.to, timezone: tzChange ? tzChange.to : event.timezone };
+  const newDate = eventLocalDate(moved);
+  if (!newDate) return [];
+  const out = [];
+  for (const lane of PROVIDER_LANES) {
+    if (lane.slug === 'ticketmaster') continue;
+    const link = event.provider_links?.[lane.slug];
+    const url = clean(link?.url) || clean(event[lane.urlField]);
+    if (!url || !urlDateConflicts(url, newDate)) continue;
+    out.push({ field: `provider_link:${lane.slug}`, from: url, to: null, urlField: lane.urlField });
+  }
+  return out;
+}
+
 function attachIntendedChanges(reviewItems, intendedChanges) {
   if (!intendedChanges.length) return reviewItems;
   return reviewItems.map((item) => ({ ...item, intendedChanges }));
@@ -746,6 +771,13 @@ function attachIntendedChanges(reviewItems, intendedChanges) {
 
 function applyChanges(event, changes) {
   for (const change of changes) {
+    if (change.field.startsWith('provider_link:')) {
+      const lane = change.field.slice('provider_link:'.length);
+      event[change.urlField] = '';
+      if (!event.provider_links || typeof event.provider_links !== 'object') event.provider_links = {};
+      event.provider_links[lane] = { event_id: null, url: null, verified: false, last_verified_at: null, availability_status: 'not_checked' };
+      continue;
+    }
     if (change.field === 'ticketmaster_url') {
       event.ticketmaster_url = change.to;
       event.source_url = change.to;
@@ -890,6 +922,27 @@ async function runSelfTest() {
   assert('the "canceled" spelling is recorded as supplied', lifecycleOf(plan(clean_(), full('canceled')))?.to === 'canceled');
   assert('postponed is recorded', lifecycleOf(plan(clean_(), full('postponed')))?.to === 'postponed');
   assert('rescheduled is recorded', lifecycleOf(plan(clean_(), full('rescheduled')))?.to === 'rescheduled');
+  {
+    // Doja Cat, San Francisco (2026-10-10): rescheduled from Mon 19 Oct to Sun
+    // 25 Oct while the Ticket Liquidator URL still named the 19th.
+    const moved = full('rescheduled', { dates: { status: { code: 'rescheduled' }, start: { dateTime: '2026-10-26T02:30:00Z' }, timezone: 'America/Los_Angeles' } });
+    const row = clean_({
+      datetime_iso: '2026-10-20T02:30:00Z', timezone: 'America/Los_Angeles',
+      ticketliquidator_url: 'https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Mon-Oct-19-2026-Chase-Center',
+      ticketnetwork_url: 'https://www.ticketnetwork.com/en/p/7695886',
+      provider_links: {
+        'ticket-liquidator': { event_id: '7457622', url: 'https://www.ticketliquidator.com/tickets/7457622/Doja-Cat-tickets-Mon-Oct-19-2026-Chase-Center', verified: true, last_verified_at: '2026-07-31', availability_status: 'listed' },
+        ticketnetwork: { event_id: '7695886', url: 'https://www.ticketnetwork.com/en/p/7695886', verified: true, last_verified_at: '2026-07-13', availability_status: 'listed' }
+      }
+    });
+    const p = plan(row, moved);
+    assert('a reschedule applies the new date', p.applied.some((c) => c.field === 'datetime_iso' && c.to === '2026-10-26T02:30:00Z'));
+    applyChanges(row, p.applied);
+    assert('a resale URL naming the old night is withdrawn with the date move',
+      row.ticketliquidator_url === '' && row.provider_links['ticket-liquidator'].verified === false);
+    assert('a resale URL naming no date is kept', row.ticketnetwork_url && row.provider_links.ticketnetwork.verified === true);
+    assert('no link is withdrawn without a date move', wrongNightLinkChanges(clean_({ ticketliquidator_url: row.ticketnetwork_url }), []).length === 0);
+  }
   assert('a recorded status is no longer a review blocker', !plan(clean_(), full('cancelled')).blocked &&
     !kinds(clean_(), full('postponed')).includes('status'));
   assert('a cancelled event is still surfaced for a removal decision',

@@ -15,6 +15,8 @@ import {
   deriveTourSummaries,
   buildArtistContentModel
 } from "../functions/_artist-content.js";
+import { PRICE_DISCLOSURE } from "../functions/_price-wording.js";
+import { readFileSync } from "node:fs";
 
 let passed = 0;
 function assert(condition, message) {
@@ -183,11 +185,16 @@ assert(deriveTourSummaries([]).length === 0, "empty input should yield no tours"
 // --- Shared help component --------------------------------------------------
 const help = artistTicketHelp();
 assert(help.points.length >= 3, "the shared help component should list the safe points once");
-assert(help.points.some((point) => /snapshot/i.test(point)), "help should use snapshot framing");
-assert(help.points.some((point) => /Fees/i.test(point)), "help should tell the reader where fees land");
+// The price caveat is said once per page, in the money disclosure at the top
+// of the board, and the "Where to buy" panel states that its buttons open the
+// artist's page; the help no longer repeats either (2026-10-10 copy pass).
+assert(!help.points.includes(PRICE_DISCLOSURE), "help must not restate the per-page price caveat");
+assert(!help.points.some((point) => /Where to buy/i.test(point)), "help must not restate the Where to buy panel note");
 assert(
-  help.points.some((point) => /Where to buy/i.test(point) && /not a specific date/i.test(point)),
-  "help must distinguish date-card buttons from artist-level provider buttons"
+  /<h2>Where to buy<\/h2><p class="muted">These go to the artist's page on each ticket site, not to a specific date\.<\/p>/.test(
+    readFileSync(new URL("../functions/[[path]].js", import.meta.url), "utf8")
+  ),
+  "the Where to buy panel must distinguish its artist-level buttons from date-card buttons"
 );
 assert(
   !/Each button opens one ticket site's page for that exact date/.test(help.intro),

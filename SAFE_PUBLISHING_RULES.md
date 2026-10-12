@@ -81,7 +81,7 @@ promote it in one auto-merged PR, only while the repo variable
 in the same job, including Ticketmaster classifying it as music and not as a
 tribute act; any failure leaves it a proposal in the
 `automation:roster-candidates` issue, never retried on looser criteria. **Owner requests (owner-approved 2026-09-24):** an artist the owner names in `data/artist-requests.json` is screened with the volume thresholds D3 and D4 relaxed to one upcoming date on either provider — the owner's naming is the judgement they stand in for — and nothing else relaxed: identity (D1), the denylist, collision pattern and music classification (D2), artist-page liveness and the title checks (D5) still hold, and the same daily and weekly caps apply. At most
-5 artists a day and 20 in a rolling week. Shell copy is a template that states
+6 artists a day and 40 in a rolling week (owner-approved 2026-10-10; was 5 and 20). Shell copy is a template that states
 only the name and Ticketmaster's verbatim genre — no biography, no invented
 fact. The record is marked `promotion_source: "auto"` and is indexable only
 while it has 3 or more upcoming dates. The job ingests the new artists' dates
@@ -167,6 +167,7 @@ Pages become indexable and conversion-led only after completing the phase gates 
 
 ## Schema and SEO
 
+- HTML meta, Open Graph and Twitter descriptions may mirror a fresh, visible listed-price snapshot for one named show date, carrying its provider, explicit currency, capture time and fee caveat. Artist-city snippets quote the next tracked date, never a minimum across dates or a market-wide cheapest claim. Missing or withheld snapshots retain price-free copy. This HTML snippet must stay separate from JSON-LD descriptions and does not extend the schema-offers exception below.
 - Do not add `Event` or `MusicEvent` JSON-LD schema without verified event-level data (confirmed date, venue, artist from an official source).
 - Individual event pages (`/events/<slug>-<key>`) stay `noindex,follow` and out of every sitemap and `llms.txt`, except the active members of the frozen indexing cohorts: the pilot (2026-09-27, the 30 stable keys in `EVENT_INDEXING_PILOT_KEYS`) and the staged batches (owner-approved 2026-10-09, `EVENT_INDEXING_BATCHES` in `functions/_event-indexing-batches.js`, recorded in `data/event-indexing-batches.json`), each only while it is eligible, with `EVENT_PAGES_INDEXING="pilot"`, on the canonical host. Being *eligible* under the event-page indexability policy (`functions/_event-indexability.js`) never indexes a page by itself. Each cohort is frozen: a member that becomes ineligible drops out and is never replaced, and adding a batch, changing a cohort or the flag is a reviewed PR only — no automation may set the flag or add, swap or remove a key (`scripts/select-event-indexing-batch.mjs` only proposes). Eligibility is derived only from canonical data — never from a cached price, a price's freshness or D1 availability.
 - MusicEvent nodes carry no `offers`, prices, or availability by default — `scripts/validate-route-schema.mjs` fails the build if they appear — with one exception below.

@@ -228,7 +228,7 @@
         "event_id": 18238371,
         "url": "https://seatgeek.com/tobymac-tickets/cleveland-ohio-wolstein-center-2026-11-07-7-pm/concert/18238371",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -404,7 +404,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-lexington-rupp-arena-1-29-2027/production/7491831",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lexington-kentucky-01-29-2027/event/16006518AF849566",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -465,7 +465,7 @@
       {
         "name": "Friends & Family Discount",
         "start": "2026-10-05T04:01:00Z",
-        "end": "2026-10-13T03:59:00Z"
+        "end": "2026-10-18T03:59:00Z"
       }
     ]
   },
@@ -500,7 +500,7 @@
         "event_id": 18542844,
         "url": "https://seatgeek.com/tobymac-tickets/huntsville-alabama-propst-arena-at-the-von-braun-center-2027-01-30-7-pm/concert/18542844",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -697,7 +697,7 @@
         "event_id": 18527954,
         "url": "https://seatgeek.com/tobymac-tickets/sunrise-florida-amerant-bank-arena-2027-02-05-7-pm/concert/18527954",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -997,7 +997,7 @@
         "event_id": 18548802,
         "url": "https://seatgeek.com/tobymac-tickets/sugar-land-texas-smart-financial-centre-2027-02-12-7-pm/concert/18548802",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1050,7 +1050,7 @@
         "event_id": 18548804,
         "url": "https://seatgeek.com/tobymac-tickets/grand-prairie-texas-texas-trust-cu-theatre-2027-02-13-7-pm/concert/18548804",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1195,7 +1195,7 @@
         "event_id": 18548806,
         "url": "https://seatgeek.com/tobymac-tickets/norfolk-virginia-chartway-arena-2027-02-21-6-30-pm/concert/18548806",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1704,7 +1704,7 @@
         "event_id": 18548872,
         "url": "https://seatgeek.com/tobymac-tickets/cape-girardeau-missouri-show-me-center-2027-03-06-7-pm/concert/18548872",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1823,7 +1823,7 @@
     "tour_name": "Hits Deep Tour",
     "ticketmaster_event_id": "3A006519DF89EF83",
     "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-austin-texas-03-11-2027/event/3A006519DF89EF83",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tobymac-tickets/austin-texas-moody-center-atx-2027-03-11-7-pm/concert/18543696",
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-austin-moody-center-atx-3-11-2027/production/7491794",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-austin-texas-03-11-2027/event/3A006519DF89EF83",
@@ -1931,7 +1931,7 @@
         "event_id": 18548874,
         "url": "https://seatgeek.com/tobymac-tickets/lubbock-texas-united-supermarkets-arena-2027-03-13-7-pm/concert/18548874",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2442,5 +2442,82 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239106",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8239106/TobyMac-tickets-Sun-Mar-21-2027-BOK-Center"
+  },
+  {
+    "id": "tm-tobymac-2027-sioux-falls-vv1akzkg_gkd7w414",
+    "artist_slug": "tobymac",
+    "artist_name": "TobyMac",
+    "event_name": "TOBYMAC with Jeremy Camp, Seph Schlueter, Katy Nichole: Hits Deep Tour",
+    "city": "Sioux Falls",
+    "country": "United States Of America",
+    "venue": "Denny Sanford PREMIER Center",
+    "datetime_iso": "2027-03-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006319C4C95295",
+    "ticketmaster_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-sioux-falls-south-dakota-03-16-2027/event/06006319C4C95295",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-sioux-falls-south-dakota-03-16-2027/event/06006319C4C95295",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006319C4C95295",
+        "discovery_event_id": "vv1AkZkG_Gkd7w414",
+        "url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-sioux-falls-south-dakota-03-16-2027/event/06006319C4C95295",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7376289",
+        "url": "https://www.ticketnetwork.com/en/p/7376289",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7376289",
+        "url": "https://www.ticketliquidator.com/tickets/7376289/TobyMac-tickets-Tue-Mar-16-2027-Denny-Sanford-Premier-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZkG_Gkd7w414",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "Friends & Family",
+        "start": "2026-10-05T05:01:00Z",
+        "end": "2026-10-13T04:59:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7376289",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7376289/TobyMac-tickets-Tue-Mar-16-2027-Denny-Sanford-Premier-Center"
   }
 ]

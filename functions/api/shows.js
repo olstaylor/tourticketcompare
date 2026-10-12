@@ -1,3 +1,4 @@
+import { isUpcomingShow, showStartMs } from "../_upcoming.js";
 import { VERIFIED_TICKET_LINKS } from "./out.js";
 import { eventLifecycleHeld, TICKETMASTER_LIFECYCLE_CODES, TICKETMASTER_STATUS_FIELD } from "../_route-indexability.js";
 import {
@@ -158,8 +159,8 @@ export function mapEventsToShows(events) {
       };
     })
     .filter((show) => isValidDateISO(show.dateTimeISO))
-    .filter((show) => Date.parse(show.dateTimeISO) >= now)
-    .sort((a, b) => Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO));
+    .filter((show) => isUpcomingShow(show, now))
+    .sort((a, b) => showStartMs(a) - showStartMs(b));
 }
 
 function resolveArtistName(artistSlug, artists, allShows) {
@@ -385,7 +386,7 @@ export function mergeShows(localShows, discoveredShows) {
       ...(eventLifecycleHeld(previous) ? { [TICKETMASTER_STATUS_FIELD]: previous[TICKETMASTER_STATUS_FIELD] } : {})
     });
   }
-  return [...merged.values()].sort((a, b) => Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO));
+  return [...merged.values()].sort((a, b) => showStartMs(a) - showStartMs(b));
 }
 
 function buildTicketmasterArtistEventsCacheKey(artistSlug, artistName, countryCode, limit) {
@@ -498,8 +499,8 @@ async function fetchTicketmasterArtistEvents(options) {
         .map((event) => mapTicketmasterEventToShow(event, normalizedSlug, normalizedName))
         .filter(Boolean)
         .filter((show) => Number.isFinite(Date.parse(show.dateTimeISO)))
-        .filter((show) => Date.parse(show.dateTimeISO) >= Date.now())
-        .sort((a, b) => Date.parse(a.dateTimeISO) - Date.parse(b.dateTimeISO));
+        .filter((show) => isUpcomingShow(show))
+        .sort((a, b) => showStartMs(a) - showStartMs(b));
 
       const responsePayload = {
         artistSlug: normalizedSlug,

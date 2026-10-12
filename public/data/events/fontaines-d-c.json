@@ -641,7 +641,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-boston-massachusetts-04-23-2027/event/01006535BB8316A8",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -697,8 +697,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGkeDOsQI",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303807",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303807/Fontaines-DC-tickets-Fri-Apr-23-2027-MGM-Music-Hall-at-Fenway-Park",
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-23-2027/event/107671881"
@@ -719,7 +718,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-philadelphia-pennsylvania-04-24-2027/event/0200653CE1FB18A5",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -754,8 +753,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZ_KGkS-XsxP",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-detroit-vv17oz_kgksew9wu",
@@ -773,7 +771,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wdzh-presents-fontaines-dc-detroit-michigan-04-27-2027/event/0800653CE7F57F4D",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -829,8 +827,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17OZ_KGkSEW9Wu",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303810",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303810/Fontaines-DC-tickets-Tue-Apr-27-2027-Fox-Theatre-Detroit",
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-detroit-tickets-4-27-2027/event/107672469"
@@ -851,7 +848,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-chicago-illinois-04-28-2027/event/0400654194E26A91",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -886,8 +883,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1k8Z_fkfG7zJno",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-milwaukee-vv17jz_kgkloizcl",
@@ -901,11 +897,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "0700653AD1B3839F",
     "ticketmaster_url": "https://www.ticketmaster.com/fontaines-dc-milwaukee-wisconsin-04-30-2027/event/0700653AD1B3839F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fontaines-d-c-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-04-30-8-pm/concert/18642823",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-milwaukee-wisconsin-04-30-2027/event/0700653AD1B3839F",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -917,11 +913,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642823,
+        "url": "https://seatgeek.com/fontaines-d-c-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-04-30-8-pm/concert/18642823",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -954,8 +950,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17jZ_KGkloizCL",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303812",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303812/Fontaines-DC-tickets-Fri-Apr-30-2027-Landmark-Credit-Union-Live"
   },
@@ -971,11 +966,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "0600653B1C7762FE",
     "ticketmaster_url": "https://www.ticketmaster.com/fontaines-dc-minneapolis-minnesota-05-01-2027/event/0600653B1C7762FE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fontaines-d-c-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-05-01-8-pm/concert/18642822",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-minneapolis-minnesota-05-01-2027/event/0600653B1C7762FE",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -987,11 +982,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642822,
+        "url": "https://seatgeek.com/fontaines-d-c-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-05-01-8-pm/concert/18642822",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1024,8 +1019,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17bZ_KGkijqU5X",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303813",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303813/Fontaines-DC-tickets-Sat-May-1-2027-The-Armory-Minneapolis"
   },
@@ -1041,11 +1035,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "1100653DA5E27FDE",
     "ticketmaster_url": "https://www.ticketmaster.ca/fontaines-dc-vancouver-british-columbia-05-05-2027/event/1100653DA5E27FDE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fontaines-d-c-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2027-05-05-8-pm/concert/18642830",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fontaines-dc-vancouver-british-columbia-05-05-2027/event/1100653DA5E27FDE",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1057,11 +1051,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642830,
+        "url": "https://seatgeek.com/fontaines-d-c-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2027-05-05-8-pm/concert/18642830",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1094,8 +1088,7 @@
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkUPzETr",
     "timezone": "America/Vancouver",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303822",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303822/Fontaines-DC-tickets-Wed-May-5-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
   },
@@ -1115,7 +1108,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-seattle-washington-05-08-2027/event/0F00653EAF4BA90E",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1171,8 +1164,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KBR3B0C",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303814",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303814/Fontaines-DC-tickets-Sat-May-8-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-seattle-tickets-5-8-2027/event/107672464"
@@ -1193,7 +1185,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-sacramento-california-05-11-2027/event/1C00653DCCE3FB3B",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1249,8 +1241,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_KMGzTiD",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303815",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303815/Fontaines-DC-tickets-Tue-May-11-2027-Channel-24",
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-sacramento-tickets-5-11-2027/event/107672016"
@@ -1271,7 +1262,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-san-francisco-california-05-12-2027/event/1C006535CE0F535C",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1327,8 +1318,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_K9Cdguj",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303816",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303816/Fontaines-DC-tickets-Wed-May-12-2027-Bill-Graham-Civic-Auditorium",
     "presales": [
@@ -1905,7 +1895,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fontaines-dc-toronto-ontario-09-26-2027/event/1000653DFBFA0976",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1940,8 +1930,7 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_KGkMDXOPU",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z"
+    "status": "on-sale"
   },
   {
     "id": "tm-fontaines-d-c-2027-columbia-16vfz_fkag7mpc7",
@@ -1959,7 +1948,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-columbia-maryland-09-30-2027/event/1500654189DE5384",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1971,11 +1960,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642843,
+        "url": "https://seatgeek.com/fontaines-d-c-tickets/columbia-maryland-merriweather-post-pavilion-2027-09-30-7-30-pm/concert/18642843",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2008,8 +1997,7 @@
     },
     "ticketmaster_discovery_event_id": "16vfZ_fkaG7MPC7",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303818",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303818/Fontaines-DC-tickets-Thu-Sep-30-2027-Merriweather-Post-Pavilion"
   },
@@ -2029,7 +2017,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-atlanta-georgia-10-08-2027/event/0E006539E8604B09",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2041,11 +2029,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642849,
+        "url": "https://seatgeek.com/fontaines-d-c-tickets/atlanta-georgia-synovus-bank-amphitheatre-at-chastain-park-2027-10-08-8-pm/concert/18642849",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2078,17 +2066,9 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KEIb7ia",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303820",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303820/Fontaines-DC-tickets-Fri-Oct-8-2027-Synovus-Bank-Amphitheater-at-Chastain-Park",
-    "presales": [
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-10-08T14:00:00Z",
-        "end": "2026-10-10T02:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303820/Fontaines-DC-tickets-Fri-Oct-8-2027-Synovus-Bank-Amphitheater-at-Chastain-Park"
   },
   {
     "id": "tm-fontaines-d-c-2027-inglewood-vv1ke8vpuyga5p1et",
@@ -2106,7 +2086,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-inglewood-california-10-15-2027/event/090065370B94A9E9",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2118,11 +2098,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642853,
+        "url": "https://seatgeek.com/fontaines-d-c-tickets/inglewood-california-kia-forum-2027-10-15-7-pm/concert/18642853",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2162,8 +2142,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1ke8vPuYGA5P1Et",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303821",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303821/Fontaines-DC-tickets-Fri-Oct-15-2027-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-inglewood-tickets-10-15-2027/event/107671885"
@@ -2237,7 +2216,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-boston-massachusetts-04-22-2027/event/01006535BB7D169E",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2293,8 +2272,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfgGkeDLoQr",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310408",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310408/Fontaines-DC-tickets-Thu-Apr-22-2027-MGM-Music-Hall-at-Fenway-Park",
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-22-2027/event/107672109"
@@ -2315,7 +2293,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fontaines-dc-vancouver-british-columbia-05-06-2027/event/11006541909259B7",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2346,12 +2324,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8313478",
+        "url": "https://www.ticketnetwork.com/en/p/8313478",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8313478",
+        "url": "https://www.ticketliquidator.com/tickets/8313478/Fontaines-DC-tickets-Thu-May-6-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aoZk4v0aa_ZeGF",
     "timezone": "America/Vancouver",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T17:00:00Z"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313478",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8313478/Fontaines-DC-tickets-Thu-May-6-2027-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
   },
   {
     "id": "tm-fontaines-d-c-2027-columbus-z7r9jz1aaepk6",
@@ -2365,7 +2358,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAepk6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepk6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fontaines-d-c-tickets/columbus-ohio-kemba-live-2027-09-24-6-pm/concert/18642836",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepk6",
@@ -2381,11 +2374,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642836,
+        "url": "https://seatgeek.com/fontaines-d-c-tickets/columbus-ohio-kemba-live-2027-09-24-6-pm/concert/18642836",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2400,11 +2393,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307056",
+        "url": "https://www.ticketnetwork.com/en/p/8307056",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307056",
+        "url": "https://www.ticketliquidator.com/tickets/8307056/Fontaines-DC-tickets-Fri-Sep-24-2027-KEMBA-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672465",
+        "url": "https://www.stubhub.ie/fontaines-d-c-columbus-tickets-9-24-2027/event/107672465",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAepk6",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307056",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307056/Fontaines-DC-tickets-Fri-Sep-24-2027-KEMBA-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-columbus-tickets-9-24-2027/event/107672465"
   },
   {
     "id": "tm-fontaines-d-c-2027-forest-hills-z7r9jz1aaep7g",
@@ -2418,7 +2435,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAep7g",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAep7g",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fontaines-d-c-tickets/forest-hills-new-york-forest-hills-stadium-2027-09-28-6-pm/concert/18642842",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAep7g",
@@ -2434,11 +2451,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642842,
+        "url": "https://seatgeek.com/fontaines-d-c-tickets/forest-hills-new-york-forest-hills-stadium-2027-09-28-6-pm/concert/18642842",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2453,11 +2470,35 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303817",
+        "url": "https://www.ticketnetwork.com/en/p/8303817",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303817",
+        "url": "https://www.ticketliquidator.com/tickets/8303817/Fontaines-DC-tickets-Tue-Sep-28-2027-Forest-Hills-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672017",
+        "url": "https://www.stubhub.ie/fontaines-d-c-flushing-tickets-9-28-2027/event/107672017",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAep7g",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303817",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303817/Fontaines-DC-tickets-Tue-Sep-28-2027-Forest-Hills-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-flushing-tickets-9-28-2027/event/107672017"
   },
   {
     "id": "tm-fontaines-d-c-2027-forest-hills-z7r9jz1aa7v_9",
@@ -2471,7 +2512,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7v_9",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7v_9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fontaines-d-c-tickets/forest-hills-new-york-forest-hills-stadium-2027-09-29-6-pm/concert/18658900",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7v_9",
@@ -2487,11 +2528,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18658900,
+        "url": "https://seatgeek.com/fontaines-d-c-tickets/forest-hills-new-york-forest-hills-stadium-2027-09-29-6-pm/concert/18658900",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2506,11 +2547,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8312114",
+        "url": "https://www.ticketnetwork.com/en/p/8312114",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8312114",
+        "url": "https://www.ticketliquidator.com/tickets/8312114/Fontaines-DC-tickets-Wed-Sep-29-2027-Forest-Hills-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7v_9",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8312114",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8312114/Fontaines-DC-tickets-Wed-Sep-29-2027-Forest-Hills-Stadium"
   },
   {
     "id": "tm-fontaines-d-c-2027-nashville-z7r9jz1aaepkf",
@@ -2524,7 +2581,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAepkF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepkF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fontaines-d-c-tickets/nashville-tennessee-the-pinnacle-nashville-2027-10-05-8-pm/concert/18642844",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepkF",
@@ -2540,11 +2597,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18642844,
+        "url": "https://seatgeek.com/fontaines-d-c-tickets/nashville-tennessee-the-pinnacle-nashville-2027-10-05-8-pm/concert/18642844",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2577,7 +2634,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAepka",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepka",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fontaines-d-c-tickets/morrison-colorado-red-rocks-amphitheatre-2027-10-13-7-30-pm/concert/18642850",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepka",
@@ -2588,6 +2645,83 @@
         "event_id": "Z7r9jZ1AAepka",
         "discovery_event_id": "Z7r9jZ1AAepka",
         "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAepka",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18642850,
+        "url": "https://seatgeek.com/fontaines-d-c-tickets/morrison-colorado-red-rocks-amphitheatre-2027-10-13-7-30-pm/concert/18642850",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303825",
+        "url": "https://www.ticketnetwork.com/en/p/8303825",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303825",
+        "url": "https://www.ticketliquidator.com/tickets/8303825/Fontaines-DC-tickets-Wed-Oct-13-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672466",
+        "url": "https://www.stubhub.ie/fontaines-d-c-morrison-tickets-10-13-2027/event/107672466",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAepka",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303825",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303825/Fontaines-DC-tickets-Wed-Oct-13-2027-Red-Rocks-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-morrison-tickets-10-13-2027/event/107672466"
+  },
+  {
+    "id": "tm-fontaines-d-c-2026-praha-7-z698xzu0z16vouudjv",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C. + support: Chalk",
+    "city": "Praha 7",
+    "country": "Czech Republic",
+    "venue": "Sportovní hala FORTUNA",
+    "datetime_iso": "2026-10-30T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1836343981",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/fontaines-dc--support-chalk-tickets/1836343981?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/fontaines-dc--support-chalk-tickets/1836343981?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1836343981",
+        "discovery_event_id": "Z698xZu0Z16vOUudJv",
+        "url": "https://www.ticketmaster.cz/event/fontaines-dc--support-chalk-tickets/1836343981?language=en-us",
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
@@ -2614,8 +2748,191 @@
         "availability_status": "not_checked"
       }
     },
-    "ticketmaster_discovery_event_id": "Z7r9jZ1AAepka",
-    "timezone": "America/Denver",
+    "ticketmaster_discovery_event_id": "Z698xZu0Z16vOUudJv",
+    "timezone": "Europe/Prague",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-fontaines-d-c-2026-oslo-z698xzb_z16vftpojp",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C.",
+    "city": "Oslo",
+    "country": "Norway",
+    "venue": "Oslo Spektrum",
+    "datetime_iso": "2026-11-06T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1229960725",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/fontaines-dc-tickets/1229960725?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/fontaines-dc-tickets/1229960725?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1229960725",
+        "discovery_event_id": "Z698xZb_Z16vFtPOjP",
+        "url": "https://www.ticketmaster.no/event/fontaines-dc-tickets/1229960725?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107638078",
+        "url": "https://www.stubhub.ie/fontaines-d-c-tickets-oslo-oslo-spektrum-6-11-2026/event/107638078",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16vFtPOjP",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-oslo-oslo-spektrum-6-11-2026/event/107638078"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-mexico-1av8z_ogku9epc3",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C.",
+    "city": "México",
+    "country": "Mexico",
+    "venue": "Pepsi Center",
+    "datetime_iso": "2027-03-25T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1400651D97096B52",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/fontaines-dc-mexico-24-03-2027/event/1400651D97096B52",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/fontaines-dc-mexico-24-03-2027/event/1400651D97096B52",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1400651D97096B52",
+        "discovery_event_id": "1Av8Z_oGkU9epc3",
+        "url": "https://www.ticketmaster.com.mx/fontaines-dc-mexico-24-03-2027/event/1400651D97096B52",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670888",
+        "url": "https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-24-3-2027/event/107670888",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av8Z_oGkU9epc3",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-24-3-2027/event/107670888"
+  },
+  {
+    "id": "tm-fontaines-d-c-2027-mexico-1av8z_ogkxugz79",
+    "artist_slug": "fontaines-d-c",
+    "artist_name": "Fontaines D.C.",
+    "event_name": "Fontaines D.C.",
+    "city": "México",
+    "country": "Mexico",
+    "venue": "Pepsi Center",
+    "datetime_iso": "2027-03-26T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1400651FB6D78117",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/fontaines-dc-mexico-25-03-2027/event/1400651FB6D78117",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/fontaines-dc-mexico-25-03-2027/event/1400651FB6D78117",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1400651FB6D78117",
+        "discovery_event_id": "1Av8Z_oGkXUgz79",
+        "url": "https://www.ticketmaster.com.mx/fontaines-dc-mexico-25-03-2027/event/1400651FB6D78117",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107669312",
+        "url": "https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-25-3-2027/event/107669312",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av8Z_oGkXUgz79",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-25-3-2027/event/107669312"
   }
 ]

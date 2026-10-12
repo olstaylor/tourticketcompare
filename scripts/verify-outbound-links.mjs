@@ -21,7 +21,6 @@ const BLOCKED_STATUSES = new Set([401, 403, 429]);
 // A HEAD response is not authoritative for a storefront URL. Some providers
 // return 404/410 to HEAD from CI while the same URL succeeds in a browser GET.
 // Confirm every negative HEAD status with a small GET before classifying it.
-const HEAD_RETRY_STATUSES = new Set([404, 405, 410, 501, ...BLOCKED_STATUSES]);
 
 // Checking was strictly serial: one URL, awaited, then the next. At the measured
 // ~0.51s per URL that put the step at 4676 x 0.51s = 39.7 minutes against the
@@ -307,9 +306,9 @@ async function checkUrl(url, timeoutMs, fetchImpl = fetch) {
       headers: BROWSER_HEADERS
     });
 
-    // HEAD is only a cheap first pass. Confirm 404/410 as well as explicit
-    // method/WAF responses with a ranged GET before declaring a link dead.
-    if (HEAD_RETRY_STATUSES.has(response.status)) {
+    // HEAD is only a cheap first pass. Confirm every error, including the
+    // Ticketweb 530 responses seen in the audit, before reporting a failure.
+    if (response.status >= 400) {
       response = await fetchImpl(url, {
         method: 'GET',
         redirect: 'follow',
@@ -380,6 +379,22 @@ if (args.has('--self-test')) {
   assert.equal(blockedResult.ok, false);
   assert.equal(blockedResult.blocked, true);
   assert.deepEqual(blockedCalls, ['HEAD', 'GET']);
+
+  for (const status of [500, 502, 503, 504, 530]) {
+    const calls = [];
+    const result = await checkUrl('https://www.ticketweb.com/event/example/123', 1000,
+      sequenceFetch([status, 200], calls));
+    assert.equal(result.ok, true, `HEAD ${status} must not override a successful GET`);
+    assert.equal(result.status, 200);
+    assert.deepEqual(calls, ['HEAD', 'GET']);
+  }
+  const serverErrorCalls = [];
+  const serverError = await checkUrl('https://www.ticketweb.com/event/example/456', 1000,
+    sequenceFetch([530, 530], serverErrorCalls));
+  assert.equal(serverError.ok, false, 'a server error confirmed by GET remains a failure');
+  assert.equal(serverError.blocked, false, '530 is not assumed to be an anti-bot response');
+  assert.equal(serverError.status, 530);
+  assert.deepEqual(serverErrorCalls, ['HEAD', 'GET']);
 
   const now = Date.parse('2026-07-30T12:00:00Z');
   const events = new Map([

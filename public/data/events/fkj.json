@@ -136,7 +136,7 @@
         "event_id": 18282296,
         "url": "https://seatgeek.com/fkj-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-04-20-8-pm/concert/18282296",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -205,7 +205,7 @@
         "event_id": 18282297,
         "url": "https://seatgeek.com/fkj-tickets/seattle-washington-showbox-sodo-2027-04-23-8-pm/concert/18282297",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -428,7 +428,7 @@
         "event_id": 18282299,
         "url": "https://seatgeek.com/fkj-tickets/denver-colorado-mission-ballroom-2027-04-29-8-pm/concert/18282299",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1131,7 +1131,7 @@
         "event_id": 18282301,
         "url": "https://seatgeek.com/fkj-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-06-12-8-pm/concert/18282301",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1322,7 +1322,7 @@
         "event_id": 18282298,
         "url": "https://seatgeek.com/fkj-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-04-28-8-pm/concert/18282298",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1375,7 +1375,7 @@
         "event_id": 18282300,
         "url": "https://seatgeek.com/fkj-tickets/new-orleans-louisiana-saenger-theatre-new-orleans-2027-06-10-8-30-pm/concert/18282300",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1412,5 +1412,164 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8012974",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012974/FKJ-tickets-Thu-Jun-10-2027-Saenger-Theatre-New-Orleans"
+  },
+  {
+    "id": "tm-fkj-2026-k-benhavn-v-z698xzc4z16vvpef0i",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ",
+    "city": "København V",
+    "country": "Denmark",
+    "venue": "VEGA - Musikkens Hus, Store VEGA",
+    "datetime_iso": "2026-10-20T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1056094928",
+    "ticketmaster_url": "https://www.ticketmaster.dk/event/fkj-tickets/1056094928?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.dk/event/fkj-tickets/1056094928?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1056094928",
+        "discovery_event_id": "Z698xZC4Z16vvpef0I",
+        "url": "https://www.ticketmaster.dk/event/fkj-tickets/1056094928?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC4Z16vvpef0I",
+    "timezone": "Europe/Copenhagen",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2026-praha-1-z698xzu0z16v7kp8r6",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ, support: Richie Griner",
+    "city": "Praha 1",
+    "country": "Czech Republic",
+    "venue": "ARCHA+",
+    "datetime_iso": "2026-10-23T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1106590787",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/fkj-support-richie-griner-tickets/1106590787?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/fkj-support-richie-griner-tickets/1106590787?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1106590787",
+        "discovery_event_id": "Z698xZu0Z16v7kp8r6",
+        "url": "https://www.ticketmaster.cz/event/fkj-support-richie-griner-tickets/1106590787?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z16v7kp8r6",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-fkj-2027-auckland-17azv0g6cklgovf",
+    "artist_slug": "fkj",
+    "artist_name": "FKJ",
+    "event_name": "FKJ",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Great Hall, Auckland Town Hall",
+    "datetime_iso": "2027-02-20T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240064E19F311D08",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/fkj-auckland-20-02-2027/event/240064E19F311D08",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/fkj-auckland-20-02-2027/event/240064E19F311D08",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240064E19F311D08",
+        "discovery_event_id": "17aZv0G6CkLGoVF",
+        "url": "https://www.ticketmaster.co.nz/fkj-auckland-20-02-2027/event/240064E19F311D08",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17aZv0G6CkLGoVF",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
   }
 ]

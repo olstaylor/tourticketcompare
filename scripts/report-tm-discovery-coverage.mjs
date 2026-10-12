@@ -68,8 +68,14 @@ function buildBody(coverage, indexedSlugs) {
   }
 
   const bySlug = new Map((coverage.artists || []).map((a) => [a.slug, a]));
+  const indexed = new Set(indexedSlugs);
   const uncovered = indexedSlugs.filter((s) => !bySlug.has(s));
-  const skipped = (coverage.artists || []).filter((a) => a.status === "skipped");
+  const allSkipped = (coverage.artists || []).filter((a) => a.status === "skipped");
+  const skipped = allSkipped.filter((a) => indexed.has(a.slug));
+  // The writer includes disabled/demoted registry entries in its coverage
+  // report. They are outside the authoritative indexed roster, so their
+  // intentional exclusion is context rather than an uncovered live artist.
+  const excluded = allSkipped.filter((a) => !indexed.has(a.slug));
   const proposed = (coverage.artists || []).filter((a) => a.status === "proposed");
   const noNew = (coverage.artists || []).filter((a) => a.status === "no-new");
   let hasProblem = uncovered.length > 0 || skipped.length > 0;
@@ -114,6 +120,7 @@ function buildBody(coverage, indexedSlugs) {
   body += `- ✅ Checked with new shows: **${proposed.length}**\n`;
   body += `- 🟰 Checked, no new shows: **${noNew.length}**\n`;
   body += `- ⛔ Skipped (not checked): **${skipped.length}**\n`;
+  if (excluded.length) body += `- ℹ️ Non-indexed artists skipped intentionally: **${excluded.length}**\n`;
   body += `- ❓ Indexed but absent from run: **${uncovered.length}**\n`;
   body += `- 📦 New events proposed: **${t.proposed_events || 0}** · withheld for review: **${t.withheld_events || 0}**\n\n`;
 
@@ -125,6 +132,11 @@ function buildBody(coverage, indexedSlugs) {
   if (skipped.length) {
     body += `### ⛔ Skipped artists\n\n`;
     for (const a of skipped) body += `- \`${a.slug}\` — ${a.reason || "skipped"}\n`;
+    body += `\n`;
+  }
+  if (excluded.length) {
+    body += `### ℹ️ Outside the indexed roster\n\nThese artists are not expected to be checked by this loop and do not fail its coverage gate.\n`;
+    for (const a of excluded) body += `- \`${a.slug}\` — ${a.reason || "skipped"}\n`;
     body += `\n`;
   }
   if (proposed.length) {
@@ -188,6 +200,20 @@ function runSelfTest() {
   assert("a skipped artist is a problem", skip.hasProblem === true);
   assert("an indexed artist absent from the run is flagged (c)", skip.body.includes("`c`") && skip.body.includes("not in this run"));
   assert("skip reason is shown", skip.body.includes("live lookup failed"));
+
+  const demoted = buildBody({ mode: "write-pr", totals: {}, artists: [
+    ...roster.map((slug) => ({ slug, status: "no-new" })),
+    { slug: "demoted", status: "skipped", reason: "indexing_status is review_required; sync_enabled is false" },
+  ] }, roster);
+  assert("an intentionally excluded artist does not fail indexed coverage", demoted.hasProblem === false);
+  assert("excluded artist does not count as an unchecked indexed artist", demoted.body.includes("Skipped (not checked): **0**"));
+  assert("the excluded artist and reason remain visible", demoted.body.includes("`demoted`") && demoted.body.includes("sync_enabled is false"));
+  const mixed = buildBody({ mode: "write-pr", totals: {}, artists: [
+    { slug: "a", status: "no-new" },
+    { slug: "b", status: "skipped", reason: "lookup failed" },
+    { slug: "demoted", status: "skipped", reason: "outside the indexed roster" },
+  ] }, roster);
+  assert("excluded rows cannot hide skipped or missing indexed artists", mixed.hasProblem && mixed.body.includes("2 artist(s) not covered"));
 
   const none = buildBody(null, roster);
   assert("missing coverage is a problem", none.hasProblem === true && none.body.includes("No coverage produced"));

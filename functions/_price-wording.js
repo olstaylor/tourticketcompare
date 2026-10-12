@@ -32,7 +32,7 @@ export const MONEY_DISCLOSURE =
   "Affiliate partners are listed before Ticketmaster. If you buy through an affiliate link, TourTicketCompare may earn a commission at no extra cost to you.";
 
 /** A card or row whose price lanes were checked and none had a price. */
-export const NO_PRICE_NOTE = "No listed-price snapshot yet.";
+export const NO_PRICE_NOTE = "No listed price yet.";
 
 /** The toggle that opens a card's recorded price history. */
 export const PRICE_HISTORY_LABEL = "Show price history";
@@ -57,5 +57,5 @@ export function relativeCheckAge(fetchedAt, now = Date.now()) {
 
 /** A checked card with no price, naming the lanes checked and when. */
 export function noPriceAtLastCheck(laneNames, when) {
-  return `No listed-price snapshot from ${laneNames} at the last check (${when}).`;
+  return `No listed price from ${laneNames} at the last check (${when}).`;
 }

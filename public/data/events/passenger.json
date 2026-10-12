@@ -873,5 +873,111 @@
     "ticketmaster_discovery_event_id": "16vGZ_oayG7zvfP",
     "timezone": "Australia/Sydney",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-zurich-z698xzu3z1kg0bbov",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "venue": "Volkshaus Zürich",
+    "datetime_iso": "2027-04-06T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "324618801",
+    "ticketmaster_url": "https://www.ticketmaster.ch/event/passenger-tickets/324618801?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ch/event/passenger-tickets/324618801?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "324618801",
+        "discovery_event_id": "Z698xZu3Z1kG0bbOv",
+        "url": "https://www.ticketmaster.ch/event/passenger-tickets/324618801?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu3Z1kG0bbOv",
+    "timezone": "Europe/Zurich",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-passenger-2027-praha-1-z698xzu0z16v4-_k4a",
+    "artist_slug": "passenger",
+    "artist_name": "Passenger",
+    "event_name": "Passenger",
+    "city": "Praha 1",
+    "country": "Czech Republic",
+    "venue": "Roxy",
+    "datetime_iso": "2027-04-16T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1561646549",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/passenger-tickets/1561646549?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/passenger-tickets/1561646549?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1561646549",
+        "discovery_event_id": "Z698xZu0Z16v4-_k4a",
+        "url": "https://www.ticketmaster.cz/event/passenger-tickets/1561646549?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z16v4-_k4a",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
   }
 ]

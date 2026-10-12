@@ -987,17 +987,17 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7676514",
-        "url": "https://www.ticketnetwork.com/en/p/7676514",
-        "verified": true,
-        "last_verified_at": "2026-08-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_eQhP7qi",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676514"
+    "ticketnetwork_url": ""
   },
   {
     "id": "tm-five-finger-death-punch-2026-west-palm-beach-vvg1vz_eqw6abn",
@@ -1230,7 +1230,7 @@
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-charlotte-truliant-amphitheater-10-16-2026/production/6517299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-charlotte-north-carolina-10-16-2026/event/2D006426A8667828",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1281,14 +1281,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676530",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676530/Five-Finger-Death-Punch-tickets-Fri-Oct-16-2026-Truliant-Amphitheater",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-01-16T15:00:00Z",
-        "end": "2026-10-10T02:00:00Z"
-      }
-    ]
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7676530/Five-Finger-Death-Punch-tickets-Fri-Oct-16-2026-Truliant-Amphitheater"
   },
   {
     "id": "tm-five-finger-death-punch-2026-virginia-beach-vv1k7z_eqfg7mvxk",
@@ -1306,7 +1299,7 @@
     "vividseats_url": "https://www.vividseats.com/five-finger-death-punch-tickets-virginia-beach-veterans-united-home-loans-amphitheater-at-virginia-beach-10-17-2026/production/6517305",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/five-finger-death-punch-virginia-beach-virginia-10-17-2026/event/0100642694BB4886",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1321,7 +1314,7 @@
         "event_id": 18010604,
         "url": "https://seatgeek.com/five-finger-death-punch-tickets/virginia-beach-virginia-veterans-united-home-loans-amphitheater-at-virginia-beach-2026-10-17-6-45-pm/concert/18010604",
         "verified": true,
-        "last_verified_at": "2026-10-08",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1349,14 +1342,7 @@
     "ticketmaster_discovery_event_id": "vv1k7Z_eQfG7mVxk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676535",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-01-16T15:00:00Z",
-        "end": "2026-10-11T02:00:00Z"
-      }
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7676535"
   },
   {
     "id": "tm-five-finger-death-punch-2026-greenville-g5evz_excrbbp",
@@ -2126,5 +2112,204 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090424",
     "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-glasgow-ovo-hydro-arena-glasgow-17-1-2027/event/107165490",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090424/Five-Finger-Death-Punch-tickets-Sun-Jan-17-2027-OVO-Hydro"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-praha-9-z698xzu0z1kq-uavz",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch: 20th Anniversary World Tour",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "venue": "O2 Arena",
+    "datetime_iso": "2027-01-31T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "761349078",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/761349078?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/761349078?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "761349078",
+        "discovery_event_id": "Z698xZu0Z1kq-uavz",
+        "url": "https://www.ticketmaster.cz/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/761349078?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z1kq-uavz",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-fornebu-z698xzb_z16ezeg-gk",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch: 20th Anniversary World Tour",
+    "city": "Fornebu",
+    "country": "Norway",
+    "venue": "Unity Arena",
+    "datetime_iso": "2027-02-19T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2027321306",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/2027321306?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/2027321306?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2027321306",
+        "discovery_event_id": "Z698xZb_Z16eZEG-Gk",
+        "url": "https://www.ticketmaster.no/event/five-finger-death-punch-20th-anniversary-world-tour-tickets/2027321306?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8090423",
+        "url": "https://www.ticketnetwork.com/en/p/8090423",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090423",
+        "url": "https://www.ticketliquidator.com/tickets/8090423/Five-Finger-Death-Punch-tickets-Fri-Feb-19-2027-Unity-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16eZEG-Gk",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090423",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090423/Five-Finger-Death-Punch-tickets-Fri-Feb-19-2027-Unity-Arena"
+  },
+  {
+    "id": "tm-five-finger-death-punch-2027-helsinki-z698xz8kz16vjke6q8",
+    "artist_slug": "five-finger-death-punch",
+    "artist_name": "Five Finger Death Punch",
+    "event_name": "Five Finger Death Punch | Premium Suite Ticket",
+    "city": "Helsinki",
+    "country": "Finland",
+    "venue": "Veikkaus Arena",
+    "datetime_iso": "2027-02-22T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1706087750",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/five-finger-death-punch-%7C-premium-suite-ticket-tickets/1706087750?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.fi/event/five-finger-death-punch-%7C-premium-suite-ticket-tickets/1706087750?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1706087750",
+        "discovery_event_id": "Z698xZ8KZ16vjke6q8",
+        "url": "https://www.ticketmaster.fi/event/five-finger-death-punch-%7C-premium-suite-ticket-tickets/1706087750?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8090422",
+        "url": "https://www.ticketnetwork.com/en/p/8090422",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090422",
+        "url": "https://www.ticketliquidator.com/tickets/8090422/Five-Finger-Death-Punch-tickets-Mon-Feb-22-2027-Veikkaus-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107162540",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-helsinki-veikkaus-arena-22-2-2027/event/107162540",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ8KZ16vjke6q8",
+    "timezone": "Europe/Helsinki",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090422",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090422/Five-Finger-Death-Punch-tickets-Mon-Feb-22-2027-Veikkaus-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-helsinki-veikkaus-arena-22-2-2027/event/107162540"
   }
 ]

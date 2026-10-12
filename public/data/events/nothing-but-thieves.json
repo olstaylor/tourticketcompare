@@ -701,7 +701,7 @@
     "tour_name": "The Stray Dogs World Tour",
     "ticketmaster_event_id": "110064B5BA4388A6",
     "ticketmaster_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-vancouver-british-columbia-03-30-2027/event/110064B5BA4388A6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/vancouver-canada-queen-elizabeth-theatre-vancouver-2027-03-30-8-pm/concert/18266338",
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-vancouver-queen-elizabeth-theatre---vancouver-3-30-2027/production/7078839",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-vancouver-british-columbia-03-30-2027/event/110064B5BA4388A6",
@@ -778,7 +778,7 @@
     "tour_name": "The Stray Dogs World Tour",
     "ticketmaster_event_id": "0F0064B5DDDB0C0D",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-seattle-washington-03-31-2027/event/0F0064B5DDDB0C0D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/seattle-washington-paramount-theatre-wa-2027-03-31-8-pm/concert/18266337",
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-seattle-paramount-theatre-seattle-3-31-2027/production/7078867",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-seattle-washington-03-31-2027/event/0F0064B5DDDB0C0D",
@@ -874,7 +874,7 @@
         "event_id": 18266341,
         "url": "https://seatgeek.com/nothing-but-thieves-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-04-01-8-pm/concert/18266341",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -924,7 +924,7 @@
     "tour_name": "The Stray Dogs World Tour",
     "ticketmaster_event_id": "1C0064B4F1E3F09A",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-oakland-california-04-03-2027/event/1C0064B4F1E3F09A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/oakland-california-fox-theater-oakland-2027-04-03-8-pm/concert/18266340",
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-oakland-fox-theater-oakland-4-3-2027/production/7078822",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-oakland-california-04-03-2027/event/1C0064B4F1E3F09A",
@@ -1180,7 +1180,7 @@
         "event_id": 18266350,
         "url": "https://seatgeek.com/nothing-but-thieves-tickets/denver-colorado-mission-ballroom-2027-04-09-8-pm/concert/18266350",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1238,7 +1238,7 @@
     "tour_name": "The Stray Dogs World Tour",
     "ticketmaster_event_id": "060064B511729383",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-minneapolis-minnesota-04-11-2027/event/060064B511729383",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/minneapolis-minnesota-fillmore-minneapolis-2027-04-11-7-30-pm/concert/18266353",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-minneapolis-minnesota-04-11-2027/event/060064B511729383",
@@ -1254,11 +1254,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266353,
+        "url": "https://seatgeek.com/nothing-but-thieves-tickets/minneapolis-minnesota-fillmore-minneapolis-2027-04-11-7-30-pm/concert/18266353",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1367,7 +1367,7 @@
     "tour_name": "The Stray Dogs World Tour",
     "ticketmaster_event_id": "080064B6B7087DE8",
     "ticketmaster_url": "https://www.ticketmaster.com/wdzh-presents-nothing-but-thieves-the-detroit-michigan-04-13-2027/event/080064B6B7087DE8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/detroit-michigan-the-fillmore-detroit-2027-04-13-8-pm/concert/18266354",
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-detroit-the-fillmore-detroit-4-13-2027/production/7078820",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/wdzh-presents-nothing-but-thieves-the-detroit-michigan-04-13-2027/event/080064B6B7087DE8",
@@ -1580,7 +1580,7 @@
     "tour_name": "The Stray Dogs World Tour",
     "ticketmaster_event_id": "000064B6B86ED7C4",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-brooklyn-new-york-04-17-2027/event/000064B6B86ED7C4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/brooklyn-new-york-brooklyn-paramount-2027-04-17-8-pm/concert/18266362",
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-brooklyn-brooklyn-paramount-4-17-2027/production/7078849",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-brooklyn-new-york-04-17-2027/event/000064B6B86ED7C4",
@@ -1917,6 +1917,112 @@
     },
     "ticketmaster_discovery_event_id": "17kZv0G654Xs6B3",
     "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-nothing-but-thieves-2027-praha-9-z698xzu0z16vba7mjv",
+    "artist_slug": "nothing-but-thieves",
+    "artist_name": "Nothing But Thieves",
+    "event_name": "Nothing But Thieves — The Stray Dogs World Tour",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "venue": "O2 universum",
+    "datetime_iso": "2027-01-22T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1605137981",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/nothing-but-thieves--the-stray-dogs-world-tour-tickets/1605137981?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/nothing-but-thieves--the-stray-dogs-world-tour-tickets/1605137981?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1605137981",
+        "discovery_event_id": "Z698xZu0Z16vbA7MJv",
+        "url": "https://www.ticketmaster.cz/event/nothing-but-thieves--the-stray-dogs-world-tour-tickets/1605137981?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z16vbA7MJv",
+    "timezone": "Europe/Prague",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-nothing-but-thieves-2027-san-diego-rz7hnez1afpvcd",
+    "artist_slug": "nothing-but-thieves",
+    "artist_name": "Nothing But Thieves",
+    "event_name": "Nothing But Thieves: The Stray Dogs World Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "SOMA - Mainstage",
+    "datetime_iso": "2027-04-07T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14941383",
+    "ticketmaster_url": "https://www.ticketweb.com/event/nothing-but-thieves-the-stray-soma-mainstage-tickets/14941383",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/nothing-but-thieves-the-stray-soma-mainstage-tickets/14941383",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14941383",
+        "discovery_event_id": "rZ7HnEZ1AfPvCd",
+        "url": "https://www.ticketweb.com/event/nothing-but-thieves-the-stray-soma-mainstage-tickets/14941383",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1AfPvCd",
+    "timezone": "America/Los_Angeles",
     "status": "on-sale"
   }
 ]

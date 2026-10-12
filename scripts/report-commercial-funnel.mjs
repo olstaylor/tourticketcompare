@@ -28,7 +28,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
 import { buildD1ReadArgs } from "./lib/d1-read.mjs";
-import { humanRedirectSql } from "./lib/human-clicks.mjs";
+import { humanRedirectSql, pageBackedSql } from "./lib/human-clicks.mjs";
 import { normalizeAnalyticsPath } from "../functions/_funnel.js";
 
 const execFileAsync = promisify(execFile);
@@ -254,9 +254,11 @@ export function assertNoPersonalColumns(sql) {
 }
 
 // Qualified server receipts are explicitly versioned in metadata. This keeps
-// old, unqualified rows out of a rolling report window after the fetch-user
+// old, unqualified rows out of a rolling report window after the qualification
 // gate was deployed; the report must never silently combine the populations.
-const receiptQualification = (alias = "") => `json_extract(${alias ? `${alias}.` : ""}metadata_json, '$.receiptQualification') = 'fetch_user_v1'`;
+// fetch_user_v1 (Sec-Fetch-User only) silently dropped iOS Safari new-tab
+// clicks; user_navigation_v2 also accepts a same-origin navigation.
+const receiptQualification = (alias = "") => `json_extract(${alias ? `${alias}.` : ""}metadata_json, '$.receiptQualification') IN ('fetch_user_v1', 'user_navigation_v2')`;
 const RECEIPT_QUALIFICATION = receiptQualification();
 const SERVER_RECEIPT_EVENTS = "event_name IN ('outbound_attempt', 'outbound_click', 'outbound_blocked')";
 const QUALIFIED_SERVER_RECEIPT = `(${SERVER_RECEIPT_EVENTS} AND ${RECEIPT_QUALIFICATION})`;
@@ -427,7 +429,10 @@ GROUP BY 1`
     },
     {
       key: "blockedByStatus",
-      sql: `SELECT COALESCE(NULLIF(TRIM(provider), ''), '(none)') AS provider, COALESCE(NULLIF(TRIM(json_extract(metadata_json, '$.status')), ''), '(unknown)') AS status, COUNT(*) AS blocked
+      // page_backed separates visitors who saw the button from the direct
+      // crawler replaying old /api/out URLs (every blocked row in Oct 2026).
+      sql: `SELECT COALESCE(NULLIF(TRIM(provider), ''), '(none)') AS provider, COALESCE(NULLIF(TRIM(json_extract(metadata_json, '$.status')), ''), '(unknown)') AS status, COUNT(*) AS blocked,
+COUNT(CASE WHEN ${pageBackedSql()} THEN 1 END) AS page_backed
 FROM analytics_events
 WHERE event_name = 'outbound_blocked' AND ${RECEIPT_QUALIFICATION}${since}
 GROUP BY 1, 2`
@@ -765,9 +770,10 @@ export function buildReport(resultSets, options, window, coverage = new Map()) {
     .map((row) => ({
       provider: String(row.provider ?? "(none)"),
       status: String(row.status ?? "(unknown)"),
-      blocked: Number(row.blocked) || 0
+      blocked: Number(row.blocked) || 0,
+      page_backed: Number(row.page_backed) || 0
     }))
-    .sort((a, b) => b.blocked - a.blocked)
+    .sort((a, b) => b.page_backed - a.page_backed || b.blocked - a.blocked)
     .slice(0, options.top);
 
   return {
@@ -967,9 +973,10 @@ export function renderReport(report) {
   lines.push("");
 
   lines.push("-- Blocked outbound redirects (requests that did not receive a redirect) --");
+  lines.push("page_backed = the visitor also loaded a TTC page that day; the rest are direct /api/out requests with no page evidence.");
   lines.push(renderTable(
-    ["provider", "status", "blocked"],
-    report.blocked_redirects.map((row) => [row.provider, row.status, row.blocked])
+    ["provider", "status", "blocked", "page_backed"],
+    report.blocked_redirects.map((row) => [row.provider, row.status, row.blocked, row.page_backed])
   ));
 
   return lines.join("\n");
@@ -1150,7 +1157,7 @@ function selfTest() {
       { artist_slug: "artist-d", event_name: "email_signup", signups: 5 },
       { artist_slug: "artist-a", event_name: "artist_interest", signups: 2 }
     ],
-    blockedByStatus: [{ provider: "vivid-seats", status: "impact_request_failed", blocked: 6 }]
+    blockedByStatus: [{ provider: "vivid-seats", status: "impact_request_failed", blocked: 6, page_backed: 1 }]
   };
 
   const coverage = buildCoverageIndex({
@@ -1227,6 +1234,11 @@ function selfTest() {
     const vivid = report.clicks_by_provider.find((row) => row.provider === "vivid-seats");
     assert.equal(vivid.provider_clicks, 0);
     assert.equal(vivid.blocked, 6, "a click that never reached the provider must still be visible");
+  });
+
+  check(() => {
+    assert.deepEqual(report.blocked_redirects[0], { provider: "vivid-seats", status: "impact_request_failed", blocked: 6, page_backed: 1 });
+    assert.match(buildStatements({}).find((statement) => statement.key === "blockedByStatus").sql, /AS page_backed/);
   });
 
   check(() => {

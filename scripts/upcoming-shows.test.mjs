@@ -3,7 +3,7 @@
 // appears there, and the hub, artist, city and venue lists all use the same
 // isUpcomingShow predicate from functions/_upcoming.js.
 import { readFile } from "node:fs/promises";
-import { isUpcomingShow } from "../functions/_upcoming.js";
+import { isUpcomingShow, showStartMs } from "../functions/_upcoming.js";
 import { deriveCities } from "../functions/_cities.js";
 import { deriveVenues } from "../functions/_venues.js";
 
@@ -20,6 +20,16 @@ assert(!isUpcomingShow({ dateTimeISO: "2026-10-06T11:59:00Z" }, NOW), "a show th
 assert(isUpcomingShow({ dateTimeISO: "2026-10-06T12:00:00Z" }, NOW), "a show starting now is still upcoming");
 assert(isUpcomingShow({ datetime_iso: "2026-10-07T19:00:00Z" }, NOW), "the datetime_iso field is read too");
 assert(!isUpcomingShow({ dateTimeISO: "" }, NOW) && !isUpcomingShow({ dateTimeISO: "TBA" }, NOW), "an unparseable date is never upcoming");
+
+// Venue clock (2026-10-10): a naive wall time is read in the stored IANA zone,
+// never the host's. 20:00 in New York on 5 October is 00:00Z on the 6th, and
+// 21:00 in Madrid on the 6th is 19:00Z.
+assert(showStartMs({ datetime_iso: "2026-10-05T20:00:00", timezone: "America/New_York" }) === Date.parse("2026-10-06T00:00:00Z"), "a naive New York time resolves through its zone");
+assert(isUpcomingShow({ datetime_iso: "2026-10-06T09:00:00", timezone: "America/New_York" }, NOW), "09:00 New York (13:00Z) is still ahead at 12:00Z");
+assert(!isUpcomingShow({ datetime_iso: "2026-10-06T13:30:00", timezone: "Europe/Madrid" }, NOW), "13:30 Madrid (11:30Z) has started by 12:00Z");
+assert(isUpcomingShow({ datetime_iso: "2026-10-06" }, NOW), "a date-only show stays listed on its own day");
+assert(!isUpcomingShow({ datetime_iso: "2026-10-05" }, NOW), "a date-only show drops once its day is over");
+assert(showStartMs({ datetime_iso: "2026-10-06T19:00:00+02:00" }) === Date.parse("2026-10-06T17:00:00Z"), "an explicit offset is honoured");
 
 // Real events with a known-good ticket link, re-dated around the fixed clock.
 const events = JSON.parse(await readFile(new URL("../public/data/events.json", import.meta.url), "utf8"));

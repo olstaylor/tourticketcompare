@@ -1,5 +1,4 @@
 // @ts-check
-import { PRICE_DISCLOSURE } from "./_price-wording.js";
 // Reusable, typed, data-driven content model for the main artist pages.
 //
 // This module is the single source of truth for the *derived* editorial
@@ -330,10 +329,8 @@ export function artistTicketHelp() {
     intro: "TourTicketCompare doesn't sell tickets. Each button opens a ticket site, and you buy there.",
     points: [
       "A button on a date card opens that exact date.",
-      "The buttons under \"Where to buy\" open the artist's page on each ticket site, not a specific date.",
-      PRICE_DISCLOSURE,
-      "When two sites price the same date, the lower listed figure is marked. That is per date, never across different dates, and never a claim that a site is cheaper overall.",
-      "A date without a button usually isn't on sale yet, or its link is still being matched."
+      "When two sites list a price for the same date, the lower listed price is marked. That compares one date only, never different dates, and doesn't mean a site is cheaper overall.",
+      "A date with no button usually isn't on sale yet, or its link hasn't been checked yet."
     ]
   };
 }

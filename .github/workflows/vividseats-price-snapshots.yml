@@ -163,7 +163,7 @@ jobs:
           args=(--database "${D1_DATABASE_NAME}")
           if [ "${{ github.event.schedule }}" = '17 * * * *' ]; then args+=(--within-hours 48); fi
           if [ -n "${SNAPSHOT_LIMIT}" ]; then args+=(--limit "${SNAPSHOT_LIMIT}"); fi
-          if [ -n "${SNAPSHOT_EVENT_ID}" ]; then args+=(--event-id "${SNAPSHOT_EVENT_ID}"); fi
+          if [ -n "${SNAPSHOT_EVENT_ID}" ]; then args+=(--event-id "${SNAPSHOT_EVENT_ID}"); else args+=(--priority); fi
           node scripts/snapshot-vividseats-prices.mjs --apply --json "${args[@]}" | tee "$RUNNER_TEMP/vividseats-price-summary.json"
 
       - name: Publish Vivid Seats snapshot run summary

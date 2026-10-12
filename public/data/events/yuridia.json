@@ -111,7 +111,7 @@
         "event_id": 18570383,
         "url": "https://seatgeek.com/yuridia-tickets/reno-nevada-grand-sierra-resort-2027-02-06-8-pm/concert/18570383",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -176,7 +176,7 @@
         "event_id": 18570385,
         "url": "https://seatgeek.com/yuridia-tickets/san-jose-california-sap-center-at-san-jose-2027-02-07-8-pm/concert/18570385",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -390,7 +390,7 @@
         "event_id": 18570387,
         "url": "https://seatgeek.com/yuridia-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-02-17-8-pm/concert/18570387",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -958,7 +958,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C006523DBDCBEC7",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-dallas-texas-03-12-2027/event/0C006523DBDCBEC7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/dallas-texas-dos-equis-pavilion-2027-03-12-8-pm/concert/18570406",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-dallas-dos-equis-pavilion-3-12-2027/production/7531070",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-dallas-texas-03-12-2027/event/0C006523DBDCBEC7",
@@ -1042,7 +1042,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C0065230CE22769",
     "ticketmaster_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-el-paso-texas-03-14-2027/event/0C0065230CE22769",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yuridia-tickets/el-paso-texas-don-haskins-center-2027-03-14-8-pm/concert/18570407",
     "vividseats_url": "https://www.vividseats.com/yuridia-tickets-el-paso-don-haskins-center-3-14-2027/production/7531086",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yuridia-cartas-sobre-la-mesa-tour-el-paso-texas-03-14-2027/event/0C0065230CE22769",
@@ -1450,7 +1450,7 @@
         "event_id": 18570402,
         "url": "https://seatgeek.com/yuridia-tickets/sugar-land-texas-smart-financial-centre-2027-03-11-8-pm/concert/18570402",
         "verified": true,
-        "last_verified_at": "2026-10-08",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1511,7 +1511,7 @@
         "event_id": 18570410,
         "url": "https://seatgeek.com/yuridia-tickets/edinburg-texas-bert-ogden-arena-2027-03-19-8-pm/concert/18570410",
         "verified": true,
-        "last_verified_at": "2026-10-08",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1580,7 +1580,7 @@
         "event_id": 18570411,
         "url": "https://seatgeek.com/yuridia-tickets/brooklyn-new-york-kings-theatre-brooklyn-2027-03-27-8-pm/concert/18570411",
         "verified": true,
-        "last_verified_at": "2026-10-08",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1625,5 +1625,66 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252919",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252919/Yuridia-tickets-Sat-Mar-27-2027-Kings-Theatre-NY",
     "stubhub_international_url": "https://www.stubhub.ie/yuridia-brooklyn-tickets-3-27-2027/event/107666054"
+  },
+  {
+    "id": "tm-yuridia-2026-zapopan-g5dvz_aia5kvd",
+    "artist_slug": "yuridia",
+    "artist_name": "Yuridia",
+    "event_name": "Yuridia Las cartas sobre la mesa Tour",
+    "city": "Zapopan",
+    "country": "Mexico",
+    "venue": "Coliseo GNP Seguros",
+    "datetime_iso": "2026-12-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D00649B052C607B",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/yuridia-las-cartas-sobre-la-mesa-zapopan-05-12-2026/event/3D00649B052C607B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/yuridia-las-cartas-sobre-la-mesa-zapopan-05-12-2026/event/3D00649B052C607B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D00649B052C607B",
+        "discovery_event_id": "G5dVZ_aiA5kvD",
+        "url": "https://www.ticketmaster.com.mx/yuridia-las-cartas-sobre-la-mesa-zapopan-05-12-2026/event/3D00649B052C607B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107165422",
+        "url": "https://www.stubhub.ie/yuridia-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-5-12-2026/event/107165422",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_aiA5kvD",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/yuridia-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-5-12-2026/event/107165422"
   }
 ]

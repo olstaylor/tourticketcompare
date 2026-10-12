@@ -152,7 +152,7 @@
         "event_id": 18257269,
         "url": "https://seatgeek.com/john-summit-tickets/montreal-canada-centre-bell-2026-10-23-7-pm/concert/18257269",
         "verified": true,
-        "last_verified_at": "2026-10-08",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -221,7 +221,7 @@
         "event_id": 18257270,
         "url": "https://seatgeek.com/john-summit-tickets/hamilton-canada-td-coliseum-2026-10-24-7-pm/concert/18257270",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -274,7 +274,7 @@
         "event_id": 18257271,
         "url": "https://seatgeek.com/john-summit-tickets/toronto-canada-scotiabank-arena-2026-10-25-7-pm/concert/18257271",
         "verified": true,
-        "last_verified_at": "2026-10-07",
+        "last_verified_at": "2026-10-10",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -557,7 +557,7 @@
         "event_id": 18257241,
         "url": "https://seatgeek.com/john-summit-tickets/houston-texas-toyota-center-2026-11-05-7-pm/concert/18257241",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1672,7 +1672,7 @@
         "event_id": 18494071,
         "url": "https://seatgeek.com/john-summit-tickets/los-angeles-california-los-angeles-memorial-coliseum-2026-12-12-7-pm/concert/18494071",
         "verified": true,
-        "last_verified_at": "2026-10-08",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1856,7 +1856,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/john-summit--europe-ctrl-escape-arena-tour-tickets/2045555723?language=en-us",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1891,30 +1891,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ16evA44jN",
     "timezone": "Europe/Warsaw",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T10:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Mastercard® Presale",
-        "start": "2026-10-07T10:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-10-08T10:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-john-summit-2027-forest-brussels-z698xzg2z1kfkv_0g",
@@ -1932,7 +1909,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/john-summit--europe-ctrl-escape-arena-tour-tickets/206059935",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1967,35 +1944,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kFkv_0g",
     "timezone": "Europe/Brussels",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T10:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Mastercard® Presale",
-        "start": "2026-10-07T10:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-10-08T10:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      }
-    ]
+    "status": "on-sale"
   },
   {
     "id": "tm-john-summit-2027-amsterdam-z698xzbpz16vu0fx-w",
@@ -2013,7 +1962,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/john-summit--europe-ctrl-escape-arena-tour-tickets/1364222872?language=en-us",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2069,30 +2018,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vu0Fx-w",
     "timezone": "Europe/Amsterdam",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T10:00:00Z",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-10-07T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-10-07T10:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "MOJO Presale",
-        "start": "2026-10-08T08:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-10-08T10:00:00Z",
-        "end": "2026-10-09T08:00:00Z"
-      }
-    ],
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-amsterdam-ziggo-dome-13-2-2027/event/107671906",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310259",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310259/John-Summit-tickets-Sat-Feb-13-2027-Ziggo-Dome"
@@ -2113,7 +2039,7 @@
     "vividseats_url": "https://www.vividseats.com/john-summit-tickets-london-the-o2---london-2-27-2027/production/7663834",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/john-summit-europe-ctrl-escape-arena-london-27-02-2027/event/35006542F27AE994",
-    "last_verified_at": "2026-10-09",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2169,10 +2095,86 @@
     },
     "ticketmaster_discovery_event_id": "1AgZk4eGkdwrmJf",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-10-09T11:00:00Z",
+    "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-london-the-o2-arena-27-2-2027/event/107671913",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310113",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310113/John-Summit-tickets-Sat-Feb-27-2027-The-Bubble-Exhibition-Space-at-the-O2"
+  },
+  {
+    "id": "tm-john-summit-2027-zurich-z698xzu3z1kxvu8oj",
+    "artist_slug": "john-summit",
+    "artist_name": "John Summit",
+    "event_name": "JOHN SUMMIT - EUROPE CTRL ESCAPE TOUR",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "venue": "Halle 622",
+    "datetime_iso": "2027-02-20T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "881350826",
+    "ticketmaster_url": "https://www.ticketmaster.ch/event/john-summit-europe-ctrl-escape-tour-tickets/881350826?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ch/event/john-summit-europe-ctrl-escape-tour-tickets/881350826?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "881350826",
+        "discovery_event_id": "Z698xZu3Z1kxvu8OJ",
+        "url": "https://www.ticketmaster.ch/event/john-summit-europe-ctrl-escape-tour-tickets/881350826?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8310405",
+        "url": "https://www.ticketnetwork.com/en/p/8310405",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310405",
+        "url": "https://www.ticketliquidator.com/tickets/8310405/John-Summit-tickets-Sat-Feb-20-2027-Halle-622",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672167",
+        "url": "https://www.stubhub.ie/john-summit-tickets-zurich-halle-622-zurich-eventhalle-20-2-2027/event/107672167",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu3Z1kxvu8OJ",
+    "timezone": "Europe/Zurich",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310405",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310405/John-Summit-tickets-Sat-Feb-20-2027-Halle-622",
+    "stubhub_international_url": "https://www.stubhub.ie/john-summit-tickets-zurich-halle-622-zurich-eventhalle-20-2-2027/event/107672167"
   }
 ]

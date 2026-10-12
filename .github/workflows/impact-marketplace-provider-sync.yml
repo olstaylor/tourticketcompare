@@ -124,11 +124,28 @@ jobs:
       - name: Run offline ingestion contract tests
         run: npm run impact-providers:sync:self-test
 
+      # Artists whose top-earning shows lack this lane (the daily show-priority
+      # list, scripts/report-show-priority.mjs) are checked before the rotation.
+      # Read-only and fail-open: no list means the plain rotation.
+      - name: Read show-priority coverage gaps
+        id: priority
+        if: steps.config.outputs.artist == ''
+        continue-on-error: true
+        env:
+          PROVIDER: ${{ steps.config.outputs.provider }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          artists=$(node scripts/report-show-priority.mjs --gap-artists "$PROVIDER" | paste -sd, -)
+          echo "artists=${artists}" >> "$GITHUB_OUTPUT"
+          echo "Show-priority artists first: ${artists:-none}"
+
       - name: Sync provider event links
         env:
           PROVIDER: ${{ steps.config.outputs.provider }}
           MODE: ${{ steps.config.outputs.mode }}
           ARTIST: ${{ steps.config.outputs.artist }}
+          PRIORITY_ARTISTS: ${{ steps.priority.outputs.artists }}
         run: |
           set -euo pipefail
           # The runtime limit keeps the sync inside the 59-minute job, leaving room for
@@ -136,6 +153,7 @@ jobs:
           # by it does not leave the same artists unchecked every night.
           args=(--provider "$PROVIDER" --max-api-calls 1200 --max-runtime-minutes 35 --delay-ms 1000)
           if [ -n "$ARTIST" ]; then args+=(--artist "$ARTIST"); fi
+          if [ -n "${PRIORITY_ARTISTS:-}" ]; then args+=(--priority-artists "$PRIORITY_ARTISTS"); fi
           if [ "$MODE" = "apply" ]; then
             node scripts/sync-impact-marketplace-events.mjs --apply "${args[@]}"
             npm run events:partition

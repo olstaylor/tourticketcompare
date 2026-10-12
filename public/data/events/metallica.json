@@ -633,7 +633,7 @@
     "tour_name": "Life Burns Faster",
     "ticketmaster_event_id": "17006461A5E3E208",
     "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-13-2027/event/17006461A5E3E208",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/metallica-tickets/las-vegas-nevada-sphere-2027-03-13-8-30-pm/concert/18111118",
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-3-13-2027--concerts-hard-rock/production/6755440",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-13-2027/event/17006461A5E3E208",
@@ -1103,7 +1103,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B00651B92909FDF",
     "ticketmaster_url": "https://www.ticketmaster.com/metallica-m72-world-tour-fayetteville-arkansas-05-26-2027/event/1B00651B92909FDF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/metallica-tickets/fayetteville-arkansas-razorback-stadium-2027-05-26-6-pm/concert/18595089",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-fayetteville-arkansas-05-26-2027/event/1B00651B92909FDF",
@@ -1119,11 +1119,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18595089,
+        "url": "https://seatgeek.com/metallica-tickets/fayetteville-arkansas-razorback-stadium-2027-05-26-6-pm/concert/18595089",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1914,33 +1914,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7775746",
-        "url": "https://www.ticketnetwork.com/en/p/7775746",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7775746",
-        "url": "https://www.ticketliquidator.com/tickets/7775746/Metallica-tickets-Sat-Oct-10-2026-Sphere",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107132079",
-        "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-10-2026/event/107132079",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_AGknswc9W",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775746",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775746/Metallica-tickets-Sat-Oct-10-2026-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-10-2026/event/107132079"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfq4n",
@@ -2011,7 +2011,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-10-17-2026--concerts-hard-rock/production/6709895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-10-17-2026/event/17006455FF51D56C",
-    "last_verified_at": "2026-10-07",
+    "last_verified_at": "2026-10-11",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2070,14 +2070,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7758710",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7758710/Metallica-tickets-Sat-Oct-17-2026-Sphere",
-    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-17-2026/event/107121293",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-06T18:00:00Z",
-        "end": "2026-10-11T05:00:00Z"
-      }
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/metallica-las-vegas-tickets-10-17-2026/event/107121293"
   },
   {
     "id": "tm-metallica-2026-las-vegas-1a9zko4gkdtfc4w",
@@ -2667,7 +2660,7 @@
     "tour_name": "Life Burns Faster",
     "ticketmaster_event_id": "17006461A5E2E1FD",
     "ticketmaster_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-06-2027/event/17006461A5E2E1FD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/metallica-tickets/las-vegas-nevada-sphere-2027-03-06-8-30-pm/concert/18111114",
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-las-vegas-sphere-at-the-venetian-resort-3-6-2027--concerts-hard-rock/production/6755435",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-life-burns-faster-las-vegas-nevada-03-06-2027/event/17006461A5E2E1FD",
@@ -2830,7 +2823,7 @@
         "event_id": 18595092,
         "url": "https://seatgeek.com/metallica-tickets/raleigh-north-carolina-carter-finley-stadium-2027-06-02-6-pm/concert/18595092",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2907,7 +2900,7 @@
         "event_id": 18595101,
         "url": "https://seatgeek.com/metallica-tickets/madison-wisconsin-camp-randall-stadium-2027-06-12-6-pm/concert/18595101",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {

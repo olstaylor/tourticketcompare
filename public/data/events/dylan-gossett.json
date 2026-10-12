@@ -221,7 +221,7 @@
         "event_id": 18337370,
         "url": "https://seatgeek.com/dylan-gossett-tickets/apopka-florida-apopka-amphitheater-2026-11-21-6-pm/concert/18337370",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1027,7 +1027,7 @@
         "event_id": 18642078,
         "url": "https://seatgeek.com/dylan-gossett-tickets/chattanooga-tennessee-the-signal-2027-03-30-7-pm/concert/18642078",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1156,7 +1156,7 @@
         "event_id": 18642083,
         "url": "https://seatgeek.com/dylan-gossett-tickets/fayetteville-arkansas-ozark-music-hall-2027-04-02-7-pm/concert/18642083",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1513,7 +1513,7 @@
         "event_id": 18642098,
         "url": "https://seatgeek.com/dylan-gossett-tickets/columbus-ohio-kemba-live-2027-04-08-7-pm/concert/18642098",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2167,7 +2167,7 @@
         "event_id": 18642114,
         "url": "https://seatgeek.com/dylan-gossett-tickets/fort-worth-texas-billy-bob-s-texas-2027-05-15-7-pm/concert/18642114",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2273,7 +2273,7 @@
         "event_id": 18642120,
         "url": "https://seatgeek.com/dylan-gossett-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-05-21-7-pm/concert/18642120",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-10-11",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2293,6 +2293,112 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4bw",
     "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2026-auckland-17azv0g65cuaddf",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Headed Out Back Tour",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "venue": "Great Hall, Auckland Town Hall",
+    "datetime_iso": "2026-12-11T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240064B3B6143EC8",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/dylan-gossett-the-headed-out-back-auckland-11-12-2026/event/240064B3B6143EC8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/dylan-gossett-the-headed-out-back-auckland-11-12-2026/event/240064B3B6143EC8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240064B3B6143EC8",
+        "discovery_event_id": "17aZv0G65CUAdDF",
+        "url": "https://www.ticketmaster.co.nz/dylan-gossett-the-headed-out-back-auckland-11-12-2026/event/240064B3B6143EC8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17aZv0G65CUAdDF",
+    "timezone": "Pacific/Auckland",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dylan-gossett-2026-waipara-17azv0g653pu3v4",
+    "artist_slug": "dylan-gossett",
+    "artist_name": "Dylan Gossett",
+    "event_name": "Dylan Gossett - The Headed Out Back Tour",
+    "city": "Waipara",
+    "country": "New Zealand",
+    "venue": "Waipara Winehouse",
+    "datetime_iso": "2026-12-12T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "240064B496352055",
+    "ticketmaster_url": "https://www.ticketmaster.co.nz/dylan-gossett-the-headed-out-back-waipara-12-12-2026/event/240064B496352055",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.nz/dylan-gossett-the-headed-out-back-waipara-12-12-2026/event/240064B496352055",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "240064B496352055",
+        "discovery_event_id": "17aZv0G653pu3v4",
+        "url": "https://www.ticketmaster.co.nz/dylan-gossett-the-headed-out-back-waipara-12-12-2026/event/240064B496352055",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17aZv0G653pu3v4",
+    "timezone": "Pacific/Auckland",
     "status": "on-sale"
   }
 ]

@@ -234,11 +234,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18050389,
+        "url": "https://seatgeek.com/staind-tickets/phoenix-arizona-talking-stick-resort-amphitheatre-2026-10-13-6-pm/concert/18050389",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6614441,
@@ -303,11 +303,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18050390,
+        "url": "https://seatgeek.com/staind-tickets/albuquerque-new-mexico-first-financial-credit-union-amphitheater-2026-10-14-6-pm/concert/18050390",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2496,7 +2496,7 @@
         "event_id": 18655524,
         "url": "https://seatgeek.com/staind-tickets/spokane-washington-numerica-veterans-arena-2027-03-26-6-pm/concert/18655524",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2565,7 +2565,7 @@
         "event_id": 18655681,
         "url": "https://seatgeek.com/staind-tickets/billings-montana-first-interstate-arena-2027-04-03-6-pm/concert/18655681",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2634,7 +2634,7 @@
         "event_id": 18589059,
         "url": "https://seatgeek.com/staind-tickets/cleveland-ohio-rocket-arena-2027-04-16-6-pm/concert/18589059",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "vivid-seats": {

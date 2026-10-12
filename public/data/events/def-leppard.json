@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18281739,
+        "url": "https://seatgeek.com/def-leppard-tickets/hollywood-florida-hard-rock-live-hollywood-2026-10-15-8-pm/concert/18281739",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7105235,

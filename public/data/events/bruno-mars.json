@@ -3310,34 +3310,34 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7679802",
-        "url": "https://www.ticketnetwork.com/en/p/7679802",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7679802",
-        "url": "https://www.ticketliquidator.com/tickets/7679802/Bruno-Mars-tickets-Sun-Oct-11-2026-Levis-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107074188",
-        "url": "https://www.stubhub.ie/bruno-mars-santa-clara-tickets-10-11-2026/event/107074188",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "verification_status": "human_verified",
     "ticketmaster_discovery_event_id": "G5vYZ_eEJSDnx",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7679802",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7679802/Bruno-Mars-tickets-Sun-Oct-11-2026-Levis-Stadium",
-    "stubhub_international_url": "https://www.stubhub.ie/bruno-mars-santa-clara-tickets-10-11-2026/event/107074188"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-bruno-mars-2026-vancouver-16v7zbyrvg7dkhm",
@@ -3376,7 +3376,7 @@
         "event_id": 6501668,
         "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-14-2026/production/6501668",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3453,7 +3453,7 @@
         "event_id": 6525829,
         "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-16-2026--concerts-pop/production/6525829",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3530,7 +3530,7 @@
         "event_id": 6526792,
         "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-17-2026--concerts-pop/production/6526792",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3607,7 +3607,7 @@
         "event_id": 6536764,
         "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-20-2026--concerts-pop/production/6536764",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3684,7 +3684,7 @@
         "event_id": 6750960,
         "url": "https://www.vividseats.com/bruno-mars-tickets-vancouver-bc-place-stadium-10-21-2026/production/6750960",
         "verified": true,
-        "last_verified_at": "2026-10-09",
+        "last_verified_at": "2026-10-12",
         "availability_status": "listed"
       },
       "stubhub": {

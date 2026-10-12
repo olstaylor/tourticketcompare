@@ -117,25 +117,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7978069",
-        "url": "https://www.ticketnetwork.com/en/p/7978069",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7978069",
-        "url": "https://www.ticketliquidator.com/tickets/7978069/Mico-tickets-Sun-Oct-11-2026-Wonder-Ballroom",
-        "verified": true,
-        "last_verified_at": "2026-10-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70I8E",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7978069",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7978069/Mico-tickets-Sun-Oct-11-2026-Wonder-Ballroom"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-mico-2026-san-francisco-z7r9jz1a70i80",
@@ -149,7 +149,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70I80",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I80",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/san-francisco-california-the-regency-ballroom-2026-10-13-8-pm/concert/18259838",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-san-francisco-the-regency-ballroom-10-13-2026/production/7049586",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70I80",
@@ -165,11 +165,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18259838,
+        "url": "https://seatgeek.com/mico-tickets/san-francisco-california-the-regency-ballroom-2026-10-13-8-pm/concert/18259838",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049586,
@@ -218,7 +218,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70UAO",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UAO",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/los-angeles-california-the-fonda-theatre-2026-10-15-8-pm/concert/18259845",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-los-angeles-fonda-theatre-10-15-2026/production/7049607",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UAO",
@@ -234,11 +234,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18259845,
+        "url": "https://seatgeek.com/mico-tickets/los-angeles-california-the-fonda-theatre-2026-10-15-8-pm/concert/18259845",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049607,
@@ -287,7 +287,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70UA4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UA4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/los-angeles-california-the-fonda-theatre-2026-10-16-7-pm/concert/18259846",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-los-angeles-fonda-theatre-10-16-2026/production/7062189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70UA4",
@@ -303,11 +303,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18259846,
+        "url": "https://seatgeek.com/mico-tickets/los-angeles-california-the-fonda-theatre-2026-10-16-7-pm/concert/18259846",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7062189,
@@ -494,7 +494,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70Ioy",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ioy",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/tucson-arizona-la-rosa-tucson-2026-10-20-8-pm/concert/18259203",
     "vividseats_url": "https://www.vividseats.com/mico-tickets-tucson-la-rosa-10-20-2026/production/7049597",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Ioy",
@@ -510,11 +510,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18259203,
+        "url": "https://seatgeek.com/mico-tickets/tucson-arizona-la-rosa-tucson-2026-10-20-8-pm/concert/18259203",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7049597,

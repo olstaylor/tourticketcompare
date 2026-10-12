@@ -125,15 +125,18 @@ function withPriceLanes(event) {
   };
 }
 
-// 4 upcoming shows / 2 artists / 2 venues clears the city gate; the 3 shows and
-// 2 artists at Springfield Arena clear the venue gate.
+// 5 upcoming shows / 2 artists / 2 venues, all with two listed-price lanes,
+// clears the city gate; the 4 shows and 2 artists at Springfield Arena clear the
+// venue gate (both need a run of comparable dates, CITY_MIN_COMPARABLE_SHOWS and
+// VENUE_MIN_COMPARABLE_SHOWS).
 const UPCOMING_EVENTS = [
-  // Two listed-price lanes on one date: the comparison data every location
+  // Two listed-price lanes on every date: the comparison data every location
   // gate needs (docs/ROUTE_INDEXABILITY_POLICY.md § Comparison data).
   withPriceLanes(fixtureEvent({ id: "fixture-a1", artist: artistA, venue: MAIN_VENUE, iso: "2026-09-11T01:00:00Z" })),
-  fixtureEvent({ id: "fixture-a2", artist: artistA, venue: MAIN_VENUE, iso: "2026-09-13T01:00:00Z" }),
+  withPriceLanes(fixtureEvent({ id: "fixture-a2", artist: artistA, venue: MAIN_VENUE, iso: "2026-09-13T01:00:00Z" })),
+  withPriceLanes(fixtureEvent({ id: "fixture-a4", artist: artistA, venue: MAIN_VENUE, iso: "2026-09-20T01:00:00Z" })),
   withPriceLanes(fixtureEvent({ id: "fixture-b1", artist: artistB, venue: MAIN_VENUE, iso: "2026-10-03T01:00:00Z" })),
-  fixtureEvent({ id: "fixture-b2", artist: artistB, venue: SECOND_VENUE, iso: "2026-10-17T01:00:00Z" }),
+  withPriceLanes(fixtureEvent({ id: "fixture-b2", artist: artistB, venue: SECOND_VENUE, iso: "2026-10-17T01:00:00Z" })),
   // Both artists also play a second city, so their Springfield artist-city
   // pages are not the artist page again (duplicates_artist_page).
   { ...fixtureEvent({ id: "fixture-a3", artist: artistA, venue: "Shelbyville Hall", iso: "2026-11-01T01:00:00Z" }), city: "Shelbyville" },
@@ -235,8 +238,8 @@ const FILLER_MARKERS = [
 // ─── city page, with upcoming shows ─────────────────────────────────────────
 
 const cityRecord = findCity(UPCOMING_EVENTS, CITY_SLUG);
-assert(cityRecord?.showCount === 4, "fixture city derives four upcoming shows");
-assert(cityRecord.indexable, "fixture city clears the 4-show / 2-artist / 2-venue / publishable / comparison gate");
+assert(cityRecord?.showCount === 5, "fixture city derives five upcoming shows");
+assert(cityRecord.indexable, "fixture city clears the show / artist / venue / publishable / comparable-date gate");
 
 const cityPage = await render(`/cities/${CITY_SLUG}`, UPCOMING_EVENTS);
 assert(cityPage.status === 200, "city page with upcoming shows returns 200");
@@ -245,7 +248,7 @@ const cityText = text(cityPage.main);
 // One factual introduction, built from the record — counts and span both.
 assert(
   cityText.includes(
-    `4 upcoming shows in ${CITY}, ${COUNTRY}: 2 artists at 2 venues, from Thu, Sep 10, 2026 to Fri, Oct 16, 2026.`
+    `5 upcoming shows in ${CITY}, ${COUNTRY}: 2 artists at 2 venues, from Thu, Sep 10, 2026 to Fri, Oct 16, 2026.`
   ),
   "city lead states the derived counts and local date span in one sentence"
 );
@@ -254,7 +257,7 @@ assert(
   "city page keeps the selective-coverage disclosure the policy requires"
 );
 // Stated once. A second copy is the summary-of-the-summary the trim removed.
-assert(occurrences(cityText, "4 upcoming shows") === 1, "city page states its show count exactly once");
+assert(occurrences(cityText, "5 upcoming shows") === 1, "city page states its show count exactly once");
 assert(occurrences(cityText, "2 artists") === 1, "city page states its artist count exactly once");
 
 // The dates themselves: every upcoming show is listed, labelled with the day it
@@ -375,8 +378,8 @@ assert(emptyCityText.split(" ").length < 40, `empty city page stays brief (was $
 // ─── venue page, with upcoming shows ────────────────────────────────────────
 
 const venueRecord = findVenue(UPCOMING_EVENTS, MAIN_VENUE_SLUG);
-assert(venueRecord?.showCount === 3, "fixture venue derives three upcoming shows");
-assert(venueRecord.indexable, "fixture venue clears the 3-show / 2-artist / publishable gate");
+assert(venueRecord?.showCount === 4, "fixture venue derives four upcoming shows");
+assert(venueRecord.indexable, "fixture venue clears the show / artist / publishable / comparable-date gate");
 
 const venuePage = await render(`/venues/${MAIN_VENUE_SLUG}`, UPCOMING_EVENTS);
 assert(venuePage.status === 200, "venue page with upcoming shows returns 200");
@@ -384,7 +387,7 @@ const venueText = text(venuePage.main);
 
 assert(
   venueText.includes(
-    `3 upcoming shows at ${MAIN_VENUE} in ${CITY}, ${COUNTRY}: 2 artists, from Thu, Sep 10, 2026 to Fri, Oct 2, 2026.`
+    `4 upcoming shows at ${MAIN_VENUE} in ${CITY}, ${COUNTRY}: 2 artists, from Thu, Sep 10, 2026 to Fri, Oct 2, 2026.`
   ),
   "venue lead states the derived counts and local date span in one sentence"
 );
@@ -392,7 +395,7 @@ assert(
   venueText.includes(`Selected verified tour dates — not the full ${MAIN_VENUE} calendar.`),
   "venue page keeps its selective-coverage disclosure"
 );
-assert(occurrences(venueText, "3 upcoming shows") === 1, "venue page states its show count exactly once");
+assert(occurrences(venueText, "4 upcoming shows") === 1, "venue page states its show count exactly once");
 assert(occurrences(venueText, "2 artists") === 1, "venue page states its artist count exactly once");
 
 assert(venueText.includes("Upcoming dates"), "venue page keeps its schedule heading");

@@ -65,12 +65,12 @@ const expectedTitle = new Map([
   ["/privacy", "Privacy Policy | TourTicketCompare"],
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
-const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where available, then check the total.";
-const APP_ASSET_VERSION = "20261002a";
-const TTC_HOME_ASSET_VERSION = "20260924b";
-const TTC_HOME_JS_ASSET_VERSION = "20261002a";
-const TTC_SHELL_ASSET_VERSION = "20260925a";
-const SHELL_SCRIPT_ASSET_VERSION = "20260926a";
+const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.";
+const APP_ASSET_VERSION = "20261011a";
+const TTC_HOME_ASSET_VERSION = "20261010a";
+const TTC_HOME_JS_ASSET_VERSION = "20261010a";
+const TTC_SHELL_ASSET_VERSION = "20261010a";
+const SHELL_SCRIPT_ASSET_VERSION = "20261010s";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-4/p1dKV8DVVc+KAFU6w/f5XPSPD2Po0Wx8aWhKVLdjI=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
@@ -94,7 +94,7 @@ const routeMarkers = new Map([
   ["/guides", "Compare the total at checkout for that exact ticket"],
   ["/guides/vivid-seats-vs-ticketmaster", "A like-for-like purchase checklist"],
   ["/blog", "what a price snapshot does and does not claim"],
-  ["/compare-concert-ticket-prices", "Prices are only compared when captured for the same event, each with the time it was taken"],
+  ["/compare-concert-ticket-prices", "open the ones that look good, then check the seats and the final total before you pay"],
   ["/how-it-works", "A button only goes up when its destination can be confirmed"],
   ["/currency-converter", "European Central Bank daily reference rates"],
   ["/editorial-policy", "the link has to pass the site's outbound safety checks"],
@@ -861,11 +861,40 @@ async function routeResponse(pathname, envOverride = env, origin = "https://tour
 
 // Site voice (owner direction 2026-09-24): visible copy never speaks as "we".
 // Same rule scripts/check-site-voice.mjs applies to guide and blog Markdown.
+// Names that come from the event records (a listing title such as "Psychedelic
+// Furs w/ We Are Scientists", a tour, a venue) are the source's words, not the
+// site's, so they are exempt like quoted text.
+let sourceVoiceNames = null;
+function sourceNamesWithVoiceHits() {
+  if (!sourceVoiceNames) {
+    const names = new Set();
+    for (const event of Array.isArray(events) ? events : []) {
+      for (const field of ["event_name", "tour_name", "artist_name", "venue"]) {
+        const name = String(event?.[field] || "").trim();
+        if (name && findFirstPersonPlural(name).length) names.add(name);
+      }
+    }
+    // Longest first, so a title is removed before a shorter name inside it.
+    sourceVoiceNames = [...names].sort((a, b) => b.length - a.length);
+  }
+  return sourceVoiceNames;
+}
+
+function withoutSourceNames(text) {
+  let out = text;
+  for (const name of sourceNamesWithVoiceHits()) {
+    for (const form of new Set([name, name.replace(/&/g, "&amp;")])) out = out.split(form).join(" ");
+  }
+  return out;
+}
+
 function assertSiteVoice(pathname, text) {
-  const visibleMain = (text.match(/<main[\s\S]*<\/main>/)?.[0] || "")
-    .replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ")
-    .replace(/<[^>]+>/g, "\n")
-    .replace(/&rsquo;|&#39;/g, "'");
+  const visibleMain = withoutSourceNames(
+    (text.match(/<main[\s\S]*<\/main>/)?.[0] || "")
+      .replace(/<(script|style)[\s\S]*?<\/\1>/gi, " ")
+      .replace(/<[^>]+>/g, "\n")
+      .replace(/&rsquo;|&#39;/g, "'")
+  );
   const voiceHits = findFirstPersonPlural(visibleMain);
   assert(
     voiceHits.length === 0,
@@ -1362,6 +1391,37 @@ for (const [artistSlug, postSlugs] of postSlugsByArtist) {
   );
 }
 
+// A published post that names a touring, indexable artist opens with that
+// artist's ticket pages (date board, price guide, city pages), so blog readers
+// have a route to checked ticket links before the foot of the post.
+{
+  const smokeArtistsMeta = JSON.parse(await read("public/data/artists.json"));
+  const smokeEvents = JSON.parse(await read("public/data/events.json"));
+  const nowMs = Date.now();
+  const touring = new Set(
+    smokeArtistsMeta
+      .filter((meta) => meta.indexing_status === "indexable_with_substantial_content")
+      .map((meta) => meta.slug)
+      .filter((slug) => smokeEvents.some((event) => event.artist_slug === slug && Date.parse(event.datetime_iso) > nowMs + 6 * 3600 * 1000))
+  );
+  let panels = 0;
+  for (const post of (smokeBlogContent.posts || []).filter((entry) => entry.status === "published")) {
+    const named = (post.relatedArtists || []).slice(0, 3).filter((slug) => touring.has(slug));
+    if (!named.length) continue;
+    const page = await routeResponse(`/blog/${post.slug}`);
+    for (const artistSlug of named) {
+      assert(
+        page.text.includes(`data-blog-ticket-routes="${artistSlug}"`) &&
+          (page.text.includes(`class="button button-primary" href="/artists/${artistSlug}"`) || page.text.includes(`class="text-link" href="/artists/${artistSlug}"`)),
+        `/blog/${post.slug} shows ticket routes for ${artistSlug}`
+      );
+      panels += 1;
+    }
+    assert(!/\$\d|£\d|€\d/.test(page.text.match(/<section class="nested-panel blog-ticket-routes"[\s\S]*?<\/section>/g)?.join("") || ""), `/blog/${post.slug} ticket routes carry no price figures`);
+  }
+  assert(panels >= 1, "at least one published blog post shows artist ticket routes");
+}
+
 const pairwiseGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster");
 assert(pairwiseGuide.response.status === 200, "focused SeatGeek vs Ticketmaster guide should return 200");
 assert(extractCanonical(pairwiseGuide.text) === "https://tourticketcompare.com/guides/seatgeek-vs-ticketmaster", "focused guide should expose its own canonical");
@@ -1509,7 +1569,7 @@ const renderedMorganSeatGeekCtas = (serverMorganWithSeatGeek.text.match(/provide
 assert(renderedMorganSeatGeekCtas > 0 && renderedMorganSeatGeekCtas <= expectedMorganSeatGeekCtas, "server-rendered Morgan Wallen page should show SeatGeek CTAs only for rendered shows with event-level SeatGeek URLs when configured");
 assert(serverMorganWithSeatGeek.text.includes(RENDERED_SG_EVENT_OUT_HREF), "server-rendered SeatGeek CTA should route the controlled show through /api/out");
 assert(!serverMorganWithSeatGeek.text.includes(CONTROLLED_SEATGEEK_URL), "server-rendered SeatGeek CTA must not expose the raw affiliate URL; it routes through /api/out");
-assert(serverMorganWithSeatGeek.text.includes("<strong>How this site makes money:</strong> sites listed first pay TourTicketCompare a commission") && !serverMorganWithSeatGeek.text.includes("never affects your price"), "server-rendered show board should include the one How-we-make-money disclosure (P4) and no unverifiable no-effect claim");
+assert(serverMorganWithSeatGeek.text.includes("<strong>How this site makes money:</strong> Affiliate partners are listed before Ticketmaster. If you buy through an affiliate link, TourTicketCompare may earn a commission at no extra cost to you.") && !serverMorganWithSeatGeek.text.includes("never affects your price"), "server-rendered show board should include the one How-we-make-money disclosure (P4) and no unverifiable no-effect claim");
 assert(!serverMorganWithSeatGeek.text.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "server-rendered cards should not repeat provider caution copy per SeatGeek link");
 // CTA order: SeatGeek (primary affiliate) renders first, before the plain
 // (unmonetized) Ticketmaster link, inside the same provider-cta-group.
@@ -1624,12 +1684,12 @@ assert(seatGeekGateFunction[0].includes('if (!providerEventPublishable(show, "se
 assert(seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true && hasValidSeatGeekEventUrl;"), "SeatGeek CTA gate should require both the provider flag and a valid stored SeatGeek event URL");
 assert(!seatGeekGateFunction[0].includes("return show.provider_ctas.seatgeek === true;"), "SeatGeek CTA gate should not trust the provider flag on its own");
 assert(appJs.includes('name: "SeatGeek"'), "hydration should preserve the SeatGeek CTA for the controlled event when configured");
-assert(appJs.includes("sites listed first pay TourTicketCompare a commission when you buy through them; Ticketmaster doesn't. No fee is added.") && appJs.includes("renderMoneyDisclosure()"), "hydration should preserve the how-this-site-makes-money show-board disclosure (P4)");
+assert(appJs.includes("Affiliate partners are listed before Ticketmaster. If you buy through an affiliate link, TourTicketCompare may earn a commission at no extra cost to you.") && appJs.includes("renderMoneyDisclosure()"), "hydration should preserve the how-this-site-makes-money show-board disclosure (P4)");
 assert(!appJs.includes("Event last checked:"), "hydration should rely on the consolidated verification panel instead of repeating check dates on every show card");
 assert(!appJs.includes("SeatGeek controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every SeatGeek card");
 assert(!appJs.includes("Vivid Seats controls prices, fees, availability, and checkout terms for this link."), "hydration should not repeat provider caution copy on every Vivid Seats card");
-assert(appJs.includes(". Listed prices, not your final total: the site adds fees at checkout."), "hydration should include the unified listed-price disclosure (P2)");
-assert(appJs.includes("No listed-price snapshot is available for this date. Check current prices using the provider buttons above."), "hydration should state the price-unavailable case");
+assert(appJs.includes('note.append("Checked ");') && appJs.includes("const PRICE_DISCLOSURE ="), "hydration should include the per-card check age and the page-level price disclosure (P2)");
+assert(appJs.includes('const PRICE_UNAVAILABLE_NOTE = "No listed price yet.";'), "hydration should state the price-unavailable case");
 assert(appJs.includes("renderShowCardPriceNotes(ctaSpecs, pricesWereChecked(show))"), "hydration must only claim a snapshot is unavailable for a card whose lanes were actually queried");
 assert(appJs.includes("Array.isArray(show?.prices) && show.prices.length > 0"), "the hydrated priced-lane check must treat an empty lane array as unchecked, not as a confirmed absence");
 assert(appJs.includes("show?.provider_links?.seatgeek?.verified !== true"), "hydrated SeatGeek price snapshots should require explicit provider verification");
@@ -2229,7 +2289,7 @@ const pricedRouteEnv = envWithEventsJson(vividSeatsPriceEventsJson, {
 });
 const pricedArtistRoute = await routeResponse("/artists/morgan-wallen", pricedRouteEnv);
 assert(pricedArtistRoute.text.includes(`data-price-history="${CONTROLLED_SEATGEEK_SHOW_ID}"`), "a priced artist event should server-render its price snapshot history control");
-assert(pricedArtistRoute.text.includes("Show price snapshot history"), "the restored artist price tracker should be visible as a collapsed control");
+assert(pricedArtistRoute.text.includes(">Show price history<"), "the restored artist price tracker should be visible as a collapsed control");
 assert(pricedArtistRoute.text.includes("data-price-alert-interest"), "the price tracker should retain the price-drop demand instrument");
 const pricedComparisonHub = await routeResponse("/compare-concert-ticket-prices", pricedRouteEnv);
 assert(pricedComparisonHub.text.includes('data-cta-location="comparison_hub"'), "the comparison hub should server-render tracked exact-event provider CTAs");
@@ -2333,17 +2393,16 @@ const serverPricedMorgan = await routeResponse("/artists/morgan-wallen", envWith
   IMPACT_SEATGEEK_BASE_TRACKING_URL: CONTROLLED_SEATGEEK_BASE_TRACKING_URL,
   IMPACT_VIVIDSEATS_BASE_TRACKING_URL: "https://example.test/vivid?u="
 }));
-assert(serverPricedMorgan.text.includes("provider-cta-price") && serverPricedMorgan.text.includes("Listed prices, not your final total: the site adds fees at checkout.") && /Checked <time datetime="[^"]+" title="[^"]+">[^<]+<\/time> \(Vivid Seats\)/.test(serverPricedMorgan.text) && /Lowest listed price (on each|where shown)/.test(serverPricedMorgan.text), "server-rendered artist cards should show eligible provider snapshots with one unified note before client hydration");
+assert(serverPricedMorgan.text.includes("provider-cta-price") && serverPricedMorgan.text.includes('<p class="disclosure-note">Checked <time') && /Checked <time datetime="[^"]+" title="[^"]+">[^<]+<\/time>/.test(serverPricedMorgan.text) && /Lowest listed prices?</.test(serverPricedMorgan.text), "server-rendered artist cards should show eligible provider snapshots with one unified note before client hydration");
 assert(!serverPricedMorgan.text.includes("SeatGeek price snapshot as of"), "SeatGeek must remain CTA-only in server-rendered cards");
 // SeatGeek and Ticketmaster never carry a price, so a card mixing them with a
-// priced lane must say "where shown", never claim a price "on each" button.
-assert(/Lowest listed price where shown/.test(serverPricedMorgan.text), "a mixed priced card should say 'lowest listed price where shown'");
+// priced lane must never claim a price "on each" button.
 for (const card of serverPricedMorgan.text.split('<article class="info-card show-card').slice(1)) {
   if (card.includes("provider-cta-check")) {
     assert(!card.includes("Lowest listed price on each"), "a card with an unpriced button must never say 'lowest listed price on each'");
   }
 }
-assert(serverPricedMorgan.text.includes("the site adds fees at checkout"), "server-rendered snapshots should keep the fees disclaimer");
+assert(serverPricedMorgan.text.includes("aren&#39;t your final total") || serverPricedMorgan.text.includes("aren't your final total"), "server-rendered price boards should keep the not-final-total disclaimer, once in the page disclosure");
 
 const bulkFlagsOffResponse = await showsModule.onRequestGet({
   request: new Request("https://tourticketcompare.com/api/shows?artistSlug=morgan-wallen&includePrices=true&priceProviders=approved-marketplaces"),
@@ -3333,11 +3392,12 @@ assert(!brunoMarsPage.text.includes("still being reviewed"), "/artists/bruno-mar
 assert(/index,follow/.test(serverMorganWithoutSeatGeek.text), "/artists/morgan-wallen (indexable) must remain index,follow");
 assert(serverMorganWithoutSeatGeek.text.includes("provider-cta-name\">Ticketmaster<"), "/artists/morgan-wallen (indexable) must show the Ticketmaster event CTA button");
 assert(serverMorganWithoutSeatGeek.text.includes("provider-cta-check\">See tickets<"), "the unpriced Ticketmaster button must read 'See tickets'");
-// A card with checked destinations but no eligible snapshot must say so and
-// name where to look, rather than leaving the price slot silently empty.
+// A card whose only buttons are on lanes that never carry a price (here
+// Ticketmaster) gets no price note (2026-10-06): nothing on it claims a price,
+// and the note used to repeat on every date of a tour.
 assert(
-  serverMorganWithoutSeatGeek.text.includes("No listed-price snapshot is available for this date. Check current prices using the provider buttons above."),
-  "a card whose queried lanes all lack an eligible snapshot must state the unavailable case"
+  !/No listed price/.test(serverMorganWithoutSeatGeek.text),
+  "a card with no price-supplying button must not carry a price-unavailable note"
 );
 
 // Coverage contract: onRequest queries prices for every card the route renders,
@@ -3352,11 +3412,14 @@ if (fullyPricedBoard.response.status === 200) {
     .map((card) => card.split("</article>")[0])
     .filter((card) => card.includes("info-card show-card"));
   const cardsWithButtons = boardCards.filter((card) => card.includes('class="provider-cta-group"'));
+  // Only a card with a button on a price-supplying lane gets a note
+  // (2026-10-06); a Ticketmaster/SeatGeek-only card is silent by design.
+  // Either unavailable note (priceUnavailableNote) counts: the undated one or
+  // the dated "at the last check" one.
   const silentCards = cardsWithButtons.filter(
     (card) =>
-      // Any of the three unavailable notes (priceUnavailableNote) counts: the
-      // undated one, the unmatched one, or the dated "at the last check" one.
-      !/No listed-price snapshot (is available|for this date)|No listed price at the last check/.test(card) &&
+      /provider=(vivid-seats|ticketnetwork|stubhub-international)/.test(card) &&
+      !/No listed price (yet|from )/.test(card) &&
       !card.includes("provider-cta-price")
   );
   assert(cardsWithButtons.length > 6, "the coverage check needs a board longer than the old six-show slice to be meaningful");
@@ -3373,7 +3436,7 @@ const pricedMorganCards = serverPricedMorgan.text
   .filter((card) => card.includes("provider-cta-price"));
 assert(pricedMorganCards.length > 0, "the priced Morgan Wallen board should render at least one card with a snapshot");
 assert(
-  pricedMorganCards.every((card) => !card.includes("No listed-price snapshot is available for this date.")),
+  pricedMorganCards.every((card) => !/No listed price (yet|from )/.test(card)),
   "a card carrying an eligible snapshot must keep the snapshot disclosure, not the unavailable note"
 );
 assert(serverMorganWithoutSeatGeek.text.includes(`/api/out?showId=${encodeURIComponent(verifiedMorganShow.id)}&amp;provider=ticketmaster`), "server-rendered verified Ticketmaster event CTA should use its existing safe redirect");
@@ -3650,12 +3713,12 @@ assert(
 );
 // Both renderers must produce the same three strings from the same count.
 assert(
-  appJs.includes('"Lowest listed price"') && appJs.includes('"Lowest listed price on each"') && appJs.includes('"Lowest listed price where shown"'),
+  appJs.includes('"Lowest listed price"') && appJs.includes('"Lowest listed prices"') && !appJs.includes('"Lowest listed price on each"'),
   "client-rendered cards should carry the same price-line wording as the server"
 );
 assert(
-  pathSource.includes('"Lowest listed price"') && pathSource.includes('"Lowest listed price on each"') && pathSource.includes('"Lowest listed price where shown"'),
-  "server-rendered cards should carry the price-line wording"
+  (await read("functions/_price-wording.js")).includes('"Lowest listed prices"') && pathSource.includes("lowestPriceLabel(priced)") && !pathSource.includes('"Lowest listed price on each"'),
+  "server-rendered cards should carry the price-line wording (from functions/_price-wording.js)"
 );
 assert(
   appJs.includes('"provider-cta-count muted"') && pathSource.includes('"provider-cta-count muted"'),
@@ -3876,8 +3939,8 @@ assert(
   "the provenance block must not claim artist-level buttons resolve to a specific date"
 );
 assert(
-  manyBoard.html.includes("open the artist&#39;s page on each ticket site, not a specific date"),
-  "the shared help should describe where artist-level provider buttons land"
+  manyBoard.html.includes("These go to the artist's page on each ticket site, not to a specific date."),
+  "the Where to buy panel should describe where artist-level provider buttons land"
 );
 
 // The client must not restore the authored, date-promising description on a
@@ -4128,7 +4191,7 @@ assert(/<h1[^>]*>[^<]*Tickets in /.test(artistCityPage.text), "artist-city page 
 // than only its head.
 const artistCityTitle = extractTitle(artistCityPage.text);
 assert(
-  /\| (Compare )?Prices at [^|]+$|\| Compare Prices & Dates$|\| Compare Prices$| Tickets(?: \d{4}(?:–\d{4})?)?$/.test(artistCityTitle),
+  /\| (Compare |Ticket )?Prices at [^|]+$|\| Compare Ticket Prices$|\| Compare Prices & Dates$|\| Compare Prices$| Tickets(?: \d{4}(?:–\d{4})?)?$/.test(artistCityTitle),
   `artist-city title should follow the fitTitleToBudget ladder (was "${artistCityTitle}")`
 );
 // Every rung keeps "<artist> <city> Tickets", so the ladder check above cannot

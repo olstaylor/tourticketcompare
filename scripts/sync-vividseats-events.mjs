@@ -53,6 +53,7 @@
 // Options: --limit N, --max-api-calls N, --delay-ms N, --recheck-days N,
 //          --json, --log-path <path>
 
+import { writeEventShards } from "./lib/event-shards.mjs";
 import fs from "node:fs/promises";
 import { execFile } from "node:child_process";
 import path from "node:path";
@@ -950,6 +951,9 @@ async function main() {
   if (options.apply && changedIds.size > 0 && !authFailure) {
     await fs.writeFile(EVENTS_PATH, `${JSON.stringify(events, null, 2)}\n`);
     const partitionFiles = await syncPartitions(events, changedIds);
+    // events.json's third generated view: the shards the router reads
+    // (scripts/lib/event-shards.mjs). Rewritten in full, as events:partition would.
+    await writeEventShards(REPO_ROOT, events);
     console.error(`Wrote ${changedIds.size} event update(s) to events.json and ${partitionFiles.length} partition file(s).`);
   } else if (authFailure && changedIds.size > 0) {
     console.error(`Auth/config failure mid-run — discarding ${changedIds.size} in-memory update(s); nothing written.`);
@@ -996,9 +1000,11 @@ async function main() {
   return 0;
 }
 
-main().then((code) => {
+if (import.meta.url === `file://${process.argv[1]}`) main().then((code) => {
   process.exitCode = code;
 }).catch((error) => {
   console.error(`Error: ${clean(error?.message || error, 500)}`);
   process.exitCode = 1;
 });
+
+export { applyOutcomeToEvent, decideOutcome, evaluateCandidate, eventLocalDate, renderLog, toCandidate };

@@ -64,6 +64,12 @@ const url = (member) => `https://tourticketcompare.com${member.canonical_path}`;
     { ...record, members: [{ ...M0, canonical_path: "/events/wrong-path-0000000000000000" }] }
   ].every((bad) => throws(() => report.cohortFromRecord(bad))));
 
+  const batchRecord = readJson("data/event-indexing-batches.json");
+  const firstBatch = batchRecord.batches[0];
+  const fromBatch = report.buildReport({ ...base, record: { ...report.recordForBatch(batchRecord, firstBatch.id), runtime_keys: firstBatch.members.map((member) => member.key) } });
+  assert("1. --batch measures that staged batch's frozen members, never the pilot's", JSON.stringify(keysOf(fromBatch)) === JSON.stringify(firstBatch.members.map((member) => member.key)) && fromBatch.inputs.runtime_keys_match_record === true && !keysOf(fromBatch).some((key) => recordKeys.includes(key)));
+  assert("1. an unknown batch id fails loudly", throws(() => report.recordForBatch(batchRecord, "batch-unknown")));
+
   const isConfigured = providerConfiguredTest(catalog);
   const eligibleNonPilot = policy
     .deriveEventIndexability(events, artists, { lanesFor: (event) => publishableLaneSlugs(event, isConfigured, NOW), now: NOW })

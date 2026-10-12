@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-03",
+  "updated_at": "2026-10-11",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -1085,6 +1085,182 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-10-03 (sanctioned path D): SeatGeek performer 16295 and Ticketmaster attraction K8vZ9172pOV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "the-neighbourhood",
+      "ticketmaster_attraction_id": "K8vZ917Kzef",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/the-neighbourhood-tickets/artist/2164718",
+      "seatgeek_performer_id": 17505,
+      "seatgeek_artist_url": "https://seatgeek.com/the-neighbourhood-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-06 (sanctioned path D): SeatGeek performer 17505 and Ticketmaster attraction K8vZ917Kzef captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "staind",
+      "ticketmaster_attraction_id": "K8vZ9171ORf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/staind-tickets/artist/717721",
+      "seatgeek_performer_id": 1675,
+      "seatgeek_artist_url": "https://seatgeek.com/staind-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-06 (sanctioned path D): SeatGeek performer 1675 and Ticketmaster attraction K8vZ9171ORf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "dylan-gossett",
+      "ticketmaster_attraction_id": "K8vZ917j68V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/dylan-gossett-tickets/artist/3086445",
+      "seatgeek_performer_id": 807490,
+      "seatgeek_artist_url": "https://seatgeek.com/dylan-gossett-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-06 (sanctioned path D): SeatGeek performer 807490 and Ticketmaster attraction K8vZ917j68V captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "flans",
+      "ticketmaster_attraction_id": "K8vZ9173z77",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/flans-tickets/artist/2046401",
+      "seatgeek_performer_id": 237955,
+      "seatgeek_artist_url": "https://seatgeek.com/flans-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-06 (sanctioned path D): SeatGeek performer 237955 and Ticketmaster attraction K8vZ9173z77 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "warren-zeiders",
+      "ticketmaster_attraction_id": "K8vZ917QK3f",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/warren-zeiders-tickets/artist/2869566",
+      "seatgeek_performer_id": 797196,
+      "seatgeek_artist_url": "https://seatgeek.com/warren-zeiders-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-06 (sanctioned path D): SeatGeek performer 797196 and Ticketmaster attraction K8vZ917QK3f captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "dancing-with-the-stars",
+      "ticketmaster_attraction_id": "K8vZ9175XT7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/dancing-with-the-stars-tickets/artist/1086116",
+      "seatgeek_performer_id": 260726,
+      "seatgeek_artist_url": "https://seatgeek.com/dancing-with-the-stars-1-tickets",
+      "sync_enabled": false,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-09 (sanctioned path D): SeatGeek performer 260726 and Ticketmaster attraction K8vZ9175XT7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "def-leppard",
+      "ticketmaster_attraction_id": "K8vZ9171CY7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/def-leppard-tickets/artist/734898",
+      "seatgeek_performer_id": 580,
+      "seatgeek_artist_url": "https://seatgeek.com/def-leppard-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-09 (sanctioned path D): SeatGeek performer 580 and Ticketmaster attraction K8vZ9171CY7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "nickelback",
+      "ticketmaster_attraction_id": "K8vZ9171EXf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/nickelback-tickets/artist/710632",
+      "seatgeek_performer_id": 1342,
+      "seatgeek_artist_url": "https://seatgeek.com/nickelback-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-09 (sanctioned path D): SeatGeek performer 1342 and Ticketmaster attraction K8vZ9171EXf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "jay-wheeler",
+      "ticketmaster_attraction_id": "K8vZ917_hEf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/jay-wheeler-tickets/artist/2795427",
+      "seatgeek_performer_id": 795139,
+      "seatgeek_artist_url": "https://seatgeek.com/jay-wheeler-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-09 (sanctioned path D): SeatGeek performer 795139 and Ticketmaster attraction K8vZ917_hEf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "mico",
+      "ticketmaster_attraction_id": "K8vZ917hfqV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/mico-tickets/artist/3000734",
+      "seatgeek_performer_id": 804098,
+      "seatgeek_artist_url": "https://seatgeek.com/mico-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-09 (sanctioned path D): SeatGeek performer 804098 and Ticketmaster attraction K8vZ917hfqV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "rod-wave",
+      "ticketmaster_attraction_id": "K8vZ917b8z7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/rod-wave-tickets/artist/2663489",
+      "seatgeek_performer_id": 782153,
+      "seatgeek_artist_url": "https://seatgeek.com/rod-wave-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-11 (sanctioned path D): SeatGeek performer 782153 and Ticketmaster attraction K8vZ917b8z7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "uicideboy",
+      "ticketmaster_attraction_id": "K8vZ917f2N7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/uicideboy-tickets/artist/2194218",
+      "seatgeek_performer_id": 473117,
+      "seatgeek_artist_url": "https://seatgeek.com/uicideboy-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-11 (sanctioned path D): SeatGeek performer 473117 and Ticketmaster attraction K8vZ917f2N7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "steve-lacy",
+      "ticketmaster_attraction_id": "K8vZ9174s67",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907",
+      "seatgeek_performer_id": 236869,
+      "seatgeek_artist_url": "https://seatgeek.com/steve-lacy-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-11 (sanctioned path D): SeatGeek performer 236869 and Ticketmaster attraction K8vZ9174s67 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "the-smashing-pumpkins",
+      "ticketmaster_attraction_id": "K8vZ9171FDV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/the-smashing-pumpkins-tickets/artist/736143",
+      "seatgeek_performer_id": 1645,
+      "seatgeek_artist_url": "https://seatgeek.com/the-smashing-pumpkins-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-11 (sanctioned path D): SeatGeek performer 1645 and Ticketmaster attraction K8vZ9171FDV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "fuerza-regida",
+      "ticketmaster_attraction_id": "K8vZ9179vO0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/fuerza-regida-tickets/artist/2499958",
+      "seatgeek_performer_id": 774960,
+      "seatgeek_artist_url": "https://seatgeek.com/fuerza-regida-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-11 (sanctioned path D): SeatGeek performer 774960 and Ticketmaster attraction K8vZ9179vO0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "mei-semones",
+      "ticketmaster_attraction_id": "K8vZ917hexf",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/mei-semones-tickets/artist/2964416",
+      "seatgeek_performer_id": 811845,
+      "seatgeek_artist_url": "https://seatgeek.com/mei-semones-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-10-11 (sanctioned path D): SeatGeek performer 811845 and Ticketmaster attraction K8vZ917hexf captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

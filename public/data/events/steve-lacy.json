@@ -1,0 +1,1746 @@
+[
+  {
+    "id": "tm-steve-lacy-2026-boston-vv1avzkfwgkdcqwfa",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2026-10-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006532CE6BD209",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-boston-massachusetts-10-12-2026/event/01006532CE6BD209",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-boston-mgm-music-hall-at-fenway-10-12-2026--concerts-rb/production/7600466",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-boston-massachusetts-10-12-2026/event/01006532CE6BD209",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006532CE6BD209",
+        "discovery_event_id": "vv1AvZkfwGkdCQWFa",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-boston-massachusetts-10-12-2026/event/01006532CE6BD209",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7600466,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-boston-mgm-music-hall-at-fenway-10-12-2026--concerts-rb/production/7600466",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8288767",
+        "url": "https://www.ticketnetwork.com/en/p/8288767",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8288767",
+        "url": "https://www.ticketliquidator.com/tickets/8288767/Steve-Lacy-tickets-Mon-Oct-12-2026-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669095",
+        "url": "https://www.stubhub.ie/steve-lacy-boston-tickets-10-12-2026/event/107669095",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkfwGkdCQWFa",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8288767",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8288767/Steve-Lacy-tickets-Mon-Oct-12-2026-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-boston-tickets-10-12-2026/event/107669095"
+  },
+  {
+    "id": "tm-steve-lacy-2026-boston-vvg17z_2dy9pyk",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2026-10-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064FEF95D6C06",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-boston-massachusetts-10-13-2026/event/010064FEF95D6C06",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-boston-mgm-music-hall-at-fenway-10-13-2026--concerts-rb/production/7423272",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-boston-massachusetts-10-13-2026/event/010064FEF95D6C06",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064FEF95D6C06",
+        "discovery_event_id": "vvG17Z_2Dy9pYk",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-boston-massachusetts-10-13-2026/event/010064FEF95D6C06",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423272,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-boston-mgm-music-hall-at-fenway-10-13-2026--concerts-rb/production/7423272",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199794",
+        "url": "https://www.ticketnetwork.com/en/p/8199794",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199794",
+        "url": "https://www.ticketliquidator.com/tickets/8199794/Steve-Lacy-tickets-Tue-Oct-13-2026-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482314",
+        "url": "https://www.stubhub.ie/steve-lacy-boston-tickets-10-13-2026/event/107482314",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_2Dy9pYk",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199794",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199794/Steve-Lacy-tickets-Tue-Oct-13-2026-MGM-Music-Hall-at-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-boston-tickets-10-13-2026/event/107482314"
+  },
+  {
+    "id": "tm-steve-lacy-2026-camden-vv17fz_8gkl8lrzy",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Camden",
+    "country": "United States Of America",
+    "venue": "Freedom Mortgage Pavilion",
+    "datetime_iso": "2026-10-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200650AD0AEF030",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-camden-new-jersey-10-15-2026/event/0200650AD0AEF030",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-camden-freedom-mortgage-pavilion-10-15-2026--concerts-rb/production/7423274",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-camden-new-jersey-10-15-2026/event/0200650AD0AEF030",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200650AD0AEF030",
+        "discovery_event_id": "vv17FZ_8Gkl8lRZY",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-camden-new-jersey-10-15-2026/event/0200650AD0AEF030",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423274,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-camden-freedom-mortgage-pavilion-10-15-2026--concerts-rb/production/7423274",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199795",
+        "url": "https://www.ticketnetwork.com/en/p/8199795",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199795",
+        "url": "https://www.ticketliquidator.com/tickets/8199795/Steve-Lacy-tickets-Thu-Oct-15-2026-Freedom-Mortgage-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_8Gkl8lRZY",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199795",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199795/Steve-Lacy-tickets-Thu-Oct-15-2026-Freedom-Mortgage-Pavilion"
+  },
+  {
+    "id": "tm-steve-lacy-2026-washington-1a4zkfdgkeiyeai",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2026-10-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006503A8E6716C",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-washington-district-of-columbia-10-18-2026/event/15006503A8E6716C",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-washington-dc-the-anthem-10-18-2026--concerts-rb/production/7423276",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-washington-district-of-columbia-10-18-2026/event/15006503A8E6716C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006503A8E6716C",
+        "discovery_event_id": "1A4ZkfdGkeIyEAi",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-washington-district-of-columbia-10-18-2026/event/15006503A8E6716C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423276,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-washington-dc-the-anthem-10-18-2026--concerts-rb/production/7423276",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199796",
+        "url": "https://www.ticketnetwork.com/en/p/8199796",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199796",
+        "url": "https://www.ticketliquidator.com/tickets/8199796/Steve-Lacy-tickets-Sun-Oct-18-2026-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482315",
+        "url": "https://www.stubhub.ie/steve-lacy-washington-tickets-10-18-2026/event/107482315",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkfdGkeIyEAi",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199796",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199796/Steve-Lacy-tickets-Sun-Oct-18-2026-The-Anthem-DC",
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-washington-tickets-10-18-2026/event/107482315"
+  },
+  {
+    "id": "tm-steve-lacy-2026-virginia-beach-vv1avzkf6gkesce9z",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Virginia Beach",
+    "country": "United States Of America",
+    "venue": "The Dome by Rutter Mills",
+    "datetime_iso": "2026-10-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006507B3B425C0",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-virginia-beach-virginia-10-20-2026/event/01006507B3B425C0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-virginia-beach-virginia-10-20-2026/event/01006507B3B425C0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006507B3B425C0",
+        "discovery_event_id": "vv1AvZkf6GkeSce9Z",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-virginia-beach-virginia-10-20-2026/event/01006507B3B425C0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199797",
+        "url": "https://www.ticketnetwork.com/en/p/8199797",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199797",
+        "url": "https://www.ticketliquidator.com/tickets/8199797/Steve-Lacy-tickets-Tue-Oct-20-2026-The-Dome-by-Rutter-Mills",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZkf6GkeSce9Z",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199797",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199797/Steve-Lacy-tickets-Tue-Oct-20-2026-The-Dome-by-Rutter-Mills"
+  },
+  {
+    "id": "tm-steve-lacy-2026-charlotte-g5evz_83vdq5d",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Skyla Credit Union Amphitheatre",
+    "datetime_iso": "2026-10-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006504B4EDD2FB",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-charlotte-north-carolina-10-22-2026/event/2D006504B4EDD2FB",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-charlotte-skyla-credit-union-amphitheatre-10-22-2026--concerts-rb/production/7423280",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-charlotte-north-carolina-10-22-2026/event/2D006504B4EDD2FB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006504B4EDD2FB",
+        "discovery_event_id": "G5eVZ_83VDq5D",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-charlotte-north-carolina-10-22-2026/event/2D006504B4EDD2FB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423280,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-charlotte-skyla-credit-union-amphitheatre-10-22-2026--concerts-rb/production/7423280",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199798",
+        "url": "https://www.ticketnetwork.com/en/p/8199798",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199798",
+        "url": "https://www.ticketliquidator.com/tickets/8199798/Steve-Lacy-tickets-Thu-Oct-22-2026-Skyla-Credit-Union-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_83VDq5D",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199798",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199798/Steve-Lacy-tickets-Thu-Oct-22-2026-Skyla-Credit-Union-Amphitheatre"
+  },
+  {
+    "id": "tm-steve-lacy-2026-raleigh-g5evz_8ci0_um",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Red Hat Amphitheater",
+    "datetime_iso": "2026-10-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006503A891936E",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-raleigh-north-carolina-10-23-2026/event/2D006503A891936E",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-raleigh-red-hat-amphitheater-10-23-2026--concerts-rb/production/7423282",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-raleigh-north-carolina-10-23-2026/event/2D006503A891936E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006503A891936E",
+        "discovery_event_id": "G5eVZ_8CI0_um",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-raleigh-north-carolina-10-23-2026/event/2D006503A891936E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423282,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-raleigh-red-hat-amphitheater-10-23-2026--concerts-rb/production/7423282",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199799",
+        "url": "https://www.ticketnetwork.com/en/p/8199799",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199799",
+        "url": "https://www.ticketliquidator.com/tickets/8199799/Steve-Lacy-tickets-Fri-Oct-23-2026-Red-Hat-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_8CI0_um",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199799",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199799/Steve-Lacy-tickets-Fri-Oct-23-2026-Red-Hat-Amphitheater"
+  },
+  {
+    "id": "tm-steve-lacy-2026-miami-vvg1vz_8pw-pfe",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "FPL Solar Amphitheater at Bayfront Park",
+    "datetime_iso": "2026-10-27T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006505BD856502",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-miami-florida-10-26-2026/event/0D006505BD856502",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-miami-fpl-solar-amphitheater-at-bayfront-park-10-26-2026--concerts-rb/production/7423290",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-miami-florida-10-26-2026/event/0D006505BD856502",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006505BD856502",
+        "discovery_event_id": "vvG1VZ_8pW-pfe",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-miami-florida-10-26-2026/event/0D006505BD856502",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423290,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-miami-fpl-solar-amphitheater-at-bayfront-park-10-26-2026--concerts-rb/production/7423290",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107486078",
+        "url": "https://www.stubhub.ie/steve-lacy-miami-tickets-10-26-2026/event/107486078",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_8pW-pfe",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-miami-tickets-10-26-2026/event/107486078"
+  },
+  {
+    "id": "tm-steve-lacy-2026-tampa-vvg1vz_8uxpnex",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Yuengling Center",
+    "datetime_iso": "2026-10-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0065037E9630A2",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-tampa-florida-10-28-2026/event/0D0065037E9630A2",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-tampa-yuengling-center-10-28-2026--concerts-rb/production/7423304",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-tampa-florida-10-28-2026/event/0D0065037E9630A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0065037E9630A2",
+        "discovery_event_id": "vvG1VZ_8uXPNex",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-tampa-florida-10-28-2026/event/0D0065037E9630A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423304,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-tampa-yuengling-center-10-28-2026--concerts-rb/production/7423304",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199801",
+        "url": "https://www.ticketnetwork.com/en/p/8199801",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199801",
+        "url": "https://www.ticketliquidator.com/tickets/8199801/Steve-Lacy-tickets-Wed-Oct-28-2026-The-Yuengling-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107486079",
+        "url": "https://www.stubhub.ie/steve-lacy-tampa-tickets-10-28-2026/event/107486079",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_8uXPNex",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199801",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199801/Steve-Lacy-tickets-Wed-Oct-28-2026-The-Yuengling-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-tampa-tickets-10-28-2026/event/107486079"
+  },
+  {
+    "id": "tm-steve-lacy-2026-atlanta-vvg1zz_2x4siub",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Synovus Bank Amphitheater at Chastain Park",
+    "datetime_iso": "2026-10-31T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064FF95C6837A",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-atlanta-georgia-10-30-2026/event/0E0064FF95C6837A",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-atlanta-synovus-bank-amphitheater-at-chastain-park-10-30-2026--concerts-rb/production/7423354",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-atlanta-georgia-10-30-2026/event/0E0064FF95C6837A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064FF95C6837A",
+        "discovery_event_id": "vvG1zZ_2X4sIuB",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-atlanta-georgia-10-30-2026/event/0E0064FF95C6837A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423354,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-atlanta-synovus-bank-amphitheater-at-chastain-park-10-30-2026--concerts-rb/production/7423354",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199802",
+        "url": "https://www.ticketnetwork.com/en/p/8199802",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199802",
+        "url": "https://www.ticketliquidator.com/tickets/8199802/Steve-Lacy-tickets-Fri-Oct-30-2026-Synovus-Bank-Amphitheater-at-Chastain-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_2X4sIuB",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199802",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199802/Steve-Lacy-tickets-Fri-Oct-30-2026-Synovus-Bank-Amphitheater-at-Chastain-Park"
+  },
+  {
+    "id": "tm-steve-lacy-2026-atlanta-vvg1zz_83dtnfh",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Synovus Bank Amphitheater at Chastain Park",
+    "datetime_iso": "2026-11-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006504BBA6A21B",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-atlanta-georgia-10-31-2026/event/0E006504BBA6A21B",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/atlanta-georgia-synovus-bank-amphitheatre-at-chastain-park-2026-10-31-8-pm/concert/18613494",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-atlanta-synovus-bank-amphitheater-at-chastain-park-10-31-2026--concerts-rb/production/7600473",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-atlanta-georgia-10-31-2026/event/0E006504BBA6A21B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006504BBA6A21B",
+        "discovery_event_id": "vvG1zZ_83DtnFh",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-atlanta-georgia-10-31-2026/event/0E006504BBA6A21B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7600473,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-atlanta-synovus-bank-amphitheater-at-chastain-park-10-31-2026--concerts-rb/production/7600473",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8286235",
+        "url": "https://www.ticketnetwork.com/en/p/8286235",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8286235",
+        "url": "https://www.ticketliquidator.com/tickets/8286235/Steve-Lacy-tickets-Sat-Oct-31-2026-Synovus-Bank-Amphitheater-at-Chastain-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_83DtnFh",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286235",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286235/Steve-Lacy-tickets-Sat-Oct-31-2026-Synovus-Bank-Amphitheater-at-Chastain-Park"
+  },
+  {
+    "id": "tm-steve-lacy-2026-nashville-g5viz_2xpzbxl",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Nashville Municipal Auditorium",
+    "datetime_iso": "2026-11-03T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064FF96018F9F",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-nashville-tennessee-11-02-2026/event/1B0064FF96018F9F",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/nashville-tennessee-nashville-municipal-auditorium-2026-11-02-8-pm/concert/18485939",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-nashville-nashville-municipal-auditorium-11-2-2026--concerts-rb/production/7423356",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-nashville-tennessee-11-02-2026/event/1B0064FF96018F9F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064FF96018F9F",
+        "discovery_event_id": "G5viZ_2XpZbXL",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-nashville-tennessee-11-02-2026/event/1B0064FF96018F9F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423356,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-nashville-nashville-municipal-auditorium-11-2-2026--concerts-rb/production/7423356",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199803",
+        "url": "https://www.ticketnetwork.com/en/p/8199803",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199803",
+        "url": "https://www.ticketliquidator.com/tickets/8199803/Steve-Lacy-tickets-Mon-Nov-2-2026-Nashville-Municipal-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_2XpZbXL",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199803",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199803/Steve-Lacy-tickets-Mon-Nov-2-2026-Nashville-Municipal-Auditorium"
+  },
+  {
+    "id": "tm-steve-lacy-2026-irving-vvg1yz_8n-3vdr",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2026-11-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00650AA14B4EEF",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-irving-texas-11-05-2026/event/0C00650AA14B4EEF",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-11-05-8-pm/concert/18485937",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-irving-pavilion-at-toyota-music-factory-11-5-2026--concerts-rb/production/7423358",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-irving-texas-11-05-2026/event/0C00650AA14B4EEF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00650AA14B4EEF",
+        "discovery_event_id": "vvG1YZ_8n-3VDR",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-irving-texas-11-05-2026/event/0C00650AA14B4EEF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423358,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-irving-pavilion-at-toyota-music-factory-11-5-2026--concerts-rb/production/7423358",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199804",
+        "url": "https://www.ticketnetwork.com/en/p/8199804",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199804",
+        "url": "https://www.ticketliquidator.com/tickets/8199804/Steve-Lacy-tickets-Thu-Nov-5-2026-The-Pavilion-at-Toyota-Music-Factory",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482316",
+        "url": "https://www.stubhub.ie/steve-lacy-irving-tickets-11-5-2026/event/107482316",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_8n-3VDR",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199804",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199804/Steve-Lacy-tickets-Thu-Nov-5-2026-The-Pavilion-at-Toyota-Music-Factory",
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-irving-tickets-11-5-2026/event/107482316"
+  },
+  {
+    "id": "tm-steve-lacy-2026-austin-g5diz_8pb91k2",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Amphitheater",
+    "datetime_iso": "2026-11-08T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006505BA5CA4CF",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-austin-texas-11-07-2026/event/3A006505BA5CA4CF",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/austin-texas-moody-amphitheater-2026-11-07-8-pm/concert/18485938",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-austin-moody-amphitheater-11-7-2026--concerts-rb/production/7423364",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-austin-texas-11-07-2026/event/3A006505BA5CA4CF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006505BA5CA4CF",
+        "discovery_event_id": "G5dIZ_8pB91K2",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-austin-texas-11-07-2026/event/3A006505BA5CA4CF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423364,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-austin-moody-amphitheater-11-7-2026--concerts-rb/production/7423364",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199805",
+        "url": "https://www.ticketnetwork.com/en/p/8199805",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199805",
+        "url": "https://www.ticketliquidator.com/tickets/8199805/Steve-Lacy-tickets-Sat-Nov-7-2026-Moody-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107486080",
+        "url": "https://www.stubhub.ie/steve-lacy-austin-tickets-11-7-2026/event/107486080",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_8pB91K2",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199805",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199805/Steve-Lacy-tickets-Sat-Nov-7-2026-Moody-Amphitheater",
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-austin-tickets-11-7-2026/event/107486080"
+  },
+  {
+    "id": "tm-steve-lacy-2026-sugar-land-z7r9jz1aazj8f",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy",
+    "city": "Sugar Land",
+    "country": "United States Of America",
+    "venue": "Smart Financial Centre at Sugar Land",
+    "datetime_iso": "2026-11-09T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZJ8f",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ8f",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ8f",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZJ8f",
+        "discovery_event_id": "Z7r9jZ1AAZJ8f",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ8f",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199806",
+        "url": "https://www.ticketnetwork.com/en/p/8199806",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZJ8f",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199806"
+  },
+  {
+    "id": "tm-steve-lacy-2026-morrison-z7r9jz1aazj84",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy - Oh Yeah? Tour",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2026-11-12T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAZJ84",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ84",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-morrison-red-rocks-amphitheatre-11-11-2026--concerts-rb/production/7423370",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ84",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAZJ84",
+        "discovery_event_id": "Z7r9jZ1AAZJ84",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ84",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423370,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-morrison-red-rocks-amphitheatre-11-11-2026--concerts-rb/production/7423370",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199807",
+        "url": "https://www.ticketnetwork.com/en/p/8199807",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199807",
+        "url": "https://www.ticketliquidator.com/tickets/8199807/Steve-Lacy-tickets-Wed-Nov-11-2026-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482322",
+        "url": "https://www.stubhub.ie/steve-lacy-morrison-tickets-11-11-2026/event/107482322",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAZJ84",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199807",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199807/Steve-Lacy-tickets-Wed-Nov-11-2026-Red-Rocks-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-morrison-tickets-11-11-2026/event/107482322"
+  },
+  {
+    "id": "tm-steve-lacy-2026-las-vegas-169zkfdovza26a51",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Cosmopolitan of Las Vegas",
+    "datetime_iso": "2026-11-14T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006503801E64A9",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-las-vegas-nevada-11-13-2026/event/17006503801E64A9",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/las-vegas-nevada-the-cosmopolitan-of-las-vegas-2026-11-13-8-pm/concert/18485946",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-las-vegas-cosmopolitan-of-las-vegas-11-13-2026--concerts-rb/production/7423374",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-las-vegas-nevada-11-13-2026/event/17006503801E64A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006503801E64A9",
+        "discovery_event_id": "169ZkfdOvZA26A51",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-las-vegas-nevada-11-13-2026/event/17006503801E64A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423374,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-las-vegas-cosmopolitan-of-las-vegas-11-13-2026--concerts-rb/production/7423374",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199808",
+        "url": "https://www.ticketnetwork.com/en/p/8199808",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199808",
+        "url": "https://www.ticketliquidator.com/tickets/8199808/Steve-Lacy-tickets-Fri-Nov-13-2026-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482317",
+        "url": "https://www.stubhub.ie/steve-lacy-las-vegas-tickets-11-13-2026/event/107482317",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "169ZkfdOvZA26A51",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199808",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199808/Steve-Lacy-tickets-Fri-Nov-13-2026-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-las-vegas-tickets-11-13-2026/event/107482317"
+  },
+  {
+    "id": "tm-steve-lacy-2026-phoenix-16_zkf6fzza2g752",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2026-11-18T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006507200EB3AE",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-phoenix-arizona-11-17-2026/event/19006507200EB3AE",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/phoenix-arizona-arizona-financial-theatre-2026-11-17-8-pm/concert/18485948",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-phoenix-arizona-financial-theatre-11-17-2026--concerts-rb/production/7423380",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-phoenix-arizona-11-17-2026/event/19006507200EB3AE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006507200EB3AE",
+        "discovery_event_id": "16_Zkf6FZZA2G752",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-phoenix-arizona-11-17-2026/event/19006507200EB3AE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423380,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-phoenix-arizona-financial-theatre-11-17-2026--concerts-rb/production/7423380",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199809",
+        "url": "https://www.ticketnetwork.com/en/p/8199809",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199809",
+        "url": "https://www.ticketliquidator.com/tickets/8199809/Steve-Lacy-tickets-Tue-Nov-17-2026-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16_Zkf6FZZA2G752",
+    "timezone": "America/Phoenix",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199809",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199809/Steve-Lacy-tickets-Tue-Nov-17-2026-Arizona-Financial-Theatre"
+  },
+  {
+    "id": "tm-steve-lacy-2026-san-diego-vvg1iz_8prddbi",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Petco Park",
+    "datetime_iso": "2026-11-20T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006505AF0FB62C",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-diego-california-11-19-2026/event/0A006505AF0FB62C",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/san-diego-california-petco-park-2026-11-19-8-pm/concert/18485949",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-san-diego-gallagher-square-at-petco-park-11-19-2026--concerts-rb/production/7423386",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-diego-california-11-19-2026/event/0A006505AF0FB62C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006505AF0FB62C",
+        "discovery_event_id": "vvG1IZ_8pRdDbi",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-diego-california-11-19-2026/event/0A006505AF0FB62C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423386,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-san-diego-gallagher-square-at-petco-park-11-19-2026--concerts-rb/production/7423386",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199810",
+        "url": "https://www.ticketnetwork.com/en/p/8199810",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199810",
+        "url": "https://www.ticketliquidator.com/tickets/8199810/Steve-Lacy-tickets-Thu-Nov-19-2026-Gallagher-Square-at-Petco-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482318",
+        "url": "https://www.stubhub.ie/steve-lacy-san-diego-tickets-11-19-2026/event/107482318",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_8pRdDbi",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199810",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199810/Steve-Lacy-tickets-Thu-Nov-19-2026-Gallagher-Square-at-Petco-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-san-diego-tickets-11-19-2026/event/107482318"
+  },
+  {
+    "id": "tm-steve-lacy-2026-hollywood-vvg1iz_8f-wifq",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2026-11-22T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B00650521CA821D",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-hollywood-california-11-21-2026/event/0B00650521CA821D",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-los-angeles-hollywood-bowl-11-21-2026--concerts-rb/production/7423400",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-hollywood-california-11-21-2026/event/0B00650521CA821D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B00650521CA821D",
+        "discovery_event_id": "vvG1iZ_8f-wIFq",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-hollywood-california-11-21-2026/event/0B00650521CA821D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423400,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-los-angeles-hollywood-bowl-11-21-2026--concerts-rb/production/7423400",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199811",
+        "url": "https://www.ticketnetwork.com/en/p/8199811",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199811",
+        "url": "https://www.ticketliquidator.com/tickets/8199811/Steve-Lacy-tickets-Sat-Nov-21-2026-Hollywood-Bowl",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107484106",
+        "url": "https://www.stubhub.ie/steve-lacy-hollywood-tickets-11-21-2026/event/107484106",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_8f-wIFq",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199811",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199811/Steve-Lacy-tickets-Sat-Nov-21-2026-Hollywood-Bowl",
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-hollywood-tickets-11-21-2026/event/107484106"
+  },
+  {
+    "id": "tm-steve-lacy-2026-san-francisco-g5vyz_8boyp-m",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2026-11-25T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00650611C16877",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-francisco-california-11-24-2026/event/1C00650611C16877",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-11-24-8-pm/concert/18485954",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-san-francisco-bill-graham-civic-auditorium-11-24-2026--concerts-rb/production/7423408",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-francisco-california-11-24-2026/event/1C00650611C16877",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00650611C16877",
+        "discovery_event_id": "G5vYZ_8boYp-M",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-francisco-california-11-24-2026/event/1C00650611C16877",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423408,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-san-francisco-bill-graham-civic-auditorium-11-24-2026--concerts-rb/production/7423408",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199812",
+        "url": "https://www.ticketnetwork.com/en/p/8199812",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199812",
+        "url": "https://www.ticketliquidator.com/tickets/8199812/Steve-Lacy-tickets-Tue-Nov-24-2026-Bill-Graham-Civic-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482319",
+        "url": "https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-24-2026/event/107482319",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_8boYp-M",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199812",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199812/Steve-Lacy-tickets-Tue-Nov-24-2026-Bill-Graham-Civic-Auditorium",
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-24-2026/event/107482319"
+  },
+  {
+    "id": "tm-steve-lacy-2026-san-francisco-g5vyz_8bk7kme",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2026-11-26T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00650613106DC2",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-francisco-california-11-25-2026/event/1C00650613106DC2",
+    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-11-25-8-pm/concert/18613496",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-san-francisco-bill-graham-civic-auditorium-11-25-2026--concerts-rb/production/7600490",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-francisco-california-11-25-2026/event/1C00650613106DC2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00650613106DC2",
+        "discovery_event_id": "G5vYZ_8bK7kMe",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-san-francisco-california-11-25-2026/event/1C00650613106DC2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7600490,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-san-francisco-bill-graham-civic-auditorium-11-25-2026--concerts-rb/production/7600490",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8286236",
+        "url": "https://www.ticketnetwork.com/en/p/8286236",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8286236",
+        "url": "https://www.ticketliquidator.com/tickets/8286236/Steve-Lacy-tickets-Wed-Nov-25-2026-Bill-Graham-Civic-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672773",
+        "url": "https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-25-2026/event/107672773",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_8bK7kMe",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286236",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286236/Steve-Lacy-tickets-Wed-Nov-25-2026-Bill-Graham-Civic-Auditorium",
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-25-2026/event/107672773"
+  },
+  {
+    "id": "tm-steve-lacy-2026-seattle-vvg1hz_8pk8e2l",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "WAMU Theater",
+    "datetime_iso": "2026-11-29T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006505934273DF",
+    "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-seattle-washington-11-28-2026/event/0F006505934273DF",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-seattle-wamu-theater---seattle-11-28-2026--concerts-rb/production/7423416",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-seattle-washington-11-28-2026/event/0F006505934273DF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006505934273DF",
+        "discovery_event_id": "vvG1HZ_8pK8E2L",
+        "url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-seattle-washington-11-28-2026/event/0F006505934273DF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423416,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-seattle-wamu-theater---seattle-11-28-2026--concerts-rb/production/7423416",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199813",
+        "url": "https://www.ticketnetwork.com/en/p/8199813",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199813",
+        "url": "https://www.ticketliquidator.com/tickets/8199813/Steve-Lacy-tickets-Sat-Nov-28-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482320",
+        "url": "https://www.stubhub.ie/steve-lacy-seattle-tickets-11-28-2026/event/107482320",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_8pK8E2L",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199813",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199813/Steve-Lacy-tickets-Sat-Nov-28-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-seattle-tickets-11-28-2026/event/107482320"
+  },
+  {
+    "id": "tm-steve-lacy-2026-vancouver-1aozkf7gkepzmxx",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy: Oh yeah? Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "UBC - Doug Mitchell Thunderbird Sports Centre",
+    "datetime_iso": "2026-12-01T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006504A5E37FA2",
+    "ticketmaster_url": "https://www.ticketmaster.ca/steve-lacy-oh-yeah-tour-vancouver-british-columbia-11-30-2026/event/11006504A5E37FA2",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-11-30-2026--concerts-rb/production/7423426",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/steve-lacy-oh-yeah-tour-vancouver-british-columbia-11-30-2026/event/11006504A5E37FA2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006504A5E37FA2",
+        "discovery_event_id": "1AoZkf7GkePzMXx",
+        "url": "https://www.ticketmaster.ca/steve-lacy-oh-yeah-tour-vancouver-british-columbia-11-30-2026/event/11006504A5E37FA2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7423426,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-11-30-2026--concerts-rb/production/7423426",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8199816",
+        "url": "https://www.ticketnetwork.com/en/p/8199816",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8199816",
+        "url": "https://www.ticketliquidator.com/tickets/8199816/Steve-Lacy-tickets-Mon-Nov-30-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkf7GkePzMXx",
+    "timezone": "America/Vancouver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199816",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199816/Steve-Lacy-tickets-Mon-Nov-30-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre"
+  }
+]

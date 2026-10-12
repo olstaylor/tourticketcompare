@@ -1,6 +1,8 @@
-// Shared contract for artist date-alert emails.
+// Shared contract for TourTicketCompare emails: artist date alerts and the
+// optional weekly updates digest.
 //
-// Two writers touch these tables: scripts/send-date-alerts.mjs (records each
+// Writers: functions/api/signup.js records an updates opt-in (only when the
+// signup form's optional box is ticked). Two writers touch the send tables: scripts/send-date-alerts.mjs (records each
 // alert it sends, from GitHub Actions) and functions/api/unsubscribe.js (records
 // an opt-out from a link in that email). Both run the same idempotent schema
 // first, so the tables create themselves on first use and no manual migration
@@ -30,6 +32,16 @@ export const EMAIL_ALERT_SCHEMA_STATEMENTS = Object.freeze([
   email TEXT PRIMARY KEY,
   unsubscribed_at TEXT NOT NULL,
   source TEXT
+)`,
+  // One row per address that ticked the optional updates box. consent_text is
+  // the exact wording shown next to the box, kept as the record of what was
+  // agreed to. An unsubscribe after consented_at withdraws it; ticking the box
+  // again later refreshes consented_at, which is fresh consent.
+  `CREATE TABLE IF NOT EXISTS email_update_consents (
+  email TEXT PRIMARY KEY,
+  consented_at TEXT NOT NULL,
+  consent_text TEXT NOT NULL,
+  source_path TEXT
 )`
 ]);
 
@@ -38,6 +50,18 @@ export const EMAIL_ALERT_SCHEMA_STATEMENTS = Object.freeze([
 // Nothing else."). Presale/on-sale reminders would be a new purpose and need
 // their own consent wording first.
 export const DATE_ALERT_KIND = "dates_listed";
+
+// The optional box on the signup form. Unticked by default, and separate from
+// the date alert, which is sent whether or not it is ticked. Keep the form
+// copy in functions/[[path]].js and public/app.js identical to this text.
+export const UPDATES_CONSENT_TEXT =
+  "Also send me a weekly email of presales and on-sales coming up. Optional; unsubscribe any time.";
+
+// Weekly digest sends are recorded in email_alert_sends with this artist_slug
+// and one alert_kind per ISO week ("weekly_digest:2026-W46"), so nobody gets
+// the same week twice.
+export const DIGEST_ARTIST_SLUG = "*";
+export const DIGEST_KIND_PREFIX = "weekly_digest:";
 
 export function isUnsubscribeToken(value) {
   return /^[a-f0-9]{48}$/.test(String(value || ""));

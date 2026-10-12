@@ -3,144 +3,144 @@
   "note": "Content fingerprints for static routes. content_updated_at advances only when content_hash changes, so a published \"Updated\" date never moves without the copy moving. Do not hand-edit; run `npm run content:provenance`.",
   "routes": {
     "/guides/how-to-compare-concert-ticket-prices": {
-      "content_hash": "fd85ed5478e9b106",
-      "content_updated_at": "2026-10-05"
+      "content_hash": "ef1638e90778fe9d",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/vivid-seats-vs-ticketmaster": {
-      "content_hash": "8c49ce394faf3915",
-      "content_updated_at": "2026-10-05"
+      "content_hash": "b43b5d0745cdf3ad",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
-      "content_hash": "15beced9ffdea399",
-      "content_updated_at": "2026-10-05"
+      "content_hash": "6d6d60b8fb992cbc",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/seatgeek-vs-ticketmaster": {
-      "content_hash": "adacc9c71555a23a",
-      "content_updated_at": "2026-10-05"
+      "content_hash": "6482847b5d3217e0",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/ticketnetwork-vs-ticketmaster": {
-      "content_hash": "d469008493e87362",
-      "content_updated_at": "2026-10-05"
+      "content_hash": "4ba582eb81fb9aed",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/how-to-avoid-overpaying-for-concert-tickets": {
-      "content_hash": "d7660675d83c7eb0",
-      "content_updated_at": "2026-10-05"
+      "content_hash": "ea75f87931977f62",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/when-is-the-best-time-to-buy-concert-tickets": {
-      "content_hash": "40cb5a9bae744efb",
-      "content_updated_at": "2026-10-05"
+      "content_hash": "336ebaccb9e1167f",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/primary-vs-resale-concert-tickets": {
-      "content_hash": "f14125b2e78c240a",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "b3ea89bd6a15259f",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/how-to-avoid-ticket-scams": {
-      "content_hash": "fbb6fe7d7e5e6701",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "f66e8b7e94c72ffb",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/why-ticket-prices-change": {
-      "content_hash": "f2f85f7ac085ff75",
-      "content_updated_at": "2026-10-05"
+      "content_hash": "8f1e1075254a39ad",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/ticketmaster-vs-stubhub": {
-      "content_hash": "f5c12b9ad3317bcc",
-      "content_updated_at": "2026-10-05"
+      "content_hash": "a13959fb8d98d749",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/seatgeek-promo-code-guide": {
-      "content_hash": "5eca03c599c7509f",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "9f1dd86529785dec",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/concert-ticket-fees-explained": {
-      "content_hash": "00e84e1f44e1c92b",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "d51b13bb77d2a71a",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/ticket-delivery-and-transfer-timing": {
-      "content_hash": "f5a7fe50929a1d65",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "11652fdf2adc8679",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/how-resale-ticket-pricing-works": {
-      "content_hash": "fb83d00ef94fa131",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "5f439fd733923d9c",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/how-to-prepare-for-a-ticket-onsale": {
-      "content_hash": "3524cb3386639ec4",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "ebab9d7619544f83",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/how-to-read-a-ticket-listing": {
-      "content_hash": "d4e9bfc58bf8843f",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "cd0041a481768ea4",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/what-to-do-if-a-concert-is-postponed-or-cancelled": {
-      "content_hash": "15a3fb071d5c36a7",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "d80f7f74bb885dfc",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/seatgeek-vs-stubhub": {
-      "content_hash": "55eb853066859ec9",
-      "content_updated_at": "2026-10-05"
+      "content_hash": "cb48d2e2fd01ef1a",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/vivid-seats-vs-seatgeek": {
-      "content_hash": "da1e35b337af7411",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "3ffaf3cf8c6cfb5f",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/vivid-seats-vs-stubhub": {
-      "content_hash": "39e903428ec913db",
-      "content_updated_at": "2026-10-05"
+      "content_hash": "73545919fd183904",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/is-vivid-seats-legit": {
-      "content_hash": "c01100ab27fe143b",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "983e6ce2b200afa6",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/is-seatgeek-legit": {
-      "content_hash": "45654d519f2cc93b",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "5c9ec49f26352d68",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/is-ticket-liquidator-legit": {
-      "content_hash": "d324fb71181afe86",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "3a1921431008fc81",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/is-ticketnetwork-legit": {
-      "content_hash": "4ce6c42fd06b506a",
-      "content_updated_at": "2026-10-05"
+      "content_hash": "f776fdc0b3af07ab",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/no-tickets-left-on-ticketmaster": {
-      "content_hash": "0b4454eb950441b3",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "3987ea8a488777c6",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/stubhub-international-explained": {
-      "content_hash": "037be55abb2276e5",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "bb7d7e93f3a1952e",
+      "content_updated_at": "2026-10-11"
     },
     "/guides/vivid-seats-promo-codes-and-fees": {
-      "content_hash": "b178dbb5ca98a9da",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "d56bed52e7f02040",
+      "content_updated_at": "2026-10-11"
     },
     "/": {
-      "content_hash": "7d32668dded8aeba",
-      "content_updated_at": "2026-10-05"
+      "content_hash": "8a0667895c1424f7",
+      "content_updated_at": "2026-10-10"
     },
     "/compare-concert-ticket-prices": {
-      "content_hash": "7dc98ca9db882f8c",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "d53e10a450fb37dd",
+      "content_updated_at": "2026-10-11"
     },
     "/artists": {
-      "content_hash": "3c99a49550876586",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "dfc0045786dae73a",
+      "content_updated_at": "2026-10-10"
     },
     "/guides": {
-      "content_hash": "4163fe6532779195",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "bb87f668be5c11cd",
+      "content_updated_at": "2026-10-11"
     },
     "/how-it-works": {
-      "content_hash": "b70d945cf97219ef",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "f0ddec9da1a1ee13",
+      "content_updated_at": "2026-10-06"
     },
     "/currency-converter": {
-      "content_hash": "d74a545dd103b4c9",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "ff786a47a04a1a8e",
+      "content_updated_at": "2026-10-06"
     },
     "/about": {
-      "content_hash": "c4852bba4bc0af50",
-      "content_updated_at": "2026-09-24"
+      "content_hash": "7e3f06797d445107",
+      "content_updated_at": "2026-10-09"
     },
     "/about/ollie-taylor": {
       "content_hash": "b639edd07afca6ef",
@@ -149,6 +149,10 @@
     "/contact": {
       "content_hash": "b8962f4f15e12877",
       "content_updated_at": "2026-09-24"
+    },
+    "/press": {
+      "content_hash": "2f545969b6930008",
+      "content_updated_at": "2026-10-09"
     },
     "/editorial-policy": {
       "content_hash": "777e7fec65ff1ff3",
@@ -159,8 +163,8 @@
       "content_updated_at": "2026-09-24"
     },
     "/privacy": {
-      "content_hash": "cf06686568decba0",
-      "content_updated_at": "2026-10-02"
+      "content_hash": "4b8cfb630f38cfaa",
+      "content_updated_at": "2026-10-09"
     },
     "/terms": {
       "content_hash": "a0e52b2f50c20a43",

@@ -28,3 +28,11 @@ CREATE TABLE IF NOT EXISTS email_unsubscribes (
   unsubscribed_at TEXT NOT NULL,
   source TEXT
 );
+
+-- Added with the optional weekly updates opt-in (functions/api/signup.js).
+CREATE TABLE IF NOT EXISTS email_update_consents (
+  email TEXT PRIMARY KEY,
+  consented_at TEXT NOT NULL,
+  consent_text TEXT NOT NULL,
+  source_path TEXT
+);

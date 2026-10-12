@@ -152,6 +152,7 @@ robots meta.
 | Distinct venues | ≥ 2 | A single-venue city page *is* the venue page (`below_venue_threshold`, 2026-10-05) |
 | Shows with a publishable ticket destination | ≥ 1 | A page titled "concerts in X" that can lead nowhere cannot serve its own purpose |
 | Shows with ≥ 2 listed-price lanes | ≥ 1 | Comparison data, above (`no_price_comparison`, 2026-10-05) |
+| Shows with ≥ 2 listed-price lanes | ≥ 5 | A run of comparable dates, not one priced date in a schedule (`CITY_MIN_COMPARABLE_SHOWS`, `below_price_coverage_threshold`, owner-approved 2026-10-06) |
 
 The destination requirement is the part this policy added. "Can lead somewhere"
 means what the renderer means by it: a row whose own verification status is
@@ -172,8 +173,18 @@ concert calendar. That disclosure is visible on the page, not only in the FAQ.
 ### Venue — `/venues/<venue-city>`
 
 **Indexable when** all of these hold: ≥ 3 upcoming tracked shows, ≥ 2 distinct
-artists, ≥ 1 show with a publishable ticket destination, and ≥ 1 show with
-≥ 2 listed-price lanes (comparison data, above).
+artists, ≥ 1 show with a publishable ticket destination, and ≥ 4 shows with
+≥ 2 listed-price lanes (comparison data, above; `VENUE_MIN_COMPARABLE_SHOWS`,
+`below_price_coverage_threshold` when there are 1 to 3).
+
+**Comparable-date minimum (2026-10-06, owner-approved).** Search Console (3
+months to 2026-09-29) put city pages at average position 41 with one click, and
+gave impressions to only 28 of 184 indexed venue pages; venue pages had 4
+search visits in the following 30 days. Most low performers carried one to
+three comparable dates among a schedule, which is a templated calendar rather
+than price data. City and venue pages below the minimum render `noindex,follow`,
+leave the sitemap and stay linked; they return automatically as price lanes
+are verified on more of their dates.
 
 The bar is one show lower than a city's because venue intent is narrower and
 venue inventory turns over faster. The destination requirement is identical and
@@ -193,6 +204,16 @@ value is breadth: one artist's run is the artist page again. There is no
 destination requirement because the page links only to artist pages, never to
 a ticket site. Below the bar it renders `noindex,follow` and leaves the sitemap
 and `llms.txt`; it never 404s.
+
+### Tours hub — `/tours/2027`
+
+**Indexable since 2026-10-11** (owner OK; `TOURS_HUB_INDEXABLE = true` in
+`functions/_tours-hub.js`), in the pages sitemap and `llms.txt`. It lists every
+catalog artist whose own page is indexable and who has upcoming, non-cancelled
+dates in 2027 (venue-local year), with counts of dates, cities and countries and
+the month span, and links only to those artist pages: no event pages, no ticket
+sites, no prices. With no qualifying artist it renders `noindex,follow` and
+leaves the sitemap and `llms.txt`.
 
 ### Artist-city — `/artists/<artist>/tickets/<city>`
 
@@ -234,11 +255,12 @@ the page flips to `index,follow` and re-enters the sitemap on the next deploy.
 
 ### Event — `/events/<slug>-<key>`
 
-**A frozen 30-page pilot is indexable; nothing else is.** Every event page
+**Frozen, reviewed cohorts are indexable; nothing else is.** Every event page
 has a self-referencing canonical. It renders `noindex,follow` and is absent
-from every sitemap and `llms.txt` unless it is an *active pilot member* (below):
-one of the 30 stable keys frozen on 2026-09-27, eligible right now, on the
-canonical host with `EVENT_PAGES_INDEXING="pilot"`. The artist, artist-city,
+from every sitemap and `llms.txt` unless it is an *active cohort member* (below):
+one of the 30 stable pilot keys frozen on 2026-09-27 or a key in a staged batch
+(since 2026-10-09, below), eligible right now, on the canonical host with
+`EVENT_PAGES_INDEXING="pilot"`. The artist, artist-city,
 city and venue boards link each served date's page ("Show details") exactly as
 before — pilot and non-pilot alike, with no extra links to pilot pages — so the
 experiment measures the existing architecture; the internal-link audit never
@@ -335,8 +357,9 @@ it is the precise leaf while the thin city page stays out of the index.
 2. `EVENT_PAGES_INDEXING` is exactly `"pilot"` — compared as written, so
    `"PILOT"` or `" pilot "` is off (repo-managed in `wrangler.toml` `[vars]`;
    any other value or none is off);
-3. its stable key (16 hex digits, never the readable slug) is one of the 30 in
-   `EVENT_INDEXING_PILOT_KEYS`;
+3. its stable key (16 hex digits, never the readable slug) is in a frozen
+   cohort: the 30 `EVENT_INDEXING_PILOT_KEYS` or a staged batch in
+   `EVENT_INDEXING_BATCHES` (together `EVENT_INDEXED_COHORT_KEYS`);
 4. the request is on the canonical host (`isIndexableOrigin`). Cloudflare
    Pages previews receive the same `[vars]`, but a `*.pages.dev` host never
    activates the pilot: every event page there stays `noindex,follow`, the
@@ -349,8 +372,23 @@ not a pilot key, and a pilot key whose event is no longer eligible.
 answer; the router reads it (as `eventIndexingPilotFor`) for the event page's
 robots and the parent boards' structured data, and `/sitemaps/events.xml`,
 `/sitemap.xml` and `llms.txt` read the same function, so the four cannot
-disagree. Only the 30 keys are ever evaluated, so the indexed set can shrink
-but never grow past the cohort.
+disagree. Only cohort keys are ever evaluated (a board evaluates only the cohort
+keys it shows), so the indexed set can shrink but never grow past the reviewed
+cohorts.
+
+**Staged batches (owner decision 2026-10-09).** Event-page indexing widens
+beyond the pilot in staged batches, each its own frozen, measurable cohort:
+`EVENT_INDEXING_BATCHES` in `functions/_event-indexing-batches.js`, recorded
+with selection facts in `data/event-indexing-batches.json` and pinned to it by
+`npm run test:event-indexability`. `npm run events:indexing-batch:propose`
+(`scripts/select-event-indexing-batch.mjs`, read-only) proposes the next batch,
+stricter than eligibility: no `needs_recheck` anywhere in the record, every
+date spelled in a provider URL reads as the venue-local date, at least 21 days
+out, at most 6 pages per artist, single-date artist-city cases first. A batch is
+added by a reviewed PR only, roughly weekly, so each batch's performance can be
+read on its own with `npm run report:event-indexing-pilot -- --batch <id>`.
+Batches follow every pilot rule: necessary not sufficient, never replaced,
+never regenerated. Batch 1 (2026-10-09): 250 pages across 62 artists.
 
 **The cohort is an experiment, not a queue.** The 30 keys and the facts they
 were chosen on are recorded in `data/event-indexing-pilot.json` (selection
@@ -404,7 +442,8 @@ flag-off render.
 other value): on the next render every event page is `noindex,follow`, the
 events sitemap empties and parent nodes return to `#show-<id>`.
 
-**Measuring the pilot.** Production first served the pilot `index,follow` on
+**Measuring the pilot and batches.** `--batch <id>` runs the same report over a
+staged batch from `data/event-indexing-batches.json`. Production first served the pilot `index,follow` on
 **2026-09-27** (`launch_date` in `data/event-indexing-pilot.json`); measurement
 windows run from that date. `npm run report:event-indexing-pilot` (`--json`,
 or `npm run report:event-indexing-pilot:json`) is the read-only report on it.
@@ -508,14 +547,24 @@ Ticketmaster lists none right now; the artist page and `/on-sale` link it only
 while a window is live, so the empty state is reached only by a direct visit.
 
 **Indexable when** the artist has ≥ 1 upcoming date and ≥ 1 presale window
-that is open now or opens within 30 days (`PRESALE_PAGE_INDEX_DAYS`,
-`PRESALE_PAGE_MIN_WINDOWS`, `presalePageGate`) — **and** the artist page itself
-is indexable. Outside that it renders `noindex,follow` and leaves the sitemap
+that opens within 30 days or opened within the last 14 (`PRESALE_PAGE_INDEX_DAYS`,
+`PRESALE_PAGE_FRESH_DAYS`, `PRESALE_PAGE_MIN_WINDOWS`, `presalePageGate`) —
+**and** the artist page itself is indexable.
+
+**Fresh windows only (2026-10-09).** Ticketmaster also lists standing channels
+as presales, such as "VIP Packages Onsale" and card-member allocations, that
+open with the tour and close at each show. Counted as "open now", they indexed
+74 presale pages on the first data run, almost all for sales that had begun
+months earlier. Such a window still lists on the page; it no longer indexes it. Outside that it renders `noindex,follow` and leaves the sitemap
 and `llms.txt` until the next tour's presales are listed. New exclusion code:
 `no_presale_window`.
 
-It prints no presale code and links to no ticket site. It emits a `WebPage`
-about the artist and no `MusicEvent`, `Offer` or `FAQPage`.
+It prints no presale code. Since 2026-10-09 (owner-approved) it also shows the
+lowest listed resale price for each date it lists, with the site and check
+time, in the artist-city price table with its tracked buttons
+(`cta_location=presale_page`), and says resale is not face value. A date with
+no eligible price shows none, and a page with none links to no ticket site.
+It emits a `WebPage` about the artist and no `MusicEvent`, `Offer` or `FAQPage`.
 
 ### Blog — `/blog`, `/blog/<slug>`, `/blog/tags/<tag>`
 

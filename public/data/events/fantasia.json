@@ -37,7 +37,7 @@
         "event_id": 7621348,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-washington-capital-one-arena-2-5-2027--concerts-rb/production/7621348",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -114,7 +114,7 @@
         "event_id": 7621352,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-norfolk-norfolk-scope-arena-2-6-2027--concerts-rb/production/7621352",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -157,7 +157,7 @@
     "tour_name": "The Love of Soul Tour",
     "ticketmaster_event_id": "30006536FD148981",
     "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-belmont-park-new-york-02-12-2027/event/30006536FD148981",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fantasia-tickets/elmont-new-york-ubs-arena-2027-02-12-8-pm/concert/18632088",
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-elmont-ubs-arena-2-12-2027--concerts-rb/production/7621358",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-belmont-park-new-york-02-12-2027/event/30006536FD148981",
@@ -183,7 +183,7 @@
         "event_id": 7621358,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-elmont-ubs-arena-2-12-2027--concerts-rb/production/7621358",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -214,7 +214,7 @@
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-atlantic-city-boardwalk-hall-2-13-2027/production/7620565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-atlantic-city-new-jersey-02-13-2027/event/02006537B598C447",
-    "last_verified_at": "2026-10-03",
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -236,7 +236,7 @@
         "event_id": 7620565,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-atlantic-city-boardwalk-hall-2-13-2027/production/7620565",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -265,7 +265,14 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293966",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293966/The-Love-of-Soul-Tour-tickets-Sat-Feb-13-2027-Boardwalk-Hall-Arena-Boardwalk-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293966/The-Love-of-Soul-Tour-tickets-Sat-Feb-13-2027-Boardwalk-Hall-Arena-Boardwalk-Hall",
+    "presales": [
+      {
+        "name": "Platinum Onsale",
+        "start": "2026-10-02T14:00:00Z",
+        "end": "2027-02-14T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fantasia-2027-new-orleans-g5viz_k6css2k",
@@ -305,7 +312,7 @@
         "event_id": 7620697,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-new-orleans-smoothie-king-center-2-19-2027/production/7620697",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -382,7 +389,7 @@
         "event_id": 7621374,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-biloxi-mississippi-coast-coliseum-2-20-2027--concerts-rb/production/7621374",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -425,7 +432,7 @@
     "tour_name": "The Love of Soul Tour",
     "ticketmaster_event_id": "09006538BF19D600",
     "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-ontario-california-03-05-2027/event/09006538BF19D600",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fantasia-tickets/ontario-california-toyota-arena-ontario-2027-03-05-8-pm/concert/18629502",
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-ontario-toyota-arena---ca-3-5-2027--concerts-rb/production/7621376",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-ontario-california-03-05-2027/event/09006538BF19D600",
@@ -451,7 +458,7 @@
         "event_id": 7621376,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-ontario-toyota-arena---ca-3-5-2027--concerts-rb/production/7621376",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -528,7 +535,7 @@
         "event_id": 7621690,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-oakland-oakland-arena-3-6-2027/production/7621690",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -571,7 +578,7 @@
     "tour_name": "The Love of Soul Tour",
     "ticketmaster_event_id": "0C0065363F7FDF12",
     "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-fort-worth-texas-03-13-2027/event/0C0065363F7FDF12",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fantasia-tickets/fort-worth-texas-dickies-arena-2027-03-13-8-pm/concert/18645847",
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-fort-worth-dickies-arena-3-13-2027--concerts-rb/production/7621382",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-fort-worth-texas-03-13-2027/event/0C0065363F7FDF12",
@@ -597,7 +604,7 @@
         "event_id": 7621382,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-fort-worth-dickies-arena-3-13-2027--concerts-rb/production/7621382",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -648,7 +655,7 @@
     "tour_name": "The Love of Soul Tour",
     "ticketmaster_event_id": "0E006536B12E9C07",
     "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-atlanta-georgia-03-26-2027/event/0E006536B12E9C07",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fantasia-tickets/atlanta-georgia-state-farm-arena-1-2027-03-26-8-pm/concert/18629276",
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-atlanta-state-farm-arena-3-26-2027--concerts-rb/production/7621388",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-atlanta-georgia-03-26-2027/event/0E006536B12E9C07",
@@ -674,7 +681,7 @@
         "event_id": 7621388,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-atlanta-state-farm-arena-3-26-2027--concerts-rb/production/7621388",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -741,17 +748,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18629529,
+        "url": "https://seatgeek.com/fantasia-tickets/orlando-florida-addition-financial-arena-2027-03-27-8-pm/concert/18629529",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621390,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-orlando-addition-financial-arena-3-27-2027--concerts-rb/production/7621390",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -863,17 +870,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18629435,
+        "url": "https://seatgeek.com/fantasia-tickets/southaven-mississippi-landers-center-2027-04-10-8-pm/concert/18629435",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620711,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-southaven-landers-center-4-10-2027/production/7620711",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -932,17 +939,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18629294,
+        "url": "https://seatgeek.com/fantasia-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2027-04-16-8-pm/concert/18629294",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621400,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-jacksonville-vystar-veterans-memorial-arena-4-16-2027--concerts-rb/production/7621400",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -985,7 +992,7 @@
     "tour_name": "The Love of Soul Tour",
     "ticketmaster_event_id": "0D006535EBCEC7FF",
     "ticketmaster_url": "https://www.ticketmaster.com/the-love-of-soul-tour-hollywood-florida-04-17-2027/event/0D006535EBCEC7FF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fantasia-tickets/hollywood-florida-hard-rock-live-hollywood-2027-04-17-8-pm/concert/18631704",
     "vividseats_url": "https://www.vividseats.com/fantasia-barrino-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-4-17-2027--concerts-rb/production/7621402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-love-of-soul-tour-hollywood-florida-04-17-2027/event/0D006535EBCEC7FF",
@@ -1011,7 +1018,7 @@
         "event_id": 7621402,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-4-17-2027--concerts-rb/production/7621402",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1078,17 +1085,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18629227,
+        "url": "https://seatgeek.com/fantasia-tickets/phoenix-arizona-mortgage-matchup-center-2027-04-23-8-pm/concert/18629227",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7621404,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-phoenix-mortgage-matchup-center-4-23-2027--concerts-rb/production/7621404",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1157,7 +1164,7 @@
         "event_id": 7621606,
         "url": "https://www.vividseats.com/the-art-of-love-and-soul-tickets-charlotte-spectrum-center-5-7-2027/production/7621606",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1234,7 +1241,7 @@
         "event_id": 7621653,
         "url": "https://www.vividseats.com/fantasia-tickets-raleigh-lenovo-center-5-8-2027--concerts-dance-electronica/production/7621653",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1303,7 +1310,7 @@
         "event_id": 7620703,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-chicago-united-center-5-14-2027/production/7620703",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1380,7 +1387,7 @@
         "event_id": 7621413,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-detroit-little-caesars-arena-5-15-2027--concerts-rb/production/7621413",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1457,7 +1464,7 @@
         "event_id": 7621417,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-providence-amica-mutual-pavilion-5-21-2027--concerts-rb/production/7621417",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1526,7 +1533,7 @@
         "event_id": 7621441,
         "url": "https://www.vividseats.com/fantasia-barrino-tickets-newark-prudential-center-5-22-2027--concerts-rb/production/7621441",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1577,7 +1584,7 @@
     "tour_name": "The Love of Soul Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAef4J",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4J",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fantasia-tickets/las-vegas-nevada-mgm-grand-garden-arena-2027-04-24-8-pm/concert/18632945",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef4J",
@@ -1593,11 +1600,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632945,
+        "url": "https://seatgeek.com/fantasia-tickets/las-vegas-nevada-mgm-grand-garden-arena-2027-04-24-8-pm/concert/18632945",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

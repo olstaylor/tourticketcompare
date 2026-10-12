@@ -307,15 +307,15 @@ const musicEventFor = (nodes, id) => nodes.find((node) => node?.["@type"] === "M
   assert(city.showCount === LIVE.length + 1, `a city counts only its non-held dates (got ${city.showCount})`);
   assert(city.shows.length === EVENTS.length, "held dates stay listed on the city page");
 
-  // The case from the review: one live date plus two held dates by a second
-  // artist used to clear the venue gate (3 shows, 2 artists, 1 publishable).
+  // The case from the review: live dates plus two held dates by a second
+  // artist used to clear the venue gate (2 artists, publishable, comparable).
   const otherArtist = artistsMeta.find((artist) => artist?.indexing_status === "indexable_with_substantial_content" && artist.slug !== ARTIST.slug);
   const secondArtist = (event, id) => ({ ...event, id, artist_slug: otherArtist.slug, artist_name: otherArtist.name });
-  const venueCase = [SCHEDULED, secondArtist(CANCELLED, "other-cancelled"), secondArtist(POSTPONED, "other-postponed")];
+  const venueCase = [SCHEDULED, RESCHEDULED, secondArtist(CANCELLED, "other-cancelled"), secondArtist(POSTPONED, "other-postponed")];
   const withoutHolds = venueCase.map(({ ticketmaster_status_code, ...event }) => event);
   const venue = deriveVenues(venueCase, { now: NOW_MS })[0];
   assert(deriveVenues(withoutHolds, { now: NOW_MS })[0].indexable, "the same venue is indexable when nothing is held");
-  assert(!venue.indexable && venue.showCount === 1 && venue.artistCount === 1, `held dates cannot keep a venue indexed (got ${venue.showCount} shows, ${venue.artistCount} artists)`);
+  assert(!venue.indexable && venue.showCount === 2 && venue.artistCount === 1, `held dates cannot keep a venue indexed (got ${venue.showCount} shows, ${venue.artistCount} artists)`);
   assert(!deriveCities(venueCase, { now: NOW_MS })[0].indexable, "nor a city");
 
   const guide = derivePriceGuide(EVENTS, ARTIST.slug, { now: NOW_MS });

@@ -4,7 +4,7 @@ seo_title: Oasis 2027 ticket prices explained
 description: What a price shown for an Oasis Live '27 date means, why nights at the same stadium differ, and the face-value rules for UK and Irish resale.
 summary: With no general sale for Oasis Live '27, almost every price you can see for these dates is a resale price. Here is what those figures are, why two nights at the same stadium can look nothing alike, and which rules let you check a listing against what the ticket originally cost.
 date: 2026-09-25
-updated: 2026-10-01
+updated: 2026-10-08
 status: published
 tags:
   - tour-buying
@@ -33,6 +33,8 @@ Oasis Live '27 is sold through registration and unique codes, with no general sa
 
 ## Compare prices for the date you want
 
+[See Oasis resale ticket prices by date](/artists/oasis/ticket-prices) for the lowest listed snapshot on each priced night, the ticket site supplying it and when it was checked. The table also marks dates without a displayed price. These are resale snapshots, not an official face-value price list or a final checkout total.
+
 [Choose your city and concert night on the Oasis date board](/artists/oasis), then open the checked ticket links for that exact show. Where a card shows current listed prices, use them to decide which listings to inspect first. Keep the date, ticket quantity and seated or standing area fixed when comparing providers; a lower starting price for a different night or ticket type is a different purchase. Confirm the final total and current availability on the provider before paying.
 
 ## A price here is a resale snapshot, not the ticket's price
@@ -49,7 +51,7 @@ This post deliberately gives no face-value price list. The official sale is wher
 
 The tour stays put for long runs: eleven nights at the Etihad Stadium in Manchester, five at Celtic Park in Glasgow, six at Knebworth. The artist, tour and stadium are identical across each run, but resale prices are not. Each night has its own sellers and its own buyers, so a figure for one night tells you nothing about the next.
 
-That is why the [Oasis page](/artists/oasis) prices each date on its own card, and why each card has a "Show price snapshot history" button. The history lists earlier snapshots recorded for that date, so you can see whether today's figure is typical of what that night has shown or out of line with it. It is still a record of listed prices from one provider at a time, not a forecast. The [guide to how resale pricing works](/guides/how-resale-ticket-pricing-works) covers why asking prices move the way they do.
+That is why the [Oasis page](/artists/oasis) prices each date on its own card, and why priced cards have a "Show price history" button. The history lists earlier snapshots recorded for that date, so you can see whether today's figure is typical of what that night has shown or out of line with it. It is still a record of listed prices from one provider at a time, not a forecast. The [guide to how resale pricing works](/guides/how-resale-ticket-pricing-works) covers why asking prices move the way they do.
 
 ## The rules that let you check a listing
 

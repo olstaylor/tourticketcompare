@@ -121,7 +121,7 @@ export async function auditEventIndexability(site, options) {
   const { slugify } = await load("functions/_cities.js");
   const { middlewareModule, sitemapModule } = site.modules;
   const { events, artistsMeta, catalog } = site.data;
-  const pilotKeys = options.pilotKeys || policy.EVENT_INDEXING_PILOT_KEYS;
+  const pilotKeys = options.pilotKeys || policy.EVENT_INDEXED_COHORT_KEYS;
 
   const vars = wranglerVars(await fs.readFile(path.join(root, "wrangler.toml"), "utf8"));
   const env = { ...site.env, ...vars, ...STUB_CREDENTIALS };

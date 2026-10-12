@@ -11,6 +11,11 @@ ROOT = Path(__file__).resolve().parents[1]
 EVENTS_PATH = ROOT / "public" / "data" / "events.json"
 INDEX_PATH = ROOT / "public" / "data" / "events-index.json"
 PER_ARTIST_DIR = ROOT / "public" / "data" / "events"
+# events.json in contiguous slices, read by loadEvents in functions/[[path]].js
+# instead of the full file. Mirrors scripts/lib/event-shards.mjs: keep the size,
+# names and serialization in step with it.
+SHARD_DIR = PER_ARTIST_DIR / "_shards"
+SHARD_SIZE = 200
 ARTISTS_PATH = ROOT / "public" / "data" / "artists.json"
 INDEXABLE_ARTIST_STATUS = "indexable_with_substantial_content"
 
@@ -55,6 +60,27 @@ def group_by_artist(events: list[dict[str, Any]]) -> dict[str, list[dict[str, An
             continue
         grouped.setdefault(slug, []).append(event)
     return grouped
+
+
+def write_shards(records: list[Any]) -> int:
+    """Write events.json as contiguous shards plus a manifest.
+
+    Every record is kept as is, so the shards concatenate back to exactly the
+    parsed events.json array (validate-partitions.mjs checks it).
+    """
+    SHARD_DIR.mkdir(parents=True, exist_ok=True)
+    for file in SHARD_DIR.glob("*.json"):
+        file.unlink()
+    entries = []
+    for number, start in enumerate(range(0, len(records), SHARD_SIZE)):
+        shard = records[start : start + SHARD_SIZE]
+        name = f"{number:03d}.json"
+        body = json.dumps(shard, separators=(",", ":"), ensure_ascii=False)
+        (SHARD_DIR / name).write_text(body + "\n", encoding="utf-8")
+        entries.append({"path": f"/data/events/_shards/{name}", "count": len(shard)})
+    manifest = {"count": len(records), "shards": entries}
+    (SHARD_DIR / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    return len(entries)
 
 
 def zero_event_indexable_slugs(grouped: dict[str, list[dict[str, Any]]]) -> list[str]:
@@ -110,8 +136,10 @@ def main() -> int:
     for slug in empty_slugs:
         (PER_ARTIST_DIR / f"{slug}.json").write_text("[]\n", encoding="utf-8")
 
+    shard_count = write_shards(json.loads(EVENTS_PATH.read_text(encoding="utf-8")))
+
     print(
-        f"Wrote {INDEX_PATH} and {len(grouped) + len(empty_slugs)} artist files to {PER_ARTIST_DIR}"
+        f"Wrote {INDEX_PATH}, {shard_count} shards to {SHARD_DIR} and {len(grouped) + len(empty_slugs)} artist files to {PER_ARTIST_DIR}"
         f" ({len(empty_slugs)} empty, for indexable artists with no events)"
     )
     return 0

@@ -49,7 +49,7 @@ function spec(provider, name, price, currency = "USD", fetchedAt = "2026-08-09T0
     href: `/api/out?showId=x&provider=${provider}`,
     lane: { price, currency, fetchedAt, expiresAt: "2026-08-10T09:00:00Z" },
     priceAmount: `$${price}`,
-    priceAsOf: "9 Aug 2026, 09:00 UTC"
+    priceAsOf: "Aug 9, 2026, 9:00 AM UTC"
   };
 }
 
@@ -186,6 +186,11 @@ const SOLO = fixtureEvent({ id: "fixture-solo", city: SOLO_CITY, venue: VENUE, i
 // A two-venue run, so the table's venue column is exercised in both states.
 const MULTI_A = fixtureEvent({ id: "fixture-multi-a", city: MULTI_CITY, venue: "North Hall", iso: "2026-11-05T01:00:00Z" });
 const MULTI_B = fixtureEvent({ id: "fixture-multi-b", city: MULTI_CITY, venue: "South Pavilion", iso: "2026-11-07T01:00:00Z" });
+// A presale opened yesterday on the run city's two dates, for the presale
+// page's resale table.
+const PRESALE = { name: "Fixture Fan Presale", start: "2026-08-08T15:00:00Z", end: "2026-08-12T15:00:00Z" };
+RUN_A.presales = [PRESALE];
+RUN_B.presales = [PRESALE];
 const EVENTS = [RUN_A, RUN_B, SOLO, MULTI_A, MULTI_B];
 
 // Cache rows shaped exactly as provider_pricing_cache returns them. Vivid Seats
@@ -286,9 +291,10 @@ const baseAssets = new Map();
 for (const file of ASSET_FILES) baseAssets.set(`/${file}`, await read(`public/${file}`));
 baseAssets.set("/", baseAssets.get("/index.html"));
 
-function env({ withDb }) {
+function env({ withDb, priceRows = PRICE_ROWS, artists = null, runtime = {} }) {
   const assets = new Map(baseAssets);
   assets.set("/data/events.json", JSON.stringify(EVENTS));
+  if (artists) assets.set("/data/artists.json", JSON.stringify(artists));
   return {
     MOCK_MODE: "false",
     ALLOW_MOCK_PRICES: "false",
@@ -308,7 +314,8 @@ function env({ withDb }) {
     TICKETLIQUIDATOR_PRICE_DISPLAY_ENABLED: "false",
     STUBHUB_INTERNATIONAL_PUBLIC_ENABLED: "true",
     STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED: "true",
-    ...(withDb ? { DEMAND_DB: fakeDb(PRICE_ROWS, HISTORY_ROWS) } : {}),
+    ...runtime,
+    ...(withDb ? { DEMAND_DB: fakeDb(priceRows, HISTORY_ROWS) } : {}),
     ASSETS: {
       async fetch(request) {
         const body = assets.get(new URL(request.url).pathname);
@@ -318,10 +325,10 @@ function env({ withDb }) {
   };
 }
 
-async function render(pathname, { withDb = true } = {}) {
+async function render(pathname, { withDb = true, priceRows, artists, runtime } = {}) {
   const response = await middlewareModule.onRequest({
     request: new Request(`${ORIGIN}${pathname}`),
-    env: env({ withDb }),
+    env: env({ withDb, priceRows, artists, runtime }),
     next: () => new Response("static-asset", { status: 200 })
   });
   const html = await response.text();
@@ -367,7 +374,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(body.includes("$182"), "the first date's own lowest listed price is shown");
   assert(body.includes("$240"), "the second date's own lowest listed price is shown");
   assert(body.includes("Vivid Seats") && body.includes("TicketNetwork"), "each figure names the provider offering it");
-  assert(/captured|UTC/.test(body), "each figure carries its capture time");
+  assert(/<time datetime="[^"]+" title="[^"]*UTC">Checked [^<]+<\/time>/.test(page.main), "each figure carries its capture time (relative, with the UTC time on the element)");
 
   assert(
     !/\bfrom \$\d/i.test(body) && !/cheapest date/i.test(body) && !/lowest in [A-Z]/.test(body),
@@ -446,7 +453,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   );
 }
 
-// ── metadata stays free of live numbers ─────────────────────────────────────
+// ── dated HTML metadata mirrors the next show's gated snapshot ──────────────
 {
   const page = await render(RUN_PATH);
   assert(/\| (Compare )?Prices\b/.test(page.title), `the title carries the stable price intent token (was "${page.title}")`);
@@ -458,19 +465,40 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     `no live figure appears in the title (was "${page.title}")`
   );
   assert(!/[$£€]\s?\d/.test(page.title), "no currency figure appears in the title");
-  assert(
-    !/[$£€]\s?\d/.test(page.description),
-    "no live figure appears in the meta description, which is also the CollectionPage JSON-LD description"
-  );
-  assert(/current listed ticket prices/i.test(page.description), "the description says what the page compares");
+  assert(page.description.includes("Starting from US$182.00 listed at Vivid Seats"), `the snippet answers with the next date's listed price (got ${page.description})`);
+  assert(/Sep 10, 2026/.test(page.description), "the snippet identifies the venue-local show date");
+  assert(page.description.includes("checked 2026-08-09 09:00 UTC. Check fees."), "the snippet carries capture time and a fee caveat");
+  for (const pattern of [/<meta property="og:description" content="([^"]*)"/, /<meta name="twitter:description" content="([^"]*)"/]) {
+    assert(page.html.match(pattern)?.[1] === page.description, "search and social descriptions agree");
+  }
   assert(page.description.length <= 160, `the description stays within budget (was ${page.description.length})`);
 
   // Schema is untouched by this feature.
   const offers = [...page.html.matchAll(/"@type":"Offer"/g)].length;
   const faqQuestions = [...page.html.matchAll(/"@type":"Question"/g)].length;
   const schemaBlock = (page.html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/) || [])[1] || "";
+  assert(!/Starting from|US\$182/.test(schemaBlock), "the HTML snippet cannot introduce prices into structured data");
   assert(!/How much are/.test(schemaBlock), "the price question is not added to FAQ structured data");
   assert(offers >= 0 && faqQuestions >= 0, "structured data still parses");
+
+  const cheaperLater = await render(RUN_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === RUN_B.id ? { ...row, low_price: 99 } : row) });
+  assert(cheaperLater.description.includes("US$182.00") && !cheaperLater.description.includes("US$99.00"), "a cheaper later date never becomes a city-wide starting price");
+  const noNextPrice = await render(RUN_PATH, { priceRows: PRICE_ROWS.filter((row) => row.event_id !== RUN_A.id) });
+  assert(!/Starting from/.test(noNextPrice.description), "a missing price on the next date does not borrow another date's price");
+  const mixed = await render(RUN_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === RUN_A.id && row.provider === "ticketnetwork" ? { ...row, currency: "CAD" } : row) });
+  assert(!/Starting from/.test(mixed.description), "conflicting same-event currencies suppress the snippet price");
+  const expired = await render(RUN_PATH, { priceRows: PRICE_ROWS.map((row) => ({ ...row, expires_at: "2026-08-01T00:00:00Z" })) });
+  assert(!/Starting from/.test(expired.description), "expired snapshots never reach metadata");
+  const noDb = await render(RUN_PATH, { withDb: false });
+  assert(!/Starting from/.test(noDb.description) && /listed ticket prices/.test(noDb.description), "a cache outage preserves the price-free fallback");
+  const usd99 = await render(SOLO_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === SOLO.id ? { ...row, low_price: 99 } : row) });
+  assert(usd99.description.includes("Starting from US$99.00"), "USD is explicit and keeps both decimal places");
+  const cad99 = await render(SOLO_PATH, { priceRows: PRICE_ROWS.map((row) => row.event_id === SOLO.id ? { ...row, low_price: 99, currency: "CAD" } : row) });
+  assert(cad99.description.includes("Starting from CAD 99.00") && !cad99.description.includes("US$"), "Canadian dollars cannot be mistaken for USD");
+  const wrongSource = await render(SOLO_PATH, { priceRows: PRICE_ROWS.map((row) => ({ ...row, source: "unapproved" })) });
+  assert(!/Starting from/.test(wrongSource.description), "an unapproved price source never reaches the snippet");
+  const disabled = await render(SOLO_PATH, { runtime: { VIVIDSEATS_PRICE_DISPLAY_ENABLED: "false" } });
+  assert(!/Starting from/.test(disabled.description), "a display-disabled lane never reaches the snippet");
 }
 
 // ── a single-date page shows the answer and stays noindex ───────────────────
@@ -555,7 +583,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   // currency AND capture time; the event date is not the capture time, so a
   // row showing "Nov 4, 2026: $310" and nothing else would be unattributed.
   assert(
-    /: \$182, Vivid Seats \(snapshot 9 Aug 2026, 09:00 UTC\)/.test(body),
+    /: \$182, Vivid Seats \(checked Aug 9, 2026, 9:00 AM UTC\)/.test(body),
     "a city row carries the snapshot capture time beside the price, not just the event date"
   );
   // Counted rather than pattern-matched per row: what must hold is that the
@@ -563,7 +591,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   // the assertion.
   const cityList = body.slice(body.indexOf("Dates by city"), body.indexOf("Related guides"));
   const priced = [...cityList.matchAll(/: \$[\d.,]+, /g)].length;
-  const stamped = [...cityList.matchAll(/\(snapshot [^)]*UTC\)/g)].length;
+  const stamped = [...cityList.matchAll(/\(checked [^)]*UTC\)/g)].length;
   assert(priced >= 2, `more than one city row carries a price (was ${priced})`);
   assert(priced === stamped, `every priced city row carries a capture time (${priced} priced, ${stamped} stamped)`);
 }
@@ -580,11 +608,11 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   // carry-in has been dropped and the feature is silently reporting "no
   // history" for prices that have simply been stable.
   assert(
-    /30-day low \$150 · Vivid Seats, 1 Jul 2026/.test(body),
+    /30-day low \$150 · Vivid Seats, Jul 1, 2026/.test(body),
     "a low observed before the window opened is still reported, with its true observation date"
   );
   assert(
-    /30-day low \$175 · TicketNetwork, 20 Jul 2026/.test(body),
+    /30-day low \$175 · TicketNetwork, Jul 20, 2026/.test(body),
     "an in-window low is reported and attributed to the provider that recorded it"
   );
   // A $1 row sits in RUN_B's history. The floor is applied on read because
@@ -636,11 +664,11 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const body = text(page.main);
   assert(body.includes("Lowest listed price"), "the table still labels its figure");
   assert(
-    /lower listed figure/.test(body) && /never across different dates/.test(body),
+    /lower listed price is marked/.test(body) && /never different dates/.test(body),
     "the help copy states the comparison's real scope: same date, both directions bounded"
   );
   assert(
-    /never a claim that a site is cheaper overall/.test(body),
+    /doesn't mean a site is cheaper overall/.test(body),
     "the help copy still refuses the site-level verdict the policy forbids"
   );
   assert(!/\bcheapest\b|\bbest price\b/i.test(body), "no banned ranking copy reaches the page");
@@ -727,6 +755,38 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(!solo.main.includes("provider-cta-lowest"), "a date with a single priced provider has nothing to be lower than, so no badge");
   const unpriced = await render(RUN_PATH, { withDb: false });
   assert(!unpriced.main.includes("provider-cta-lowest"), "no prices, no badge");
+}
+
+// ─── the presale page reuses the table for its own dates ─────────────────────
+{
+  const presalePath = `/artists/${ARTIST.slug}/presale`;
+  const page = await render(presalePath);
+  assert(page.status === 200, "the presale page renders");
+  const section = (page.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [])[0] || "";
+  assert(section.includes(`${ARTIST.name} resale prices for these dates`), "the presale page carries its own resale table");
+  const body = text(section);
+  assert(body.includes("$182") && body.includes("$240"), "each presale date shows its own lowest listed price");
+  assert(!body.includes("$145"), "a date the page does not list never reaches its table");
+  assert(body.includes("not face value"), "the table says resale is not face value");
+  const outHrefs = [...section.matchAll(/href="([^"]+)"/g)].map((m) => m[1]).filter((href) => href.startsWith("/api/out?"));
+  assert(outHrefs.length >= 2 && outHrefs.every((href) => href.includes("ctaLocation=presale_page")), "presale-table CTAs carry their own cta_location");
+  assert(CTA_LOCATIONS.includes("presale_page"), "presale_page is in the allowlist, or /api/out discards it");
+  assert(page.main.includes("How this site makes money"), "a priced presale page carries the money disclosure");
+  const unpriced = await render(presalePath, { withDb: false });
+  assert(!unpriced.main.includes("/api/out"), "with no price on record the presale page links to no ticket site");
+  // A date with no price points to its card on the artist page: the presale
+  // page has no show cards of its own.
+  const partial = await render(presalePath, { priceRows: PRICE_ROWS.filter((row) => row.event_id !== RUN_B.id) });
+  const partialSection = (partial.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [])[0] || "";
+  const optionHrefs = [...partialSection.matchAll(/href="([^"]+)"[^>]*>See ticket options</g)].map((m) => m[1]);
+  assert(optionHrefs.length === 1 && optionHrefs[0].startsWith(`/artists/${ARTIST.slug}#`), `an unpriced presale row links to the artist page card: ${optionHrefs}`);
+  assert(!/href="#/.test(partialSection), "the presale table has no same-page anchor");
+  // An artist under review shows no ticket buttons anywhere, presale page included.
+  const reviewArtists = artistsMeta.map((artist) =>
+    String(artist?.slug) === ARTIST.slug ? { ...artist, indexing_status: "review_required" } : artist
+  );
+  const review = await render(presalePath, { artists: reviewArtists });
+  assert(!review.main.includes("/api/out") && !review.main.includes("artist-city-price-answer"), "an artist under review gets no presale resale table");
 }
 
 console.log(`artist-city-prices: ${passed} checks passed`);

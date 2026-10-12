@@ -1064,8 +1064,13 @@ function runSelfTest() {
     venue: offset === 5 ? "Test Hall" : "Test Arena",
     datetime_iso: new Date(later + offset * DAY_MS).toISOString()
   }));
+  // The comparable-date minimums (CITY_MIN_COMPARABLE_SHOWS,
+  // VENUE_MIN_COMPARABLE_SHOWS) mean projected dates, which carry no price
+  // lanes, can only rescue a page whose remaining dates already carry a run of
+  // comparable ones. Alpha keeps five such dates at Test Arena past the horizon.
+  const rescueEvents = [...events, ...[23, 24, 25, 26].map((day) => mk("alpha", "Testville", "Test Arena", day))];
   const scored = scoreCandidates(
-    events,
+    rescueEvents,
     [
       { name: "Delta", slug: "delta", attractionId: "K1", ticketmasterUrl: "", events: candidateEvents, marketCount: 1 },
       { name: "Epsilon", slug: "epsilon", attractionId: "K2", ticketmasterUrl: "", events: [], marketCount: 0 }
@@ -1248,27 +1253,25 @@ function runSelfTest() {
     { slug: "delta", name: "Delta", events: [mkEvent(1), mkEvent(2)] },
     { slug: "epsilon", name: "Epsilon", events: [mkEvent(3), mkEvent(4)] }
   ];
-  // One existing show in the room with a real destination. The venue gate needs
-  // >=3 shows, >=2 artists, >=1 publishable show AND >=1 show with two
-  // listed-price lanes; projections satisfy the first two and only this row
-  // satisfies the last two.
-  const seeded = [
-    {
-      artist_slug: "incumbent",
-      city: "Testville",
-      country: "United States",
-      venue: "Test Arena",
-      datetime_iso: new Date(batchAt).toISOString(),
-      ticketmaster_url: "https://www.ticketmaster.com/event/TESTSEED",
-      provider_links: {
-        "vivid-seats": { verified: true, url: "https://www.vividseats.com/x/production/TESTSEED" },
-        ticketnetwork: { verified: true, url: "https://www.ticketnetwork.com/tickets/TESTSEED" }
-      }
+  // Existing shows in the room by one artist, each with a real destination and
+  // two listed-price lanes. The venue gate needs >=2 artists, >=1 publishable
+  // show AND a run of comparable dates (VENUE_MIN_COMPARABLE_SHOWS); projections
+  // add artists and shows, and only these rows supply the price data.
+  const seeded = [0, 1, 2, 3].map((n) => ({
+    artist_slug: "incumbent",
+    city: "Testville",
+    country: "United States",
+    venue: "Test Arena",
+    datetime_iso: new Date(batchAt + n * 60 * 60 * 1000).toISOString(),
+    ticketmaster_url: `https://www.ticketmaster.com/event/TESTSEED${n}`,
+    provider_links: {
+      "vivid-seats": { verified: true, url: `https://www.vividseats.com/x/production/TESTSEED${n}` },
+      ticketnetwork: { verified: true, url: `https://www.ticketnetwork.com/tickets/TESTSEED${n}` }
     }
-  ];
+  }));
   const contribution = batchSurfaceContribution(seeded, [], batchPair, base, 180, 2, 10);
   assert("batch contribution reports the batch size it costed", contribution.batchSize === 2);
-  assert("one lone show clears no location gate on its own", contribution.baseline.total === 0);
+  assert("one artist's shows clear no location gate on their own", contribution.baseline.total === 0);
   assert("two candidates compose to clear the venue gate", contribution.withBatch.venues === 1);
   assert("batch contribution counts promoted artist pages too", contribution.added === contribution.withBatch.total);
   assert("batch contribution normalises to a 30-day rate", contribution.perThirtyDays === Math.round((contribution.added / 180) * 30));

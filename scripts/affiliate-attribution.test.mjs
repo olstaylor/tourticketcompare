@@ -2,6 +2,11 @@ import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { readFileSync } from 'node:fs';
 import { DatabaseSync } from 'node:sqlite';
+import { runInNewContext } from 'node:vm';
+import { webcrypto } from 'node:crypto';
+import { normalizeBrowserIntentId } from '../functions/_browser-intent.js';
+import { sanitizeMetadata } from '../functions/api/analytics.js';
+import { summarizeBrowserIntentPairs, buildStatements as buildFunnelStatements } from './report-commercial-funnel.mjs';
 import { onRequestGet } from '../functions/api/out.js';
 import {
   buildAttributionStatements, buildD1Statements, indexClickRows,
@@ -17,6 +22,125 @@ const event = {
   provider_links: { ticketmaster: { verified: true }, seatgeek: { verified: true } }
 };
 const campaigns = new Map([['9012', 'seatgeek'], ['2322', 'ticketnetwork']]);
+
+test('intent tokens stay TTC-only and cannot alter an approved destination', async () => {
+  const { db, env, request } = fixture();
+  try {
+    const id = '0123456789abcdef0123456789abcdef';
+    const response = await onRequestGet({ request: request(`showId=${event.id}&provider=seatgeek&browserIntentId=${id}`), env });
+    assert.equal(response.status, 302);
+    assert.equal(new URL(response.headers.get('Location')).searchParams.has('browserIntentId'), false);
+    const click = db.prepare("SELECT * FROM analytics_events WHERE event_name='outbound_click'").get();
+    assert.equal(JSON.parse(click.metadata_json).browserIntentId, id);
+    assert.notEqual(click.click_id, id);
+    db.prepare('INSERT INTO analytics_events (created_at,event_name,provider,event_id,metadata_json) VALUES (?,?,?,?,?)').run(click.created_at, 'provider_click', click.provider, click.event_id, JSON.stringify({ browserIntentId: id }));
+    const sql = buildFunnelStatements({ since: '', until: '' }).find(statement => statement.key === 'browserIntentPairs').sql;
+    db.prepare('INSERT INTO analytics_events (created_at,event_name,metadata_json) VALUES (?,?,?)').run(click.created_at, 'provider_click', '{malformed');
+    const pairs = db.prepare(sql).all();
+    assert.equal(summarizeBrowserIntentPairs(pairs).matched, 1);
+    db.prepare('INSERT INTO analytics_events (created_at,event_name,provider,event_id,metadata_json) VALUES (?,?,?,?,?)').run(click.created_at, 'provider_click', click.provider, click.event_id, JSON.stringify({ browserIntentId: id }));
+    assert.equal(summarizeBrowserIntentPairs(db.prepare(sql).all()).ambiguous, 1);
+    assert.deepEqual(sanitizeMetadata({ browserIntentId: id }), { browserIntentId: id });
+    for (const bad of [null, 12, ` ${id}`, `${id}x`, id.toUpperCase(), 'https://evil.example']) {
+      assert.equal(normalizeBrowserIntentId(bad), null);
+      assert.deepEqual(sanitizeMetadata({ browserIntentId: bad }), {});
+    }
+  } finally { db.close(); }
+});
+
+test('intent matching rejects duplicates, missing receipts, tuple and timing mismatches', () => {
+  const pair = { intents: 1, receipts: 1, blocked: 0, provider_min: 'seatgeek', provider_max: 'seatgeek', event_min: 'event1', event_max: 'event1', client_source_path: '/artists/test-artist', client_landing_path: '/blog/test-guide', first_at: '2026-10-09T10:00:00Z', last_at: '2026-10-09T10:00:01Z' };
+  const result = summarizeBrowserIntentPairs([pair, { ...pair, intents: 2 }, { ...pair, receipts: 0 }, { ...pair, provider_max: 'vivid-seats' }, { ...pair, event_max: 'event2' }, { ...pair, last_at: '2026-10-09T10:06:00Z' }]);
+  assert.equal(result.matched, 1);
+  assert.equal(result.ambiguous, 1);
+  assert.equal(result.unmatched, 1);
+  assert.equal(result.tuple_mismatch, 2);
+  assert.equal(result.timing_mismatch, 1);
+  assert.equal(result.conversion_rate, null);
+  assert.deepEqual(result.by_client_page, [{ source_path: '/artists/test-artist', landing_path: '/blog/test-guide', provider: 'seatgeek', matched_events: 1 }]);
+  assert.equal(JSON.stringify(result).includes('intent_id'), false);
+  const unknown = summarizeBrowserIntentPairs([{ ...pair, client_source_path: null, client_landing_path: '' }]);
+  assert.equal(unknown.by_client_page[0].source_path, '(unknown)');
+  assert.equal(unknown.by_client_page[0].landing_path, '(unknown)');
+  assert.equal(summarizeBrowserIntentPairs([{ ...pair, event_min: '', event_max: '', artist_min: 'one', artist_max: 'two' }]).matched, 0);
+  assert.equal(summarizeBrowserIntentPairs([{ ...pair, event_min: '', event_max: '', artist_min: '', artist_max: '' }]).matched, 0);
+  assert.equal(summarizeBrowserIntentPairs([{ ...pair, event_min: '', event_max: '', artist_min: 'one', artist_max: 'one' }]).matched, 1);
+  const blocked = summarizeBrowserIntentPairs([{ ...pair, receipts: 0, blocked: 1 }]);
+  assert.equal(blocked.blocked, 1);
+  assert.equal(blocked.unmatched, 0);
+  const ranked = summarizeBrowserIntentPairs([pair, pair, { ...pair, client_source_path: '/second' }, { ...pair, client_source_path: '/second' }, { ...pair, client_source_path: '/single' }], { top: 1, minClicks: 2 });
+  assert.equal(ranked.matched, 5);
+  assert.equal(ranked.by_client_page.length, 1);
+  assert.equal(ranked.by_client_page[0].matched_events, 2);
+});
+test('production shell handler sends the same nonce in its beacon and native CTA', () => {
+  const source = readFileSync(new URL('../public/shell.js', import.meta.url), 'utf8');
+  const listeners = new Map();
+  const beacons = [];
+  const ga4 = [];
+  const timers = [];
+  let accepted = false;
+  let href = '/api/out?showId=event1&provider=seatgeek';
+  const original = href;
+  const cta = { dataset: { ctaProvider: 'seatgeek', ctaShowId: 'event1', ctaArtist: 'test-artist' }, getAttribute: () => href, setAttribute: (key, value) => { href = value; }, closest: () => null };
+  const document = { referrer: '', querySelector: () => null, getElementById: () => null, addEventListener: (name, listener) => listeners.set(name, listener) };
+  const window = { location: new URL('https://tourticketcompare.com/artists/test-artist'), crypto: webcrypto, ttcConsent: { accepted: () => accepted }, setTimeout: callback => timers.push(callback), gtag: (...args) => ga4.push(args) };
+  runInNewContext(source, { window, document, navigator: { sendBeacon: (url, body) => beacons.push(JSON.parse(body)) }, sessionStorage: { getItem: () => null, setItem: () => {} }, URL, URLSearchParams, Uint8Array });
+  const click = listeners.get('click');
+  click({ target: { closest: () => cta }, isTrusted: true, button: 0 });
+  assert.equal(href, original);
+  assert.equal(beacons.at(-1).metadata.browserIntentId, undefined);
+  while (timers.length) timers.shift()();
+  accepted = true;
+  click({ target: { closest: () => cta }, isTrusted: true, button: 0 });
+  const nonce = beacons.at(-1).metadata.browserIntentId;
+  assert.equal(normalizeBrowserIntentId(nonce), nonce);
+  assert.equal(new URL(href, window.location.origin).searchParams.get('browserIntentId'), nonce);
+  assert.equal(ga4.some(args => JSON.stringify(args).includes(nonce)), false);
+  while (timers.length) timers.shift()();
+  assert.equal(href, original);
+});
+
+test('direct Ticketmaster and malformed tokens retain checked destinations without a forwarded intent ID', async () => {
+  for (const token of ['0123456789abcdef0123456789abcdef', 'malformed-token']) {
+    const { db, env, request } = fixture();
+    try {
+      const response = await onRequestGet({ request: request(`showId=${event.id}&provider=ticketmaster&browserIntentId=${token}`), env });
+      assert.equal(response.status, 302);
+      assert.equal(response.headers.get('Location'), event.ticketmaster_url);
+      const click = db.prepare("SELECT * FROM analytics_events WHERE event_name='outbound_click'").get();
+      assert.equal(click.impact_reconciliation_eligible, 0);
+      assert.equal(JSON.parse(click.metadata_json).browserIntentId, normalizeBrowserIntentId(token) || undefined);
+      assert.equal(new URL(response.headers.get('Location')).searchParams.has('subId1'), false);
+      assert.equal(new URL(response.headers.get('Location')).searchParams.has('browserIntentId'), false);
+    } finally { db.close(); }
+  }
+});
+
+test('browser activation is consented, native, TTC-only and restores the link', () => {
+  const source = readFileSync(new URL('../public/app.js', import.meta.url), 'utf8');
+  const body = source.slice(source.indexOf('function attachBrowserIntent('), source.indexOf('\ndocument.addEventListener("click", (event) => {', source.indexOf('function attachBrowserIntent(')));
+  let accepted = true;
+  const timers = [];
+  const window = { location: { origin: 'https://tourticketcompare.com', href: 'https://tourticketcompare.com/artists/test-artist' }, crypto: webcrypto, ttcConsent: { accepted: () => accepted }, setTimeout: callback => timers.push(callback) };
+  const attach = runInNewContext(`${body}; attachBrowserIntent`, { window, URL, Uint8Array });
+  let href = '/api/out?showId=event1&provider=seatgeek';
+  const cta = { getAttribute: () => href, setAttribute: (key, value) => { href = value; } };
+  const original = href;
+  const id = attach(cta, { isTrusted: true, button: 0 });
+  assert.equal(normalizeBrowserIntentId(id), id);
+  assert.equal(new URL(href, window.location.origin).searchParams.get('browserIntentId'), id);
+  timers.shift()();
+  assert.equal(href, original);
+  accepted = false;
+  assert.equal(attach(cta, { isTrusted: true, button: 0 }), null);
+  accepted = true;
+  assert.equal(attach(cta, { isTrusted: false, button: 0 }), null);
+  assert.equal(attach(cta, { isTrusted: true, button: 1 }), null);
+  href = 'https://evil.example/api/out';
+  assert.equal(attach(cta, { isTrusted: true, button: 0 }), null);
+  assert.equal(href, 'https://evil.example/api/out');
+});
 function fixture() {
   const db = new DatabaseSync(':memory:');
   for (const file of ['0001_demand', '0002_analytics_click_fields', '0008_analytics_commercial_funnel', '0009_impact_reconciliation_eligibility']) {
@@ -29,7 +153,7 @@ function fixture() {
     OUT_CLICK_ID_SUBID_ENABLED: 'true'
   };
   const request = (query = `showId=${event.id}&provider=seatgeek&sourcePath=/cities/berlin-germany&ctaLocation=event_card`) =>
-    new Request(`https://tourticketcompare.com/api/out?${query}`, { headers: { 'user-agent': 'Mozilla/5.0', 'cf-connecting-ip': '203.0.113.7' } });
+    new Request(`https://tourticketcompare.com/api/out?${query}`, { headers: { 'user-agent': 'Mozilla/5.0', 'cf-connecting-ip': '203.0.113.7', 'sec-fetch-user': '?1' } });
   return { db, env, request };
 }
 function lookup(db, actions) {

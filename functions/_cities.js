@@ -1,3 +1,4 @@
+import { isUpcomingShow, showStartMs } from "./_upcoming.js";
 import { canonicalCity, venueSlug } from "./_venues.js";
 import { cityGate, eventLifecycleHeld, eventPublishable, eventPriceComparable, eventStatusPublishable } from "./_route-indexability.js";
 
@@ -122,8 +123,8 @@ function deriveCitiesUncached(events, options = {}) {
     const venue = String(event.venue || "").trim();
     const artistSlug = slugify(event.artist_slug);
     const iso = String(event.dateTimeISO || event.datetime_iso || "").trim();
-    const ts = Date.parse(iso);
-    if (!city || !country || !venue || !artistSlug || !Number.isFinite(ts) || ts < now) continue;
+    const ts = showStartMs(event);
+    if (!city || !country || !venue || !artistSlug || !isUpcomingShow(event, now)) continue;
 
     const slug = citySlug(city, country);
     if (!slug) continue;

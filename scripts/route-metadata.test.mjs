@@ -206,17 +206,21 @@ assert(artistTourLabel([]) === "" && artistTourLabel(undefined) === "", "no date
 
 const olivia = { name: "Olivia Rodrigo", seo_title: "Olivia Rodrigo Tickets & Tour Dates | TourTicketCompare" };
 assert(
-  artistPageTitle(olivia, "2026–2027", "The Unraveled Tour") === "Olivia Rodrigo Tickets 2026–2027 | The Unraveled Tour Dates",
-  "a shared tour name replaces the generic tail"
+  artistPageTitle(olivia, "2026–2027", "The Unraveled Tour", { priced: false }) === "Olivia Rodrigo Tickets 2026–2027 | The Unraveled Tour Dates",
+  "on an unpriced board a shared tour name replaces the generic tail"
+);
+assert(
+  artistPageTitle(olivia, "2026–2027", "The Unraveled Tour") === "Olivia Rodrigo Tickets 2026–2027 | Compare Prices & Dates",
+  "a priced board keeps \"Compare Prices\" ahead of the tour name"
 );
 const oasis = { name: "Oasis", seo_title: "Oasis Tickets & Tour Dates | TourTicketCompare" };
 assert(
-  artistPageTitle(oasis, "2027", "Oasis Live '27") === "Oasis Tickets 2027 | Oasis Live '27 Tour Dates",
+  artistPageTitle(oasis, "2027", "Oasis Live '27", { priced: false }) === "Oasis Tickets 2027 | Oasis Live '27 Tour Dates",
   "\"Tour\" is appended only when the name lacks it"
 );
 const gracie = { name: "Gracie Abrams", seo_title: "Gracie Abrams Tickets & Tour Dates | TourTicketCompare" };
 assert(
-  artistPageTitle(gracie, "2026–2027", "The Look at My Life Tour") === "Gracie Abrams Look at My Life Tour Tickets 2026–2027",
+  artistPageTitle(gracie, "2026–2027", "The Look at My Life Tour", { priced: false }) === "Gracie Abrams Look at My Life Tour Tickets 2026–2027",
   "an over-budget tour tail falls back to the tour-led query form, dropping a leading \"The\""
 );
 assert(

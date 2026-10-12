@@ -1014,24 +1014,24 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7583748",
-        "url": "https://www.ticketnetwork.com/en/p/7583748",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7583748",
-        "url": "https://www.ticketliquidator.com/tickets/7583748/Zach-Bryan-tickets-Sat-Oct-10-2026-Jordan-Hare-Stadium",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7r4ev",
     "status": "on-sale",
     "timezone": "America/Chicago",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7583748",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7583748/Zach-Bryan-tickets-Sat-Oct-10-2026-Jordan-Hare-Stadium"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   }
 ]

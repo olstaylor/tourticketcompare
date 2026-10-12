@@ -63,6 +63,7 @@
  * @property {VenueRun[]} multiNightRuns Venues with more than one tracked date, largest first.
  * @property {number} multiNightShowCount Shows that sit inside a multi-night run.
  * @property {number} showsWithCta   Shows rendering at least one provider button.
+ * @property {number} showsWithPrice Shows whose card prints an approved listed-price snapshot.
  * @property {number} showsWithoutCta
  * @property {boolean} providerCoverageVaries True when the per-date provider count is not uniform.
  * @property {number} maxProviderCount
@@ -88,6 +89,7 @@ const EMPTY_STATUS = /** @type {ArtistBoardStatus} */ ({
   multiNightRuns: [],
   multiNightShowCount: 0,
   showsWithCta: 0,
+  showsWithPrice: 0,
   showsWithoutCta: 0,
   providerCoverageVaries: false,
   maxProviderCount: 0
@@ -122,6 +124,7 @@ export function deriveArtistBoardStatus(shows) {
   const venues = [];
   const runCounts = new Map();
   let showsWithCta = 0;
+  let showsWithPrice = 0;
   let maxProviderCount = 0;
   let minProviderCount = Infinity;
 
@@ -138,6 +141,7 @@ export function deriveArtistBoardStatus(shows) {
     }
     const providerCount = Number.isFinite(show.ctaProviderCount) ? Number(show.ctaProviderCount) : 0;
     if (providerCount > 0) showsWithCta += 1;
+    if (show.hasPriceSnapshot === true) showsWithPrice += 1;
     maxProviderCount = Math.max(maxProviderCount, providerCount);
     minProviderCount = Math.min(minProviderCount, providerCount);
   }
@@ -171,6 +175,7 @@ export function deriveArtistBoardStatus(shows) {
     multiNightRuns,
     multiNightShowCount: multiNightRuns.reduce((total, run) => total + run.count, 0),
     showsWithCta,
+    showsWithPrice,
     showsWithoutCta: ordered.length - showsWithCta,
     providerCoverageVaries: minProviderCount !== maxProviderCount,
     maxProviderCount
@@ -209,7 +214,7 @@ export function artistSearchIntro(artist, status, options = {}) {
     // so once. An ended tour keeps the fuller sentence; its board lists the
     // recent dates below it.
     return Number(options.pastShowCount) > 0
-      ? `No upcoming ${name} dates are listed right now. Dates appear here once the source lists them, and ticket buttons once their links pass the site's checks.`
+      ? `No upcoming ${name} dates are listed right now.`
       : `No ${name} dates yet.`;
   }
 
@@ -321,15 +326,11 @@ export function deriveTourSummaries(shows) {
  */
 export function artistTicketHelp() {
   return {
-    intro:
-      "TourTicketCompare doesn't sell tickets. You buy on the ticket site the button opens.",
+    intro: "TourTicketCompare doesn't sell tickets. Each button opens a ticket site, and you buy there.",
     points: [
-      "A button on a date card opens that exact date on the ticket site.",
-      "The buttons under \"Where to buy\" open the artist's page on each ticket site, not a specific date.",
-      "A price is one site's listed price for that date, captured at the time shown beside it: a snapshot, not live stock and not your final total.",
-      "When several sites have a snapshot for the same date, the lower listed figure is marked. That compares one date only: never across different dates, and never a claim that a site is cheaper overall.",
-      "Fees, delivery and tax are added at the provider's checkout, so compare the total there.",
-      "A date can be listed without a button, for example before it goes on sale or while its link is still being matched to that exact event."
+      "A button on a date card opens that exact date.",
+      "When two sites list a price for the same date, the lower listed price is marked. That compares one date only, never different dates, and doesn't mean a site is cheaper overall.",
+      "A date with no button usually isn't on sale yet, or its link hasn't been checked yet."
     ]
   };
 }
@@ -353,7 +354,7 @@ export function artistEmptyBoardCopy(artist, options = {}) {
   if (!pastShowCount) {
     return {
       heading: "No dates yet",
-      body: `When Ticketmaster lists a ${name} date it appears here, with its ticket links.`,
+      body: `When Ticketmaster lists a ${name} date it appears here, and its ticket links follow once they are checked.`,
       next: "",
       compact: true
     };
@@ -361,9 +362,9 @@ export function artistEmptyBoardCopy(artist, options = {}) {
   return {
     heading: "No upcoming dates listed",
     body: pastShowCount
-      ? `There are no upcoming ${name} dates on file. The tracked dates have already taken place, and there's no way to say yet whether more are coming.`
-      : `There are no upcoming ${name} dates on file, and no way to say yet whether any are coming.`,
-    next: `When the source lists a ${name} date, it appears here, with a ticket button once its link has passed the site's checks.`
+      ? `${name}'s recent dates have passed and no new ones are listed yet.`
+      : `No ${name} dates are listed yet.`,
+    next: `New dates show up here once they're listed, and ticket buttons once their links are checked.`
   };
 }
 
@@ -408,7 +409,7 @@ export function artistFaqEntries(artist, status, options = {}) {
   } else {
     entries.push([
       `Are there upcoming ${name} dates?`,
-      `Not right now. A date is listed only once the source confirms it, and a ticket button is added only once its link passes the site's checks.`
+      `Not right now. New dates show up on this page as soon as they're listed.`
     ]);
   }
 
@@ -416,6 +417,23 @@ export function artistFaqEntries(artist, status, options = {}) {
   // repeated in the FAQ.
   const SUPERSEDED = [/tour dates\?/i, /prices can i see/i, /prices shown here/i];
   const authored = Array.isArray(artist?.faq) ? artist.faq : [];
+
+  // "How much are <artist> tickets?" is the price question searchers actually
+  // type (Search Console, 2026-10). It is answered from this page's own cards
+  // whenever one prints a listed price, unless the artist's authored FAQ
+  // already asks it. The answer carries counts only, never a figure: it is
+  // also FAQPage JSON-LD, and a tour-wide price is approved nowhere.
+  const authoredPriceQuestion = authored.some((entry) => /how much/i.test(cleanString(entry?.question)));
+  if (status && status.showsWithPrice > 0 && !authoredPriceQuestion) {
+    const priced =
+      status.showsWithPrice === status.showCount
+        ? `Every upcoming ${name} date on this page shows a listed price right now.`
+        : `${status.showsWithPrice} of the ${plural(status.showCount, "upcoming date")} on this page show a listed price right now.`;
+    entries.push([
+      `How much are ${name} tickets?`,
+      `It depends on the date, city and seat. ${priced} Each figure is one ticket site's listed price for that date, with the time it was checked; it isn't face value or a final total, and fees are added at checkout. Compare the same date and seat type across sites before you buy.`
+    ]);
+  }
   for (const entry of authored) {
     if (!entry || typeof entry !== "object") continue;
     const question = cleanString(entry.question);

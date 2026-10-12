@@ -29,10 +29,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: '22'
 
@@ -67,7 +67,7 @@ jobs:
           echo "Confirmed: public/data/events.json unchanged."
 
       - name: Upload proposal artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: seatgeek-discovery-proposal
           path: reports/seatgeek-url-candidates.json

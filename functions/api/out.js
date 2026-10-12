@@ -1,5 +1,6 @@
 import { impactMarketplacePublicEnabled } from "../_impact-marketplace-config.js";
-import { isLikelyBot } from "../_bot-detection.js";
+import { browserIntentIdFromRequest } from "../_browser-intent.js";
+import { describeNavigation, isLikelyBot } from "../_bot-detection.js";
 import { insertAnalyticsRow } from "../_analytics-write.js";
 import { eventLifecycleHeld } from "../_route-indexability.js";
 import {
@@ -38,7 +39,21 @@ const PROVIDERS = {
       "ticketmaster.be",
       "ticketmaster.it",
       "ticketmaster.com.au",
-      "ticketmaster.ie"
+      "ticketmaster.ie",
+      "ticketmaster.com.mx",
+      "ticketmaster.co.nz",
+      "ticketmaster.cz",
+      "ticketmaster.no",
+      "ticketmaster.fi",
+      "ticketmaster.ch",
+      "ticketmaster.at",
+      "ticketmaster.dk",
+      "ticketmaster.co.za",
+      "ticketmaster.ae",
+      "ticketmaster.com.br",
+      "ticketmaster.sg",
+      "ticketweb.com",
+      "ticketweb.ca"
     ],
     trustedAffiliateHosts: []
   },
@@ -1456,6 +1471,230 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-carly-rae-jepsen",
     redirectUrl: "https://seatgeek.com/carly-rae-jepsen-tickets",
     verified: true
+  },
+  "the-neighbourhood:ticketmaster": {
+    artistSlug: "the-neighbourhood",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-neighbourhood",
+    redirectUrl: "https://www.ticketmaster.com/the-neighbourhood-tickets/artist/2164718",
+    verified: true
+  },
+  "the-neighbourhood:seatgeek": {
+    artistSlug: "the-neighbourhood",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-neighbourhood",
+    redirectUrl: "https://seatgeek.com/the-neighbourhood-tickets",
+    verified: true
+  },
+  "staind:ticketmaster": {
+    artistSlug: "staind",
+    provider: "ticketmaster",
+    linkId: "tm-artist-staind",
+    redirectUrl: "https://www.ticketmaster.com/staind-tickets/artist/717721",
+    verified: true
+  },
+  "staind:seatgeek": {
+    artistSlug: "staind",
+    provider: "seatgeek",
+    linkId: "sg-artist-staind",
+    redirectUrl: "https://seatgeek.com/staind-tickets",
+    verified: true
+  },
+  "dylan-gossett:ticketmaster": {
+    artistSlug: "dylan-gossett",
+    provider: "ticketmaster",
+    linkId: "tm-artist-dylan-gossett",
+    redirectUrl: "https://www.ticketmaster.com/dylan-gossett-tickets/artist/3086445",
+    verified: true
+  },
+  "dylan-gossett:seatgeek": {
+    artistSlug: "dylan-gossett",
+    provider: "seatgeek",
+    linkId: "sg-artist-dylan-gossett",
+    redirectUrl: "https://seatgeek.com/dylan-gossett-tickets",
+    verified: true
+  },
+  "flans:ticketmaster": {
+    artistSlug: "flans",
+    provider: "ticketmaster",
+    linkId: "tm-artist-flans",
+    redirectUrl: "https://www.ticketmaster.com/flans-tickets/artist/2046401",
+    verified: true
+  },
+  "flans:seatgeek": {
+    artistSlug: "flans",
+    provider: "seatgeek",
+    linkId: "sg-artist-flans",
+    redirectUrl: "https://seatgeek.com/flans-tickets",
+    verified: true
+  },
+  "warren-zeiders:ticketmaster": {
+    artistSlug: "warren-zeiders",
+    provider: "ticketmaster",
+    linkId: "tm-artist-warren-zeiders",
+    redirectUrl: "https://www.ticketmaster.com/warren-zeiders-tickets/artist/2869566",
+    verified: true
+  },
+  "warren-zeiders:seatgeek": {
+    artistSlug: "warren-zeiders",
+    provider: "seatgeek",
+    linkId: "sg-artist-warren-zeiders",
+    redirectUrl: "https://seatgeek.com/warren-zeiders-tickets",
+    verified: true
+  },
+  "dancing-with-the-stars:ticketmaster": {
+    artistSlug: "dancing-with-the-stars",
+    provider: "ticketmaster",
+    linkId: "tm-artist-dancing-with-the-stars",
+    redirectUrl: "https://www.ticketmaster.com/dancing-with-the-stars-tickets/artist/1086116",
+    verified: true
+  },
+  "dancing-with-the-stars:seatgeek": {
+    artistSlug: "dancing-with-the-stars",
+    provider: "seatgeek",
+    linkId: "sg-artist-dancing-with-the-stars",
+    redirectUrl: "https://seatgeek.com/dancing-with-the-stars-1-tickets",
+    verified: true
+  },
+  "def-leppard:ticketmaster": {
+    artistSlug: "def-leppard",
+    provider: "ticketmaster",
+    linkId: "tm-artist-def-leppard",
+    redirectUrl: "https://www.ticketmaster.com/def-leppard-tickets/artist/734898",
+    verified: true
+  },
+  "def-leppard:seatgeek": {
+    artistSlug: "def-leppard",
+    provider: "seatgeek",
+    linkId: "sg-artist-def-leppard",
+    redirectUrl: "https://seatgeek.com/def-leppard-tickets",
+    verified: true
+  },
+  "nickelback:ticketmaster": {
+    artistSlug: "nickelback",
+    provider: "ticketmaster",
+    linkId: "tm-artist-nickelback",
+    redirectUrl: "https://www.ticketmaster.com/nickelback-tickets/artist/710632",
+    verified: true
+  },
+  "nickelback:seatgeek": {
+    artistSlug: "nickelback",
+    provider: "seatgeek",
+    linkId: "sg-artist-nickelback",
+    redirectUrl: "https://seatgeek.com/nickelback-tickets",
+    verified: true
+  },
+  "jay-wheeler:ticketmaster": {
+    artistSlug: "jay-wheeler",
+    provider: "ticketmaster",
+    linkId: "tm-artist-jay-wheeler",
+    redirectUrl: "https://www.ticketmaster.com/jay-wheeler-tickets/artist/2795427",
+    verified: true
+  },
+  "jay-wheeler:seatgeek": {
+    artistSlug: "jay-wheeler",
+    provider: "seatgeek",
+    linkId: "sg-artist-jay-wheeler",
+    redirectUrl: "https://seatgeek.com/jay-wheeler-tickets",
+    verified: true
+  },
+  "mico:ticketmaster": {
+    artistSlug: "mico",
+    provider: "ticketmaster",
+    linkId: "tm-artist-mico",
+    redirectUrl: "https://www.ticketmaster.com/mico-tickets/artist/3000734",
+    verified: true
+  },
+  "mico:seatgeek": {
+    artistSlug: "mico",
+    provider: "seatgeek",
+    linkId: "sg-artist-mico",
+    redirectUrl: "https://seatgeek.com/mico-tickets",
+    verified: true
+  },
+  "rod-wave:ticketmaster": {
+    artistSlug: "rod-wave",
+    provider: "ticketmaster",
+    linkId: "tm-artist-rod-wave",
+    redirectUrl: "https://www.ticketmaster.com/rod-wave-tickets/artist/2663489",
+    verified: true
+  },
+  "rod-wave:seatgeek": {
+    artistSlug: "rod-wave",
+    provider: "seatgeek",
+    linkId: "sg-artist-rod-wave",
+    redirectUrl: "https://seatgeek.com/rod-wave-tickets",
+    verified: true
+  },
+  "uicideboy:ticketmaster": {
+    artistSlug: "uicideboy",
+    provider: "ticketmaster",
+    linkId: "tm-artist-uicideboy",
+    redirectUrl: "https://www.ticketmaster.com/uicideboy-tickets/artist/2194218",
+    verified: true
+  },
+  "uicideboy:seatgeek": {
+    artistSlug: "uicideboy",
+    provider: "seatgeek",
+    linkId: "sg-artist-uicideboy",
+    redirectUrl: "https://seatgeek.com/uicideboy-tickets",
+    verified: true
+  },
+  "steve-lacy:ticketmaster": {
+    artistSlug: "steve-lacy",
+    provider: "ticketmaster",
+    linkId: "tm-artist-steve-lacy",
+    redirectUrl: "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907",
+    verified: true
+  },
+  "steve-lacy:seatgeek": {
+    artistSlug: "steve-lacy",
+    provider: "seatgeek",
+    linkId: "sg-artist-steve-lacy",
+    redirectUrl: "https://seatgeek.com/steve-lacy-tickets",
+    verified: true
+  },
+  "the-smashing-pumpkins:ticketmaster": {
+    artistSlug: "the-smashing-pumpkins",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-smashing-pumpkins",
+    redirectUrl: "https://www.ticketmaster.com/the-smashing-pumpkins-tickets/artist/736143",
+    verified: true
+  },
+  "the-smashing-pumpkins:seatgeek": {
+    artistSlug: "the-smashing-pumpkins",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-smashing-pumpkins",
+    redirectUrl: "https://seatgeek.com/the-smashing-pumpkins-tickets",
+    verified: true
+  },
+  "fuerza-regida:ticketmaster": {
+    artistSlug: "fuerza-regida",
+    provider: "ticketmaster",
+    linkId: "tm-artist-fuerza-regida",
+    redirectUrl: "https://www.ticketmaster.com/fuerza-regida-tickets/artist/2499958",
+    verified: true
+  },
+  "fuerza-regida:seatgeek": {
+    artistSlug: "fuerza-regida",
+    provider: "seatgeek",
+    linkId: "sg-artist-fuerza-regida",
+    redirectUrl: "https://seatgeek.com/fuerza-regida-tickets",
+    verified: true
+  },
+  "mei-semones:ticketmaster": {
+    artistSlug: "mei-semones",
+    provider: "ticketmaster",
+    linkId: "tm-artist-mei-semones",
+    redirectUrl: "https://www.ticketmaster.com/mei-semones-tickets/artist/2964416",
+    verified: true
+  },
+  "mei-semones:seatgeek": {
+    artistSlug: "mei-semones",
+    provider: "seatgeek",
+    linkId: "sg-artist-mei-semones",
+    redirectUrl: "https://seatgeek.com/mei-semones-tickets",
+    verified: true
   }
 };
 
@@ -2351,14 +2590,39 @@ async function hashRequestKey(request) {
   }
 }
 
-// The authoritative outbound-click record. Every monetized and unmonetized CTA
-// on the site navigates through here, so this row — not the client beacon — is
-// what the commercial funnel counts. `provider_click` is the client's
-// statement of intent; `outbound_click` is the server's record that a redirect
-// was actually issued. See docs/COMMERCIAL_FUNNEL.md.
+// Browser-controlled signals for a top-level user navigation. They qualify only
+// the analytics receipt: valid redirects must keep working for every compatible
+// request, including headerless browsers and link checkers. Sec-Fetch-* headers
+// cannot be set by page scripts, so they exclude the automated direct /api/out
+// hits without pretending to prove that a person clicked the CTA.
+//
+// `Sec-Fetch-User: ?1` alone is not enough: iOS Safari omits it when a CTA
+// opens in a new tab, and after fetch_user_v1 shipped no iPhone receipt was
+// recorded while redirects kept working. A same-origin navigation (the CTA's
+// own `Sec-Fetch-Site`/`Sec-Fetch-Mode`) qualifies as well; a direct hit
+// arrives as `none` or with no Sec-Fetch headers at all.
+function hasUserNavigationSignal(request) {
+  if (request?.method !== "GET") return false;
+  const headers = request.headers;
+  if (headers.get("sec-fetch-user") === "?1") return true;
+  return headers.get("sec-fetch-site") === "same-origin" && headers.get("sec-fetch-mode") === "navigate";
+}
+
+// Keep this marker in metadata rather than adding a D1 column: it makes the
+// post-deployment measurement population explicit without a schema migration.
+// Funnel reports must select it so old, unqualified rows are never blended
+// into this population during a rolling date window. v1 rows required
+// Sec-Fetch-User; v2 also accepts a same-origin navigation (see above).
+const RECEIPT_QUALIFICATION = "user_navigation_v2";
+
+// The authoritative qualified outbound-click record. Every monetized and
+// unmonetized CTA on the site navigates through here, so this row — not the
+// client beacon — is what the commercial funnel counts. `provider_click` is
+// the client's statement of intent; `outbound_click` is the server's record
+// that a qualified redirect was actually issued. See docs/COMMERCIAL_FUNNEL.md.
 async function trackClick({ request, env, link, sourcePath, destinationHost, ctaLocation, clickId, impactTracked = false, impactReconciliationEligible = false, outcome = "redirected", status = null }) {
   const db = getDemandDb(env);
-  if (!db) return;
+  if (!db || !hasUserNavigationSignal(request)) return;
   // Self-identifying crawlers follow every affiliate link on the page, which
   // inflated outbound_click far above real demand. Skip the analytics write for
   // them; the redirect itself is untouched and still resolves normally.
@@ -2382,6 +2646,7 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
     : (destinationCategory === "affiliate_network" ? 1 : 0);
   const userAgent = clean(request.headers.get("user-agent"), 255) || null;
   const metadata = JSON.stringify({
+    browserIntentId: browserIntentIdFromRequest(request) || undefined,
     provider: link.provider,
     artistSlug: link.artistSlug,
     showId: link.showId || null,
@@ -2393,7 +2658,9 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
     guideSlug: link.guideSlug || undefined,
     position: link.position || undefined,
     outcome,
-    status: status || undefined
+    status: status || undefined,
+    receiptQualification: RECEIPT_QUALIFICATION,
+    navigation: describeNavigation(request)
   });
 
   await insertAnalyticsRow(db, {
@@ -2437,7 +2704,7 @@ async function trackClick({ request, env, link, sourcePath, destinationHost, cta
 // The same opaque click ID joins this row to exactly one terminal outcome.
 async function trackOutboundAttempt({ request, env, link, sourcePath, ctaLocation, clickId }) {
   const db = getDemandDb(env);
-  if (!db || isLikelyBot(request.headers.get("user-agent"))) return;
+  if (!db || !hasUserNavigationSignal(request) || isLikelyBot(request.headers.get("user-agent"))) return;
   const path = normalizeAnalyticsPath(sourcePath);
   const pageType = classifyPageType(path);
   const userAgent = clean(request.headers.get("user-agent"), 255) || null;
@@ -2458,7 +2725,9 @@ async function trackOutboundAttempt({ request, env, link, sourcePath, ctaLocatio
       ctaLocation: normalizeCtaLocation(ctaLocation) || undefined,
       guideSlug: link.guideSlug || undefined,
       position: link.position || undefined,
-      outcome: "attempted"
+      outcome: "attempted",
+      receiptQualification: RECEIPT_QUALIFICATION,
+      navigation: describeNavigation(request)
     }),
     provider: link.provider || null,
     tour_slug: null,

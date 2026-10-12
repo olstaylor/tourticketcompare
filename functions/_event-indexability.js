@@ -23,7 +23,8 @@
 //                         in a sitemap. Eligible AND the rollout allows it
 //                         (eventPageIndexingDecision): the flag is "pilot", the
 //                         request is on the canonical host, and the stable key
-//                         is one of the 30 frozen EVENT_INDEXING_PILOT_KEYS.
+//                         is in a frozen cohort: the 30 EVENT_INDEXING_PILOT_KEYS
+//                         or a staged batch (EVENT_INDEXED_COHORT_KEYS).
 //
 // Design rules:
 //
@@ -62,6 +63,7 @@ import { artistPageIndexable } from "./_artist-indexability.js";
 import { PRICE_GUIDE_SNAPSHOT_PROVIDERS, linkVerifiedWithUrl } from "./_price-guides.js";
 import { findArtistCity } from "./_artist-cities.js";
 import { citySlug, slugify } from "./_cities.js";
+import { EVENT_INDEXING_BATCHES } from "./_event-indexing-batches.js";
 
 // ---------------------------------------------------------------------------
 // Thresholds
@@ -533,6 +535,16 @@ export const EVENT_INDEXING_PILOT_KEYS = Object.freeze(/** @type {string[]} */ (
   "d64a9bd109f76856" // Michelle Branch · House of Blues Houston, Houston · 2027-03-07
 ]));
 
+// Every key the rollout may index: the frozen pilot plus each staged batch
+// (functions/_event-indexing-batches.js, owner decision 2026-10-09). Each
+// cohort keeps its own list so it can be measured on its own; the rollout
+// treats them alike. Duplicates across cohorts are rejected by
+// npm run test:event-indexability.
+export const EVENT_INDEXED_COHORT_KEYS = Object.freeze([
+  ...EVENT_INDEXING_PILOT_KEYS,
+  ...EVENT_INDEXING_BATCHES.flatMap((batch) => batch.keys)
+]);
+
 export const EVENT_INDEXING_ROLLOUT_REASONS = Object.freeze({
   NOT_ELIGIBLE: "not_eligible",
   INDEXING_OFF: "indexing_off",
@@ -560,20 +572,20 @@ const pilotFlagOn = eventPagesIndexingEnabled;
 
 /**
  * Should this event page actually render index,follow and be listed in a
- * sitemap? Eligible by policy AND the flag is "pilot" AND its stable key is on
- * the pilot list. Per decision; the router, sitemaps and llms.txt call it
+ * sitemap? Eligible by policy AND the flag is "pilot" AND its stable key is in
+ * a frozen cohort (the pilot or a staged batch: EVENT_INDEXED_COHORT_KEYS). Per decision; the router, sitemaps and llms.txt call it
  * through deriveEventIndexingPilot, which adds the host rule.
  *
  * @param {EventIndexabilityDecision} decision
  * @param {Record<string, unknown> | null | undefined} env
- * @param {{ pilotKeys?: readonly string[] }} [options] Tests inject a list; production uses EVENT_INDEXING_PILOT_KEYS.
+ * @param {{ pilotKeys?: readonly string[] }} [options] Tests inject a list; production uses EVENT_INDEXED_COHORT_KEYS.
  * @returns {{ indexable: boolean, reason: string }}
  */
 export function eventPageIndexingDecision(decision, env, options = {}) {
   const R = EVENT_INDEXING_ROLLOUT_REASONS;
   if (!decision?.eligible) return { indexable: false, reason: R.NOT_ELIGIBLE };
   if (!pilotFlagOn(env)) return { indexable: false, reason: R.INDEXING_OFF };
-  const keys = options.pilotKeys || EVENT_INDEXING_PILOT_KEYS;
+  const keys = options.pilotKeys || EVENT_INDEXED_COHORT_KEYS;
   if (!decision.key || !keys.includes(decision.key)) return { indexable: false, reason: R.NOT_IN_PILOT };
   return { indexable: true, reason: "" };
 }
@@ -608,8 +620,9 @@ export function eventPageIndexingDecision(decision, env, options = {}) {
  * (`hostIndexable` true, from isIndexableOrigin — never true on *.pages.dev
  * previews), the flag must be exactly "pilot", each key must name exactly one
  * event, and that event must pass eventIndexabilityDecision now. Only the
- * pilot keys are evaluated, never the whole eligible population, so the
- * indexed set can shrink but never grow past the cohort.
+ * cohort keys (pilot plus staged batches) are evaluated, never the whole
+ * eligible population, so the indexed set can shrink but never grow past the
+ * reviewed cohorts.
  *
  * @param {any[]} events   Every events.json record — the full file, never an artist partition.
  * @param {any[]} artists  artists.json records.
@@ -624,7 +637,7 @@ export function deriveEventIndexingPilot(events, artists, env, options = {}) {
   const inactive = (reason) => ({ active: false, reason, members: [], indexed: [], pathById: new Map() });
   if (options.hostIndexable !== true) return inactive(R.HOST_NOT_INDEXABLE);
   if (!pilotFlagOn(env)) return inactive(R.INDEXING_OFF);
-  const pilotKeys = options.pilotKeys || EVENT_INDEXING_PILOT_KEYS;
+  const pilotKeys = options.pilotKeys || EVENT_INDEXED_COHORT_KEYS;
   const now = Number.isFinite(options.now) ? Number(options.now) : Date.now();
   const lanesFor = typeof options.lanesFor === "function" ? options.lanesFor : () => [];
   const list = Array.isArray(events) ? events : [];

@@ -27,7 +27,11 @@ assert.deepEqual(buildProviderUrlReport([...rows].reverse(), registry, now), rep
 assert.equal(buildProviderUrlReport([event("past", { datetime_iso: "2025-01-01T20:00:00Z" }),
   event("date-only", { datetime_iso: "2027-01-01" }), event("naive", { datetime_iso: "2027-01-01T20:00:00" }),
   event("cancelled", { ticketmaster_status_code: "cancelled" }), update(event("done"))], registry, now).batches.length, 0);
-assert.equal(buildProviderUrlReport([event("unverified", { verification_status: "machine_high_confidence", seatgeek_url: url })], registry, now).batches.length, 1);
+const paused = { artists: [{ ...registry.artists[0], sync_enabled: false }] };
+assert.equal(buildProviderUrlReport(rows, paused, now).batches.length, 0, "a demoted artist's gaps are not work");
+assert.deepEqual(currentProviderUrlBatch({ artistSlug: "test-artist", performerId: 123, eventIds: ["e00"] }, rows, paused, now),
+  { ok: true, events: [] }, "an open item for a demoted artist has no safe work");
+assert.equal(buildProviderUrlReport([event("unverified",{ verification_status: "machine_high_confidence", seatgeek_url: url })], registry, now).batches.length, 1);
 assert.throws(() => buildProviderUrlReport([event("same"), event("same")], registry, now));
 assert.throws(() => extractProviderUrlFindings({ ...report, complete: false }));
 const findings = extractProviderUrlFindings(report);
@@ -106,9 +110,13 @@ for (const bad of [
   [{ ...after[0], provider_links: { seatgeek: { ...after[0].provider_links.seatgeek, extra: true } } }, after[1]]
 ]) assert.equal(verifyProviderUrlChanges(before, bad, plan, [result("e00")]).ok, false);
 assert.equal(verifyProviderUrlChanges(before, after, plan, []).ok, false);
-assert.equal(classifyDiff(plan.expectedPaths, plan).ok, true);
-for (const forbidden of ["functions/api/out.js", "public/data/artists.json", "public/data/events/another-artist.json", ".github/workflows/x.yml"]) {
-  assert.equal(classifyDiff([...plan.expectedPaths, forbidden], plan).ok, false);
+// git reports files, so the declared shard directory shows up as its files.
+const changedFiles = [...plan.expectedPaths.filter((file) => !file.endsWith("_shards")),
+  "public/data/events/_shards/000.json", "public/data/events/_shards/manifest.json"];
+assert.equal(classifyDiff(changedFiles, plan).ok, true);
+for (const forbidden of ["functions/api/out.js", "public/data/artists.json", "public/data/events/another-artist.json", ".github/workflows/x.yml",
+  "public/data/events/_shards/notes.json", "public/data/events/_shards/nested/000.json"]) {
+  assert.equal(classifyDiff([...changedFiles, forbidden], plan).ok, false);
 }
 assert.equal(classifyDiff(["public/data/events.json"], { ...plan, type: "generated_artifact_stale" }).ok, false);
 assert.equal(buildPullRequest({ plan, diff: {} }).body.includes("human"), true);

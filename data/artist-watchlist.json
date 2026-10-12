@@ -1,0 +1,253 @@
+{
+  "description": "Major acts with no tour on sale yet: rumoured 2027 tours (reason \"rumoured\", with the report that names them in source_url) and big names between tours (\"between-tours\"). Nothing here gets a page while it has no dates. Each day roster-candidates.yml and auto-promote.yml run scripts/artist-watchlist.mjs, which asks Ticketmaster how many upcoming events each open entry has; an entry with at least 8 (a tour, not a festival slot or one-off) goes first in that day's candidate list and must then pass the FULL D1-D5 screen (no relaxed request thresholds) under the normal daily/weekly caps. An artist that is already on the site is ignored, so entries can stay. A name belongs in this file or data/artist-requests.json, never both. Validate with `npm run artists:watchlist:check`. Runbook: docs/ARTIST_INGESTION.md.",
+  "artists": [
+    {
+      "name": "Taylor Swift",
+      "reason": "rumoured",
+      "source_url": "https://www.yahoo.com/entertainment/music/articles/taylor-swift-reportedly-planning-2027-103043096.html",
+      "note": "Reported (anonymous sources) to be planning a 2027 tour; nothing announced.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Drake",
+      "reason": "rumoured",
+      "source_url": "https://www.vividseats.com/blog/2027-concert-tour-predictions",
+      "note": "Said he plans to tour in 2027; no dates. One Ticketmaster date on 2026-10-11, below the tour threshold.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Cardi B",
+      "reason": "rumoured",
+      "source_url": "https://www.vividseats.com/blog/2027-concert-tour-predictions",
+      "note": "Said in an interview she expects a large 2027 tour including Europe; no dates.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Luis Miguel",
+      "reason": "rumoured",
+      "source_url": "https://www.vividseats.com/blog/2027-concert-tour-predictions",
+      "note": "Teased \"Luis Miguel Tour 2027\" on social media; no dates.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Dua Lipa",
+      "reason": "rumoured",
+      "source_url": "https://en.tempo.co/read/2120265/from-bts-to-dua-lipa-here-are-rumored-headliners-of-coachella-2027",
+      "note": "Rumoured Coachella 2027 headliner (HITS Daily Double); a festival slot alone will not pass the tour threshold.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Justin Bieber",
+      "reason": "rumoured",
+      "source_url": "https://engagehospitality.co.uk/big-rumoured-concerts-for-2027/",
+      "note": "Insiders reportedly point to a 2027 return to touring; unconfirmed.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "U2",
+      "reason": "rumoured",
+      "source_url": "https://engagehospitality.co.uk/big-rumoured-concerts-for-2027/",
+      "note": "Adam Clayton reportedly suggested a 2026 or 2027 tour depending on the next album.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Celine Dion",
+      "reason": "rumoured",
+      "source_url": "https://www.vividseats.com/blog/2027-concert-tour-predictions",
+      "note": "Listed as trending for 2027. 23 Ticketmaster listings on 2026-10-11 but none on sale, so the request screen held it.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Benson Boone",
+      "reason": "between-tours",
+      "note": "Two Ticketmaster dates on 2026-10-11, below the tour threshold.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Adele",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Billie Eilish",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Kendrick Lamar",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "SZA",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Travis Scott",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Rihanna",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Chappell Roan",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Lana Del Rey",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Tyler, The Creator",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Bruce Springsteen",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "The Rolling Stones",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Paul McCartney",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "AC/DC",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Green Day",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Linkin Park",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "P!nk",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Billy Joel",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Arctic Monkeys",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Sam Fender",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Olivia Dean",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Hozier",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "The 1975",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "BLACKPINK",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "SEVENTEEN",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Peso Pluma",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Sleep Token",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Bad Omens",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Doechii",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Shania Twain",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Pearl Jam",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    },
+    {
+      "name": "Bon Jovi",
+      "reason": "between-tours",
+      "note": "No tour on sale on Ticketmaster or SeatGeek on 2026-10-11.",
+      "added": "2026-10-11"
+    }
+  ]
+}

@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/eros-ramazzotti-tickets-new-york-radio-city-music-hall-10-2-2027/production/7505558",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-new-york-new-york-10-02-2027/event/3C00651D84A312B0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -37,7 +37,7 @@
         "event_id": 7505558,
         "url": "https://www.vividseats.com/eros-ramazzotti-tickets-new-york-radio-city-music-hall-10-2-2027/production/7505558",
         "verified": true,
-        "last_verified_at": "2026-10-05",
+        "last_verified_at": "2026-10-09",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -66,6 +66,510 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8244289",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244289/Eros-Ramazzotti-tickets-Sat-Oct-2-2027-Radio-City-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8244289/Eros-Ramazzotti-tickets-Sat-Oct-2-2027-Radio-City-Music-Hall",
+    "presales": [
+      {
+        "name": "Chase Cardholder Preferred Tickets",
+        "start": "2026-09-04T14:00:00Z",
+        "end": "2027-10-03T01:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-eros-ramazzotti-2027-toronto-1avzzbigklzuxko",
+    "artist_slug": "eros-ramazzotti",
+    "artist_name": "Eros Ramazzotti",
+    "event_name": "Eros Ramazzotti - UNA HISTORIA IMPORTANTE",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Coca-Cola Coliseum",
+    "datetime_iso": "2027-09-25T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000628AC03624E0",
+    "ticketmaster_url": "https://www.ticketmaster.ca/eros-ramazzotti-una-historia-importante-toronto-ontario-09-24-2027/event/1000628AC03624E0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/eros-ramazzotti-una-historia-importante-toronto-ontario-09-24-2027/event/1000628AC03624E0",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000628AC03624E0",
+        "discovery_event_id": "1AvZZbIGklZuxKO",
+        "url": "https://www.ticketmaster.ca/eros-ramazzotti-una-historia-importante-toronto-ontario-09-24-2027/event/1000628AC03624E0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZbIGklZuxKO",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled"
+  },
+  {
+    "id": "tm-eros-ramazzotti-2027-laval-1aszk16gkexqstp",
+    "artist_slug": "eros-ramazzotti",
+    "artist_name": "Eros Ramazzotti",
+    "event_name": "Eros Ramazzotti - UNA HISTORIA IMPORTANTE",
+    "city": "Laval",
+    "country": "Canada",
+    "venue": "Place Bell",
+    "datetime_iso": "2027-09-27T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006287A2771FE5",
+    "ticketmaster_url": "https://www.ticketmaster.ca/eros-ramazzotti-una-historia-importante-laval-quebec-09-26-2027/event/31006287A2771FE5",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/eros-ramazzotti-tickets-laval-place-bell-9-26-2027/production/7484548",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/eros-ramazzotti-una-historia-importante-laval-quebec-09-26-2027/event/31006287A2771FE5",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006287A2771FE5",
+        "discovery_event_id": "1AsZk16GkexqsTP",
+        "url": "https://www.ticketmaster.ca/eros-ramazzotti-una-historia-importante-laval-quebec-09-26-2027/event/31006287A2771FE5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7484548,
+        "url": "https://www.vividseats.com/eros-ramazzotti-tickets-laval-place-bell-9-26-2027/production/7484548",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7092012",
+        "url": "https://www.ticketnetwork.com/en/p/7092012",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7092012",
+        "url": "https://www.ticketliquidator.com/tickets/7092012/Eros-Ramazzotti-tickets-Sun-Sep-26-2027-Place-Bell",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107138188",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-tickets-laval-place-bell-9-26-2027/event/107138188",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk16GkexqsTP",
+    "timezone": "America/Toronto",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7092012",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7092012/Eros-Ramazzotti-tickets-Sun-Sep-26-2027-Place-Bell",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-tickets-laval-place-bell-9-26-2027/event/107138188"
+  },
+  {
+    "id": "tm-eros-ramazzotti-2027-boston-vv1avzk1fgkd0riv2",
+    "artist_slug": "eros-ramazzotti",
+    "artist_name": "Eros Ramazzotti",
+    "event_name": "Eros Ramazzotti - UNA HISTORIA IMPORTANTE",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Boch Center Wang Theatre",
+    "datetime_iso": "2027-09-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006288E4BE8D0F",
+    "ticketmaster_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-boston-massachusetts-09-29-2027/event/01006288E4BE8D0F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-boston-massachusetts-09-29-2027/event/01006288E4BE8D0F",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006288E4BE8D0F",
+        "discovery_event_id": "vv1AvZk1FGkd0RIV2",
+        "url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-boston-massachusetts-09-29-2027/event/01006288E4BE8D0F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "106750225",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-boston-tickets-9-29-2027/event/106750225",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk1FGkd0RIV2",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-boston-tickets-9-29-2027/event/106750225"
+  },
+  {
+    "id": "tm-eros-ramazzotti-2027-rosemont-vv1a7zk1egkeidoc0",
+    "artist_slug": "eros-ramazzotti",
+    "artist_name": "Eros Ramazzotti",
+    "event_name": "Eros Ramazzotti - UNA HISTORIA IMPORTANTE",
+    "city": "Rosemont",
+    "country": "United States Of America",
+    "venue": "Rosemont Theatre",
+    "datetime_iso": "2027-10-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006282A80D1B64",
+    "ticketmaster_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-rosemont-illinois-10-05-2027/event/04006282A80D1B64",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-rosemont-illinois-10-05-2027/event/04006282A80D1B64",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006282A80D1B64",
+        "discovery_event_id": "vv1A7Zk1eGkeIdoc0",
+        "url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-rosemont-illinois-10-05-2027/event/04006282A80D1B64",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7091994",
+        "url": "https://www.ticketnetwork.com/en/p/7091994",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7091994",
+        "url": "https://www.ticketliquidator.com/tickets/7091994/Eros-Ramazzotti-tickets-Tue-Oct-5-2027-Rosemont-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106747121",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-rosemont-tickets-10-5-2027/event/106747121",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7Zk1eGkeIdoc0",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "presales": [
+      {
+        "name": "AISLE SEAT OFFER",
+        "start": "2025-04-21T15:00:00Z",
+        "end": "2026-10-29T01:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7091994",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091994/Eros-Ramazzotti-tickets-Tue-Oct-5-2027-Rosemont-Theatre",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-rosemont-tickets-10-5-2027/event/106747121"
+  },
+  {
+    "id": "tm-eros-ramazzotti-2027-miami-vvg1vzbicfi7sa",
+    "artist_slug": "eros-ramazzotti",
+    "artist_name": "Eros Ramazzotti",
+    "event_name": "Eros Ramazzotti - UNA HISTORIA IMPORTANTE",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Kaseya Center",
+    "datetime_iso": "2027-10-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00628388B04C45",
+    "ticketmaster_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-miami-florida-10-08-2027/event/0D00628388B04C45",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-miami-florida-10-08-2027/event/0D00628388B04C45",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00628388B04C45",
+        "discovery_event_id": "vvG1VZbICFi7sA",
+        "url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-miami-florida-10-08-2027/event/0D00628388B04C45",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7091996",
+        "url": "https://www.ticketnetwork.com/en/p/7091996",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7091996",
+        "url": "https://www.ticketliquidator.com/tickets/7091996/Eros-Ramazzotti-tickets-Fri-Oct-8-2027-Kaseya-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106747122",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-miami-tickets-10-8-2027/event/106747122",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZbICFi7sA",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7091996",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091996/Eros-Ramazzotti-tickets-Fri-Oct-8-2027-Kaseya-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-miami-tickets-10-8-2027/event/106747122"
+  },
+  {
+    "id": "tm-eros-ramazzotti-2027-sugar-land-z7r9jz1a74uo8",
+    "artist_slug": "eros-ramazzotti",
+    "artist_name": "Eros Ramazzotti",
+    "event_name": "Eros Ramazzotti",
+    "city": "Sugar Land",
+    "country": "United States Of America",
+    "venue": "Smart Financial Centre at Sugar Land",
+    "datetime_iso": "2027-10-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A74UO8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A74UO8",
+    "seatgeek_url": "https://seatgeek.com/eros-ramazzotti-tickets/sugar-land-texas-smart-financial-centre-2027-10-13-8-pm/concert/17491601",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A74UO8",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A74UO8",
+        "discovery_event_id": "Z7r9jZ1A74UO8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A74UO8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 17491601,
+        "url": "https://seatgeek.com/eros-ramazzotti-tickets/sugar-land-texas-smart-financial-centre-2027-10-13-8-pm/concert/17491601",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7103874",
+        "url": "https://www.ticketnetwork.com/en/p/7103874",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A74UO8",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7103874"
+  },
+  {
+    "id": "tm-eros-ramazzotti-2027-inglewood-vvg1izbiyf5ko0",
+    "artist_slug": "eros-ramazzotti",
+    "artist_name": "Eros Ramazzotti",
+    "event_name": "Eros Ramazzotti - UNA HISTORIA IMPORTANTE",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "YouTube Theater",
+    "datetime_iso": "2027-10-17T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00628C082C6464",
+    "ticketmaster_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-inglewood-california-10-16-2027/event/0A00628C082C6464",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-inglewood-california-10-16-2027/event/0A00628C082C6464",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00628C082C6464",
+        "discovery_event_id": "vvG1IZbIYF5ko0",
+        "url": "https://www.ticketmaster.com/eros-ramazzotti-una-historia-importante-inglewood-california-10-16-2027/event/0A00628C082C6464",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7091997",
+        "url": "https://www.ticketnetwork.com/en/p/7091997",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7091997",
+        "url": "https://www.ticketliquidator.com/tickets/7091997/Eros-Ramazzotti-tickets-Sat-Oct-16-2027-YouTube-Theater-at-Hollywood-Park",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106747124",
+        "url": "https://www.stubhub.ie/eros-ramazzotti-inglewood-tickets-10-16-2027/event/106747124",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZbIYF5ko0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7091997",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7091997/Eros-Ramazzotti-tickets-Sat-Oct-16-2027-YouTube-Theater-at-Hollywood-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/eros-ramazzotti-inglewood-tickets-10-16-2027/event/106747124"
   }
 ]

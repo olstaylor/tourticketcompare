@@ -119,7 +119,8 @@ function clean(value) {
 // discoveryStatusToStatus in propose-artists.mjs; never invents a more
 // optimistic state than the API reports.
 function statusFromCode(code) {
-  return clean(code).toLowerCase() === "onsale" ? "on-sale" : "announced";
+  // A rescheduled Discovery record carries its new date and stays on sale.
+  return ["onsale", "rescheduled"].includes(clean(code).toLowerCase()) ? "on-sale" : "announced";
 }
 
 function csvCell(value) {
@@ -467,6 +468,7 @@ function selfTest() {
   assert("CSV_COLUMNS carries the event_name column", CSV_COLUMNS.includes("event_name"));
   assert("slugify normalises accents and spaces", slugify("São Paulo") === "sao-paulo");
   assert("statusFromCode maps onsale", statusFromCode("onsale") === "on-sale");
+  assert("statusFromCode keeps a rescheduled date on sale", statusFromCode("rescheduled") === "on-sale");
   assert("statusFromCode is conservative for unknown", statusFromCode("") === "announced");
   assert("csvCell quotes embedded commas", csvCell("O2, London") === '"O2, London"');
   assert(

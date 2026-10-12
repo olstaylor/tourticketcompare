@@ -228,7 +228,7 @@ function independentlyComparable(id) {
   );
   return lanes.length >= policyModule.COMPARISON_MIN_PRICE_PROVIDERS;
 }
-const hasComparableShow = (shows) => (shows || []).some((show) => independentlyComparable(show.id));
+const comparableShowCount = (shows) => (shows || []).filter((show) => independentlyComparable(show.id)).length;
 
 // City pages are generated from changing event data, so validate the complete
 // set rather than relying on a single representative smoke route. These checks
@@ -244,10 +244,10 @@ for (const city of cities) {
     city.artistCount >= policyModule.CITY_MIN_ARTISTS &&
     city.venueCount >= policyModule.CITY_MIN_VENUES &&
     city.publishableCount >= 1 &&
-    hasComparableShow(city.shows);
+    comparableShowCount(city.shows) >= policyModule.CITY_MIN_COMPARABLE_SHOWS;
   if (city.indexable !== expectedIndexable) {
     problems.push(
-      `city quality: ${path} indexability does not match the ${policyModule.CITY_MIN_SHOWS}-show / ${policyModule.CITY_MIN_ARTISTS}-artist / ${policyModule.CITY_MIN_VENUES}-venue / publishable-destination / comparison-data gate`
+      `city quality: ${path} indexability does not match the ${policyModule.CITY_MIN_SHOWS}-show / ${policyModule.CITY_MIN_ARTISTS}-artist / ${policyModule.CITY_MIN_VENUES}-venue / publishable-destination / ${policyModule.CITY_MIN_COMPARABLE_SHOWS}-comparable-date gate`
     );
   }
   if (!page || page.status !== 200) {
@@ -308,10 +308,10 @@ for (const venue of venues) {
     venue.showCount >= policyModule.VENUE_MIN_SHOWS &&
     venue.artistSlugs.length >= policyModule.VENUE_MIN_ARTISTS &&
     venue.publishableCount >= 1 &&
-    hasComparableShow(venue.shows);
+    comparableShowCount(venue.shows) >= policyModule.VENUE_MIN_COMPARABLE_SHOWS;
   if (venue.indexable !== expectedIndexable) {
     problems.push(
-      `venue quality: ${path} indexability does not match the ${policyModule.VENUE_MIN_SHOWS}-show / ${policyModule.VENUE_MIN_ARTISTS}-artist / publishable-destination / comparison-data gate`
+      `venue quality: ${path} indexability does not match the ${policyModule.VENUE_MIN_SHOWS}-show / ${policyModule.VENUE_MIN_ARTISTS}-artist / publishable-destination / ${policyModule.VENUE_MIN_COMPARABLE_SHOWS}-comparable-date gate`
     );
   }
   if (!page || page.status !== 200) {

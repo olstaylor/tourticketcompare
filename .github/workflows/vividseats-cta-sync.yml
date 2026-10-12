@@ -63,8 +63,10 @@ permissions:
   # dispatching Prelaunch Validation against the pushed branch.
   actions: write
 
+# Shared with seatgeek-cta-sync.yml so the two never race to merge
+# conflicting event-shard PRs (see the note there).
 concurrency:
-  group: vividseats-cta-sync
+  group: resale-cta-sync
   cancel-in-progress: false
 
 jobs:
@@ -73,7 +75,7 @@ jobs:
     timeout-minutes: 59
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -83,10 +85,13 @@ jobs:
         # their merges. See scripts/wait-for-writer-lanes.mjs.
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 14
+        # The 7–8 October runs exhausted 14 minutes while SeatGeek was still
+        # active, then lost their merge race. 20 minutes covers those waits
+        # with headroom under this job's 59-minute cap; merge gates stay intact.
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 20
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm

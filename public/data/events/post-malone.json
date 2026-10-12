@@ -198,7 +198,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/post-malone-presents-the-big-ass-edmonton-alberta-07-25-2026/event/11006443CF8BB568",
-    "last_verified_at": null,
+    "last_verified_at": "2026-10-07",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -233,7 +233,8 @@
     },
     "ticketmaster_discovery_event_id": "1AoZkodGkd2xD4I",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-post-malone-2026-salt-lake-city-g5vzz_dbvwfnk",

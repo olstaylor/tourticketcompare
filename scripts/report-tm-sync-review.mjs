@@ -108,6 +108,11 @@ function itemNeedsCurrentReview(item, now = Date.now()) {
   return !sawValidDate;
 }
 
+// Object/array values (presales, price ranges) would print as [object Object].
+function changeValue(value) {
+  return value !== null && typeof value === 'object' ? JSON.stringify(value) : String(value);
+}
+
 function itemLine(item) {
   const status = valueOrUnknown(item.ticketmaster_status);
   const artist = valueOrUnknown(item.artist_slug);
@@ -116,7 +121,7 @@ function itemLine(item) {
   const intended = asArray(item.intendedChanges);
   let line = `- \`${item.id}\` — artist \`${artist}\` — date: \`${date}\` — TM ID \`${item.ticketmaster_event_id}\` — local event: ${name} — TM status: \`${status}\` — reason: ${item.detail || item.reason || item.kind}`;
   if (intended.length) {
-    const fields = intended.map((change) => `${change.field}: '${change.from}' → '${change.to}'`).join('; ');
+    const fields = intended.map((change) => `${change.field}: '${changeValue(change.from)}' → '${changeValue(change.to)}'`).join('; ');
     line += ` — blocked intended changes: ${fields}`;
   }
   if (item.recommendedAction) line += ` — recommended action: ${item.recommendedAction}`;

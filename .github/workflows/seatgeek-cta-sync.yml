@@ -61,8 +61,11 @@ permissions:
   # dispatching Prelaunch Validation against the pushed branch.
   actions: write
 
+# Shared with vividseats-cta-sync.yml: GitHub often delivers both crons late
+# and together, and the second PR then conflicts with the first one's merge
+# (2026-10-11, PR #1509). Queued, the second run starts from the merged main.
 concurrency:
-  group: seatgeek-cta-sync
+  group: resale-cta-sync
   cancel-in-progress: false
 
 jobs:
@@ -71,7 +74,7 @@ jobs:
     timeout-minutes: 59
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -84,7 +87,7 @@ jobs:
         run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 14
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm

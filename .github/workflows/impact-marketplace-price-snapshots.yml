@@ -124,8 +124,8 @@ jobs:
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -144,7 +144,7 @@ jobs:
             args=(--provider "$PROVIDER" --database "$DATABASE" --json)
             if [ "${{ github.event.schedule }}" = '47 * * * *' ]; then args+=(--within-hours 48); fi
             if [ -n "$LIMIT" ]; then args+=(--limit "$LIMIT"); fi
-            if [ -n "$EVENT_ID" ]; then args+=(--event-id "$EVENT_ID"); fi
+            if [ -n "$EVENT_ID" ]; then args+=(--event-id "$EVENT_ID"); else args+=(--priority); fi
             if [ "$APPLY" = "true" ]; then args+=(--apply); fi
             # fail-fast:false parity — run every lane, remember any failure.
             node scripts/snapshot-impact-marketplace-prices.mjs "${args[@]}" | tee "$RUNNER_TEMP/impact-price-${PROVIDER}.json" || status=1

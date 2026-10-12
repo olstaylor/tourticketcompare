@@ -276,7 +276,7 @@ export function readSendConfig(env = process.env) {
   return config;
 }
 
-async function sendEmail(config, to, message, idempotencyKey) {
+export async function sendEmail(config, to, message, idempotencyKey) {
   const response = await fetch(RESEND_ENDPOINT, {
     method: "POST",
     headers: {
@@ -309,7 +309,7 @@ export function sqlString(value) {
 // import, which returns only a summary (no rows) and makes the database
 // unavailable while it runs. --command runs the statements as one batch and
 // returns one result set per statement.
-async function runD1(statements, options) {
+export async function runD1(statements, options) {
   const args = [
     "wrangler", "d1", "execute", options.database,
     options.remote ? "--remote" : "--local",

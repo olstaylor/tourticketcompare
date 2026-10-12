@@ -10,8 +10,8 @@ let fallbackCatalog = { artists: [], tours: [], providers: [], ticket_links: [] 
 // >>> homepage-proposition >>>
 const HOME_HEADLINE = "Compare ticket prices for the show you want.";
 const HOME_SUBCOPY =
-  "Choose an artist and date, see recent listed prices from ticket sites where available, then check the final total on the ticket site.";
-const HOME_PRIMARY_CTA_LABEL = "Find a show";
+  "Choose an artist and date, see each ticket site's listed price where available, then check the final total on the ticket site.";
+const HOME_PRIMARY_CTA_LABEL = "Compare a show";
 const HOME_PRIMARY_CTA_HREF = "/artists";
 const HOME_STEPS = [
   {
@@ -22,7 +22,7 @@ const HOME_STEPS = [
   },
   {
     title: "2. Compare ticket prices",
-    body: "See the current listed prices from ticket sites for that same date.",
+    body: "See each ticket site's listed price for that same date.",
     ctaLabel: "Compare ticket prices",
     href: "/compare-concert-ticket-prices"
   },
@@ -43,7 +43,7 @@ const HOME_STEPS = [
 const ARTISTS_INDEX_LEAD = "Choose an artist, then pick the date you want to compare ticket prices for.";
 const ARTISTS_INDEX_NOTE = "Coverage varies by artist and region.";
 const HOW_IT_WORKS_LEAD =
-  "Compare ticket prices for the show you want: choose an artist and date, see recent listed prices from ticket sites where available, then check the final total on the ticket site. TourTicketCompare is independent and doesn't sell tickets.";
+  "Compare ticket prices for the show you want: choose an artist and date, see each ticket site's listed price where available, then check the final total on the ticket site. TourTicketCompare is independent and doesn't sell tickets.";
 // <<< site-proposition <<<
 
 const providerCopy = {
@@ -245,7 +245,7 @@ const routeMeta = {
   "/": {
     title: "Compare Concert Tickets & Tour Dates | TourTicketCompare",
     description:
-      "Compare ticket prices for the show you want. Choose an artist and date, see recent listed prices from ticket sites where available, then check the total."
+      "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total."
   },
   "/compare-concert-ticket-prices": {
     title: "Compare Concert Ticket Prices by Site | TourTicketCompare",
@@ -659,8 +659,7 @@ function artistHasVerifiedEventLinks(events, artistSlug) {
   const slug = slugify(artistSlug);
   return (events || []).some((event) => {
     if (!event || slugify(event.artist_slug) !== slug) return false;
-    const ts = Date.parse(event.dateTimeISO || event.datetime_iso || "");
-    if (!Number.isFinite(ts) || ts < now) return false;
+    if (!isUpcomingShow(event, now)) return false;
     const ticketmasterAvailable = eventLinkPublishable(event) && Boolean(safeVerifiedEventUrl(event.ticketmaster_url));
     const seatGeekAvailable = providerEventPublishable(event, "seatgeek") && Boolean(safeSeatGeekEventUrl(event.seatgeek_url));
     const vividSeatsAvailable = providerEventPublishable(event, "vivid-seats") && Boolean(safeVividSeatsEventUrl(event.vividseats_url));
@@ -681,8 +680,7 @@ function artistHasUpcomingShow(events, artistSlug, now = Date.now()) {
   const slug = slugify(artistSlug);
   return (events || []).some((event) => {
     if (!event || slugify(event.artist_slug) !== slug) return false;
-    const ts = Date.parse(event.dateTimeISO || event.datetime_iso || "");
-    return Number.isFinite(ts) && ts >= now;
+    return isUpcomingShow(event, now);
   });
 }
 
@@ -1510,12 +1508,11 @@ function upcomingVerifiedShowSummary(events, artistSlug) {
   const upcoming = (events || [])
     .filter((event) => {
       if (!event || slugify(event.artist_slug) !== slug) return false;
-      const ts = Date.parse(event.dateTimeISO || event.datetime_iso || "");
-      if (!Number.isFinite(ts) || ts < now) return false;
+      if (!isUpcomingShow(event, now)) return false;
       if (!eventLinkPublishable(event)) return false;
       return /^https:\/\//i.test(String(event.ticketmaster_url || "").trim());
     })
-    .sort((a, b) => Date.parse(a.dateTimeISO || a.datetime_iso) - Date.parse(b.dateTimeISO || b.datetime_iso));
+    .sort((a, b) => showStartMs(a) - showStartMs(b));
   if (!upcoming.length) return null;
   const next = formatCardDate(upcoming[0].dateTimeISO || upcoming[0].datetime_iso, upcoming[0].timezone);
   if (!next) return null;
@@ -1563,6 +1560,41 @@ function renderShowBoardShell(id, title, body, note) {
   text(grid, "p", "Checking for verified ticket options...", "muted empty-state");
   section.append(header, grid);
   return section;
+}
+
+// Start instant of a show in ms, or NaN. Keep in sync with showStartMs in
+// functions/_upcoming.js: zoned values parse as written, a naive wall time is
+// read in the venue's IANA zone (never the viewer's), and a date-only value
+// counts until the end of that day.
+function showStartMs(show) {
+  const raw = String((show && (show.dateTimeISO || show.datetime_iso)) || "").trim();
+  if (!raw) return NaN;
+  if (/^\d{4}-\d{2}-\d{2}$/.test(raw)) {
+    const midnight = Date.parse(`${raw}T00:00:00Z`);
+    return Number.isFinite(midnight) ? midnight + 86400000 - 1 : NaN;
+  }
+  if (/Z$/i.test(raw) || /[+-]\d{2}:?\d{2}$/.test(raw) || !/T\d{2}:\d{2}/.test(raw)) return Date.parse(raw);
+  const naiveUtc = Date.parse(`${raw}Z`);
+  const timeZone = String((show && show.timezone) || "").trim();
+  if (!Number.isFinite(naiveUtc) || !timeZone.includes("/")) return naiveUtc;
+  try {
+    const formatter = new Intl.DateTimeFormat("en-US", {
+      timeZone, hourCycle: "h23", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", second: "2-digit"
+    });
+    const offset = (ms) => {
+      const p = Object.fromEntries(formatter.formatToParts(new Date(ms)).map((part) => [part.type, part.value]));
+      return Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour, +p.minute, +p.second) - ms;
+    };
+    const first = naiveUtc - offset(naiveUtc);
+    return naiveUtc - offset(first);
+  } catch (error) {
+    return naiveUtc;
+  }
+}
+
+function isUpcomingShow(show, now = Date.now()) {
+  const start = showStartMs(show);
+  return Number.isFinite(start) && start >= now;
 }
 
 // Resolve a stored datetime to the venue's wall clock. Keep in sync with
@@ -1678,7 +1710,7 @@ function renderShowCardMeta(show) {
   }
   const localTime = showLocalTime(show.dateTimeISO, show.timezone);
   if (localTime) parts.push(document.createTextNode(`${localTime} local`));
-  const country = String(show.country || "").trim();
+  const country = displayCountry(show.country);
   if (country) parts.push(document.createTextNode(country));
   if (!parts.length) return null;
   const line = document.createElement("p");
@@ -1915,35 +1947,6 @@ function formatSnapshotTime(value) {
   }
 }
 
-// A snapshot older than this is still shown, but is labelled with its age.
-//
-// The display window (DEFAULT_FRESHNESS_HOURS in the snapshot writers) is 24h
-// so that a day of missed snapshot runs leaves the last known price on the card
-// instead of blanking the board. That resilience is only honest if a visitor
-// can tell a day-old price from a fresh one, which is what this threshold marks.
-// It is deliberately well inside the 24h window: the label should appear while
-// the price is still useful, not at the moment it is about to vanish.
-// Keep in sync with PRICE_STALE_AFTER_HOURS in functions/[[path]].js.
-const PRICE_STALE_AFTER_HOURS = 12;
-
-// "last checked 14 hours ago", or "" while the snapshot is still recent.
-// Relative age is what a reader can actually judge — an absolute timestamp
-// alone makes them do the arithmetic — so it supplements, never replaces, the
-// capture time already printed beside every price.
-// Keep in sync with snapshotAgeLabel in functions/[[path]].js.
-function snapshotAgeLabel(fetchedAt, now = Date.now()) {
-  const captured = Date.parse(String(fetchedAt || ""));
-  if (!Number.isFinite(captured)) return "";
-  const hours = (now - captured) / 3600000;
-  if (!(hours >= PRICE_STALE_AFTER_HOURS)) return "";
-  if (hours < 48) {
-    const whole = Math.round(hours);
-    return `last checked ${whole} hour${whole === 1 ? "" : "s"} ago`;
-  }
-  const days = Math.round(hours / 24);
-  return `last checked ${days} day${days === 1 ? "" : "s"} ago`;
-}
-
 function isValidIsoDateTime(value) {
   const input = String(value || "").trim();
   if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2})$/.test(input)) return false;
@@ -2035,9 +2038,33 @@ function renderProviderCtaButton(name, href, amount, analytics = {}) {
 // first, so naming a subset of them would read as a recommendation rather than
 // a description of the card. No link is emitted here — the provider buttons
 // above stay the card's only outbound links.
-// Keep in sync with PRICE_UNAVAILABLE_NOTE in functions/[[path]].js.
-const PRICE_UNAVAILABLE_NOTE =
-  "No listed-price snapshot is available for this date. Check current prices using the provider buttons above.";
+// Display name for a country. Keep in sync with COUNTRY_ALIASES /
+// normalizeCountry in functions/_cities.js; event records keep their source
+// spelling.
+const COUNTRY_DISPLAY_ALIASES = new Map([
+  ["us", "United States"],
+  ["usa", "United States"],
+  ["united states of america", "United States"],
+  ["uk", "United Kingdom"],
+  ["great britain", "United Kingdom"]
+]);
+function displayCountry(value) {
+  const raw = String(value || "").trim();
+  return COUNTRY_DISPLAY_ALIASES.get(raw.toLowerCase()) || raw;
+}
+
+// Price vocabulary: mirrors functions/_price-wording.js (this classic script
+// cannot import it). scripts/price-wording.test.mjs fails if they drift.
+const PRICE_DISCLOSURE =
+  "Prices are listed-price snapshots from each ticket site, checked at the time shown. They can change and aren't your final total. Listed prices may already include mandatory fees. Confirm the final total for your ticket quantity, taxes, delivery and selected extras on the ticket site.";
+const CARD_PRICE_TAIL = "not the final total";
+const PRICE_UNAVAILABLE_NOTE = "No listed price yet.";
+const PRICE_HISTORY_LABEL = "Show price history";
+
+// The lanes that supply listed-price snapshots. A card with no button on one
+// of them gets no "no price" note: nothing on it claims a price.
+// Keep in sync with LISTED_PRICE_PROVIDERS in functions/[[path]].js.
+const LISTED_PRICE_PROVIDER_SLUGS = new Set(["vivid-seats", "ticketnetwork", "stubhub-international"]);
 
 // Did this card's price lanes actually get queried? A priced response carries
 // one entry per approved lane (including the unavailable ones), while a board
@@ -2060,7 +2087,7 @@ function pricesWereChecked(show) {
 function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false) {
   const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf);
   if (!priced.length) {
-    if (!pricesChecked || !ctaSpecs.length) return null;
+    if (!pricesChecked || !ctaSpecs.some((spec) => LISTED_PRICE_PROVIDER_SLUGS.has(spec.provider))) return null;
     const emptyWrap = document.createElement("div");
     emptyWrap.className = "provider-cta-notes";
     text(emptyWrap, "p", PRICE_UNAVAILABLE_NOTE, "disclosure-note");
@@ -2068,19 +2095,23 @@ function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false) {
   }
   const wrap = document.createElement("div");
   wrap.className = "provider-cta-notes";
-  // Keep in sync with renderServerPriceNotes in functions/[[path]].js.
+  // Keep in sync with renderServerPriceNotes in functions/[[path]].js: one
+  // <time> and provider name per priced lane.
   const note = document.createElement("p");
   note.className = "disclosure-note";
-  note.append("Checked ");
-  priced.forEach((spec, index) => {
-    if (index) note.append(index === priced.length - 1 ? " and " : ", ");
+  const timeFor = (spec) => {
     const time = document.createElement("time");
     time.dateTime = String(spec.lane?.fetchedAt || "");
     time.title = spec.priceAsOf;
     time.textContent = relativeCheckAge(spec.lane?.fetchedAt);
-    note.append(time, ` (${spec.name})`);
+    return time;
+  };
+  note.append("Checked ");
+  priced.forEach((spec, index) => {
+    if (index) note.append(index === priced.length - 1 ? " and " : ", ");
+    note.append(timeFor(spec), ` (${spec.name})`);
   });
-  note.append(". Listed prices, not your final total: the site adds fees at checkout.");
+  note.append(` · ${CARD_PRICE_TAIL}`);
   wrap.append(note);
   return wrap;
 }
@@ -2100,10 +2131,11 @@ function relativeCheckAge(fetchedAt, now = Date.now()) {
 // Keep in sync with MONEY_DISCLOSURE_TEXT / renderMoneyDisclosureHtml in
 // functions/[[path]].js.
 const MONEY_DISCLOSURE_TEXT =
-  "sites listed first pay TourTicketCompare a commission when you buy through them; Ticketmaster doesn't. No fee is added.";
+  "Affiliate partners are listed before Ticketmaster. If you buy through an affiliate link, TourTicketCompare may earn a commission at no extra cost to you.";
 function renderMoneyDisclosure() {
   const note = document.createElement("p");
   note.className = "disclosure-note money-disclosure";
+  note.append(`${PRICE_DISCLOSURE} `);
   text(note, "strong", "How this site makes money:");
   note.append(` ${MONEY_DISCLOSURE_TEXT} `);
   const link = text(note, "a", "Affiliate disclosure", "text-link");
@@ -2219,7 +2251,7 @@ function renderPriceHistoryPanel(show, options = {}) {
   toggle.dataset.priceHistoryToggle = "";
   toggle.setAttribute("aria-expanded", "false");
   toggle.setAttribute("aria-controls", panelId);
-  toggle.textContent = "Show price snapshot history";
+  toggle.textContent = PRICE_HISTORY_LABEL;
   const panel = document.createElement("div");
   panel.className = "price-history-panel";
   panel.id = panelId;
@@ -2270,13 +2302,10 @@ function renderPriceHistoryContent(panel, wrap, data) {
 // One compact line above a card's provider buttons, only when at least one
 // button shows a price, saying what that number is. No site count: the buttons
 // are the count. Keep in sync with ctaCountLabel in functions/[[path]].js.
-// `priced` is how many of the buttons show a price. "On each" only when all
-// of them do: SeatGeek and Ticketmaster never carry one, so on a mixed card it
-// reads "where shown".
+// `priced` is how many of the buttons show a price.
 function showCtaCountLabel(count, priced = 0) {
   if (count < 1 || !priced) return "";
-  if (count === 1) return "Lowest listed price";
-  return priced >= count ? "Lowest listed price on each" : "Lowest listed price where shown";
+  return priced === 1 ? "Lowest listed price" : "Lowest listed prices";
 }
 
 function renderShowCard(show, options = {}) {
@@ -2445,13 +2474,14 @@ function recentPastShowsForArtist(events, artistSlug, limit = 3) {
     .map((ev) => ({
       id: String(ev.id || "").trim(),
       dateTimeISO: String(ev.dateTimeISO || ev.datetime_iso || "").trim(),
+      timezone: String(ev.timezone || "").trim(),
       city: String(ev.city || "").trim(),
       venue: String(ev.venue || "").trim(),
       publishable: eventLinkPublishable(ev)
     }))
-    .filter((show) => show.dateTimeISO && Number.isFinite(Date.parse(show.dateTimeISO)))
-    .filter((show) => Date.parse(show.dateTimeISO) < now && show.publishable && show.venue && show.city)
-    .sort((a, b) => Date.parse(b.dateTimeISO) - Date.parse(a.dateTimeISO))
+    .filter((show) => show.dateTimeISO && Number.isFinite(showStartMs(show)))
+    .filter((show) => !isUpcomingShow(show, now) && show.publishable && show.venue && show.city)
+    .sort((a, b) => showStartMs(b) - showStartMs(a))
     .slice(0, limit);
 }
 
@@ -2465,7 +2495,7 @@ function renderRecentShowsList(name, pastShows) {
   text(
     block,
     "p",
-    `These ${name} dates have already taken place. They are shown as a reference while any newly announced run is verified.`,
+    "Already played, listed for reference.",
     "muted"
   );
   const list = document.createElement("ul");
@@ -2486,6 +2516,9 @@ function renderRecentShowsList(name, pastShows) {
 
 // Keep in sync with EMPTY_BOARD_EXPLAINER_PATH in functions/[[path]].js.
 const EMPTY_BOARD_EXPLAINER_PATH = "/blog/why-some-artist-pages-show-no-dates";
+// The optional weekly updates box on the watchlist form. Keep identical to
+// UPDATES_CONSENT_TEXT in functions/_email-alerts.js.
+const UPDATES_CONSENT_TEXT = "Also send me a weekly email of presales and on-sales coming up. Optional; unsubscribe any time.";
 
 // Zero-event board state. The primary CTA is the artist-level page of the
 // highest-ranked enabled provider (never an event-level ticket link — no
@@ -2500,23 +2533,18 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
     wrap,
     "p",
     Array.isArray(pastShows) && pastShows.length
-      ? `There are no upcoming ${name} dates on file. The tracked dates have already taken place, and there's no way to say yet whether more are coming.`
-      : `There are no upcoming ${name} dates on file, and no way to say yet whether any are coming.`
+      ? `${name}'s recent dates have passed and no new ones are listed yet.`
+      : `No ${name} dates are listed yet.`
   );
-  text(
-    wrap,
-    "p",
-    `When the source lists a ${name} date, it appears here, with a ticket button once its link has passed the site's checks.`,
-    "muted"
-  );
+  text(wrap, "p", "New dates show up here once they're listed, and ticket buttons once their links are checked.", "muted");
   // Keep in sync with renderShowBoardEmptyStateHtml in functions/[[path]].js.
   const explainer = document.createElement("p");
   explainer.className = "muted";
-  explainer.append("An empty board is normal between tours, not a sign something is broken. ");
+  explainer.append("An empty page is normal between tours — ");
   const explainerLink = document.createElement("a");
   explainerLink.className = "text-link";
   explainerLink.href = EMPTY_BOARD_EXPLAINER_PATH;
-  explainerLink.textContent = "Here's why";
+  explainerLink.textContent = "here's why";
   explainer.append(explainerLink, ".");
   wrap.append(explainer);
   const recent = renderRecentShowsList(name, pastShows);
@@ -2540,7 +2568,7 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
     form.action = "/api/signup";
     form.dataset.watchlistShell = artistSlug;
     text(form, "h4", `Get told when ${name} dates land`);
-    text(form, "p", `Leave your email to hear when confirmed ${name} dates are listed. Nothing else.`, "muted");
+    text(form, "p", `Leave your email to hear when confirmed ${name} dates are listed.`, "muted");
     const hiddenArtist = document.createElement("input");
     hiddenArtist.type = "hidden";
     hiddenArtist.name = "artistSlug";
@@ -2575,6 +2603,16 @@ function renderShowBoardEmptyState(artistName = "", artistSlug = "", pastShows =
     submit.textContent = "Notify me";
     row.append(email, honeypot, submit);
     form.append(label, hiddenArtist, hiddenSource, row);
+    // Optional, unticked, and separate from the date alert. Keep the wording
+    // identical to UPDATES_CONSENT_TEXT in functions/_email-alerts.js.
+    const updatesLine = text(form, "p", "", "muted");
+    const updatesLabel = document.createElement("label");
+    const updates = document.createElement("input");
+    updates.type = "checkbox";
+    updates.name = "updates";
+    updates.value = "yes";
+    updatesLabel.append(updates, ` ${UPDATES_CONSENT_TEXT}`);
+    updatesLine.append(updatesLabel);
     const status = text(form, "p", "", "disclosure-note");
     status.setAttribute("data-signup-status", "");
     status.setAttribute("aria-live", "polite");
@@ -2616,8 +2654,8 @@ function venueRunIndex(shows) {
   const sorted = [...shows]
     .filter((show) => show?.id)
     .sort((a, b) => {
-      const ta = Date.parse(a.dateTimeISO || a.datetime_iso || "");
-      const tb = Date.parse(b.dateTimeISO || b.datetime_iso || "");
+      const ta = showStartMs(a);
+      const tb = showStartMs(b);
       return (Number.isFinite(ta) ? ta : 0) - (Number.isFinite(tb) ? tb : 0);
     });
   for (const show of sorted) {
@@ -3184,7 +3222,7 @@ async function hydrateShowBoard(section, filters = {}) {
     const fallbackShows = sortEventsForSearch(await loadEventsForSearch())
       .filter((show) => {
         if (!show || (artistSlug && slugify(show.artist_slug) !== artistSlug)) return false;
-        const eventTime = Date.parse(show.datetime_iso || show.dateTimeISO || "");
+        const eventTime = showStartMs(show);
         // A not-yet-on-sale date stays on the board as a no-CTA card, and a
         // cancelled or postponed date stays listed with its status, as on the
         // server-rendered board.
@@ -4441,6 +4479,28 @@ document.addEventListener("click", async (event) => {
 // present/absent, and CTA location. Never blocks or rewrites the navigation.
 const AFFILIATE_CTA_PROVIDERS = ["seatgeek", "vivid-seats", "ticketnetwork", "ticket-liquidator", "stubhub-international"];
 
+function attachBrowserIntent(cta, event) {
+  // Correlate only consented ordinary activations. Navigation remains native;
+  // a missing token never prevents the existing checked redirect.
+  if (!event.isTrusted || event.button !== 0 || !window.ttcConsent?.accepted?.() || !window.crypto?.getRandomValues) return null;
+  const originalHref = cta.getAttribute("href");
+  try {
+    const url = new URL(originalHref, window.location.href);
+    if (url.origin !== window.location.origin || url.pathname !== "/api/out") return null;
+    const bytes = window.crypto.getRandomValues(new Uint8Array(16));
+    const intentId = Array.from(bytes, value => value.toString(16).padStart(2, "0")).join("");
+    url.searchParams.set("browserIntentId", intentId);
+    const activationHref = `${url.pathname}${url.search}${url.hash}`;
+    cta.setAttribute("href", activationHref);
+    // The browser's default click action consumes this URL before the timer.
+    // Restore it so later unconsented/middle-click activations cannot reuse it.
+    window.setTimeout(() => {
+      if (cta.getAttribute("href") === activationHref) cta.setAttribute("href", originalHref);
+    }, 0);
+    return intentId;
+  } catch (error) { return null; }
+}
+
 document.addEventListener("click", (event) => {
   const cta = event.target?.closest?.("a[data-cta-provider]");
   if (!cta) return;
@@ -4448,12 +4508,23 @@ document.addEventListener("click", (event) => {
   if (!provider) return;
   const showId = String(cta.dataset.ctaShowId || "").trim();
   const ctaLocation = String(cta.dataset.ctaLocation || "").trim();
+  // SeatGeek CTAs open the promo-code dialog (public/seatgeek-promo.js), whose
+  // Continue link then makes the same /api/out navigation.
+  const promo = window.ttcSeatGeekPromo;
+  const showPromo = Boolean(promo && promo.shouldIntercept(cta, event));
+  if (showPromo) event.preventDefault();
   // A double-click, or a click that bubbles through a nested tracked element,
   // is one intent and must produce one row. The authoritative count comes from
   // /api/out either way, but an inflated provider_click would distort the
   // CTA-click-to-redirect completion rate.
-  if (isDuplicateFunnelEvent(`provider_click:${provider}:${showId}:${ctaLocation}`, Date.now())) return;
+  if (isDuplicateFunnelEvent(`provider_click:${provider}:${showId}:${ctaLocation}`, Date.now())) {
+    if (showPromo) promo.open(cta, cta.getAttribute("href"));
+    return;
+  }
+  const browserIntentId = attachBrowserIntent(cta, event);
+  if (showPromo) promo.open(cta, cta.getAttribute("href"));
   sendAnalytics("provider_click", {
+    ...(browserIntentId ? { browserIntentId } : {}),
     provider,
     artistSlug: String(cta.dataset.ctaArtist || "").trim(),
     showId,
@@ -4474,6 +4545,7 @@ document.addEventListener("submit", async (event) => {
   if (form.dataset.signupSubmitting === "true") return;
   const status = form.querySelector("[data-signup-status]");
   const emailInput = form.querySelector('input[name="email"]');
+  const updatesInput = form.querySelector('input[name="updates"]');
   const email = String(emailInput?.value || "").trim();
   const setStatus = (message) => {
     if (status) status.textContent = message;
@@ -4494,11 +4566,15 @@ document.addEventListener("submit", async (event) => {
         email,
         website: String(form.querySelector('input[name="website"]')?.value || ""),
         artistSlug: String(form.dataset.watchlistSignup || "").trim(),
-        sourcePath: window.location.pathname
+        sourcePath: window.location.pathname,
+        updates: Boolean(updatesInput?.checked)
       })
     });
     if (response.ok) {
-      setStatus("Done — you'll get an email when confirmed dates are up.");
+      setStatus(updatesInput?.checked
+        ? "Done — you'll get an email when confirmed dates are up, plus the weekly presale and on-sale email."
+        : "Done — you'll get an email when confirmed dates are up.");
+      if (updatesInput) updatesInput.checked = false;
       if (emailInput) emailInput.value = "";
       // GA4 mirror only. /api/signup has already written the authoritative
       // first-party email_signup row; a beacon here would double-count it. The
@@ -4530,12 +4606,12 @@ document.addEventListener("click", async (event) => {
   if (expanded) {
     toggle.setAttribute("aria-expanded", "false");
     panel.hidden = true;
-    toggle.textContent = "Show price snapshot history";
+    toggle.textContent = PRICE_HISTORY_LABEL;
     return;
   }
   toggle.setAttribute("aria-expanded", "true");
   panel.hidden = false;
-  toggle.textContent = "Hide price snapshot history";
+  toggle.textContent = "Hide price history";
   // Event expansion: the only in-card disclosure on the board, so this is the
   // "did the user open a date's detail" signal. Reported once per open.
   sendAnalytics("event_expand", {

@@ -233,7 +233,21 @@ const TICKETMASTER_PUBLISHABLE_HOSTS = [
   "ticketmaster.be",
   "ticketmaster.it",
   "ticketmaster.com.au",
-  "ticketmaster.ie"
+  "ticketmaster.ie",
+  "ticketmaster.com.mx",
+  "ticketmaster.co.nz",
+  "ticketmaster.cz",
+  "ticketmaster.no",
+  "ticketmaster.fi",
+  "ticketmaster.ch",
+  "ticketmaster.at",
+  "ticketmaster.dk",
+  "ticketmaster.co.za",
+  "ticketmaster.ae",
+  "ticketmaster.com.br",
+  "ticketmaster.sg",
+  "ticketweb.com",
+  "ticketweb.ca"
 ];
 
 function ticketmasterHostAllowed(hostname) {

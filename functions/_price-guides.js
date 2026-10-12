@@ -38,6 +38,7 @@
 //      no "tickets from <price>", no tour-wide range and no lowest-date claim: every
 //      figure belongs to one date, one provider and one capture time.
 
+import { showStartMs } from "./_upcoming.js";
 import { slugify, normalizeCountry, citySlug, metroCity } from "./_cities.js";
 import { PRICE_SNAPSHOT_PROVIDERS, eventLifecycleHeld, eventPriceComparable, eventPublishable, publicOnsalePending, priceGuideGate } from "./_route-indexability.js";
 
@@ -124,7 +125,20 @@ export const PRICE_GUIDE_ARTISTS = Object.freeze([
   "blondshell",
   "the-lemonheads",
   "too-many-zooz",
-  "my-chemical-romance"
+  "my-chemical-romance",
+  // 2026-10-06: the four indexable artists that newly cleared the guide gate
+  // (three have Ticketmaster public on-sales 2026-10-08 to 2026-10-15).
+  "greta-van-fleet",
+  "fontaines-d-c",
+  "carly-rae-jepsen",
+  "riley-green",
+  // 2026-10-09: every indexable artist without a guide whose data clears the
+  // guide gate today (staind and warren-zeiders have Ticketmaster public
+  // on-sales on 2026-10-09).
+  "dylan-gossett",
+  "staind",
+  "warren-zeiders",
+  "flans"
 ]);
 
 export const PRICE_GUIDE_SEGMENT = "ticket-prices";
@@ -216,7 +230,7 @@ export function derivePriceGuide(events, artistSlug, options = {}) {
   for (const event of Array.isArray(events) ? events : []) {
     if (!event || typeof event !== "object" || slugify(event.artist_slug) !== target) continue;
     const iso = String(event.datetime_iso || event.dateTimeISO || "").trim();
-    const ts = Date.parse(iso);
+    const ts = showStartMs(event);
     const city = String(event.city || "").trim();
     const country = normalizeCountry(event.country);
     const id = String(event.id || "").trim();
@@ -330,8 +344,18 @@ export function priceGuideRouteDecision(guide, { registered, artistEditoriallyIn
  */
 export function deriveRenderedPriceGuides(events, indexableArtistSlugs, options = {}) {
   const indexable = new Set((indexableArtistSlugs || []).map((slug) => slugify(slug)));
+  // One pass to split the events by artist, so each guide reads only its own
+  // dates instead of every guide re-scanning the whole file. derivePriceGuide
+  // ignores other artists' rows, so the result is the same.
+  const eventsBySlug = new Map();
+  for (const event of Array.isArray(events) ? events : []) {
+    const slug = event && typeof event === "object" ? slugify(event.artist_slug) : "";
+    if (!indexable.has(slug)) continue;
+    if (!eventsBySlug.has(slug)) eventsBySlug.set(slug, []);
+    eventsBySlug.get(slug).push(event);
+  }
   return PRICE_GUIDE_ARTISTS.filter((slug) => indexable.has(slug))
-    .map((slug) => derivePriceGuide(events, slug, options))
+    .map((slug) => derivePriceGuide(eventsBySlug.get(slug) || [], slug, options))
     .filter((guide) => priceGuideRouteDecision(guide, { registered: true, artistEditoriallyIndexable: true }) === "render");
 }
 

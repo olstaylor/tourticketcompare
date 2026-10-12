@@ -20,6 +20,8 @@ import {
   ARTIST_CITY_MIN_SHOWS,
   ARTIST_CITY_MIN_ARTIST_CITIES,
   CITY_MIN_VENUES,
+  CITY_MIN_COMPARABLE_SHOWS,
+  VENUE_MIN_COMPARABLE_SHOWS,
   COMPARISON_MIN_PRICE_PROVIDERS,
   PRICE_SNAPSHOT_PROVIDERS,
   EXCLUSION_REASONS,
@@ -49,6 +51,7 @@ const futureA = "2026-08-01T19:00:00Z";
 const futureB = "2026-08-05T19:00:00Z";
 const futureC = "2026-08-09T19:00:00Z";
 const futureD = "2026-08-14T19:00:00Z";
+const futureE = "2026-08-18T19:00:00Z";
 const past = "2026-05-01T19:00:00Z";
 
 function ev(overrides = {}) {
@@ -190,7 +193,7 @@ const priced = {
 
 // --- Gate units -----------------------------------------------------------
 {
-  const city = { showCount: CITY_MIN_SHOWS, artistCount: CITY_MIN_ARTISTS, venueCount: CITY_MIN_VENUES, publishableCount: 1, comparableCount: 1 };
+  const city = { showCount: CITY_MIN_SHOWS, artistCount: CITY_MIN_ARTISTS, venueCount: CITY_MIN_VENUES, publishableCount: CITY_MIN_COMPARABLE_SHOWS, comparableCount: CITY_MIN_COMPARABLE_SHOWS };
   assert(cityGate(city).indexable, "a city exactly on every threshold is indexable");
   assert(
     cityGate({ ...city, comparableCount: 0 }).reasons.includes(EXCLUSION_REASONS.NO_PRICE_COMPARISON),
@@ -220,6 +223,16 @@ const priced = {
     artistCityGate({ showCount: 3, publishableCount: 3, comparableCount: 3, artistCityCount: 1 }).reasons.includes(EXCLUSION_REASONS.DUPLICATES_ARTIST_PAGE),
     "the artist's only city repeats the artist page and reports duplicates_artist_page"
   );
+  assert(
+    cityGate({ ...city, comparableCount: CITY_MIN_COMPARABLE_SHOWS - 1 }).reasons.includes(EXCLUSION_REASONS.BELOW_PRICE_COVERAGE_THRESHOLD),
+    "a city one comparable date short reports below_price_coverage_threshold"
+  );
+  assert(
+    venueGate({ showCount: VENUE_MIN_SHOWS, artistCount: VENUE_MIN_ARTISTS, publishableCount: 1, comparableCount: VENUE_MIN_COMPARABLE_SHOWS - 1 }).reasons.includes(
+      EXCLUSION_REASONS.BELOW_PRICE_COVERAGE_THRESHOLD
+    ),
+    "a venue one comparable date short reports below_price_coverage_threshold"
+  );
   assert(ARTIST_CITY_MIN_ARTIST_CITIES === 2, "an artist-city needs the artist to play a second city");
 }
 {
@@ -244,7 +257,7 @@ const priced = {
     "an empty city reports no_upcoming_shows rather than a threshold miss"
   );
 
-  assert(venueGate({ showCount: VENUE_MIN_SHOWS, artistCount: VENUE_MIN_ARTISTS, publishableCount: 1, comparableCount: 1 }).indexable, "a venue exactly on every threshold is indexable");
+  assert(venueGate({ showCount: VENUE_MIN_SHOWS, artistCount: VENUE_MIN_ARTISTS, publishableCount: VENUE_MIN_COMPARABLE_SHOWS, comparableCount: VENUE_MIN_COMPARABLE_SHOWS }).indexable, "a venue exactly on every threshold is indexable");
   assert(
     !venueGate({ showCount: VENUE_MIN_SHOWS, artistCount: VENUE_MIN_ARTISTS, publishableCount: 0 }).indexable,
     "a venue with no publishable destination is excluded"
@@ -271,17 +284,23 @@ const priced = {
 
 // --- City derivation ------------------------------------------------------
 {
-  // Four shows, two artists, all publishable -> indexable.
+  // Five shows, two artists, all publishable and comparable -> indexable.
   const events = [
     ev({ ...priced, id: "c1", datetime_iso: futureA }),
     ev({ ...priced, id: "c2", datetime_iso: futureB }),
     ev({ ...priced, id: "c3", artist_slug: "artist-two", artist_name: "Artist Two", venue: "O2 Academy Leeds", datetime_iso: futureC }),
-    ev({ ...priced, id: "c4", artist_slug: "artist-two", artist_name: "Artist Two", venue: "O2 Academy Leeds", datetime_iso: futureD })
+    ev({ ...priced, id: "c4", artist_slug: "artist-two", artist_name: "Artist Two", venue: "O2 Academy Leeds", datetime_iso: futureD }),
+    ev({ ...priced, id: "c5", artist_slug: "artist-two", artist_name: "Artist Two", venue: "O2 Academy Leeds", datetime_iso: futureE })
   ];
   const city = deriveCities(events, opts)[0];
-  assert(city.showCount === 4 && city.artistCount === 2, "the fixture city has four shows across two artists");
-  assert(city.publishableCount === 4 && city.hasPublishable === true, "all four fixture dates are publishable");
-  assert(city.indexable === true, "a four-show two-artist city with destinations is indexable");
+  assert(city.showCount === 5 && city.artistCount === 2, "the fixture city has five shows across two artists");
+  assert(city.publishableCount === 5 && city.hasPublishable === true, "all five fixture dates are publishable");
+  assert(city.indexable === true, "a five-show two-artist city with comparable dates is indexable");
+  const fourComparable = deriveCities(events.slice(0, 4), opts)[0];
+  assert(
+    fourComparable.indexable === false && fourComparable.exclusionReasons.includes(EXCLUSION_REASONS.BELOW_PRICE_COVERAGE_THRESHOLD),
+    "four comparable dates are one short of the city minimum"
+  );
   assert(city.exclusionReasons.length === 0, "an indexable city reports no exclusion reasons");
 }
 {
@@ -312,7 +331,10 @@ const priced = {
     ev({ id: "e4", artist_slug: "artist-two", datetime_iso: futureD, ticketmaster_url: "", verification_status: "needs_recheck", provider_links: {} })
   ];
   const city = deriveCities(events, opts)[0];
-  assert(city.publishableCount === 1 && city.indexable === true, "one reachable destination clears the city destination gate");
+  assert(
+    city.publishableCount === 1 && !city.exclusionReasons.includes(EXCLUSION_REASONS.NO_PUBLISHABLE_DESTINATION),
+    "one reachable destination clears the city destination gate"
+  );
 }
 {
   // Same city, every date publishable but on one price lane only: a schedule,
@@ -353,11 +375,17 @@ const priced = {
   const events = [
     ev({ ...priced, id: "g1", datetime_iso: futureA }),
     ev({ ...priced, id: "g2", datetime_iso: futureB }),
-    ev({ ...priced, id: "g3", artist_slug: "artist-two", datetime_iso: futureC })
+    ev({ ...priced, id: "g3", artist_slug: "artist-two", datetime_iso: futureC }),
+    ev({ ...priced, id: "g4", artist_slug: "artist-two", datetime_iso: futureD })
   ];
   const venue = deriveVenues(events, opts)[0];
-  assert(venue.showCount === 3 && venue.artistCount === 2, "the fixture venue has three shows across two artists");
-  assert(venue.indexable === true, "a three-show two-artist venue with destinations is indexable");
+  assert(venue.showCount === 4 && venue.artistCount === 2, "the fixture venue has four shows across two artists");
+  assert(venue.indexable === true, "a four-show two-artist venue with comparable dates is indexable");
+  const threeComparable = deriveVenues(events.slice(0, 3), opts)[0];
+  assert(
+    threeComparable.indexable === false && threeComparable.exclusionReasons.includes(EXCLUSION_REASONS.BELOW_PRICE_COVERAGE_THRESHOLD),
+    "three comparable dates are one short of the venue minimum"
+  );
 }
 {
   const suppressed = { ticketmaster_url: "", verification_status: "needs_recheck", provider_links: {} };

@@ -29,6 +29,70 @@ Both editorial collections are on the Markdown pipeline. Artist and event data a
 
 ---
 
+## Weekly editorial opportunities
+
+`blog-ideas.yml` runs every Monday at 11:20 UTC and on manual dispatch. It
+maintains one issue labelled `automation:blog-ideas`, with up to six ranked
+recommendations. It reads committed events, artist eligibility, catalog provider
+flags and the Markdown in both editorial collections. It never writes content,
+ticket data, affiliate configuration or production data. An editor reviews each
+idea and publishes through the existing content PR process.
+
+Preview locally with `npm run blog:ideas`, or use
+`npm run blog:ideas -- --json` for structured output. These modes do not contact
+GitHub and do not have the issue's suggestion history. The scheduled
+`node scripts/propose-blog-ideas.mjs --issue` uses only `GITHUB_TOKEN`, with
+`contents: read` and `issues: write`; its first run creates the label and issue.
+Later runs update that issue, reopening it if closed. Multiple labelled issues
+or damaged history fail clearly rather than starting another report.
+
+Discovery uses these bounded signals:
+
+- At least two verified upcoming dates with a public on-sale in the last
+  14 days or next 21 days. The sale must precede the concert; placeholder or
+  ambiguous timestamps do not qualify.
+- At least two upcoming dates with short explicitly named presale windows opening in the
+  next 14 days, or just opened with at least two days remaining. Promotions,
+  reserved/preferred tickets, long-running windows and unsafe names are excluded.
+  Codes and eligibility rules are never inferred.
+- At least three distinct nights at the same venue and city in the next
+  90 days, each with two fresh, independently verified provider records.
+- An existing artist sale article citing an exact event whose public on-sale
+  passed after its last editorial update may be recommended for review and
+  updating. Same-day timestamps do not establish an editorial gap.
+
+Evidence requires an indexable, non-demoted artist, a non-held event, a checked
+Ticketmaster exact-event source and verification within 30 days. Checked
+comparison records additionally require matching URLs, fresh verification and
+catalog public flags; production credentials, inventory and prices remain
+unproven. `last_verified_at` means a recheck, so it is never treated as a new
+announcement. Historical price changes and commercial analytics are not inputs.
+
+The score weights buying intent (up to 26), timeliness (20), evidence (20),
+usefulness (14), relevant internal routes (10), longevity (8) and overlap
+penalties (up to −8). Scores are editorial rules, not keyword or traffic metrics.
+Only scores of 70 or more qualify, with one recommendation per artist per run;
+ties use the deadline and stable topic key. Fewer than six, including none, is a
+valid result. The initial shortlist needs no external research; missing evidence
+is listed so an editor knows what must be verified before writing.
+
+Both published copy and drafts are checked for overlap using artist mentions,
+related artists, filenames and title angles. Existing general guides are linked
+as context; an artist-specific copy suppresses the new idea. This is deliberately
+conservative, and an editor still checks originality. The issue retains 26 weeks
+of compact topic keys plus the latest twelve titles: a repeated angle cools down
+for 13 weeks, and a different angle for the same artist for four weeks. Re-runs
+within the same UTC week update the same history entry. Preserve the hidden
+`ttc-blog-ideas:v1` JSON block when editing the issue.
+
+The workflow runs source/content validation and discovery/reporting tests before
+updating the issue. Malformed source files, ambiguous issue identity, invalid
+history or an active event corpus with no fresh trusted evidence fail the run and
+leave the previous issue report unchanged. Automation health monitors this weekly
+lane. Ordinary event expiry or a shortage of strong topics produces an explicit
+empty shortlist. There are no AI API calls, provider lookups, D1 reads or new paid
+services. Test with `npm run blog:ideas:test` (also in `test:mvp`).
+
 ## Writing a post
 
 ### Front matter
@@ -68,7 +132,7 @@ sources:
 | `tags` | no | Lowercase hyphenated slugs. |
 | `author` | no | Defaults to `TourTicketCompare`, and the build rejects any other value: bylines credit the site (see `docs/CONTENT_RULES.md` → Voice and Attribution). The BlogPosting `author` is the Organization node. |
 | `related_guides` | no | Guide slugs without the `/guides/` prefix. Must exist. Each guide named here also links back to the post, under "From the blog" (newest three posts per guide). |
-| `related_artists` | no | Artist slugs. Must exist in `public/data/artists.json`. Each artist named here also links back to the post from its artist page (newest three posts per artist). |
+| `related_artists` | no | Artist slugs. Must exist in `public/data/artists.json`. Each artist named here also links back to the post from its artist page (newest three posts per artist). The first three named artists that are indexable and have upcoming shows also get a ticket-routes panel above the post body (date board, price guide when live, next indexable city pages; links only, no prices). |
 | `sources` | no | `label` + https `url` pairs. Rendered as a Sources section and as schema citations. |
 
 ### Body

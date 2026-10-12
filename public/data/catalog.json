@@ -25,7 +25,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -50,7 +50,9 @@
           "destination_type": "artist_page",
           "display_name": "Ticketmaster Artist Page"
         }
-      }
+      },
+      "wikidata_id": "Q36153",
+      "musicbrainz_id": "859d0860-d480-4efd-970c-c05d5f1776b8"
     },
     {
       "slug": "harry-styles",
@@ -86,7 +88,9 @@
           "question": "Is Together, Together playing anywhere other than New York?",
           "answer": "Yes. Beyond the Madison Square Garden residency, the verified dates on this page include stadium shows in the United States, Canada, Spain, Ireland, the United Kingdom and Australia. Anything not on this page is a date not yet verified from the source, which is not the same as saying no such date exists. Check Harry Styles' official site and the ticket sites for anything beyond what is listed here."
         }
-      ]
+      ],
+      "wikidata_id": "Q3626966",
+      "musicbrainz_id": "7eb1ce54-a355-41f9-8d68-e018b096d427"
     },
     {
       "slug": "bts",
@@ -128,7 +132,9 @@
           "answer": "No. TourTicketCompare is independent and unofficial. Ticket buying happens on the external provider site, which controls prices, fees, and availability."
         }
       ],
-      "schema_type": "MusicGroup"
+      "schema_type": "MusicGroup",
+      "wikidata_id": "Q13580495",
+      "musicbrainz_id": "0d79fe8e-ba27-4859-bb8c-2f255f346853"
     },
     {
       "slug": "ariana-grande",
@@ -168,7 +174,9 @@
           "question": "Does TourTicketCompare sell Ariana Grande tickets?",
           "answer": "No. TourTicketCompare is independent and unofficial. Ticket buying happens on the external provider site, which controls prices, fees, and availability."
         }
-      ]
+      ],
+      "wikidata_id": "Q151892",
+      "musicbrainz_id": "f4fdbb4c-e4b7-47a0-b83b-d91bbfcfa387"
     },
     {
       "slug": "bad-bunny",
@@ -209,7 +217,9 @@
           "question": "Does TourTicketCompare sell Bad Bunny tickets?",
           "answer": "No. TourTicketCompare is independent and unofficial. Ticket buying happens on the external provider site, which controls prices, fees, and availability."
         }
-      ]
+      ],
+      "wikidata_id": "Q44333953",
+      "musicbrainz_id": "89aa5ecb-59ad-46f5-b3eb-2d424e941f19"
     },
     {
       "slug": "morgan-wallen",
@@ -383,7 +393,9 @@
           "destination_type": "artist_page",
           "display_name": "Ticketmaster Artist Page"
         }
-      }
+      },
+      "wikidata_id": "Q1450",
+      "musicbrainz_id": "afb680f2-b6eb-4cd7-a70b-a63b25c763d5"
     },
     {
       "slug": "ed-sheeran",
@@ -419,7 +431,9 @@
         "how-to-read-a-ticket-listing",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q47447",
+      "musicbrainz_id": "b8a7c51f-362c-4dcb-a259-bc6e0095f0a6"
     },
     {
       "slug": "shakira",
@@ -438,7 +452,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -454,7 +468,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q34424",
+      "musicbrainz_id": "bf24ca37-25f4-4e34-9aec-460b94364cfc"
     },
     {
       "slug": "raye",
@@ -473,7 +489,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -489,7 +505,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q28071144",
+      "musicbrainz_id": "8be564c3-dfba-440b-af8c-4ffbceeef45e"
     },
     {
       "slug": "charli-xcx",
@@ -520,7 +538,9 @@
         "how-to-avoid-ticket-scams",
         "primary-vs-resale-concert-tickets",
         "when-is-the-best-time-to-buy-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q5084390",
+      "musicbrainz_id": "260b6184-8828-48eb-945c-bc4cb6fc34ca"
     },
     {
       "slug": "tate-mcrae",
@@ -539,7 +559,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -555,7 +575,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q95129121",
+      "musicbrainz_id": "f9133869-f87c-459c-9aa7-2f176cda7e06"
     },
     {
       "slug": "summer-walker",
@@ -590,7 +612,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q61959478",
+      "musicbrainz_id": "9167f739-da47-4495-9d63-9c13b40114ac"
     },
     {
       "slug": "rosalia",
@@ -626,7 +650,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q28843759",
+      "musicbrainz_id": "25f3abd9-63b5-471a-bd25-feb9672dfa11"
     },
     {
       "slug": "sabrina-carpenter",
@@ -645,7 +671,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -680,7 +706,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -715,7 +741,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -731,7 +757,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q21621919",
+      "musicbrainz_id": "b1e26560-60e5-4236-bbdb-9aa5a8d5ee19"
     },
     {
       "slug": "zach-bryan",
@@ -750,7 +778,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -785,7 +813,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -801,7 +829,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q2121062",
+      "musicbrainz_id": "c8b03190-306c-4120-bb0b-6f2ebfc06ea9"
     },
     {
       "slug": "coldplay",
@@ -821,7 +851,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -856,7 +886,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -872,7 +902,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q6176881",
+      "musicbrainz_id": "ab5a7a60-1b71-4e5b-b622-e0ae2ce84c32"
     },
     {
       "slug": "tame-impala",
@@ -891,7 +923,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -907,7 +939,10 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q9619",
+      "musicbrainz_id": "63aa26c3-d59b-4da4-84ac-716b54f1ef4d",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "gracie-abrams",
@@ -926,7 +961,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -942,7 +977,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q106301562",
+      "musicbrainz_id": "f7441bc7-d7de-4813-a2fc-31a4033d396d"
     },
     {
       "slug": "niall-horan",
@@ -961,7 +998,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -977,7 +1014,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q775231",
+      "musicbrainz_id": "55e6074f-ef78-4ec3-8fff-bd1b8cc8c14a"
     },
     {
       "slug": "doja-cat",
@@ -996,7 +1035,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1012,7 +1051,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q51120673",
+      "musicbrainz_id": "5df62a88-cac9-490a-b62c-c7c88f4020f4"
     },
     {
       "slug": "sombr",
@@ -1031,7 +1072,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1047,7 +1088,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q133444448",
+      "musicbrainz_id": "502cf908-9921-48bc-bf0e-265c881c0156"
     },
     {
       "slug": "latto",
@@ -1066,7 +1109,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1101,7 +1144,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1136,7 +1179,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1152,7 +1195,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q22001324",
+      "musicbrainz_id": "de22adae-f8ac-414f-b653-b0162611bd60"
     },
     {
       "slug": "foo-fighters",
@@ -1172,7 +1217,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1188,7 +1233,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q483718",
+      "musicbrainz_id": "67f66c07-6e61-4026-ade5-7e782fad3a5d"
     },
     {
       "slug": "metallica",
@@ -1208,7 +1255,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1224,7 +1271,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q15920",
+      "musicbrainz_id": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab"
     },
     {
       "slug": "rush",
@@ -1244,7 +1293,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1280,7 +1329,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1316,7 +1365,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1332,7 +1381,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q483285",
+      "musicbrainz_id": "c07f0676-9143-4217-8a9f-4c26bd636f13"
     },
     {
       "slug": "teddy-swims",
@@ -1351,7 +1402,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1367,7 +1418,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q105542333",
+      "musicbrainz_id": "35feae82-8b2c-4f8f-ae7a-af5662848947"
     },
     {
       "slug": "five-finger-death-punch",
@@ -1387,7 +1440,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1403,7 +1456,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q749502",
+      "musicbrainz_id": "7e8571b1-7c5a-4739-bc51-73d422ee9d74"
     },
     {
       "slug": "system-of-a-down",
@@ -1423,7 +1478,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1458,7 +1513,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1493,7 +1548,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1528,7 +1583,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1544,7 +1599,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q23884740",
+      "musicbrainz_id": "c20ee61f-071f-4e65-9c81-45ee931a54ce"
     },
     {
       "slug": "blue-october",
@@ -1564,7 +1621,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1580,7 +1637,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q885829",
+      "musicbrainz_id": "d6a3eeec-cde0-4c10-89b2-93e0bd5f34e6"
     },
     {
       "slug": "pentatonix",
@@ -1600,7 +1659,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1616,7 +1675,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q3374926",
+      "musicbrainz_id": "79c67eb5-3851-4b28-bfe0-3adfcd6f58d7"
     },
     {
       "slug": "tyla",
@@ -1635,7 +1696,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1671,7 +1732,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1687,7 +1748,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q20684996",
+      "musicbrainz_id": "7e2e4e3a-4e85-4d5a-b78e-5e4afd467a3e"
     },
     {
       "slug": "trivium",
@@ -1707,7 +1770,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1723,7 +1786,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q390684",
+      "musicbrainz_id": "1f5ff245-2837-4d4a-a609-e93e544478c3"
     },
     {
       "slug": "sabaton",
@@ -1743,7 +1808,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1759,7 +1824,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q740159",
+      "musicbrainz_id": "39a31de6-763d-48b6-a45c-f7cfad58ffd8"
     },
     {
       "slug": "in-flames",
@@ -1779,7 +1846,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1815,7 +1882,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1831,7 +1898,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q16822837",
+      "musicbrainz_id": "98a1e0ab-35fa-40dd-b62c-9fda46fdb061"
     },
     {
       "slug": "polyphia",
@@ -1851,7 +1920,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1886,7 +1955,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1921,7 +1990,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1937,7 +2006,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q364884",
+      "musicbrainz_id": "8484e4ab-b6b5-4326-b837-72eb72c9e8a4"
     },
     {
       "slug": "saint-levant",
@@ -1956,7 +2027,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -1992,7 +2063,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2008,7 +2079,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q1567618",
+      "musicbrainz_id": "892fb2e4-0af4-42be-9e60-22898de51d32"
     },
     {
       "slug": "andrea-bocelli",
@@ -2027,7 +2100,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2043,7 +2116,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q42402",
+      "musicbrainz_id": "c5a0a216-c33c-42dc-92b8-4b60236f8dad"
     },
     {
       "slug": "morat",
@@ -2063,7 +2138,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2079,7 +2154,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q27535132",
+      "musicbrainz_id": "664f5669-a550-49fc-a38c-951594ddc9a4"
     },
     {
       "slug": "missio",
@@ -2099,7 +2176,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2115,7 +2192,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q41733812",
+      "musicbrainz_id": "ae5af627-ccd6-4db5-974d-83da8e32e705"
     },
     {
       "slug": "vnv-nation",
@@ -2134,7 +2213,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2150,7 +2229,10 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q727124",
+      "musicbrainz_id": "8385f26a-f374-4a04-9aad-4442ce24db2b",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "michelle-branch",
@@ -2169,7 +2251,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2185,7 +2267,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q234685",
+      "musicbrainz_id": "a10f94a9-2a3c-4166-b9fa-a7bed0bf7d96"
     },
     {
       "slug": "yuridia",
@@ -2204,7 +2288,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2220,7 +2304,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q2352901",
+      "musicbrainz_id": "15ba83b7-d89a-4dd6-9695-1290fb567493"
     },
     {
       "slug": "fkj",
@@ -2239,7 +2325,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2255,7 +2341,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q30457256",
+      "musicbrainz_id": "8ef74994-73f6-459c-a10c-56a16e07b362"
     },
     {
       "slug": "sylvan-esso",
@@ -2275,7 +2363,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2291,7 +2379,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q17388812",
+      "musicbrainz_id": "c4593b34-2a94-4e44-ae10-4a0f4c0b4da8"
     },
     {
       "slug": "blondshell",
@@ -2310,7 +2400,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2326,7 +2416,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q117272643",
+      "musicbrainz_id": "f6621a8d-5644-460a-b0a8-9171cb2c595d"
     },
     {
       "slug": "pink-martini",
@@ -2346,7 +2438,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2362,7 +2454,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q1543576",
+      "musicbrainz_id": "113e0972-077f-423b-9b5f-3cc8a5bafa0f"
     },
     {
       "slug": "oasis",
@@ -2382,7 +2476,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2417,7 +2511,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2433,7 +2527,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q76364",
+      "musicbrainz_id": "e6de1f3b-6484-491c-88dd-6d619f142abc"
     },
     {
       "slug": "trans-siberian-orchestra",
@@ -2453,7 +2549,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2469,7 +2565,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q1360643",
+      "musicbrainz_id": "d2b83114-af3e-4397-b570-10d81f1dd650"
     },
     {
       "slug": "kenny-chesney",
@@ -2488,7 +2586,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2504,7 +2602,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q467526",
+      "musicbrainz_id": "5dca4d22-d6c8-4e70-8ca1-4543e43353c7"
     },
     {
       "slug": "death-cab-for-cutie",
@@ -2524,7 +2624,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2540,7 +2640,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q16414",
+      "musicbrainz_id": "0039c7ae-e1a7-4a7d-9b49-0cbc716821a6"
     },
     {
       "slug": "alan-walker",
@@ -2559,7 +2661,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2575,7 +2677,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q21808729",
+      "musicbrainz_id": "b0e4bc50-3062-4d31-afad-def6a6b7a8e9"
     },
     {
       "slug": "the-psychedelic-furs",
@@ -2595,7 +2699,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2611,7 +2715,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q276463",
+      "musicbrainz_id": "9f930ddf-be2f-4de5-a39f-7ae47305752e"
     },
     {
       "slug": "eros-ramazzotti",
@@ -2630,7 +2736,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2646,7 +2752,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q153708",
+      "musicbrainz_id": "3ab7295a-54ac-40e8-b1b2-3d110a143550"
     },
     {
       "slug": "atmosphere",
@@ -2666,7 +2774,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2682,7 +2790,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q757508",
+      "musicbrainz_id": "ef954679-5ee7-4016-acef-7ac71f2fa3d8"
     },
     {
       "slug": "the-warning",
@@ -2702,7 +2812,7 @@
         },
         {
           "question": "How do I know if a ticket link is real?",
-          "answer": "Buttons only link directly to ticket provider or verified resale platforms. If a button is hidden, that destination has not been verified yet. Each button names the provider it goes to, and every click passes through the site's own redirect, which checks the destination against an allowlist of approved provider domains before sending you there."
+          "answer": "Each button names the ticket site it opens, and a button only shows once its link has been checked. Every click goes through this site's redirect, which only sends you on to approved ticket sites."
         },
         {
           "question": "What ticket prices can I see here?",
@@ -2796,7 +2906,10 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q5494459",
+      "musicbrainz_id": "16f146da-deef-4f07-9bbf-e4922c27067e",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "lukas-graham",
@@ -2822,7 +2935,10 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q300935",
+      "musicbrainz_id": "124cec07-44f1-4a99-9aaa-96a5bb9ec0bd",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "passenger",
@@ -2956,7 +3072,10 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q28451312",
+      "musicbrainz_id": "f8ed032c-0d34-4ae6-a069-91417097509e",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "dinosaur-jr",
@@ -2982,7 +3101,10 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q622944",
+      "musicbrainz_id": "77c167d2-4965-4421-830a-9815e4956475",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "needtobreathe",
@@ -3008,7 +3130,10 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q1817575",
+      "musicbrainz_id": "c5c2f1bb-09db-429f-8f77-ed9dfe39a36b",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "foy-vance",
@@ -3034,7 +3159,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q5477365",
+      "musicbrainz_id": "6ef3b33e-848c-4773-867b-5fb1397ef408"
     },
     {
       "slug": "the-lemonheads",
@@ -3086,7 +3213,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q310298",
+      "musicbrainz_id": "50c629c6-6f22-4bf9-a3c2-f2855e6704be"
     },
     {
       "slug": "haiden-henderson",
@@ -3138,7 +3267,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q18211409",
+      "musicbrainz_id": "6f614d38-ad89-4130-9aef-835ad53c9653"
     },
     {
       "slug": "valley",
@@ -3216,7 +3347,10 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q19947173",
+      "musicbrainz_id": "e44ef539-1ec9-4cb2-bee7-852e84618308",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "amble",
@@ -3268,7 +3402,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q232288",
+      "musicbrainz_id": "4a5d70ad-89c8-47a1-afb2-4cc26471e113"
     },
     {
       "slug": "a-perfect-circle",
@@ -3294,7 +3430,10 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q300519",
+      "musicbrainz_id": "078a9376-3c04-4280-b7d7-b20e158f345d",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "chelsea-cutler",
@@ -3320,7 +3459,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q72219259",
+      "musicbrainz_id": "ae34b97a-83ae-423c-bc2d-9cc7c0e4244d"
     },
     {
       "slug": "the-red-clay-strays",
@@ -3372,7 +3513,10 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q873413",
+      "musicbrainz_id": "21e3292e-dac8-4609-b57d-402f926aa41f",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "greta-van-fleet",
@@ -3398,7 +3542,10 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q30636835",
+      "musicbrainz_id": "0be22557-d8c7-4706-a531-625c4c570162",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "fontaines-d-c",
@@ -3424,7 +3571,10 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q65056403",
+      "musicbrainz_id": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68",
+      "schema_type": "MusicGroup"
     },
     {
       "slug": "riley-green",
@@ -3450,7 +3600,9 @@
         "when-is-the-best-time-to-buy-concert-tickets",
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
-      ]
+      ],
+      "wikidata_id": "Q57418818",
+      "musicbrainz_id": "d8c85c0e-ad88-47a7-a1df-b70608c2f52f"
     },
     {
       "slug": "hazlett",
@@ -3490,6 +3642,439 @@
       "faq": [
         {
           "question": "Where can I find Carly Rae Jepsen tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ],
+      "wikidata_id": "Q52583",
+      "musicbrainz_id": "09887aa7-226e-4ecc-9a0c-02d2ae5777e1"
+    },
+    {
+      "slug": "the-neighbourhood",
+      "name": "The Neighbourhood",
+      "short_description": "American alternative rock band from Newbury Park, California, fronted by Jesse Rutherford.",
+      "image_alt": "The Neighbourhood artist ticket information",
+      "factual_summary": "The Neighbourhood is an American alternative rock band formed in Newbury Park, California, in 2011, with Jesse Rutherford on lead vocals. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the The Neighbourhood page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "The Neighbourhood Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "The Neighbourhood tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find The Neighbourhood tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ],
+      "wikidata_id": "Q7753383",
+      "musicbrainz_id": "97b8d224-5660-419c-8dff-4b3bf0c33983",
+      "schema_type": "MusicGroup"
+    },
+    {
+      "slug": "staind",
+      "name": "Staind",
+      "short_description": "American rock band from Springfield, Massachusetts, fronted by Aaron Lewis.",
+      "image_alt": "Staind artist ticket information",
+      "factual_summary": "Staind is an American rock band from Springfield, Massachusetts, formed in 1995, with Aaron Lewis on lead vocals and Mike Mushok on lead guitar. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Staind page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Staind Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Staind tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Staind tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ],
+      "wikidata_id": "Q266496",
+      "musicbrainz_id": "777a21a8-0d0f-4cf3-86b4-65bc0eba5649",
+      "schema_type": "MusicGroup"
+    },
+    {
+      "slug": "dylan-gossett",
+      "name": "Dylan Gossett",
+      "short_description": "American country singer-songwriter from Austin, Texas, known for \"Coal\".",
+      "image_alt": "Dylan Gossett artist ticket information",
+      "factual_summary": "Dylan Gossett is an American country singer-songwriter from Austin, Texas. His self-released single \"Coal\" reached the Billboard Hot 100, and his debut album, Westward, came out in July 2025. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Dylan Gossett page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Dylan Gossett Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Dylan Gossett tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Dylan Gossett tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "flans",
+      "name": "Flans",
+      "short_description": "Mexican pop group whose first album came out in 1985.",
+      "image_alt": "Flans artist ticket information",
+      "factual_summary": "Flans is a Mexican pop group. Its original line-up was the singers Ivonne, Ilse and Mimí, and its first album came out in 1985. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Flans page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Flans Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Flans tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Flans tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ],
+      "wikidata_id": "Q741309",
+      "musicbrainz_id": "401ece69-dba5-431d-a5bc-dd44a68cf8cd",
+      "schema_type": "MusicGroup"
+    },
+    {
+      "slug": "warren-zeiders",
+      "name": "Warren Zeiders",
+      "short_description": "American country singer-songwriter known for \"Pretty Little Poison\".",
+      "image_alt": "Warren Zeiders artist ticket information",
+      "factual_summary": "Warren Zeiders is an American country singer and songwriter signed to Warner Records. His 2023 single \"Pretty Little Poison\" was his first number one on country radio. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Warren Zeiders page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Warren Zeiders Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Warren Zeiders tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Warren Zeiders tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "dancing-with-the-stars",
+      "name": "Dancing With The Stars",
+      "short_description": "Live stage tour of the ABC dance competition series.",
+      "image_alt": "Dancing With The Stars artist ticket information",
+      "factual_summary": "Dancing with the Stars is an American dance competition TV series that first aired on ABC in 2005. Dancing with the Stars: Live! is its touring stage show, which first toured in 2014. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Dancing With The Stars page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Dancing With The Stars Tickets & Dates | TourTicketCompare",
+      "meta_description": "Dancing With The Stars tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Dancing With The Stars tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "def-leppard",
+      "name": "Def Leppard",
+      "short_description": "English rock band formed in Sheffield in 1976.",
+      "image_alt": "Def Leppard artist ticket information",
+      "factual_summary": "Def Leppard is an English rock band formed in Sheffield in 1976. Its line-up since 1992 is Joe Elliott, Rick Savage, Rick Allen, Phil Collen and Vivian Campbell. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Def Leppard page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Def Leppard Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Def Leppard tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Def Leppard tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ],
+      "wikidata_id": "Q182890",
+      "musicbrainz_id": "7249b899-8db8-43e7-9e6e-22f1e736024e",
+      "schema_type": "MusicGroup"
+    },
+    {
+      "slug": "nickelback",
+      "name": "Nickelback",
+      "short_description": "Canadian rock band from Hanna, Alberta, fronted by Chad Kroeger.",
+      "image_alt": "Nickelback artist ticket information",
+      "factual_summary": "Nickelback is a Canadian rock band formed in 1995 in Hanna, Alberta, with Chad Kroeger on lead vocals and guitar. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Nickelback page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Nickelback Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Nickelback tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Nickelback tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ],
+      "wikidata_id": "Q483802",
+      "musicbrainz_id": "bc710bcf-8815-42cf-bad2-3f1d12246aeb",
+      "schema_type": "MusicGroup"
+    },
+    {
+      "slug": "jay-wheeler",
+      "name": "Jay Wheeler",
+      "short_description": "Puerto Rican singer and songwriter known for \"La Curiosidad\".",
+      "image_alt": "Jay Wheeler artist ticket information",
+      "factual_summary": "Jay Wheeler is a Puerto Rican singer and songwriter who became known after a video of him singing went viral in 2016. His single \"La Curiosidad\", with Myke Towers, reached the top five of Billboard's Hot Latin Songs chart. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Jay Wheeler page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Jay Wheeler Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Jay Wheeler tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Jay Wheeler tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "mico",
+      "name": "Mico",
+      "short_description": "Canadian singer-songwriter from Toronto, known for the 2022 single \"cut my hair\".",
+      "image_alt": "Mico artist ticket information",
+      "factual_summary": "Mico is a Canadian singer-songwriter and musician from Toronto. He first built a following online through Discord and Twitch, then broke through with his 2022 single \"cut my hair\". The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Mico page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Mico Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Mico tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Mico tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "rod-wave",
+      "name": "Rod Wave",
+      "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+      "image_alt": "Rod Wave artist ticket information",
+      "factual_summary": "Rod Wave is listed by Ticketmaster under Hip-Hop/Rap. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Rod Wave page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Rod Wave Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Rod Wave tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Rod Wave tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "uicideboy",
+      "name": "$uicideboy$",
+      "short_description": "Hip-Hop/Rap act listed on Ticketmaster.",
+      "image_alt": "$uicideboy$ artist ticket information",
+      "factual_summary": "$uicideboy$ is listed by Ticketmaster under Hip-Hop/Rap. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the $uicideboy$ page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "$uicideboy$ Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "$uicideboy$ tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find $uicideboy$ tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "steve-lacy",
+      "name": "Steve Lacy",
+      "short_description": "R&B act listed on Ticketmaster.",
+      "image_alt": "Steve Lacy artist ticket information",
+      "factual_summary": "Steve Lacy is listed by Ticketmaster under R&B. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Steve Lacy page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Steve Lacy Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Steve Lacy tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Steve Lacy tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "the-smashing-pumpkins",
+      "name": "The Smashing Pumpkins",
+      "short_description": "Rock act listed on Ticketmaster.",
+      "image_alt": "The Smashing Pumpkins artist ticket information",
+      "factual_summary": "The Smashing Pumpkins is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the The Smashing Pumpkins page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "The Smashing Pumpkins Tickets & Dates | TourTicketCompare",
+      "meta_description": "The Smashing Pumpkins tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find The Smashing Pumpkins tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "fuerza-regida",
+      "name": "Fuerza Regida",
+      "short_description": "World act listed on Ticketmaster.",
+      "image_alt": "Fuerza Regida artist ticket information",
+      "factual_summary": "Fuerza Regida is listed by Ticketmaster under World. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Fuerza Regida page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Fuerza Regida Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Fuerza Regida tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Fuerza Regida tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "mei-semones",
+      "name": "Mei Semones",
+      "short_description": "Alternative act listed on Ticketmaster.",
+      "image_alt": "Mei Semones artist ticket information",
+      "factual_summary": "Mei Semones is listed by Ticketmaster under Alternative. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Mei Semones page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Mei Semones Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Mei Semones tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Mei Semones tour dates?",
           "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
         },
         {
@@ -3542,7 +4127,21 @@
         "ticketmaster.be",
         "ticketmaster.it",
         "ticketmaster.com.au",
-        "ticketmaster.ie"
+        "ticketmaster.ie",
+        "ticketmaster.com.mx",
+        "ticketmaster.co.nz",
+        "ticketmaster.cz",
+        "ticketmaster.no",
+        "ticketmaster.fi",
+        "ticketmaster.ch",
+        "ticketmaster.at",
+        "ticketmaster.dk",
+        "ticketmaster.co.za",
+        "ticketmaster.ae",
+        "ticketmaster.com.br",
+        "ticketmaster.sg",
+        "ticketweb.com",
+        "ticketweb.ca"
       ],
       "trusted_affiliate_hosts": [],
       "api_config": {
@@ -6644,6 +7243,454 @@
       "last_checked_at": "2026-10-03",
       "disclosure_required": true,
       "url": "https://seatgeek.com/carly-rae-jepsen-tickets"
+    },
+    {
+      "link_id": "tm-artist-the-neighbourhood",
+      "artist_slug": "the-neighbourhood",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-06",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/the-neighbourhood-tickets/artist/2164718"
+    },
+    {
+      "link_id": "sg-artist-the-neighbourhood",
+      "artist_slug": "the-neighbourhood",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-06",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/the-neighbourhood-tickets"
+    },
+    {
+      "link_id": "tm-artist-staind",
+      "artist_slug": "staind",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-06",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/staind-tickets/artist/717721"
+    },
+    {
+      "link_id": "sg-artist-staind",
+      "artist_slug": "staind",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-06",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/staind-tickets"
+    },
+    {
+      "link_id": "tm-artist-dylan-gossett",
+      "artist_slug": "dylan-gossett",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-06",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/dylan-gossett-tickets/artist/3086445"
+    },
+    {
+      "link_id": "sg-artist-dylan-gossett",
+      "artist_slug": "dylan-gossett",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-06",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/dylan-gossett-tickets"
+    },
+    {
+      "link_id": "tm-artist-flans",
+      "artist_slug": "flans",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-06",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/flans-tickets/artist/2046401"
+    },
+    {
+      "link_id": "sg-artist-flans",
+      "artist_slug": "flans",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-06",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/flans-tickets"
+    },
+    {
+      "link_id": "tm-artist-warren-zeiders",
+      "artist_slug": "warren-zeiders",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-06",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/warren-zeiders-tickets/artist/2869566"
+    },
+    {
+      "link_id": "sg-artist-warren-zeiders",
+      "artist_slug": "warren-zeiders",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-06",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/warren-zeiders-tickets"
+    },
+    {
+      "link_id": "tm-artist-dancing-with-the-stars",
+      "artist_slug": "dancing-with-the-stars",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": false,
+      "market": "global",
+      "last_checked_at": "2026-10-09",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/dancing-with-the-stars-tickets/artist/1086116"
+    },
+    {
+      "link_id": "sg-artist-dancing-with-the-stars",
+      "artist_slug": "dancing-with-the-stars",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": false,
+      "market": "us",
+      "last_checked_at": "2026-10-09",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/dancing-with-the-stars-1-tickets"
+    },
+    {
+      "link_id": "tm-artist-def-leppard",
+      "artist_slug": "def-leppard",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-09",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/def-leppard-tickets/artist/734898"
+    },
+    {
+      "link_id": "sg-artist-def-leppard",
+      "artist_slug": "def-leppard",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-09",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/def-leppard-tickets"
+    },
+    {
+      "link_id": "tm-artist-nickelback",
+      "artist_slug": "nickelback",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-09",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/nickelback-tickets/artist/710632"
+    },
+    {
+      "link_id": "sg-artist-nickelback",
+      "artist_slug": "nickelback",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-09",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/nickelback-tickets"
+    },
+    {
+      "link_id": "tm-artist-jay-wheeler",
+      "artist_slug": "jay-wheeler",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-09",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/jay-wheeler-tickets/artist/2795427"
+    },
+    {
+      "link_id": "sg-artist-jay-wheeler",
+      "artist_slug": "jay-wheeler",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-09",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/jay-wheeler-tickets"
+    },
+    {
+      "link_id": "tm-artist-mico",
+      "artist_slug": "mico",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-09",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/mico-tickets/artist/3000734"
+    },
+    {
+      "link_id": "sg-artist-mico",
+      "artist_slug": "mico",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-09",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/mico-tickets"
+    },
+    {
+      "link_id": "tm-artist-rod-wave",
+      "artist_slug": "rod-wave",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-11",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/rod-wave-tickets/artist/2663489"
+    },
+    {
+      "link_id": "sg-artist-rod-wave",
+      "artist_slug": "rod-wave",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-11",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/rod-wave-tickets"
+    },
+    {
+      "link_id": "tm-artist-uicideboy",
+      "artist_slug": "uicideboy",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-11",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/uicideboy-tickets/artist/2194218"
+    },
+    {
+      "link_id": "sg-artist-uicideboy",
+      "artist_slug": "uicideboy",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-11",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/uicideboy-tickets"
+    },
+    {
+      "link_id": "tm-artist-steve-lacy",
+      "artist_slug": "steve-lacy",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-11",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/steve-lacy-tickets/artist/2330907"
+    },
+    {
+      "link_id": "sg-artist-steve-lacy",
+      "artist_slug": "steve-lacy",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-11",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/steve-lacy-tickets"
+    },
+    {
+      "link_id": "tm-artist-the-smashing-pumpkins",
+      "artist_slug": "the-smashing-pumpkins",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-11",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/the-smashing-pumpkins-tickets/artist/736143"
+    },
+    {
+      "link_id": "sg-artist-the-smashing-pumpkins",
+      "artist_slug": "the-smashing-pumpkins",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-11",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/the-smashing-pumpkins-tickets"
+    },
+    {
+      "link_id": "tm-artist-fuerza-regida",
+      "artist_slug": "fuerza-regida",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-11",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/fuerza-regida-tickets/artist/2499958"
+    },
+    {
+      "link_id": "sg-artist-fuerza-regida",
+      "artist_slug": "fuerza-regida",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-11",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/fuerza-regida-tickets"
+    },
+    {
+      "link_id": "tm-artist-mei-semones",
+      "artist_slug": "mei-semones",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-10-11",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/mei-semones-tickets/artist/2964416"
+    },
+    {
+      "link_id": "sg-artist-mei-semones",
+      "artist_slug": "mei-semones",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-10-11",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/mei-semones-tickets"
     }
   ],
   "safety_rules": [

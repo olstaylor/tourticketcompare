@@ -43,6 +43,7 @@ const TRUST_PATHS = new Set([
   "/about",
   "/about/ollie-taylor",
   "/contact",
+  "/press",
   "/editorial-policy",
   "/affiliate-disclosure",
   "/privacy",
@@ -224,7 +225,10 @@ export const CTA_LOCATIONS = Object.freeze([
   "artist_city_answer",
   // The per-date price tables on an artist price guide
   // (/artists/<artist>/ticket-prices), reported separately for the same reason.
-  "price_guide"
+  "price_guide",
+  // The per-date resale table on an artist presale page
+  // (/artists/<artist>/presale), owner-approved 2026-10-09.
+  "presale_page"
 ]);
 
 const CTA_LOCATION_SET = new Set(CTA_LOCATIONS);

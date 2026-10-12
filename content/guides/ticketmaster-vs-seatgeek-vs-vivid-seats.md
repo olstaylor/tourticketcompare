@@ -46,6 +46,8 @@ Ticketmaster, SeatGeek, and Vivid Seats can show different options for the same 
 
 No provider is automatically the lowest-priced for every event. Compare the exact event, ticket type, seat, quantity, delivery timing, current total, and buyer-protection terms. Of these three, only Vivid Seats supplies this site with a listed price, so expect a checked link from all three and a figure from one. The section below explains why. For narrower two-platform decisions, see [SeatGeek vs Ticketmaster](/guides/seatgeek-vs-ticketmaster) or [Vivid Seats vs Ticketmaster](/guides/vivid-seats-vs-ticketmaster).
 
+[Find your concert and compare ticket options](/compare-concert-ticket-prices). Choose an artist, city or venue, then the exact night. Provider coverage varies by show; a checked link is not a promise of availability, and listed-price snapshots are not final checkout totals.
+
 ## Ticketmaster vs SeatGeek vs Vivid Seats at a glance
 
 | Provider | Typical role | Who sets the listed price? | Important check |

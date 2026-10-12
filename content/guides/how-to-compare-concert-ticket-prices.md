@@ -32,7 +32,7 @@ howto:
     - name: Confirm the exact show
       text: Check that the artist, date, venue, city, ticket type, and seat details match the show you intend to attend on every page you compare.
     - name: Use timestamped snapshots as a shortlist
-      text: Check the snapshot timestamp and provider attribution, then use current approved snapshots only as a shortlist before opening both provider pages.
+      text: Check when each listed-price snapshot was taken and which site it came from, then use it only as a shortlist before opening both ticket sites.
     - name: Compare like-for-like ticket details
       text: Match ticket category, section, row, seat range, quantity, view restrictions, and delivery method before treating a price difference as a like-for-like comparison.
     - name: Check the final amount payable
@@ -43,19 +43,15 @@ howto:
       text: Confirm delivery timing and read the current buyer-protection, refund, transfer, cancellation, and postponement terms on the provider site.
 ---
 
-Start with the concert, not the ticket site. Pin down the artist, the local date and the venue, then match the ticket itself. Two prices for "the same show" often turn out to be a different night, a different section, a resale listing against a primary one, or a single seat against a pair. That isn't a saving; it's a different ticket.
+Pin down the show first: artist, local date and venue. Then compare each ticket site's listed price for that date, open the ones worth a look, and decide on the total at each site's order screen. Two prices for "the same show" often turn out to be a different night, a different section, or resale against primary.
 
-Each ticket site displays prices its own way, so the figure to trust is the total on the site's order screen.
-
-Where a ticket site supplies one, TourTicketCompare shows that site's lowest listed price for a date, with the time it was checked. Prices are checked every few hours. Use the [comparison hub](/compare-concert-ticket-prices) for the method, or go straight to an [artist page](/artists) and pick a date. A listed price tells you where to look first. It isn't live stock, and it isn't your final total.
+Where a ticket site supplies one, TourTicketCompare shows its listed-price snapshot for a date, with when it was checked. Go to an [artist page](/artists) and pick a date to start.
 
 ## Where can you compare prices for different concert venues?
 
 Start on the [artist's dates page](/artists) to find that artist's shows in different cities and venues. If your destination is fixed, browse [concerts by city](/cities) or [by venue](/venues) instead, then choose the artist and exact date. Open the checked ticket links on each date card to compare that show's listings.
 
 Different venues and nights are separate purchases, so compare their complete trip costs rather than calling one a cheaper version of the other. Include the ticket quantity, seat or standing area, travel, accommodation and local transport in your budget. A lower listed ticket price can be outweighed by the cost of getting there.
-
-Once you choose a show, keep the venue and date fixed while comparing providers. Where a date card shows more than one current price in the same currency, those figures help shortlist providers for that one show. Confirm the matching ticket details and complete total on each provider before paying.
 
 ## 1. Start with the concert, not the provider
 
@@ -72,7 +68,7 @@ If any of these differ, you've found another option, not a cheaper version of th
 
 ## 2. Use listed prices to decide where to look next
 
-Each price on a TourTicketCompare date comes from a price feed for that ticket site, for that one date, and shows how long ago it was checked. It drops off the page once it is more than 24 hours old. When two sites have a current price for the same date in the same currency, you can see which listed lower.
+Each price on a TourTicketCompare date is one ticket site's listed-price snapshot for that date, with how long ago it was checked. It drops off the page once it is more than 24 hours old. When two sites have a price for the same date in the same currency, the lower one is marked.
 
 That tells you which pages to open first. It doesn't tell you the seats are equivalent, that they're still there, or which order will cost less. Open both listings before you choose.
 
@@ -80,7 +76,7 @@ That tells you which pages to open first. It doesn't tell you the seats are equi
 
 Get the ticket category and seat quality as close as the listings allow. A lower price may be for upper-tier seats, a restricted view, a delayed transfer, a single ticket, or resale where the other option is primary.
 
-Note the section, row, seat range, quantity, ticket type, view restriction and delivery method for each. If a listing doesn't give you enough to compare fairly, don't read anything into the price gap.
+Note the section, row, seat range, quantity, ticket type, view restriction and delivery method for each.
 
 ## 4. Make the decision at the order summary
 
@@ -95,7 +91,7 @@ On the order summary, check:
 - The currency, and any conversion charge from your card
 - Whether the figure is per ticket or for the whole order
 
-Decide on that total, together with the ticket and delivery terms. A listed price on this site is never a promise of it.
+Decide on that total, together with the ticket and delivery terms.
 
 ## 5. Identify primary and resale tickets
 
@@ -111,11 +107,7 @@ For resale, read the marketplace's current buyer-protection terms, including the
 
 ## How TourTicketCompare produces a comparison
 
-TourTicketCompare doesn't scrape. A price appears only when a ticket site's feed supplies a listed price the site is allowed to show, for a date already matched to that site's event page.
-
-That's why some buttons carry a price and others never do. Vivid Seats, TicketNetwork and StubHub International supply one. SeatGeek's feed returns no prices to this site, so its button is a checked link without a figure. Ticketmaster is where dates are confirmed, and its button is a plain link.
-
-If a price fails any check (the source, the event match, the timestamp or the provider's own switch), it is left off rather than estimated. The site doesn't rate seat quality, and never calls one ticket site cheaper across the board.
+TourTicketCompare doesn't scrape. Vivid Seats, TicketNetwork and StubHub International share listed prices with this site; SeatGeek and Ticketmaster buttons are checked links without a figure. A price that can't be matched to the exact date, or is too old, is left off rather than estimated, and the site never calls one ticket site cheaper across the board. [How it works](/how-it-works) has the detail.
 
 ## FAQ
 
@@ -126,14 +118,6 @@ Match the exact event and ticket details first, then compare the final order tot
 **Does TourTicketCompare compare live concert ticket prices?**
 
 No. It shows each site's listed price with the time it was checked, when the site supplies one and the date matches. Live availability and the amount you pay are confirmed on the ticket site.
-
-**Which price should I compare?**
-
-The final order total for the same quantity, on each ticket site, including taxes, delivery, currency conversion and any extras you choose. The listed prices here help you decide which sites to check first.
-
-**Does the lower listed price mean the better ticket?**
-
-No. It may be a different section, row, view, ticket type, quantity or delivery method. Check those before you read anything into the gap.
 
 **Why is a price missing?**
 

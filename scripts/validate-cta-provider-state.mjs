@@ -403,7 +403,7 @@ function selfTest() {
   assert("short-form url fails mhc contract", machineHighConfidenceIssue({ ...goodEvent, ticketmaster_url: "https://www.ticketmaster.com/event/ABC123" }, allowedHosts) !== "");
   assert("date-only fails mhc contract", machineHighConfidenceIssue({ ...goodEvent, datetime_iso: "2027-06-01" }, allowedHosts) !== "");
   assert("missing id fails redirect invariant", ticketmasterRedirectIssue({ ...goodEvent, ticketmaster_event_id: "" }, allowedHosts) !== "");
-  assert("non-allowlisted host fails redirect invariant", ticketmasterRedirectIssue({ ...goodEvent, ticketmaster_url: "https://www.ticketmaster.com.mx/x/event/ABC123" }, allowedHosts) !== "");
+  assert("non-allowlisted host fails redirect invariant", ticketmasterRedirectIssue({ ...goodEvent, ticketmaster_url: "https://www.ticketmaster.com.ar/x/event/ABC123" }, allowedHosts) !== "");
 
   const sgUrl = "https://seatgeek.com/raye-tickets/london-o2-2027-06-01-7-pm/concert/12345";
   const sgVerifiedEvent = {

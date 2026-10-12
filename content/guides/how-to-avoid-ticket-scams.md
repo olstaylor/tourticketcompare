@@ -33,7 +33,7 @@ TourTicketCompare checks that its buttons lead to the right event page. It doesn
 
 **Resale risk** is the possibility of paying above primary prices, receiving fewer protections than a primary purchase would offer, or finding that ticket terms differ from your expectations. Resale through an established marketplace with published buyer-protection terms is not a scam, but it does need extra checks on seat accuracy, delivery timing, transfer rules, and what the marketplace covers if something goes wrong.
 
-**Normal price variation** covers fees added at checkout, demand-responsive pricing on some primary events, and seller-set prices on resale marketplaces. A listing priced above the original price isn't automatically a scam; it may just be normal resale pricing. Check the final total and terms before assuming otherwise.
+**Normal price variation** covers demand-responsive pricing on some primary events and seller-set prices on resale marketplaces. Mandatory fees may already be included in a listing; applicable taxes, selected delivery and optional extras can affect the final amount. A listing priced above the original price isn't automatically a scam; it may just be normal resale pricing. Check the final total and terms before assuming otherwise.
 
 The response is different for each. A scam means stop. Resale risk means extra checks. Normal price variation means comparing final totals.
 

@@ -1,0 +1,5237 @@
+[
+  {
+    "id": "tm-nickelback-2026-durant-vvg1yz_3xvgs07",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback",
+    "city": "Durant",
+    "country": "United States Of America",
+    "venue": "Choctaw Grand Theater",
+    "datetime_iso": "2026-12-20T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00652F81D73904",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-durant-oklahoma-12-19-2026/event/0C00652F81D73904",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/durant-oklahoma-choctaw-grand-theater-2026-12-19-8-pm/concert/18629578",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-durant-choctaw-grand-theater-12-19-2026/production/7620853",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-durant-oklahoma-12-19-2026/event/0C00652F81D73904",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00652F81D73904",
+        "discovery_event_id": "vvG1YZ_3XvgS07",
+        "url": "https://www.ticketmaster.com/nickelback-durant-oklahoma-12-19-2026/event/0C00652F81D73904",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7620853,
+        "url": "https://www.vividseats.com/nickelback-tickets-durant-choctaw-grand-theater-12-19-2026/production/7620853",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_3XvgS07",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-nickelback-2027-pittsburgh-1apzk4agkenjp68",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "PPG Paints Arena",
+    "datetime_iso": "2027-02-06T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006545A37251D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-pittsburgh-pennsylvania-02-06-2027/event/16006545A37251D0",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-pittsburgh-ppg-paints-arena-2-6-2027/production/7678917",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-pittsburgh-pennsylvania-02-06-2027/event/16006545A37251D0",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006545A37251D0",
+        "discovery_event_id": "1ApZk4AGkeNjP68",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-pittsburgh-pennsylvania-02-06-2027/event/16006545A37251D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678917,
+        "url": "https://www.vividseats.com/nickelback-tickets-pittsburgh-ppg-paints-arena-2-6-2027/production/7678917",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314930",
+        "url": "https://www.ticketnetwork.com/en/p/8314930",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314930",
+        "url": "https://www.ticketliquidator.com/tickets/8314930/Nickelback-tickets-Sat-Feb-6-2027-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZk4AGkeNjP68",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314930",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314930/Nickelback-tickets-Sat-Feb-6-2027-PPG-Paints-Arena",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2026-12-27T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-02T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-allentown-15dzz_frakkqv",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Allentown",
+    "country": "United States Of America",
+    "venue": "PPL Center",
+    "datetime_iso": "2027-02-08T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000654789193741",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-allentown-pennsylvania-02-08-2027/event/3000654789193741",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-allentown-ppl-center-2-8-2027/production/7678907",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-allentown-pennsylvania-02-08-2027/event/3000654789193741",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000654789193741",
+        "discovery_event_id": "15dZZ_frakKqv",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-allentown-pennsylvania-02-08-2027/event/3000654789193741",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678907,
+        "url": "https://www.vividseats.com/nickelback-tickets-allentown-ppl-center-2-8-2027/production/7678907",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314931",
+        "url": "https://www.ticketnetwork.com/en/p/8314931",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314931",
+        "url": "https://www.ticketliquidator.com/tickets/8314931/Nickelback-tickets-Mon-Feb-8-2027-PPL-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "15dZZ_frakKqv",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314931",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314931/Nickelback-tickets-Mon-Feb-8-2027-PPL-Center",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2026-12-29T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-04T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-grand-rapids-vv1afzk4agkd4fpse",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "Van Andel Arena",
+    "datetime_iso": "2027-02-10T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006545D5525CC2",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-grand-rapids-michigan-02-10-2027/event/08006545D5525CC2",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-grand-rapids-van-andel-arena-2-10-2027--concerts-rock/production/7678960",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-grand-rapids-michigan-02-10-2027/event/08006545D5525CC2",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006545D5525CC2",
+        "discovery_event_id": "vv1AFZk4AGkd4fPSe",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-grand-rapids-michigan-02-10-2027/event/08006545D5525CC2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678960,
+        "url": "https://www.vividseats.com/nickelback-tickets-grand-rapids-van-andel-arena-2-10-2027--concerts-rock/production/7678960",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314932",
+        "url": "https://www.ticketnetwork.com/en/p/8314932",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314932",
+        "url": "https://www.ticketliquidator.com/tickets/8314932/Nickelback-tickets-Wed-Feb-10-2027-Van-Andel-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZk4AGkd4fPSe",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314932",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314932/Nickelback-tickets-Wed-Feb-10-2027-Van-Andel-Arena",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Local Venue/Radio Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2026-12-31T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-06T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-columbus-vv1aazk4agkduqw0h",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Schottenstein Center",
+    "datetime_iso": "2027-02-13T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006545F66BD91B",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-columbus-ohio-02-13-2027/event/05006545F66BD91B",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-columbus-value-city-arena-at-schottenstein-center-2-13-2027/production/7678938",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-columbus-ohio-02-13-2027/event/05006545F66BD91B",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006545F66BD91B",
+        "discovery_event_id": "vv1AAZk4AGkdUQW0h",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-columbus-ohio-02-13-2027/event/05006545F66BD91B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678938,
+        "url": "https://www.vividseats.com/nickelback-tickets-columbus-value-city-arena-at-schottenstein-center-2-13-2027/production/7678938",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314934",
+        "url": "https://www.ticketnetwork.com/en/p/8314934",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314934",
+        "url": "https://www.ticketliquidator.com/tickets/8314934/Nickelback-tickets-Sat-Feb-13-2027-Value-City-Arena-at-The-Schottenstein-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4AGkdUQW0h",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314934",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314934/Nickelback-tickets-Sat-Feb-13-2027-Value-City-Arena-at-The-Schottenstein-Center",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-01-03T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-09T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-indianapolis-vv1aazk4agkdzn6zd",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Gainbridge Fieldhouse",
+    "datetime_iso": "2027-02-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006545C08C7E3B",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-indianapolis-indiana-02-16-2027/event/05006545C08C7E3B",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-indianapolis-gainbridge-fieldhouse-2-16-2027--concerts-rock/production/7678964",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-indianapolis-indiana-02-16-2027/event/05006545C08C7E3B",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006545C08C7E3B",
+        "discovery_event_id": "vv1AAZk4AGkdZN6zD",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-indianapolis-indiana-02-16-2027/event/05006545C08C7E3B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678964,
+        "url": "https://www.vividseats.com/nickelback-tickets-indianapolis-gainbridge-fieldhouse-2-16-2027--concerts-rock/production/7678964",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314935",
+        "url": "https://www.ticketnetwork.com/en/p/8314935",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314935",
+        "url": "https://www.ticketliquidator.com/tickets/8314935/Nickelback-tickets-Tue-Feb-16-2027-Gainbridge-Fieldhouse",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4AGkdZN6zD",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314935",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314935/Nickelback-tickets-Tue-Feb-16-2027-Gainbridge-Fieldhouse",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-01-06T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-12T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-chicago-vv1a7zk4agkexo6el",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-02-19T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006545A28079DF",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-chicago-illinois-02-18-2027/event/04006545A28079DF",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-chicago-united-center-2-18-2027--concerts-rock/production/7678966",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-chicago-illinois-02-18-2027/event/04006545A28079DF",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006545A28079DF",
+        "discovery_event_id": "vv1A7Zk4AGkexO6EL",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-chicago-illinois-02-18-2027/event/04006545A28079DF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678966,
+        "url": "https://www.vividseats.com/nickelback-tickets-chicago-united-center-2-18-2027--concerts-rock/production/7678966",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314936",
+        "url": "https://www.ticketnetwork.com/en/p/8314936",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314936",
+        "url": "https://www.ticketliquidator.com/tickets/8314936/Nickelback-tickets-Thu-Feb-18-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7Zk4AGkexO6EL",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314936",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314936/Nickelback-tickets-Thu-Feb-18-2027-United-Center",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-14T16:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-01-08T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-02-14T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-saint-louis-vv1akzk4kgkdiwpu8",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Enterprise Center",
+    "datetime_iso": "2027-02-21T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006546E8CA5350",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-saint-louis-missouri-02-20-2027/event/06006546E8CA5350",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-saint-louis-missouri-02-20-2027/event/06006546E8CA5350",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006546E8CA5350",
+        "discovery_event_id": "vv1AkZk4kGkdIwPu8",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-saint-louis-missouri-02-20-2027/event/06006546E8CA5350",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk4kGkdIwPu8",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-14T16:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Local Venue & Radio Presales",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-01-10T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-02-16T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-nashville-g5viz_frya27y",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2027-02-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006547B014F139",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-nashville-tennessee-02-21-2027/event/1B006547B014F139",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-nashville-bridgestone-arena-2-21-2027/production/7678926",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-nashville-tennessee-02-21-2027/event/1B006547B014F139",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006547B014F139",
+        "discovery_event_id": "G5viZ_frYA27y",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-nashville-tennessee-02-21-2027/event/1B006547B014F139",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678926,
+        "url": "https://www.vividseats.com/nickelback-tickets-nashville-bridgestone-arena-2-21-2027/production/7678926",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314938",
+        "url": "https://www.ticketnetwork.com/en/p/8314938",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314938",
+        "url": "https://www.ticketliquidator.com/tickets/8314938/Nickelback-tickets-Sun-Feb-21-2027-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_frYA27y",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314938",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314938/Nickelback-tickets-Sun-Feb-21-2027-Bridgestone-Arena",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-14T16:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Local Venue/Radio Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-01-11T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-02-17T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-knoxville-g5viz_f9kxnbt",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Knoxville",
+    "country": "United States Of America",
+    "venue": "Food City Center",
+    "datetime_iso": "2027-02-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006545C68A363F",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-knoxville-tennessee-02-24-2027/event/1B006545C68A363F",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-knoxville-thompson-boling-arena-at-food-city-center-2-24-2027/production/7678913",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-knoxville-tennessee-02-24-2027/event/1B006545C68A363F",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006545C68A363F",
+        "discovery_event_id": "G5viZ_f9kxNbT",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-knoxville-tennessee-02-24-2027/event/1B006545C68A363F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678913,
+        "url": "https://www.vividseats.com/nickelback-tickets-knoxville-thompson-boling-arena-at-food-city-center-2-24-2027/production/7678913",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314939",
+        "url": "https://www.ticketnetwork.com/en/p/8314939",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314939",
+        "url": "https://www.ticketliquidator.com/tickets/8314939/Nickelback-tickets-Wed-Feb-24-2027-Thompson-Boling-Arena-at-Food-City-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_f9kxNbT",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314939",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314939/Nickelback-tickets-Wed-Feb-24-2027-Thompson-Boling-Arena-at-Food-City-Center",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Tennessee Athletics Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Tennessee Fund Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-01-14T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-17T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-hollywood-vvg1vz_fpmhiza",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live",
+    "datetime_iso": "2027-02-26T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006545AEF28005",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-hollywood-florida-02-26-2027/event/0D006545AEF28005",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-26-2027--concerts-rock/production/7678972",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-hollywood-florida-02-26-2027/event/0D006545AEF28005",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006545AEF28005",
+        "discovery_event_id": "vvG1VZ_fpmHIZA",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-hollywood-florida-02-26-2027/event/0D006545AEF28005",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678972,
+        "url": "https://www.vividseats.com/nickelback-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-26-2027--concerts-rock/production/7678972",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314940",
+        "url": "https://www.ticketnetwork.com/en/p/8314940",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314940",
+        "url": "https://www.ticketliquidator.com/tickets/8314940/Nickelback-tickets-Fri-Feb-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_fpmHIZA",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314940",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314940/Nickelback-tickets-Fri-Feb-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Casino Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Social Media Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-01-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-22T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-atlanta-vvg1zz_f9i_ugh",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2027-03-02T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006545E8676D7C",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-atlanta-georgia-03-02-2027/event/0E006545E8676D7C",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-atlanta-state-farm-arena-3-2-2027--concerts-rock/production/7678976",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-atlanta-georgia-03-02-2027/event/0E006545E8676D7C",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006545E8676D7C",
+        "discovery_event_id": "vvG1zZ_f9I_UgH",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-atlanta-georgia-03-02-2027/event/0E006545E8676D7C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678976,
+        "url": "https://www.vividseats.com/nickelback-tickets-atlanta-state-farm-arena-3-2-2027--concerts-rock/production/7678976",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314941",
+        "url": "https://www.ticketnetwork.com/en/p/8314941",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314941",
+        "url": "https://www.ticketliquidator.com/tickets/8314941/Nickelback-tickets-Tue-Mar-2-2027-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_f9I_UgH",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314941",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314941/Nickelback-tickets-Tue-Mar-2-2027-State-Farm-Arena-GA",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-01-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-26T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-raleigh-g5evz_fh5odfi",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Lenovo Center",
+    "datetime_iso": "2027-03-04T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006546CB80322C",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-raleigh-north-carolina-03-04-2027/event/2D006546CB80322C",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-raleigh-lenovo-center-3-4-2027/production/7678897",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-raleigh-north-carolina-03-04-2027/event/2D006546CB80322C",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006546CB80322C",
+        "discovery_event_id": "G5eVZ_fh5OdFi",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-raleigh-north-carolina-03-04-2027/event/2D006546CB80322C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678897,
+        "url": "https://www.vividseats.com/nickelback-tickets-raleigh-lenovo-center-3-4-2027/production/7678897",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314942",
+        "url": "https://www.ticketnetwork.com/en/p/8314942",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314942",
+        "url": "https://www.ticketliquidator.com/tickets/8314942/Nickelback-tickets-Thu-Mar-4-2027-Lenovo-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_fh5OdFi",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314942",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314942/Nickelback-tickets-Thu-Mar-4-2027-Lenovo-Center",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Local/Venue/Radio Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-01-22T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-28T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-newark-vv1kfz_fj7g7twmf",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2027-03-06T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200654704FF2B94",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-newark-new-jersey-03-06-2027/event/0200654704FF2B94",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-newark-prudential-center-3-6-2027/production/7678936",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-newark-new-jersey-03-06-2027/event/0200654704FF2B94",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200654704FF2B94",
+        "discovery_event_id": "vv1kFZ_fj7G7Twmf",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-newark-new-jersey-03-06-2027/event/0200654704FF2B94",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678936,
+        "url": "https://www.vividseats.com/nickelback-tickets-newark-prudential-center-3-6-2027/production/7678936",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314943",
+        "url": "https://www.ticketnetwork.com/en/p/8314943",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314943",
+        "url": "https://www.ticketliquidator.com/tickets/8314943/Nickelback-tickets-Sat-Mar-6-2027-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kFZ_fj7G7Twmf",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314943",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314943/Nickelback-tickets-Sat-Mar-6-2027-Prudential-Center",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-01-24T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-02T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-washington-16vfz_ffeg7mdpa",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Capital One Arena",
+    "datetime_iso": "2027-03-08T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500654227B83585",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-washington-district-of-columbia-03-08-2027/event/1500654227B83585",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-washington-capital-one-arena-3-8-2027--concerts-rock/production/7678978",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-washington-district-of-columbia-03-08-2027/event/1500654227B83585",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500654227B83585",
+        "discovery_event_id": "16vfZ_fFEG7mdpA",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-washington-district-of-columbia-03-08-2027/event/1500654227B83585",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678978,
+        "url": "https://www.vividseats.com/nickelback-tickets-washington-capital-one-arena-3-8-2027--concerts-rock/production/7678978",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314944",
+        "url": "https://www.ticketnetwork.com/en/p/8314944",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314944",
+        "url": "https://www.ticketliquidator.com/tickets/8314944/Nickelback-tickets-Mon-Mar-8-2027-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vfZ_fFEG7mdpA",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314944",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314944/Nickelback-tickets-Mon-Mar-8-2027-Capital-One-Arena",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Radio/Venue/Local Presales",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-01-26T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-04T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-boston-vv1avzk4egkdzjayi",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2027-03-10T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006542F8709C2C",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-boston-massachusetts-03-10-2027/event/01006542F8709C2C",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-boston-td-garden-3-10-2027--concerts-rock/production/7678980",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-boston-massachusetts-03-10-2027/event/01006542F8709C2C",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006542F8709C2C",
+        "discovery_event_id": "vv1AvZk4eGkdzjaYi",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-boston-massachusetts-03-10-2027/event/01006542F8709C2C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678980,
+        "url": "https://www.vividseats.com/nickelback-tickets-boston-td-garden-3-10-2027--concerts-rock/production/7678980",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314945",
+        "url": "https://www.ticketnetwork.com/en/p/8314945",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314945",
+        "url": "https://www.ticketliquidator.com/tickets/8314945/Nickelback-tickets-Wed-Mar-10-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4eGkdzjaYi",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314945",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314945/Nickelback-tickets-Wed-Mar-10-2027-TD-Garden",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Front Of The Line Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-01-28T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-06T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-montreal-15d7z_fqpa0kk",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Centre Bell",
+    "datetime_iso": "2027-03-12T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100654696164193",
+    "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-montreal-quebec-03-12-2027/event/3100654696164193",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-montreal-bell-centre-3-12-2027/production/7678891",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-montreal-quebec-03-12-2027/event/3100654696164193",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100654696164193",
+        "discovery_event_id": "15d7Z_fQpA0kK",
+        "url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-montreal-quebec-03-12-2027/event/3100654696164193",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678891,
+        "url": "https://www.vividseats.com/nickelback-tickets-montreal-bell-centre-3-12-2027/production/7678891",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314962",
+        "url": "https://www.ticketnetwork.com/en/p/8314962",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314962",
+        "url": "https://www.ticketliquidator.com/tickets/8314962/Nickelback-tickets-Fri-Mar-12-2027-Centre-Bell",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "15d7Z_fQpA0kK",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314962",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314962/Nickelback-tickets-Fri-Mar-12-2027-Centre-Bell",
+    "presales": [
+      {
+        "name": "Prévente Artiste",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Prévente Forfaits VIP Packages Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Prévente FOTL American Express Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Prévente Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Forfait VIP Package",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-08T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-hamilton-1a8zk4axofsze2g",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Hamilton",
+    "country": "Canada",
+    "venue": "TD Coliseum",
+    "datetime_iso": "2027-03-20T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006545891533EB",
+    "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-hamilton-ontario-03-20-2027/event/10006545891533EB",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-hamilton-td-coliseum-3-20-2027/production/7678903",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-hamilton-ontario-03-20-2027/event/10006545891533EB",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006545891533EB",
+        "discovery_event_id": "1a8Zk4AxofSZe2G",
+        "url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-hamilton-ontario-03-20-2027/event/10006545891533EB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678903,
+        "url": "https://www.vividseats.com/nickelback-tickets-hamilton-td-coliseum-3-20-2027/production/7678903",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1a8Zk4AxofSZe2G",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-07T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-16T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-toronto-1a8zk47gkdvbcpm",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2027-03-21T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006544F4EAD977",
+    "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-toronto-ontario-03-21-2027/event/10006544F4EAD977",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-toronto-scotiabank-arena-3-21-2027/production/7678919",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-toronto-ontario-03-21-2027/event/10006544F4EAD977",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006544F4EAD977",
+        "discovery_event_id": "1A8Zk47GkdVBcPM",
+        "url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-toronto-ontario-03-21-2027/event/10006544F4EAD977",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678919,
+        "url": "https://www.vividseats.com/nickelback-tickets-toronto-scotiabank-arena-3-21-2027/production/7678919",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk47GkdVBcPM",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved By Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Live INSIDER Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-17T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-buffalo-k7vgf_fruee-y",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Buffalo",
+    "country": "United States Of America",
+    "venue": "KeyBank Center",
+    "datetime_iso": "2027-03-24T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006547B69E7879",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-buffalo-new-york-03-24-2027/event/00006547B69E7879",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-buffalo-keybank-center-3-24-2027/production/7678915",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-buffalo-new-york-03-24-2027/event/00006547B69E7879",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006547B69E7879",
+        "discovery_event_id": "k7vGF_frUEE-y",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-buffalo-new-york-03-24-2027/event/00006547B69E7879",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678915,
+        "url": "https://www.vividseats.com/nickelback-tickets-buffalo-keybank-center-3-24-2027/production/7678915",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314946",
+        "url": "https://www.ticketnetwork.com/en/p/8314946",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314946",
+        "url": "https://www.ticketliquidator.com/tickets/8314946/Nickelback-tickets-Wed-Mar-24-2027-KeyBank-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_frUEE-y",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314946",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314946/Nickelback-tickets-Wed-Mar-24-2027-KeyBank-Center",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "KeyBank Insider Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-11T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-03-20T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-detroit-vv1afzk46gkdogect",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2027-03-26T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006547E0327B7F",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-detroit-michigan-03-26-2027/event/08006547E0327B7F",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-detroit-little-caesars-arena-3-26-2027--concerts-rock/production/7678984",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-detroit-michigan-03-26-2027/event/08006547E0327B7F",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006547E0327B7F",
+        "discovery_event_id": "vv1AFZk46GkdOGEcT",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-detroit-michigan-03-26-2027/event/08006547E0327B7F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678984,
+        "url": "https://www.vividseats.com/nickelback-tickets-detroit-little-caesars-arena-3-26-2027--concerts-rock/production/7678984",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314947",
+        "url": "https://www.ticketnetwork.com/en/p/8314947",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314947",
+        "url": "https://www.ticketliquidator.com/tickets/8314947/Nickelback-tickets-Fri-Mar-26-2027-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZk46GkdOGEcT",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314947",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314947/Nickelback-tickets-Fri-Mar-26-2027-Little-Caesars-Arena",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-14T15:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "313 Presents Presale",
+        "start": "2026-10-15T14:00:00Z",
+        "end": "2026-10-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-06T17:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T14:00:00Z",
+        "end": "2027-02-13T03:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-milwaukee-vv1a6zk4agkd7raaf",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Fiserv Forum",
+    "datetime_iso": "2027-03-27T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006545C4BC5154",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-milwaukee-wisconsin-03-27-2027/event/07006545C4BC5154",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-milwaukee-fiserv-forum-3-27-2027/production/7678909",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-milwaukee-wisconsin-03-27-2027/event/07006545C4BC5154",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006545C4BC5154",
+        "discovery_event_id": "vv1A6Zk4AGkd7RAAf",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-milwaukee-wisconsin-03-27-2027/event/07006545C4BC5154",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678909,
+        "url": "https://www.vividseats.com/nickelback-tickets-milwaukee-fiserv-forum-3-27-2027/production/7678909",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314948",
+        "url": "https://www.ticketnetwork.com/en/p/8314948",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314948",
+        "url": "https://www.ticketliquidator.com/tickets/8314948/Nickelback-tickets-Sat-Mar-27-2027-Fiserv-Forum",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6Zk4AGkd7RAAf",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314948",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314948/Nickelback-tickets-Sat-Mar-27-2027-Fiserv-Forum",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-14T16:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-02-14T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-23T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-saskatoon-16v7z_ff7g7wwtw",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Saskatoon",
+    "country": "Canada",
+    "venue": "SaskTel Centre",
+    "datetime_iso": "2027-04-03T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100654504CBDA72",
+    "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-saskatoon-saskatchewan-04-02-2027/event/1100654504CBDA72",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-saskatoon-sasktel-centre-4-2-2027/production/7678911",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-saskatoon-saskatchewan-04-02-2027/event/1100654504CBDA72",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100654504CBDA72",
+        "discovery_event_id": "16v7Z_ff7G7wWtw",
+        "url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-saskatoon-saskatchewan-04-02-2027/event/1100654504CBDA72",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678911,
+        "url": "https://www.vividseats.com/nickelback-tickets-saskatoon-sasktel-centre-4-2-2027/production/7678911",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314965",
+        "url": "https://www.ticketnetwork.com/en/p/8314965",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314965",
+        "url": "https://www.ticketliquidator.com/tickets/8314965/Nickelback-tickets-Fri-Apr-2-2027-SaskTel-Centre",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16v7Z_ff7G7wWtw",
+    "timezone": "America/Swift_Current",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314965",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314965/Nickelback-tickets-Fri-Apr-2-2027-SaskTel-Centre",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T18:00:00Z",
+        "end": "2026-10-14T17:59:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-13T18:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-10-16T16:00:00Z",
+        "end": "2027-03-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T16:00:00Z",
+        "end": "2027-03-29T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-edmonton-1f78vpoopnz72877",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Rogers Place",
+    "datetime_iso": "2027-04-04T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110065451963EF33",
+    "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-edmonton-alberta-04-03-2027/event/110065451963EF33",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-edmonton-rogers-place-4-3-2027/production/7678885",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-edmonton-alberta-04-03-2027/event/110065451963EF33",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110065451963EF33",
+        "discovery_event_id": "1F78vPooPNZ72877",
+        "url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-edmonton-alberta-04-03-2027/event/110065451963EF33",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678885,
+        "url": "https://www.vividseats.com/nickelback-tickets-edmonton-rogers-place-4-3-2027/production/7678885",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314966",
+        "url": "https://www.ticketnetwork.com/en/p/8314966",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314966",
+        "url": "https://www.ticketliquidator.com/tickets/8314966/Nickelback-tickets-Sat-Apr-3-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1F78vPooPNZ72877",
+    "timezone": "America/Edmonton",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314966",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314966/Nickelback-tickets-Sat-Apr-3-2027-Rogers-Place",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T18:00:00Z",
+        "end": "2026-10-14T17:59:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-13T18:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T16:00:00Z",
+        "end": "2027-03-30T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-calgary-1aozk4kgkd_yj0d",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Scotiabank Saddledome",
+    "datetime_iso": "2027-04-07T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006546D9C1C903",
+    "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-calgary-alberta-04-06-2027/event/11006546D9C1C903",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-calgary-scotiabank-saddledome-4-6-2027/production/7678893",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-calgary-alberta-04-06-2027/event/11006546D9C1C903",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006546D9C1C903",
+        "discovery_event_id": "1AoZk4kGkd_Yj0d",
+        "url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-calgary-alberta-04-06-2027/event/11006546D9C1C903",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678893,
+        "url": "https://www.vividseats.com/nickelback-tickets-calgary-scotiabank-saddledome-4-6-2027/production/7678893",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314968",
+        "url": "https://www.ticketnetwork.com/en/p/8314968",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314968",
+        "url": "https://www.ticketliquidator.com/tickets/8314968/Nickelback-tickets-Tue-Apr-6-2027-Scotiabank-Saddledome",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk4kGkd_Yj0d",
+    "timezone": "America/Edmonton",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314968",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314968/Nickelback-tickets-Tue-Apr-6-2027-Scotiabank-Saddledome",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T18:00:00Z",
+        "end": "2026-10-14T17:59:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-13T18:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T16:00:00Z",
+        "end": "2027-04-02T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-vancouver-1aozk4agkdpx1_p",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-04-10T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006545D6F8A665",
+    "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-vancouver-british-columbia-04-09-2027/event/11006545D6F8A665",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-vancouver-rogers-arena-4-9-2027/production/7678928",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-vancouver-british-columbia-04-09-2027/event/11006545D6F8A665",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006545D6F8A665",
+        "discovery_event_id": "1AoZk4AGkdpX1_P",
+        "url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-vancouver-british-columbia-04-09-2027/event/11006545D6F8A665",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678928,
+        "url": "https://www.vividseats.com/nickelback-tickets-vancouver-rogers-arena-4-9-2027/production/7678928",
+        "verified": true,
+        "last_verified_at": "2026-10-12",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314969",
+        "url": "https://www.ticketnetwork.com/en/p/8314969",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314969",
+        "url": "https://www.ticketliquidator.com/tickets/8314969/Nickelback-tickets-Fri-Apr-9-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk4AGkdpX1_P",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314969",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314969/Nickelback-tickets-Fri-Apr-9-2027-Rogers-Arena",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T19:00:00Z",
+        "end": "2026-10-14T18:59:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-10-13T19:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-03-27T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-05T19:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-seattle-vvg1hz_f5mpsjc",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-04-11T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006542F75B398E",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-seattle-washington-04-10-2027/event/0F006542F75B398E",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-seattle-climate-pledge-arena-4-10-2027/production/7678899",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-seattle-washington-04-10-2027/event/0F006542F75B398E",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006542F75B398E",
+        "discovery_event_id": "vvG1HZ_f5MpSJC",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-seattle-washington-04-10-2027/event/0F006542F75B398E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678899,
+        "url": "https://www.vividseats.com/nickelback-tickets-seattle-climate-pledge-arena-4-10-2027/production/7678899",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314951",
+        "url": "https://www.ticketnetwork.com/en/p/8314951",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314951",
+        "url": "https://www.ticketliquidator.com/tickets/8314951/Nickelback-tickets-Sat-Apr-10-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_f5MpSJC",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314951",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314951/Nickelback-tickets-Sat-Apr-10-2027-Climate-Pledge-Arena",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T19:00:00Z",
+        "end": "2026-10-14T18:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Local Presales",
+        "start": "2026-10-15T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-02-27T18:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-06T19:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-sacramento-g5vyz_f9d-9xg",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2027-04-14T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006545C385788C",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-sacramento-california-04-13-2027/event/1C006545C385788C",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-sacramento-golden-1-center-4-13-2027--concerts-rock/production/7678990",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-sacramento-california-04-13-2027/event/1C006545C385788C",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006545C385788C",
+        "discovery_event_id": "G5vYZ_f9d-9xG",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-sacramento-california-04-13-2027/event/1C006545C385788C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678990,
+        "url": "https://www.vividseats.com/nickelback-tickets-sacramento-golden-1-center-4-13-2027--concerts-rock/production/7678990",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314952",
+        "url": "https://www.ticketnetwork.com/en/p/8314952",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314952",
+        "url": "https://www.ticketliquidator.com/tickets/8314952/Nickelback-tickets-Tue-Apr-13-2027-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_f9d-9xG",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314952",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314952/Nickelback-tickets-Tue-Apr-13-2027-Golden-1-Center",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T19:00:00Z",
+        "end": "2026-10-14T18:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Local Presales",
+        "start": "2026-10-15T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-03-03T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-09T19:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-anaheim-vv1aazk4kgkeh-rr7",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2027-04-19T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006546BC85E784",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-anaheim-california-04-18-2027/event/09006546BC85E784",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-anaheim-honda-center-4-18-2027--concerts-rock/production/7678996",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-anaheim-california-04-18-2027/event/09006546BC85E784",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006546BC85E784",
+        "discovery_event_id": "vv1AaZk4kGkeH-rr7",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-anaheim-california-04-18-2027/event/09006546BC85E784",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678996,
+        "url": "https://www.vividseats.com/nickelback-tickets-anaheim-honda-center-4-18-2027--concerts-rock/production/7678996",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314954",
+        "url": "https://www.ticketnetwork.com/en/p/8314954",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314954",
+        "url": "https://www.ticketliquidator.com/tickets/8314954/Nickelback-tickets-Sun-Apr-18-2027-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AaZk4kGkeH-rr7",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314954",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314954/Nickelback-tickets-Sun-Apr-18-2027-Honda-Center",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T19:00:00Z",
+        "end": "2026-10-14T18:59:00Z"
+      },
+      {
+        "name": "BANDSINTOWN PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "VENUE PRESALE",
+        "start": "2026-10-15T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-03-08T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-14T19:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-phoenix-1a_zk4kgkd7q1b3",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2027-04-21T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006546C468A612",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-phoenix-arizona-04-20-2027/event/19006546C468A612",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-phoenix-mortgage-matchup-center-4-20-2027--concerts-rock/production/7678998",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-phoenix-arizona-04-20-2027/event/19006546C468A612",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006546C468A612",
+        "discovery_event_id": "1A_Zk4kGkd7Q1b3",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-phoenix-arizona-04-20-2027/event/19006546C468A612",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7678998,
+        "url": "https://www.vividseats.com/nickelback-tickets-phoenix-mortgage-matchup-center-4-20-2027--concerts-rock/production/7678998",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314956",
+        "url": "https://www.ticketnetwork.com/en/p/8314956",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314956",
+        "url": "https://www.ticketliquidator.com/tickets/8314956/Nickelback-tickets-Tue-Apr-20-2027-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zk4kGkd7Q1b3",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314956",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314956/Nickelback-tickets-Tue-Apr-20-2027-Mortgage-Matchup-Center",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T19:00:00Z",
+        "end": "2026-10-14T18:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Mortgage Matchup Center Presale",
+        "start": "2026-10-15T17:00:00Z",
+        "end": "2026-10-16T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-03-10T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-16T17:00:00Z",
+        "end": "2027-04-16T19:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-denver-g5vzz_fpgv_um",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2027-04-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006545B5059DB7",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-denver-colorado-04-24-2027/event/1E006545B5059DB7",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-denver-ball-arena-4-24-2027--concerts-rock/production/7679000",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-denver-colorado-04-24-2027/event/1E006545B5059DB7",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006545B5059DB7",
+        "discovery_event_id": "G5vzZ_fpgv_UM",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-denver-colorado-04-24-2027/event/1E006545B5059DB7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7679000,
+        "url": "https://www.vividseats.com/nickelback-tickets-denver-ball-arena-4-24-2027--concerts-rock/production/7679000",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314958",
+        "url": "https://www.ticketnetwork.com/en/p/8314958",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314958",
+        "url": "https://www.ticketliquidator.com/tickets/8314958/Nickelback-tickets-Sat-Apr-24-2027-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_fpgv_UM",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314958",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314958/Nickelback-tickets-Sat-Apr-24-2027-Ball-Arena",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T18:00:00Z",
+        "end": "2026-10-14T17:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Local Venue/Radio Presale",
+        "start": "2026-10-15T16:00:00Z",
+        "end": "2026-10-16T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T16:00:00Z",
+        "end": "2027-03-14T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T16:00:00Z",
+        "end": "2027-04-20T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-dallas-vvg1yz_f9cwbxt",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "American Airlines Center",
+    "datetime_iso": "2027-04-27T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006545CEF588BF",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-dallas-texas-04-27-2027/event/0C006545CEF588BF",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/dallas-texas-american-airlines-center-2027-04-27-6-30-pm/concert/18664618",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-dallas-american-airlines-center---tx-4-27-2027/production/7678924",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-dallas-texas-04-27-2027/event/0C006545CEF588BF",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006545CEF588BF",
+        "discovery_event_id": "vvG1YZ_f9CWbxT",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-dallas-texas-04-27-2027/event/0C006545CEF588BF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18664618,
+        "url": "https://seatgeek.com/nickelback-tickets/dallas-texas-american-airlines-center-2027-04-27-6-30-pm/concert/18664618",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7678924,
+        "url": "https://www.vividseats.com/nickelback-tickets-dallas-american-airlines-center---tx-4-27-2027/production/7678924",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314959",
+        "url": "https://www.ticketnetwork.com/en/p/8314959",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314959",
+        "url": "https://www.ticketliquidator.com/tickets/8314959/Nickelback-tickets-Tue-Apr-27-2027-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_f9CWbxT",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314959",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314959/Nickelback-tickets-Tue-Apr-27-2027-American-Airlines-Center",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-14T16:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "AAC Insider Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-17T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-04-23T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-san-antonio-g5diz_fruim0m",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Frost Bank Center",
+    "datetime_iso": "2027-05-01T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A0065478DB3792E",
+    "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-san-antonio-texas-05-01-2027/event/3A0065478DB3792E",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/san-antonio-texas-frost-bank-center-2027-05-01-6-30-pm/concert/18664624",
+    "vividseats_url": "https://www.vividseats.com/nickelback-tickets-san-antonio-frost-bank-center-5-1-2027--concerts-rock/production/7679004",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-san-antonio-texas-05-01-2027/event/3A0065478DB3792E",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0065478DB3792E",
+        "discovery_event_id": "G5dIZ_fruiM0m",
+        "url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-san-antonio-texas-05-01-2027/event/3A0065478DB3792E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18664624,
+        "url": "https://seatgeek.com/nickelback-tickets/san-antonio-texas-frost-bank-center-2027-05-01-6-30-pm/concert/18664624",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7679004,
+        "url": "https://www.vividseats.com/nickelback-tickets-san-antonio-frost-bank-center-5-1-2027--concerts-rock/production/7679004",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314961",
+        "url": "https://www.ticketnetwork.com/en/p/8314961",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314961",
+        "url": "https://www.ticketliquidator.com/tickets/8314961/Nickelback-tickets-Sat-May-1-2027-Frost-Bank-Center",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_fruiM0m",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314961",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314961/Nickelback-tickets-Sat-May-1-2027-Frost-Bank-Center",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-10-13T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-10-13T17:00:00Z",
+        "end": "2026-10-14T16:59:00Z"
+      },
+      {
+        "name": "Bandsintown Presale",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-10-14T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Frost Bank Center Presale",
+        "start": "2026-10-15T15:00:00Z",
+        "end": "2026-10-16T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-03-21T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-16T15:00:00Z",
+        "end": "2027-04-27T17:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-leeds-g5vhz_flmspew",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Leeds",
+    "country": "Great Britain",
+    "venue": "Leeds First Direct Bank Arena",
+    "datetime_iso": "2027-05-22T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006547F7CD69F2",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-leeds-22-05-2027/event/1F006547F7CD69F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-leeds-22-05-2027/event/1F006547F7CD69F2",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006547F7CD69F2",
+        "discovery_event_id": "G5vHZ_fLMSpEw",
+        "url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-leeds-22-05-2027/event/1F006547F7CD69F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_fLMSpEw",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T09:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-10-14T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-15T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T11:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-london-1agzk46gkdjr1bv",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-05-25T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006547E6BCA601",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-london-25-05-2027/event/35006547E6BCA601",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-london-25-05-2027/event/35006547E6BCA601",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006547E6BCA601",
+        "discovery_event_id": "1AgZk46GkdJR1bv",
+        "url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-london-25-05-2027/event/35006547E6BCA601",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk46GkdJR1bv",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T09:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-15T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T11:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-birmingham-1kfyvp3_gagcomu",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Birmingham",
+    "datetime_iso": "2027-05-28T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "230065499CB60DF6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-birmingham-28-05-2027/event/230065499CB60DF6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-birmingham-28-05-2027/event/230065499CB60DF6",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "230065499CB60DF6",
+        "discovery_event_id": "1kFYvP3_GAGcOMU",
+        "url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-birmingham-28-05-2027/event/230065499CB60DF6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314975",
+        "url": "https://www.ticketnetwork.com/en/p/8314975",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314975",
+        "url": "https://www.ticketliquidator.com/tickets/8314975/Nickelback-tickets-Fri-May-28-2027-Utilita-Arena-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kFYvP3_GAGcOMU",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T09:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314975",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314975/Nickelback-tickets-Fri-May-28-2027-Utilita-Arena-Birmingham",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-10-14T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-15T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T11:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-dublin-1abzkfmgkepnjt6",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-05-30T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006537A5A9CA47",
+    "ticketmaster_url": "https://www.ticketmaster.ie/nickelback-everything-under-the-sun-tour-dublin-30-05-2027/event/18006537A5A9CA47",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/nickelback-everything-under-the-sun-tour-dublin-30-05-2027/event/18006537A5A9CA47",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006537A5A9CA47",
+        "discovery_event_id": "1AbZkfMGkePnjt6",
+        "url": "https://www.ticketmaster.ie/nickelback-everything-under-the-sun-tour-dublin-30-05-2027/event/18006537A5A9CA47",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314976",
+        "url": "https://www.ticketnetwork.com/en/p/8314976",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314976",
+        "url": "https://www.ticketliquidator.com/tickets/8314976/Nickelback-tickets-Sun-May-30-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkfMGkePnjt6",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T09:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314976",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314976/Nickelback-tickets-Sun-May-30-2027-3Arena-Dublin",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Three+ Presale",
+        "start": "2026-10-14T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "MCD Presale",
+        "start": "2026-10-15T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T11:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-glasgow-1auzk46gkexekqz",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-06-01T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006547BE9C6740",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-glasgow-01-06-2027/event/36006547BE9C6740",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-glasgow-01-06-2027/event/36006547BE9C6740",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006547BE9C6740",
+        "discovery_event_id": "1AUZk46GkeXEkqZ",
+        "url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-glasgow-01-06-2027/event/36006547BE9C6740",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314978",
+        "url": "https://www.ticketnetwork.com/en/p/8314978",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314978",
+        "url": "https://www.ticketliquidator.com/tickets/8314978/Nickelback-tickets-Tue-Jun-1-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZk46GkeXEkqZ",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T09:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314978",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314978/Nickelback-tickets-Tue-Jun-1-2027-OVO-Hydro",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "OVO Presale",
+        "start": "2026-10-14T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Gigs in Scotland Presale",
+        "start": "2026-10-15T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-15T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T11:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-manchester-1amzk46gkdgpim1",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-06-02T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006547CC5A8DCA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-manchester-02-06-2027/event/37006547CC5A8DCA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-manchester-02-06-2027/event/37006547CC5A8DCA",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006547CC5A8DCA",
+        "discovery_event_id": "1AMZk46GkdGpIM1",
+        "url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-manchester-02-06-2027/event/37006547CC5A8DCA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314791",
+        "url": "https://www.ticketnetwork.com/en/p/8314791",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314791",
+        "url": "https://www.ticketliquidator.com/tickets/8314791/Nickelback-tickets-Wed-Jun-2-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk46GkdGpIM1",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T09:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314791",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314791/Nickelback-tickets-Wed-Jun-2-2027-Co-Op-Live",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Co-op Presale",
+        "start": "2026-10-14T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-10-14T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-15T09:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T11:00:00Z",
+        "end": "2026-10-16T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-forest-brussels-z698xzg2z1kppuzf3",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2027-06-05T15:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "596340212",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/nickelback-everything-under-the-sun-tour-tickets/596340212",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/nickelback-everything-under-the-sun-tour-tickets/596340212",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "596340212",
+        "discovery_event_id": "Z698xZG2Z1kppuZF3",
+        "url": "https://www.ticketmaster.be/event/nickelback-everything-under-the-sun-tour-tickets/596340212",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1kppuZF3",
+    "timezone": "Europe/Brussels",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Mastercard® Presale",
+        "start": "2026-10-14T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-15T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-10-15T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T10:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-amsterdam-z698xzbpz1k-uqgjg",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-06-07T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "876775735",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/nickelback-everything-under-the-sun-tour-tickets/876775735?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/nickelback-everything-under-the-sun-tour-tickets/876775735?language=en-us",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "876775735",
+        "discovery_event_id": "Z698xZbpZ1k-Uqgjg",
+        "url": "https://www.ticketmaster.nl/event/nickelback-everything-under-the-sun-tour-tickets/876775735?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314980",
+        "url": "https://www.ticketnetwork.com/en/p/8314980",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314980",
+        "url": "https://www.ticketliquidator.com/tickets/8314980/Nickelback-tickets-Mon-Jun-7-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1k-Uqgjg",
+    "timezone": "Europe/Amsterdam",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314980",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314980/Nickelback-tickets-Mon-Jun-7-2027-Ziggo-Dome",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-10-14T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "MOJO Presale",
+        "start": "2026-10-15T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T10:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-hannover-z698xzc2z16v-v0tgv",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Hannover",
+    "country": "Germany",
+    "venue": "ZAG Arena",
+    "datetime_iso": "2027-06-11T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1874929301",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/1874929301?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/1874929301?language=en-us",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1874929301",
+        "discovery_event_id": "Z698xZC2Z16v-V0tGv",
+        "url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/1874929301?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314982",
+        "url": "https://www.ticketnetwork.com/en/p/8314982",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314982",
+        "url": "https://www.ticketliquidator.com/tickets/8314982/Nickelback-tickets-Fri-Jun-11-2027-ZAG-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16v-V0tGv",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314982",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314982/Nickelback-tickets-Fri-Jun-11-2027-ZAG-Arena",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "PayPal Prio Tickets",
+        "start": "2026-10-14T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Telekom Prio Tickets",
+        "start": "2026-10-14T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-15T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T10:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-munich-z698xzc2z1k-kk3-_",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Olympiahalle",
+    "datetime_iso": "2027-06-19T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "853192859",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/853192859?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/853192859?language=en-us",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "853192859",
+        "discovery_event_id": "Z698xZC2Z1k-Kk3-_",
+        "url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/853192859?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314985",
+        "url": "https://www.ticketnetwork.com/en/p/8314985",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314985",
+        "url": "https://www.ticketliquidator.com/tickets/8314985/Nickelback-tickets-Sat-Jun-19-2027-Kleine-Olympiahalle-Munich",
+        "verified": true,
+        "last_verified_at": "2026-10-10",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1k-Kk3-_",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314985",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314985/Nickelback-tickets-Sat-Jun-19-2027-Kleine-Olympiahalle-Munich",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "PayPal Prio Tickets",
+        "start": "2026-10-14T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Telekom Prio Tickets",
+        "start": "2026-10-14T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-15T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T10:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-assago-zg9rmiynyza161",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Assago",
+    "country": "Italy",
+    "venue": "Unipol Forum",
+    "datetime_iso": "2027-06-23T18:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "m3sqvboj69co",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/nickelback-everything-under-the-sun-tour-assago-23-06-2027/event/m3sqvboj69co",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/nickelback-everything-under-the-sun-tour-assago-23-06-2027/event/m3sqvboj69co",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "m3sqvboj69co",
+        "discovery_event_id": "ZG9rmIYnyZA161",
+        "url": "https://www.ticketmaster.it/biglietti/nickelback-everything-under-the-sun-tour-assago-23-06-2027/event/m3sqvboj69co",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZA161",
+    "timezone": "Europe/Rome",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z"
+  },
+  {
+    "id": "tm-nickelback-2027-odz-z698xzqpz1kvw7fvb",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Łódź",
+    "country": "Poland",
+    "venue": "Atlas Arena",
+    "datetime_iso": "2027-07-01T15:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "72108058",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/nickelback-everything-under-the-sun-tour-tickets/72108058?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/nickelback-everything-under-the-sun-tour-tickets/72108058?language=en-us",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "72108058",
+        "discovery_event_id": "Z698xZQpZ1kvw7Fvb",
+        "url": "https://www.ticketmaster.pl/event/nickelback-everything-under-the-sun-tour-tickets/72108058?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ1kvw7Fvb",
+    "timezone": "Europe/Warsaw",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Mastercard® Presale",
+        "start": "2026-10-14T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-15T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T10:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-zurich-z698xzu3z1kjt1pck",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "venue": "Hallenstadion",
+    "datetime_iso": "2027-06-20T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "729296386",
+    "ticketmaster_url": "https://www.ticketmaster.ch/event/nickelback-everything-under-the-sun-tour-tickets/729296386?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ch/event/nickelback-everything-under-the-sun-tour-tickets/729296386?language=en-us",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "729296386",
+        "discovery_event_id": "Z698xZu3Z1kjt1pCk",
+        "url": "https://www.ticketmaster.ch/event/nickelback-everything-under-the-sun-tour-tickets/729296386?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314986",
+        "url": "https://www.ticketnetwork.com/en/p/8314986",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314986",
+        "url": "https://www.ticketliquidator.com/tickets/8314986/Nickelback-tickets-Sun-Jun-20-2027-Hallenstadion-Zurich",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu3Z1kjt1pCk",
+    "timezone": "Europe/Zurich",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Sunrise Priority Tickets",
+        "start": "2026-10-14T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Supercard/Scoop Prio Tickets",
+        "start": "2026-10-14T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "TWINT Prio Tickets",
+        "start": "2026-10-14T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-15T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T10:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314986",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314986/Nickelback-tickets-Sun-Jun-20-2027-Hallenstadion-Zurich"
+  },
+  {
+    "id": "tm-nickelback-2027-vienna-z698xz5rz16vz489ev",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Vienna",
+    "country": "Austria",
+    "venue": "Wiener Stadthalle - Halle D",
+    "datetime_iso": "2027-06-25T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1015417081",
+    "ticketmaster_url": "https://www.ticketmaster.at/event/nickelback-everything-under-the-sun-tour-tickets/1015417081?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.at/event/nickelback-everything-under-the-sun-tour-tickets/1015417081?language=en-us",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1015417081",
+        "discovery_event_id": "Z698xZ5rZ16vZ489ev",
+        "url": "https://www.ticketmaster.at/event/nickelback-everything-under-the-sun-tour-tickets/1015417081?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314989",
+        "url": "https://www.ticketnetwork.com/en/p/8314989",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314989",
+        "url": "https://www.ticketliquidator.com/tickets/8314989/Nickelback-tickets-Fri-Jun-25-2027-Wiener-Stadthalle-Halle-D",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ5rZ16vZ489ev",
+    "timezone": "Europe/Vienna",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-10-15T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T10:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314989",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314989/Nickelback-tickets-Fri-Jun-25-2027-Wiener-Stadthalle-Halle-D"
+  },
+  {
+    "id": "tm-nickelback-2027-praha-9-z698xzu0z1kqvft7s",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Praha 9",
+    "country": "Czech Republic",
+    "venue": "O2 Arena",
+    "datetime_iso": "2027-06-26T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "774529133",
+    "ticketmaster_url": "https://www.ticketmaster.cz/event/nickelback-everything-under-the-sun-tour-tickets/774529133?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.cz/event/nickelback-everything-under-the-sun-tour-tickets/774529133?language=en-us",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "774529133",
+        "discovery_event_id": "Z698xZu0Z1kqVft7S",
+        "url": "https://www.ticketmaster.cz/event/nickelback-everything-under-the-sun-tour-tickets/774529133?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu0Z1kqVft7S",
+    "timezone": "Europe/Prague",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T08:00:00Z",
+        "end": "2026-10-16T06:00:00Z"
+      },
+      {
+        "name": "ČSOB Mastercard® Presale",
+        "start": "2026-10-14T08:00:00Z",
+        "end": "2026-10-16T06:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-15T08:00:00Z",
+        "end": "2026-10-16T06:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T10:00:00Z",
+        "end": "2026-10-16T06:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-nickelback-2027-helsinki-z698xz8kz16vqs7sfi",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Helsinki",
+    "country": "Finland",
+    "venue": "Veikkaus Arena",
+    "datetime_iso": "2027-07-07T14:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1771131528",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/nickelback-everything-under-the-sun-tour-tickets/1771131528?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.fi/event/nickelback-everything-under-the-sun-tour-tickets/1771131528?language=en-us",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1771131528",
+        "discovery_event_id": "Z698xZ8KZ16vqs7sfI",
+        "url": "https://www.ticketmaster.fi/event/nickelback-everything-under-the-sun-tour-tickets/1771131528?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314993",
+        "url": "https://www.ticketnetwork.com/en/p/8314993",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314993",
+        "url": "https://www.ticketliquidator.com/tickets/8314993/Nickelback-tickets-Wed-Jul-7-2027-Veikkaus-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ8KZ16vqs7sfI",
+    "timezone": "Europe/Helsinki",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T07:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T07:00:00Z",
+        "end": "2026-10-16T06:00:00Z"
+      },
+      {
+        "name": "Mastercard® Presale",
+        "start": "2026-10-14T07:00:00Z",
+        "end": "2026-10-16T06:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-15T07:00:00Z",
+        "end": "2026-10-16T06:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T09:00:00Z",
+        "end": "2028-10-16T06:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314993",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314993/Nickelback-tickets-Wed-Jul-7-2027-Veikkaus-Arena"
+  },
+  {
+    "id": "tm-nickelback-2027-fornebu-z698xzb_z1an7vpy",
+    "artist_slug": "nickelback",
+    "artist_name": "Nickelback",
+    "event_name": "Nickelback: Everything Under The Sun Tour",
+    "city": "Fornebu",
+    "country": "Norway",
+    "venue": "Unity Arena",
+    "datetime_iso": "2027-07-09T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23134970",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/nickelback-everything-under-the-sun-tour-tickets/23134970?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/nickelback-everything-under-the-sun-tour-tickets/23134970?language=en-us",
+    "last_verified_at": "2026-10-11",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23134970",
+        "discovery_event_id": "Z698xZb_Z1AN7VPY",
+        "url": "https://www.ticketmaster.no/event/nickelback-everything-under-the-sun-tour-tickets/23134970?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314994",
+        "url": "https://www.ticketnetwork.com/en/p/8314994",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314994",
+        "url": "https://www.ticketliquidator.com/tickets/8314994/Nickelback-tickets-Fri-Jul-9-2027-Unity-Arena",
+        "verified": true,
+        "last_verified_at": "2026-10-11",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z1AN7VPY",
+    "timezone": "Europe/Oslo",
+    "status": "announced",
+    "public_onsale_at": "2026-10-16T08:00:00Z",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-10-13T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Mastercard® Presale",
+        "start": "2026-10-14T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Aftenposten Presale",
+        "start": "2026-10-15T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-10-15T08:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-10-15T10:00:00Z",
+        "end": "2026-10-16T07:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314994",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314994/Nickelback-tickets-Fri-Jul-9-2027-Unity-Arena"
+  }
+]

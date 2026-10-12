@@ -80,6 +80,11 @@ for (const lane of ["mvp", "quick", "units"]) {
   }
 }
 
+// The canonical publishing gate must execute these checks before every full run.
+if (!scripts["test:mvp"]?.includes("npm run test:lanes &&")) {
+  errors.push("test:mvp must run test:lanes before its complete validation suite");
+}
+
 if (errors.length) {
   console.error("[validate-test-lanes] FAILED");
   for (const error of errors) console.error(`  - ${error}`);

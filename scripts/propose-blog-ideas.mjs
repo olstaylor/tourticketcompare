@@ -44,7 +44,7 @@ export function githubClient(repository, token, fetchImpl = fetch) {
       error.status = response.status;
       throw error;
     }
-    return response.json();
+    return response.status === 204 ? null : response.json();
   };
 }
 

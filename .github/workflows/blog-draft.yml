@@ -1,0 +1,88 @@
+name: Blog article draft
+
+# Trusted main only. Discovery remains unchanged. No issue/comment/PR triggers.
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Preview (no spend), historical mock test, or one live Claude draft PR'
+        type: choice
+        options: [preview, mock, live]
+        default: preview
+      issue_number:
+        description: 'Managed weekly recommendations issue (first integration test: 1538)'
+        type: string
+        default: '1538'
+  workflow_run:
+    workflows: ['Weekly blog opportunities']
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: blog-article-drafting
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    if: >-
+      github.repository == 'olstaylor/tourticketcompare' &&
+      (github.event_name == 'workflow_dispatch' ||
+       (vars.BLOG_DRAFT_ENABLED == 'true' && vars.BLOG_DRAFT_LIVE_PROVEN == 'true' &&
+        github.event.workflow_run.conclusion == 'success' &&
+        github.event.workflow_run.head_branch == 'main' &&
+        github.event.workflow_run.head_repository.full_name == github.repository &&
+        github.event.workflow_run.run_attempt == 1))
+    runs-on: ubuntu-latest
+    # The canonical suite + schema renderer scan the whole current route set.
+    # Model requests themselves remain capped at 90 seconds each.
+    timeout-minutes: 50
+    permissions:
+      contents: write
+      issues: read
+      pull-requests: write
+      actions: write
+    steps:
+      - name: Checkout trusted main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Test drafting safeguards
+        # The full publication fixture runs again in test:mvp before any PR.
+        run: |
+          node --test --test-name-pattern='issue #1538 selects|expired events|missing Anthropic|weekly ref reservation|API failures|workflow is opt-in' scripts/blog-drafting.test.mjs
+      - name: Prepare existing repository publishing identity
+        if: github.event_name == 'workflow_run' || inputs.mode == 'live'
+        id: identity
+        uses: ./.github/actions/automation-identity
+        with:
+          enabled: ${{ vars.AUTOMATION_APP_ENABLED }}
+          client-id: ${{ vars.AUTOMATION_APP_CLIENT_ID }}
+          private-key: ${{ secrets.AUTOMATION_APP_PRIVATE_KEY }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Select, research, draft, validate and open draft PR
+        env:
+          BLOG_DRAFT_MODE: ${{ inputs.mode || 'live' }}
+          BLOG_IDEAS_ISSUE: ${{ inputs.issue_number || vars.BLOG_IDEAS_ISSUE || '1538' }}
+          GITHUB_TOKEN: ${{ steps.identity.outputs.token || secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+        run: node scripts/draft-blog-article.mjs
+      - name: Retain evidence, editorial checks and API usage
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: blog-draft-report
+          path: ${{ runner.temp }}/ttc-blog-draft/
+          retention-days: 30
+          if-no-files-found: ignore

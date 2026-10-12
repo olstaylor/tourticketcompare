@@ -11,7 +11,7 @@ export const PROVIDER_URL_VALIDATION = [
   "npm run events:validate:prod", "npm run events:validate:partitions",
   "npm run test:providers", "npm run test:mvp"
 ];
-export const RESALE_PROVIDERS = ["seatgeek", "vivid-seats", "ticketnetwork", "ticketliquidator", "stubhub-international"];
+export const RESALE_PROVIDERS = ["seatgeek", "vivid-seats", "ticketnetwork", "ticket-liquidator", "stubhub-international"];
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const eventIdPattern = /^[a-zA-Z0-9][a-zA-Z0-9_.-]{0,249}$/;
 export const hasVerifiedResale = (event) => RESALE_PROVIDERS.some((key) => event.provider_links?.[key]?.verified === true);

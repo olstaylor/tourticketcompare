@@ -435,6 +435,16 @@ async function run(options, deps = {}) {
   const selected = selectEvents(events, registry, artists, options, deps.now || new Date());
   const state = { apiCalls: 0 };
   const results = [];
+  const exactCatalogs = new Map();
+  const lookupExactId = async (lookupConfig, id) => {
+    const key = `${lookupConfig.slug}:${id}`;
+    if (!exactCatalogs.has(key)) {
+      exactCatalogs.set(key, deps.fetchCatalog
+        ? await deps.fetchCatalog(lookupConfig, id, options, state)
+        : await fetchCatalog(lookupConfig, id, options, state, deps.env, deps.fetchImpl));
+    }
+    return exactCatalogs.get(key);
+  };
   const byArtist = new Map();
   for (const item of selected) {
     const rows = byArtist.get(item.artistName) || [];
@@ -481,18 +491,41 @@ async function run(options, deps = {}) {
       const storedCandidate = exactStored ? { ...evaluateCandidate(event, artistName, exactStored), ...exactStored } : null;
       return { event, link, storedUrl, storedId, passing, storedCandidate };
     });
+    // A narrow discovery miss is not proof of removal. Recheck the stored ID
+    // in its own catalog, under the same call/time budgets and auth guards.
+    for (const evaluation of evaluations) {
+      if (!catalog.narrowed || !catalog.complete || !evaluation.storedUrl || !evaluation.storedId ||
+          evaluation.storedCandidate?.ok || evaluation.passing.length) continue;
+      let exact = await lookupExactId(config, evaluation.storedId);
+      if (exact.authFailure) { authFailure = true; authFailureReason = exact.stopReason || ""; break; }
+      if (config.slug === "ticket-liquidator" && exact.complete) {
+        const reference = await lookupExactId(providerConfig("ticketnetwork"), evaluation.storedId);
+        if (reference.authFailure) { authFailure = true; authFailureReason = reference.stopReason || ""; break; }
+        exact = reference.complete
+          ? { ...exact, candidates: enrichTicketLiquidatorCandidates(exact.candidates, reference.candidates) }
+          : { ...exact, complete: false, stopReason: `reference_${reference.stopReason || "incomplete"}` };
+      }
+      evaluation.exactIdComplete = exact.complete === true;
+      evaluation.exactIdStopReason = exact.stopReason || "";
+      if (!exact.complete) continue;
+      const found = exact.candidates.find((candidate) => candidate.externalId === evaluation.storedId);
+      evaluation.storedCandidate = found
+        ? { ...evaluateCandidate(evaluation.event, artistName, found), ...found }
+        : null;
+    }
+    if (authFailure) break;
     const ambiguous = listingsMatchingSeveralDates(evaluations);
-    for (const { event, link, storedUrl, storedId, passing, storedCandidate } of evaluations) {
-      let outcome = decideOutcome({ storedUrl, storedVerified: link?.verified === true, storedCandidate, passing, catalogComplete: catalog.complete, preserveAbsentStored: catalog.narrowed === true });
+    for (const { event, link, storedUrl, storedId, passing, storedCandidate, exactIdComplete, exactIdStopReason } of evaluations) {
+      let outcome = decideOutcome({ storedUrl, storedVerified: link?.verified === true, storedCandidate, passing, catalogComplete: catalog.complete, preserveAbsentStored: catalog.narrowed === true && !exactIdComplete });
       // One listing is one performance. If it passes for performances on
       // different nights, nothing says which night it is: it is not written to
       // any of them. A link already stored and verified is left as it is.
       const ambiguousListing = Boolean(outcome.candidate && ambiguous.has(outcome.candidate.externalId) && ["verify", "add", "correct"].includes(outcome.action));
       if (ambiguousListing) outcome = { action: "conflict", candidate: null };
       const applied = options.apply && applyOutcome(event, config, outcome, (deps.now || new Date()).toISOString().slice(0, 10));
-      const preservedAbsentStored = catalog.narrowed && storedUrl && !storedCandidate?.ok && passing.length === 0;
+      const preservedAbsentStored = catalog.narrowed && storedUrl && !storedCandidate?.ok && passing.length === 0 && !exactIdComplete;
       const note = preservedAbsentStored
-        ? "not checked: stored listing absent from narrowed discovery; preserved pending exact-ID verification"
+        ? `not checked: exact-ID verification incomplete (${exactIdStopReason || "missing_stored_id"}); stored link preserved`
         : outcomeNote(outcome.action, { ambiguousListing, storedListed: Boolean(storedCandidate?.ok), catalogComplete: catalog.complete, stopReason: catalog.stopReason });
       results.push({ event_id: event.id, artist: artistName, action: outcome.action, applied, url: outcome.candidate?.url || storedUrl || "", external_id: outcome.candidate?.externalId || storedId || "", catalog_complete: catalog.complete, stop_reason: catalog.stopReason || "", note, ...(ambiguousListing ? { ambiguous_listing: true } : {}) });
     }
@@ -691,6 +724,28 @@ async function selfTest() {
   assert.equal(dateMatches("2027-07-09T20:00:00+01:00", { year: 2027, month: 7, day: 9 }), true);
   assert.equal(evaluateCandidate(event, "RAYE", candidate).ok, true);
   assert.equal(evaluateCandidate({ ...event, city: "Manchester" }, "RAYE", candidate).ok, false);
+  // A narrowed discovery miss must be resolved by ID, not kept indefinitely.
+  const existing = { ...event, ticketnetwork_url: candidate.normalizedUrl,
+    provider_links: { ticketnetwork: { verified: true, event_id: candidate.externalId } } };
+  const exactRun = async (reply) => {
+    const queries = [];
+    const summary = await run({ provider: "ticketnetwork", apply: false, delayMs: 0 }, {
+      now: new Date("2027-01-01T00:00:00Z"),
+      data: [[structuredClone(existing)], [{ slug: "raye", name: "RAYE" }], [{ slug: "raye", review_status: "verified" }]],
+      async fetchCatalog(_config, query) {
+        queries.push(query);
+        return query === "RAYE" ? { candidates: [], complete: true, narrowed: true } : reply;
+      }
+    });
+    assert.deepEqual(queries, ["RAYE", candidate.externalId]);
+    return summary.results[0];
+  };
+  assert.equal((await exactRun({ candidates: [candidate], complete: true })).action, "none");
+  assert.equal((await exactRun({ candidates: [], complete: true })).action, "unverify");
+  const exactHeld = await exactRun({ candidates: [], complete: false, stopReason: "api_call_limit" });
+  assert.equal(exactHeld.action, "none");
+  assert.match(exactHeld.note, /exact-ID verification incomplete.*api_call_limit/);
+  await assert.rejects(exactRun({ candidates: [], complete: false, authFailure: true, stopReason: "http_403" }), /refused \(http_403\).*no writes/);
   // Shared local-date resolver: a row carrying an explicit numeric offset but
   // no IANA timezone states its own local date, so the date gate can pass. A
   // UTC instant with no timezone stays unresolved and the gate stays closed.

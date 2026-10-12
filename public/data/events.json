@@ -233975,5 +233975,5358 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297652",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297652/Mei-Semones-tickets-Sat-May-8-2027-Spirit-Hall"
+  },
+  {
+    "id": "tm-slipknot-2027-london-1anzkfggkdhuzzd",
+    "artist_slug": "slipknot",
+    "artist_name": "Slipknot",
+    "event_name": "Slipknot - (sic)est Stadium Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-07-03T14:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006535DBD80E3B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/slipknot-sicest-stadium-tour-london-03-07-2027/event/23006535DBD80E3B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/slipknot-sicest-stadium-tour-london-03-07-2027/event/23006535DBD80E3B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006535DBD80E3B",
+        "discovery_event_id": "1ANZkfgGkdhUZzD",
+        "url": "https://www.ticketmaster.co.uk/slipknot-sicest-stadium-tour-london-03-07-2027/event/23006535DBD80E3B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ANZkfgGkdhUZzD",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slipknot-2027-washington-1a4zkfmgkdgza4s",
+    "artist_slug": "slipknot",
+    "artist_name": "Slipknot",
+    "event_name": "Slipknot: (sic)est Stadium Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Nationals Park",
+    "datetime_iso": "2027-07-16T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006537CCE09571",
+    "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-washington-district-of-columbia-07-16-2027/event/15006537CCE09571",
+    "seatgeek_url": "https://seatgeek.com/slipknot-tickets/washington-district-of-columbia-nationals-park-2027-07-16-6-30-pm/concert/18626597",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-washington-district-of-columbia-07-16-2027/event/15006537CCE09571",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006537CCE09571",
+        "discovery_event_id": "1A4ZkfMGkdGza4s",
+        "url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-washington-district-of-columbia-07-16-2027/event/15006537CCE09571",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4ZkfMGkdGza4s",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slipknot-2027-queens-g5vvz_kci8xei",
+    "artist_slug": "slipknot",
+    "artist_name": "Slipknot",
+    "event_name": "Slipknot: (sic)est Stadium Tour",
+    "city": "Queens",
+    "country": "United States Of America",
+    "venue": "Citi Field",
+    "datetime_iso": "2027-07-18T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D006533A84229EC",
+    "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-queens-new-york-07-18-2027/event/1D006533A84229EC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-queens-new-york-07-18-2027/event/1D006533A84229EC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006533A84229EC",
+        "discovery_event_id": "G5vVZ_KCI8xEi",
+        "url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-queens-new-york-07-18-2027/event/1D006533A84229EC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_KCI8xEi",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slipknot-2027-montreal-1ad7z_3gkln01oc",
+    "artist_slug": "slipknot",
+    "artist_name": "Slipknot",
+    "event_name": "Slipknot: (sic)est Tour at Parc Jean-Drapeau",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Parc Jean Drapeau",
+    "datetime_iso": "2027-07-21T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100652AE390A46D",
+    "ticketmaster_url": "https://www.ticketmaster.ca/slipknot-sicest-tour-at-parc-jeandrapeau-montreal-quebec-07-21-2027/event/3100652AE390A46D",
+    "seatgeek_url": "https://seatgeek.com/slipknot-tickets/montreal-canada-parc-jean-drapeau-2027-07-21-6-30-pm/concert/18626589",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/slipknot-sicest-tour-at-parc-jeandrapeau-montreal-quebec-07-21-2027/event/3100652AE390A46D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100652AE390A46D",
+        "discovery_event_id": "1Ad7Z_3GklN01oc",
+        "url": "https://www.ticketmaster.ca/slipknot-sicest-tour-at-parc-jeandrapeau-montreal-quebec-07-21-2027/event/3100652AE390A46D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_3GklN01oc",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slipknot-2027-toronto-1k7zvpczgauvkjd",
+    "artist_slug": "slipknot",
+    "artist_name": "Slipknot",
+    "event_name": "Slipknot: (sic)est Stadium Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2027-07-23T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100065380DD06703",
+    "ticketmaster_url": "https://www.ticketmaster.ca/slipknot-sicest-stadium-tour-toronto-ontario-07-23-2027/event/100065380DD06703",
+    "seatgeek_url": "https://seatgeek.com/slipknot-tickets/toronto-canada-rogers-stadium-toronto-2027-07-23-6-30-pm/concert/18626595",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/slipknot-sicest-stadium-tour-toronto-ontario-07-23-2027/event/100065380DD06703",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100065380DD06703",
+        "discovery_event_id": "1k7ZvPCZGAuVkjd",
+        "url": "https://www.ticketmaster.ca/slipknot-sicest-stadium-tour-toronto-ontario-07-23-2027/event/100065380DD06703",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k7ZvPCZGAuVkjd",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slipknot-2027-chicago-vv167zkfmpfza26gu7",
+    "artist_slug": "slipknot",
+    "artist_name": "Slipknot",
+    "event_name": "Slipknot: (sic)est Stadium Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-07-25T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006537948E6BC3",
+    "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-chicago-illinois-07-25-2027/event/04006537948E6BC3",
+    "seatgeek_url": "https://seatgeek.com/slipknot-tickets/chicago-illinois-soldier-field-2027-07-25-6-30-pm/concert/18626573",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-chicago-illinois-07-25-2027/event/04006537948E6BC3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006537948E6BC3",
+        "discovery_event_id": "vv167ZkfMPFZA26Gu7",
+        "url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-chicago-illinois-07-25-2027/event/04006537948E6BC3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv167ZkfMPFZA26Gu7",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slipknot-2027-hershey-vv1aezkfzgkdcrpxj",
+    "artist_slug": "slipknot",
+    "artist_name": "Slipknot",
+    "event_name": "Slipknot: (sic)est Stadium Tour",
+    "city": "Hershey",
+    "country": "United States Of America",
+    "venue": "Hersheypark Stadium",
+    "datetime_iso": "2027-07-28T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006538CE7A589C",
+    "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-hershey-pennsylvania-07-28-2027/event/02006538CE7A589C",
+    "seatgeek_url": "https://seatgeek.com/slipknot-tickets/hershey-pennsylvania-hersheypark-stadium-2027-07-28-6-30-pm/concert/18626575",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-hershey-pennsylvania-07-28-2027/event/02006538CE7A589C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006538CE7A589C",
+        "discovery_event_id": "vv1AeZkfzGkdCrPxj",
+        "url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-hershey-pennsylvania-07-28-2027/event/02006538CE7A589C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkfzGkdCrPxj",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slipknot-2027-boston-z7r9jz1aavzbi",
+    "artist_slug": "slipknot",
+    "artist_name": "Slipknot",
+    "event_name": "Slipknot: (sic)est Stadium Tour",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Fenway Park",
+    "datetime_iso": "2027-07-31T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvzbI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzbI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzbI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvzbI",
+        "discovery_event_id": "Z7r9jZ1AAvzbI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzbI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvzbI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slipknot-2027-nashville-z7r9jz1aaeazk",
+    "artist_slug": "slipknot",
+    "artist_name": "Slipknot",
+    "event_name": "Slipknot: (sic)est Stadium Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "FirstBank Stadium",
+    "datetime_iso": "2027-08-03T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeaZk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaZk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaZk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeaZk",
+        "discovery_event_id": "Z7r9jZ1AAeaZk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaZk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeaZk",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slipknot-2027-houston-g5diz_kx0z68q",
+    "artist_slug": "slipknot",
+    "artist_name": "Slipknot",
+    "event_name": "Slipknot: (sic)est Stadium Tour",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Daikin Park",
+    "datetime_iso": "2027-08-06T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006538A400741D",
+    "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-houston-texas-08-06-2027/event/3A006538A400741D",
+    "seatgeek_url": "https://seatgeek.com/slipknot-tickets/houston-texas-daikin-park-2027-08-06-6-30-pm/concert/18626578",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-houston-texas-08-06-2027/event/3A006538A400741D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006538A400741D",
+        "discovery_event_id": "G5dIZ_Kx0Z68q",
+        "url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-houston-texas-08-06-2027/event/3A006538A400741D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_Kx0Z68q",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slipknot-2027-commerce-city-g5vzz_kofjm9p",
+    "artist_slug": "slipknot",
+    "artist_name": "Slipknot",
+    "event_name": "Slipknot: (sic)est Stadium Tour",
+    "city": "Commerce City",
+    "country": "United States Of America",
+    "venue": "DICK'S Sporting Goods Park",
+    "datetime_iso": "2027-08-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006538149B75E5",
+    "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-commerce-city-colorado-08-09-2027/event/1E006538149B75E5",
+    "seatgeek_url": "https://seatgeek.com/slipknot-tickets/commerce-city-colorado-dick-s-sporting-goods-park-2027-08-09-6-30-pm/concert/18626584",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-commerce-city-colorado-08-09-2027/event/1E006538149B75E5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006538149B75E5",
+        "discovery_event_id": "G5vzZ_KOfJM9P",
+        "url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-commerce-city-colorado-08-09-2027/event/1E006538149B75E5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_KOfJM9P",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slipknot-2027-inglewood-vvg1iz_k9by2hw",
+    "artist_slug": "slipknot",
+    "artist_name": "Slipknot",
+    "event_name": "Slipknot: (sic)est Stadium Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "SoFi Stadium",
+    "datetime_iso": "2027-08-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006535D8E4F6FD",
+    "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-inglewood-california-08-13-2027/event/0A006535D8E4F6FD",
+    "seatgeek_url": "https://seatgeek.com/slipknot-tickets/inglewood-california-sofi-stadium-2027-08-13-6-30-pm/concert/18626585",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-inglewood-california-08-13-2027/event/0A006535D8E4F6FD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006535D8E4F6FD",
+        "discovery_event_id": "vvG1IZ_K9by2hW",
+        "url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-inglewood-california-08-13-2027/event/0A006535D8E4F6FD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_K9by2hW",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slipknot-2027-san-francisco-g5vyz_khsbrlp",
+    "artist_slug": "slipknot",
+    "artist_name": "Slipknot",
+    "event_name": "Slipknot: (sic)est Tour at Golden Gate Park",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Golden Gate Park",
+    "datetime_iso": "2027-08-15T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006536F362FAE5",
+    "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-tour-at-golden-gate-san-francisco-california-08-15-2027/event/1C006536F362FAE5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/slipknot-sicest-tour-at-golden-gate-san-francisco-california-08-15-2027/event/1C006536F362FAE5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006536F362FAE5",
+        "discovery_event_id": "G5vYZ_KhSbRlP",
+        "url": "https://www.ticketmaster.com/slipknot-sicest-tour-at-golden-gate-san-francisco-california-08-15-2027/event/1C006536F362FAE5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_KhSbRlP",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slipknot-2027-phoenix-1a_zkfggkdfoifq",
+    "artist_slug": "slipknot",
+    "artist_name": "Slipknot",
+    "event_name": "Slipknot: (sic)est Stadium Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Chase Field",
+    "datetime_iso": "2027-08-19T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006535C882821D",
+    "ticketmaster_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-phoenix-arizona-08-18-2027/event/19006535C882821D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-phoenix-arizona-08-18-2027/event/19006535C882821D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006535C882821D",
+        "discovery_event_id": "1A_ZkfgGkdFOIFq",
+        "url": "https://www.ticketmaster.com/slipknot-sicest-stadium-tour-phoenix-arizona-08-18-2027/event/19006535C882821D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_ZkfgGkdFOIFq",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2026-glasgow-1adbz_fgkn7svza",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: the Great Divide Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2026-11-05T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600648A84C41E09",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-glasgow-05-11-2026/event/3600648A84C41E09",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-glasgow-05-11-2026/event/3600648A84C41E09",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600648A84C41E09",
+        "discovery_event_id": "1AdbZ_FGkn7svza",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-glasgow-05-11-2026/event/3600648A84C41E09",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_FGkn7svza",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2026-glasgow-1auzk3agkdn-buh",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: the Great Divide Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2026-11-06T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006489EA858D9B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-glasgow-06-11-2026/event/36006489EA858D9B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-glasgow-06-11-2026/event/36006489EA858D9B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006489EA858D9B",
+        "discovery_event_id": "1AUZk3aGkdn-bUh",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-glasgow-06-11-2026/event/36006489EA858D9B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZk3aGkdn-bUh",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2026-manchester-g5vhz_gxilkd5",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2026-11-09T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064C8AC7C60CB",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-manchester-09-11-2026/event/1F0064C8AC7C60CB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-manchester-09-11-2026/event/1F0064C8AC7C60CB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064C8AC7C60CB",
+        "discovery_event_id": "G5vHZ_GxiLkd5",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-manchester-09-11-2026/event/1F0064C8AC7C60CB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_GxiLkd5",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2026-manchester-g5vhz_gxiljdj",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2026-11-10T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064C8AC7E60E6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-manchester-10-11-2026/event/1F0064C8AC7E60E6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-manchester-10-11-2026/event/1F0064C8AC7E60E6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064C8AC7E60E6",
+        "discovery_event_id": "G5vHZ_GxiLJdJ",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-manchester-10-11-2026/event/1F0064C8AC7E60E6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_GxiLJdJ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2026-london-1ku8v0x_gag10y_",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2026-11-13T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064899C2A4C19",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-london-13-11-2026/event/350064899C2A4C19",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-london-13-11-2026/event/350064899C2A4C19",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064899C2A4C19",
+        "discovery_event_id": "1ku8v0x_GAG10Y_",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-london-13-11-2026/event/350064899C2A4C19",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ku8v0x_GAG10Y_",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2026-london-1ku8v0x_gag57yq",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2026-11-14T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064899C2C4C1D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-london-14-11-2026/event/350064899C2C4C1D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-london-14-11-2026/event/350064899C2C4C1D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064899C2C4C1D",
+        "discovery_event_id": "1ku8v0x_GAG57Yq",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-great-divide-tour-london-14-11-2026/event/350064899C2C4C1D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ku8v0x_GAG57Yq",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2026-dublin-1avoz_fgkn52bxo",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2026-11-19T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800648A8B3FA8A0",
+    "ticketmaster_url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-19-11-2026/event/1800648A8B3FA8A0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-19-11-2026/event/1800648A8B3FA8A0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800648A8B3FA8A0",
+        "discovery_event_id": "1AvOZ_FGkn52BxO",
+        "url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-19-11-2026/event/1800648A8B3FA8A0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_FGkn52BxO",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2026-dublin-1kkzv0x9ga2yvxh",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2026-11-21T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "180064897FC34F9B",
+    "ticketmaster_url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-21-11-2026/event/180064897FC34F9B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-21-11-2026/event/180064897FC34F9B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "180064897FC34F9B",
+        "discovery_event_id": "1kkZv0x9GA2YVXh",
+        "url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-21-11-2026/event/180064897FC34F9B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kkZv0x9GA2YVXh",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2026-dublin-1abzk3agkdihdnu",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2026-11-22T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006489ECF3B8F6",
+    "ticketmaster_url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-22-11-2026/event/18006489ECF3B8F6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-22-11-2026/event/18006489ECF3B8F6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006489ECF3B8F6",
+        "discovery_event_id": "1AbZk3aGkdiHDNU",
+        "url": "https://www.ticketmaster.ie/noah-kahan-the-great-divide-tour-dublin-22-11-2026/event/18006489ECF3B8F6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZk3aGkdiHDNU",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2026-munich-z698xzc2z1k3fveos",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Great Divide Tour",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Olympiahalle",
+    "datetime_iso": "2026-12-04T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "488042471",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/noah-kahan-the-great-divide-tour-tickets/488042471?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/noah-kahan-the-great-divide-tour-tickets/488042471?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "488042471",
+        "discovery_event_id": "Z698xZC2Z1k3Fveos",
+        "url": "https://www.ticketmaster.de/event/noah-kahan-the-great-divide-tour-tickets/488042471?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1k3Fveos",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2027-glasgow-1adbz_8gkufqoce",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last of the Bugs Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Barclays Hampden",
+    "datetime_iso": "2027-07-13T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600650D94751B67",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-glasgow-13-07-2027/event/3600650D94751B67",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-glasgow-13-07-2027/event/3600650D94751B67",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600650D94751B67",
+        "discovery_event_id": "1AdbZ_8GkUfqocE",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-glasgow-13-07-2027/event/3600650D94751B67",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_8GkUfqocE",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2027-dublin-1abzkffgkeyrrov",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last of the Bugs Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Aviva Stadium",
+    "datetime_iso": "2027-07-17T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006514B0BDE441",
+    "ticketmaster_url": "https://www.ticketmaster.ie/noah-kahan-the-last-of-the-dublin-17-07-2027/event/18006514B0BDE441",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/noah-kahan-the-last-of-the-dublin-17-07-2027/event/18006514B0BDE441",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006514B0BDE441",
+        "discovery_event_id": "1AbZkffGkeYRrov",
+        "url": "https://www.ticketmaster.ie/noah-kahan-the-last-of-the-dublin-17-07-2027/event/18006514B0BDE441",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkffGkeYRrov",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2027-dublin-1abzkfbgkd7h5py",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan: The Last of the Bugs Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Aviva Stadium",
+    "datetime_iso": "2027-07-18T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006518C46CB979",
+    "ticketmaster_url": "https://www.ticketmaster.ie/noah-kahan-the-last-of-the-dublin-18-07-2027/event/18006518C46CB979",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/noah-kahan-the-last-of-the-dublin-18-07-2027/event/18006518C46CB979",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006518C46CB979",
+        "discovery_event_id": "1AbZkfbGkd7h5Py",
+        "url": "https://www.ticketmaster.ie/noah-kahan-the-last-of-the-dublin-18-07-2027/event/18006518C46CB979",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZkfbGkd7h5Py",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2027-london-1anzkf3gkd7-b4s",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Last of the Bugs Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-07-23T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006512C487A573",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-23-07-2027/event/23006512C487A573",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-23-07-2027/event/23006512C487A573",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006512C487A573",
+        "discovery_event_id": "1ANZkf3Gkd7-B4S",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-23-07-2027/event/23006512C487A573",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ANZkf3Gkd7-B4S",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2027-london-1anzkf4gkexwogg",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Last of the Bugs Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-07-24T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006515BECA0D4C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-24-07-2027/event/23006515BECA0D4C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-24-07-2027/event/23006515BECA0D4C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006515BECA0D4C",
+        "discovery_event_id": "1ANZkf4GkeXwOgG",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-24-07-2027/event/23006515BECA0D4C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ANZkf4GkeXwOgG",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-noah-kahan-2027-london-1anzkf4gkddlzu_",
+    "artist_slug": "noah-kahan",
+    "artist_name": "Noah Kahan",
+    "event_name": "Noah Kahan - The Last of the Bugs Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-07-25T15:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "23006515C37C0D99",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-25-07-2027/event/23006515C37C0D99",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-25-07-2027/event/23006515C37C0D99",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "23006515C37C0D99",
+        "discovery_event_id": "1ANZkf4GkddLZU_",
+        "url": "https://www.ticketmaster.co.uk/noah-kahan-the-last-of-the-london-25-07-2027/event/23006515C37C0D99",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ANZkf4GkddLZU_",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxvozi",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-11-14T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006484FED11E2C",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-13-2026/event/17006484FED11E2C",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-13-8-30-pm/concert/18219945",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-13-2026/event/17006484FED11E2C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006484FED11E2C",
+        "discovery_event_id": "1A9Zk37GkdXVozi",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-13-2026/event/17006484FED11E2C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk37GkdXVozi",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxg-zv",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-11-15T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006484FED61E34",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-14-2026/event/17006484FED61E34",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-14-8-30-pm/concert/18219946",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-14-2026/event/17006484FED61E34",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006484FED61E34",
+        "discovery_event_id": "1A9Zk37GkdXg-zV",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-14-2026/event/17006484FED61E34",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk37GkdXg-zV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxusyv",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-11-28T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006484FEDB1E41",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-27-2026/event/17006484FEDB1E41",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-27-8-30-pm/concert/18219952",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-27-2026/event/17006484FEDB1E41",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006484FEDB1E41",
+        "discovery_event_id": "1A9Zk37GkdXUsyv",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-27-2026/event/17006484FEDB1E41",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk37GkdXUsyv",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk37gkdxzvy5",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-11-29T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006484FEE01E4B",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-28-2026/event/17006484FEE01E4B",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-28-8-30-pm/concert/18219951",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-28-2026/event/17006484FEE01E4B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006484FEE01E4B",
+        "discovery_event_id": "1A9Zk37GkdXzvy5",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-28-2026/event/17006484FEE01E4B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk37GkdXzvy5",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdpxlsb",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-12-05T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D6F9FC58",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-04-2026/event/17006483D6F9FC58",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-04-8-30-pm/concert/18355049",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-04-2026/event/17006483D6F9FC58",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D6F9FC58",
+        "discovery_event_id": "1A9Zk3dGkdpXLsb",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-04-2026/event/17006483D6F9FC58",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXLsb",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdpxrsr",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-12-06T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D6FAFC5E",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-05-2026/event/17006483D6FAFC5E",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-05-8-30-pm/concert/18355050",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-05-2026/event/17006483D6FAFC5E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D6FAFC5E",
+        "discovery_event_id": "1A9Zk3dGkdpXRsr",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-05-2026/event/17006483D6FAFC5E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXRsr",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdpxrso",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-12-12T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D6FAFC60",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-11-2026/event/17006483D6FAFC60",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-11-8-30-pm/concert/18355052",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-11-2026/event/17006483D6FAFC60",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D6FAFC60",
+        "discovery_event_id": "1A9Zk3dGkdpXRsO",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-11-2026/event/17006483D6FAFC60",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXRsO",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2026-las-vegas-1a9zk3dgkdbgzr6",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-12-13T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D8300BC7",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-12-2026/event/17006483D8300BC7",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-12-8-30-pm/concert/18355051",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-12-2026/event/17006483D8300BC7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D8300BC7",
+        "discovery_event_id": "1A9Zk3dGkdbGZR6",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-12-2026/event/17006483D8300BC7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdbGZR6",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxrs0",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-01-16T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D6FAFC64",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-15-2027/event/17006483D6FAFC64",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2027-01-15-8-30-pm/concert/18421044",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-15-2027/event/17006483D6FAFC64",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D6FAFC64",
+        "discovery_event_id": "1A9Zk3dGkdpXRs0",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-15-2027/event/17006483D6FAFC64",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXRs0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsj",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-01-17T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D6FBFC66",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-16-2027/event/17006483D6FBFC66",
+    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2027-01-16-8-30-pm/concert/18421045",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-16-2027/event/17006483D6FBFC66",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D6FBFC66",
+        "discovery_event_id": "1A9Zk3dGkdpXTsJ",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-16-2027/event/17006483D6FBFC66",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXTsJ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsi",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-01-23T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D6FBFC6C",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-22-2027/event/17006483D6FBFC6C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-22-2027/event/17006483D6FBFC6C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D6FBFC6C",
+        "discovery_event_id": "1A9Zk3dGkdpXTsi",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-22-2027/event/17006483D6FBFC6C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXTsi",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-eagles-2027-las-vegas-1a9zk3dgkdpt2sm",
+    "artist_slug": "eagles",
+    "artist_name": "Eagles",
+    "event_name": "Eagles Live at Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-01-24T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006483D6FCFC6E",
+    "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-23-2027/event/17006483D6FCFC6E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-23-2027/event/17006483D6FCFC6E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006483D6FCFC6E",
+        "discovery_event_id": "1A9Zk3dGkdpT2sm",
+        "url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-01-23-2027/event/17006483D6FCFC6E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk3dGkdpT2sm",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-biloxi-g5viz_19l6he3",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Biloxi",
+    "country": "United States Of America",
+    "venue": "Mississippi Coast Coliseum",
+    "datetime_iso": "2026-10-13T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064A5EB1FC9D2",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-biloxi-mississippi-10-12-2026/event/1B0064A5EB1FC9D2",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/biloxi-mississippi-mississippi-coast-coliseum-2026-10-12-7-30-pm/concert/18237101",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-biloxi-mississippi-10-12-2026/event/1B0064A5EB1FC9D2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064A5EB1FC9D2",
+        "discovery_event_id": "G5viZ_19l6HE3",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-biloxi-mississippi-10-12-2026/event/1B0064A5EB1FC9D2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_19l6HE3",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-birmingham-17fzv0g61p_lkay",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Legacy Arena at the BJCC",
+    "datetime_iso": "2026-10-14T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "200064A599AD3270",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-birmingham-alabama-10-13-2026/event/200064A599AD3270",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2026-10-13-7-30-pm/concert/18237104",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-birmingham-alabama-10-13-2026/event/200064A599AD3270",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "200064A599AD3270",
+        "discovery_event_id": "17FZv0G61p_lKaY",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-birmingham-alabama-10-13-2026/event/200064A599AD3270",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FZv0G61p_lKaY",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-sunrise-z7r9jz1a70_73",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Sunrise",
+    "country": "United States Of America",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2026-10-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_73",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_73",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_73",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_73",
+        "discovery_event_id": "Z7r9jZ1A70_73",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_73",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_73",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-orlando-17fov0g613pzs04",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2026-10-17T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "220064A4A5E33915",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-orlando-florida-10-17-2026/event/220064A4A5E33915",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/orlando-florida-kia-center-2026-10-17-7-30-pm/concert/18237106",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-orlando-florida-10-17-2026/event/220064A4A5E33915",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "220064A4A5E33915",
+        "discovery_event_id": "17FOv0G613PzS04",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-orlando-florida-10-17-2026/event/220064A4A5E33915",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FOv0G613PzS04",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-atlanta-vvg1zz_1p_clel",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2026-10-19T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E0064A599B6B9EB",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-atlanta-georgia-10-19-2026/event/0E0064A599B6B9EB",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/atlanta-georgia-state-farm-arena-1-2026-10-19-7-30-pm/concert/18237108",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-atlanta-georgia-10-19-2026/event/0E0064A599B6B9EB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E0064A599B6B9EB",
+        "discovery_event_id": "vvG1zZ_1p_clEl",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-atlanta-georgia-10-19-2026/event/0E0064A599B6B9EB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_1p_clEl",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-nashville-g5viz_141b_9f",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2026-10-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0064A54AE995C8",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-nashville-tennessee-10-21-2026/event/1B0064A54AE995C8",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/nashville-tennessee-bridgestone-arena-2026-10-21-7-30-pm/concert/18237111",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-nashville-tennessee-10-21-2026/event/1B0064A54AE995C8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0064A54AE995C8",
+        "discovery_event_id": "G5viZ_141B_9F",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-nashville-tennessee-10-21-2026/event/1B0064A54AE995C8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_141B_9F",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-louisville-z7r9jz1a70f_w",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Louisville",
+    "country": "United States Of America",
+    "venue": "KFC Yum! Center",
+    "datetime_iso": "2026-10-22T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70f_w",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70f_w",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70f_w",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70f_w",
+        "discovery_event_id": "Z7r9jZ1A70f_w",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70f_w",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70f_w",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-baltimore-17a8v0g61kp2ris",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "CFG Bank Arena",
+    "datetime_iso": "2026-10-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "150064A4D63DEA31",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-baltimore-maryland-10-24-2026/event/150064A4D63DEA31",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/baltimore-maryland-cfg-bank-arena-2026-10-24-7-30-pm/concert/18237112",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-baltimore-maryland-10-24-2026/event/150064A4D63DEA31",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "150064A4D63DEA31",
+        "discovery_event_id": "17A8v0G61Kp2rIs",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-baltimore-maryland-10-24-2026/event/150064A4D63DEA31",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17A8v0G61Kp2rIs",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-newark-vvg1fz_197dnkr",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2026-10-25T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020064A5C4EE34EF",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-newark-new-jersey-10-25-2026/event/020064A5C4EE34EF",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/newark-new-jersey-prudential-center-2026-10-25-7-30-pm/concert/18237088",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-newark-new-jersey-10-25-2026/event/020064A5C4EE34EF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020064A5C4EE34EF",
+        "discovery_event_id": "vvG1FZ_197DNKR",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-newark-new-jersey-10-25-2026/event/020064A5C4EE34EF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1FZ_197DNKR",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-philadelphia-17gzv0g61p0-ppk",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Xfinity Mobile Arena",
+    "datetime_iso": "2026-10-28T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300064A5A4856953",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-philadelphia-pennsylvania-10-28-2026/event/300064A5A4856953",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-10-28-7-30-pm/concert/18237115",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-philadelphia-pennsylvania-10-28-2026/event/300064A5A4856953",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300064A5A4856953",
+        "discovery_event_id": "17GZv0G61p0-pPK",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-philadelphia-pennsylvania-10-28-2026/event/300064A5A4856953",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17GZv0G61p0-pPK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-providence-vvg17z_1fuwpyc",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Providence",
+    "country": "United States Of America",
+    "venue": "Amica Mutual Pavilion",
+    "datetime_iso": "2026-10-29T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064A50DF65E6D",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-providence-rhode-island-10-29-2026/event/010064A50DF65E6D",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/providence-rhode-island-amica-mutual-pavilion-2026-10-29-7-30-pm/concert/18237117",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-providence-rhode-island-10-29-2026/event/010064A50DF65E6D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064A50DF65E6D",
+        "discovery_event_id": "vvG17Z_1fuWPyc",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-providence-rhode-island-10-29-2026/event/010064A50DF65E6D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_1fuWPyc",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-detroit-vvg1oz_13slngw",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2026-11-03T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "080064A4B3AEA332",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-detroit-michigan-11-02-2026/event/080064A4B3AEA332",
+    "seatgeek_url": "https://seatgeek.com/journey-tickets/detroit-michigan-little-caesars-arena-2026-11-02-7-30-pm/concert/18237116",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-detroit-michigan-11-02-2026/event/080064A4B3AEA332",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "080064A4B3AEA332",
+        "discovery_event_id": "vvG1OZ_13SlnGw",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-detroit-michigan-11-02-2026/event/080064A4B3AEA332",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1OZ_13SlnGw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-toronto-177zv0g6110gajo",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2026-11-05T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100064A2A4D49720",
+    "ticketmaster_url": "https://www.ticketmaster.ca/journey-final-frontier-tour-an-evening-toronto-ontario-11-04-2026/event/100064A2A4D49720",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/journey-final-frontier-tour-an-evening-toronto-ontario-11-04-2026/event/100064A2A4D49720",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100064A2A4D49720",
+        "discovery_event_id": "177Zv0G6110gajO",
+        "url": "https://www.ticketmaster.ca/journey-final-frontier-tour-an-evening-toronto-ontario-11-04-2026/event/100064A2A4D49720",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "177Zv0G6110gajO",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-wilkes-barre-z7r9jz1a70abw",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Wilkes Barre",
+    "country": "United States Of America",
+    "venue": "Mohegan Sun Arena at Casey Plaza",
+    "datetime_iso": "2026-11-07T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70abw",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70abw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70abw",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70abw",
+        "discovery_event_id": "Z7r9jZ1A70abw",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70abw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70abw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-uniondale-k7vgf_1ka_zph",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Uniondale",
+    "country": "United States Of America",
+    "venue": "Nassau Veterans Memorial Coliseum",
+    "datetime_iso": "2026-11-08T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000064A4C567895B",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-uniondale-new-york-11-07-2026/event/000064A4C567895B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-uniondale-new-york-11-07-2026/event/000064A4C567895B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000064A4C567895B",
+        "discovery_event_id": "k7vGF_1KA_zPh",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-uniondale-new-york-11-07-2026/event/000064A4C567895B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_1KA_zPh",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-boston-vvg17z_19ipadt",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2026-11-11T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "010064A5E8949EE9",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-boston-massachusetts-11-10-2026/event/010064A5E8949EE9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-boston-massachusetts-11-10-2026/event/010064A5E8949EE9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "010064A5E8949EE9",
+        "discovery_event_id": "vvG17Z_19IPaDt",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-boston-massachusetts-11-10-2026/event/010064A5E8949EE9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG17Z_19IPaDt",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-cleveland-z7r9jz1a70_7k",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Rocket Arena",
+    "datetime_iso": "2026-11-13T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_7K",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_7K",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_7K",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_7K",
+        "discovery_event_id": "Z7r9jZ1A70_7K",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_7K",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_7K",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-greenville-g5evz_1k1vuwb",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Greenville",
+    "country": "United States Of America",
+    "venue": "Bon Secours Wellness Arena",
+    "datetime_iso": "2026-11-15T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0064A4CA04DC98",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-greenville-south-carolina-11-14-2026/event/2D0064A4CA04DC98",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-greenville-south-carolina-11-14-2026/event/2D0064A4CA04DC98",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0064A4CA04DC98",
+        "discovery_event_id": "G5eVZ_1K1vuwb",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-greenville-south-carolina-11-14-2026/event/2D0064A4CA04DC98",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_1K1vuwb",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-saint-louis-vvg1bz_1qqkifj",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Enterprise Center",
+    "datetime_iso": "2026-11-17T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060064A69A4EC226",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-saint-louis-missouri-11-16-2026/event/060064A69A4EC226",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-saint-louis-missouri-11-16-2026/event/060064A69A4EC226",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060064A69A4EC226",
+        "discovery_event_id": "vvG1bZ_1QQKiFJ",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-saint-louis-missouri-11-16-2026/event/060064A69A4EC226",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1bZ_1QQKiFJ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-houston-z7r9jz1a70_fz",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2026-11-19T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_fz",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_fz",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_fz",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_fz",
+        "discovery_event_id": "Z7r9jZ1A70_fz",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_fz",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_fz",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-dallas-vvg1yz_14w7vrn",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "American Airlines Center",
+    "datetime_iso": "2026-11-21T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C0064A57D1347A3",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-dallas-texas-11-20-2026/event/0C0064A57D1347A3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-dallas-texas-11-20-2026/event/0C0064A57D1347A3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0064A57D1347A3",
+        "discovery_event_id": "vvG1YZ_14W7VrN",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-dallas-texas-11-20-2026/event/0C0064A57D1347A3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_14W7VrN",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-denver-g5vzz_1kxjfbe",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2026-11-23T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E0064A4E2714602",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-denver-colorado-11-22-2026/event/1E0064A4E2714602",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-denver-colorado-11-22-2026/event/1E0064A4E2714602",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E0064A4E2714602",
+        "discovery_event_id": "G5vzZ_1Kxjfbe",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-denver-colorado-11-22-2026/event/1E0064A4E2714602",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_1Kxjfbe",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-anaheim-vvg10z_1q4chn3",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2026-11-25T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "090064A695B5BA92",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064A695B5BA92",
+        "discovery_event_id": "vvG10Z_1Q4chn3",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-anaheim-california-11-24-2026/event/090064A695B5BA92",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG10Z_1Q4chn3",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-las-vegas-z7r9jz1a70_7f",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "Journey",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "MGM Grand Garden Arena",
+    "datetime_iso": "2026-11-28T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A70_7f",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_7f",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_7f",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A70_7f",
+        "discovery_event_id": "Z7r9jZ1A70_7f",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A70_7f",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A70_7f",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-journey-2026-san-francisco-g5vyz_aeock9c",
+    "artist_slug": "journey",
+    "artist_name": "Journey",
+    "event_name": "JOURNEY - Final Frontier Tour (An Evening With)",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Chase Center",
+    "datetime_iso": "2026-11-29T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006499E0B535ED",
+    "ticketmaster_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-san-francisco-california-11-28-2026/event/1C006499E0B535ED",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-san-francisco-california-11-28-2026/event/1C006499E0B535ED",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006499E0B535ED",
+        "discovery_event_id": "G5vYZ_aEOcK9c",
+        "url": "https://www.ticketmaster.com/journey-final-frontier-tour-an-evening-san-francisco-california-11-28-2026/event/1C006499E0B535ED",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_aEOcK9c",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-11ayvpu8jkxpvc",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-04-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170065350993896D",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-08-2027/event/170065350993896D",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-08-8-pm/concert/18626622",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-08-2027/event/170065350993896D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170065350993896D",
+        "discovery_event_id": "11AYvPu8JKxpvC",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-08-2027/event/170065350993896D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "11AYvPu8JKxpvC",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7ucku",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-04-11T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837DAD4F6",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-10-2027/event/1700653837DAD4F6",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-10-8-pm/concert/18626621",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-10-2027/event/1700653837DAD4F6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837DAD4F6",
+        "discovery_event_id": "16vjZ_KOMG7UcKU",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-10-2027/event/1700653837DAD4F6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7UcKU",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7uckz",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-04-12T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837DAD4F8",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-11-2027/event/1700653837DAD4F8",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-11-8-pm/concert/18626620",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-11-2027/event/1700653837DAD4F8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837DAD4F8",
+        "discovery_event_id": "16vjZ_KOMG7UcKz",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-11-2027/event/1700653837DAD4F8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7UcKz",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7uwkb",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-04-16T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837DBD4FA",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-15-2027/event/1700653837DBD4FA",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-15-8-pm/concert/18626619",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-15-2027/event/1700653837DBD4FA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837DBD4FA",
+        "discovery_event_id": "16vjZ_KOMG7UWKB",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-15-2027/event/1700653837DBD4FA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7UWKB",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mukw",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-04-18T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837DCD4FD",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-17-2027/event/1700653837DCD4FD",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-17-8-pm/concert/18626618",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-17-2027/event/1700653837DCD4FD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837DCD4FD",
+        "discovery_event_id": "16vjZ_KOMG7MuKW",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-17-2027/event/1700653837DCD4FD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7MuKW",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mukt",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-04-19T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837DCD4FF",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-18-2027/event/1700653837DCD4FF",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-18-8-pm/concert/18626617",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-18-2027/event/1700653837DCD4FF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837DCD4FF",
+        "discovery_event_id": "16vjZ_KOMG7MuKT",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-18-2027/event/1700653837DCD4FF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7MuKT",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_fp3g7i6pt",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-04-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700654592A0797F",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-28-2027/event/1700654592A0797F",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-28-8-pm/concert/18659121",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-28-2027/event/1700654592A0797F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700654592A0797F",
+        "discovery_event_id": "16vjZ_fp3G7I6PT",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-28-2027/event/1700654592A0797F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_fp3G7I6PT",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_fp3g7w9n5",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-01T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700654592C97A8B",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-30-2027/event/1700654592C97A8B",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-04-30-8-pm/concert/18659117",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-30-2027/event/1700654592C97A8B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700654592C97A8B",
+        "discovery_event_id": "16vjZ_fp3G7w9n5",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-04-30-2027/event/1700654592C97A8B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_fp3G7w9n5",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_fp3g7dmck",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700654592EF7B46",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-01-2027/event/1700654592EF7B46",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-05-01-8-pm/concert/18659119",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-01-2027/event/1700654592EF7B46",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700654592EF7B46",
+        "discovery_event_id": "16vjZ_fp3G7DMck",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-01-2027/event/1700654592EF7B46",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_fp3G7DMck",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mqfv",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837DDD501",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-05-2027/event/1700653837DDD501",
+    "seatgeek_url": "https://seatgeek.com/john-mayer-tickets/las-vegas-nevada-sphere-2027-05-05-8-pm/concert/18659122",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-05-2027/event/1700653837DDD501",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837DDD501",
+        "discovery_event_id": "16vjZ_KOMG7Mqfv",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-05-2027/event/1700653837DDD501",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7Mqfv",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mcfd",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837DED503",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-07-2027/event/1700653837DED503",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-07-2027/event/1700653837DED503",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837DED503",
+        "discovery_event_id": "16vjZ_KOMG7Mcfd",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-07-2027/event/1700653837DED503",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7Mcfd",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mwfa",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-09T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837DFD505",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-08-2027/event/1700653837DFD505",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-08-2027/event/1700653837DFD505",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837DFD505",
+        "discovery_event_id": "16vjZ_KOMG7MWfA",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-08-2027/event/1700653837DFD505",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7MWfA",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7mwf6",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-13T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837DFD507",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-12-2027/event/1700653837DFD507",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-12-2027/event/1700653837DFD507",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837DFD507",
+        "discovery_event_id": "16vjZ_KOMG7MWf6",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-12-2027/event/1700653837DFD507",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7MWf6",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zufa",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837E0D509",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-14-2027/event/1700653837E0D509",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-14-2027/event/1700653837E0D509",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837E0D509",
+        "discovery_event_id": "16vjZ_KOMG7zufa",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-14-2027/event/1700653837E0D509",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7zufa",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zqf5",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-16T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837E1D50B",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-15-2027/event/1700653837E1D50B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-15-2027/event/1700653837E1D50B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837E1D50B",
+        "discovery_event_id": "16vjZ_KOMG7zqf5",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-05-15-2027/event/1700653837E1D50B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7zqf5",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zqfu",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-03T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837E1D50D",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-02-2027/event/1700653837E1D50D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-02-2027/event/1700653837E1D50D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837E1D50D",
+        "discovery_event_id": "16vjZ_KOMG7zqfu",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-02-2027/event/1700653837E1D50D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7zqfu",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zcf2",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837E2D50F",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-04-2027/event/1700653837E2D50F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-04-2027/event/1700653837E2D50F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837E2D50F",
+        "discovery_event_id": "16vjZ_KOMG7zcf2",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-04-2027/event/1700653837E2D50F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7zcf2",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-mayer-2027-las-vegas-16vjz_komg7zwf4",
+    "artist_slug": "john-mayer",
+    "artist_name": "John Mayer",
+    "event_name": "John Mayer Live At Sphere",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-06T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700653837E3D515",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-05-2027/event/1700653837E3D515",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-05-2027/event/1700653837E3D515",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700653837E3D515",
+        "discovery_event_id": "16vjZ_KOMG7zWf4",
+        "url": "https://www.ticketmaster.com/john-mayer-live-at-sphere-las-vegas-nevada-06-05-2027/event/1700653837E3D515",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vjZ_KOMG7zWf4",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2026-las-vegas-17ayv0g62tqwir3",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-12-27T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064FFDAF68BD2",
+    "ticketmaster_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-26-2026/event/170064FFDAF68BD2",
+    "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/las-vegas-nevada-sphere-2026-12-26-8-pm/concert/18513686",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-26-2026/event/170064FFDAF68BD2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064FFDAF68BD2",
+        "discovery_event_id": "17AYv0G62TQWIR3",
+        "url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-26-2026/event/170064FFDAF68BD2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62TQWIR3",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2026-las-vegas-17ayv0g62tqtbry",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2026-12-28T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064FFDAFD8BF9",
+    "ticketmaster_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-27-2026/event/170064FFDAFD8BF9",
+    "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/las-vegas-nevada-sphere-2026-12-27-8-pm/concert/18513688",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-27-2026/event/170064FFDAFD8BF9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064FFDAFD8BF9",
+        "discovery_event_id": "17AYv0G62TQTbRy",
+        "url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-27-2026/event/170064FFDAFD8BF9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62TQTbRy",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62th2fwx",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-01-01T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064FFDB3C8CA2",
+    "ticketmaster_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-31-2026/event/170064FFDB3C8CA2",
+    "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/las-vegas-nevada-sphere-2026-12-31-10-pm/concert/18470170",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-31-2026/event/170064FFDB3C8CA2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064FFDB3C8CA2",
+        "discovery_event_id": "17AYv0G62Th2Fwx",
+        "url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-12-31-2026/event/170064FFDB3C8CA2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62Th2Fwx",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62thois9",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-01-02T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064FFDB468CD7",
+    "ticketmaster_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-01-01-2027/event/170064FFDB468CD7",
+    "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/las-vegas-nevada-sphere-2027-01-01-8-pm/concert/18470178",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-01-01-2027/event/170064FFDB468CD7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064FFDB468CD7",
+        "discovery_event_id": "17AYv0G62ThoIS9",
+        "url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-01-01-2027/event/170064FFDB468CD7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62ThoIS9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-las-vegas-17ayv0g62th3iss",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-01-03T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "170064FFDB4A8CF3",
+    "ticketmaster_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-01-02-2027/event/170064FFDB4A8CF3",
+    "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/las-vegas-nevada-sphere-2027-01-02-8-pm/concert/18470180",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-01-02-2027/event/170064FFDB4A8CF3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "170064FFDB4A8CF3",
+        "discovery_event_id": "17AYv0G62Th3ISS",
+        "url": "https://www.ticketmaster.com/backstreet-boys-into-the-millennium-las-vegas-nevada-01-02-2027/event/170064FFDB4A8CF3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17AYv0G62Th3ISS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-toronto-1avzz_kgkz7jcq4",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming: Live in Canada",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2027-02-13T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000653E0472D695",
+    "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-12-2027/event/1000653E0472D695",
+    "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-02-12-8-pm/concert/18642041",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-12-2027/event/1000653E0472D695",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000653E0472D695",
+        "discovery_event_id": "1AvZZ_KGkz7jcQ4",
+        "url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-12-2027/event/1000653E0472D695",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_KGkz7jcQ4",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-toronto-1avzz_kgkz7qqq_",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming: Live in Canada",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2027-02-14T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000653E0475D699",
+    "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-13-2027/event/1000653E0475D699",
+    "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-02-13-8-pm/concert/18642039",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-13-2027/event/1000653E0475D699",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000653E0475D699",
+        "discovery_event_id": "1AvZZ_KGkz7qqQ_",
+        "url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-13-2027/event/1000653E0475D699",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_KGkz7qqQ_",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-toronto-1avzz_kgkz7ruqx",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming: Live in Canada",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2027-02-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000653E0478D6A2",
+    "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-14-2027/event/1000653E0478D6A2",
+    "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-02-14-8-pm/concert/18652781",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-14-2027/event/1000653E0478D6A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000653E0478D6A2",
+        "discovery_event_id": "1AvZZ_KGkz7ruQx",
+        "url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-14-2027/event/1000653E0478D6A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_KGkz7ruQx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-toronto-1avzz_kgkz7luql",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming: Live in Canada",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2027-02-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000653E047CD6AB",
+    "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-19-2027/event/1000653E047CD6AB",
+    "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-02-19-8-pm/concert/18642040",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-19-2027/event/1000653E047CD6AB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000653E047CD6AB",
+        "discovery_event_id": "1AvZZ_KGkz7LuQl",
+        "url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-19-2027/event/1000653E047CD6AB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_KGkz7LuQl",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-toronto-1avzz_kgkz7ouqm",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming: Live in Canada",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2027-02-21T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000653E0480D6B7",
+    "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-20-2027/event/1000653E0480D6B7",
+    "seatgeek_url": "https://seatgeek.com/backstreet-boys-tickets/toronto-canada-rogers-centre-2027-02-20-8-pm/concert/18642042",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-20-2027/event/1000653E0480D6B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000653E0480D6B7",
+        "discovery_event_id": "1AvZZ_KGkz7OuQM",
+        "url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-20-2027/event/1000653E0480D6B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_KGkz7OuQM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-toronto-1avzz_kgkz7owqt",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming: Live in Canada",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2027-02-22T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000653E0483D6BF",
+    "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-21-2027/event/1000653E0483D6BF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-21-2027/event/1000653E0483D6BF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000653E0483D6BF",
+        "discovery_event_id": "1AvZZ_KGkz7OWQT",
+        "url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-21-2027/event/1000653E0483D6BF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_KGkz7OWQT",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-toronto-1avzz_kgkz7-cha",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming: Live in Canada",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2027-02-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000653E0486D6C9",
+    "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-26-2027/event/1000653E0486D6C9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-26-2027/event/1000653E0486D6C9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000653E0486D6C9",
+        "discovery_event_id": "1AvZZ_KGkz7-cha",
+        "url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-26-2027/event/1000653E0486D6C9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_KGkz7-cha",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-toronto-1avzz_kgkz7xqhp",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming: Live in Canada",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2027-02-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000653E0489D6D6",
+    "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-27-2027/event/1000653E0489D6D6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-27-2027/event/1000653E0489D6D6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000653E0489D6D6",
+        "discovery_event_id": "1AvZZ_KGkz7xqhp",
+        "url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-27-2027/event/1000653E0489D6D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_KGkz7xqhp",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-toronto-1avzz_kgkz7nuhj",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming: Live in Canada",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2027-03-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000653E048CD6DC",
+    "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-28-2027/event/1000653E048CD6DC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-28-2027/event/1000653E048CD6DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000653E048CD6DC",
+        "discovery_event_id": "1AvZZ_KGkz7Nuhj",
+        "url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-02-28-2027/event/1000653E048CD6DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_KGkz7Nuhj",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-toronto-1k7zvpotga1oqed",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming: Live in Canada",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2027-03-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100065469A45A9C3",
+    "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-03-05-2027/event/100065469A45A9C3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-03-05-2027/event/100065469A45A9C3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100065469A45A9C3",
+        "discovery_event_id": "1k7ZvPotGA1oQEd",
+        "url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-03-05-2027/event/100065469A45A9C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k7ZvPotGA1oQEd",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-toronto-1k7zvpotga14bio",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming: Live in Canada",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Centre",
+    "datetime_iso": "2027-03-07T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100065469A57AA11",
+    "ticketmaster_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-03-06-2027/event/100065469A57AA11",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-03-06-2027/event/100065469A57AA11",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100065469A57AA11",
+        "discovery_event_id": "1k7ZvPotGA14BIo",
+        "url": "https://www.ticketmaster.ca/backstreet-boys-into-the-millennium-homecoming-toronto-ontario-03-06-2027/event/100065469A57AA11",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k7ZvPotGA14BIo",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

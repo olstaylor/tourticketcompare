@@ -55,11 +55,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7796640",
-        "url": "https://www.ticketliquidator.com/tickets/7796640/Warren-Zeiders-tickets-Sun-Oct-11-2026-O2-Academy-Glasgow",
-        "verified": true,
-        "last_verified_at": "2026-10-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107018106",
@@ -73,7 +73,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7796640/Warren-Zeiders-tickets-Sun-Oct-11-2026-O2-Academy-Glasgow",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/warren-zeiders-tickets-glasgow-o2-academy-glasgow-11-10-2026/event/107018106"
   },
   {
